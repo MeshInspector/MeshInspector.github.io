@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::FixUndercuts::DistMapImproveDirectionParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.FixUndercuts.Const_DistMapImproveDirectionParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters" prot="public" virt="non-virtual">MR.FixUndercuts.Const_DistMapImproveDirectionParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a889e89d726d00abf8a2e528f99523c0c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
@@ -142,7 +142,7 @@
         <name>DistMapImproveDirectionParameters</name>
         <qualifiedname>MR.FixUndercuts.DistMapImproveDirectionParameters.DistMapImproveDirectionParameters</qualifiedname>
         <param>
-          <type>MR.FixUndercuts.Const_DistMapImproveDirectionParameters</type>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters" kindref="compound">MR.FixUndercuts.Const_DistMapImproveDirectionParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -180,7 +180,7 @@
         <name>assign</name>
         <qualifiedname>MR.FixUndercuts.DistMapImproveDirectionParameters.assign</qualifiedname>
         <param>
-          <type>MR.FixUndercuts.Const_DistMapImproveDirectionParameters</type>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters" kindref="compound">MR.FixUndercuts.Const_DistMapImproveDirectionParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -207,6 +207,7 @@
       </node>
       <node id="2">
         <label>MR.FixUndercuts.Const_DistMapImproveDirectionParameters</label>
+        <link refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -220,6 +221,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FixUndercuts.DistMapImproveDirectionParameters</label>
         <link refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters"/>
@@ -228,9 +233,14 @@
       </node>
       <node id="2">
         <label>MR.FixUndercuts.Const_DistMapImproveDirectionParameters</label>
+        <link refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_distanceMapResolution</edgelabel>
+          <edgelabel>__ref_storage_hintDirection</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -242,8 +252,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="959" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="960" bodyend="1034"/>
     <listofallmembers>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters_1ad80f6a1dfdde2fe7fb7bf857b4a985d7" prot="protected" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>__ref_storage_baseAngleStep</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters_1a0f1f1bc0da0cc9165f10ce2addbf5725" prot="protected" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>__ref_storage_distanceMapResolution</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters_1aada9c30855d9d9afe4285a43b82b3d4c" prot="protected" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>__ref_storage_hintDirection</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters_1aab365887c4d5e2d1501219b08f3e6e57" prot="protected" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>__ref_storage_maxBaseAngle</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters_1aa66f3fbb3b9e17987f5a0f147b00f8b5" prot="protected" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>__ref_storage_polarAngleStep</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a8476f7b7d2393967495d9fa5af65ceb1" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a658b1a501dfd8fbcd30002f37dc42c18" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>baseAngleStep</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters_1aed43db7ffc2337c1914cc18d0bc9b615" prot="package" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>Const_DistMapImproveDirectionParameters</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters_1a27612070bc8331d87cc8901935c81d98" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>Const_DistMapImproveDirectionParameters</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters_1a693b312c0b7100e537c3acb07c369d85" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>Const_DistMapImproveDirectionParameters</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters_1abab7d034913dba4ce06f3c1d799ad567" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>Const_DistMapImproveDirectionParameters</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters_1a570e8d2afc42e754080c2d09dbfceac2" prot="protected" virt="virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters_1ab4d3e6921b4c19941bddc80738c7917b" prot="public" virt="virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a889e89d726d00abf8a2e528f99523c0c" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>distanceMapResolution</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a1e9195abad99b10271e4cc483809d253" prot="package" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>DistMapImproveDirectionParameters</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a90968b6cce2787deb262c275b0863674" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>DistMapImproveDirectionParameters</name></member>
@@ -251,6 +272,7 @@
       <member refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1aec0bf1b42d2e9fa0a2e9a1d74b0c3be6" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>DistMapImproveDirectionParameters</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1ae57a5956bd4cf4499a486b53a563f4c6" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>hintDirection</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1a582ca510b6628e377923d4f22d52fe74" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>maxBaseAngle</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters_1aa43fc9ba3625c2fa90a6a32720c12cd5" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>operator MR.FixUndercuts.Const_ImproveDirectionParameters</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1aa2577f65a20ba338455cc45798be78c1" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>operator MR.FixUndercuts.ImproveDirectionParameters</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters_1aa3d635d7bd6208b6a49b4514a75e1b52" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::DistMapImproveDirectionParameters</scope><name>polarAngleStep</name></member>
     </listofallmembers>

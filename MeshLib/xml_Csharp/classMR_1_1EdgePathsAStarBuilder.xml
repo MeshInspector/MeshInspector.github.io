@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgePathsAStarBuilder" kind="class" language="C#" prot="public">
     <compoundname>MR::EdgePathsAStarBuilder</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgePathsAStarBuilder</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__EdgePathsAStarBuilder" prot="public" virt="non-virtual">MR.Const_EdgePathsAStarBuilder</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1EdgePathsAStarBuilder_1a1847c905babf31a4e345d8363b387ac1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -74,7 +74,7 @@
         <name>EdgePathsAStarBuilder</name>
         <qualifiedname>MR.EdgePathsAStarBuilder.EdgePathsAStarBuilder</qualifiedname>
         <param>
-          <type>Const_EdgePathsAStarBuilder</type>
+          <type><ref refid="classMR_1_1Const__EdgePathsAStarBuilder" kindref="compound">Const_EdgePathsAStarBuilder</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -112,7 +112,7 @@
         <name>EdgePathsAStarBuilder</name>
         <qualifiedname>MR.EdgePathsAStarBuilder.EdgePathsAStarBuilder</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -139,15 +139,15 @@
         <name>EdgePathsAStarBuilder</name>
         <qualifiedname>MR.EdgePathsAStarBuilder.EdgePathsAStarBuilder</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_MeshTriPoint</type>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
           <declname>target</declname>
         </param>
         <param>
-          <type>MR.Const_MeshTriPoint</type>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
           <declname>start</declname>
         </param>
         <briefdescription>
@@ -202,7 +202,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1944" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1944" bodyend="1949"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsAStarBuilder_1af0735d447410a3dbdba9294a0128634a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert</type>
+        <type>unsafe <ref refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert" kindref="compound">MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert</ref></type>
         <definition>unsafe MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert MR.EdgePathsAStarBuilder.reachNext</definition>
         <argsstring>()</argsstring>
         <name>reachNext</name>
@@ -223,7 +223,7 @@
         <name>addOrgRingSteps</name>
         <qualifiedname>MR.EdgePathsAStarBuilder.addOrgRingSteps</qualifiedname>
         <param>
-          <type>MR.EdgePathsBuilderT_MRMetricToAStarPenalty.Const_ReachedVert</type>
+          <type><ref refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1Const__ReachedVert" kindref="compound">MR.EdgePathsBuilderT_MRMetricToAStarPenalty.Const_ReachedVert</ref></type>
           <declname>rv</declname>
         </param>
         <briefdescription>
@@ -236,7 +236,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1968" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1968" bodyend="1973"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1EdgePathsAStarBuilder_1af0e220e96205306e292fe51beed7f1c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert</type>
+        <type>unsafe <ref refid="classMR_1_1Const__EdgePathsBuilderT__MRMetricToAStarPenalty_1_1ReachedVert" kindref="compound">MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert</ref></type>
         <definition>unsafe MR.EdgePathsBuilderT_MRMetricToAStarPenalty.ReachedVert MR.EdgePathsAStarBuilder.growOneEdge</definition>
         <argsstring>()</argsstring>
         <name>growOneEdge</name>
@@ -252,7 +252,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>the class is responsible for finding shortest edge paths on a mesh in Euclidean metric using A* heuristics Generated from class <computeroutput><ref refid="classMR_1_1EdgePathsAStarBuilder" kindref="compound">MR.EdgePathsAStarBuilder</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::EdgePathsBuilderT&amp;amp;lt;<ref refid="classMR_1_1MetricToAStarPenalty" kindref="compound">MR.MetricToAStarPenalty</ref>&amp;amp;gt;</computeroutput> This is the non-const half of the class. </para>
+<para>the class is responsible for finding shortest edge paths on a mesh in Euclidean metric using A* heuristics Generated from class <computeroutput><ref refid="classMR_1_1EdgePathsAStarBuilder" kindref="compound">MR.EdgePathsAStarBuilder</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::EdgePathsBuilderT&amp;lt;<ref refid="classMR_1_1MetricToAStarPenalty" kindref="compound">MR.MetricToAStarPenalty</ref>&amp;gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -265,6 +265,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgePathsAStarBuilder</label>
+        <link refid="classMR_1_1Const__EdgePathsAStarBuilder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -286,6 +287,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgePathsAStarBuilder</label>
+        <link refid="classMR_1_1Const__EdgePathsAStarBuilder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -302,16 +304,31 @@
     <listofallmembers>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1a73af0f7972a7561d5d74e8b18bf0bcdc" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>addOrgRingSteps</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1aa9649a502978f100a34c2da70a794125" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>addStart</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a96eb9a13ee94d76bc2f25e0404e6bf8d" prot="package" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>Const_EdgePathsAStarBuilder</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1aa51e4949e032b5d808c7b12d47bf30fd" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>Const_EdgePathsAStarBuilder</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a857d21ce9ccb8fda653b114a66b48651" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>Const_EdgePathsAStarBuilder</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a01245ac53d9eedc39a551b51a8ab10a6" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>Const_EdgePathsAStarBuilder</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a473c0de942c6b2a5f64ca21c9d5abf8b" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>Const_EdgePathsAStarBuilder</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a82d337366ae14c9feaaf07c0ecac01f1" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>Const_EdgePathsAStarBuilder</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a5c6713087b5fdbefd968f76e3c40ffb8" prot="protected" virt="virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a22cae680831b5743588951ecba8739fe" prot="public" virt="virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a279ff469a91d980e1203fa25f4cea29d" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>done</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a1a4bad2f611b5a2b5aa574e21e17a25f" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>doneDistance</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1ab9f071cf3d30205e8b88b31e59dca019" prot="package" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>EdgePathsAStarBuilder</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1a70a64104594575ac1321fec8d28bd596" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>EdgePathsAStarBuilder</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1a35e12b00f998d07b98f1439457adaa4b" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>EdgePathsAStarBuilder</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1ae46f64743844b61f370c69dd2adec2f1" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>EdgePathsAStarBuilder</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1a97fad1e875104144cbe9579600cb9c47" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>EdgePathsAStarBuilder</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1abe9817a8cd11b03770747a5175bc24b1" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>EdgePathsAStarBuilder</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a1e68bdbfeccdb9c9be22e81408a6aaa3" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>getPathBack</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1ae9bbcf006153a23303d5ac62d5522870" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>getVertInfo</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1af0e220e96205306e292fe51beed7f1c1" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>growOneEdge</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a592e8beb3e70e7763dba69593daf8bb1" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>operator MR.Const_EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1a1847c905babf31a4e345d8363b387ac1" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>operator MR.EdgePathsBuilderT_MRMetricToAStarPenalty</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1af0735d447410a3dbdba9294a0128634a" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>reachNext</name></member>
       <member refid="classMR_1_1EdgePathsAStarBuilder_1ab7564fe763b0d5ea0aab5f19d0855efc" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>reset</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1adede0a26a12c792d1dec3423793c0944" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>trackPathBack</name></member>
+      <member refid="classMR_1_1Const__EdgePathsAStarBuilder_1a7f48a4de9023c59029c18b10f7126452" prot="public" virt="non-virtual"><scope>MR::EdgePathsAStarBuilder</scope><name>vertPathInfoMap</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

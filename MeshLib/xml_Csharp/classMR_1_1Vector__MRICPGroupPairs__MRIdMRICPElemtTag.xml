@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag" prot="public" virt="non-virtual">MR.Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a9ecf515bbb69dab5814f2eca29c9d301" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -19,6 +19,21 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="39490" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="39490" bodyend="39490"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aa30f2b9a9a7f710a3aa34d8823d0aabf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new <ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref></type>
+        <definition>unsafe new MR.ICPGroupPairs MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.this[MR.Const_Id_MRICPElemtTag i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.Const_Id_MRICPElemtTag i]</name>
+        <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.this[MR.Const_Id_MRICPElemtTag i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="39648" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="39649" bodyend="39659"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -62,7 +77,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -77,11 +92,11 @@
         <name>Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name>
         <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.Vector_MRICPGroupPairs_MRIdMRICPElemtTag</qualifiedname>
         <param>
-          <type>Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag" kindref="compound">Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -100,7 +115,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -119,7 +134,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -138,11 +153,11 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.Const_ICPGroupPairs</type>
+          <type><ref refid="classMR_1_1Const__ICPGroupPairs" kindref="compound">MR.Const_ICPGroupPairs</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -161,7 +176,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -180,7 +195,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -195,7 +210,7 @@
         <name>clear</name>
         <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aa3dcb82247432abba30af9d393c175d5" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aa3dcb82247432abba30af9d393c175d5" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -214,7 +229,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ac0239402719687ee712a91eef020ea2d" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ac0239402719687ee712a91eef020ea2d" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -233,11 +248,11 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_ICPGroupPairs</type>
+          <type><ref refid="classMR_1_1Const__ICPGroupPairs" kindref="compound">MR.Const_ICPGroupPairs</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ac0239402719687ee712a91eef020ea2d" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ac0239402719687ee712a91eef020ea2d" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -256,7 +271,7 @@
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ad0bfb6b4b73718d12ad7833d4a608996" kindref="member">reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ad0bfb6b4b73718d12ad7833d4a608996" kindref="member">reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -275,7 +290,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1af12a1b4ace5a27eae977b8830dc57acf" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1af12a1b4ace5a27eae977b8830dc57acf" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -294,11 +309,11 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_ICPGroupPairs</type>
+          <type><ref refid="classMR_1_1Const__ICPGroupPairs" kindref="compound">MR.Const_ICPGroupPairs</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1af12a1b4ace5a27eae977b8830dc57acf" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1af12a1b4ace5a27eae977b8830dc57acf" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -313,7 +328,7 @@
         <name>autoResizeSet</name>
         <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.autoResizeSet</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>pos</declname>
         </param>
         <param>
@@ -325,7 +340,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a1460c972bcd2ddc15424a6bbc96244dd" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a1460c972bcd2ddc15424a6bbc96244dd" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -340,7 +355,7 @@
         <name>autoResizeSet</name>
         <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.autoResizeSet</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>i</declname>
         </param>
         <param>
@@ -348,7 +363,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a1460c972bcd2ddc15424a6bbc96244dd" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a1460c972bcd2ddc15424a6bbc96244dd" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -363,11 +378,11 @@
         <name>autoResizeAt</name>
         <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.autoResizeAt</qualifiedname>
         <param>
-          <type>MR.Const_Id_MRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__Id__MRICPElemtTag" kindref="compound">MR.Const_Id_MRICPElemtTag</ref></type>
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aac48ca302b0ddb95137369d9d837bcc3" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aac48ca302b0ddb95137369d9d837bcc3" kindref="member">autoResizeAt</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -382,11 +397,11 @@
         <name>pushBack</name>
         <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.pushBack</qualifiedname>
         <param>
-          <type>MR.Const_ICPGroupPairs</type>
+          <type><ref refid="classMR_1_1Const__ICPGroupPairs" kindref="compound">MR.Const_ICPGroupPairs</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -405,7 +420,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -420,7 +435,7 @@
         <name>popBack</name>
         <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -435,7 +450,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -450,7 +465,7 @@
         <name>front</name>
         <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.front</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a40b9604c7b9867e20a3cceb5509e61b5" kindref="member">front</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a40b9604c7b9867e20a3cceb5509e61b5" kindref="member">front</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -465,7 +480,7 @@
         <name>back</name>
         <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.back</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a5672cae7be4258e9269b018847212800" kindref="member">back</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a5672cae7be4258e9269b018847212800" kindref="member">back</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -480,7 +495,7 @@
         <name>data</name>
         <qualifiedname>MR.Vector_MRICPGroupPairs_MRIdMRICPElemtTag.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aca95aa278a5e076140b51a1c2f147f49" kindref="member">data</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aca95aa278a5e076140b51a1c2f147f49" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -499,7 +514,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1acb3c33a52a39d3b05a23a0c980a7dd77" kindref="member">swap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1acb3c33a52a39d3b05a23a0c980a7dd77" kindref="member">swap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -560,7 +575,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -570,7 +585,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -586,7 +601,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref>, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -606,6 +621,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -634,6 +650,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -655,12 +672,29 @@
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a1460c972bcd2ddc15424a6bbc96244dd" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a5559164df5a86b17cce6dccd29e5021e" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a5672cae7be4258e9269b018847212800" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a112a7eef3f154a0fe15b421e7278e8a4" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a2a84927d098f0e88a9f3d88fb77b9188" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a912172d181bd0e610190efaca5d09f24" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aa3dcb82247432abba30af9d393c175d5" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a522ba36823c1e29d8eeeff2673bc14fa" prot="package" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a29e309f58a10115b26fb459306e4d6d7" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a56445974f7d8c5cc4e5799fabf946ff0" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a6b6d15192fc0402eea67d5ccf98ea49f" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a7f759b80cd6ee3a4b2fd43d553c1a6d6" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ab9d4506afa604e049022406b26d56e98" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a164d3206c281fafa5936fdd73d06c343" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a0ff4fe917cdc008e2387ca77282072ea" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aca95aa278a5e076140b51a1c2f147f49" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a20579d3c488272b40042b8cf564f5c4a" prot="protected" virt="virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a4fe88e20f39dd9792491358f13b995d9" prot="public" virt="virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ac10aeab9172dace94bee3a6c09f6db6d" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a27f502fc580b9e5e20e58f9b8b9b32f9" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a099877063dfb9cec9c741a639a10fa71" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>endId</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a40b9604c7b9867e20a3cceb5509e61b5" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a1f1d4cc9dc9ab43a11b34c15de5f4925" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a3d596a8c1dab57f86638a4698fb38bd4" prot="private" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a3c7fd8cac48ce3de4329793c8b4610ca" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a1a7d689cf3869b5b5f4fef52d9370da9" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>operator Const_Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ade43364375b3fc5d078396691955b06c" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>operator Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1ad652f69bd789d1e98d3f4e7062f79eb2" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a85feab3b6fc3e5b7decfcce1d1e0d5ac" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>pushBack</name></member>
@@ -670,7 +704,9 @@
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a788a614ab333664221a7d3abc7ffa1d1" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>resize</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1af12a1b4ace5a27eae977b8830dc57acf" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a48595c8781e7d62f41a2e35b35e57abd" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a9a5bd652e1b3f9257710c1dd153b4127" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1acb3c33a52a39d3b05a23a0c980a7dd77" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>swap</name></member>
+      <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1aa30f2b9a9a7f710a3aa34d8823d0aabf" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>this[MR.Const_Id_MRICPElemtTag i]</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a9ecf515bbb69dab5814f2eca29c9d301" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>vec</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1a3883c4ba526b141f75e590b98916eecd" prot="package" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Vector__MRICPGroupPairs__MRIdMRICPElemtTag_1afae7706ec079e83a2a9094b14392b899" prot="public" virt="non-virtual"><scope>MR::Vector_MRICPGroupPairs_MRIdMRICPElemtTag</scope><name>Vector_MRICPGroupPairs_MRIdMRICPElemtTag</name></member>

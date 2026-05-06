@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoInit" kind="class" language="C#" prot="public">
     <compoundname>MR::NoInit</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoInit</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoInit" prot="public" virt="non-virtual">MR.Const_NoInit</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1NoInit_1a0cce60c5e489f6b573883fb7ce410678" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>NoInit</name>
         <qualifiedname>MR.NoInit.NoInit</qualifiedname>
         <param>
-          <type>MR.Const_NoInit</type>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.NoInit.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoInit</type>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoInit</label>
+        <link refid="classMR_1_1Const__NoInit"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoInit</label>
+        <link refid="classMR_1_1Const__NoInit"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" line="58" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFwd.cs" bodystart="59" bodyend="99"/>
     <listofallmembers>
       <member refid="classMR_1_1NoInit_1a63a0347586b1bc814fb494bdd035ab38" prot="public" virt="non-virtual"><scope>MR::NoInit</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoInit_1aad3a8881e7b253e365fc60bcc5e65aa3" prot="package" virt="non-virtual"><scope>MR::NoInit</scope><name>Const_NoInit</name></member>
+      <member refid="classMR_1_1Const__NoInit_1a0f0c5d3f3d5a4264166924a987171ccb" prot="public" virt="non-virtual"><scope>MR::NoInit</scope><name>Const_NoInit</name></member>
+      <member refid="classMR_1_1Const__NoInit_1a35b0923b6bb5bc1fe51715f018afbb4e" prot="public" virt="non-virtual"><scope>MR::NoInit</scope><name>Const_NoInit</name></member>
+      <member refid="classMR_1_1Const__NoInit_1ae97ab6e8639de1ac940c9f6341083180" prot="public" virt="non-virtual"><scope>MR::NoInit</scope><name>Const_NoInit</name></member>
+      <member refid="classMR_1_1Const__NoInit_1a751d9961e84e1eb2d671b67f05e1c324" prot="protected" virt="virtual"><scope>MR::NoInit</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoInit_1add4b69390abebeca59ddb4dc10e2362b" prot="public" virt="virtual"><scope>MR::NoInit</scope><name>Dispose</name></member>
       <member refid="classMR_1_1NoInit_1a0cce60c5e489f6b573883fb7ce410678" prot="package" virt="non-virtual"><scope>MR::NoInit</scope><name>NoInit</name></member>
       <member refid="classMR_1_1NoInit_1a531f12c5339fba76bc92b7e6ea608885" prot="public" virt="non-virtual"><scope>MR::NoInit</scope><name>NoInit</name></member>
       <member refid="classMR_1_1NoInit_1afdf87d8d0a25a45f779c9dac26aa965d" prot="public" virt="non-virtual"><scope>MR::NoInit</scope><name>NoInit</name></member>

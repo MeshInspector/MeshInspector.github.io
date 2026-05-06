@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolume" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsVolumeAccessor_MRSimpleVolume</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelsVolumeAccessor_MRSimpleVolume</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume" prot="public" virt="non-virtual">MR.Const_VoxelsVolumeAccessor_MRSimpleVolume</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolume_1a3b47d6c4a2790b12406b5cdff5fd2b9a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,11 +35,11 @@
         <name>VoxelsVolumeAccessor_MRSimpleVolume</name>
         <qualifiedname>MR.VoxelsVolumeAccessor_MRSimpleVolume.VoxelsVolumeAccessor_MRSimpleVolume</qualifiedname>
         <param>
-          <type>MR.Const_VoxelsVolumeAccessor_MRSimpleVolume</type>
+          <type><ref refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume" kindref="compound">MR.Const_VoxelsVolumeAccessor_MRSimpleVolume</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -58,7 +58,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,11 +73,11 @@
         <name>VoxelsVolumeAccessor_MRSimpleVolume</name>
         <qualifiedname>MR.VoxelsVolumeAccessor_MRSimpleVolume.VoxelsVolumeAccessor_MRSimpleVolume</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolume</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolume" kindref="compound">MR.Const_SimpleVolume</ref></type>
           <declname>volume</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -87,7 +87,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>VoxelsVolumeAccessor specialization for simple volumes Generated from class <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;amp;gt;</computeroutput> This is the non-const half of the class. </para>
+<para>VoxelsVolumeAccessor specialization for simple volumes Generated from class <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -100,6 +100,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelsVolumeAccessor_MRSimpleVolume</label>
+        <link refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -121,6 +122,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelsVolumeAccessor_MRSimpleVolume</label>
+        <link refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -135,6 +137,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="292" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="293" bodyend="322"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume_1a668510644ffb2a70d73e1e8f7703590c" prot="protected" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>__ref_storage_CacheEffective</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume_1ab6ed83a80ca29f39ef939a8fad1336c1" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>CacheEffective</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume_1a56313b4d1abecfaf1c7481ccce2f01f7" prot="package" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>Const_VoxelsVolumeAccessor_MRSimpleVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume_1ac9467cf5c456eac46f808cfec3f96810" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>Const_VoxelsVolumeAccessor_MRSimpleVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume_1a63860fe6783246e6e1caad5c6fba8bfa" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>Const_VoxelsVolumeAccessor_MRSimpleVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume_1a37d09fa4e3482306deffedc4ceee9ccb" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>Const_VoxelsVolumeAccessor_MRSimpleVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume_1a62f739c29d987c8f2c612cb2465526cf" prot="protected" virt="virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume_1a78d7a37eeccbcc36db023fb90dcb949a" prot="public" virt="virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume_1a8298f8c2f50e3aa5e76f4f4db9663cd1" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume_1a40d475e70bce6f731ad054c96574bcd5" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolume_1aa06f152e9436e767f32342c12ee2524b" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>shift</name></member>
       <member refid="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolume_1a3b47d6c4a2790b12406b5cdff5fd2b9a" prot="package" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>VoxelsVolumeAccessor_MRSimpleVolume</name></member>
       <member refid="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolume_1ad6b7ea4402a146f94d5316d72a02c079" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>VoxelsVolumeAccessor_MRSimpleVolume</name></member>
       <member refid="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolume_1ae3001198c610a1c5bf3699241890d4b1" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolume</scope><name>VoxelsVolumeAccessor_MRSimpleVolume</name></member>

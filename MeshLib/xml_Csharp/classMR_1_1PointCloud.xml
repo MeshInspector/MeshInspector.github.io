@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointCloud" kind="class" language="C#" prot="public">
     <compoundname>MR::PointCloud</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointCloud</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointCloud" prot="public" virt="non-virtual">MR.Const_PointCloud</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PointCloud_1af08107665be27af8046957156640f884" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1VertCoords" kindref="compound">MR.VertCoords</ref></type>
@@ -116,7 +116,7 @@
         <name>PointCloud</name>
         <qualifiedname>MR.PointCloud.PointCloud</qualifiedname>
         <param>
-          <type>Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">Const_PointCloud</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -177,7 +177,7 @@
           <declname>xf</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
@@ -197,20 +197,20 @@
         <name>addPartByMask</name>
         <qualifiedname>MR.PointCloud.addPartByMask</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>from</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>fromVerts</declname>
         </param>
         <param>
-          <type>MR.Const_CloudPartMapping?</type>
+          <type><ref refid="classMR_1_1Const__CloudPartMapping" kindref="compound">MR.Const_CloudPartMapping</ref>?</type>
           <declname>outMap</declname>
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Const_VertCoords?</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref>?</type>
           <declname>extNormals</declname>
           <defval>null</defval>
         </param>
@@ -282,7 +282,7 @@
         <name>mirror</name>
         <qualifiedname>MR.PointCloud.mirror</qualifiedname>
         <param>
-          <type>MR.Const_Plane3f</type>
+          <type><ref refid="classMR_1_1Const__Plane3f" kindref="compound">MR.Const_Plane3f</ref></type>
           <declname>plane</declname>
         </param>
         <briefdescription>
@@ -301,7 +301,7 @@
         <name>flipOrientation</name>
         <qualifiedname>MR.PointCloud.flipOrientation</qualifiedname>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
           <defval>null</defval>
         </param>
@@ -326,7 +326,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>tightly packs all arrays eliminating invalid points, but relative order of valid points is preserved; returns false if the cloud was packed before the call and nothing has been changed; if pack is done optionally returns mappings: new.id -&amp;gt; old.id Generated from method <computeroutput><ref refid="classMR_1_1PointCloud_1a1c1a1986a690529ab5952d4ba265174e" kindref="member">MR.PointCloud.pack</ref></computeroutput>. </para>
+<para>tightly packs all arrays eliminating invalid points, but relative order of valid points is preserved; returns false if the cloud was packed before the call and nothing has been changed; if pack is done optionally returns mappings: new.id -&gt; old.id Generated from method <computeroutput><ref refid="classMR_1_1PointCloud_1a1c1a1986a690529ab5952d4ba265174e" kindref="member">MR.PointCloud.pack</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -348,7 +348,7 @@
 <para>tightly packs all arrays eliminating invalid points, reorders valid points according to given strategy; </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>points mapping: old -&amp;gt; new Generated from method <computeroutput><ref refid="classMR_1_1PointCloud_1a1c1a1986a690529ab5952d4ba265174e" kindref="member">MR.PointCloud.pack</ref></computeroutput>. </para>
+<para><simplesect kind="return"><para>points mapping: old -&gt; new Generated from method <computeroutput><ref refid="classMR_1_1PointCloud_1a1c1a1986a690529ab5952d4ba265174e" kindref="member">MR.PointCloud.pack</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -386,6 +386,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointCloud</label>
+        <link refid="classMR_1_1Const__PointCloud"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -407,6 +408,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointCloud</label>
+        <link refid="classMR_1_1Const__PointCloud"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -425,7 +427,26 @@
       <member refid="classMR_1_1PointCloud_1a11a8de8c87003c23bb7c4fa80facf8d6" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>addPoint</name></member>
       <member refid="classMR_1_1PointCloud_1a5e88af4b4426f9a92fc67cfb4b6e2af4" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>addPoint</name></member>
       <member refid="classMR_1_1PointCloud_1a28e220eff56eb9957cd225656d15ccbb" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a16de71c2cff1564f1f878e79e76b37e9" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>calcNumValidPoints</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1af6200453162ea714b3c1aae3c5beb6a4" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>computeBoundingBox</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1adee5466eca74a7f9db31a863f4c5ad59" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>computeBoundingBox</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a59edfdf9257f67664c02e39180be2439" prot="package" virt="non-virtual"><scope>MR::PointCloud</scope><name>Const_PointCloud</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a59abbd89562fad50d6114c2177e5e076" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>Const_PointCloud</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a156c2c92a9e0677f05fa88f4c5178095" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>Const_PointCloud</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a486381fc6a18c7f4e5112bc035a207b5" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>Const_PointCloud</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a8254276a27440fd47e66c157f1a4df62" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>Const_PointCloud</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1ac8397dec8d184bbce9684497c7b46127" prot="protected" virt="virtual"><scope>MR::PointCloud</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a6fd12720fdf6f0debd8d510b5441e5e1" prot="public" virt="virtual"><scope>MR::PointCloud</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1afa43dc5efda314aeaa945c48ed85af87" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>findCenterFromBBox</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a9dad68466a893168fe782bc9c4f4108f" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>findCenterFromPoints</name></member>
       <member refid="classMR_1_1PointCloud_1a9b55a6773c74ca7871fc303fa29d92e9" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>flipOrientation</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a9b2295d14b27c7621d5f41209c0e8c46" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>getAABBTree</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a2ed45108a2b34dc41abfd2b4a891e0fd" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>getAABBTreeNotCreate</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a1f5c42178cd4c63944197c759dd01759" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a847154a0efa103578fdc9b38e2a72ebb" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>getLexicographicalOrder</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a72c9fd3f79f8d4eb68dc07f005e6abfd" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>getVertIds</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1a61e3e0ee1e0c101df2c16ac38109529c" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>hasNormals</name></member>
+      <member refid="classMR_1_1Const__PointCloud_1afc36ba5f72e402db442ce9511957e4b3" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1PointCloud_1aee9b6dc6ffe24907b217ec92c3d62f4c" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>invalidateCaches</name></member>
       <member refid="classMR_1_1PointCloud_1a086a6ae8785563e41383eef36e25c21b" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>mirror</name></member>
       <member refid="classMR_1_1PointCloud_1af2ae8e74aea3d8821752b3e915182b4d" prot="public" virt="non-virtual"><scope>MR::PointCloud</scope><name>normals</name></member>

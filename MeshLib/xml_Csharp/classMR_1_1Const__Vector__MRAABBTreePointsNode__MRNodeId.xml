@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId" prot="public" virt="non-virtual">MR.Vector_MRAABBTreePointsNode_MRNodeId</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a123724248bdc2bce5bc9617ef68213e8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRAABBTreePointsNode</type>
+        <definition>unsafe MR.Std.Const_Vector_MRAABBTreePointsNode MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23945" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="23945" bodyend="23945"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a176dda9619b82de4c0d053b1bef97db8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node" kindref="compound">MR.AABBTreePoints.Const_Node</ref></type>
+        <definition>unsafe MR.AABBTreePoints.Const_Node MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.this[MR.NodeId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.NodeId i]</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.this[MR.NodeId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24080" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24081" bodyend="24091"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a3fe9aa8e64a3343130d3a8ee9a4d829f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23866" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="23866" bodyend="23874"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1aa56ccff44168e1a8e8f5850b00557d16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23875" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="23875" bodyend="23875"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ab0860a4a227d2a5447dd94630e7312e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node" kindref="compound">MR.AABBTreePoints.Const_Node</ref> &gt;</type>
+        <definition>IEnumerator&lt; MR.AABBTreePoints.Const_Node &gt; MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23932" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="23932" bodyend="23935"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a4fbb9334f12f37642f986e4ed9bd533a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23973" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="23973" bodyend="23979"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ae62d8ca26168c5ef37d0f69ec6aace9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</definition>
+        <argsstring>(MR._ByValue_Vector_MRAABBTreePointsNode_MRNodeId _other)</argsstring>
+        <name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRAABBTreePointsNode_MRNodeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23984" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="23984" bodyend="23991"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a6262ab025b1ed4426e572bbb2f67575d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</definition>
+        <argsstring>(Const_Vector_MRAABBTreePointsNode_MRNodeId _other)</argsstring>
+        <name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId" kindref="compound">Const_Vector_MRAABBTreePointsNode_MRNodeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23996" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="23996" bodyend="23996"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a139de44f07e89951a8f6c954410e231b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</definition>
+        <argsstring>(Vector_MRAABBTreePointsNode_MRNodeId _other)</argsstring>
+        <name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId" kindref="compound">Vector_MRAABBTreePointsNode_MRNodeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24001" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24001" bodyend="24001"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ad020850d60047fa88d1f97fea91c8b90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24007" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24007" bodyend="24013"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1acbbf39b83a157ba88b9af8140eecc098" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</definition>
+        <argsstring>(ulong size, MR.AABBTreePoints.Const_Node val)</argsstring>
+        <name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node" kindref="compound">MR.AABBTreePoints.Const_Node</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24019" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24019" bodyend="24026"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ac217198c76466767194c838561d48642" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreePointsNode &gt; vec)</argsstring>
+        <name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreePointsNode &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24032" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24032" bodyend="24039"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ac45a2eb803766b349f9e2ffef59260b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ac45a2eb803766b349f9e2ffef59260b4" kindref="member">empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24050" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24050" bodyend="24055"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1aa538ef073e18fab52ea6ac8ee303c08d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1aa538ef073e18fab52ea6ac8ee303c08d" kindref="member">size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24060" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24060" bodyend="24065"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a766415540f0834a8d69484621a1e2a89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a766415540f0834a8d69484621a1e2a89" kindref="member">capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24070" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24070" bodyend="24075"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a7746259bd131315b69910d6bde63a9a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node" kindref="compound">MR.AABBTreePoints.Const_Node</ref></type>
+        <definition>unsafe MR.AABBTreePoints.Const_Node MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a7746259bd131315b69910d6bde63a9a7" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24096" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24096" bodyend="24104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a53e5ed24188989748c6ee7a817f4a2e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__AABBTreePoints_1_1Const__Node" kindref="compound">MR.AABBTreePoints.Const_Node</ref></type>
+        <definition>unsafe MR.AABBTreePoints.Const_Node MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a53e5ed24188989748c6ee7a817f4a2e8" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24109" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24109" bodyend="24117"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a9dd71b732b13d1c5c583932dc9e01f13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>unsafe MR.NodeId MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a9dd71b732b13d1c5c583932dc9e01f13" kindref="member">beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24123" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24123" bodyend="24128"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a9ca90a1fc7c9f23eab63fe5cffabe4bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>unsafe MR.NodeId MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a53e5ed24188989748c6ee7a817f4a2e8" kindref="member">back()</ref> element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a9ca90a1fc7c9f23eab63fe5cffabe4bc" kindref="member">backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24134" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24134" bodyend="24139"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a14af90477da8f7c01e715e394968ad5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>unsafe MR.NodeId MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a9ca90a1fc7c9f23eab63fe5cffabe4bc" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a14af90477da8f7c01e715e394968ad5c" kindref="member">endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24145" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24145" bodyend="24150"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1abb9f707b7d2fb6d56cb457b7ba35688b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.AABBTreePoints.? Const_Node</type>
+        <definition>unsafe MR.AABBTreePoints.? Const_Node MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1abb9f707b7d2fb6d56cb457b7ba35688b" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24155" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24155" bodyend="24164"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a115d918ce2a1e46fcacb8a70af5a2e22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a115d918ce2a1e46fcacb8a70af5a2e22" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24170" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24170" bodyend="24175"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a58f41d3126fbbc45e9e563d2e207f1b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.~Const_Vector_MRAABBTreePointsNode_MRNodeId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Vector_MRAABBTreePointsNode_MRNodeId</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.~Const_Vector_MRAABBTreePointsNode_MRNodeId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23876" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="23876" bodyend="23876"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a1259f0c230717a532ba9acde1d241bbe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23937" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="23937" bodyend="23940"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a67970aeb2bd4c2b59b5f3742d33be580" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.Const_Vector_MRAABBTreePointsNode_MRNodeId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23962" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="23962" bodyend="23967"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1abc5ec2d42637e64be1a80e5ccff5b4d4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.operator Const_Vector_MRAABBTreePointsNode_MRNodeId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreePointsNode &gt; vec)</argsstring>
+        <name>operator Const_Vector_MRAABBTreePointsNode_MRNodeId</name>
+        <qualifiedname>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId.operator Const_Vector_MRAABBTreePointsNode_MRNodeId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRAABBTreePointsNode &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="24045" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="24045" bodyend="24045"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Const__AABBTreePoints_1_1Node" kindref="compound">MR.AABBTreePoints.Node</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId</label>
+        <link refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.Vector_MRAABBTreePointsNode_MRNodeId</label>
+        <link refid="classMR_1_1Vector__MRAABBTreePointsNode__MRNodeId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRAABBTreePointsNode_MRNodeId</label>
+        <link refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="23860" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="23861" bodyend="24176"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a53e5ed24188989748c6ee7a817f4a2e8" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a9ca90a1fc7c9f23eab63fe5cffabe4bc" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a9dd71b732b13d1c5c583932dc9e01f13" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a766415540f0834a8d69484621a1e2a89" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a67970aeb2bd4c2b59b5f3742d33be580" prot="package" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a4fbb9334f12f37642f986e4ed9bd533a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ae62d8ca26168c5ef37d0f69ec6aace9d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a6262ab025b1ed4426e572bbb2f67575d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a139de44f07e89951a8f6c954410e231b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ad020850d60047fa88d1f97fea91c8b90" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1acbbf39b83a157ba88b9af8140eecc098" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ac217198c76466767194c838561d48642" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1abb9f707b7d2fb6d56cb457b7ba35688b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a3fe9aa8e64a3343130d3a8ee9a4d829f" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1aa56ccff44168e1a8e8f5850b00557d16" prot="public" virt="virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ac45a2eb803766b349f9e2ffef59260b4" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a14af90477da8f7c01e715e394968ad5c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a7746259bd131315b69910d6bde63a9a7" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1ab0860a4a227d2a5447dd94630e7312e1" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a1259f0c230717a532ba9acde1d241bbe" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a115d918ce2a1e46fcacb8a70af5a2e22" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1abc5ec2d42637e64be1a80e5ccff5b4d4" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>operator Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1aa538ef073e18fab52ea6ac8ee303c08d" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a176dda9619b82de4c0d053b1bef97db8" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>this[MR.NodeId i]</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a123724248bdc2bce5bc9617ef68213e8" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAABBTreePointsNode__MRNodeId_1a58f41d3126fbbc45e9e563d2e207f1b0" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAABBTreePointsNode_MRNodeId</scope><name>~Const_Vector_MRAABBTreePointsNode_MRNodeId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

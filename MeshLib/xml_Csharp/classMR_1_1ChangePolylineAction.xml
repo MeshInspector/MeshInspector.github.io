@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangePolylineAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangePolylineAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangePolylineAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangePolylineAction" prot="public" virt="non-virtual">MR.Const_ChangePolylineAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangePolylineAction_1af591cd2b961ac15d3e26b871e3b728bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangePolylineAction</name>
         <qualifiedname>MR.ChangePolylineAction.ChangePolylineAction</qualifiedname>
         <param>
-          <type>Const_ChangePolylineAction</type>
+          <type><ref refid="classMR_1_1Const__ChangePolylineAction" kindref="compound">Const_ChangePolylineAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangePolylineAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangePolylineAction</label>
+        <link refid="classMR_1_1Const__ChangePolylineAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangePolylineAction</label>
+        <link refid="classMR_1_1Const__ChangePolylineAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,8 +271,21 @@
       <member refid="classMR_1_1ChangePolylineAction_1a4fc23b5a59ee82aacf704a004cb09998" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>ChangePolylineAction</name></member>
       <member refid="classMR_1_1ChangePolylineAction_1a20d71ff71e9e32532f2b4a6c1d6c90cb" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>ChangePolylineAction</name></member>
       <member refid="classMR_1_1ChangePolylineAction_1aaa7c41459737e3036dfafacc7216baba" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>ChangePolylineAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineAction_1ae012f2e1a7c99c5b754c088a793405dd" prot="package" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>Const_ChangePolylineAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineAction_1ad13fcba1ba2fbf44f36523e8af42017c" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>Const_ChangePolylineAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineAction_1aee23e94408bb11235ce29214c924c872" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>Const_ChangePolylineAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineAction_1a379b705e775c0c8a5f62d995b1c7d8b5" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>Const_ChangePolylineAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineAction_1a31574b8ce307ede8157591bafdcc141d" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>Const_ChangePolylineAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineAction_1a18d1def4cdccedae108d76e1dd1d2842" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>Const_ChangePolylineAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineAction_1a9294770ad693c9c1c91935c15d5b2ba1" prot="protected" virt="virtual"><scope>MR::ChangePolylineAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineAction_1a4d142ea77b69fc6e56b07f84b17d5203" prot="public" virt="virtual"><scope>MR::ChangePolylineAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineAction_1ad9c04363f835299017a6b050f835682f" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineAction_1ac136ec61f249fb6719c5880ca3ff2f40" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangePolylineAction_1aea6e750c697c21eb8924b203bac6f019" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>operator ChangePolylineAction?</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineAction_1a2560e6bbb39c0bc1b1947edceb2f2e05" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>operator Const_ChangePolylineAction?</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineAction_1abe000db7a7bcb30e1affd559b5a58073" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangePolylineAction_1af591cd2b961ac15d3e26b871e3b728bb" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangePolylineAction_1a85ab50fb2ab6a03295e6624a7991227d" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

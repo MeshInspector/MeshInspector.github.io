@@ -1,0 +1,2590 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Mesh" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Mesh</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Mesh" prot="public" virt="non-virtual">MR.Mesh</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Mesh_1a88a4dc260b087b82b1c2c1d6087f037a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+        <definition>unsafe MR.Const_MeshTopology MR.Const_Mesh.topology</definition>
+        <argsstring></argsstring>
+        <name>topology</name>
+        <qualifiedname>MR.Const_Mesh.topology</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="27" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Mesh_1a1ccb34d668a2c00f42576ea6c392b1b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
+        <definition>unsafe MR.Const_VertCoords MR.Const_Mesh.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <qualifiedname>MR.Const_Mesh.points</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="29" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1af1ef08ac4be3e3ca98e7185e34a6452a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Mesh.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Mesh.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="15" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a080e3dea59b9f82d1c1c979b5ac729f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Mesh.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Mesh.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a66bf626fa6179f74d29b64d7699dfffc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Mesh.Const_Mesh</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Mesh</name>
+        <qualifiedname>MR.Const_Mesh.Const_Mesh</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="64" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="64" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1af727989920b727d309ac085966c0e095" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Mesh.Const_Mesh</definition>
+        <argsstring>(MR._ByValue_Mesh _other)</argsstring>
+        <name>Const_Mesh</name>
+        <qualifiedname>MR.Const_Mesh.Const_Mesh</qualifiedname>
+        <param>
+          <type>MR._ByValue_Mesh</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Mesh_1aa1db14cda63104c807171c5607fdba89" kindref="member">MR.Mesh.Mesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="75" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="75" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1aabc16c8d2aba46c93c818479cd2bfdd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Mesh.Const_Mesh</definition>
+        <argsstring>(Const_Mesh _other)</argsstring>
+        <name>Const_Mesh</name>
+        <qualifiedname>MR.Const_Mesh.Const_Mesh</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">Const_Mesh</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Mesh_1aa1db14cda63104c807171c5607fdba89" kindref="member">MR.Mesh.Mesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="87" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a853250bb0b9058c74b23ffd5c4a33825" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Mesh.Const_Mesh</definition>
+        <argsstring>(Mesh _other)</argsstring>
+        <name>Const_Mesh</name>
+        <qualifiedname>MR.Const_Mesh.Const_Mesh</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Mesh_1aa1db14cda63104c807171c5607fdba89" kindref="member">MR.Mesh.Mesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="92" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ab36ddc1c4d54c982c38c58d840e57627" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.orgPnt</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>orgPnt</name>
+        <qualifiedname>MR.Const_Mesh.orgPnt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns coordinates of the edge origin Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ab36ddc1c4d54c982c38c58d840e57627" kindref="member">MR.Mesh.orgPnt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="181" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="181" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a50b689ebb012d487228062daad913730" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.destPnt</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>destPnt</name>
+        <qualifiedname>MR.Const_Mesh.destPnt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns coordinates of the edge destination Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a50b689ebb012d487228062daad913730" kindref="member">MR.Mesh.destPnt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="192" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="192" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a7540c4ef0d3a4b8d7229cd70c9677b05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.edgeVector</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>edgeVector</name>
+        <qualifiedname>MR.Const_Mesh.edgeVector</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns vector equal to edge destination point minus edge origin point Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a7540c4ef0d3a4b8d7229cd70c9677b05" kindref="member">MR.Mesh.edgeVector</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="203" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="203" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1abf1db289edd8103a37c6bca9d1ecf2cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1LineSegm3f" kindref="compound">MR.LineSegm3f</ref></type>
+        <definition>unsafe MR.LineSegm3f MR.Const_Mesh.edgeSegment</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>edgeSegment</name>
+        <qualifiedname>MR.Const_Mesh.edgeSegment</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns line segment of given edge Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1abf1db289edd8103a37c6bca9d1ecf2cf" kindref="member">MR.Mesh.edgeSegment</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="214" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="214" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a96acea5436674b0af8c64ad30c281fb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.edgePoint</definition>
+        <argsstring>(MR.EdgeId e, float f)</argsstring>
+        <name>edgePoint</name>
+        <qualifiedname>MR.Const_Mesh.edgePoint</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>returns a point on the edge: origin point for f=0 and destination point for f=1 Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a96acea5436674b0af8c64ad30c281fb8" kindref="member">MR.Mesh.edgePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="225" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="225" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1aab1af3bea6fe0fed158de40e4c0a3e96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.edgePoint</definition>
+        <argsstring>(MR.Const_EdgePoint ep)</argsstring>
+        <name>edgePoint</name>
+        <qualifiedname>MR.Const_Mesh.edgePoint</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref></type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+<para>computes coordinates of point given as edge and relative position on it Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a96acea5436674b0af8c64ad30c281fb8" kindref="member">MR.Mesh.edgePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="236" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="236" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ad325cd068039c118531fc1649cf8d4d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.edgeCenter</definition>
+        <argsstring>(MR.UndirectedEdgeId e)</argsstring>
+        <name>edgeCenter</name>
+        <qualifiedname>MR.Const_Mesh.edgeCenter</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>computes the center of given edge Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ad325cd068039c118531fc1649cf8d4d7" kindref="member">MR.Mesh.edgeCenter</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="247" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="247" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a1e831ea87da70f0c649a49b4ecdd9619" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_Mesh.getLeftTriPoints</definition>
+        <argsstring>(MR.EdgeId e, ref MR.Vector3f v0, ref MR.Vector3f v1, ref MR.Vector3f v2)</argsstring>
+        <name>getLeftTriPoints</name>
+        <qualifiedname>MR.Const_Mesh.getLeftTriPoints</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+<para>returns three points of left face of e: v0 = orgPnt( e ), v1 = destPnt( e ) Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a1e831ea87da70f0c649a49b4ecdd9619" kindref="member">MR.Mesh.getLeftTriPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="258" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="258" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a676ac9a6894113dca181246396c2255b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Array_MRVector3f_3</type>
+        <definition>unsafe MR.Std.Array_MRVector3f_3 MR.Const_Mesh.getLeftTriPoints</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>getLeftTriPoints</name>
+        <qualifiedname>MR.Const_Mesh.getLeftTriPoints</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns three points of left face of e: res[0] = orgPnt( e ), res[1] = destPnt( e ) Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a1e831ea87da70f0c649a49b4ecdd9619" kindref="member">MR.Mesh.getLeftTriPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="278" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="278" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a46845d76ae2c044115da57b36696ab1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_Mesh.getTriPoints</definition>
+        <argsstring>(MR.FaceId f, ref MR.Vector3f v0, ref MR.Vector3f v1, ref MR.Vector3f v2)</argsstring>
+        <name>getTriPoints</name>
+        <qualifiedname>MR.Const_Mesh.getTriPoints</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+<para>returns three points of given face Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a46845d76ae2c044115da57b36696ab1a" kindref="member">MR.Mesh.getTriPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="289" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="289" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a9bc0547f5022937018d55403a4822d17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Array_MRVector3f_3</type>
+        <definition>unsafe MR.Std.Array_MRVector3f_3 MR.Const_Mesh.getTriPoints</definition>
+        <argsstring>(MR.FaceId f)</argsstring>
+        <name>getTriPoints</name>
+        <qualifiedname>MR.Const_Mesh.getTriPoints</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>returns three points of given face Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a46845d76ae2c044115da57b36696ab1a" kindref="member">MR.Mesh.getTriPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="309" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="309" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a927d6910bbb60c750429d0e71f42a6bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.triPoint</definition>
+        <argsstring>(MR.Const_MeshTriPoint p)</argsstring>
+        <name>triPoint</name>
+        <qualifiedname>MR.Const_Mesh.triPoint</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>computes coordinates of point given as face and barycentric representation Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a927d6910bbb60c750429d0e71f42a6bc" kindref="member">MR.Mesh.triPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="320" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="320" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a574a5b9faf16dbaf7004176f19768b70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.triCenter</definition>
+        <argsstring>(MR.FaceId f)</argsstring>
+        <name>triCenter</name>
+        <qualifiedname>MR.Const_Mesh.triCenter</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>returns the centroid of given triangle Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a574a5b9faf16dbaf7004176f19768b70" kindref="member">MR.Mesh.triCenter</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="331" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="331" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a0158e404b3b68b990cce22f0b09cf673" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.triangleAspectRatio</definition>
+        <argsstring>(MR.FaceId f)</argsstring>
+        <name>triangleAspectRatio</name>
+        <qualifiedname>MR.Const_Mesh.triangleAspectRatio</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>returns aspect ratio of given mesh triangle equal to the ratio of the circum-radius to twice its in-radius Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a0158e404b3b68b990cce22f0b09cf673" kindref="member">MR.Mesh.triangleAspectRatio</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="342" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="342" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a2675f10ae76467b7f5d30938829cdd54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.circumcircleDiameterSq</definition>
+        <argsstring>(MR.FaceId f)</argsstring>
+        <name>circumcircleDiameterSq</name>
+        <qualifiedname>MR.Const_Mesh.circumcircleDiameterSq</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>returns squared circumcircle diameter of given mesh triangle Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a2675f10ae76467b7f5d30938829cdd54" kindref="member">MR.Mesh.circumcircleDiameterSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="353" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="353" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1aa4d29310e269c73c1405d27e2b97bf0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.circumcircleDiameter</definition>
+        <argsstring>(MR.FaceId f)</argsstring>
+        <name>circumcircleDiameter</name>
+        <qualifiedname>MR.Const_Mesh.circumcircleDiameter</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>returns circumcircle diameter of given mesh triangle Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1aa4d29310e269c73c1405d27e2b97bf0b" kindref="member">MR.Mesh.circumcircleDiameter</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="364" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="364" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a6ede16d3c934b03e227f4cccc4f8c599" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MR.MeshTriPoint</ref></type>
+        <definition>unsafe MR.MeshTriPoint MR.Const_Mesh.toTriPoint</definition>
+        <argsstring>(MR.VertId v)</argsstring>
+        <name>toTriPoint</name>
+        <qualifiedname>MR.Const_Mesh.toTriPoint</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>converts vertex into barycentric representation Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a6ede16d3c934b03e227f4cccc4f8c599" kindref="member">MR.Mesh.toTriPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="375" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="375" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a14cfc9d9766bfaccb5eb2fd08e779396" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MR.MeshTriPoint</ref></type>
+        <definition>unsafe MR.MeshTriPoint MR.Const_Mesh.toTriPoint</definition>
+        <argsstring>(MR.FaceId f, in MR.Vector3f p)</argsstring>
+        <name>toTriPoint</name>
+        <qualifiedname>MR.Const_Mesh.toTriPoint</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>converts face id and 3d point into barycentric representation Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a6ede16d3c934b03e227f4cccc4f8c599" kindref="member">MR.Mesh.toTriPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="386" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="386" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1aeaaa59dc4699477f429eef3d39b76266" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MR.MeshTriPoint</ref></type>
+        <definition>unsafe MR.MeshTriPoint MR.Const_Mesh.toTriPoint</definition>
+        <argsstring>(MR.Const_PointOnFace p)</argsstring>
+        <name>toTriPoint</name>
+        <qualifiedname>MR.Const_Mesh.toTriPoint</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>converts face id and 3d point into barycentric representation Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a6ede16d3c934b03e227f4cccc4f8c599" kindref="member">MR.Mesh.toTriPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="400" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="400" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1af68b9ebcac2b80884f4f1cead79da75f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref></type>
+        <definition>unsafe MR.EdgePoint MR.Const_Mesh.toEdgePoint</definition>
+        <argsstring>(MR.VertId v)</argsstring>
+        <name>toEdgePoint</name>
+        <qualifiedname>MR.Const_Mesh.toEdgePoint</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>converts vertex into edge-point representation Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1af68b9ebcac2b80884f4f1cead79da75f" kindref="member">MR.Mesh.toEdgePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="411" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="411" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ab34edbd331c37b3897b1b2f22c2e62e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref></type>
+        <definition>unsafe MR.EdgePoint MR.Const_Mesh.toEdgePoint</definition>
+        <argsstring>(MR.EdgeId e, in MR.Vector3f p)</argsstring>
+        <name>toEdgePoint</name>
+        <qualifiedname>MR.Const_Mesh.toEdgePoint</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>converts edge and 3d point into edge-point representation Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1af68b9ebcac2b80884f4f1cead79da75f" kindref="member">MR.Mesh.toEdgePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="422" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="422" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ad67e3fbe5fdc289a427900ebfe33656f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Const_Mesh.getClosestVertex</definition>
+        <argsstring>(MR.Const_PointOnFace p)</argsstring>
+        <name>getClosestVertex</name>
+        <qualifiedname>MR.Const_Mesh.getClosestVertex</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>returns one of three face vertices, closest to given point Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ad67e3fbe5fdc289a427900ebfe33656f" kindref="member">MR.Mesh.getClosestVertex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="436" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="436" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a86945f13554060eb6ea39077a62bd105" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Const_Mesh.getClosestVertex</definition>
+        <argsstring>(MR.Const_MeshTriPoint p)</argsstring>
+        <name>getClosestVertex</name>
+        <qualifiedname>MR.Const_Mesh.getClosestVertex</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>returns one of three face vertices, closest to given point Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ad67e3fbe5fdc289a427900ebfe33656f" kindref="member">MR.Mesh.getClosestVertex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="447" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="447" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ab4e45893ed8c0e5bb301ea6ca4b651fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe MR.UndirectedEdgeId MR.Const_Mesh.getClosestEdge</definition>
+        <argsstring>(MR.Const_PointOnFace p)</argsstring>
+        <name>getClosestEdge</name>
+        <qualifiedname>MR.Const_Mesh.getClosestEdge</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>returns one of three face edges, closest to given point Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ab4e45893ed8c0e5bb301ea6ca4b651fe" kindref="member">MR.Mesh.getClosestEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="458" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="458" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a42f3f78975e363fad7c3a2262f5e8fbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe MR.UndirectedEdgeId MR.Const_Mesh.getClosestEdge</definition>
+        <argsstring>(MR.Const_MeshTriPoint p)</argsstring>
+        <name>getClosestEdge</name>
+        <qualifiedname>MR.Const_Mesh.getClosestEdge</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>returns one of three face edges, closest to given point Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ab4e45893ed8c0e5bb301ea6ca4b651fe" kindref="member">MR.Mesh.getClosestEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="469" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="469" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1afd4b06f4d8c89be5e801225cfbbcb8d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.edgeLength</definition>
+        <argsstring>(MR.UndirectedEdgeId e)</argsstring>
+        <name>edgeLength</name>
+        <qualifiedname>MR.Const_Mesh.edgeLength</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns Euclidean length of the edge Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1afd4b06f4d8c89be5e801225cfbbcb8d8" kindref="member">MR.Mesh.edgeLength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="480" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="480" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a20e475e0be88f70481d28ce96abc323f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeScalars" kindref="compound">MR.UndirectedEdgeScalars</ref></type>
+        <definition>unsafe MR.UndirectedEdgeScalars MR.Const_Mesh.edgeLengths</definition>
+        <argsstring>()</argsstring>
+        <name>edgeLengths</name>
+        <qualifiedname>MR.Const_Mesh.edgeLengths</qualifiedname>
+        <briefdescription>
+<para>computes and returns the lengths of all edges in the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a20e475e0be88f70481d28ce96abc323f" kindref="member">MR.Mesh.edgeLengths</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="491" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="491" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a5f731d9deea5c639de6cbc3b2872321b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.edgeLengthSq</definition>
+        <argsstring>(MR.UndirectedEdgeId e)</argsstring>
+        <name>edgeLengthSq</name>
+        <qualifiedname>MR.Const_Mesh.edgeLengthSq</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns squared Euclidean length of the edge (faster to compute than length) Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a5f731d9deea5c639de6cbc3b2872321b" kindref="member">MR.Mesh.edgeLengthSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="502" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="502" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a6b00deceaf381e89c66db98a3a9e300c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.leftDirDblArea</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>leftDirDblArea</name>
+        <qualifiedname>MR.Const_Mesh.leftDirDblArea</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>computes directed double area of left triangular face of given edge Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a6b00deceaf381e89c66db98a3a9e300c" kindref="member">MR.Mesh.leftDirDblArea</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="513" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="513" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a2f9321a759a7f390e94cfbc7ab7fb58c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.dirDblArea</definition>
+        <argsstring>(MR.FaceId f)</argsstring>
+        <name>dirDblArea</name>
+        <qualifiedname>MR.Const_Mesh.dirDblArea</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>computes directed double area for a triangular face from its vertices Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a2f9321a759a7f390e94cfbc7ab7fb58c" kindref="member">MR.Mesh.dirDblArea</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="524" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="524" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a248231296e29abe96acb9ded7b41f380" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.dblArea</definition>
+        <argsstring>(MR.FaceId f)</argsstring>
+        <name>dblArea</name>
+        <qualifiedname>MR.Const_Mesh.dblArea</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>returns twice the area of given face Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a248231296e29abe96acb9ded7b41f380" kindref="member">MR.Mesh.dblArea</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="535" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="535" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a5416dcbe11b054b95d6ea180ab14404e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.area</definition>
+        <argsstring>(MR.FaceId f)</argsstring>
+        <name>area</name>
+        <qualifiedname>MR.Const_Mesh.area</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>returns the area of given face Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a5416dcbe11b054b95d6ea180ab14404e" kindref="member">MR.Mesh.area</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="546" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="546" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a6c703e2be679150316cd78d49d6d9fb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Mesh.area</definition>
+        <argsstring>(MR.Const_FaceBitSet? fs=null)</argsstring>
+        <name>area</name>
+        <qualifiedname>MR.Const_Mesh.area</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>fs</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes the area of given face-region (or whole mesh) Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a5416dcbe11b054b95d6ea180ab14404e" kindref="member">MR.Mesh.area</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="557" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="557" bodyend="562"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a6d9cf5422aaf1bac16a59bf9b1dfab24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe MR.Vector3d MR.Const_Mesh.dirArea</definition>
+        <argsstring>(MR.Const_FaceBitSet? fs=null)</argsstring>
+        <name>dirArea</name>
+        <qualifiedname>MR.Const_Mesh.dirArea</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>fs</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes the sum of directed areas for faces from given region (or whole mesh) Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a6d9cf5422aaf1bac16a59bf9b1dfab24" kindref="member">MR.Mesh.dirArea</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="568" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="568" bodyend="573"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a5feb26c6ff75057824d4421dc1f5cced" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Mesh.projArea</definition>
+        <argsstring>(in MR.Vector3f dir, MR.Const_FaceBitSet? fs=null)</argsstring>
+        <name>projArea</name>
+        <qualifiedname>MR.Const_Mesh.projArea</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>fs</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes the sum of absolute projected area of faces from given region (or whole mesh) as visible if look from given direction Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a5feb26c6ff75057824d4421dc1f5cced" kindref="member">MR.Mesh.projArea</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="579" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="579" bodyend="587"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a25b3e00bdca69eac2df0551794f0b0e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Mesh.volume</definition>
+        <argsstring>(MR.Const_FaceBitSet? region=null)</argsstring>
+        <name>volume</name>
+        <qualifiedname>MR.Const_Mesh.volume</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns volume of the object surrounded by given region (or whole mesh if (region) is nullptr); if the region has holes then each hole will be virtually filled by adding triangles for each edge and the hole's geometrical center Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a25b3e00bdca69eac2df0551794f0b0e4" kindref="member">MR.Mesh.volume</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="594" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="594" bodyend="599"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1af3ec8511d011f4dc425c13d36f4e5c69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Mesh.holePerimeter</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>holePerimeter</name>
+        <qualifiedname>MR.Const_Mesh.holePerimeter</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>computes the perimeter of the hole specified by one of its edges with no valid left face (left is hole) Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1af3ec8511d011f4dc425c13d36f4e5c69" kindref="member">MR.Mesh.holePerimeter</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="605" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="605" bodyend="610"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a41c2dbdc6998824e483af09acc137dc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe MR.Vector3d MR.Const_Mesh.holeDirArea</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>holeDirArea</name>
+        <qualifiedname>MR.Const_Mesh.holeDirArea</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>computes directed area of the hole specified by one of its edges with no valid left face (left is hole); if the hole is planar then returned vector is orthogonal to the plane pointing outside and its magnitude is equal to hole area Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a41c2dbdc6998824e483af09acc137dc6" kindref="member">MR.Mesh.holeDirArea</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="617" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="617" bodyend="622"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ac05f0708a319b103e8e657b8f2e83c83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.leftTangent</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>leftTangent</name>
+        <qualifiedname>MR.Const_Mesh.leftTangent</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>computes unit vector that is both orthogonal to given edge and to the normal of its left triangle, the vector is directed inside left triangle Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ac05f0708a319b103e8e657b8f2e83c83" kindref="member">MR.Mesh.leftTangent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="628" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="628" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a539cd8fd3e0f46aaed2a6838af987beb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.leftNormal</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>leftNormal</name>
+        <qualifiedname>MR.Const_Mesh.leftNormal</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>computes triangular face normal from its vertices Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a539cd8fd3e0f46aaed2a6838af987beb" kindref="member">MR.Mesh.leftNormal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="639" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="639" bodyend="644"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ab056b79581fa8cbce47839ba87dabf80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.normal</definition>
+        <argsstring>(MR.FaceId f)</argsstring>
+        <name>normal</name>
+        <qualifiedname>MR.Const_Mesh.normal</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>computes triangular face normal from its vertices Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ab056b79581fa8cbce47839ba87dabf80" kindref="member">MR.Mesh.normal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="650" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="650" bodyend="655"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a257c1112e33b465869a9846fcee6e1ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Plane3f" kindref="compound">MR.Plane3f</ref></type>
+        <definition>unsafe MR.Plane3f MR.Const_Mesh.getPlane3f</definition>
+        <argsstring>(MR.FaceId f)</argsstring>
+        <name>getPlane3f</name>
+        <qualifiedname>MR.Const_Mesh.getPlane3f</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>returns the plane containing given triangular face with normal looking outwards Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a257c1112e33b465869a9846fcee6e1ce" kindref="member">MR.Mesh.getPlane3f</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="661" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="661" bodyend="666"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a356d54323b45d3622a9df424ef9950fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Plane3d" kindref="compound">MR.Plane3d</ref></type>
+        <definition>unsafe MR.Plane3d MR.Const_Mesh.getPlane3d</definition>
+        <argsstring>(MR.FaceId f)</argsstring>
+        <name>getPlane3d</name>
+        <qualifiedname>MR.Const_Mesh.getPlane3d</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a356d54323b45d3622a9df424ef9950fe" kindref="member">MR.Mesh.getPlane3d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="671" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="671" bodyend="676"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a42fe6b5329937612d6d141ddee1da60d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.dirDblArea</definition>
+        <argsstring>(MR.VertId v)</argsstring>
+        <name>dirDblArea</name>
+        <qualifiedname>MR.Const_Mesh.dirDblArea</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>computes sum of directed double areas of all triangles around given vertex Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a2f9321a759a7f390e94cfbc7ab7fb58c" kindref="member">MR.Mesh.dirDblArea</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="682" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="682" bodyend="687"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a66b9588482c4e85e0d6e2b01f90d77eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.dblArea</definition>
+        <argsstring>(MR.VertId v)</argsstring>
+        <name>dblArea</name>
+        <qualifiedname>MR.Const_Mesh.dblArea</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>computes the length of summed directed double areas of all triangles around given vertex Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a248231296e29abe96acb9ded7b41f380" kindref="member">MR.Mesh.dblArea</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="693" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="693" bodyend="698"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a521a5f970653858e99295adecf53cb86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.normal</definition>
+        <argsstring>(MR.VertId v)</argsstring>
+        <name>normal</name>
+        <qualifiedname>MR.Const_Mesh.normal</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>computes normal in a vertex using sum of directed areas of neighboring triangles Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ab056b79581fa8cbce47839ba87dabf80" kindref="member">MR.Mesh.normal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="704" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="704" bodyend="709"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a24971fc4db264e829bc4f2df06272a5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.normal</definition>
+        <argsstring>(MR.Const_MeshTriPoint p)</argsstring>
+        <name>normal</name>
+        <qualifiedname>MR.Const_Mesh.normal</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>computes normal in three vertices of p's triangle, then interpolates them using barycentric coordinates and normalizes again; this is the same normal as in rendering with smooth shading Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ab056b79581fa8cbce47839ba87dabf80" kindref="member">MR.Mesh.normal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="716" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="716" bodyend="721"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a9a109d9bd5548a2f55b21b667e8b68b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.pseudonormal</definition>
+        <argsstring>(MR.VertId v, MR.Const_FaceBitSet? region=null)</argsstring>
+        <name>pseudonormal</name>
+        <qualifiedname>MR.Const_Mesh.pseudonormal</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes angle-weighted sum of normals of incident faces of given vertex (only (region) faces will be considered); the sum is normalized before returning Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a9a109d9bd5548a2f55b21b667e8b68b9" kindref="member">MR.Mesh.pseudonormal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="728" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="728" bodyend="733"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ae5711fbd67a6efb0703f8e76a676da4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.pseudonormal</definition>
+        <argsstring>(MR.UndirectedEdgeId e, MR.Const_FaceBitSet? region=null)</argsstring>
+        <name>pseudonormal</name>
+        <qualifiedname>MR.Const_Mesh.pseudonormal</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes normalized half sum of face normals sharing given edge (only (region) faces will be considered); Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a9a109d9bd5548a2f55b21b667e8b68b9" kindref="member">MR.Mesh.pseudonormal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="739" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="739" bodyend="744"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a90816f0519283ead375a8e9789e06901" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.pseudonormal</definition>
+        <argsstring>(MR.Const_MeshTriPoint p, MR.Const_FaceBitSet? region=null)</argsstring>
+        <name>pseudonormal</name>
+        <qualifiedname>MR.Const_Mesh.pseudonormal</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns pseudonormal in corresponding face/edge/vertex for signed distance calculation as suggested in the article "Signed Distance Computation Using the Angle Weighted Pseudonormal" by J. Andreas Baerentzen and Henrik Aanaes, <ulink url="https://backend.orbit.dtu.dk/ws/portalfiles/portal/3977815/B_rentzen.pdf">https://backend.orbit.dtu.dk/ws/portalfiles/portal/3977815/B_rentzen.pdf</ulink> unlike normal( const <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref> &amp; p ), this is not a smooth function Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a9a109d9bd5548a2f55b21b667e8b68b9" kindref="member">MR.Mesh.pseudonormal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="753" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="753" bodyend="758"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1aa982f0a62c1981bd525f9b8cd197e1a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.signedDistance</definition>
+        <argsstring>(in MR.Vector3f pt, MR.Const_MeshProjectionResult proj, MR.Const_FaceBitSet? region=null)</argsstring>
+        <name>signedDistance</name>
+        <qualifiedname>MR.Const_Mesh.signedDistance</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshProjectionResult" kindref="compound">MR.Const_MeshProjectionResult</ref></type>
+          <declname>proj</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>given a point (pt) in 3D and the closest point to in on mesh (proj), </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>signed distance from pt to mesh: positive value - outside mesh, negative - inside mesh; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1aa982f0a62c1981bd525f9b8cd197e1a9" kindref="member">MR.Mesh.signedDistance</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="766" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="766" bodyend="774"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a734a5264431b5a661b45acc6288396b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.signedDistance</definition>
+        <argsstring>(in MR.Vector3f pt)</argsstring>
+        <name>signedDistance</name>
+        <qualifiedname>MR.Const_Mesh.signedDistance</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>given a point (pt) in 3D, computes the closest point on mesh, and </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>signed distance from pt to mesh: positive value - outside mesh, negative - inside mesh; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1aa982f0a62c1981bd525f9b8cd197e1a9" kindref="member">MR.Mesh.signedDistance</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="782" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="782" bodyend="790"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a46a2329c34f04e28e0d9fdda628d6b3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_Float</type>
+        <definition>unsafe MR.Std.Optional_Float MR.Const_Mesh.signedDistance</definition>
+        <argsstring>(in MR.Vector3f pt, float maxDistSq, MR.Const_FaceBitSet? region=null)</argsstring>
+        <name>signedDistance</name>
+        <qualifiedname>MR.Const_Mesh.signedDistance</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDistSq</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>given a point (pt) in 3D, computes the closest point on mesh, and </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>signed distance from pt to mesh: positive value - outside mesh, negative - inside mesh; or std::nullopt if the projection point is not within maxDist; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1aa982f0a62c1981bd525f9b8cd197e1a9" kindref="member">MR.Mesh.signedDistance</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="799" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="799" bodyend="807"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a485bf9866fc116fdfad021f84008717e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.calcFastWindingNumber</definition>
+        <argsstring>(in MR.Vector3f pt, float? beta=null)</argsstring>
+        <name>calcFastWindingNumber</name>
+        <qualifiedname>MR.Const_Mesh.calcFastWindingNumber</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>beta</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes generalized winding number in a point (pt), which is </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>for closed mesh with normals outside: 1 inside, 0 outside;</para>
+</listitem><listitem><para>for planar mesh: 0.5 inside, -0.5 outside; and in general is equal to (portion of solid angle where inside part of mesh is observable) minus (portion of solid angle where outside part of mesh is observable) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>determines the precision of fast approximation: the more the better, recommended value 2 or more Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a485bf9866fc116fdfad021f84008717e" kindref="member">MR.Mesh.calcFastWindingNumber</ref></computeroutput>. Parameter <computeroutput>beta</computeroutput> defaults to <computeroutput>2</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="818" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="818" bodyend="827"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a21ed15170364a28c7305f721b22937fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Mesh.isOutside</definition>
+        <argsstring>(in MR.Vector3f pt, float? windingNumberThreshold=null, float? beta=null)</argsstring>
+        <name>isOutside</name>
+        <qualifiedname>MR.Const_Mesh.isOutside</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>windingNumberThreshold</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>beta</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes whether a point (pt) is located outside the object surrounded by this mesh using generalized winding number </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>determines the precision of winding number computation: the more the better, recommended value 2 or more Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a21ed15170364a28c7305f721b22937fb" kindref="member">MR.Mesh.isOutside</ref></computeroutput>. Parameter <computeroutput>windingNumberThreshold</computeroutput> defaults to <computeroutput>0.5f</computeroutput>. Parameter <computeroutput>beta</computeroutput> defaults to <computeroutput>2</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="836" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="836" bodyend="846"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a4fde4080acfabca8fddbfd8d13efeed6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Mesh.isOutsideByProjNorm</definition>
+        <argsstring>(in MR.Vector3f pt, MR.Const_MeshProjectionResult proj, MR.Const_FaceBitSet? region=null)</argsstring>
+        <name>isOutsideByProjNorm</name>
+        <qualifiedname>MR.Const_Mesh.isOutsideByProjNorm</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshProjectionResult" kindref="compound">MR.Const_MeshProjectionResult</ref></type>
+          <declname>proj</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes whether a point (pt) is located outside the object surrounded by this mesh using pseudonormal at the closest point to in on mesh (proj); this method works much faster than <ref refid="classMR_1_1Const__Mesh_1a21ed15170364a28c7305f721b22937fb" kindref="member">isOutside</ref> but can return wrong sign if the closest point is located on self-intersecting part of the mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a4fde4080acfabca8fddbfd8d13efeed6" kindref="member">MR.Mesh.isOutsideByProjNorm</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="854" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="854" bodyend="862"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a7f6159113bc364f7a81b80761784994b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.sumAngles</definition>
+        <argsstring>(MR.VertId v, MR.Misc.InOut&lt; bool &gt;? outBoundaryVert=null)</argsstring>
+        <name>sumAngles</name>
+        <qualifiedname>MR.Const_Mesh.sumAngles</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>outBoundaryVert</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes the sum of triangle angles at given vertex; optionally returns whether the vertex is on boundary Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a7f6159113bc364f7a81b80761784994b" kindref="member">MR.Mesh.sumAngles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="868" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="868" bodyend="876"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a202c18bfd4a011ddcfc9274a041ff995" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
+        <definition>unsafe MR.VertBitSet MR.Const_Mesh.findSpikeVertices</definition>
+        <argsstring>(float minSumAngle, MR.Const_VertBitSet? region=null, MR.Std.Const_Function_Bool_From_Float? cb=null)</argsstring>
+        <name>findSpikeVertices</name>
+        <qualifiedname>MR.Const_Mesh.findSpikeVertices</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>minSumAngle</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_Bool_From_Float?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns vertices where the sum of triangle angles is below given threshold Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a202c18bfd4a011ddcfc9274a041ff995" kindref="member">MR.Mesh.findSpikeVertices</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="883" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="883" bodyend="891"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a973db401e54f5341547c326624bad353" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.dihedralAngleSin</definition>
+        <argsstring>(MR.UndirectedEdgeId e)</argsstring>
+        <name>dihedralAngleSin</name>
+        <qualifiedname>MR.Const_Mesh.dihedralAngleSin</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>given an edge between two triangular faces, computes sine of dihedral angle between them: 0 if both faces are in the same plane, positive if the faces form convex surface, negative if the faces form concave surface Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a973db401e54f5341547c326624bad353" kindref="member">MR.Mesh.dihedralAngleSin</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="900" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="900" bodyend="905"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a4cb2ff5afd4d43661e21c85cbd84ab52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.dihedralAngleCos</definition>
+        <argsstring>(MR.UndirectedEdgeId e)</argsstring>
+        <name>dihedralAngleCos</name>
+        <qualifiedname>MR.Const_Mesh.dihedralAngleCos</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>given an edge between two triangular faces, computes cosine of dihedral angle between them: 1 if both faces are in the same plane, 0 if the surface makes right angle turn at the edge, -1 if the faces overlap one another Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a4cb2ff5afd4d43661e21c85cbd84ab52" kindref="member">MR.Mesh.dihedralAngleCos</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="914" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="914" bodyend="919"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a56e023744e36bcc349d74603e04f9ff4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.dihedralAngle</definition>
+        <argsstring>(MR.UndirectedEdgeId e)</argsstring>
+        <name>dihedralAngle</name>
+        <qualifiedname>MR.Const_Mesh.dihedralAngle</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>given an edge between two triangular faces, computes the dihedral angle between them: 0 if both faces are in the same plane, positive if the faces form convex surface, negative if the faces form concave surface; please consider the usage of faster dihedralAngleSin(e) and dihedralAngleCos(e) Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a56e023744e36bcc349d74603e04f9ff4" kindref="member">MR.Mesh.dihedralAngle</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="929" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="929" bodyend="934"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a1dc6d4be764deabf0008ccc6e05eeb33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.discreteMeanCurvature</definition>
+        <argsstring>(MR.VertId v)</argsstring>
+        <name>discreteMeanCurvature</name>
+        <qualifiedname>MR.Const_Mesh.discreteMeanCurvature</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>computes discrete mean curvature in given vertex, measures in length^-1; 0 for planar regions, positive for convex surface, negative for concave surface Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a1dc6d4be764deabf0008ccc6e05eeb33" kindref="member">MR.Mesh.discreteMeanCurvature</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="941" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="941" bodyend="946"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1add61237bc2a74e12e5be8ab83ac63d6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.discreteMeanCurvature</definition>
+        <argsstring>(MR.UndirectedEdgeId e)</argsstring>
+        <name>discreteMeanCurvature</name>
+        <qualifiedname>MR.Const_Mesh.discreteMeanCurvature</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>computes discrete mean curvature in given edge, measures in length^-1; 0 for planar regions, positive for convex surface, negative for concave surface Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a1dc6d4be764deabf0008ccc6e05eeb33" kindref="member">MR.Mesh.discreteMeanCurvature</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="953" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="953" bodyend="958"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a4cbc3986a13f34d9d4a2cd88e29d71e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.discreteGaussianCurvature</definition>
+        <argsstring>(MR.VertId v, MR.Misc.InOut&lt; bool &gt;? outBoundaryVert=null)</argsstring>
+        <name>discreteGaussianCurvature</name>
+        <qualifiedname>MR.Const_Mesh.discreteGaussianCurvature</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>outBoundaryVert</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes discrete Gaussian curvature (or angle defect) at given vertex, which 0 in inner vertices on planar mesh parts and reaches 2*pi on needle's tip, see <ulink url="http://math.uchicago.edu/~may/REU2015/REUPapers/Upadhyay.pdf">http://math.uchicago.edu/~may/REU2015/REUPapers/Upadhyay.pdf</ulink> optionally returns whether the vertex is on boundary Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a4cbc3986a13f34d9d4a2cd88e29d71e3" kindref="member">MR.Mesh.discreteGaussianCurvature</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="966" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="966" bodyend="974"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1acaa1a323b359755f854bacd4b19e17bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.Const_Mesh.findCreaseEdges</definition>
+        <argsstring>(float angleFromPlanar)</argsstring>
+        <name>findCreaseEdges</name>
+        <qualifiedname>MR.Const_Mesh.findCreaseEdges</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>angleFromPlanar</declname>
+        </param>
+        <briefdescription>
+<para>finds all mesh edges where dihedral angle is distinct from planar PI angle on at least given value Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1acaa1a323b359755f854bacd4b19e17bb" kindref="member">MR.Mesh.findCreaseEdges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="980" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="980" bodyend="985"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a20c8a63eeb72631629308e8cc708af1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.leftCotan</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>leftCotan</name>
+        <qualifiedname>MR.Const_Mesh.leftCotan</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>computes cotangent of the angle in the left( e ) triangle opposite to e, and returns 0 if left face does not exist Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a20c8a63eeb72631629308e8cc708af1b" kindref="member">MR.Mesh.leftCotan</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="992" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="992" bodyend="997"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a1de3cfcb264c6e57d0a9092f929a0f75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.cotan</definition>
+        <argsstring>(MR.UndirectedEdgeId ue)</argsstring>
+        <name>cotan</name>
+        <qualifiedname>MR.Const_Mesh.cotan</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>ue</declname>
+        </param>
+        <briefdescription>
+<para>computes sum of cotangents of the angle in the left and right triangles opposite to given edge, consider cotangents zero for not existing triangles Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a1de3cfcb264c6e57d0a9092f929a0f75" kindref="member">MR.Mesh.cotan</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1004" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1004" bodyend="1009"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1af2a78c63afa8b0bd3a1439ef7fabfdd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref></type>
+        <definition>unsafe MR.QuadraticForm3f MR.Const_Mesh.quadraticForm</definition>
+        <argsstring>(MR.VertId v, bool angleWeigted, MR.Const_FaceBitSet? region=null, MR.Const_UndirectedEdgeBitSet? creases=null)</argsstring>
+        <name>quadraticForm</name>
+        <qualifiedname>MR.Const_Mesh.quadraticForm</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>angleWeigted</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
+          <declname>creases</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>computes quadratic form in the vertex as the sum of squared distances from 1) planes of adjacent triangles, with the weight equal to the angle of adjacent triangle at this vertex divided on PI in case of angleWeigted=true; 2) lines of adjacent boundary and crease edges Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1af2a78c63afa8b0bd3a1439ef7fabfdd3" kindref="member">MR.Mesh.quadraticForm</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1017" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1017" bodyend="1022"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1aa1654d814f61165be1ddd4083a245aff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_Mesh.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_Mesh.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns the bounding box containing all valid vertices (implemented via <ref refid="classMR_1_1Const__Mesh_1a232c5316959b5bcdbbb06547b60442d1" kindref="member">getAABBTree()</ref>) this bounding box is insignificantly bigger that minimal box due to AABB algorithms precision Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1aa1654d814f61165be1ddd4083a245aff" kindref="member">MR.Mesh.getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1029" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1029" bodyend="1034"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a025e311b955c43433140e6caddc5073d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_Mesh.computeBoundingBox</definition>
+        <argsstring>(MR.AffineXf3f? toWorld=null)</argsstring>
+        <name>computeBoundingBox</name>
+        <qualifiedname>MR.Const_Mesh.computeBoundingBox</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>toWorld</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>passes through all valid vertices and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a025e311b955c43433140e6caddc5073d" kindref="member">MR.Mesh.computeBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1041" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1041" bodyend="1047"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1acdb0f7b3bcc3dbc950fbfabf8d12ae83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_Mesh.computeBoundingBox</definition>
+        <argsstring>(MR.Const_FaceBitSet? region, MR.AffineXf3f? toWorld=null)</argsstring>
+        <name>computeBoundingBox</name>
+        <qualifiedname>MR.Const_Mesh.computeBoundingBox</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>toWorld</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>passes through all given faces (or whole mesh if region == null) and finds the minimal bounding box containing all of them if toWorld transformation is given then returns minimal bounding box in world space Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a025e311b955c43433140e6caddc5073d" kindref="member">MR.Mesh.computeBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1054" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1054" bodyend="1060"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a381f5f9893d294684d687fca219a0b2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Mesh.averageEdgeLength</definition>
+        <argsstring>()</argsstring>
+        <name>averageEdgeLength</name>
+        <qualifiedname>MR.Const_Mesh.averageEdgeLength</qualifiedname>
+        <briefdescription>
+<para>computes average length of an edge in this mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a381f5f9893d294684d687fca219a0b2f" kindref="member">MR.Mesh.averageEdgeLength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1066" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1066" bodyend="1071"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a6caece146a91435f945eb372b3b3221b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.findCenterFromPoints</definition>
+        <argsstring>()</argsstring>
+        <name>findCenterFromPoints</name>
+        <qualifiedname>MR.Const_Mesh.findCenterFromPoints</qualifiedname>
+        <briefdescription>
+<para>computes average position of all valid mesh vertices Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a6caece146a91435f945eb372b3b3221b" kindref="member">MR.Mesh.findCenterFromPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1077" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1077" bodyend="1082"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ae903c07e3477d5847572ad8dc3e3433c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.findCenterFromFaces</definition>
+        <argsstring>()</argsstring>
+        <name>findCenterFromFaces</name>
+        <qualifiedname>MR.Const_Mesh.findCenterFromFaces</qualifiedname>
+        <briefdescription>
+<para>computes center of mass considering that density of all triangles is the same Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ae903c07e3477d5847572ad8dc3e3433c" kindref="member">MR.Mesh.findCenterFromFaces</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1088" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1088" bodyend="1093"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ad15b8db8ebc481ac46827a740985faa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Mesh.findCenterFromBBox</definition>
+        <argsstring>()</argsstring>
+        <name>findCenterFromBBox</name>
+        <qualifiedname>MR.Const_Mesh.findCenterFromBBox</qualifiedname>
+        <briefdescription>
+<para>computes bounding box and returns its center Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ad15b8db8ebc481ac46827a740985faa6" kindref="member">MR.Mesh.findCenterFromBBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1099" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1099" bodyend="1104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1adcdde582698b1bfdadc73fc41d7ed298" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>unsafe MR.Mesh MR.Const_Mesh.cloneRegion</definition>
+        <argsstring>(MR.Const_FaceBitSet region, bool? flipOrientation=null, MR.Const_PartMapping? map=null)</argsstring>
+        <name>cloneRegion</name>
+        <qualifiedname>MR.Const_Mesh.cloneRegion</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>flipOrientation</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__PartMapping" kindref="compound">MR.Const_PartMapping</ref>?</type>
+          <declname>map</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>creates new mesh from given triangles of this mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1adcdde582698b1bfdadc73fc41d7ed298" kindref="member">MR.Mesh.cloneRegion</ref></computeroutput>. Parameter <computeroutput>flipOrientation</computeroutput> defaults to <computeroutput>false</computeroutput>. Parameter <computeroutput>map</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1112" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1112" bodyend="1118"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a12ef9c3d9f4a1365cec905ba0862573c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Mesh.projectPoint</definition>
+        <argsstring>(in MR.Vector3f point, MR.PointOnFace res, float? maxDistSq=null, MR.Const_FaceBitSet? region=null, MR.AffineXf3f? xf=null)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>MR.Const_Mesh.projectPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1PointOnFace" kindref="compound">MR.PointOnFace</ref></type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>maxDistSq</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>finds the closest mesh point on this mesh (or its region) to given point; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>source location to look the closest to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>found closest point including Euclidean coordinates and <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDistSq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>search only in the ball with sqrt(maxDistSq) radius around given point, smaller value here increases performance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is mesh-to-point transformation, if not specified then identity transformation is assumed and works much faster; </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>false if no mesh point is found in the ball with sqrt(maxDistSq) radius around given point Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a12ef9c3d9f4a1365cec905ba0862573c" kindref="member">MR.Mesh.projectPoint</ref></computeroutput>. Parameter <computeroutput>maxDistSq</computeroutput> defaults to <computeroutput>3.40282347e38f</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1130" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1130" bodyend="1140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a1ea65455d063ca6c9775684f2dd3c97b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Mesh.projectPoint</definition>
+        <argsstring>(in MR.Vector3f point, MR.MeshProjectionResult res, float? maxDistSq=null, MR.Const_FaceBitSet? region=null, MR.AffineXf3f? xf=null)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>MR.Const_Mesh.projectPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshProjectionResult" kindref="compound">MR.MeshProjectionResult</ref></type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>maxDistSq</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>finds the closest mesh point on this mesh (or its region) to given point; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>source location to look the closest to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>found closest point including Euclidean coordinates, barycentric coordinates, <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> and squared distance to point </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDistSq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>search only in the ball with sqrt(maxDistSq) radius around given point, smaller value here increases performance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is mesh-to-point transformation, if not specified then identity transformation is assumed and works much faster; </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>false if no mesh point is found in the ball with sqrt(maxDistSq) radius around given point Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a12ef9c3d9f4a1365cec905ba0862573c" kindref="member">MR.Mesh.projectPoint</ref></computeroutput>. Parameter <computeroutput>maxDistSq</computeroutput> defaults to <computeroutput>3.40282347e38f</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1152" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1152" bodyend="1162"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1aa2775c4f611750504e110740b9a2143f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Mesh.findClosestPoint</definition>
+        <argsstring>(in MR.Vector3f point, MR.MeshProjectionResult res, float? maxDistSq=null, MR.Const_FaceBitSet? region=null, MR.AffineXf3f? xf=null)</argsstring>
+        <name>findClosestPoint</name>
+        <qualifiedname>MR.Const_Mesh.findClosestPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshProjectionResult" kindref="compound">MR.MeshProjectionResult</ref></type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>maxDistSq</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1aa2775c4f611750504e110740b9a2143f" kindref="member">MR.Mesh.findClosestPoint</ref></computeroutput>. Parameter <computeroutput>maxDistSq</computeroutput> defaults to <computeroutput>3.40282347e38f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1168" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1168" bodyend="1178"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a3a140dc2c8a54fe9b2613709d88ba970" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshProjectionResult" kindref="compound">MR.MeshProjectionResult</ref></type>
+        <definition>unsafe MR.MeshProjectionResult MR.Const_Mesh.projectPoint</definition>
+        <argsstring>(in MR.Vector3f point, float? maxDistSq=null, MR.Const_FaceBitSet? region=null, MR.AffineXf3f? xf=null)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>MR.Const_Mesh.projectPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>maxDistSq</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>finds the closest mesh point on this mesh (or its region) to given point; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>source location to look the closest to </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDistSq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>search only in the ball with sqrt(maxDistSq) radius around given point, smaller value here increases performance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is mesh-to-point transformation, if not specified then identity transformation is assumed and works much faster; </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>found closest point including Euclidean coordinates, barycentric coordinates, <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> and squared distance to point or std::nullopt if no mesh point is found in the ball with sqrt(maxDistSq) radius around given point Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a12ef9c3d9f4a1365cec905ba0862573c" kindref="member">MR.Mesh.projectPoint</ref></computeroutput>. Parameter <computeroutput>maxDistSq</computeroutput> defaults to <computeroutput>3.40282347e38f</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1190" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1190" bodyend="1200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a8988e64555843fbf2d2f10e2d74558a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshProjectionResult" kindref="compound">MR.MeshProjectionResult</ref></type>
+        <definition>unsafe MR.MeshProjectionResult MR.Const_Mesh.findClosestPoint</definition>
+        <argsstring>(in MR.Vector3f point, float? maxDistSq=null, MR.Const_FaceBitSet? region=null, MR.AffineXf3f? xf=null)</argsstring>
+        <name>findClosestPoint</name>
+        <qualifiedname>MR.Const_Mesh.findClosestPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>maxDistSq</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1aa2775c4f611750504e110740b9a2143f" kindref="member">MR.Mesh.findClosestPoint</ref></computeroutput>. Parameter <computeroutput>maxDistSq</computeroutput> defaults to <computeroutput>3.40282347e38f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1206" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1206" bodyend="1216"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a232c5316959b5bcdbbb06547b60442d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__AABBTree" kindref="compound">MR.Const_AABBTree</ref></type>
+        <definition>unsafe MR.Const_AABBTree MR.Const_Mesh.getAABBTree</definition>
+        <argsstring>()</argsstring>
+        <name>getAABBTree</name>
+        <qualifiedname>MR.Const_Mesh.getAABBTree</qualifiedname>
+        <briefdescription>
+<para>returns cached aabb-tree for this mesh, creating it if it did not exist in a thread-safe manner Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a232c5316959b5bcdbbb06547b60442d1" kindref="member">MR.Mesh.getAABBTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1222" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1222" bodyend="1227"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a01752e171353dffd57de43469be9efda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__AABBTree" kindref="compound">Const_AABBTree</ref></type>
+        <definition>unsafe MR.? Const_AABBTree MR.Const_Mesh.getAABBTreeNotCreate</definition>
+        <argsstring>()</argsstring>
+        <name>getAABBTreeNotCreate</name>
+        <qualifiedname>MR.Const_Mesh.getAABBTreeNotCreate</qualifiedname>
+        <briefdescription>
+<para>returns cached aabb-tree for this mesh, but does not create it if it did not exist Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a01752e171353dffd57de43469be9efda" kindref="member">MR.Mesh.getAABBTreeNotCreate</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1233" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1233" bodyend="1239"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ae647cdc83884264b0523796c728be17d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__AABBTreePoints" kindref="compound">MR.Const_AABBTreePoints</ref></type>
+        <definition>unsafe MR.Const_AABBTreePoints MR.Const_Mesh.getAABBTreePoints</definition>
+        <argsstring>()</argsstring>
+        <name>getAABBTreePoints</name>
+        <qualifiedname>MR.Const_Mesh.getAABBTreePoints</qualifiedname>
+        <briefdescription>
+<para>returns cached aabb-tree for points of this mesh, creating it if it did not exist in a thread-safe manner Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ae647cdc83884264b0523796c728be17d" kindref="member">MR.Mesh.getAABBTreePoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1245" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1245" bodyend="1250"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a62d9bcb019d6c5fe421ec697395b9159" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__AABBTreePoints" kindref="compound">Const_AABBTreePoints</ref></type>
+        <definition>unsafe MR.? Const_AABBTreePoints MR.Const_Mesh.getAABBTreePointsNotCreate</definition>
+        <argsstring>()</argsstring>
+        <name>getAABBTreePointsNotCreate</name>
+        <qualifiedname>MR.Const_Mesh.getAABBTreePointsNotCreate</qualifiedname>
+        <briefdescription>
+<para>returns cached aabb-tree for points of this mesh, but does not create it if it did not exist Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a62d9bcb019d6c5fe421ec697395b9159" kindref="member">MR.Mesh.getAABBTreePointsNotCreate</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1256" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1256" bodyend="1262"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1afc33148777f46e03fc5ddbd94e50912e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Dipoles" kindref="compound">MR.Const_Dipoles</ref></type>
+        <definition>unsafe MR.Const_Dipoles MR.Const_Mesh.getDipoles</definition>
+        <argsstring>()</argsstring>
+        <name>getDipoles</name>
+        <qualifiedname>MR.Const_Mesh.getDipoles</qualifiedname>
+        <briefdescription>
+<para>returns cached dipoles of aabb-tree nodes for this mesh, creating it if it did not exist in a thread-safe manner Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1afc33148777f46e03fc5ddbd94e50912e" kindref="member">MR.Mesh.getDipoles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1268" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1268" bodyend="1273"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a1a37837a382e639e93a80dc512070e2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__Dipoles" kindref="compound">Const_Dipoles</ref></type>
+        <definition>unsafe MR.? Const_Dipoles MR.Const_Mesh.getDipolesNotCreate</definition>
+        <argsstring>()</argsstring>
+        <name>getDipolesNotCreate</name>
+        <qualifiedname>MR.Const_Mesh.getDipolesNotCreate</qualifiedname>
+        <briefdescription>
+<para>returns cached dipoles of aabb-tree nodes for this mesh, but does not create it if it did not exist Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a1a37837a382e639e93a80dc512070e2a" kindref="member">MR.Mesh.getDipolesNotCreate</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1279" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1279" bodyend="1285"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1aa56c8d0f73b28d970fff8a061a32c57a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Mesh.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Mesh.heapBytes</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1aa56c8d0f73b28d970fff8a061a32c57a" kindref="member">MR.Mesh.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1291" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1291" bodyend="1296"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a7caffbba44b66f9bf0ccb57a1a8130ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Mesh.Equals</definition>
+        <argsstring>(MR.Const_Mesh? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Mesh.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1300" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1300" bodyend="1305"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a714d77a9c0483483fdba55e7dd214767" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_Mesh.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Mesh.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1307" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1307" bodyend="1314"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a8a315ea3c079f4a35b78e3e1e39035b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Mesh.~Const_Mesh</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Mesh</name>
+        <qualifiedname>MR.Const_Mesh.~Const_Mesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1afec2b54457a2b32ead5e22930bca11ed" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Mesh.Const_Mesh</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Mesh</name>
+        <qualifiedname>MR.Const_Mesh.Const_Mesh</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="53" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="53" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a63d8b33cacb827e76e8937be45e956fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.Const_Mesh.fromTriangles</definition>
+        <argsstring>(MR._ByValue_VertCoords vertexCoordinates, MR.Const_Triangulation t, MR.MeshBuilder.Const_BuildSettings? settings=null, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</argsstring>
+        <name>fromTriangles</name>
+        <qualifiedname>MR.Const_Mesh.fromTriangles</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertCoords</type>
+          <declname>vertexCoordinates</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Triangulation" kindref="compound">MR.Const_Triangulation</ref></type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__BuildSettings" kindref="compound">MR.MeshBuilder.Const_BuildSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>construct mesh from vertex coordinates and a set of triangles with given ids Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a63d8b33cacb827e76e8937be45e956fd" kindref="member">MR.Mesh.fromTriangles</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="100" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="100" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1ab80764bcf163893a8d86269e9910e2eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.Const_Mesh.fromTriMesh</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.TriMesh &gt; triMesh, MR.MeshBuilder.Const_BuildSettings? settings=null, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</argsstring>
+        <name>fromTriMesh</name>
+        <qualifiedname>MR.Const_Mesh.fromTriMesh</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1TriMesh" kindref="compound">MR.TriMesh</ref> &gt;</type>
+          <declname>triMesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__BuildSettings" kindref="compound">MR.MeshBuilder.Const_BuildSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>construct mesh from <ref refid="classMR_1_1TriMesh" kindref="compound">TriMesh</ref> representation Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1ab80764bcf163893a8d86269e9910e2eb" kindref="member">MR.Mesh.fromTriMesh</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="113" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="113" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a618c759ea2dcb30254f7c2b7ca413550" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.Const_Mesh.fromTrianglesDuplicatingNonManifoldVertices</definition>
+        <argsstring>(MR._ByValue_VertCoords vertexCoordinates, MR.Triangulation t, MR.Std.Vector_MRMeshBuilderVertDuplication? dups=null, MR.MeshBuilder.Const_BuildSettings? settings=null)</argsstring>
+        <name>fromTrianglesDuplicatingNonManifoldVertices</name>
+        <qualifiedname>MR.Const_Mesh.fromTrianglesDuplicatingNonManifoldVertices</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertCoords</type>
+          <declname>vertexCoordinates</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Triangulation" kindref="compound">MR.Triangulation</ref></type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRMeshBuilderVertDuplication?</type>
+          <declname>dups</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__BuildSettings" kindref="compound">MR.MeshBuilder.Const_BuildSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>construct mesh from vertex coordinates and a set of triangles with given ids; unlike simple <ref refid="classMR_1_1Const__Mesh_1a63d8b33cacb827e76e8937be45e956fd" kindref="member">fromTriangles()</ref> it tries to resolve non-manifold vertices by creating duplicate vertices Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a618c759ea2dcb30254f7c2b7ca413550" kindref="member">MR.Mesh.fromTrianglesDuplicatingNonManifoldVertices</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="126" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="126" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a3d20ec971a1772c8c560ecc05fc625d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.Const_Mesh.fromFaceSoup</definition>
+        <argsstring>(MR._ByValue_VertCoords vertexCoordinates, MR.Std.Const_Vector_MRVertId verts, MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId faces, MR.MeshBuilder.Const_BuildSettings? settings=null, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</argsstring>
+        <name>fromFaceSoup</name>
+        <qualifiedname>MR.Const_Mesh.fromFaceSoup</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertCoords</type>
+          <declname>vertexCoordinates</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRVertId</type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId" kindref="compound">MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId</ref></type>
+          <declname>faces</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__BuildSettings" kindref="compound">MR.MeshBuilder.Const_BuildSettings</ref>?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>construct mesh from vertex coordinates and construct mesh topology from face soup, where each face can have arbitrary degree (not only triangles); all non-triangular faces will be automatically subdivided on triangles Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a3d20ec971a1772c8c560ecc05fc625d2" kindref="member">MR.Mesh.fromFaceSoup</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="141" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="141" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a3ab5d9b7ba1426c16b2665c03a13fbc7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.Const_Mesh.fromPointTriples</definition>
+        <argsstring>(MR.Std.Const_Vector_StdArrayMRVector3f3 posTriples, bool duplicateNonManifoldVertices)</argsstring>
+        <name>fromPointTriples</name>
+        <qualifiedname>MR.Const_Mesh.fromPointTriples</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_StdArrayMRVector3f3</type>
+          <declname>posTriples</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>duplicateNonManifoldVertices</declname>
+        </param>
+        <briefdescription>
+<para>construct mesh from point triples; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>duplicateNonManifoldVertices</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>= false, all coinciding points are given the same <ref refid="structMR_1_1VertId" kindref="compound">VertId</ref> in the result; duplicateNonManifoldVertices = true, it tries to avoid non-manifold vertices by creating duplicate vertices with same coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__Mesh_1a3ab5d9b7ba1426c16b2665c03a13fbc7" kindref="member">MR.Mesh.fromPointTriples</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="154" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="154" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a12a04ce1f7f2d282b879a7969427dce0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Mesh.operator==</definition>
+        <argsstring>(MR.Const_Mesh _this, MR.Const_Mesh b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_Mesh.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>compare that two meshes are exactly the same Generated from method <computeroutput>MR::Mesh::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="165" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="165" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Mesh_1a48a27dc4023b8583ad18ff5ad546729b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Mesh.operator!=</definition>
+        <argsstring>(MR.Const_Mesh _this, MR.Const_Mesh b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_Mesh.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="172" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="172" bodyend="175"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class represents a mesh, including topology (connectivity) information and point coordinates, as well as some caches to accelerate search algorithms Generated from class <computeroutput><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Mesh</label>
+        <link refid="classMR_1_1Const__Mesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.Mesh</label>
+        <link refid="classMR_1_1Mesh"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Mesh</label>
+        <link refid="classMR_1_1Const__Mesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="10" bodyend="1315"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Mesh_1a5416dcbe11b054b95d6ea180ab14404e" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>area</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a6c703e2be679150316cd78d49d6d9fb8" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>area</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a381f5f9893d294684d687fca219a0b2f" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>averageEdgeLength</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a485bf9866fc116fdfad021f84008717e" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>calcFastWindingNumber</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aa4d29310e269c73c1405d27e2b97bf0b" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>circumcircleDiameter</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a2675f10ae76467b7f5d30938829cdd54" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>circumcircleDiameterSq</name></member>
+      <member refid="classMR_1_1Const__Mesh_1adcdde582698b1bfdadc73fc41d7ed298" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>cloneRegion</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a025e311b955c43433140e6caddc5073d" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>computeBoundingBox</name></member>
+      <member refid="classMR_1_1Const__Mesh_1acdb0f7b3bcc3dbc950fbfabf8d12ae83" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>computeBoundingBox</name></member>
+      <member refid="classMR_1_1Const__Mesh_1afec2b54457a2b32ead5e22930bca11ed" prot="package" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>Const_Mesh</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a66bf626fa6179f74d29b64d7699dfffc" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>Const_Mesh</name></member>
+      <member refid="classMR_1_1Const__Mesh_1af727989920b727d309ac085966c0e095" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>Const_Mesh</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aabc16c8d2aba46c93c818479cd2bfdd6" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>Const_Mesh</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a853250bb0b9058c74b23ffd5c4a33825" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>Const_Mesh</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a1de3cfcb264c6e57d0a9092f929a0f75" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>cotan</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a248231296e29abe96acb9ded7b41f380" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>dblArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a66b9588482c4e85e0d6e2b01f90d77eb" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>dblArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a50b689ebb012d487228062daad913730" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>destPnt</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a56e023744e36bcc349d74603e04f9ff4" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>dihedralAngle</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a4cb2ff5afd4d43661e21c85cbd84ab52" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>dihedralAngleCos</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a973db401e54f5341547c326624bad353" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>dihedralAngleSin</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a6d9cf5422aaf1bac16a59bf9b1dfab24" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>dirArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a2f9321a759a7f390e94cfbc7ab7fb58c" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>dirDblArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a42fe6b5329937612d6d141ddee1da60d" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>dirDblArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a4cbc3986a13f34d9d4a2cd88e29d71e3" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>discreteGaussianCurvature</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a1dc6d4be764deabf0008ccc6e05eeb33" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>discreteMeanCurvature</name></member>
+      <member refid="classMR_1_1Const__Mesh_1add61237bc2a74e12e5be8ab83ac63d6c" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>discreteMeanCurvature</name></member>
+      <member refid="classMR_1_1Const__Mesh_1af1ef08ac4be3e3ca98e7185e34a6452a" prot="protected" virt="virtual"><scope>MR::Const_Mesh</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a080e3dea59b9f82d1c1c979b5ac729f1" prot="public" virt="virtual"><scope>MR::Const_Mesh</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ad325cd068039c118531fc1649cf8d4d7" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>edgeCenter</name></member>
+      <member refid="classMR_1_1Const__Mesh_1afd4b06f4d8c89be5e801225cfbbcb8d8" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>edgeLength</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a20e475e0be88f70481d28ce96abc323f" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>edgeLengths</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a5f731d9deea5c639de6cbc3b2872321b" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>edgeLengthSq</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a96acea5436674b0af8c64ad30c281fb8" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>edgePoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aab1af3bea6fe0fed158de40e4c0a3e96" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>edgePoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1abf1db289edd8103a37c6bca9d1ecf2cf" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>edgeSegment</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a7540c4ef0d3a4b8d7229cd70c9677b05" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>edgeVector</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a7caffbba44b66f9bf0ccb57a1a8130ea" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a714d77a9c0483483fdba55e7dd214767" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ad15b8db8ebc481ac46827a740985faa6" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>findCenterFromBBox</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ae903c07e3477d5847572ad8dc3e3433c" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>findCenterFromFaces</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a6caece146a91435f945eb372b3b3221b" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>findCenterFromPoints</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aa2775c4f611750504e110740b9a2143f" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>findClosestPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a8988e64555843fbf2d2f10e2d74558a7" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>findClosestPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1acaa1a323b359755f854bacd4b19e17bb" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>findCreaseEdges</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a202c18bfd4a011ddcfc9274a041ff995" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>findSpikeVertices</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a3d20ec971a1772c8c560ecc05fc625d2" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>fromFaceSoup</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a3ab5d9b7ba1426c16b2665c03a13fbc7" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>fromPointTriples</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a63d8b33cacb827e76e8937be45e956fd" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>fromTriangles</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a618c759ea2dcb30254f7c2b7ca413550" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ab80764bcf163893a8d86269e9910e2eb" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>fromTriMesh</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a232c5316959b5bcdbbb06547b60442d1" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getAABBTree</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a01752e171353dffd57de43469be9efda" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getAABBTreeNotCreate</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ae647cdc83884264b0523796c728be17d" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getAABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a62d9bcb019d6c5fe421ec697395b9159" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getAABBTreePointsNotCreate</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aa1654d814f61165be1ddd4083a245aff" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ab4e45893ed8c0e5bb301ea6ca4b651fe" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getClosestEdge</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a42f3f78975e363fad7c3a2262f5e8fbb" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getClosestEdge</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ad67e3fbe5fdc289a427900ebfe33656f" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getClosestVertex</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a86945f13554060eb6ea39077a62bd105" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getClosestVertex</name></member>
+      <member refid="classMR_1_1Const__Mesh_1afc33148777f46e03fc5ddbd94e50912e" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getDipoles</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a1a37837a382e639e93a80dc512070e2a" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getDipolesNotCreate</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a1e831ea87da70f0c649a49b4ecdd9619" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getLeftTriPoints</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a676ac9a6894113dca181246396c2255b" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getLeftTriPoints</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a356d54323b45d3622a9df424ef9950fe" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getPlane3d</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a257c1112e33b465869a9846fcee6e1ce" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getPlane3f</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a46845d76ae2c044115da57b36696ab1a" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getTriPoints</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a9bc0547f5022937018d55403a4822d17" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>getTriPoints</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aa56c8d0f73b28d970fff8a061a32c57a" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a41c2dbdc6998824e483af09acc137dc6" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>holeDirArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1af3ec8511d011f4dc425c13d36f4e5c69" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>holePerimeter</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a21ed15170364a28c7305f721b22937fb" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>isOutside</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a4fde4080acfabca8fddbfd8d13efeed6" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>isOutsideByProjNorm</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a20c8a63eeb72631629308e8cc708af1b" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>leftCotan</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a6b00deceaf381e89c66db98a3a9e300c" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>leftDirDblArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a539cd8fd3e0f46aaed2a6838af987beb" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>leftNormal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ac05f0708a319b103e8e657b8f2e83c83" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>leftTangent</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ab056b79581fa8cbce47839ba87dabf80" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>normal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a521a5f970653858e99295adecf53cb86" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>normal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a24971fc4db264e829bc4f2df06272a5c" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>normal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a48a27dc4023b8583ad18ff5ad546729b" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a12a04ce1f7f2d282b879a7969427dce0" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ab36ddc1c4d54c982c38c58d840e57627" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>orgPnt</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a1ccb34d668a2c00f42576ea6c392b1b9" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>points</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a5feb26c6ff75057824d4421dc1f5cced" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>projArea</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a12ef9c3d9f4a1365cec905ba0862573c" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>projectPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a1ea65455d063ca6c9775684f2dd3c97b" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>projectPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a3a140dc2c8a54fe9b2613709d88ba970" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>projectPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a9a109d9bd5548a2f55b21b667e8b68b9" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>pseudonormal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ae5711fbd67a6efb0703f8e76a676da4a" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>pseudonormal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a90816f0519283ead375a8e9789e06901" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>pseudonormal</name></member>
+      <member refid="classMR_1_1Const__Mesh_1af2a78c63afa8b0bd3a1439ef7fabfdd3" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>quadraticForm</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aa982f0a62c1981bd525f9b8cd197e1a9" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>signedDistance</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a734a5264431b5a661b45acc6288396b6" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>signedDistance</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a46a2329c34f04e28e0d9fdda628d6b3a" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>signedDistance</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a7f6159113bc364f7a81b80761784994b" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>sumAngles</name></member>
+      <member refid="classMR_1_1Const__Mesh_1af68b9ebcac2b80884f4f1cead79da75f" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>toEdgePoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1ab34edbd331c37b3897b1b2f22c2e62e7" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>toEdgePoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a88a4dc260b087b82b1c2c1d6087f037a" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>topology</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a6ede16d3c934b03e227f4cccc4f8c599" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>toTriPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a14cfc9d9766bfaccb5eb2fd08e779396" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>toTriPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1aeaaa59dc4699477f429eef3d39b76266" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>toTriPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a0158e404b3b68b990cce22f0b09cf673" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>triangleAspectRatio</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a574a5b9faf16dbaf7004176f19768b70" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>triCenter</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a927d6910bbb60c750429d0e71f42a6bc" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>triPoint</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a25b3e00bdca69eac2df0551794f0b0e4" prot="public" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>volume</name></member>
+      <member refid="classMR_1_1Const__Mesh_1a8a315ea3c079f4a35b78e3e1e39035b6" prot="private" virt="non-virtual"><scope>MR::Const_Mesh</scope><name>~Const_Mesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

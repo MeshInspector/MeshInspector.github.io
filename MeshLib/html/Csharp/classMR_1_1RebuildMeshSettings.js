@@ -1,7 +1,7 @@
 var classMR_1_1RebuildMeshSettings =
 [
     [ "RebuildMeshSettings", "classMR_1_1RebuildMeshSettings.html#a507d23963b1a2cb1d4d9c73a8b9b83f0", null ],
-    [ "RebuildMeshSettings", "classMR_1_1RebuildMeshSettings.html#ad73ee672a56c1189e66ede7e9196e944", null ],
+    [ "RebuildMeshSettings", "classMR_1_1RebuildMeshSettings.html#a10de462698e1289d579c21ea809f9e21", null ],
     [ "RebuildMeshSettings", "classMR_1_1RebuildMeshSettings.html#af06806f775b8df087dc97f31fb70b636", null ],
     [ "RebuildMeshSettings", "classMR_1_1RebuildMeshSettings.html#a887b7a5438c0dd25e6a8d6da58868b5e", null ],
     [ "RebuildMeshSettings", "classMR_1_1RebuildMeshSettings.html#a6ac8e2815e2501d6c33b81057844df92", null ],
@@ -14,6 +14,7 @@ var classMR_1_1RebuildMeshSettings =
     [ "outSharpEdges", "classMR_1_1RebuildMeshSettings.html#a2ece5739c2508a4979af93b06d90b2c3", null ],
     [ "preSubdivide", "classMR_1_1RebuildMeshSettings.html#af0dbcaf69ab86fdf8ff783a07dfd2ed0", null ],
     [ "progress", "classMR_1_1RebuildMeshSettings.html#ab237acae8b1e668df00236fe5d4cfd2a", null ],
+    [ "reduceAngleNumIters", "classMR_1_1RebuildMeshSettings.html#a4a8614126bd89ed12d2123c4582fdc13", null ],
     [ "signMode", "classMR_1_1RebuildMeshSettings.html#a40e652cfcf9b51f248bd702feaf1a392", null ],
     [ "tinyEdgeLength", "classMR_1_1RebuildMeshSettings.html#a4970386a859f3aee311f5c91de77f57f", null ],
     [ "voxelSize", "classMR_1_1RebuildMeshSettings.html#af6b0bfd14a1bdf91361c18092958818c", null ],

@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ColorMapAggregator__MRVertTag" kind="class" language="C#" prot="public">
     <compoundname>MR::ColorMapAggregator_MRVertTag</compoundname>
+    <innerclass refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap" prot="public">MR::ColorMapAggregator_MRVertTag::Const_PartialColorMap</innerclass>
     <innerclass refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap" prot="public">MR::ColorMapAggregator_MRVertTag::PartialColorMap</innerclass>
     <sectiondef kind="public-type">
       <memberdef kind="enum" id="classMR_1_1ColorMapAggregator__MRVertTag_1a7845fa3cb26a19f858d7d78307774467" prot="public" static="no" strong="yes">

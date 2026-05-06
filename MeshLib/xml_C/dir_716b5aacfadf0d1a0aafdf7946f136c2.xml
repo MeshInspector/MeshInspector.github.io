@@ -218,12 +218,16 @@
     <innerfile refid="std__optional__MR__ObjectComparableWithReference__ComparableProperty_8h">std_optional_MR_ObjectComparableWithReference_ComparableProperty.h</innerfile>
     <innerfile refid="std__optional__MR__ObjectComparableWithReference__ComparisonTolerance_8h">std_optional_MR_ObjectComparableWithReference_ComparisonTolerance.h</innerfile>
     <innerfile refid="std__optional__MR__ObjectMeshData_8h">std_optional_MR_ObjectMeshData.h</innerfile>
+    <innerfile refid="std__optional__MR__Plane3d_8h">std_optional_MR_Plane3d.h</innerfile>
+    <innerfile refid="std__optional__MR__Plane3f_8h">std_optional_MR_Plane3f.h</innerfile>
     <innerfile refid="std__optional__MR__PointCloud_8h">std_optional_MR_PointCloud.h</innerfile>
     <innerfile refid="std__optional__MR__PolylineIntersectionResult2_8h">std_optional_MR_PolylineIntersectionResult2.h</innerfile>
     <innerfile refid="std__optional__MR__SignedDistanceToMeshResult_8h">std_optional_MR_SignedDistanceToMeshResult.h</innerfile>
     <innerfile refid="std__optional__MR__Triangulation_8h">std_optional_MR_Triangulation.h</innerfile>
     <innerfile refid="std__optional__MR__TriIntersectResult_8h">std_optional_MR_TriIntersectResult.h</innerfile>
+    <innerfile refid="std__optional__MR__Vector2d_8h">std_optional_MR_Vector2d.h</innerfile>
     <innerfile refid="std__optional__MR__Vector2f_8h">std_optional_MR_Vector2f.h</innerfile>
+    <innerfile refid="std__optional__MR__Vector3d_8h">std_optional_MR_Vector3d.h</innerfile>
     <innerfile refid="std__optional__MR__Vector3f_8h">std_optional_MR_Vector3f.h</innerfile>
     <innerfile refid="std__optional__MR__Vector3i_8h">std_optional_MR_Vector3i.h</innerfile>
     <innerfile refid="std__optional__MR__VertBitSet_8h">std_optional_MR_VertBitSet.h</innerfile>
@@ -270,7 +274,9 @@
     <innerfile refid="std__pair__MR__Polyline2__MR__AffineXf3f_8h">std_pair_MR_Polyline2_MR_AffineXf3f.h</innerfile>
     <innerfile refid="std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h">std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet.h</innerfile>
     <innerfile refid="std__pair__MR__UndirectedEdgeId__bool_8h">std_pair_MR_UndirectedEdgeId_bool.h</innerfile>
+    <innerfile refid="std__pair__MR__Vector3d__MR__TriPointd_8h">std_pair_MR_Vector3d_MR_TriPointd.h</innerfile>
     <innerfile refid="std__pair__MR__Vector3d__MR__Vector3d_8h">std_pair_MR_Vector3d_MR_Vector3d.h</innerfile>
+    <innerfile refid="std__pair__MR__Vector3f__MR__TriPointf_8h">std_pair_MR_Vector3f_MR_TriPointf.h</innerfile>
     <innerfile refid="std__pair__MR__Vector3f__MR__Vector3f_8h">std_pair_MR_Vector3f_MR_Vector3f.h</innerfile>
     <innerfile refid="std__pair__MR__VertId__bool_8h">std_pair_MR_VertId_bool.h</innerfile>
     <innerfile refid="std__pair__MR__VertId__MR__VertId_8h">std_pair_MR_VertId_MR_VertId.h</innerfile>

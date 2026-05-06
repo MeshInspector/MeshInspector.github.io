@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PointsProjector" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PointsProjector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PointsProjector" prot="public" virt="non-virtual">MR.PointsProjector</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointsProjector_1aaf57526e2b322ad9570cab42007d5f60" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_PointsProjector.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointsProjector.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="725" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="725" bodyend="733"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointsProjector_1a9eb9d65578f79ec4b0b450ba8e127b7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_PointsProjector.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointsProjector.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="734" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="734" bodyend="734"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointsProjector_1a7f0ce976d1ebf992201a14a621c33593" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointsProjector.Const_PointsProjector</definition>
+        <argsstring>()</argsstring>
+        <name>Const_PointsProjector</name>
+        <qualifiedname>MR.Const_PointsProjector.Const_PointsProjector</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="764" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="764" bodyend="769"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointsProjector_1a6f7f2a1898730ba19b4a29466a02f09f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointsProjector.Const_PointsProjector</definition>
+        <argsstring>(MR._ByValue_PointsProjector _other)</argsstring>
+        <name>Const_PointsProjector</name>
+        <qualifiedname>MR.Const_PointsProjector.Const_PointsProjector</qualifiedname>
+        <param>
+          <type>MR._ByValue_PointsProjector</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsProjector_1ae84b7ac905c1a874c3bbaa67190bb24e" kindref="member">MR.PointsProjector.PointsProjector</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="774" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="774" bodyend="780"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointsProjector_1aa45dcda1e4d52607b88abe21323fd717" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointsProjector.Const_PointsProjector</definition>
+        <argsstring>(Const_PointsProjector _other)</argsstring>
+        <name>Const_PointsProjector</name>
+        <qualifiedname>MR.Const_PointsProjector.Const_PointsProjector</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointsProjector" kindref="compound">Const_PointsProjector</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsProjector_1ae84b7ac905c1a874c3bbaa67190bb24e" kindref="member">MR.PointsProjector.PointsProjector</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="785" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="785" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointsProjector_1a5d1e0e418b4c2be74fd261fca1e7166a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointsProjector.Const_PointsProjector</definition>
+        <argsstring>(PointsProjector _other)</argsstring>
+        <name>Const_PointsProjector</name>
+        <qualifiedname>MR.Const_PointsProjector.Const_PointsProjector</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointsProjector" kindref="compound">PointsProjector</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsProjector_1ae84b7ac905c1a874c3bbaa67190bb24e" kindref="member">MR.PointsProjector.PointsProjector</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="790" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="790" bodyend="790"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointsProjector_1aad2be78ec7e5941b88ef149bea6c731b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_PointsProjector.findProjections</definition>
+        <argsstring>(MR.Std.Vector_MRPointsProjectionResult results, MR.Std.Const_Vector_MRVector3f points, MR.Const_FindProjectionOnPointsSettings settings)</argsstring>
+        <name>findProjections</name>
+        <qualifiedname>MR.Const_PointsProjector.findProjections</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_MRPointsProjectionResult</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FindProjectionOnPointsSettings" kindref="compound">MR.Const_FindProjectionOnPointsSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>computes the closest points on point cloud to given points Generated from method <computeroutput><ref refid="classMR_1_1Const__PointsProjector_1aad2be78ec7e5941b88ef149bea6c731b" kindref="member">MR.PointsProjector.findProjections</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="796" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="796" bodyend="803"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointsProjector_1a63a2452d1996664251ef0688e944ef9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_PointsProjector.projectionsHeapBytes</definition>
+        <argsstring>(ulong numProjections)</argsstring>
+        <name>projectionsHeapBytes</name>
+        <qualifiedname>MR.Const_PointsProjector.projectionsHeapBytes</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numProjections</declname>
+        </param>
+        <briefdescription>
+<para>Returns amount of memory needed to compute projections Generated from method <computeroutput><ref refid="classMR_1_1Const__PointsProjector_1a63a2452d1996664251ef0688e944ef9a" kindref="member">MR.PointsProjector.projectionsHeapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="809" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="809" bodyend="814"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointsProjector_1ad5bebda1b7c5292c18fce7b9d0fe48c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointsProjector.~Const_PointsProjector</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PointsProjector</name>
+        <qualifiedname>MR.Const_PointsProjector.~Const_PointsProjector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="735" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="735" bodyend="735"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointsProjector_1a4ac5bdcf36d705539e23318321fcfe27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_PointsProjector.operator MR.Const_IPointsProjector</definition>
+        <argsstring>(Const_PointsProjector self)</argsstring>
+        <name>operator MR.Const_IPointsProjector</name>
+        <qualifiedname>MR.Const_PointsProjector.operator MR.Const_IPointsProjector</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointsProjector" kindref="compound">Const_PointsProjector</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="738" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="738" bodyend="745"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointsProjector_1a775abb7b0924e706f18347b2dd76c22f" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_PointsProjector.operator Const_PointsProjector?</definition>
+        <argsstring>(MR.Const_IPointsProjector parent)</argsstring>
+        <name>operator Const_PointsProjector?</name>
+        <qualifiedname>MR.Const_PointsProjector.operator Const_PointsProjector?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__IPointsProjector" kindref="compound">MR.Const_IPointsProjector</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="748" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="748" bodyend="757"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointsProjector_1a10328508584a72f12464a46edfb96035" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointsProjector.Const_PointsProjector</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PointsProjector</name>
+        <qualifiedname>MR.Const_PointsProjector.Const_PointsProjector</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="759" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="759" bodyend="759"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>default implementation of <ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref> Generated from class <computeroutput><ref refid="classMR_1_1PointsProjector" kindref="compound">MR.PointsProjector</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1IPointsProjector" kindref="compound">MR.IPointsProjector</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PointsProjector</label>
+        <link refid="classMR_1_1Const__PointsProjector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PointsProjector</label>
+        <link refid="classMR_1_1PointsProjector"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_PointsProjector</label>
+        <link refid="classMR_1_1Const__PointsProjector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="719" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="720" bodyend="815"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PointsProjector_1a10328508584a72f12464a46edfb96035" prot="package" virt="non-virtual"><scope>MR::Const_PointsProjector</scope><name>Const_PointsProjector</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a7f0ce976d1ebf992201a14a621c33593" prot="public" virt="non-virtual"><scope>MR::Const_PointsProjector</scope><name>Const_PointsProjector</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a6f7f2a1898730ba19b4a29466a02f09f" prot="public" virt="non-virtual"><scope>MR::Const_PointsProjector</scope><name>Const_PointsProjector</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1aa45dcda1e4d52607b88abe21323fd717" prot="public" virt="non-virtual"><scope>MR::Const_PointsProjector</scope><name>Const_PointsProjector</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a5d1e0e418b4c2be74fd261fca1e7166a" prot="public" virt="non-virtual"><scope>MR::Const_PointsProjector</scope><name>Const_PointsProjector</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1aaf57526e2b322ad9570cab42007d5f60" prot="protected" virt="virtual"><scope>MR::Const_PointsProjector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a9eb9d65578f79ec4b0b450ba8e127b7a" prot="public" virt="virtual"><scope>MR::Const_PointsProjector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1aad2be78ec7e5941b88ef149bea6c731b" prot="public" virt="non-virtual"><scope>MR::Const_PointsProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a775abb7b0924e706f18347b2dd76c22f" prot="public" virt="non-virtual"><scope>MR::Const_PointsProjector</scope><name>operator Const_PointsProjector?</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a4ac5bdcf36d705539e23318321fcfe27" prot="public" virt="non-virtual"><scope>MR::Const_PointsProjector</scope><name>operator MR.Const_IPointsProjector</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1a63a2452d1996664251ef0688e944ef9a" prot="public" virt="non-virtual"><scope>MR::Const_PointsProjector</scope><name>projectionsHeapBytes</name></member>
+      <member refid="classMR_1_1Const__PointsProjector_1ad5bebda1b7c5292c18fce7b9d0fe48c0" prot="private" virt="non-virtual"><scope>MR::Const_PointsProjector</scope><name>~Const_PointsProjector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

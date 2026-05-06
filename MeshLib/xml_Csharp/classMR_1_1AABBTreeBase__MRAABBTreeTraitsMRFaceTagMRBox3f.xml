@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f" kind="class" language="C#" prot="public">
     <compoundname>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f" prot="public" virt="non-virtual">MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a96a90ed9fb67703a1256f1f4638db908" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;::AABBTreeBase</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;::AABBTreeBase</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -69,11 +69,11 @@
         <name>AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name>
         <qualifiedname>MR.AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</qualifiedname>
         <param>
-          <type>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f" kindref="compound">Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;::AABBTreeBase</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;::AABBTreeBase</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,7 +92,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;::AABBTreeBase</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;::AABBTreeBase</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -111,7 +111,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::AABBTreeBase&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -130,7 +130,7 @@
           <declname>leafMap</declname>
         </param>
         <briefdescription>
-<para>fills map: LeafId -&amp;gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput>MR::AABBTreeBase&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1afddd0321ad9ce54d72490d979f42b61a" kindref="member">getLeafOrderAndReset</ref></computeroutput>. </para>
+<para>fills map: LeafId -&gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;<ref refid="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1afddd0321ad9ce54d72490d979f42b61a" kindref="member">getLeafOrderAndReset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -140,7 +140,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>base class for most AABB-trees (except for <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>) Generated from class <computeroutput>MR::AABBTreeBase&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1AABBTree" kindref="compound">MR.AABBTree</ref></computeroutput> This is the non-const half of the class. </para>
+<para>base class for most AABB-trees (except for <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>) Generated from class <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1AABBTree" kindref="compound">MR.AABBTree</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -153,6 +153,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</label>
+        <link refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -174,6 +175,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</label>
+        <link refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -194,7 +196,24 @@
       <member refid="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1ac85a8820110cd7a15c39ecf6fb63fbac" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a90d78536d19ae3d248308f3d90dbcff7" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
       <member refid="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a79bb6ab6ecce641ecefcc36e9e9183ed" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1aa449e833832a38aa5b1743399fcc2755" prot="package" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a38a6e37bbd5a2a8e4c857c738c3bd1ca" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a68568c374bdbee07b17f54dcee29e6a7" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a1648111b783a65c19c8f5c8060778b77" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a2cb918885c549798ab01b20e0fe89104" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1acf0f1021c5e2ac6fb671adb706bb452c" prot="protected" virt="virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a86d15e7c0a7f70e9e42a064526a26051" prot="public" virt="virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a169994247c53bec816d4a4dab36fda27" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1aac607570166d63b7fa6a67c360dafefc" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>getLeafOrder</name></member>
       <member refid="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1afddd0321ad9ce54d72490d979f42b61a" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1aaa75cf111e853685720eca07277ab0d8" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>getNodesFromLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a3d7272fe3b331feb1044ba05a6b1bc84" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>getSubtreeLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a715fb635f06988c725194e019ee34cdd" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>getSubtrees</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a7e266cc6c007001bf2c6e8e49eebe1db" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a030cba6dd0daacaa4db99740c43f6d07" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>nodes</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1afaaae1df50dfff30520c3625b60b9e10" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>numLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a5799612af184cb91a0a5eae17469091c" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>rootNodeId</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1adec8c663cd278b84f92a7fe97d04db6d" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>this[MR.NodeId nid]</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

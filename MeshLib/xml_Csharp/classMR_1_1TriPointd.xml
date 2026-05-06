@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriPointd" kind="class" language="C#" prot="public">
     <compoundname>MR::TriPointd</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TriPointd</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TriPointd" prot="public" virt="non-virtual">MR.Const_TriPointd</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TriPointd_1a86e9de33f9d9df91af13451286bb484e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref double</type>
@@ -11,7 +11,7 @@
         <name>a</name>
         <qualifiedname>MR.TriPointd.a</qualifiedname>
         <briefdescription>
-<para>a in [0,1], a=0 =&amp;gt; point is on [v2,v0] edge, a=1 =&amp;gt; point is in v1 </para>
+<para>a in [0,1], a=0 =&gt; point is on [v2,v0] edge, a=1 =&gt; point is in v1 </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -26,7 +26,7 @@
         <name>b</name>
         <qualifiedname>MR.TriPointd.b</qualifiedname>
         <briefdescription>
-<para>b in [0,1], b=0 =&amp;gt; point is on [v0,v1] edge, b=1 =&amp;gt; point is in v2 </para>
+<para>b in [0,1], b=0 =&gt; point is on [v0,v1] edge, b=1 =&gt; point is in v2 </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -82,7 +82,7 @@
         <name>TriPointd</name>
         <qualifiedname>MR.TriPointd.TriPointd</qualifiedname>
         <param>
-          <type>MR.Const_TriPointd</type>
+          <type><ref refid="classMR_1_1Const__TriPointd" kindref="compound">MR.Const_TriPointd</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -120,7 +120,7 @@
         <name>TriPointd</name>
         <qualifiedname>MR.TriPointd.TriPointd</qualifiedname>
         <param>
-          <type>MR.Const_NoInit</type>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -220,7 +220,7 @@
         <name>assign</name>
         <qualifiedname>MR.TriPointd.assign</qualifiedname>
         <param>
-          <type>MR.Const_TriPointd</type>
+          <type><ref refid="classMR_1_1Const__TriPointd" kindref="compound">MR.Const_TriPointd</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -248,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TriPointd</label>
+        <link refid="classMR_1_1Const__TriPointd"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -274,6 +275,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TriPointd</label>
+        <link refid="classMR_1_1Const__TriPointd"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -293,9 +295,30 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="661" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="662" bodyend="789"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__TriPointd_1afd11870332c4837c2c3ed0b2d0c2e234" prot="protected" virt="non-virtual"><scope>MR::TriPointd</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1ae3d248db9ad87d5f15f3f3e4c2415fbd" prot="protected" virt="non-virtual"><scope>MR::TriPointd</scope><name>__ref_storage_b</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a2d22de03db72eca67dc885a7acfc1f15" prot="protected" virt="non-virtual"><scope>MR::TriPointd</scope><name>__ref_storage_Eps</name></member>
       <member refid="classMR_1_1TriPointd_1a86e9de33f9d9df91af13451286bb484e" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>a</name></member>
       <member refid="classMR_1_1TriPointd_1ac1e27f961e82f1cbd55a4f15c4bd16cc" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>assign</name></member>
       <member refid="classMR_1_1TriPointd_1a059a93bd92686b9f2f25fbfe870617df" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a57ce2582f58933118ae954f222a87a3f" prot="package" virt="non-virtual"><scope>MR::TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a200abfd336daa239e36214b6c336d47b" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a2ce1a0a3c0b130fdce394a6ed8341273" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a1ed4c3bc08f4709dd6aebbc36ff8bdbc" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a1e2025ac6547541baa170563bd0574ae" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1ac3fe80cff9a135cd59e08dc989a8e773" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a9ad2358c5035b564ad932d669ec6efce" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a453acd5dddd16544384c3feb62188675" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1aaa67e90d1a7b80c6d13c400fbc5d075f" prot="protected" virt="virtual"><scope>MR::TriPointd</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a55abbc680ac2ff16bbb67225b7ad44f1" prot="public" virt="virtual"><scope>MR::TriPointd</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1aa131ca9457daca50c50ca5e3732c7f67" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>Eps</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a4d345fd2a12f2204f615797c360cdaf6" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a49308178467be8b956c72bbb6c0a5df1" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1aa88f07bd8c660dc7e6db59c87cf65477" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>inVertex</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a6de7ec4630d6060d7d56299838e7a02a" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>lnext</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a394d3135638a0bbb4ca04db1ace60dd5" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>onEdge</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1ae3a6ffc2f9ef66691210d8fd0758a32e" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a9f8ab2ee81aaf006feb7d7629d081c11" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>operator==</name></member>
       <member refid="classMR_1_1TriPointd_1a84e6675cdc7866d9e678b9899fcf96ab" prot="package" virt="non-virtual"><scope>MR::TriPointd</scope><name>TriPointd</name></member>
       <member refid="classMR_1_1TriPointd_1a153570704c94990c92c9fd7c551ef8a0" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>TriPointd</name></member>
       <member refid="classMR_1_1TriPointd_1aeec7cf26f64f1a04aed9d5c49ad79d37" prot="public" virt="non-virtual"><scope>MR::TriPointd</scope><name>TriPointd</name></member>

@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance" kind="class" language="C#" prot="public">
+    <compoundname>MR::Features::Const_MeasureResult::Distance</compoundname>
+    <basecompoundref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance" prot="public" virt="non-virtual">MR.Features.Const_MeasureResult.Const_Distance</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1ab611a46e015619ab7767d55bd8ecb6fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Features.Const_MeasureResult.Distance.distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Distance.distance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1554" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1554" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1afc15e24fa43ea2c144a8678efe0d08a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.Features.Const_MeasureResult.Distance.closestPointA</definition>
+        <argsstring></argsstring>
+        <name>closestPointA</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Distance.closestPointA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1556" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1556" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1a2aef90a7b4209736cead6b2c00c5e693" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.Features.Const_MeasureResult.Distance.closestPointB</definition>
+        <argsstring></argsstring>
+        <name>closestPointB</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Distance.closestPointB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1558" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1a63776962e23527460c820010bac85770" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1_1Features_1_1Const__MeasureResult_1a1695eaeaeb34bd746e9bfb7b150635c0" kindref="member">MR.Features.MeasureResult.Status</ref></type>
+        <definition>new unsafe ref MR.Features.MeasureResult.Status MR.Features.Const_MeasureResult.Distance.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Distance.status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1560" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1560" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1ab6920cbd6631967fd905647ab82f2e3b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Features.Const_MeasureResult.Distance.operator MR.Features.MeasureResult.BasicPart</definition>
+        <argsstring>(Distance self)</argsstring>
+        <name>operator MR.Features.MeasureResult.BasicPart</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Distance.operator MR.Features.MeasureResult.BasicPart</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance" kindref="compound">Distance</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1544" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1544" bodyend="1551"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1aad6a1fccbd01a9bd3cf38d1a2bae0177" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.Const_MeasureResult.Distance.Distance</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Distance</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Distance.Distance</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1564" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1564" bodyend="1568"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1af9ef97094715969cea959866a8f44435" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.Const_MeasureResult.Distance.Distance</definition>
+        <argsstring>()</argsstring>
+        <name>Distance</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Distance.Distance</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1574" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1574" bodyend="1580"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1a90955f7990f0b4b85599a485fc32f5f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.Const_MeasureResult.Distance.Distance</definition>
+        <argsstring>(MR.Features.MeasureResult.Const_Distance _other)</argsstring>
+        <name>Distance</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Distance.Distance</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance" kindref="compound">MR.Features.MeasureResult.Const_Distance</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Features::MeasureResult::Distance::Distance</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1585" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1585" bodyend="1592"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1ad028e4f9dc5f2f70fa64a16b5521c574" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Features.Const_MeasureResult.Distance.Distance</definition>
+        <argsstring>(Distance _other)</argsstring>
+        <name>Distance</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Distance.Distance</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance" kindref="compound">Distance</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Features::MeasureResult::Distance::Distance</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1597" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1597" bodyend="1597"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1a337e1bd55f1726c8f7a561ce8b40a663" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance" kindref="compound">MR.Features.MeasureResult.Distance</ref></type>
+        <definition>unsafe MR.Features.MeasureResult.Distance MR.Features.Const_MeasureResult.Distance.assign</definition>
+        <argsstring>(MR.Features.MeasureResult.Const_Distance _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Features.Const_MeasureResult.Distance.assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance" kindref="compound">MR.Features.MeasureResult.Const_Distance</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Features::MeasureResult::Distance::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1602" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1602" bodyend="1609"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance" kindref="compound">MR.Features.MeasureResult.Distance</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1_1BasicPart" kindref="compound">MR.Features.MeasureResult.BasicPart</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Features.Const_MeasureResult.Distance</label>
+        <link refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Features.Const_MeasureResult.Const_Distance</label>
+        <link refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Features.Const_MeasureResult.Distance</label>
+        <link refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Features.Const_MeasureResult.Const_Distance</label>
+        <link refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_closestPointA</edgelabel>
+          <edgelabel>__ref_storage_closestPointB</edgelabel>
+          <edgelabel>__ref_storage_status</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1541" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1542" bodyend="1610"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1a88e54e6570d05673a9c3f320f5efef00" prot="protected" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>__ref_storage_closestPointA</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1aef6f50cbdf699e4ccf45b8ed57340f28" prot="protected" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>__ref_storage_closestPointB</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1a4cd0e7a1dc90297497d37942f6a2d790" prot="protected" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>__ref_storage_distance</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1a9435e66ba018827ac6e680e56b79e4d8" prot="protected" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>__ref_storage_status</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1a337e1bd55f1726c8f7a561ce8b40a663" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>assign</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1afc15e24fa43ea2c144a8678efe0d08a1" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>closestPointA</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1a2aef90a7b4209736cead6b2c00c5e693" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>closestPointB</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1a08820d5d34321792350876b9be9d90f5" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>closestPointFor</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1a72705c46645ac6a69411f7717f6c9aca" prot="package" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>Const_Distance</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1af968cf07ccfed978f4bb759d3a2f2897" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>Const_Distance</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1a928da8ca736157b0e27d6f09a722dd87" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>Const_Distance</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1acca9feeacff8f355d1cddbf68ca440ec" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>Const_Distance</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1a3576573f14b9bbcb0a85d60d8a9b1a02" prot="protected" virt="virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1a876dd119ea003da777cee5ee5aeecf96" prot="public" virt="virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1aad6a1fccbd01a9bd3cf38d1a2bae0177" prot="package" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>Distance</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1af9ef97094715969cea959866a8f44435" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>Distance</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1a90955f7990f0b4b85599a485fc32f5f7" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>Distance</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1ad028e4f9dc5f2f70fa64a16b5521c574" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>Distance</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1ab611a46e015619ab7767d55bd8ecb6fa" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>distance</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1ae0c720c9cdb5c516f095f916bc3f292f" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>distanceAlongAxis</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1a553d6fb2736674c958fb01397e1db229" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>distanceAlongAxisAbs</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1aafb2cbff3afe89e1124d3b697b20593a" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1ab6920cbd6631967fd905647ab82f2e3b" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>operator MR.Features.MeasureResult.BasicPart</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Const__Distance_1afe5a7964b9cded8ce517a4bd54066b3f" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>operator MR.Features.MeasureResult.Const_BasicPart</name></member>
+      <member refid="classMR_1_1Features_1_1Const__MeasureResult_1_1Distance_1a63776962e23527460c820010bac85770" prot="public" virt="non-virtual"><scope>MR::Features::Const_MeasureResult::Distance</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

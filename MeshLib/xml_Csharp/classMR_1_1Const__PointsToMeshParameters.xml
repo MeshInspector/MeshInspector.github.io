@@ -1,0 +1,564 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PointsToMeshParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PointsToMeshParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PointsToMeshParameters" prot="public" virt="non-virtual">MR.PointsToMeshParameters</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__PointsToMeshParameters_1a24606ca9719318667282916a5abf6e4d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_PointsToMeshParameters.sigma</definition>
+        <argsstring></argsstring>
+        <name>sigma</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.sigma</qualifiedname>
+        <briefdescription>
+<para>it the distance of highest influence of a point; the maximal influence distance is 3*sigma; beyond that distance the influence is strictly zero </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="29" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PointsToMeshParameters_1a79464b89268dcf11dbcb17438e2c33bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_PointsToMeshParameters.minWeight</definition>
+        <argsstring></argsstring>
+        <name>minWeight</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.minWeight</qualifiedname>
+        <briefdescription>
+<para>minimum sum of influence weights from surrounding points for a triangle to appear, meaning that there shall be at least this number of points in close proximity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="35" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PointsToMeshParameters_1a95f75f5cf7a77640285fafebde2c8691" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_PointsToMeshParameters.invSigmaModifier</definition>
+        <argsstring></argsstring>
+        <name>invSigmaModifier</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.invSigmaModifier</qualifiedname>
+        <briefdescription>
+<para>coefficient used for weight calculation: e^(dist^2 * -invSigmaModifier * sigma^-2) values: (0;inf) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="42" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PointsToMeshParameters_1afbee2544b492d39c10a7a3165c521462" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_PointsToMeshParameters.sqrtAngleWeight</definition>
+        <argsstring></argsstring>
+        <name>sqrtAngleWeight</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.sqrtAngleWeight</qualifiedname>
+        <briefdescription>
+<para>changes the way point angle affects weight, by default it is linearly increasing with dot product if enabled - increasing as dot product^(0.5) (with respect to its sign) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="49" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PointsToMeshParameters_1a81a45e5f02f058b73797f7ccfdd50d15" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_PointsToMeshParameters.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.voxelSize</qualifiedname>
+        <briefdescription>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="56" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PointsToMeshParameters_1a9b3f1147074b1159218262902bd8686e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertColors" kindref="compound">Const_VertColors</ref></type>
+        <definition>unsafe MR.? Const_VertColors MR.Const_PointsToMeshParameters.ptColors</definition>
+        <argsstring></argsstring>
+        <name>ptColors</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.ptColors</qualifiedname>
+        <briefdescription>
+<para>optional input: colors of input points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="62" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="63" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PointsToMeshParameters_1aa15e40db3510276c96f8ced6b7d9715d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition>unsafe MR.? VertColors MR.Const_PointsToMeshParameters.vColors</definition>
+        <argsstring></argsstring>
+        <name>vColors</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.vColors</qualifiedname>
+        <briefdescription>
+<para>optional output: averaged colors of mesh vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="80" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="81" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PointsToMeshParameters_1a1b99cc62d1197b4aa8fd6b274166eae7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_PointsToMeshParameters.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.progress</qualifiedname>
+        <briefdescription>
+<para>Progress callback. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="98" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PointsToMeshParameters_1a38a31e932b5615f7587359cc76638036" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_ExpectedVoidStdString_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef_StdFunctionExpectedVoidStdStringFromConstMRSimpleVolumeMinMaxRefInt_Int</type>
+        <definition>unsafe MR.Std.Const_Function_ExpectedVoidStdString_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef_StdFunctionExpectedVoidStdStringFromConstMRSimpleVolumeMinMaxRefInt_Int MR.Const_PointsToMeshParameters.createVolumeCallbackByParts</definition>
+        <argsstring></argsstring>
+        <name>createVolumeCallbackByParts</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.createVolumeCallbackByParts</qualifiedname>
+        <briefdescription>
+<para>Callback for volume creation by parts. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function This callback takes precedence over createVolumeCallback. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="104" column="202" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PointsToMeshParameters_1a6c4781fd883c61c4a473f3de098aa8a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_ExpectedMRSimpleVolumeMinMaxStdString_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef</type>
+        <definition>unsafe MR.Std.Const_Function_ExpectedMRSimpleVolumeMinMaxStdString_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef MR.Const_PointsToMeshParameters.createVolumeCallback</definition>
+        <argsstring></argsstring>
+        <name>createVolumeCallback</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.createVolumeCallback</qualifiedname>
+        <briefdescription>
+<para>Callback for volume creation. If both volume creation functions are null - volume will be created with memory efficient pointsToDistanceFunctionVolume function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="109" column="146" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PointsToMeshParameters_1aae18caaa3bb9bd3240bf96ebd0e33706" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef MR.Const_PointsToMeshParameters.canCreateVolume</definition>
+        <argsstring></argsstring>
+        <name>canCreateVolume</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.canCreateVolume</qualifiedname>
+        <briefdescription>
+<para>Callback for checking whether it's possible to use the volume creation function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="114" column="113" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="114" bodyend="114"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__PointsToMeshParameters_1aea516f7af31fab0ae85180b2d1255a29" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_PointsToMeshParameters.__ref_storage_sigma</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_sigma</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.__ref_storage_sigma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="30" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__PointsToMeshParameters_1a570895ddb0b61ee6cb3910aa64399d1b" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_PointsToMeshParameters.__ref_storage_minWeight</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_minWeight</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.__ref_storage_minWeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="36" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__PointsToMeshParameters_1a68bcf06c1388ae807214164f0845a61e" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_PointsToMeshParameters.__ref_storage_invSigmaModifier</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_invSigmaModifier</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.__ref_storage_invSigmaModifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="43" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__PointsToMeshParameters_1a2010a4d4f929d6741af518f3fd2d9d12" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_PointsToMeshParameters.__ref_storage_sqrtAngleWeight</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_sqrtAngleWeight</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.__ref_storage_sqrtAngleWeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="50" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__PointsToMeshParameters_1af997c9525f603613e6ff75a1ea68735f" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_PointsToMeshParameters.__ref_storage_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_voxelSize</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.__ref_storage_voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="57" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__PointsToMeshParameters_1a90dfa0da91fd9bdc13cae8fb95297fd6" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertColors._Underlying **</type>
+        <definition>unsafe MR.Const_VertColors._Underlying** MR.Const_PointsToMeshParameters.__ptr_storage_ptColors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_ptColors</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.__ptr_storage_ptColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="75" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__PointsToMeshParameters_1abea44537a2af041fb153d19b1a429439" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.VertColors._Underlying **</type>
+        <definition>unsafe MR.VertColors._Underlying** MR.Const_PointsToMeshParameters.__ptr_storage_vColors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_vColors</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.__ptr_storage_vColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="93" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointsToMeshParameters_1ab36a60055785d5f5a6334ede750da8aa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_PointsToMeshParameters.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointsToMeshParameters_1a7d4171e271766fda1ab7246a621817c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_PointsToMeshParameters.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointsToMeshParameters_1a076346c0ea79f7b88195379911ebcf02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointsToMeshParameters.Const_PointsToMeshParameters</definition>
+        <argsstring>()</argsstring>
+        <name>Const_PointsToMeshParameters</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.Const_PointsToMeshParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="205" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="205" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointsToMeshParameters_1a817d7c1000024ae94237fc7d802176dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointsToMeshParameters.Const_PointsToMeshParameters</definition>
+        <argsstring>(float sigma, float minWeight, float invSigmaModifier, bool sqrtAngleWeight, float voxelSize, MR.Const_VertColors? ptColors, MR.VertColors? vColors, MR.Std._ByValue_Function_Bool_From_Float progress, MR.Std._ByValue_Function_ExpectedVoidStdString_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef_StdFunctionExpectedVoidStdStringFromConstMRSimpleVolumeMinMaxRefInt_Int createVolumeCallbackByParts, MR.Std._ByValue_Function_ExpectedMRSimpleVolumeMinMaxStdString_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef createVolumeCallback, MR.Std._ByValue_Function_Bool_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef canCreateVolume)</argsstring>
+        <name>Const_PointsToMeshParameters</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.Const_PointsToMeshParameters</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>sigma</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minWeight</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>invSigmaModifier</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sqrtAngleWeight</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertColors" kindref="compound">MR.Const_VertColors</ref>?</type>
+          <declname>ptColors</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref>?</type>
+          <declname>vColors</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>progress</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_ExpectedVoidStdString_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef_StdFunctionExpectedVoidStdStringFromConstMRSimpleVolumeMinMaxRefInt_Int</type>
+          <declname>createVolumeCallbackByParts</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_ExpectedMRSimpleVolumeMinMaxStdString_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef</type>
+          <declname>createVolumeCallback</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_ConstMRPointCloudRef_ConstMRPointsToDistanceVolumeParamsRef</type>
+          <declname>canCreateVolume</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PointsToMeshParameters" kindref="compound">MR.PointsToMeshParameters</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="216" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="216" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointsToMeshParameters_1ab79bd52781d94d37903c2d935409ec6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointsToMeshParameters.Const_PointsToMeshParameters</definition>
+        <argsstring>(MR._ByValue_PointsToMeshParameters _other)</argsstring>
+        <name>Const_PointsToMeshParameters</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.Const_PointsToMeshParameters</qualifiedname>
+        <param>
+          <type>MR._ByValue_PointsToMeshParameters</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsToMeshParameters_1a769a4608cfe2ade7419accaac40ea706" kindref="member">MR.PointsToMeshParameters.PointsToMeshParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="233" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="233" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointsToMeshParameters_1a0248e7c825803bab138e061fe38b2ed1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointsToMeshParameters.Const_PointsToMeshParameters</definition>
+        <argsstring>(Const_PointsToMeshParameters _other)</argsstring>
+        <name>Const_PointsToMeshParameters</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.Const_PointsToMeshParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointsToMeshParameters" kindref="compound">Const_PointsToMeshParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsToMeshParameters_1a769a4608cfe2ade7419accaac40ea706" kindref="member">MR.PointsToMeshParameters.PointsToMeshParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="245" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="245" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointsToMeshParameters_1a0538a1e85676e7a2ec4e43e28552850d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointsToMeshParameters.Const_PointsToMeshParameters</definition>
+        <argsstring>(PointsToMeshParameters _other)</argsstring>
+        <name>Const_PointsToMeshParameters</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.Const_PointsToMeshParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointsToMeshParameters" kindref="compound">PointsToMeshParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsToMeshParameters_1a769a4608cfe2ade7419accaac40ea706" kindref="member">MR.PointsToMeshParameters.PointsToMeshParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="250" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="250" bodyend="250"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointsToMeshParameters_1ab7859b2052c684b874a22a62eebcfc9e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointsToMeshParameters.~Const_PointsToMeshParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PointsToMeshParameters</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.~Const_PointsToMeshParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointsToMeshParameters_1a55bfdc7deaee77368e718b7955da8cdd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointsToMeshParameters.Const_PointsToMeshParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PointsToMeshParameters</name>
+        <qualifiedname>MR.Const_PointsToMeshParameters.Const_PointsToMeshParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="194" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="194" bodyend="199"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1PointsToMeshParameters" kindref="compound">MR.PointsToMeshParameters</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PointsToMeshParameters</label>
+        <link refid="classMR_1_1Const__PointsToMeshParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PointsToMeshParameters</label>
+        <link refid="classMR_1_1PointsToMeshParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_PointsToMeshParameters</label>
+        <link refid="classMR_1_1Const__PointsToMeshParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_ptColors</edgelabel>
+          <edgelabel>__ptr_storage_vColors</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToMeshFusion.cs" bodystart="8" bodyend="251"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a90dfa0da91fd9bdc13cae8fb95297fd6" prot="protected" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>__ptr_storage_ptColors</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1abea44537a2af041fb153d19b1a429439" prot="protected" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>__ptr_storage_vColors</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a68bcf06c1388ae807214164f0845a61e" prot="protected" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>__ref_storage_invSigmaModifier</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a570895ddb0b61ee6cb3910aa64399d1b" prot="protected" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>__ref_storage_minWeight</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1aea516f7af31fab0ae85180b2d1255a29" prot="protected" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>__ref_storage_sigma</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a2010a4d4f929d6741af518f3fd2d9d12" prot="protected" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>__ref_storage_sqrtAngleWeight</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1af997c9525f603613e6ff75a1ea68735f" prot="protected" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1aae18caaa3bb9bd3240bf96ebd0e33706" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>canCreateVolume</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a55bfdc7deaee77368e718b7955da8cdd" prot="package" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>Const_PointsToMeshParameters</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a076346c0ea79f7b88195379911ebcf02" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>Const_PointsToMeshParameters</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a817d7c1000024ae94237fc7d802176dc" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>Const_PointsToMeshParameters</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1ab79bd52781d94d37903c2d935409ec6a" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>Const_PointsToMeshParameters</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a0248e7c825803bab138e061fe38b2ed1" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>Const_PointsToMeshParameters</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a0538a1e85676e7a2ec4e43e28552850d" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>Const_PointsToMeshParameters</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a6c4781fd883c61c4a473f3de098aa8a3" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>createVolumeCallback</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a38a31e932b5615f7587359cc76638036" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>createVolumeCallbackByParts</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1ab36a60055785d5f5a6334ede750da8aa" prot="protected" virt="virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a7d4171e271766fda1ab7246a621817c9" prot="public" virt="virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a95f75f5cf7a77640285fafebde2c8691" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>invSigmaModifier</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a79464b89268dcf11dbcb17438e2c33bb" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>minWeight</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a1b99cc62d1197b4aa8fd6b274166eae7" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>progress</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a9b3f1147074b1159218262902bd8686e" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>ptColors</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a24606ca9719318667282916a5abf6e4d" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>sigma</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1afbee2544b492d39c10a7a3165c521462" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>sqrtAngleWeight</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1aa15e40db3510276c96f8ced6b7d9715d" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>vColors</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1a81a45e5f02f058b73797f7ccfdd50d15" prot="public" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>voxelSize</name></member>
+      <member refid="classMR_1_1Const__PointsToMeshParameters_1ab7859b2052c684b874a22a62eebcfc9e" prot="private" virt="non-virtual"><scope>MR::Const_PointsToMeshParameters</scope><name>~Const_PointsToMeshParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

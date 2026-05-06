@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ICPGroupPairs" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ICPGroupPairs</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ICPGroupPairs" prot="public" virt="non-virtual">MR.ICPGroupPairs</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ICPGroupPairs_1a10705d5e7c456457ca6ce35bb7ca2329" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRICPGroupPair</type>
+        <definition>unsafe MR.Std.Const_Vector_MRICPGroupPair MR.Const_ICPGroupPairs.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.vec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="357" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="357" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ICPGroupPairs_1a5a58f8505b0fca9ce10d92801ad2f4b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__BitSet" kindref="compound">MR.Const_BitSet</ref></type>
+        <definition>unsafe MR.Const_BitSet MR.Const_ICPGroupPairs.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.active</qualifiedname>
+        <briefdescription>
+<para>whether corresponding pair from vec must be considered during minimization </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="362" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="362" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ICPGroupPairs_1aa441977b3d0e959b89233885ded2fef0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__ICPPairData" kindref="compound">MR.Const_ICPPairData</ref></type>
+        <definition>unsafe MR.Const_ICPPairData MR.Const_ICPGroupPairs.this[ulong idx]</definition>
+        <argsstring></argsstring>
+        <name>this[ulong idx]</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.this[ulong idx]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ICPGroupPairs::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="430" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="431" bodyend="438"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ICPGroupPairs_1a5dcc0c47b41b49b7bbb664d76403c643" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ICPGroupPairs.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="323" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="323" bodyend="331"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ICPGroupPairs_1a4cacb225416bb54c231541976d1b619d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ICPGroupPairs.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="332" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="332" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ICPGroupPairs_1a14ab4ac889026677c2f8555fa12c0879" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ICPGroupPairs.Const_ICPGroupPairs</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ICPGroupPairs</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.Const_ICPGroupPairs</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="397" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="397" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ICPGroupPairs_1a24361bfac2d3929e1a2afc50b7c54f37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ICPGroupPairs.Const_ICPGroupPairs</definition>
+        <argsstring>(MR._ByValue_ICPGroupPairs _other)</argsstring>
+        <name>Const_ICPGroupPairs</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.Const_ICPGroupPairs</qualifiedname>
+        <param>
+          <type>MR._ByValue_ICPGroupPairs</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ICPGroupPairs_1aba428f719340e54cf566bb1dd4de4406" kindref="member">MR.ICPGroupPairs.ICPGroupPairs</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="408" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="408" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ICPGroupPairs_1a3985b9b418a13a6ad6ea6478b0360332" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ICPGroupPairs.Const_ICPGroupPairs</definition>
+        <argsstring>(Const_ICPGroupPairs _other)</argsstring>
+        <name>Const_ICPGroupPairs</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.Const_ICPGroupPairs</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ICPGroupPairs" kindref="compound">Const_ICPGroupPairs</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ICPGroupPairs_1aba428f719340e54cf566bb1dd4de4406" kindref="member">MR.ICPGroupPairs.ICPGroupPairs</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="420" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="420" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ICPGroupPairs_1ad7dcecac1587dc24ccc3bee2a5569831" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ICPGroupPairs.Const_ICPGroupPairs</definition>
+        <argsstring>(ICPGroupPairs _other)</argsstring>
+        <name>Const_ICPGroupPairs</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.Const_ICPGroupPairs</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ICPGroupPairs" kindref="compound">ICPGroupPairs</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ICPGroupPairs_1aba428f719340e54cf566bb1dd4de4406" kindref="member">MR.ICPGroupPairs.ICPGroupPairs</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="425" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="425" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ICPGroupPairs_1a54175d0fd405b2198574be161452b098" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ICPGroupPairs.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ICPGroupPairs_1a54175d0fd405b2198574be161452b098" kindref="member">MR.ICPGroupPairs.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="443" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="443" bodyend="448"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ICPGroupPairs_1af387076dfa86ffe63d2ca9a26260b04f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ICPGroupPairs.~Const_ICPGroupPairs</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ICPGroupPairs</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.~Const_ICPGroupPairs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="333" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="333" bodyend="333"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ICPGroupPairs_1ae035a81af0872704602f66c16e75dc94" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ICPGroupPairs.operator MR.Const_IPointPairs</definition>
+        <argsstring>(Const_ICPGroupPairs self)</argsstring>
+        <name>operator MR.Const_IPointPairs</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.operator MR.Const_IPointPairs</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ICPGroupPairs" kindref="compound">Const_ICPGroupPairs</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="336" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="336" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ICPGroupPairs_1ae566c2ceb0324c7075eb51242475a566" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ICPGroupPairs.operator Const_ICPGroupPairs?</definition>
+        <argsstring>(MR.Const_IPointPairs parent)</argsstring>
+        <name>operator Const_ICPGroupPairs?</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.operator Const_ICPGroupPairs?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__IPointPairs" kindref="compound">MR.Const_IPointPairs</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="346" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="346" bodyend="355"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ICPGroupPairs_1a07ca07b1bf16b7cf62f75ba496811f99" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ICPGroupPairs.Const_ICPGroupPairs</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ICPGroupPairs</name>
+        <qualifiedname>MR.Const_ICPGroupPairs.Const_ICPGroupPairs</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="386" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="386" bodyend="391"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1ICPGroupPairs" kindref="compound">MR.ICPGroupPairs</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1IPointPairs" kindref="compound">MR.IPointPairs</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ICPGroupPairs</label>
+        <link refid="classMR_1_1Const__ICPGroupPairs"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ICPGroupPairs</label>
+        <link refid="classMR_1_1ICPGroupPairs"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ICPGroupPairs</label>
+        <link refid="classMR_1_1Const__ICPGroupPairs"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="317" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="318" bodyend="449"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a5a58f8505b0fca9ce10d92801ad2f4b1" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>active</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a07ca07b1bf16b7cf62f75ba496811f99" prot="package" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>Const_ICPGroupPairs</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a14ab4ac889026677c2f8555fa12c0879" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>Const_ICPGroupPairs</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a24361bfac2d3929e1a2afc50b7c54f37" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>Const_ICPGroupPairs</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a3985b9b418a13a6ad6ea6478b0360332" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>Const_ICPGroupPairs</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1ad7dcecac1587dc24ccc3bee2a5569831" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>Const_ICPGroupPairs</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a5dcc0c47b41b49b7bbb664d76403c643" prot="protected" virt="virtual"><scope>MR::Const_ICPGroupPairs</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a4cacb225416bb54c231541976d1b619d" prot="public" virt="virtual"><scope>MR::Const_ICPGroupPairs</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1ae566c2ceb0324c7075eb51242475a566" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>operator Const_ICPGroupPairs?</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1ae035a81af0872704602f66c16e75dc94" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>operator MR.Const_IPointPairs</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a54175d0fd405b2198574be161452b098" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1aa441977b3d0e959b89233885ded2fef0" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>this[ulong idx]</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a10705d5e7c456457ca6ce35bb7ca2329" prot="public" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1af387076dfa86ffe63d2ca9a26260b04f" prot="private" virt="non-virtual"><scope>MR::Const_ICPGroupPairs</scope><name>~Const_ICPGroupPairs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

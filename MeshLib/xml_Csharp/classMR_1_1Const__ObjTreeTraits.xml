@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ObjTreeTraits" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ObjTreeTraits</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ObjTreeTraits" prot="public" virt="non-virtual">MR.ObjTreeTraits</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjTreeTraits_1a2aff82d719fd0e078b9da1324e1a1560" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ObjTreeTraits.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjTreeTraits.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjTreeTraits_1a9619def9f7b9be222fed2e25e7b8d329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ObjTreeTraits.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjTreeTraits.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjTreeTraits_1a1cd80cfa16cf74086d9df96dc398776e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjTreeTraits.Const_ObjTreeTraits</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ObjTreeTraits</name>
+        <qualifiedname>MR.Const_ObjTreeTraits.Const_ObjTreeTraits</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="30" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjTreeTraits_1ab692d1a4b6178419a00c344cbbd44db3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjTreeTraits.Const_ObjTreeTraits</definition>
+        <argsstring>(MR.Const_ObjTreeTraits _other)</argsstring>
+        <name>Const_ObjTreeTraits</name>
+        <qualifiedname>MR.Const_ObjTreeTraits.Const_ObjTreeTraits</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjTreeTraits" kindref="compound">MR.Const_ObjTreeTraits</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjTreeTraits_1a38cbc67c7dae6b4265157259fc7d6b8b" kindref="member">MR.ObjTreeTraits.ObjTreeTraits</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="40" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjTreeTraits_1a08ffa7ad018f3fdec2c13d55d5688e9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjTreeTraits.Const_ObjTreeTraits</definition>
+        <argsstring>(ObjTreeTraits _other)</argsstring>
+        <name>Const_ObjTreeTraits</name>
+        <qualifiedname>MR.Const_ObjTreeTraits.Const_ObjTreeTraits</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjTreeTraits" kindref="compound">ObjTreeTraits</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjTreeTraits_1a38cbc67c7dae6b4265157259fc7d6b8b" kindref="member">MR.ObjTreeTraits.ObjTreeTraits</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="51" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjTreeTraits_1a2d57145b33bd301916182485b89a0169" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjTreeTraits.~Const_ObjTreeTraits</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ObjTreeTraits</name>
+        <qualifiedname>MR.Const_ObjTreeTraits.~Const_ObjTreeTraits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjTreeTraits_1a3799673ef8b8e63fbb2c23e4d4fd48fe" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjTreeTraits.Const_ObjTreeTraits</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ObjTreeTraits</name>
+        <qualifiedname>MR.Const_ObjTreeTraits.Const_ObjTreeTraits</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="25" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ObjTreeTraits</label>
+        <link refid="classMR_1_1Const__ObjTreeTraits"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ObjTreeTraits</label>
+        <link refid="classMR_1_1ObjTreeTraits"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ObjTreeTraits</label>
+        <link refid="classMR_1_1Const__ObjTreeTraits"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeObjects.cs" bodystart="8" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ObjTreeTraits_1a3799673ef8b8e63fbb2c23e4d4fd48fe" prot="package" virt="non-virtual"><scope>MR::Const_ObjTreeTraits</scope><name>Const_ObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__ObjTreeTraits_1a1cd80cfa16cf74086d9df96dc398776e" prot="public" virt="non-virtual"><scope>MR::Const_ObjTreeTraits</scope><name>Const_ObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__ObjTreeTraits_1ab692d1a4b6178419a00c344cbbd44db3" prot="public" virt="non-virtual"><scope>MR::Const_ObjTreeTraits</scope><name>Const_ObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__ObjTreeTraits_1a08ffa7ad018f3fdec2c13d55d5688e9f" prot="public" virt="non-virtual"><scope>MR::Const_ObjTreeTraits</scope><name>Const_ObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__ObjTreeTraits_1a2aff82d719fd0e078b9da1324e1a1560" prot="protected" virt="virtual"><scope>MR::Const_ObjTreeTraits</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjTreeTraits_1a9619def9f7b9be222fed2e25e7b8d329" prot="public" virt="virtual"><scope>MR::Const_ObjTreeTraits</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjTreeTraits_1a2d57145b33bd301916182485b89a0169" prot="private" virt="non-virtual"><scope>MR::Const_ObjTreeTraits</scope><name>~Const_ObjTreeTraits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

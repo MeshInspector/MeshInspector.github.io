@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vert2RegionMap" kind="class" language="C#" prot="public">
     <compoundname>MR::Vert2RegionMap</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vert2RegionMap</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vert2RegionMap" prot="public" virt="non-virtual">MR.Const_Vert2RegionMap</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vert2RegionMap_1a440a5fb152ebc63347e56eb3cfa5c828" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>Vert2RegionMap</name>
         <qualifiedname>MR.Vert2RegionMap.Vert2RegionMap</qualifiedname>
         <param>
-          <type>Const_Vert2RegionMap</type>
+          <type><ref refid="classMR_1_1Const__Vert2RegionMap" kindref="compound">Const_Vert2RegionMap</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -176,7 +176,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Vert2RegionMap_1ad9e7fdafc35f9420ace43fd12e0e2470" kindref="member">MR.Vert2RegionMap.Vert2RegionMap</ref></computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Vert2RegionMap_1ad9e7fdafc35f9420ace43fd12e0e2470" kindref="member">MR.Vert2RegionMap.Vert2RegionMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -473,7 +473,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.Vert2RegionMap.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vert2RegionMap::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vert2RegionMap::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -598,7 +598,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Vert2RegionMap_1ad9e7fdafc35f9420ace43fd12e0e2470" kindref="member">MR.Vert2RegionMap.Vert2RegionMap</ref></computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Vert2RegionMap_1ad9e7fdafc35f9420ace43fd12e0e2470" kindref="member">MR.Vert2RegionMap.Vert2RegionMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -608,7 +608,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -644,6 +644,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vert2RegionMap</label>
+        <link refid="classMR_1_1Const__Vert2RegionMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -677,6 +678,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vert2RegionMap</label>
+        <link refid="classMR_1_1Const__Vert2RegionMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -703,13 +705,34 @@
       <member refid="classMR_1_1Vert2RegionMap_1a305482170aa0b6bc2ef3ffebc396f71b" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1afed62ed7bc4815df071c97da96298863" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1a287b1d843402464884baa37b2ec85950" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a78fb005686ed4aaccab622bc70fff2b3" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1abe0f74032475f960a3fcd8d864579fc4" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1aa303007f1d7307afe3de7beda820aa83" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1afae84f98d3467631a9cac9e246a654af" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1ae3253bca925b4c28d84033604a29338a" prot="package" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a61e9f73643b060ebf1fd8733dd06eabb" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a3a31db115cfedfc5332b972a366146e1" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1ae2468f6d9d1c719dc06d40d2e05c63f4" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a92bf8829e04428599ca9e19988eb5d58" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1ae1a9f4b04389e8c568069769b073279d" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1afec471f85c594f7f835d43486a2a0757" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1aff4b0c13cd0b55bafe78c2d649f200d5" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>Const_Vert2RegionMap</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1a2219b86617f4fa6c1a0ba66188856b4e" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a28c78ae417b4f9aa0c5a36308679fdd9" prot="protected" virt="virtual"><scope>MR::Vert2RegionMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1aa861ace69e0e1d5a1a9f672e956acf54" prot="public" virt="virtual"><scope>MR::Vert2RegionMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1aa29e43ff3e811856a4a707509314c42d" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a472c963bc5906ab5a5765a044e5ee9a2" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a95387dd436b98824b7a34ee7b9a8dd56" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1ab5ea2d55a1d21594c32260ccc5057a59" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1ac360d5b33c05e4baf014c4daa06ea3b2" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>Equals</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1a71b8ea80c8bf14deb67c0cc0942c402c" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>front</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1a64ecc3d5b3dedf04c67d467c646dce78" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1ae88e69839002135f2383214811894a5a" prot="private" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1ac1d1c3406d710208fe8c8d3e5592f3c7" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a0fb35da63485b19cf1cd626a7ea10277" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>operator Const_Vert2RegionMap</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1a96fc7a7041e10cd9a775d42382693d11" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>operator Vert2RegionMap</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1af6e2832b5f9918fcf1579ae8e2725bd4" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a2d9715626e9ce67314595c28265ecd8a" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>operator==</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1a4d000067c8d4a9940bd39c9e5e925350" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1a546c571c57970839007716aa56b3f1fa" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1a9b37a259b13c167d0317ed8aeeadc78e" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>pushBack</name></member>
@@ -719,6 +742,7 @@
       <member refid="classMR_1_1Vert2RegionMap_1a6fe922e570aad31841284ad553b036fa" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>resizeNoInit</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1a40cd9e7aac9d41b3a4c5fa580006086c" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1ad72d8c7ffcbfd3083727e405635303c4" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vert2RegionMap_1a95abea9ba4d4c86d6e81d54065496e34" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>size</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1af2cc547b3c80d3a6db6567afdade2e8d" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>swap</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1a98db06ae61d585180adaa5fd679bd9e1" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>this[MR.VertId i]</name></member>
       <member refid="classMR_1_1Vert2RegionMap_1a440a5fb152ebc63347e56eb3cfa5c828" prot="public" virt="non-virtual"><scope>MR::Vert2RegionMap</scope><name>vec</name></member>

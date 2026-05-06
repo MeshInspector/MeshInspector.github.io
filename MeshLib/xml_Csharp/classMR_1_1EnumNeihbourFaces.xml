@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EnumNeihbourFaces" kind="class" language="C#" prot="public">
     <compoundname>MR::EnumNeihbourFaces</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_EnumNeihbourFaces</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__EnumNeihbourFaces" prot="public" virt="non-virtual">MR.Const_EnumNeihbourFaces</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1EnumNeihbourFaces_1a28ebc6ae5629fb142a0ea0209625967a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>EnumNeihbourFaces</name>
         <qualifiedname>MR.EnumNeihbourFaces.EnumNeihbourFaces</qualifiedname>
         <param>
-          <type>Const_EnumNeihbourFaces</type>
+          <type><ref refid="classMR_1_1Const__EnumNeihbourFaces" kindref="compound">Const_EnumNeihbourFaces</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -126,7 +126,7 @@
         <name>run</name>
         <qualifiedname>MR.EnumNeihbourFaces.run</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
@@ -172,6 +172,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EnumNeihbourFaces</label>
+        <link refid="classMR_1_1Const__EnumNeihbourFaces"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -193,6 +194,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EnumNeihbourFaces</label>
+        <link refid="classMR_1_1Const__EnumNeihbourFaces"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -208,6 +210,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnumNeighbours.cs" line="259" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREnumNeighbours.cs" bodystart="260" bodyend="317"/>
     <listofallmembers>
       <member refid="classMR_1_1EnumNeihbourFaces_1aa2ea9a6c83ba274120ef4f7373f3741b" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourFaces_1a40da6643746b3c138ac30f67f99889c1" prot="package" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>Const_EnumNeihbourFaces</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourFaces_1a03c34473dec0ee94c98bb2ff578d8246" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>Const_EnumNeihbourFaces</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourFaces_1a9b6e22f0d7fa08d8547a5b0c79c77d3c" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>Const_EnumNeihbourFaces</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourFaces_1a7b14f1020bb42d1e12bbf59209aac898" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>Const_EnumNeihbourFaces</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourFaces_1a2bb9f2c9ea783fe0a2684d0b7c49bcd7" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>Const_EnumNeihbourFaces</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourFaces_1a8802cdc4c4264d6adbffe5cfffe8703d" prot="protected" virt="virtual"><scope>MR::EnumNeihbourFaces</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EnumNeihbourFaces_1a39216769e22c187ae53af688c4e4af71" prot="public" virt="virtual"><scope>MR::EnumNeihbourFaces</scope><name>Dispose</name></member>
       <member refid="classMR_1_1EnumNeihbourFaces_1a28ebc6ae5629fb142a0ea0209625967a" prot="package" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>EnumNeihbourFaces</name></member>
       <member refid="classMR_1_1EnumNeihbourFaces_1a4d66ae6b3cff12deb3116e3f18b606c4" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>EnumNeihbourFaces</name></member>
       <member refid="classMR_1_1EnumNeihbourFaces_1a927859269b9ba49c974531e1c6a83f5d" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>EnumNeihbourFaces</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DistanceToMeshOptions" kind="class" language="C#" prot="public">
     <compoundname>MR::DistanceToMeshOptions</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DistanceToMeshOptions</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DistanceToMeshOptions" prot="public" virt="non-virtual">MR.Const_DistanceToMeshOptions</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DistanceToMeshOptions_1a377d695db35ca7dd3bb0649a8893c424" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -41,7 +41,7 @@
         <name>nullOutsideMinMax</name>
         <qualifiedname>MR.DistanceToMeshOptions.nullOutsideMinMax</qualifiedname>
         <briefdescription>
-<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&amp;lt;float&amp;gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here </para>
+<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -162,7 +162,7 @@
         <name>DistanceToMeshOptions</name>
         <qualifiedname>MR.DistanceToMeshOptions.DistanceToMeshOptions</qualifiedname>
         <param>
-          <type>MR.Const_DistanceToMeshOptions</type>
+          <type><ref refid="classMR_1_1Const__DistanceToMeshOptions" kindref="compound">MR.Const_DistanceToMeshOptions</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -200,7 +200,7 @@
         <name>assign</name>
         <qualifiedname>MR.DistanceToMeshOptions.assign</qualifiedname>
         <param>
-          <type>MR.Const_DistanceToMeshOptions</type>
+          <type><ref refid="classMR_1_1Const__DistanceToMeshOptions" kindref="compound">MR.Const_DistanceToMeshOptions</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -227,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DistanceToMeshOptions</label>
+        <link refid="classMR_1_1Const__DistanceToMeshOptions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -248,6 +249,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DistanceToMeshOptions</label>
+        <link refid="classMR_1_1Const__DistanceToMeshOptions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -262,7 +264,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" line="160" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceToMeshOptions.cs" bodystart="161" bodyend="253"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DistanceToMeshOptions_1aca1e0c1049b4590e37958cc89b391092" prot="protected" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>__ref_storage_maxDistSq</name></member>
+      <member refid="classMR_1_1Const__DistanceToMeshOptions_1add84d0f1da763e42d71dc232daf3209d" prot="protected" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>__ref_storage_minDistSq</name></member>
+      <member refid="classMR_1_1Const__DistanceToMeshOptions_1aa8c756a75bf8756c64c0bb9fe9a5a0c3" prot="protected" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>__ref_storage_nullOutsideMinMax</name></member>
+      <member refid="classMR_1_1Const__DistanceToMeshOptions_1a661f350b6c9a25613c5bb787876c35da" prot="protected" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>__ref_storage_windingNumberBeta</name></member>
+      <member refid="classMR_1_1Const__DistanceToMeshOptions_1a2b9895544709a0ca66f9847ffc12b358" prot="protected" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>__ref_storage_windingNumberThreshold</name></member>
       <member refid="classMR_1_1DistanceToMeshOptions_1a9459969d674d56605f27bfebee9a9e4d" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__DistanceToMeshOptions_1adcecc714e86e396106050106a5c44348" prot="package" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>Const_DistanceToMeshOptions</name></member>
+      <member refid="classMR_1_1Const__DistanceToMeshOptions_1a68c1f198bc65538f0aed4f0401ccd32a" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>Const_DistanceToMeshOptions</name></member>
+      <member refid="classMR_1_1Const__DistanceToMeshOptions_1a3ee0c8c34e766a8104ff7677ff899899" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>Const_DistanceToMeshOptions</name></member>
+      <member refid="classMR_1_1Const__DistanceToMeshOptions_1a99ba440754fd69e4f49ae37a170eeedc" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>Const_DistanceToMeshOptions</name></member>
+      <member refid="classMR_1_1Const__DistanceToMeshOptions_1a170aa7992f98a25b416f14fe515376ca" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>Const_DistanceToMeshOptions</name></member>
+      <member refid="classMR_1_1Const__DistanceToMeshOptions_1a3b9d67766f5cf51e1c20e6b06bdc36cb" prot="protected" virt="virtual"><scope>MR::DistanceToMeshOptions</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DistanceToMeshOptions_1a79cb23f65839d8cc4c77c31f174a3205" prot="public" virt="virtual"><scope>MR::DistanceToMeshOptions</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DistanceToMeshOptions_1a2dc7934d558dce81455b52e445a59c12" prot="package" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>DistanceToMeshOptions</name></member>
       <member refid="classMR_1_1DistanceToMeshOptions_1a83c896dde991be5581aec91d7981a31c" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>DistanceToMeshOptions</name></member>
       <member refid="classMR_1_1DistanceToMeshOptions_1a51bc359b20d8f117af6beb0d45d0a511" prot="public" virt="non-virtual"><scope>MR::DistanceToMeshOptions</scope><name>DistanceToMeshOptions</name></member>

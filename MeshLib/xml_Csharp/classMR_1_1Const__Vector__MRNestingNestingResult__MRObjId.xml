@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Vector_MRNestingNestingResult_MRObjId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId" prot="public" virt="non-virtual">MR.Vector_MRNestingNestingResult_MRObjId</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a8a4a2faca841581d5482078cfe0d45a4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRNestingNestingResult</type>
+        <definition>unsafe MR.Std.Const_Vector_MRNestingNestingResult MR.Const_Vector_MRNestingNestingResult_MRObjId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48059" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48059" bodyend="48059"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a7f8c6a28c8c648eb1af4c570460667cb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Nesting_1_1Const__NestingResult" kindref="compound">MR.Nesting.Const_NestingResult</ref></type>
+        <definition>unsafe MR.Nesting.Const_NestingResult MR.Const_Vector_MRNestingNestingResult_MRObjId.this[MR.ObjId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.ObjId i]</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.this[MR.ObjId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48194" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48195" bodyend="48205"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ab38972734510f57df27a840a28be553c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Vector_MRNestingNestingResult_MRObjId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47980" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47980" bodyend="47988"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1adc9d75272bf7db1983c915131203218d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Vector_MRNestingNestingResult_MRObjId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47989" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47989" bodyend="47989"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a7e07916302983c300641600ffcb4c2ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="classMR_1_1Nesting_1_1Const__NestingResult" kindref="compound">MR.Nesting.Const_NestingResult</ref> &gt;</type>
+        <definition>IEnumerator&lt; MR.Nesting.Const_NestingResult &gt; MR.Const_Vector_MRNestingNestingResult_MRObjId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48046" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48046" bodyend="48049"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a96dfa28a515b29f1110d9104dbd08a66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Vector_MRNestingNestingResult_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48087" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48087" bodyend="48093"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a4b6b26ea340bcb783fbaf33200e13b4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</definition>
+        <argsstring>(MR._ByValue_Vector_MRNestingNestingResult_MRObjId _other)</argsstring>
+        <name>Const_Vector_MRNestingNestingResult_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRNestingNestingResult_MRObjId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48098" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48098" bodyend="48105"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1af294b905aff5df076aa1916f18804edb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</definition>
+        <argsstring>(Const_Vector_MRNestingNestingResult_MRObjId _other)</argsstring>
+        <name>Const_Vector_MRNestingNestingResult_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId" kindref="compound">Const_Vector_MRNestingNestingResult_MRObjId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48110" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48110" bodyend="48110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aef2e9d10488c3f0f56950bde11628b7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</definition>
+        <argsstring>(Vector_MRNestingNestingResult_MRObjId _other)</argsstring>
+        <name>Const_Vector_MRNestingNestingResult_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId" kindref="compound">Vector_MRNestingNestingResult_MRObjId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48115" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48115" bodyend="48115"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ad0b13528758e8fd19596e1277ce33a67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Vector_MRNestingNestingResult_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48121" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48121" bodyend="48127"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aec8235cc239f07be8952236204cdf766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</definition>
+        <argsstring>(ulong size, MR.Nesting.Const_NestingResult val)</argsstring>
+        <name>Const_Vector_MRNestingNestingResult_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingResult" kindref="compound">MR.Nesting.Const_NestingResult</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48133" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48133" bodyend="48140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ab9a517ee9d92111b0f0ef579b86b407e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRNestingNestingResult &gt; vec)</argsstring>
+        <name>Const_Vector_MRNestingNestingResult_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRNestingNestingResult &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48146" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48146" bodyend="48153"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1acf34b2ad7056873abff278952aba7481" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Vector_MRNestingNestingResult_MRObjId.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1acf34b2ad7056873abff278952aba7481" kindref="member">empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48164" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48164" bodyend="48169"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a5af6b07876e6cbe0390bbafb4e087634" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRNestingNestingResult_MRObjId.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a5af6b07876e6cbe0390bbafb4e087634" kindref="member">size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48174" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48174" bodyend="48179"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ac064f71a6274dc0b4b309b1b065e28f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRNestingNestingResult_MRObjId.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ac064f71a6274dc0b4b309b1b065e28f5" kindref="member">capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48184" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48184" bodyend="48189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ac5635fef1794facae818ecf64c0d97c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Nesting_1_1Const__NestingResult" kindref="compound">MR.Nesting.Const_NestingResult</ref></type>
+        <definition>unsafe MR.Nesting.Const_NestingResult MR.Const_Vector_MRNestingNestingResult_MRObjId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ac5635fef1794facae818ecf64c0d97c6" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48210" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48210" bodyend="48218"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aa3ec8452c92371e9ee5d1553e25c8270" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Nesting_1_1Const__NestingResult" kindref="compound">MR.Nesting.Const_NestingResult</ref></type>
+        <definition>unsafe MR.Nesting.Const_NestingResult MR.Const_Vector_MRNestingNestingResult_MRObjId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aa3ec8452c92371e9ee5d1553e25c8270" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48223" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48223" bodyend="48231"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a79ce9927b9c99a41d0be41ea610cf51c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+        <definition>unsafe MR.ObjId MR.Const_Vector_MRNestingNestingResult_MRObjId.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a79ce9927b9c99a41d0be41ea610cf51c" kindref="member">beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48237" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48237" bodyend="48242"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1af23c8ec41d5e31cc03ea7eb4f8f9d5e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+        <definition>unsafe MR.ObjId MR.Const_Vector_MRNestingNestingResult_MRObjId.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aa3ec8452c92371e9ee5d1553e25c8270" kindref="member">back()</ref> element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1af23c8ec41d5e31cc03ea7eb4f8f9d5e4" kindref="member">backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48248" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48248" bodyend="48253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aa187f19308c9b35dd2bcd398848052fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+        <definition>unsafe MR.ObjId MR.Const_Vector_MRNestingNestingResult_MRObjId.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1af23c8ec41d5e31cc03ea7eb4f8f9d5e4" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aa187f19308c9b35dd2bcd398848052fc" kindref="member">endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48259" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48259" bodyend="48264"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a84f4728537ff93f98ee03236a5c00ab0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Nesting.? Const_NestingResult</type>
+        <definition>unsafe MR.Nesting.? Const_NestingResult MR.Const_Vector_MRNestingNestingResult_MRObjId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a84f4728537ff93f98ee03236a5c00ab0" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48269" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48269" bodyend="48278"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a8ff17febd3fbefe71b449c0c33b887f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRNestingNestingResult_MRObjId.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a8ff17febd3fbefe71b449c0c33b887f8" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48284" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48284" bodyend="48289"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a0c08623efb50aebc02eb40bbf552189d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRNestingNestingResult_MRObjId.~Const_Vector_MRNestingNestingResult_MRObjId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Vector_MRNestingNestingResult_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.~Const_Vector_MRNestingNestingResult_MRObjId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47990" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47990" bodyend="47990"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aef55a9dab4b6cb3e90158ae1df821826" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Vector_MRNestingNestingResult_MRObjId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48051" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48051" bodyend="48054"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a4366453b27b13f471ec49ef658550247" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Vector_MRNestingNestingResult_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.Const_Vector_MRNestingNestingResult_MRObjId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48076" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48076" bodyend="48081"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a0795c47ddf95a634a366ab0a1603937a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Vector_MRNestingNestingResult_MRObjId.operator Const_Vector_MRNestingNestingResult_MRObjId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRNestingNestingResult &gt; vec)</argsstring>
+        <name>operator Const_Vector_MRNestingNestingResult_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRNestingNestingResult_MRObjId.operator Const_Vector_MRNestingNestingResult_MRObjId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRNestingNestingResult &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="48159" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="48159" bodyend="48159"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1Nesting_1_1NestingResult" kindref="compound">MR.Nesting.NestingResult</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRNestingNestingResult_MRObjId</label>
+        <link refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.Vector_MRNestingNestingResult_MRObjId</label>
+        <link refid="classMR_1_1Vector__MRNestingNestingResult__MRObjId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRNestingNestingResult_MRObjId</label>
+        <link refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="47974" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="47975" bodyend="48290"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aa3ec8452c92371e9ee5d1553e25c8270" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1af23c8ec41d5e31cc03ea7eb4f8f9d5e4" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a79ce9927b9c99a41d0be41ea610cf51c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ac064f71a6274dc0b4b309b1b065e28f5" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a4366453b27b13f471ec49ef658550247" prot="package" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a96dfa28a515b29f1110d9104dbd08a66" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a4b6b26ea340bcb783fbaf33200e13b4a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1af294b905aff5df076aa1916f18804edb" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aef2e9d10488c3f0f56950bde11628b7b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ad0b13528758e8fd19596e1277ce33a67" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aec8235cc239f07be8952236204cdf766" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ab9a517ee9d92111b0f0ef579b86b407e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a84f4728537ff93f98ee03236a5c00ab0" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ab38972734510f57df27a840a28be553c" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1adc9d75272bf7db1983c915131203218d" prot="public" virt="virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1acf34b2ad7056873abff278952aba7481" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aa187f19308c9b35dd2bcd398848052fc" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1ac5635fef1794facae818ecf64c0d97c6" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a7e07916302983c300641600ffcb4c2ea" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1aef55a9dab4b6cb3e90158ae1df821826" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a8ff17febd3fbefe71b449c0c33b887f8" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a0795c47ddf95a634a366ab0a1603937a" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>operator Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a5af6b07876e6cbe0390bbafb4e087634" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a7f8c6a28c8c648eb1af4c570460667cb" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>this[MR.ObjId i]</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a8a4a2faca841581d5482078cfe0d45a4" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__Vector__MRNestingNestingResult__MRObjId_1a0c08623efb50aebc02eb40bbf552189d" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRNestingNestingResult_MRObjId</scope><name>~Const_Vector_MRNestingNestingResult_MRObjId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeMeshPointsAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeMeshPointsAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeMeshPointsAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeMeshPointsAction" prot="public" virt="non-virtual">MR.Const_ChangeMeshPointsAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeMeshPointsAction_1a75bccb9502f9d6d3025d0ee2240b891d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeMeshPointsAction</name>
         <qualifiedname>MR.ChangeMeshPointsAction.ChangeMeshPointsAction</qualifiedname>
         <param>
-          <type>Const_ChangeMeshPointsAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeMeshPointsAction" kindref="compound">Const_ChangeMeshPointsAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeMeshPointsAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeMeshPointsAction</label>
+        <link refid="classMR_1_1Const__ChangeMeshPointsAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeMeshPointsAction</label>
+        <link refid="classMR_1_1Const__ChangeMeshPointsAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,8 +271,23 @@
       <member refid="classMR_1_1ChangeMeshPointsAction_1a5a6bc73ef8b88ecf7f814910854552d1" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>ChangeMeshPointsAction</name></member>
       <member refid="classMR_1_1ChangeMeshPointsAction_1ab809dc3220a4363bf51d18415c53d1d2" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>ChangeMeshPointsAction</name></member>
       <member refid="classMR_1_1ChangeMeshPointsAction_1a555ad51ae3fcb4cd53218f4752d7f580" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>ChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a6ad621f7b535966904eccc46bb92ca65" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>clonePoints</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a1d5933118b634023ee576d5f5549b3dd" prot="package" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>Const_ChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a96eb78cc966a9f5c366562c8a4c93ad6" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>Const_ChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a0d1ace096a55ee107044923afc6b0778" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>Const_ChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1ae6af4d0f7db2cd3d2463629cff4be796" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>Const_ChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1af8914ca59e78561c6d15e5b148493036" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>Const_ChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a1afcabb05a3eac7288e9f206583aa462" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>Const_ChangeMeshPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a2b92bee1dc7b5b0efa45361fd13a70fb" prot="protected" virt="virtual"><scope>MR::ChangeMeshPointsAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a0d16291a77a84a862a59fe84016d4b17" prot="public" virt="virtual"><scope>MR::ChangeMeshPointsAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1ab3624761d0bed1af1a186f40fcd0f4e7" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a8c09d3e3a196a548ac0b428dd79c63be" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1aa700e82081da80a964f62f771984c0d1" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>obj</name></member>
       <member refid="classMR_1_1ChangeMeshPointsAction_1a745171a27f6263765022db2cc4c970a9" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>operator ChangeMeshPointsAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a3336060e43dcc886f94f101d76d45437" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>operator Const_ChangeMeshPointsAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1ae991ab344b4744811985247d61ce70d2" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeMeshPointsAction_1a75bccb9502f9d6d3025d0ee2240b891d" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshPointsAction_1a1908a05d8947226d7dc814c6143a508a" prot="public" virt="non-virtual"><scope>MR::ChangeMeshPointsAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

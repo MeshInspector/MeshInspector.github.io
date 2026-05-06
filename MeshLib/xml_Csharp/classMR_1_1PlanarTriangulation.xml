@@ -3,6 +3,10 @@
   <compounddef id="classMR_1_1PlanarTriangulation" kind="class" language="C#" prot="public">
     <compoundname>MR::PlanarTriangulation</compoundname>
     <innerclass refid="classMR_1_1PlanarTriangulation_1_1BaseOutlineParameters" prot="public">MR::PlanarTriangulation::BaseOutlineParameters</innerclass>
+    <innerclass refid="classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters" prot="public">MR::PlanarTriangulation::Const_BaseOutlineParameters</innerclass>
+    <innerclass refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo" prot="public">MR::PlanarTriangulation::Const_IntersectionInfo</innerclass>
+    <innerclass refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionsMap" prot="public">MR::PlanarTriangulation::Const_IntersectionsMap</innerclass>
+    <innerclass refid="classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters" prot="public">MR::PlanarTriangulation::Const_OutlineParameters</innerclass>
     <innerclass refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo" prot="public">MR::PlanarTriangulation::IntersectionInfo</innerclass>
     <innerclass refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap" prot="public">MR::PlanarTriangulation::IntersectionsMap</innerclass>
     <innerclass refid="classMR_1_1PlanarTriangulation_1_1OutlineParameters" prot="public">MR::PlanarTriangulation::OutlineParameters</innerclass>
@@ -53,7 +57,7 @@
         <name>findHoleVertIdsByHoleEdges</name>
         <qualifiedname>MR.PlanarTriangulation.findHoleVertIdsByHoleEdges</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>tp</declname>
         </param>
         <param>
@@ -85,7 +89,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.PlanarTriangulation.Const_BaseOutlineParameters?</type>
+          <type><ref refid="classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters" kindref="compound">MR.PlanarTriangulation.Const_BaseOutlineParameters</ref>?</type>
           <declname>params_</declname>
           <defval>null</defval>
         </param>
@@ -114,7 +118,7 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.PlanarTriangulation.Const_BaseOutlineParameters?</type>
+          <type><ref refid="classMR_1_1PlanarTriangulation_1_1Const__BaseOutlineParameters" kindref="compound">MR.PlanarTriangulation.Const_BaseOutlineParameters</ref>?</type>
           <declname>params_</declname>
           <defval>null</defval>
         </param>
@@ -138,7 +142,7 @@
           <declname>contours</declname>
         </param>
         <param>
-          <type>MR.PlanarTriangulation.Const_OutlineParameters?</type>
+          <type><ref refid="classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters" kindref="compound">MR.PlanarTriangulation.Const_OutlineParameters</ref>?</type>
           <declname>params_</declname>
           <defval>null</defval>
         </param>
@@ -162,7 +166,7 @@
           <declname>contours</declname>
         </param>
         <param>
-          <type>MR.PlanarTriangulation.Const_OutlineParameters?</type>
+          <type><ref refid="classMR_1_1PlanarTriangulation_1_1Const__OutlineParameters" kindref="compound">MR.PlanarTriangulation.Const_OutlineParameters</ref>?</type>
           <declname>params_</declname>
           <defval>null</defval>
         </param>
@@ -276,7 +280,7 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>std::optional&amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;gt; : if some contours intersect return false, otherwise return created mesh Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1a9ea2e6b6957cb821ab256a4d93b4879e" kindref="member">MR.PlanarTriangulation.triangulateDisjointContours</ref></computeroutput>. </para>
+<simplesect kind="return"><para>std::optional&lt;<ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref>&gt; : if some contours intersect return false, otherwise return created mesh Generated from function <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1a9ea2e6b6957cb821ab256a4d93b4879e" kindref="member">MR.PlanarTriangulation.triangulateDisjointContours</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>

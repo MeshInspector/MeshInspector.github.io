@@ -111,6 +111,24 @@ var annotated_dup =
       [ "LinesSave", "namespaceMR_1_1LinesSave.html", [
         [ "LinesSaver", "structMR_1_1LinesSave_1_1LinesSaver.html", "structMR_1_1LinesSave_1_1LinesSaver" ]
       ] ],
+      [ "Mcp", "namespaceMR_1_1Mcp.html", [
+        [ "Schema", "namespaceMR_1_1Mcp_1_1Schema.html", [
+          [ "Array", "structMR_1_1Mcp_1_1Schema_1_1Array.html", "structMR_1_1Mcp_1_1Schema_1_1Array" ],
+          [ "Base", "structMR_1_1Mcp_1_1Schema_1_1Base.html", "structMR_1_1Mcp_1_1Schema_1_1Base" ],
+          [ "Bool", "structMR_1_1Mcp_1_1Schema_1_1Bool.html", "structMR_1_1Mcp_1_1Schema_1_1Bool" ],
+          [ "Number", "structMR_1_1Mcp_1_1Schema_1_1Number.html", "structMR_1_1Mcp_1_1Schema_1_1Number" ],
+          [ "Object", "structMR_1_1Mcp_1_1Schema_1_1Object.html", "structMR_1_1Mcp_1_1Schema_1_1Object" ],
+          [ "String", "structMR_1_1Mcp_1_1Schema_1_1String.html", "structMR_1_1Mcp_1_1Schema_1_1String" ]
+        ] ],
+        [ "Server", "classMR_1_1Mcp_1_1Server.html", "classMR_1_1Mcp_1_1Server" ]
+      ] ],
+      [ "McpGateway", "namespaceMR_1_1McpGateway.html", [
+        [ "Config", "structMR_1_1McpGateway_1_1Config.html", "structMR_1_1McpGateway_1_1Config" ],
+        [ "MLClientTransport", "classMR_1_1McpGateway_1_1MLClientTransport.html", "classMR_1_1McpGateway_1_1MLClientTransport" ]
+      ] ],
+      [ "McpSettings", "namespaceMR_1_1McpSettings.html", [
+        [ "CmdLineOverrides", "structMR_1_1McpSettings_1_1CmdLineOverrides.html", "structMR_1_1McpSettings_1_1CmdLineOverrides" ]
+      ] ],
       [ "MeshBuilder", "namespaceMR_1_1MeshBuilder.html", [
         [ "BuildSettings", "structMR_1_1MeshBuilder_1_1BuildSettings.html", "structMR_1_1MeshBuilder_1_1BuildSettings" ],
         [ "equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", "structMR_1_1MeshBuilder_1_1equalVector3f" ],
@@ -249,12 +267,17 @@ var annotated_dup =
       ] ],
       [ "UI", "namespaceMR_1_1UI.html", [
         [ "TestEngine", "namespaceMR_1_1UI_1_1TestEngine.html", [
+          [ "Control", "namespaceMR_1_1UI_1_1TestEngine_1_1Control.html", [
+            [ "TypedEntry", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry" ],
+            [ "Value", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" ]
+          ] ],
           [ "detail", "namespaceMR_1_1UI_1_1TestEngine_1_1detail.html", [
             [ "BoundedValue", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue" ],
             [ "UnderlyingValueTypeHelper", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1UnderlyingValueTypeHelper.html", null ]
           ] ],
           [ "ButtonEntry", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ButtonEntry" ],
           [ "Entry", "structMR_1_1UI_1_1TestEngine_1_1Entry.html", "structMR_1_1UI_1_1TestEngine_1_1Entry" ],
+          [ "EntryAttributes", "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html", "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" ],
           [ "GroupEntry", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry" ],
           [ "ValueEntry", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry" ]
         ] ],
@@ -441,6 +464,7 @@ var annotated_dup =
       [ "DentalId", "classMR_1_1DentalId.html", "classMR_1_1DentalId" ],
       [ "DepthPeelingGL", "classMR_1_1DepthPeelingGL.html", "classMR_1_1DepthPeelingGL" ],
       [ "DetectTunnelSettings", "structMR_1_1DetectTunnelSettings.html", "structMR_1_1DetectTunnelSettings" ],
+      [ "DihedralAngleProcessParams", "structMR_1_1DihedralAngleProcessParams.html", "structMR_1_1DihedralAngleProcessParams" ],
       [ "Dipole", "structMR_1_1Dipole.html", "structMR_1_1Dipole" ],
       [ "DirectionWidget", "classMR_1_1DirectionWidget.html", "classMR_1_1DirectionWidget" ],
       [ "Directory", "structMR_1_1Directory.html", "structMR_1_1Directory" ],
@@ -637,6 +661,7 @@ var annotated_dup =
       [ "MeshAttributesToUpdate", "structMR_1_1MeshAttributesToUpdate.html", "structMR_1_1MeshAttributesToUpdate" ],
       [ "MeshDiff", "classMR_1_1MeshDiff.html", "classMR_1_1MeshDiff" ],
       [ "MeshEqualizeTriAreasParams", "structMR_1_1MeshEqualizeTriAreasParams.html", "structMR_1_1MeshEqualizeTriAreasParams" ],
+      [ "MeshFromVoxelsPostProcessingParams", "structMR_1_1MeshFromVoxelsPostProcessingParams.html", "structMR_1_1MeshFromVoxelsPostProcessingParams" ],
       [ "MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", "structMR_1_1MeshIntersectionResult" ],
       [ "MeshLoadSettings", "structMR_1_1MeshLoadSettings.html", "structMR_1_1MeshLoadSettings" ],
       [ "MeshMeshConverter", "structMR_1_1MeshMeshConverter.html", "structMR_1_1MeshMeshConverter" ],
@@ -849,6 +874,7 @@ var annotated_dup =
       [ "RecentFilesStore", "classMR_1_1RecentFilesStore.html", "classMR_1_1RecentFilesStore" ],
       [ "RectIndexer", "classMR_1_1RectIndexer.html", "classMR_1_1RectIndexer" ],
       [ "RedoMenuItem", "classMR_1_1RedoMenuItem.html", "classMR_1_1RedoMenuItem" ],
+      [ "ReduceTotalAngleParams", "structMR_1_1ReduceTotalAngleParams.html", "structMR_1_1ReduceTotalAngleParams" ],
       [ "RefineParameters", "structMR_1_1RefineParameters.html", "structMR_1_1RefineParameters" ],
       [ "RegisterRenderObjectConstructor", "classMR_1_1RegisterRenderObjectConstructor.html", "classMR_1_1RegisterRenderObjectConstructor" ],
       [ "RegularMapMesher", "classMR_1_1RegularMapMesher.html", "classMR_1_1RegularMapMesher" ],
@@ -1110,7 +1136,10 @@ var annotated_dup =
       [ "WriteRawTiffParams", "structMR_1_1WriteRawTiffParams.html", "structMR_1_1WriteRawTiffParams" ],
       [ "XfBasedCache", "classMR_1_1XfBasedCache.html", "classMR_1_1XfBasedCache" ],
       [ "ZCompensateParams", "structMR_1_1ZCompensateParams.html", "structMR_1_1ZCompensateParams" ],
-      [ "ZeroOnMove", "structMR_1_1ZeroOnMove.html", "structMR_1_1ZeroOnMove" ]
+      [ "ZeroOnMove", "structMR_1_1ZeroOnMove.html", "structMR_1_1ZeroOnMove" ],
+      [ "ZlibCompressParams", "structMR_1_1ZlibCompressParams.html", "structMR_1_1ZlibCompressParams" ],
+      [ "ZlibCompressStats", "structMR_1_1ZlibCompressStats.html", "structMR_1_1ZlibCompressStats" ],
+      [ "ZlibParams", "structMR_1_1ZlibParams.html", "structMR_1_1ZlibParams" ]
     ] ],
     [ "PythonStreamRedirector", "classPythonStreamRedirector.html", "classPythonStreamRedirector" ]
 ];

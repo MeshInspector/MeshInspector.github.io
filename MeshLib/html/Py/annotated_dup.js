@@ -206,6 +206,7 @@ var annotated_dup =
       [ "DentalId", "classmrmeshpy_1_1DentalId.html", "classmrmeshpy_1_1DentalId" ],
       [ "DepthFunction", "classmrmeshpy_1_1DepthFunction.html", "classmrmeshpy_1_1DepthFunction" ],
       [ "DetectTunnelSettings", "classmrmeshpy_1_1DetectTunnelSettings.html", "classmrmeshpy_1_1DetectTunnelSettings" ],
+      [ "DihedralAngleProcessParams", "classmrmeshpy_1_1DihedralAngleProcessParams.html", "classmrmeshpy_1_1DihedralAngleProcessParams" ],
       [ "DimensionsVisualizePropertyType", "classmrmeshpy_1_1DimensionsVisualizePropertyType.html", "classmrmeshpy_1_1DimensionsVisualizePropertyType" ],
       [ "Dipole", "classmrmeshpy_1_1Dipole.html", "classmrmeshpy_1_1Dipole" ],
       [ "Dipoles", "classmrmeshpy_1_1Dipoles.html", "classmrmeshpy_1_1Dipoles" ],
@@ -476,6 +477,7 @@ var annotated_dup =
       [ "LoadedObjectT_ObjectPoints", "classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html", "classmrmeshpy_1_1LoadedObjectT__ObjectPoints" ],
       [ "LoadedObjectT_ObjectVoxels", "classmrmeshpy_1_1LoadedObjectT__ObjectVoxels.html", "classmrmeshpy_1_1LoadedObjectT__ObjectVoxels" ],
       [ "Locale", "classmrmeshpy_1_1Locale.html", null ],
+      [ "LocaleDomainId", "classmrmeshpy_1_1LocaleDomainId.html", "classmrmeshpy_1_1LocaleDomainId" ],
       [ "MakeBridgeResult", "classmrmeshpy_1_1MakeBridgeResult.html", "classmrmeshpy_1_1MakeBridgeResult" ],
       [ "MakeDegenerateBandAroundRegionParams", "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html", "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams" ],
       [ "MakeSignedByWindingNumberSettings", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html", "classmrmeshpy_1_1MakeSignedByWindingNumberSettings" ],
@@ -519,6 +521,7 @@ var annotated_dup =
       [ "MeshComponents", "classmrmeshpy_1_1MeshComponents.html", "classmrmeshpy_1_1MeshComponents" ],
       [ "MeshDiff", "classmrmeshpy_1_1MeshDiff.html", "classmrmeshpy_1_1MeshDiff" ],
       [ "MeshEqualizeTriAreasParams", "classmrmeshpy_1_1MeshEqualizeTriAreasParams.html", "classmrmeshpy_1_1MeshEqualizeTriAreasParams" ],
+      [ "MeshFromVoxelsPostProcessingParams", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams" ],
       [ "MeshIntersectionResult", "classmrmeshpy_1_1MeshIntersectionResult.html", "classmrmeshpy_1_1MeshIntersectionResult" ],
       [ "MeshLoad", "classmrmeshpy_1_1MeshLoad.html", "classmrmeshpy_1_1MeshLoad" ],
       [ "MeshLoadSettings", "classmrmeshpy_1_1MeshLoadSettings.html", "classmrmeshpy_1_1MeshLoadSettings" ],
@@ -785,6 +788,7 @@ var annotated_dup =
       [ "RayOrigin_float", "classmrmeshpy_1_1RayOrigin__float.html", "classmrmeshpy_1_1RayOrigin__float" ],
       [ "RebuildMeshSettings", "classmrmeshpy_1_1RebuildMeshSettings.html", "classmrmeshpy_1_1RebuildMeshSettings" ],
       [ "RectIndexer", "classmrmeshpy_1_1RectIndexer.html", "classmrmeshpy_1_1RectIndexer" ],
+      [ "ReduceTotalAngleParams", "classmrmeshpy_1_1ReduceTotalAngleParams.html", "classmrmeshpy_1_1ReduceTotalAngleParams" ],
       [ "RefineParameters", "classmrmeshpy_1_1RefineParameters.html", "classmrmeshpy_1_1RefineParameters" ],
       [ "RegionBitSet", "classmrmeshpy_1_1RegionBitSet.html", "classmrmeshpy_1_1RegionBitSet" ],
       [ "RegionId", "classmrmeshpy_1_1RegionId.html", "classmrmeshpy_1_1RegionId" ],
@@ -1274,7 +1278,10 @@ var annotated_dup =
       [ "WriteRawTiffParams", "classmrmeshpy_1_1WriteRawTiffParams.html", "classmrmeshpy_1_1WriteRawTiffParams" ],
       [ "XfBasedCache_Box3f", "classmrmeshpy_1_1XfBasedCache__Box3f.html", "classmrmeshpy_1_1XfBasedCache__Box3f" ],
       [ "ZCompensateParams", "classmrmeshpy_1_1ZCompensateParams.html", "classmrmeshpy_1_1ZCompensateParams" ],
-      [ "ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", "classmrmeshpy_1_1ZeroOnMove__unsigned__long" ]
+      [ "ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", "classmrmeshpy_1_1ZeroOnMove__unsigned__long" ],
+      [ "ZlibCompressParams", "classmrmeshpy_1_1ZlibCompressParams.html", "classmrmeshpy_1_1ZlibCompressParams" ],
+      [ "ZlibCompressStats", "classmrmeshpy_1_1ZlibCompressStats.html", "classmrmeshpy_1_1ZlibCompressStats" ],
+      [ "ZlibParams", "classmrmeshpy_1_1ZlibParams.html", "classmrmeshpy_1_1ZlibParams" ]
     ] ],
     [ "mrviewerpy", "namespacemrviewerpy.html", [
       [ "KeyMod", "classmrviewerpy_1_1KeyMod.html", "classmrviewerpy_1_1KeyMod" ],

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SplineSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::SplineSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SplineSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SplineSettings" prot="public" virt="non-virtual">MR.Const_SplineSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SplineSettings_1a6fc0337aa9c76397dc44f9b33728f7b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -162,7 +162,7 @@
         <name>SplineSettings</name>
         <qualifiedname>MR.SplineSettings.SplineSettings</qualifiedname>
         <param>
-          <type>MR.Const_SplineSettings</type>
+          <type><ref refid="classMR_1_1Const__SplineSettings" kindref="compound">MR.Const_SplineSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -200,7 +200,7 @@
         <name>assign</name>
         <qualifiedname>MR.SplineSettings.assign</qualifiedname>
         <param>
-          <type>MR.Const_SplineSettings</type>
+          <type><ref refid="classMR_1_1Const__SplineSettings" kindref="compound">MR.Const_SplineSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -227,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SplineSettings</label>
+        <link refid="classMR_1_1Const__SplineSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -240,6 +241,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SplineSettings</label>
         <link refid="classMR_1_1SplineSettings"/>
@@ -248,9 +253,13 @@
       </node>
       <node id="2">
         <label>MR.Const_SplineSettings</label>
+        <link refid="classMR_1_1Const__SplineSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_normals</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -262,8 +271,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="426" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="427" bodyend="526"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SplineSettings_1aca669ca035951a9b6d9871ff3689ef87" prot="protected" virt="non-virtual"><scope>MR::SplineSettings</scope><name>__ptr_storage_normals</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a94d416785df829aa19205571d8877084" prot="protected" virt="non-virtual"><scope>MR::SplineSettings</scope><name>__ref_storage_controlStability</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1aa5e9f30b9235de84049f0d6ba0d4edfb" prot="protected" virt="non-virtual"><scope>MR::SplineSettings</scope><name>__ref_storage_iterations</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a044269d252d9a5b82f84bf7594db18dd" prot="protected" virt="non-virtual"><scope>MR::SplineSettings</scope><name>__ref_storage_normalsAffectShape</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a13ef134431c42cee548d26fd3fee1994" prot="protected" virt="non-virtual"><scope>MR::SplineSettings</scope><name>__ref_storage_samplingStep</name></member>
       <member refid="classMR_1_1SplineSettings_1a3534c65de78e3b99c8303dee9a380bee" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1ae036f5b044d5425d180730352f89bf32" prot="package" virt="non-virtual"><scope>MR::SplineSettings</scope><name>Const_SplineSettings</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a9e83eeb2d727b4400a0c6c8b8f907500" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>Const_SplineSettings</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a2e48fc6992f07a582af7244851559e90" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>Const_SplineSettings</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a95dd56ce407fa6eed372fa3ec1943acc" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>Const_SplineSettings</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1aea424aa5d833b9d08b50da1fa57355bd" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>Const_SplineSettings</name></member>
       <member refid="classMR_1_1SplineSettings_1ac7b67b2b0ad9abf82296eac7ebc2dc01" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>controlStability</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a12786783a8e7b1e42f500af37261f447" prot="protected" virt="virtual"><scope>MR::SplineSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a1e0367d32d2df1deb77284cfc8a1bcec" prot="public" virt="virtual"><scope>MR::SplineSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SplineSettings_1a1db69d1c397c5f5d0ea6a9657d00342b" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>iterations</name></member>
       <member refid="classMR_1_1SplineSettings_1acd47e5981765d598bc1df9f48ff40424" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>normals</name></member>
       <member refid="classMR_1_1SplineSettings_1af4ce04eeca57df7b3d750330b95de7f7" prot="public" virt="non-virtual"><scope>MR::SplineSettings</scope><name>normalsAffectShape</name></member>

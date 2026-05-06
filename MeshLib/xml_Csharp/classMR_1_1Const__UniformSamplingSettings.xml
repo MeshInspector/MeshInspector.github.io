@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__UniformSamplingSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_UniformSamplingSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1UniformSamplingSettings" prot="public" virt="non-virtual">MR.UniformSamplingSettings</derivedcompoundref>
+    <innerclass refid="structMR_1_1Const__UniformSamplingSettings_1_1__Underlying" prot="package">MR::Const_UniformSamplingSettings::_Underlying</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__UniformSamplingSettings_1ac4ce8187c4fb00d8118c9f81b584fe86" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_UniformSamplingSettings.distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.distance</qualifiedname>
+        <briefdescription>
+<para>minimal distance between samples </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="28" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__UniformSamplingSettings_1ab17034cb55cbff26615cbc6208cc5454" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_UniformSamplingSettings.minNormalDot</definition>
+        <argsstring></argsstring>
+        <name>minNormalDot</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.minNormalDot</qualifiedname>
+        <briefdescription>
+<para>if point cloud has normals then automatically decreases local distance to make sure that all points inside have absolute normal dot product not less than this value; this is to make sampling denser in the regions of high curvature; value &lt;=0 means ignore normals; value &gt;=1 means select all points (practically useless) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="37" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__UniformSamplingSettings_1a5fb05e2851c565d4663fcfa39b1515b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_UniformSamplingSettings.lexicographicalOrder</definition>
+        <argsstring></argsstring>
+        <name>lexicographicalOrder</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.lexicographicalOrder</qualifiedname>
+        <briefdescription>
+<para>if true process the points in lexicographical order, which gives tighter and more uniform samples; if false process the points according to their ids, which is faster </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="44" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__UniformSamplingSettings_1a7c27dfa81f7136e37a24755f9aaf69f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertCoords" kindref="compound">Const_VertCoords</ref></type>
+        <definition>unsafe MR.? Const_VertCoords MR.Const_UniformSamplingSettings.pNormals</definition>
+        <argsstring></argsstring>
+        <name>pNormals</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.pNormals</qualifiedname>
+        <briefdescription>
+<para>if not nullptr then these normals will be used during sampling instead of normals in the cloud itself </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="50" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="51" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__UniformSamplingSettings_1a35c9af4165143a41985a2895f67334b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_UniformSamplingSettings.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.progress</qualifiedname>
+        <briefdescription>
+<para>to report progress and cancel processing </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="68" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="68" bodyend="68"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__UniformSamplingSettings_1a26fe205c86e4135f8f95c94e96457f9b" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_UniformSamplingSettings.__ref_storage_distance</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_distance</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.__ref_storage_distance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="29" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__UniformSamplingSettings_1a973bbc424f510160bf913bdde08e59de" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_UniformSamplingSettings.__ref_storage_minNormalDot</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_minNormalDot</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.__ref_storage_minNormalDot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="38" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__UniformSamplingSettings_1a226a0f2908fa7330e570d9a7fa4b3d26" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_UniformSamplingSettings.__ref_storage_lexicographicalOrder</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_lexicographicalOrder</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.__ref_storage_lexicographicalOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="45" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__UniformSamplingSettings_1a82e60de6008227c9001f31e1bf8dd684" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertCoords._Underlying **</type>
+        <definition>unsafe MR.Const_VertCoords._Underlying** MR.Const_UniformSamplingSettings.__ptr_storage_pNormals</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_pNormals</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.__ptr_storage_pNormals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="63" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__UniformSamplingSettings_1a8da64fe1e5248a061b92f1fd7d7d6e3b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_UniformSamplingSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__UniformSamplingSettings_1a748c08aff42122564e39195263c5b012" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_UniformSamplingSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniformSamplingSettings_1a09dea335dbc5359dcb207be062516b6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UniformSamplingSettings.Const_UniformSamplingSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_UniformSamplingSettings</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.Const_UniformSamplingSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="120" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="120" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniformSamplingSettings_1a55fcef7785bfa6d01444ef51f60c42f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UniformSamplingSettings.Const_UniformSamplingSettings</definition>
+        <argsstring>(float distance, float minNormalDot, bool lexicographicalOrder, MR.Const_VertCoords? pNormals, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
+        <name>Const_UniformSamplingSettings</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.Const_UniformSamplingSettings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minNormalDot</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>lexicographicalOrder</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref>?</type>
+          <declname>pNormals</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1UniformSamplingSettings" kindref="compound">MR.UniformSamplingSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="131" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="131" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniformSamplingSettings_1a161b792bb4b5b0b62a9baf9446648b31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UniformSamplingSettings.Const_UniformSamplingSettings</definition>
+        <argsstring>(MR._ByValue_UniformSamplingSettings _other)</argsstring>
+        <name>Const_UniformSamplingSettings</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.Const_UniformSamplingSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_UniformSamplingSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniformSamplingSettings_1a3045ea3f4884c106ab5978240bf0bf52" kindref="member">MR.UniformSamplingSettings.UniformSamplingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="144" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="144" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniformSamplingSettings_1a3548b33e1abf0543a2b4e54eb84bc2d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UniformSamplingSettings.Const_UniformSamplingSettings</definition>
+        <argsstring>(Const_UniformSamplingSettings _other)</argsstring>
+        <name>Const_UniformSamplingSettings</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.Const_UniformSamplingSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UniformSamplingSettings" kindref="compound">Const_UniformSamplingSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniformSamplingSettings_1a3045ea3f4884c106ab5978240bf0bf52" kindref="member">MR.UniformSamplingSettings.UniformSamplingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="156" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniformSamplingSettings_1ad911ab2f34c577b61f1555f25af16ce0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UniformSamplingSettings.Const_UniformSamplingSettings</definition>
+        <argsstring>(UniformSamplingSettings _other)</argsstring>
+        <name>Const_UniformSamplingSettings</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.Const_UniformSamplingSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UniformSamplingSettings" kindref="compound">UniformSamplingSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniformSamplingSettings_1a3045ea3f4884c106ab5978240bf0bf52" kindref="member">MR.UniformSamplingSettings.UniformSamplingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="161" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="161" bodyend="161"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__UniformSamplingSettings_1a4836854a33a9da3f02f889f4ce2b8b8b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UniformSamplingSettings.~Const_UniformSamplingSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_UniformSamplingSettings</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.~Const_UniformSamplingSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__UniformSamplingSettings_1a0d13112614201d8ff016cb56d0600dee" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UniformSamplingSettings.Const_UniformSamplingSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_UniformSamplingSettings</name>
+        <qualifiedname>MR.Const_UniformSamplingSettings.Const_UniformSamplingSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="109" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="109" bodyend="114"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1UniformSamplingSettings" kindref="compound">MR.UniformSamplingSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_UniformSamplingSettings</label>
+        <link refid="classMR_1_1Const__UniformSamplingSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.UniformSamplingSettings</label>
+        <link refid="classMR_1_1UniformSamplingSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_UniformSamplingSettings</label>
+        <link refid="classMR_1_1Const__UniformSamplingSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_pNormals</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniformSampling.cs" bodystart="8" bodyend="162"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a82e60de6008227c9001f31e1bf8dd684" prot="protected" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>__ptr_storage_pNormals</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a26fe205c86e4135f8f95c94e96457f9b" prot="protected" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>__ref_storage_distance</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a226a0f2908fa7330e570d9a7fa4b3d26" prot="protected" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>__ref_storage_lexicographicalOrder</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a973bbc424f510160bf913bdde08e59de" prot="protected" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>__ref_storage_minNormalDot</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a0d13112614201d8ff016cb56d0600dee" prot="package" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>Const_UniformSamplingSettings</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a09dea335dbc5359dcb207be062516b6a" prot="public" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>Const_UniformSamplingSettings</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a55fcef7785bfa6d01444ef51f60c42f9" prot="public" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>Const_UniformSamplingSettings</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a161b792bb4b5b0b62a9baf9446648b31" prot="public" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>Const_UniformSamplingSettings</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a3548b33e1abf0543a2b4e54eb84bc2d8" prot="public" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>Const_UniformSamplingSettings</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1ad911ab2f34c577b61f1555f25af16ce0" prot="public" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>Const_UniformSamplingSettings</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a8da64fe1e5248a061b92f1fd7d7d6e3b" prot="protected" virt="virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a748c08aff42122564e39195263c5b012" prot="public" virt="virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1ac4ce8187c4fb00d8118c9f81b584fe86" prot="public" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>distance</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a5fb05e2851c565d4663fcfa39b1515b6" prot="public" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>lexicographicalOrder</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1ab17034cb55cbff26615cbc6208cc5454" prot="public" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>minNormalDot</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a7c27dfa81f7136e37a24755f9aaf69f7" prot="public" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>pNormals</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a35c9af4165143a41985a2895f67334b2" prot="public" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1Const__UniformSamplingSettings_1a4836854a33a9da3f02f889f4ce2b8b8b" prot="private" virt="non-virtual"><scope>MR::Const_UniformSamplingSettings</scope><name>~Const_UniformSamplingSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

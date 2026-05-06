@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__XfBasedCache__MRBox3f" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_XfBasedCache_MRBox3f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1XfBasedCache__MRBox3f" prot="public" virt="non-virtual">MR.XfBasedCache_MRBox3f</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__XfBasedCache__MRBox3f_1acfd1ec937703456325070517ea344b20" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_XfBasedCache_MRBox3f.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_XfBasedCache_MRBox3f.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__XfBasedCache__MRBox3f_1aec6bf653fff6540b474c1b49af5d6b8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_XfBasedCache_MRBox3f.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_XfBasedCache_MRBox3f.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__XfBasedCache__MRBox3f_1a444bbd28fdf7fbd236f7db95cab81629" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_XfBasedCache_MRBox3f.Const_XfBasedCache_MRBox3f</definition>
+        <argsstring>()</argsstring>
+        <name>Const_XfBasedCache_MRBox3f</name>
+        <qualifiedname>MR.Const_XfBasedCache_MRBox3f.Const_XfBasedCache_MRBox3f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" line="31" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__XfBasedCache__MRBox3f_1ad20754cb02609a7882e6e912f632f918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_XfBasedCache_MRBox3f.Const_XfBasedCache_MRBox3f</definition>
+        <argsstring>(MR.Const_XfBasedCache_MRBox3f _other)</argsstring>
+        <name>Const_XfBasedCache_MRBox3f</name>
+        <qualifiedname>MR.Const_XfBasedCache_MRBox3f.Const_XfBasedCache_MRBox3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__XfBasedCache__MRBox3f" kindref="compound">MR.Const_XfBasedCache_MRBox3f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::XfBasedCache&amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;::XfBasedCache</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" line="41" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__XfBasedCache__MRBox3f_1ae8fc22adf1d3662fa4a5b10b795102a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_XfBasedCache_MRBox3f.Const_XfBasedCache_MRBox3f</definition>
+        <argsstring>(XfBasedCache_MRBox3f _other)</argsstring>
+        <name>Const_XfBasedCache_MRBox3f</name>
+        <qualifiedname>MR.Const_XfBasedCache_MRBox3f.Const_XfBasedCache_MRBox3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1XfBasedCache__MRBox3f" kindref="compound">XfBasedCache_MRBox3f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::XfBasedCache&amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;::XfBasedCache</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" line="52" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__XfBasedCache__MRBox3f_1abb351ae52191a94c922db6bf03f567a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Optional_MRBox3f</type>
+        <definition>unsafe MR.Std.Const_Optional_MRBox3f MR.Const_XfBasedCache_MRBox3f.get</definition>
+        <argsstring>(in MR.AffineXf3f xf)</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.Const_XfBasedCache_MRBox3f.get</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>returns stored object only if requested transformation is the same as stored one Generated from method <computeroutput>MR::XfBasedCache&amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;<ref refid="classMR_1_1Const__XfBasedCache__MRBox3f_1abb351ae52191a94c922db6bf03f567a5" kindref="member">get</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" line="58" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" bodystart="58" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__XfBasedCache__MRBox3f_1a17a12eb693682af2714d155b6938b2a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_XfBasedCache_MRBox3f.~Const_XfBasedCache_MRBox3f</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_XfBasedCache_MRBox3f</name>
+        <qualifiedname>MR.Const_XfBasedCache_MRBox3f.~Const_XfBasedCache_MRBox3f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__XfBasedCache__MRBox3f_1a0f025338fb635dd0fc542e436e6e2105" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_XfBasedCache_MRBox3f.Const_XfBasedCache_MRBox3f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_XfBasedCache_MRBox3f</name>
+        <qualifiedname>MR.Const_XfBasedCache_MRBox3f.Const_XfBasedCache_MRBox3f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" line="26" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>optional T-object container, which stores a transformation as well for which the object is valid Generated from class <computeroutput>MR::XfBasedCache&amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_XfBasedCache_MRBox3f</label>
+        <link refid="classMR_1_1Const__XfBasedCache__MRBox3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.XfBasedCache_MRBox3f</label>
+        <link refid="classMR_1_1XfBasedCache__MRBox3f"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_XfBasedCache_MRBox3f</label>
+        <link refid="classMR_1_1Const__XfBasedCache__MRBox3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" bodystart="9" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1a0f025338fb635dd0fc542e436e6e2105" prot="package" virt="non-virtual"><scope>MR::Const_XfBasedCache_MRBox3f</scope><name>Const_XfBasedCache_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1a444bbd28fdf7fbd236f7db95cab81629" prot="public" virt="non-virtual"><scope>MR::Const_XfBasedCache_MRBox3f</scope><name>Const_XfBasedCache_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1ad20754cb02609a7882e6e912f632f918" prot="public" virt="non-virtual"><scope>MR::Const_XfBasedCache_MRBox3f</scope><name>Const_XfBasedCache_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1ae8fc22adf1d3662fa4a5b10b795102a8" prot="public" virt="non-virtual"><scope>MR::Const_XfBasedCache_MRBox3f</scope><name>Const_XfBasedCache_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1acfd1ec937703456325070517ea344b20" prot="protected" virt="virtual"><scope>MR::Const_XfBasedCache_MRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1aec6bf653fff6540b474c1b49af5d6b8a" prot="public" virt="virtual"><scope>MR::Const_XfBasedCache_MRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1abb351ae52191a94c922db6bf03f567a5" prot="public" virt="non-virtual"><scope>MR::Const_XfBasedCache_MRBox3f</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1a17a12eb693682af2714d155b6938b2a4" prot="private" virt="non-virtual"><scope>MR::Const_XfBasedCache_MRBox3f</scope><name>~Const_XfBasedCache_MRBox3f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

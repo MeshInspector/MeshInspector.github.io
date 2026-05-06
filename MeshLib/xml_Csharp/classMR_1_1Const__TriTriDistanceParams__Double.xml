@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__TriTriDistanceParams__Double" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_TriTriDistanceParams_Double</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1TriTriDistanceParams__Double" prot="public" virt="non-virtual">MR.TriTriDistanceParams_Double</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__TriTriDistanceParams__Double_1a56ee18c85121d5116b417fbc7f054558" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_TriTriDistanceParams_Double.upDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>upDistLimitSq</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.upDistLimitSq</qualifiedname>
+        <briefdescription>
+<para>upper limit on the distance in question, if the real distance is larger (or equal depending on upLimitCheck) then findTriTriDistance exits earlier returning lower bound on distSq &gt;= upDistLimitSq and the points a and b can be arbitrary </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="816" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="816" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TriTriDistanceParams__Double_1ae46ea985499e88d6e1709f58ff262386" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1a47fb0156f6ea44cf64bb6335199b0e17" kindref="member">MR.UpLimitCheck</ref></type>
+        <definition>unsafe MR.UpLimitCheck MR.Const_TriTriDistanceParams_Double.upLimitCheck</definition>
+        <argsstring></argsstring>
+        <name>upLimitCheck</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.upLimitCheck</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="819" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="819" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__TriTriDistanceParams__Double_1a179ae3c4c2130f7d0f82289e02d7f616" prot="protected" static="no" mutable="no">
+        <type>unsafe double *</type>
+        <definition>unsafe double* MR.Const_TriTriDistanceParams_Double.__ref_storage_upDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_upDistLimitSq</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.__ref_storage_upDistLimitSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="817" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="817" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__TriTriDistanceParams__Double_1a52e35bd14e53c4d47cd75cd6e98e246b" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1a47fb0156f6ea44cf64bb6335199b0e17" kindref="member">MR.UpLimitCheck</ref> *</type>
+        <definition>unsafe MR.UpLimitCheck* MR.Const_TriTriDistanceParams_Double.__ref_storage_upLimitCheck</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_upLimitCheck</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.__ref_storage_upLimitCheck</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="820" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="820" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceParams__Double_1aabde8fce002929ee6c2832beb2f9498d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_TriTriDistanceParams_Double.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="799" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="799" bodyend="807"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceParams__Double_1a50c7eadaa2335b73d4c874ef93feb166" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_TriTriDistanceParams_Double.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="808" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="808" bodyend="808"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceParams__Double_1a1985751fcb570108174906c621822943" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriTriDistanceParams_Double.Const_TriTriDistanceParams_Double</definition>
+        <argsstring>()</argsstring>
+        <name>Const_TriTriDistanceParams_Double</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.Const_TriTriDistanceParams_Double</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="853" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="853" bodyend="859"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceParams__Double_1a0406ae7599b1c53ae1f8c36da82d1471" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriTriDistanceParams_Double.Const_TriTriDistanceParams_Double</definition>
+        <argsstring>(double upDistLimitSq, MR.UpLimitCheck upLimitCheck)</argsstring>
+        <name>Const_TriTriDistanceParams_Double</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.Const_TriTriDistanceParams_Double</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>upDistLimitSq</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a47fb0156f6ea44cf64bb6335199b0e17" kindref="member">MR.UpLimitCheck</ref></type>
+          <declname>upLimitCheck</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR::TriTriDistanceParams&amp;lt;double&amp;gt;</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="864" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="864" bodyend="871"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceParams__Double_1af2c9756d50601f3936133d00715945c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriTriDistanceParams_Double.Const_TriTriDistanceParams_Double</definition>
+        <argsstring>(MR.Const_TriTriDistanceParams_Double _other)</argsstring>
+        <name>Const_TriTriDistanceParams_Double</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.Const_TriTriDistanceParams_Double</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriTriDistanceParams__Double" kindref="compound">MR.Const_TriTriDistanceParams_Double</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::TriTriDistanceParams&amp;lt;double&amp;gt;::TriTriDistanceParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="876" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="876" bodyend="883"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceParams__Double_1a4b96b7cbb25838aa4bb811af08fccf3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TriTriDistanceParams_Double.Const_TriTriDistanceParams_Double</definition>
+        <argsstring>(TriTriDistanceParams_Double _other)</argsstring>
+        <name>Const_TriTriDistanceParams_Double</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.Const_TriTriDistanceParams_Double</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TriTriDistanceParams__Double" kindref="compound">TriTriDistanceParams_Double</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::TriTriDistanceParams&amp;lt;double&amp;gt;::TriTriDistanceParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="888" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="888" bodyend="888"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceParams__Double_1a6e5cd6a570107cf00ddf51205fb895f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_TriTriDistanceParams_Double.canExitEarlier</definition>
+        <argsstring>()</argsstring>
+        <name>canExitEarlier</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.canExitEarlier</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::TriTriDistanceParams&amp;lt;double&amp;gt;<ref refid="classMR_1_1Const__TriTriDistanceParams__Double_1a6e5cd6a570107cf00ddf51205fb895f3" kindref="member">canExitEarlier</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="893" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="893" bodyend="898"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceParams__Double_1a7b033b06b2c9b3133427c74bd1335d0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_TriTriDistanceParams_Double.canExitEarlier</definition>
+        <argsstring>(double distSqLowerBound)</argsstring>
+        <name>canExitEarlier</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.canExitEarlier</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>distSqLowerBound</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::TriTriDistanceParams&amp;lt;double&amp;gt;<ref refid="classMR_1_1Const__TriTriDistanceParams__Double_1a6e5cd6a570107cf00ddf51205fb895f3" kindref="member">canExitEarlier</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="903" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="903" bodyend="908"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceParams__Double_1ae304cca916d70c23c73e120d482e2276" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TriTriDistanceParams_Double.~Const_TriTriDistanceParams_Double</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_TriTriDistanceParams_Double</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.~Const_TriTriDistanceParams_Double</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="809" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="809" bodyend="809"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriTriDistanceParams__Double_1a3bf1a0e0ff73789d01af30e662584e95" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriTriDistanceParams_Double.Const_TriTriDistanceParams_Double</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_TriTriDistanceParams_Double</name>
+        <qualifiedname>MR.Const_TriTriDistanceParams_Double.Const_TriTriDistanceParams_Double</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="842" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="842" bodyend="847"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::TriTriDistanceParams&amp;lt;double&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_TriTriDistanceParams_Double</label>
+        <link refid="classMR_1_1Const__TriTriDistanceParams__Double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.TriTriDistanceParams_Double</label>
+        <link refid="classMR_1_1TriTriDistanceParams__Double"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_TriTriDistanceParams_Double</label>
+        <link refid="classMR_1_1Const__TriTriDistanceParams__Double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_upLimitCheck</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="793" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="794" bodyend="909"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1a179ae3c4c2130f7d0f82289e02d7f616" prot="protected" virt="non-virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>__ref_storage_upDistLimitSq</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1a52e35bd14e53c4d47cd75cd6e98e246b" prot="protected" virt="non-virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>__ref_storage_upLimitCheck</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1a6e5cd6a570107cf00ddf51205fb895f3" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>canExitEarlier</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1a7b033b06b2c9b3133427c74bd1335d0c" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>canExitEarlier</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1a3bf1a0e0ff73789d01af30e662584e95" prot="package" virt="non-virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>Const_TriTriDistanceParams_Double</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1a1985751fcb570108174906c621822943" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>Const_TriTriDistanceParams_Double</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1a0406ae7599b1c53ae1f8c36da82d1471" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>Const_TriTriDistanceParams_Double</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1af2c9756d50601f3936133d00715945c3" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>Const_TriTriDistanceParams_Double</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1a4b96b7cbb25838aa4bb811af08fccf3a" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>Const_TriTriDistanceParams_Double</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1aabde8fce002929ee6c2832beb2f9498d" prot="protected" virt="virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1a50c7eadaa2335b73d4c874ef93feb166" prot="public" virt="virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1a56ee18c85121d5116b417fbc7f054558" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>upDistLimitSq</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1ae46ea985499e88d6e1709f58ff262386" prot="public" virt="non-virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>upLimitCheck</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceParams__Double_1ae304cca916d70c23c73e120d482e2276" prot="private" virt="non-virtual"><scope>MR::Const_TriTriDistanceParams_Double</scope><name>~Const_TriTriDistanceParams_Double</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

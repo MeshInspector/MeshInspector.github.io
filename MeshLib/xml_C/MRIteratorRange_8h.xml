@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="31" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" bodystart="31" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="36" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" bodystart="36" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -696,300 +696,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="213" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="213" declcolumn="45"/>
       </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1aec918201c496e3f43b7a17803adce757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API const MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Get_begin_</definition>
-        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Get_begin_</name>
-        <param>
-          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;</computeroutput> named <computeroutput>begin_</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="219" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="219" declcolumn="49"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1ab534e21b2d782e4dba1774ec6ab84be7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Set_begin_</definition>
-        <argsstring>(MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this, const MR_PolylineUndirectedEdgeIterator *value)</argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Set_begin_</name>
-        <param>
-          <type><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;</computeroutput> named <computeroutput>begin_</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>begin_</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>begin_</computeroutput>. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="226" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="226" declcolumn="14"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1a1a1a7b222197da0b60c88380049f502d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_GetMutable_begin_</definition>
-        <argsstring>(MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_GetMutable_begin_</name>
-        <param>
-          <type><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;</computeroutput> named <computeroutput>begin_</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="232" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="232" declcolumn="43"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1a1b5c0e6f26946bd0246541ca68447b6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API const MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Get_end_</definition>
-        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Get_end_</name>
-        <param>
-          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns a pointer to a member variable of class <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;</computeroutput> named <computeroutput>end_</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="238" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="238" declcolumn="49"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1ab22a218fb1e92210208c1e9d1f130675" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Set_end_</definition>
-        <argsstring>(MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this, const MR_PolylineUndirectedEdgeIterator *value)</argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Set_end_</name>
-        <param>
-          <type><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>value</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Modifies a member variable of class <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;</computeroutput> named <computeroutput>end_</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>end_</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>end_</computeroutput>. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="245" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="245" declcolumn="14"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1ac8d80eda52b3836adf61cc8bff68f134" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_GetMutable_end_</definition>
-        <argsstring>(MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_GetMutable_end_</name>
-        <param>
-          <type><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;</computeroutput> named <computeroutput>end_</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="251" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="251" declcolumn="43"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1ad1cd0ebac75368a34c97ab0b626800ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API MR_IteratorRange_MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ConstructFromAnother</definition>
-        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_other)</argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ConstructFromAnother</name>
-        <param>
-          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from constructor <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;::IteratorRange</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIteratorRange_8h_1a03ae66be34af3cb06ece042de32fa289" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="257" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="257" declcolumn="60"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1a625094c0b0b31c92f08f40f295a8e9f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_OffsetPtr</definition>
-        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *ptr, ptrdiff_t i)</argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_OffsetPtr</name>
-        <param>
-          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>ptr</declname>
-        </param>
-        <param>
-          <type>ptrdiff_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="261" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="261" declcolumn="66"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1acb5c816255f31dfda5beee3b72247556" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API MR_IteratorRange_MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_OffsetMutablePtr</definition>
-        <argsstring>(MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *ptr, ptrdiff_t i)</argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_OffsetMutablePtr</name>
-        <param>
-          <type><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>ptr</declname>
-        </param>
-        <param>
-          <type>ptrdiff_t</type>
-          <declname>i</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="265" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="265" declcolumn="60"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1ac3ecaac6d576e84a4837462f991b06fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API MR_IteratorRange_MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Construct</definition>
-        <argsstring>(const MR_PolylineUndirectedEdgeIterator *begin, const MR_PolylineUndirectedEdgeIterator *end)</argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Construct</name>
-        <param>
-          <type>const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>begin</declname>
-        </param>
-        <param>
-          <type>const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>end</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from constructor <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;::IteratorRange</computeroutput>. Parameter <computeroutput>begin</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>begin</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>end</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIteratorRange_8h_1a03ae66be34af3cb06ece042de32fa289" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="273" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="273" declcolumn="60"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1a03ae66be34af3cb06ece042de32fa289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Destroy</definition>
-        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Destroy</name>
-        <param>
-          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="276" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="276" declcolumn="14"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1af0aeb400c6e53c86c50486587e9ccc55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
-        <definition>MRC_API void MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_DestroyArray</definition>
-        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_DestroyArray</name>
-        <param>
-          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="279" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="279" declcolumn="14"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1ac3f732573b4e021b31bc81636a6b8178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API MR_IteratorRange_MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_AssignFromAnother</definition>
-        <argsstring>(MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this, const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_other)</argsstring>
-        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_AssignFromAnother</name>
-        <param>
-          <type><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>_this</declname>
-        </param>
-        <param>
-          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from method <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="287" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="287" declcolumn="60"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1aa1baaae46f6da171ac98ac348a56839d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_begin_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</definition>
-        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *range)</argsstring>
-        <name>MR_begin_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</name>
-        <param>
-          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>range</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from function <computeroutput>MR::begin</computeroutput>. Parameter <computeroutput>range</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>range</computeroutput> might be preserved in the return value. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineEdgeIterator_8h_1a117e1f4c59b8ee8d1abf08afb6446ce7" kindref="member">MR_PolylineUndirectedEdgeIterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="293" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="293" declcolumn="43"/>
-      </memberdef>
-      <memberdef kind="function" id="MRIteratorRange_8h_1a6bc3df3192a41a39d9d691299e49a248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
-        <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_end_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</definition>
-        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *range)</argsstring>
-        <name>MR_end_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</name>
-        <param>
-          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
-          <declname>range</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from function <computeroutput>MR::end</computeroutput>. Parameter <computeroutput>range</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>range</computeroutput> might be preserved in the return value. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineEdgeIterator_8h_1a117e1f4c59b8ee8d1abf08afb6446ce7" kindref="member">MR_PolylineUndirectedEdgeIterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="299" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="299" declcolumn="43"/>
-      </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1a24ae37a1fecca2d31404e8c95405c647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref> *</type>
         <definition>MRC_API const MR_UndirectedEdgeIterator * MR_IteratorRange_MR_UndirectedEdgeIterator_Get_begin_</definition>
@@ -1006,7 +712,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="305" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="305" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="219" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="219" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1ae43a395ac4d5304f182f498e6a7e45ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1028,7 +734,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="312" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="312" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="226" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="226" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1ae6138955d039c658a91852aac6d02e7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref> *</type>
@@ -1046,7 +752,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="318" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="318" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="232" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="232" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1a3de081f5ae518f7d0bebb392caef26fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref> *</type>
@@ -1064,7 +770,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="324" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="324" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="238" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="238" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1a403b2d6e065a0869387f3b808a1e22a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1086,7 +792,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="331" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="331" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="245" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="245" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1ae8132a2c3260dc72dd31656b9d40e030" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref> *</type>
@@ -1104,7 +810,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="337" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="337" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="251" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="251" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1a60370e825e2dc7ca51b1aed0e628aec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref> *</type>
@@ -1122,7 +828,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="343" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="343" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="257" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="257" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1a093e1a08609656fba260fcaed99c5dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref> *</type>
@@ -1144,7 +850,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="347" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="347" declcolumn="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="261" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="261" declcolumn="58"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1a1e2edf0123e16713799fefb1d5b32a9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref> *</type>
@@ -1166,7 +872,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="351" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="351" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="265" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="265" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1a60384f8c00c62728f619cb4d15d710d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref> *</type>
@@ -1188,7 +894,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="359" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="359" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="273" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="273" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1ace7d8726496729231ef977664b9b33f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1206,7 +912,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="362" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="362" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="276" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="276" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1a16a7049e43e404e1f47b66892e73e35f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -1224,7 +930,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="365" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="365" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="279" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="279" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1a0c6b9cfc3132980ab81cb6749e62a849" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref> *</type>
@@ -1246,7 +952,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="373" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="373" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="287" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="287" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1a320707dd37c91b40cb8502890b666073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref> *</type>
@@ -1264,7 +970,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="379" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="379" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="293" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="293" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1a34288dddf54436e3924169ab369c6886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref> *</type>
@@ -1282,7 +988,301 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="385" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="385" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="299" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="299" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1aec918201c496e3f43b7a17803adce757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <definition>MRC_API const MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Get_begin_</definition>
+        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
+        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Get_begin_</name>
+        <param>
+          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;</computeroutput> named <computeroutput>begin_</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="305" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="305" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1ab534e21b2d782e4dba1774ec6ab84be7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Set_begin_</definition>
+        <argsstring>(MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this, const MR_PolylineUndirectedEdgeIterator *value)</argsstring>
+        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Set_begin_</name>
+        <param>
+          <type><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;</computeroutput> named <computeroutput>begin_</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>begin_</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>begin_</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="312" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="312" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1a1a1a7b222197da0b60c88380049f502d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_GetMutable_begin_</definition>
+        <argsstring>(MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
+        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_GetMutable_begin_</name>
+        <param>
+          <type><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;</computeroutput> named <computeroutput>begin_</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="318" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="318" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1a1b5c0e6f26946bd0246541ca68447b6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <definition>MRC_API const MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Get_end_</definition>
+        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
+        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Get_end_</name>
+        <param>
+          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;</computeroutput> named <computeroutput>end_</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="324" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="324" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1ab22a218fb1e92210208c1e9d1f130675" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Set_end_</definition>
+        <argsstring>(MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this, const MR_PolylineUndirectedEdgeIterator *value)</argsstring>
+        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Set_end_</name>
+        <param>
+          <type><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;</computeroutput> named <computeroutput>end_</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>end_</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>end_</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="331" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="331" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1ac8d80eda52b3836adf61cc8bff68f134" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_GetMutable_end_</definition>
+        <argsstring>(MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
+        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_GetMutable_end_</name>
+        <param>
+          <type><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;</computeroutput> named <computeroutput>end_</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="337" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="337" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1ad1cd0ebac75368a34c97ab0b626800ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <definition>MRC_API MR_IteratorRange_MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_other)</argsstring>
+        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;::IteratorRange</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIteratorRange_8h_1a03ae66be34af3cb06ece042de32fa289" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="343" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="343" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1a625094c0b0b31c92f08f40f295a8e9f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <definition>MRC_API const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_OffsetPtr</definition>
+        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="347" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="347" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1acb5c816255f31dfda5beee3b72247556" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <definition>MRC_API MR_IteratorRange_MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="351" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="351" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1ac3ecaac6d576e84a4837462f991b06fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <definition>MRC_API MR_IteratorRange_MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Construct</definition>
+        <argsstring>(const MR_PolylineUndirectedEdgeIterator *begin, const MR_PolylineUndirectedEdgeIterator *end)</argsstring>
+        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Construct</name>
+        <param>
+          <type>const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;::IteratorRange</computeroutput>. Parameter <computeroutput>begin</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>begin</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>end</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>end</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIteratorRange_8h_1a03ae66be34af3cb06ece042de32fa289" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="359" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="359" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1a03ae66be34af3cb06ece042de32fa289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Destroy</definition>
+        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
+        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="362" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="362" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1af0aeb400c6e53c86c50486587e9ccc55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_DestroyArray</definition>
+        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
+        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="365" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="365" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1ac3f732573b4e021b31bc81636a6b8178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <definition>MRC_API MR_IteratorRange_MR_PolylineUndirectedEdgeIterator * MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_AssignFromAnother</definition>
+        <argsstring>(MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_this, const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *_other)</argsstring>
+        <name>MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::IteratorRange&lt;MR::PolylineUndirectedEdgeIterator&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="373" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="373" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1aa1baaae46f6da171ac98ac348a56839d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_begin_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</definition>
+        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *range)</argsstring>
+        <name>MR_begin_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</name>
+        <param>
+          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::begin</computeroutput>. Parameter <computeroutput>range</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>range</computeroutput> might be preserved in the return value. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineEdgeIterator_8h_1a117e1f4c59b8ee8d1abf08afb6446ce7" kindref="member">MR_PolylineUndirectedEdgeIterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="379" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="379" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIteratorRange_8h_1a6bc3df3192a41a39d9d691299e49a248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_end_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</definition>
+        <argsstring>(const MR_IteratorRange_MR_PolylineUndirectedEdgeIterator *range)</argsstring>
+        <name>MR_end_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</name>
+        <param>
+          <type>const <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::end</computeroutput>. Parameter <computeroutput>range</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>range</computeroutput> might be preserved in the return value. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPolylineEdgeIterator_8h_1a117e1f4c59b8ee8d1abf08afb6446ce7" kindref="member">MR_PolylineUndirectedEdgeIterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" line="385" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIteratorRange.h" declline="385" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRIteratorRange_8h_1a4cdf1706d7b87719c57f0c1a7f80c1b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref> *</type>
@@ -1605,9 +1605,9 @@
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref>;</highlight></codeline>
+<codeline lineno="36" refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref>;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref><sp/><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref>;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
@@ -1671,65 +1671,65 @@
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
 <codeline lineno="213" refid="MRIteratorRange_8h_1a30fdafd788769106a7061d5c40b4c137" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ad437e0fab3b4f064f790a59b9e914e30" kindref="member">MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*<ref refid="MRIteratorRange_8h_1a30fdafd788769106a7061d5c40b4c137" kindref="member">MR_end_const_MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a23d63b3e3a028bf75cabd1b15bf6ecae" kindref="member">MR_IteratorRange_MR_RingIterator_MR_NextEdgeSameLeft</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219" refid="MRIteratorRange_8h_1aec918201c496e3f43b7a17803adce757" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1aec918201c496e3f43b7a17803adce757" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Get_begin_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="219" refid="MRIteratorRange_8h_1a24ae37a1fecca2d31404e8c95405c647" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a24ae37a1fecca2d31404e8c95405c647" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_Get_begin_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MRIteratorRange_8h_1ab534e21b2d782e4dba1774ec6ab84be7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ab534e21b2d782e4dba1774ec6ab84be7" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Set_begin_</ref>(<ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="226" refid="MRIteratorRange_8h_1ae43a395ac4d5304f182f498e6a7e45ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae43a395ac4d5304f182f498e6a7e45ee" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_Set_begin_</ref>(<ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRIteratorRange_8h_1a1a1a7b222197da0b60c88380049f502d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a1a1a7b222197da0b60c88380049f502d" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_GetMutable_begin_</ref>(<ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="232" refid="MRIteratorRange_8h_1ae6138955d039c658a91852aac6d02e7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ae6138955d039c658a91852aac6d02e7b" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_GetMutable_begin_</ref>(<ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="238" refid="MRIteratorRange_8h_1a1b5c0e6f26946bd0246541ca68447b6d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a1b5c0e6f26946bd0246541ca68447b6d" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Get_end_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="238" refid="MRIteratorRange_8h_1a3de081f5ae518f7d0bebb392caef26fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a3de081f5ae518f7d0bebb392caef26fd" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_Get_end_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="245" refid="MRIteratorRange_8h_1ab22a218fb1e92210208c1e9d1f130675" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ab22a218fb1e92210208c1e9d1f130675" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Set_end_</ref>(<ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="245" refid="MRIteratorRange_8h_1a403b2d6e065a0869387f3b808a1e22a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a403b2d6e065a0869387f3b808a1e22a7" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_Set_end_</ref>(<ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="246"><highlight class="normal"></highlight></codeline>
-<codeline lineno="251" refid="MRIteratorRange_8h_1ac8d80eda52b3836adf61cc8bff68f134" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ac8d80eda52b3836adf61cc8bff68f134" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_GetMutable_end_</ref>(<ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251" refid="MRIteratorRange_8h_1ae8132a2c3260dc72dd31656b9d40e030" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ae8132a2c3260dc72dd31656b9d40e030" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_GetMutable_end_</ref>(<ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="252"><highlight class="normal"></highlight></codeline>
-<codeline lineno="257" refid="MRIteratorRange_8h_1ad1cd0ebac75368a34c97ab0b626800ad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ad1cd0ebac75368a34c97ab0b626800ad" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="257" refid="MRIteratorRange_8h_1a60370e825e2dc7ca51b1aed0e628aec6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a60370e825e2dc7ca51b1aed0e628aec6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="258"><highlight class="normal"></highlight></codeline>
-<codeline lineno="261" refid="MRIteratorRange_8h_1a625094c0b0b31c92f08f40f295a8e9f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a625094c0b0b31c92f08f40f295a8e9f8" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="261" refid="MRIteratorRange_8h_1a093e1a08609656fba260fcaed99c5dc1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a093e1a08609656fba260fcaed99c5dc1" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="262"><highlight class="normal"></highlight></codeline>
-<codeline lineno="265" refid="MRIteratorRange_8h_1acb5c816255f31dfda5beee3b72247556" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1acb5c816255f31dfda5beee3b72247556" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_OffsetMutablePtr</ref>(<ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="265" refid="MRIteratorRange_8h_1a1e2edf0123e16713799fefb1d5b32a9d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a1e2edf0123e16713799fefb1d5b32a9d" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_OffsetMutablePtr</ref>(<ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="266"><highlight class="normal"></highlight></codeline>
-<codeline lineno="273" refid="MRIteratorRange_8h_1ac3ecaac6d576e84a4837462f991b06fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ac3ecaac6d576e84a4837462f991b06fa" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*begin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*end);</highlight></codeline>
+<codeline lineno="273" refid="MRIteratorRange_8h_1a60384f8c00c62728f619cb4d15d710d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a60384f8c00c62728f619cb4d15d710d2" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*begin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*end);</highlight></codeline>
 <codeline lineno="274"><highlight class="normal"></highlight></codeline>
-<codeline lineno="276" refid="MRIteratorRange_8h_1a03ae66be34af3cb06ece042de32fa289" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a03ae66be34af3cb06ece042de32fa289" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="276" refid="MRIteratorRange_8h_1ace7d8726496729231ef977664b9b33f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ace7d8726496729231ef977664b9b33f3" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="277"><highlight class="normal"></highlight></codeline>
-<codeline lineno="279" refid="MRIteratorRange_8h_1af0aeb400c6e53c86c50486587e9ccc55" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1af0aeb400c6e53c86c50486587e9ccc55" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="279" refid="MRIteratorRange_8h_1a16a7049e43e404e1f47b66892e73e35f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a16a7049e43e404e1f47b66892e73e35f" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="287" refid="MRIteratorRange_8h_1ac3f732573b4e021b31bc81636a6b8178" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ac3f732573b4e021b31bc81636a6b8178" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_AssignFromAnother</ref>(<ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="287" refid="MRIteratorRange_8h_1a0c6b9cfc3132980ab81cb6749e62a849" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a0c6b9cfc3132980ab81cb6749e62a849" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_AssignFromAnother</ref>(<ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="288"><highlight class="normal"></highlight></codeline>
-<codeline lineno="293" refid="MRIteratorRange_8h_1aa1baaae46f6da171ac98ac348a56839d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1aa1baaae46f6da171ac98ac348a56839d" kindref="member">MR_begin_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="293" refid="MRIteratorRange_8h_1a320707dd37c91b40cb8502890b666073" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a320707dd37c91b40cb8502890b666073" kindref="member">MR_begin_const_MR_IteratorRange_MR_UndirectedEdgeIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"></highlight></codeline>
-<codeline lineno="299" refid="MRIteratorRange_8h_1a6bc3df3192a41a39d9d691299e49a248" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a6bc3df3192a41a39d9d691299e49a248" kindref="member">MR_end_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="299" refid="MRIteratorRange_8h_1a34288dddf54436e3924169ab369c6886" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a34288dddf54436e3924169ab369c6886" kindref="member">MR_end_const_MR_IteratorRange_MR_UndirectedEdgeIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="300"><highlight class="normal"></highlight></codeline>
-<codeline lineno="305" refid="MRIteratorRange_8h_1a24ae37a1fecca2d31404e8c95405c647" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a24ae37a1fecca2d31404e8c95405c647" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_Get_begin_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="305" refid="MRIteratorRange_8h_1aec918201c496e3f43b7a17803adce757" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1aec918201c496e3f43b7a17803adce757" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Get_begin_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="306"><highlight class="normal"></highlight></codeline>
-<codeline lineno="312" refid="MRIteratorRange_8h_1ae43a395ac4d5304f182f498e6a7e45ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae43a395ac4d5304f182f498e6a7e45ee" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_Set_begin_</ref>(<ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="312" refid="MRIteratorRange_8h_1ab534e21b2d782e4dba1774ec6ab84be7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ab534e21b2d782e4dba1774ec6ab84be7" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Set_begin_</ref>(<ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="313"><highlight class="normal"></highlight></codeline>
-<codeline lineno="318" refid="MRIteratorRange_8h_1ae6138955d039c658a91852aac6d02e7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ae6138955d039c658a91852aac6d02e7b" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_GetMutable_begin_</ref>(<ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="318" refid="MRIteratorRange_8h_1a1a1a7b222197da0b60c88380049f502d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a1a1a7b222197da0b60c88380049f502d" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_GetMutable_begin_</ref>(<ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="319"><highlight class="normal"></highlight></codeline>
-<codeline lineno="324" refid="MRIteratorRange_8h_1a3de081f5ae518f7d0bebb392caef26fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a3de081f5ae518f7d0bebb392caef26fd" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_Get_end_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="324" refid="MRIteratorRange_8h_1a1b5c0e6f26946bd0246541ca68447b6d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a1b5c0e6f26946bd0246541ca68447b6d" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Get_end_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="325"><highlight class="normal"></highlight></codeline>
-<codeline lineno="331" refid="MRIteratorRange_8h_1a403b2d6e065a0869387f3b808a1e22a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a403b2d6e065a0869387f3b808a1e22a7" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_Set_end_</ref>(<ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="331" refid="MRIteratorRange_8h_1ab22a218fb1e92210208c1e9d1f130675" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ab22a218fb1e92210208c1e9d1f130675" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Set_end_</ref>(<ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="332"><highlight class="normal"></highlight></codeline>
-<codeline lineno="337" refid="MRIteratorRange_8h_1ae8132a2c3260dc72dd31656b9d40e030" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ae8132a2c3260dc72dd31656b9d40e030" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_GetMutable_end_</ref>(<ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="337" refid="MRIteratorRange_8h_1ac8d80eda52b3836adf61cc8bff68f134" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ac8d80eda52b3836adf61cc8bff68f134" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_GetMutable_end_</ref>(<ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="338"><highlight class="normal"></highlight></codeline>
-<codeline lineno="343" refid="MRIteratorRange_8h_1a60370e825e2dc7ca51b1aed0e628aec6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a60370e825e2dc7ca51b1aed0e628aec6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="343" refid="MRIteratorRange_8h_1ad1cd0ebac75368a34c97ab0b626800ad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ad1cd0ebac75368a34c97ab0b626800ad" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="344"><highlight class="normal"></highlight></codeline>
-<codeline lineno="347" refid="MRIteratorRange_8h_1a093e1a08609656fba260fcaed99c5dc1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a093e1a08609656fba260fcaed99c5dc1" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="347" refid="MRIteratorRange_8h_1a625094c0b0b31c92f08f40f295a8e9f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a625094c0b0b31c92f08f40f295a8e9f8" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="348"><highlight class="normal"></highlight></codeline>
-<codeline lineno="351" refid="MRIteratorRange_8h_1a1e2edf0123e16713799fefb1d5b32a9d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a1e2edf0123e16713799fefb1d5b32a9d" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_OffsetMutablePtr</ref>(<ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="351" refid="MRIteratorRange_8h_1acb5c816255f31dfda5beee3b72247556" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1acb5c816255f31dfda5beee3b72247556" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_OffsetMutablePtr</ref>(<ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="352"><highlight class="normal"></highlight></codeline>
-<codeline lineno="359" refid="MRIteratorRange_8h_1a60384f8c00c62728f619cb4d15d710d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a60384f8c00c62728f619cb4d15d710d2" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*begin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*end);</highlight></codeline>
+<codeline lineno="359" refid="MRIteratorRange_8h_1ac3ecaac6d576e84a4837462f991b06fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ac3ecaac6d576e84a4837462f991b06fa" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*begin,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*end);</highlight></codeline>
 <codeline lineno="360"><highlight class="normal"></highlight></codeline>
-<codeline lineno="362" refid="MRIteratorRange_8h_1ace7d8726496729231ef977664b9b33f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ace7d8726496729231ef977664b9b33f3" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="362" refid="MRIteratorRange_8h_1a03ae66be34af3cb06ece042de32fa289" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a03ae66be34af3cb06ece042de32fa289" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="363"><highlight class="normal"></highlight></codeline>
-<codeline lineno="365" refid="MRIteratorRange_8h_1a16a7049e43e404e1f47b66892e73e35f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a16a7049e43e404e1f47b66892e73e35f" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="365" refid="MRIteratorRange_8h_1af0aeb400c6e53c86c50486587e9ccc55" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1af0aeb400c6e53c86c50486587e9ccc55" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="366"><highlight class="normal"></highlight></codeline>
-<codeline lineno="373" refid="MRIteratorRange_8h_1a0c6b9cfc3132980ab81cb6749e62a849" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a0c6b9cfc3132980ab81cb6749e62a849" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator_AssignFromAnother</ref>(<ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="373" refid="MRIteratorRange_8h_1ac3f732573b4e021b31bc81636a6b8178" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1ac3f732573b4e021b31bc81636a6b8178" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_AssignFromAnother</ref>(<ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="374"><highlight class="normal"></highlight></codeline>
-<codeline lineno="379" refid="MRIteratorRange_8h_1a320707dd37c91b40cb8502890b666073" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a320707dd37c91b40cb8502890b666073" kindref="member">MR_begin_const_MR_IteratorRange_MR_UndirectedEdgeIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="379" refid="MRIteratorRange_8h_1aa1baaae46f6da171ac98ac348a56839d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1aa1baaae46f6da171ac98ac348a56839d" kindref="member">MR_begin_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="380"><highlight class="normal"></highlight></codeline>
-<codeline lineno="385" refid="MRIteratorRange_8h_1a34288dddf54436e3924169ab369c6886" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeIterator_8h_1adc8078d2c099930a4e1cfd69ad02cad5" kindref="member">MR_UndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a34288dddf54436e3924169ab369c6886" kindref="member">MR_end_const_MR_IteratorRange_MR_UndirectedEdgeIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeIterator_8h_1ab3c03ef8c769a0f3606febe178369fc6" kindref="member">MR_IteratorRange_MR_UndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
+<codeline lineno="385" refid="MRIteratorRange_8h_1a6bc3df3192a41a39d9d691299e49a248" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a6bc3df3192a41a39d9d691299e49a248" kindref="member">MR_end_const_MR_IteratorRange_MR_PolylineUndirectedEdgeIterator_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*range);</highlight></codeline>
 <codeline lineno="386"><highlight class="normal"></highlight></codeline>
 <codeline lineno="391" refid="MRIteratorRange_8h_1a4cdf1706d7b87719c57f0c1a7f80c1b4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1ad9382f027a2465861120f341711dbcd2" kindref="member">MR_ChunkIterator</ref><sp/>*<ref refid="MRIteratorRange_8h_1a4cdf1706d7b87719c57f0c1a7f80c1b4" kindref="member">MR_IteratorRange_MR_ChunkIterator_Get_begin_</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChunkIterator_8h_1a4a43508653b57bbdfb3730d901e037eb" kindref="member">MR_IteratorRange_MR_ChunkIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="392"><highlight class="normal"></highlight></codeline>

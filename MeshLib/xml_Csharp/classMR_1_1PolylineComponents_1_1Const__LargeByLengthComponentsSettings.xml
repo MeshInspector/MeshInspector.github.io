@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" prot="public" virt="non-virtual">MR.PolylineComponents.LargeByLengthComponentsSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1ae911d094a0d3b109d073e9096128e9bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.PolylineComponents.Const_LargeByLengthComponentsSettings.maxLargeComponents</definition>
+        <argsstring></argsstring>
+        <name>maxLargeComponents</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.maxLargeComponents</qualifiedname>
+        <briefdescription>
+<para>return at most given number of largest by length connected components </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="30" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1af85f6a41412d1a4aa6cb1adec60d1413" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Misc.? Box&lt; int &gt;</type>
+        <definition>unsafe MR.Misc.? Box&lt;int&gt; MR.PolylineComponents.Const_LargeByLengthComponentsSettings.numSmallerComponents</definition>
+        <argsstring></argsstring>
+        <name>numSmallerComponents</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.numSmallerComponents</qualifiedname>
+        <briefdescription>
+<para>optional output: the number of components in addition to returned ones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="36" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="37" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1ab5cf132dac17def54f8bf7f9d189a314" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.PolylineComponents.Const_LargeByLengthComponentsSettings.minLength</definition>
+        <argsstring></argsstring>
+        <name>minLength</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.minLength</qualifiedname>
+        <briefdescription>
+<para>do not consider a component large if its length is below this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="54" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1adc1dd0b8ae8143eb7701689e0d8cf47f" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.PolylineComponents.Const_LargeByLengthComponentsSettings.__ref_storage_maxLargeComponents</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxLargeComponents</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.__ref_storage_maxLargeComponents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="31" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1ab39c83fe1559e0dd88f068769dc720b9" prot="protected" static="no" mutable="no">
+        <type>unsafe int **</type>
+        <definition>unsafe int** MR.PolylineComponents.Const_LargeByLengthComponentsSettings.__ptr_storage_numSmallerComponents</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_numSmallerComponents</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.__ptr_storage_numSmallerComponents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="49" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1a2e0fa250da40c3ebb6ad030f2a56c308" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.PolylineComponents.Const_LargeByLengthComponentsSettings.__ref_storage_minLength</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_minLength</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.__ref_storage_minLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="55" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1a9ece6db23f3f3699a769836b7fe4d967" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="15" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1ac5ed30955ad0b60565c86c8a540f1295" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="24" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1a6c7f3f0e9f86c3ae1f579f247956df05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Const_LargeByLengthComponentsSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_LargeByLengthComponentsSettings</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Const_LargeByLengthComponentsSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="94" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="94" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1aab32a606f3b8196c9de773ba53aa1946" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Const_LargeByLengthComponentsSettings</definition>
+        <argsstring>(int maxLargeComponents, MR.Misc.InOut&lt; int &gt;? numSmallerComponents, float minLength)</argsstring>
+        <name>Const_LargeByLengthComponentsSettings</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Const_LargeByLengthComponentsSettings</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxLargeComponents</declname>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; int &gt;?</type>
+          <declname>numSmallerComponents</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minLength</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" kindref="compound">MR.PolylineComponents.LargeByLengthComponentsSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="105" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="105" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1a19c46f796aea8c9c500a04ef9fbc5bf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Const_LargeByLengthComponentsSettings</definition>
+        <argsstring>(MR.PolylineComponents.Const_LargeByLengthComponentsSettings _other)</argsstring>
+        <name>Const_LargeByLengthComponentsSettings</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Const_LargeByLengthComponentsSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings" kindref="compound">MR.PolylineComponents.Const_LargeByLengthComponentsSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1a7ce73fe024d3be89ebba7fe69658f5fd" kindref="member">MR.PolylineComponents.LargeByLengthComponentsSettings.LargeByLengthComponentsSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="118" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="118" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1a1f9aad2c02ede77f9b39fc271c69b06b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Const_LargeByLengthComponentsSettings</definition>
+        <argsstring>(LargeByLengthComponentsSettings _other)</argsstring>
+        <name>Const_LargeByLengthComponentsSettings</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Const_LargeByLengthComponentsSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" kindref="compound">LargeByLengthComponentsSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings_1a7ce73fe024d3be89ebba7fe69658f5fd" kindref="member">MR.PolylineComponents.LargeByLengthComponentsSettings.LargeByLengthComponentsSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="130" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="130" bodyend="130"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1acb05e6f9a30e0568f3c9918a9ce831b5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.~Const_LargeByLengthComponentsSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_LargeByLengthComponentsSettings</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.~Const_LargeByLengthComponentsSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="25" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1ac04d2c57dda449156a8187e1b7da1398" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Const_LargeByLengthComponentsSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_LargeByLengthComponentsSettings</name>
+        <qualifiedname>MR.PolylineComponents.Const_LargeByLengthComponentsSettings.Const_LargeByLengthComponentsSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="83" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="83" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" kindref="compound">MR.PolylineComponents.LargeByLengthComponentsSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.PolylineComponents.Const_LargeByLengthComponentsSettings</label>
+        <link refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PolylineComponents.LargeByLengthComponentsSettings</label>
+        <link refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.PolylineComponents.Const_LargeByLengthComponentsSettings</label>
+        <link refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="9" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="10" bodyend="131"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1ab39c83fe1559e0dd88f068769dc720b9" prot="protected" virt="non-virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>__ptr_storage_numSmallerComponents</name></member>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1adc1dd0b8ae8143eb7701689e0d8cf47f" prot="protected" virt="non-virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>__ref_storage_maxLargeComponents</name></member>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1a2e0fa250da40c3ebb6ad030f2a56c308" prot="protected" virt="non-virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>__ref_storage_minLength</name></member>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1ac04d2c57dda449156a8187e1b7da1398" prot="package" virt="non-virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>Const_LargeByLengthComponentsSettings</name></member>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1a6c7f3f0e9f86c3ae1f579f247956df05" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>Const_LargeByLengthComponentsSettings</name></member>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1aab32a606f3b8196c9de773ba53aa1946" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>Const_LargeByLengthComponentsSettings</name></member>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1a19c46f796aea8c9c500a04ef9fbc5bf6" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>Const_LargeByLengthComponentsSettings</name></member>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1a1f9aad2c02ede77f9b39fc271c69b06b" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>Const_LargeByLengthComponentsSettings</name></member>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1a9ece6db23f3f3699a769836b7fe4d967" prot="protected" virt="virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1ac5ed30955ad0b60565c86c8a540f1295" prot="public" virt="virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1ae911d094a0d3b109d073e9096128e9bf" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>maxLargeComponents</name></member>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1ab5cf132dac17def54f8bf7f9d189a314" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>minLength</name></member>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1af85f6a41412d1a4aa6cb1adec60d1413" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>numSmallerComponents</name></member>
+      <member refid="classMR_1_1PolylineComponents_1_1Const__LargeByLengthComponentsSettings_1acb05e6f9a30e0568f3c9918a9ce831b5" prot="private" virt="non-virtual"><scope>MR::PolylineComponents::Const_LargeByLengthComponentsSettings</scope><name>~Const_LargeByLengthComponentsSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

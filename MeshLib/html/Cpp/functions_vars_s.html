@@ -184,7 +184,6 @@ $(function(){initNavTree('functions_vars_s.html','',''); });
 <li>selectedVerticesColor_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga045c0320f1489b9374254b9dd00aeb51">MR::ObjectPointsHolder</a></li>
 <li>selectedViewport_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga25d70db427b76e61497c7fe1c62ac778">MR::ImGuiMenu</a></li>
 <li>selectedVoxels_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gac93a94170b78edb3958c03c152eddf69">MR::ObjectVoxels</a></li>
-<li>selectionChangedToSingleObj_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaca4f11387f1bcb127e2e9dfd5eef27fa">MR::ImGuiMenu</a></li>
 <li>selectionLocalBox_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga53309002abe5f491c36f5ef71490a8e9">MR::ImGuiMenu</a></li>
 <li>selectionWorldBox_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gac8a4b5b373c2e5ab3e633a34fd148f12">MR::ImGuiMenu</a></li>
 <li>selEdgeSize_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gab2808bb9f682b7671b601fa9ba3348c4">MR::RenderMeshObject</a></li>
@@ -194,6 +193,7 @@ $(function(){initNavTree('functions_vars_s.html','',''); });
 <li>setupCustomLogSink&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga01b6a5ca99cb834e86dbb5494153de45">MR::ViewerSetup</a></li>
 <li>shadingEnabled_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaf0c66d3dd88973f029e2b39f28453178">MR::ObjectMeshHolder</a></li>
 <li>Shallowest&#160;:&#160;<a class="el" href="structMR_1_1FindDisorientationParams.html#a66e41167bc8d6713f7b3c8d46c29d247">MR::FindDisorientationParams</a></li>
+<li>sharpEdges&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gad1e312886fdda5bff521039d292c760c">MR::MeshFromVoxelsPostProcessingParams</a></li>
 <li>sharpness&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gac91503b98cd4530afb0bafe21f09b924">MR::SurfaceManipulationWidget::Settings</a></li>
 <li>Shell&#160;:&#160;<a class="el" href="structMR_1_1ContoursDistanceMapOffset.html#a68a80dcbb5c3dc5175cdb355315dd038">MR::ContoursDistanceMapOffset</a></li>
 <li>shift&#160;:&#160;<a class="el" href="structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b">MR::MultiwayAligningTransform::Stabilizer</a>, <a class="el" href="group__GeneralGroup.html#ga9e57510cc8b745dcfbbf6e04c6fba846">MR::PlanarTriangulation::IntersectionsMap</a>, <a class="el" href="group__GeneralGroup.html#gab2e39467c0dd89a73144f53515aaeedb">MR::SeparationPointStorage::Block</a></li>
@@ -247,7 +247,7 @@ $(function(){initNavTree('functions_vars_s.html','',''); });
 <li>smoothConnections_&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga5e2decefeb68afc04d745403e70da92f">MR::ObjectLinesHolder</a></li>
 <li>smoothCurvature&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaac4ecae12eb97ad05b204ac14de42cb8">MR::FillHoleNicelySettings</a>, <a class="el" href="group__GeneralGroup.html#ga45ec4f63aa8dff81d3ed1c6c8ac1fefd">MR::StitchHolesNicelySettings</a></li>
 <li>smoothMode&#160;:&#160;<a class="el" href="structMR_1_1SubdivideSettings.html#a757c0278a48bf06117256165bec538c0">MR::SubdivideSettings</a></li>
-<li>smoothSeettings&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gacefa7bb069740dbb24ec548f52178ecf">MR::FillHoleNicelySettings</a>, <a class="el" href="group__GeneralGroup.html#ga574c3df036ce8c752e88ed337c0e06e2">MR::StitchHolesNicelySettings</a></li>
+<li>smoothSettings&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga34a56d380f672046a965d5bcc6f66e06">MR::FillHoleNicelySettings</a>, <a class="el" href="group__GeneralGroup.html#gad2e68e1f1a6709a037e454b3673663d2">MR::StitchHolesNicelySettings</a></li>
 <li>snapView&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga1ba0fadee2fc4bad0655f2b0f15211ab">MR::BaseFitParams</a></li>
 <li>snorm&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaa9ddd8b08fe744f50edac9292ae66920">MR::CurvePoint</a></li>
 <li>solidColor&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga127d98f930cd561a8633297e3422f649">MR::SaveSettings</a></li>
@@ -273,6 +273,7 @@ $(function(){initNavTree('functions_vars_s.html','',''); });
 <li>srcPoint&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaf30195d74b2a6994fdfadd8768407c38">MR::ICPPairData</a></li>
 <li>srcVert&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaf11c3a7954be62b84ca6ea3b824ec5a6">MR::MeshBuilder::VertDuplication</a></li>
 <li>srcVertId&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga0be978719b10258123e31ffe3413c532">MR::PointPair</a></li>
+<li>ssePath&#160;:&#160;<a class="el" href="structMR_1_1McpGateway_1_1Config.html#a743ff58ef28a77d569366aeaadba67a6">MR::McpGateway::Config</a></li>
 <li>stabilizer&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga68c78013b24475c60475093e77bbdeff">MR::DecimatePolylineSettings&lt; V &gt;</a>, <a class="el" href="structMR_1_1DecimateSettings.html#ab8a313e9caff73dd179f03a9c7b80baa">MR::DecimateSettings</a>, <a class="el" href="structMR_1_1FixMeshDegeneraciesParams.html#adbf34724488c4de119231db46448de01">MR::FixMeshDegeneraciesParams</a>, <a class="el" href="group__GeneralGroup.html#ga5563df5f8c2ef1af7864e5be4bfc7a42">MR::PositionVertsSmoothlyParams</a>, <a class="el" href="structMR_1_1ResolveMeshDegenSettings.html#afc054861d37dd821d8c02677da8774da">MR::ResolveMeshDegenSettings</a>, <a class="el" href="group__GeneralGroup.html#ga612a52253b770197ad7b0ddea8224c14">MR::SpacingSettings</a></li>
 <li>stable&#160;:&#160;<a class="el" href="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a0bb7d70e695f6c8fb8806cf07f90bb9e">MR::TriangulationHelpers::FanOptimizerQueueElement</a></li>
 <li>start&#160;:&#160;<a class="el" href="structMR_1_1GeodesicPath.html#a0a5eaad44164e2e97b2ce0685dc1a53d">MR::GeodesicPath</a>, <a class="el" href="structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf">MR::VoxelMetricParameters</a></li>
@@ -286,7 +287,8 @@ $(function(){initNavTree('functions_vars_s.html','',''); });
 <li>startPoint&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga2b0fa04ea63d4e6994fb1b7e4ae55ee5">MR::TextMeshAlignParams</a></li>
 <li>startVertices&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gadf1fc52d9134c621ba9630531ee2c99d">MR::ToolPathParams</a></li>
 <li>staticRotationPivot&#160;:&#160;<a class="el" href="group__GeneralGroup.html#gaba40f3c99bf1294e53abdd88d21278e8">MR::Viewport::Parameters</a></li>
-<li>status&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga86193b4dbe9a464e56ff2fe272c46486">MR::Features::MeasureResult::BasicPart</a>, <a class="el" href="structMR_1_1MeshMeshSignedDistanceResult.html#a2dde76f179a4bcac69592b196d1b91ab">MR::MeshMeshSignedDistanceResult</a>, <a class="el" href="group__GeneralGroup.html#ga69fabaf9380693815d99277fda43022f">MR::VoxelsLoad::DicomStatus</a></li>
+<li>stats&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga8fc9151d9754c30cbc5c5ebfb26d0a1d">MR::ZlibCompressParams</a></li>
+<li>status&#160;:&#160;<a class="el" href="group__GeneralGroup.html#ga86193b4dbe9a464e56ff2fe272c46486">MR::Features::MeasureResult::BasicPart</a>, <a class="el" href="structMR_1_1MeshMeshSignedDistanceResult.html#a2dde76f179a4bcac69592b196d1b91ab">MR::MeshMeshSignedDistanceResult</a>, <a class="el" href="structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html#a527377df02e29b36c5f10ad87f1429f7">MR::UI::TestEngine::Control::TypedEntry</a>, <a class="el" href="group__GeneralGroup.html#ga69fabaf9380693815d99277fda43022f">MR::VoxelsLoad::DicomStatus</a></li>
 <li>stipple&#160;:&#160;<a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html#a4c52dc063bae4dcacd4b598c59cc3be2">MR::ImGuiMeasurementIndicators::LineBodyParams</a></li>
 <li>stippleDashed&#160;:&#160;<a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a0ce71acf2dfa183f8f1ac48a132d2978">MR::ImGuiMeasurementIndicators::Params</a></li>
 <li>stop&#160;:&#160;<a class="el" href="structMR_1_1VoxelMetricParameters.html#ab2680e847f9d7f989c60b09700889278">MR::VoxelMetricParameters</a></li>

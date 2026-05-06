@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SkyPatch" kind="class" language="C#" prot="public">
     <compoundname>MR::SkyPatch</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SkyPatch</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SkyPatch" prot="public" virt="non-virtual">MR.Const_SkyPatch</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SkyPatch_1a499ab1c674ff3d60617f697abb90733f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -105,7 +105,7 @@
         <name>SkyPatch</name>
         <qualifiedname>MR.SkyPatch.SkyPatch</qualifiedname>
         <param>
-          <type>MR.Const_SkyPatch</type>
+          <type><ref refid="classMR_1_1Const__SkyPatch" kindref="compound">MR.Const_SkyPatch</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.SkyPatch.assign</qualifiedname>
         <param>
-          <type>MR.Const_SkyPatch</type>
+          <type><ref refid="classMR_1_1Const__SkyPatch" kindref="compound">MR.Const_SkyPatch</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SkyPatch</label>
+        <link refid="classMR_1_1Const__SkyPatch"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SkyPatch</label>
         <link refid="classMR_1_1SkyPatch"/>
@@ -191,9 +196,13 @@
       </node>
       <node id="2">
         <label>MR.Const_SkyPatch</label>
+        <link refid="classMR_1_1Const__SkyPatch"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_dir</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -205,8 +214,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" line="111" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolarRadiation.cs" bodystart="112" bodyend="182"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SkyPatch_1af847132e1c1b196fc7a1c76bb6aefcc5" prot="protected" virt="non-virtual"><scope>MR::SkyPatch</scope><name>__ref_storage_dir</name></member>
+      <member refid="classMR_1_1Const__SkyPatch_1aab649c7a323bc542694ffb8cee776d94" prot="protected" virt="non-virtual"><scope>MR::SkyPatch</scope><name>__ref_storage_radiation</name></member>
       <member refid="classMR_1_1SkyPatch_1a122b59a68bc4ad79701f873aebedcc25" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SkyPatch_1a60933288fbcf0bd1f47a12c62eba7b9f" prot="package" virt="non-virtual"><scope>MR::SkyPatch</scope><name>Const_SkyPatch</name></member>
+      <member refid="classMR_1_1Const__SkyPatch_1a59219d526679146ddaeb68b9762c36f7" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>Const_SkyPatch</name></member>
+      <member refid="classMR_1_1Const__SkyPatch_1afa8c2296414aa7ae8b7380010ca3a874" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>Const_SkyPatch</name></member>
+      <member refid="classMR_1_1Const__SkyPatch_1a8de40064855577dcf09527d1a92052c8" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>Const_SkyPatch</name></member>
+      <member refid="classMR_1_1Const__SkyPatch_1a06616fb5df3125a1c3102fceee04ded3" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>Const_SkyPatch</name></member>
       <member refid="classMR_1_1SkyPatch_1a499ab1c674ff3d60617f697abb90733f" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>dir</name></member>
+      <member refid="classMR_1_1Const__SkyPatch_1aab51b65de899ce97c55f199171bfbcfa" prot="protected" virt="virtual"><scope>MR::SkyPatch</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SkyPatch_1a6c00731bbfa732cc13c9a27753c18fbf" prot="public" virt="virtual"><scope>MR::SkyPatch</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SkyPatch_1abe998e94e7a14fd0d21bed821c8eb32e" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>radiation</name></member>
       <member refid="classMR_1_1SkyPatch_1a749ac3d77a645118ae7452634e6f4d7b" prot="package" virt="non-virtual"><scope>MR::SkyPatch</scope><name>SkyPatch</name></member>
       <member refid="classMR_1_1SkyPatch_1ad65bdaa6a7d9e7eede397834d4ada9b2" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>SkyPatch</name></member>

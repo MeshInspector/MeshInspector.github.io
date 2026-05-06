@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VdbVolume" kind="class" language="C#" prot="public">
     <compoundname>MR::VdbVolume</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VdbVolume</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VdbVolume" prot="public" virt="non-virtual">MR.Const_VdbVolume</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VdbVolume_1a3ea5720107997e4344a2722e86344bfe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref></type>
@@ -179,7 +179,7 @@
         <name>VdbVolume</name>
         <qualifiedname>MR.VdbVolume.VdbVolume</qualifiedname>
         <param>
-          <type>Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">Const_VdbVolume</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -250,7 +250,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <computeroutput><ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::VoxelsVolume&amp;amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;amp;gt;</computeroutput> <computeroutput><ref refid="structMR_1_1Box1f" kindref="compound">MR.Box1f</ref></computeroutput> This is the non-const half of the class. </para>
+<para>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <computeroutput><ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;</computeroutput> <computeroutput><ref refid="structMR_1_1Box1f" kindref="compound">MR.Box1f</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -263,6 +263,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VdbVolume</label>
+        <link refid="classMR_1_1Const__VdbVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -281,6 +282,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.VdbVolume</label>
         <link refid="classMR_1_1VdbVolume"/>
@@ -289,11 +294,16 @@
       </node>
       <node id="2">
         <label>MR.Const_VdbVolume</label>
+        <link refid="classMR_1_1Const__VdbVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_dims</edgelabel>
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -308,19 +318,54 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1477" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1478" bodyend="1588"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VdbVolume_1a073fe1d3d40ce38ade12b565c0823a7a" prot="protected" virt="non-virtual"><scope>MR::VdbVolume</scope><name>__ref_storage_dims</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a0f1dff69a93ba1bfed98bfd881924760" prot="protected" virt="non-virtual"><scope>MR::VdbVolume</scope><name>__ref_storage_Elements</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a26599e619d394e424d9cbc6c1a8f57f9" prot="protected" virt="non-virtual"><scope>MR::VdbVolume</scope><name>__ref_storage_max</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1aeeadf8ceb5ba501a8cde1fe7d3d5dbce" prot="protected" virt="non-virtual"><scope>MR::VdbVolume</scope><name>__ref_storage_min</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1aecb4019ce4009704e989a8bc5b95e784" prot="protected" virt="non-virtual"><scope>MR::VdbVolume</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1VdbVolume_1ae769456b94972b06bde76e94324d7d15" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a015faede1e25e577ee8d9c2fffab1027" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>center</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a53bfb609e85aff4576eb76fc115ac07c" prot="package" virt="non-virtual"><scope>MR::VdbVolume</scope><name>Const_VdbVolume</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a44084b4555116919e4af987b8f062021" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>Const_VdbVolume</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1adde4a46d4b14942ea05b5c3eff748ceb" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>Const_VdbVolume</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a582f76ba8e6a284b79cacfa1563b29f8" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>Const_VdbVolume</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a682bf888d5340eb9ba44cb963d2900a7" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>Const_VdbVolume</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1aa1d3fe7eeed524834f73d248cae928ff" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>corner</name></member>
       <member refid="classMR_1_1VdbVolume_1a3ea5720107997e4344a2722e86344bfe" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a17276dd201df1a737ba6751e30de2911" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>diagonal</name></member>
       <member refid="classMR_1_1VdbVolume_1ab9777edc2a724188b5e58575000d3703" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>dims</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1afbd40c67a7e632caf296970fa9ea6a54" prot="protected" virt="virtual"><scope>MR::VdbVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1ac3d880a7dae692b1f3cfeb39ad61196e" prot="public" virt="virtual"><scope>MR::VdbVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a715cd6fd588599de527bdf77bfd38243" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>Elements</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a73414f0c9d93e8cd4983c427da5406a2" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a17cd57d6a48dd6af1843ab43eec9c2f1" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1af6a095661144487110f2d3d08777b883" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>expanded</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1afbef11b90d4a96f0491980678c4f8c71" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>fromMinAndSize</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1abfaccce0581a7c2da67f97d08989d5fb" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>getBoxClosestPointTo</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a19f6ba127aace25e008fe8bb6fce7e95" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>getMaxBoxCorner</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a94a172120e94522a24ff3b2741007b09" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>getMinBoxCorner</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a55ff5879f1339811fc69f2f55d2b4e9e" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>getProjection</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a41c97d051568d4683e4af88f4ccd7167" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1ac761b216e42859a4ff6f090323db837a" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>insignificantlyExpanded</name></member>
       <member refid="classMR_1_1VdbVolume_1a470d897a5436403d590f87220291c47d" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>intersect</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a8fe966d0ce24de214613cc77d779bbaf" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>intersection</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a4432881beca7faaf231ad2b138e0f9ae" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>intersects</name></member>
       <member refid="classMR_1_1VdbVolume_1a1f4759c23c33dfab74c6255a97da8894" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>max</name></member>
       <member refid="classMR_1_1VdbVolume_1aeb7a12a06eb03414c60a0c3564be5a97" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>min</name></member>
       <member refid="classMR_1_1VdbVolume_1a0995f24406f533002ac34a7bf2b49d53" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>operator MR.Box_Box1f</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a98a1096cb2cc8ef0ecb08afdae86171a" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>operator MR.Const_VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a5e2ec1e28d02cea586c1a6efdef5af4c" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>operator MR.ConstBox_Box1f</name></member>
       <member refid="classMR_1_1VdbVolume_1a5400eebfe3c053d0ea854fea6deb8532" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>operator MR.VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a41da9b7338b2c52260e579859dcdf09c" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a21710c4c23c0f3ec9fca3689d2457a08" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1aa49db48db7f0b602abe8392c0622d729" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1aa40f84cfb46b88b1cafe46b536c592ba" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>valid</name></member>
       <member refid="classMR_1_1VdbVolume_1a7587f572db9e70d799bd19e6dfd871f2" prot="package" virt="non-virtual"><scope>MR::VdbVolume</scope><name>VdbVolume</name></member>
       <member refid="classMR_1_1VdbVolume_1a437a67b5b5c63277aa02b1154d7cce16" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>VdbVolume</name></member>
       <member refid="classMR_1_1VdbVolume_1abd0a3edaaacf689f74b81ab20a385a47" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>VdbVolume</name></member>
       <member refid="classMR_1_1VdbVolume_1aec5e97451fd154c955efd00db9c9e430" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>VdbVolume</name></member>
       <member refid="classMR_1_1VdbVolume_1a64b7f05a83174ed8ee5ed9ee14437c7a" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>VdbVolume</name></member>
+      <member refid="classMR_1_1Const__VdbVolume_1a3a9244d1fbe10fa3bdd248d2d3e1b2e4" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>volume</name></member>
       <member refid="classMR_1_1VdbVolume_1aa96b1cfd98d0aaa70138791f74fd15e0" prot="public" virt="non-virtual"><scope>MR::VdbVolume</scope><name>voxelSize</name></member>
     </listofallmembers>
   </compounddef>

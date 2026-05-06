@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OffsetContourIndex" kind="class" language="C#" prot="public">
     <compoundname>MR::OffsetContourIndex</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_OffsetContourIndex</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__OffsetContourIndex" prot="public" virt="non-virtual">MR.Const_OffsetContourIndex</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1OffsetContourIndex_1aeff196afe36d0f5b37197e994a410aab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -103,7 +103,7 @@
         <name>OffsetContourIndex</name>
         <qualifiedname>MR.OffsetContourIndex.OffsetContourIndex</qualifiedname>
         <param>
-          <type>MR.Const_OffsetContourIndex</type>
+          <type><ref refid="classMR_1_1Const__OffsetContourIndex" kindref="compound">MR.Const_OffsetContourIndex</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.OffsetContourIndex.assign</qualifiedname>
         <param>
-          <type>MR.Const_OffsetContourIndex</type>
+          <type><ref refid="classMR_1_1Const__OffsetContourIndex" kindref="compound">MR.Const_OffsetContourIndex</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OffsetContourIndex</label>
+        <link refid="classMR_1_1Const__OffsetContourIndex"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -189,6 +190,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OffsetContourIndex</label>
+        <link refid="classMR_1_1Const__OffsetContourIndex"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -203,13 +205,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="115" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="116" bodyend="182"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a94d1809882c36ae61969736a6b927ce3" prot="protected" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>__ref_storage_contourId</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a9127a5cfed0f7b6b7edf5e934532a36f" prot="protected" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>__ref_storage_vertId</name></member>
       <member refid="classMR_1_1OffsetContourIndex_1aee5cabd72e3846c31ae2636e4850f700" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a63c44d8cfd64f64d66e2a4bb4409d4dd" prot="package" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>Const_OffsetContourIndex</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a4d784f30684c7dd908049ca9664b91f0" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>Const_OffsetContourIndex</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1ae565b496c397f3321a3b024cf26bd0a9" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>Const_OffsetContourIndex</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a782077083d24b076daf56889ec9d7e9f" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>Const_OffsetContourIndex</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a8fe1d87273c0ce3410c3740a91fb0b12" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>Const_OffsetContourIndex</name></member>
       <member refid="classMR_1_1OffsetContourIndex_1aeff196afe36d0f5b37197e994a410aab" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>contourId</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a2290cbff9e1bcc01e5c78aed33bed94e" prot="protected" virt="virtual"><scope>MR::OffsetContourIndex</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a846fd0db378da6c92c29edc5732c39a1" prot="public" virt="virtual"><scope>MR::OffsetContourIndex</scope><name>Dispose</name></member>
       <member refid="classMR_1_1OffsetContourIndex_1acabfdeb6a79f58e12ed77166963ba009" prot="package" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>OffsetContourIndex</name></member>
       <member refid="classMR_1_1OffsetContourIndex_1a925758e57ede0dcdd8f66afcd4f5e14d" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>OffsetContourIndex</name></member>
       <member refid="classMR_1_1OffsetContourIndex_1ae147e8337c1325449daddb47a1df1998" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>OffsetContourIndex</name></member>
       <member refid="classMR_1_1OffsetContourIndex_1a852947dd70471e2f1a24f7599a31206f" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>OffsetContourIndex</name></member>
       <member refid="classMR_1_1OffsetContourIndex_1af29c88bb4a43705d730fc2c975ba4bf5" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>OffsetContourIndex</name></member>
+      <member refid="classMR_1_1Const__OffsetContourIndex_1a16e1f9a9c4f42f85e3b2d501e7f59037" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>valid</name></member>
       <member refid="classMR_1_1OffsetContourIndex_1a34218e9c8dac44053b0465492de45cda" prot="public" virt="non-virtual"><scope>MR::OffsetContourIndex</scope><name>vertId</name></member>
     </listofallmembers>
   </compounddef>

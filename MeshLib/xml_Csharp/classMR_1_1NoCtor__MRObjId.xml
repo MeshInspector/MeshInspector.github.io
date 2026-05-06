@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoCtor__MRObjId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoCtor_MRObjId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoCtor_MRObjId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoCtor__MRObjId" prot="public" virt="non-virtual">MR.Const_NoCtor_MRObjId</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1NoCtor__MRObjId_1a5e56600cba6f1f07ec54c7764c2bab4e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>NoCtor_MRObjId</name>
         <qualifiedname>MR.NoCtor_MRObjId.NoCtor_MRObjId</qualifiedname>
         <param>
-          <type>MR.Const_NoCtor_MRObjId</type>
+          <type><ref refid="classMR_1_1Const__NoCtor__MRObjId" kindref="compound">MR.Const_NoCtor_MRObjId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoCtor&amp;amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::NoCtor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoCtor&amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::NoCtor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoCtor&amp;amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::NoCtor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoCtor&amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::NoCtor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.NoCtor_MRObjId.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoCtor_MRObjId</type>
+          <type><ref refid="classMR_1_1Const__NoCtor__MRObjId" kindref="compound">MR.Const_NoCtor_MRObjId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoCtor&amp;amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -102,7 +102,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::NoCtor&amp;amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::NoCtor&amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoCtor_MRObjId</label>
+        <link refid="classMR_1_1Const__NoCtor__MRObjId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoCtor_MRObjId</label>
+        <link refid="classMR_1_1Const__NoCtor__MRObjId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="13890" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="13891" bodyend="13931"/>
     <listofallmembers>
       <member refid="classMR_1_1NoCtor__MRObjId_1a29d5e632c7b8a38e3741ebee510e94e6" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRObjId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRObjId_1aeee420b98b25773c759697d5795946e5" prot="package" virt="non-virtual"><scope>MR::NoCtor_MRObjId</scope><name>Const_NoCtor_MRObjId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRObjId_1a9dddac3d300c20e36cd0277804b4b698" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRObjId</scope><name>Const_NoCtor_MRObjId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRObjId_1a62c84bf737225c10ea9cf800932a0dd8" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRObjId</scope><name>Const_NoCtor_MRObjId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRObjId_1af549a46e0d501f1d4c308abb109755fb" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRObjId</scope><name>Const_NoCtor_MRObjId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRObjId_1afe14a428e4b5ca32d0b79da6aca1d6a2" prot="protected" virt="virtual"><scope>MR::NoCtor_MRObjId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRObjId_1a52a4d587738b0a8273e4ea6cf344956a" prot="public" virt="virtual"><scope>MR::NoCtor_MRObjId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1NoCtor__MRObjId_1a5e56600cba6f1f07ec54c7764c2bab4e" prot="package" virt="non-virtual"><scope>MR::NoCtor_MRObjId</scope><name>NoCtor_MRObjId</name></member>
       <member refid="classMR_1_1NoCtor__MRObjId_1a5236fdeca15cab63e77751950f01b540" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRObjId</scope><name>NoCtor_MRObjId</name></member>
       <member refid="classMR_1_1NoCtor__MRObjId_1a882c86579919f45e45415b16813e8e12" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRObjId</scope><name>NoCtor_MRObjId</name></member>

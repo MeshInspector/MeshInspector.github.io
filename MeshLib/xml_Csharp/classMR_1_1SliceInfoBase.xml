@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SliceInfoBase" kind="class" language="C#" prot="public">
     <compoundname>MR::SliceInfoBase</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SliceInfoBase</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SliceInfoBase" prot="public" virt="non-virtual">MR.Const_SliceInfoBase</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SliceInfoBase_1a67156548e00f20b96a17a74fa0a099e5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -124,7 +124,7 @@
         <name>SliceInfoBase</name>
         <qualifiedname>MR.SliceInfoBase.SliceInfoBase</qualifiedname>
         <param>
-          <type>MR.Const_SliceInfoBase</type>
+          <type><ref refid="classMR_1_1Const__SliceInfoBase" kindref="compound">MR.Const_SliceInfoBase</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.SliceInfoBase.assign</qualifiedname>
         <param>
-          <type>MR.Const_SliceInfoBase</type>
+          <type><ref refid="classMR_1_1Const__SliceInfoBase" kindref="compound">MR.Const_SliceInfoBase</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -192,6 +192,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SliceInfoBase</label>
+        <link refid="classMR_1_1Const__SliceInfoBase"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -213,6 +214,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SliceInfoBase</label>
+        <link refid="classMR_1_1Const__SliceInfoBase"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -227,7 +229,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" line="131" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRScanHelpers.cs" bodystart="132" bodyend="207"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SliceInfoBase_1a934b0fe2ce0cebd184a29ff7efea5353" prot="protected" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>__ref_storage_fileNum</name></member>
+      <member refid="classMR_1_1Const__SliceInfoBase_1a595fad896ef461a80e552d2365dce787" prot="protected" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>__ref_storage_instanceNum</name></member>
+      <member refid="classMR_1_1Const__SliceInfoBase_1a69931aaf953ef6bbdb95cb62e9bbfcb7" prot="protected" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>__ref_storage_z</name></member>
       <member refid="classMR_1_1SliceInfoBase_1a387bc1e52063db74bfcffe0a7d3488b5" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SliceInfoBase_1aa38874176a64e84befff48e9fc306258" prot="package" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>Const_SliceInfoBase</name></member>
+      <member refid="classMR_1_1Const__SliceInfoBase_1a3c44c11564cff1e0862e659a246a57e7" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>Const_SliceInfoBase</name></member>
+      <member refid="classMR_1_1Const__SliceInfoBase_1ad5ace6773cddcaec9decc8e5633b40f9" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>Const_SliceInfoBase</name></member>
+      <member refid="classMR_1_1Const__SliceInfoBase_1a3fca98820dbf1b7d43093422ca548ae2" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>Const_SliceInfoBase</name></member>
+      <member refid="classMR_1_1Const__SliceInfoBase_1a08167391a4a3ed5daa7f5b6c57a8adbb" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>Const_SliceInfoBase</name></member>
+      <member refid="classMR_1_1Const__SliceInfoBase_1a35a1d37a5a22c0ded05c48d41e1cbcbe" prot="protected" virt="virtual"><scope>MR::SliceInfoBase</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SliceInfoBase_1a600a81b84a06bde132375ffe7c9756d4" prot="public" virt="virtual"><scope>MR::SliceInfoBase</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SliceInfoBase_1ac22c20d95109a16b908078f5895b917e" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>fileNum</name></member>
       <member refid="classMR_1_1SliceInfoBase_1a67156548e00f20b96a17a74fa0a099e5" prot="public" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>instanceNum</name></member>
       <member refid="classMR_1_1SliceInfoBase_1acfa1083612567515c5d0a1cb5f2a612e" prot="package" virt="non-virtual"><scope>MR::SliceInfoBase</scope><name>SliceInfoBase</name></member>

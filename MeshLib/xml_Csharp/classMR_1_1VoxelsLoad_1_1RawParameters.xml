@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsLoad_1_1RawParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsLoad::RawParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.VoxelsLoad.Const_RawParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters" prot="public" virt="non-virtual">MR.VoxelsLoad.Const_RawParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1RawParameters_1a2b4d7f21a3f4c1b9ac6c1e0387fec668" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
@@ -140,7 +140,7 @@
         <name>RawParameters</name>
         <qualifiedname>MR.VoxelsLoad.RawParameters.RawParameters</qualifiedname>
         <param>
-          <type>MR.VoxelsLoad.Const_RawParameters</type>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters" kindref="compound">MR.VoxelsLoad.Const_RawParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -178,7 +178,7 @@
         <name>assign</name>
         <qualifiedname>MR.VoxelsLoad.RawParameters.assign</qualifiedname>
         <param>
-          <type>MR.VoxelsLoad.Const_RawParameters</type>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters" kindref="compound">MR.VoxelsLoad.Const_RawParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.VoxelsLoad.Const_RawParameters</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -218,6 +219,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.VoxelsLoad.RawParameters</label>
         <link refid="classMR_1_1VoxelsLoad_1_1RawParameters"/>
@@ -229,9 +234,15 @@
       </node>
       <node id="2">
         <label>MR.VoxelsLoad.Const_RawParameters</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_dimensions</edgelabel>
+          <edgelabel>__ref_storage_scalarType</edgelabel>
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
         </childnode>
       </node>
       <node id="4">
@@ -240,8 +251,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="126" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="127" bodyend="198"/>
     <listofallmembers>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1ace61317fd678f1206a5e16ee5ca63802" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>__ref_storage_dimensions</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1ac369e2978fe98d31d9f11845b3dfbe9d" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>__ref_storage_gridLevelSet</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a8ef378b9cd542b1b73f1cac6a99ddbe5" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>__ref_storage_scalarType</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1acc10ffc44ffb3e7ad32a6c7e1af25673" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1RawParameters_1a95bc4dcd84ffc9ddc8a05d3fb1b9931c" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>assign</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a5e537cd33d0270847ea13c64af38f8cc" prot="package" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>Const_RawParameters</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a7a1cd9f9911c4a5e9c2c04d6a0d077e7" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>Const_RawParameters</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a7c942ba5c8d81d5188bb194e00a04fd5" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>Const_RawParameters</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a8322ff8b6fd4b47ba177e1466bcd303e" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>Const_RawParameters</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1aa6fc5bae2d2508d06b1dd89a2dee1ca2" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>Const_RawParameters</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1RawParameters_1a2b4d7f21a3f4c1b9ac6c1e0387fec668" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>dimensions</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1ab833a0f56031c0d62282b70f1fa203be" prot="protected" virt="virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a8d5c552f25af1296d8f7852076292e36" prot="public" virt="virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1RawParameters_1afad68ef98f7b9867b47ef62232e5c835" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>gridLevelSet</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1RawParameters_1ac82e8bb4484230d7f3182bd1b339211d" prot="package" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>RawParameters</name></member>
       <member refid="classMR_1_1VoxelsLoad_1_1RawParameters_1a3f1d91f9ad394baeb077d4cd628166c3" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>RawParameters</name></member>

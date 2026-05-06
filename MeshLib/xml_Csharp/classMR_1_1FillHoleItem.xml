@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FillHoleItem" kind="class" language="C#" prot="public">
     <compoundname>MR::FillHoleItem</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FillHoleItem</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FillHoleItem" prot="public" virt="non-virtual">MR.Const_FillHoleItem</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FillHoleItem_1aad2db2030da4e98808498486f222dd2b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -103,7 +103,7 @@
         <name>FillHoleItem</name>
         <qualifiedname>MR.FillHoleItem.FillHoleItem</qualifiedname>
         <param>
-          <type>MR.Const_FillHoleItem</type>
+          <type><ref refid="classMR_1_1Const__FillHoleItem" kindref="compound">MR.Const_FillHoleItem</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.FillHoleItem.assign</qualifiedname>
         <param>
-          <type>MR.Const_FillHoleItem</type>
+          <type><ref refid="classMR_1_1Const__FillHoleItem" kindref="compound">MR.Const_FillHoleItem</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FillHoleItem</label>
+        <link refid="classMR_1_1Const__FillHoleItem"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -189,6 +190,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FillHoleItem</label>
+        <link refid="classMR_1_1Const__FillHoleItem"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -203,7 +205,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="842" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="843" bodyend="911"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FillHoleItem_1ae2c7f8cf8f8a51954fad65ce44301f19" prot="protected" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>__ref_storage_edgeCode1</name></member>
+      <member refid="classMR_1_1Const__FillHoleItem_1aba52a66d8671615b7a3a0765b23b1c4c" prot="protected" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>__ref_storage_edgeCode2</name></member>
       <member refid="classMR_1_1FillHoleItem_1a525c31821bdc6f5145a8ab7f14d3ba72" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__FillHoleItem_1a2d2c59031bf10016d62e26dd7f501270" prot="package" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>Const_FillHoleItem</name></member>
+      <member refid="classMR_1_1Const__FillHoleItem_1adf4d79fbcad9272b187d9abe8281da96" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>Const_FillHoleItem</name></member>
+      <member refid="classMR_1_1Const__FillHoleItem_1a719f920c3348262925f414b5fff814d6" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>Const_FillHoleItem</name></member>
+      <member refid="classMR_1_1Const__FillHoleItem_1ac06c38182d55a53f47bb58a3b7bb8e54" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>Const_FillHoleItem</name></member>
+      <member refid="classMR_1_1Const__FillHoleItem_1a861eef72da00983383c2b64b3b512d7b" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>Const_FillHoleItem</name></member>
+      <member refid="classMR_1_1Const__FillHoleItem_1a3e34d2f8c23fd86aa5aedccfdc24a786" prot="protected" virt="virtual"><scope>MR::FillHoleItem</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FillHoleItem_1ae43205f0ffe138ebd7b5dd1911f81224" prot="public" virt="virtual"><scope>MR::FillHoleItem</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FillHoleItem_1aad2db2030da4e98808498486f222dd2b" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>edgeCode1</name></member>
       <member refid="classMR_1_1FillHoleItem_1a50442d05f9750f08ee0e585e35b59c26" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>edgeCode2</name></member>
       <member refid="classMR_1_1FillHoleItem_1af0dd6f0dbb6a9858e3b64668bdd3efae" prot="package" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>FillHoleItem</name></member>

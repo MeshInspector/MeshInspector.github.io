@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MeshOrPoints::ProjectionResult</compoundname>
+    <basecompoundref refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult" prot="public" virt="non-virtual">MR.Const_MeshOrPoints.Const_ProjectionResult</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1a3d0be2186e858f6c9e7f3e5d1d4e5aee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.Const_MeshOrPoints.ProjectionResult.point</definition>
+        <argsstring></argsstring>
+        <name>point</name>
+        <qualifiedname>MR.Const_MeshOrPoints.ProjectionResult.point</qualifiedname>
+        <briefdescription>
+<para>found closest point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="439" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1ac33b8d617f504cee471a5aa987ad8450" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Optional_MRVector3f</type>
+        <definition>new unsafe MR.Std.Optional_MRVector3f MR.Const_MeshOrPoints.ProjectionResult.normal</definition>
+        <argsstring></argsstring>
+        <name>normal</name>
+        <qualifiedname>MR.Const_MeshOrPoints.ProjectionResult.normal</qualifiedname>
+        <briefdescription>
+<para>normal at the closest point; for meshes it will be pseudonormal with the differentiation depending on closest point location (face/edge/vertex) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="445" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="445" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1ae69bd3402cb18c2899b844b98fb28602" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.Const_MeshOrPoints.ProjectionResult.isBd</definition>
+        <argsstring></argsstring>
+        <name>isBd</name>
+        <qualifiedname>MR.Const_MeshOrPoints.ProjectionResult.isBd</qualifiedname>
+        <briefdescription>
+<para>can be true only for meshes, if the closest point is located on the boundary of the mesh (or the current region) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="450" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1a4910b363e5c18aa8b8f3710eb2b8cc11" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Const_MeshOrPoints.ProjectionResult.distSq</definition>
+        <argsstring></argsstring>
+        <name>distSq</name>
+        <qualifiedname>MR.Const_MeshOrPoints.ProjectionResult.distSq</qualifiedname>
+        <briefdescription>
+<para>squared distance from query point to the closest point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="455" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1a0bb605b7837e81322e03f5fb469745b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>new unsafe ref MR.VertId MR.Const_MeshOrPoints.ProjectionResult.closestVert</definition>
+        <argsstring></argsstring>
+        <name>closestVert</name>
+        <qualifiedname>MR.Const_MeshOrPoints.ProjectionResult.closestVert</qualifiedname>
+        <briefdescription>
+<para>for point clouds it is the closest vertex, for meshes it is the closest vertex of the triangle with the closest point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="461" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="461" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1a54a34b4a29749c2505a0d9ae95aa8899" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshOrPoints.ProjectionResult.ProjectionResult</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ProjectionResult</name>
+        <qualifiedname>MR.Const_MeshOrPoints.ProjectionResult.ProjectionResult</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="480" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="480" bodyend="484"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1aa0b8584765a5477d97eae6afa02228fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshOrPoints.ProjectionResult.ProjectionResult</definition>
+        <argsstring>()</argsstring>
+        <name>ProjectionResult</name>
+        <qualifiedname>MR.Const_MeshOrPoints.ProjectionResult.ProjectionResult</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="490" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="490" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1ab9733b577cc2da7ce592944dbb801579" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshOrPoints.ProjectionResult.ProjectionResult</definition>
+        <argsstring>(MR.Vector3f point, MR._InOpt_Vector3f normal, bool isBd, float distSq, MR.VertId closestVert)</argsstring>
+        <name>ProjectionResult</name>
+        <qualifiedname>MR.Const_MeshOrPoints.ProjectionResult.ProjectionResult</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_Vector3f</type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isBd</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distSq</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>closestVert</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult" kindref="compound">MR.MeshOrPoints.ProjectionResult</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="501" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="501" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1a5dfb7466738a2dd7b6a361f8e66c6388" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshOrPoints.ProjectionResult.ProjectionResult</definition>
+        <argsstring>(MR.MeshOrPoints.Const_ProjectionResult _other)</argsstring>
+        <name>ProjectionResult</name>
+        <qualifiedname>MR.Const_MeshOrPoints.ProjectionResult.ProjectionResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult" kindref="compound">MR.MeshOrPoints.Const_ProjectionResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::MeshOrPoints::ProjectionResult::ProjectionResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="512" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="512" bodyend="519"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1ad17c3c7367f13a8dca387b613087edcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshOrPoints.ProjectionResult.ProjectionResult</definition>
+        <argsstring>(ProjectionResult _other)</argsstring>
+        <name>ProjectionResult</name>
+        <qualifiedname>MR.Const_MeshOrPoints.ProjectionResult.ProjectionResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult" kindref="compound">ProjectionResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::MeshOrPoints::ProjectionResult::ProjectionResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="524" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="524" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1a37676ec4b3c8991c6bc698a009f51849" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult" kindref="compound">MR.MeshOrPoints.ProjectionResult</ref></type>
+        <definition>unsafe MR.MeshOrPoints.ProjectionResult MR.Const_MeshOrPoints.ProjectionResult.assign</definition>
+        <argsstring>(MR.MeshOrPoints.Const_ProjectionResult _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Const_MeshOrPoints.ProjectionResult.assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult" kindref="compound">MR.MeshOrPoints.Const_ProjectionResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::MeshOrPoints::ProjectionResult::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="529" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="529" bodyend="536"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult" kindref="compound">MR.MeshOrPoints.ProjectionResult</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MeshOrPoints.ProjectionResult</label>
+        <link refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_MeshOrPoints.Const_ProjectionResult</label>
+        <link refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_MeshOrPoints.ProjectionResult</label>
+        <link refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_MeshOrPoints.Const_ProjectionResult</label>
+        <link refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_closestVert</edgelabel>
+          <edgelabel>__ref_storage_point</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="434" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="435" bodyend="537"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult_1a3c11235202a35b6889529a000a04d103" prot="protected" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>__ref_storage_closestVert</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult_1af79be407f2851ea937a06d8e3e96536c" prot="protected" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>__ref_storage_distSq</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult_1a3479bb1219c26bacfd14a1534a4419bc" prot="protected" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>__ref_storage_isBd</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult_1a9e0c1c578dbbc19eda85b33b6cbee9a8" prot="protected" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>__ref_storage_point</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1a37676ec4b3c8991c6bc698a009f51849" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1a0bb605b7837e81322e03f5fb469745b1" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>closestVert</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult_1a356f866176babdf3c2d0a6549a251714" prot="package" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>Const_ProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult_1a95f43e98156d2f50eb495e9046655914" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>Const_ProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult_1ae57bb6501d53d125d8d1c8cccf0c25f1" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>Const_ProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult_1a8be011e8eeec80835ef74195f31ba55d" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>Const_ProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult_1a592fb2b35cc42b0355d2b35bdd9c9238" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>Const_ProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult_1a72a91a578e26e41b0a7d255b3ba633b0" prot="protected" virt="virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult_1a2ac88a5dfba06bf864b068b1646beffe" prot="public" virt="virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1a4910b363e5c18aa8b8f3710eb2b8cc11" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>distSq</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1ae69bd3402cb18c2899b844b98fb28602" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>isBd</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1ac33b8d617f504cee471a5aa987ad8450" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>normal</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult_1a57d7d838ab699c73b6af0928a6967588" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1a3d0be2186e858f6c9e7f3e5d1d4e5aee" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>point</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1a54a34b4a29749c2505a0d9ae95aa8899" prot="package" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>ProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1aa0b8584765a5477d97eae6afa02228fb" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>ProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1ab9733b577cc2da7ce592944dbb801579" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>ProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1a5dfb7466738a2dd7b6a361f8e66c6388" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>ProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1ProjectionResult_1ad17c3c7367f13a8dca387b613087edcc" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>ProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshOrPoints_1_1Const__ProjectionResult_1a2adeebe7c20ff5890492d06f634e0c0d" prot="public" virt="non-virtual"><scope>MR::Const_MeshOrPoints::ProjectionResult</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

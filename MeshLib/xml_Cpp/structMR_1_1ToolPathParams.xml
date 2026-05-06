@@ -26,6 +26,7 @@
       <member refid="group__GeneralGroup_1ga290865e63260a699f02e17210427d220" kind="variable"><name>offsetMesh</name></member>
     </sectiondef>
     <briefdescription>
+<para>Parameters shared by all tool path generation functions. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -41,7 +42,7 @@
         <link refid="structMR_1_1ToolPathParams"/>
       </node>
     </inheritancegraph>
-    <location file="MRVoxels/MRToolPath.h" line="22" column="1" bodyfile="MRVoxels/MRToolPath.h" bodystart="23" bodyend="68"/>
+    <location file="MRVoxels/MRToolPath.h" line="24" column="1" bodyfile="MRVoxels/MRToolPath.h" bodystart="25" bodyend="70"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga369d0d2f955fa0ff8c3d1f01c5d78679" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>baseFeed</name></member>
       <member refid="group__GeneralGroup_1ga50c755eddaa84d57053b8b2ac05090c7" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>bypassDir</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeScaleAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeScaleAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeScaleAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeScaleAction" prot="public" virt="non-virtual">MR.Const_ChangeScaleAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeScaleAction_1a114de4cf2fefe8767f318feb29e50b26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeScaleAction</name>
         <qualifiedname>MR.ChangeScaleAction.ChangeScaleAction</qualifiedname>
         <param>
-          <type>Const_ChangeScaleAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeScaleAction" kindref="compound">Const_ChangeScaleAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -176,7 +176,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeScaleAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -203,6 +203,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeScaleAction</label>
+        <link refid="classMR_1_1Const__ChangeScaleAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,6 +225,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeScaleAction</label>
+        <link refid="classMR_1_1Const__ChangeScaleAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -245,7 +247,18 @@
       <member refid="classMR_1_1ChangeScaleAction_1ad62f19e63b761e0a213e6e6f1e7eda3c" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>ChangeScaleAction</name></member>
       <member refid="classMR_1_1ChangeScaleAction_1a1f8540ec2ba3a44f5ff3d27547c13a16" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>ChangeScaleAction</name></member>
       <member refid="classMR_1_1ChangeScaleAction_1adfaf609a1eb37bd2a4b66985d486bc61" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>ChangeScaleAction</name></member>
+      <member refid="classMR_1_1Const__ChangeScaleAction_1a881039dfdb2a185801acc189e62aea8e" prot="package" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>Const_ChangeScaleAction</name></member>
+      <member refid="classMR_1_1Const__ChangeScaleAction_1a7c80fb814d03c550e38869b311f90bc8" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>Const_ChangeScaleAction</name></member>
+      <member refid="classMR_1_1Const__ChangeScaleAction_1a187abdfe4f964cd07d1d960812dd7d2e" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>Const_ChangeScaleAction</name></member>
+      <member refid="classMR_1_1Const__ChangeScaleAction_1a6dd5da7bea375d67f35e8dc78665b64e" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>Const_ChangeScaleAction</name></member>
+      <member refid="classMR_1_1Const__ChangeScaleAction_1adcff0a7f00706613e7452f08891411e7" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>Const_ChangeScaleAction</name></member>
+      <member refid="classMR_1_1Const__ChangeScaleAction_1a9cb6fc8beb30e4425881626424b95198" prot="protected" virt="virtual"><scope>MR::ChangeScaleAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeScaleAction_1ac5012d688110c6095a71e245d8f61fd4" prot="public" virt="virtual"><scope>MR::ChangeScaleAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeScaleAction_1a00a6985c04a32c2d1970a4a22aba657b" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeScaleAction_1ae7c8988f9d1716b9a289e85236b8e133" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeScaleAction_1a07891b7a690799b3ad02257ab798bd96" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>operator ChangeScaleAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeScaleAction_1aac6333c6ad06b545a10aa9be64ac8c06" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>operator Const_ChangeScaleAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeScaleAction_1ab743f30b68863d1833ea5a6537bca929" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeScaleAction_1a114de4cf2fefe8767f318feb29e50b26" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>operator MR.HistoryAction</name></member>
     </listofallmembers>
   </compounddef>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineUndirectedEdgeIterator" kind="class" language="C#" prot="public">
     <compoundname>MR::PolylineUndirectedEdgeIterator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PolylineUndirectedEdgeIterator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PolylineUndirectedEdgeIterator" prot="public" virt="non-virtual">MR.Const_PolylineUndirectedEdgeIterator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1PolylineUndirectedEdgeIterator_1a426fee64fc7f983c812fda02814e007e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>PolylineUndirectedEdgeIterator</name>
         <qualifiedname>MR.PolylineUndirectedEdgeIterator.PolylineUndirectedEdgeIterator</qualifiedname>
         <param>
-          <type>MR.Const_PolylineUndirectedEdgeIterator</type>
+          <type><ref refid="classMR_1_1Const__PolylineUndirectedEdgeIterator" kindref="compound">MR.Const_PolylineUndirectedEdgeIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>PolylineUndirectedEdgeIterator</name>
         <qualifiedname>MR.PolylineUndirectedEdgeIterator.PolylineUndirectedEdgeIterator</qualifiedname>
         <param>
-          <type>MR.Const_PolylineTopology</type>
+          <type><ref refid="classMR_1_1Const__PolylineTopology" kindref="compound">MR.Const_PolylineTopology</ref></type>
           <declname>topology</declname>
         </param>
         <briefdescription>
@@ -107,7 +107,7 @@
         <name>assign</name>
         <qualifiedname>MR.PolylineUndirectedEdgeIterator.assign</qualifiedname>
         <param>
-          <type>MR.Const_PolylineUndirectedEdgeIterator</type>
+          <type><ref refid="classMR_1_1Const__PolylineUndirectedEdgeIterator" kindref="compound">MR.Const_PolylineUndirectedEdgeIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>operator PolylineUndirectedEdgeIterator</name>
         <qualifiedname>MR.PolylineUndirectedEdgeIterator.operator PolylineUndirectedEdgeIterator</qualifiedname>
         <param>
-          <type>MR.Const_PolylineTopology</type>
+          <type><ref refid="classMR_1_1Const__PolylineTopology" kindref="compound">MR.Const_PolylineTopology</ref></type>
           <declname>topology</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineUndirectedEdgeIterator</label>
+        <link refid="classMR_1_1Const__PolylineUndirectedEdgeIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineUndirectedEdgeIterator</label>
+        <link refid="classMR_1_1Const__PolylineUndirectedEdgeIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,8 +218,22 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineEdgeIterator.cs" line="134" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineEdgeIterator.cs" bodystart="135" bodyend="203"/>
     <listofallmembers>
       <member refid="classMR_1_1PolylineUndirectedEdgeIterator_1a25ec8fb806d731ff412e70546d8c4bd5" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1a18a934b1d4db4ac872f6d9295e22f5b4" prot="package" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>Const_PolylineUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1a0833d2e0db96845041f59633b1402182" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>Const_PolylineUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1a4eb5ab20865163bcd4c37fe81c27b2b8" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>Const_PolylineUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1a6a80a86ed9c982f6fdcc91e55446a3fd" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>Const_PolylineUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1a172fbd8e60cd2be61b63374e408a4a85" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>Const_PolylineUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1a83f1060220ce0cddde4698b32aab860a" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1ab941c621fe077ee445bc62ee7fda3725" prot="protected" virt="virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1a2341f8374dc5874d7fcbd0b7f5872b9e" prot="public" virt="virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1ac4bcd952d51d7ec8462b56811ebb0e1d" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1a4737d5274c71c0f70c5b30087e39916c" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>Equals</name></member>
       <member refid="classMR_1_1PolylineUndirectedEdgeIterator_1a43fdbb98f98cb4e04d9f51650d0835db" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1a53bcfc242247b92bb564de5eb7885c62" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>operator Const_PolylineUndirectedEdgeIterator</name></member>
       <member refid="classMR_1_1PolylineUndirectedEdgeIterator_1ae49b8671cd31b243fa519356a8a572ee" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>operator PolylineUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1ab22a0953e123c85165e5d74e64c968c0" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1a8bb1eb5ba5e8228de4bde93cc047b092" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__PolylineUndirectedEdgeIterator_1a4104ff3471e03bf1470db67cef92f4d1" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>operator==</name></member>
       <member refid="classMR_1_1PolylineUndirectedEdgeIterator_1a426fee64fc7f983c812fda02814e007e" prot="package" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>PolylineUndirectedEdgeIterator</name></member>
       <member refid="classMR_1_1PolylineUndirectedEdgeIterator_1a7b536c90a1c6c21896efbdc4227179ab" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>PolylineUndirectedEdgeIterator</name></member>
       <member refid="classMR_1_1PolylineUndirectedEdgeIterator_1ae39e63997c9444c6f6f2b2f46e76a2b0" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>PolylineUndirectedEdgeIterator</name></member>

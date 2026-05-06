@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeColoringType" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeColoringType</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeColoringType</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeColoringType" prot="public" virt="non-virtual">MR.Const_ChangeColoringType</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeColoringType_1a9ed92f751b785e8c76dcd52b29aab8a1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeColoringType</name>
         <qualifiedname>MR.ChangeColoringType.ChangeColoringType</qualifiedname>
         <param>
-          <type>Const_ChangeColoringType</type>
+          <type><ref refid="classMR_1_1Const__ChangeColoringType" kindref="compound">Const_ChangeColoringType</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeColoringType.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeColoringType</label>
+        <link refid="classMR_1_1Const__ChangeColoringType"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeColoringType</label>
+        <link refid="classMR_1_1Const__ChangeColoringType"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,8 +271,21 @@
       <member refid="classMR_1_1ChangeColoringType_1a6899fdff124634006731b0fc70640a3c" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>ChangeColoringType</name></member>
       <member refid="classMR_1_1ChangeColoringType_1a550e211fb06bc39f1e4c6dbbf913995f" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>ChangeColoringType</name></member>
       <member refid="classMR_1_1ChangeColoringType_1aac086409913e096811c0ddf9ae185508" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>ChangeColoringType</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1a328e99036a146a0e23480d803e98ce4d" prot="package" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>Const_ChangeColoringType</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1a6d976f7519fbc982662a69850121349e" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>Const_ChangeColoringType</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1af0289b930e19dc46ee07f036c7dc7946" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>Const_ChangeColoringType</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1a177f9369c6343c2d5e432ed323dc71e7" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>Const_ChangeColoringType</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1ac5507136240506656a35bceee60b3770" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>Const_ChangeColoringType</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1abed61f8d9885f8523f86c0e0a455eefe" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>Const_ChangeColoringType</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1a6fa73d2cd425f4f794a984da03d9e620" prot="protected" virt="virtual"><scope>MR::ChangeColoringType</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1a146a0e140cd19017b7b8a11d75278d26" prot="public" virt="virtual"><scope>MR::ChangeColoringType</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1a57c13772874192e519f76f528ddc1699" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1aa3c7936eaffcaa7d01e42e12a662a558" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeColoringType_1aca989366da3cb421809318d20efa4d52" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>operator ChangeColoringType?</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1ac9140b999937811e91fa2ac482a033c8" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>operator Const_ChangeColoringType?</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1abca90478907f959d77d9192c395e8430" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeColoringType_1a9ed92f751b785e8c76dcd52b29aab8a1" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeColoringType_1acd45d102502869c0c96856a01fa7a4cf" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

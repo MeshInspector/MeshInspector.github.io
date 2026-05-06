@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeMeshUVCoordsAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeMeshUVCoordsAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeMeshUVCoordsAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeMeshUVCoordsAction" prot="public" virt="non-virtual">MR.Const_ChangeMeshUVCoordsAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeMeshUVCoordsAction_1ab179ac14008a5865732c45abacb170d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeMeshUVCoordsAction</name>
         <qualifiedname>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</qualifiedname>
         <param>
-          <type>Const_ChangeMeshUVCoordsAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeMeshUVCoordsAction" kindref="compound">Const_ChangeMeshUVCoordsAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeMeshUVCoordsAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeMeshUVCoordsAction</label>
+        <link refid="classMR_1_1Const__ChangeMeshUVCoordsAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeMeshUVCoordsAction</label>
+        <link refid="classMR_1_1Const__ChangeMeshUVCoordsAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,8 +271,21 @@
       <member refid="classMR_1_1ChangeMeshUVCoordsAction_1a24eca79c9d55b92020b6900a78bedfa3" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>ChangeMeshUVCoordsAction</name></member>
       <member refid="classMR_1_1ChangeMeshUVCoordsAction_1ad8a59f733527ad9b8bb46a4872131f5e" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>ChangeMeshUVCoordsAction</name></member>
       <member refid="classMR_1_1ChangeMeshUVCoordsAction_1a1cdb12e6c5e08d4bfd5932fa17cadc1e" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a6d5140cba6f176588e71578987a6bb0d" prot="package" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>Const_ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1ab30df7e5dfb25337f992ed0f649b4fa8" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>Const_ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1ae0a585b8276783a977211d9564550761" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>Const_ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a77a64dc62a63e22d240ea84b9d691060" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>Const_ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a91bedd4ade53b0df2b6e1bf82568d03f" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>Const_ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a51f0764dd60ba0b7a4ff55476968e6f4" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>Const_ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a35a8739d63d19731df1085e557704f2c" prot="protected" virt="virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1adde5b5866b19437f50678e9890139f7b" prot="public" virt="virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a54cee0e7f5a1edf63a7acbe2f32270af" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a1bc74f083687c705227e1758d4ccb9bd" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeMeshUVCoordsAction_1adc211f3c084a4903355cec1a2b7e6034" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>operator ChangeMeshUVCoordsAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1ab390a2ac340fcdee12ee899e38e51878" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>operator Const_ChangeMeshUVCoordsAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a8af455ca2e6af2a30bd3588d61b96a3c" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeMeshUVCoordsAction_1ab179ac14008a5865732c45abacb170d2" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshUVCoordsAction_1a61c188607bd4e9e958a27f2a082ba953" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

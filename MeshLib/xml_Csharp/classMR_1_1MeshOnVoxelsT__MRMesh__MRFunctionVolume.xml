@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume" prot="public" virt="non-virtual">MR.Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a7580889b5cf1dc811b22245b92a07941" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -39,7 +39,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::MeshOnVoxelsT&amp;amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;::MeshOnVoxelsT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MeshOnVoxelsT&amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;gt;::MeshOnVoxelsT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -54,11 +54,11 @@
         <name>MeshOnVoxelsT_MRMesh_MRFunctionVolume</name>
         <qualifiedname>MR.MeshOnVoxelsT_MRMesh_MRFunctionVolume.MeshOnVoxelsT_MRMesh_MRFunctionVolume</qualifiedname>
         <param>
-          <type>Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</type>
+          <type><ref refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume" kindref="compound">Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::MeshOnVoxelsT&amp;amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;::MeshOnVoxelsT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MeshOnVoxelsT&amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;gt;::MeshOnVoxelsT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -77,7 +77,7 @@
           <declname>other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::MeshOnVoxelsT&amp;amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;::MeshOnVoxelsT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MeshOnVoxelsT&amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;gt;::MeshOnVoxelsT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -100,7 +100,7 @@
           <declname>meshXf</declname>
         </param>
         <param>
-          <type>MR.Const_FunctionVolume</type>
+          <type><ref refid="classMR_1_1Const__FunctionVolume" kindref="compound">MR.Const_FunctionVolume</ref></type>
           <declname>volume</declname>
         </param>
         <param>
@@ -108,7 +108,7 @@
           <declname>volumeXf</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::MeshOnVoxelsT&amp;amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;::MeshOnVoxelsT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MeshOnVoxelsT&amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;gt;::MeshOnVoxelsT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -121,7 +121,7 @@
 <para>Helper class to organize mesh and voxels volume access and build point sequences. </para>
     </briefdescription>
     <detaileddescription>
-<para><simplesect kind="note"><para>this class is not thread-safe but accessing same volume from different instances is ok Generated from class <computeroutput>MR::MeshOnVoxelsT&amp;amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para><simplesect kind="note"><para>this class is not thread-safe but accessing same volume from different instances is ok Generated from class <computeroutput>MR::MeshOnVoxelsT&amp;lt;<ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref>, <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </simplesect>
 </para>
     </detaileddescription>
@@ -134,6 +134,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</label>
+        <link refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +156,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</label>
+        <link refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -169,11 +171,36 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" line="2096" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMoveMeshToVoxelMaxDeriv.cs" bodystart="2097" bodyend="2138"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a73859cacc25359a730678edf39fa0439" prot="package" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1afb3b3fcc835ac1015160c925f5ed48bf" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1abf58aeb5e796570efc8cb55a80e6791e" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a2ca5dd28029a5e85d31a72d7edab937e" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a6b8537138511ec08cb74237d9013c7f0" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>Const_MeshOnVoxelsT_MRMesh_MRFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a74e3948be62d37f0a2be7f844703298e" prot="protected" virt="virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1acc0684caa9b95054728308342d22068c" prot="public" virt="virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a6c74de553c9e9ed60aab4b8f6d5d6357" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>getBestPolynomial</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a329bf89522d0dea2e5ede267c42828e5" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>getDerivatives</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1aba8365bd69da21755e3b3eccaf8e3a75" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>getOffsetVector</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a58adce096c3208af902ea5186bdde420" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>getPoints</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a512b64936984043837db8c02d42c772e" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>getValue</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a4ec2e3f9e9033efe583e9da4828b43a1" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>getValues</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a4b5e16e386005769e8f73a80bb8bd221" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>indexFromPseudoIndex</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1adf31d4f5ba35dd9c5f6dcb1c55acee0d" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>mesh</name></member>
       <member refid="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a7580889b5cf1dc811b22245b92a07941" prot="package" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>MeshOnVoxelsT_MRMesh_MRFunctionVolume</name></member>
       <member refid="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume_1abaa562ae86a3d56f62900c6d20f8de5c" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>MeshOnVoxelsT_MRMesh_MRFunctionVolume</name></member>
       <member refid="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume_1af6c799af3a749418a3cb760261b0dd9a" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>MeshOnVoxelsT_MRMesh_MRFunctionVolume</name></member>
       <member refid="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume_1aa2c2e824ffbc27a834883057da7a9ca4" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>MeshOnVoxelsT_MRMesh_MRFunctionVolume</name></member>
       <member refid="classMR_1_1MeshOnVoxelsT__MRMesh__MRFunctionVolume_1ac6b9ed07b527bd509511aca067c5fc54" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>MeshOnVoxelsT_MRMesh_MRFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a12b3c042cf3a0ee940f4bf4395312bd1" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>numVerts</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1ada2d055d4a559c230b9e1d9fe976567d" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>point</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1aed19f3fa4b7ef8191a4501e9bc3ff20b" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>pseudoIndex</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a12c7b016e618827006fe0e61dba03922" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>pseudoIndex</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a83bcdd59b0fc6b24cefce1ca80be46a0" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>volume</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a4b8654988d353a5b412fb0545fa891c5" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>voxelSize</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a26c3e68b3286fec6ea5801d03f0882bc" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a5aa1bd269fcb82c642ac866bee1a3e68" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1a1a70c35fc7cb678ab9376c648c862318" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>xfInv</name></member>
+      <member refid="classMR_1_1Const__MeshOnVoxelsT__MRMesh__MRFunctionVolume_1af043d5464bc3271e0e1964520a10912c" prot="public" virt="non-virtual"><scope>MR::MeshOnVoxelsT_MRMesh_MRFunctionVolume</scope><name>xfInv</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

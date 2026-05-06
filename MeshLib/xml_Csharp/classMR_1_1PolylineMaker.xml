@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineMaker" kind="class" language="C#" prot="public">
     <compoundname>MR::PolylineMaker</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PolylineMaker</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PolylineMaker" prot="public" virt="non-virtual">MR.Const_PolylineMaker</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1PolylineMaker_1a6e70487da20a3b420029df7d3bf75e2a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,7 +35,7 @@
         <name>PolylineMaker</name>
         <qualifiedname>MR.PolylineMaker.PolylineMaker</qualifiedname>
         <param>
-          <type>MR.Const_PolylineMaker</type>
+          <type><ref refid="classMR_1_1Const__PolylineMaker" kindref="compound">MR.Const_PolylineMaker</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -213,6 +213,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineMaker</label>
+        <link refid="classMR_1_1Const__PolylineMaker"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -234,6 +235,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineMaker</label>
+        <link refid="classMR_1_1Const__PolylineMaker"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -249,7 +251,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="874" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="875" bodyend="964"/>
     <listofallmembers>
       <member refid="classMR_1_1PolylineMaker_1a3952edf1d75c0a65c17df9a9f478c2c7" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>close</name></member>
+      <member refid="classMR_1_1Const__PolylineMaker_1a725569303792c89043ae3c3a3fa0c935" prot="package" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>Const_PolylineMaker</name></member>
+      <member refid="classMR_1_1Const__PolylineMaker_1a47ab51836582aa6754c65b88926b125e" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>Const_PolylineMaker</name></member>
+      <member refid="classMR_1_1Const__PolylineMaker_1a4ae287bf03c91130541bb013e5e46697" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>Const_PolylineMaker</name></member>
+      <member refid="classMR_1_1Const__PolylineMaker_1a9a385d9b015fa2310ad15aa132acbcb4" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>Const_PolylineMaker</name></member>
+      <member refid="classMR_1_1Const__PolylineMaker_1aa9794da64183b01d03d0adf20f050902" prot="protected" virt="virtual"><scope>MR::PolylineMaker</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolylineMaker_1ae4ccd273eba69723e093eaf9ff9f1864" prot="public" virt="virtual"><scope>MR::PolylineMaker</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PolylineMaker_1aed58b71de61751c6337bfdad0e99cdec" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>finishOpen</name></member>
+      <member refid="classMR_1_1Const__PolylineMaker_1a0b0093df479dc7932453bb8ed67c166a" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>operator Const_PolylineMaker</name></member>
       <member refid="classMR_1_1PolylineMaker_1a4ecb70c3e0427effbde5957da9bee29a" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>operator PolylineMaker</name></member>
       <member refid="classMR_1_1PolylineMaker_1a6e70487da20a3b420029df7d3bf75e2a" prot="package" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>PolylineMaker</name></member>
       <member refid="classMR_1_1PolylineMaker_1a5f2b3eaf22e7022cb177fcbe4764d27c" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>PolylineMaker</name></member>
@@ -257,6 +266,7 @@
       <member refid="classMR_1_1PolylineMaker_1a7e6e2e421f520b268a693f34b4b1827e" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>PolylineMaker</name></member>
       <member refid="classMR_1_1PolylineMaker_1af691a8fb0cf72fff5bfd674a4fbe6c79" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>proceed</name></member>
       <member refid="classMR_1_1PolylineMaker_1a899133810f9d230cf5ed16a663100780" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>start</name></member>
+      <member refid="classMR_1_1Const__PolylineMaker_1a07f1ace43469dd14dc0e3a64aca8e992" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>topology</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

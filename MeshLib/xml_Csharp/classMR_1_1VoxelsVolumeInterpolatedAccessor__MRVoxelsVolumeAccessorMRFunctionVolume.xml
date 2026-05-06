@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume" prot="public" virt="non-virtual">MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume_1a2920c2a67faa45bd3d4519728349dbeb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,15 +35,15 @@
         <name>VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</name>
         <qualifiedname>MR.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</qualifiedname>
         <param>
-          <type>MR.Const_FunctionVolume</type>
+          <type><ref refid="classMR_1_1Const__FunctionVolume" kindref="compound">MR.Const_FunctionVolume</ref></type>
           <declname>volume</declname>
         </param>
         <param>
-          <type>MR.Const_VoxelsVolumeAccessor_MRFunctionVolume</type>
+          <type><ref refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume" kindref="compound">MR.Const_VoxelsVolumeAccessor_MRFunctionVolume</ref></type>
           <declname>accessor</declname>
         </param>
         <briefdescription>
-<para>create an accessor instance that stores references to volume and its accessor the volume should not modified while it is accessed by this class Generated from constructor <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;amp;lt;MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;&amp;amp;gt;::VoxelsVolumeInterpolatedAccessor</computeroutput>. </para>
+<para>create an accessor instance that stores references to volume and its accessor the volume should not modified while it is accessed by this class Generated from constructor <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;lt;MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;gt;&amp;gt;::VoxelsVolumeInterpolatedAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -58,15 +58,15 @@
         <name>VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</name>
         <qualifiedname>MR.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume.VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</qualifiedname>
         <param>
-          <type>MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</type>
+          <type><ref refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume" kindref="compound">MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</ref></type>
           <declname>other</declname>
         </param>
         <param>
-          <type>MR.Const_VoxelsVolumeAccessor_MRFunctionVolume</type>
+          <type><ref refid="classMR_1_1Const__VoxelsVolumeAccessor__MRFunctionVolume" kindref="compound">MR.Const_VoxelsVolumeAccessor_MRFunctionVolume</ref></type>
           <declname>accessor</declname>
         </param>
         <briefdescription>
-<para>a copying-like constructor with explicitly provided accessor Generated from constructor <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;amp;lt;MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;&amp;amp;gt;::VoxelsVolumeInterpolatedAccessor</computeroutput>. </para>
+<para>a copying-like constructor with explicitly provided accessor Generated from constructor <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;lt;MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;gt;&amp;gt;::VoxelsVolumeInterpolatedAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -76,7 +76,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>helper class for generalized access to voxel volume data with trilinear interpolation coordinate: 0 voxelSize | | I<mdash/>*<mdash/>I<mdash/>*<mdash/>I<mdash/> | | | value: [0] [1] [2] ... note: this class is as thread-safe as the underlying Accessor e.g. VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref>&amp;gt; is not thread-safe (but several instances on same volume is thread-safe) Generated from class <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;amp;lt;MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;amp;gt;&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>helper class for generalized access to voxel volume data with trilinear interpolation coordinate: 0 voxelSize | | I<mdash/>*<mdash/>I<mdash/>*<mdash/>I<mdash/> | | | value: [0] [1] [2] ... note: this class is as thread-safe as the underlying Accessor e.g. VoxelsVolumeAccessor&lt;<ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref>&gt; is not thread-safe (but several instances on same volume is thread-safe) Generated from class <computeroutput>MR::VoxelsVolumeInterpolatedAccessor&amp;lt;MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref>&amp;gt;&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -89,6 +89,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</label>
+        <link refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -110,6 +111,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</label>
+        <link refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -124,6 +126,12 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" line="393" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeInterpolation.cs" bodystart="394" bodyend="423"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume_1a09b374ce6430626cc03791ad452178ee" prot="package" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</scope><name>Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume_1ad4d183fe8bbdfff10fe04b460ade4f87" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</scope><name>Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume_1a1f3222a9daf60b4bb894fff8f537dcd3" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</scope><name>Const_VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume_1aee90af8adafb2f2222f0116c9e1acfe3" prot="protected" virt="virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume_1a51b3b16d058bf22403e3862f5f2b2e16" prot="public" virt="virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume_1a7741017deb78edc506416ac02af17182" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</scope><name>get</name></member>
       <member refid="classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume_1a2920c2a67faa45bd3d4519728349dbeb" prot="package" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</scope><name>VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</name></member>
       <member refid="classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume_1a0c5306b73fdbc1b8f828f7f9072c93a4" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</scope><name>VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</name></member>
       <member refid="classMR_1_1VoxelsVolumeInterpolatedAccessor__MRVoxelsVolumeAccessorMRFunctionVolume_1ae5f4e032cbf15a1798ffca4ee7ef4776" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</scope><name>VoxelsVolumeInterpolatedAccessor_MRVoxelsVolumeAccessorMRFunctionVolume</name></member>

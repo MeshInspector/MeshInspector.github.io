@@ -43,7 +43,7 @@ var classMR_1_1ObjectDistanceMap =
     [ "setData", "classMR_1_1ObjectDistanceMap.html#a429857be19097f043b1de7dc00758e0b", null ],
     [ "setDirtyFlags", "classMR_1_1ObjectDistanceMap.html#a2a8971aeb875fd9db514041714fba593", null ],
     [ "setDirtyFlagsFast", "classMR_1_1ObjectDistanceMap.html#aff1e543e44c79ee7ebc2deb89a484081", null ],
-    [ "setDistanceMap", "classMR_1_1ObjectDistanceMap.html#ae8873b81d2c82924d2c1d46068951c2e", null ],
+    [ "setDistanceMap", "classMR_1_1ObjectDistanceMap.html#ab385ebf0586c91ee4c4d4892a4b29a1d", null ],
     [ "setEdgesColor", "classMR_1_1ObjectDistanceMap.html#a4237f96e07795d4af54d6d399d4f818b", null ],
     [ "setEdgesColorsForAllViewports", "classMR_1_1ObjectDistanceMap.html#ae34beccbf0f8e6dbef95620ca772ed41", null ],
     [ "setEdgeWidth", "classMR_1_1ObjectDistanceMap.html#a65f2508fb6d45747610cfc8b060a5903", null ],

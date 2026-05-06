@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelsLoad_1_1Const__RawParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::VoxelsLoad::Const_RawParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VoxelsLoad_1_1RawParameters" prot="public" virt="non-virtual">MR.VoxelsLoad.RawParameters</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a73389c75a88d00cf09220e40d0c02297" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>unsafe ref readonly MR.Vector3i MR.VoxelsLoad.Const_RawParameters.dimensions</definition>
+        <argsstring></argsstring>
+        <name>dimensions</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.dimensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="27" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1ac83ad168f3235ed678c05a863e8614d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.VoxelsLoad.Const_RawParameters.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="30" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1afcf2ae27550e875c7d94c4467543f45a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.VoxelsLoad.Const_RawParameters.gridLevelSet</definition>
+        <argsstring></argsstring>
+        <name>gridLevelSet</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.gridLevelSet</qualifiedname>
+        <briefdescription>
+<para>OpenVDB GridClass set as GRID_LEVEL_SET (need to set right surface normals direction) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="36" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a5820e4935c2ce9945f84b03275c054e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref></type>
+        <definition>unsafe MR.ScalarType MR.VoxelsLoad.Const_RawParameters.scalarType</definition>
+        <argsstring></argsstring>
+        <name>scalarType</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.scalarType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="39" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1ace61317fd678f1206a5e16ee5ca63802" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
+        <definition>unsafe MR.Vector3i* MR.VoxelsLoad.Const_RawParameters.__ref_storage_dimensions</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_dimensions</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.__ref_storage_dimensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="28" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1acc10ffc44ffb3e7ad32a6c7e1af25673" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.VoxelsLoad.Const_RawParameters.__ref_storage_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_voxelSize</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.__ref_storage_voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="31" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1ac369e2978fe98d31d9f11845b3dfbe9d" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.VoxelsLoad.Const_RawParameters.__ref_storage_gridLevelSet</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_gridLevelSet</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.__ref_storage_gridLevelSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="37" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a8ef378b9cd542b1b73f1cac6a99ddbe5" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref> *</type>
+        <definition>unsafe MR.ScalarType* MR.VoxelsLoad.Const_RawParameters.__ref_storage_scalarType</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_scalarType</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.__ref_storage_scalarType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="40" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1ab833a0f56031c0d62282b70f1fa203be" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.VoxelsLoad.Const_RawParameters.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="15" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a8d5c552f25af1296d8f7852076292e36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.VoxelsLoad.Const_RawParameters.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="24" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a7a1cd9f9911c4a5e9c2c04d6a0d077e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.Const_RawParameters.Const_RawParameters</definition>
+        <argsstring>()</argsstring>
+        <name>Const_RawParameters</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.Const_RawParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="85" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="85" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a7c942ba5c8d81d5188bb194e00a04fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.Const_RawParameters.Const_RawParameters</definition>
+        <argsstring>(MR.Vector3i dimensions, MR.Vector3f voxelSize, bool gridLevelSet, MR.ScalarType scalarType)</argsstring>
+        <name>Const_RawParameters</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.Const_RawParameters</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>dimensions</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>gridLevelSet</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a84b05c595bca2e76755d6b627c5b940e" kindref="member">MR.ScalarType</ref></type>
+          <declname>scalarType</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1RawParameters" kindref="compound">MR.VoxelsLoad.RawParameters</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="96" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="96" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a8322ff8b6fd4b47ba177e1466bcd303e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.Const_RawParameters.Const_RawParameters</definition>
+        <argsstring>(MR.VoxelsLoad.Const_RawParameters _other)</argsstring>
+        <name>Const_RawParameters</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.Const_RawParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters" kindref="compound">MR.VoxelsLoad.Const_RawParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1RawParameters_1a3f1d91f9ad394baeb077d4cd628166c3" kindref="member">MR.VoxelsLoad.RawParameters.RawParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="107" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="107" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1aa6fc5bae2d2508d06b1dd89a2dee1ca2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelsLoad.Const_RawParameters.Const_RawParameters</definition>
+        <argsstring>(RawParameters _other)</argsstring>
+        <name>Const_RawParameters</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.Const_RawParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1RawParameters" kindref="compound">RawParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1RawParameters_1a3f1d91f9ad394baeb077d4cd628166c3" kindref="member">MR.VoxelsLoad.RawParameters.RawParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="119" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="119" bodyend="119"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a8ff7329fe85a4f714e151ef7bd1f6cc3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelsLoad.Const_RawParameters.~Const_RawParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_RawParameters</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.~Const_RawParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="25" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a5e537cd33d0270847ea13c64af38f8cc" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelsLoad.Const_RawParameters.Const_RawParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_RawParameters</name>
+        <qualifiedname>MR.VoxelsLoad.Const_RawParameters.Const_RawParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="74" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="74" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1VoxelsLoad_1_1RawParameters" kindref="compound">MR.VoxelsLoad.RawParameters</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.VoxelsLoad.Const_RawParameters</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.VoxelsLoad.RawParameters</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1RawParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.VoxelsLoad.Const_RawParameters</label>
+        <link refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_dimensions</edgelabel>
+          <edgelabel>__ref_storage_scalarType</edgelabel>
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" line="9" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsLoad.cs" bodystart="10" bodyend="120"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1ace61317fd678f1206a5e16ee5ca63802" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>__ref_storage_dimensions</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1ac369e2978fe98d31d9f11845b3dfbe9d" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>__ref_storage_gridLevelSet</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a8ef378b9cd542b1b73f1cac6a99ddbe5" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>__ref_storage_scalarType</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1acc10ffc44ffb3e7ad32a6c7e1af25673" prot="protected" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a5e537cd33d0270847ea13c64af38f8cc" prot="package" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>Const_RawParameters</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a7a1cd9f9911c4a5e9c2c04d6a0d077e7" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>Const_RawParameters</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a7c942ba5c8d81d5188bb194e00a04fd5" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>Const_RawParameters</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a8322ff8b6fd4b47ba177e1466bcd303e" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>Const_RawParameters</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1aa6fc5bae2d2508d06b1dd89a2dee1ca2" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>Const_RawParameters</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a73389c75a88d00cf09220e40d0c02297" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>dimensions</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1ab833a0f56031c0d62282b70f1fa203be" prot="protected" virt="virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a8d5c552f25af1296d8f7852076292e36" prot="public" virt="virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1afcf2ae27550e875c7d94c4467543f45a" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>gridLevelSet</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a5820e4935c2ce9945f84b03275c054e9" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>scalarType</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1ac83ad168f3235ed678c05a863e8614d9" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>voxelSize</name></member>
+      <member refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters_1a8ff7329fe85a4f714e151ef7bd1f6cc3" prot="private" virt="non-virtual"><scope>MR::VoxelsLoad::Const_RawParameters</scope><name>~Const_RawParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

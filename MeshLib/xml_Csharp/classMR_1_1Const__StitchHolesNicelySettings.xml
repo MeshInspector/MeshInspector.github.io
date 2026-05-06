@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__StitchHolesNicelySettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_StitchHolesNicelySettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__StitchHolesNicelySettings_1a88ae00da5204cb0b711509e6eff497d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__StitchHolesParams" kindref="compound">MR.Const_StitchHolesParams</ref></type>
+        <definition>unsafe MR.Const_StitchHolesParams MR.Const_StitchHolesNicelySettings.triangulateParams</definition>
+        <argsstring></argsstring>
+        <name>triangulateParams</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.triangulateParams</qualifiedname>
+        <briefdescription>
+<para>how to triangulate the cylinder between holes, must be specified by the user </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1280" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1280" bodyend="1280"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__StitchHolesNicelySettings_1ab6067b366f255f43736a34e42c78332d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_StitchHolesNicelySettings.triangulateOnly</definition>
+        <argsstring></argsstring>
+        <name>triangulateOnly</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.triangulateOnly</qualifiedname>
+        <briefdescription>
+<para>If false then additional vertices are created inside the patch for best mesh quality. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1285" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__StitchHolesNicelySettings_1a108d2020dee56d3f733a5eef4b3ed631" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__SubdivideFillingSettings" kindref="compound">MR.Const_SubdivideFillingSettings</ref></type>
+        <definition>unsafe MR.Const_SubdivideFillingSettings MR.Const_StitchHolesNicelySettings.subdivideSettings</definition>
+        <argsstring></argsstring>
+        <name>subdivideSettings</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.subdivideSettings</qualifiedname>
+        <briefdescription>
+<para>if <computeroutput>triangulateOnly</computeroutput> is false - this settings are used to subdivide new filling </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1291" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1291" bodyend="1291"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__StitchHolesNicelySettings_1a6978973e05b659179055d33827388ce3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_StitchHolesNicelySettings.smoothCurvature</definition>
+        <argsstring></argsstring>
+        <name>smoothCurvature</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.smoothCurvature</qualifiedname>
+        <briefdescription>
+<para>Whether to make patch over the hole smooth both inside and on its boundary with existed surface. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1296" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__StitchHolesNicelySettings_1a71d2b4d440ada3c719a7715d66a181bc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1SmoothFillingSettings" kindref="compound">MR.SmoothFillingSettings</ref></type>
+        <definition>new unsafe MR.SmoothFillingSettings MR.Const_StitchHolesNicelySettings.smoothSettings</definition>
+        <argsstring></argsstring>
+        <name>smoothSettings</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.smoothSettings</qualifiedname>
+        <briefdescription>
+<para>if <computeroutput>smoothCurvature</computeroutput> is true and `triangulateOnly is false - these settings are used to smooth new filling / </para>
+        </briefdescription>
+        <detaileddescription>
+<para>public unsafe <ref refid="classMR_1_1Const__SmoothFillingSettings" kindref="compound">MR.Const_SmoothFillingSettings</ref> smoothSettings {get; private protected set;}</para>
+<para>/</para>
+<para>/ structure with optional output attributes / public unsafe <ref refid="classMR_1_1Const__OutAttributesFillingSettings" kindref="compound">MR.Const_OutAttributesFillingSettings</ref> outAttributes {get; private protected set;}</para>
+<para>/</para>
+<para>/ Constructors call this at the end to initialize class fields. / protected unsafe void _FinalizeFields() { { // triangulateParams [System.Runtime.InteropServices.DllImport(&quot;MeshLibC2&quot;, EntryPoint = &quot;MR_StitchHolesNicelySettings_Get_triangulateParams&quot;, ExactSpelling = true)] extern static MR.Const_StitchHolesParams._Underlying *__MR_StitchHolesNicelySettings_Get_triangulateParams(MR.Const_StitchHolesNicelySettings._Underlying *_this); this.triangulateParams = new(__MR_StitchHolesNicelySettings_Get_triangulateParams(_UnderlyingPtr), is_owning: false); this.triangulateParams._KeepAliveEnclosingObject = this; }</para>
+<para>{ // triangulateOnly (ref) [System.Runtime.InteropServices.DllImport(&quot;MeshLibC2&quot;, EntryPoint = &quot;MR_StitchHolesNicelySettings_Get_triangulateOnly&quot;, ExactSpelling = true)] extern static bool *__MR_StitchHolesNicelySettings_Get_triangulateOnly(MR.Const_StitchHolesNicelySettings._Underlying *_this); this.__ref_storage_triangulateOnly = __MR_StitchHolesNicelySettings_Get_triangulateOnly(_UnderlyingPtr); }</para>
+<para>{ // subdivideSettings [System.Runtime.InteropServices.DllImport(&quot;MeshLibC2&quot;, EntryPoint = &quot;MR_StitchHolesNicelySettings_Get_subdivideSettings&quot;, ExactSpelling = true)] extern static MR.Const_SubdivideFillingSettings._Underlying *__MR_StitchHolesNicelySettings_Get_subdivideSettings(MR.Const_StitchHolesNicelySettings._Underlying *_this); this.subdivideSettings = new(__MR_StitchHolesNicelySettings_Get_subdivideSettings(_UnderlyingPtr), is_owning: false); this.subdivideSettings._KeepAliveEnclosingObject = this; }</para>
+<para>{ // smoothCurvature (ref) [System.Runtime.InteropServices.DllImport(&quot;MeshLibC2&quot;, EntryPoint = &quot;MR_StitchHolesNicelySettings_Get_smoothCurvature&quot;, ExactSpelling = true)] extern static bool *__MR_StitchHolesNicelySettings_Get_smoothCurvature(MR.Const_StitchHolesNicelySettings._Underlying *_this); this.__ref_storage_smoothCurvature = __MR_StitchHolesNicelySettings_Get_smoothCurvature(_UnderlyingPtr); }</para>
+<para>{ // smoothSettings [System.Runtime.InteropServices.DllImport(&quot;MeshLibC2&quot;, EntryPoint = &quot;MR_StitchHolesNicelySettings_Get_smoothSettings&quot;, ExactSpelling = true)] extern static MR.Const_SmoothFillingSettings._Underlying *__MR_StitchHolesNicelySettings_Get_smoothSettings(MR.Const_StitchHolesNicelySettings._Underlying *_this); this.smoothSettings = new(__MR_StitchHolesNicelySettings_Get_smoothSettings(_UnderlyingPtr), is_owning: false); this.smoothSettings._KeepAliveEnclosingObject = this; }</para>
+<para>{ // outAttributes [System.Runtime.InteropServices.DllImport(&quot;MeshLibC2&quot;, EntryPoint = &quot;MR_StitchHolesNicelySettings_Get_outAttributes&quot;, ExactSpelling = true)] extern static MR.Const_OutAttributesFillingSettings._Underlying *__MR_StitchHolesNicelySettings_Get_outAttributes(MR.Const_StitchHolesNicelySettings._Underlying *_this); this.outAttributes = new(__MR_StitchHolesNicelySettings_Get_outAttributes(_UnderlyingPtr), is_owning: false); this.outAttributes._KeepAliveEnclosingObject = this; } }</para>
+<para>Don&apos;t warn about some fields remaining conditionally uninitialized. We initialize them later. <verbatim>    internal unsafe Const_StitchHolesNicelySettings(_Underlying *ptr, bool is_owning) : base(is_owning)
+    {
+        _UnderlyingPtr = ptr;
+        if (ptr is not null)
+            _FinalizeFields();
+    }
+</verbatim></para>
+<para>/</para>
+<para>/ Constructs an empty (default-constructed) instance. / public unsafe Const_StitchHolesNicelySettings() : this(null, is_owning: true) { [System.Runtime.InteropServices.DllImport(&quot;MeshLibC2&quot;, EntryPoint = &quot;MR_StitchHolesNicelySettings_DefaultConstruct&quot;, ExactSpelling = true)] extern static MR.StitchHolesNicelySettings._Underlying *__MR_StitchHolesNicelySettings_DefaultConstruct(); _UnderlyingPtr = __MR_StitchHolesNicelySettings_DefaultConstruct(); _FinalizeFields(); }</para>
+<para>/</para>
+<para>/ Constructs <computeroutput>MR::StitchHolesNicelySettings</computeroutput> elementwise. / public unsafe <ref refid="classMR_1_1Const__StitchHolesNicelySettings" kindref="compound">Const_StitchHolesNicelySettings</ref>(MR._ByValue_StitchHolesParams triangulateParams, bool triangulateOnly, MR._ByValue_SubdivideFillingSettings subdivideSettings, bool smoothCurvature, <ref refid="classMR_1_1Const__SmoothFillingSettings" kindref="compound">MR.Const_SmoothFillingSettings</ref> smoothSettings, <ref refid="classMR_1_1Const__OutAttributesFillingSettings" kindref="compound">MR.Const_OutAttributesFillingSettings</ref> outAttributes) : this(null, is_owning: true) { [System.Runtime.InteropServices.DllImport(&quot;MeshLibC2&quot;, EntryPoint = &quot;MR_StitchHolesNicelySettings_ConstructFrom&quot;, ExactSpelling = true)] extern static MR.StitchHolesNicelySettings._Underlying *__MR_StitchHolesNicelySettings_ConstructFrom(MR.Misc._PassBy triangulateParams_pass_by, MR.StitchHolesParams._Underlying *triangulateParams, byte triangulateOnly, MR.Misc._PassBy subdivideSettings_pass_by, MR.SubdivideFillingSettings._Underlying *subdivideSettings, byte smoothCurvature, MR.SmoothFillingSettings._Underlying *smoothSettings, MR.OutAttributesFillingSettings._Underlying *outAttributes); _UnderlyingPtr = __MR_StitchHolesNicelySettings_ConstructFrom(triangulateParams.PassByMode, triangulateParams.Value is not null ? triangulateParams.Value._UnderlyingPtr : null, triangulateOnly ? (byte)1 : (byte)0, subdivideSettings.PassByMode, subdivideSettings.Value is not null ? subdivideSettings.Value._UnderlyingPtr : null, smoothCurvature ? (byte)1 : (byte)0, smoothSettings._UnderlyingPtr, outAttributes._UnderlyingPtr); if (triangulateParams.Value is not null) _KeepAlive(triangulateParams.Value); if (subdivideSettings.Value is not null) _KeepAlive(subdivideSettings.Value); _KeepAlive(smoothSettings); _KeepAlive(outAttributes); _FinalizeFields(); }</para>
+<para>/</para>
+<para>/ Generated from constructor <computeroutput>MR::StitchHolesNicelySettings::StitchHolesNicelySettings</computeroutput>. / public unsafe <ref refid="classMR_1_1Const__StitchHolesNicelySettings" kindref="compound">Const_StitchHolesNicelySettings</ref>(MR._ByValue_StitchHolesNicelySettings _other) : this(null, is_owning: true) { [System.Runtime.InteropServices.DllImport(&quot;MeshLibC2&quot;, EntryPoint = &quot;MR_StitchHolesNicelySettings_ConstructFromAnother&quot;, ExactSpelling = true)] extern static MR.StitchHolesNicelySettings._Underlying *__MR_StitchHolesNicelySettings_ConstructFromAnother(MR.Misc._PassBy _other_pass_by, MR.StitchHolesNicelySettings._Underlying *_other); _UnderlyingPtr = __MR_StitchHolesNicelySettings_ConstructFromAnother(_other.PassByMode, _other.Value is not null ? _other.Value._UnderlyingPtr : null); if (_other.Value is not null) _KeepAlive(_other.Value); _FinalizeFields(); }</para>
+<para>/</para>
+<para>/ Generated from constructor <computeroutput>MR::StitchHolesNicelySettings::StitchHolesNicelySettings</computeroutput>. / public Const_StitchHolesNicelySettings(Const_StitchHolesNicelySettings _other) : this(new _ByValue_StitchHolesNicelySettings(_other)) {}</para>
+<para>/</para>
+<para>/ Generated from constructor <computeroutput>MR::StitchHolesNicelySettings::StitchHolesNicelySettings</computeroutput>. / public Const_StitchHolesNicelySettings(StitchHolesNicelySettings _other) : this((Const_StitchHolesNicelySettings)_other) {} }</para>
+<para>/</para>
+<para>/ Generated from class <computeroutput>MR::StitchHolesNicelySettings</computeroutput>. / This is the non-const half of the class. / public class StitchHolesNicelySettings : <ref refid="classMR_1_1Const__StitchHolesNicelySettings" kindref="compound">Const_StitchHolesNicelySettings</ref> { /</para>
+<para>/ how to triangulate the cylinder between holes, must be specified by the user / public new unsafe <ref refid="classMR_1_1StitchHolesParams" kindref="compound">MR.StitchHolesParams</ref> triangulateParams {get; private protected set;}</para>
+<para>/</para>
+<para>/ If false then additional vertices are created inside the patch for best mesh quality / public new unsafe ref bool triangulateOnly =&gt; ref *__ref_storage_triangulateOnly;</para>
+<para>/</para>
+<para>/ if <computeroutput>triangulateOnly</computeroutput> is false - this settings are used to subdivide new filling / public new unsafe <ref refid="classMR_1_1SubdivideFillingSettings" kindref="compound">MR.SubdivideFillingSettings</ref> subdivideSettings {get; private protected set;}</para>
+<para>/</para>
+<para>/ Whether to make patch over the hole smooth both inside and on its boundary with existed surface / public new unsafe ref bool smoothCurvature =&gt; ref *__ref_storage_smoothCurvature;</para>
+<para>/</para>
+<para>/ if <computeroutput>smoothCurvature</computeroutput> is true and `triangulateOnly is false - these settings are used to smooth new filling </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1443" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1443" bodyend="1443"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__StitchHolesNicelySettings_1a8a797953ac6852903702f849d6217010" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1OutAttributesFillingSettings" kindref="compound">MR.OutAttributesFillingSettings</ref></type>
+        <definition>new unsafe MR.OutAttributesFillingSettings MR.Const_StitchHolesNicelySettings.outAttributes</definition>
+        <argsstring></argsstring>
+        <name>outAttributes</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.outAttributes</qualifiedname>
+        <briefdescription>
+<para>structure with optional output attributes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1448" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1448" bodyend="1448"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__StitchHolesNicelySettings_1a527d56721afafebeacfdb0b380c5f82f" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_StitchHolesNicelySettings.__ref_storage_triangulateOnly</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_triangulateOnly</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.__ref_storage_triangulateOnly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1286" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__StitchHolesNicelySettings_1ae6e9e5b5afb26e09f4e4cfd01a558686" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_StitchHolesNicelySettings.__ref_storage_smoothCurvature</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_smoothCurvature</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.__ref_storage_smoothCurvature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1297" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1297" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesNicelySettings_1a05d2bb80a30236d70b7bc8ecd8baddd6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_StitchHolesNicelySettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1265" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1265" bodyend="1273"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesNicelySettings_1a69d26a8d07bcfa65c8515579bd98aa63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_StitchHolesNicelySettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1274" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1274" bodyend="1274"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesNicelySettings_1a9baba5ef8d2da22c22f39931cf389fb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_StitchHolesNicelySettings.StitchHolesNicelySettings</definition>
+        <argsstring>()</argsstring>
+        <name>StitchHolesNicelySettings</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.StitchHolesNicelySettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1498" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1498" bodyend="1504"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesNicelySettings_1ab92ca0c33eb699a4f93ab8e10036ca18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_StitchHolesNicelySettings.StitchHolesNicelySettings</definition>
+        <argsstring>(MR._ByValue_StitchHolesParams triangulateParams, bool triangulateOnly, MR._ByValue_SubdivideFillingSettings subdivideSettings, bool smoothCurvature, MR.Const_SmoothFillingSettings smoothSettings, MR.Const_OutAttributesFillingSettings outAttributes)</argsstring>
+        <name>StitchHolesNicelySettings</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.StitchHolesNicelySettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_StitchHolesParams</type>
+          <declname>triangulateParams</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>triangulateOnly</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_SubdivideFillingSettings</type>
+          <declname>subdivideSettings</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>smoothCurvature</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__SmoothFillingSettings" kindref="compound">MR.Const_SmoothFillingSettings</ref></type>
+          <declname>smoothSettings</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__OutAttributesFillingSettings" kindref="compound">MR.Const_OutAttributesFillingSettings</ref></type>
+          <declname>outAttributes</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR::StitchHolesNicelySettings</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1509" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1509" bodyend="1519"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesNicelySettings_1afc168262c601de475ce8ed687a2d3713" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_StitchHolesNicelySettings.StitchHolesNicelySettings</definition>
+        <argsstring>(MR._ByValue_StitchHolesNicelySettings _other)</argsstring>
+        <name>StitchHolesNicelySettings</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.StitchHolesNicelySettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_StitchHolesNicelySettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::StitchHolesNicelySettings::StitchHolesNicelySettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1524" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1524" bodyend="1531"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesNicelySettings_1a35bdddca7d3f5953ef2872948c77c4a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_StitchHolesNicelySettings.StitchHolesNicelySettings</definition>
+        <argsstring>(Const_StitchHolesNicelySettings _other)</argsstring>
+        <name>StitchHolesNicelySettings</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.StitchHolesNicelySettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__StitchHolesNicelySettings" kindref="compound">Const_StitchHolesNicelySettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::StitchHolesNicelySettings::StitchHolesNicelySettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1536" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1536" bodyend="1536"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesNicelySettings_1a20da6eb3fc61b754bd6617331c7b6cd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_StitchHolesNicelySettings.StitchHolesNicelySettings</definition>
+        <argsstring>(StitchHolesNicelySettings _other)</argsstring>
+        <name>StitchHolesNicelySettings</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.StitchHolesNicelySettings</qualifiedname>
+        <param>
+          <type>StitchHolesNicelySettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::StitchHolesNicelySettings::StitchHolesNicelySettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1541" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1541" bodyend="1541"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesNicelySettings_1a715ef89a68b50f56be83d92c18082ef1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.StitchHolesNicelySettings</type>
+        <definition>unsafe MR.StitchHolesNicelySettings MR.Const_StitchHolesNicelySettings.assign</definition>
+        <argsstring>(MR._ByValue_StitchHolesNicelySettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_StitchHolesNicelySettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::StitchHolesNicelySettings::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1546" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1546" bodyend="1553"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesNicelySettings_1a4d8c50854485ee3590f469cd6a1acfda" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_StitchHolesNicelySettings.~Const_StitchHolesNicelySettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_StitchHolesNicelySettings</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.~Const_StitchHolesNicelySettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1275" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1275" bodyend="1275"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__StitchHolesNicelySettings_1a1a0f21c55913a49f2831b99b76419aa5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_StitchHolesNicelySettings.StitchHolesNicelySettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>StitchHolesNicelySettings</name>
+        <qualifiedname>MR.Const_StitchHolesNicelySettings.StitchHolesNicelySettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1488" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1488" bodyend="1492"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::StitchHolesNicelySettings</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_StitchHolesNicelySettings</label>
+        <link refid="classMR_1_1Const__StitchHolesNicelySettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_StitchHolesNicelySettings</label>
+        <link refid="classMR_1_1Const__StitchHolesNicelySettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="1259" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="1260" bodyend="1554"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1ae6e9e5b5afb26e09f4e4cfd01a558686" prot="protected" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>__ref_storage_smoothCurvature</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a527d56721afafebeacfdb0b380c5f82f" prot="protected" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>__ref_storage_triangulateOnly</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a715ef89a68b50f56be83d92c18082ef1" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a05d2bb80a30236d70b7bc8ecd8baddd6" prot="protected" virt="virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a69d26a8d07bcfa65c8515579bd98aa63" prot="public" virt="virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a8a797953ac6852903702f849d6217010" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>outAttributes</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a6978973e05b659179055d33827388ce3" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>smoothCurvature</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a71d2b4d440ada3c719a7715d66a181bc" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>smoothSettings</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a1a0f21c55913a49f2831b99b76419aa5" prot="package" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>StitchHolesNicelySettings</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a9baba5ef8d2da22c22f39931cf389fb7" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>StitchHolesNicelySettings</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1ab92ca0c33eb699a4f93ab8e10036ca18" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>StitchHolesNicelySettings</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1afc168262c601de475ce8ed687a2d3713" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>StitchHolesNicelySettings</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a35bdddca7d3f5953ef2872948c77c4a1" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>StitchHolesNicelySettings</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a20da6eb3fc61b754bd6617331c7b6cd8" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>StitchHolesNicelySettings</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a108d2020dee56d3f733a5eef4b3ed631" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>subdivideSettings</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1ab6067b366f255f43736a34e42c78332d" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>triangulateOnly</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a88ae00da5204cb0b711509e6eff497d9" prot="public" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>triangulateParams</name></member>
+      <member refid="classMR_1_1Const__StitchHolesNicelySettings_1a4d8c50854485ee3590f469cd6a1acfda" prot="private" virt="non-virtual"><scope>MR::Const_StitchHolesNicelySettings</scope><name>~Const_StitchHolesNicelySettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

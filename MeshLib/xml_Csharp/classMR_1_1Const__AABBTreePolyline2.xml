@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__AABBTreePolyline2" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_AABBTreePolyline2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1AABBTreePolyline2" prot="public" virt="non-virtual">MR.AABBTreePolyline2</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__AABBTreePolyline2_1a17ddc627c1732bef320d53985a91f295" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f" kindref="compound">MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</ref></type>
+        <definition>unsafe MR.Const_AABBTreeNode_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f MR.Const_AABBTreePolyline2.this[MR.NodeId nid]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.NodeId nid]</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.this[MR.NodeId nid]</qualifiedname>
+        <briefdescription>
+<para>const-access to any node Generated from method <computeroutput>MR::AABBTreePolyline2::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="89" column="87" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="90" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1abba19bd6903e5f5e7dc2650cf98c90bd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_AABBTreePolyline2.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1a841ce5681a4f246118b70d64e36a79b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_AABBTreePolyline2.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1a62f9042d9df2398ca9c7d5fec0aca01b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreePolyline2.Const_AABBTreePolyline2</definition>
+        <argsstring>()</argsstring>
+        <name>Const_AABBTreePolyline2</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.Const_AABBTreePolyline2</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="44" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="44" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1ac90a6fa1e8186d2f4ba3134ec2d489ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreePolyline2.Const_AABBTreePolyline2</definition>
+        <argsstring>(MR._ByValue_AABBTreePolyline2 _other)</argsstring>
+        <name>Const_AABBTreePolyline2</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.Const_AABBTreePolyline2</qualifiedname>
+        <param>
+          <type>MR._ByValue_AABBTreePolyline2</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1AABBTreePolyline2_1a1a3886e9949968030bd9ffc321a3ade0" kindref="member">MR.AABBTreePolyline2.AABBTreePolyline2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="54" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1afceb86ee69b6b71eef8d26288ed9e0f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreePolyline2.Const_AABBTreePolyline2</definition>
+        <argsstring>(MR.Const_Polyline2 polyline)</argsstring>
+        <name>Const_AABBTreePolyline2</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.Const_AABBTreePolyline2</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Polyline2" kindref="compound">MR.Const_Polyline2</ref></type>
+          <declname>polyline</declname>
+        </param>
+        <briefdescription>
+<para>creates tree for given polyline Generated from constructor <computeroutput><ref refid="classMR_1_1AABBTreePolyline2_1a1a3886e9949968030bd9ffc321a3ade0" kindref="member">MR.AABBTreePolyline2.AABBTreePolyline2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="66" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1a17dde58d4ccfc180976b13c21ac45f19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f__MRNodeId" kindref="compound">MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId</ref></type>
+        <definition>unsafe MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f_MRNodeId MR.Const_AABBTreePolyline2.nodes</definition>
+        <argsstring>()</argsstring>
+        <name>nodes</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.nodes</qualifiedname>
+        <briefdescription>
+<para>const-access to all nodes Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreePolyline2_1a17dde58d4ccfc180976b13c21ac45f19" kindref="member">MR.AABBTreePolyline2.nodes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="78" column="104" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="78" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1a83cb0b4ffe9e3a8205058e2c72ca4d02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref></type>
+        <definition>unsafe MR.Box2f MR.Const_AABBTreePolyline2.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns the root node bounding box Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreePolyline2_1a83cb0b4ffe9e3a8205058e2c72ca4d02" kindref="member">MR.AABBTreePolyline2.getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="114" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="114" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1a3b5fd2341c152ba3404fb8cd1f5ec094" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_AABBTreePolyline2.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreePolyline2_1a3b5fd2341c152ba3404fb8cd1f5ec094" kindref="member">MR.AABBTreePolyline2.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="125" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="125" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1ac9fea2d1a9cfb144e14c7095cbfcdf8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_AABBTreePolyline2.numLeaves</definition>
+        <argsstring>()</argsstring>
+        <name>numLeaves</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.numLeaves</qualifiedname>
+        <briefdescription>
+<para>returns the number of leaves in whole tree Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreePolyline2_1ac9fea2d1a9cfb144e14c7095cbfcdf8a" kindref="member">MR.AABBTreePolyline2.numLeaves</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="136" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="136" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1aedf99d63136f397540bcf66a5a76a289" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRNodeId</type>
+        <definition>unsafe MR.Std.Vector_MRNodeId MR.Const_AABBTreePolyline2.getSubtrees</definition>
+        <argsstring>(int minNum)</argsstring>
+        <name>getSubtrees</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.getSubtrees</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>minNum</declname>
+        </param>
+        <briefdescription>
+<para>returns at least given number of top-level not-intersecting subtrees, union of which contain all tree leaves Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreePolyline2_1aedf99d63136f397540bcf66a5a76a289" kindref="member">MR.AABBTreePolyline2.getSubtrees</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="147" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="147" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1a23aa9003fcb9d7775cd08d090956b9a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.Const_AABBTreePolyline2.getSubtreeLeaves</definition>
+        <argsstring>(MR.NodeId subtreeRoot)</argsstring>
+        <name>getSubtreeLeaves</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.getSubtreeLeaves</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>subtreeRoot</declname>
+        </param>
+        <briefdescription>
+<para>returns all leaves in the subtree with given root Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreePolyline2_1a23aa9003fcb9d7775cd08d090956b9a3" kindref="member">MR.AABBTreePolyline2.getSubtreeLeaves</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="158" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="158" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1ab5caed6ad0e4e5ba1968353c8d2100ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref></type>
+        <definition>unsafe MR.NodeBitSet MR.Const_AABBTreePolyline2.getNodesFromLeaves</definition>
+        <argsstring>(MR.Const_UndirectedEdgeBitSet leaves)</argsstring>
+        <name>getNodesFromLeaves</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.getNodesFromLeaves</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
+          <declname>leaves</declname>
+        </param>
+        <briefdescription>
+<para>returns set of nodes containing among direct or indirect children given leaves Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreePolyline2_1ab5caed6ad0e4e5ba1968353c8d2100ce" kindref="member">MR.AABBTreePolyline2.getNodesFromLeaves</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="169" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="169" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1a00b922500f08cbd2a105911d428ee34d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_AABBTreePolyline2.getLeafOrder</definition>
+        <argsstring>(MR.UndirectedEdgeBMap leafMap)</argsstring>
+        <name>getLeafOrder</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.getLeafOrder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeBMap" kindref="compound">MR.UndirectedEdgeBMap</ref></type>
+          <declname>leafMap</declname>
+        </param>
+        <briefdescription>
+<para>fills map: LeafId -&gt; leaf#; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreePolyline2_1a00b922500f08cbd2a105911d428ee34d" kindref="member">MR.AABBTreePolyline2.getLeafOrder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="181" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="181" bodyend="186"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1a483922badc43e7d4a7c0a59d17d64106" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_AABBTreePolyline2.~Const_AABBTreePolyline2</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_AABBTreePolyline2</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.~Const_AABBTreePolyline2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1aa45ce7e0c6cca0060ec37dad18fb16ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_AABBTreePolyline2.operator MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</definition>
+        <argsstring>(Const_AABBTreePolyline2 self)</argsstring>
+        <name>operator MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.operator MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AABBTreePolyline2" kindref="compound">Const_AABBTreePolyline2</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="30" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1ad21db3da548da36dc34953d3b6e1aea9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>static MR.NodeId MR.Const_AABBTreePolyline2.rootNodeId</definition>
+        <argsstring>()</argsstring>
+        <name>rootNodeId</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.rootNodeId</qualifiedname>
+        <briefdescription>
+<para>returns root node id Generated from method <computeroutput><ref refid="classMR_1_1Const__AABBTreePolyline2_1ad21db3da548da36dc34953d3b6e1aea9" kindref="member">MR.AABBTreePolyline2.rootNodeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="103" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="103" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreePolyline2_1ac68baf1904ddc0b95263029e74087bf1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreePolyline2.Const_AABBTreePolyline2</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_AABBTreePolyline2</name>
+        <qualifiedname>MR.Const_AABBTreePolyline2.Const_AABBTreePolyline2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="39" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>bounding volume hierarchy for line segments Generated from class <computeroutput><ref refid="classMR_1_1AABBTreePolyline2" kindref="compound">MR.AABBTreePolyline2</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;gt;&amp;gt;</computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_AABBTreePolyline2</label>
+        <link refid="classMR_1_1Const__AABBTreePolyline2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.AABBTreePolyline2</label>
+        <link refid="classMR_1_1AABBTreePolyline2"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_AABBTreePolyline2</label>
+        <link refid="classMR_1_1Const__AABBTreePolyline2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="11" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="12" bodyend="187"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1ac68baf1904ddc0b95263029e74087bf1" prot="package" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>Const_AABBTreePolyline2</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1a62f9042d9df2398ca9c7d5fec0aca01b" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>Const_AABBTreePolyline2</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1ac90a6fa1e8186d2f4ba3134ec2d489ae" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>Const_AABBTreePolyline2</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1afceb86ee69b6b71eef8d26288ed9e0f0" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>Const_AABBTreePolyline2</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1abba19bd6903e5f5e7dc2650cf98c90bd" prot="protected" virt="virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1a841ce5681a4f246118b70d64e36a79b4" prot="public" virt="virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1a83cb0b4ffe9e3a8205058e2c72ca4d02" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1a00b922500f08cbd2a105911d428ee34d" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>getLeafOrder</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1ab5caed6ad0e4e5ba1968353c8d2100ce" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>getNodesFromLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1a23aa9003fcb9d7775cd08d090956b9a3" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>getSubtreeLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1aedf99d63136f397540bcf66a5a76a289" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>getSubtrees</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1a3b5fd2341c152ba3404fb8cd1f5ec094" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1a17dde58d4ccfc180976b13c21ac45f19" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>nodes</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1ac9fea2d1a9cfb144e14c7095cbfcdf8a" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>numLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1aa45ce7e0c6cca0060ec37dad18fb16ee" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>operator MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox2f</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1ad21db3da548da36dc34953d3b6e1aea9" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>rootNodeId</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1a17ddc627c1732bef320d53985a91f295" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>this[MR.NodeId nid]</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline2_1a483922badc43e7d4a7c0a59d17d64106" prot="private" virt="non-virtual"><scope>MR::Const_AABBTreePolyline2</scope><name>~Const_AABBTreePolyline2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

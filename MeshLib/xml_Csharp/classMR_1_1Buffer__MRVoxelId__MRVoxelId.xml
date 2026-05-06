@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer__MRVoxelId__MRVoxelId" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MRVoxelId_MRVoxelId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MRVoxelId_MRVoxelId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId" prot="public" virt="non-virtual">MR.Const_Buffer_MRVoxelId_MRVoxelId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1a6f1e6a424aea6c2a2fcd3f6bfc725e47" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
@@ -12,7 +12,7 @@
         <name>this[MR.VoxelId i]</name>
         <qualifiedname>MR.Buffer_MRVoxelId_MRVoxelId.this[MR.VoxelId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -62,7 +62,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::Buffer</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;::Buffer</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -81,7 +81,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::Buffer</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;::Buffer</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -100,7 +100,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
         <name>clear</name>
         <qualifiedname>MR.Buffer_MRVoxelId_MRVoxelId.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1a6e1fb9b9439e6aa9e673b61eb98ceb54" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1a6e1fb9b9439e6aa9e673b61eb98ceb54" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1a0fc7236e03b2e7c14e832efac7bb2347" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1a0fc7236e03b2e7c14e832efac7bb2347" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -149,7 +149,7 @@
         <name>data</name>
         <qualifiedname>MR.Buffer_MRVoxelId_MRVoxelId.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1aa782e69a185eeb8d34e0a08128c987e3" kindref="member">data</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1aa782e69a185eeb8d34e0a08128c987e3" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -199,7 +199,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;V&amp;gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
+<para>std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -215,7 +215,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -235,6 +235,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRVoxelId_MRVoxelId</label>
+        <link refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -263,6 +264,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRVoxelId_MRVoxelId</label>
+        <link refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -280,15 +282,28 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6106" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6107" bodyend="6266"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1abafc81a44476239d9bc12d21ad55aa70" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a705ef44893b70846803471974e77080f" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a45b39eebd868f71f8db3dba2e7e41ec1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>beginId</name></member>
       <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1ae0c2811762c22a60a49b7ddff9f94608" prot="package" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>Buffer_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1ad023acee2fa3308faa0b9af3873268b4" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>Buffer_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1a82581a46fec5a22691c7ef9005ebaded" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>Buffer_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1ae48d94082e1381f33e1825252513c710" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>Buffer_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a6d3ff6e7896db0af2f7274559a047f3e" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1a6e1fb9b9439e6aa9e673b61eb98ceb54" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1aa2bb97648d944fb2d9004c3b3c80f65b" prot="package" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>Const_Buffer_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1ae6d55f6d52c98d3f8b0d18a4aeb22ee9" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>Const_Buffer_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a5db65b52df881a1936ea91a1a540cc20" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>Const_Buffer_MRVoxelId_MRVoxelId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1abd77e771fe878c6ed2a77612dbadb3e1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>Const_Buffer_MRVoxelId_MRVoxelId</name></member>
       <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1aa782e69a185eeb8d34e0a08128c987e3" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a7548e392643a82087f123423034107a3" prot="protected" virt="virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a25183dc44e36972de5550f46688d924a" prot="public" virt="virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1aa57545312a8164e795724c58d4c4b0d0" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1a4721cf84bf8806abc621e2d15e42dc87" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1afab2f0710461e331876d613a2992737f" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1a5129583d39669a087032b2b6de4a3f02" prot="private" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1ae3ac9b77ccf9220f168faa403a3a9c8f" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1a0fc7236e03b2e7c14e832efac7bb2347" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRVoxelId__MRVoxelId_1aa168c4ff5b11701b9b02073ee055fb88" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>size</name></member>
       <member refid="classMR_1_1Buffer__MRVoxelId__MRVoxelId_1a6f1e6a424aea6c2a2fcd3f6bfc725e47" prot="public" virt="non-virtual"><scope>MR::Buffer_MRVoxelId_MRVoxelId</scope><name>this[MR.VoxelId i]</name></member>
     </listofallmembers>
   </compounddef>

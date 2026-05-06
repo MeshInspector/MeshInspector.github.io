@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Image" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Image</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Image" prot="public" virt="non-virtual">MR.Image</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Image_1af10aec81bc046b2326d7b28f5e2de023" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRColor</type>
+        <definition>unsafe MR.Std.Const_Vector_MRColor MR.Const_Image.pixels</definition>
+        <argsstring></argsstring>
+        <name>pixels</name>
+        <qualifiedname>MR.Const_Image.pixels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="29" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Image_1a77c9e2d817766e43caa6c3c8e58101f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+        <definition>unsafe ref readonly MR.Vector2i MR.Const_Image.resolution</definition>
+        <argsstring></argsstring>
+        <name>resolution</name>
+        <qualifiedname>MR.Const_Image.resolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="31" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Image_1a387d4b87065d1065194e24b61eec2f6b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe MR.Color MR.Const_Image.this[in MR.Vector2i p]</definition>
+        <argsstring></argsstring>
+        <name>this[in MR.Vector2i p]</name>
+        <qualifiedname>MR.Const_Image.this[in MR.Vector2i p]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Image::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="111" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="112" bodyend="122"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Image_1ae7f8936d358515e3fbc79974ccdcedc0" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref> *</type>
+        <definition>unsafe MR.Vector2i* MR.Const_Image.__ref_storage_resolution</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_resolution</name>
+        <qualifiedname>MR.Const_Image.__ref_storage_resolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="32" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Image_1a73862bb70105d1b5ee9c39170b4e0999" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Image.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Image.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Image_1a51359fe18f4f00cf36832bfedb5ce02a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Image.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Image.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Image_1ab920270a752aef9eedceb3337f7d1d6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Image.Const_Image</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Image</name>
+        <qualifiedname>MR.Const_Image.Const_Image</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="66" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Image_1a6599eabda56345a244c7d48595cfa6c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Image.Const_Image</definition>
+        <argsstring>(MR.Std._ByValue_Vector_MRColor pixels, MR.Vector2i resolution)</argsstring>
+        <name>Const_Image</name>
+        <qualifiedname>MR.Const_Image.Const_Image</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Vector_MRColor</type>
+          <declname>pixels</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="77" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="77" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Image_1a5efd052c6f836a82aedb70130f3f0634" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Image.Const_Image</definition>
+        <argsstring>(MR._ByValue_Image _other)</argsstring>
+        <name>Const_Image</name>
+        <qualifiedname>MR.Const_Image.Const_Image</qualifiedname>
+        <param>
+          <type>MR._ByValue_Image</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Image_1a1f036f874c471aa6766cdf669331e4f9" kindref="member">MR.Image.Image</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="89" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="89" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Image_1a97b054ee9348ee281d584080f2f1980d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Image.Const_Image</definition>
+        <argsstring>(Const_Image _other)</argsstring>
+        <name>Const_Image</name>
+        <qualifiedname>MR.Const_Image.Const_Image</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Image" kindref="compound">Const_Image</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Image_1a1f036f874c471aa6766cdf669331e4f9" kindref="member">MR.Image.Image</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="101" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Image_1abd4f8ab5095658fafe6461a049e52476" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Image.Const_Image</definition>
+        <argsstring>(Image _other)</argsstring>
+        <name>Const_Image</name>
+        <qualifiedname>MR.Const_Image.Const_Image</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Image" kindref="compound">Image</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Image_1a1f036f874c471aa6766cdf669331e4f9" kindref="member">MR.Image.Image</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="106" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Image_1ae8a3e347456ab4022cb804b14cbcfcdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Image.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Image.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Image_1ae8a3e347456ab4022cb804b14cbcfcdb" kindref="member">MR.Image.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="128" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="128" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Image_1adc5a9776be19fc9a9e51aba40541c9d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe MR.Color MR.Const_Image.sampleDiscrete</definition>
+        <argsstring>(in MR.Vector2f pos)</argsstring>
+        <name>sampleDiscrete</name>
+        <qualifiedname>MR.Const_Image.sampleDiscrete</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Given texture position in [0,1]x[0,1] (which is clamped if necessary), returns the color of the closest pixel Generated from method <computeroutput><ref refid="classMR_1_1Const__Image_1adc5a9776be19fc9a9e51aba40541c9d0" kindref="member">MR.Image.sampleDiscrete</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="140" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="140" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Image_1a41c7ea634c7b44b3a57a7919ca2e8988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe MR.Color MR.Const_Image.sampleBilinear</definition>
+        <argsstring>(in MR.Vector2f pos)</argsstring>
+        <name>sampleBilinear</name>
+        <qualifiedname>MR.Const_Image.sampleBilinear</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Given texture position in [0,1]x[0,1] (which is clamped if necessary), returns bilinear interpolated color at it Generated from method <computeroutput><ref refid="classMR_1_1Const__Image_1a41c7ea634c7b44b3a57a7919ca2e8988" kindref="member">MR.Image.sampleBilinear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="155" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="155" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Image_1acfe680e166367c8db8fb24a84976ff4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe MR.Color MR.Const_Image.sample</definition>
+        <argsstring>(MR.FilterType filter, in MR.Vector2f pos)</argsstring>
+        <name>sample</name>
+        <qualifiedname>MR.Const_Image.sample</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1ac7bb07e14717aed649af2fdab4d00f9d" kindref="member">MR.FilterType</ref></type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Given texture position in [0,1]x[0,1] (which is clamped if necessary), returns sampled color at it according to given filter Generated from method <computeroutput><ref refid="classMR_1_1Const__Image_1acfe680e166367c8db8fb24a84976ff4d" kindref="member">MR.Image.sample</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="170" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="170" bodyend="178"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Image_1ac4f78b8797892a8a9e811a1e0cd85b86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Image.~Const_Image</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Image</name>
+        <qualifiedname>MR.Const_Image.~Const_Image</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Image_1aa0d52cae6a38509d88110e73364ee616" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Image.Const_Image</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Image</name>
+        <qualifiedname>MR.Const_Image.Const_Image</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="55" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="55" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>struct to hold <ref refid="classMR_1_1Image" kindref="compound">Image</ref> data Generated from class <computeroutput><ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Image</label>
+        <link refid="classMR_1_1Const__Image"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Image</label>
+        <link refid="classMR_1_1Image"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_Image</label>
+        <link refid="classMR_1_1Const__Image"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_resolution</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" line="11" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImage.cs" bodystart="12" bodyend="179"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Image_1ae7f8936d358515e3fbc79974ccdcedc0" prot="protected" virt="non-virtual"><scope>MR::Const_Image</scope><name>__ref_storage_resolution</name></member>
+      <member refid="classMR_1_1Const__Image_1aa0d52cae6a38509d88110e73364ee616" prot="package" virt="non-virtual"><scope>MR::Const_Image</scope><name>Const_Image</name></member>
+      <member refid="classMR_1_1Const__Image_1ab920270a752aef9eedceb3337f7d1d6a" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>Const_Image</name></member>
+      <member refid="classMR_1_1Const__Image_1a6599eabda56345a244c7d48595cfa6c4" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>Const_Image</name></member>
+      <member refid="classMR_1_1Const__Image_1a5efd052c6f836a82aedb70130f3f0634" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>Const_Image</name></member>
+      <member refid="classMR_1_1Const__Image_1a97b054ee9348ee281d584080f2f1980d" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>Const_Image</name></member>
+      <member refid="classMR_1_1Const__Image_1abd4f8ab5095658fafe6461a049e52476" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>Const_Image</name></member>
+      <member refid="classMR_1_1Const__Image_1a73862bb70105d1b5ee9c39170b4e0999" prot="protected" virt="virtual"><scope>MR::Const_Image</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Image_1a51359fe18f4f00cf36832bfedb5ce02a" prot="public" virt="virtual"><scope>MR::Const_Image</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Image_1ae8a3e347456ab4022cb804b14cbcfcdb" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Image_1af10aec81bc046b2326d7b28f5e2de023" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>pixels</name></member>
+      <member refid="classMR_1_1Const__Image_1a77c9e2d817766e43caa6c3c8e58101f0" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>resolution</name></member>
+      <member refid="classMR_1_1Const__Image_1acfe680e166367c8db8fb24a84976ff4d" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>sample</name></member>
+      <member refid="classMR_1_1Const__Image_1a41c7ea634c7b44b3a57a7919ca2e8988" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>sampleBilinear</name></member>
+      <member refid="classMR_1_1Const__Image_1adc5a9776be19fc9a9e51aba40541c9d0" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>sampleDiscrete</name></member>
+      <member refid="classMR_1_1Const__Image_1a387d4b87065d1065194e24b61eec2f6b" prot="public" virt="non-virtual"><scope>MR::Const_Image</scope><name>this[in MR.Vector2i p]</name></member>
+      <member refid="classMR_1_1Const__Image_1ac4f78b8797892a8a9e811a1e0cd85b86" prot="private" virt="non-virtual"><scope>MR::Const_Image</scope><name>~Const_Image</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

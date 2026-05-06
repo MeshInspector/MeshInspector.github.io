@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="126" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="127" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="127" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmrviewerpy_1_1UiEntryType_1a7609c19acbf5748d4553cc86661611f0" prot="public" static="yes" mutable="no">
         <type>typing</type>
@@ -41,21 +41,6 @@
         <argsstring></argsstring>
         <name>group</name>
         <qualifiedname>mrviewerpy.UiEntryType.group</qualifiedname>
-        <initializer>.ClassVar[<ref refid="classmrviewerpy_1_1UiEntryType" kindref="compound">UiEntryType</ref>]</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="128" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="classmrviewerpy_1_1UiEntryType_1a456defb86e0d103446a670b201f30de4" prot="public" static="yes" mutable="no">
-        <type>typing</type>
-        <definition>typing mrviewerpy.UiEntryType::other</definition>
-        <argsstring></argsstring>
-        <name>other</name>
-        <qualifiedname>mrviewerpy.UiEntryType.other</qualifiedname>
         <initializer>.ClassVar[<ref refid="classmrviewerpy_1_1UiEntryType" kindref="compound">UiEntryType</ref>]</initializer>
         <briefdescription>
         </briefdescription>
@@ -378,11 +363,9 @@ Members:
   valueReal
 
   valueString
-
-  other
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="106" bodyend="159"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="109" bodyend="159"/>
     <listofallmembers>
       <member refid="classmrviewerpy_1_1UiEntryType_1add09a76ca6b411fbff00ae6af6dcdd7f" prot="public" virt="non-virtual"><scope>mrviewerpy::UiEntryType</scope><name>__eq__</name></member>
       <member refid="classmrviewerpy_1_1UiEntryType_1a76df04c756a7d2c0352201fe9e8703aa" prot="public" virt="non-virtual"><scope>mrviewerpy::UiEntryType</scope><name>__getstate__</name></member>
@@ -398,7 +381,6 @@ Members:
       <member refid="classmrviewerpy_1_1UiEntryType_1aa2e1652d166a90bae8b6dfa79b07edc3" prot="public" virt="non-virtual"><scope>mrviewerpy::UiEntryType</scope><name>button</name></member>
       <member refid="classmrviewerpy_1_1UiEntryType_1a7609c19acbf5748d4553cc86661611f0" prot="public" virt="non-virtual"><scope>mrviewerpy::UiEntryType</scope><name>group</name></member>
       <member refid="classmrviewerpy_1_1UiEntryType_1a9f36873aa8490f02183e92cf7fc3860c" prot="public" virt="non-virtual"><scope>mrviewerpy::UiEntryType</scope><name>name</name></member>
-      <member refid="classmrviewerpy_1_1UiEntryType_1a456defb86e0d103446a670b201f30de4" prot="public" virt="non-virtual"><scope>mrviewerpy::UiEntryType</scope><name>other</name></member>
       <member refid="classmrviewerpy_1_1UiEntryType_1a8d1120e8c46ab43cdf10d1b49377c06b" prot="public" virt="non-virtual"><scope>mrviewerpy::UiEntryType</scope><name>value</name></member>
       <member refid="classmrviewerpy_1_1UiEntryType_1a7f1c2cf3ffbc6ef810d7608f9aabbeae" prot="public" virt="non-virtual"><scope>mrviewerpy::UiEntryType</scope><name>valueInt</name></member>
       <member refid="classmrviewerpy_1_1UiEntryType_1a1a778138071ac93cea0f939d3d026b6b" prot="public" virt="non-virtual"><scope>mrviewerpy::UiEntryType</scope><name>valueReal</name></member>

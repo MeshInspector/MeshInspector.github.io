@@ -443,20 +443,6 @@
     <innerclass refid="structMR__Box3f" prot="public">MR_Box3f</innerclass>
     <innerclass refid="structMR__Box3d" prot="public">MR_Box3d</innerclass>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" prot="public" static="no">
-        <type>struct <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref></type>
-        <definition>typedef struct MR_NoInit MR_NoInit</definition>
-        <argsstring></argsstring>
-        <name>MR_NoInit</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::NoInit</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" line="15" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBox.h" bodystart="15" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRBox_8h_1aa5d31dba1b33b93828f09779d6b1ebf4" prot="public" static="no">
         <type>struct MR_Box1i</type>
         <definition>typedef struct MR_Box1i MR_Box1i</definition>
@@ -721,7 +707,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Box1i_Construct_1</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -1397,7 +1383,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Box1i64_Construct_1</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -2073,7 +2059,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Box1f_Construct_1</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -2749,7 +2735,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Box1d_Construct_1</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -3425,7 +3411,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Box2i_Construct_1</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -4101,7 +4087,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Box2i64_Construct_1</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -4777,7 +4763,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Box2f_Construct_1</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -5453,7 +5439,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Box2d_Construct_1</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -6129,7 +6115,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Box3i_Construct_1</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -6805,7 +6791,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Box3i64_Construct_1</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -7481,7 +7467,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Box3f_Construct_1</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -8157,7 +8143,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Box3d_Construct_1</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -9011,7 +8997,7 @@
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_Box_unsigned_short_Construct_1</name>
         <param>
-          <type>const <ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
+          <type>const <ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref> *</type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -9685,7 +9671,7 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshFwd.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshFwd.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
@@ -9772,7 +9758,7 @@
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
 <codeline lineno="145" refid="MRBox_8h_1a95eaf1d7057916abaa25a449d809e125" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i" kindref="compound">MR_Box1i</ref><sp/><ref refid="MRBox_8h_1a95eaf1d7057916abaa25a449d809e125" kindref="member">MR_Box1i_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*min,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*max);</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRBox_8h_1aa0bb4002ca3b48210a8fb631217acb60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i" kindref="compound">MR_Box1i</ref><sp/><ref refid="MRBox_8h_1aa0bb4002ca3b48210a8fb631217acb60" kindref="member">MR_Box1i_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="150" refid="MRBox_8h_1aa0bb4002ca3b48210a8fb631217acb60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i" kindref="compound">MR_Box1i</ref><sp/><ref refid="MRBox_8h_1aa0bb4002ca3b48210a8fb631217acb60" kindref="member">MR_Box1i_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
 <codeline lineno="156" refid="MRBox_8h_1a9b5680538a953bfbe23100f09656ff8c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRBox_8h_1a9b5680538a953bfbe23100f09656ff8c" kindref="member">MR_Box1i_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i" kindref="compound">MR_Box1i</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"></highlight></codeline>
@@ -9838,7 +9824,7 @@
 <codeline lineno="326"><highlight class="normal"></highlight></codeline>
 <codeline lineno="332" refid="MRBox_8h_1ade49aaa6f715408d08d75ab45cacdcf6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/><ref refid="MRBox_8h_1ade49aaa6f715408d08d75ab45cacdcf6" kindref="member">MR_Box1i64_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*min,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*max);</highlight></codeline>
 <codeline lineno="333"><highlight class="normal"></highlight></codeline>
-<codeline lineno="337" refid="MRBox_8h_1a8c1258f39c627eda8653a0a7b98380d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/><ref refid="MRBox_8h_1a8c1258f39c627eda8653a0a7b98380d5" kindref="member">MR_Box1i64_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="337" refid="MRBox_8h_1a8c1258f39c627eda8653a0a7b98380d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/><ref refid="MRBox_8h_1a8c1258f39c627eda8653a0a7b98380d5" kindref="member">MR_Box1i64_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="338"><highlight class="normal"></highlight></codeline>
 <codeline lineno="343" refid="MRBox_8h_1a3b2ee218e3601d6e7a92fcbbb50e325e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a54b381d2daa23833ed35cb97e4948ea0" kindref="member">MR_int64_t</ref><sp/>*<ref refid="MRBox_8h_1a3b2ee218e3601d6e7a92fcbbb50e325e" kindref="member">MR_Box1i64_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1i64" kindref="compound">MR_Box1i64</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="344"><highlight class="normal"></highlight></codeline>
@@ -9904,7 +9890,7 @@
 <codeline lineno="513"><highlight class="normal"></highlight></codeline>
 <codeline lineno="519" refid="MRBox_8h_1a3faa369c8080f44215ea98a2c87ba935" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1f" kindref="compound">MR_Box1f</ref><sp/><ref refid="MRBox_8h_1a3faa369c8080f44215ea98a2c87ba935" kindref="member">MR_Box1f_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*min,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*max);</highlight></codeline>
 <codeline lineno="520"><highlight class="normal"></highlight></codeline>
-<codeline lineno="524" refid="MRBox_8h_1a01e49c5f41d5dca212e8d4bd99d788bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1f" kindref="compound">MR_Box1f</ref><sp/><ref refid="MRBox_8h_1a01e49c5f41d5dca212e8d4bd99d788bd" kindref="member">MR_Box1f_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="524" refid="MRBox_8h_1a01e49c5f41d5dca212e8d4bd99d788bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1f" kindref="compound">MR_Box1f</ref><sp/><ref refid="MRBox_8h_1a01e49c5f41d5dca212e8d4bd99d788bd" kindref="member">MR_Box1f_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="525"><highlight class="normal"></highlight></codeline>
 <codeline lineno="530" refid="MRBox_8h_1afe2b1228d6989d3b3e5f631db6615646" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRBox_8h_1afe2b1228d6989d3b3e5f631db6615646" kindref="member">MR_Box1f_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1f" kindref="compound">MR_Box1f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="531"><highlight class="normal"></highlight></codeline>
@@ -9970,7 +9956,7 @@
 <codeline lineno="700"><highlight class="normal"></highlight></codeline>
 <codeline lineno="706" refid="MRBox_8h_1a311e693e1945453ef72532fa41f1c419" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1d" kindref="compound">MR_Box1d</ref><sp/><ref refid="MRBox_8h_1a311e693e1945453ef72532fa41f1c419" kindref="member">MR_Box1d_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*min,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*max);</highlight></codeline>
 <codeline lineno="707"><highlight class="normal"></highlight></codeline>
-<codeline lineno="711" refid="MRBox_8h_1aee6e4991cb77078ac8949ad05e6768e3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1d" kindref="compound">MR_Box1d</ref><sp/><ref refid="MRBox_8h_1aee6e4991cb77078ac8949ad05e6768e3" kindref="member">MR_Box1d_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="711" refid="MRBox_8h_1aee6e4991cb77078ac8949ad05e6768e3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box1d" kindref="compound">MR_Box1d</ref><sp/><ref refid="MRBox_8h_1aee6e4991cb77078ac8949ad05e6768e3" kindref="member">MR_Box1d_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="712"><highlight class="normal"></highlight></codeline>
 <codeline lineno="717" refid="MRBox_8h_1ad86551c22a62136245c295f47041e376" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRBox_8h_1ad86551c22a62136245c295f47041e376" kindref="member">MR_Box1d_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box1d" kindref="compound">MR_Box1d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="718"><highlight class="normal"></highlight></codeline>
@@ -10038,7 +10024,7 @@
 <codeline lineno="894"><highlight class="normal"></highlight></codeline>
 <codeline lineno="895"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>compiler<sp/>supports<sp/>`requires`,<sp/>use<sp/>that<sp/>instead<sp/>of<sp/>`std::enable_if`<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="896"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Not<sp/>(only)<sp/>because<sp/>it<sp/>looks<sp/>cooler,<sp/>but<sp/>because<sp/>of<sp/>a<sp/>bug<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>that<sp/>makes<sp/>it<sp/>choke<sp/>on<sp/>it:<sp/>https://github.com/MeshInspector/mrbind/issues/19</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="900" refid="MRBox_8h_1a57793d7c6c0a47b488ff547d7b88f39e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box2i" kindref="compound">MR_Box2i</ref><sp/><ref refid="MRBox_8h_1a57793d7c6c0a47b488ff547d7b88f39e" kindref="member">MR_Box2i_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="900" refid="MRBox_8h_1a57793d7c6c0a47b488ff547d7b88f39e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box2i" kindref="compound">MR_Box2i</ref><sp/><ref refid="MRBox_8h_1a57793d7c6c0a47b488ff547d7b88f39e" kindref="member">MR_Box2i_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="901"><highlight class="normal"></highlight></codeline>
 <codeline lineno="906" refid="MRBox_8h_1a504379f4971c790444fdb20773437eea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRBox_8h_1a504379f4971c790444fdb20773437eea" kindref="member">MR_Box2i_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i" kindref="compound">MR_Box2i</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="907"><highlight class="normal"></highlight></codeline>
@@ -10106,7 +10092,7 @@
 <codeline lineno="1083"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1084"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>compiler<sp/>supports<sp/>`requires`,<sp/>use<sp/>that<sp/>instead<sp/>of<sp/>`std::enable_if`<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1085"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Not<sp/>(only)<sp/>because<sp/>it<sp/>looks<sp/>cooler,<sp/>but<sp/>because<sp/>of<sp/>a<sp/>bug<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>that<sp/>makes<sp/>it<sp/>choke<sp/>on<sp/>it:<sp/>https://github.com/MeshInspector/mrbind/issues/19</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1089" refid="MRBox_8h_1ae3764eb0b2e2489d38ce7a3394c7f0c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/><ref refid="MRBox_8h_1ae3764eb0b2e2489d38ce7a3394c7f0c2" kindref="member">MR_Box2i64_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="1089" refid="MRBox_8h_1ae3764eb0b2e2489d38ce7a3394c7f0c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/><ref refid="MRBox_8h_1ae3764eb0b2e2489d38ce7a3394c7f0c2" kindref="member">MR_Box2i64_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="1090"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1095" refid="MRBox_8h_1ae3f3e5db811f98bb26340cfb4ccaec55" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i64" kindref="compound">MR_Vector2i64</ref><sp/>*<ref refid="MRBox_8h_1ae3f3e5db811f98bb26340cfb4ccaec55" kindref="member">MR_Box2i64_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2i64" kindref="compound">MR_Box2i64</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="1096"><highlight class="normal"></highlight></codeline>
@@ -10174,7 +10160,7 @@
 <codeline lineno="1272"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1273"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>compiler<sp/>supports<sp/>`requires`,<sp/>use<sp/>that<sp/>instead<sp/>of<sp/>`std::enable_if`<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1274"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Not<sp/>(only)<sp/>because<sp/>it<sp/>looks<sp/>cooler,<sp/>but<sp/>because<sp/>of<sp/>a<sp/>bug<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>that<sp/>makes<sp/>it<sp/>choke<sp/>on<sp/>it:<sp/>https://github.com/MeshInspector/mrbind/issues/19</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1278" refid="MRBox_8h_1aaea94ef69744c1e81fcb17ce30c3a54b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref><sp/><ref refid="MRBox_8h_1aaea94ef69744c1e81fcb17ce30c3a54b" kindref="member">MR_Box2f_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="1278" refid="MRBox_8h_1aaea94ef69744c1e81fcb17ce30c3a54b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref><sp/><ref refid="MRBox_8h_1aaea94ef69744c1e81fcb17ce30c3a54b" kindref="member">MR_Box2f_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="1279"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1284" refid="MRBox_8h_1adebd50a4b9adbe210659ef129b27bf2f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRBox_8h_1adebd50a4b9adbe210659ef129b27bf2f" kindref="member">MR_Box2f_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2f" kindref="compound">MR_Box2f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="1285"><highlight class="normal"></highlight></codeline>
@@ -10242,7 +10228,7 @@
 <codeline lineno="1461"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1462"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>compiler<sp/>supports<sp/>`requires`,<sp/>use<sp/>that<sp/>instead<sp/>of<sp/>`std::enable_if`<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1463"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Not<sp/>(only)<sp/>because<sp/>it<sp/>looks<sp/>cooler,<sp/>but<sp/>because<sp/>of<sp/>a<sp/>bug<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>that<sp/>makes<sp/>it<sp/>choke<sp/>on<sp/>it:<sp/>https://github.com/MeshInspector/mrbind/issues/19</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1467" refid="MRBox_8h_1a5cc520893450fa64193f150967f1beaf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box2d" kindref="compound">MR_Box2d</ref><sp/><ref refid="MRBox_8h_1a5cc520893450fa64193f150967f1beaf" kindref="member">MR_Box2d_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="1467" refid="MRBox_8h_1a5cc520893450fa64193f150967f1beaf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box2d" kindref="compound">MR_Box2d</ref><sp/><ref refid="MRBox_8h_1a5cc520893450fa64193f150967f1beaf" kindref="member">MR_Box2d_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="1468"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1473" refid="MRBox_8h_1a498ec305a7b479c2cac9b095d6781134" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*<ref refid="MRBox_8h_1a498ec305a7b479c2cac9b095d6781134" kindref="member">MR_Box2d_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box2d" kindref="compound">MR_Box2d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="1474"><highlight class="normal"></highlight></codeline>
@@ -10310,7 +10296,7 @@
 <codeline lineno="1650"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1651"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>compiler<sp/>supports<sp/>`requires`,<sp/>use<sp/>that<sp/>instead<sp/>of<sp/>`std::enable_if`<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1652"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Not<sp/>(only)<sp/>because<sp/>it<sp/>looks<sp/>cooler,<sp/>but<sp/>because<sp/>of<sp/>a<sp/>bug<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>that<sp/>makes<sp/>it<sp/>choke<sp/>on<sp/>it:<sp/>https://github.com/MeshInspector/mrbind/issues/19</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1656" refid="MRBox_8h_1a6a3c206faf100af908eb55e603c25dc7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3i" kindref="compound">MR_Box3i</ref><sp/><ref refid="MRBox_8h_1a6a3c206faf100af908eb55e603c25dc7" kindref="member">MR_Box3i_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="1656" refid="MRBox_8h_1a6a3c206faf100af908eb55e603c25dc7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3i" kindref="compound">MR_Box3i</ref><sp/><ref refid="MRBox_8h_1a6a3c206faf100af908eb55e603c25dc7" kindref="member">MR_Box3i_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="1657"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1662" refid="MRBox_8h_1aeb51db2773a1056a88828932081f85b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRBox_8h_1aeb51db2773a1056a88828932081f85b2" kindref="member">MR_Box3i_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i" kindref="compound">MR_Box3i</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="1663"><highlight class="normal"></highlight></codeline>
@@ -10378,7 +10364,7 @@
 <codeline lineno="1839"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1840"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>compiler<sp/>supports<sp/>`requires`,<sp/>use<sp/>that<sp/>instead<sp/>of<sp/>`std::enable_if`<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="1841"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Not<sp/>(only)<sp/>because<sp/>it<sp/>looks<sp/>cooler,<sp/>but<sp/>because<sp/>of<sp/>a<sp/>bug<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>that<sp/>makes<sp/>it<sp/>choke<sp/>on<sp/>it:<sp/>https://github.com/MeshInspector/mrbind/issues/19</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1845" refid="MRBox_8h_1a9201fde891fc159dd5ca43eb9e775a06" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/><ref refid="MRBox_8h_1a9201fde891fc159dd5ca43eb9e775a06" kindref="member">MR_Box3i64_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="1845" refid="MRBox_8h_1a9201fde891fc159dd5ca43eb9e775a06" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/><ref refid="MRBox_8h_1a9201fde891fc159dd5ca43eb9e775a06" kindref="member">MR_Box3i64_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="1846"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1851" refid="MRBox_8h_1adeb4d7675a4127dd4a6c5f4130f5a16b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref><sp/>*<ref refid="MRBox_8h_1adeb4d7675a4127dd4a6c5f4130f5a16b" kindref="member">MR_Box3i64_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3i64" kindref="compound">MR_Box3i64</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="1852"><highlight class="normal"></highlight></codeline>
@@ -10446,7 +10432,7 @@
 <codeline lineno="2028"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2029"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>compiler<sp/>supports<sp/>`requires`,<sp/>use<sp/>that<sp/>instead<sp/>of<sp/>`std::enable_if`<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2030"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Not<sp/>(only)<sp/>because<sp/>it<sp/>looks<sp/>cooler,<sp/>but<sp/>because<sp/>of<sp/>a<sp/>bug<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>that<sp/>makes<sp/>it<sp/>choke<sp/>on<sp/>it:<sp/>https://github.com/MeshInspector/mrbind/issues/19</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2034" refid="MRBox_8h_1a9af33c5285b5c0be070ee7ace874e4d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRBox_8h_1a9af33c5285b5c0be070ee7ace874e4d9" kindref="member">MR_Box3f_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="2034" refid="MRBox_8h_1a9af33c5285b5c0be070ee7ace874e4d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRBox_8h_1a9af33c5285b5c0be070ee7ace874e4d9" kindref="member">MR_Box3f_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="2035"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2040" refid="MRBox_8h_1af16f8dcce518abf3f7d518b1aec98ef0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRBox_8h_1af16f8dcce518abf3f7d518b1aec98ef0" kindref="member">MR_Box3f_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="2041"><highlight class="normal"></highlight></codeline>
@@ -10514,7 +10500,7 @@
 <codeline lineno="2217"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2218"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>the<sp/>compiler<sp/>supports<sp/>`requires`,<sp/>use<sp/>that<sp/>instead<sp/>of<sp/>`std::enable_if`<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2219"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Not<sp/>(only)<sp/>because<sp/>it<sp/>looks<sp/>cooler,<sp/>but<sp/>because<sp/>of<sp/>a<sp/>bug<sp/>in<sp/>our<sp/>binding<sp/>generator<sp/>that<sp/>makes<sp/>it<sp/>choke<sp/>on<sp/>it:<sp/>https://github.com/MeshInspector/mrbind/issues/19</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2223" refid="MRBox_8h_1a9aec5e1e7469db2b6d03a722ecc21c34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref><sp/><ref refid="MRBox_8h_1a9aec5e1e7469db2b6d03a722ecc21c34" kindref="member">MR_Box3d_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="2223" refid="MRBox_8h_1a9aec5e1e7469db2b6d03a722ecc21c34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref><sp/><ref refid="MRBox_8h_1a9aec5e1e7469db2b6d03a722ecc21c34" kindref="member">MR_Box3d_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="2224"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2229" refid="MRBox_8h_1a93f094bd9ec4a77074257fab4cfa9fc9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRBox_8h_1a93f094bd9ec4a77074257fab4cfa9fc9" kindref="member">MR_Box3d_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3d" kindref="compound">MR_Box3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>e);</highlight></codeline>
 <codeline lineno="2230"><highlight class="normal"></highlight></codeline>
@@ -10598,7 +10584,7 @@
 <codeline lineno="2450"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2457" refid="MRBox_8h_1aef89361036a3ddcf86a4026a1a1c9a5a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBox_8h_1abe64e8fa15f4ca0ae7f2f0074b58a89f" kindref="member">MR_Box_unsigned_short</ref><sp/>*<ref refid="MRBox_8h_1aef89361036a3ddcf86a4026a1a1c9a5a" kindref="member">MR_Box_unsigned_short_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*min,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>*max);</highlight></codeline>
 <codeline lineno="2458"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2463" refid="MRBox_8h_1af62d655ac242f3e57c46e9df49fa2cad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBox_8h_1abe64e8fa15f4ca0ae7f2f0074b58a89f" kindref="member">MR_Box_unsigned_short</ref><sp/>*<ref refid="MRBox_8h_1af62d655ac242f3e57c46e9df49fa2cad" kindref="member">MR_Box_unsigned_short_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="2463" refid="MRBox_8h_1af62d655ac242f3e57c46e9df49fa2cad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBox_8h_1abe64e8fa15f4ca0ae7f2f0074b58a89f" kindref="member">MR_Box_unsigned_short</ref><sp/>*<ref refid="MRBox_8h_1af62d655ac242f3e57c46e9df49fa2cad" kindref="member">MR_Box_unsigned_short_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeNode_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="2464"><highlight class="normal"></highlight></codeline>
 <codeline lineno="2466" refid="MRBox_8h_1aadf7b1551d9ae43b34dabc9f369998ae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1aadf7b1551d9ae43b34dabc9f369998ae" kindref="member">MR_Box_unsigned_short_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1abe64e8fa15f4ca0ae7f2f0074b58a89f" kindref="member">MR_Box_unsigned_short</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="2467"><highlight class="normal"></highlight></codeline>

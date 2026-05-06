@@ -5,6 +5,7 @@ var MRMeshMetrics_8h =
     [ "MR::FillTriangleMetric", "group__FillHoleGroup.html#ga9a2b22c68476e1176c0f8a8f43542611", null ],
     [ "MR::calcCombinedFillMetric", "group__FillHoleGroup.html#ga633f1395df33828b2f19fc042879aa29", null ],
     [ "MR::getCircumscribedMetric", "group__FillHoleGroup.html#gac1a269fbec429d33258983bff4019f39", null ],
+    [ "MR::getCloseSurfaceFillMetric", "group__FillHoleGroup.html#ga72e5fd74157ece0e3c7cc5869bf952ca", null ],
     [ "MR::getComplexFillMetric", "group__FillHoleGroup.html#ga92a06c2d33c1889ee1b54fdaea5674d8", null ],
     [ "MR::getComplexStitchMetric", "group__FillHoleGroup.html#ga9c570866771d746123bb7c5011175a86", null ],
     [ "MR::getEdgeLengthFillMetric", "group__FillHoleGroup.html#ga0e0bc41aafae2177ca82d4f49743974d", null ],
@@ -18,5 +19,6 @@ var MRMeshMetrics_8h =
     [ "MR::getUniversalMetric", "group__FillHoleGroup.html#gaf752f0a8245805123dc73f5c6a1088b7", null ],
     [ "MR::getVerticalStitchMetric", "group__FillHoleGroup.html#ga7dc0107c190f70b0ab3a4e084cf298ef", null ],
     [ "MR::getVerticalStitchMetricEdgeBased", "group__FillHoleGroup.html#gabbdbb890c942e76051b284e249608eed", null ],
+    [ "MR::mixMetrics", "group__FillHoleGroup.html#gabd1aad2d1ac85e32159ea366bf234d78", null ],
     [ "MR::BadTriangulationMetric", "group__FillHoleGroup.html#gad6e60cb1116257e53229b6ee7ee22351", null ]
 ];

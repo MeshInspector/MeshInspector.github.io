@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DecimateSettings" kind="struct" language="C#" prot="public">
     <compoundname>MR::DecimateSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DecimateSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DecimateSettings" prot="public" virt="non-virtual">MR.Const_DecimateSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DecimateSettings_1a7d0f6cbf05458bab4e5eb3e750801de4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1add28113e16217d08b03c89236a144146" kindref="member">MR.DecimateStrategy</ref></type>
@@ -417,7 +417,7 @@
         <name>subdivideParts</name>
         <qualifiedname>MR.DecimateSettings.subdivideParts</qualifiedname>
         <briefdescription>
-<para>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &amp;gt; 1, otherwise performance will be bad. </para>
+<para>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -462,7 +462,7 @@
         <name>minFacesInPart</name>
         <qualifiedname>MR.DecimateSettings.minFacesInPart</qualifiedname>
         <briefdescription>
-<para>minimum number of faces in one subdivision part for ( subdivideParts &amp;gt; 1 ) mode </para>
+<para>minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -511,10 +511,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="907" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="907" bodyend="913"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DecimateSettings_1aa56e196e71352498aecc43522f18a8b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DecimateSettings_1a626117acb5f02241e19b472323d6ee39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.DecimateSettings.DecimateSettings</definition>
-        <argsstring>(MR.DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, MR.FaceBitSet? region, MR.UndirectedEdgeBitSet? notFlippable, bool collapseNearNotFlippable, MR.UndirectedEdgeBitSet? edgesToCollapse, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId? twinMap, bool touchNearBdEdges, bool touchBdVerts, MR.VertBitSet? bdVerts, float maxAngleChange, MR.Std._ByValue_Function_BoolFuncFromMREdgeIdConstMRVector3fRef preCollapse, MR.Std._ByValue_Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef adjustCollapse, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeDel, MR.Vector_MRQuadraticForm3f_MRVertId? vertForms, bool packMesh, MR.Std._ByValue_Function_BoolFuncFromFloat progressCallback, int subdivideParts, bool decimateBetweenParts, MR.Std.Vector_MRFaceBitSet? partFaces, int minFacesInPart)</argsstring>
+        <argsstring>(MR.DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, MR.FaceBitSet? region, MR.UndirectedEdgeBitSet? notFlippable, bool collapseNearNotFlippable, MR.UndirectedEdgeBitSet? edgesToCollapse, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId? twinMap, bool touchNearBdEdges, bool touchBdVerts, MR.VertBitSet? bdVerts, float maxAngleChange, MR.Std._ByValue_Function_Bool_From_MREdgeId_ConstMRVector3fRef preCollapse, MR.Std._ByValue_Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef adjustCollapse, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeDel, MR.Vector_MRQuadraticForm3f_MRVertId? vertForms, bool packMesh, MR.Std._ByValue_Function_Bool_From_Float progressCallback, int subdivideParts, bool decimateBetweenParts, MR.Std.Vector_MRFaceBitSet? partFaces, int minFacesInPart)</argsstring>
         <name>DecimateSettings</name>
         <qualifiedname>MR.DecimateSettings.DecimateSettings</qualifiedname>
         <param>
@@ -602,15 +602,15 @@
           <declname>maxAngleChange</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromMREdgeIdConstMRVector3fRef</type>
+          <type>MR.Std._ByValue_Function_Bool_From_MREdgeId_ConstMRVector3fRef</type>
           <declname>preCollapse</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef</type>
+          <type>MR.Std._ByValue_Function_Void_From_MRUndirectedEdgeId_FloatRef_MRVector3fRef</type>
           <declname>adjustCollapse</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <type>MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId</type>
           <declname>onEdgeDel</declname>
         </param>
         <param>
@@ -622,7 +622,7 @@
           <declname>packMesh</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progressCallback</declname>
         </param>
         <param>
@@ -676,7 +676,7 @@
         <name>DecimateSettings</name>
         <qualifiedname>MR.DecimateSettings.DecimateSettings</qualifiedname>
         <param>
-          <type>Const_DecimateSettings</type>
+          <type><ref refid="classMR_1_1Const__DecimateSettings" kindref="compound">Const_DecimateSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -746,6 +746,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DecimateSettings</label>
+        <link refid="classMR_1_1Const__DecimateSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -759,6 +760,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.DecimateSettings</label>
         <link refid="classMR_1_1DecimateSettings"/>
@@ -767,9 +772,20 @@
       </node>
       <node id="2">
         <label>MR.Const_DecimateSettings</label>
+        <link refid="classMR_1_1Const__DecimateSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_bdVerts</edgelabel>
+          <edgelabel>__ptr_storage_edgesToCollapse</edgelabel>
+          <edgelabel>__ptr_storage_notFlippable</edgelabel>
+          <edgelabel>__ptr_storage_partFaces</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ptr_storage_twinMap</edgelabel>
+          <edgelabel>__ptr_storage_vertForms</edgelabel>
+          <edgelabel>__ref_storage_strategy</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -781,19 +797,54 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="605" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="606" bodyend="970"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DecimateSettings_1ac10d86ea5ceebf6004d99f54721de8c0" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ptr_storage_bdVerts</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a4262acc14cc4287434d8729514d1a1e4" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ptr_storage_edgesToCollapse</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a2283a78a2823f6b471edf25f3dd9cee1" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ptr_storage_notFlippable</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a17351744d3e46ac91aeb7be1e3052a28" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ptr_storage_partFaces</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a3e442e0e6b96b9c62c50ddcb526ead72" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a848193fe93368a106d3f52dde320ebe4" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ptr_storage_twinMap</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a5b44c6180de01bed11c517db1abbc1af" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ptr_storage_vertForms</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a1c294ea457892ee12391778669fc91d9" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_angleWeightedDistToPlane</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a0c4b9a990c58f13bf69fd2092bdd4709" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_collapseNearNotFlippable</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a87f4d035bedb288de6b32f8f6b6aa6c1" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_criticalTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1ae88ab22926a8eae285fc9dfa73791b0b" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_decimateBetweenParts</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a6a03ed8def8566d99f1e710ff4218d1d" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_maxAngleChange</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1abb7c1b25ba001730fa98cbf1b7a3242c" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_maxBdShift</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a0cc3b4e9dff78e46780d7d37406e3ece" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_maxDeletedFaces</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a4bd8b6a391504fa3e28098d0ca899b04" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_maxDeletedVertices</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1aac0f567c9535e6a9427f5ded31933a16" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_maxEdgeLen</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a82a3938a0cd518ef898b258fddfb8c93" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_maxError</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a09c093f5e5a2ec1d45339bb6d7ab6086" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_maxTriangleAspectRatio</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1aa4b3b4dd592ad694181074ba6ea99b51" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_minFacesInPart</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a25d9c82e96331bf85eb813438e09ddfd" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_optimizeVertexPos</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1abcd33e5e3ddd6fc7fc8ea91c9bbfcff5" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_packMesh</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a50fb3d6707eee2ab4cf5889637fcb15b" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_stabilizer</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1ac26061a9fe87f70fe4bbdeff0f30a613" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_strategy</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1af4771c2c678ac415402963cc4a7ef8d0" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_subdivideParts</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1ace431deffae6d72bb13afd70878d23df" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_tinyEdgeLength</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a43d76c8e4f07fc8906f12742ece66ccd" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_touchBdVerts</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a5e638e1c19fcda4de3de47a0c6ded0ad" prot="protected" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>__ref_storage_touchNearBdEdges</name></member>
       <member refid="classMR_1_1DecimateSettings_1a300c3b2ad9203e21162b89faf44bb048" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>adjustCollapse</name></member>
       <member refid="classMR_1_1DecimateSettings_1a1f59a8f451281096bee895e0f09f083d" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>angleWeightedDistToPlane</name></member>
       <member refid="classMR_1_1DecimateSettings_1a41a5f86701c05809d1d01a45254b2185" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1DecimateSettings_1a96181a148739b28e5931bc9d6fd64e3b" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>bdVerts</name></member>
       <member refid="classMR_1_1DecimateSettings_1a1895e45baef40c594f71539eee3ef9fb" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>collapseNearNotFlippable</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a963114c1aa5a10572ef7da09a6c1488f" prot="package" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>Const_DecimateSettings</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a3a3dde2ea4cfeb3893a023c4ad3769fa" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>Const_DecimateSettings</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a0f048cebf5ff1515b330f29d87d71a30" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>Const_DecimateSettings</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a416cbe92341394d850efa8a7306a0d67" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>Const_DecimateSettings</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a476b386045686fc33af580f15bf4fd1c" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>Const_DecimateSettings</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1aed5f611167dc3065bea632c41eb1e2d8" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>Const_DecimateSettings</name></member>
       <member refid="classMR_1_1DecimateSettings_1aa3e405ad22a6d187b84173b2be3f3956" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>criticalTriAspectRatio</name></member>
       <member refid="classMR_1_1DecimateSettings_1a06306ed033b5ccfa3237dab3fb1c3a61" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>decimateBetweenParts</name></member>
       <member refid="classMR_1_1DecimateSettings_1a29c5319a7e8deee2d7f4a7ae75c69233" prot="package" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
       <member refid="classMR_1_1DecimateSettings_1ab67032cee10cf045f9a4cee048756b24" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
-      <member refid="classMR_1_1DecimateSettings_1aa56e196e71352498aecc43522f18a8b3" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a626117acb5f02241e19b472323d6ee39" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
       <member refid="classMR_1_1DecimateSettings_1a99a889cfdc331349b8e18b3b2fc5d088" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
       <member refid="classMR_1_1DecimateSettings_1aa705d47a48108e8562a3cd9a12128b6d" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
       <member refid="classMR_1_1DecimateSettings_1a07505c08c620c736e4f5041c08418e2d" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a08f9fdd46eaa7d957b9f55770ba40302" prot="protected" virt="virtual"><scope>MR::DecimateSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DecimateSettings_1a13aa77795e9c44082a4e1ab4b2bb2820" prot="public" virt="virtual"><scope>MR::DecimateSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DecimateSettings_1ac33a8689299b6b4568f76139ac5787b4" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>edgesToCollapse</name></member>
       <member refid="classMR_1_1DecimateSettings_1aaf4fbc4bc34e1c036bf7a246dc9a0223" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxAngleChange</name></member>
       <member refid="classMR_1_1DecimateSettings_1a193a618670d11e983f53b8bbb475dc82" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxBdShift</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreeNode__MRObjTreeTraits" kind="class" language="C#" prot="public">
     <compoundname>MR::AABBTreeNode_MRObjTreeTraits</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreeNode_MRObjTreeTraits</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits" prot="public" virt="non-virtual">MR.Const_AABBTreeNode_MRObjTreeTraits</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1AABBTreeNode__MRObjTreeTraits_1a1ee6cacedfd867795d5f1339e2f50eb3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="806" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="806" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="809" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="809" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1AABBTreeNode__MRObjTreeTraits_1a76095ecfff456c15b48c38a4ced06601" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="811" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="811" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="814" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="814" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1AABBTreeNode__MRObjTreeTraits_1aa57dccf7c83b2112861359e2f6a18ddc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="816" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="816" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="819" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="819" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="820" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="820" bodyend="824"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="823" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="823" bodyend="827"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,34 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="830" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="830" bodyend="836"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1AABBTreeNode__MRObjTreeTraits_1afd3ba991c61151c62a87d4e3926998dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.AABBTreeNode_MRObjTreeTraits.AABBTreeNode_MRObjTreeTraits</definition>
-        <argsstring>(MR.Box3f box, MR.NodeId l, MR.NodeId r)</argsstring>
-        <name>AABBTreeNode_MRObjTreeTraits</name>
-        <qualifiedname>MR.AABBTreeNode_MRObjTreeTraits.AABBTreeNode_MRObjTreeTraits</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
-          <declname>box</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
-          <declname>l</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
-          <declname>r</declname>
-        </param>
-        <briefdescription>
-<para>Constructs <computeroutput>MR::AABBTreeNode&amp;amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;amp;gt;</computeroutput> elementwise. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="841" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="841" bodyend="847"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="833" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="833" bodyend="839"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreeNode__MRObjTreeTraits_1abf2f292053d8ac800c61a37310119f7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -124,17 +97,17 @@
         <name>AABBTreeNode_MRObjTreeTraits</name>
         <qualifiedname>MR.AABBTreeNode_MRObjTreeTraits.AABBTreeNode_MRObjTreeTraits</qualifiedname>
         <param>
-          <type>MR.Const_AABBTreeNode_MRObjTreeTraits</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits" kindref="compound">MR.Const_AABBTreeNode_MRObjTreeTraits</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::AABBTreeNode&amp;amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;amp;gt;::AABBTreeNode</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::AABBTreeNode&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;::AABBTreeNode</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="852" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="852" bodyend="859"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="844" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="844" bodyend="851"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreeNode__MRObjTreeTraits_1adb71e709cfc2ce1defd989083de2330f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -147,13 +120,32 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::AABBTreeNode&amp;amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;amp;gt;::AABBTreeNode</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::AABBTreeNode&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;::AABBTreeNode</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="864" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="864" bodyend="864"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="856" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="856" bodyend="856"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreeNode__MRObjTreeTraits_1af6256da5c3f27701eaca68cc04b1039e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AABBTreeNode_MRObjTreeTraits.AABBTreeNode_MRObjTreeTraits</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>AABBTreeNode_MRObjTreeTraits</name>
+        <qualifiedname>MR.AABBTreeNode_MRObjTreeTraits.AABBTreeNode_MRObjTreeTraits</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::AABBTreeNode&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;::AABBTreeNode</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="861" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="861" bodyend="868"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreeNode__MRObjTreeTraits_1a29ebb3d9b2bc12fa69214d00ea60d73a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1AABBTreeNode__MRObjTreeTraits" kindref="compound">MR.AABBTreeNode_MRObjTreeTraits</ref></type>
@@ -162,17 +154,17 @@
         <name>assign</name>
         <qualifiedname>MR.AABBTreeNode_MRObjTreeTraits.assign</qualifiedname>
         <param>
-          <type>MR.Const_AABBTreeNode_MRObjTreeTraits</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits" kindref="compound">MR.Const_AABBTreeNode_MRObjTreeTraits</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::AABBTreeNode&amp;amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeNode&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="869" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="869" bodyend="876"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="873" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="873" bodyend="880"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1AABBTreeNode__MRObjTreeTraits_1a7a0ad136151bb4496954e72d9d1f6bc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -185,17 +177,17 @@
           <declname>id</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::AABBTreeNode&amp;amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;amp;gt;<ref refid="classMR_1_1AABBTreeNode__MRObjTreeTraits_1a7a0ad136151bb4496954e72d9d1f6bc5" kindref="member">setLeafId</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeNode&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;<ref refid="classMR_1_1AABBTreeNode__MRObjTreeTraits_1a7a0ad136151bb4496954e72d9d1f6bc5" kindref="member">setLeafId</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="881" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="881" bodyend="886"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="885" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="885" bodyend="890"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::AABBTreeNode&amp;amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::AABBTreeNode&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -208,6 +200,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeNode_MRObjTreeTraits</label>
+        <link refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -221,6 +214,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.AABBTreeNode_MRObjTreeTraits</label>
         <link refid="classMR_1_1AABBTreeNode__MRObjTreeTraits"/>
@@ -229,9 +226,15 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeNode_MRObjTreeTraits</label>
+        <link refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_box</edgelabel>
+          <edgelabel>__ref_storage_l</edgelabel>
+          <edgelabel>__ref_storage_r</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -241,16 +244,28 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="801" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="802" bodyend="887"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="804" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="805" bodyend="891"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits_1a100871e5e67c2173ff60171704becea8" prot="protected" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>__ref_storage_box</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits_1ac3f242bc5b0c5fd56cd7706226ba9341" prot="protected" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>__ref_storage_l</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits_1a8c9d1e1cd61561d0dbd0c0f3a0bfceaf" prot="protected" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>__ref_storage_r</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRObjTreeTraits_1a3647d1d5745dca0700fe6e4aa417e36a" prot="package" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>AABBTreeNode_MRObjTreeTraits</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRObjTreeTraits_1a28f4d9818d10b3b51086d5c2e3bd0088" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>AABBTreeNode_MRObjTreeTraits</name></member>
-      <member refid="classMR_1_1AABBTreeNode__MRObjTreeTraits_1afd3ba991c61151c62a87d4e3926998dc" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>AABBTreeNode_MRObjTreeTraits</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRObjTreeTraits_1abf2f292053d8ac800c61a37310119f7b" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>AABBTreeNode_MRObjTreeTraits</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRObjTreeTraits_1adb71e709cfc2ce1defd989083de2330f" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>AABBTreeNode_MRObjTreeTraits</name></member>
+      <member refid="classMR_1_1AABBTreeNode__MRObjTreeTraits_1af6256da5c3f27701eaca68cc04b1039e" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>AABBTreeNode_MRObjTreeTraits</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRObjTreeTraits_1a29ebb3d9b2bc12fa69214d00ea60d73a" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>assign</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRObjTreeTraits_1a1ee6cacedfd867795d5f1339e2f50eb3" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>box</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits_1a3258ee4d771dec376c8b1df2e21eb46d" prot="package" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>Const_AABBTreeNode_MRObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits_1ac51a223360a57e4d56046ab7d90818e0" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>Const_AABBTreeNode_MRObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits_1a5583ab4895247ae666384d7a5d29270b" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>Const_AABBTreeNode_MRObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits_1a425876ee0981c5dc025f44ff3951f9b8" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>Const_AABBTreeNode_MRObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits_1ad09159df089acd881c43d18074865725" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>Const_AABBTreeNode_MRObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits_1a3df3418584b6f2eb5e69622707580d2d" prot="protected" virt="virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits_1a51864f1193760d5b26fe2a32ffa85cc8" prot="public" virt="virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>Dispose</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRObjTreeTraits_1a76095ecfff456c15b48c38a4ced06601" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>l</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits_1a62f938f4a78290e7d344c80a6bea4501" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>leaf</name></member>
+      <member refid="classMR_1_1Const__AABBTreeNode__MRObjTreeTraits_1a0e51280cab5b69c1e400ae9d6f6924e6" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>leafId</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRObjTreeTraits_1aa57dccf7c83b2112861359e2f6a18ddc" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>r</name></member>
       <member refid="classMR_1_1AABBTreeNode__MRObjTreeTraits_1a7a0ad136151bb4496954e72d9d1f6bc5" prot="public" virt="non-virtual"><scope>MR::AABBTreeNode_MRObjTreeTraits</scope><name>setLeafId</name></member>
     </listofallmembers>

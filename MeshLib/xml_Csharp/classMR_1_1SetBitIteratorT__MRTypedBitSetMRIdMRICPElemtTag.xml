@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag" kind="class" language="C#" prot="public">
     <compoundname>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag" prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a80edfd76cf30edf00176185d2f44eac9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name>
         <qualifiedname>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag" kindref="compound">MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name>
         <qualifiedname>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</qualifiedname>
         <param>
-          <type>MR.Const_TypedBitSet_MRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag" kindref="compound">MR.Const_TypedBitSet_MRIdMRICPElemtTag</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -107,11 +107,11 @@
         <name>assign</name>
         <qualifiedname>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.assign</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag" kindref="compound">MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,7 +126,7 @@
         <name>incr</name>
         <qualifiedname>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;::operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1aef686bc43d5c5751d0a6197bd0313488" kindref="member">operator++</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,11 +143,11 @@
         <name>operator SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name>
         <qualifiedname>MR.SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag.operator SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</qualifiedname>
         <param>
-          <type>MR.Const_TypedBitSet_MRIdMRICPElemtTag</type>
+          <type><ref refid="classMR_1_1Const__TypedBitSet__MRIdMRICPElemtTag" kindref="compound">MR.Const_TypedBitSet_MRIdMRICPElemtTag</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -157,7 +157,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;amp;lt;MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;lt;MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,8 +218,23 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16697" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16698" bodyend="16766"/>
     <listofallmembers>
       <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a4b4a568c4964b047547b8bde1f03f636" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a81ac7ffbf0369a8be89f9cd99c6eddca" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>bitset</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a2c55f8d5837a4b12921cc5088fc20a25" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a03a09fcf5db51f9df6d2de6cafc1212a" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1ac545418d206ef6809be23e757fbd0d6a" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a58e2204ea3b88e3134f210cecba7a2e4" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a81ec5fe37c5a2d5ec39661e9c247199a" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a50a612f7958819d6d0ba0521a9bb403d" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1abc844bcda007e3361608884f4e9a5951" prot="protected" virt="virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a97cbe3184b9d64d4182e9a507b33bf0a" prot="public" virt="virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a5f75f985f2f7865a002591d7f0ad4525" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a83be0cfba6f0e584dfe295fcff2c4046" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>Equals</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a2e8196a182c1233bf77775db346a5be6" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a83174bcb819c9f945757777fa290878e" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>operator Const_SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1acb9aa8b40183e03179b88c9e31455495" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>operator SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a9f551c6efa2690df003dcd3a91ad5002" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1aef686bc43d5c5751d0a6197bd0313488" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1ad86b48372925b9933dcc761b70d4b3d0" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>operator==</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a80edfd76cf30edf00176185d2f44eac9" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1ae66e575cfc1c223e27a768024f3e7a25" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRTypedBitSetMRIdMRICPElemtTag_1a7af415ae4031982f017f2daea9bb5bed" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</scope><name>SetBitIteratorT_MRTypedBitSetMRIdMRICPElemtTag</name></member>

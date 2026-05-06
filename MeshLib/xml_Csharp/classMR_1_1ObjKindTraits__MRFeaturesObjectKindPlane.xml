@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjKindTraits_MRFeaturesObjectKindPlane</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjKindTraits_MRFeaturesObjectKindPlane</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane" prot="public" virt="non-virtual">MR.Const_ObjKindTraits_MRFeaturesObjectKindPlane</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane_1a1aae9f37f5d58e225af819c168910c0e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>ObjKindTraits_MRFeaturesObjectKindPlane</name>
         <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindPlane.ObjKindTraits_MRFeaturesObjectKindPlane</qualifiedname>
         <param>
-          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindPlane</type>
+          <type><ref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane" kindref="compound">MR.Const_ObjKindTraits_MRFeaturesObjectKindPlane</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ObjKindTraits&amp;amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a0d3adee051531c15b3509b4d4d75ce7b" kindref="member">MR.FeaturesObjectKind.Plane</ref>&amp;amp;gt;::ObjKindTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ObjKindTraits&amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a0d3adee051531c15b3509b4d4d75ce7b" kindref="member">MR.FeaturesObjectKind.Plane</ref>&amp;gt;::ObjKindTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ObjKindTraits&amp;amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a0d3adee051531c15b3509b4d4d75ce7b" kindref="member">MR.FeaturesObjectKind.Plane</ref>&amp;amp;gt;::ObjKindTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ObjKindTraits&amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a0d3adee051531c15b3509b4d4d75ce7b" kindref="member">MR.FeaturesObjectKind.Plane</ref>&amp;gt;::ObjKindTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindPlane.assign</qualifiedname>
         <param>
-          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindPlane</type>
+          <type><ref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane" kindref="compound">MR.Const_ObjKindTraits_MRFeaturesObjectKindPlane</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::ObjKindTraits&amp;amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a0d3adee051531c15b3509b4d4d75ce7b" kindref="member">MR.FeaturesObjectKind.Plane</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ObjKindTraits&amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a0d3adee051531c15b3509b4d4d75ce7b" kindref="member">MR.FeaturesObjectKind.Plane</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -102,7 +102,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::ObjKindTraits&amp;amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a0d3adee051531c15b3509b4d4d75ce7b" kindref="member">MR.FeaturesObjectKind.Plane</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::ObjKindTraits&amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a0d3adee051531c15b3509b4d4d75ce7b" kindref="member">MR.FeaturesObjectKind.Plane</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjKindTraits_MRFeaturesObjectKindPlane</label>
+        <link refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjKindTraits_MRFeaturesObjectKindPlane</label>
+        <link refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="371" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="372" bodyend="412"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane_1a94305c2fb684ed5a9531ae22c8639cbc" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPlane</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane_1abd63bc0fc97a9f8d2002067ad8afaab6" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPlane</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindPlane</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane_1a54e2c5b3abc0a5b3fe0c640907e80b50" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPlane</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindPlane</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane_1a0983f245e7ff9283c3ef03228d573e6b" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPlane</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindPlane</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane_1a8a7c19ae22e0d7816fbb51bd4d753e7a" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPlane</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindPlane</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane_1a279276768f0de5535f1afa2a920ac583" prot="protected" virt="virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPlane</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane_1a667bf764387d2b561472d70af584ed28" prot="public" virt="virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPlane</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPlane_1abc1a5a9ea571c097b327eef92ef62b63" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPlane</scope><name>Name</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane_1a1aae9f37f5d58e225af819c168910c0e" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPlane</scope><name>ObjKindTraits_MRFeaturesObjectKindPlane</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane_1a66416c387cdcc30e1cbb6f32f24536a9" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPlane</scope><name>ObjKindTraits_MRFeaturesObjectKindPlane</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPlane_1aa54caf62396a221aa993e3d0a46f53b9" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPlane</scope><name>ObjKindTraits_MRFeaturesObjectKindPlane</name></member>

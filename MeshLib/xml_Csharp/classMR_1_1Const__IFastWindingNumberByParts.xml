@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__IFastWindingNumberByParts" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_IFastWindingNumberByParts</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1IFastWindingNumberByParts" prot="public" virt="non-virtual">MR.IFastWindingNumberByParts</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__IFastWindingNumberByParts_1aea303205c61fa7127ed84a8884c134db" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_IFastWindingNumberByParts.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_IFastWindingNumberByParts.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="490" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="490" bodyend="498"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__IFastWindingNumberByParts_1a301a32532a2c8849f0d4d17454400209" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_IFastWindingNumberByParts.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_IFastWindingNumberByParts.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="499" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="499" bodyend="499"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__IFastWindingNumberByParts_1aae4451d65b977cfeb0b92a73987a89d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_IFastWindingNumberByParts.~Const_IFastWindingNumberByParts</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_IFastWindingNumberByParts</name>
+        <qualifiedname>MR.Const_IFastWindingNumberByParts.~Const_IFastWindingNumberByParts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="500" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="500" bodyend="500"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__IFastWindingNumberByParts_1a8467ad2d48d42acfe991f291863edfb3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_IFastWindingNumberByParts.Const_IFastWindingNumberByParts</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_IFastWindingNumberByParts</name>
+        <qualifiedname>MR.Const_IFastWindingNumberByParts.Const_IFastWindingNumberByParts</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="502" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="502" bodyend="502"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Abstract class that complements <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> with chunked processing variants of its methods Generated from class <computeroutput><ref refid="classMR_1_1IFastWindingNumberByParts" kindref="compound">MR.IFastWindingNumberByParts</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1Cuda_1_1FastWindingNumber" kindref="compound">MR.Cuda.FastWindingNumber</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_IFastWindingNumberByParts</label>
+        <link refid="classMR_1_1Const__IFastWindingNumberByParts"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.IFastWindingNumberByParts</label>
+        <link refid="classMR_1_1IFastWindingNumberByParts"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_IFastWindingNumberByParts</label>
+        <link refid="classMR_1_1Const__IFastWindingNumberByParts"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="484" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="485" bodyend="503"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__IFastWindingNumberByParts_1a8467ad2d48d42acfe991f291863edfb3" prot="package" virt="non-virtual"><scope>MR::Const_IFastWindingNumberByParts</scope><name>Const_IFastWindingNumberByParts</name></member>
+      <member refid="classMR_1_1Const__IFastWindingNumberByParts_1aea303205c61fa7127ed84a8884c134db" prot="protected" virt="virtual"><scope>MR::Const_IFastWindingNumberByParts</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IFastWindingNumberByParts_1a301a32532a2c8849f0d4d17454400209" prot="public" virt="virtual"><scope>MR::Const_IFastWindingNumberByParts</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IFastWindingNumberByParts_1aae4451d65b977cfeb0b92a73987a89d1" prot="private" virt="non-virtual"><scope>MR::Const_IFastWindingNumberByParts</scope><name>~Const_IFastWindingNumberByParts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

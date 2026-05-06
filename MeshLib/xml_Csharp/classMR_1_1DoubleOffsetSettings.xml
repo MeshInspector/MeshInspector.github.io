@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DoubleOffsetSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::DoubleOffsetSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DoubleOffsetSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DoubleOffsetSettings" prot="public" virt="non-virtual">MR.Const_DoubleOffsetSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DoubleOffsetSettings_1a5cd5f6a010b99c09df87fb0aae2cd519" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -165,10 +165,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1270" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1270" bodyend="1276"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DoubleOffsetSettings_1a070a34187656629d92c6399e86177054" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DoubleOffsetSettings_1aa3c39d29618bc565ca15bb46bcb165ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.DoubleOffsetSettings.DoubleOffsetSettings</definition>
-        <argsstring>(float voxelSize, float offsetA, float offsetB, float adaptivity, MR.Std._ByValue_SharedPtr_MRIFastWindingNumber fwn, float windingNumberThreshold, float windingNumberBeta, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(float voxelSize, float offsetA, float offsetB, float adaptivity, MR.Std._ByValue_SharedPtr_MRIFastWindingNumber fwn, float windingNumberThreshold, float windingNumberBeta, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>DoubleOffsetSettings</name>
         <qualifiedname>MR.DoubleOffsetSettings.DoubleOffsetSettings</qualifiedname>
         <param>
@@ -200,7 +200,7 @@
           <declname>windingNumberBeta</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -238,7 +238,7 @@
         <name>DoubleOffsetSettings</name>
         <qualifiedname>MR.DoubleOffsetSettings.DoubleOffsetSettings</qualifiedname>
         <param>
-          <type>Const_DoubleOffsetSettings</type>
+          <type><ref refid="classMR_1_1Const__DoubleOffsetSettings" kindref="compound">Const_DoubleOffsetSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -303,6 +303,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DoubleOffsetSettings</label>
+        <link refid="classMR_1_1Const__DoubleOffsetSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -324,6 +325,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DoubleOffsetSettings</label>
+        <link refid="classMR_1_1Const__DoubleOffsetSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -338,11 +340,25 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="1193" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="1194" bodyend="1324"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1a86c05e69d8403b8e43416d9278cfc283" prot="protected" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>__ref_storage_adaptivity</name></member>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1aa788ad4abde3825c63e71408c34a6a05" prot="protected" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>__ref_storage_offsetA</name></member>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1a8ec71a9ce9f62a8904e8067c7455983a" prot="protected" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>__ref_storage_offsetB</name></member>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1aa065d04211d936c5af9de82ea8dd3fc5" prot="protected" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1a0edf0ba91aafb73645fa07922e46e42b" prot="protected" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>__ref_storage_windingNumberBeta</name></member>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1a5acfb49035c2cd1766ff2f52280b0afd" prot="protected" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>__ref_storage_windingNumberThreshold</name></member>
       <member refid="classMR_1_1DoubleOffsetSettings_1a9ec8ac52ed6944d712035a3a2e55694f" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>adaptivity</name></member>
       <member refid="classMR_1_1DoubleOffsetSettings_1ae8542453b19abc8cf9c99d2614ab1e75" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1a2f6dd92482986a0285e820c76ed11431" prot="package" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>Const_DoubleOffsetSettings</name></member>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1a4809fcfd338dab19285f7943e5b133d6" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>Const_DoubleOffsetSettings</name></member>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1aa6884c02924c3b3639b5e023a55b107b" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>Const_DoubleOffsetSettings</name></member>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1a65aeba66ec5f221617f4b449f8899874" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>Const_DoubleOffsetSettings</name></member>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1adf1504a326efb24589113c99a3a01471" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>Const_DoubleOffsetSettings</name></member>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1a4e57251e5a5bae849e217ac9e5eea1cc" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>Const_DoubleOffsetSettings</name></member>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1a02807edd03344f7c2f287e97454ffa30" prot="protected" virt="virtual"><scope>MR::DoubleOffsetSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DoubleOffsetSettings_1ac68df2a1746b31b89a79ccacbe62ae57" prot="public" virt="virtual"><scope>MR::DoubleOffsetSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DoubleOffsetSettings_1aff9d3956da3b10042a46f329fe2acb2b" prot="package" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>DoubleOffsetSettings</name></member>
       <member refid="classMR_1_1DoubleOffsetSettings_1a51fd92e6cb6509b1b4d1327df581b65e" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>DoubleOffsetSettings</name></member>
-      <member refid="classMR_1_1DoubleOffsetSettings_1a070a34187656629d92c6399e86177054" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>DoubleOffsetSettings</name></member>
+      <member refid="classMR_1_1DoubleOffsetSettings_1aa3c39d29618bc565ca15bb46bcb165ac" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>DoubleOffsetSettings</name></member>
       <member refid="classMR_1_1DoubleOffsetSettings_1aabb407489a745f7746a3420686db7330" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>DoubleOffsetSettings</name></member>
       <member refid="classMR_1_1DoubleOffsetSettings_1ae8af862c7f7094cf508ec57672b8edc0" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>DoubleOffsetSettings</name></member>
       <member refid="classMR_1_1DoubleOffsetSettings_1a4ddb4db5e3a1339dc03a7cfe46d1298d" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>DoubleOffsetSettings</name></member>

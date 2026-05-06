@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeVisualizePropertyAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeVisualizePropertyAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeVisualizePropertyAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeVisualizePropertyAction" prot="public" virt="non-virtual">MR.Const_ChangeVisualizePropertyAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeVisualizePropertyAction_1abfddbd8e0596f64f7f1bf558a61bc695" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeVisualizePropertyAction</name>
         <qualifiedname>MR.ChangeVisualizePropertyAction.ChangeVisualizePropertyAction</qualifiedname>
         <param>
-          <type>Const_ChangeVisualizePropertyAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeVisualizePropertyAction" kindref="compound">Const_ChangeVisualizePropertyAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -138,7 +138,7 @@
           <declname>obj</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>visualizeMaskType</declname>
         </param>
         <briefdescription>
@@ -165,11 +165,11 @@
           <declname>obj</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>visualizeMaskType</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>newMask</declname>
         </param>
         <briefdescription>
@@ -207,7 +207,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeVisualizePropertyAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -234,6 +234,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeVisualizePropertyAction</label>
+        <link refid="classMR_1_1Const__ChangeVisualizePropertyAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -255,6 +256,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeVisualizePropertyAction</label>
+        <link refid="classMR_1_1Const__ChangeVisualizePropertyAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -277,8 +279,21 @@
       <member refid="classMR_1_1ChangeVisualizePropertyAction_1a1e6a7ad33a1f4f4422ab5073a2aaed61" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>ChangeVisualizePropertyAction</name></member>
       <member refid="classMR_1_1ChangeVisualizePropertyAction_1adf534a34fc619b25b8e04cb51ca19df1" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>ChangeVisualizePropertyAction</name></member>
       <member refid="classMR_1_1ChangeVisualizePropertyAction_1a06724401b2da1663121b6ae62966758b" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>ChangeVisualizePropertyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a37a030b0b22338fcb306482f61cb0756" prot="package" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>Const_ChangeVisualizePropertyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a830fa75fce3a84e51072471bf34e9c37" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>Const_ChangeVisualizePropertyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a8ae95156e1a074c7f81c7629f2a35a95" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>Const_ChangeVisualizePropertyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a03b0114753ef942274956df7fe3e27a5" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>Const_ChangeVisualizePropertyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a03f3eb04220daa7f8c23c458c68760f0" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>Const_ChangeVisualizePropertyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a261b6feca67d2c8f45fb4661b0e7ac2a" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>Const_ChangeVisualizePropertyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a463c971c321a434dc0a7fd419b28c35d" prot="protected" virt="virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a46bf375c5d03734ccc2984c54ce65fc9" prot="public" virt="virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a85d91926df4475ebb922819e9dbfefb8" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1acc8ae081eae81e8f7e04e4ca1ba2a9f4" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeVisualizePropertyAction_1a3ab79413d2d643101bfdf6850787793a" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>operator ChangeVisualizePropertyAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1acda08a2813588cc60e46845742bbc4c7" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>operator Const_ChangeVisualizePropertyAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1ab04e1d4cd38bb1f8d82b9d44ff26577b" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeVisualizePropertyAction_1abfddbd8e0596f64f7f1bf558a61bc695" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a2db468da983bf8308d59959fb5fb7476" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

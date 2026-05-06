@@ -236,7 +236,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a30a08b830188d36bc00ea31313a75194" id="r_a30a08b830188d36bc00ea31313a75194"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30a08b830188d36bc00ea31313a75194">isLeftQuad</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> a)</td></tr>
 <tr class="memitem:a4dc7e6e721e24acc27c0f9405b25c747" id="r_a4dc7e6e721e24acc27c0f9405b25c747"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dc7e6e721e24acc27c0f9405b25c747">isLeftTri</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> a)</td></tr>
 <tr class="memitem:a2dcbd571ca629361070c498a2ff815af" id="r_a2dcbd571ca629361070c498a2ff815af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dcbd571ca629361070c498a2ff815af">isLoneEdge</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> a)</td></tr>
+<tr class="memitem:af7d95f95228cf2f91fd7d06211752f43" id="r_af7d95f95228cf2f91fd7d06211752f43"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7d95f95228cf2f91fd7d06211752f43">isOrgInnerAndHasDegree</a> (self, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> a, int d)</td></tr>
 <tr class="memitem:ac6dbf94e011a96110751a9025a85fa53" id="r_ac6dbf94e011a96110751a9025a85fa53"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6dbf94e011a96110751a9025a85fa53">isTriVert</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> f, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v)</td></tr>
+<tr class="memitem:a3b8ea93984a2664e2392aebd4809da74" id="r_a3b8ea93984a2664e2392aebd4809da74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b8ea93984a2664e2392aebd4809da74">isVertInnerAndHasDegree</a> (self, <a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a> v, int d)</td></tr>
 <tr class="memitem:adeac36dae7342d566f2eed362a29dac2" id="r_adeac36dae7342d566f2eed362a29dac2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeac36dae7342d566f2eed362a29dac2">lastNotLoneEdge</a> (self)</td></tr>
 <tr class="memitem:a57109e13e6822f329bfa4838b056fe8f" id="r_a57109e13e6822f329bfa4838b056fe8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1UndirectedEdgeId.html">UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57109e13e6822f329bfa4838b056fe8f">lastNotLoneUndirectedEdge</a> (self)</td></tr>
 <tr class="memitem:a0833da6b36fa29aafc314d81d44063e6" id="r_a0833da6b36fa29aafc314d81d44063e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0833da6b36fa29aafc314d81d44063e6">lastValidFace</a> (self)</td></tr>
@@ -2512,6 +2514,33 @@ and it has a boundary edge (isBdEdge(e,region) == true)
 </pre> 
 </div>
 </div>
+<a id="af7d95f95228cf2f91fd7d06211752f43" name="af7d95f95228cf2f91fd7d06211752f43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d95f95228cf2f91fd7d06211752f43">&#9670;&#160;</a></span>isOrgInnerAndHasDegree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.MeshTopology.isOrgInnerAndHasDegree </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>d</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if the origin of given edge is inner to the mesh (no boundary passes via it), and has the given number of incident edges (including input one)
+</pre> 
+</div>
+</div>
 <a id="ac6dbf94e011a96110751a9025a85fa53" name="ac6dbf94e011a96110751a9025a85fa53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6dbf94e011a96110751a9025a85fa53">&#9670;&#160;</a></span>isTriVert()</h2>
 
@@ -2536,6 +2565,33 @@ and it has a boundary edge (isBdEdge(e,region) == true)
       </table>
 </div><div class="memdoc">
 <pre class="fragment">return true if triangular face (f) has (v) as one of its vertices
+</pre> 
+</div>
+</div>
+<a id="a3b8ea93984a2664e2392aebd4809da74" name="a3b8ea93984a2664e2392aebd4809da74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b8ea93984a2664e2392aebd4809da74">&#9670;&#160;</a></span>isVertInnerAndHasDegree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.MeshTopology.isVertInnerAndHasDegree </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>d</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if the given vertex is inner to the mesh (no boundary passes via it), and has the given number of incident edges
 </pre> 
 </div>
 </div>

@@ -1,7 +1,7 @@
 var classMR_1_1DistanceFromWeightedPointsParams =
 [
     [ "DistanceFromWeightedPointsParams", "classMR_1_1DistanceFromWeightedPointsParams.html#a96188ebf306435a55b659202539742ff", null ],
-    [ "DistanceFromWeightedPointsParams", "classMR_1_1DistanceFromWeightedPointsParams.html#a9241c58cb98df0d8469f051c2657b507", null ],
+    [ "DistanceFromWeightedPointsParams", "classMR_1_1DistanceFromWeightedPointsParams.html#aefb44a12e7094e4a1bb5e334affb715e", null ],
     [ "DistanceFromWeightedPointsParams", "classMR_1_1DistanceFromWeightedPointsParams.html#a09c6b1e913e89992a040d8607e4e711b", null ],
     [ "DistanceFromWeightedPointsParams", "classMR_1_1DistanceFromWeightedPointsParams.html#ace31d883bb8d4dc6b2d464a52d0ba433", null ],
     [ "DistanceFromWeightedPointsParams", "classMR_1_1DistanceFromWeightedPointsParams.html#a509e33eff17cab61bfd25bf7171a5302", null ],

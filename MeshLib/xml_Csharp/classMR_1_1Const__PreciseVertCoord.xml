@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PreciseVertCoord" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PreciseVertCoord</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PreciseVertCoord" prot="public" virt="non-virtual">MR.PreciseVertCoord</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__PreciseVertCoord_1a0b33dacb8971ada42a417ddd50c2f189" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe ref readonly MR.VertId MR.Const_PreciseVertCoord.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.Const_PreciseVertCoord.id</qualifiedname>
+        <briefdescription>
+<para>unique id of the vertex (in both contours) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="28" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PreciseVertCoord_1a7a5650fc40974e70128f0e195eb53919" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_PreciseVertCoord.pt</definition>
+        <argsstring></argsstring>
+        <name>pt</name>
+        <qualifiedname>MR.Const_PreciseVertCoord.pt</qualifiedname>
+        <briefdescription>
+<para>coordinate </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="34" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__PreciseVertCoord_1aeb9946f836d5f7441bd9fcfe4e1cef92" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> *</type>
+        <definition>unsafe MR.VertId* MR.Const_PreciseVertCoord.__ref_storage_id</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_id</name>
+        <qualifiedname>MR.Const_PreciseVertCoord.__ref_storage_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="29" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__PreciseVertCoord_1a6c7a2b3b5c766eb6a106e40c5ab295c0" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_PreciseVertCoord.__ref_storage_pt</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_pt</name>
+        <qualifiedname>MR.Const_PreciseVertCoord.__ref_storage_pt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="35" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoord_1a1d4c4bdedd96070bb653f836f06288f9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_PreciseVertCoord.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PreciseVertCoord.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoord_1a8a21dea2ff5868a4ab8e025f705f5a8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_PreciseVertCoord.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PreciseVertCoord.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoord_1a69210b85742b6cd1ca7e0ce3e2fbb13a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PreciseVertCoord.Const_PreciseVertCoord</definition>
+        <argsstring>()</argsstring>
+        <name>Const_PreciseVertCoord</name>
+        <qualifiedname>MR.Const_PreciseVertCoord.Const_PreciseVertCoord</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="68" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="68" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoord_1afcb292cee0f733ee371eadcd5838ccdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PreciseVertCoord.Const_PreciseVertCoord</definition>
+        <argsstring>(MR.VertId id, int pt)</argsstring>
+        <name>Const_PreciseVertCoord</name>
+        <qualifiedname>MR.Const_PreciseVertCoord.Const_PreciseVertCoord</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PreciseVertCoord" kindref="compound">MR.PreciseVertCoord</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="79" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="79" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoord_1aa5423604dafd5002b4b32e42132f07f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PreciseVertCoord.Const_PreciseVertCoord</definition>
+        <argsstring>(MR.Const_PreciseVertCoord _other)</argsstring>
+        <name>Const_PreciseVertCoord</name>
+        <qualifiedname>MR.Const_PreciseVertCoord.Const_PreciseVertCoord</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PreciseVertCoord" kindref="compound">MR.Const_PreciseVertCoord</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PreciseVertCoord_1ab8992d425f595fb5f3f48173474495cb" kindref="member">MR.PreciseVertCoord.PreciseVertCoord</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="90" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="90" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoord_1a4a05841ec153ff13e2ef2a32bc43ce80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PreciseVertCoord.Const_PreciseVertCoord</definition>
+        <argsstring>(PreciseVertCoord _other)</argsstring>
+        <name>Const_PreciseVertCoord</name>
+        <qualifiedname>MR.Const_PreciseVertCoord.Const_PreciseVertCoord</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PreciseVertCoord" kindref="compound">PreciseVertCoord</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PreciseVertCoord_1ab8992d425f595fb5f3f48173474495cb" kindref="member">MR.PreciseVertCoord.PreciseVertCoord</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="102" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="102" bodyend="102"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoord_1aaf1368870b2289d49ac8c5b4cadf8869" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PreciseVertCoord.~Const_PreciseVertCoord</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PreciseVertCoord</name>
+        <qualifiedname>MR.Const_PreciseVertCoord.~Const_PreciseVertCoord</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PreciseVertCoord_1a8d2f9c4277bc0bca18135f8b52d72632" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PreciseVertCoord.Const_PreciseVertCoord</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PreciseVertCoord</name>
+        <qualifiedname>MR.Const_PreciseVertCoord.Const_PreciseVertCoord</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="57" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="57" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1PreciseVertCoord" kindref="compound">MR.PreciseVertCoord</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PreciseVertCoord</label>
+        <link refid="classMR_1_1Const__PreciseVertCoord"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PreciseVertCoord</label>
+        <link refid="classMR_1_1PreciseVertCoord"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_PreciseVertCoord</label>
+        <link refid="classMR_1_1Const__PreciseVertCoord"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_id</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="8" bodyend="103"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1aeb9946f836d5f7441bd9fcfe4e1cef92" prot="protected" virt="non-virtual"><scope>MR::Const_PreciseVertCoord</scope><name>__ref_storage_id</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a6c7a2b3b5c766eb6a106e40c5ab295c0" prot="protected" virt="non-virtual"><scope>MR::Const_PreciseVertCoord</scope><name>__ref_storage_pt</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a8d2f9c4277bc0bca18135f8b52d72632" prot="package" virt="non-virtual"><scope>MR::Const_PreciseVertCoord</scope><name>Const_PreciseVertCoord</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a69210b85742b6cd1ca7e0ce3e2fbb13a" prot="public" virt="non-virtual"><scope>MR::Const_PreciseVertCoord</scope><name>Const_PreciseVertCoord</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1afcb292cee0f733ee371eadcd5838ccdc" prot="public" virt="non-virtual"><scope>MR::Const_PreciseVertCoord</scope><name>Const_PreciseVertCoord</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1aa5423604dafd5002b4b32e42132f07f6" prot="public" virt="non-virtual"><scope>MR::Const_PreciseVertCoord</scope><name>Const_PreciseVertCoord</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a4a05841ec153ff13e2ef2a32bc43ce80" prot="public" virt="non-virtual"><scope>MR::Const_PreciseVertCoord</scope><name>Const_PreciseVertCoord</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a1d4c4bdedd96070bb653f836f06288f9" prot="protected" virt="virtual"><scope>MR::Const_PreciseVertCoord</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a8a21dea2ff5868a4ab8e025f705f5a8c" prot="public" virt="virtual"><scope>MR::Const_PreciseVertCoord</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a0b33dacb8971ada42a417ddd50c2f189" prot="public" virt="non-virtual"><scope>MR::Const_PreciseVertCoord</scope><name>id</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1a7a5650fc40974e70128f0e195eb53919" prot="public" virt="non-virtual"><scope>MR::Const_PreciseVertCoord</scope><name>pt</name></member>
+      <member refid="classMR_1_1Const__PreciseVertCoord_1aaf1368870b2289d49ac8c5b4cadf8869" prot="private" virt="non-virtual"><scope>MR::Const_PreciseVertCoord</scope><name>~Const_PreciseVertCoord</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

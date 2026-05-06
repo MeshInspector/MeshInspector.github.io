@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Pdf_1_1CellCustomParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Pdf::CellCustomParams</compoundname>
+    <basecompoundref refid="classMR_1_1Const__Pdf_1_1Const__CellCustomParams" prot="public" virt="non-virtual">MR.Const_Pdf.Const_CellCustomParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1CellCustomParams_1a57c4ed24cf8cc01c83a39242c8f80fdb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Optional_MRColor</type>
+        <definition>new unsafe MR.Std.Optional_MRColor MR.Const_Pdf.CellCustomParams.colorText</definition>
+        <argsstring></argsstring>
+        <name>colorText</name>
+        <qualifiedname>MR.Const_Pdf.CellCustomParams.colorText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="982" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="982" bodyend="982"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1CellCustomParams_1a69256b1318002a5325ffa246c3f9756d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Optional_MRColor</type>
+        <definition>new unsafe MR.Std.Optional_MRColor MR.Const_Pdf.CellCustomParams.colorCellBg</definition>
+        <argsstring></argsstring>
+        <name>colorCellBg</name>
+        <qualifiedname>MR.Const_Pdf.CellCustomParams.colorCellBg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="984" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="984" bodyend="984"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1CellCustomParams_1a85ed1ce66bac59c145baeedcb2ac3fd5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Optional_MRColor</type>
+        <definition>new unsafe MR.Std.Optional_MRColor MR.Const_Pdf.CellCustomParams.colorCellBorder</definition>
+        <argsstring></argsstring>
+        <name>colorCellBorder</name>
+        <qualifiedname>MR.Const_Pdf.CellCustomParams.colorCellBorder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="986" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="986" bodyend="986"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1CellCustomParams_1af5ce4a2d76bc551b03e1475a656e1026" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Optional_StdString</type>
+        <definition>new unsafe MR.Std.Optional_StdString MR.Const_Pdf.CellCustomParams.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <qualifiedname>MR.Const_Pdf.CellCustomParams.text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="988" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="988" bodyend="988"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1CellCustomParams_1ad96965015b74cbf2c1ceb1f33d73b169" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.CellCustomParams.CellCustomParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>CellCustomParams</name>
+        <qualifiedname>MR.Const_Pdf.CellCustomParams.CellCustomParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1028" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1028" bodyend="1032"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1CellCustomParams_1ab09a89c3d61a46e280efbd4c5faf46c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.CellCustomParams.CellCustomParams</definition>
+        <argsstring>()</argsstring>
+        <name>CellCustomParams</name>
+        <qualifiedname>MR.Const_Pdf.CellCustomParams.CellCustomParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1038" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1038" bodyend="1044"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1CellCustomParams_1aa8a602e2aa047f85bfc4349ebc6386f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.CellCustomParams.CellCustomParams</definition>
+        <argsstring>(MR._InOpt_Color colorText, MR._InOpt_Color colorCellBg, MR._InOpt_Color colorCellBorder, string? text)</argsstring>
+        <name>CellCustomParams</name>
+        <qualifiedname>MR.Const_Pdf.CellCustomParams.CellCustomParams</qualifiedname>
+        <param>
+          <type>MR._InOpt_Color</type>
+          <declname>colorText</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_Color</type>
+          <declname>colorCellBg</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_Color</type>
+          <declname>colorCellBorder</declname>
+        </param>
+        <param>
+          <type>string?</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Const__Pdf_1_1CellCustomParams" kindref="compound">MR.Pdf.CellCustomParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1049" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1049" bodyend="1064"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1CellCustomParams_1af2decf0f8643464eae9795e03bbbcadc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.CellCustomParams.CellCustomParams</definition>
+        <argsstring>(MR.Pdf._ByValue_CellCustomParams _other)</argsstring>
+        <name>CellCustomParams</name>
+        <qualifiedname>MR.Const_Pdf.CellCustomParams.CellCustomParams</qualifiedname>
+        <param>
+          <type>MR.Pdf._ByValue_CellCustomParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Pdf::CellCustomParams::CellCustomParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1069" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1069" bodyend="1076"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1CellCustomParams_1a17524d3308fb847bbeb148db3488d6c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Pdf.CellCustomParams.CellCustomParams</definition>
+        <argsstring>(Const_CellCustomParams _other)</argsstring>
+        <name>CellCustomParams</name>
+        <qualifiedname>MR.Const_Pdf.CellCustomParams.CellCustomParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Pdf_1_1Const__CellCustomParams" kindref="compound">Const_CellCustomParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Pdf::CellCustomParams::CellCustomParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1081" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1081" bodyend="1081"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1CellCustomParams_1ac84df3e98f8203a109d7d633e393079d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Pdf.CellCustomParams.CellCustomParams</definition>
+        <argsstring>(CellCustomParams _other)</argsstring>
+        <name>CellCustomParams</name>
+        <qualifiedname>MR.Const_Pdf.CellCustomParams.CellCustomParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Pdf_1_1CellCustomParams" kindref="compound">CellCustomParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Pdf::CellCustomParams::CellCustomParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1086" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1086" bodyend="1086"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1CellCustomParams_1a615dc21551191f4b5b653b1416ae917a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Pdf_1_1CellCustomParams" kindref="compound">MR.Pdf.CellCustomParams</ref></type>
+        <definition>unsafe MR.Pdf.CellCustomParams MR.Const_Pdf.CellCustomParams.assign</definition>
+        <argsstring>(MR.Pdf._ByValue_CellCustomParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Const_Pdf.CellCustomParams.assign</qualifiedname>
+        <param>
+          <type>MR.Pdf._ByValue_CellCustomParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Pdf::CellCustomParams::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1091" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1091" bodyend="1098"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Const__Pdf_1_1CellCustomParams" kindref="compound">MR.Pdf.CellCustomParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Pdf.CellCustomParams</label>
+        <link refid="classMR_1_1Const__Pdf_1_1CellCustomParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Pdf.Const_CellCustomParams</label>
+        <link refid="classMR_1_1Const__Pdf_1_1Const__CellCustomParams"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Pdf.CellCustomParams</label>
+        <link refid="classMR_1_1Const__Pdf_1_1CellCustomParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Pdf.Const_CellCustomParams</label>
+        <link refid="classMR_1_1Const__Pdf_1_1Const__CellCustomParams"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="980" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="981" bodyend="1099"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Pdf_1_1CellCustomParams_1a615dc21551191f4b5b653b1416ae917a" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1CellCustomParams_1ad96965015b74cbf2c1ceb1f33d73b169" prot="package" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>CellCustomParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1CellCustomParams_1ab09a89c3d61a46e280efbd4c5faf46c3" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>CellCustomParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1CellCustomParams_1aa8a602e2aa047f85bfc4349ebc6386f5" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>CellCustomParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1CellCustomParams_1af2decf0f8643464eae9795e03bbbcadc" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>CellCustomParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1CellCustomParams_1a17524d3308fb847bbeb148db3488d6c7" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>CellCustomParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1CellCustomParams_1ac84df3e98f8203a109d7d633e393079d" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>CellCustomParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1CellCustomParams_1a69256b1318002a5325ffa246c3f9756d" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>colorCellBg</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1CellCustomParams_1a85ed1ce66bac59c145baeedcb2ac3fd5" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>colorCellBorder</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1CellCustomParams_1a57c4ed24cf8cc01c83a39242c8f80fdb" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>colorText</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__CellCustomParams_1a45ec5804e7c84749fbe9a3df0659c79d" prot="package" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>Const_CellCustomParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__CellCustomParams_1af07d8c9647c837b0a4c108a2d19dcedd" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>Const_CellCustomParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__CellCustomParams_1a89219bcb31bcb5b801973b26c69509bc" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>Const_CellCustomParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__CellCustomParams_1a418e2f14a3d39b0a371598671fd78347" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>Const_CellCustomParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__CellCustomParams_1a84c0bf229ee6a2c0d058b66d2bd8a893" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>Const_CellCustomParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__CellCustomParams_1a6d5e39b4394fdfac2f0ec2926dbd4396" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>Const_CellCustomParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__CellCustomParams_1aa0b66c15d87aa6d52bdae1805510e268" prot="protected" virt="virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__CellCustomParams_1a0a4a237bb104c18be6f9cb14038959a3" prot="public" virt="virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1CellCustomParams_1af5ce4a2d76bc551b03e1475a656e1026" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::CellCustomParams</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

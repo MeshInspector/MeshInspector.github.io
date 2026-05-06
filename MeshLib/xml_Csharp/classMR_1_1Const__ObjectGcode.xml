@@ -1,0 +1,1691 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ObjectGcode" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ObjectGcode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ObjectGcode" prot="public" virt="non-virtual">MR.ObjectGcode</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a77cf53d15073bb58dbd70433d0d3f33d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ObjectGcode.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectGcode.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="21" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="21" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a25fa470127aa90a81bd0b3a672f17cfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ObjectGcode.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectGcode.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="30" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a04c5e53674ebd1eca429d9452ca97ac2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectGcode.Const_ObjectGcode</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ObjectGcode</name>
+        <qualifiedname>MR.Const_ObjectGcode.Const_ObjectGcode</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="104" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="104" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1aa3ddaceed0d43711deb3f9c48b96d11f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectGcode.Const_ObjectGcode</definition>
+        <argsstring>(MR._ByValue_ObjectGcode _other)</argsstring>
+        <name>Const_ObjectGcode</name>
+        <qualifiedname>MR.Const_ObjectGcode.Const_ObjectGcode</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectGcode</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectGcode_1a3abf71a875ef48b909398c87d369bd7f" kindref="member">MR.ObjectGcode.ObjectGcode</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="114" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="114" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a7d2666f126ed529e5c64e18b7a41d264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>unsafe? byte MR.Const_ObjectGcode.typeName</definition>
+        <argsstring>()</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR.Const_ObjectGcode.typeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a7d2666f126ed529e5c64e18b7a41d264" kindref="member">MR.ObjectGcode.typeName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="136" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="136" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1aa69aa3446d129ed49a80aab19ffc5785" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ObjectGcode.className</definition>
+        <argsstring>()</argsstring>
+        <name>className</name>
+        <qualifiedname>MR.Const_ObjectGcode.className</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1aa69aa3446d129ed49a80aab19ffc5785" kindref="member">MR.ObjectGcode.className</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="158" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="158" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1aee96ecec04c7d72efa362a5dfe950af7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ObjectGcode.classNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>MR.Const_ObjectGcode.classNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1aee96ecec04c7d72efa362a5dfe950af7" kindref="member">MR.ObjectGcode.classNameInPlural</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="179" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="179" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a9e245f00ca550ffce5edc4583fcc71ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectGcode.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR.Const_ObjectGcode.clone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a9e245f00ca550ffce5edc4583fcc71ce" kindref="member">MR.ObjectGcode.clone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="189" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="189" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ac1b73aaf8155f6b64f6deed240cb7c47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectGcode.shallowClone</definition>
+        <argsstring>()</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>MR.Const_ObjectGcode.shallowClone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ac1b73aaf8155f6b64f6deed240cb7c47" kindref="member">MR.ObjectGcode.shallowClone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="199" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="199" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1aa563d15b1ea1bbfd8b4f0fe8a4138d9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__CNCMachineSettings" kindref="compound">MR.Const_CNCMachineSettings</ref></type>
+        <definition>unsafe MR.Const_CNCMachineSettings MR.Const_ObjectGcode.getCNCMachineSettings</definition>
+        <argsstring>()</argsstring>
+        <name>getCNCMachineSettings</name>
+        <qualifiedname>MR.Const_ObjectGcode.getCNCMachineSettings</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1aa563d15b1ea1bbfd8b4f0fe8a4138d9f" kindref="member">MR.ObjectGcode.getCNCMachineSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="209" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="209" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a97dc98d35503c27910e58bf14c3d6467" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_SharedPtr_StdVectorStdString</type>
+        <definition>unsafe MR.Std.Const_SharedPtr_StdVectorStdString MR.Const_ObjectGcode.gcodeSource</definition>
+        <argsstring>()</argsstring>
+        <name>gcodeSource</name>
+        <qualifiedname>MR.Const_ObjectGcode.gcodeSource</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a97dc98d35503c27910e58bf14c3d6467" kindref="member">MR.ObjectGcode.gcodeSource</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="219" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="219" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a716a0422d5626ff99db087215ab87359" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_MRGcodeProcessorMoveAction</type>
+        <definition>unsafe MR.Std.Const_Vector_MRGcodeProcessorMoveAction MR.Const_ObjectGcode.actionList</definition>
+        <argsstring>()</argsstring>
+        <name>actionList</name>
+        <qualifiedname>MR.Const_ObjectGcode.actionList</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a716a0422d5626ff99db087215ab87359" kindref="member">MR.ObjectGcode.actionList</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="230" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="230" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a0dd7aeb5df1aa68b67c24bac835e3a67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_Int</type>
+        <definition>unsafe MR.Std.Const_Vector_Int MR.Const_ObjectGcode.segmentToSourceLineMap</definition>
+        <argsstring>()</argsstring>
+        <name>segmentToSourceLineMap</name>
+        <qualifiedname>MR.Const_ObjectGcode.segmentToSourceLineMap</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a0dd7aeb5df1aa68b67c24bac835e3a67" kindref="member">MR.ObjectGcode.segmentToSourceLineMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="241" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="241" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ae27403c1b3601a9518526c5525347bd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>unsafe MR.Std.Vector_StdString MR.Const_ObjectGcode.getInfoLines</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>MR.Const_ObjectGcode.getInfoLines</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ae27403c1b3601a9518526c5525347bd2" kindref="member">MR.ObjectGcode.getInfoLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="251" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="251" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1accd4a5277ea2504a4e57082978039e48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.isFeedrateGradient</definition>
+        <argsstring>()</argsstring>
+        <name>isFeedrateGradient</name>
+        <qualifiedname>MR.Const_ObjectGcode.isFeedrateGradient</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1accd4a5277ea2504a4e57082978039e48" kindref="member">MR.ObjectGcode.isFeedrateGradient</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="261" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="261" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a17953d0daef9df9be3c4e86c3630a019" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectGcode.getIdleColor</definition>
+        <argsstring>()</argsstring>
+        <name>getIdleColor</name>
+        <qualifiedname>MR.Const_ObjectGcode.getIdleColor</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a17953d0daef9df9be3c4e86c3630a019" kindref="member">MR.ObjectGcode.getIdleColor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="271" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="271" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1abf93b3c9852a6611bf415e905b1eaf97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectGcode.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_ObjectGcode.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1abf93b3c9852a6611bf415e905b1eaf97" kindref="member">MR.ObjectGcode.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="282" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="282" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a34d92f450a0c08651935dd399e4a04d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.hasVisualRepresentation</definition>
+        <argsstring>()</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>MR.Const_ObjectGcode.hasVisualRepresentation</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a34d92f450a0c08651935dd399e4a04d0" kindref="member">MR.ObjectGcode.hasVisualRepresentation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="292" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="292" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1adbbccd8786383774f218ccb0706acd56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.hasModel</definition>
+        <argsstring>()</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>MR.Const_ObjectGcode.hasModel</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1adbbccd8786383774f218ccb0706acd56" kindref="member">MR.ObjectGcode.hasModel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="302" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="302" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1afaffd18b49cb4e8129f6b30a6bd46e76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_SharedPtr_ConstMRPolyline3</type>
+        <definition>unsafe MR.Std.Const_SharedPtr_ConstMRPolyline3 MR.Const_ObjectGcode.polyline</definition>
+        <argsstring>()</argsstring>
+        <name>polyline</name>
+        <qualifiedname>MR.Const_ObjectGcode.polyline</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1afaffd18b49cb4e8129f6b30a6bd46e76" kindref="member">MR.ObjectGcode.polyline</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="312" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="312" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a7d981619b3a18d7b1c0f7333acabd442" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_Vector4_UnsignedChar MR.Const_ObjectGcode.getDashPattern</definition>
+        <argsstring>(MR._InOpt_ViewportId vpId=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>getDashPattern</name>
+        <qualifiedname>MR.Const_ObjectGcode.getDashPattern</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>vpId</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a7d981619b3a18d7b1c0f7333acabd442" kindref="member">MR.ObjectGcode.getDashPattern</ref></computeroutput>. Parameter <computeroutput>vpId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="323" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="323" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a68fd44799495649691fbc3e7e927daa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectGcode.getLineWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getLineWidth</name>
+        <qualifiedname>MR.Const_ObjectGcode.getLineWidth</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a68fd44799495649691fbc3e7e927daa3" kindref="member">MR.ObjectGcode.getLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="336" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="336" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1accacfa9a1e21935cb38fd39ffeef9a50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectGcode.getPointSize</definition>
+        <argsstring>()</argsstring>
+        <name>getPointSize</name>
+        <qualifiedname>MR.Const_ObjectGcode.getPointSize</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1accacfa9a1e21935cb38fd39ffeef9a50" kindref="member">MR.ObjectGcode.getPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="346" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="346" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a8f50532e463fd0d970c5577c2ba98f0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VertColors" kindref="compound">MR.Const_VertColors</ref></type>
+        <definition>unsafe MR.Const_VertColors MR.Const_ObjectGcode.getVertsColorMap</definition>
+        <argsstring>()</argsstring>
+        <name>getVertsColorMap</name>
+        <qualifiedname>MR.Const_ObjectGcode.getVertsColorMap</qualifiedname>
+        <briefdescription>
+<para>returns per-vertex colors of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a8f50532e463fd0d970c5577c2ba98f0f" kindref="member">MR.ObjectGcode.getVertsColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="357" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="357" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a8d8429e651cdc7d28ea40e27e88a2b3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__UndirectedEdgeColors" kindref="compound">MR.Const_UndirectedEdgeColors</ref></type>
+        <definition>unsafe MR.Const_UndirectedEdgeColors MR.Const_ObjectGcode.getLinesColorMap</definition>
+        <argsstring>()</argsstring>
+        <name>getLinesColorMap</name>
+        <qualifiedname>MR.Const_ObjectGcode.getLinesColorMap</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a8d8429e651cdc7d28ea40e27e88a2b3e" kindref="member">MR.ObjectGcode.getLinesColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="367" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="367" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1aac3c998423afc2fb4a76c9e1571cc5f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.supportsVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>MR.Const_ObjectGcode.supportsVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1aac3c998423afc2fb4a76c9e1571cc5f5" kindref="member">MR.ObjectGcode.supportsVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="377" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="377" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a1d3c7e973a2ab46868bd0fd91d045d71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRViewportMask</type>
+        <definition>unsafe MR.Std.Vector_MRViewportMask MR.Const_ObjectGcode.getAllVisualizeProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>MR.Const_ObjectGcode.getAllVisualizeProperties</qualifiedname>
+        <briefdescription>
+<para>get all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a1d3c7e973a2ab46868bd0fd91d045d71" kindref="member">MR.ObjectGcode.getAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="388" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="388" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ac1f07067f03fc8cc9f34303235758b2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+        <definition>unsafe MR.Const_ViewportMask MR.Const_ObjectGcode.getVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>MR.Const_ObjectGcode.getVisualizePropertyMask</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>returns mask of viewports where given property is set Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ac1f07067f03fc8cc9f34303235758b2b" kindref="member">MR.ObjectGcode.getVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="399" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="399" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ae7cc4125f7cf876efaae228710a8aea1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectGcode.getWorldBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>MR.Const_ObjectGcode.getWorldBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns cached bounding box of this point object in world coordinates; if you need bounding box in local coordinates please call <ref refid="classMR_1_1Const__ObjectGcode_1a387e3f42bb7d5c3af272b0e5e1b6b23b" kindref="member">getBoundingBox()</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ae7cc4125f7cf876efaae228710a8aea1" kindref="member">MR.ObjectGcode.getWorldBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="412" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="412" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a239335361203cd82cfd400eb23e1afa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectGcode.avgEdgeLen</definition>
+        <argsstring>()</argsstring>
+        <name>avgEdgeLen</name>
+        <qualifiedname>MR.Const_ObjectGcode.avgEdgeLen</qualifiedname>
+        <briefdescription>
+<para>returns cached average edge length Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a239335361203cd82cfd400eb23e1afa2" kindref="member">MR.ObjectGcode.avgEdgeLen</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="423" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="423" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a5e5fa4e5a0ccddf658ae4bf963a2e8f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectGcode.numUndirectedEdges</definition>
+        <argsstring>()</argsstring>
+        <name>numUndirectedEdges</name>
+        <qualifiedname>MR.Const_ObjectGcode.numUndirectedEdges</qualifiedname>
+        <briefdescription>
+<para>returns cached information about the number of undirected edges in the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a5e5fa4e5a0ccddf658ae4bf963a2e8f6" kindref="member">MR.ObjectGcode.numUndirectedEdges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="434" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="434" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a4d6c64a4eeffd08aa638a65ef940bc54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectGcode.numComponents</definition>
+        <argsstring>()</argsstring>
+        <name>numComponents</name>
+        <qualifiedname>MR.Const_ObjectGcode.numComponents</qualifiedname>
+        <briefdescription>
+<para>returns cached information about the number of components in the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a4d6c64a4eeffd08aa638a65ef940bc54" kindref="member">MR.ObjectGcode.numComponents</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="445" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="445" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a5143c555ed2bf58df7f7e7f32c5a4aae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectGcode.totalLength</definition>
+        <argsstring>()</argsstring>
+        <name>totalLength</name>
+        <qualifiedname>MR.Const_ObjectGcode.totalLength</qualifiedname>
+        <briefdescription>
+<para>return cached total length Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a5143c555ed2bf58df7f7e7f32c5a4aae" kindref="member">MR.ObjectGcode.totalLength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="456" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="456" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a938a85b0e51903049a157a84fac11bf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.getVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getVisualizeProperty</name>
+        <qualifiedname>MR.Const_ObjectGcode.getVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the property is set at least in one viewport specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a938a85b0e51903049a157a84fac11bf4" kindref="member">MR.ObjectGcode.getVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="467" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="467" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a7666dca74e110c7b97bdc80acaecde5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectGcode.globalClippedByPlaneMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalClippedByPlaneMask</name>
+        <qualifiedname>MR.Const_ObjectGcode.globalClippedByPlaneMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object or any of its parents is clipped by plane Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a7666dca74e110c7b97bdc80acaecde5d" kindref="member">MR.ObjectGcode.globalClippedByPlaneMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="478" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="478" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1aa66d62938eb38710d3243fa460d2f33d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.globalClippedByPlane</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalClippedByPlane</name>
+        <qualifiedname>MR.Const_ObjectGcode.globalClippedByPlane</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1aa66d62938eb38710d3243fa460d2f33d" kindref="member">MR.ObjectGcode.globalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="490" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="490" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a9be6b175b6c4052ddda4e887551af50b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectGcode.getFrontColor</definition>
+        <argsstring>(bool? selected=null, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getFrontColor</name>
+        <qualifiedname>MR.Const_ObjectGcode.getFrontColor</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a9be6b175b6c4052ddda4e887551af50b" kindref="member">MR.ObjectGcode.getFrontColor</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="503" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="503" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ad07314b03dc9b0dd26f7aada61d9fcd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectGcode.getFrontColorsForAllViewports</definition>
+        <argsstring>(bool? selected=null)</argsstring>
+        <name>getFrontColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectGcode.getFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ad07314b03dc9b0dd26f7aada61d9fcd9" kindref="member">MR.ObjectGcode.getFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="516" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="516" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a714abe59500aa6e7ed6d2303fd50b5ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectGcode.getBackColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getBackColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectGcode.getBackColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a714abe59500aa6e7ed6d2303fd50b5ce" kindref="member">MR.ObjectGcode.getBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="528" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="528" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a7f9f940b79fd5734afdf579ea24bb7cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectGcode.getBackColor</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getBackColor</name>
+        <qualifiedname>MR.Const_ObjectGcode.getBackColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a7f9f940b79fd5734afdf579ea24bb7cb" kindref="member">MR.ObjectGcode.getBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="540" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="540" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a4c7fb364873598f1f6998f3bb3f54144" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_ObjectGcode.getGlobalAlpha</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getGlobalAlpha</name>
+        <qualifiedname>MR.Const_ObjectGcode.getGlobalAlpha</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a4c7fb364873598f1f6998f3bb3f54144" kindref="member">MR.ObjectGcode.getGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="552" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="552" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a278652775ae2ac45ea80754ce404eb04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__UnsignedChar" kindref="compound">MR.Const_ViewportProperty_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_UnsignedChar MR.Const_ObjectGcode.getGlobalAlphaForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectGcode.getGlobalAlphaForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a278652775ae2ac45ea80754ce404eb04" kindref="member">MR.ObjectGcode.getGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="563" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="563" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a10f316f1c29ce0388f384796a99d3117" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_ObjectGcode.getDirtyFlags</definition>
+        <argsstring>()</argsstring>
+        <name>getDirtyFlags</name>
+        <qualifiedname>MR.Const_ObjectGcode.getDirtyFlags</qualifiedname>
+        <briefdescription>
+<para>returns current dirty flags for the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a10f316f1c29ce0388f384796a99d3117" kindref="member">MR.ObjectGcode.getDirtyFlags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="574" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="574" bodyend="579"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1afa528d62de0faede449ea08e5ff5753d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectGcode.resetDirty</definition>
+        <argsstring>()</argsstring>
+        <name>resetDirty</name>
+        <qualifiedname>MR.Const_ObjectGcode.resetDirty</qualifiedname>
+        <briefdescription>
+<para>resets all dirty flags (except for cache flags that will be reset automatically on cache update) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1afa528d62de0faede449ea08e5ff5753d" kindref="member">MR.ObjectGcode.resetDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="585" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="585" bodyend="590"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a359af04d08991c7730c7b69eeefe0b94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectGcode.resetDirtyExceptMask</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>resetDirtyExceptMask</name>
+        <qualifiedname>MR.Const_ObjectGcode.resetDirtyExceptMask</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>reset dirty flags without some specific bits (useful for lazy normals update) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a359af04d08991c7730c7b69eeefe0b94" kindref="member">MR.ObjectGcode.resetDirtyExceptMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="596" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="596" bodyend="601"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a387e3f42bb7d5c3af272b0e5e1b6b23b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectGcode.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_ObjectGcode.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns cached bounding box of this object in local coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a387e3f42bb7d5c3af272b0e5e1b6b23b" kindref="member">MR.ObjectGcode.getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="607" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="607" bodyend="612"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a12044e40f31e7bd92c6c6755468cf336" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.getRedrawFlag</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getRedrawFlag</name>
+        <qualifiedname>MR.Const_ObjectGcode.getRedrawFlag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the object must be redrawn (due to dirty flags) in one of specified viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a12044e40f31e7bd92c6c6755468cf336" kindref="member">MR.ObjectGcode.getRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="618" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="618" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a8f1a635a25d5a2f73a3a95c8685010d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.isPickable</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isPickable</name>
+        <qualifiedname>MR.Const_ObjectGcode.isPickable</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a8f1a635a25d5a2f73a3a95c8685010d7" kindref="member">MR.ObjectGcode.isPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="630" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="630" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1aa7ff649cee66436aacd65dc0bf24c09a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+        <definition>unsafe MR.ColoringType MR.Const_ObjectGcode.getColoringType</definition>
+        <argsstring>()</argsstring>
+        <name>getColoringType</name>
+        <qualifiedname>MR.Const_ObjectGcode.getColoringType</qualifiedname>
+        <briefdescription>
+<para>returns the current coloring mode of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1aa7ff649cee66436aacd65dc0bf24c09a" kindref="member">MR.ObjectGcode.getColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="641" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="641" bodyend="646"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a4b5ed9534e61cfca5aabf1198ccdb3ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectGcode.getShininess</definition>
+        <argsstring>()</argsstring>
+        <name>getShininess</name>
+        <qualifiedname>MR.Const_ObjectGcode.getShininess</qualifiedname>
+        <briefdescription>
+<para>returns the current shininess visual value Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a4b5ed9534e61cfca5aabf1198ccdb3ca" kindref="member">MR.ObjectGcode.getShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="652" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="652" bodyend="657"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1adc77700b8229f0606f07242af1c4aab1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectGcode.getSpecularStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getSpecularStrength</name>
+        <qualifiedname>MR.Const_ObjectGcode.getSpecularStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1adc77700b8229f0606f07242af1c4aab1" kindref="member">MR.ObjectGcode.getSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="663" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="663" bodyend="668"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a992bb2d20d140239cb291a61004fe1f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectGcode.getAmbientStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getAmbientStrength</name>
+        <qualifiedname>MR.Const_ObjectGcode.getAmbientStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a992bb2d20d140239cb291a61004fe1f7" kindref="member">MR.ObjectGcode.getAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="674" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="674" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ac9d8de1725646a8a68707939dbdb5fee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.render</definition>
+        <argsstring>(MR.Const_ModelRenderParams _1)</argsstring>
+        <name>render</name>
+        <qualifiedname>MR.Const_ObjectGcode.render</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelRenderParams" kindref="compound">MR.Const_ModelRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for visualization Returns true if something was drawn. Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ac9d8de1725646a8a68707939dbdb5fee" kindref="member">MR.ObjectGcode.render</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="686" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="686" bodyend="691"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1aeabfa5d1c970c522471880de842a2a36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectGcode.renderForPicker</definition>
+        <argsstring>(MR.Const_ModelBaseRenderParams _1, uint _2)</argsstring>
+        <name>renderForPicker</name>
+        <qualifiedname>MR.Const_ObjectGcode.renderForPicker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelBaseRenderParams" kindref="compound">MR.Const_ModelBaseRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for picking Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1aeabfa5d1c970c522471880de842a2a36" kindref="member">MR.ObjectGcode.renderForPicker</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="697" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="697" bodyend="702"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ae3f42d87285dbd083b7ae1eefe47fa05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectGcode.renderUi</definition>
+        <argsstring>(MR.Const_UiRenderParams params_)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR.Const_ObjectGcode.renderUi</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UiRenderParams" kindref="compound">MR.Const_UiRenderParams</ref></type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for 2d UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ae3f42d87285dbd083b7ae1eefe47fa05" kindref="member">MR.ObjectGcode.renderUi</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="708" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="708" bodyend="713"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ac86205af1befd9cd47a68f08c6c17bc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.useDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>()</argsstring>
+        <name>useDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.Const_ObjectGcode.useDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <briefdescription>
+<para>whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ac86205af1befd9cd47a68f08c6c17bc4" kindref="member">MR.ObjectGcode.useDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="720" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="720" bodyend="725"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ad0f2920c3b699bae5471157f7aad99f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_ObjectGcode.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_ObjectGcode.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ad0f2920c3b699bae5471157f7aad99f2" kindref="member">MR.ObjectGcode.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="730" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="730" bodyend="735"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a8f2b68f18458d6ea8da1dfa2a16ab9c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_ObjectGcode.xf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_ObjectGcode.xf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to parent space transformation (to world space if no parent) for default or given viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__ObjectGcode_1a8f2b68f18458d6ea8da1dfa2a16ab9c2" kindref="member">xf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a8f2b68f18458d6ea8da1dfa2a16ab9c2" kindref="member">MR.ObjectGcode.xf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="743" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="743" bodyend="751"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ad54f34934234ceb1cc94613a9755f9a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" kindref="compound">MR.Const_ViewportProperty_MRAffineXf3f</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRAffineXf3f MR.Const_ObjectGcode.xfsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>xfsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectGcode.xfsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns xfs for all viewports, combined into a single object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ad54f34934234ceb1cc94613a9755f9a9" kindref="member">MR.ObjectGcode.xfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="757" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="757" bodyend="762"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a16f54dd1fa66b226945af147cabf4216" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe MR.AffineXf3f MR.Const_ObjectGcode.worldXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>worldXf</name>
+        <qualifiedname>MR.Const_ObjectGcode.worldXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to world space transformation for default or specific viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__ObjectGcode_1a16f54dd1fa66b226945af147cabf4216" kindref="member">worldXf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a16f54dd1fa66b226945af147cabf4216" kindref="member">MR.ObjectGcode.worldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="770" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="770" bodyend="778"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ad7e168158df862d0a95ac5ba71feba91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectGcode.globalVisibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalVisibilityMask</name>
+        <qualifiedname>MR.Const_ObjectGcode.globalVisibilityMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object is visible together with all its parents Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ad7e168158df862d0a95ac5ba71feba91" kindref="member">MR.ObjectGcode.globalVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="784" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="784" bodyend="789"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ac555617d5d6895968e4c0b62aac6cc5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.globalVisibility</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalVisibility</name>
+        <qualifiedname>MR.Const_ObjectGcode.globalVisibility</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ac555617d5d6895968e4c0b62aac6cc5c" kindref="member">MR.ObjectGcode.globalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="796" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="796" bodyend="801"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ae6e43eb7e7ce8c7f82ab1e1c089d938a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.isLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isLocked</name>
+        <qualifiedname>MR.Const_ObjectGcode.isLocked</qualifiedname>
+        <briefdescription>
+<para>object properties lock for UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ae6e43eb7e7ce8c7f82ab1e1c089d938a" kindref="member">MR.ObjectGcode.isLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="807" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="807" bodyend="812"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a62aa65ff24ada1f45aa52ae20b35c59b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.isParentLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isParentLocked</name>
+        <qualifiedname>MR.Const_ObjectGcode.isParentLocked</qualifiedname>
+        <briefdescription>
+<para>If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a62aa65ff24ada1f45aa52ae20b35c59b" kindref="member">MR.ObjectGcode.isParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="819" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="819" bodyend="824"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a25df3ed71d62b9f7f6655d4e28bc786a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.isAncestor</definition>
+        <argsstring>(MR.Const_Object? ancestor)</argsstring>
+        <name>isAncestor</name>
+        <qualifiedname>MR.Const_ObjectGcode.isAncestor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref>?</type>
+          <declname>ancestor</declname>
+        </param>
+        <briefdescription>
+<para>return true if given object is ancestor of this one, false otherwise Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a25df3ed71d62b9f7f6655d4e28bc786a" kindref="member">MR.ObjectGcode.isAncestor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="830" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="830" bodyend="835"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a49a40ea7abb28afa85966fc8f027b778" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.isSelected</definition>
+        <argsstring>()</argsstring>
+        <name>isSelected</name>
+        <qualifiedname>MR.Const_ObjectGcode.isSelected</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a49a40ea7abb28afa85966fc8f027b778" kindref="member">MR.ObjectGcode.isSelected</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="840" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="840" bodyend="845"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1abd3bce5d7092aeb3df08cf51ae5d9bef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.isAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isAncillary</name>
+        <qualifiedname>MR.Const_ObjectGcode.isAncillary</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1abd3bce5d7092aeb3df08cf51ae5d9bef" kindref="member">MR.ObjectGcode.isAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="850" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="850" bodyend="855"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a4ab97bde271fdc5745cf1f8e1391e5ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.isGlobalAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isGlobalAncillary</name>
+        <qualifiedname>MR.Const_ObjectGcode.isGlobalAncillary</qualifiedname>
+        <briefdescription>
+<para>returns true if the object or any of its ancestors are ancillary Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a4ab97bde271fdc5745cf1f8e1391e5ed" kindref="member">MR.ObjectGcode.isGlobalAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="861" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="861" bodyend="866"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a067810af2d0b8df190f187711ac6d49a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.isVisible</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isVisible</name>
+        <qualifiedname>MR.Const_ObjectGcode.isVisible</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a067810af2d0b8df190f187711ac6d49a" kindref="member">MR.ObjectGcode.isVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="873" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="873" bodyend="878"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a11126f5eeb34eedfc4965cd0c3f195b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectGcode.visibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>visibilityMask</name>
+        <qualifiedname>MR.Const_ObjectGcode.visibilityMask</qualifiedname>
+        <briefdescription>
+<para>gets object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a11126f5eeb34eedfc4965cd0c3f195b2" kindref="member">MR.ObjectGcode.visibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="884" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="884" bodyend="889"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a7a30be491a821becae8c6a869b95bba4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectGcode.resetRedrawFlag</definition>
+        <argsstring>()</argsstring>
+        <name>resetRedrawFlag</name>
+        <qualifiedname>MR.Const_ObjectGcode.resetRedrawFlag</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a7a30be491a821becae8c6a869b95bba4" kindref="member">MR.ObjectGcode.resetRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="894" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="894" bodyend="899"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a6a5d6b44f58b00148fbf79bd6a4dcdc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectGcode.cloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>cloneTree</name>
+        <qualifiedname>MR.Const_ObjectGcode.cloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognized children) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a6a5d6b44f58b00148fbf79bd6a4dcdc3" kindref="member">MR.ObjectGcode.cloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="905" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="905" bodyend="910"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a728e82bb6b60a6d3ad90c6929bf2eae8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectGcode.shallowCloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>shallowCloneTree</name>
+        <qualifiedname>MR.Const_ObjectGcode.shallowCloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognied children) clones only pointers to mesh, points or voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a728e82bb6b60a6d3ad90c6929bf2eae8" kindref="member">MR.ObjectGcode.shallowCloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="917" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="917" bodyend="922"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1aed11e078c6370f796ec1aeaa8a0aaa83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectGcode.getWorldTreeBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldTreeBox</name>
+        <qualifiedname>MR.Const_ObjectGcode.getWorldTreeBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1aed11e078c6370f796ec1aeaa8a0aaa83" kindref="member">MR.ObjectGcode.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="930" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="930" bodyend="935"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1af3732f9d8f8b1d9831e2cfe098901a7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Set_StdString</type>
+        <definition>unsafe MR.Std.Const_Set_StdString MR.Const_ObjectGcode.tags</definition>
+        <argsstring>()</argsstring>
+        <name>tags</name>
+        <qualifiedname>MR.Const_ObjectGcode.tags</qualifiedname>
+        <briefdescription>
+<para>provides read-only access to the tag storage the storage is a set of unique strings Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1af3732f9d8f8b1d9831e2cfe098901a7c" kindref="member">MR.ObjectGcode.tags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="942" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="942" bodyend="947"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1aa67f8229e8c1878ff01d146de1f0cea7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectGcode.sameModels</definition>
+        <argsstring>(MR.Const_Object other)</argsstring>
+        <name>sameModels</name>
+        <qualifiedname>MR.Const_ObjectGcode.sameModels</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1aa67f8229e8c1878ff01d146de1f0cea7" kindref="member">MR.ObjectGcode.sameModels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="953" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="953" bodyend="958"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a19a63311fdcda4d36b9e5e9990ffb9c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectGcode.getModelHash</definition>
+        <argsstring>()</argsstring>
+        <name>getModelHash</name>
+        <qualifiedname>MR.Const_ObjectGcode.getModelHash</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1a19a63311fdcda4d36b9e5e9990ffb9c7" kindref="member">MR.ObjectGcode.getModelHash</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="964" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="964" bodyend="969"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ac50f0763aa4b178433df21e3f0780d83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectGcode.getSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getSharedPtr</name>
+        <qualifiedname>MR.Const_ObjectGcode.getSharedPtr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectGcode_1ac50f0763aa4b178433df21e3f0780d83" kindref="member">MR.ObjectGcode.getSharedPtr</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="976" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="976" bodyend="981"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a1f3dfeb50a6e92c5e9beae9cb2e65307" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjectGcode.~Const_ObjectGcode</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ObjectGcode</name>
+        <qualifiedname>MR.Const_ObjectGcode.~Const_ObjectGcode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="31" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ab380f85fa20cf114ca2ec61929b74f06" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectGcode.operator MR.Const_ObjectChildrenHolder</definition>
+        <argsstring>(Const_ObjectGcode self)</argsstring>
+        <name>operator MR.Const_ObjectChildrenHolder</name>
+        <qualifiedname>MR.Const_ObjectGcode.operator MR.Const_ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectGcode" kindref="compound">Const_ObjectGcode</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="34" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="34" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a64383382cdf6ae55d531172353b2fd9b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectGcode.operator MR.Const_Object</definition>
+        <argsstring>(Const_ObjectGcode self)</argsstring>
+        <name>operator MR.Const_Object</name>
+        <qualifiedname>MR.Const_ObjectGcode.operator MR.Const_Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectGcode" kindref="compound">Const_ObjectGcode</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="42" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="42" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ad1bed89be05667d80dd49c312bb9ab2f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectGcode.operator MR.Const_VisualObject</definition>
+        <argsstring>(Const_ObjectGcode self)</argsstring>
+        <name>operator MR.Const_VisualObject</name>
+        <qualifiedname>MR.Const_ObjectGcode.operator MR.Const_VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectGcode" kindref="compound">Const_ObjectGcode</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="50" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a5b52afa72d170182e158e636923e338b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectGcode.operator MR.Const_ObjectLinesHolder</definition>
+        <argsstring>(Const_ObjectGcode self)</argsstring>
+        <name>operator MR.Const_ObjectLinesHolder</name>
+        <qualifiedname>MR.Const_ObjectGcode.operator MR.Const_ObjectLinesHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectGcode" kindref="compound">Const_ObjectGcode</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="58" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a86c6bea42dd32dcd10ec55e579fe1730" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectGcode.operator Const_ObjectGcode?</definition>
+        <argsstring>(MR.Const_Object parent)</argsstring>
+        <name>operator Const_ObjectGcode?</name>
+        <qualifiedname>MR.Const_ObjectGcode.operator Const_ObjectGcode?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="68" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="68" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a989df2b52ec1e625a6076c4a6c398d4b" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectGcode.operator Const_ObjectGcode?</definition>
+        <argsstring>(MR.Const_VisualObject parent)</argsstring>
+        <name>operator Const_ObjectGcode?</name>
+        <qualifiedname>MR.Const_ObjectGcode.operator Const_ObjectGcode?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="78" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="78" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ab4926d2ded219e88652e58ee1c63f70a" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectGcode.operator Const_ObjectGcode?</definition>
+        <argsstring>(MR.Const_ObjectLinesHolder parent)</argsstring>
+        <name>operator Const_ObjectGcode?</name>
+        <qualifiedname>MR.Const_ObjectGcode.operator Const_ObjectGcode?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectLinesHolder" kindref="compound">MR.Const_ObjectLinesHolder</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="88" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="88" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1ae372faeaf77f09e72d3fa46db8562ea8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectGcode.staticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>staticTypeName</name>
+        <qualifiedname>MR.Const_ObjectGcode.staticTypeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectGcode::StaticTypeName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="125" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="125" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1af9bd5f19a8a45c5e2516040dd5ff3220" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectGcode.staticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassName</name>
+        <qualifiedname>MR.Const_ObjectGcode.staticClassName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectGcode::StaticClassName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="147" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="147" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a672dbca58ba0436508ca7a0914084638" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectGcode.staticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassNameInPlural</name>
+        <qualifiedname>MR.Const_ObjectGcode.staticClassNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectGcode::StaticClassNameInPlural</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="168" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="168" bodyend="174"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectGcode_1a1b18fb3863387526c2f84424b0be14d3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectGcode.Const_ObjectGcode</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ObjectGcode</name>
+        <qualifiedname>MR.Const_ObjectGcode.Const_ObjectGcode</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="99" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="99" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>an object that stores a g-code Generated from class <computeroutput><ref refid="classMR_1_1ObjectGcode" kindref="compound">MR.ObjectGcode</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ObjectGcode</label>
+        <link refid="classMR_1_1Const__ObjectGcode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ObjectGcode</label>
+        <link refid="classMR_1_1ObjectGcode"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ObjectGcode</label>
+        <link refid="classMR_1_1Const__ObjectGcode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectGcode.cs" bodystart="16" bodyend="982"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectGcode_1a716a0422d5626ff99db087215ab87359" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>actionList</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a239335361203cd82cfd400eb23e1afa2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>avgEdgeLen</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1aa69aa3446d129ed49a80aab19ffc5785" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1aee96ecec04c7d72efa362a5dfe950af7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a9e245f00ca550ffce5edc4583fcc71ce" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a6a5d6b44f58b00148fbf79bd6a4dcdc3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a1b18fb3863387526c2f84424b0be14d3" prot="package" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>Const_ObjectGcode</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a04c5e53674ebd1eca429d9452ca97ac2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>Const_ObjectGcode</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1aa3ddaceed0d43711deb3f9c48b96d11f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>Const_ObjectGcode</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a77cf53d15073bb58dbd70433d0d3f33d" prot="protected" virt="virtual"><scope>MR::Const_ObjectGcode</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a25fa470127aa90a81bd0b3a672f17cfc" prot="public" virt="virtual"><scope>MR::Const_ObjectGcode</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a97dc98d35503c27910e58bf14c3d6467" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>gcodeSource</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a1d3c7e973a2ab46868bd0fd91d045d71" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a992bb2d20d140239cb291a61004fe1f7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a7f9f940b79fd5734afdf579ea24bb7cb" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a714abe59500aa6e7ed6d2303fd50b5ce" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a387e3f42bb7d5c3af272b0e5e1b6b23b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1aa563d15b1ea1bbfd8b4f0fe8a4138d9f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getCNCMachineSettings</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1aa7ff649cee66436aacd65dc0bf24c09a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a7d981619b3a18d7b1c0f7333acabd442" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getDashPattern</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a10f316f1c29ce0388f384796a99d3117" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a9be6b175b6c4052ddda4e887551af50b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ad07314b03dc9b0dd26f7aada61d9fcd9" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a4c7fb364873598f1f6998f3bb3f54144" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a278652775ae2ac45ea80754ce404eb04" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a17953d0daef9df9be3c4e86c3630a019" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getIdleColor</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ae27403c1b3601a9518526c5525347bd2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a8d8429e651cdc7d28ea40e27e88a2b3e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getLinesColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a68fd44799495649691fbc3e7e927daa3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getLineWidth</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a19a63311fdcda4d36b9e5e9990ffb9c7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1accacfa9a1e21935cb38fd39ffeef9a50" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a12044e40f31e7bd92c6c6755468cf336" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ac50f0763aa4b178433df21e3f0780d83" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a4b5ed9534e61cfca5aabf1198ccdb3ca" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1adc77700b8229f0606f07242af1c4aab1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a8f50532e463fd0d970c5577c2ba98f0f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a938a85b0e51903049a157a84fac11bf4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ac1f07067f03fc8cc9f34303235758b2b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ae7cc4125f7cf876efaae228710a8aea1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1aed11e078c6370f796ec1aeaa8a0aaa83" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1aa66d62938eb38710d3243fa460d2f33d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a7666dca74e110c7b97bdc80acaecde5d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ac555617d5d6895968e4c0b62aac6cc5c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ad7e168158df862d0a95ac5ba71feba91" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1adbbccd8786383774f218ccb0706acd56" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a34d92f450a0c08651935dd399e4a04d0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1abf93b3c9852a6611bf415e905b1eaf97" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a25df3ed71d62b9f7f6655d4e28bc786a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1abd3bce5d7092aeb3df08cf51ae5d9bef" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1accd4a5277ea2504a4e57082978039e48" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isFeedrateGradient</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a4ab97bde271fdc5745cf1f8e1391e5ed" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ae6e43eb7e7ce8c7f82ab1e1c089d938a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a62aa65ff24ada1f45aa52ae20b35c59b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a8f1a635a25d5a2f73a3a95c8685010d7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a49a40ea7abb28afa85966fc8f027b778" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a067810af2d0b8df190f187711ac6d49a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ad0f2920c3b699bae5471157f7aad99f2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a4d6c64a4eeffd08aa638a65ef940bc54" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a5e5fa4e5a0ccddf658ae4bf963a2e8f6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>numUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a86c6bea42dd32dcd10ec55e579fe1730" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>operator Const_ObjectGcode?</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a989df2b52ec1e625a6076c4a6c398d4b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>operator Const_ObjectGcode?</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ab4926d2ded219e88652e58ee1c63f70a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>operator Const_ObjectGcode?</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a64383382cdf6ae55d531172353b2fd9b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ab380f85fa20cf114ca2ec61929b74f06" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a5b52afa72d170182e158e636923e338b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>operator MR.Const_ObjectLinesHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ad1bed89be05667d80dd49c312bb9ab2f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>operator MR.Const_VisualObject</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1afaffd18b49cb4e8129f6b30a6bd46e76" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>polyline</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ac9d8de1725646a8a68707939dbdb5fee" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1aeabfa5d1c970c522471880de842a2a36" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ae3f42d87285dbd083b7ae1eefe47fa05" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1afa528d62de0faede449ea08e5ff5753d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a359af04d08991c7730c7b69eeefe0b94" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a7a30be491a821becae8c6a869b95bba4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1aa67f8229e8c1878ff01d146de1f0cea7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a0dd7aeb5df1aa68b67c24bac835e3a67" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>segmentToSourceLineMap</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ac1b73aaf8155f6b64f6deed240cb7c47" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a728e82bb6b60a6d3ad90c6929bf2eae8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1af9bd5f19a8a45c5e2516040dd5ff3220" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a672dbca58ba0436508ca7a0914084638" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ae372faeaf77f09e72d3fa46db8562ea8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1aac3c998423afc2fb4a76c9e1571cc5f5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1af3732f9d8f8b1d9831e2cfe098901a7c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>tags</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a5143c555ed2bf58df7f7e7f32c5a4aae" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>totalLength</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a7d2666f126ed529e5c64e18b7a41d264" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ac86205af1befd9cd47a68f08c6c17bc4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a11126f5eeb34eedfc4965cd0c3f195b2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a16f54dd1fa66b226945af147cabf4216" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a8f2b68f18458d6ea8da1dfa2a16ab9c2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1ad54f34934234ceb1cc94613a9755f9a9" prot="public" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectGcode_1a1f3dfeb50a6e92c5e9beae9cb2e65307" prot="private" virt="non-virtual"><scope>MR::Const_ObjectGcode</scope><name>~Const_ObjectGcode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

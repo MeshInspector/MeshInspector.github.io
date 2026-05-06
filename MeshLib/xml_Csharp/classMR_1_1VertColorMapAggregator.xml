@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VertColorMapAggregator" kind="class" language="C#" prot="public">
     <compoundname>MR::VertColorMapAggregator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VertColorMapAggregator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VertColorMapAggregator" prot="public" virt="non-virtual">MR.Const_VertColorMapAggregator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1a0397423d8d759b95ea805ae9a98416c3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>VertColorMapAggregator</name>
         <qualifiedname>MR.VertColorMapAggregator.VertColorMapAggregator</qualifiedname>
         <param>
-          <type>Const_VertColorMapAggregator</type>
+          <type><ref refid="classMR_1_1Const__VertColorMapAggregator" kindref="compound">Const_VertColorMapAggregator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -145,7 +145,7 @@
         <name>pushBack</name>
         <qualifiedname>MR.VertColorMapAggregator.pushBack</qualifiedname>
         <param>
-          <type>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</type>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap" kindref="compound">MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</ref></type>
           <declname>partitialColorMap</declname>
         </param>
         <briefdescription>
@@ -168,7 +168,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</type>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap" kindref="compound">MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</ref></type>
           <declname>partitialColorMap</declname>
         </param>
         <briefdescription>
@@ -191,7 +191,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</type>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap" kindref="compound">MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</ref></type>
           <declname>partitialColorMap</declname>
         </param>
         <briefdescription>
@@ -234,7 +234,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="456" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="456" bodyend="461"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1a7d5867ad680a643ff7ce78948538285b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</type>
+        <type>unsafe <ref refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap" kindref="compound">MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</ref></type>
         <definition>unsafe MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap MR.VertColorMapAggregator.getPartialColorMap</definition>
         <argsstring>(int i)</argsstring>
         <name>getPartialColorMap</name>
@@ -302,7 +302,7 @@
         <name>aggregate</name>
         <qualifiedname>MR.VertColorMapAggregator.aggregate</qualifiedname>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>elementBitSet</declname>
         </param>
         <briefdescription>
@@ -329,6 +329,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertColorMapAggregator</label>
+        <link refid="classMR_1_1Const__VertColorMapAggregator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -350,6 +351,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertColorMapAggregator</label>
+        <link refid="classMR_1_1Const__VertColorMapAggregator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -366,6 +368,13 @@
     <listofallmembers>
       <member refid="classMR_1_1VertColorMapAggregator_1abf0154a96061e480547ad1c02b2e8c60" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>aggregate</name></member>
       <member refid="classMR_1_1VertColorMapAggregator_1aa4ea7dfb4303767befbee737f2bf5d5f" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VertColorMapAggregator_1a90ee8231fc3574b68eeb8b40220780d6" prot="package" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>Const_VertColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__VertColorMapAggregator_1a0b84579a8142e260c62650ace24839cf" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>Const_VertColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__VertColorMapAggregator_1aaf405674ca39d31ed377b6af7be12dab" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>Const_VertColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__VertColorMapAggregator_1a9b1e2b949108bbe1eb1a39a3ecccd76f" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>Const_VertColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__VertColorMapAggregator_1af8edc03eb507d7923bd3a48bbced91dc" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>Const_VertColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__VertColorMapAggregator_1a0ff6d37c9a99fc86f8959d5a28c2a2b1" prot="protected" virt="virtual"><scope>MR::VertColorMapAggregator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertColorMapAggregator_1a3be0421c724fdb6767282ad486ca0a85" prot="public" virt="virtual"><scope>MR::VertColorMapAggregator</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VertColorMapAggregator_1afa26691c4311e5a67507895186441af2" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>erase</name></member>
       <member refid="classMR_1_1VertColorMapAggregator_1ac494042add60feacab61086a403a42f3" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>getColorMapNumber</name></member>
       <member refid="classMR_1_1VertColorMapAggregator_1a7d5867ad680a643ff7ce78948538285b" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>getPartialColorMap</name></member>

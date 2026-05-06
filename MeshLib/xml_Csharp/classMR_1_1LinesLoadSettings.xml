@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LinesLoadSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::LinesLoadSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_LinesLoadSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__LinesLoadSettings" prot="public" virt="non-virtual">MR.Const_LinesLoadSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1LinesLoadSettings_1a0acf612ddc27150b5038c8055faaf034" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertColors" kindref="compound">VertColors</ref></type>
@@ -90,10 +90,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="196" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="196" bodyend="202"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1LinesLoadSettings_1afedd0cc463e23ac127fa4029e9b2b851" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1LinesLoadSettings_1a34ca3d8215ab3ac2177641183dcfc5ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.LinesLoadSettings.LinesLoadSettings</definition>
-        <argsstring>(MR.VertColors? colors, MR.Std._ByValue_Function_BoolFuncFromFloat callback, bool telemetrySignal)</argsstring>
+        <argsstring>(MR.VertColors? colors, MR.Std._ByValue_Function_Bool_From_Float callback, bool telemetrySignal)</argsstring>
         <name>LinesLoadSettings</name>
         <qualifiedname>MR.LinesLoadSettings.LinesLoadSettings</qualifiedname>
         <param>
@@ -101,7 +101,7 @@
           <declname>colors</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>callback</declname>
         </param>
         <param>
@@ -143,7 +143,7 @@
         <name>LinesLoadSettings</name>
         <qualifiedname>MR.LinesLoadSettings.LinesLoadSettings</qualifiedname>
         <param>
-          <type>Const_LinesLoadSettings</type>
+          <type><ref refid="classMR_1_1Const__LinesLoadSettings" kindref="compound">Const_LinesLoadSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LinesLoadSettings</label>
+        <link refid="classMR_1_1Const__LinesLoadSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -221,6 +222,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.LinesLoadSettings</label>
         <link refid="classMR_1_1LinesLoadSettings"/>
@@ -229,9 +234,13 @@
       </node>
       <node id="2">
         <label>MR.Const_LinesLoadSettings</label>
+        <link refid="classMR_1_1Const__LinesLoadSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_colors</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -243,12 +252,22 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="142" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="143" bodyend="250"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1adde8a139c2189b3a232d7250282ec10e" prot="protected" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>__ptr_storage_colors</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a7c133d4ff2d32eabcba4e451725d4e96" prot="protected" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>__ref_storage_telemetrySignal</name></member>
       <member refid="classMR_1_1LinesLoadSettings_1a0b65af4dc514a20bea41ec939e3cbaa1" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1LinesLoadSettings_1a1bddf020042c94007d339d72ab1f2415" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>callback</name></member>
       <member refid="classMR_1_1LinesLoadSettings_1a0acf612ddc27150b5038c8055faaf034" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>colors</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a3a65bba06838b93635787505f39ce046" prot="package" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>Const_LinesLoadSettings</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a525971bc1e7b944154d4828f7ac99576" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>Const_LinesLoadSettings</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a85c2a5dde29dc37a745fa78d17e2edce" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>Const_LinesLoadSettings</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a7638587c03ea78b125b49145621f470e" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>Const_LinesLoadSettings</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1aa2de215d1d78e1164f2a4db785564499" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>Const_LinesLoadSettings</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1ae7b0f7da9ec69708400933e1a9a6e118" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>Const_LinesLoadSettings</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a619461756a1fc18648565fb642841239" prot="protected" virt="virtual"><scope>MR::LinesLoadSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a0ee2c4c735e0bddc0da312379ec7f51b" prot="public" virt="virtual"><scope>MR::LinesLoadSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1LinesLoadSettings_1afb4afc94b49f25f246e16ad77ab13e25" prot="package" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>
       <member refid="classMR_1_1LinesLoadSettings_1ad784a907c794e9c084afa95fefbb47c5" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>
-      <member refid="classMR_1_1LinesLoadSettings_1afedd0cc463e23ac127fa4029e9b2b851" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>
+      <member refid="classMR_1_1LinesLoadSettings_1a34ca3d8215ab3ac2177641183dcfc5ba" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>
       <member refid="classMR_1_1LinesLoadSettings_1a59f90ec0634d67083357c9562dbf5ba8" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>
       <member refid="classMR_1_1LinesLoadSettings_1a6b7b3a4d254440c55739374d07faf38c" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>
       <member refid="classMR_1_1LinesLoadSettings_1acd2d7b5802a3fe929e864c7efb1ea4a3" prot="public" virt="non-virtual"><scope>MR::LinesLoadSettings</scope><name>LinesLoadSettings</name></member>

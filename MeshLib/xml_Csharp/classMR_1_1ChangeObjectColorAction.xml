@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeObjectColorAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeObjectColorAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeObjectColorAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeObjectColorAction" prot="public" virt="non-virtual">MR.Const_ChangeObjectColorAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1a79bb045fe70a850380905d3aa61ee4cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeObjectColorAction</name>
         <qualifiedname>MR.ChangeObjectColorAction.ChangeObjectColorAction</qualifiedname>
         <param>
-          <type>Const_ChangeObjectColorAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeObjectColorAction" kindref="compound">Const_ChangeObjectColorAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -138,7 +138,7 @@
           <declname>obj</declname>
         </param>
         <param>
-          <type>MR.ChangeObjectColorAction.Type</type>
+          <type><ref refid="classMR_1_1Const__ChangeObjectColorAction_1a025794d6068be9cbf39b0e8dcdfae991" kindref="member">MR.ChangeObjectColorAction.Type</ref></type>
           <declname>type</declname>
         </param>
         <briefdescription>
@@ -176,7 +176,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeObjectColorAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -203,6 +203,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeObjectColorAction</label>
+        <link refid="classMR_1_1Const__ChangeObjectColorAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,6 +225,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeObjectColorAction</label>
+        <link refid="classMR_1_1Const__ChangeObjectColorAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -245,8 +247,21 @@
       <member refid="classMR_1_1ChangeObjectColorAction_1a5bb10988283b81fba62af16fa217d5b2" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>ChangeObjectColorAction</name></member>
       <member refid="classMR_1_1ChangeObjectColorAction_1a4c7284fa4fbdf8ce9599f39791e4f038" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>ChangeObjectColorAction</name></member>
       <member refid="classMR_1_1ChangeObjectColorAction_1ac61037cee2c7903433eea49e34076761" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>ChangeObjectColorAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1ac4811736c1d2b1966ebf19242a119230" prot="package" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>Const_ChangeObjectColorAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1a808d64317887e54d87ebd45b4822c0db" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>Const_ChangeObjectColorAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1a20cf636b335df785d2c581cf7ff8c868" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>Const_ChangeObjectColorAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1a0bbf84f135136054ff29ef3a65005be9" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>Const_ChangeObjectColorAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1a1f8883b7ab36cfa9d78e99475e7246b6" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>Const_ChangeObjectColorAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1afd6156a826cdc4cb8aa8b0c700512315" prot="protected" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1ab7f349753955830cde6526b1582c243c" prot="public" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1a7a9d1ad90917853758464c5a6398c653" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1aa912b56f854583e10bdf82aa006d8fab" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeObjectColorAction_1af20559ea8deddc2284c81b44426ef56c" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>operator ChangeObjectColorAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1a19f6814566914e75fcb557d75a8eb9b4" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>operator Const_ChangeObjectColorAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1a9d04852f3862c8bcce9b2d757e9f51b9" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeObjectColorAction_1a79bb045fe70a850380905d3aa61ee4cc" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1a288f0371d42239e3a2f11b2e7cd8045f" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>setObjectDirty</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectColorAction_1a025794d6068be9cbf39b0e8dcdfae991" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>Type</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

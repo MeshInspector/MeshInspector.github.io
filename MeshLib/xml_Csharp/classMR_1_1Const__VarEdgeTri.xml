@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VarEdgeTri" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VarEdgeTri</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VarEdgeTri" prot="public" virt="non-virtual">MR.VarEdgeTri</derivedcompoundref>
+    <innerclass refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri" prot="public">MR::Const_VarEdgeTri::Const_FlaggedTri</innerclass>
+    <innerclass refid="classMR_1_1Const__VarEdgeTri_1_1FlaggedTri" prot="public">MR::Const_VarEdgeTri::FlaggedTri</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__VarEdgeTri_1abcd2c8f926bfa68cde9e6a71dd742fe0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe ref readonly MR.EdgeId MR.Const_VarEdgeTri.edge</definition>
+        <argsstring></argsstring>
+        <name>edge</name>
+        <qualifiedname>MR.Const_VarEdgeTri.edge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="263" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__VarEdgeTri_1a5a3da207343bb15117706bcabc0b7d2e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri" kindref="compound">MR.VarEdgeTri.Const_FlaggedTri</ref></type>
+        <definition>unsafe MR.VarEdgeTri.Const_FlaggedTri MR.Const_VarEdgeTri.flaggedTri</definition>
+        <argsstring></argsstring>
+        <name>flaggedTri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.flaggedTri</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="266" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="266" bodyend="266"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__VarEdgeTri_1a16f50b79d85fe1c977a076af9395aa9c" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> *</type>
+        <definition>unsafe MR.EdgeId* MR.Const_VarEdgeTri.__ref_storage_edge</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_edge</name>
+        <qualifiedname>MR.Const_VarEdgeTri.__ref_storage_edge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="264" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="264" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1a5ef07e0de663519da991e85b0e36e682" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_VarEdgeTri.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VarEdgeTri.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="251" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="251" bodyend="259"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1a7346908917b44a2600e39df83aa1ecd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_VarEdgeTri.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VarEdgeTri.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="260" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="260" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1ae1a67a1de019ff1f1c9bb328a9e93d83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VarEdgeTri.Const_VarEdgeTri</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VarEdgeTri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.Const_VarEdgeTri</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="300" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="300" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1aceab15a9b4b6d1b7036e9c11420e32ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VarEdgeTri.Const_VarEdgeTri</definition>
+        <argsstring>(MR.Const_VarEdgeTri _other)</argsstring>
+        <name>Const_VarEdgeTri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.Const_VarEdgeTri</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VarEdgeTri" kindref="compound">MR.Const_VarEdgeTri</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VarEdgeTri_1a937042cd5f21708e75c60cce7d2a8efe" kindref="member">MR.VarEdgeTri.VarEdgeTri</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="311" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="311" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1a2e8bb75c701824b1a5b19b2a3c6b6a2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VarEdgeTri.Const_VarEdgeTri</definition>
+        <argsstring>(VarEdgeTri _other)</argsstring>
+        <name>Const_VarEdgeTri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.Const_VarEdgeTri</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VarEdgeTri" kindref="compound">VarEdgeTri</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VarEdgeTri_1a937042cd5f21708e75c60cce7d2a8efe" kindref="member">MR.VarEdgeTri.VarEdgeTri</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="323" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="323" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1a5a7cd3aa3c5720dd27df9787cef024eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VarEdgeTri.Const_VarEdgeTri</definition>
+        <argsstring>(bool isEdgeATriB, MR.EdgeId e, MR.FaceId t)</argsstring>
+        <name>Const_VarEdgeTri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.Const_VarEdgeTri</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isEdgeATriB</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VarEdgeTri_1a937042cd5f21708e75c60cce7d2a8efe" kindref="member">MR.VarEdgeTri.VarEdgeTri</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="328" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="328" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1a07041d76d5e0bc62975913805a759daa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VarEdgeTri.Const_VarEdgeTri</definition>
+        <argsstring>(bool isEdgeATriB, MR.Const_EdgeTri et)</argsstring>
+        <name>Const_VarEdgeTri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.Const_VarEdgeTri</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isEdgeATriB</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeTri" kindref="compound">MR.Const_EdgeTri</ref></type>
+          <declname>et</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VarEdgeTri_1a937042cd5f21708e75c60cce7d2a8efe" kindref="member">MR.VarEdgeTri.VarEdgeTri</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="339" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="339" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1a0415489018f0bf746d29be2a0919f64e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_VarEdgeTri.tri</definition>
+        <argsstring>()</argsstring>
+        <name>tri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.tri</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VarEdgeTri_1a0415489018f0bf746d29be2a0919f64e" kindref="member">MR.VarEdgeTri.tri</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="361" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="361" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1a78c8aec0b3dad7471d4800eb391176db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VarEdgeTri.isEdgeATriB</definition>
+        <argsstring>()</argsstring>
+        <name>isEdgeATriB</name>
+        <qualifiedname>MR.Const_VarEdgeTri.isEdgeATriB</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VarEdgeTri_1a78c8aec0b3dad7471d4800eb391176db" kindref="member">MR.VarEdgeTri.isEdgeATriB</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="371" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="371" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1a73e2f4853e00a096632228e4368af89f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1EdgeTri" kindref="compound">MR.EdgeTri</ref></type>
+        <definition>unsafe MR.EdgeTri MR.Const_VarEdgeTri.edgeTri</definition>
+        <argsstring>()</argsstring>
+        <name>edgeTri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.edgeTri</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VarEdgeTri_1a73e2f4853e00a096632228e4368af89f" kindref="member">MR.VarEdgeTri.edgeTri</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="381" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="381" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1a67bdf7a682543a88f7af16589f207356" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VarEdgeTri.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.Const_VarEdgeTri.valid</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VarEdgeTri_1a67bdf7a682543a88f7af16589f207356" kindref="member">MR.VarEdgeTri.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="391" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="391" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1a577d58e8ea6645221ad14e02ed58da04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_VarEdgeTri.Equals</definition>
+        <argsstring>(MR.Const_VarEdgeTri? _1)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_VarEdgeTri.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VarEdgeTri" kindref="compound">MR.Const_VarEdgeTri</ref>?</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="580" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="580" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1a20c8ad042e10bc1fc6b198b339acfc60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_VarEdgeTri.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_VarEdgeTri.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="587" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="587" bodyend="594"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1a225c20f643b28d7ff51cb3a7cb4318d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VarEdgeTri.~Const_VarEdgeTri</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VarEdgeTri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.~Const_VarEdgeTri</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="261" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="261" bodyend="261"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1aa320296aa8ce7abbf6771aa36b1c8ba7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VarEdgeTri.Const_VarEdgeTri</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VarEdgeTri</name>
+        <qualifiedname>MR.Const_VarEdgeTri.Const_VarEdgeTri</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="289" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="289" bodyend="294"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1acf090ba15d5944ff40fb32692aa4a673" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_VarEdgeTri.operator bool</definition>
+        <argsstring>(MR.Const_VarEdgeTri _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Const_VarEdgeTri.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VarEdgeTri" kindref="compound">MR.Const_VarEdgeTri</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::VarEdgeTri::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="351" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="351" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1ae4772e5c6c7443cd39cfeb7759ee5930" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_VarEdgeTri.operator==</definition>
+        <argsstring>(MR.Const_VarEdgeTri _this, MR.Const_VarEdgeTri _1)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_VarEdgeTri.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VarEdgeTri" kindref="compound">MR.Const_VarEdgeTri</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VarEdgeTri" kindref="compound">MR.Const_VarEdgeTri</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VarEdgeTri::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="401" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="401" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VarEdgeTri_1ad61264ed5a9917995f0b92713a54aa28" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_VarEdgeTri.operator!=</definition>
+        <argsstring>(MR.Const_VarEdgeTri _this, MR.Const_VarEdgeTri _1)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_VarEdgeTri.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VarEdgeTri" kindref="compound">MR.Const_VarEdgeTri</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VarEdgeTri" kindref="compound">MR.Const_VarEdgeTri</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="408" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="408" bodyend="411"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>if <ref refid="classMR_1_1Const__VarEdgeTri_1a78c8aec0b3dad7471d4800eb391176db" kindref="member">isEdgeATriB()</ref> == true, then stores edge from mesh A and triangle from mesh B if <ref refid="classMR_1_1Const__VarEdgeTri_1a78c8aec0b3dad7471d4800eb391176db" kindref="member">isEdgeATriB()</ref> == false, then stores edge from mesh B and triangle from mesh A Generated from class <computeroutput><ref refid="classMR_1_1VarEdgeTri" kindref="compound">MR.VarEdgeTri</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_VarEdgeTri</label>
+        <link refid="classMR_1_1Const__VarEdgeTri"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.VarEdgeTri</label>
+        <link refid="classMR_1_1VarEdgeTri"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_VarEdgeTri</label>
+        <link refid="classMR_1_1Const__VarEdgeTri"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_edge</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="245" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="246" bodyend="595"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a16f50b79d85fe1c977a076af9395aa9c" prot="protected" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>__ref_storage_edge</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1aa320296aa8ce7abbf6771aa36b1c8ba7" prot="package" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>Const_VarEdgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1ae1a67a1de019ff1f1c9bb328a9e93d83" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>Const_VarEdgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1aceab15a9b4b6d1b7036e9c11420e32ef" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>Const_VarEdgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a2e8bb75c701824b1a5b19b2a3c6b6a2b" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>Const_VarEdgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a5a7cd3aa3c5720dd27df9787cef024eb" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>Const_VarEdgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a07041d76d5e0bc62975913805a759daa" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>Const_VarEdgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a5ef07e0de663519da991e85b0e36e682" prot="protected" virt="virtual"><scope>MR::Const_VarEdgeTri</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a7346908917b44a2600e39df83aa1ecd4" prot="public" virt="virtual"><scope>MR::Const_VarEdgeTri</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1abcd2c8f926bfa68cde9e6a71dd742fe0" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>edge</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a73e2f4853e00a096632228e4368af89f" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>edgeTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a577d58e8ea6645221ad14e02ed58da04" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a20c8ad042e10bc1fc6b198b339acfc60" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a5a3da207343bb15117706bcabc0b7d2e" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>flaggedTri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a78c8aec0b3dad7471d4800eb391176db" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>isEdgeATriB</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1acf090ba15d5944ff40fb32692aa4a673" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1ad61264ed5a9917995f0b92713a54aa28" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1ae4772e5c6c7443cd39cfeb7759ee5930" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a0415489018f0bf746d29be2a0919f64e" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>tri</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a67bdf7a682543a88f7af16589f207356" prot="public" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__VarEdgeTri_1a225c20f643b28d7ff51cb3a7cb4318d5" prot="private" virt="non-virtual"><scope>MR::Const_VarEdgeTri</scope><name>~Const_VarEdgeTri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

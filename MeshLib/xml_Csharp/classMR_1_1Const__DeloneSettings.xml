@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__DeloneSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_DeloneSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1DeloneSettings" prot="public" virt="non-virtual">MR.DeloneSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__DeloneSettings_1a34c7d8ea1740d3aa29505ced049b0937" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DeloneSettings.maxDeviationAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxDeviationAfterFlip</name>
+        <qualifiedname>MR.Const_DeloneSettings.maxDeviationAfterFlip</qualifiedname>
+        <briefdescription>
+<para>Maximal allowed surface deviation during every individual flip. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="28" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DeloneSettings_1a7a8c6f85c0a0df9b21ee9494519fb738" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DeloneSettings.maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>MR.Const_DeloneSettings.maxAngleChange</qualifiedname>
+        <briefdescription>
+<para>Maximal allowed dihedral angle change (in radians) over the flipped edge. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="34" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DeloneSettings_1adc85c63619801b9eabd67fffe51fb306" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_DeloneSettings.criticalTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>MR.Const_DeloneSettings.criticalTriAspectRatio</qualifiedname>
+        <briefdescription>
+<para>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="41" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DeloneSettings_1a80148e90901c3dc48f052fd07d2b80ba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">Const_FaceBitSet</ref></type>
+        <definition>unsafe MR.? Const_FaceBitSet MR.Const_DeloneSettings.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.Const_DeloneSettings.region</qualifiedname>
+        <briefdescription>
+<para>Only edges with left and right faces in this set can be flipped. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="47" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="48" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DeloneSettings_1a5613e2e85dfc38a7fd4cc433a4e4d362" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">Const_UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.? Const_UndirectedEdgeBitSet MR.Const_DeloneSettings.notFlippable</definition>
+        <argsstring></argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>MR.Const_DeloneSettings.notFlippable</qualifiedname>
+        <briefdescription>
+<para><ref refid="classMR_1_1Edges" kindref="compound">Edges</ref> specified by this bit-set will never be flipped. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="65" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="66" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__DeloneSettings_1ae30fec3df38f7a5f0618453c56c9bbaf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
+        <definition>unsafe MR.? Const_VertBitSet MR.Const_DeloneSettings.vertRegion</definition>
+        <argsstring></argsstring>
+        <name>vertRegion</name>
+        <qualifiedname>MR.Const_DeloneSettings.vertRegion</qualifiedname>
+        <briefdescription>
+<para>Only edges with origin or destination in this set before or after flip can be flipped. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="83" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="84" bodyend="95"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__DeloneSettings_1adf2e90024a808dc38a816bff8869ca5a" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DeloneSettings.__ref_storage_maxDeviationAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxDeviationAfterFlip</name>
+        <qualifiedname>MR.Const_DeloneSettings.__ref_storage_maxDeviationAfterFlip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="29" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DeloneSettings_1a7416647685e6747fd417c2b04a200812" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DeloneSettings.__ref_storage_maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxAngleChange</name>
+        <qualifiedname>MR.Const_DeloneSettings.__ref_storage_maxAngleChange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="35" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DeloneSettings_1a653aa2ab88804ce720c847a7f8904929" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_DeloneSettings.__ref_storage_criticalTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_criticalTriAspectRatio</name>
+        <qualifiedname>MR.Const_DeloneSettings.__ref_storage_criticalTriAspectRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="42" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DeloneSettings_1a58366aaf825fe4b3b9dd2b70f1f0a412" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_FaceBitSet._Underlying **</type>
+        <definition>unsafe MR.Const_FaceBitSet._Underlying** MR.Const_DeloneSettings.__ptr_storage_region</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_region</name>
+        <qualifiedname>MR.Const_DeloneSettings.__ptr_storage_region</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="60" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DeloneSettings_1a9a9bfc6427b757241418d037289d2891" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_UndirectedEdgeBitSet._Underlying **</type>
+        <definition>unsafe MR.Const_UndirectedEdgeBitSet._Underlying** MR.Const_DeloneSettings.__ptr_storage_notFlippable</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_notFlippable</name>
+        <qualifiedname>MR.Const_DeloneSettings.__ptr_storage_notFlippable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="78" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__DeloneSettings_1aa8c739906eb3e1ca63812be81a9b6564" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertBitSet._Underlying **</type>
+        <definition>unsafe MR.Const_VertBitSet._Underlying** MR.Const_DeloneSettings.__ptr_storage_vertRegion</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_vertRegion</name>
+        <qualifiedname>MR.Const_DeloneSettings.__ptr_storage_vertRegion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="96" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__DeloneSettings_1a08599f04cabd8265005d20f7b38822dd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_DeloneSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DeloneSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__DeloneSettings_1ad2be551d8ab8baf3b31cf61535801012" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_DeloneSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_DeloneSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DeloneSettings_1acb92d26ed740f19aa94c8ec47d8bc918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DeloneSettings.Const_DeloneSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_DeloneSettings</name>
+        <qualifiedname>MR.Const_DeloneSettings.Const_DeloneSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="153" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="153" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DeloneSettings_1a4a10c9adbebde007efb2e8146b2eb71d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DeloneSettings.Const_DeloneSettings</definition>
+        <argsstring>(float maxDeviationAfterFlip, float maxAngleChange, float criticalTriAspectRatio, MR.Const_FaceBitSet? region, MR.Const_UndirectedEdgeBitSet? notFlippable, MR.Const_VertBitSet? vertRegion)</argsstring>
+        <name>Const_DeloneSettings</name>
+        <qualifiedname>MR.Const_DeloneSettings.Const_DeloneSettings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>maxDeviationAfterFlip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChange</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalTriAspectRatio</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
+          <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
+          <declname>vertRegion</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1DeloneSettings" kindref="compound">MR.DeloneSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="164" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="164" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DeloneSettings_1ac5c00dcd641a9e88a06616e634706f3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DeloneSettings.Const_DeloneSettings</definition>
+        <argsstring>(MR.Const_DeloneSettings _other)</argsstring>
+        <name>Const_DeloneSettings</name>
+        <qualifiedname>MR.Const_DeloneSettings.Const_DeloneSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__DeloneSettings" kindref="compound">MR.Const_DeloneSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DeloneSettings_1aff233148205194709d50b37f4722aa19" kindref="member">MR.DeloneSettings.DeloneSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="178" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="178" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__DeloneSettings_1a5b4dd78bedc07d3d51d94842b8f97675" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DeloneSettings.Const_DeloneSettings</definition>
+        <argsstring>(DeloneSettings _other)</argsstring>
+        <name>Const_DeloneSettings</name>
+        <qualifiedname>MR.Const_DeloneSettings.Const_DeloneSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DeloneSettings" kindref="compound">DeloneSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1DeloneSettings_1aff233148205194709d50b37f4722aa19" kindref="member">MR.DeloneSettings.DeloneSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="190" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="190" bodyend="190"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__DeloneSettings_1abb7243bec5c0e73202bf805d8d6c37ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_DeloneSettings.~Const_DeloneSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_DeloneSettings</name>
+        <qualifiedname>MR.Const_DeloneSettings.~Const_DeloneSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__DeloneSettings_1ad85990a5423cc94abf37bf4db14e6ddd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_DeloneSettings.Const_DeloneSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_DeloneSettings</name>
+        <qualifiedname>MR.Const_DeloneSettings.Const_DeloneSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="142" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="142" bodyend="147"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1DeloneSettings" kindref="compound">MR.DeloneSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_DeloneSettings</label>
+        <link refid="classMR_1_1Const__DeloneSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.DeloneSettings</label>
+        <link refid="classMR_1_1DeloneSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_DeloneSettings</label>
+        <link refid="classMR_1_1Const__DeloneSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_notFlippable</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ptr_storage_vertRegion</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="8" bodyend="191"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__DeloneSettings_1a9a9bfc6427b757241418d037289d2891" prot="protected" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>__ptr_storage_notFlippable</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a58366aaf825fe4b3b9dd2b70f1f0a412" prot="protected" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1aa8c739906eb3e1ca63812be81a9b6564" prot="protected" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>__ptr_storage_vertRegion</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a653aa2ab88804ce720c847a7f8904929" prot="protected" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>__ref_storage_criticalTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a7416647685e6747fd417c2b04a200812" prot="protected" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>__ref_storage_maxAngleChange</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1adf2e90024a808dc38a816bff8869ca5a" prot="protected" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>__ref_storage_maxDeviationAfterFlip</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1ad85990a5423cc94abf37bf4db14e6ddd" prot="package" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>Const_DeloneSettings</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1acb92d26ed740f19aa94c8ec47d8bc918" prot="public" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>Const_DeloneSettings</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a4a10c9adbebde007efb2e8146b2eb71d" prot="public" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>Const_DeloneSettings</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1ac5c00dcd641a9e88a06616e634706f3a" prot="public" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>Const_DeloneSettings</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a5b4dd78bedc07d3d51d94842b8f97675" prot="public" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>Const_DeloneSettings</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1adc85c63619801b9eabd67fffe51fb306" prot="public" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a08599f04cabd8265005d20f7b38822dd" prot="protected" virt="virtual"><scope>MR::Const_DeloneSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1ad2be551d8ab8baf3b31cf61535801012" prot="public" virt="virtual"><scope>MR::Const_DeloneSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a7a8c6f85c0a0df9b21ee9494519fb738" prot="public" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>maxAngleChange</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a34c7d8ea1740d3aa29505ced049b0937" prot="public" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>maxDeviationAfterFlip</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a5613e2e85dfc38a7fd4cc433a4e4d362" prot="public" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>notFlippable</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a80148e90901c3dc48f052fd07d2b80ba" prot="public" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>region</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1ae30fec3df38f7a5f0618453c56c9bbaf" prot="public" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>vertRegion</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1abb7243bec5c0e73202bf805d8d6c37ea" prot="private" virt="non-virtual"><scope>MR::Const_DeloneSettings</scope><name>~Const_DeloneSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

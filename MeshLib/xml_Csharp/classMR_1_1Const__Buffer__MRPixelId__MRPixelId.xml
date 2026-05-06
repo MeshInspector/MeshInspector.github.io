@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Buffer_MRPixelId_MRPixelId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Buffer__MRPixelId__MRPixelId" prot="public" virt="non-virtual">MR.Buffer_MRPixelId_MRPixelId</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a99ed4e3426bf9c97fd2c0a53c7ab2a57" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__NoDefInit__MRPixelId" kindref="compound">MR.Const_NoDefInit_MRPixelId</ref></type>
+        <definition>unsafe MR.Const_NoDefInit_MRPixelId MR.Const_Buffer_MRPixelId_MRPixelId.this[MR.PixelId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.PixelId i]</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.this[MR.PixelId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6478" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6479" bodyend="6489"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1add719df46a7d0aa69583c89b9713073c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Buffer_MRPixelId_MRPixelId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6336" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6336" bodyend="6344"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a5fadad07c5d24030c99d69efed9bf560" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Buffer_MRPixelId_MRPixelId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6345" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6345" bodyend="6345"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a32f208c61665a9ca199035a6ba90f6e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="classMR_1_1NoDefInit__MRPixelId" kindref="compound">MR.NoDefInit_MRPixelId</ref> &gt;</type>
+        <definition>IEnumerator&lt; MR.NoDefInit_MRPixelId &gt; MR.Const_Buffer_MRPixelId_MRPixelId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6402" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6402" bodyend="6405"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a2aae45d62dbce9dc555680df4d17e1fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Buffer_MRPixelId_MRPixelId.Const_Buffer_MRPixelId_MRPixelId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Buffer_MRPixelId_MRPixelId</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.Const_Buffer_MRPixelId_MRPixelId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6417" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6417" bodyend="6422"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a5346775255f9bafae629fcb20656197c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Buffer_MRPixelId_MRPixelId.Const_Buffer_MRPixelId_MRPixelId</definition>
+        <argsstring>(MR._ByValue_Buffer_MRPixelId_MRPixelId _other)</argsstring>
+        <name>Const_Buffer_MRPixelId_MRPixelId</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.Const_Buffer_MRPixelId_MRPixelId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRPixelId_MRPixelId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6427" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6427" bodyend="6433"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1afa69bc8d39c438c47fc68847a83cdef2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Buffer_MRPixelId_MRPixelId.Const_Buffer_MRPixelId_MRPixelId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Buffer_MRPixelId_MRPixelId</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.Const_Buffer_MRPixelId_MRPixelId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;::Buffer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6438" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6438" bodyend="6443"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1af7f33615b9a002053841884d1c24e50e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Buffer_MRPixelId_MRPixelId.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1af7f33615b9a002053841884d1c24e50e" kindref="member">capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6448" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6448" bodyend="6453"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1ac01bc10a0fe8b8f300da622f48976255" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Buffer_MRPixelId_MRPixelId.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1ac01bc10a0fe8b8f300da622f48976255" kindref="member">size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6458" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6458" bodyend="6463"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a702e1d339959fb0b66129d4f81a76138" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Buffer_MRPixelId_MRPixelId.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a702e1d339959fb0b66129d4f81a76138" kindref="member">empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6468" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6468" bodyend="6473"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1ad7abd9d0d21ea35a1079bd5d89bbeb8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1NoDefInit__MRPixelId" kindref="compound">NoDefInit_MRPixelId</ref></type>
+        <definition>unsafe MR.? NoDefInit_MRPixelId MR.Const_Buffer_MRPixelId_MRPixelId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1ad7abd9d0d21ea35a1079bd5d89bbeb8a" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6494" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6494" bodyend="6503"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a13cd782d8438d8e1ac75f919d97fe69d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
+        <definition>unsafe MR.PixelId MR.Const_Buffer_MRPixelId_MRPixelId.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a13cd782d8438d8e1ac75f919d97fe69d" kindref="member">beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6509" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6509" bodyend="6514"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a525afce169debddbb1a16bf7c2ed0132" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
+        <definition>unsafe MR.PixelId MR.Const_Buffer_MRPixelId_MRPixelId.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the back() element Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a525afce169debddbb1a16bf7c2ed0132" kindref="member">backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6520" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6520" bodyend="6525"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1ad5f710009971df934add8f67338ecd81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
+        <definition>unsafe MR.PixelId MR.Const_Buffer_MRPixelId_MRPixelId.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a525afce169debddbb1a16bf7c2ed0132" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1ad5f710009971df934add8f67338ecd81" kindref="member">endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6531" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6531" bodyend="6536"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a7992975ea0506a6f6be3d0b53a4e9584" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Buffer_MRPixelId_MRPixelId.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;<ref refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a7992975ea0506a6f6be3d0b53a4e9584" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6542" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6542" bodyend="6547"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a75c92262425d69047da98890519d9250" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Buffer_MRPixelId_MRPixelId.~Const_Buffer_MRPixelId_MRPixelId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Buffer_MRPixelId_MRPixelId</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.~Const_Buffer_MRPixelId_MRPixelId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6346" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6346" bodyend="6346"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a96b8ff8e69c5a08241aa3f24f9271543" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Buffer_MRPixelId_MRPixelId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6407" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6407" bodyend="6410"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a151c42247346161a56a4efecaa78057a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Buffer_MRPixelId_MRPixelId.Const_Buffer_MRPixelId_MRPixelId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Buffer_MRPixelId_MRPixelId</name>
+        <qualifiedname>MR.Const_Buffer_MRPixelId_MRPixelId.Const_Buffer_MRPixelId_MRPixelId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6412" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6412" bodyend="6412"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>V</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>, <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Buffer_MRPixelId_MRPixelId</label>
+        <link refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.Buffer_MRPixelId_MRPixelId</label>
+        <link refid="classMR_1_1Buffer__MRPixelId__MRPixelId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Buffer_MRPixelId_MRPixelId</label>
+        <link refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="6330" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="6331" bodyend="6548"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a525afce169debddbb1a16bf7c2ed0132" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a13cd782d8438d8e1ac75f919d97fe69d" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1af7f33615b9a002053841884d1c24e50e" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a151c42247346161a56a4efecaa78057a" prot="package" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>Const_Buffer_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a2aae45d62dbce9dc555680df4d17e1fa" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>Const_Buffer_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a5346775255f9bafae629fcb20656197c" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>Const_Buffer_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1afa69bc8d39c438c47fc68847a83cdef2" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>Const_Buffer_MRPixelId_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1ad7abd9d0d21ea35a1079bd5d89bbeb8a" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1add719df46a7d0aa69583c89b9713073c" prot="protected" virt="virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a5fadad07c5d24030c99d69efed9bf560" prot="public" virt="virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a702e1d339959fb0b66129d4f81a76138" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1ad5f710009971df934add8f67338ecd81" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a32f208c61665a9ca199035a6ba90f6e4" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a96b8ff8e69c5a08241aa3f24f9271543" prot="private" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a7992975ea0506a6f6be3d0b53a4e9584" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1ac01bc10a0fe8b8f300da622f48976255" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a99ed4e3426bf9c97fd2c0a53c7ab2a57" prot="public" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>this[MR.PixelId i]</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRPixelId__MRPixelId_1a75c92262425d69047da98890519d9250" prot="private" virt="non-virtual"><scope>MR::Const_Buffer_MRPixelId_MRPixelId</scope><name>~Const_Buffer_MRPixelId_MRPixelId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

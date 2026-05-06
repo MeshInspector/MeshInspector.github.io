@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FixCreasesParams" kind="class" language="C#" prot="public">
     <compoundname>MR::FixCreasesParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FixCreasesParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FixCreasesParams" prot="public" virt="non-virtual">MR.Const_FixCreasesParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FixCreasesParams_1a2f33ec700fda47d26df3427091fa4132" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="524" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="524" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="543" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="543" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FixCreasesParams_1a85881cb5b64d05fb0bcc267e5c91c403" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="529" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="529" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="548" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="548" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1FixCreasesParams_1a6df854ef79af3de4cd41d46009804481" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="534" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="534" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="553" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="553" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="538" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="538" bodyend="542"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="557" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="557" bodyend="561"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="548" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="548" bodyend="554"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="567" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="567" bodyend="573"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FixCreasesParams_1a24289f1c3d7fdf4d197dce5d5632e2ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="559" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="559" bodyend="565"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="578" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="578" bodyend="584"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FixCreasesParams_1a99b2d648a4d4474f90a0138f5cc36615" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -124,7 +124,7 @@
         <name>FixCreasesParams</name>
         <qualifiedname>MR.FixCreasesParams.FixCreasesParams</qualifiedname>
         <param>
-          <type>MR.Const_FixCreasesParams</type>
+          <type><ref refid="classMR_1_1Const__FixCreasesParams" kindref="compound">MR.Const_FixCreasesParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="570" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="570" bodyend="577"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="589" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="589" bodyend="596"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FixCreasesParams_1ac2d6646321c8c3c9b0fcba8fce9879d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="582" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="582" bodyend="582"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="601" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="601" bodyend="601"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FixCreasesParams_1a3d82efc0ed68089a4153bb9d9660d50a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FixCreasesParams" kindref="compound">MR.FixCreasesParams</ref></type>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.FixCreasesParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_FixCreasesParams</type>
+          <type><ref refid="classMR_1_1Const__FixCreasesParams" kindref="compound">MR.Const_FixCreasesParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="587" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="587" bodyend="594"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="606" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="606" bodyend="613"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FixCreasesParams</label>
+        <link refid="classMR_1_1Const__FixCreasesParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -210,6 +211,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FixCreasesParams</label>
+        <link refid="classMR_1_1Const__FixCreasesParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -222,11 +224,21 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="519" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="520" bodyend="595"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="538" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="539" bodyend="614"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FixCreasesParams_1a95e9c7f9374215c1e0c004c58d4f6451" prot="protected" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>__ref_storage_creaseAngle</name></member>
+      <member refid="classMR_1_1Const__FixCreasesParams_1adff41abd65eb5bf0ac4b36cb62be2e5c" prot="protected" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>__ref_storage_criticalTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__FixCreasesParams_1a9d161296e14715b6f33ffb27765b1560" prot="protected" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>__ref_storage_maxIters</name></member>
       <member refid="classMR_1_1FixCreasesParams_1a3d82efc0ed68089a4153bb9d9660d50a" prot="public" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__FixCreasesParams_1a3beb62250db078d5e31c9118e870d71d" prot="package" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>Const_FixCreasesParams</name></member>
+      <member refid="classMR_1_1Const__FixCreasesParams_1a2abca3fa32d35a0292e1940d539f1b98" prot="public" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>Const_FixCreasesParams</name></member>
+      <member refid="classMR_1_1Const__FixCreasesParams_1a0c89248da85d48d2374069b067c47aef" prot="public" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>Const_FixCreasesParams</name></member>
+      <member refid="classMR_1_1Const__FixCreasesParams_1a300abbe9e41904d6434e0072cf5093c1" prot="public" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>Const_FixCreasesParams</name></member>
+      <member refid="classMR_1_1Const__FixCreasesParams_1a281514f230f6688e17600e8c92bcab62" prot="public" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>Const_FixCreasesParams</name></member>
       <member refid="classMR_1_1FixCreasesParams_1a2f33ec700fda47d26df3427091fa4132" prot="public" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>creaseAngle</name></member>
       <member refid="classMR_1_1FixCreasesParams_1a85881cb5b64d05fb0bcc267e5c91c403" prot="public" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__FixCreasesParams_1ae3aede7604dd5301b06abb95b5e23b1b" prot="protected" virt="virtual"><scope>MR::FixCreasesParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FixCreasesParams_1a49c83fdd98eb18575d643c0667d8e158" prot="public" virt="virtual"><scope>MR::FixCreasesParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FixCreasesParams_1a6de3dceab6bf9b3991d66d63a7dc04b3" prot="package" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>FixCreasesParams</name></member>
       <member refid="classMR_1_1FixCreasesParams_1ae111d4a5aaf828db3d105470fa791677" prot="public" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>FixCreasesParams</name></member>
       <member refid="classMR_1_1FixCreasesParams_1a24289f1c3d7fdf4d197dce5d5632e2ac" prot="public" virt="non-virtual"><scope>MR::FixCreasesParams</scope><name>FixCreasesParams</name></member>

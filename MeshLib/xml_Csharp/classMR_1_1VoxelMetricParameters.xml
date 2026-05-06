@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelMetricParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelMetricParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelMetricParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VoxelMetricParameters" prot="public" virt="non-virtual">MR.Const_VoxelMetricParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VoxelMetricParameters_1a319d35a08b2da31a6788f8c2b428be31" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref ulong</type>
@@ -41,7 +41,7 @@
         <name>maxDistRatio</name>
         <qualifiedname>MR.VoxelMetricParameters.maxDistRatio</qualifiedname>
         <briefdescription>
-<para>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &amp;gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed </para>
+<para>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -162,7 +162,7 @@
         <name>VoxelMetricParameters</name>
         <qualifiedname>MR.VoxelMetricParameters.VoxelMetricParameters</qualifiedname>
         <param>
-          <type>MR.Const_VoxelMetricParameters</type>
+          <type><ref refid="classMR_1_1Const__VoxelMetricParameters" kindref="compound">MR.Const_VoxelMetricParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -200,7 +200,7 @@
         <name>assign</name>
         <qualifiedname>MR.VoxelMetricParameters.assign</qualifiedname>
         <param>
-          <type>MR.Const_VoxelMetricParameters</type>
+          <type><ref refid="classMR_1_1Const__VoxelMetricParameters" kindref="compound">MR.Const_VoxelMetricParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -227,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelMetricParameters</label>
+        <link refid="classMR_1_1Const__VoxelMetricParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -240,6 +241,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.VoxelMetricParameters</label>
         <link refid="classMR_1_1VoxelMetricParameters"/>
@@ -248,9 +253,14 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelMetricParameters</label>
+        <link refid="classMR_1_1Const__VoxelMetricParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_plane</edgelabel>
+          <edgelabel>__ref_storage_quatersMask</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -262,7 +272,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" line="179" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelPath.cs" bodystart="180" bodyend="265"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a21dd2bec1d85bbcae71540d07ee78d8b" prot="protected" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>__ref_storage_maxDistRatio</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a98db8493dc268ebd4cf9dac3560fe26e" prot="protected" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>__ref_storage_plane</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1ab94bd6c3bc998f32488230281214276a" prot="protected" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>__ref_storage_quatersMask</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1af86f0afc85859d80e2e5eb90db431483" prot="protected" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>__ref_storage_start</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a9cf164bffd8409d78025fc46b22855a0" prot="protected" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>__ref_storage_stop</name></member>
       <member refid="classMR_1_1VoxelMetricParameters_1a240cdee4d23eea612d6c1b00907afcd4" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a9891a0c49470025062ea26afb9b140b4" prot="package" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>Const_VoxelMetricParameters</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a4cfa7da5e39acd7f6418951154a8ebe7" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>Const_VoxelMetricParameters</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1ac70bfd8e59f54bafd2535f9b4115919e" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>Const_VoxelMetricParameters</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1ac074a53645e40f222952206ce41d0838" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>Const_VoxelMetricParameters</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a10a874be75f162dde40c9b79a050f03d" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>Const_VoxelMetricParameters</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1a87e25353d0b02e9de0766f88aefe20d2" prot="protected" virt="virtual"><scope>MR::VoxelMetricParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelMetricParameters_1aeac212f5334eb57e01e4f38b36055043" prot="public" virt="virtual"><scope>MR::VoxelMetricParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VoxelMetricParameters_1aaf7981485a2688b63b0e34b345637060" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>maxDistRatio</name></member>
       <member refid="classMR_1_1VoxelMetricParameters_1a9cae0d5c1d0dc11ee35e8c152b8987dd" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>plane</name></member>
       <member refid="classMR_1_1VoxelMetricParameters_1a4291965aee52e1768148f13542bafc88" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>quatersMask</name></member>

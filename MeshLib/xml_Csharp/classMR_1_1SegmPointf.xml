@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SegmPointf" kind="class" language="C#" prot="public">
     <compoundname>MR::SegmPointf</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SegmPointf</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SegmPointf" prot="public" virt="non-virtual">MR.Const_SegmPointf</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SegmPointf_1aaa814d1b0c9279af10a35e4e1bd5bfe5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -11,7 +11,7 @@
         <name>a</name>
         <qualifiedname>MR.SegmPointf.a</qualifiedname>
         <briefdescription>
-<para>a in [0,1], a=0 =&amp;gt; point is in v0, a=1 =&amp;gt; point is in v1 </para>
+<para>a in [0,1], a=0 =&gt; point is in v0, a=1 =&gt; point is in v1 </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -67,7 +67,7 @@
         <name>SegmPointf</name>
         <qualifiedname>MR.SegmPointf.SegmPointf</qualifiedname>
         <param>
-          <type>MR.Const_SegmPointf</type>
+          <type><ref refid="classMR_1_1Const__SegmPointf" kindref="compound">MR.Const_SegmPointf</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -139,7 +139,7 @@
         <name>assign</name>
         <qualifiedname>MR.SegmPointf.assign</qualifiedname>
         <param>
-          <type>MR.Const_SegmPointf</type>
+          <type><ref refid="classMR_1_1Const__SegmPointf" kindref="compound">MR.Const_SegmPointf</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -187,6 +187,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SegmPointf</label>
+        <link refid="classMR_1_1Const__SegmPointf"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -215,6 +216,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SegmPointf</label>
+        <link refid="classMR_1_1Const__SegmPointf"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -236,15 +238,36 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" line="204" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSegmPoint.cs" bodystart="205" bodyend="285"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SegmPointf_1aad898023683bea2e01bdd6dc2c6520d2" prot="protected" virt="non-virtual"><scope>MR::SegmPointf</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1a85d3e2bc35de7b68b4638d5cf095aee2" prot="protected" virt="non-virtual"><scope>MR::SegmPointf</scope><name>__ref_storage_Eps</name></member>
       <member refid="classMR_1_1SegmPointf_1aaa814d1b0c9279af10a35e4e1bd5bfe5" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>a</name></member>
       <member refid="classMR_1_1SegmPointf_1a9cd1fcf1878d6daeda23d7e2c5870323" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1a8f88872e8578aeab0ecc79b4bbb1fecc" prot="package" virt="non-virtual"><scope>MR::SegmPointf</scope><name>Const_SegmPointf</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1a922e43bcedee0a01d37765a8e8f01742" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>Const_SegmPointf</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1aebec121d6672c69d3ab9fb9e646c4963" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>Const_SegmPointf</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1abb31f3db776d74cdb7bd5ac3f6f5b99d" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>Const_SegmPointf</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1a6889f6044654fdde8a3d1592b1808c78" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>Const_SegmPointf</name></member>
       <member refid="classMR_1_1SegmPointf_1a6de84c5cde260a14e743e152a1a5d565" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>convertTo_FloatRef</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1a25da3e1c6141ed454d4b3b4e295ff9a4" prot="protected" virt="virtual"><scope>MR::SegmPointf</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1a5998b49b8a366c972ae6a44c47bf6619" prot="public" virt="virtual"><scope>MR::SegmPointf</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1aac3c3ae6ea7643f28d8b8ff942469aca" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>Eps</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1af9fe0c91bcd57ba8d801bb6d045e1596" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1a7dff73d4fdfba73931d5a82d4e228d55" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1a1fbc7d0ead7e3030776d9b8af912eecf" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1a4c3a4d0665b4a5d54c76e9385ad527d3" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>inVertex</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1a240a9ff24186f6b323f63d749d9f6ec7" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>operator Const_SegmPointf</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1a068fbc82db2fd0c71794f4fa0b54e734" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>operator float</name></member>
       <member refid="classMR_1_1SegmPointf_1ae4ed9cb284cee2c143d002de2b00b178" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>operator SegmPointf</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1afeeb792d22fe08a8e543e369108fcbab" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1a599354ebe7a0f040aa5ef77fd4be8b14" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1ac374c591f07f943fcc579c46f0831aac" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1abd0758639873a2b4a772185e3716ce21" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>operator==</name></member>
       <member refid="classMR_1_1SegmPointf_1ab35ea0c70e1897dbe88aeadfa5accb3c" prot="package" virt="non-virtual"><scope>MR::SegmPointf</scope><name>SegmPointf</name></member>
       <member refid="classMR_1_1SegmPointf_1a79626bfaba80b32c76e0d3b24bd2ebba" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>SegmPointf</name></member>
       <member refid="classMR_1_1SegmPointf_1af85f0e8bf729561fa0d2691a93a576ce" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>SegmPointf</name></member>
       <member refid="classMR_1_1SegmPointf_1a68caf76bfd137a66ab103adad4867336" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>SegmPointf</name></member>
       <member refid="classMR_1_1SegmPointf_1a915c2f3f92f96e2cd214ac9aa6e597b8" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>SegmPointf</name></member>
+      <member refid="classMR_1_1Const__SegmPointf_1ad608556102b0e85a4efde1085752a657" prot="public" virt="non-virtual"><scope>MR::SegmPointf</scope><name>sym</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

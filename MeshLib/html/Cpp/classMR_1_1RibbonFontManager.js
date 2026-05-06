@@ -3,7 +3,7 @@ var classMR_1_1RibbonFontManager =
     [ "FontFilePaths", "group__GeneralGroup.html#gab37a19ee9fe77c068e749dc7e8dfd6b2", null ],
     [ "FontFile", "group__GeneralGroup.html#ga467cb9c5acd294f0d22ad2b2388f4ccb", [
       [ "Regular", "group__GeneralGroup.html#gga467cb9c5acd294f0d22ad2b2388f4ccbad2203cb1237cb6460cbad94564e39345", null ],
-      [ "RegularSC", "group__GeneralGroup.html#gga467cb9c5acd294f0d22ad2b2388f4ccba6baffa563c9451d327bc3b3db0ef717e", null ],
+      [ "RegularCJK", "group__GeneralGroup.html#gga467cb9c5acd294f0d22ad2b2388f4ccba2b30d0fdf6dc76a494319a16d169dd06", null ],
       [ "SemiBold", "group__GeneralGroup.html#gga467cb9c5acd294f0d22ad2b2388f4ccba57da4df095766e2b4e9012d34ae8e221", null ],
       [ "Monospace", "group__GeneralGroup.html#gga467cb9c5acd294f0d22ad2b2388f4ccbaa3fd27e2bbcda0c7be0037ee70829384", null ],
       [ "Icons", "group__GeneralGroup.html#gga467cb9c5acd294f0d22ad2b2388f4ccba8f67973007158337346584551b093be8", null ],

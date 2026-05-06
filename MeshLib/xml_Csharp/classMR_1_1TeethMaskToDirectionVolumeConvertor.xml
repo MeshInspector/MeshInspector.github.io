@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TeethMaskToDirectionVolumeConvertor" kind="class" language="C#" prot="public">
     <compoundname>MR::TeethMaskToDirectionVolumeConvertor</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TeethMaskToDirectionVolumeConvertor</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor" prot="public" virt="non-virtual">MR.Const_TeethMaskToDirectionVolumeConvertor</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a1443fc23329b03f2970a037f7fa32b14" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>TeethMaskToDirectionVolumeConvertor</name>
         <qualifiedname>MR.TeethMaskToDirectionVolumeConvertor.TeethMaskToDirectionVolumeConvertor</qualifiedname>
         <param>
-          <type>Const_TeethMaskToDirectionVolumeConvertor</type>
+          <type><ref refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor" kindref="compound">Const_TeethMaskToDirectionVolumeConvertor</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -119,6 +119,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TeethMaskToDirectionVolumeConvertor</label>
+        <link refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -140,6 +141,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TeethMaskToDirectionVolumeConvertor</label>
+        <link refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +157,16 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" line="501" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTeethMaskToDirectionVolume.cs" bodystart="502" bodyend="537"/>
     <listofallmembers>
       <member refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1af7cdde89f0ff557eae92078920254379" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a9d1e7b673b0075afdc07b727447889e7" prot="package" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>Const_TeethMaskToDirectionVolumeConvertor</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a9d9d52bc8ce0c80d49550cc4c0ae2a4d" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>Const_TeethMaskToDirectionVolumeConvertor</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a3df17274ffda86514505a8973d10f51e" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>Const_TeethMaskToDirectionVolumeConvertor</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1aa57c76a41d4c3da7fa5d313e3c6e640c" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>Const_TeethMaskToDirectionVolumeConvertor</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a14962a79ee62deae55cc6f5be15b23bd" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>convertAll</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1ade864cfb343ae486bc88736939375a78" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>convertObject</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a0ef3cf0a6f7269bb6eeee3636178dfb3" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>create</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a0d0a9d375ec9c0c8c67407eb803fb0dd" prot="protected" virt="virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a94632b17b0d54d7cbe3d40f3a732ce2a" prot="public" virt="virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TeethMaskToDirectionVolumeConvertor_1a58bf4e1392e7c3aaf00dc179b7bd45c9" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>getObjectBounds</name></member>
       <member refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a1443fc23329b03f2970a037f7fa32b14" prot="package" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>TeethMaskToDirectionVolumeConvertor</name></member>
       <member refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1a82a9e29324c5c6eaea62fda9d3e8857b" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>TeethMaskToDirectionVolumeConvertor</name></member>
       <member refid="classMR_1_1TeethMaskToDirectionVolumeConvertor_1af17e801e395c8427b7a182ea0b5d394f" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>TeethMaskToDirectionVolumeConvertor</name></member>

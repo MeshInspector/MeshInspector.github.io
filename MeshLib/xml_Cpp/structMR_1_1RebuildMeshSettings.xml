@@ -13,6 +13,7 @@
       <member refid="group__GeneralGroup_1ga0fd939665ae442e058cb11d7cc52ac20" kind="variable"><name>windingNumberThreshold</name></member>
       <member refid="group__GeneralGroup_1ga0181b2c8cfb6a6a1788807fd5b6a5d1c" kind="variable"><name>windingNumberBeta</name></member>
       <member refid="group__GeneralGroup_1gaea6b7ba0f04e938fe48d66bb6f336a79" kind="variable"><name>fwn</name></member>
+      <member refid="group__GeneralGroup_1ga951726066765f74bb3cb752878c21ec2" kind="variable"><name>reduceAngleNumIters</name></member>
       <member refid="group__GeneralGroup_1ga6e10f1d5847ddc2cb5de056bf3031453" kind="variable"><name>decimate</name></member>
       <member refid="group__GeneralGroup_1gac305c46895a7bfd2a0af7ccfe1b5cb2e" kind="variable"><name>tinyEdgeLength</name></member>
       <member refid="group__GeneralGroup_1ga03a98a1c9695b0ef4243961f9ad3b59e" kind="variable"><name>progress</name></member>
@@ -22,7 +23,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRVoxels/MRRebuildMesh.h" line="15" column="1" bodyfile="MRVoxels/MRRebuildMesh.h" bodystart="16" bodyend="64"/>
+    <location file="MRVoxels/MRRebuildMesh.h" line="15" column="1" bodyfile="MRVoxels/MRRebuildMesh.h" bodystart="16" bodyend="69"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga7e182394b11ff51cd7695df3a953505a" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>closeHolesInHoleWindingNumber</name></member>
       <member refid="group__GeneralGroup_1ga6e10f1d5847ddc2cb5de056bf3031453" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>decimate</name></member>
@@ -32,6 +33,7 @@
       <member refid="group__GeneralGroup_1gab3fd176a4586472f781779fd1126f50c" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>outSharpEdges</name></member>
       <member refid="group__GeneralGroup_1gaedf85a579696f897a9cd4c1c719059b8" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>preSubdivide</name></member>
       <member refid="group__GeneralGroup_1ga03a98a1c9695b0ef4243961f9ad3b59e" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>progress</name></member>
+      <member refid="group__GeneralGroup_1ga951726066765f74bb3cb752878c21ec2" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>reduceAngleNumIters</name></member>
       <member refid="group__GeneralGroup_1ga0a73a19f4845bdec3e2e59c9d1dfd4b8" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>signMode</name></member>
       <member refid="group__GeneralGroup_1gac305c46895a7bfd2a0af7ccfe1b5cb2e" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>tinyEdgeLength</name></member>
       <member refid="group__GeneralGroup_1ga277cd0e4fca4f06fd90dd9977ec8a418" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>voxelSize</name></member>

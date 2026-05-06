@@ -1,0 +1,557 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__TriPointd" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_TriPointd</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1TriPointd" prot="public" virt="non-virtual">MR.TriPointd</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__TriPointd_1aa131ca9457daca50c50ca5e3732c7f67" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_TriPointd.Eps</definition>
+        <argsstring></argsstring>
+        <name>Eps</name>
+        <qualifiedname>MR.Const_TriPointd.Eps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="438" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TriPointd_1af0acc8e7d6447e01afbe4360f7e70e9b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_TriPointd.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.Const_TriPointd.a</qualifiedname>
+        <briefdescription>
+<para>a in [0,1], a=0 =&gt; point is on [v2,v0] edge, a=1 =&gt; point is in v1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="444" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="444" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TriPointd_1aecb8228ff5da43597816a787f7163544" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_TriPointd.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.Const_TriPointd.b</qualifiedname>
+        <briefdescription>
+<para>b in [0,1], b=0 =&gt; point is on [v0,v1] edge, b=1 =&gt; point is in v2 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="450" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="450" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__TriPointd_1a2d22de03db72eca67dc885a7acfc1f15" prot="protected" static="yes" mutable="no">
+        <type>unsafe double *</type>
+        <definition>unsafe double* MR.Const_TriPointd.__ref_storage_Eps</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_Eps</name>
+        <qualifiedname>MR.Const_TriPointd.__ref_storage_Eps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="439" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="439" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__TriPointd_1afd11870332c4837c2c3ed0b2d0c2e234" prot="protected" static="no" mutable="no">
+        <type>unsafe double *</type>
+        <definition>unsafe double* MR.Const_TriPointd.__ref_storage_a</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_a</name>
+        <qualifiedname>MR.Const_TriPointd.__ref_storage_a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="445" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__TriPointd_1ae3d248db9ad87d5f15f3f3e4c2415fbd" prot="protected" static="no" mutable="no">
+        <type>unsafe double *</type>
+        <definition>unsafe double* MR.Const_TriPointd.__ref_storage_b</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_b</name>
+        <qualifiedname>MR.Const_TriPointd.__ref_storage_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="451" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="451" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1aaa67e90d1a7b80c6d13c400fbc5d075f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_TriPointd.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_TriPointd.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="426" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="426" bodyend="434"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a55abbc680ac2ff16bbb67225b7ad44f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_TriPointd.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_TriPointd.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="435" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="435" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a200abfd336daa239e36214b6c336d47b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriPointd.Const_TriPointd</definition>
+        <argsstring>()</argsstring>
+        <name>Const_TriPointd</name>
+        <qualifiedname>MR.Const_TriPointd.Const_TriPointd</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="493" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="493" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a2ce1a0a3c0b130fdce394a6ed8341273" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriPointd.Const_TriPointd</definition>
+        <argsstring>(MR.Const_TriPointd _other)</argsstring>
+        <name>Const_TriPointd</name>
+        <qualifiedname>MR.Const_TriPointd.Const_TriPointd</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriPointd" kindref="compound">MR.Const_TriPointd</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriPointd_1a153570704c94990c92c9fd7c551ef8a0" kindref="member">MR.TriPointd.TriPointd</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="504" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="504" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a1ed4c3bc08f4709dd6aebbc36ff8bdbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TriPointd.Const_TriPointd</definition>
+        <argsstring>(TriPointd _other)</argsstring>
+        <name>Const_TriPointd</name>
+        <qualifiedname>MR.Const_TriPointd.Const_TriPointd</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TriPointd" kindref="compound">TriPointd</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriPointd_1a153570704c94990c92c9fd7c551ef8a0" kindref="member">MR.TriPointd.TriPointd</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="516" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="516" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a1e2025ac6547541baa170563bd0574ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriPointd.Const_TriPointd</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>Const_TriPointd</name>
+        <qualifiedname>MR.Const_TriPointd.Const_TriPointd</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriPointd_1a153570704c94990c92c9fd7c551ef8a0" kindref="member">MR.TriPointd.TriPointd</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="521" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="521" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1ac3fe80cff9a135cd59e08dc989a8e773" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriPointd.Const_TriPointd</definition>
+        <argsstring>(double a, double b)</argsstring>
+        <name>Const_TriPointd</name>
+        <qualifiedname>MR.Const_TriPointd.Const_TriPointd</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriPointd_1a153570704c94990c92c9fd7c551ef8a0" kindref="member">MR.TriPointd.TriPointd</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="533" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="533" bodyend="539"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a9ad2358c5035b564ad932d669ec6efce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriPointd.Const_TriPointd</definition>
+        <argsstring>(in MR.Vector3d p, in MR.Vector3d v0, in MR.Vector3d v1, in MR.Vector3d v2)</argsstring>
+        <name>Const_TriPointd</name>
+        <qualifiedname>MR.Const_TriPointd.Const_TriPointd</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+<para>given a point coordinates and triangle (v0,v1,v2) computes barycentric coordinates of the point Generated from constructor <computeroutput><ref refid="classMR_1_1TriPointd_1a153570704c94990c92c9fd7c551ef8a0" kindref="member">MR.TriPointd.TriPointd</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="545" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="545" bodyend="563"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a453acd5dddd16544384c3feb62188675" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriPointd.Const_TriPointd</definition>
+        <argsstring>(in MR.Vector3d p, in MR.Vector3d v1, in MR.Vector3d v2)</argsstring>
+        <name>Const_TriPointd</name>
+        <qualifiedname>MR.Const_TriPointd.Const_TriPointd</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>v2</declname>
+        </param>
+        <briefdescription>
+<para>given a point coordinates and triangle (0,v1,v2) computes barycentric coordinates of the point Generated from constructor <computeroutput><ref refid="classMR_1_1TriPointd_1a153570704c94990c92c9fd7c551ef8a0" kindref="member">MR.TriPointd.TriPointd</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="569" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="569" bodyend="584"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a6de7ec4630d6060d7d56299838e7a02a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TriPointd" kindref="compound">MR.TriPointd</ref></type>
+        <definition>unsafe MR.TriPointd MR.Const_TriPointd.lnext</definition>
+        <argsstring>()</argsstring>
+        <name>lnext</name>
+        <qualifiedname>MR.Const_TriPointd.lnext</qualifiedname>
+        <briefdescription>
+<para>represents the same point relative to next edge in the same triangle Generated from method <computeroutput><ref refid="classMR_1_1Const__TriPointd_1a6de7ec4630d6060d7d56299838e7a02a" kindref="member">MR.TriPointd.lnext</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="590" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="590" bodyend="595"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1aa88f07bd8c660dc7e6db59c87cf65477" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_TriPointd.inVertex</definition>
+        <argsstring>()</argsstring>
+        <name>inVertex</name>
+        <qualifiedname>MR.Const_TriPointd.inVertex</qualifiedname>
+        <briefdescription>
+<para>returns [0,2] if the point is in a vertex or -1 otherwise Generated from method <computeroutput><ref refid="classMR_1_1Const__TriPointd_1aa88f07bd8c660dc7e6db59c87cf65477" kindref="member">MR.TriPointd.inVertex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="601" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="601" bodyend="606"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a394d3135638a0bbb4ca04db1ace60dd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_TriPointd.onEdge</definition>
+        <argsstring>()</argsstring>
+        <name>onEdge</name>
+        <qualifiedname>MR.Const_TriPointd.onEdge</qualifiedname>
+        <briefdescription>
+<para>returns [0,2] if the point is on edge or -1 otherwise: 0 means edge [v1,v2]; 1 means edge [v2,v0]; 2 means edge [v0,v1] Generated from method <computeroutput><ref refid="classMR_1_1Const__TriPointd_1a394d3135638a0bbb4ca04db1ace60dd5" kindref="member">MR.TriPointd.onEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="613" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="613" bodyend="618"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a4d345fd2a12f2204f615797c360cdaf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_TriPointd.Equals</definition>
+        <argsstring>(MR.Const_TriPointd? rhs)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_TriPointd.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriPointd" kindref="compound">MR.Const_TriPointd</ref>?</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="638" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="638" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a49308178467be8b956c72bbb6c0a5df1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_TriPointd.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_TriPointd.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="645" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="645" bodyend="652"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a5a99169653c6e28eaca076ad13c8e7b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TriPointd.~Const_TriPointd</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_TriPointd</name>
+        <qualifiedname>MR.Const_TriPointd.~Const_TriPointd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="436" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="436" bodyend="436"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1abde50d3907e2a9d32ed037ee57e45b04" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_TriPointd.Const_TriPointd</definition>
+        <argsstring>()</argsstring>
+        <name>Const_TriPointd</name>
+        <qualifiedname>MR.Const_TriPointd.Const_TriPointd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="453" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="453" bodyend="460"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a57ce2582f58933118ae954f222a87a3f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriPointd.Const_TriPointd</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_TriPointd</name>
+        <qualifiedname>MR.Const_TriPointd.Const_TriPointd</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="482" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="482" bodyend="487"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1a9f8ab2ee81aaf006feb7d7629d081c11" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_TriPointd.operator==</definition>
+        <argsstring>(MR.Const_TriPointd _this, MR.Const_TriPointd rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_TriPointd.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriPointd" kindref="compound">MR.Const_TriPointd</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriPointd" kindref="compound">MR.Const_TriPointd</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>returns true if two points have equal (a,b) representation Generated from method <computeroutput>MR::TriPointd::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="624" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="624" bodyend="629"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriPointd_1ae3a6ffc2f9ef66691210d8fd0758a32e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_TriPointd.operator!=</definition>
+        <argsstring>(MR.Const_TriPointd _this, MR.Const_TriPointd rhs)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_TriPointd.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriPointd" kindref="compound">MR.Const_TriPointd</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriPointd" kindref="compound">MR.Const_TriPointd</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="631" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="631" bodyend="634"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>encodes a point inside a triangle using barycentric coordinates </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Notations used below: v0, v1, v2 - points of the triangle Generated from class <computeroutput><ref refid="classMR_1_1TriPointd" kindref="compound">MR.TriPointd</ref></computeroutput>. This is the const half of the class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_TriPointd</label>
+        <link refid="classMR_1_1Const__TriPointd"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.TriPointd</label>
+        <link refid="classMR_1_1TriPointd"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_TriPointd</label>
+        <link refid="classMR_1_1Const__TriPointd"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" line="420" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriPoint.cs" bodystart="421" bodyend="653"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__TriPointd_1afd11870332c4837c2c3ed0b2d0c2e234" prot="protected" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1ae3d248db9ad87d5f15f3f3e4c2415fbd" prot="protected" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>__ref_storage_b</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a2d22de03db72eca67dc885a7acfc1f15" prot="protected" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>__ref_storage_Eps</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1af0acc8e7d6447e01afbe4360f7e70e9b" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>a</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1aecb8228ff5da43597816a787f7163544" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1abde50d3907e2a9d32ed037ee57e45b04" prot="private" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a57ce2582f58933118ae954f222a87a3f" prot="package" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a200abfd336daa239e36214b6c336d47b" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a2ce1a0a3c0b130fdce394a6ed8341273" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a1ed4c3bc08f4709dd6aebbc36ff8bdbc" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a1e2025ac6547541baa170563bd0574ae" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1ac3fe80cff9a135cd59e08dc989a8e773" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a9ad2358c5035b564ad932d669ec6efce" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a453acd5dddd16544384c3feb62188675" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>Const_TriPointd</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1aaa67e90d1a7b80c6d13c400fbc5d075f" prot="protected" virt="virtual"><scope>MR::Const_TriPointd</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a55abbc680ac2ff16bbb67225b7ad44f1" prot="public" virt="virtual"><scope>MR::Const_TriPointd</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1aa131ca9457daca50c50ca5e3732c7f67" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>Eps</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a4d345fd2a12f2204f615797c360cdaf6" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a49308178467be8b956c72bbb6c0a5df1" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1aa88f07bd8c660dc7e6db59c87cf65477" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>inVertex</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a6de7ec4630d6060d7d56299838e7a02a" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>lnext</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a394d3135638a0bbb4ca04db1ace60dd5" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>onEdge</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1ae3a6ffc2f9ef66691210d8fd0758a32e" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a9f8ab2ee81aaf006feb7d7629d081c11" prot="public" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__TriPointd_1a5a99169653c6e28eaca076ad13c8e7b8" prot="private" virt="non-virtual"><scope>MR::Const_TriPointd</scope><name>~Const_TriPointd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

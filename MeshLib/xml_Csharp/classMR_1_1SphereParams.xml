@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SphereParams" kind="class" language="C#" prot="public">
     <compoundname>MR::SphereParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SphereParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SphereParams" prot="public" virt="non-virtual">MR.Const_SphereParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SphereParams_1aa747c618b6742d28442e778ad3b77fed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -103,7 +103,7 @@
         <name>SphereParams</name>
         <qualifiedname>MR.SphereParams.SphereParams</qualifiedname>
         <param>
-          <type>MR.Const_SphereParams</type>
+          <type><ref refid="classMR_1_1Const__SphereParams" kindref="compound">MR.Const_SphereParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.SphereParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_SphereParams</type>
+          <type><ref refid="classMR_1_1Const__SphereParams" kindref="compound">MR.Const_SphereParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SphereParams</label>
+        <link refid="classMR_1_1Const__SphereParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -189,6 +190,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SphereParams</label>
+        <link refid="classMR_1_1Const__SphereParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -203,7 +205,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMakeSphereMesh.cs" line="103" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMakeSphereMesh.cs" bodystart="104" bodyend="168"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SphereParams_1a0e33c4121c85e05664103c085fff9f59" prot="protected" virt="non-virtual"><scope>MR::SphereParams</scope><name>__ref_storage_numMeshVertices</name></member>
+      <member refid="classMR_1_1Const__SphereParams_1af5cb2d9433f06f788d7e2d4aba2d1741" prot="protected" virt="non-virtual"><scope>MR::SphereParams</scope><name>__ref_storage_radius</name></member>
       <member refid="classMR_1_1SphereParams_1a60d7d64c0b306eb4ec9c4b677810f559" prot="public" virt="non-virtual"><scope>MR::SphereParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SphereParams_1a2b5c6354661086fa9bfe1ab1bf350f1c" prot="package" virt="non-virtual"><scope>MR::SphereParams</scope><name>Const_SphereParams</name></member>
+      <member refid="classMR_1_1Const__SphereParams_1afa9c61049f0ddeaf1420b6ae215e05aa" prot="public" virt="non-virtual"><scope>MR::SphereParams</scope><name>Const_SphereParams</name></member>
+      <member refid="classMR_1_1Const__SphereParams_1a2b7cfffc19bb8e3078d0e55cc9503052" prot="public" virt="non-virtual"><scope>MR::SphereParams</scope><name>Const_SphereParams</name></member>
+      <member refid="classMR_1_1Const__SphereParams_1ab0c4f5a9e8cef86f09867eca5e7d811c" prot="public" virt="non-virtual"><scope>MR::SphereParams</scope><name>Const_SphereParams</name></member>
+      <member refid="classMR_1_1Const__SphereParams_1a31bf0cf22c5aa4034bd387b586c86634" prot="public" virt="non-virtual"><scope>MR::SphereParams</scope><name>Const_SphereParams</name></member>
+      <member refid="classMR_1_1Const__SphereParams_1af745b11444d491237b039d442dbb4d97" prot="protected" virt="virtual"><scope>MR::SphereParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SphereParams_1aca02d5164e3a7e6f0e5498c87de042cc" prot="public" virt="virtual"><scope>MR::SphereParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SphereParams_1ac5519c5d749e655d17b47d00149d8411" prot="public" virt="non-virtual"><scope>MR::SphereParams</scope><name>numMeshVertices</name></member>
       <member refid="classMR_1_1SphereParams_1aa747c618b6742d28442e778ad3b77fed" prot="public" virt="non-virtual"><scope>MR::SphereParams</scope><name>radius</name></member>
       <member refid="classMR_1_1SphereParams_1a54a7a4cc17baf653a3488523c6abeb99" prot="package" virt="non-virtual"><scope>MR::SphereParams</scope><name>SphereParams</name></member>

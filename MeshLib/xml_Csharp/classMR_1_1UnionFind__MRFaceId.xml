@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UnionFind__MRFaceId" kind="class" language="C#" prot="public">
     <compoundname>MR::UnionFind_MRFaceId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_UnionFind_MRFaceId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__UnionFind__MRFaceId" prot="public" virt="non-virtual">MR.Const_UnionFind_MRFaceId</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1UnionFind__MRFaceId_1a834e274cc5a54e33146d53af75fcd707" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::UnionFind</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::UnionFind</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -69,11 +69,11 @@
         <name>UnionFind_MRFaceId</name>
         <qualifiedname>MR.UnionFind_MRFaceId.UnionFind_MRFaceId</qualifiedname>
         <param>
-          <type>Const_UnionFind_MRFaceId</type>
+          <type><ref refid="classMR_1_1Const__UnionFind__MRFaceId" kindref="compound">Const_UnionFind_MRFaceId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::UnionFind</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::UnionFind</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,7 +92,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::UnionFind</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::UnionFind</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -111,7 +111,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates union-find with given number of elements, each element is the only one in its disjoint set Generated from constructor <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::UnionFind</computeroutput>. </para>
+<para>creates union-find with given number of elements, each element is the only one in its disjoint set Generated from constructor <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::UnionFind</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -130,7 +130,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -149,7 +149,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a4c4fe504d14bde892d544717afb330ba" kindref="member">reset</ref></computeroutput>. </para>
+<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a4c4fe504d14bde892d544717afb330ba" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -175,7 +175,7 @@
 <para>unite two elements, </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>first: new common root, second: true = union was done, false = first and second were already united Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a113b9ad6867f881b1309ff7adcaad1fc" kindref="member">unite</ref></computeroutput>. </para>
+<para><simplesect kind="return"><para>first: new common root, second: true = union was done, false = first and second were already united Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a113b9ad6867f881b1309ff7adcaad1fc" kindref="member">unite</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -198,7 +198,7 @@
           <declname>second</declname>
         </param>
         <briefdescription>
-<para>returns true if given two elements are from one set Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a86e7404b5383e17d9880a9a1dae843f5" kindref="member">united</ref></computeroutput>. </para>
+<para>returns true if given two elements are from one set Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a86e7404b5383e17d9880a9a1dae843f5" kindref="member">united</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -217,7 +217,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>finds the root of the set containing given element with optimizing data structure updates Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a6820615cc51262526e5f784e730a0f70" kindref="member">find</ref></computeroutput>. </para>
+<para>finds the root of the set containing given element with optimizing data structure updates Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a6820615cc51262526e5f784e730a0f70" kindref="member">find</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -244,7 +244,7 @@
           <declname>end</declname>
         </param>
         <briefdescription>
-<para>finds the root of the set containing given element with optimizing data structure in the range [begin, end) Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a0eeee2fbaeaedea8faaadf6703cb52d9" kindref="member">findUpdateRange</ref></computeroutput>. </para>
+<para>finds the root of the set containing given element with optimizing data structure in the range [begin, end) Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a0eeee2fbaeaedea8faaadf6703cb52d9" kindref="member">findUpdateRange</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -253,13 +253,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="871" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="871" bodyend="876"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UnionFind__MRFaceId_1a3d7068137d10204cdac1179dfeaf96d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Const_FaceMap</type>
+        <type>unsafe <ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref></type>
         <definition>unsafe MR.Const_FaceMap MR.UnionFind_MRFaceId.roots</definition>
         <argsstring>()</argsstring>
         <name>roots</name>
         <qualifiedname>MR.UnionFind_MRFaceId.roots</qualifiedname>
         <briefdescription>
-<para>sets the root of corresponding set as the parent of each element, then returns the vector Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a3d7068137d10204cdac1179dfeaf96d2" kindref="member">roots</ref></computeroutput>. </para>
+<para>sets the root of corresponding set as the parent of each element, then returns the vector Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a3d7068137d10204cdac1179dfeaf96d2" kindref="member">roots</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -278,7 +278,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>returns the number of elements in the set containing given element Generated from method <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a4c58aa667831be9341c1534e493a585e" kindref="member">sizeOfComp</ref></computeroutput>. </para>
+<para>returns the number of elements in the set containing given element Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a4c58aa667831be9341c1534e493a585e" kindref="member">sizeOfComp</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -296,7 +296,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>is the identifier of a set's element, e.g. <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> Generated from class <computeroutput>MR::UnionFind&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>is the identifier of a set's element, e.g. <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> Generated from class <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -311,6 +311,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UnionFind_MRFaceId</label>
+        <link refid="classMR_1_1Const__UnionFind__MRFaceId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -332,6 +333,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UnionFind_MRFaceId</label>
+        <link refid="classMR_1_1Const__UnionFind__MRFaceId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -347,10 +349,22 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="764" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="765" bodyend="899"/>
     <listofallmembers>
       <member refid="classMR_1_1UnionFind__MRFaceId_1ad88b1b48d71b246631b6f3ac31c42b66" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRFaceId_1a3fbd39ff4fcaa8c22c423fe7b0f948ba" prot="package" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>Const_UnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRFaceId_1a8b1b93585891591974451923ec8f7acb" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>Const_UnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRFaceId_1a7ac48c272bd79592f8c40e3e1de2e752" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>Const_UnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRFaceId_1ac7f7e441a5ca21a511741b14c461740c" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>Const_UnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRFaceId_1adf47049aefb90ad9ad8e615cfa277da1" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>Const_UnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRFaceId_1a0fcc6be209f8ad64ac6d4e11f5953389" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>Const_UnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRFaceId_1aa02a5696fe72471528cdf6f725c2a79b" prot="protected" virt="virtual"><scope>MR::UnionFind_MRFaceId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRFaceId_1a5481c33a70016d968cd516e802472ee7" prot="public" virt="virtual"><scope>MR::UnionFind_MRFaceId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1UnionFind__MRFaceId_1a6820615cc51262526e5f784e730a0f70" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>find</name></member>
       <member refid="classMR_1_1UnionFind__MRFaceId_1a0eeee2fbaeaedea8faaadf6703cb52d9" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>findUpdateRange</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRFaceId_1aba8a639d6ac8773374ac55b375734675" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>isRoot</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRFaceId_1ac6a85060e71343d91aa0e6427e2914a8" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>parent</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRFaceId_1abb92053a7fab90eaa4504cf4480f5ef0" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>parents</name></member>
       <member refid="classMR_1_1UnionFind__MRFaceId_1a4c4fe504d14bde892d544717afb330ba" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>reset</name></member>
       <member refid="classMR_1_1UnionFind__MRFaceId_1a3d7068137d10204cdac1179dfeaf96d2" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>roots</name></member>
+      <member refid="classMR_1_1Const__UnionFind__MRFaceId_1aa099a6f29e1cc623338801909cc81610" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>size</name></member>
       <member refid="classMR_1_1UnionFind__MRFaceId_1a4c58aa667831be9341c1534e493a585e" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>sizeOfComp</name></member>
       <member refid="classMR_1_1UnionFind__MRFaceId_1a834e274cc5a54e33146d53af75fcd707" prot="package" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>UnionFind_MRFaceId</name></member>
       <member refid="classMR_1_1UnionFind__MRFaceId_1acb221eea2f6652845353aa517f13912c" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>UnionFind_MRFaceId</name></member>

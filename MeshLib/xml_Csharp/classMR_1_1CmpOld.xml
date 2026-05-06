@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CmpOld" kind="class" language="C#" prot="public">
     <compoundname>MR::CmpOld</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_CmpOld</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__CmpOld" prot="public" virt="non-virtual">MR.Const_CmpOld</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1CmpOld_1a93356b70ff6ef57c7ae176594d690eaf" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>CmpOld</name>
         <qualifiedname>MR.CmpOld.CmpOld</qualifiedname>
         <param>
-          <type>MR.Const_CmpOld</type>
+          <type><ref refid="classMR_1_1Const__CmpOld" kindref="compound">MR.Const_CmpOld</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.CmpOld.assign</qualifiedname>
         <param>
-          <type>MR.Const_CmpOld</type>
+          <type><ref refid="classMR_1_1Const__CmpOld" kindref="compound">MR.Const_CmpOld</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CmpOld</label>
+        <link refid="classMR_1_1Const__CmpOld"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CmpOld</label>
+        <link refid="classMR_1_1Const__CmpOld"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +157,12 @@
       <member refid="classMR_1_1CmpOld_1a4d6411890e1690d764794e3c796a3319" prot="public" virt="non-virtual"><scope>MR::CmpOld</scope><name>CmpOld</name></member>
       <member refid="classMR_1_1CmpOld_1a6630134d4e8b0999e1ece83d49333cd1" prot="public" virt="non-virtual"><scope>MR::CmpOld</scope><name>CmpOld</name></member>
       <member refid="classMR_1_1CmpOld_1acb98186615c48bbc26db5634e720f5a7" prot="public" virt="non-virtual"><scope>MR::CmpOld</scope><name>CmpOld</name></member>
+      <member refid="classMR_1_1Const__CmpOld_1a364a9ca49f3aaa4ae38414acf729932b" prot="package" virt="non-virtual"><scope>MR::CmpOld</scope><name>Const_CmpOld</name></member>
+      <member refid="classMR_1_1Const__CmpOld_1a9ffa5fd6a3d821169f6c2d065f957046" prot="public" virt="non-virtual"><scope>MR::CmpOld</scope><name>Const_CmpOld</name></member>
+      <member refid="classMR_1_1Const__CmpOld_1a5ad605c13362ab92b7cdd7024c41112e" prot="public" virt="non-virtual"><scope>MR::CmpOld</scope><name>Const_CmpOld</name></member>
+      <member refid="classMR_1_1Const__CmpOld_1a765ce07efebc3602ef377472af7dcb01" prot="public" virt="non-virtual"><scope>MR::CmpOld</scope><name>Const_CmpOld</name></member>
+      <member refid="classMR_1_1Const__CmpOld_1ade9e4938cbf4d1e19278ea3e8336f849" prot="protected" virt="virtual"><scope>MR::CmpOld</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CmpOld_1a9d1c52ae812f4c97767a6624e09e8a0b" prot="public" virt="virtual"><scope>MR::CmpOld</scope><name>Dispose</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::MapOrHashMap_MREdgeId_MREdgeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MapOrHashMap_MREdgeId_MREdgeId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId" prot="public" virt="non-virtual">MR.Const_MapOrHashMap_MREdgeId_MREdgeId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a32442862d6c7afcedde813f37be3a92e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Variant_MREdgeMap_PhmapFlatHashMapMREdgeIdMREdgeId</type>
@@ -70,7 +70,7 @@
           <declname>var</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -89,7 +89,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;::MapOrHashMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::MapOrHashMap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -104,11 +104,11 @@
         <name>MapOrHashMap_MREdgeId_MREdgeId</name>
         <qualifiedname>MR.MapOrHashMap_MREdgeId_MREdgeId.MapOrHashMap_MREdgeId_MREdgeId</qualifiedname>
         <param>
-          <type>Const_MapOrHashMap_MREdgeId_MREdgeId</type>
+          <type><ref refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId" kindref="compound">Const_MapOrHashMap_MREdgeId_MREdgeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;::MapOrHashMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::MapOrHashMap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -127,7 +127,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;::MapOrHashMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::MapOrHashMap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -146,7 +146,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -165,7 +165,7 @@
           <declname>m</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a3754ba2c9334c516cff476fad7fe2a8e" kindref="member">setMap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a3754ba2c9334c516cff476fad7fe2a8e" kindref="member">setMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -184,7 +184,7 @@
           <declname>m</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a77c564897b5f11ae977317cb33c0eb90" kindref="member">setHashMap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a77c564897b5f11ae977317cb33c0eb90" kindref="member">setHashMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -207,7 +207,7 @@
           <declname>hashAdditionalCapacity</declname>
         </param>
         <briefdescription>
-<para>if this stores dense map then resizes it to denseTotalSize; if this stores hash map then sets its capacity to size()+hashAdditionalCapacity Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a247990ad18f5fad6d84f80cdbde35e30" kindref="member">resizeReserve</ref></computeroutput>. </para>
+<para>if this stores dense map then resizes it to denseTotalSize; if this stores hash map then sets its capacity to size()+hashAdditionalCapacity Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a247990ad18f5fad6d84f80cdbde35e30" kindref="member">resizeReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -230,7 +230,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1adfe2600ffbed95e852a3448f3819f063" kindref="member">pushBack</ref></computeroutput>. </para>
+<para>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1adfe2600ffbed95e852a3448f3819f063" kindref="member">pushBack</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -245,7 +245,7 @@
         <name>getMap</name>
         <qualifiedname>MR.MapOrHashMap_MREdgeId_MREdgeId.getMap</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a9d2e6f5dacbcbd2e3e638cf4c7ebb6bc" kindref="member">getMap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a9d2e6f5dacbcbd2e3e638cf4c7ebb6bc" kindref="member">getMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -260,7 +260,7 @@
         <name>getHashMap</name>
         <qualifiedname>MR.MapOrHashMap_MREdgeId_MREdgeId.getHashMap</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a27c1c92fb5a237428c1c0953704817be" kindref="member">getHashMap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a27c1c92fb5a237428c1c0953704817be" kindref="member">getHashMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -275,7 +275,7 @@
         <name>clear</name>
         <qualifiedname>MR.MapOrHashMap_MREdgeId_MREdgeId.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a9f3e9e2d9c20f430be0237210e4cf9e1" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a9f3e9e2d9c20f430be0237210e4cf9e1" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -285,7 +285,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>stores a mapping from keys K to values V in one of two forms: 1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey) 2) as hash map preferable when valid keys are a small subset of the range Generated from class <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>stores a mapping from keys K to values V in one of two forms: 1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey) 2) as hash map preferable when valid keys are a small subset of the range Generated from class <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>, <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -298,6 +298,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MapOrHashMap_MREdgeId_MREdgeId</label>
+        <link refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -319,6 +320,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MapOrHashMap_MREdgeId_MREdgeId</label>
+        <link refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -335,6 +337,16 @@
     <listofallmembers>
       <member refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a5d7ea71bf3cce2688cfcf268faf3fd81" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>assign</name></member>
       <member refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a9f3e9e2d9c20f430be0237210e4cf9e1" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId_1a5863eb72758b3896125cbd87809dadf5" prot="package" virt="non-virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MREdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId_1a0d3eda88124a99796d974a961c34f4af" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MREdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId_1ac835b8832f13e2e5b1eea8438d4aca53" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MREdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId_1a4b76d197f64ec8a9d59b885a9fdd23df" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MREdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId_1a15c883273f0a821b39d12c426dd81a5d" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MREdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId_1a20accb35727dffd832e53b960dd1d345" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>Const_MapOrHashMap_MREdgeId_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId_1ad4ea7aef1a2598c6f68fa6edffaec881" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>createHashMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId_1a4f820eea813c4313176413840960ec8b" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>createMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId_1a394be34f6336a9cf7113c996cb299982" prot="protected" virt="virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MREdgeId__MREdgeId_1ab391bd5fd2f84046be2750a3728a1587" prot="public" virt="virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a27c1c92fb5a237428c1c0953704817be" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>getHashMap</name></member>
       <member refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1a9d2e6f5dacbcbd2e3e638cf4c7ebb6bc" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>getMap</name></member>
       <member refid="classMR_1_1MapOrHashMap__MREdgeId__MREdgeId_1add95213f1862a053a4c97c9e01e37006" prot="package" virt="non-virtual"><scope>MR::MapOrHashMap_MREdgeId_MREdgeId</scope><name>MapOrHashMap_MREdgeId_MREdgeId</name></member>

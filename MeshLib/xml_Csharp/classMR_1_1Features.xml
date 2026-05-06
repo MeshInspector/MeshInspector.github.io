@@ -2,6 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features" kind="class" language="C#" prot="public">
     <compoundname>MR::Features</compoundname>
+    <innerclass refid="classMR_1_1Features_1_1Const__MeasureResult" prot="public">MR::Features::Const_MeasureResult</innerclass>
+    <innerclass refid="classMR_1_1Features_1_1Const__SubfeatureInfo" prot="public">MR::Features::Const_SubfeatureInfo</innerclass>
     <innerclass refid="classMR_1_1Features_1_1MeasureResult" prot="public">MR::Features::MeasureResult</innerclass>
     <innerclass refid="classMR_1_1Features_1_1Primitives" prot="public">MR::Features::Primitives</innerclass>
     <innerclass refid="classMR_1_1Features_1_1SubfeatureInfo" prot="public">MR::Features::SubfeatureInfo</innerclass>
@@ -33,7 +35,7 @@
         <name>toPrimitive</name>
         <qualifiedname>MR.Features.toPrimitive</qualifiedname>
         <param>
-          <type>MR.Const_Sphere3f</type>
+          <type><ref refid="classMR_1_1Const__Sphere3f" kindref="compound">MR.Const_Sphere3f</ref></type>
           <declname>sphere</declname>
         </param>
         <briefdescription>
@@ -52,7 +54,7 @@
         <name>toPrimitive</name>
         <qualifiedname>MR.Features.toPrimitive</qualifiedname>
         <param>
-          <type>MR.Const_Line3f</type>
+          <type><ref refid="classMR_1_1Const__Line3f" kindref="compound">MR.Const_Line3f</ref></type>
           <declname>line</declname>
         </param>
         <briefdescription>
@@ -71,7 +73,7 @@
         <name>toPrimitive</name>
         <qualifiedname>MR.Features.toPrimitive</qualifiedname>
         <param>
-          <type>MR.Const_LineSegm3f</type>
+          <type><ref refid="classMR_1_1Const__LineSegm3f" kindref="compound">MR.Const_LineSegm3f</ref></type>
           <declname>segm</declname>
         </param>
         <briefdescription>
@@ -90,7 +92,7 @@
         <name>toPrimitive</name>
         <qualifiedname>MR.Features.toPrimitive</qualifiedname>
         <param>
-          <type>MR.Const_Cylinder3f</type>
+          <type><ref refid="classMR_1_1Const__Cylinder3f" kindref="compound">MR.Const_Cylinder3f</ref></type>
           <declname>cyl</declname>
         </param>
         <briefdescription>
@@ -109,7 +111,7 @@
         <name>toPrimitive</name>
         <qualifiedname>MR.Features.toPrimitive</qualifiedname>
         <param>
-          <type>MR.Const_Cone3f</type>
+          <type><ref refid="classMR_1_1Const__Cone3f" kindref="compound">MR.Const_Cone3f</ref></type>
           <declname>cone</declname>
         </param>
         <briefdescription>
@@ -209,7 +211,7 @@
         <name>primitiveFromObject</name>
         <qualifiedname>MR.Features.primitiveFromObject</qualifiedname>
         <param>
-          <type>MR.Const_Object</type>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
           <declname>object_</declname>
         </param>
         <briefdescription>
@@ -228,7 +230,7 @@
         <name>primitiveFromObjectWithWorldXf</name>
         <qualifiedname>MR.Features.primitiveFromObjectWithWorldXf</qualifiedname>
         <param>
-          <type>MR.Const_Object</type>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
           <declname>object_</declname>
         </param>
         <briefdescription>
@@ -274,7 +276,7 @@
           <declname>xf</declname>
         </param>
         <param>
-          <type>MR.Const_Sphere3f</type>
+          <type><ref refid="classMR_1_1Const__Sphere3f" kindref="compound">MR.Const_Sphere3f</ref></type>
           <declname>primitive</declname>
         </param>
         <briefdescription>
@@ -297,7 +299,7 @@
           <declname>xf</declname>
         </param>
         <param>
-          <type>MR.Features.Primitives.Const_Plane</type>
+          <type><ref refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane" kindref="compound">MR.Features.Primitives.Const_Plane</ref></type>
           <declname>primitive</declname>
         </param>
         <briefdescription>
@@ -320,7 +322,7 @@
           <declname>xf</declname>
         </param>
         <param>
-          <type>MR.Features.Primitives.Const_ConeSegment</type>
+          <type><ref refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment" kindref="compound">MR.Features.Primitives.Const_ConeSegment</ref></type>
           <declname>primitive</declname>
         </param>
         <briefdescription>
@@ -362,7 +364,7 @@
         <name>toString</name>
         <qualifiedname>MR.Features.toString</qualifiedname>
         <param>
-          <type>MR.Features.MeasureResult.Status</type>
+          <type><ref refid="classMR_1_1Features_1_1Const__MeasureResult_1a1695eaeaeb34bd746e9bfb7b150635c0" kindref="member">MR.Features.MeasureResult.Status</ref></type>
           <declname>status</declname>
         </param>
         <briefdescription>

@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Pdf_1_1Const__ImageParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Pdf::Const_ImageParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Const__Pdf_1_1ImageParams" prot="public" virt="non-virtual">MR.Const_Pdf.ImageParams</derivedcompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1aef0f4a89c8e4b4421381ee64af636129" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>AlignmentVertical</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.AlignmentVertical</qualifiedname>
+        <enumvalue id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1aef0f4a89c8e4b4421381ee64af636129aa4ffdcf0dc1f31b9acaf295d75b51d00" prot="public">
+          <name>Top</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1aef0f4a89c8e4b4421381ee64af636129a4f1f6016fc9f3f2353c0cc7c67b292bd" prot="public">
+          <name>Center</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1aef0f4a89c8e4b4421381ee64af636129a2ad9d63b69c4a10a5cc9cad923133bc4" prot="public">
+          <name>Bottom</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1297" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1298" bodyend="1302"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a4ea5555857e027b5f4c580f433eb819b" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>UniformScale</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.UniformScale</qualifiedname>
+        <enumvalue id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a4ea5555857e027b5f4c580f433eb819ba6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a4ea5555857e027b5f4c580f433eb819bae82836abadfb4090798de99270897263" prot="public">
+          <name>FromWidth</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a4ea5555857e027b5f4c580f433eb819ba729fb415472b2cb38cf56f33a887f406" prot="public">
+          <name>FromHeight</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a4ea5555857e027b5f4c580f433eb819ba06b9281e396db002010bde1de57262eb" prot="public">
+          <name>Auto</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>set height to keep same scale as width scale </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1307" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1308" bodyend="1313"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1aa2f497531f47a7c3a323a916db4d3c00" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe ref readonly MR.Vector2f MR.Const_Pdf.Const_ImageParams.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.size</qualifiedname>
+        <briefdescription>
+<para>image size in page space if == {0, 0} - use image size if .x or .y &lt; 0 use the available page size from the current cursor position (caption size is also accounted for) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1185" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a6c3a6df0bc4de7d6787e532793a0c3da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_Pdf.Const_ImageParams.caption</definition>
+        <argsstring></argsstring>
+        <name>caption</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.caption</qualifiedname>
+        <briefdescription>
+<para>caption if not empty - add caption under marks (if exist) or image. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1191" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1191" bodyend="1191"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a6f2b33dbc0159f00d5b3bf9e7ab94060" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Pdf.ImageParams.UniformScale</type>
+        <definition>unsafe MR.Pdf.ImageParams.UniformScale MR.Const_Pdf.Const_ImageParams.uniformScale</definition>
+        <argsstring></argsstring>
+        <name>uniformScale</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.uniformScale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1193" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a124af3a9fd4f598e3706b4733547ea21" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Pdf.ImageParams.AlignmentVertical</type>
+        <definition>unsafe MR.Pdf.ImageParams.AlignmentVertical MR.Const_Pdf.Const_ImageParams.alignmentVertical</definition>
+        <argsstring></argsstring>
+        <name>alignmentVertical</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.alignmentVertical</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1196" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a016dadba0f08e7d4b24e5e7f75a93284" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__Pdf_1a7892f5728ae65bba32cd8c15eb4c7c70" kindref="member">MR.Pdf.AlignmentHorizontal</ref></type>
+        <definition>unsafe MR.Pdf.AlignmentHorizontal MR.Const_Pdf.Const_ImageParams.alignmentHorizontal</definition>
+        <argsstring></argsstring>
+        <name>alignmentHorizontal</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.alignmentHorizontal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1199" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1199" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a93c95ce5383cf21636f096dde135095c" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref> *</type>
+        <definition>unsafe MR.Vector2f* MR.Const_Pdf.Const_ImageParams.__ref_storage_size</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_size</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.__ref_storage_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1186" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a096ec9a253abc3ed4ca3615a5fb656ab" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Pdf.ImageParams.UniformScale *</type>
+        <definition>unsafe MR.Pdf.ImageParams.UniformScale* MR.Const_Pdf.Const_ImageParams.__ref_storage_uniformScale</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_uniformScale</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.__ref_storage_uniformScale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1194" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1ad574dcb80afdac0bd3727bd29c9dea48" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Pdf.ImageParams.AlignmentVertical *</type>
+        <definition>unsafe MR.Pdf.ImageParams.AlignmentVertical* MR.Const_Pdf.Const_ImageParams.__ref_storage_alignmentVertical</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_alignmentVertical</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.__ref_storage_alignmentVertical</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1197" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1acbdabb7efaf75d3da4cfdea93afcfc75" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__Pdf_1a7892f5728ae65bba32cd8c15eb4c7c70" kindref="member">MR.Pdf.AlignmentHorizontal</ref> *</type>
+        <definition>unsafe MR.Pdf.AlignmentHorizontal* MR.Const_Pdf.Const_ImageParams.__ref_storage_alignmentHorizontal</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_alignmentHorizontal</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.__ref_storage_alignmentHorizontal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1200" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1200" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1afb03aa3922640707a2f2dd3fd710be76" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Pdf.Const_ImageParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1168" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1168" bodyend="1176"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a11d925ee5051a78832f8f249807d9452" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Pdf.Const_ImageParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1177" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1177" bodyend="1177"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a10a4fde04a76ffa3f67a2830e7735097" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.Const_ImageParams.Const_ImageParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ImageParams</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.Const_ImageParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1252" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1252" bodyend="1258"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a0b48680160eeccd62953588ce4b8ed4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.Const_ImageParams.Const_ImageParams</definition>
+        <argsstring>(MR.Vector2f size, string caption, MR.Pdf.ImageParams.UniformScale uniformScale, MR.Pdf.ImageParams.AlignmentVertical alignmentVertical, MR.Pdf.AlignmentHorizontal alignmentHorizontal)</argsstring>
+        <name>Const_ImageParams</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.Const_ImageParams</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>caption</declname>
+        </param>
+        <param>
+          <type>MR.Pdf.ImageParams.UniformScale</type>
+          <declname>uniformScale</declname>
+        </param>
+        <param>
+          <type>MR.Pdf.ImageParams.AlignmentVertical</type>
+          <declname>alignmentVertical</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Pdf_1a7892f5728ae65bba32cd8c15eb4c7c70" kindref="member">MR.Pdf.AlignmentHorizontal</ref></type>
+          <declname>alignmentHorizontal</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Const__Pdf_1_1ImageParams" kindref="compound">MR.Pdf.ImageParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1263" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1263" bodyend="1273"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a081571fc2457f585e7257f2eee8b7bef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.Const_ImageParams.Const_ImageParams</definition>
+        <argsstring>(MR.Pdf._ByValue_ImageParams _other)</argsstring>
+        <name>Const_ImageParams</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.Const_ImageParams</qualifiedname>
+        <param>
+          <type>MR.Pdf._ByValue_ImageParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Pdf::ImageParams::ImageParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1278" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1278" bodyend="1285"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1aeb16fbf990aebe12494a3c45d7d508a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Pdf.Const_ImageParams.Const_ImageParams</definition>
+        <argsstring>(Const_ImageParams _other)</argsstring>
+        <name>Const_ImageParams</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.Const_ImageParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Pdf_1_1Const__ImageParams" kindref="compound">Const_ImageParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Pdf::ImageParams::ImageParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1290" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1290" bodyend="1290"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1aa75603456641d2a99faceeb8f6e2a398" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Pdf.Const_ImageParams.Const_ImageParams</definition>
+        <argsstring>(ImageParams _other)</argsstring>
+        <name>Const_ImageParams</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.Const_ImageParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Pdf_1_1ImageParams" kindref="compound">ImageParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Pdf::ImageParams::ImageParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1295" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1295" bodyend="1295"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a61281db66dd4ad987a352da1b24a8d53" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Pdf.Const_ImageParams.~Const_ImageParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ImageParams</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.~Const_ImageParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1178" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1178" bodyend="1178"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a503717b8239b4f05f2a10f4e0403983a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.Const_ImageParams.Const_ImageParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ImageParams</name>
+        <qualifiedname>MR.Const_Pdf.Const_ImageParams.Const_ImageParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1241" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1241" bodyend="1246"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters to adding image from file Generated from class <computeroutput><ref refid="classMR_1_1Const__Pdf_1_1ImageParams" kindref="compound">MR.Pdf.ImageParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Pdf.Const_ImageParams</label>
+        <link refid="classMR_1_1Const__Pdf_1_1Const__ImageParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Const_Pdf.ImageParams</label>
+        <link refid="classMR_1_1Const__Pdf_1_1ImageParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_Pdf.Const_ImageParams</label>
+        <link refid="classMR_1_1Const__Pdf_1_1Const__ImageParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_alignmentHorizontal</edgelabel>
+          <edgelabel>__ref_storage_alignmentVertical</edgelabel>
+          <edgelabel>__ref_storage_size</edgelabel>
+          <edgelabel>__ref_storage_uniformScale</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="1162" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="1163" bodyend="1314"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1acbdabb7efaf75d3da4cfdea93afcfc75" prot="protected" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>__ref_storage_alignmentHorizontal</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1ad574dcb80afdac0bd3727bd29c9dea48" prot="protected" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>__ref_storage_alignmentVertical</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a93c95ce5383cf21636f096dde135095c" prot="protected" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>__ref_storage_size</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a096ec9a253abc3ed4ca3615a5fb656ab" prot="protected" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>__ref_storage_uniformScale</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a016dadba0f08e7d4b24e5e7f75a93284" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>alignmentHorizontal</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1aef0f4a89c8e4b4421381ee64af636129" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>AlignmentVertical</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a124af3a9fd4f598e3706b4733547ea21" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>alignmentVertical</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a6c3a6df0bc4de7d6787e532793a0c3da" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>caption</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a503717b8239b4f05f2a10f4e0403983a" prot="package" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>Const_ImageParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a10a4fde04a76ffa3f67a2830e7735097" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>Const_ImageParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a0b48680160eeccd62953588ce4b8ed4e" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>Const_ImageParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a081571fc2457f585e7257f2eee8b7bef" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>Const_ImageParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1aeb16fbf990aebe12494a3c45d7d508a2" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>Const_ImageParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1aa75603456641d2a99faceeb8f6e2a398" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>Const_ImageParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1afb03aa3922640707a2f2dd3fd710be76" prot="protected" virt="virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a11d925ee5051a78832f8f249807d9452" prot="public" virt="virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1aa2f497531f47a7c3a323a916db4d3c00" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a4ea5555857e027b5f4c580f433eb819b" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>UniformScale</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a6f2b33dbc0159f00d5b3bf9e7ab94060" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>uniformScale</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__ImageParams_1a61281db66dd4ad987a352da1b24a8d53" prot="private" virt="non-virtual"><scope>MR::Const_Pdf::Const_ImageParams</scope><name>~Const_ImageParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,7 +1,7 @@
 var classMR_1_1DoubleOffsetSettings =
 [
     [ "DoubleOffsetSettings", "classMR_1_1DoubleOffsetSettings.html#a51fd92e6cb6509b1b4d1327df581b65e", null ],
-    [ "DoubleOffsetSettings", "classMR_1_1DoubleOffsetSettings.html#a070a34187656629d92c6399e86177054", null ],
+    [ "DoubleOffsetSettings", "classMR_1_1DoubleOffsetSettings.html#aa3c39d29618bc565ca15bb46bcb165ac", null ],
     [ "DoubleOffsetSettings", "classMR_1_1DoubleOffsetSettings.html#aabb407489a745f7746a3420686db7330", null ],
     [ "DoubleOffsetSettings", "classMR_1_1DoubleOffsetSettings.html#ae8af862c7f7094cf508ec57672b8edc0", null ],
     [ "DoubleOffsetSettings", "classMR_1_1DoubleOffsetSettings.html#a4ddb4db5e3a1339dc03a7cfe46d1298d", null ],

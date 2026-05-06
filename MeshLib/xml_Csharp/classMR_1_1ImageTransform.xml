@@ -10,7 +10,7 @@
         <name>rotateClockwise90</name>
         <qualifiedname>MR.ImageTransform.rotateClockwise90</qualifiedname>
         <param>
-          <type>MR.Const_Image</type>
+          <type><ref refid="classMR_1_1Const__Image" kindref="compound">MR.Const_Image</ref></type>
           <declname>image</declname>
         </param>
         <briefdescription>

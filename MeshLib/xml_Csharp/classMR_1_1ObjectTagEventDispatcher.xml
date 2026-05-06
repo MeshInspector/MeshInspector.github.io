@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectTagEventDispatcher" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectTagEventDispatcher</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectTagEventDispatcher</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjectTagEventDispatcher" prot="public" virt="non-virtual">MR.Const_ObjectTagEventDispatcher</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1ObjectTagEventDispatcher_1a21eca0e53dd19c96ca08a15344c9c847" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>ObjectTagEventDispatcher</name>
         <qualifiedname>MR.ObjectTagEventDispatcher.ObjectTagEventDispatcher</qualifiedname>
         <param>
-          <type>Const_ObjectTagEventDispatcher</type>
+          <type><ref refid="classMR_1_1Const__ObjectTagEventDispatcher" kindref="compound">Const_ObjectTagEventDispatcher</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -119,6 +119,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectTagEventDispatcher</label>
+        <link refid="classMR_1_1Const__ObjectTagEventDispatcher"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -140,6 +141,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectTagEventDispatcher</label>
+        <link refid="classMR_1_1Const__ObjectTagEventDispatcher"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +157,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" line="66" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectTagEventDispatcher.cs" bodystart="67" bodyend="102"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjectTagEventDispatcher_1ab04c6ee712cf491eceb8a34b6f12eeac" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjectTagEventDispatcher_1acb61f670c2e74dbd21b7030b64378f89" prot="package" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>Const_ObjectTagEventDispatcher</name></member>
+      <member refid="classMR_1_1Const__ObjectTagEventDispatcher_1ab172c01a307788e26c6d70205bef3155" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>Const_ObjectTagEventDispatcher</name></member>
+      <member refid="classMR_1_1Const__ObjectTagEventDispatcher_1ab10cc45ce245109ab03b2e5c58a61605" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>Const_ObjectTagEventDispatcher</name></member>
+      <member refid="classMR_1_1Const__ObjectTagEventDispatcher_1acef4c43401dac3b2c571fcd17e2acf51" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>Const_ObjectTagEventDispatcher</name></member>
+      <member refid="classMR_1_1Const__ObjectTagEventDispatcher_1ae51b289cf2f494ed904b10c7426cf5e9" prot="protected" virt="virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectTagEventDispatcher_1aab25f3c77290ed44459fb0d642352cf2" prot="public" virt="virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectTagEventDispatcher_1a7367c3e627d71fe744a361be888ffa3e" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>instance</name></member>
       <member refid="classMR_1_1ObjectTagEventDispatcher_1a21eca0e53dd19c96ca08a15344c9c847" prot="package" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>ObjectTagEventDispatcher</name></member>
       <member refid="classMR_1_1ObjectTagEventDispatcher_1a938b939a277c3ce06ed1537f664b5b11" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>ObjectTagEventDispatcher</name></member>
       <member refid="classMR_1_1ObjectTagEventDispatcher_1a5ef24b53a636ca4e4fce471ad55b0a89" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>ObjectTagEventDispatcher</name></member>

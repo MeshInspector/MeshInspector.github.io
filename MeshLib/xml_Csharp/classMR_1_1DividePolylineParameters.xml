@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DividePolylineParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::DividePolylineParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DividePolylineParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DividePolylineParameters" prot="public" virt="non-virtual">MR.Const_DividePolylineParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DividePolylineParameters_1a12afa22269422258f4b690beba8c6a7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Void_From_MREdgeId_MREdgeId_Float</type>
@@ -150,14 +150,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="356" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="356" bodyend="362"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DividePolylineParameters_1a27a3d4ed74897a3d7942e8f523419168" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DividePolylineParameters_1ab894f6f58e424ebaa2216b4cf508040a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.DividePolylineParameters.DividePolylineParameters</definition>
-        <argsstring>(MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeIdFloat onEdgeSplitCallback, bool closeLineAfterCut, MR.VertMap? outVmap, MR.EdgeMap? outEmap, MR.Polyline3? otherPart, MR.VertMap? otherOutVmap, MR.EdgeMap? otherOutEmap)</argsstring>
+        <argsstring>(MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId_Float onEdgeSplitCallback, bool closeLineAfterCut, MR.VertMap? outVmap, MR.EdgeMap? outEmap, MR.Polyline3? otherPart, MR.VertMap? otherOutVmap, MR.EdgeMap? otherOutEmap)</argsstring>
         <name>DividePolylineParameters</name>
         <qualifiedname>MR.DividePolylineParameters.DividePolylineParameters</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeIdFloat</type>
+          <type>MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId_Float</type>
           <declname>onEdgeSplitCallback</declname>
         </param>
         <param>
@@ -219,7 +219,7 @@
         <name>DividePolylineParameters</name>
         <qualifiedname>MR.DividePolylineParameters.DividePolylineParameters</qualifiedname>
         <param>
-          <type>Const_DividePolylineParameters</type>
+          <type><ref refid="classMR_1_1Const__DividePolylineParameters" kindref="compound">Const_DividePolylineParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -284,6 +284,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DividePolylineParameters</label>
+        <link refid="classMR_1_1Const__DividePolylineParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -297,6 +298,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.DividePolylineParameters</label>
         <link refid="classMR_1_1DividePolylineParameters"/>
@@ -305,9 +310,17 @@
       </node>
       <node id="2">
         <label>MR.Const_DividePolylineParameters</label>
+        <link refid="classMR_1_1Const__DividePolylineParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_otherOutEmap</edgelabel>
+          <edgelabel>__ptr_storage_otherOutVmap</edgelabel>
+          <edgelabel>__ptr_storage_otherPart</edgelabel>
+          <edgelabel>__ptr_storage_outEmap</edgelabel>
+          <edgelabel>__ptr_storage_outVmap</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -319,11 +332,25 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" line="241" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTrimWithPlane.cs" bodystart="242" bodyend="414"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1a80ae787933435d26d55c7bf6c1881119" prot="protected" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>__ptr_storage_otherOutEmap</name></member>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1a66c912c97d3c20e05389e2af73f2c6e5" prot="protected" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>__ptr_storage_otherOutVmap</name></member>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1ab9517c9cbe92343afcdf96a9ef7235d7" prot="protected" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>__ptr_storage_otherPart</name></member>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1a8cc7f48ebc43afd349b4fcae7647034b" prot="protected" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>__ptr_storage_outEmap</name></member>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1a9bf3187711569a912f49eeb4a7e93f8f" prot="protected" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>__ptr_storage_outVmap</name></member>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1a95da30a88a893080926d8d076eff7e21" prot="protected" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>__ref_storage_closeLineAfterCut</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1a9c321e33ef433879597cfb61d262561a" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1a8c0fcacdc82112bbce7d87bcf5bae6cc" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>closeLineAfterCut</name></member>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1a46a104bdb158d91300e871cfa6dd9f0c" prot="package" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>Const_DividePolylineParameters</name></member>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1ae1f2ed468c58e365f628a2743047a0e8" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>Const_DividePolylineParameters</name></member>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1a4019bec0e5a3f9651d25f1d9c4fee006" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>Const_DividePolylineParameters</name></member>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1a2b9748271b82d0121f76893bcb9ca6d2" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>Const_DividePolylineParameters</name></member>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1abcf5b37155d57773dc7e0d268d6da3e4" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>Const_DividePolylineParameters</name></member>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1ae3d57d6396fa1a6a16af01227b677b1c" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>Const_DividePolylineParameters</name></member>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1acd04adce37a0fdb6124e19207004b429" prot="protected" virt="virtual"><scope>MR::DividePolylineParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DividePolylineParameters_1a156431f1036fdf399646dd46827f0269" prot="public" virt="virtual"><scope>MR::DividePolylineParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1a036e65e97d38f77c55b6ac75553cd221" prot="package" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>DividePolylineParameters</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1ab44b6e201bfdb383a3089f76203686ad" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>DividePolylineParameters</name></member>
-      <member refid="classMR_1_1DividePolylineParameters_1a27a3d4ed74897a3d7942e8f523419168" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>DividePolylineParameters</name></member>
+      <member refid="classMR_1_1DividePolylineParameters_1ab894f6f58e424ebaa2216b4cf508040a" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>DividePolylineParameters</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1a5fd241ed2a6757408f815d61801e2632" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>DividePolylineParameters</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1afd882db9690be2342a9012610e0c8d66" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>DividePolylineParameters</name></member>
       <member refid="classMR_1_1DividePolylineParameters_1a5f17813313cea9c7b88668e613686358" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>DividePolylineParameters</name></member>

@@ -272,6 +272,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a5e04da01eeac2e83e239fbe906494092" id="r_a5e04da01eeac2e83e239fbe906494092"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5a00aab77738cff176a767642f45dc93">MR_HoleFillPlan</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e04da01eeac2e83e239fbe906494092">MR_getPlanarHoleFillPlan</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e)</td></tr>
 <tr class="memitem:a54a32a59198bfc9d67c03be518a035a3" id="r_a54a32a59198bfc9d67c03be518a035a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a71420d58f7bb7fb91fd83ff02a1848b1">MR_std_vector_MR_HoleFillPlan</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54a32a59198bfc9d67c03be518a035a3">MR_getPlanarHoleFillPlans</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *holeRepresentativeEdges)</td></tr>
 <tr class="memitem:a8a4acb7a8ccb5362c26e291ff61fcf73" id="r_a8a4acb7a8ccb5362c26e291ff61fcf73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a4acb7a8ccb5362c26e291ff61fcf73">MR_executeHoleFillPlan</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a0, <a class="el" href="#a5a00aab77738cff176a767642f45dc93">MR_HoleFillPlan</a> *plan, <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *outNewFaces)</td></tr>
+<tr class="memitem:a6212ddd3a0e794cbb7b10f4f4ab72887" id="r_a6212ddd3a0e794cbb7b10f4f4ab72887"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6212ddd3a0e794cbb7b10f4f4ab72887">MR_isFillingMultipleEdgeFree</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="#a5a00aab77738cff176a767642f45dc93">MR_HoleFillPlan</a> *plan)</td></tr>
 <tr class="memitem:ab69be78c0192bae1938bf7487cc03342" id="r_ab69be78c0192bae1938bf7487cc03342"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab69be78c0192bae1938bf7487cc03342">MR_fillHoleTrivially</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a, <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *outNewFaces)</td></tr>
 <tr class="memdesc:ab69be78c0192bae1938bf7487cc03342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triangulates face of hole in mesh trivially<br  />
 .  <br /></td></tr>
@@ -2157,6 +2158,28 @@ Trivial fill with smooth</div></div>
       </table>
 </div><div class="memdoc">
 <p>Modifies a member variable of class <span class="tt">MR::HoleFillPlan</span> named <span class="tt">numTris</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">numTris</span>. </p>
+
+</div>
+</div>
+<a id="a6212ddd3a0e794cbb7b10f4f4ab72887" name="a6212ddd3a0e794cbb7b10f4f4ab72887"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6212ddd3a0e794cbb7b10f4f4ab72887">&#9670;&#160;</a></span>MR_isFillingMultipleEdgeFree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_isFillingMultipleEdgeFree </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a5a00aab77738cff176a767642f45dc93">MR_HoleFillPlan</a> *</td>          <td class="paramname"><span class="paramname"><em>plan</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if executeHoleFillPlan() with the same topology and plan does not introduce any edge with the same end-vertices as any existed edge in the mesh; note: this function can be used for checking a fill plan that was generated before filling other holes Generated from function <span class="tt">MR::isFillingMultipleEdgeFree</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">plan</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

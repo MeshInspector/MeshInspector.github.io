@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__BMap__MRTextureId__MRTextureId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_BMap_MRTextureId_MRTextureId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1BMap__MRTextureId__MRTextureId" prot="public" virt="non-virtual">MR.BMap_MRTextureId_MRTextureId</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a492860842d68276654c7d16338647e12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Buffer__MRTextureId__MRTextureId" kindref="compound">MR.Const_Buffer_MRTextureId_MRTextureId</ref></type>
+        <definition>unsafe MR.Const_Buffer_MRTextureId_MRTextureId MR.Const_BMap_MRTextureId_MRTextureId.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.Const_BMap_MRTextureId_MRTextureId.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12134" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12134" bodyend="12134"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a81a66d6f86274a4fb0a701a5951db092" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_BMap_MRTextureId_MRTextureId.tsize</definition>
+        <argsstring></argsstring>
+        <name>tsize</name>
+        <qualifiedname>MR.Const_BMap_MRTextureId_MRTextureId.tsize</qualifiedname>
+        <briefdescription>
+<para>target size, all values inside b must be less than this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12139" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12139" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a8067573a3e052ddc15635b385159db64" prot="protected" static="no" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_BMap_MRTextureId_MRTextureId.__ref_storage_tsize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_tsize</name>
+        <qualifiedname>MR.Const_BMap_MRTextureId_MRTextureId.__ref_storage_tsize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12140" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12140" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a5454e9ac83189f56a7fd971e4caf98a6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_BMap_MRTextureId_MRTextureId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_BMap_MRTextureId_MRTextureId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12122" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12122" bodyend="12130"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a6faf5e6071ecbf509953b8d9f590813c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_BMap_MRTextureId_MRTextureId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_BMap_MRTextureId_MRTextureId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12131" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12131" bodyend="12131"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a763d0d93dfc1509adf7d66a988385fee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BMap_MRTextureId_MRTextureId.Const_BMap_MRTextureId_MRTextureId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_BMap_MRTextureId_MRTextureId</name>
+        <qualifiedname>MR.Const_BMap_MRTextureId_MRTextureId.Const_BMap_MRTextureId_MRTextureId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12174" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12174" bodyend="12180"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1ab6b393fc97989e86e2e4509601884723" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BMap_MRTextureId_MRTextureId.Const_BMap_MRTextureId_MRTextureId</definition>
+        <argsstring>(MR._ByValue_Buffer_MRTextureId_MRTextureId b, ulong tsize)</argsstring>
+        <name>Const_BMap_MRTextureId_MRTextureId</name>
+        <qualifiedname>MR.Const_BMap_MRTextureId_MRTextureId.Const_BMap_MRTextureId_MRTextureId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRTextureId_MRTextureId</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>tsize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12185" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12185" bodyend="12192"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a2f1e520ceb56f9525754f1295370816a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BMap_MRTextureId_MRTextureId.Const_BMap_MRTextureId_MRTextureId</definition>
+        <argsstring>(MR._ByValue_BMap_MRTextureId_MRTextureId _other)</argsstring>
+        <name>Const_BMap_MRTextureId_MRTextureId</name>
+        <qualifiedname>MR.Const_BMap_MRTextureId_MRTextureId.Const_BMap_MRTextureId_MRTextureId</qualifiedname>
+        <param>
+          <type>MR._ByValue_BMap_MRTextureId_MRTextureId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;::BMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12197" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12197" bodyend="12204"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1aaaa7dd0e6abc12ec1e6936e7540b20c8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_BMap_MRTextureId_MRTextureId.~Const_BMap_MRTextureId_MRTextureId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_BMap_MRTextureId_MRTextureId</name>
+        <qualifiedname>MR.Const_BMap_MRTextureId_MRTextureId.~Const_BMap_MRTextureId_MRTextureId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12132" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12132" bodyend="12132"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a27cc557ce9b2d279cc3c96e7510404f5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BMap_MRTextureId_MRTextureId.Const_BMap_MRTextureId_MRTextureId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_BMap_MRTextureId_MRTextureId</name>
+        <qualifiedname>MR.Const_BMap_MRTextureId_MRTextureId.Const_BMap_MRTextureId_MRTextureId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12163" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12163" bodyend="12168"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>, <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_BMap_MRTextureId_MRTextureId</label>
+        <link refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.BMap_MRTextureId_MRTextureId</label>
+        <link refid="classMR_1_1BMap__MRTextureId__MRTextureId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_BMap_MRTextureId_MRTextureId</label>
+        <link refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12116" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12117" bodyend="12205"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a8067573a3e052ddc15635b385159db64" prot="protected" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a492860842d68276654c7d16338647e12" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a27cc557ce9b2d279cc3c96e7510404f5" prot="package" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>Const_BMap_MRTextureId_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a763d0d93dfc1509adf7d66a988385fee" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>Const_BMap_MRTextureId_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1ab6b393fc97989e86e2e4509601884723" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>Const_BMap_MRTextureId_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a2f1e520ceb56f9525754f1295370816a" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>Const_BMap_MRTextureId_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a5454e9ac83189f56a7fd971e4caf98a6" prot="protected" virt="virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a6faf5e6071ecbf509953b8d9f590813c" prot="public" virt="virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1a81a66d6f86274a4fb0a701a5951db092" prot="public" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>tsize</name></member>
+      <member refid="classMR_1_1Const__BMap__MRTextureId__MRTextureId_1aaaa7dd0e6abc12ec1e6936e7540b20c8" prot="private" virt="non-virtual"><scope>MR::Const_BMap_MRTextureId_MRTextureId</scope><name>~Const_BMap_MRTextureId_MRTextureId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

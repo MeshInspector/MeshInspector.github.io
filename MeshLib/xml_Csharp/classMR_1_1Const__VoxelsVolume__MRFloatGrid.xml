@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VoxelsVolume__MRFloatGrid" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VoxelsVolume_MRFloatGrid</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VoxelsVolume__MRFloatGrid" prot="public" virt="non-virtual">MR.VoxelsVolume_MRFloatGrid</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a006b2286a4ded53cc5a06541d681727a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__FloatGrid" kindref="compound">MR.Const_FloatGrid</ref></type>
+        <definition>unsafe MR.Const_FloatGrid MR.Const_VoxelsVolume_MRFloatGrid.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3049" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3049" bodyend="3049"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a8dc0cf83f819a53a96d308ae587e69c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>unsafe ref readonly MR.Vector3i MR.Const_VoxelsVolume_MRFloatGrid.dims</definition>
+        <argsstring></argsstring>
+        <name>dims</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.dims</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3051" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3051" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1ae799e0d06fb99424f9532a2101110cea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Const_VoxelsVolume_MRFloatGrid.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3054" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3054" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1af5a7525aa37e1d23306415f0fea25450" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> *</type>
+        <definition>unsafe MR.Vector3i* MR.Const_VoxelsVolume_MRFloatGrid.__ref_storage_dims</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_dims</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.__ref_storage_dims</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3052" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3052" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1ae221d730c71d32e0485d5912311f3011" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Const_VoxelsVolume_MRFloatGrid.__ref_storage_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_voxelSize</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.__ref_storage_voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3055" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3055" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a8f9100bbd3c7f8316551db3215fd89a0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_VoxelsVolume_MRFloatGrid.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3037" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3037" bodyend="3045"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a0d1c5ef056088ae3b7886794dbe6b89e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_VoxelsVolume_MRFloatGrid.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3046" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3046" bodyend="3046"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1af72079228025a6bab21e46ab4543e925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelsVolume_MRFloatGrid.Const_VoxelsVolume_MRFloatGrid</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VoxelsVolume_MRFloatGrid</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.Const_VoxelsVolume_MRFloatGrid</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3095" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3095" bodyend="3101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1ad6d2017db53e6b81730b140189b95e23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelsVolume_MRFloatGrid.Const_VoxelsVolume_MRFloatGrid</definition>
+        <argsstring>(MR._ByValue_FloatGrid data, MR.Vector3i dims, MR.Vector3f voxelSize)</argsstring>
+        <name>Const_VoxelsVolume_MRFloatGrid</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.Const_VoxelsVolume_MRFloatGrid</qualifiedname>
+        <param>
+          <type>MR._ByValue_FloatGrid</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3106" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3106" bodyend="3113"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1acf702d3385dbf47ec581d1a3bfc3fe66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelsVolume_MRFloatGrid.Const_VoxelsVolume_MRFloatGrid</definition>
+        <argsstring>(MR._ByValue_VoxelsVolume_MRFloatGrid _other)</argsstring>
+        <name>Const_VoxelsVolume_MRFloatGrid</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.Const_VoxelsVolume_MRFloatGrid</qualifiedname>
+        <param>
+          <type>MR._ByValue_VoxelsVolume_MRFloatGrid</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;::VoxelsVolume</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3118" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3118" bodyend="3125"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1aac4499655b793e5e990aa3774bb07ba7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VoxelsVolume_MRFloatGrid.Const_VoxelsVolume_MRFloatGrid</definition>
+        <argsstring>(Const_VoxelsVolume_MRFloatGrid _other)</argsstring>
+        <name>Const_VoxelsVolume_MRFloatGrid</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.Const_VoxelsVolume_MRFloatGrid</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid" kindref="compound">Const_VoxelsVolume_MRFloatGrid</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;::VoxelsVolume</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3130" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3130" bodyend="3130"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a9fe9d966affaf4f539d43bdf595331d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VoxelsVolume_MRFloatGrid.Const_VoxelsVolume_MRFloatGrid</definition>
+        <argsstring>(VoxelsVolume_MRFloatGrid _other)</argsstring>
+        <name>Const_VoxelsVolume_MRFloatGrid</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.Const_VoxelsVolume_MRFloatGrid</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelsVolume__MRFloatGrid" kindref="compound">VoxelsVolume_MRFloatGrid</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;::VoxelsVolume</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3135" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3135" bodyend="3135"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1af2f9818dbaba6447195e092b1be865bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VoxelsVolume_MRFloatGrid.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.heapBytes</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;<ref refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1af2f9818dbaba6447195e092b1be865bc" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3140" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3140" bodyend="3145"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a9701fe0abb9128fb8e0f737aadc02a8b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VoxelsVolume_MRFloatGrid.~Const_VoxelsVolume_MRFloatGrid</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VoxelsVolume_MRFloatGrid</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.~Const_VoxelsVolume_MRFloatGrid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3047" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3047" bodyend="3047"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a3197101ce144138bbae9752e21257f2c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VoxelsVolume_MRFloatGrid.Const_VoxelsVolume_MRFloatGrid</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VoxelsVolume_MRFloatGrid</name>
+        <qualifiedname>MR.Const_VoxelsVolume_MRFloatGrid.Const_VoxelsVolume_MRFloatGrid</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3084" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3084" bodyend="3089"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>represents a box in 3D space subdivided on voxels stored in T Generated from class <computeroutput>MR::VoxelsVolume&amp;lt;<ref refid="classMR_1_1FloatGrid" kindref="compound">MR.FloatGrid</ref>&amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_VoxelsVolume_MRFloatGrid</label>
+        <link refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.VoxelsVolume_MRFloatGrid</label>
+        <link refid="classMR_1_1VoxelsVolume__MRFloatGrid"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_VoxelsVolume_MRFloatGrid</label>
+        <link refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_dims</edgelabel>
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3031" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3032" bodyend="3146"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1af5a7525aa37e1d23306415f0fea25450" prot="protected" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>__ref_storage_dims</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1ae221d730c71d32e0485d5912311f3011" prot="protected" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a3197101ce144138bbae9752e21257f2c" prot="package" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>Const_VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1af72079228025a6bab21e46ab4543e925" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>Const_VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1ad6d2017db53e6b81730b140189b95e23" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>Const_VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1acf702d3385dbf47ec581d1a3bfc3fe66" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>Const_VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1aac4499655b793e5e990aa3774bb07ba7" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>Const_VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a9fe9d966affaf4f539d43bdf595331d8" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>Const_VoxelsVolume_MRFloatGrid</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a006b2286a4ded53cc5a06541d681727a" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a8dc0cf83f819a53a96d308ae587e69c4" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>dims</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a8f9100bbd3c7f8316551db3215fd89a0" prot="protected" virt="virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a0d1c5ef056088ae3b7886794dbe6b89e" prot="public" virt="virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1af2f9818dbaba6447195e092b1be865bc" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1ae799e0d06fb99424f9532a2101110cea" prot="public" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>voxelSize</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolume__MRFloatGrid_1a9701fe0abb9128fb8e0f737aadc02a8b" prot="private" virt="non-virtual"><scope>MR::Const_VoxelsVolume_MRFloatGrid</scope><name>~Const_VoxelsVolume_MRFloatGrid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

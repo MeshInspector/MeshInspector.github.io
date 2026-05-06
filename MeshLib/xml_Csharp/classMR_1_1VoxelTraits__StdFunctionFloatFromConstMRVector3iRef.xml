@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef" prot="public" virt="non-virtual">MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef_1ab4d8465635ea7f8dc5df1d019ccce681" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</name>
         <qualifiedname>MR.VoxelTraits_StdFunctionFloatFromConstMRVector3iRef.VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</qualifiedname>
         <param>
-          <type>MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</type>
+          <type><ref refid="classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef" kindref="compound">MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;amp;lt;std::function&amp;amp;lt;float(const <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> &amp;amp;)&amp;amp;gt;&amp;amp;gt;::VoxelTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;lt;std::function&amp;lt;float(const <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> &amp;amp;)&amp;gt;&amp;gt;::VoxelTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;amp;lt;std::function&amp;amp;lt;float(const <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> &amp;amp;)&amp;amp;gt;&amp;amp;gt;::VoxelTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;lt;std::function&amp;lt;float(const <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> &amp;amp;)&amp;gt;&amp;gt;::VoxelTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.VoxelTraits_StdFunctionFloatFromConstMRVector3iRef.assign</qualifiedname>
         <param>
-          <type>MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</type>
+          <type><ref refid="classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef" kindref="compound">MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::VoxelTraits&amp;amp;lt;std::function&amp;amp;lt;float(const <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> &amp;amp;)&amp;amp;gt;&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::VoxelTraits&amp;lt;std::function&amp;lt;float(const <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> &amp;amp;)&amp;gt;&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -102,7 +102,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::VoxelTraits&amp;amp;lt;std::function&amp;amp;lt;float(const <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> &amp;amp;)&amp;amp;gt;&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::VoxelTraits&amp;lt;std::function&amp;lt;float(const <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> &amp;amp;)&amp;gt;&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</label>
+        <link refid="classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</label>
+        <link refid="classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3621" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3622" bodyend="3662"/>
     <listofallmembers>
       <member refid="classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef_1a6f472c856483590724fcad01ee5b393f" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef_1a58747bcaab0b732087d5a71cb4317232" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</scope><name>Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef_1a20cb65e8b04885b3481d6843cd40f631" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</scope><name>Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef_1a63b445f8d2812178bca7cbeac62ed285" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</scope><name>Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef_1ab073619b0e677e525aaaf4d0451f4351" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</scope><name>Const_VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef_1a38dae6ae589296f802787bf82b064aba" prot="protected" virt="virtual"><scope>MR::VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__StdFunctionFloatFromConstMRVector3iRef_1a12663f21105f48ee673d50f274408851" prot="public" virt="virtual"><scope>MR::VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef_1ab4d8465635ea7f8dc5df1d019ccce681" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</scope><name>VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</name></member>
       <member refid="classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef_1a176c61b368c4952132255fbc15f630b1" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</scope><name>VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</name></member>
       <member refid="classMR_1_1VoxelTraits__StdFunctionFloatFromConstMRVector3iRef_1acd48f0c0ab641a96b2fe261043ed7272" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</scope><name>VoxelTraits_StdFunctionFloatFromConstMRVector3iRef</name></member>

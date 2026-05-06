@@ -1,7 +1,7 @@
 var classMR_1_1VoxelsSave_1_1SavingSettings =
 [
     [ "SavingSettings", "classMR_1_1VoxelsSave_1_1SavingSettings.html#addc73467fa8c5d45998b2523031205cf", null ],
-    [ "SavingSettings", "classMR_1_1VoxelsSave_1_1SavingSettings.html#ab3ab677d03242ed05312d7c7a1df8493", null ],
+    [ "SavingSettings", "classMR_1_1VoxelsSave_1_1SavingSettings.html#aa41b8878c39920807683e9c499c9a65e", null ],
     [ "SavingSettings", "classMR_1_1VoxelsSave_1_1SavingSettings.html#ae211ac06c46860c4303e9529b49d2695", null ],
     [ "SavingSettings", "classMR_1_1VoxelsSave_1_1SavingSettings.html#accebe62b1f675fef2dfd069715929c8d", null ],
     [ "SavingSettings", "classMR_1_1VoxelsSave_1_1SavingSettings.html#ae1974ff282d64427a17ebce868604a9f", null ],

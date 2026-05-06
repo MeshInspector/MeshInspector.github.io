@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshToDistanceMapParams" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshToDistanceMapParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshToDistanceMapParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshToDistanceMapParams" prot="public" virt="non-virtual">MR.Const_MeshToDistanceMapParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshToDistanceMapParams_1a824aa8fa02e13eb675f26122f9c6ef30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -187,7 +187,7 @@
         <name>MeshToDistanceMapParams</name>
         <qualifiedname>MR.MeshToDistanceMapParams.MeshToDistanceMapParams</qualifiedname>
         <param>
-          <type>MR.Const_MeshToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__MeshToDistanceMapParams" kindref="compound">MR.Const_MeshToDistanceMapParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -233,7 +233,7 @@
           <declname>resolution</declname>
         </param>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>mp</declname>
         </param>
         <param>
@@ -242,7 +242,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>direction vector shows the projections vector to the distance map for points on model yRange and xRange directions make orthonormal basis with direction see Vector3&amp;lt;T&amp;gt;::perpendicular() for more details All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" kindref="member">MR.MeshToDistanceMapParams.MeshToDistanceMapParams</ref></computeroutput>. Parameter <computeroutput>usePreciseBoundingBox</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+<para>direction vector shows the projections vector to the distance map for points on model yRange and xRange directions make orthonormal basis with direction see Vector3&lt;T&gt;::perpendicular() for more details All Output Distance map values will be positive usePreciseBoundingBox false (fast): use general (cached) bounding box with applied rotation usePreciseBoundingBox true (slow): compute bounding box from points with respect to rotation Generated from constructor <computeroutput><ref refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" kindref="member">MR.MeshToDistanceMapParams.MeshToDistanceMapParams</ref></computeroutput>. Parameter <computeroutput>usePreciseBoundingBox</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -265,7 +265,7 @@
           <declname>pixelSize</declname>
         </param>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>mp</declname>
         </param>
         <param>
@@ -359,7 +359,7 @@
           <declname>resolution</declname>
         </param>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>mp</declname>
         </param>
         <param>
@@ -437,7 +437,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshToDistanceMapParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_MeshToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__MeshToDistanceMapParams" kindref="compound">MR.Const_MeshToDistanceMapParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -487,6 +487,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshToDistanceMapParams</label>
+        <link refid="classMR_1_1Const__MeshToDistanceMapParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -500,6 +501,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshToDistanceMapParams</label>
         <link refid="classMR_1_1MeshToDistanceMapParams"/>
@@ -508,9 +513,17 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshToDistanceMapParams</label>
+        <link refid="classMR_1_1Const__MeshToDistanceMapParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_direction</edgelabel>
+          <edgelabel>__ref_storage_orgPoint</edgelabel>
+          <edgelabel>__ref_storage_resolution</edgelabel>
+          <edgelabel>__ref_storage_xRange</edgelabel>
+          <edgelabel>__ref_storage_yRange</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -522,9 +535,31 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="375" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="376" bodyend="654"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1a01cd549a8688338785fec6ecc5bf04c0" prot="protected" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>__ref_storage_allowNegativeValues</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1a7d6b855eb5866544e4d487226af435ec" prot="protected" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>__ref_storage_direction</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1af965bd839493518f68b4f48d45f32dcb" prot="protected" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>__ref_storage_maxValue</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1aa32a09a330a5c9e67fc31ae793c78e52" prot="protected" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>__ref_storage_minValue</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1a7f5a677b651c62e41bac54cd1bd5ced1" prot="protected" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>__ref_storage_orgPoint</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1a21c233abc1009c36112a4405017bf6b0" prot="protected" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>__ref_storage_resolution</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1a4ba098de452ca63068b3d08c6cc80e01" prot="protected" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>__ref_storage_useDistanceLimits</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1ad8827cfa7f6aa916f62f3fb07ce26551" prot="protected" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>__ref_storage_xRange</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1ac9862af2925ffe1a9310b1ad96bec95e" prot="protected" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>__ref_storage_yRange</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1a5e801a700f07e77681be593da3576242" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>allowNegativeValues</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1aea9f4d5ea1cc2dd37ed842f35ed65d71" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1afad0132d181c7a9eecb5738cf4703091" prot="package" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>Const_MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1abe5bf99515ce58245e2d44033c71e563" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>Const_MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1ac4b299ac8a772f67abb948835af130b0" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>Const_MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1a61a7a0ddd1368ca97c39aa561f1a0a10" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>Const_MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1a9b830bf42dc560cbf6ef8c6a6b220ab6" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>Const_MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1abbda5a6e456c1a24b40a9970804e0cd6" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>Const_MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1a4cf1b28d2dc03648f31fe0bdb25f1df7" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>Const_MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1a021123609570209f319112b1335e543e" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>Const_MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1a366d4c9f69139a2225bb1cc6d99944d8" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>Const_MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1af470cb126455385f6fc69e9ece37ba93" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>Const_MeshToDistanceMapParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1a64c58176cc5e344c8e6568216bf78c3d" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>Const_MeshToDistanceMapParams</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1a39822d0d4e7f18a2f583a631010ccf00" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>direction</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1ad98bff58c672380664173e1cd0b4fbb3" prot="protected" virt="virtual"><scope>MR::MeshToDistanceMapParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1a160db692746dbe31ed8e8a53366605b9" prot="public" virt="virtual"><scope>MR::MeshToDistanceMapParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1accebc8ada019cb41454f9283960b83e7" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>maxValue</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1a32d3bab9b732bba384e0406ba58be5f9" prot="package" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1af0aaf53cecbd8b3866f1cfbafd27e379" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
@@ -538,10 +573,12 @@
       <member refid="classMR_1_1MeshToDistanceMapParams_1a396adcdb1016061e0dd4879729008236" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1afa70367a49eb6bd6f232568467a2631d" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>MeshToDistanceMapParams</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1a84ed25546f762d923bf438c87a97670b" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>minValue</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1a793d62584899bd2892ce7ce4c3927fbf" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>operator MR.AffineXf3f</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1a6d2401e2849f186099d8a4dfeef267f8" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>orgPoint</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1a8e8fb4439312edcb9e8aca7fc6e7902c" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>resolution</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1ad1ea01a48ca8b6c857e656a802a220ae" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>setDistanceLimits</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1a914df5423b968bed7e6ea3df1b009bff" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>useDistanceLimits</name></member>
+      <member refid="classMR_1_1Const__MeshToDistanceMapParams_1aa25013835ac5c7fe5e8f40698a750ddd" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>xf</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1a824aa8fa02e13eb675f26122f9c6ef30" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>xRange</name></member>
       <member refid="classMR_1_1MeshToDistanceMapParams_1a5cfe1a3f1a49cc46cfbfc5381ce53bd4" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceMapParams</scope><name>yRange</name></member>
     </listofallmembers>

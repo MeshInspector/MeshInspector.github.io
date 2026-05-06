@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ContoursMeshAlignParams" kind="class" language="C#" prot="public">
     <compoundname>MR::ContoursMeshAlignParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ContoursMeshAlignParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ContoursMeshAlignParams" prot="public" virt="non-virtual">MR.Const_ContoursMeshAlignParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ContoursMeshAlignParams_1ac2ee922ad3b0d1f10d91d830665a1656" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MR.MeshTriPoint</ref></type>
@@ -142,7 +142,7 @@
         <name>ContoursMeshAlignParams</name>
         <qualifiedname>MR.ContoursMeshAlignParams.ContoursMeshAlignParams</qualifiedname>
         <param>
-          <type>MR.Const_MeshTriPoint</type>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
           <declname>meshPoint</declname>
         </param>
         <param>
@@ -181,7 +181,7 @@
         <name>ContoursMeshAlignParams</name>
         <qualifiedname>MR.ContoursMeshAlignParams.ContoursMeshAlignParams</qualifiedname>
         <param>
-          <type>MR.Const_ContoursMeshAlignParams</type>
+          <type><ref refid="classMR_1_1Const__ContoursMeshAlignParams" kindref="compound">MR.Const_ContoursMeshAlignParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -219,7 +219,7 @@
         <name>assign</name>
         <qualifiedname>MR.ContoursMeshAlignParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_ContoursMeshAlignParams</type>
+          <type><ref refid="classMR_1_1Const__ContoursMeshAlignParams" kindref="compound">MR.Const_ContoursMeshAlignParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -246,6 +246,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ContoursMeshAlignParams</label>
+        <link refid="classMR_1_1Const__ContoursMeshAlignParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -259,6 +260,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ContoursMeshAlignParams</label>
         <link refid="classMR_1_1ContoursMeshAlignParams"/>
@@ -267,9 +272,15 @@
       </node>
       <node id="2">
         <label>MR.Const_ContoursMeshAlignParams</label>
+        <link refid="classMR_1_1Const__ContoursMeshAlignParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_zDirection</edgelabel>
+          <edgelabel>__ref_storage_pivotPoint</edgelabel>
+          <edgelabel>__ref_storage_xDirection</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -281,12 +292,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="175" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="176" bodyend="295"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a79ca52ee853c78a21e779f4bf0bab8cf" prot="protected" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>__ptr_storage_zDirection</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a972f66ef473def597e02f14ed47afb6c" prot="protected" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>__ref_storage_extrusion</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a2f8ea9f6f590e78287517aaeec54e549" prot="protected" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>__ref_storage_maximumShift</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a56448e18c586725f821af96b29f6664e" prot="protected" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>__ref_storage_pivotPoint</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a09009b68da26673725b658e2472e500e" prot="protected" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>__ref_storage_xDirection</name></member>
       <member refid="classMR_1_1ContoursMeshAlignParams_1aac7ac659dd9317a3e58012ff75881774" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a66ac9389f3890d518d197156bc5e2d8c" prot="package" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>Const_ContoursMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1aad12385b59c5df7edc24db6f06c1b026" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>Const_ContoursMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a695c194185df7b2af7bc8d601be07be5" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>Const_ContoursMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a3471b85122d59174c9b64c91d9172d64" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>Const_ContoursMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1aa97602526aa02e9d60d2efcfeeca0727" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>Const_ContoursMeshAlignParams</name></member>
       <member refid="classMR_1_1ContoursMeshAlignParams_1a3e39bf78bbc19abe417227b276357cd9" prot="package" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>ContoursMeshAlignParams</name></member>
       <member refid="classMR_1_1ContoursMeshAlignParams_1aaf6a324a450e161d8e063ed203c7617b" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>ContoursMeshAlignParams</name></member>
       <member refid="classMR_1_1ContoursMeshAlignParams_1a3e67b180ef6143f34b71d1249ffd743b" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>ContoursMeshAlignParams</name></member>
       <member refid="classMR_1_1ContoursMeshAlignParams_1a3d664b081dde771f72b6ac5f2b69e2d2" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>ContoursMeshAlignParams</name></member>
       <member refid="classMR_1_1ContoursMeshAlignParams_1a9ce6efa3bd388352bfe93abb6af47fc6" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>ContoursMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a6dc223ee99215668ee0d3475981a1c44" prot="protected" virt="virtual"><scope>MR::ContoursMeshAlignParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ContoursMeshAlignParams_1a4f42e3dddedf8181de79e47dd62d4ed2" prot="public" virt="virtual"><scope>MR::ContoursMeshAlignParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ContoursMeshAlignParams_1a24937b42a98be7d74cb2fa3fafce3148" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>extrusion</name></member>
       <member refid="classMR_1_1ContoursMeshAlignParams_1a654238bf7eb0b6c9060c2cfa798fd7bc" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>maximumShift</name></member>
       <member refid="classMR_1_1ContoursMeshAlignParams_1ac2ee922ad3b0d1f10d91d830665a1656" prot="public" virt="non-virtual"><scope>MR::ContoursMeshAlignParams</scope><name>meshPoint</name></member>

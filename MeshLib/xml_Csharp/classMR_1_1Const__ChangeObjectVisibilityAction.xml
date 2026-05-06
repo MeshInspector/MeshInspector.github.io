@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ChangeObjectVisibilityAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ChangeObjectVisibilityAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeObjectVisibilityAction" prot="public" virt="non-virtual">MR.ChangeObjectVisibilityAction</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1ae30f799b73b0c1d6881d1246089beee4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ChangeObjectVisibilityAction.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="619" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="619" bodyend="627"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1a4d3bf629e71e88ad48a0c89713104eb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ChangeObjectVisibilityAction.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="628" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="628" bodyend="628"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1ab94bb336cca9ffb5ad26937414c4391e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeObjectVisibilityAction.Const_ChangeObjectVisibilityAction</definition>
+        <argsstring>(MR._ByValue_ChangeObjectVisibilityAction _other)</argsstring>
+        <name>Const_ChangeObjectVisibilityAction</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.Const_ChangeObjectVisibilityAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeObjectVisibilityAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeObjectVisibilityAction_1a2ffe2df2e28d2e2e55fd0d3d067769e2" kindref="member">MR.ChangeObjectVisibilityAction.ChangeObjectVisibilityAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="658" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="658" bodyend="664"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1a2a186b9261ed1479fbfb82969bdb25f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeObjectVisibilityAction.Const_ChangeObjectVisibilityAction</definition>
+        <argsstring>(Const_ChangeObjectVisibilityAction _other)</argsstring>
+        <name>Const_ChangeObjectVisibilityAction</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.Const_ChangeObjectVisibilityAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangeObjectVisibilityAction" kindref="compound">Const_ChangeObjectVisibilityAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeObjectVisibilityAction_1a2ffe2df2e28d2e2e55fd0d3d067769e2" kindref="member">MR.ChangeObjectVisibilityAction.ChangeObjectVisibilityAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="669" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="669" bodyend="669"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1a6f0b2edda1d1fba4b08135f918bbe56f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeObjectVisibilityAction.Const_ChangeObjectVisibilityAction</definition>
+        <argsstring>(ChangeObjectVisibilityAction _other)</argsstring>
+        <name>Const_ChangeObjectVisibilityAction</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.Const_ChangeObjectVisibilityAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeObjectVisibilityAction" kindref="compound">ChangeObjectVisibilityAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeObjectVisibilityAction_1a2ffe2df2e28d2e2e55fd0d3d067769e2" kindref="member">MR.ChangeObjectVisibilityAction.ChangeObjectVisibilityAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="674" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="674" bodyend="674"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1a39dbfb24d079af3791d60eddd5fc0e6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeObjectVisibilityAction.Const_ChangeObjectVisibilityAction</definition>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObject obj)</argsstring>
+        <name>Const_ChangeObjectVisibilityAction</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.Const_ChangeObjectVisibilityAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRObject</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object's visibility mask before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeObjectVisibilityAction_1a2ffe2df2e28d2e2e55fd0d3d067769e2" kindref="member">MR.ChangeObjectVisibilityAction.ChangeObjectVisibilityAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="680" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="680" bodyend="690"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1a666034bc383d22b07ad8c702de89cd9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeObjectVisibilityAction.Const_ChangeObjectVisibilityAction</definition>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRObject obj, MR.Const_ViewportMask newVisibilityMask)</argsstring>
+        <name>Const_ChangeObjectVisibilityAction</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.Const_ChangeObjectVisibilityAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRObject</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>newVisibilityMask</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object's visibility mask and immediately set new mask Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeObjectVisibilityAction_1a2ffe2df2e28d2e2e55fd0d3d067769e2" kindref="member">MR.ChangeObjectVisibilityAction.ChangeObjectVisibilityAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="696" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="696" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1a0ad47f75681f2f3451e5c72c1816070c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ChangeObjectVisibilityAction.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeObjectVisibilityAction_1a0ad47f75681f2f3451e5c72c1816070c" kindref="member">MR.ChangeObjectVisibilityAction.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="712" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="712" bodyend="717"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1af969d861db7ebc049cee06c043eb3ea6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ChangeObjectVisibilityAction.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.heapBytes</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeObjectVisibilityAction_1af969d861db7ebc049cee06c043eb3ea6" kindref="member">MR.ChangeObjectVisibilityAction.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="732" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="732" bodyend="737"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1a4988249e48939013a7cb178c2487f9f6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeObjectVisibilityAction.~Const_ChangeObjectVisibilityAction</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ChangeObjectVisibilityAction</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.~Const_ChangeObjectVisibilityAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="629" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="629" bodyend="629"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1a136ab02c7661ee0a60e1a7c2bb73765e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ChangeObjectVisibilityAction.operator MR.Const_HistoryAction</definition>
+        <argsstring>(Const_ChangeObjectVisibilityAction self)</argsstring>
+        <name>operator MR.Const_HistoryAction</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.operator MR.Const_HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangeObjectVisibilityAction" kindref="compound">Const_ChangeObjectVisibilityAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="632" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="632" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1a1c4dbb37546d7b0d2eadd029dc5311bb" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ChangeObjectVisibilityAction.operator Const_ChangeObjectVisibilityAction?</definition>
+        <argsstring>(MR.Const_HistoryAction parent)</argsstring>
+        <name>operator Const_ChangeObjectVisibilityAction?</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.operator Const_ChangeObjectVisibilityAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__HistoryAction" kindref="compound">MR.Const_HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="642" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="642" bodyend="651"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1abb77a44b0e80f6e44a18376e65385b95" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_ChangeObjectVisibilityAction.setObjectDirty</definition>
+        <argsstring>(MR.Std.Const_SharedPtr_MRObject _1)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.setObjectDirty</qualifiedname>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRObject</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeObjectVisibilityAction_1abb77a44b0e80f6e44a18376e65385b95" kindref="member">MR.ChangeObjectVisibilityAction.setObjectDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="722" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="722" bodyend="727"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeObjectVisibilityAction_1a8e9a15983ba3b2802a6943052c73a144" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeObjectVisibilityAction.Const_ChangeObjectVisibilityAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ChangeObjectVisibilityAction</name>
+        <qualifiedname>MR.Const_ChangeObjectVisibilityAction.Const_ChangeObjectVisibilityAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="653" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="653" bodyend="653"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>History action for object visibility Generated from class <computeroutput><ref refid="classMR_1_1ChangeObjectVisibilityAction" kindref="compound">MR.ChangeObjectVisibilityAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ChangeObjectVisibilityAction</label>
+        <link refid="classMR_1_1Const__ChangeObjectVisibilityAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ChangeObjectVisibilityAction</label>
+        <link refid="classMR_1_1ChangeObjectVisibilityAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ChangeObjectVisibilityAction</label>
+        <link refid="classMR_1_1Const__ChangeObjectVisibilityAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="613" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="614" bodyend="738"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1a8e9a15983ba3b2802a6943052c73a144" prot="package" virt="non-virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>Const_ChangeObjectVisibilityAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1ab94bb336cca9ffb5ad26937414c4391e" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>Const_ChangeObjectVisibilityAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1a2a186b9261ed1479fbfb82969bdb25f3" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>Const_ChangeObjectVisibilityAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1a6f0b2edda1d1fba4b08135f918bbe56f" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>Const_ChangeObjectVisibilityAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1a39dbfb24d079af3791d60eddd5fc0e6c" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>Const_ChangeObjectVisibilityAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1a666034bc383d22b07ad8c702de89cd9c" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>Const_ChangeObjectVisibilityAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1ae30f799b73b0c1d6881d1246089beee4" prot="protected" virt="virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1a4d3bf629e71e88ad48a0c89713104eb0" prot="public" virt="virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1af969d861db7ebc049cee06c043eb3ea6" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1a0ad47f75681f2f3451e5c72c1816070c" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1a1c4dbb37546d7b0d2eadd029dc5311bb" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>operator Const_ChangeObjectVisibilityAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1a136ab02c7661ee0a60e1a7c2bb73765e" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>operator MR.Const_HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1abb77a44b0e80f6e44a18376e65385b95" prot="public" virt="non-virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>setObjectDirty</name></member>
+      <member refid="classMR_1_1Const__ChangeObjectVisibilityAction_1a4988249e48939013a7cb178c2487f9f6" prot="private" virt="non-virtual"><scope>MR::Const_ChangeObjectVisibilityAction</scope><name>~Const_ChangeObjectVisibilityAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

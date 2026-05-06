@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BasicUiRenderTask" kind="class" language="C#" prot="public">
     <compoundname>MR::BasicUiRenderTask</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BasicUiRenderTask</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BasicUiRenderTask" prot="public" virt="non-virtual">MR.Const_BasicUiRenderTask</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BasicUiRenderTask_1a18ebdf68bde4172b208cffb9be70b12c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -52,7 +52,7 @@
         <name>earlyBackwardPass</name>
         <qualifiedname>MR.BasicUiRenderTask.earlyBackwardPass</qualifiedname>
         <param>
-          <type>MR.BasicUiRenderTask.Const_BackwardPassParams</type>
+          <type><ref refid="classMR_1_1Const__BasicUiRenderTask_1_1Const__BackwardPassParams" kindref="compound">MR.BasicUiRenderTask.Const_BackwardPassParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -94,6 +94,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BasicUiRenderTask</label>
+        <link refid="classMR_1_1Const__BasicUiRenderTask"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -115,6 +116,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BasicUiRenderTask</label>
+        <link refid="classMR_1_1Const__BasicUiRenderTask"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -129,8 +131,13 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1067" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1068" bodyend="1105"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__BasicUiRenderTask_1ad6b531b89c7efda8538f06efffc7de58" prot="protected" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>__ref_storage_renderTaskDepth</name></member>
       <member refid="classMR_1_1BasicUiRenderTask_1ad6d9e31ea0f9377f87c6f867e39fff4f" prot="package" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="classMR_1_1Const__BasicUiRenderTask_1a20273296d614a9b56989a3e9fb122716" prot="package" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>Const_BasicUiRenderTask</name></member>
+      <member refid="classMR_1_1Const__BasicUiRenderTask_1a8f76243971ffdaba0cf020603302a358" prot="protected" virt="virtual"><scope>MR::BasicUiRenderTask</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BasicUiRenderTask_1a4cf624786c75d97889c8e3b1edc5afd3" prot="public" virt="virtual"><scope>MR::BasicUiRenderTask</scope><name>Dispose</name></member>
       <member refid="classMR_1_1BasicUiRenderTask_1a19e02fdcd91848d510e8c03974704d6f" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>earlyBackwardPass</name></member>
+      <member refid="classMR_1_1Const__BasicUiRenderTask_1a298be6210adf0a0aadf2174c9e33d329" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>InteractionMask</name></member>
       <member refid="classMR_1_1BasicUiRenderTask_1a13b2e8a2882f0be57c92a570301abb23" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>renderPass</name></member>
       <member refid="classMR_1_1BasicUiRenderTask_1a18ebdf68bde4172b208cffb9be70b12c" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>renderTaskDepth</name></member>
     </listofallmembers>

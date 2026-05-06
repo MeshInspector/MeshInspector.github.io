@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MultiwayAligningTransform" kind="class" language="C#" prot="public">
     <compoundname>MR::MultiwayAligningTransform</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MultiwayAligningTransform</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MultiwayAligningTransform" prot="public" virt="non-virtual">MR.Const_MultiwayAligningTransform</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1MultiwayAligningTransform_1a2296981f9421dd921228c5fc01fee3af" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -278,7 +278,7 @@
         <name>add</name>
         <qualifiedname>MR.MultiwayAligningTransform.add</qualifiedname>
         <param>
-          <type>MR.Const_MultiwayAligningTransform</type>
+          <type><ref refid="classMR_1_1Const__MultiwayAligningTransform" kindref="compound">MR.Const_MultiwayAligningTransform</ref></type>
           <declname>r</declname>
         </param>
         <briefdescription>
@@ -305,6 +305,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MultiwayAligningTransform</label>
+        <link refid="classMR_1_1Const__MultiwayAligningTransform"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -326,6 +327,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MultiwayAligningTransform</label>
+        <link refid="classMR_1_1Const__MultiwayAligningTransform"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -346,11 +348,19 @@
       <member refid="classMR_1_1MultiwayAligningTransform_1ac5c0c090a30d9fdf26aed6cc4cf463e8" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>add</name></member>
       <member refid="classMR_1_1MultiwayAligningTransform_1affdf594eec081c760ced017d90a355a6" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>add</name></member>
       <member refid="classMR_1_1MultiwayAligningTransform_1a5ba0d7c7748b3b4dc9b46c8dfb98044d" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1a364f04acc175cbcfdcc212cb839a9c22" prot="package" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>Const_MultiwayAligningTransform</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1a61d663328bb2d436a672a348bd7667cd" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>Const_MultiwayAligningTransform</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1a624bf1ff1a1568c133ebb6fbe6ae9bcf" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>Const_MultiwayAligningTransform</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1ad901c126cafd38936418f1c777f5dd67" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>Const_MultiwayAligningTransform</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1ab4a94e4f695e02e2c97f9888617e2bf4" prot="protected" virt="virtual"><scope>MR::MultiwayAligningTransform</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1a268a750747b13031ddb55f0d25faddb1" prot="public" virt="virtual"><scope>MR::MultiwayAligningTransform</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MultiwayAligningTransform_1a2296981f9421dd921228c5fc01fee3af" prot="package" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>MultiwayAligningTransform</name></member>
       <member refid="classMR_1_1MultiwayAligningTransform_1aa2b99b5d907960b5b34fba8d76149b49" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>MultiwayAligningTransform</name></member>
       <member refid="classMR_1_1MultiwayAligningTransform_1ab073ab7194d384fdb5a121bc40285553" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>MultiwayAligningTransform</name></member>
       <member refid="classMR_1_1MultiwayAligningTransform_1a724d243960a8c6a4c37c0b7a6f1a31f2" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>MultiwayAligningTransform</name></member>
       <member refid="classMR_1_1MultiwayAligningTransform_1a04e34a18ec037af60d1289048c7b0b04" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>reset</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1a61d672bd8ae895e6e06bc0a6a393d4a3" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>solve</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1a80b2c57b981bf72915b7fc52108c98f4" prot="public" virt="non-virtual"><scope>MR::MultiwayAligningTransform</scope><name>solve</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

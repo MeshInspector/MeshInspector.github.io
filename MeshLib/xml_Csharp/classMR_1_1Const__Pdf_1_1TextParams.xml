@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Pdf_1_1TextParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Pdf::TextParams</compoundname>
+    <basecompoundref refid="classMR_1_1Const__Pdf_1_1Const__TextParams" prot="public" virt="non-virtual">MR.Const_Pdf.Const_TextParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1TextParams_1ab9dc13cff376f0c8a9e29ba4b4943268" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Variant_MRPdfBuildinFont_StdFilesystemPath</type>
+        <definition>new unsafe MR.Std.Variant_MRPdfBuildinFont_StdFilesystemPath MR.Const_Pdf.TextParams.fontName</definition>
+        <argsstring></argsstring>
+        <name>fontName</name>
+        <qualifiedname>MR.Const_Pdf.TextParams.fontName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2199" column="79" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2199" bodyend="2199"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1TextParams_1a6bfc5c794813c70638e6b7412370a8bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Const_Pdf.TextParams.fontSize</definition>
+        <argsstring></argsstring>
+        <name>fontSize</name>
+        <qualifiedname>MR.Const_Pdf.TextParams.fontSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2201" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1TextParams_1ae88e5f1963c902245682b52337455613" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1_1Const__Pdf_1a7892f5728ae65bba32cd8c15eb4c7c70" kindref="member">MR.Pdf.AlignmentHorizontal</ref></type>
+        <definition>new unsafe ref MR.Pdf.AlignmentHorizontal MR.Const_Pdf.TextParams.alignment</definition>
+        <argsstring></argsstring>
+        <name>alignment</name>
+        <qualifiedname>MR.Const_Pdf.TextParams.alignment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2203" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1TextParams_1ab85a17a4ed7c3206ebb22528ac217e42" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>new unsafe ref MR.Color MR.Const_Pdf.TextParams.colorText</definition>
+        <argsstring></argsstring>
+        <name>colorText</name>
+        <qualifiedname>MR.Const_Pdf.TextParams.colorText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2205" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Pdf_1_1TextParams_1a8ea2bc8333046d4c717865d57c51f8cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.Const_Pdf.TextParams.underline</definition>
+        <argsstring></argsstring>
+        <name>underline</name>
+        <qualifiedname>MR.Const_Pdf.TextParams.underline</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2207" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2207" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1TextParams_1afefc3691a85f56777f59469874fd9440" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.TextParams.TextParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>TextParams</name>
+        <qualifiedname>MR.Const_Pdf.TextParams.TextParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2226" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2226" bodyend="2230"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1TextParams_1a5e0480acb8e563772ae2dc68ff014b6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.TextParams.TextParams</definition>
+        <argsstring>()</argsstring>
+        <name>TextParams</name>
+        <qualifiedname>MR.Const_Pdf.TextParams.TextParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2236" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2236" bodyend="2242"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1TextParams_1a65ef05f8ee7f33e66663dfd1d07362eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.TextParams.TextParams</definition>
+        <argsstring>(MR.Std._ByValue_Variant_MRPdfBuildinFont_StdFilesystemPath fontName, float fontSize, MR.Pdf.AlignmentHorizontal alignment, MR.Color colorText, bool underline)</argsstring>
+        <name>TextParams</name>
+        <qualifiedname>MR.Const_Pdf.TextParams.TextParams</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Variant_MRPdfBuildinFont_StdFilesystemPath</type>
+          <declname>fontName</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fontSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Pdf_1a7892f5728ae65bba32cd8c15eb4c7c70" kindref="member">MR.Pdf.AlignmentHorizontal</ref></type>
+          <declname>alignment</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>colorText</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>underline</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Const__Pdf_1_1TextParams" kindref="compound">MR.Pdf.TextParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2247" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2247" bodyend="2254"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1TextParams_1ad3e41ad66864cf8d002a9f5f5078f060" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.TextParams.TextParams</definition>
+        <argsstring>(MR.Pdf._ByValue_TextParams _other)</argsstring>
+        <name>TextParams</name>
+        <qualifiedname>MR.Const_Pdf.TextParams.TextParams</qualifiedname>
+        <param>
+          <type>MR.Pdf._ByValue_TextParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Pdf::TextParams::TextParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2259" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2259" bodyend="2266"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1TextParams_1abb1952c9d088c98622a9446072e81bf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Pdf.TextParams.TextParams</definition>
+        <argsstring>(Const_TextParams _other)</argsstring>
+        <name>TextParams</name>
+        <qualifiedname>MR.Const_Pdf.TextParams.TextParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Pdf_1_1Const__TextParams" kindref="compound">Const_TextParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Pdf::TextParams::TextParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2271" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2271" bodyend="2271"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1TextParams_1af50b5a64de19773d7f668bac67e4ef25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Pdf.TextParams.TextParams</definition>
+        <argsstring>(TextParams _other)</argsstring>
+        <name>TextParams</name>
+        <qualifiedname>MR.Const_Pdf.TextParams.TextParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Pdf_1_1TextParams" kindref="compound">TextParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Pdf::TextParams::TextParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2276" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2276" bodyend="2276"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1TextParams_1a404b2cb86fed71a7c75a25ee861e1cc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Pdf_1_1TextParams" kindref="compound">MR.Pdf.TextParams</ref></type>
+        <definition>unsafe MR.Pdf.TextParams MR.Const_Pdf.TextParams.assign</definition>
+        <argsstring>(MR.Pdf._ByValue_TextParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Const_Pdf.TextParams.assign</qualifiedname>
+        <param>
+          <type>MR.Pdf._ByValue_TextParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Pdf::TextParams::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2281" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2281" bodyend="2288"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Const__Pdf_1_1TextParams" kindref="compound">MR.Pdf.TextParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Pdf.TextParams</label>
+        <link refid="classMR_1_1Const__Pdf_1_1TextParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Pdf.Const_TextParams</label>
+        <link refid="classMR_1_1Const__Pdf_1_1Const__TextParams"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_Pdf.TextParams</label>
+        <link refid="classMR_1_1Const__Pdf_1_1TextParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Pdf.Const_TextParams</label>
+        <link refid="classMR_1_1Const__Pdf_1_1Const__TextParams"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_alignment</edgelabel>
+          <edgelabel>__ref_storage_colorText</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2197" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2198" bodyend="2289"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__TextParams_1a42ee492fde4679f7c8502ef2b8ca7fc1" prot="protected" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>__ref_storage_alignment</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__TextParams_1a338fba87f0372d173a8b7c1a0f156490" prot="protected" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>__ref_storage_colorText</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__TextParams_1a2ee83d311ce9b11b4ce75248df8a02b5" prot="protected" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>__ref_storage_fontSize</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__TextParams_1aeafb3df3cdd8264adb41e7c162d67e12" prot="protected" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>__ref_storage_underline</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1TextParams_1ae88e5f1963c902245682b52337455613" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>alignment</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1TextParams_1a404b2cb86fed71a7c75a25ee861e1cc0" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1TextParams_1ab85a17a4ed7c3206ebb22528ac217e42" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>colorText</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__TextParams_1a3c344f263b999b6cd2fcc5f957112ab6" prot="package" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>Const_TextParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__TextParams_1a5f62d05938a0d13091645d41b07c533a" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>Const_TextParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__TextParams_1a0566390b509cd66c1411c8ee366bf2b7" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>Const_TextParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__TextParams_1a0a5dc6b46a0dde1ed250904cb4071182" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>Const_TextParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__TextParams_1a22903aa27f2853327081bfa552936a99" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>Const_TextParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__TextParams_1a7e1dea8c57c5e3ea9dd34ddb997b7bee" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>Const_TextParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__TextParams_1afe08ea41c6bd6b0a714c205f46712fe4" prot="protected" virt="virtual"><scope>MR::Const_Pdf::TextParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__TextParams_1aa06b1827142a5de2a161f4eb11bcf385" prot="public" virt="virtual"><scope>MR::Const_Pdf::TextParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1TextParams_1ab9dc13cff376f0c8a9e29ba4b4943268" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>fontName</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1TextParams_1a6bfc5c794813c70638e6b7412370a8bf" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>fontSize</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1TextParams_1afefc3691a85f56777f59469874fd9440" prot="package" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>TextParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1TextParams_1a5e0480acb8e563772ae2dc68ff014b6f" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>TextParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1TextParams_1a65ef05f8ee7f33e66663dfd1d07362eb" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>TextParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1TextParams_1ad3e41ad66864cf8d002a9f5f5078f060" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>TextParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1TextParams_1abb1952c9d088c98622a9446072e81bf8" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>TextParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1TextParams_1af50b5a64de19773d7f668bac67e4ef25" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>TextParams</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1TextParams_1a8ea2bc8333046d4c717865d57c51f8cc" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::TextParams</scope><name>underline</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

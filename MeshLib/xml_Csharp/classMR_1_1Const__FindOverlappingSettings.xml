@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FindOverlappingSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FindOverlappingSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FindOverlappingSettings" prot="public" virt="non-virtual">MR.FindOverlappingSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__FindOverlappingSettings_1a3d505a3cb3aacac3a8a5a20ba435aaf1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_FindOverlappingSettings.maxDistSq</definition>
+        <argsstring></argsstring>
+        <name>maxDistSq</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.maxDistSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FindOverlappingSettings_1adceceea2bc9ca9ec8a41f53631667d90" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_FindOverlappingSettings.maxNormalDot</definition>
+        <argsstring></argsstring>
+        <name>maxNormalDot</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.maxNormalDot</qualifiedname>
+        <briefdescription>
+<para>maximal dot product of one triangle and another overlapping triangle normals </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="32" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FindOverlappingSettings_1a60cc0b5f2f0031ba7e5f333edd424160" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_FindOverlappingSettings.minAreaFraction</definition>
+        <argsstring></argsstring>
+        <name>minAreaFraction</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.minAreaFraction</qualifiedname>
+        <briefdescription>
+<para>consider triangle as overlapping only if the area of the oppositely oriented triangle is at least given fraction of the triangle's area </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="38" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FindOverlappingSettings_1af0b11e83dcf66b20ee122d888ab41cba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_MRFaceId_MRFaceId</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_MRFaceId_MRFaceId MR.Const_FindOverlappingSettings.pred</definition>
+        <argsstring></argsstring>
+        <name>pred</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.pred</qualifiedname>
+        <briefdescription>
+<para>if predicate is present it should return true for pair of faces that should be considered as overlap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="44" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FindOverlappingSettings_1ad5a61c411c2fb750616f345e6a42f690" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_FindOverlappingSettings.cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.cb</qualifiedname>
+        <briefdescription>
+<para>for reporting current progress and allowing the user to cancel the algorithm </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="49" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="49" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__FindOverlappingSettings_1a171698626ec9446e0bf30c603794b6c6" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_FindOverlappingSettings.__ref_storage_maxDistSq</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxDistSq</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.__ref_storage_maxDistSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="27" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__FindOverlappingSettings_1a7f34b3ade6d3b8ec9d5c4a28b7cdbbe7" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_FindOverlappingSettings.__ref_storage_maxNormalDot</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxNormalDot</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.__ref_storage_maxNormalDot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="33" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__FindOverlappingSettings_1a40e8f8f89f05a26b9cf73f6a171564b5" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_FindOverlappingSettings.__ref_storage_minAreaFraction</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_minAreaFraction</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.__ref_storage_minAreaFraction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="39" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FindOverlappingSettings_1aa06d4b25f76765507889ae6a10e2f9f7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FindOverlappingSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FindOverlappingSettings_1a0bc2e7ba2781dffdfaee5e5d546a7fb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FindOverlappingSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FindOverlappingSettings_1a65b4f097a5d34cd8908eb20e254e3527" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FindOverlappingSettings.Const_FindOverlappingSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_FindOverlappingSettings</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.Const_FindOverlappingSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="102" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="102" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FindOverlappingSettings_1a51cb329c99250488632e810132053bb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FindOverlappingSettings.Const_FindOverlappingSettings</definition>
+        <argsstring>(float maxDistSq, float maxNormalDot, float minAreaFraction, MR.Std._ByValue_Function_Bool_From_MRFaceId_MRFaceId pred, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
+        <name>Const_FindOverlappingSettings</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.Const_FindOverlappingSettings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>maxDistSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxNormalDot</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minAreaFraction</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_MRFaceId_MRFaceId</type>
+          <declname>pred</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FindOverlappingSettings" kindref="compound">MR.FindOverlappingSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="113" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="113" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FindOverlappingSettings_1a8e4d8e4c014e4118a9c818a7c816b68e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FindOverlappingSettings.Const_FindOverlappingSettings</definition>
+        <argsstring>(MR._ByValue_FindOverlappingSettings _other)</argsstring>
+        <name>Const_FindOverlappingSettings</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.Const_FindOverlappingSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_FindOverlappingSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FindOverlappingSettings_1af2341a3a1fd62d71b5932f6253dfac17" kindref="member">MR.FindOverlappingSettings.FindOverlappingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="126" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="126" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FindOverlappingSettings_1a67d4fd671e15f2f9a966744ada23b9f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FindOverlappingSettings.Const_FindOverlappingSettings</definition>
+        <argsstring>(Const_FindOverlappingSettings _other)</argsstring>
+        <name>Const_FindOverlappingSettings</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.Const_FindOverlappingSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FindOverlappingSettings" kindref="compound">Const_FindOverlappingSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FindOverlappingSettings_1af2341a3a1fd62d71b5932f6253dfac17" kindref="member">MR.FindOverlappingSettings.FindOverlappingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="138" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FindOverlappingSettings_1ae09cd55f1ccf63c9a2e26b9c87911889" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FindOverlappingSettings.Const_FindOverlappingSettings</definition>
+        <argsstring>(FindOverlappingSettings _other)</argsstring>
+        <name>Const_FindOverlappingSettings</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.Const_FindOverlappingSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FindOverlappingSettings" kindref="compound">FindOverlappingSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FindOverlappingSettings_1af2341a3a1fd62d71b5932f6253dfac17" kindref="member">MR.FindOverlappingSettings.FindOverlappingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="143" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="143" bodyend="143"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FindOverlappingSettings_1a43b8de31346ab81a2f07beb95e7a1bd5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FindOverlappingSettings.~Const_FindOverlappingSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FindOverlappingSettings</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.~Const_FindOverlappingSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FindOverlappingSettings_1a4d307860bdb30f2fbc3ebe005196aba7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FindOverlappingSettings.Const_FindOverlappingSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FindOverlappingSettings</name>
+        <qualifiedname>MR.Const_FindOverlappingSettings.Const_FindOverlappingSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="91" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="91" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1FindOverlappingSettings" kindref="compound">MR.FindOverlappingSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_FindOverlappingSettings</label>
+        <link refid="classMR_1_1Const__FindOverlappingSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.FindOverlappingSettings</label>
+        <link refid="classMR_1_1FindOverlappingSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_FindOverlappingSettings</label>
+        <link refid="classMR_1_1Const__FindOverlappingSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROverlappingTris.cs" bodystart="8" bodyend="144"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a171698626ec9446e0bf30c603794b6c6" prot="protected" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>__ref_storage_maxDistSq</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a7f34b3ade6d3b8ec9d5c4a28b7cdbbe7" prot="protected" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>__ref_storage_maxNormalDot</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a40e8f8f89f05a26b9cf73f6a171564b5" prot="protected" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>__ref_storage_minAreaFraction</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1ad5a61c411c2fb750616f345e6a42f690" prot="public" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a4d307860bdb30f2fbc3ebe005196aba7" prot="package" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>Const_FindOverlappingSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a65b4f097a5d34cd8908eb20e254e3527" prot="public" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>Const_FindOverlappingSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a51cb329c99250488632e810132053bb0" prot="public" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>Const_FindOverlappingSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a8e4d8e4c014e4118a9c818a7c816b68e" prot="public" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>Const_FindOverlappingSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a67d4fd671e15f2f9a966744ada23b9f5" prot="public" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>Const_FindOverlappingSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1ae09cd55f1ccf63c9a2e26b9c87911889" prot="public" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>Const_FindOverlappingSettings</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1aa06d4b25f76765507889ae6a10e2f9f7" prot="protected" virt="virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a0bc2e7ba2781dffdfaee5e5d546a7fb4" prot="public" virt="virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a3d505a3cb3aacac3a8a5a20ba435aaf1" prot="public" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>maxDistSq</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1adceceea2bc9ca9ec8a41f53631667d90" prot="public" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>maxNormalDot</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a60cc0b5f2f0031ba7e5f333edd424160" prot="public" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>minAreaFraction</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1af0b11e83dcf66b20ee122d888ab41cba" prot="public" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>pred</name></member>
+      <member refid="classMR_1_1Const__FindOverlappingSettings_1a43b8de31346ab81a2f07beb95e7a1bd5" prot="private" virt="non-virtual"><scope>MR::Const_FindOverlappingSettings</scope><name>~Const_FindOverlappingSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

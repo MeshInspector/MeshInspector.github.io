@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshSave_1_1NamedXfMesh" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshSave::NamedXfMesh</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.MeshSave.Const_NamedXfMesh</basecompoundref>
+    <basecompoundref refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh" prot="public" virt="non-virtual">MR.MeshSave.Const_NamedXfMesh</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshSave_1_1NamedXfMesh_1aace714d323a2552143eafc53f128fc9c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.String</type>
@@ -140,7 +140,7 @@
         <name>NamedXfMesh</name>
         <qualifiedname>MR.MeshSave.NamedXfMesh.NamedXfMesh</qualifiedname>
         <param>
-          <type>Const_NamedXfMesh</type>
+          <type><ref refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh" kindref="compound">Const_NamedXfMesh</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -205,6 +205,7 @@
       </node>
       <node id="2">
         <label>MR.MeshSave.Const_NamedXfMesh</label>
+        <link refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -218,6 +219,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshSave.NamedXfMesh</label>
         <link refid="classMR_1_1MeshSave_1_1NamedXfMesh"/>
@@ -226,9 +231,13 @@
       </node>
       <node id="2">
         <label>MR.MeshSave.Const_NamedXfMesh</label>
+        <link refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_toWorld</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -240,7 +249,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSaveObj.cs" line="126" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSaveObj.cs" bodystart="127" bodyend="225"/>
     <listofallmembers>
+      <member refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh_1ac973d92a4dbac880ec728211c44a9ea2" prot="protected" virt="non-virtual"><scope>MR::MeshSave::NamedXfMesh</scope><name>__ref_storage_toWorld</name></member>
       <member refid="classMR_1_1MeshSave_1_1NamedXfMesh_1a03cafaa84edcb9f6e25ec2402cebcd2e" prot="public" virt="non-virtual"><scope>MR::MeshSave::NamedXfMesh</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh_1a69db19f1412c468e44b8c793a7034d2a" prot="package" virt="non-virtual"><scope>MR::MeshSave::NamedXfMesh</scope><name>Const_NamedXfMesh</name></member>
+      <member refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh_1a36c09a2222d9924d8c849f45f9d0efe4" prot="public" virt="non-virtual"><scope>MR::MeshSave::NamedXfMesh</scope><name>Const_NamedXfMesh</name></member>
+      <member refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh_1a0b78abfc1f4f7ec6960d98e53529d46b" prot="public" virt="non-virtual"><scope>MR::MeshSave::NamedXfMesh</scope><name>Const_NamedXfMesh</name></member>
+      <member refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh_1a2c34b6f4fe2dfd6b226e74148cdbe650" prot="public" virt="non-virtual"><scope>MR::MeshSave::NamedXfMesh</scope><name>Const_NamedXfMesh</name></member>
+      <member refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh_1aeeeba3e8054b9c70b93875e8dae8c74b" prot="public" virt="non-virtual"><scope>MR::MeshSave::NamedXfMesh</scope><name>Const_NamedXfMesh</name></member>
+      <member refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh_1a556887d6d976a62efcc874da775e97ed" prot="public" virt="non-virtual"><scope>MR::MeshSave::NamedXfMesh</scope><name>Const_NamedXfMesh</name></member>
+      <member refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh_1a7ed94da59ea942fa4aa6403f1461d366" prot="protected" virt="virtual"><scope>MR::MeshSave::NamedXfMesh</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh_1ac1c16169a8de36d3147820ba8d7fb8ca" prot="public" virt="virtual"><scope>MR::MeshSave::NamedXfMesh</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshSave_1_1NamedXfMesh_1aab42e1b5db82d4e959ac3f5c6f64847b" prot="public" virt="non-virtual"><scope>MR::MeshSave::NamedXfMesh</scope><name>mesh</name></member>
       <member refid="classMR_1_1MeshSave_1_1NamedXfMesh_1aace714d323a2552143eafc53f128fc9c" prot="public" virt="non-virtual"><scope>MR::MeshSave::NamedXfMesh</scope><name>name</name></member>
       <member refid="classMR_1_1MeshSave_1_1NamedXfMesh_1ae72582ffc49626329cf514c062c3129b" prot="package" virt="non-virtual"><scope>MR::MeshSave::NamedXfMesh</scope><name>NamedXfMesh</name></member>

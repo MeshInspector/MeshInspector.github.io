@@ -1,0 +1,462 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SymbolMeshParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SymbolMeshParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SymbolMeshParams" prot="public" virt="non-virtual">MR.SymbolMeshParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__SymbolMeshParams_1a2b0ce98ffeb40787479d07160c2be585" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SymbolMeshParams.MaxGeneratedFontHeight</definition>
+        <argsstring></argsstring>
+        <name>MaxGeneratedFontHeight</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.MaxGeneratedFontHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="36" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SymbolMeshParams_1ac3c2be809b50324de0841f8ecc9342c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_SymbolMeshParams.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="40" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SymbolMeshParams_1a06fc8c1c1984cadfdc61e1ec4b30bc43" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_SymbolMeshParams.fontDetalization</definition>
+        <argsstring></argsstring>
+        <name>fontDetalization</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.fontDetalization</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="43" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SymbolMeshParams_1a46bef4deaf3e81b5d4b0f083543b3655" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe ref readonly MR.Vector2f MR.Const_SymbolMeshParams.symbolsDistanceAdditionalOffset</definition>
+        <argsstring></argsstring>
+        <name>symbolsDistanceAdditionalOffset</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.symbolsDistanceAdditionalOffset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="49" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SymbolMeshParams_1a0ed93b86860c84e9d08ae5d702fe016e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SymbolMeshParams.symbolsThicknessOffsetModifier</definition>
+        <argsstring></argsstring>
+        <name>symbolsThicknessOffsetModifier</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.symbolsThicknessOffsetModifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="54" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SymbolMeshParams_1a6bb7b9ebbec84feb7243542a04ff5510" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1a26510111e54c3ec0cf6367dc91c7c0f4" kindref="member">MR.AlignType</ref></type>
+        <definition>unsafe MR.AlignType MR.Const_SymbolMeshParams.align</definition>
+        <argsstring></argsstring>
+        <name>align</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.align</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="58" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SymbolMeshParams_1a67aeeb4dd928a898cd9a4235375a4f0f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Filesystem.Const_Path</type>
+        <definition>unsafe MR.Std.Filesystem.Const_Path MR.Const_SymbolMeshParams.pathToFontFile</definition>
+        <argsstring></argsstring>
+        <name>pathToFontFile</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.pathToFontFile</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="62" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="62" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__SymbolMeshParams_1a25f47bfda7adbd978f8c2395f51aba97" prot="protected" static="yes" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SymbolMeshParams.__ref_storage_MaxGeneratedFontHeight</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_MaxGeneratedFontHeight</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.__ref_storage_MaxGeneratedFontHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="37" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__SymbolMeshParams_1a5914c833581eb32e814c66bccebb3954" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_SymbolMeshParams.__ref_storage_fontDetalization</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_fontDetalization</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.__ref_storage_fontDetalization</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="44" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SymbolMeshParams_1a2c4138ab5fff85a0f9fd5105730cfb6d" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref> *</type>
+        <definition>unsafe MR.Vector2f* MR.Const_SymbolMeshParams.__ref_storage_symbolsDistanceAdditionalOffset</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_symbolsDistanceAdditionalOffset</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.__ref_storage_symbolsDistanceAdditionalOffset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="50" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SymbolMeshParams_1a744bff0dfb93fe3e2cd66a0c03bc3787" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SymbolMeshParams.__ref_storage_symbolsThicknessOffsetModifier</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_symbolsThicknessOffsetModifier</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.__ref_storage_symbolsThicknessOffsetModifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="55" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SymbolMeshParams_1a78efcebe0cf7f56193edafcae22a6391" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1a26510111e54c3ec0cf6367dc91c7c0f4" kindref="member">MR.AlignType</ref> *</type>
+        <definition>unsafe MR.AlignType* MR.Const_SymbolMeshParams.__ref_storage_align</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_align</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.__ref_storage_align</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="59" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SymbolMeshParams_1ac969417f5f0ef7668595503dfb2e3a38" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SymbolMeshParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="23" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="23" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SymbolMeshParams_1a04f00c8b9261eda10d8ad0d995daa439" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SymbolMeshParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="32" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SymbolMeshParams_1ad0c328aaac22796ad45f6163094c2eb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SymbolMeshParams.Const_SymbolMeshParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SymbolMeshParams</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.Const_SymbolMeshParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="130" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="130" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SymbolMeshParams_1a11841277b2beedaec9b73a65183e212e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SymbolMeshParams.Const_SymbolMeshParams</definition>
+        <argsstring>(string text, int fontDetalization, MR.Vector2f symbolsDistanceAdditionalOffset, float symbolsThicknessOffsetModifier, MR.AlignType align, string pathToFontFile)</argsstring>
+        <name>Const_SymbolMeshParams</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.Const_SymbolMeshParams</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fontDetalization</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>symbolsDistanceAdditionalOffset</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>symbolsThicknessOffsetModifier</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a26510111e54c3ec0cf6367dc91c7c0f4" kindref="member">MR.AlignType</ref></type>
+          <declname>align</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>pathToFontFile</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1SymbolMeshParams" kindref="compound">MR.SymbolMeshParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="141" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="141" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SymbolMeshParams_1a801722c39f11bfbd832c73a1ae0d0869" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SymbolMeshParams.Const_SymbolMeshParams</definition>
+        <argsstring>(MR._ByValue_SymbolMeshParams _other)</argsstring>
+        <name>Const_SymbolMeshParams</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.Const_SymbolMeshParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_SymbolMeshParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SymbolMeshParams_1a13389b8a22dafc936f956a7383ceb417" kindref="member">MR.SymbolMeshParams.SymbolMeshParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="160" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="160" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SymbolMeshParams_1a06721c19d731991607b79cc2b0ce983b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SymbolMeshParams.Const_SymbolMeshParams</definition>
+        <argsstring>(Const_SymbolMeshParams _other)</argsstring>
+        <name>Const_SymbolMeshParams</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.Const_SymbolMeshParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SymbolMeshParams" kindref="compound">Const_SymbolMeshParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SymbolMeshParams_1a13389b8a22dafc936f956a7383ceb417" kindref="member">MR.SymbolMeshParams.SymbolMeshParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="172" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="172" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SymbolMeshParams_1a8abc8f6fb17af7abe1d00c8dbb5a214b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SymbolMeshParams.Const_SymbolMeshParams</definition>
+        <argsstring>(SymbolMeshParams _other)</argsstring>
+        <name>Const_SymbolMeshParams</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.Const_SymbolMeshParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SymbolMeshParams_1a13389b8a22dafc936f956a7383ceb417" kindref="member">MR.SymbolMeshParams.SymbolMeshParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="177" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="177" bodyend="177"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SymbolMeshParams_1ab2a4a463a1ffd6b8dfe7342890b6874c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SymbolMeshParams.~Const_SymbolMeshParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SymbolMeshParams</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.~Const_SymbolMeshParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="33" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__SymbolMeshParams_1a61f667511d3de8c6f2d3da1692d47609" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_SymbolMeshParams.Const_SymbolMeshParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SymbolMeshParams</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.Const_SymbolMeshParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="64" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="64" bodyend="71"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SymbolMeshParams_1a3415d481cb4c839c216007b4ff6bc7d5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SymbolMeshParams.Const_SymbolMeshParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SymbolMeshParams</name>
+        <qualifiedname>MR.Const_SymbolMeshParams.Const_SymbolMeshParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="119" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="119" bodyend="124"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1SymbolMeshParams" kindref="compound">MR.SymbolMeshParams</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1TextMeshAlignParams" kindref="compound">MR.TextMeshAlignParams</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SymbolMeshParams</label>
+        <link refid="classMR_1_1Const__SymbolMeshParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.SymbolMeshParams</label>
+        <link refid="classMR_1_1SymbolMeshParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_SymbolMeshParams</label>
+        <link refid="classMR_1_1Const__SymbolMeshParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_align</edgelabel>
+          <edgelabel>__ref_storage_symbolsDistanceAdditionalOffset</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="17" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="18" bodyend="178"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a78efcebe0cf7f56193edafcae22a6391" prot="protected" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>__ref_storage_align</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a5914c833581eb32e814c66bccebb3954" prot="protected" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>__ref_storage_fontDetalization</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a25f47bfda7adbd978f8c2395f51aba97" prot="protected" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>__ref_storage_MaxGeneratedFontHeight</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a2c4138ab5fff85a0f9fd5105730cfb6d" prot="protected" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>__ref_storage_symbolsDistanceAdditionalOffset</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a744bff0dfb93fe3e2cd66a0c03bc3787" prot="protected" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>__ref_storage_symbolsThicknessOffsetModifier</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a6bb7b9ebbec84feb7243542a04ff5510" prot="public" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>align</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a61f667511d3de8c6f2d3da1692d47609" prot="private" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>Const_SymbolMeshParams</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a3415d481cb4c839c216007b4ff6bc7d5" prot="package" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>Const_SymbolMeshParams</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1ad0c328aaac22796ad45f6163094c2eb2" prot="public" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>Const_SymbolMeshParams</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a11841277b2beedaec9b73a65183e212e" prot="public" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>Const_SymbolMeshParams</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a801722c39f11bfbd832c73a1ae0d0869" prot="public" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>Const_SymbolMeshParams</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a06721c19d731991607b79cc2b0ce983b" prot="public" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>Const_SymbolMeshParams</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a8abc8f6fb17af7abe1d00c8dbb5a214b" prot="public" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>Const_SymbolMeshParams</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1ac969417f5f0ef7668595503dfb2e3a38" prot="protected" virt="virtual"><scope>MR::Const_SymbolMeshParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a04f00c8b9261eda10d8ad0d995daa439" prot="public" virt="virtual"><scope>MR::Const_SymbolMeshParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a06fc8c1c1984cadfdc61e1ec4b30bc43" prot="public" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>fontDetalization</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a2b0ce98ffeb40787479d07160c2be585" prot="public" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>MaxGeneratedFontHeight</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a67aeeb4dd928a898cd9a4235375a4f0f" prot="public" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>pathToFontFile</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a46bef4deaf3e81b5d4b0f083543b3655" prot="public" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>symbolsDistanceAdditionalOffset</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a0ed93b86860c84e9d08ae5d702fe016e" prot="public" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>symbolsThicknessOffsetModifier</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1ac3c2be809b50324de0841f8ecc9342c2" prot="public" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>text</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1ab2a4a463a1ffd6b8dfe7342890b6874c" prot="private" virt="non-virtual"><scope>MR::Const_SymbolMeshParams</scope><name>~Const_SymbolMeshParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

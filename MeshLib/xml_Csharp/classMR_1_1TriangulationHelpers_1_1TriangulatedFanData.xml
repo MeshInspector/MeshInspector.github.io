@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData" kind="class" language="C#" prot="public">
     <compoundname>MR::TriangulationHelpers::TriangulatedFanData</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.TriangulationHelpers.Const_TriangulatedFanData</basecompoundref>
+    <basecompoundref refid="classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData" prot="public" virt="non-virtual">MR.TriangulationHelpers.Const_TriangulatedFanData</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a03e86f0d2ec33fb064a00f94d2449de0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRVertId</type>
@@ -131,7 +131,7 @@
         <name>TriangulatedFanData</name>
         <qualifiedname>MR.TriangulationHelpers.TriangulatedFanData.TriangulatedFanData</qualifiedname>
         <param>
-          <type>Const_TriangulatedFanData</type>
+          <type><ref refid="classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData" kindref="compound">Const_TriangulatedFanData</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -199,6 +199,7 @@
       </node>
       <node id="2">
         <label>MR.TriangulationHelpers.Const_TriangulatedFanData</label>
+        <link refid="classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -209,6 +210,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.TriangulationHelpers.TriangulatedFanData</label>
         <link refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData"/>
@@ -220,9 +225,13 @@
       </node>
       <node id="2">
         <label>MR.TriangulationHelpers.Const_TriangulatedFanData</label>
+        <link refid="classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_border</edgelabel>
         </childnode>
       </node>
       <node id="4">
@@ -231,9 +240,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" line="445" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulationHelpers.cs" bodystart="446" bodyend="551"/>
     <listofallmembers>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData_1aefb73bb37586f76fef27235a53b4e5d4" prot="protected" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>__ref_storage_border</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a0358548d5c527b53caed45ac33d5790f" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>assign</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1ade0f1881fcd4c1bc6a863d8315be7605" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>border</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a68e81ce6baf35ada71a5d069b4fb964a" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>cacheAngleOrder</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData_1aac68c7ab780811c27026a4c9f2e6231a" prot="package" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>Const_TriangulatedFanData</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData_1ac31cbc8b364bb3dbeed693e03b7904d9" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>Const_TriangulatedFanData</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData_1a643788df5218ba94902cfec2271e50d9" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>Const_TriangulatedFanData</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData_1a7b5051bde80f93e4c8bc9739bb2203d8" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>Const_TriangulatedFanData</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData_1a70f96e877abe0892d67883a926a7f7c5" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>Const_TriangulatedFanData</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData_1ae8b9a67f4c5e4b7c905095e0e6130026" prot="protected" virt="virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1TriangulationHelpers_1_1Const__TriangulatedFanData_1a80683883935735fa143ad8f02b9c8533" prot="public" virt="virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1af5a2a2d498aa2cfabb2d4503c741d2af" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>nearesetPoints</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a03e86f0d2ec33fb064a00f94d2449de0" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>neighbors</name></member>
       <member refid="classMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1aaac936bc8d83e3bcbbf677c42f2d9511" prot="package" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>TriangulatedFanData</name></member>

@@ -3,6 +3,10 @@
   <compounddef id="classMR_1_1Cuda" kind="class" language="C#" prot="public">
     <compoundname>MR::Cuda</compoundname>
     <innerclass refid="classMR_1_1Cuda_1_1ComputeToolDistance" prot="public">MR::Cuda::ComputeToolDistance</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1Const__ComputeToolDistance" prot="public">MR::Cuda::Const_ComputeToolDistance</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1Const__FastWindingNumber" prot="public">MR::Cuda::Const_FastWindingNumber</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1Const__PointsProjector" prot="public">MR::Cuda::Const_PointsProjector</innerclass>
+    <innerclass refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector" prot="public">MR::Cuda::Const_PointsToMeshProjector</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1FastWindingNumber" prot="public">MR::Cuda::FastWindingNumber</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1PointsProjector" prot="public">MR::Cuda::PointsProjector</innerclass>
     <innerclass refid="classMR_1_1Cuda_1_1PointsToMeshProjector" prot="public">MR::Cuda::PointsToMeshProjector</innerclass>
@@ -160,11 +164,11 @@
         <name>distanceMapFromContours</name>
         <qualifiedname>MR.Cuda.distanceMapFromContours</qualifiedname>
         <param>
-          <type>MR.Const_Polyline2</type>
+          <type><ref refid="classMR_1_1Const__Polyline2" kindref="compound">MR.Const_Polyline2</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
-          <type>MR.Const_ContourToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__ContourToDistanceMapParams" kindref="compound">MR.Const_ContourToDistanceMapParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -183,11 +187,11 @@
         <name>distanceMapFromContoursHeapBytes</name>
         <qualifiedname>MR.Cuda.distanceMapFromContoursHeapBytes</qualifiedname>
         <param>
-          <type>MR.Const_Polyline2</type>
+          <type><ref refid="classMR_1_1Const__Polyline2" kindref="compound">MR.Const_Polyline2</ref></type>
           <declname>polyline</declname>
         </param>
         <param>
-          <type>MR.Const_ContourToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__ContourToDistanceMapParams" kindref="compound">MR.Const_ContourToDistanceMapParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -199,22 +203,22 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaContoursDistanceMap.cs" line="23" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaContoursDistanceMap.cs" bodystart="23" bodyend="28"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1ad69766bef468c8b9ce8fb77c1319cca2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Cuda_1a672eb663ba302d642c6f967c77a11bdc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1DistanceMap" kindref="compound">MR.DistanceMap</ref></type>
         <definition>static unsafe MR.DistanceMap MR.Cuda.computeDistanceMap</definition>
-        <argsstring>(MR.Const_Mesh mesh, MR.Const_MeshToDistanceMapParams params_, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null, MR.Std.Vector_MRMeshTriPoint? outSamples=null)</argsstring>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_MeshToDistanceMapParams params_, MR.Std._ByValue_Function_Bool_From_Float? cb=null, MR.Std.Vector_MRMeshTriPoint? outSamples=null)</argsstring>
         <name>computeDistanceMap</name>
         <qualifiedname>MR.Cuda.computeDistanceMap</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_MeshToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__MeshToDistanceMapParams" kindref="compound">MR.Const_MeshToDistanceMapParams</ref></type>
           <declname>params_</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
@@ -224,7 +228,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>computes distance (height) map for given projection parameters using float-precision for finding ray-mesh intersections, which is faster but less reliable Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1ad69766bef468c8b9ce8fb77c1319cca2" kindref="member">MR.Cuda.computeDistanceMap</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>computes distance (height) map for given projection parameters using float-precision for finding ray-mesh intersections, which is faster but less reliable Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1a672eb663ba302d642c6f967c77a11bdc" kindref="member">MR.Cuda.computeDistanceMap</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -239,11 +243,11 @@
         <name>computeDistanceMapHeapBytes</name>
         <qualifiedname>MR.Cuda.computeDistanceMapHeapBytes</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_MeshToDistanceMapParams</type>
+          <type><ref refid="classMR_1_1Const__MeshToDistanceMapParams" kindref="compound">MR.Const_MeshToDistanceMapParams</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -267,7 +271,7 @@
         <name>findProjectionOnPoints</name>
         <qualifiedname>MR.Cuda.findProjectionOnPoints</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <param>
@@ -275,7 +279,7 @@
           <declname>points</declname>
         </param>
         <param>
-          <type>MR.Const_FindProjectionOnPointsSettings?</type>
+          <type><ref refid="classMR_1_1Const__FindProjectionOnPointsSettings" kindref="compound">MR.Const_FindProjectionOnPointsSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -295,7 +299,7 @@
         <name>findProjectionOnPointsHeapBytes</name>
         <qualifiedname>MR.Cuda.findProjectionOnPointsHeapBytes</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <param>
@@ -318,11 +322,11 @@
         <name>pointsToDistanceVolume</name>
         <qualifiedname>MR.Cuda.pointsToDistanceVolume</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>cloud</declname>
         </param>
         <param>
-          <type>MR.Const_PointsToDistanceVolumeParams</type>
+          <type><ref refid="classMR_1_1Const__PointsToDistanceVolumeParams" kindref="compound">MR.Const_PointsToDistanceVolumeParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -334,22 +338,22 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" line="9" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToDistanceVolume.cs" bodystart="9" bodyend="17"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1aa4424e8eec38230eb05046c5f5d8a96f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Cuda_1ac41726497d51f9764c2d9c2c2e9db105" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.Cuda.pointsToDistanceVolumeByParts</definition>
-        <argsstring>(MR.Const_PointCloud cloud, MR.Const_PointsToDistanceVolumeParams params_, MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromConstMRSimpleVolumeMinMaxRefInt addPart, int layerOverlap)</argsstring>
+        <argsstring>(MR.Const_PointCloud cloud, MR.Const_PointsToDistanceVolumeParams params_, MR.Std._ByValue_Function_ExpectedVoidStdString_From_ConstMRSimpleVolumeMinMaxRef_Int addPart, int layerOverlap)</argsstring>
         <name>pointsToDistanceVolumeByParts</name>
         <qualifiedname>MR.Cuda.pointsToDistanceVolumeByParts</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>cloud</declname>
         </param>
         <param>
-          <type>MR.Const_PointsToDistanceVolumeParams</type>
+          <type><ref refid="classMR_1_1Const__PointsToDistanceVolumeParams" kindref="compound">MR.Const_PointsToDistanceVolumeParams</ref></type>
           <declname>params_</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromConstMRSimpleVolumeMinMaxRefInt</type>
+          <type>MR.Std._ByValue_Function_ExpectedVoidStdString_From_ConstMRSimpleVolumeMinMaxRef_Int</type>
           <declname>addPart</declname>
         </param>
         <param>
@@ -357,7 +361,7 @@
           <declname>layerOverlap</declname>
         </param>
         <briefdescription>
-<para>makes <ref refid="classMR_1_1SimpleVolume" kindref="compound">SimpleVolume</ref> filled with signed distances to points with normals populate the volume by parts to the given callback Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1aa4424e8eec38230eb05046c5f5d8a96f" kindref="member">MR.Cuda.pointsToDistanceVolumeByParts</ref></computeroutput>. </para>
+<para>makes <ref refid="classMR_1_1SimpleVolume" kindref="compound">SimpleVolume</ref> filled with signed distances to points with normals populate the volume by parts to the given callback Generated from function <computeroutput><ref refid="classMR_1_1Cuda_1ac41726497d51f9764c2d9c2c2e9db105" kindref="member">MR.Cuda.pointsToDistanceVolumeByParts</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -372,15 +376,15 @@
         <name>computeSkyViewFactor</name>
         <qualifiedname>MR.Cuda.computeSkyViewFactor</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>terrain</declname>
         </param>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>samples</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>validSamples</declname>
         </param>
         <param>
@@ -431,15 +435,15 @@
         <name>findSkyRays</name>
         <qualifiedname>MR.Cuda.findSkyRays</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>terrain</declname>
         </param>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>samples</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>validSamples</declname>
         </param>
         <param>
@@ -513,7 +517,7 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="4" bodyend="89"/>
     <listofallmembers>
-      <member refid="classMR_1_1Cuda_1ad69766bef468c8b9ce8fb77c1319cca2" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeDistanceMap</name></member>
+      <member refid="classMR_1_1Cuda_1a672eb663ba302d642c6f967c77a11bdc" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeDistanceMap</name></member>
       <member refid="classMR_1_1Cuda_1a3ab27361d47f6d576bfb8fa27a8f9c37" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeDistanceMapHeapBytes</name></member>
       <member refid="classMR_1_1Cuda_1a0ea88f5709a51086f7724af94d64e56c" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>computeSkyViewFactor</name></member>
       <member refid="classMR_1_1Cuda_1ad3e17c83bdc91cabccc103c84ee2652c" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>distanceMapFromContours</name></member>
@@ -530,7 +534,7 @@
       <member refid="classMR_1_1Cuda_1aefb189df8f6d85fbf79e770d31a57360" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>maxBufferSizeAlignedByBlock</name></member>
       <member refid="classMR_1_1Cuda_1ab2b7f6383c91b4355a8e3efd50505461" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>negatePicture</name></member>
       <member refid="classMR_1_1Cuda_1ada48bf1cb30a1dd5423bcb0d29c6b1d2" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>pointsToDistanceVolume</name></member>
-      <member refid="classMR_1_1Cuda_1aa4424e8eec38230eb05046c5f5d8a96f" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>pointsToDistanceVolumeByParts</name></member>
+      <member refid="classMR_1_1Cuda_1ac41726497d51f9764c2d9c2c2e9db105" prot="public" virt="non-virtual"><scope>MR::Cuda</scope><name>pointsToDistanceVolumeByParts</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

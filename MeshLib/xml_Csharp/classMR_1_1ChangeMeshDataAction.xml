@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeMeshDataAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeMeshDataAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeMeshDataAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeMeshDataAction" prot="public" virt="non-virtual">MR.Const_ChangeMeshDataAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeMeshDataAction_1a0dba73219d89b37f3696b13783edfa90" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeMeshDataAction</name>
         <qualifiedname>MR.ChangeMeshDataAction.ChangeMeshDataAction</qualifiedname>
         <param>
-          <type>Const_ChangeMeshDataAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeMeshDataAction" kindref="compound">Const_ChangeMeshDataAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -203,7 +203,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeMeshDataAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -230,6 +230,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeMeshDataAction</label>
+        <link refid="classMR_1_1Const__ChangeMeshDataAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -251,6 +252,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeMeshDataAction</label>
+        <link refid="classMR_1_1Const__ChangeMeshDataAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -273,8 +275,23 @@
       <member refid="classMR_1_1ChangeMeshDataAction_1ad524015f916a2afa8dba37f54d4a0e1b" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
       <member refid="classMR_1_1ChangeMeshDataAction_1a8f6314230daf9a77295fc8da48b13df4" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
       <member refid="classMR_1_1ChangeMeshDataAction_1aee4467b185b661a90d1c662634257128" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1a7bb4418fe41ae924a4b2a31b24d513a2" prot="package" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>Const_ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1a85e1a900077d4d98b81f8acd68dca1c1" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>Const_ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1a0b27c7517facbe890b779afff0b50a6e" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>Const_ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1a4421929b4fe960c830fcefdc06731de5" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>Const_ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1ad1cf63195d46bc5ca22fb4675506ed7f" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>Const_ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1aefc3d3effde5abb9785f60ed2fd8d4c5" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>Const_ChangeMeshDataAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1a9f53a1a8297ffeb3c85a5de37256a306" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1a68a979715fdfd4ddecf3dfbd37a70ada" prot="protected" virt="virtual"><scope>MR::ChangeMeshDataAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1aefef11a168ac77e80875694ef79f05eb" prot="public" virt="virtual"><scope>MR::ChangeMeshDataAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1ac894373e260def9f7b9a0a12658ca778" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1a46f8d67cde8399b743bee0376fa889bf" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1a209ac902de72d394a46d060ea0709bd7" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>obj</name></member>
       <member refid="classMR_1_1ChangeMeshDataAction_1af7de23f8d400fef4edf7ea00cd65f806" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>operator ChangeMeshDataAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1a13f0ed89f36ed63bd7a4f4178f1a38e3" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>operator Const_ChangeMeshDataAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1aca8fc8d5ce7f15f678d67e0e0b2170e5" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeMeshDataAction_1a0dba73219d89b37f3696b13783edfa90" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshDataAction_1a2b019ac76dbc8cba8306092732cbd5b2" prot="public" virt="non-virtual"><scope>MR::ChangeMeshDataAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

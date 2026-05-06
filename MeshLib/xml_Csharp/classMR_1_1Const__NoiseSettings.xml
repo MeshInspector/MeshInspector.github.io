@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__NoiseSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_NoiseSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1NoiseSettings" prot="public" virt="non-virtual">MR.NoiseSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__NoiseSettings_1af39d0ee8a91c2402b3f9dd4d54d1cce6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_NoiseSettings.sigma</definition>
+        <argsstring></argsstring>
+        <name>sigma</name>
+        <qualifiedname>MR.Const_NoiseSettings.sigma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="25" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__NoiseSettings_1a7b8a0f3a14aa4f08be50ab06d6c4fc66" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_NoiseSettings.seed</definition>
+        <argsstring></argsstring>
+        <name>seed</name>
+        <qualifiedname>MR.Const_NoiseSettings.seed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="29" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__NoiseSettings_1a42a44f383d61780a6c11bff6fe7576ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_NoiseSettings.callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <qualifiedname>MR.Const_NoiseSettings.callback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="32" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__NoiseSettings_1a4f526c985e887f672afdeef742d47ae1" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_NoiseSettings.__ref_storage_sigma</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_sigma</name>
+        <qualifiedname>MR.Const_NoiseSettings.__ref_storage_sigma</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="26" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__NoiseSettings_1a5c692dd351f7600e6e58149a95ebf55b" prot="protected" static="no" mutable="no">
+        <type>unsafe uint *</type>
+        <definition>unsafe uint* MR.Const_NoiseSettings.__ref_storage_seed</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_seed</name>
+        <qualifiedname>MR.Const_NoiseSettings.__ref_storage_seed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="30" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoiseSettings_1a76652c9a21259427d54f59deb0f374ce" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_NoiseSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_NoiseSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoiseSettings_1a0c793f04835f78b4c0bce9131f96d482" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_NoiseSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_NoiseSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoiseSettings_1a61792804c9e8dca0f17a4ec576815b17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NoiseSettings.Const_NoiseSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_NoiseSettings</name>
+        <qualifiedname>MR.Const_NoiseSettings.Const_NoiseSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="72" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="72" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoiseSettings_1aa32fae836d9d2f7cce7f0548ae87becd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NoiseSettings.Const_NoiseSettings</definition>
+        <argsstring>(float sigma, uint seed, MR.Std._ByValue_Function_Bool_From_Float callback)</argsstring>
+        <name>Const_NoiseSettings</name>
+        <qualifiedname>MR.Const_NoiseSettings.Const_NoiseSettings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>sigma</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1NoiseSettings" kindref="compound">MR.NoiseSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="83" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="83" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoiseSettings_1ab982b2346b687476bb5cd8a076a77b08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NoiseSettings.Const_NoiseSettings</definition>
+        <argsstring>(MR._ByValue_NoiseSettings _other)</argsstring>
+        <name>Const_NoiseSettings</name>
+        <qualifiedname>MR.Const_NoiseSettings.Const_NoiseSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_NoiseSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1NoiseSettings_1a08280435649fa38ec5b537310df39ab3" kindref="member">MR.NoiseSettings.NoiseSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="95" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="95" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoiseSettings_1a4098cc4bde7bd2c22a3ae367c6178ed9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_NoiseSettings.Const_NoiseSettings</definition>
+        <argsstring>(Const_NoiseSettings _other)</argsstring>
+        <name>Const_NoiseSettings</name>
+        <qualifiedname>MR.Const_NoiseSettings.Const_NoiseSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoiseSettings" kindref="compound">Const_NoiseSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1NoiseSettings_1a08280435649fa38ec5b537310df39ab3" kindref="member">MR.NoiseSettings.NoiseSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="107" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoiseSettings_1a06f75083b000c7c5ed19feb398213d1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_NoiseSettings.Const_NoiseSettings</definition>
+        <argsstring>(NoiseSettings _other)</argsstring>
+        <name>Const_NoiseSettings</name>
+        <qualifiedname>MR.Const_NoiseSettings.Const_NoiseSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoiseSettings" kindref="compound">NoiseSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1NoiseSettings_1a08280435649fa38ec5b537310df39ab3" kindref="member">MR.NoiseSettings.NoiseSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="112" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="112" bodyend="112"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoiseSettings_1a89a0d2f60b3a0176a3305a73e821f879" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_NoiseSettings.~Const_NoiseSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_NoiseSettings</name>
+        <qualifiedname>MR.Const_NoiseSettings.~Const_NoiseSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoiseSettings_1a7f8297a30ca50751830fc58784054924" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NoiseSettings.Const_NoiseSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_NoiseSettings</name>
+        <qualifiedname>MR.Const_NoiseSettings.Const_NoiseSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="61" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1NoiseSettings" kindref="compound">MR.NoiseSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_NoiseSettings</label>
+        <link refid="classMR_1_1Const__NoiseSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.NoiseSettings</label>
+        <link refid="classMR_1_1NoiseSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_NoiseSettings</label>
+        <link refid="classMR_1_1Const__NoiseSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAddNoise.cs" bodystart="8" bodyend="113"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__NoiseSettings_1a5c692dd351f7600e6e58149a95ebf55b" prot="protected" virt="non-virtual"><scope>MR::Const_NoiseSettings</scope><name>__ref_storage_seed</name></member>
+      <member refid="classMR_1_1Const__NoiseSettings_1a4f526c985e887f672afdeef742d47ae1" prot="protected" virt="non-virtual"><scope>MR::Const_NoiseSettings</scope><name>__ref_storage_sigma</name></member>
+      <member refid="classMR_1_1Const__NoiseSettings_1a42a44f383d61780a6c11bff6fe7576ad" prot="public" virt="non-virtual"><scope>MR::Const_NoiseSettings</scope><name>callback</name></member>
+      <member refid="classMR_1_1Const__NoiseSettings_1a7f8297a30ca50751830fc58784054924" prot="package" virt="non-virtual"><scope>MR::Const_NoiseSettings</scope><name>Const_NoiseSettings</name></member>
+      <member refid="classMR_1_1Const__NoiseSettings_1a61792804c9e8dca0f17a4ec576815b17" prot="public" virt="non-virtual"><scope>MR::Const_NoiseSettings</scope><name>Const_NoiseSettings</name></member>
+      <member refid="classMR_1_1Const__NoiseSettings_1aa32fae836d9d2f7cce7f0548ae87becd" prot="public" virt="non-virtual"><scope>MR::Const_NoiseSettings</scope><name>Const_NoiseSettings</name></member>
+      <member refid="classMR_1_1Const__NoiseSettings_1ab982b2346b687476bb5cd8a076a77b08" prot="public" virt="non-virtual"><scope>MR::Const_NoiseSettings</scope><name>Const_NoiseSettings</name></member>
+      <member refid="classMR_1_1Const__NoiseSettings_1a4098cc4bde7bd2c22a3ae367c6178ed9" prot="public" virt="non-virtual"><scope>MR::Const_NoiseSettings</scope><name>Const_NoiseSettings</name></member>
+      <member refid="classMR_1_1Const__NoiseSettings_1a06f75083b000c7c5ed19feb398213d1a" prot="public" virt="non-virtual"><scope>MR::Const_NoiseSettings</scope><name>Const_NoiseSettings</name></member>
+      <member refid="classMR_1_1Const__NoiseSettings_1a76652c9a21259427d54f59deb0f374ce" prot="protected" virt="virtual"><scope>MR::Const_NoiseSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoiseSettings_1a0c793f04835f78b4c0bce9131f96d482" prot="public" virt="virtual"><scope>MR::Const_NoiseSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoiseSettings_1a7b8a0f3a14aa4f08be50ab06d6c4fc66" prot="public" virt="non-virtual"><scope>MR::Const_NoiseSettings</scope><name>seed</name></member>
+      <member refid="classMR_1_1Const__NoiseSettings_1af39d0ee8a91c2402b3f9dd4d54d1cce6" prot="public" virt="non-virtual"><scope>MR::Const_NoiseSettings</scope><name>sigma</name></member>
+      <member refid="classMR_1_1Const__NoiseSettings_1a89a0d2f60b3a0176a3305a73e821f879" prot="private" virt="non-virtual"><scope>MR::Const_NoiseSettings</scope><name>~Const_NoiseSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

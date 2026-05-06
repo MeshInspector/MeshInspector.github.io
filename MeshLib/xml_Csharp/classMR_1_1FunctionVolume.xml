@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FunctionVolume" kind="class" language="C#" prot="public">
     <compoundname>MR::FunctionVolume</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FunctionVolume</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FunctionVolume" prot="public" virt="non-virtual">MR.Const_FunctionVolume</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FunctionVolume_1aa313592c69888e64418aaa2ff59edf6d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Float_From_ConstMRVector3iRef</type>
@@ -87,14 +87,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1808" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1808" bodyend="1814"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1FunctionVolume_1a4a98a9ef18840787d17a0df0df1e9313" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1FunctionVolume_1a7181c214db47c1c7a7932c59230a61bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.FunctionVolume.FunctionVolume</definition>
-        <argsstring>(MR.Std._ByValue_Function_FloatFuncFromConstMRVector3iRef data, MR.Vector3i dims, MR.Vector3f voxelSize)</argsstring>
+        <argsstring>(MR.Std._ByValue_Function_Float_From_ConstMRVector3iRef data, MR.Vector3i dims, MR.Vector3f voxelSize)</argsstring>
         <name>FunctionVolume</name>
         <qualifiedname>MR.FunctionVolume.FunctionVolume</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_FloatFuncFromConstMRVector3iRef</type>
+          <type>MR.Std._ByValue_Function_Float_From_ConstMRVector3iRef</type>
           <declname>data</declname>
         </param>
         <param>
@@ -140,7 +140,7 @@
         <name>FunctionVolume</name>
         <qualifiedname>MR.FunctionVolume.FunctionVolume</qualifiedname>
         <param>
-          <type>Const_FunctionVolume</type>
+          <type><ref refid="classMR_1_1Const__FunctionVolume" kindref="compound">Const_FunctionVolume</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -205,6 +205,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FunctionVolume</label>
+        <link refid="classMR_1_1Const__FunctionVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -218,6 +219,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FunctionVolume</label>
         <link refid="classMR_1_1FunctionVolume"/>
@@ -226,9 +231,14 @@
       </node>
       <node id="2">
         <label>MR.Const_FunctionVolume</label>
+        <link refid="classMR_1_1Const__FunctionVolume"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_dims</edgelabel>
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -240,15 +250,26 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="1773" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="1774" bodyend="1861"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FunctionVolume_1a3955a9b2aa8fcfc085c1e853440aad67" prot="protected" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>__ref_storage_dims</name></member>
+      <member refid="classMR_1_1Const__FunctionVolume_1a840a9db164375cef70c652d7adf08e41" prot="protected" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1FunctionVolume_1ad9e2df2b8d00043cd5b898d0c193df08" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__FunctionVolume_1ab4a5c29da8c98293a5c8647264fc9534" prot="package" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>Const_FunctionVolume</name></member>
+      <member refid="classMR_1_1Const__FunctionVolume_1a30f2d2d00ef81c2a079b3b886c30e99c" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>Const_FunctionVolume</name></member>
+      <member refid="classMR_1_1Const__FunctionVolume_1aa4d774424fc46923c8a54d6f4dc7c08a" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>Const_FunctionVolume</name></member>
+      <member refid="classMR_1_1Const__FunctionVolume_1a680109b0d9e9c7a47577eae0a4786ef6" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>Const_FunctionVolume</name></member>
+      <member refid="classMR_1_1Const__FunctionVolume_1ae3bba90aaf5b0f3429693898ed17156b" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>Const_FunctionVolume</name></member>
+      <member refid="classMR_1_1Const__FunctionVolume_1a0a4d20acaaa025a3c94fd9afbaa82af6" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>Const_FunctionVolume</name></member>
       <member refid="classMR_1_1FunctionVolume_1aa313592c69888e64418aaa2ff59edf6d" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>data</name></member>
       <member refid="classMR_1_1FunctionVolume_1aa11f7e8de721c0be83e8353e3bf05f4f" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>dims</name></member>
+      <member refid="classMR_1_1Const__FunctionVolume_1aa0774a9593747e9c744b2fcc62dd398d" prot="protected" virt="virtual"><scope>MR::FunctionVolume</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FunctionVolume_1a6e58e00e065f635a9001d4b4f703b207" prot="public" virt="virtual"><scope>MR::FunctionVolume</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FunctionVolume_1a454c10d15fcbaa78c248465385d916f4" prot="package" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>FunctionVolume</name></member>
       <member refid="classMR_1_1FunctionVolume_1a1a0baea2b78ecca1cd8b00cc450b1263" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>FunctionVolume</name></member>
-      <member refid="classMR_1_1FunctionVolume_1a4a98a9ef18840787d17a0df0df1e9313" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>FunctionVolume</name></member>
+      <member refid="classMR_1_1FunctionVolume_1a7181c214db47c1c7a7932c59230a61bf" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>FunctionVolume</name></member>
       <member refid="classMR_1_1FunctionVolume_1a6e936ea2d1a2702a4b1ed51703ce7fa1" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>FunctionVolume</name></member>
       <member refid="classMR_1_1FunctionVolume_1ae1d825bb972949eab44a7b86eb36e655" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>FunctionVolume</name></member>
       <member refid="classMR_1_1FunctionVolume_1a0a4fd6ac4f153c2330cbc1e858f738f9" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>FunctionVolume</name></member>
+      <member refid="classMR_1_1Const__FunctionVolume_1a292b0d0dbcd3c2f4d31257912a4607c9" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1FunctionVolume_1a980bffc600ca12ff1c86a55f10fd76ed" prot="public" virt="non-virtual"><scope>MR::FunctionVolume</scope><name>voxelSize</name></member>
     </listofallmembers>
   </compounddef>

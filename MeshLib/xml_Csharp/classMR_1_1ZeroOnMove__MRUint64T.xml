@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ZeroOnMove__MRUint64T" kind="class" language="C#" prot="public">
     <compoundname>MR::ZeroOnMove_MRUint64T</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ZeroOnMove_MRUint64T</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ZeroOnMove__MRUint64T" prot="public" virt="non-virtual">MR.Const_ZeroOnMove_MRUint64T</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ZeroOnMove__MRUint64T_1a5e0179f3451e133a49d24c00451f1090" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref ulong</type>
@@ -70,7 +70,7 @@
           <declname>z</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ZeroOnMove&amp;amp;lt;MR_uint64_t&amp;amp;gt;::ZeroOnMove</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ZeroOnMove&amp;lt;MR_uint64_t&amp;gt;::ZeroOnMove</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -89,7 +89,7 @@
           <declname>z</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::ZeroOnMove&amp;amp;lt;MR_uint64_t&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ZeroOnMove&amp;lt;MR_uint64_t&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -99,7 +99,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::ZeroOnMove&amp;amp;lt;MR_uint64_t&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::ZeroOnMove&amp;lt;MR_uint64_t&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -112,6 +112,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ZeroOnMove_MRUint64T</label>
+        <link refid="classMR_1_1Const__ZeroOnMove__MRUint64T"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -133,6 +134,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ZeroOnMove_MRUint64T</label>
+        <link refid="classMR_1_1Const__ZeroOnMove__MRUint64T"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -147,7 +149,13 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12656" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12657" bodyend="12706"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ZeroOnMove__MRUint64T_1aa7fcb8eb6da1d71e932974c6c3c181f3" prot="protected" virt="non-virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>__ref_storage_val</name></member>
       <member refid="classMR_1_1ZeroOnMove__MRUint64T_1a0523d20e0502afe20c5b4d8ae82f35c4" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ZeroOnMove__MRUint64T_1a4d97a89f497a3774810d3f2fee8ecab0" prot="package" virt="non-virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>Const_ZeroOnMove_MRUint64T</name></member>
+      <member refid="classMR_1_1Const__ZeroOnMove__MRUint64T_1ac037e154f2c045e7e741379b82638a1a" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>Const_ZeroOnMove_MRUint64T</name></member>
+      <member refid="classMR_1_1Const__ZeroOnMove__MRUint64T_1aae81e2d17703e9a006b0018a8f713145" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>Const_ZeroOnMove_MRUint64T</name></member>
+      <member refid="classMR_1_1Const__ZeroOnMove__MRUint64T_1a2149e519568d7e354a4afd3925ef6034" prot="protected" virt="virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ZeroOnMove__MRUint64T_1ac3ec343a5480250d5ae792992f1128b8" prot="public" virt="virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ZeroOnMove__MRUint64T_1a5e0179f3451e133a49d24c00451f1090" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>val</name></member>
       <member refid="classMR_1_1ZeroOnMove__MRUint64T_1a6348b3a444deae063add0bffeac9c985" prot="package" virt="non-virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>ZeroOnMove_MRUint64T</name></member>
       <member refid="classMR_1_1ZeroOnMove__MRUint64T_1a5bc69bca30a42f8985b0657bbd340288" prot="public" virt="non-virtual"><scope>MR::ZeroOnMove_MRUint64T</scope><name>ZeroOnMove_MRUint64T</name></member>

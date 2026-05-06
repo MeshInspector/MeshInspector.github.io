@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointsToDistanceVolumeParams" kind="class" language="C#" prot="public">
     <compoundname>MR::PointsToDistanceVolumeParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointsToDistanceVolumeParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointsToDistanceVolumeParams" prot="public" virt="non-virtual">MR.Const_PointsToDistanceVolumeParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PointsToDistanceVolumeParams_1acb1ef65210623db843c66d65d307e196" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -65,7 +65,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="251" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="251" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PointsToDistanceVolumeParams_1a4f357b8a92d7d96dee1473d3b61586e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertCoords</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertCoords" kindref="compound">Const_VertCoords</ref></type>
         <definition>new unsafe MR.? Const_VertCoords MR.PointsToDistanceVolumeParams.ptNormals</definition>
         <argsstring></argsstring>
         <name>ptNormals</name>
@@ -226,7 +226,7 @@
         <name>PointsToDistanceVolumeParams</name>
         <qualifiedname>MR.PointsToDistanceVolumeParams.PointsToDistanceVolumeParams</qualifiedname>
         <param>
-          <type>Const_PointsToDistanceVolumeParams</type>
+          <type><ref refid="classMR_1_1Const__PointsToDistanceVolumeParams" kindref="compound">Const_PointsToDistanceVolumeParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -291,6 +291,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointsToDistanceVolumeParams</label>
+        <link refid="classMR_1_1Const__PointsToDistanceVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -304,6 +305,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PointsToDistanceVolumeParams</label>
         <link refid="classMR_1_1PointsToDistanceVolumeParams"/>
@@ -312,9 +317,16 @@
       </node>
       <node id="2">
         <label>MR.Const_PointsToDistanceVolumeParams</label>
+        <link refid="classMR_1_1Const__PointsToDistanceVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_ptNormals</edgelabel>
+          <edgelabel>__ref_storage_dimensions</edgelabel>
+          <edgelabel>__ref_storage_origin</edgelabel>
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -326,11 +338,27 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" line="218" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRPointsToDistanceVolume.cs" bodystart="219" bodyend="356"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1a8418f447eb75b039fa6740941e323f65" prot="protected" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>__ptr_storage_ptNormals</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1a2850125fb83397c3ed3706debdf42dd1" prot="protected" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>__ref_storage_dimensions</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1a2277627b0172ccfe217cbbc5e009f1d3" prot="protected" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>__ref_storage_invSigmaModifier</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1a47298c1cfe8db4661dbb81b4341d6993" prot="protected" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>__ref_storage_minWeight</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1a337467429fd5df9e12e4aa799b1b00d2" prot="protected" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>__ref_storage_origin</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1aaf65c494b3e05f6e4b13deb61b66ceb7" prot="protected" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>__ref_storage_sigma</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1a41f86423dd4edf3edae5c894c50c6c4b" prot="protected" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>__ref_storage_sqrtAngleWeight</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1ae7168c7967812eef2f1b0d91371d7b47" prot="protected" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1PointsToDistanceVolumeParams_1ae609b3910ef0c644ce0dc7158d6d4439" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>assign</name></member>
       <member refid="classMR_1_1PointsToDistanceVolumeParams_1ae0d051753759ecaa9c315a503709bc31" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1a8b9f17c7860a83d88e4ae654d80c2152" prot="package" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>Const_PointsToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1a0798011f09c9c37531e1e92a64ba0f5c" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>Const_PointsToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1a88813a920eeea25c114fdfdb1b982261" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>Const_PointsToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1a5536209641c6875b4f851265c92be299" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>Const_PointsToDistanceVolumeParams</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1a9601411b3db38a0f8c8ad16ba93c399e" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>Const_PointsToDistanceVolumeParams</name></member>
       <member refid="classMR_1_1PointsToDistanceVolumeParams_1a714c26b509911b35254732e978ec4f5b" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>dimensions</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1adec32a030f89654e8ad4c9ad063c1564" prot="protected" virt="virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1a4f6eb6bc9c7fbbf94ef70057c2ec82bc" prot="public" virt="virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PointsToDistanceVolumeParams_1a651bc31c7fee04dc0bc47641145328ba" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>invSigmaModifier</name></member>
       <member refid="classMR_1_1PointsToDistanceVolumeParams_1adbef596027a558f43194134340ad1b25" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>minWeight</name></member>
+      <member refid="classMR_1_1Const__PointsToDistanceVolumeParams_1a8be7ce126eee649dc0c0f6e7ff8e4d9b" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>operator MR.Const_DistanceVolumeParams</name></member>
       <member refid="classMR_1_1PointsToDistanceVolumeParams_1a6aa9c34ab0746a14ffa75147a63dafe5" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>operator MR.DistanceVolumeParams</name></member>
       <member refid="classMR_1_1PointsToDistanceVolumeParams_1a2058c4708b7528d1d26f891ff721b220" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>origin</name></member>
       <member refid="classMR_1_1PointsToDistanceVolumeParams_1a31c866b0c0f458a6901754853f78fcee" prot="package" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>PointsToDistanceVolumeParams</name></member>

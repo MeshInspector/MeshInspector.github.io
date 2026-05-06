@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjKindTraits_MRFeaturesObjectKindCircle</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjKindTraits_MRFeaturesObjectKindCircle</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle" prot="public" virt="non-virtual">MR.Const_ObjKindTraits_MRFeaturesObjectKindCircle</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1a52111f5245c302f4751b15ea80fbc746" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>ObjKindTraits_MRFeaturesObjectKindCircle</name>
         <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCircle.ObjKindTraits_MRFeaturesObjectKindCircle</qualifiedname>
         <param>
-          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindCircle</type>
+          <type><ref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle" kindref="compound">MR.Const_ObjKindTraits_MRFeaturesObjectKindCircle</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ObjKindTraits&amp;amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a30954d90085f6eaaf5817917fc5fecb3" kindref="member">MR.FeaturesObjectKind.Circle</ref>&amp;amp;gt;::ObjKindTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ObjKindTraits&amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a30954d90085f6eaaf5817917fc5fecb3" kindref="member">MR.FeaturesObjectKind.Circle</ref>&amp;gt;::ObjKindTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ObjKindTraits&amp;amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a30954d90085f6eaaf5817917fc5fecb3" kindref="member">MR.FeaturesObjectKind.Circle</ref>&amp;amp;gt;::ObjKindTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ObjKindTraits&amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a30954d90085f6eaaf5817917fc5fecb3" kindref="member">MR.FeaturesObjectKind.Circle</ref>&amp;gt;::ObjKindTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCircle.assign</qualifiedname>
         <param>
-          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindCircle</type>
+          <type><ref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle" kindref="compound">MR.Const_ObjKindTraits_MRFeaturesObjectKindCircle</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::ObjKindTraits&amp;amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a30954d90085f6eaaf5817917fc5fecb3" kindref="member">MR.FeaturesObjectKind.Circle</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ObjKindTraits&amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a30954d90085f6eaaf5817917fc5fecb3" kindref="member">MR.FeaturesObjectKind.Circle</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -102,7 +102,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::ObjKindTraits&amp;amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a30954d90085f6eaaf5817917fc5fecb3" kindref="member">MR.FeaturesObjectKind.Circle</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::ObjKindTraits&amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a30954d90085f6eaaf5817917fc5fecb3" kindref="member">MR.FeaturesObjectKind.Circle</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjKindTraits_MRFeaturesObjectKindCircle</label>
+        <link refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjKindTraits_MRFeaturesObjectKindCircle</label>
+        <link refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="514" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="515" bodyend="555"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1a175a1ac53ec6d6aae1d5754cb52ce1b2" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle_1abee38baa3f4a1b1862981410f36980c0" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCircle</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle_1adb43066437ef3fb9de903960db39ae0e" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCircle</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle_1a4efdc11faee6fb6dc97f7124ab564809" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCircle</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle_1af95c798aa0d700c13401447a8a95f493" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindCircle</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle_1a9fb502ece1e5720f23fb2cc659865b55" prot="protected" virt="virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle_1a2accab617efa2cbfcf2d204468501798" prot="public" virt="virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindCircle_1aeb8473839d2b3e5862ee9692955cbb7d" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>Name</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1a52111f5245c302f4751b15ea80fbc746" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>ObjKindTraits_MRFeaturesObjectKindCircle</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1a7c1eef0903255cd018404f49286f93de" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>ObjKindTraits_MRFeaturesObjectKindCircle</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCircle_1ade60d974af7b1507de1cff8db243e85e" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCircle</scope><name>ObjKindTraits_MRFeaturesObjectKindCircle</name></member>

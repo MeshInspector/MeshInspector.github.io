@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DeloneSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::DeloneSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DeloneSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DeloneSettings" prot="public" virt="non-virtual">MR.Const_DeloneSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DeloneSettings_1adb69bac74bb385015b463084b5c3bcbd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -50,7 +50,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="213" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="213" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DeloneSettings_1a08b2035a40c6d51db419b28ea11756b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_FaceBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">Const_FaceBitSet</ref></type>
         <definition>new unsafe MR.? Const_FaceBitSet MR.DeloneSettings.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -65,7 +65,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="218" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="219" bodyend="228"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DeloneSettings_1a611fe9f326c99b1bf4f6c2fce16a5a98" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_UndirectedEdgeBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">Const_UndirectedEdgeBitSet</ref></type>
         <definition>new unsafe MR.? Const_UndirectedEdgeBitSet MR.DeloneSettings.notFlippable</definition>
         <argsstring></argsstring>
         <name>notFlippable</name>
@@ -80,7 +80,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="233" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="234" bodyend="243"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1DeloneSettings_1a4f0b04d0586bb31b8526ff1d07293e16" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.DeloneSettings.vertRegion</definition>
         <argsstring></argsstring>
         <name>vertRegion</name>
@@ -154,15 +154,15 @@
           <declname>criticalTriAspectRatio</declname>
         </param>
         <param>
-          <type>MR.Const_FaceBitSet?</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
           <declname>region</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref>?</type>
           <declname>notFlippable</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>vertRegion</declname>
         </param>
         <briefdescription>
@@ -181,7 +181,7 @@
         <name>DeloneSettings</name>
         <qualifiedname>MR.DeloneSettings.DeloneSettings</qualifiedname>
         <param>
-          <type>MR.Const_DeloneSettings</type>
+          <type><ref refid="classMR_1_1Const__DeloneSettings" kindref="compound">MR.Const_DeloneSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -219,7 +219,7 @@
         <name>assign</name>
         <qualifiedname>MR.DeloneSettings.assign</qualifiedname>
         <param>
-          <type>MR.Const_DeloneSettings</type>
+          <type><ref refid="classMR_1_1Const__DeloneSettings" kindref="compound">MR.Const_DeloneSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -246,6 +246,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DeloneSettings</label>
+        <link refid="classMR_1_1Const__DeloneSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -259,6 +260,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.DeloneSettings</label>
         <link refid="classMR_1_1DeloneSettings"/>
@@ -267,9 +272,15 @@
       </node>
       <node id="2">
         <label>MR.Const_DeloneSettings</label>
+        <link refid="classMR_1_1Const__DeloneSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_notFlippable</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ptr_storage_vertRegion</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -281,13 +292,26 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" line="197" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDelone.cs" bodystart="198" bodyend="322"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DeloneSettings_1a9a9bfc6427b757241418d037289d2891" prot="protected" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>__ptr_storage_notFlippable</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a58366aaf825fe4b3b9dd2b70f1f0a412" prot="protected" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1aa8c739906eb3e1ca63812be81a9b6564" prot="protected" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>__ptr_storage_vertRegion</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a653aa2ab88804ce720c847a7f8904929" prot="protected" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>__ref_storage_criticalTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a7416647685e6747fd417c2b04a200812" prot="protected" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>__ref_storage_maxAngleChange</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1adf2e90024a808dc38a816bff8869ca5a" prot="protected" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>__ref_storage_maxDeviationAfterFlip</name></member>
       <member refid="classMR_1_1DeloneSettings_1af38fc3d1b54200d822b175bdb4c99ceb" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1ad85990a5423cc94abf37bf4db14e6ddd" prot="package" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>Const_DeloneSettings</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1acb92d26ed740f19aa94c8ec47d8bc918" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>Const_DeloneSettings</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a4a10c9adbebde007efb2e8146b2eb71d" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>Const_DeloneSettings</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1ac5c00dcd641a9e88a06616e634706f3a" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>Const_DeloneSettings</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a5b4dd78bedc07d3d51d94842b8f97675" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>Const_DeloneSettings</name></member>
       <member refid="classMR_1_1DeloneSettings_1a6df8d567d4bf7314b65fedde6fc8009e" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>criticalTriAspectRatio</name></member>
       <member refid="classMR_1_1DeloneSettings_1ac13ac99917cbce45a815e79d7a1f9100" prot="package" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>DeloneSettings</name></member>
       <member refid="classMR_1_1DeloneSettings_1aff233148205194709d50b37f4722aa19" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>DeloneSettings</name></member>
       <member refid="classMR_1_1DeloneSettings_1a0513d524a457fa113f2c55b8b858f7df" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>DeloneSettings</name></member>
       <member refid="classMR_1_1DeloneSettings_1af16cdb23fce67a0a260b39ebae85f8ca" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>DeloneSettings</name></member>
       <member refid="classMR_1_1DeloneSettings_1a1bf7856a12c25cc5216742445d65ccc6" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>DeloneSettings</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1a08599f04cabd8265005d20f7b38822dd" prot="protected" virt="virtual"><scope>MR::DeloneSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DeloneSettings_1ad2be551d8ab8baf3b31cf61535801012" prot="public" virt="virtual"><scope>MR::DeloneSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DeloneSettings_1ae4f3c99af90bd740d245f2fedee68fd5" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>maxAngleChange</name></member>
       <member refid="classMR_1_1DeloneSettings_1adb69bac74bb385015b463084b5c3bcbd" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>maxDeviationAfterFlip</name></member>
       <member refid="classMR_1_1DeloneSettings_1a611fe9f326c99b1bf4f6c2fce16a5a98" prot="public" virt="non-virtual"><scope>MR::DeloneSettings</scope><name>notFlippable</name></member>

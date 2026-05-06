@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RelaxParams" kind="class" language="C#" prot="public">
     <compoundname>MR::RelaxParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_RelaxParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__RelaxParams" prot="public" virt="non-virtual">MR.Const_RelaxParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1RelaxParams_1a3a35234771b7e73df2d9d2ac55d86881" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -20,7 +20,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="167" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1RelaxParams_1a25edc7a8669087781f5180c67a704a7d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.RelaxParams.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -127,7 +127,7 @@
         <name>RelaxParams</name>
         <qualifiedname>MR.RelaxParams.RelaxParams</qualifiedname>
         <param>
-          <type>MR.Const_RelaxParams</type>
+          <type><ref refid="classMR_1_1Const__RelaxParams" kindref="compound">MR.Const_RelaxParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -165,7 +165,7 @@
         <name>assign</name>
         <qualifiedname>MR.RelaxParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_RelaxParams</type>
+          <type><ref refid="classMR_1_1Const__RelaxParams" kindref="compound">MR.Const_RelaxParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -192,6 +192,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RelaxParams</label>
+        <link refid="classMR_1_1Const__RelaxParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -205,6 +206,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.RelaxParams</label>
         <link refid="classMR_1_1RelaxParams"/>
@@ -213,9 +218,13 @@
       </node>
       <node id="2">
         <label>MR.Const_RelaxParams</label>
+        <link refid="classMR_1_1Const__RelaxParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -227,7 +236,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" line="162" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRelaxParams.cs" bodystart="163" bodyend="247"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__RelaxParams_1aae85b298b41bfe3bd1c77e64a70d8947" prot="protected" virt="non-virtual"><scope>MR::RelaxParams</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__RelaxParams_1a26d76a758591f1a7f1b9b6546a1fcbcf" prot="protected" virt="non-virtual"><scope>MR::RelaxParams</scope><name>__ref_storage_force</name></member>
+      <member refid="classMR_1_1Const__RelaxParams_1a8ef6ce3e932e96fada8665d114c2c0ad" prot="protected" virt="non-virtual"><scope>MR::RelaxParams</scope><name>__ref_storage_iterations</name></member>
+      <member refid="classMR_1_1Const__RelaxParams_1a3dd18ccefa9e598f04800582678b6d04" prot="protected" virt="non-virtual"><scope>MR::RelaxParams</scope><name>__ref_storage_limitNearInitial</name></member>
+      <member refid="classMR_1_1Const__RelaxParams_1a7a9ccc48fec0771bc496718d640a8cde" prot="protected" virt="non-virtual"><scope>MR::RelaxParams</scope><name>__ref_storage_maxInitialDist</name></member>
       <member refid="classMR_1_1RelaxParams_1a4e6030af260cb62a5532b8a850755064" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__RelaxParams_1a8ebffc0aba6842aafd1fac6440da8b3d" prot="package" virt="non-virtual"><scope>MR::RelaxParams</scope><name>Const_RelaxParams</name></member>
+      <member refid="classMR_1_1Const__RelaxParams_1ac867d1e3fee03d7ecff437f9d6ccf0b4" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>Const_RelaxParams</name></member>
+      <member refid="classMR_1_1Const__RelaxParams_1a332ba8cec248940bff606f401032bbe4" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>Const_RelaxParams</name></member>
+      <member refid="classMR_1_1Const__RelaxParams_1a902b6ab253f0300f63c72d92a6534356" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>Const_RelaxParams</name></member>
+      <member refid="classMR_1_1Const__RelaxParams_1acdc8fe724eabe7e445dafd408920af74" prot="protected" virt="virtual"><scope>MR::RelaxParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RelaxParams_1a666fc842bcb79e5485479f78c7383256" prot="public" virt="virtual"><scope>MR::RelaxParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1RelaxParams_1ab63b0c054897c1b08f7e126ae1794748" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>force</name></member>
       <member refid="classMR_1_1RelaxParams_1a3a35234771b7e73df2d9d2ac55d86881" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>iterations</name></member>
       <member refid="classMR_1_1RelaxParams_1a6a77807fb4269a27dbe4ed779b218721" prot="public" virt="non-virtual"><scope>MR::RelaxParams</scope><name>limitNearInitial</name></member>

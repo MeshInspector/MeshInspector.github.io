@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshProjectionTransforms" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshProjectionTransforms</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshProjectionTransforms</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshProjectionTransforms" prot="public" virt="non-virtual">MR.Const_MeshProjectionTransforms</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshProjectionTransforms_1a0bb6e8cf8f8c3f7eeb72aa019f5ecfc3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
@@ -105,7 +105,7 @@
         <name>MeshProjectionTransforms</name>
         <qualifiedname>MR.MeshProjectionTransforms.MeshProjectionTransforms</qualifiedname>
         <param>
-          <type>MR.Const_MeshProjectionTransforms</type>
+          <type><ref refid="classMR_1_1Const__MeshProjectionTransforms" kindref="compound">MR.Const_MeshProjectionTransforms</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshProjectionTransforms.assign</qualifiedname>
         <param>
-          <type>MR.Const_MeshProjectionTransforms</type>
+          <type><ref refid="classMR_1_1Const__MeshProjectionTransforms" kindref="compound">MR.Const_MeshProjectionTransforms</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshProjectionTransforms</label>
+        <link refid="classMR_1_1Const__MeshProjectionTransforms"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshProjectionTransforms</label>
         <link refid="classMR_1_1MeshProjectionTransforms"/>
@@ -191,9 +196,14 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshProjectionTransforms</label>
+        <link refid="classMR_1_1Const__MeshProjectionTransforms"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_nonRigidXfTree</edgelabel>
+          <edgelabel>__ptr_storage_rigidXfPoint</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -205,7 +215,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="412" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="413" bodyend="505"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1a4a9ef1a3005bc2b043d1d3090a50fb23" prot="protected" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>__ptr_storage_nonRigidXfTree</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1afa2260291a6ca5322d272dd505d21fb6" prot="protected" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>__ptr_storage_rigidXfPoint</name></member>
       <member refid="classMR_1_1MeshProjectionTransforms_1a64aa7f05b3996015abedc6dca49c2b2e" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1aff6427c1bc5b9d7a21491d29c26e1f92" prot="package" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>Const_MeshProjectionTransforms</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1a7aeb1900bd0d23769e30a25125bc45db" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>Const_MeshProjectionTransforms</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1a27d26a70b3637707410f3cba895e0cdf" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>Const_MeshProjectionTransforms</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1a02f24e6f2ff64493c5074e3b31553d4d" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>Const_MeshProjectionTransforms</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1a1ea59554b6c40aee79e5bba54c7687cd" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>Const_MeshProjectionTransforms</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1a1269cff972ce6454da3b0f4f868d988b" prot="protected" virt="virtual"><scope>MR::MeshProjectionTransforms</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionTransforms_1af64e20a403be8b5e4c1d1d4da665334a" prot="public" virt="virtual"><scope>MR::MeshProjectionTransforms</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshProjectionTransforms_1af218d70980b3b3c871a2f5bf5992ed79" prot="package" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>MeshProjectionTransforms</name></member>
       <member refid="classMR_1_1MeshProjectionTransforms_1a2cbf72c55d1022d7cd6d70b760c80186" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>MeshProjectionTransforms</name></member>
       <member refid="classMR_1_1MeshProjectionTransforms_1a3c9a86fd036f439ff8f39543d517dc0f" prot="public" virt="non-virtual"><scope>MR::MeshProjectionTransforms</scope><name>MeshProjectionTransforms</name></member>

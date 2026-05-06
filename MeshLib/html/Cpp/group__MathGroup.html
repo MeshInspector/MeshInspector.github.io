@@ -194,6 +194,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga97b0c226492f4561c1a2c13831433bed template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga97b0c226492f4561c1a2c13831433bed">MR::circumcircleDiameterSq</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
 <tr class="memitem:gaba44f8d705d9bc1b98f635bdabe488ae" id="r_gaba44f8d705d9bc1b98f635bdabe488ae"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:gaba44f8d705d9bc1b98f635bdabe488ae template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaba44f8d705d9bc1b98f635bdabe488ae">MR::circumcircleDiameter</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
+<tr class="memitem:ga4d722517a95582901be4599a6042e273" id="r_ga4d722517a95582901be4599a6042e273"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ga4d722517a95582901be4599a6042e273 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4d722517a95582901be4599a6042e273">MR::mincircleDiameterSq</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
 <tr class="memitem:gaf5af7058ce54bba6fc77a344d28b9826" id="r_gaf5af7058ce54bba6fc77a344d28b9826"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:gaf5af7058ce54bba6fc77a344d28b9826 template"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf5af7058ce54bba6fc77a344d28b9826">MR::minTriangleAngleSin</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c)</td></tr>
 <tr class="memitem:ga2fbcc5b76ec7e12da86bc99895ac6fc9" id="r_ga2fbcc5b76ec7e12da86bc99895ac6fc9"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
@@ -821,6 +823,45 @@ xf(eye) = 0 </p>
 
 <p><code>#include &lt;<a class="el" href="MRMakeRigidXf_8h.html">MRMesh/MRMakeRigidXf.h</a>&gt;</code></p>
 <p>given a mesh part and its arbitrary transformation, computes and returns the rigid transformation that best approximates meshXf </p>
+
+</div>
+</div>
+<a id="ga4d722517a95582901be4599a6042e273" name="ga4d722517a95582901be4599a6042e273"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4d722517a95582901be4599a6042e273">&#9670;&#160;</a></span>mincircleDiameterSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T MR::mincircleDiameterSq </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTriMath_8h.html">MRMesh/MRTriMath.h</a>&gt;</code></p>
+<p>Computes the squared diameter of the smallest enclosed circle around ABC; For acute triangles it is the same as circumcircle, for obtuse triangles - the circle with the longest triangle's edge as a diameter </p>
 
 </div>
 </div>

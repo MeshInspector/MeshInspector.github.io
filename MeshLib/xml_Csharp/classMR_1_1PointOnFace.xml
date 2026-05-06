@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointOnFace" kind="class" language="C#" prot="public">
     <compoundname>MR::PointOnFace</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointOnFace</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointOnFace" prot="public" virt="non-virtual">MR.Const_PointOnFace</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PointOnFace_1a3c91225e185da7ec0efd6f9122913602" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -105,7 +105,7 @@
         <name>PointOnFace</name>
         <qualifiedname>MR.PointOnFace.PointOnFace</qualifiedname>
         <param>
-          <type>MR.Const_PointOnFace</type>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.PointOnFace.assign</qualifiedname>
         <param>
-          <type>MR.Const_PointOnFace</type>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointOnFace</label>
+        <link refid="classMR_1_1Const__PointOnFace"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PointOnFace</label>
         <link refid="classMR_1_1PointOnFace"/>
@@ -191,9 +196,14 @@
       </node>
       <node id="2">
         <label>MR.Const_PointOnFace</label>
+        <link refid="classMR_1_1Const__PointOnFace"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_face</edgelabel>
+          <edgelabel>__ref_storage_point</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -205,14 +215,25 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" line="132" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointOnFace.cs" bodystart="133" bodyend="203"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PointOnFace_1a395bed780fe569d2ac30785af7ccd3bc" prot="protected" virt="non-virtual"><scope>MR::PointOnFace</scope><name>__ref_storage_face</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1afd806d35695cb2198e106156679c315c" prot="protected" virt="non-virtual"><scope>MR::PointOnFace</scope><name>__ref_storage_point</name></member>
       <member refid="classMR_1_1PointOnFace_1adf57f947c4533b6c6ca8686c29af523a" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1a0670fe661c9ae72d9a4883dfd93a1e03" prot="package" virt="non-virtual"><scope>MR::PointOnFace</scope><name>Const_PointOnFace</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1a6bb59e58aa995aa280a18ae71aa8502e" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>Const_PointOnFace</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1a9d46a4cf5849e053abe7f3c341d66a7f" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>Const_PointOnFace</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1af9957deccc186f4296668bf53b97b239" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>Const_PointOnFace</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1a2377129bd1ae9c7d73383d2586d5b122" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>Const_PointOnFace</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1a34dc12cbf4e417c42d5bb95b1c7e508d" prot="protected" virt="virtual"><scope>MR::PointOnFace</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1abf2d12eca2518f7ab6b56152292e5a3d" prot="public" virt="virtual"><scope>MR::PointOnFace</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PointOnFace_1a3c91225e185da7ec0efd6f9122913602" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>face</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1a760d1e0dce744d067915d26cca9bb268" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>operator bool</name></member>
       <member refid="classMR_1_1PointOnFace_1a64cb63010573d6e30be5ac7ce0590ac3" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>point</name></member>
       <member refid="classMR_1_1PointOnFace_1a830639857b6c82cc1cde66050f8e1d68" prot="package" virt="non-virtual"><scope>MR::PointOnFace</scope><name>PointOnFace</name></member>
       <member refid="classMR_1_1PointOnFace_1a21df00bf253dec0dacb806c1c16c6955" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>PointOnFace</name></member>
       <member refid="classMR_1_1PointOnFace_1a7efdf63c30f2e2b14a58cb76b81105dd" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>PointOnFace</name></member>
       <member refid="classMR_1_1PointOnFace_1ac1161191f5b60ce929e26421cd777ce1" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>PointOnFace</name></member>
       <member refid="classMR_1_1PointOnFace_1a9015b9c75037e4185a5e9b8d0b028313" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>PointOnFace</name></member>
+      <member refid="classMR_1_1Const__PointOnFace_1acbc3666316bb7605943da89b13b0a2fc" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

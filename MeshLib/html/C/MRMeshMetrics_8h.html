@@ -193,6 +193,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a34e8e448e50bdff6125aafa6259af546" id="r_a34e8e448e50bdff6125aafa6259af546"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34e8e448e50bdff6125aafa6259af546">MR_getUniversalMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
 <tr class="memitem:a6aa4fe43c494a434394c749d73d3d092" id="r_a6aa4fe43c494a434394c749d73d3d092"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aa4fe43c494a434394c749d73d3d092">MR_getMinTriAngleMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
 <tr class="memitem:a80e75edc0a953ff704c014233f482d81" id="r_a80e75edc0a953ff704c014233f482d81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80e75edc0a953ff704c014233f482d81">MR_getMinAreaMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="memitem:a5fe0746ba5493cf7fd7d3f533fc976ff" id="r_a5fe0746ba5493cf7fd7d3f533fc976ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fe0746ba5493cf7fd7d3f533fc976ff">MR_getCloseSurfaceFillMetric</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *closeSurface)</td></tr>
+<tr class="memitem:a350d07bf9ccf26b4dc11535c2fc3eef2" id="r_a350d07bf9ccf26b4dc11535c2fc3eef2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a350d07bf9ccf26b4dc11535c2fc3eef2">MR_mixMetrics</a> (const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *f, const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *g, const <a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a> *mix)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a141615b33916c2ac26def367006324c9" name="a141615b33916c2ac26def367006324c9"></a>
@@ -680,7 +682,29 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This metric minimizes the sum of circumcircle radii for all triangles in the triangulation. It is rather fast to calculate, and it results in typically good triangulations. Generated from function <span class="tt">MR::getCircumscribedMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+<p>This metric minimizes the sum of circumcircle radii for all triangles in the triangulation. It is rather fast to calculate, and it results in typically good triangulations. It is measured in length units. Generated from function <span class="tt">MR::getCircumscribedMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5fe0746ba5493cf7fd7d3f533fc976ff" name="a5fe0746ba5493cf7fd7d3f533fc976ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fe0746ba5493cf7fd7d3f533fc976ff">&#9670;&#160;</a></span>MR_getCloseSurfaceFillMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_getCloseSurfaceFillMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>closeSurface</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This metric penalizes new triangles for getting far from <span class="tt">closeSurface</span> by projecting candidate face center on <span class="tt">closeSurfce</span>. While slower - it can produce better quality results for patching It is measured in squared length units. Generated from function <span class="tt">MR::getCloseSurfaceFillMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">closeSurface</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -705,7 +729,7 @@ Functions</h2></td></tr>
 <p>This metric minimizes the sum of triangleMetric for all triangles in the triangulation plus the sum edgeMetric for all edges inside and on the boundary of the triangulation.<br  />
 Where<br  />
 triangleMetric is proportional to weighted triangle area and triangle aspect ratio<br  />
-edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos( x ) ) ) ^ 4. Generated from function <span class="tt">MR::getComplexFillMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos( x ) ) ) ^ 4. It is unitless. Generated from function <span class="tt">MR::getComplexFillMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -726,7 +750,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
 <p>This metric minimizes the sum of triangleMetric for all triangles in the triangulation plus the sum edgeMetric for all edges inside and on the boundary of the triangulation.<br  />
 Where<br  />
 triangleMetric is proportional to triangle aspect ratio<br  />
-edgeMetric is proportional to ( 1 - dihedralAngleCos ) Generated from function <span class="tt">MR::getComplexStitchMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+edgeMetric is proportional to ( 1 - dihedralAngleCos ) It is unitless. Generated from function <span class="tt">MR::getComplexStitchMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -744,7 +768,7 @@ edgeMetric is proportional to ( 1 - dihedralAngleCos ) Generated from function <
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Simple metric minimizing the sum of all edge lengths Generated from function <span class="tt">MR::getEdgeLengthFillMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Simple metric minimizing the sum of all edge lengths It is measured in length units. Generated from function <span class="tt">MR::getEdgeLengthFillMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -763,7 +787,7 @@ edgeMetric is proportional to ( 1 - dihedralAngleCos ) Generated from function <
       </table>
 </div><div class="memdoc">
 <p>Forbids connecting vertices from the same hole <br  />
-Simple metric minimizing edge length Generated from function <span class="tt">MR::getEdgeLengthStitchMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+Simple metric minimizing edge length It is measured in length units. Generated from function <span class="tt">MR::getEdgeLengthStitchMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -781,7 +805,7 @@ Simple metric minimizing edge length Generated from function <span class="tt">MR
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This metric minimizes the maximal dihedral angle between the faces in the triangulation and on its boundary Generated from function <span class="tt">MR::getMaxDihedralAngleMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+<p>This metric minimizes the maximal dihedral angle between the faces in the triangulation and on its boundary It is measured in angle units. Generated from function <span class="tt">MR::getMaxDihedralAngleMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -799,7 +823,7 @@ Simple metric minimizing edge length Generated from function <span class="tt">MR
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This metric is for triangulation construction with minimal summed area of triangles. Warning: this metric can produce degenerated triangles Generated from function <span class="tt">MR::getMinAreaMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+<p>This metric is for triangulation construction with minimal summed area of triangles. It is measured in squared length units. Warning: this metric can produce degenerated triangles Generated from function <span class="tt">MR::getMinAreaMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -844,7 +868,7 @@ Simple metric minimizing edge length Generated from function <span class="tt">MR
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This metric minimizes summary projection of new edges to plane normal, (try do produce edges parallel to plane) Generated from function <span class="tt">MR::getParallelPlaneFillMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">plane</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+<p>This metric minimizes summary projection of new edges to plane normal, (try do produce edges parallel to plane) It is measured in length units. Generated from function <span class="tt">MR::getParallelPlaneFillMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">plane</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -866,7 +890,7 @@ Simple metric minimizing edge length Generated from function <span class="tt">MR
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Same as getCircumscribedFillMetric, but with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e). Generated from function <span class="tt">MR::getPlaneFillMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Same as getCircumscribedFillMetric, but with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e). It is measured in length units. Generated from function <span class="tt">MR::getPlaneFillMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -888,7 +912,7 @@ Simple metric minimizing edge length Generated from function <span class="tt">MR
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Similar to getPlaneFillMetric with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e), but the metric minimizes the sum of circumcircle radius times aspect ratio for all triangles in the triangulation. Generated from function <span class="tt">MR::getPlaneNormalizedFillMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Similar to getPlaneFillMetric with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e), but the metric minimizes the sum of circumcircle radius times aspect ratio for all triangles in the triangulation. It is measured in length units. Generated from function <span class="tt">MR::getPlaneNormalizedFillMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -906,7 +930,7 @@ Simple metric minimizing edge length Generated from function <span class="tt">MR
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This metric consists of two parts 1) for each triangle: it is the circumcircle diameter, this avoids the appearance of degenerate triangles; 2) for each edge: square root of double total area of triangles to its left and right times the factor depending extensionally on absolute dihedral angle between left and right triangles, this makes visually triangulated surface as smooth as possible. For planar holes it is the same as getCircumscribedMetric. Generated from function <span class="tt">MR::getUniversalMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+<p>This metric consists of two parts 1) for each triangle: it is the circumcircle diameter, this avoids the appearance of degenerate triangles; 2) for each edge: square root of double total area of triangles to its left and right times the factor depending extensionally on absolute dihedral angle between left and right triangles, this makes visually triangulated surface as smooth as possible. It is measured in length units. For planar holes it is the same as getCircumscribedMetric. Generated from function <span class="tt">MR::getUniversalMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -930,7 +954,7 @@ Simple metric minimizing edge length Generated from function <span class="tt">MR
 </div><div class="memdoc">
 <p>Forbids connecting vertices from the same hole <br  />
 penalize for large area and face normal deviation from upDir <br  />
-All new faces should be parallel to given direction Generated from function <span class="tt">MR::getVerticalStitchMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">upDir</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+All new faces should be parallel to given direction It is measured in power 4 length units (e.g. meters^4). Generated from function <span class="tt">MR::getVerticalStitchMetric</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">upDir</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -954,7 +978,34 @@ All new faces should be parallel to given direction Generated from function <spa
 </div><div class="memdoc">
 <p>Forbids connecting vertices from the same hole <br  />
 penalize for long edges and its deviation from upDir <br  />
-All new faces should be parallel to given direction Generated from function <span class="tt">MR::getVerticalStitchMetricEdgeBased</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">upDir</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+All new faces should be parallel to given direction It is measured in squared length units. Generated from function <span class="tt">MR::getVerticalStitchMetricEdgeBased</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">upDir</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a350d07bf9ccf26b4dc11535c2fc3eef2" name="a350d07bf9ccf26b4dc11535c2fc3eef2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a350d07bf9ccf26b4dc11535c2fc3eef2">&#9670;&#160;</a></span>MR_mixMetrics()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> * MR_mixMetrics </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMeshFillHole_8h.html#a6ada8b7c6797cc0bd90970cb9b243afa">MR_FillHoleMetric</a> *</td>          <td class="paramname"><span class="paramname"><em>g</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a141615b33916c2ac26def367006324c9">MR_std_function_double_from_double_double</a> *</td>          <td class="paramname"><span class="paramname"><em>mix</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compose two metrics together: return metrics are <span class="tt">mix(f.metric,g.metric)</span>. Default <span class="tt">mix</span> is sum </p><dl class="section note"><dt>Note</dt><dd>It is recommended to both metrics to be in same measure e.g. both meters or both meters^2 etc. So scaling input meshes won't lead to different results. Generated from function <span class="tt">MR::mixMetrics</span>. Parameter <span class="tt">f</span> can not be null. It is a single object. Parameter <span class="tt">g</span> can not be null. It is a single object. Parameter <span class="tt">mix</span> is a single object. Parameter <span class="tt">mix</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#ade64d89e14732245a119db72f913913d" title="Destroys a heap-allocated instance of MR_FillHoleMetric. Does nothing if the pointer is null.">MR_FillHoleMetric_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>

@@ -234,8 +234,8 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 <div class="line">    MR_uint64_t numColB = MR_BitSet_count(</div>
 <div class="line">        MR_FaceBitSet_UpcastTo_MR_BitSet(</div>
 <div class="line">            MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_second( collidingBitSets ) ) );</div>
-<div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%&quot;</span> PRIu64 <span class="stringliteral">&quot;\n&quot;</span>, numColA ); <span class="comment">// print number of colliding faces from mesh A</span></div>
-<div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%&quot;</span> PRIu64 <span class="stringliteral">&quot;\n&quot;</span>, numColB ); <span class="comment">// print number of colliding faces from mesh B</span></div>
+<div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%zu\n&quot;</span>, (<span class="keywordtype">size_t</span>)numColA ); <span class="comment">// print number of colliding faces from mesh A</span></div>
+<div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%zu\n&quot;</span>, (<span class="keywordtype">size_t</span>)numColB ); <span class="comment">// print number of colliding faces from mesh B</span></div>
 <div class="line"> </div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// fast check if mesh A and mesh B collide</span></div>
@@ -263,34 +263,30 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static MR;</div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>Collision {</div>
-<div class="line"> </div>
-<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args) {</div>
-<div class="line"> </div>
-<div class="line">        var meshA = MR.makeUVSphere();</div>
-<div class="line">        var meshB = MR.makeUVSphere();</div>
-<div class="line"> </div>
-<div class="line">        meshB.transform(MR.AffineXf3f.translation(<span class="keyword">new</span> MR.Vector3f(0.1f, 0.1f, 0.1f)));</div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">class </span>CollisionExample</div>
+<div class="line">{</div>
+<div class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Run(<span class="keywordtype">string</span>[] args)</div>
+<div class="line">    {</div>
+<div class="line">        var meshA = MR.makeUVSphere(); <span class="comment">// make mesh A</span></div>
+<div class="line">        var meshB = MR.makeUVSphere(); <span class="comment">// make mesh B</span></div>
+<div class="line">        meshB.transform(MR.AffineXf3f.translation(<span class="keyword">new</span> MR.Vector3f(0.1f, 0.1f, 0.1f))); <span class="comment">// shift mesh B for better demonstration</span></div>
 <div class="line"> </div>
 <div class="line">        var meshPartA = <span class="keyword">new</span> MeshPart(meshA);</div>
 <div class="line">        var meshPartB = <span class="keyword">new</span> MeshPart(meshB);</div>
 <div class="line"> </div>
-<div class="line">        Console.WriteLine(<span class="stringliteral">&quot; --- Beginning Colliding Test! --- &quot;</span>);</div>
-<div class="line">        var collidingFacePairs = MR.findCollidingTriangles(meshPartA, meshPartB);</div>
-<div class="line"> </div>
-<div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; collidingFacePairs.size(); i++) {</div>
+<div class="line">        var collidingFacePairs = MR.findCollidingTriangles(meshPartA, meshPartB); <span class="comment">// find each pair of colliding faces</span></div>
+<div class="line">        <span class="keywordflow">for</span> (ulong i = 0; i &lt; collidingFacePairs.size(); i++)</div>
+<div class="line">        {</div>
 <div class="line">            var pair = collidingFacePairs[i];</div>
-<div class="line">            Console.WriteLine($<span class="stringliteral">&quot;FaceA: {pair.aFace.id} FaceB: {pair.bFace.id}&quot;</span>);</div>
+<div class="line">            Console.WriteLine($<span class="stringliteral">&quot;{pair.aFace.id} {pair.bFace.id}&quot;</span>); <span class="comment">// print each pair of colliding faces</span></div>
 <div class="line">        }</div>
 <div class="line"> </div>
-<div class="line">        var collidingFaceBitSet = MR.findCollidingTriangleBitsets(meshPartA, meshPartB);</div>
-<div class="line">        var bitSet = collidingFaceBitSet.first();</div>
-<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Colliding faces on MeshA: {bitSet.count()}&quot;</span>);</div>
-<div class="line">        bitSet = collidingFaceBitSet.second();</div>
-<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Colliding faces on MeshB: {bitSet.count()}&quot;</span>);</div>
+<div class="line">        var collidingFaceBitSets = MR.findCollidingTriangleBitsets(meshPartA, meshPartB); <span class="comment">// find bitsets of colliding faces</span></div>
+<div class="line">        Console.WriteLine(collidingFaceBitSets.first().count()); <span class="comment">// print number of colliding faces from mesh A</span></div>
+<div class="line">        Console.WriteLine(collidingFaceBitSets.second().count()); <span class="comment">// print number of colliding faces from mesh B</span></div>
 <div class="line"> </div>
-<div class="line">        var isColliding = !MR.findCollidingTriangles(meshPartA, meshPartB, <span class="keyword">null</span>, <span class="keyword">true</span>).empty();</div>
-<div class="line">        Console.WriteLine($<span class="stringliteral">&quot;Meshes are colliding: {isColliding}\n&quot;</span>);</div>
+<div class="line">        var isColliding = !MR.findCollidingTriangles(meshPartA, meshPartB, <span class="keyword">null</span>, <span class="keyword">true</span>).empty(); <span class="comment">// fast check if mesh A and mesh B collide</span></div>
+<div class="line">        Console.WriteLine(isColliding);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --></li>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MarkedContour3f" kind="class" language="C#" prot="public">
     <compoundname>MR::MarkedContour3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MarkedContour3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MarkedContour3f" prot="public" virt="non-virtual">MR.Const_MarkedContour3f</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MarkedContour3f_1a14017c6c385dd31ce235e5c19510f81c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRVector3f</type>
@@ -123,7 +123,7 @@
         <name>MarkedContour3f</name>
         <qualifiedname>MR.MarkedContour3f.MarkedContour3f</qualifiedname>
         <param>
-          <type>Const_MarkedContour3f</type>
+          <type><ref refid="classMR_1_1Const__MarkedContour3f" kindref="compound">Const_MarkedContour3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -188,6 +188,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MarkedContour3f</label>
+        <link refid="classMR_1_1Const__MarkedContour3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -209,6 +210,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MarkedContour3f</label>
+        <link refid="classMR_1_1Const__MarkedContour3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,7 +226,15 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="113" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="114" bodyend="210"/>
     <listofallmembers>
       <member refid="classMR_1_1MarkedContour3f_1a597abedd622780ed1fc5f404ab7535dc" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MarkedContour3f_1ab192f7a99b0ff6241758e65f8ddf9ad1" prot="package" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>Const_MarkedContour3f</name></member>
+      <member refid="classMR_1_1Const__MarkedContour3f_1a184e0ebbad4afc616a6347e7bda784c4" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>Const_MarkedContour3f</name></member>
+      <member refid="classMR_1_1Const__MarkedContour3f_1a2fa6912c963a027ee85f58b13bfc398f" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>Const_MarkedContour3f</name></member>
+      <member refid="classMR_1_1Const__MarkedContour3f_1a8e5debbb04f0c62b0c52b1cd6fa84746" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>Const_MarkedContour3f</name></member>
+      <member refid="classMR_1_1Const__MarkedContour3f_1af9b05f048e95c67c2447e3e6431efbdf" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>Const_MarkedContour3f</name></member>
+      <member refid="classMR_1_1Const__MarkedContour3f_1a6a48b49f991b0ff0bf3019724d061711" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>Const_MarkedContour3f</name></member>
       <member refid="classMR_1_1MarkedContour3f_1a14017c6c385dd31ce235e5c19510f81c" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>contour</name></member>
+      <member refid="classMR_1_1Const__MarkedContour3f_1a6dec9e25bee947de54a2de729bcfdd6b" prot="protected" virt="virtual"><scope>MR::MarkedContour3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MarkedContour3f_1ad9506df9da1d4a853a479c5be2fd401a" prot="public" virt="virtual"><scope>MR::MarkedContour3f</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MarkedContour3f_1ad736ea236aa05942fcc55bb848d5f639" prot="package" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>MarkedContour3f</name></member>
       <member refid="classMR_1_1MarkedContour3f_1a38e4c78b533f999833d11f60f9c489d2" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>MarkedContour3f</name></member>
       <member refid="classMR_1_1MarkedContour3f_1aae8161072a871f02b8f316a21790b646" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>MarkedContour3f</name></member>

@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BaseTiffParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::BaseTiffParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BaseTiffParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BaseTiffParameters" prot="public" virt="non-virtual">MR.Const_BaseTiffParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BaseTiffParameters_1af4fd0e7f423301af6abd5bdd0e6a8e7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref MR.BaseTiffParameters.SampleType</type>
+        <type>new unsafe ref <ref refid="classMR_1_1Const__BaseTiffParameters_1a51bea38715ba00e4f1e9ea3d5b383aea" kindref="member">MR.BaseTiffParameters.SampleType</ref></type>
         <definition>new unsafe ref MR.BaseTiffParameters.SampleType MR.BaseTiffParameters.sampleType</definition>
         <argsstring></argsstring>
         <name>sampleType</name>
@@ -19,7 +19,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="180" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="180" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1BaseTiffParameters_1abb8aa4330bbd390b1142a60563157ea3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
-        <type>new unsafe ref MR.BaseTiffParameters.ValueType</type>
+        <type>new unsafe ref <ref refid="classMR_1_1Const__BaseTiffParameters_1a42187c255f042bc876b829187ff0998d" kindref="member">MR.BaseTiffParameters.ValueType</ref></type>
         <definition>new unsafe ref MR.BaseTiffParameters.ValueType MR.BaseTiffParameters.valueType</definition>
         <argsstring></argsstring>
         <name>valueType</name>
@@ -108,11 +108,11 @@
         <name>BaseTiffParameters</name>
         <qualifiedname>MR.BaseTiffParameters.BaseTiffParameters</qualifiedname>
         <param>
-          <type>MR.BaseTiffParameters.SampleType</type>
+          <type><ref refid="classMR_1_1Const__BaseTiffParameters_1a51bea38715ba00e4f1e9ea3d5b383aea" kindref="member">MR.BaseTiffParameters.SampleType</ref></type>
           <declname>sampleType</declname>
         </param>
         <param>
-          <type>MR.BaseTiffParameters.ValueType</type>
+          <type><ref refid="classMR_1_1Const__BaseTiffParameters_1a42187c255f042bc876b829187ff0998d" kindref="member">MR.BaseTiffParameters.ValueType</ref></type>
           <declname>valueType</declname>
         </param>
         <param>
@@ -139,7 +139,7 @@
         <name>BaseTiffParameters</name>
         <qualifiedname>MR.BaseTiffParameters.BaseTiffParameters</qualifiedname>
         <param>
-          <type>MR.Const_BaseTiffParameters</type>
+          <type><ref refid="classMR_1_1Const__BaseTiffParameters" kindref="compound">MR.Const_BaseTiffParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -177,7 +177,7 @@
         <name>assign</name>
         <qualifiedname>MR.BaseTiffParameters.assign</qualifiedname>
         <param>
-          <type>MR.Const_BaseTiffParameters</type>
+          <type><ref refid="classMR_1_1Const__BaseTiffParameters" kindref="compound">MR.Const_BaseTiffParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -204,6 +204,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BaseTiffParameters</label>
+        <link refid="classMR_1_1Const__BaseTiffParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -222,6 +223,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.BaseTiffParameters</label>
         <link refid="classMR_1_1BaseTiffParameters"/>
@@ -230,11 +235,17 @@
       </node>
       <node id="2">
         <label>MR.Const_BaseTiffParameters</label>
+        <link refid="classMR_1_1Const__BaseTiffParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_imageSize</edgelabel>
+          <edgelabel>__ref_storage_sampleType</edgelabel>
+          <edgelabel>__ref_storage_valueType</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -249,6 +260,10 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="178" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="179" bodyend="249"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a6925efcfda4dd2ffec899f1829c98dd6" prot="protected" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>__ref_storage_bytesPerSample</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1ab7e660b7bd08747160d877a74c474200" prot="protected" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>__ref_storage_imageSize</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1abcb213caa3935742e7847232213c7a2c" prot="protected" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>__ref_storage_sampleType</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1ab624bce91b28bf8c325d53208700d4b7" prot="protected" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>__ref_storage_valueType</name></member>
       <member refid="classMR_1_1BaseTiffParameters_1ab37443169318ee4d5fcc6d8efe7fbb55" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1BaseTiffParameters_1a7253642f791b9053c538702e68274b6d" prot="package" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>BaseTiffParameters</name></member>
       <member refid="classMR_1_1BaseTiffParameters_1a75c58c8ab9b2cf3ebc40ad283ddc6f93" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>BaseTiffParameters</name></member>
@@ -256,8 +271,21 @@
       <member refid="classMR_1_1BaseTiffParameters_1ab8b7c5ca8d65602dfb1b7023b28db648" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>BaseTiffParameters</name></member>
       <member refid="classMR_1_1BaseTiffParameters_1a72ad8a955571138df17c4c8ac914f50d" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>BaseTiffParameters</name></member>
       <member refid="classMR_1_1BaseTiffParameters_1a4d6ae68cfbcf1f90a610ae47f4c5f7ca" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>bytesPerSample</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a88e731f42edff25c3b57892d1e44986c" prot="package" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>Const_BaseTiffParameters</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a45f20c4948ccb0fec380bb9bf59afec4" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>Const_BaseTiffParameters</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1af2665f22d2744b26b7a2864100085b9a" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>Const_BaseTiffParameters</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a1522e2a7caca7448412f9a36d18a744e" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>Const_BaseTiffParameters</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a1152feecf63033bc1f8e3745c90f5763" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>Const_BaseTiffParameters</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a1fe6d1f146d29185973068d9ef680102" prot="protected" virt="virtual"><scope>MR::BaseTiffParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a3802a06dc1bfd2964569e2e18d3f5cd8" prot="public" virt="virtual"><scope>MR::BaseTiffParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a97cb4328f2762b052316e15dbd16383b" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a2568754269d8e150e21f819057e73a5f" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>Equals</name></member>
       <member refid="classMR_1_1BaseTiffParameters_1ae33ea5c265a40dc503d1528232a5f492" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>imageSize</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a71cc008584b7804ba15e2612bda6d14a" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a2a0cda9d6867cb1aa4ae4c17627557e0" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a51bea38715ba00e4f1e9ea3d5b383aea" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>SampleType</name></member>
       <member refid="classMR_1_1BaseTiffParameters_1af4fd0e7f423301af6abd5bdd0e6a8e7c" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>sampleType</name></member>
+      <member refid="classMR_1_1Const__BaseTiffParameters_1a42187c255f042bc876b829187ff0998d" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>ValueType</name></member>
       <member refid="classMR_1_1BaseTiffParameters_1abb8aa4330bbd390b1142a60563157ea3" prot="public" virt="non-virtual"><scope>MR::BaseTiffParameters</scope><name>valueType</name></member>
     </listofallmembers>
   </compounddef>

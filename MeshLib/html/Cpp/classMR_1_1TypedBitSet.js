@@ -46,7 +46,17 @@ var classMR_1_1TypedBitSet =
     [ "begin", "classMR_1_1TypedBitSet.html#a7431dbea0877010d6fe6071a4079e4f0", null ],
     [ "end", "classMR_1_1TypedBitSet.html#a46316815dacca975fffa963f1041957a", null ],
     [ "operator&", "classMR_1_1TypedBitSet.html#a1247ee89971a386cb10997fb10817e32", null ],
+    [ "operator&", "classMR_1_1TypedBitSet.html#a9e5e2a5bb0b9bd31a7945dcda1a49595", null ],
+    [ "operator&", "classMR_1_1TypedBitSet.html#a35d6c1a18382e2eec41b07e5c44ee35a", null ],
+    [ "operator&", "classMR_1_1TypedBitSet.html#a0ccc260c93d360570f71ef0db07f5c97", null ],
     [ "operator-", "classMR_1_1TypedBitSet.html#a5c12d2b38ae2d0cc432992afdaa37ebf", null ],
+    [ "operator-", "classMR_1_1TypedBitSet.html#afc84308efc351b72ad68e77e60868d82", null ],
     [ "operator^", "classMR_1_1TypedBitSet.html#a9a6311d580354711cb0ba92d6491c58d", null ],
-    [ "operator|", "classMR_1_1TypedBitSet.html#a1149b2c32a22288cf8377b471b828dfc", null ]
+    [ "operator^", "classMR_1_1TypedBitSet.html#a4cc8e898f3725b3e0b7cf1f271c9b568", null ],
+    [ "operator^", "classMR_1_1TypedBitSet.html#a6ed789452650bae035623621a508114d", null ],
+    [ "operator^", "classMR_1_1TypedBitSet.html#af3870964560b551472f23be2db43d0c3", null ],
+    [ "operator|", "classMR_1_1TypedBitSet.html#a1149b2c32a22288cf8377b471b828dfc", null ],
+    [ "operator|", "classMR_1_1TypedBitSet.html#a465682f97ad801485e2cfd87a1797135", null ],
+    [ "operator|", "classMR_1_1TypedBitSet.html#ab32551e7f814d853dfedb129958bee90", null ],
+    [ "operator|", "classMR_1_1TypedBitSet.html#a5f4049a12a6c1e78af87ce14f4987616", null ]
 ];

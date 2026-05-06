@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Graph_1_1EndVertices" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Graph::EndVertices</compoundname>
+    <basecompoundref refid="classMR_1_1Const__Graph_1_1Const__EndVertices" prot="public" virt="non-virtual">MR.Const_Graph.Const_EndVertices</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Graph_1_1EndVertices_1ae72c205d402e901e71f9d9fa4f789cb0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+        <definition>new unsafe ref MR.GraphVertId MR.Const_Graph.EndVertices.v0</definition>
+        <argsstring></argsstring>
+        <name>v0</name>
+        <qualifiedname>MR.Const_Graph.EndVertices.v0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="295" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Graph_1_1EndVertices_1ac42ceeca9538293a07295b38188a75a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+        <definition>new unsafe ref MR.GraphVertId MR.Const_Graph.EndVertices.v1</definition>
+        <argsstring></argsstring>
+        <name>v1</name>
+        <qualifiedname>MR.Const_Graph.EndVertices.v1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="298" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="298" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Graph_1_1EndVertices_1aa098c2119343a27699d6fb1dd01fe7ba" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Graph.EndVertices.EndVertices</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>EndVertices</name>
+        <qualifiedname>MR.Const_Graph.EndVertices.EndVertices</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="302" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="302" bodyend="306"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Graph_1_1EndVertices_1aa47ad5725290752a33fc6b3e52eb9ddb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Graph.EndVertices.EndVertices</definition>
+        <argsstring>()</argsstring>
+        <name>EndVertices</name>
+        <qualifiedname>MR.Const_Graph.EndVertices.EndVertices</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="312" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="312" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Graph_1_1EndVertices_1a219b2f9599e52a90d98a91b2a9a9f595" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Graph.EndVertices.EndVertices</definition>
+        <argsstring>(MR.GraphVertId v0, MR.GraphVertId v1)</argsstring>
+        <name>EndVertices</name>
+        <qualifiedname>MR.Const_Graph.EndVertices.EndVertices</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Const__Graph_1_1EndVertices" kindref="compound">MR.Graph.EndVertices</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="323" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="323" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Graph_1_1EndVertices_1ada38f465d6fc1a4c5385d3d198012c42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Graph.EndVertices.EndVertices</definition>
+        <argsstring>(MR.Graph.Const_EndVertices _other)</argsstring>
+        <name>EndVertices</name>
+        <qualifiedname>MR.Const_Graph.EndVertices.EndVertices</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Graph_1_1Const__EndVertices" kindref="compound">MR.Graph.Const_EndVertices</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Graph::EndVertices::EndVertices</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="334" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="334" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Graph_1_1EndVertices_1ab400709796d477d387484ef072870864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Graph.EndVertices.EndVertices</definition>
+        <argsstring>(EndVertices _other)</argsstring>
+        <name>EndVertices</name>
+        <qualifiedname>MR.Const_Graph.EndVertices.EndVertices</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Graph_1_1EndVertices" kindref="compound">EndVertices</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Graph::EndVertices::EndVertices</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="346" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="346" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Graph_1_1EndVertices_1a4600fdd38aa24eb91669029f95660d38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Graph_1_1EndVertices" kindref="compound">MR.Graph.EndVertices</ref></type>
+        <definition>unsafe MR.Graph.EndVertices MR.Const_Graph.EndVertices.assign</definition>
+        <argsstring>(MR.Graph.Const_EndVertices _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Const_Graph.EndVertices.assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Graph_1_1Const__EndVertices" kindref="compound">MR.Graph.Const_EndVertices</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Graph::EndVertices::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="351" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="351" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Graph_1_1EndVertices_1a58ba08c2304fb074af78d131995ecbd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_Graph.EndVertices.replaceEnd</definition>
+        <argsstring>(MR.GraphVertId what, MR.GraphVertId with)</argsstring>
+        <name>replaceEnd</name>
+        <qualifiedname>MR.Const_Graph.EndVertices.replaceEnd</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>what</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>with</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Graph::EndVertices::replaceEnd</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="363" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="363" bodyend="368"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Const__Graph_1_1EndVertices" kindref="compound">MR.Graph.EndVertices</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Graph.EndVertices</label>
+        <link refid="classMR_1_1Const__Graph_1_1EndVertices"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Graph.Const_EndVertices</label>
+        <link refid="classMR_1_1Const__Graph_1_1Const__EndVertices"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_Graph.EndVertices</label>
+        <link refid="classMR_1_1Const__Graph_1_1EndVertices"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Graph.Const_EndVertices</label>
+        <link refid="classMR_1_1Const__Graph_1_1Const__EndVertices"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_v0</edgelabel>
+          <edgelabel>__ref_storage_v1</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" line="292" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGraph.cs" bodystart="293" bodyend="369"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Graph_1_1Const__EndVertices_1a7e42f7ee27d2cd9975f03959b21a2b2e" prot="protected" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>__ref_storage_v0</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1Const__EndVertices_1ae7c85acfee6d13aaec63a6a29a5fefdb" prot="protected" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>__ref_storage_v1</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1EndVertices_1a4600fdd38aa24eb91669029f95660d38" prot="public" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1Const__EndVertices_1aa40bb704594792a1027e7fd784a904cc" prot="package" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>Const_EndVertices</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1Const__EndVertices_1aa163553a615444c1cd9a0c4164ad24d8" prot="public" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>Const_EndVertices</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1Const__EndVertices_1a0ef6f38d4f77be27df3f8659c7e997d8" prot="public" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>Const_EndVertices</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1Const__EndVertices_1a0def38859f74e3ba1d0092db8c3aec4a" prot="public" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>Const_EndVertices</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1Const__EndVertices_1a0d0b4cab325d9c2cf3426128ea42a043" prot="public" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>Const_EndVertices</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1Const__EndVertices_1ab12ccfb7fd5ed51d66d8817142b62257" prot="protected" virt="virtual"><scope>MR::Const_Graph::EndVertices</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1Const__EndVertices_1aca562f137e8e2b3391b2ec7e8e307129" prot="public" virt="virtual"><scope>MR::Const_Graph::EndVertices</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1EndVertices_1aa098c2119343a27699d6fb1dd01fe7ba" prot="package" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>EndVertices</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1EndVertices_1aa47ad5725290752a33fc6b3e52eb9ddb" prot="public" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>EndVertices</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1EndVertices_1a219b2f9599e52a90d98a91b2a9a9f595" prot="public" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>EndVertices</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1EndVertices_1ada38f465d6fc1a4c5385d3d198012c42" prot="public" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>EndVertices</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1EndVertices_1ab400709796d477d387484ef072870864" prot="public" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>EndVertices</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1Const__EndVertices_1a3d9db8a3b9220f4a40e1d80224a890f0" prot="public" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>otherEnd</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1EndVertices_1a58ba08c2304fb074af78d131995ecbd5" prot="public" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>replaceEnd</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1EndVertices_1ae72c205d402e901e71f9d9fa4f789cb0" prot="public" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>v0</name></member>
+      <member refid="classMR_1_1Const__Graph_1_1EndVertices_1ac42ceeca9538293a07295b38188a75a5" prot="public" virt="non-virtual"><scope>MR::Const_Graph::EndVertices</scope><name>v1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

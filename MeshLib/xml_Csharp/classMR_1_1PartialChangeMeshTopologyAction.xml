@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PartialChangeMeshTopologyAction" kind="class" language="C#" prot="public">
     <compoundname>MR::PartialChangeMeshTopologyAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PartialChangeMeshTopologyAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PartialChangeMeshTopologyAction" prot="public" virt="non-virtual">MR.Const_PartialChangeMeshTopologyAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1a85f64f0d953387ce91753695433a78da" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>PartialChangeMeshTopologyAction</name>
         <qualifiedname>MR.PartialChangeMeshTopologyAction.PartialChangeMeshTopologyAction</qualifiedname>
         <param>
-          <type>Const_PartialChangeMeshTopologyAction</type>
+          <type><ref refid="classMR_1_1Const__PartialChangeMeshTopologyAction" kindref="compound">Const_PartialChangeMeshTopologyAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -138,11 +138,11 @@
           <declname>obj</declname>
         </param>
         <param>
-          <type>MR.Const_CmpOld</type>
+          <type><ref refid="classMR_1_1Const__CmpOld" kindref="compound">MR.Const_CmpOld</ref></type>
           <declname>_3</declname>
         </param>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>oldTopology</declname>
         </param>
         <briefdescription>
@@ -169,7 +169,7 @@
           <declname>obj</declname>
         </param>
         <param>
-          <type>MR.Const_SetNew</type>
+          <type><ref refid="classMR_1_1Const__SetNew" kindref="compound">MR.Const_SetNew</ref></type>
           <declname>_3</declname>
         </param>
         <param>
@@ -211,7 +211,7 @@
         <name>action</name>
         <qualifiedname>MR.PartialChangeMeshTopologyAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -238,6 +238,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PartialChangeMeshTopologyAction</label>
+        <link refid="classMR_1_1Const__PartialChangeMeshTopologyAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -259,6 +260,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PartialChangeMeshTopologyAction</label>
+        <link refid="classMR_1_1Const__PartialChangeMeshTopologyAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -275,6 +277,18 @@
     <listofallmembers>
       <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a52f036c5e111b16431f57f68a69fe733" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>action</name></member>
       <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a20fa5594fb46e2591d7f7747efa526a3" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1a80e768367800012fbd322362e241adb0" prot="package" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>Const_PartialChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1ab46552cd18eb910fa86e3b8a793cf963" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>Const_PartialChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1ae1adfaf8d6d3b8f9848df1e1903f8f0b" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>Const_PartialChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1ab2677c96ac8cc96e60734d19d328fc2e" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>Const_PartialChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1a4086de72301d50d78138387fe57c3f97" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>Const_PartialChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1ad0374bb2416552ad9a0f603295bc11d8" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>Const_PartialChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1a95db06cb888d766fed5e95315f4b9e32" prot="protected" virt="virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1add7a72c8caf159c998764f46d728cca5" prot="public" virt="virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1ab138ba539b9a46067a5f8166b2a75353" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1ac311294293b21e42c7fb4374356cc638" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1a9ace3c0847acf025690334a197ea6a24" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>operator Const_PartialChangeMeshTopologyAction?</name></member>
+      <member refid="classMR_1_1Const__PartialChangeMeshTopologyAction_1a59e3264dbb6d4007dab14153a102215f" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a85f64f0d953387ce91753695433a78da" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>operator MR.HistoryAction</name></member>
       <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a27810d00af6a60ed11a4cf40188649c2" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>operator PartialChangeMeshTopologyAction?</name></member>
       <member refid="classMR_1_1PartialChangeMeshTopologyAction_1abc7e8d5695d9564bcacfbe0d27803a6e" prot="package" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>PartialChangeMeshTopologyAction</name></member>

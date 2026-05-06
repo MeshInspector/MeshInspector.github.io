@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeSceneAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeSceneAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeSceneAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeSceneAction" prot="public" virt="non-virtual">MR.Const_ChangeSceneAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeSceneAction_1a51d384ebb962f820db92742eef627b22" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeSceneAction</name>
         <qualifiedname>MR.ChangeSceneAction.ChangeSceneAction</qualifiedname>
         <param>
-          <type>Const_ChangeSceneAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeSceneAction" kindref="compound">Const_ChangeSceneAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -138,7 +138,7 @@
           <declname>obj</declname>
         </param>
         <param>
-          <type>MR.ChangeSceneAction.Type</type>
+          <type><ref refid="classMR_1_1Const__ChangeSceneAction_1a8284b14c798a7023c176525b0fbe290a" kindref="member">MR.ChangeSceneAction.Type</ref></type>
           <declname>type</declname>
         </param>
         <briefdescription>
@@ -176,7 +176,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeSceneAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>actionType</declname>
         </param>
         <briefdescription>
@@ -203,6 +203,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeSceneAction</label>
+        <link refid="classMR_1_1Const__ChangeSceneAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,6 +225,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeSceneAction</label>
+        <link refid="classMR_1_1Const__ChangeSceneAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -245,8 +247,20 @@
       <member refid="classMR_1_1ChangeSceneAction_1aae57d44d509f0e90240df744a2845688" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>ChangeSceneAction</name></member>
       <member refid="classMR_1_1ChangeSceneAction_1ad31e3211e5091b00197bc515bb739258" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>ChangeSceneAction</name></member>
       <member refid="classMR_1_1ChangeSceneAction_1a7711655d18cd496bca6f93d7fee7c216" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>ChangeSceneAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1a72aafa8b2e923b1fb075a3d21fc1e494" prot="package" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>Const_ChangeSceneAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1a58ce479d5480e9512d95c7954aabce5f" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>Const_ChangeSceneAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1ae43a4df9092a96fb3b4bb1f06713b35f" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>Const_ChangeSceneAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1a718b9898dc8c362ae4911349939efe2d" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>Const_ChangeSceneAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1a60a48466246980669be945ee94c45157" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>Const_ChangeSceneAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1a12c191caf057c0f858b7abba2df677d3" prot="protected" virt="virtual"><scope>MR::ChangeSceneAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1a4ddf597f43f16869d2c319314c9ae904" prot="public" virt="virtual"><scope>MR::ChangeSceneAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1ac8ae7e4db4b3ca1fa1b61e2d21437b6a" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1ade36f8e0e0f1ef4542741dd3e164b0cc" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeSceneAction_1a9fbed73da6b142fd08c681949436dc81" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>operator ChangeSceneAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1a0c29db5941beb23df10d8eabf87540bf" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>operator Const_ChangeSceneAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1a15260b09638b0a7be73cce9be195a940" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeSceneAction_1a51d384ebb962f820db92742eef627b22" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneAction_1a8284b14c798a7023c176525b0fbe290a" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>Type</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

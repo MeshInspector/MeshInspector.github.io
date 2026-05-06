@@ -52,6 +52,22 @@
         </inbodydescription>
         <location file="MRMesh/MRBooleanOperation.h" line="109" column="17" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="109" bodyend="109"/>
       </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanInternalParameters_1ac286ffae84a7480b081c9bb06413cb79" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::BooleanInternalParameters::graphCutSeparation</definition>
+        <argsstring></argsstring>
+        <name>graphCutSeparation</name>
+        <qualifiedname>MR::BooleanInternalParameters::graphCutSeparation</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>If true uses graphcut for inside/outside separation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRBooleanOperation.h" line="111" column="10" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="111" bodyend="111"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
 <para>Parameters will be useful if specified. </para>
@@ -79,8 +95,9 @@
         <link refid="classMR_1_1MeshTopology"/>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRBooleanOperation.h" line="102" column="1" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="103" bodyend="110"/>
+    <location file="MRMesh/MRBooleanOperation.h" line="102" column="1" bodyfile="MRMesh/MRBooleanOperation.h" bodystart="103" bodyend="112"/>
     <listofallmembers>
+      <member refid="structMR_1_1BooleanInternalParameters_1ac286ffae84a7480b081c9bb06413cb79" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>graphCutSeparation</name></member>
       <member refid="structMR_1_1BooleanInternalParameters_1a3d8d32104f837c9064678f6e0cbc420c" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>optionalOutCut</name></member>
       <member refid="structMR_1_1BooleanInternalParameters_1a2733395f91f3ed00b0e61ccae13ce37d" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>originalMeshA</name></member>
       <member refid="structMR_1_1BooleanInternalParameters_1a9564c4edb40ecc90fa59bfc7a9342bc5" prot="public" virt="non-virtual"><scope>MR::BooleanInternalParameters</scope><name>originalMeshB</name></member>

@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SplineSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SplineSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SplineSettings" prot="public" virt="non-virtual">MR.SplineSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__SplineSettings_1a6764e1b8d93889903f8477a44d94f9cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SplineSettings.samplingStep</definition>
+        <argsstring></argsstring>
+        <name>samplingStep</name>
+        <qualifiedname>MR.Const_SplineSettings.samplingStep</qualifiedname>
+        <briefdescription>
+<para>additional points will be added between each pair of control points, until the distance between neighbor points becomes less than this distance </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="294" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SplineSettings_1aef6e8210dbe5384389c7c79632dd538a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SplineSettings.controlStability</definition>
+        <argsstring></argsstring>
+        <name>controlStability</name>
+        <qualifiedname>MR.Const_SplineSettings.controlStability</qualifiedname>
+        <briefdescription>
+<para>a positive value, the more the value the closer resulting spline will be to given control points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="300" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SplineSettings_1a8abb548415d85f1c9a334434a3a59c2b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_SplineSettings.iterations</definition>
+        <argsstring></argsstring>
+        <name>iterations</name>
+        <qualifiedname>MR.Const_SplineSettings.iterations</qualifiedname>
+        <briefdescription>
+<para>the shape of resulting spline depends on the total number of points in the contour, which in turn depends on the length of input contour being sampled; setting iterations greater than one allows you to pass a constructed spline as a better input contour to the next run of the algorithm </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="308" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SplineSettings_1aa7bacc94a546cf521aa3f9ecfbeac2b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Std.? Vector_MRVector3f</type>
+        <definition>unsafe MR.Std.? Vector_MRVector3f MR.Const_SplineSettings.normals</definition>
+        <argsstring></argsstring>
+        <name>normals</name>
+        <qualifiedname>MR.Const_SplineSettings.normals</qualifiedname>
+        <briefdescription>
+<para>optional parameter with the normals of input points that will be resampled to become normals of output points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="314" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="315" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SplineSettings_1a6795a5beec259c2e276be50e76dddf31" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SplineSettings.normalsAffectShape</definition>
+        <argsstring></argsstring>
+        <name>normalsAffectShape</name>
+        <qualifiedname>MR.Const_SplineSettings.normalsAffectShape</qualifiedname>
+        <briefdescription>
+<para>if true and normals are provided, then the curve at marked points will try to be orthogonal to given normal there </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="332" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="332" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__SplineSettings_1a13ef134431c42cee548d26fd3fee1994" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SplineSettings.__ref_storage_samplingStep</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_samplingStep</name>
+        <qualifiedname>MR.Const_SplineSettings.__ref_storage_samplingStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="295" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SplineSettings_1a94d416785df829aa19205571d8877084" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SplineSettings.__ref_storage_controlStability</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_controlStability</name>
+        <qualifiedname>MR.Const_SplineSettings.__ref_storage_controlStability</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="301" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SplineSettings_1aa5e9f30b9235de84049f0d6ba0d4edfb" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_SplineSettings.__ref_storage_iterations</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_iterations</name>
+        <qualifiedname>MR.Const_SplineSettings.__ref_storage_iterations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="309" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SplineSettings_1aca669ca035951a9b6d9871ff3689ef87" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Std.Vector_MRVector3f._Underlying **</type>
+        <definition>unsafe MR.Std.Vector_MRVector3f._Underlying** MR.Const_SplineSettings.__ptr_storage_normals</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_normals</name>
+        <qualifiedname>MR.Const_SplineSettings.__ptr_storage_normals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="327" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SplineSettings_1a044269d252d9a5b82f84bf7594db18dd" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_SplineSettings.__ref_storage_normalsAffectShape</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_normalsAffectShape</name>
+        <qualifiedname>MR.Const_SplineSettings.__ref_storage_normalsAffectShape</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="333" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="333" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SplineSettings_1a12786783a8e7b1e42f500af37261f447" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SplineSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SplineSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="278" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="278" bodyend="286"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SplineSettings_1a1e0367d32d2df1deb77284cfc8a1bcec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SplineSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SplineSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="287" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="287" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SplineSettings_1a9e83eeb2d727b4400a0c6c8b8f907500" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SplineSettings.Const_SplineSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SplineSettings</name>
+        <qualifiedname>MR.Const_SplineSettings.Const_SplineSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="384" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="384" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SplineSettings_1a2e48fc6992f07a582af7244851559e90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SplineSettings.Const_SplineSettings</definition>
+        <argsstring>(float samplingStep, float controlStability, int iterations, MR.Std.Vector_MRVector3f? normals, bool normalsAffectShape)</argsstring>
+        <name>Const_SplineSettings</name>
+        <qualifiedname>MR.Const_SplineSettings.Const_SplineSettings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>samplingStep</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>controlStability</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRVector3f?</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>normalsAffectShape</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1SplineSettings" kindref="compound">MR.SplineSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="395" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="395" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SplineSettings_1a95dd56ce407fa6eed372fa3ec1943acc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SplineSettings.Const_SplineSettings</definition>
+        <argsstring>(MR.Const_SplineSettings _other)</argsstring>
+        <name>Const_SplineSettings</name>
+        <qualifiedname>MR.Const_SplineSettings.Const_SplineSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SplineSettings" kindref="compound">MR.Const_SplineSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SplineSettings_1ac7cadd8e66f73f734b4ff83a20b17777" kindref="member">MR.SplineSettings.SplineSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="407" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="407" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SplineSettings_1aea424aa5d833b9d08b50da1fa57355bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SplineSettings.Const_SplineSettings</definition>
+        <argsstring>(SplineSettings _other)</argsstring>
+        <name>Const_SplineSettings</name>
+        <qualifiedname>MR.Const_SplineSettings.Const_SplineSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SplineSettings" kindref="compound">SplineSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SplineSettings_1ac7cadd8e66f73f734b4ff83a20b17777" kindref="member">MR.SplineSettings.SplineSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="419" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="419" bodyend="419"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SplineSettings_1a2b02f4e356d629701eb49c249eb2bb65" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SplineSettings.~Const_SplineSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SplineSettings</name>
+        <qualifiedname>MR.Const_SplineSettings.~Const_SplineSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="288" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="288" bodyend="288"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SplineSettings_1ae036f5b044d5425d180730352f89bf32" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SplineSettings.Const_SplineSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SplineSettings</name>
+        <qualifiedname>MR.Const_SplineSettings.Const_SplineSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="373" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="373" bodyend="378"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1SplineSettings" kindref="compound">MR.SplineSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SplineSettings</label>
+        <link refid="classMR_1_1Const__SplineSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.SplineSettings</label>
+        <link refid="classMR_1_1SplineSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_SplineSettings</label>
+        <link refid="classMR_1_1Const__SplineSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_normals</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" line="272" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMarkedContour.cs" bodystart="273" bodyend="420"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SplineSettings_1aca669ca035951a9b6d9871ff3689ef87" prot="protected" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>__ptr_storage_normals</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a94d416785df829aa19205571d8877084" prot="protected" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>__ref_storage_controlStability</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1aa5e9f30b9235de84049f0d6ba0d4edfb" prot="protected" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>__ref_storage_iterations</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a044269d252d9a5b82f84bf7594db18dd" prot="protected" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>__ref_storage_normalsAffectShape</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a13ef134431c42cee548d26fd3fee1994" prot="protected" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>__ref_storage_samplingStep</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1ae036f5b044d5425d180730352f89bf32" prot="package" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>Const_SplineSettings</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a9e83eeb2d727b4400a0c6c8b8f907500" prot="public" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>Const_SplineSettings</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a2e48fc6992f07a582af7244851559e90" prot="public" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>Const_SplineSettings</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a95dd56ce407fa6eed372fa3ec1943acc" prot="public" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>Const_SplineSettings</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1aea424aa5d833b9d08b50da1fa57355bd" prot="public" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>Const_SplineSettings</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1aef6e8210dbe5384389c7c79632dd538a" prot="public" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>controlStability</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a12786783a8e7b1e42f500af37261f447" prot="protected" virt="virtual"><scope>MR::Const_SplineSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a1e0367d32d2df1deb77284cfc8a1bcec" prot="public" virt="virtual"><scope>MR::Const_SplineSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a8abb548415d85f1c9a334434a3a59c2b" prot="public" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>iterations</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1aa7bacc94a546cf521aa3f9ecfbeac2b6" prot="public" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>normals</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a6795a5beec259c2e276be50e76dddf31" prot="public" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>normalsAffectShape</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a6764e1b8d93889903f8477a44d94f9cc" prot="public" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>samplingStep</name></member>
+      <member refid="classMR_1_1Const__SplineSettings_1a2b02f4e356d629701eb49c249eb2bb65" prot="private" virt="non-virtual"><scope>MR::Const_SplineSettings</scope><name>~Const_SplineSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

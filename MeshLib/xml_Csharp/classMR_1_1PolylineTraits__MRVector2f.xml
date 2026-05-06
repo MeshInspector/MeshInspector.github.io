@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineTraits__MRVector2f" kind="class" language="C#" prot="public">
     <compoundname>MR::PolylineTraits_MRVector2f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PolylineTraits_MRVector2f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PolylineTraits__MRVector2f" prot="public" virt="non-virtual">MR.Const_PolylineTraits_MRVector2f</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1PolylineTraits__MRVector2f_1a63c1a044b27d766ba52fc346ec7040aa" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>PolylineTraits_MRVector2f</name>
         <qualifiedname>MR.PolylineTraits_MRVector2f.PolylineTraits_MRVector2f</qualifiedname>
         <param>
-          <type>MR.Const_PolylineTraits_MRVector2f</type>
+          <type><ref refid="classMR_1_1Const__PolylineTraits__MRVector2f" kindref="compound">MR.Const_PolylineTraits_MRVector2f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::PolylineTraits&amp;amp;lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&amp;amp;gt;::PolylineTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::PolylineTraits&amp;lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&amp;gt;::PolylineTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::PolylineTraits&amp;amp;lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&amp;amp;gt;::PolylineTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::PolylineTraits&amp;lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&amp;gt;::PolylineTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.PolylineTraits_MRVector2f.assign</qualifiedname>
         <param>
-          <type>MR.Const_PolylineTraits_MRVector2f</type>
+          <type><ref refid="classMR_1_1Const__PolylineTraits__MRVector2f" kindref="compound">MR.Const_PolylineTraits_MRVector2f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::PolylineTraits&amp;amp;lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PolylineTraits&amp;lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -102,7 +102,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::PolylineTraits&amp;amp;lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::PolylineTraits&amp;lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineTraits_MRVector2f</label>
+        <link refid="classMR_1_1Const__PolylineTraits__MRVector2f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineTraits_MRVector2f</label>
+        <link refid="classMR_1_1Const__PolylineTraits__MRVector2f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" line="728" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePolyline.cs" bodystart="729" bodyend="769"/>
     <listofallmembers>
       <member refid="classMR_1_1PolylineTraits__MRVector2f_1a4d70e4ae91676b25e3d1095a2540fe15" prot="public" virt="non-virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PolylineTraits__MRVector2f_1a9d2c2336406aa7bebc400181f0675ac9" prot="package" virt="non-virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>Const_PolylineTraits_MRVector2f</name></member>
+      <member refid="classMR_1_1Const__PolylineTraits__MRVector2f_1a941885ea632615ee49738110cc006d4a" prot="public" virt="non-virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>Const_PolylineTraits_MRVector2f</name></member>
+      <member refid="classMR_1_1Const__PolylineTraits__MRVector2f_1af386beed9df74475dea0d22356fd7013" prot="public" virt="non-virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>Const_PolylineTraits_MRVector2f</name></member>
+      <member refid="classMR_1_1Const__PolylineTraits__MRVector2f_1aaf90044d0252878c3ee78f2ba122d2ee" prot="public" virt="non-virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>Const_PolylineTraits_MRVector2f</name></member>
+      <member refid="classMR_1_1Const__PolylineTraits__MRVector2f_1a8b9d5d4fbf998c17aee388e4adf745ac" prot="protected" virt="virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolylineTraits__MRVector2f_1aa133eec51ba57debef1d5c06d609afa8" prot="public" virt="virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PolylineTraits__MRVector2f_1a63c1a044b27d766ba52fc346ec7040aa" prot="package" virt="non-virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>PolylineTraits_MRVector2f</name></member>
       <member refid="classMR_1_1PolylineTraits__MRVector2f_1a447b0021bb439820236e1aca0001a4a9" prot="public" virt="non-virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>PolylineTraits_MRVector2f</name></member>
       <member refid="classMR_1_1PolylineTraits__MRVector2f_1a0d62023527ff795358b0b4db9490c85d" prot="public" virt="non-virtual"><scope>MR::PolylineTraits_MRVector2f</scope><name>PolylineTraits_MRVector2f</name></member>

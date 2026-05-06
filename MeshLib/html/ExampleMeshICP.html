@@ -225,7 +225,7 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line">meshFloating.transform(xf)</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Output information string</span></div>
-<div class="line">print(icp.getLastICPInfo())</div>
+<div class="line">print(icp.getStatusInfo())</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Save result</span></div>
 <div class="line">mrmeshpy.saveMesh(meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>)</div>
@@ -277,7 +277,7 @@ $(function(){initNavTree('ExampleMeshICP.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Calculate transformation</span></div>
 <div class="line">    MR_MeshOrPoints* fltMop = MR_MeshOrPoints_Construct_MR_Mesh( meshFloating );</div>
-<div class="line">    MR_MeshOrPoints* refMop = MR_MeshOrPoints_Construct_MR_Mesh( meshFloating );</div>
+<div class="line">    MR_MeshOrPoints* refMop = MR_MeshOrPoints_Construct_MR_Mesh( meshReference );</div>
 <div class="line">    MR_MeshOrPointsXf* flt = MR_MeshOrPointsXf_ConstructFrom( fltMop, MR_AffineXf3f_DefaultConstruct() );</div>
 <div class="line">    MR_MeshOrPointsXf* ref = MR_MeshOrPointsXf_ConstructFrom( refMop, MR_AffineXf3f_DefaultConstruct() );</div>
 <div class="line">    MR_MeshOrPoints_Destroy( fltMop );</div>

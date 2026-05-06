@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshBuilder_1_1EqualVector3f" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshBuilder::EqualVector3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.MeshBuilder.Const_EqualVector3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1MeshBuilder_1_1Const__EqualVector3f" prot="public" virt="non-virtual">MR.MeshBuilder.Const_EqualVector3f</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1EqualVector3f_1a463785b8af8e47b4c5896cf5e6fefb5a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>EqualVector3f</name>
         <qualifiedname>MR.MeshBuilder.EqualVector3f.EqualVector3f</qualifiedname>
         <param>
-          <type>MR.MeshBuilder.Const_EqualVector3f</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__EqualVector3f" kindref="compound">MR.MeshBuilder.Const_EqualVector3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshBuilder.EqualVector3f.assign</qualifiedname>
         <param>
-          <type>MR.MeshBuilder.Const_EqualVector3f</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__EqualVector3f" kindref="compound">MR.MeshBuilder.Const_EqualVector3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.MeshBuilder.Const_EqualVector3f</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Const__EqualVector3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.MeshBuilder.Const_EqualVector3f</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Const__EqualVector3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIdentifyVertices.cs" line="78" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIdentifyVertices.cs" bodystart="79" bodyend="119"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshBuilder_1_1EqualVector3f_1ae9400c833e9eebc0da7195678f4131be" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::EqualVector3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__EqualVector3f_1a52f2681a642f74f08c3cb1189d09cede" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::EqualVector3f</scope><name>call</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__EqualVector3f_1aba18ca34d1acf4a4f6086931d32f1a63" prot="package" virt="non-virtual"><scope>MR::MeshBuilder::EqualVector3f</scope><name>Const_EqualVector3f</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__EqualVector3f_1a2562edd659b3f99d8406cfb9903798d2" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::EqualVector3f</scope><name>Const_EqualVector3f</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__EqualVector3f_1a6b6e54939d2b26cbd45080a24bd32d4b" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::EqualVector3f</scope><name>Const_EqualVector3f</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__EqualVector3f_1a4d75eb6c9d82e177217953895db50f33" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::EqualVector3f</scope><name>Const_EqualVector3f</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__EqualVector3f_1ae2bdc1513a229229b4866d7ea34e4fd4" prot="protected" virt="virtual"><scope>MR::MeshBuilder::EqualVector3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__EqualVector3f_1a99b464c6c782381a219fe867a3c5788e" prot="public" virt="virtual"><scope>MR::MeshBuilder::EqualVector3f</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1EqualVector3f_1a463785b8af8e47b4c5896cf5e6fefb5a" prot="package" virt="non-virtual"><scope>MR::MeshBuilder::EqualVector3f</scope><name>EqualVector3f</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1EqualVector3f_1aa82444007237bbd838d25717f17eb2fa" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::EqualVector3f</scope><name>EqualVector3f</name></member>
       <member refid="classMR_1_1MeshBuilder_1_1EqualVector3f_1a3021c7af5d7d17dd9a5b130255000af0" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::EqualVector3f</scope><name>EqualVector3f</name></member>

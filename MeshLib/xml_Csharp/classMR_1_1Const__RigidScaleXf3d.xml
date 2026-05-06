@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__RigidScaleXf3d" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_RigidScaleXf3d</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1RigidScaleXf3d" prot="public" virt="non-virtual">MR.RigidScaleXf3d</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__RigidScaleXf3d_1a55ae2191c5552ab1a9790580aedf9431" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe ref readonly MR.Vector3d MR.Const_RigidScaleXf3d.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.a</qualifiedname>
+        <briefdescription>
+<para>rotation angles relative to x,y,z axes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="298" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RigidScaleXf3d_1a75cadc390db81c32311fc934792a29de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe ref readonly MR.Vector3d MR.Const_RigidScaleXf3d.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.b</qualifiedname>
+        <briefdescription>
+<para>shift </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="304" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RigidScaleXf3d_1a31e1a5033c7d6d1704922d4f93f7a967" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_RigidScaleXf3d.s</definition>
+        <argsstring></argsstring>
+        <name>s</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.s</qualifiedname>
+        <briefdescription>
+<para>scaling </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="310" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="310" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__RigidScaleXf3d_1ad6826d7d36ab07bbc0b8e3e39bf5bf8d" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref> *</type>
+        <definition>unsafe MR.Vector3d* MR.Const_RigidScaleXf3d.__ref_storage_a</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_a</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.__ref_storage_a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="299" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RigidScaleXf3d_1a805f38403f12672636bb8934fc633ad4" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref> *</type>
+        <definition>unsafe MR.Vector3d* MR.Const_RigidScaleXf3d.__ref_storage_b</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_b</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.__ref_storage_b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="305" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RigidScaleXf3d_1a10eecdecf4c5d13ecd162fb4f0c4de7d" prot="protected" static="no" mutable="no">
+        <type>unsafe double *</type>
+        <definition>unsafe double* MR.Const_RigidScaleXf3d.__ref_storage_s</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_s</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.__ref_storage_s</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="311" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="311" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__RigidScaleXf3d_1a38cf98396291976acc77a39a2883c779" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_RigidScaleXf3d.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="283" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="283" bodyend="291"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__RigidScaleXf3d_1a00a78414e9c096a3f1683686a120c3ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_RigidScaleXf3d.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="292" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="292" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RigidScaleXf3d_1ad1dcf79ddc15d51f8fe44a66a0cb6782" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RigidScaleXf3d.Const_RigidScaleXf3d</definition>
+        <argsstring>()</argsstring>
+        <name>Const_RigidScaleXf3d</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.Const_RigidScaleXf3d</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="350" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="350" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RigidScaleXf3d_1a682cc9cd8f3817d1930956fc4ebb5b23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RigidScaleXf3d.Const_RigidScaleXf3d</definition>
+        <argsstring>(MR.Const_RigidScaleXf3d _other)</argsstring>
+        <name>Const_RigidScaleXf3d</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.Const_RigidScaleXf3d</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__RigidScaleXf3d" kindref="compound">MR.Const_RigidScaleXf3d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RigidScaleXf3d_1a56ff0bd266a8443c6e77ff4f2096324a" kindref="member">MR.RigidScaleXf3d.RigidScaleXf3d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="361" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="361" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RigidScaleXf3d_1aa96e0a5b9e7be7a48de19975d433e982" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_RigidScaleXf3d.Const_RigidScaleXf3d</definition>
+        <argsstring>(RigidScaleXf3d _other)</argsstring>
+        <name>Const_RigidScaleXf3d</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.Const_RigidScaleXf3d</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RigidScaleXf3d" kindref="compound">RigidScaleXf3d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RigidScaleXf3d_1a56ff0bd266a8443c6e77ff4f2096324a" kindref="member">MR.RigidScaleXf3d.RigidScaleXf3d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="373" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="373" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RigidScaleXf3d_1a7e8f3289ce93a3ec8201f04a8487bca0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RigidScaleXf3d.Const_RigidScaleXf3d</definition>
+        <argsstring>(in MR.Vector3d a, in MR.Vector3d b, double s)</argsstring>
+        <name>Const_RigidScaleXf3d</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.Const_RigidScaleXf3d</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RigidScaleXf3d_1a56ff0bd266a8443c6e77ff4f2096324a" kindref="member">MR.RigidScaleXf3d.RigidScaleXf3d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="378" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="378" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RigidScaleXf3d_1acc8fbf1ad423317811fdec60218d48e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
+        <definition>unsafe MR.AffineXf3d MR.Const_RigidScaleXf3d.rigidScaleXf</definition>
+        <argsstring>()</argsstring>
+        <name>rigidScaleXf</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.rigidScaleXf</qualifiedname>
+        <briefdescription>
+<para>converts this into rigid (with scale) transformation, which non-linearly depends on angles Generated from method <computeroutput><ref refid="classMR_1_1Const__RigidScaleXf3d_1acc8fbf1ad423317811fdec60218d48e1" kindref="member">MR.RigidScaleXf3d.rigidScaleXf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="396" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="396" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RigidScaleXf3d_1a95507d43141ad65ce578921400ffd52b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
+        <definition>unsafe MR.AffineXf3d MR.Const_RigidScaleXf3d.linearXf</definition>
+        <argsstring>()</argsstring>
+        <name>linearXf</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.linearXf</qualifiedname>
+        <briefdescription>
+<para>converts this into not-rigid transformation but with matrix, which linearly depends on angles Generated from method <computeroutput><ref refid="classMR_1_1Const__RigidScaleXf3d_1a95507d43141ad65ce578921400ffd52b" kindref="member">MR.RigidScaleXf3d.linearXf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="407" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="407" bodyend="412"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__RigidScaleXf3d_1ab6c586edd5876843ef578ee79e6ffc81" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_RigidScaleXf3d.~Const_RigidScaleXf3d</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_RigidScaleXf3d</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.~Const_RigidScaleXf3d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="293" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="293" bodyend="293"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__RigidScaleXf3d_1af2384ec242917ae90582e73842595e93" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RigidScaleXf3d.Const_RigidScaleXf3d</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_RigidScaleXf3d</name>
+        <qualifiedname>MR.Const_RigidScaleXf3d.Const_RigidScaleXf3d</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="339" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="339" bodyend="344"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>rigid (with scale) transformation that multiplies all distances on same scale: y = s*A*x + b, where s is a scalar, A is rotation matrix 3x3 stored as 3 angles, and b is shift vector Generated from class <computeroutput><ref refid="classMR_1_1RigidScaleXf3d" kindref="compound">MR.RigidScaleXf3d</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_RigidScaleXf3d</label>
+        <link refid="classMR_1_1Const__RigidScaleXf3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.RigidScaleXf3d</label>
+        <link refid="classMR_1_1RigidScaleXf3d"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_RigidScaleXf3d</label>
+        <link refid="classMR_1_1Const__RigidScaleXf3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_a</edgelabel>
+          <edgelabel>__ref_storage_b</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" line="277" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRigidScaleXf3.cs" bodystart="278" bodyend="413"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1ad6826d7d36ab07bbc0b8e3e39bf5bf8d" prot="protected" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a805f38403f12672636bb8934fc633ad4" prot="protected" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>__ref_storage_b</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a10eecdecf4c5d13ecd162fb4f0c4de7d" prot="protected" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>__ref_storage_s</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a55ae2191c5552ab1a9790580aedf9431" prot="public" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>a</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a75cadc390db81c32311fc934792a29de" prot="public" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1af2384ec242917ae90582e73842595e93" prot="package" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>Const_RigidScaleXf3d</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1ad1dcf79ddc15d51f8fe44a66a0cb6782" prot="public" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>Const_RigidScaleXf3d</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a682cc9cd8f3817d1930956fc4ebb5b23" prot="public" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>Const_RigidScaleXf3d</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1aa96e0a5b9e7be7a48de19975d433e982" prot="public" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>Const_RigidScaleXf3d</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a7e8f3289ce93a3ec8201f04a8487bca0" prot="public" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>Const_RigidScaleXf3d</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a38cf98396291976acc77a39a2883c779" prot="protected" virt="virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a00a78414e9c096a3f1683686a120c3ed" prot="public" virt="virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a95507d43141ad65ce578921400ffd52b" prot="public" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>linearXf</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1acc8fbf1ad423317811fdec60218d48e1" prot="public" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>rigidScaleXf</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1a31e1a5033c7d6d1704922d4f93f7a967" prot="public" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>s</name></member>
+      <member refid="classMR_1_1Const__RigidScaleXf3d_1ab6c586edd5876843ef578ee79e6ffc81" prot="private" virt="non-virtual"><scope>MR::Const_RigidScaleXf3d</scope><name>~Const_RigidScaleXf3d</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

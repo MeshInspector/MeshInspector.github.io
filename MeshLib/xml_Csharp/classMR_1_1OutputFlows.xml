@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OutputFlows" kind="class" language="C#" prot="public">
     <compoundname>MR::OutputFlows</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_OutputFlows</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__OutputFlows" prot="public" virt="non-virtual">MR.Const_OutputFlows</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1OutputFlows_1a407e12bf8e1b8f830a6fdcbb340097b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1Polyline3" kindref="compound">Polyline3</ref></type>
@@ -124,7 +124,7 @@
         <name>OutputFlows</name>
         <qualifiedname>MR.OutputFlows.OutputFlows</qualifiedname>
         <param>
-          <type>MR.Const_OutputFlows</type>
+          <type><ref refid="classMR_1_1Const__OutputFlows" kindref="compound">MR.Const_OutputFlows</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.OutputFlows.assign</qualifiedname>
         <param>
-          <type>MR.Const_OutputFlows</type>
+          <type><ref refid="classMR_1_1Const__OutputFlows" kindref="compound">MR.Const_OutputFlows</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OutputFlows</label>
+        <link refid="classMR_1_1Const__OutputFlows"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -202,6 +203,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.OutputFlows</label>
         <link refid="classMR_1_1OutputFlows"/>
@@ -210,9 +215,14 @@
       </node>
       <node id="2">
         <label>MR.Const_OutputFlows</label>
+        <link refid="classMR_1_1Const__OutputFlows"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_pFlowPerEdge</edgelabel>
+          <edgelabel>__ptr_storage_pPolyline</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -224,8 +234,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="377" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="378" bodyend="475"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__OutputFlows_1a7d4c3024c3f0477e42414f80021b7422" prot="protected" virt="non-virtual"><scope>MR::OutputFlows</scope><name>__ptr_storage_pFlowPerEdge</name></member>
+      <member refid="classMR_1_1Const__OutputFlows_1ad2ec151660aa5373dc430c2afbf31089" prot="protected" virt="non-virtual"><scope>MR::OutputFlows</scope><name>__ptr_storage_pPolyline</name></member>
+      <member refid="classMR_1_1Const__OutputFlows_1a7d189b824a013e1645cd46984cf2d2e7" prot="protected" virt="non-virtual"><scope>MR::OutputFlows</scope><name>__ref_storage_amountGreaterThan</name></member>
       <member refid="classMR_1_1OutputFlows_1a14d9785a1a0bedfc6cb7f28951452946" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>amountGreaterThan</name></member>
       <member refid="classMR_1_1OutputFlows_1a08ae2a9a8454057a58610986421de55d" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__OutputFlows_1a4a76aa4746113a85d883fec31f6d59fc" prot="package" virt="non-virtual"><scope>MR::OutputFlows</scope><name>Const_OutputFlows</name></member>
+      <member refid="classMR_1_1Const__OutputFlows_1a6079388b8876697df6e03ee32af69cd9" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>Const_OutputFlows</name></member>
+      <member refid="classMR_1_1Const__OutputFlows_1ad8fe6fadc0ef08401dc1277f70e49caf" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>Const_OutputFlows</name></member>
+      <member refid="classMR_1_1Const__OutputFlows_1a7498c11513a1aaf2dc6c5bfa12fb6b2f" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>Const_OutputFlows</name></member>
+      <member refid="classMR_1_1Const__OutputFlows_1aaebfa373bc46b626fb4b9a46d54171a5" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>Const_OutputFlows</name></member>
+      <member refid="classMR_1_1Const__OutputFlows_1a91c605f305d06106b753229001078a88" prot="protected" virt="virtual"><scope>MR::OutputFlows</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OutputFlows_1a9453aeec4cbf86ab609610dcdafaaa04" prot="public" virt="virtual"><scope>MR::OutputFlows</scope><name>Dispose</name></member>
       <member refid="classMR_1_1OutputFlows_1a8069f96da1152360622a2abe7423cc16" prot="package" virt="non-virtual"><scope>MR::OutputFlows</scope><name>OutputFlows</name></member>
       <member refid="classMR_1_1OutputFlows_1aa3db10cac2334cff1f5cae6fe1892ad3" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>OutputFlows</name></member>
       <member refid="classMR_1_1OutputFlows_1ab0a854e80c40ee135f2ba414f11e99e5" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>OutputFlows</name></member>

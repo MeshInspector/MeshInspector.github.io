@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BooleanResultPoints" kind="class" language="C#" prot="public">
     <compoundname>MR::BooleanResultPoints</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BooleanResultPoints</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BooleanResultPoints" prot="public" virt="non-virtual">MR.Const_BooleanResultPoints</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BooleanResultPoints_1a6321e4d96629ca968115dddeb86f0266" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1275" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1275" bodyend="1275"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1277" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1277" bodyend="1277"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1BooleanResultPoints_1a782c00e1ecd906f55d35c7e3954fe371" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1277" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1277" bodyend="1277"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1279" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1279" bodyend="1279"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1BooleanResultPoints_1ac544a4e00693e46c412c2091a6c4b8b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRVector3f</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1279" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1279" bodyend="1279"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1281" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1281" bodyend="1281"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1312" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1312" bodyend="1316"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1314" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1314" bodyend="1318"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1322" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1322" bodyend="1328"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1324" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1324" bodyend="1330"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanResultPoints_1ab8ef5dbcfdd308a032f822ed33b863ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1333" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1333" bodyend="1342"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1335" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1335" bodyend="1344"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanResultPoints_1aed097a5bf8b445a417b90a3a9759c0dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1347" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1347" bodyend="1354"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1349" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1349" bodyend="1356"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanResultPoints_1aa133587252bc5ee63301f0eda8528008" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -140,7 +140,7 @@
         <name>BooleanResultPoints</name>
         <qualifiedname>MR.BooleanResultPoints.BooleanResultPoints</qualifiedname>
         <param>
-          <type>Const_BooleanResultPoints</type>
+          <type><ref refid="classMR_1_1Const__BooleanResultPoints" kindref="compound">Const_BooleanResultPoints</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1359" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1359" bodyend="1359"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1361" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1361" bodyend="1361"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanResultPoints_1a5f270c5a6c3b786f4f1ff3e374ca6b7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -169,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1364" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1364" bodyend="1364"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1366" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1366" bodyend="1366"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanResultPoints_1abe1a4e0d1bc02dccc3d7f5afd08a3a7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1BooleanResultPoints" kindref="compound">MR.BooleanResultPoints</ref></type>
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1369" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1369" bodyend="1376"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1371" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1371" bodyend="1378"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -205,6 +205,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BooleanResultPoints</label>
+        <link refid="classMR_1_1Const__BooleanResultPoints"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -226,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BooleanResultPoints</label>
+        <link refid="classMR_1_1Const__BooleanResultPoints"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -238,7 +240,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1273" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1274" bodyend="1377"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1275" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1276" bodyend="1379"/>
     <listofallmembers>
       <member refid="classMR_1_1BooleanResultPoints_1abe1a4e0d1bc02dccc3d7f5afd08a3a7b" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>assign</name></member>
       <member refid="classMR_1_1BooleanResultPoints_1a2c73a8ba36418e7259469e664b3ec9ed" prot="package" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>BooleanResultPoints</name></member>
@@ -247,6 +249,14 @@
       <member refid="classMR_1_1BooleanResultPoints_1aed097a5bf8b445a417b90a3a9759c0dd" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>BooleanResultPoints</name></member>
       <member refid="classMR_1_1BooleanResultPoints_1aa133587252bc5ee63301f0eda8528008" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>BooleanResultPoints</name></member>
       <member refid="classMR_1_1BooleanResultPoints_1a5f270c5a6c3b786f4f1ff3e374ca6b7a" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>BooleanResultPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1a42ad765503f2c897b36595f2572e9dfc" prot="package" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>Const_BooleanResultPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1a86667bf2cc3b260bf6ac2a044a5749f6" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>Const_BooleanResultPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1a5280d2e1229a50649bdcf197cdc76a91" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>Const_BooleanResultPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1a68a949210ec7871b19bff15281348ed8" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>Const_BooleanResultPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1af575020db033a71ade052e65160ff7b8" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>Const_BooleanResultPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1ad0624f550af9d6ffc353ef61adb38122" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>Const_BooleanResultPoints</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1ac30e7846597e05df5638606e79ab4cf2" prot="protected" virt="virtual"><scope>MR::BooleanResultPoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BooleanResultPoints_1a298c43c3b46e38650d9d8576e293b775" prot="public" virt="virtual"><scope>MR::BooleanResultPoints</scope><name>Dispose</name></member>
       <member refid="classMR_1_1BooleanResultPoints_1ac544a4e00693e46c412c2091a6c4b8b9" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>intersectionPoints</name></member>
       <member refid="classMR_1_1BooleanResultPoints_1a6321e4d96629ca968115dddeb86f0266" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>meshAVerts</name></member>
       <member refid="classMR_1_1BooleanResultPoints_1a782c00e1ecd906f55d35c7e3954fe371" prot="public" virt="non-virtual"><scope>MR::BooleanResultPoints</scope><name>meshBVerts</name></member>

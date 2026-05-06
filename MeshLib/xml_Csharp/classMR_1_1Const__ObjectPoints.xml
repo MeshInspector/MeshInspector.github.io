@@ -1,0 +1,1764 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ObjectPoints" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ObjectPoints</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ObjectPoints" prot="public" virt="non-virtual">MR.ObjectPoints</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ObjectPoints_1a9b49fcf0689cfbc67091804419f592b8" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_ObjectPoints.MaxRenderingPointsDefault</definition>
+        <argsstring></argsstring>
+        <name>MaxRenderingPointsDefault</name>
+        <qualifiedname>MR.Const_ObjectPoints.MaxRenderingPointsDefault</qualifiedname>
+        <briefdescription>
+<para>default value for maximum rendered points number </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="102" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ObjectPoints_1a5cf845884b47289d1a1dec9a8a65bf1d" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_ObjectPoints.MaxRenderingPointsUnlimited</definition>
+        <argsstring></argsstring>
+        <name>MaxRenderingPointsUnlimited</name>
+        <qualifiedname>MR.Const_ObjectPoints.MaxRenderingPointsUnlimited</qualifiedname>
+        <briefdescription>
+<para>recommended value for maximum rendered points number to disable discretization </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="108" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ObjectPoints_1a96c6d413206954a08bbf81f3eb6acafb" prot="protected" static="yes" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_ObjectPoints.__ref_storage_MaxRenderingPointsDefault</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_MaxRenderingPointsDefault</name>
+        <qualifiedname>MR.Const_ObjectPoints.__ref_storage_MaxRenderingPointsDefault</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="103" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ObjectPoints_1a5a741bc43916d8f04d57fba4d527b531" prot="protected" static="yes" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_ObjectPoints.__ref_storage_MaxRenderingPointsUnlimited</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_MaxRenderingPointsUnlimited</name>
+        <qualifiedname>MR.Const_ObjectPoints.__ref_storage_MaxRenderingPointsUnlimited</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="109" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a77dc07825eab6250617bd861c0cd6ae8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ObjectPoints.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectPoints.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="21" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="21" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1adba63b2b6bdd76cd521ab38757ec5515" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ObjectPoints.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectPoints.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="30" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ac4815407b97acccf7f56344b2b7a75c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectPoints.Const_ObjectPoints</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ObjectPoints</name>
+        <qualifiedname>MR.Const_ObjectPoints.Const_ObjectPoints</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="131" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="131" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a8983795c69bda90c49af2c3aa5ecd2d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectPoints.Const_ObjectPoints</definition>
+        <argsstring>(MR._ByValue_ObjectPoints _other)</argsstring>
+        <name>Const_ObjectPoints</name>
+        <qualifiedname>MR.Const_ObjectPoints.Const_ObjectPoints</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectPoints</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectPoints_1a2b413054c12867e04d326ba8ad50549d" kindref="member">MR.ObjectPoints.ObjectPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="141" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="141" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1aa6fd827226c6492fd56db71452adfcc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectPoints.Const_ObjectPoints</definition>
+        <argsstring>(MR.Const_ObjectMesh objMesh, bool? saveNormals=null)</argsstring>
+        <name>Const_ObjectPoints</name>
+        <qualifiedname>MR.Const_ObjectPoints.Const_ObjectPoints</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectMesh" kindref="compound">MR.Const_ObjectMesh</ref></type>
+          <declname>objMesh</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>saveNormals</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectPoints_1a2b413054c12867e04d326ba8ad50549d" kindref="member">MR.ObjectPoints.ObjectPoints</ref></computeroutput>. Parameter <computeroutput>saveNormals</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="153" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="153" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a75fcbda37452a47c25486433982141c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>unsafe? byte MR.Const_ObjectPoints.typeName</definition>
+        <argsstring>()</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR.Const_ObjectPoints.typeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a75fcbda37452a47c25486433982141c9" kindref="member">MR.ObjectPoints.typeName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="176" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="176" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a0d20f03c81ed51939b29b87fe1f72d87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ObjectPoints.className</definition>
+        <argsstring>()</argsstring>
+        <name>className</name>
+        <qualifiedname>MR.Const_ObjectPoints.className</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a0d20f03c81ed51939b29b87fe1f72d87" kindref="member">MR.ObjectPoints.className</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="198" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="198" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a0939caa9f930cb58a33b3935a7d85aa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ObjectPoints.classNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>MR.Const_ObjectPoints.classNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a0939caa9f930cb58a33b3935a7d85aa6" kindref="member">MR.ObjectPoints.classNameInPlural</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="219" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="219" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a94ab326a8128c3184f0dc21ca4e34c3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectPoints.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR.Const_ObjectPoints.clone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a94ab326a8128c3184f0dc21ca4e34c3f" kindref="member">MR.ObjectPoints.clone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="229" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="229" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a6e6be1621a8be5b846f06e03c678265f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectPoints.shallowClone</definition>
+        <argsstring>()</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>MR.Const_ObjectPoints.shallowClone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a6e6be1621a8be5b846f06e03c678265f" kindref="member">MR.ObjectPoints.shallowClone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="239" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="239" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a66c74f553cc6bed75fea4930a049885c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>unsafe MR.Std.Vector_StdString MR.Const_ObjectPoints.getInfoLines</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>MR.Const_ObjectPoints.getInfoLines</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a66c74f553cc6bed75fea4930a049885c" kindref="member">MR.ObjectPoints.getInfoLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="249" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="249" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1aa2668c0c2ca62a4bca4d6086092fb0a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.hasVisualRepresentation</definition>
+        <argsstring>()</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>MR.Const_ObjectPoints.hasVisualRepresentation</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1aa2668c0c2ca62a4bca4d6086092fb0a0" kindref="member">MR.ObjectPoints.hasVisualRepresentation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="259" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="259" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a19204f3ff0b07458f334eb36ef159918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.hasModel</definition>
+        <argsstring>()</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>MR.Const_ObjectPoints.hasModel</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a19204f3ff0b07458f334eb36ef159918" kindref="member">MR.ObjectPoints.hasModel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="269" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="269" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1af1b459f391497fe3d041659f01944fa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_SharedPtr_ConstMRPointCloud</type>
+        <definition>unsafe MR.Std.Const_SharedPtr_ConstMRPointCloud MR.Const_ObjectPoints.pointCloud</definition>
+        <argsstring>()</argsstring>
+        <name>pointCloud</name>
+        <qualifiedname>MR.Const_ObjectPoints.pointCloud</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1af1b459f391497fe3d041659f01944fa5" kindref="member">MR.ObjectPoints.pointCloud</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="279" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="279" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a064c62da2a901465215a32b27e32b958" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointCloudPart" kindref="compound">MR.PointCloudPart</ref></type>
+        <definition>unsafe MR.PointCloudPart MR.Const_ObjectPoints.pointCloudPart</definition>
+        <argsstring>()</argsstring>
+        <name>pointCloudPart</name>
+        <qualifiedname>MR.Const_ObjectPoints.pointCloudPart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the pair ( point cloud, selected points ) if any point is selected or full point cloud otherwise Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a064c62da2a901465215a32b27e32b958" kindref="member">MR.ObjectPoints.pointCloudPart</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="290" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="290" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a783f726d11907bae1e0629a1f1c2cb40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.Const_ObjectPoints.getSelectedPoints</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedPoints</name>
+        <qualifiedname>MR.Const_ObjectPoints.getSelectedPoints</qualifiedname>
+        <briefdescription>
+<para>gets current selected points Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a783f726d11907bae1e0629a1f1c2cb40" kindref="member">MR.ObjectPoints.getSelectedPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="301" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="301" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ab7f0f3f306ca254f06ce51dd5732754f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.Const_ObjectPoints.getSelectedPointsOrAll</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedPointsOrAll</name>
+        <qualifiedname>MR.Const_ObjectPoints.getSelectedPointsOrAll</qualifiedname>
+        <briefdescription>
+<para>returns selected points if any, otherwise returns all valid points Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ab7f0f3f306ca254f06ce51dd5732754f" kindref="member">MR.ObjectPoints.getSelectedPointsOrAll</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="312" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="312" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a5b980b25bc855461df16e01102ccdf39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectPoints.getSelectedVerticesColor</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getSelectedVerticesColor</name>
+        <qualifiedname>MR.Const_ObjectPoints.getSelectedVerticesColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns colors of selected vertices Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a5b980b25bc855461df16e01102ccdf39" kindref="member">MR.ObjectPoints.getSelectedVerticesColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="324" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="324" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a2c96d2e7dffdaf7152b67ce1d2768209" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectPoints.getSelectedVerticesColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedVerticesColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectPoints.getSelectedVerticesColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a2c96d2e7dffdaf7152b67ce1d2768209" kindref="member">MR.ObjectPoints.getSelectedVerticesColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="334" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="334" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ae0008463e0f5d7ea40919981b8cf3ebf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.supportsVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>MR.Const_ObjectPoints.supportsVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ae0008463e0f5d7ea40919981b8cf3ebf" kindref="member">MR.ObjectPoints.supportsVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="344" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="344" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a6dfbfe8fd26688b5b1206b57a46bbe23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VertColors" kindref="compound">MR.Const_VertColors</ref></type>
+        <definition>unsafe MR.Const_VertColors MR.Const_ObjectPoints.getVertsColorMap</definition>
+        <argsstring>()</argsstring>
+        <name>getVertsColorMap</name>
+        <qualifiedname>MR.Const_ObjectPoints.getVertsColorMap</qualifiedname>
+        <briefdescription>
+<para>returns per-point colors of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a6dfbfe8fd26688b5b1206b57a46bbe23" kindref="member">MR.ObjectPoints.getVertsColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="355" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="355" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ab180649719ffe8355f9f040be22cae88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRViewportMask</type>
+        <definition>unsafe MR.Std.Vector_MRViewportMask MR.Const_ObjectPoints.getAllVisualizeProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>MR.Const_ObjectPoints.getAllVisualizeProperties</qualifiedname>
+        <briefdescription>
+<para>get all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ab180649719ffe8355f9f040be22cae88" kindref="member">MR.ObjectPoints.getAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="366" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="366" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1acee2602e637b4fd66ac185efb73a66ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+        <definition>unsafe MR.Const_ViewportMask MR.Const_ObjectPoints.getVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>MR.Const_ObjectPoints.getVisualizePropertyMask</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>returns mask of viewports where given property is set Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1acee2602e637b4fd66ac185efb73a66ac" kindref="member">MR.ObjectPoints.getVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="377" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="377" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1aba232619434b6f6c20cf0ca9222b5428" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectPoints.getPointSize</definition>
+        <argsstring>()</argsstring>
+        <name>getPointSize</name>
+        <qualifiedname>MR.Const_ObjectPoints.getPointSize</qualifiedname>
+        <briefdescription>
+<para>returns size of points on screen in pixels Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1aba232619434b6f6c20cf0ca9222b5428" kindref="member">MR.ObjectPoints.getPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="388" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="388" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a75d9d7bb9b7e61706201a111ffed6ca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectPoints.getWorldBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>MR.Const_ObjectPoints.getWorldBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns cached bounding box of this point object in world coordinates; if you need bounding box in local coordinates please call <ref refid="classMR_1_1Const__ObjectPoints_1ac9db94426222a2656e23f25eabfbf6ad" kindref="member">getBoundingBox()</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a75d9d7bb9b7e61706201a111ffed6ca3" kindref="member">MR.ObjectPoints.getWorldBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="401" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="401" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ae03b32cf88c57c70cc7b16f118ed7500" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectPoints.numValidPoints</definition>
+        <argsstring>()</argsstring>
+        <name>numValidPoints</name>
+        <qualifiedname>MR.Const_ObjectPoints.numValidPoints</qualifiedname>
+        <briefdescription>
+<para>returns cached information about the number of valid points Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ae03b32cf88c57c70cc7b16f118ed7500" kindref="member">MR.ObjectPoints.numValidPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="412" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="412" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ae0ab8402ccb1a9ef81783a25e78b7174" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectPoints.numSelectedPoints</definition>
+        <argsstring>()</argsstring>
+        <name>numSelectedPoints</name>
+        <qualifiedname>MR.Const_ObjectPoints.numSelectedPoints</qualifiedname>
+        <briefdescription>
+<para>returns cached information about the number of selected points Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ae0ab8402ccb1a9ef81783a25e78b7174" kindref="member">MR.ObjectPoints.numSelectedPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="423" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="423" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1aeb6fdfd9e68890dd87f67bbb98cb9987" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectPoints.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_ObjectPoints.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1aeb6fdfd9e68890dd87f67bbb98cb9987" kindref="member">MR.ObjectPoints.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="434" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="434" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a72483f8d86851d742ada83e9c3522aee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_ObjectPoints.getRenderDiscretization</definition>
+        <argsstring>()</argsstring>
+        <name>getRenderDiscretization</name>
+        <qualifiedname>MR.Const_ObjectPoints.getRenderDiscretization</qualifiedname>
+        <briefdescription>
+<para>returns rendering discretization display each <computeroutput>renderDiscretization</computeroutput>-th point only, starting from 0 index, total number is <ref refid="classMR_1_1Const__ObjectPoints_1ad7fd3693276c986f3762c57ed87af68e" kindref="member">numRenderingValidPoints()</ref> \detail defined by maximum rendered points number as: <ref refid="classMR_1_1Const__ObjectPoints_1ae03b32cf88c57c70cc7b16f118ed7500" kindref="member">numValidPoints()</ref> / <ref refid="classMR_1_1Const__ObjectPoints_1aed6d673e3aad9901554567594548f31c" kindref="member">getMaxRenderingPoints()</ref> (rounded up) updated when setting <computeroutput>maxRenderingPoints</computeroutput> or changing the cloud (setting <computeroutput>DIRTY_FACE</computeroutput> flag) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a72483f8d86851d742ada83e9c3522aee" kindref="member">MR.ObjectPoints.getRenderDiscretization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="450" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="450" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ad7fd3693276c986f3762c57ed87af68e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectPoints.numRenderingValidPoints</definition>
+        <argsstring>()</argsstring>
+        <name>numRenderingValidPoints</name>
+        <qualifiedname>MR.Const_ObjectPoints.numRenderingValidPoints</qualifiedname>
+        <briefdescription>
+<para>returns count of valid points that will be rendered Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ad7fd3693276c986f3762c57ed87af68e" kindref="member">MR.ObjectPoints.numRenderingValidPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="461" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="461" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1aed6d673e3aad9901554567594548f31c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_ObjectPoints.getMaxRenderingPoints</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxRenderingPoints</name>
+        <qualifiedname>MR.Const_ObjectPoints.getMaxRenderingPoints</qualifiedname>
+        <briefdescription>
+<para>returns maximal number of points that will be rendered if actual count of valid points is greater then the points will be sampled Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1aed6d673e3aad9901554567594548f31c" kindref="member">MR.ObjectPoints.getMaxRenderingPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="473" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="473" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ac980555d96dbc8584f7e48d3dcea9c06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>unsafe? byte MR.Const_ObjectPoints.serializeFormat</definition>
+        <argsstring>()</argsstring>
+        <name>serializeFormat</name>
+        <qualifiedname>MR.Const_ObjectPoints.serializeFormat</qualifiedname>
+        <briefdescription>
+<para>returns overriden file extension used to serialize point cloud inside this object, nullptr means <ref refid="classMR_1adb979235051f16e0860065ee9ec797d0" kindref="member">defaultSerializePointsFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ac980555d96dbc8584f7e48d3dcea9c06" kindref="member">MR.ObjectPoints.serializeFormat</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="484" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="484" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ade8e5987ea4e1587b5c88ae50b1bf75a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.getVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getVisualizeProperty</name>
+        <qualifiedname>MR.Const_ObjectPoints.getVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the property is set at least in one viewport specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ade8e5987ea4e1587b5c88ae50b1bf75a" kindref="member">MR.ObjectPoints.getVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="496" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="496" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1aa3c5fe7d50226349189cd7a93bf58f6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectPoints.globalClippedByPlaneMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalClippedByPlaneMask</name>
+        <qualifiedname>MR.Const_ObjectPoints.globalClippedByPlaneMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object or any of its parents is clipped by plane Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1aa3c5fe7d50226349189cd7a93bf58f6f" kindref="member">MR.ObjectPoints.globalClippedByPlaneMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="507" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="507" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1af5b30c63ccf628c62556c365d3204cac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.globalClippedByPlane</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalClippedByPlane</name>
+        <qualifiedname>MR.Const_ObjectPoints.globalClippedByPlane</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1af5b30c63ccf628c62556c365d3204cac" kindref="member">MR.ObjectPoints.globalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="519" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="519" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ab469317ad6a4baeed02c21fc3628fe75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectPoints.getFrontColor</definition>
+        <argsstring>(bool? selected=null, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getFrontColor</name>
+        <qualifiedname>MR.Const_ObjectPoints.getFrontColor</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ab469317ad6a4baeed02c21fc3628fe75" kindref="member">MR.ObjectPoints.getFrontColor</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="532" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="532" bodyend="538"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a7ef78fea3986c50f97e0157e3f5f3980" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectPoints.getFrontColorsForAllViewports</definition>
+        <argsstring>(bool? selected=null)</argsstring>
+        <name>getFrontColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectPoints.getFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a7ef78fea3986c50f97e0157e3f5f3980" kindref="member">MR.ObjectPoints.getFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="545" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="545" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a99314bdcc5b419fb695a814065554733" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectPoints.getBackColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getBackColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectPoints.getBackColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a99314bdcc5b419fb695a814065554733" kindref="member">MR.ObjectPoints.getBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="557" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="557" bodyend="562"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a552eb6a2fb0be78389e5ba5fdfadc8de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectPoints.getBackColor</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getBackColor</name>
+        <qualifiedname>MR.Const_ObjectPoints.getBackColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a552eb6a2fb0be78389e5ba5fdfadc8de" kindref="member">MR.ObjectPoints.getBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="569" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="569" bodyend="574"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a5d019b90466ac418d2df3e326a2cd64a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_ObjectPoints.getGlobalAlpha</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getGlobalAlpha</name>
+        <qualifiedname>MR.Const_ObjectPoints.getGlobalAlpha</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a5d019b90466ac418d2df3e326a2cd64a" kindref="member">MR.ObjectPoints.getGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="581" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="581" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a69efc6d5b426e7188eda4533fc1fd83f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__UnsignedChar" kindref="compound">MR.Const_ViewportProperty_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_UnsignedChar MR.Const_ObjectPoints.getGlobalAlphaForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectPoints.getGlobalAlphaForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a69efc6d5b426e7188eda4533fc1fd83f" kindref="member">MR.ObjectPoints.getGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="592" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="592" bodyend="597"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a7b1abba2788bda3fbce765e262d0053b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_ObjectPoints.getDirtyFlags</definition>
+        <argsstring>()</argsstring>
+        <name>getDirtyFlags</name>
+        <qualifiedname>MR.Const_ObjectPoints.getDirtyFlags</qualifiedname>
+        <briefdescription>
+<para>returns current dirty flags for the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a7b1abba2788bda3fbce765e262d0053b" kindref="member">MR.ObjectPoints.getDirtyFlags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="603" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="603" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1af42994c942d80a12c29119aee87fff11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectPoints.resetDirty</definition>
+        <argsstring>()</argsstring>
+        <name>resetDirty</name>
+        <qualifiedname>MR.Const_ObjectPoints.resetDirty</qualifiedname>
+        <briefdescription>
+<para>resets all dirty flags (except for cache flags that will be reset automatically on cache update) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1af42994c942d80a12c29119aee87fff11" kindref="member">MR.ObjectPoints.resetDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="614" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="614" bodyend="619"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1aa54c13dae9370cc9b3841f3de6bd301d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectPoints.resetDirtyExceptMask</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>resetDirtyExceptMask</name>
+        <qualifiedname>MR.Const_ObjectPoints.resetDirtyExceptMask</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>reset dirty flags without some specific bits (useful for lazy normals update) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1aa54c13dae9370cc9b3841f3de6bd301d" kindref="member">MR.ObjectPoints.resetDirtyExceptMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="625" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="625" bodyend="630"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ac9db94426222a2656e23f25eabfbf6ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectPoints.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_ObjectPoints.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns cached bounding box of this object in local coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ac9db94426222a2656e23f25eabfbf6ad" kindref="member">MR.ObjectPoints.getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="636" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="636" bodyend="641"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1abfc0aacdb13addce6b380610cdba56c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.getRedrawFlag</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getRedrawFlag</name>
+        <qualifiedname>MR.Const_ObjectPoints.getRedrawFlag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the object must be redrawn (due to dirty flags) in one of specified viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1abfc0aacdb13addce6b380610cdba56c8" kindref="member">MR.ObjectPoints.getRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="647" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="647" bodyend="652"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a9d29ec73e1bd6e084059f0893e315b6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.isPickable</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isPickable</name>
+        <qualifiedname>MR.Const_ObjectPoints.isPickable</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a9d29ec73e1bd6e084059f0893e315b6b" kindref="member">MR.ObjectPoints.isPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="659" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="659" bodyend="664"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a5079ea355fd634ffcfe71a2dc705e2b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+        <definition>unsafe MR.ColoringType MR.Const_ObjectPoints.getColoringType</definition>
+        <argsstring>()</argsstring>
+        <name>getColoringType</name>
+        <qualifiedname>MR.Const_ObjectPoints.getColoringType</qualifiedname>
+        <briefdescription>
+<para>returns the current coloring mode of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a5079ea355fd634ffcfe71a2dc705e2b1" kindref="member">MR.ObjectPoints.getColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="670" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="670" bodyend="675"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a0471cb94cb2ce1b8dcb15e6138b27e55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectPoints.getShininess</definition>
+        <argsstring>()</argsstring>
+        <name>getShininess</name>
+        <qualifiedname>MR.Const_ObjectPoints.getShininess</qualifiedname>
+        <briefdescription>
+<para>returns the current shininess visual value Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a0471cb94cb2ce1b8dcb15e6138b27e55" kindref="member">MR.ObjectPoints.getShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="681" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="681" bodyend="686"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a24e1389c0bd0ab6efb6740b59a48399c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectPoints.getSpecularStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getSpecularStrength</name>
+        <qualifiedname>MR.Const_ObjectPoints.getSpecularStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a24e1389c0bd0ab6efb6740b59a48399c" kindref="member">MR.ObjectPoints.getSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="692" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="692" bodyend="697"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a72b6990f6322552fd36e703f0979ea52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectPoints.getAmbientStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getAmbientStrength</name>
+        <qualifiedname>MR.Const_ObjectPoints.getAmbientStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a72b6990f6322552fd36e703f0979ea52" kindref="member">MR.ObjectPoints.getAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="703" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="703" bodyend="708"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a101218aaa9034548237c9ba57f8f6d0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.render</definition>
+        <argsstring>(MR.Const_ModelRenderParams _1)</argsstring>
+        <name>render</name>
+        <qualifiedname>MR.Const_ObjectPoints.render</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelRenderParams" kindref="compound">MR.Const_ModelRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for visualization Returns true if something was drawn. Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a101218aaa9034548237c9ba57f8f6d0a" kindref="member">MR.ObjectPoints.render</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="715" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="715" bodyend="720"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a6c872956cc89fbe0ffd94a7af5f1e18d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectPoints.renderForPicker</definition>
+        <argsstring>(MR.Const_ModelBaseRenderParams _1, uint _2)</argsstring>
+        <name>renderForPicker</name>
+        <qualifiedname>MR.Const_ObjectPoints.renderForPicker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelBaseRenderParams" kindref="compound">MR.Const_ModelBaseRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for picking Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a6c872956cc89fbe0ffd94a7af5f1e18d" kindref="member">MR.ObjectPoints.renderForPicker</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="726" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="726" bodyend="731"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1af56e9417c2d0aa87987e18191ced1789" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectPoints.renderUi</definition>
+        <argsstring>(MR.Const_UiRenderParams params_)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR.Const_ObjectPoints.renderUi</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UiRenderParams" kindref="compound">MR.Const_UiRenderParams</ref></type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for 2d UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1af56e9417c2d0aa87987e18191ced1789" kindref="member">MR.ObjectPoints.renderUi</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="737" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="737" bodyend="742"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a478a7f4ef86bece28cd0d7da6f2ca0c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.useDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>()</argsstring>
+        <name>useDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.Const_ObjectPoints.useDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <briefdescription>
+<para>whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a478a7f4ef86bece28cd0d7da6f2ca0c3" kindref="member">MR.ObjectPoints.useDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="749" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="749" bodyend="754"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ab3e6768c7d2e0eb8419098c027e4c495" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_ObjectPoints.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_ObjectPoints.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ab3e6768c7d2e0eb8419098c027e4c495" kindref="member">MR.ObjectPoints.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="759" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="759" bodyend="764"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ad92adc5dbaf69d4dac7c805b72225512" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_ObjectPoints.xf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_ObjectPoints.xf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to parent space transformation (to world space if no parent) for default or given viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__ObjectPoints_1ad92adc5dbaf69d4dac7c805b72225512" kindref="member">xf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ad92adc5dbaf69d4dac7c805b72225512" kindref="member">MR.ObjectPoints.xf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="772" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="772" bodyend="780"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a44544db8bf41446acddbf02dae73cbf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" kindref="compound">MR.Const_ViewportProperty_MRAffineXf3f</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRAffineXf3f MR.Const_ObjectPoints.xfsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>xfsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectPoints.xfsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns xfs for all viewports, combined into a single object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a44544db8bf41446acddbf02dae73cbf3" kindref="member">MR.ObjectPoints.xfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="786" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="786" bodyend="791"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a7b62d7c941afb40d2fd256b23c8b623b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe MR.AffineXf3f MR.Const_ObjectPoints.worldXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>worldXf</name>
+        <qualifiedname>MR.Const_ObjectPoints.worldXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to world space transformation for default or specific viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__ObjectPoints_1a7b62d7c941afb40d2fd256b23c8b623b" kindref="member">worldXf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a7b62d7c941afb40d2fd256b23c8b623b" kindref="member">MR.ObjectPoints.worldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="799" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="799" bodyend="807"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ae22f8958282244573d0641ef39fd6633" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectPoints.globalVisibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalVisibilityMask</name>
+        <qualifiedname>MR.Const_ObjectPoints.globalVisibilityMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object is visible together with all its parents Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ae22f8958282244573d0641ef39fd6633" kindref="member">MR.ObjectPoints.globalVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="813" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="813" bodyend="818"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a85855ec0d6d55759e161e46af160a566" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.globalVisibility</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalVisibility</name>
+        <qualifiedname>MR.Const_ObjectPoints.globalVisibility</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a85855ec0d6d55759e161e46af160a566" kindref="member">MR.ObjectPoints.globalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="825" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="825" bodyend="830"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1afb9362911c28430debd03920eef2d17f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.isLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isLocked</name>
+        <qualifiedname>MR.Const_ObjectPoints.isLocked</qualifiedname>
+        <briefdescription>
+<para>object properties lock for UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1afb9362911c28430debd03920eef2d17f" kindref="member">MR.ObjectPoints.isLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="836" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="836" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ae283ed1e219c18597f003c452fbe6773" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.isParentLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isParentLocked</name>
+        <qualifiedname>MR.Const_ObjectPoints.isParentLocked</qualifiedname>
+        <briefdescription>
+<para>If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ae283ed1e219c18597f003c452fbe6773" kindref="member">MR.ObjectPoints.isParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="848" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="848" bodyend="853"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a2056c144b38d9cf4f9c4afbb40862f33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.isAncestor</definition>
+        <argsstring>(MR.Const_Object? ancestor)</argsstring>
+        <name>isAncestor</name>
+        <qualifiedname>MR.Const_ObjectPoints.isAncestor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref>?</type>
+          <declname>ancestor</declname>
+        </param>
+        <briefdescription>
+<para>return true if given object is ancestor of this one, false otherwise Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a2056c144b38d9cf4f9c4afbb40862f33" kindref="member">MR.ObjectPoints.isAncestor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="859" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="859" bodyend="864"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1addcf994a7942f8ab9dbe67eabdcbfa5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.isSelected</definition>
+        <argsstring>()</argsstring>
+        <name>isSelected</name>
+        <qualifiedname>MR.Const_ObjectPoints.isSelected</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1addcf994a7942f8ab9dbe67eabdcbfa5b" kindref="member">MR.ObjectPoints.isSelected</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="869" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="869" bodyend="874"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a75b80caa99ed1c4e102269b1c922952b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.isAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isAncillary</name>
+        <qualifiedname>MR.Const_ObjectPoints.isAncillary</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a75b80caa99ed1c4e102269b1c922952b" kindref="member">MR.ObjectPoints.isAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="879" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="879" bodyend="884"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1aa9fd63c98e8dc02845cd25d043dd6437" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.isGlobalAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isGlobalAncillary</name>
+        <qualifiedname>MR.Const_ObjectPoints.isGlobalAncillary</qualifiedname>
+        <briefdescription>
+<para>returns true if the object or any of its ancestors are ancillary Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1aa9fd63c98e8dc02845cd25d043dd6437" kindref="member">MR.ObjectPoints.isGlobalAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="890" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="890" bodyend="895"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a66b400ab0a6882cf09859067e7b78886" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.isVisible</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isVisible</name>
+        <qualifiedname>MR.Const_ObjectPoints.isVisible</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a66b400ab0a6882cf09859067e7b78886" kindref="member">MR.ObjectPoints.isVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="902" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="902" bodyend="907"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1adbab0c1cfd376ac9f30792f2249bdda0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectPoints.visibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>visibilityMask</name>
+        <qualifiedname>MR.Const_ObjectPoints.visibilityMask</qualifiedname>
+        <briefdescription>
+<para>gets object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1adbab0c1cfd376ac9f30792f2249bdda0" kindref="member">MR.ObjectPoints.visibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="913" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="913" bodyend="918"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ace3139f6dab54a588447089041d045b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectPoints.resetRedrawFlag</definition>
+        <argsstring>()</argsstring>
+        <name>resetRedrawFlag</name>
+        <qualifiedname>MR.Const_ObjectPoints.resetRedrawFlag</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ace3139f6dab54a588447089041d045b6" kindref="member">MR.ObjectPoints.resetRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="923" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="923" bodyend="928"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a2163838bd8ccab67c97c94ce14154ec5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectPoints.cloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>cloneTree</name>
+        <qualifiedname>MR.Const_ObjectPoints.cloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognized children) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a2163838bd8ccab67c97c94ce14154ec5" kindref="member">MR.ObjectPoints.cloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="934" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="934" bodyend="939"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1acec46d1ca6d627960f6299815af7670e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectPoints.shallowCloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>shallowCloneTree</name>
+        <qualifiedname>MR.Const_ObjectPoints.shallowCloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognied children) clones only pointers to mesh, points or voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1acec46d1ca6d627960f6299815af7670e" kindref="member">MR.ObjectPoints.shallowCloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="946" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="946" bodyend="951"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a4085da299e52b80fa18c5ba72c4351cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectPoints.getWorldTreeBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldTreeBox</name>
+        <qualifiedname>MR.Const_ObjectPoints.getWorldTreeBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a4085da299e52b80fa18c5ba72c4351cc" kindref="member">MR.ObjectPoints.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="959" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="959" bodyend="964"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a63e18221dca09ef2c3eab05c7931fb54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Set_StdString</type>
+        <definition>unsafe MR.Std.Const_Set_StdString MR.Const_ObjectPoints.tags</definition>
+        <argsstring>()</argsstring>
+        <name>tags</name>
+        <qualifiedname>MR.Const_ObjectPoints.tags</qualifiedname>
+        <briefdescription>
+<para>provides read-only access to the tag storage the storage is a set of unique strings Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a63e18221dca09ef2c3eab05c7931fb54" kindref="member">MR.ObjectPoints.tags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="971" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="971" bodyend="976"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ae4c49fbe02de8f9449b4f367753c571a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPoints.sameModels</definition>
+        <argsstring>(MR.Const_Object other)</argsstring>
+        <name>sameModels</name>
+        <qualifiedname>MR.Const_ObjectPoints.sameModels</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1ae4c49fbe02de8f9449b4f367753c571a" kindref="member">MR.ObjectPoints.sameModels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="982" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="982" bodyend="987"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a62c9467805650115ddec90a3db2ecc97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectPoints.getModelHash</definition>
+        <argsstring>()</argsstring>
+        <name>getModelHash</name>
+        <qualifiedname>MR.Const_ObjectPoints.getModelHash</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1a62c9467805650115ddec90a3db2ecc97" kindref="member">MR.ObjectPoints.getModelHash</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="993" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="993" bodyend="998"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1abf8a99cdf52d6b8cd5a4baffe678e0e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectPoints.getSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getSharedPtr</name>
+        <qualifiedname>MR.Const_ObjectPoints.getSharedPtr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPoints_1abf8a99cdf52d6b8cd5a4baffe678e0e1" kindref="member">MR.ObjectPoints.getSharedPtr</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="1005" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="1005" bodyend="1010"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1aa701b46d97a892f3e0e6cf1061f771ca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjectPoints.~Const_ObjectPoints</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ObjectPoints</name>
+        <qualifiedname>MR.Const_ObjectPoints.~Const_ObjectPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="31" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1aecc00f7e1505d2eb697f30f6c1397009" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectPoints.operator MR.Const_ObjectChildrenHolder</definition>
+        <argsstring>(Const_ObjectPoints self)</argsstring>
+        <name>operator MR.Const_ObjectChildrenHolder</name>
+        <qualifiedname>MR.Const_ObjectPoints.operator MR.Const_ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectPoints" kindref="compound">Const_ObjectPoints</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="34" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="34" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1ad6aea296b8834fa8ca7a4fd5d5ef8b71" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectPoints.operator MR.Const_Object</definition>
+        <argsstring>(Const_ObjectPoints self)</argsstring>
+        <name>operator MR.Const_Object</name>
+        <qualifiedname>MR.Const_ObjectPoints.operator MR.Const_Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectPoints" kindref="compound">Const_ObjectPoints</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="42" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="42" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1aa4a91a4ff5bcc4fea2a2b76d059a28b4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectPoints.operator MR.Const_VisualObject</definition>
+        <argsstring>(Const_ObjectPoints self)</argsstring>
+        <name>operator MR.Const_VisualObject</name>
+        <qualifiedname>MR.Const_ObjectPoints.operator MR.Const_VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectPoints" kindref="compound">Const_ObjectPoints</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="50" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1abb89d2e8c6ebe6ed477c30e1cb3eabfc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectPoints.operator MR.Const_ObjectPointsHolder</definition>
+        <argsstring>(Const_ObjectPoints self)</argsstring>
+        <name>operator MR.Const_ObjectPointsHolder</name>
+        <qualifiedname>MR.Const_ObjectPoints.operator MR.Const_ObjectPointsHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectPoints" kindref="compound">Const_ObjectPoints</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="58" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1acebb78454de439a2e2863546c8740663" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectPoints.operator Const_ObjectPoints?</definition>
+        <argsstring>(MR.Const_Object parent)</argsstring>
+        <name>operator Const_ObjectPoints?</name>
+        <qualifiedname>MR.Const_ObjectPoints.operator Const_ObjectPoints?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="68" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="68" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a6da3fa6ca57e4b0453523dd8209b947c" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectPoints.operator Const_ObjectPoints?</definition>
+        <argsstring>(MR.Const_VisualObject parent)</argsstring>
+        <name>operator Const_ObjectPoints?</name>
+        <qualifiedname>MR.Const_ObjectPoints.operator Const_ObjectPoints?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="78" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="78" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a739ecb3348e390f666cea457c3c3b829" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectPoints.operator Const_ObjectPoints?</definition>
+        <argsstring>(MR.Const_ObjectPointsHolder parent)</argsstring>
+        <name>operator Const_ObjectPoints?</name>
+        <qualifiedname>MR.Const_ObjectPoints.operator Const_ObjectPoints?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectPointsHolder" kindref="compound">MR.Const_ObjectPointsHolder</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="88" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="88" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1acc52b76f481829dbb23255d5f5c6462b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectPoints.staticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>staticTypeName</name>
+        <qualifiedname>MR.Const_ObjectPoints.staticTypeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectPoints::StaticTypeName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="165" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="165" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1af71dcccd07a366e94d43fe2ab46865c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectPoints.staticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassName</name>
+        <qualifiedname>MR.Const_ObjectPoints.staticClassName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectPoints::StaticClassName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="187" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="187" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a0473bea4ce98801cba43cb3209a66852" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectPoints.staticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassNameInPlural</name>
+        <qualifiedname>MR.Const_ObjectPoints.staticClassNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectPoints::StaticClassNameInPlural</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="208" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="208" bodyend="214"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1acb574ccc959fc9d561154c98403706f8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectPoints.Const_ObjectPoints</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ObjectPoints</name>
+        <qualifiedname>MR.Const_ObjectPoints.Const_ObjectPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="111" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="111" bodyend="124"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPoints_1a30733298edd546e33114d18056b10211" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectPoints.Const_ObjectPoints</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ObjectPoints</name>
+        <qualifiedname>MR.Const_ObjectPoints.Const_ObjectPoints</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="126" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="126" bodyend="126"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>an object that stores a points Generated from class <computeroutput><ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ObjectPoints</label>
+        <link refid="classMR_1_1Const__ObjectPoints"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ObjectPoints</label>
+        <link refid="classMR_1_1ObjectPoints"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ObjectPoints</label>
+        <link refid="classMR_1_1Const__ObjectPoints"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPoints.cs" bodystart="16" bodyend="1011"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectPoints_1a96c6d413206954a08bbf81f3eb6acafb" prot="protected" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>__ref_storage_MaxRenderingPointsDefault</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a5a741bc43916d8f04d57fba4d527b531" prot="protected" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>__ref_storage_MaxRenderingPointsUnlimited</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a0d20f03c81ed51939b29b87fe1f72d87" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a0939caa9f930cb58a33b3935a7d85aa6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a94ab326a8128c3184f0dc21ca4e34c3f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a2163838bd8ccab67c97c94ce14154ec5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1acb574ccc959fc9d561154c98403706f8" prot="private" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>Const_ObjectPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a30733298edd546e33114d18056b10211" prot="package" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>Const_ObjectPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ac4815407b97acccf7f56344b2b7a75c0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>Const_ObjectPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a8983795c69bda90c49af2c3aa5ecd2d1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>Const_ObjectPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aa6fd827226c6492fd56db71452adfcc4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>Const_ObjectPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a77dc07825eab6250617bd861c0cd6ae8" prot="protected" virt="virtual"><scope>MR::Const_ObjectPoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1adba63b2b6bdd76cd521ab38757ec5515" prot="public" virt="virtual"><scope>MR::Const_ObjectPoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ab180649719ffe8355f9f040be22cae88" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a72b6990f6322552fd36e703f0979ea52" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a552eb6a2fb0be78389e5ba5fdfadc8de" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a99314bdcc5b419fb695a814065554733" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ac9db94426222a2656e23f25eabfbf6ad" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a5079ea355fd634ffcfe71a2dc705e2b1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a7b1abba2788bda3fbce765e262d0053b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ab469317ad6a4baeed02c21fc3628fe75" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a7ef78fea3986c50f97e0157e3f5f3980" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a5d019b90466ac418d2df3e326a2cd64a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a69efc6d5b426e7188eda4533fc1fd83f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a66c74f553cc6bed75fea4930a049885c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aed6d673e3aad9901554567594548f31c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getMaxRenderingPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a62c9467805650115ddec90a3db2ecc97" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aba232619434b6f6c20cf0ca9222b5428" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1abfc0aacdb13addce6b380610cdba56c8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a72483f8d86851d742ada83e9c3522aee" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getRenderDiscretization</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a783f726d11907bae1e0629a1f1c2cb40" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getSelectedPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ab7f0f3f306ca254f06ce51dd5732754f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getSelectedPointsOrAll</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a5b980b25bc855461df16e01102ccdf39" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getSelectedVerticesColor</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a2c96d2e7dffdaf7152b67ce1d2768209" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getSelectedVerticesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1abf8a99cdf52d6b8cd5a4baffe678e0e1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a0471cb94cb2ce1b8dcb15e6138b27e55" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a24e1389c0bd0ab6efb6740b59a48399c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a6dfbfe8fd26688b5b1206b57a46bbe23" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ade8e5987ea4e1587b5c88ae50b1bf75a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1acee2602e637b4fd66ac185efb73a66ac" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a75d9d7bb9b7e61706201a111ffed6ca3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a4085da299e52b80fa18c5ba72c4351cc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1af5b30c63ccf628c62556c365d3204cac" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aa3c5fe7d50226349189cd7a93bf58f6f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a85855ec0d6d55759e161e46af160a566" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ae22f8958282244573d0641ef39fd6633" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a19204f3ff0b07458f334eb36ef159918" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aa2668c0c2ca62a4bca4d6086092fb0a0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aeb6fdfd9e68890dd87f67bbb98cb9987" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a2056c144b38d9cf4f9c4afbb40862f33" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a75b80caa99ed1c4e102269b1c922952b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aa9fd63c98e8dc02845cd25d043dd6437" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1afb9362911c28430debd03920eef2d17f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ae283ed1e219c18597f003c452fbe6773" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a9d29ec73e1bd6e084059f0893e315b6b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1addcf994a7942f8ab9dbe67eabdcbfa5b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a66b400ab0a6882cf09859067e7b78886" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a9b49fcf0689cfbc67091804419f592b8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>MaxRenderingPointsDefault</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a5cf845884b47289d1a1dec9a8a65bf1d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>MaxRenderingPointsUnlimited</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ab3e6768c7d2e0eb8419098c027e4c495" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ad7fd3693276c986f3762c57ed87af68e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>numRenderingValidPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ae0ab8402ccb1a9ef81783a25e78b7174" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>numSelectedPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ae03b32cf88c57c70cc7b16f118ed7500" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>numValidPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1acebb78454de439a2e2863546c8740663" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>operator Const_ObjectPoints?</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a6da3fa6ca57e4b0453523dd8209b947c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>operator Const_ObjectPoints?</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a739ecb3348e390f666cea457c3c3b829" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>operator Const_ObjectPoints?</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ad6aea296b8834fa8ca7a4fd5d5ef8b71" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aecc00f7e1505d2eb697f30f6c1397009" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1abb89d2e8c6ebe6ed477c30e1cb3eabfc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>operator MR.Const_ObjectPointsHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aa4a91a4ff5bcc4fea2a2b76d059a28b4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>operator MR.Const_VisualObject</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1af1b459f391497fe3d041659f01944fa5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>pointCloud</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a064c62da2a901465215a32b27e32b958" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>pointCloudPart</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a101218aaa9034548237c9ba57f8f6d0a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a6c872956cc89fbe0ffd94a7af5f1e18d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1af56e9417c2d0aa87987e18191ced1789" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1af42994c942d80a12c29119aee87fff11" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aa54c13dae9370cc9b3841f3de6bd301d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ace3139f6dab54a588447089041d045b6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ae4c49fbe02de8f9449b4f367753c571a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ac980555d96dbc8584f7e48d3dcea9c06" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>serializeFormat</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a6e6be1621a8be5b846f06e03c678265f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1acec46d1ca6d627960f6299815af7670e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1af71dcccd07a366e94d43fe2ab46865c3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a0473bea4ce98801cba43cb3209a66852" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1acc52b76f481829dbb23255d5f5c6462b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ae0008463e0f5d7ea40919981b8cf3ebf" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a63e18221dca09ef2c3eab05c7931fb54" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>tags</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a75fcbda37452a47c25486433982141c9" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a478a7f4ef86bece28cd0d7da6f2ca0c3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1adbab0c1cfd376ac9f30792f2249bdda0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a7b62d7c941afb40d2fd256b23c8b623b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1ad92adc5dbaf69d4dac7c805b72225512" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1a44544db8bf41446acddbf02dae73cbf3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPoints_1aa701b46d97a892f3e0e6cf1061f771ca" prot="private" virt="non-virtual"><scope>MR::Const_ObjectPoints</scope><name>~Const_ObjectPoints</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

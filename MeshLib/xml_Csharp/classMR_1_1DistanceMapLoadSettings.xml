@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DistanceMapLoadSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::DistanceMapLoadSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DistanceMapLoadSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DistanceMapLoadSettings" prot="public" virt="non-virtual">MR.Const_DistanceMapLoadSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DistanceMapLoadSettings_1ab67dafb04467db1c9aa9fa909f838080" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref></type>
@@ -75,10 +75,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1710" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1710" bodyend="1716"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMapLoadSettings_1a099b5439dc28727a75aa1543275f4ba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DistanceMapLoadSettings_1abe477ff6d128a940c071f3c1e9e4d652" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.DistanceMapLoadSettings.DistanceMapLoadSettings</definition>
-        <argsstring>(MR.DistanceMapToWorld? distanceMapToWorld, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(MR.DistanceMapToWorld? distanceMapToWorld, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>DistanceMapLoadSettings</name>
         <qualifiedname>MR.DistanceMapLoadSettings.DistanceMapLoadSettings</qualifiedname>
         <param>
@@ -86,7 +86,7 @@
           <declname>distanceMapToWorld</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -124,7 +124,7 @@
         <name>DistanceMapLoadSettings</name>
         <qualifiedname>MR.DistanceMapLoadSettings.DistanceMapLoadSettings</qualifiedname>
         <param>
-          <type>Const_DistanceMapLoadSettings</type>
+          <type><ref refid="classMR_1_1Const__DistanceMapLoadSettings" kindref="compound">Const_DistanceMapLoadSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DistanceMapLoadSettings</label>
+        <link refid="classMR_1_1Const__DistanceMapLoadSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -202,6 +203,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.DistanceMapLoadSettings</label>
         <link refid="classMR_1_1DistanceMapLoadSettings"/>
@@ -210,9 +215,13 @@
       </node>
       <node id="2">
         <label>MR.Const_DistanceMapLoadSettings</label>
+        <link refid="classMR_1_1Const__DistanceMapLoadSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_distanceMapToWorld</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -224,10 +233,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1661" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1662" bodyend="1764"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DistanceMapLoadSettings_1a9f077e773bfdf415f440dc14b2045f29" prot="protected" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>__ptr_storage_distanceMapToWorld</name></member>
       <member refid="classMR_1_1DistanceMapLoadSettings_1afb85e50d2e5a9883a7fb31329397dd27" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__DistanceMapLoadSettings_1ad8772418ec22a0332bb50b4e58cf357a" prot="package" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>Const_DistanceMapLoadSettings</name></member>
+      <member refid="classMR_1_1Const__DistanceMapLoadSettings_1a52b200d7834e18797b526ea899083197" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>Const_DistanceMapLoadSettings</name></member>
+      <member refid="classMR_1_1Const__DistanceMapLoadSettings_1a11a76084655116d0e2053f51104da10d" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>Const_DistanceMapLoadSettings</name></member>
+      <member refid="classMR_1_1Const__DistanceMapLoadSettings_1ae30183661ce669fdf00e5a4e607bfe48" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>Const_DistanceMapLoadSettings</name></member>
+      <member refid="classMR_1_1Const__DistanceMapLoadSettings_1ac217f8dee425bc3e51e75f89cad91e91" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>Const_DistanceMapLoadSettings</name></member>
+      <member refid="classMR_1_1Const__DistanceMapLoadSettings_1ab366a37402a355989c64d3f711e1be20" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>Const_DistanceMapLoadSettings</name></member>
+      <member refid="classMR_1_1Const__DistanceMapLoadSettings_1a3ffd62bb97a19a82621554b1adb210d4" prot="protected" virt="virtual"><scope>MR::DistanceMapLoadSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DistanceMapLoadSettings_1a69e4e856a2ba0bbb7e5f5446020fe0e5" prot="public" virt="virtual"><scope>MR::DistanceMapLoadSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DistanceMapLoadSettings_1a7c6baec24c284cbb81cd9cebb25123c2" prot="package" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>DistanceMapLoadSettings</name></member>
       <member refid="classMR_1_1DistanceMapLoadSettings_1a662fda52cacab21f277647212a1e69a8" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>DistanceMapLoadSettings</name></member>
-      <member refid="classMR_1_1DistanceMapLoadSettings_1a099b5439dc28727a75aa1543275f4ba3" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>DistanceMapLoadSettings</name></member>
+      <member refid="classMR_1_1DistanceMapLoadSettings_1abe477ff6d128a940c071f3c1e9e4d652" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>DistanceMapLoadSettings</name></member>
       <member refid="classMR_1_1DistanceMapLoadSettings_1a02dda1fdf844fadaea0ea737a3ea97b0" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>DistanceMapLoadSettings</name></member>
       <member refid="classMR_1_1DistanceMapLoadSettings_1ac3a3475c13d56c84d0de716ecedae55b" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>DistanceMapLoadSettings</name></member>
       <member refid="classMR_1_1DistanceMapLoadSettings_1a56684daf977dd1a85c7c46acffa7b3d2" prot="public" virt="non-virtual"><scope>MR::DistanceMapLoadSettings</scope><name>DistanceMapLoadSettings</name></member>

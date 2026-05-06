@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshIntersectionResult" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshIntersectionResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshIntersectionResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshIntersectionResult" prot="public" virt="non-virtual">MR.Const_MeshIntersectionResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshIntersectionResult_1acd7189c3d953286ab4a54620e771f1db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1PointOnFace" kindref="compound">MR.PointOnFace</ref></type>
@@ -97,11 +97,11 @@
         <name>MeshIntersectionResult</name>
         <qualifiedname>MR.MeshIntersectionResult.MeshIntersectionResult</qualifiedname>
         <param>
-          <type>MR.Const_PointOnFace</type>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
           <declname>proj</declname>
         </param>
         <param>
-          <type>MR.Const_MeshTriPoint</type>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
           <declname>mtp</declname>
         </param>
         <param>
@@ -124,7 +124,7 @@
         <name>MeshIntersectionResult</name>
         <qualifiedname>MR.MeshIntersectionResult.MeshIntersectionResult</qualifiedname>
         <param>
-          <type>MR.Const_MeshIntersectionResult</type>
+          <type><ref refid="classMR_1_1Const__MeshIntersectionResult" kindref="compound">MR.Const_MeshIntersectionResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshIntersectionResult.assign</qualifiedname>
         <param>
-          <type>MR.Const_MeshIntersectionResult</type>
+          <type><ref refid="classMR_1_1Const__MeshIntersectionResult" kindref="compound">MR.Const_MeshIntersectionResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshIntersectionResult</label>
+        <link refid="classMR_1_1Const__MeshIntersectionResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -210,6 +211,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshIntersectionResult</label>
+        <link refid="classMR_1_1Const__MeshIntersectionResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,7 +226,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="140" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="141" bodyend="240"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a842167ec8cd53fa858941130256059eb" prot="protected" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>__ref_storage_distanceAlongLine</name></member>
       <member refid="classMR_1_1MeshIntersectionResult_1a7538dca67c0be98cc55490edd30be9c3" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1ad9db76d60c7ede388dc46800c293dab9" prot="package" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>Const_MeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a8afab89aca0b9d71998e2ee345b6a8de" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>Const_MeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a7c8603f7d3671b1cbccabd76cef3f186" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>Const_MeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a171bf2c7069932ca4fc99473035ecaab" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>Const_MeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a8e9bcc27880423beded46e243038e922" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>Const_MeshIntersectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1ad1204266ee7d8967baa97bf75ed0ece5" prot="protected" virt="virtual"><scope>MR::MeshIntersectionResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a2fcffcc7f7b801e0e2e109f24e4dcf56" prot="public" virt="virtual"><scope>MR::MeshIntersectionResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshIntersectionResult_1a7de2c929d2fe83acde97870716169342" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>distanceAlongLine</name></member>
       <member refid="classMR_1_1MeshIntersectionResult_1ac157679aad14f1a64834f25417531753" prot="package" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>MeshIntersectionResult</name></member>
       <member refid="classMR_1_1MeshIntersectionResult_1aa60d379fecec6f15aa6155f210070548" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>MeshIntersectionResult</name></member>
@@ -232,6 +242,7 @@
       <member refid="classMR_1_1MeshIntersectionResult_1a74d1d5d6411a6b4718636256afb063cb" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>MeshIntersectionResult</name></member>
       <member refid="classMR_1_1MeshIntersectionResult_1ac66a2eb14a1b8c5328d055bd18861c91" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>MeshIntersectionResult</name></member>
       <member refid="classMR_1_1MeshIntersectionResult_1a03cb48bf74c78540570d751913d1f9e6" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>mtp</name></member>
+      <member refid="classMR_1_1Const__MeshIntersectionResult_1a858b019d158385d3a2e5721512557062" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>operator bool</name></member>
       <member refid="classMR_1_1MeshIntersectionResult_1acd7189c3d953286ab4a54620e771f1db" prot="public" virt="non-virtual"><scope>MR::MeshIntersectionResult</scope><name>proj</name></member>
     </listofallmembers>
   </compounddef>

@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ChangeVisualizePropertyAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ChangeVisualizePropertyAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeVisualizePropertyAction" prot="public" virt="non-virtual">MR.ChangeVisualizePropertyAction</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1a463c971c321a434dc0a7fd419b28c35d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ChangeVisualizePropertyAction.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1a46bf375c5d03734ccc2984c54ce65fc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ChangeVisualizePropertyAction.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1a830fa75fce3a84e51072471bf34e9c37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeVisualizePropertyAction.Const_ChangeVisualizePropertyAction</definition>
+        <argsstring>(MR._ByValue_ChangeVisualizePropertyAction _other)</argsstring>
+        <name>Const_ChangeVisualizePropertyAction</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.Const_ChangeVisualizePropertyAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeVisualizePropertyAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeVisualizePropertyAction_1aeec67bea2df66aad38b17fddfa9aa493" kindref="member">MR.ChangeVisualizePropertyAction.ChangeVisualizePropertyAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="56" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="56" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1a8ae95156e1a074c7f81c7629f2a35a95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeVisualizePropertyAction.Const_ChangeVisualizePropertyAction</definition>
+        <argsstring>(Const_ChangeVisualizePropertyAction _other)</argsstring>
+        <name>Const_ChangeVisualizePropertyAction</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.Const_ChangeVisualizePropertyAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangeVisualizePropertyAction" kindref="compound">Const_ChangeVisualizePropertyAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeVisualizePropertyAction_1aeec67bea2df66aad38b17fddfa9aa493" kindref="member">MR.ChangeVisualizePropertyAction.ChangeVisualizePropertyAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="67" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1a03b0114753ef942274956df7fe3e27a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeVisualizePropertyAction.Const_ChangeVisualizePropertyAction</definition>
+        <argsstring>(ChangeVisualizePropertyAction _other)</argsstring>
+        <name>Const_ChangeVisualizePropertyAction</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.Const_ChangeVisualizePropertyAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeVisualizePropertyAction" kindref="compound">ChangeVisualizePropertyAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeVisualizePropertyAction_1aeec67bea2df66aad38b17fddfa9aa493" kindref="member">MR.ChangeVisualizePropertyAction.ChangeVisualizePropertyAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="72" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1a03f3eb04220daa7f8c23c458c68760f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeVisualizePropertyAction.Const_ChangeVisualizePropertyAction</definition>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRVisualObject obj, MR.Const_AnyVisualizeMaskEnum visualizeMaskType)</argsstring>
+        <name>Const_ChangeVisualizePropertyAction</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.Const_ChangeVisualizePropertyAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRVisualObject</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>visualizeMaskType</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object's visualize property mask before making any changes in it Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeVisualizePropertyAction_1aeec67bea2df66aad38b17fddfa9aa493" kindref="member">MR.ChangeVisualizePropertyAction.ChangeVisualizePropertyAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="78" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="78" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1a261b6feca67d2c8f45fb4661b0e7ac2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeVisualizePropertyAction.Const_ChangeVisualizePropertyAction</definition>
+        <argsstring>(string name, MR.Std.Const_SharedPtr_MRVisualObject obj, MR.Const_AnyVisualizeMaskEnum visualizeMaskType, MR.Const_ViewportMask newMask)</argsstring>
+        <name>Const_ChangeVisualizePropertyAction</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.Const_ChangeVisualizePropertyAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRVisualObject</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>visualizeMaskType</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>newMask</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object's visualize property mask and immediately set new value Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeVisualizePropertyAction_1aeec67bea2df66aad38b17fddfa9aa493" kindref="member">MR.ChangeVisualizePropertyAction.ChangeVisualizePropertyAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="95" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="95" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1acc8ae081eae81e8f7e04e4ca1ba2a9f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ChangeVisualizePropertyAction.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeVisualizePropertyAction_1acc8ae081eae81e8f7e04e4ca1ba2a9f4" kindref="member">MR.ChangeVisualizePropertyAction.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="112" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="112" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1a85d91926df4475ebb922819e9dbfefb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ChangeVisualizePropertyAction.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.heapBytes</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a85d91926df4475ebb922819e9dbfefb8" kindref="member">MR.ChangeVisualizePropertyAction.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="132" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="132" bodyend="137"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1a9c4c0e4be768ac4c33ad1b3ffb15e7d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeVisualizePropertyAction.~Const_ChangeVisualizePropertyAction</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ChangeVisualizePropertyAction</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.~Const_ChangeVisualizePropertyAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1ab04e1d4cd38bb1f8d82b9d44ff26577b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ChangeVisualizePropertyAction.operator MR.Const_HistoryAction</definition>
+        <argsstring>(Const_ChangeVisualizePropertyAction self)</argsstring>
+        <name>operator MR.Const_HistoryAction</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.operator MR.Const_HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangeVisualizePropertyAction" kindref="compound">Const_ChangeVisualizePropertyAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="30" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1acda08a2813588cc60e46845742bbc4c7" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ChangeVisualizePropertyAction.operator Const_ChangeVisualizePropertyAction?</definition>
+        <argsstring>(MR.Const_HistoryAction parent)</argsstring>
+        <name>operator Const_ChangeVisualizePropertyAction?</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.operator Const_ChangeVisualizePropertyAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__HistoryAction" kindref="compound">MR.Const_HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="40" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="40" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1a2db468da983bf8308d59959fb5fb7476" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_ChangeVisualizePropertyAction.setObjectDirty</definition>
+        <argsstring>(MR.Std.Const_SharedPtr_MRVisualObject _1)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.setObjectDirty</qualifiedname>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRVisualObject</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a2db468da983bf8308d59959fb5fb7476" kindref="member">MR.ChangeVisualizePropertyAction.setObjectDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="122" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="122" bodyend="127"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeVisualizePropertyAction_1a37a030b0b22338fcb306482f61cb0756" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeVisualizePropertyAction.Const_ChangeVisualizePropertyAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ChangeVisualizePropertyAction</name>
+        <qualifiedname>MR.Const_ChangeVisualizePropertyAction.Const_ChangeVisualizePropertyAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="51" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>History action for visualizeMaskType change Generated from class <computeroutput><ref refid="classMR_1_1ChangeVisualizePropertyAction" kindref="compound">MR.ChangeVisualizePropertyAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ChangeVisualizePropertyAction</label>
+        <link refid="classMR_1_1Const__ChangeVisualizePropertyAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ChangeVisualizePropertyAction</label>
+        <link refid="classMR_1_1ChangeVisualizePropertyAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ChangeVisualizePropertyAction</label>
+        <link refid="classMR_1_1Const__ChangeVisualizePropertyAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" line="11" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectFields.cs" bodystart="12" bodyend="138"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a37a030b0b22338fcb306482f61cb0756" prot="package" virt="non-virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>Const_ChangeVisualizePropertyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a830fa75fce3a84e51072471bf34e9c37" prot="public" virt="non-virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>Const_ChangeVisualizePropertyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a8ae95156e1a074c7f81c7629f2a35a95" prot="public" virt="non-virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>Const_ChangeVisualizePropertyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a03b0114753ef942274956df7fe3e27a5" prot="public" virt="non-virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>Const_ChangeVisualizePropertyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a03f3eb04220daa7f8c23c458c68760f0" prot="public" virt="non-virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>Const_ChangeVisualizePropertyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a261b6feca67d2c8f45fb4661b0e7ac2a" prot="public" virt="non-virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>Const_ChangeVisualizePropertyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a463c971c321a434dc0a7fd419b28c35d" prot="protected" virt="virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a46bf375c5d03734ccc2984c54ce65fc9" prot="public" virt="virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a85d91926df4475ebb922819e9dbfefb8" prot="public" virt="non-virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1acc8ae081eae81e8f7e04e4ca1ba2a9f4" prot="public" virt="non-virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1acda08a2813588cc60e46845742bbc4c7" prot="public" virt="non-virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>operator Const_ChangeVisualizePropertyAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1ab04e1d4cd38bb1f8d82b9d44ff26577b" prot="public" virt="non-virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>operator MR.Const_HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a2db468da983bf8308d59959fb5fb7476" prot="public" virt="non-virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>setObjectDirty</name></member>
+      <member refid="classMR_1_1Const__ChangeVisualizePropertyAction_1a9c4c0e4be768ac4c33ad1b3ffb15e7d1" prot="private" virt="non-virtual"><scope>MR::Const_ChangeVisualizePropertyAction</scope><name>~Const_ChangeVisualizePropertyAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

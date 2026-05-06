@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VolumeSegmentationParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::VolumeSegmentationParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VolumeSegmentationParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VolumeSegmentationParameters" prot="public" virt="non-virtual">MR.Const_VolumeSegmentationParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VolumeSegmentationParameters_1a9af87f2b8f126b5758aafb90d2c2c3d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -124,7 +124,7 @@
         <name>VolumeSegmentationParameters</name>
         <qualifiedname>MR.VolumeSegmentationParameters.VolumeSegmentationParameters</qualifiedname>
         <param>
-          <type>MR.Const_VolumeSegmentationParameters</type>
+          <type><ref refid="classMR_1_1Const__VolumeSegmentationParameters" kindref="compound">MR.Const_VolumeSegmentationParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.VolumeSegmentationParameters.assign</qualifiedname>
         <param>
-          <type>MR.Const_VolumeSegmentationParameters</type>
+          <type><ref refid="classMR_1_1Const__VolumeSegmentationParameters" kindref="compound">MR.Const_VolumeSegmentationParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -192,6 +192,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VolumeSegmentationParameters</label>
+        <link refid="classMR_1_1Const__VolumeSegmentationParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -213,6 +214,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VolumeSegmentationParameters</label>
+        <link refid="classMR_1_1Const__VolumeSegmentationParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -227,8 +229,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="125" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="126" bodyend="201"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1ad37841e0eb7b574f0c1bc83e9b9e3ad9" prot="protected" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>__ref_storage_buildPathExponentModifier</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1a24a3f00a3481ac610632b6598f591f36" prot="protected" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>__ref_storage_segmentationExponentModifier</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1abdd3355a5f3f9f2a9e10b0f6e7865839" prot="protected" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>__ref_storage_voxelsExpansion</name></member>
       <member refid="classMR_1_1VolumeSegmentationParameters_1a986cfbda89f30c10393829a2296d775e" prot="public" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1VolumeSegmentationParameters_1a9af87f2b8f126b5758aafb90d2c2c3d0" prot="public" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>buildPathExponentModifier</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1a4220aceedc649ae86e4e83e1730ff340" prot="package" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>Const_VolumeSegmentationParameters</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1aa9c0935c2ad2d485558f962b128e617e" prot="public" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>Const_VolumeSegmentationParameters</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1af947f18ce977ca48ca0b24c5b7811ab4" prot="public" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>Const_VolumeSegmentationParameters</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1a474791df2392ffa3c7414e9874703baa" prot="public" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>Const_VolumeSegmentationParameters</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1a076bf2cb20abf3d171058ace9bb4cdf5" prot="public" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>Const_VolumeSegmentationParameters</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1a738a91403b12ff69b0fcb136833a73db" prot="protected" virt="virtual"><scope>MR::VolumeSegmentationParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1a1b015d69bfcc09ba6cdb093df111d1b4" prot="public" virt="virtual"><scope>MR::VolumeSegmentationParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VolumeSegmentationParameters_1ad1a6e3794ca8ec9882f5128ac93c68e9" prot="public" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>segmentationExponentModifier</name></member>
       <member refid="classMR_1_1VolumeSegmentationParameters_1a3bd6a38a55fc3a0760b678594f6068e8" prot="package" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>VolumeSegmentationParameters</name></member>
       <member refid="classMR_1_1VolumeSegmentationParameters_1ac5d32997b3f626808fc0dff68bd9f7fa" prot="public" virt="non-virtual"><scope>MR::VolumeSegmentationParameters</scope><name>VolumeSegmentationParameters</name></member>

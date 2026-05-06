@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TwoLineSegmClosestPoints__Float" kind="class" language="C#" prot="public">
     <compoundname>MR::TwoLineSegmClosestPoints_Float</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TwoLineSegmClosestPoints_Float</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float" prot="public" virt="non-virtual">MR.Const_TwoLineSegmClosestPoints_Float</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TwoLineSegmClosestPoints__Float_1a1bf426f26d7ee108c334f8f9486f35b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -108,7 +108,7 @@
           <declname>dir</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;float&amp;amp;gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::TwoLineSegmClosestPoints&amp;lt;float&amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -123,11 +123,11 @@
         <name>TwoLineSegmClosestPoints_Float</name>
         <qualifiedname>MR.TwoLineSegmClosestPoints_Float.TwoLineSegmClosestPoints_Float</qualifiedname>
         <param>
-          <type>MR.Const_TwoLineSegmClosestPoints_Float</type>
+          <type><ref refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float" kindref="compound">MR.Const_TwoLineSegmClosestPoints_Float</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;float&amp;amp;gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&amp;lt;float&amp;gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -146,7 +146,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;float&amp;amp;gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TwoLineSegmClosestPoints&amp;lt;float&amp;gt;::TwoLineSegmClosestPoints</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -161,11 +161,11 @@
         <name>assign</name>
         <qualifiedname>MR.TwoLineSegmClosestPoints_Float.assign</qualifiedname>
         <param>
-          <type>MR.Const_TwoLineSegmClosestPoints_Float</type>
+          <type><ref refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float" kindref="compound">MR.Const_TwoLineSegmClosestPoints_Float</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;float&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TwoLineSegmClosestPoints&amp;lt;float&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -175,7 +175,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::TwoLineSegmClosestPoints&amp;amp;lt;float&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::TwoLineSegmClosestPoints&amp;lt;float&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -188,6 +188,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TwoLineSegmClosestPoints_Float</label>
+        <link refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -201,6 +202,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.TwoLineSegmClosestPoints_Float</label>
         <link refid="classMR_1_1TwoLineSegmClosestPoints__Float"/>
@@ -209,9 +214,15 @@
       </node>
       <node id="2">
         <label>MR.Const_TwoLineSegmClosestPoints_Float</label>
+        <link refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_a</edgelabel>
+          <edgelabel>__ref_storage_b</edgelabel>
+          <edgelabel>__ref_storage_dir</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -223,10 +234,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" line="121" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTwoLineSegmDist.cs" bodystart="122" bodyend="197"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float_1af8d55b3cebbcdff1fbe49fa5273d24ba" prot="protected" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float_1a74e8a74c9a60efc29ef21215a0b0d119" prot="protected" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>__ref_storage_b</name></member>
+      <member refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float_1a4485f3f5d86b3fdcbce3742e294c848e" prot="protected" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>__ref_storage_dir</name></member>
       <member refid="classMR_1_1TwoLineSegmClosestPoints__Float_1a1bf426f26d7ee108c334f8f9486f35b3" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>a</name></member>
       <member refid="classMR_1_1TwoLineSegmClosestPoints__Float_1ac47ba385cf1f85f0a224481aac7b0c82" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>assign</name></member>
       <member refid="classMR_1_1TwoLineSegmClosestPoints__Float_1ab1f990f6394621d61c5b9ad4bd41969f" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float_1aaecd10a0b5bec96827867efe42fb0d0c" prot="package" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>Const_TwoLineSegmClosestPoints_Float</name></member>
+      <member refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float_1a2d51654497f1ecbe3d829c6598d16fa7" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>Const_TwoLineSegmClosestPoints_Float</name></member>
+      <member refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float_1a684b012e34ee48551f89b3e2c1870b38" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>Const_TwoLineSegmClosestPoints_Float</name></member>
+      <member refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float_1ab9e325462a14e698b775cebd1fd0177c" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>Const_TwoLineSegmClosestPoints_Float</name></member>
+      <member refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float_1a0296440349a514b156554a74e6a1f046" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>Const_TwoLineSegmClosestPoints_Float</name></member>
       <member refid="classMR_1_1TwoLineSegmClosestPoints__Float_1a7abd3f83454abd0b469d33b09153438d" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>dir</name></member>
+      <member refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float_1afdbf1d86e901670e5da7dac66b515123" prot="protected" virt="virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TwoLineSegmClosestPoints__Float_1a8d8809959a0195912c3b9b5871d653f0" prot="public" virt="virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TwoLineSegmClosestPoints__Float_1af40be75b83f024b49968867699fd637f" prot="package" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>TwoLineSegmClosestPoints_Float</name></member>
       <member refid="classMR_1_1TwoLineSegmClosestPoints__Float_1a7bf16d2138ecbff61f23a8cbf943bf7f" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>TwoLineSegmClosestPoints_Float</name></member>
       <member refid="classMR_1_1TwoLineSegmClosestPoints__Float_1a40cb1f8cc63b6aa6881278d5b24b1e8d" prot="public" virt="non-virtual"><scope>MR::TwoLineSegmClosestPoints_Float</scope><name>TwoLineSegmClosestPoints_Float</name></member>

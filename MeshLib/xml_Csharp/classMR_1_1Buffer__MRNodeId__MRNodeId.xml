@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer__MRNodeId__MRNodeId" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MRNodeId_MRNodeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MRNodeId_MRNodeId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId" prot="public" virt="non-virtual">MR.Const_Buffer_MRNodeId_MRNodeId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Buffer__MRNodeId__MRNodeId_1ad92d73ecad161ffcefd5daf9520d7097" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
@@ -12,7 +12,7 @@
         <name>this[MR.NodeId i]</name>
         <qualifiedname>MR.Buffer_MRNodeId_MRNodeId.this[MR.NodeId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -62,7 +62,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::Buffer</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Buffer</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -81,7 +81,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::Buffer</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::Buffer</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -100,7 +100,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
         <name>clear</name>
         <qualifiedname>MR.Buffer_MRNodeId_MRNodeId.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1a31b58d7f374f91e61ddc9bab8d5d0655" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1a31b58d7f374f91e61ddc9bab8d5d0655" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1a5c4210c2864661bc97059524d250bac0" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1a5c4210c2864661bc97059524d250bac0" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -149,7 +149,7 @@
         <name>data</name>
         <qualifiedname>MR.Buffer_MRNodeId_MRNodeId.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1a4b131bd4abc22b632aacb053a5a26d91" kindref="member">data</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1a4b131bd4abc22b632aacb053a5a26d91" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -199,7 +199,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;V&amp;gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
+<para>std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -215,7 +215,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>, <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -235,6 +235,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRNodeId_MRNodeId</label>
+        <link refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -263,6 +264,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRNodeId_MRNodeId</label>
+        <link refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -280,15 +282,28 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="7465" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="7466" bodyend="7625"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1a9a655b588a95f96c52f3dc957fe37307" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId_1ae01d55058490f558d6fdcf9834468f71" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId_1a8373d4d7890363f9fdf100dd2713ba2c" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>beginId</name></member>
       <member refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1a63d1da85dab1a928ad730834044be7c1" prot="package" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>Buffer_MRNodeId_MRNodeId</name></member>
       <member refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1adc9fd628987dc653687a477353931ee8" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>Buffer_MRNodeId_MRNodeId</name></member>
       <member refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1a4864712857e79a82fdf57a5f379d6618" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>Buffer_MRNodeId_MRNodeId</name></member>
       <member refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1ae942afa2e0d1626dc8561d0ed06a953c" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>Buffer_MRNodeId_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId_1a2601c166f57c74e08a751e29f520d7e8" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1a31b58d7f374f91e61ddc9bab8d5d0655" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId_1a524828456658a134b96f9a1bfcfc0660" prot="package" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>Const_Buffer_MRNodeId_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId_1accb864a9c2ad55c9b7d7414d4d1f5c4b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>Const_Buffer_MRNodeId_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId_1aa379e322a78a14a0dccc224dfca42b0e" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>Const_Buffer_MRNodeId_MRNodeId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId_1a76b5d7b66118068d71321dae1375cb2c" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>Const_Buffer_MRNodeId_MRNodeId</name></member>
       <member refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1a4b131bd4abc22b632aacb053a5a26d91" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId_1a9c783a94dea15e4619e97bddb35bf7f6" prot="protected" virt="virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId_1a3ce6888cb2c19665d765de248461cedc" prot="public" virt="virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId_1a81d076e1212e5f465c192b0592e92f97" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId_1aec757fdca60fe908b05ee7f17f742f39" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1a4b7b3a707a8d6f2a122bcbfeea069afc" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1ae42f4ef1b965e4617ee49252fdbbaf34" prot="private" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId_1a5922ab22134eebde9ecd06b1814dd5aa" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1a5c4210c2864661bc97059524d250bac0" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRNodeId__MRNodeId_1a3ebcc922c051d5fdf0ffc9ed34d0e131" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>size</name></member>
       <member refid="classMR_1_1Buffer__MRNodeId__MRNodeId_1ad92d73ecad161ffcefd5daf9520d7097" prot="public" virt="non-virtual"><scope>MR::Buffer_MRNodeId_MRNodeId</scope><name>this[MR.NodeId i]</name></member>
     </listofallmembers>
   </compounddef>

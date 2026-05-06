@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__pair__MR__Vector3f__MR__TriPointf_8h" kind="file" language="C++">
+    <compoundname>std_pair_MR_Vector3f_MR_TriPointf.h</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_pair_MR_Vector3f_MR_TriPointf.h</label>
+        <link refid="std__pair__MR__Vector3f__MR__TriPointf_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__TriPointf_8h_1a6fe0e2e0c212273ec6b0e69f74aaf192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Vector3f_MR_TriPointf * MR_std_pair_MR_Vector3f_MR_TriPointf_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1aca7034128e17856b3483467349851d3c" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" line="21" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" declline="21" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__TriPointf_8h_1a44200bace4b9b34007a35fb8b267d53f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Vector3f_MR_TriPointf * MR_std_pair_MR_Vector3f_MR_TriPointf_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1acea65c95030c11117e38040f4a2c813d" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1ad04a60fb7717a4125d38844da507525a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a7f023ff1d1726f1bcf1acfdc2c868bc4" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" line="26" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" declline="26" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__TriPointf_8h_1ae15886b1f3186d5ec98afe7eb9fbe277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Vector3f_MR_TriPointf * MR_std_pair_MR_Vector3f_MR_TriPointf_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_pair_MR_Vector3f_MR_TriPointf *other)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1aca7034128e17856b3483467349851d3c" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" line="33" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" declline="33" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__TriPointf_8h_1a1721b0c9d2445ec002398cb3f93d23c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_MR_Vector3f_MR_TriPointf_AssignFromAnother</definition>
+        <argsstring>(MR_std_pair_MR_Vector3f_MR_TriPointf *_this, const MR_std_pair_MR_Vector3f_MR_TriPointf *other)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" line="40" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" declline="40" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__TriPointf_8h_1aca7034128e17856b3483467349851d3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_MR_Vector3f_MR_TriPointf_Destroy</definition>
+        <argsstring>(const MR_std_pair_MR_Vector3f_MR_TriPointf *_this)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf_Destroy</name>
+        <param>
+          <type>const <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" declline="43" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__TriPointf_8h_1acea65c95030c11117e38040f4a2c813d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_MR_Vector3f_MR_TriPointf_DestroyArray</definition>
+        <argsstring>(const MR_std_pair_MR_Vector3f_MR_TriPointf *_this)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__TriPointf_8h_1a7f023ff1d1726f1bcf1acfdc2c868bc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+        <definition>MRC_API const MR_std_pair_MR_Vector3f_MR_TriPointf * MR_std_pair_MR_Vector3f_MR_TriPointf_OffsetPtr</definition>
+        <argsstring>(const MR_std_pair_MR_Vector3f_MR_TriPointf *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" line="50" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" declline="50" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__TriPointf_8h_1ad04a60fb7717a4125d38844da507525a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Vector3f_MR_TriPointf * MR_std_pair_MR_Vector3f_MR_TriPointf_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_pair_MR_Vector3f_MR_TriPointf *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" line="54" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" declline="54" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__TriPointf_8h_1aeef4aa2e3db78788c760f1215720a8eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Vector3f_MR_TriPointf * MR_std_pair_MR_Vector3f_MR_TriPointf_Construct</definition>
+        <argsstring>(MR_Vector3f first, const MR_TriPointf *second)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf_Construct</name>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref> *</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the pair elementwise. The reference to the parameter <computeroutput>first</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>second</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>second</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1aca7034128e17856b3483467349851d3c" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" line="62" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" declline="62" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__TriPointf_8h_1a244cd70bc7b5a5b537355e2d8d09f9e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_std_pair_MR_Vector3f_MR_TriPointf_first</definition>
+        <argsstring>(const MR_std_pair_MR_Vector3f_MR_TriPointf *_this)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf_first</name>
+        <param>
+          <type>const <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" line="68" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" declline="68" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__TriPointf_8h_1a997c904dc8b77db7d5b562dde8776f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_std_pair_MR_Vector3f_MR_TriPointf_first_mut</definition>
+        <argsstring>(MR_std_pair_MR_Vector3f_MR_TriPointf *_this)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf_first_mut</name>
+        <param>
+          <type><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" line="74" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" declline="74" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__TriPointf_8h_1a59267670a2cf41fefd368140a3c9885d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref> *</type>
+        <definition>MRC_API const MR_TriPointf * MR_std_pair_MR_Vector3f_MR_TriPointf_second</definition>
+        <argsstring>(const MR_std_pair_MR_Vector3f_MR_TriPointf *_this)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf_second</name>
+        <param>
+          <type>const <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" line="80" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" declline="80" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__TriPointf_8h_1acb5a37f7743c379d86f4a1158a9ad196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref> *</type>
+        <definition>MRC_API MR_TriPointf * MR_std_pair_MR_Vector3f_MR_TriPointf_second_mut</definition>
+        <argsstring>(MR_std_pair_MR_Vector3f_MR_TriPointf *_this)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf_second_mut</name>
+        <param>
+          <type><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" line="86" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h" declline="86" declcolumn="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a6fe0e2e0c212273ec6b0e69f74aaf192" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a6fe0e2e0c212273ec6b0e69f74aaf192" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a44200bace4b9b34007a35fb8b267d53f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a44200bace4b9b34007a35fb8b267d53f" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1ae15886b1f3186d5ec98afe7eb9fbe277" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1ae15886b1f3186d5ec98afe7eb9fbe277" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a1721b0c9d2445ec002398cb3f93d23c7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a1721b0c9d2445ec002398cb3f93d23c7" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_AssignFromAnother</ref>(<ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1aca7034128e17856b3483467349851d3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1aca7034128e17856b3483467349851d3c" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1acea65c95030c11117e38040f4a2c813d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1acea65c95030c11117e38040f4a2c813d" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a7f023ff1d1726f1bcf1acfdc2c868bc4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a7f023ff1d1726f1bcf1acfdc2c868bc4" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1ad04a60fb7717a4125d38844da507525a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1ad04a60fb7717a4125d38844da507525a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_OffsetMutablePtr</ref>(<ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1aeef4aa2e3db78788c760f1215720a8eb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1aeef4aa2e3db78788c760f1215720a8eb" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_Construct</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>first,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*second);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a244cd70bc7b5a5b537355e2d8d09f9e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a244cd70bc7b5a5b537355e2d8d09f9e9" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_first</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a997c904dc8b77db7d5b562dde8776f65" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a997c904dc8b77db7d5b562dde8776f65" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_first_mut</ref>(<ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a59267670a2cf41fefd368140a3c9885d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1a59267670a2cf41fefd368140a3c9885d" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_second</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1acb5a37f7743c379d86f4a1158a9ad196" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1acb5a37f7743c379d86f4a1158a9ad196" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_second_mut</ref>(<ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h"/>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LoadedObjects" kind="class" language="C#" prot="public">
     <compoundname>MR::LoadedObjects</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_LoadedObjects</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__LoadedObjects" prot="public" virt="non-virtual">MR.Const_LoadedObjects</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1LoadedObjects_1a35bd06280c4eeebeb160805dae760c73" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_StdSharedPtrMRObject</type>
@@ -141,7 +141,7 @@
         <name>LoadedObjects</name>
         <qualifiedname>MR.LoadedObjects.LoadedObjects</qualifiedname>
         <param>
-          <type>Const_LoadedObjects</type>
+          <type><ref refid="classMR_1_1Const__LoadedObjects" kindref="compound">Const_LoadedObjects</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -206,6 +206,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedObjects</label>
+        <link refid="classMR_1_1Const__LoadedObjects"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -227,6 +228,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedObjects</label>
+        <link refid="classMR_1_1Const__LoadedObjects"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -242,6 +244,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="1604" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="1605" bodyend="1715"/>
     <listofallmembers>
       <member refid="classMR_1_1LoadedObjects_1a5163a238d5dd243ee159d57c5d0e6972" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__LoadedObjects_1a53a972d4d8c2fd045a9789a4fb323d22" prot="package" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>Const_LoadedObjects</name></member>
+      <member refid="classMR_1_1Const__LoadedObjects_1af433a09a64de27e9c289cfa40d63b017" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>Const_LoadedObjects</name></member>
+      <member refid="classMR_1_1Const__LoadedObjects_1a46b99ec9a052535f9b0db3bdfc56b882" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>Const_LoadedObjects</name></member>
+      <member refid="classMR_1_1Const__LoadedObjects_1a6850db1c0c44c8b2a6ffc5dea389368f" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>Const_LoadedObjects</name></member>
+      <member refid="classMR_1_1Const__LoadedObjects_1a5bfa9c6de911034afbb511ab5b056a25" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>Const_LoadedObjects</name></member>
+      <member refid="classMR_1_1Const__LoadedObjects_1a43dbd9713e648775eb9c6cc964234ddd" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>Const_LoadedObjects</name></member>
+      <member refid="classMR_1_1Const__LoadedObjects_1a5f31f49e5744876af45e3062f1e1f787" prot="protected" virt="virtual"><scope>MR::LoadedObjects</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LoadedObjects_1abfa02b24cd237db1bdc21d849a3c36df" prot="public" virt="virtual"><scope>MR::LoadedObjects</scope><name>Dispose</name></member>
       <member refid="classMR_1_1LoadedObjects_1a7602b0600ddea5f8a234902faca96cb4" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>lengthUnit</name></member>
       <member refid="classMR_1_1LoadedObjects_1a3673d70c0ecc6c3b0c1ac0d41f56dde1" prot="package" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>LoadedObjects</name></member>
       <member refid="classMR_1_1LoadedObjects_1ac5d6d0bede2e605f8746f6d329119455" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>LoadedObjects</name></member>

@@ -1,7 +1,7 @@
 var classMR_1_1DistanceMapLoadSettings =
 [
     [ "DistanceMapLoadSettings", "classMR_1_1DistanceMapLoadSettings.html#a662fda52cacab21f277647212a1e69a8", null ],
-    [ "DistanceMapLoadSettings", "classMR_1_1DistanceMapLoadSettings.html#a099b5439dc28727a75aa1543275f4ba3", null ],
+    [ "DistanceMapLoadSettings", "classMR_1_1DistanceMapLoadSettings.html#abe477ff6d128a940c071f3c1e9e4d652", null ],
     [ "DistanceMapLoadSettings", "classMR_1_1DistanceMapLoadSettings.html#a02dda1fdf844fadaea0ea737a3ea97b0", null ],
     [ "DistanceMapLoadSettings", "classMR_1_1DistanceMapLoadSettings.html#ac3a3475c13d56c84d0de716ecedae55b", null ],
     [ "DistanceMapLoadSettings", "classMR_1_1DistanceMapLoadSettings.html#a56684daf977dd1a85c7c46acffa7b3d2", null ],

@@ -1,0 +1,743 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Vector4__UnsignedChar" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Vector4_UnsignedChar</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Vector4__UnsignedChar" prot="public" virt="non-virtual">MR.Vector4_UnsignedChar</derivedcompoundref>
+    <innerclass refid="structMR_1_1Const__Vector4__UnsignedChar_1_1__Underlying" prot="package">MR::Const_Vector4_UnsignedChar::_Underlying</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Vector4__UnsignedChar_1ac6d4fb5241a0f933fc300e482b0b3c7b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_Vector4_UnsignedChar.Elements</definition>
+        <argsstring></argsstring>
+        <name>Elements</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.Elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3952" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3952" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector4__UnsignedChar_1a4fc4da5393c6856699705193972d5416" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_Vector4_UnsignedChar.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3955" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3955" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector4__UnsignedChar_1a43b54d089bae7077afb8b65967b288eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_Vector4_UnsignedChar.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3958" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3958" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector4__UnsignedChar_1aeae941051c0a4c6424a81b521aeb510f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_Vector4_UnsignedChar.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3961" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3961" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector4__UnsignedChar_1ac80fe898d3ca547dc5ce68ad8d85ffd2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_Vector4_UnsignedChar.w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.w</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3964" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3964" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector4__UnsignedChar_1a67f5dd59b0cb0ce9fc5ace16ad9ba88c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_Vector4_UnsignedChar.this[int e]</definition>
+        <argsstring></argsstring>
+        <name>this[int e]</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.this[int e]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector4&amp;lt;unsigned char&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4080" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4081" bodyend="4088"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Vector4__UnsignedChar_1a8a8472aec9fae1e45b04b3f99c599935" prot="protected" static="yes" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_Vector4_UnsignedChar.__ref_storage_Elements</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_Elements</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.__ref_storage_Elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3953" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3953" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Vector4__UnsignedChar_1a9cadd6f04b329a2e0ad30f1a49951ab8" prot="protected" static="no" mutable="no">
+        <type>unsafe byte *</type>
+        <definition>unsafe byte* MR.Const_Vector4_UnsignedChar.__ref_storage_x</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_x</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.__ref_storage_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3956" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3956" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Vector4__UnsignedChar_1a7204cea2aba7a144ade094477142f060" prot="protected" static="no" mutable="no">
+        <type>unsafe byte *</type>
+        <definition>unsafe byte* MR.Const_Vector4_UnsignedChar.__ref_storage_y</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_y</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.__ref_storage_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3959" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3959" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Vector4__UnsignedChar_1a800f98a041c8a3a1a3ef4af1f2c1e116" prot="protected" static="no" mutable="no">
+        <type>unsafe byte *</type>
+        <definition>unsafe byte* MR.Const_Vector4_UnsignedChar.__ref_storage_z</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_z</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.__ref_storage_z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3962" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3962" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Vector4__UnsignedChar_1a6d7d4bed6a14d2722e40f251d7acc48a" prot="protected" static="no" mutable="no">
+        <type>unsafe byte *</type>
+        <definition>unsafe byte* MR.Const_Vector4_UnsignedChar.__ref_storage_w</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_w</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.__ref_storage_w</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3965" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3965" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a67dc734a66fdff0bb96b5860b267132f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Vector4_UnsignedChar.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3940" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3940" bodyend="3948"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a298188c9fd32ab3c4bcc49cad5840ebc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Vector4_UnsignedChar.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3949" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3949" bodyend="3949"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a57c3fc2aa06d5523ce1a8736458dacc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Vector4_UnsignedChar</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4019" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4019" bodyend="4025"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a8103618271cb01d0f1247e94ad4a2034" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar _other)</argsstring>
+        <name>Const_Vector4_UnsignedChar</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector4&amp;lt;unsigned char&amp;gt;::Vector4</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4030" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4030" bodyend="4037"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a7ff8e8c4167ffd25b1ba351c1e291d90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</definition>
+        <argsstring>(Vector4_UnsignedChar _other)</argsstring>
+        <name>Const_Vector4_UnsignedChar</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector4__UnsignedChar" kindref="compound">Vector4_UnsignedChar</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector4&amp;lt;unsigned char&amp;gt;::Vector4</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4042" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4042" bodyend="4042"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a126561ea5257762f689c078a7b4987ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>Const_Vector4_UnsignedChar</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector4&amp;lt;unsigned char&amp;gt;::Vector4</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4047" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4047" bodyend="4054"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a33b0d662655c71967d44bbeda29719e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</definition>
+        <argsstring>(byte x, byte y, byte z, byte w)</argsstring>
+        <name>Const_Vector4_UnsignedChar</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector4&amp;lt;unsigned char&amp;gt;::Vector4</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4059" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4059" bodyend="4065"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a4472533ed3d7f9e0ea0497874b1b1910" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_Vector4_UnsignedChar.lengthSq</definition>
+        <argsstring>()</argsstring>
+        <name>lengthSq</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.lengthSq</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector4&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Vector4__UnsignedChar_1a4472533ed3d7f9e0ea0497874b1b1910" kindref="member">lengthSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4093" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4093" bodyend="4098"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a92d83f9714e14ec01350eee1e359c3af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Vector4_UnsignedChar.length</definition>
+        <argsstring>()</argsstring>
+        <name>length</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.length</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector4&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Vector4__UnsignedChar_1a92d83f9714e14ec01350eee1e359c3af" kindref="member">length</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4103" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4103" bodyend="4108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1ad0352c2c55b684861f7de519b61d5804" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Vector4_UnsignedChar.Equals</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4198" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4198" bodyend="4203"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a7097c79f6975686c05bc77a97a239fac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_Vector4_UnsignedChar.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4205" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4205" bodyend="4212"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1afbbadc76bd2fdb2a970061bad539169a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector4_UnsignedChar.~Const_Vector4_UnsignedChar</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Vector4_UnsignedChar</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.~Const_Vector4_UnsignedChar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3950" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3950" bodyend="3950"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1ad6a1dcb62df9902fd3aa0d2b3911dd61" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Vector4_UnsignedChar</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3967" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3967" bodyend="3974"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a5474088ee7673b5528add67d6d76b151" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Vector4_UnsignedChar</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.Const_Vector4_UnsignedChar</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4008" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4008" bodyend="4013"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a5082e21de56a225670e1ae9a842d156a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector4__UnsignedChar" kindref="compound">MR.Vector4_UnsignedChar</ref></type>
+        <definition>static unsafe MR.Vector4_UnsignedChar MR.Const_Vector4_UnsignedChar.diagonal</definition>
+        <argsstring>(byte a)</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.diagonal</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector4&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Vector4__UnsignedChar_1a5082e21de56a225670e1ae9a842d156a" kindref="member">diagonal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4070" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4070" bodyend="4075"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a7aebd2dc8eaf98ae37799419268ab784" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Vector4_UnsignedChar.operator==</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar a, MR.Const_Vector4_UnsignedChar b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4113" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4113" bodyend="4118"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1af5ef7463c9e043356adf3e464cb752c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Vector4_UnsignedChar.operator!=</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar a, MR.Const_Vector4_UnsignedChar b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4120" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4120" bodyend="4123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1aaa727959edf63ab7bcea0adf3a15763e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+        <definition>static unsafe MR.Const_Vector4_UnsignedChar MR.Const_Vector4_UnsignedChar.operator+</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar a)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.operator+</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator+</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4129" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4129" bodyend="4134"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1ab7c123afc4e1fb68c537fc95afa5c5af" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static unsafe MR.Vector4i MR.Const_Vector4_UnsignedChar.operator-</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar a)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator-</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4139" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4139" bodyend="4144"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a7d275a679fcf04f346c4ef7270d8e67d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static unsafe MR.Vector4i MR.Const_Vector4_UnsignedChar.operator+</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar a, MR.Const_Vector4_UnsignedChar b)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.operator+</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator+</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4149" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4149" bodyend="4154"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1ab9e3cedcd6f60668b127e6397b181bc4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static unsafe MR.Vector4i MR.Const_Vector4_UnsignedChar.operator-</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar a, MR.Const_Vector4_UnsignedChar b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator-</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4159" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4159" bodyend="4164"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a56be296dc594f6b3852d817a1fc276cb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static unsafe MR.Vector4i MR.Const_Vector4_UnsignedChar.operator*</definition>
+        <argsstring>(byte a, MR.Const_Vector4_UnsignedChar b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.operator*</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4169" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4169" bodyend="4174"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a2003afde627a56f108e712c28213fc8f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static unsafe MR.Vector4i MR.Const_Vector4_UnsignedChar.operator*</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar b, byte a)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.operator*</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4179" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4179" bodyend="4184"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector4__UnsignedChar_1a096bb4ea7f035d7c0a3ddf6dd7dfc71a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector4i" kindref="compound">MR.Vector4i</ref></type>
+        <definition>static unsafe MR.Vector4i MR.Const_Vector4_UnsignedChar.operator/</definition>
+        <argsstring>(Const_Vector4_UnsignedChar b, byte a)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>MR.Const_Vector4_UnsignedChar.operator/</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">Const_Vector4_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator/</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="4189" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="4189" bodyend="4194"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>four-dimensional vector Generated from class <computeroutput>MR::Vector4&amp;lt;unsigned char&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Vector4_UnsignedChar</label>
+        <link refid="classMR_1_1Const__Vector4__UnsignedChar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.Vector4_UnsignedChar</label>
+        <link refid="classMR_1_1Vector4__UnsignedChar"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Vector4_UnsignedChar</label>
+        <link refid="classMR_1_1Const__Vector4__UnsignedChar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" line="3934" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector4.cs" bodystart="3935" bodyend="4213"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a8a8472aec9fae1e45b04b3f99c599935" prot="protected" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>__ref_storage_Elements</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a6d7d4bed6a14d2722e40f251d7acc48a" prot="protected" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>__ref_storage_w</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a9cadd6f04b329a2e0ad30f1a49951ab8" prot="protected" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>__ref_storage_x</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a7204cea2aba7a144ade094477142f060" prot="protected" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>__ref_storage_y</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a800f98a041c8a3a1a3ef4af1f2c1e116" prot="protected" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>__ref_storage_z</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1ad6a1dcb62df9902fd3aa0d2b3911dd61" prot="private" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>Const_Vector4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a5474088ee7673b5528add67d6d76b151" prot="package" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>Const_Vector4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a57c3fc2aa06d5523ce1a8736458dacc0" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>Const_Vector4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a8103618271cb01d0f1247e94ad4a2034" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>Const_Vector4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a7ff8e8c4167ffd25b1ba351c1e291d90" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>Const_Vector4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a126561ea5257762f689c078a7b4987ce" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>Const_Vector4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a33b0d662655c71967d44bbeda29719e5" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>Const_Vector4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a5082e21de56a225670e1ae9a842d156a" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>diagonal</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a67dc734a66fdff0bb96b5860b267132f" prot="protected" virt="virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a298188c9fd32ab3c4bcc49cad5840ebc" prot="public" virt="virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1ac6d4fb5241a0f933fc300e482b0b3c7b" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>Elements</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1ad0352c2c55b684861f7de519b61d5804" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a7097c79f6975686c05bc77a97a239fac" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a92d83f9714e14ec01350eee1e359c3af" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>length</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a4472533ed3d7f9e0ea0497874b1b1910" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>lengthSq</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1af5ef7463c9e043356adf3e464cb752c7" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a56be296dc594f6b3852d817a1fc276cb" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a2003afde627a56f108e712c28213fc8f" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1aaa727959edf63ab7bcea0adf3a15763e" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a7d275a679fcf04f346c4ef7270d8e67d" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1ab7c123afc4e1fb68c537fc95afa5c5af" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1ab9e3cedcd6f60668b127e6397b181bc4" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a096bb4ea7f035d7c0a3ddf6dd7dfc71a" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>operator/</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a7aebd2dc8eaf98ae37799419268ab784" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a67f5dd59b0cb0ce9fc5ace16ad9ba88c" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>this[int e]</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1ac80fe898d3ca547dc5ce68ad8d85ffd2" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>w</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a4fc4da5393c6856699705193972d5416" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>x</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1a43b54d089bae7077afb8b65967b288eb" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>y</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1aeae941051c0a4c6424a81b521aeb510f" prot="public" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>z</name></member>
+      <member refid="classMR_1_1Const__Vector4__UnsignedChar_1afbbadc76bd2fdb2a970061bad539169a" prot="private" virt="non-virtual"><scope>MR::Const_Vector4_UnsignedChar</scope><name>~Const_Vector4_UnsignedChar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

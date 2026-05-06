@@ -25,6 +25,8 @@ var MREdgePaths_8h =
     [ "MR_dilateRegionByMetric_MR_FaceBitSet", "MREdgePaths_8h.html#af62879523e5b10584a8cfd6c32eae06b", null ],
     [ "MR_dilateRegionByMetric_MR_UndirectedEdgeBitSet", "MREdgePaths_8h.html#a63582c5b89776bc785fa3827154fb970", null ],
     [ "MR_dilateRegionByMetric_MR_VertBitSet", "MREdgePaths_8h.html#a297cfccc1376ef786e7eaf8c5b52d256", null ],
+    [ "MR_edgePathsToContours3f", "MREdgePaths_8h.html#a197d013874325af01fcc43ba5b2ac245", null ],
+    [ "MR_edgePathToContour3f", "MREdgePaths_8h.html#a416d65992fa4b38a28e1596272289b2c", null ],
     [ "MR_erodeRegion_4_MR_FaceBitSet", "MREdgePaths_8h.html#a42ff51e76855472a94e3929cc976a2af", null ],
     [ "MR_erodeRegion_4_MR_UndirectedEdgeBitSet", "MREdgePaths_8h.html#a0cf67468edfd1aa3baf303c9ca1d577a", null ],
     [ "MR_erodeRegion_4_MR_VertBitSet", "MREdgePaths_8h.html#a47d26238c8739374deb6bdf8283b7faf", null ],

@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FaceScalars" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FaceScalars</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FaceScalars" prot="public" virt="non-virtual">MR.FaceScalars</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__FaceScalars_1ad989fd5d5ae54b94b101768aed5a4e30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_Float</type>
+        <definition>unsafe MR.Std.Const_Vector_Float MR.Const_FaceScalars.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_FaceScalars.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18297" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18297" bodyend="18297"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FaceScalars_1a3b51e3b679f8363f96938e19dc6a2fc9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_FaceScalars.this[MR.FaceId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.FaceId i]</name>
+        <qualifiedname>MR.Const_FaceScalars.this[MR.FaceId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::FaceScalars::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18446" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18447" bodyend="18454"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a216d6630e57d80ded5430c266ca7ee79" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FaceScalars.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FaceScalars.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18218" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18218" bodyend="18226"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a86881029b6522f116ddfc71f6e069e22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FaceScalars.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FaceScalars.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18227" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18227" bodyend="18227"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a20b425a7f98e00bd67c2c31ec951b624" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; float &gt;</type>
+        <definition>IEnumerator&lt; float &gt; MR.Const_FaceScalars.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_FaceScalars.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18284" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18284" bodyend="18287"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a835d9b2698130ef5dee71f813f3d216e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceScalars.Const_FaceScalars</definition>
+        <argsstring>()</argsstring>
+        <name>Const_FaceScalars</name>
+        <qualifiedname>MR.Const_FaceScalars.Const_FaceScalars</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18325" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18325" bodyend="18331"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a22f61b6bc79f27a11b99634dce33c13c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceScalars.Const_FaceScalars</definition>
+        <argsstring>(MR._ByValue_FaceScalars _other)</argsstring>
+        <name>Const_FaceScalars</name>
+        <qualifiedname>MR.Const_FaceScalars.Const_FaceScalars</qualifiedname>
+        <param>
+          <type>MR._ByValue_FaceScalars</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceScalars_1ad7b9129509e24d9b954eb3b44a24ab30" kindref="member">MR.FaceScalars.FaceScalars</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18336" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18336" bodyend="18343"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a705c07b0a713f0715bf4744b0ef5ec94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceScalars.Const_FaceScalars</definition>
+        <argsstring>(Const_FaceScalars _other)</argsstring>
+        <name>Const_FaceScalars</name>
+        <qualifiedname>MR.Const_FaceScalars.Const_FaceScalars</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceScalars" kindref="compound">Const_FaceScalars</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceScalars_1ad7b9129509e24d9b954eb3b44a24ab30" kindref="member">MR.FaceScalars.FaceScalars</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18348" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18348" bodyend="18348"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1af97c4a585c0833386402794ec74c0f0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceScalars.Const_FaceScalars</definition>
+        <argsstring>(FaceScalars _other)</argsstring>
+        <name>Const_FaceScalars</name>
+        <qualifiedname>MR.Const_FaceScalars.Const_FaceScalars</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceScalars" kindref="compound">FaceScalars</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceScalars_1ad7b9129509e24d9b954eb3b44a24ab30" kindref="member">MR.FaceScalars.FaceScalars</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18353" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18353" bodyend="18353"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a8638326dddc1a4b39d01bb8379972b1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceScalars.Const_FaceScalars</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_FaceScalars</name>
+        <qualifiedname>MR.Const_FaceScalars.Const_FaceScalars</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1FaceScalars_1ad7b9129509e24d9b954eb3b44a24ab30" kindref="member">MR.FaceScalars.FaceScalars</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18359" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18359" bodyend="18365"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a3581732d1825799eed3b8572c0cb023e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceScalars.Const_FaceScalars</definition>
+        <argsstring>(ulong size, float val)</argsstring>
+        <name>Const_FaceScalars</name>
+        <qualifiedname>MR.Const_FaceScalars.Const_FaceScalars</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1FaceScalars_1ad7b9129509e24d9b954eb3b44a24ab30" kindref="member">MR.FaceScalars.FaceScalars</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18371" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18371" bodyend="18377"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1aa7c7102eb2e1331f56183d70c6ab0f53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceScalars.Const_FaceScalars</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; vec)</argsstring>
+        <name>Const_FaceScalars</name>
+        <qualifiedname>MR.Const_FaceScalars.Const_FaceScalars</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceScalars_1ad7b9129509e24d9b954eb3b44a24ab30" kindref="member">MR.FaceScalars.FaceScalars</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18383" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18383" bodyend="18390"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a39409e98cc59cb53a3bcc470b8129a2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_FaceScalars.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_FaceScalars.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceScalars_1a39409e98cc59cb53a3bcc470b8129a2c" kindref="member">MR.FaceScalars.empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18416" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18416" bodyend="18421"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1ac42041c7e3c8a8309d6b3b5ffadc501f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_FaceScalars.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_FaceScalars.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceScalars_1ac42041c7e3c8a8309d6b3b5ffadc501f" kindref="member">MR.FaceScalars.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18426" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18426" bodyend="18431"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1ad03bc43ec181d7e04e422a911a0cc861" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_FaceScalars.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_FaceScalars.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceScalars_1ad03bc43ec181d7e04e422a911a0cc861" kindref="member">MR.FaceScalars.capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18436" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18436" bodyend="18441"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a83508a50248ff17677b5de3837545e4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_FaceScalars.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_FaceScalars.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceScalars_1a907a28536445b210e50f8900de62ef70" kindref="member">MR.FaceScalars.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18459" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18459" bodyend="18464"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1aed116ea92508d03a89416782948eea3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_FaceScalars.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_FaceScalars.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceScalars_1a5b56bd4c9f7edbfc078508e525ebe4cd" kindref="member">MR.FaceScalars.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18469" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18469" bodyend="18474"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a10ea7d63b1be29c46bfedde211fe3e40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_FaceScalars.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_FaceScalars.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceScalars_1a10ea7d63b1be29c46bfedde211fe3e40" kindref="member">MR.FaceScalars.beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18480" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18480" bodyend="18485"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a1b1e0edaf64953f9dffcd5d2cb2e4dab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_FaceScalars.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_FaceScalars.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__FaceScalars_1aed116ea92508d03a89416782948eea3b" kindref="member">back()</ref> element Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceScalars_1a1b1e0edaf64953f9dffcd5d2cb2e4dab" kindref="member">MR.FaceScalars.backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18491" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18491" bodyend="18496"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1aa3019c2be18e1041eac624af0d1200e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_FaceScalars.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_FaceScalars.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__FaceScalars_1a1b1e0edaf64953f9dffcd5d2cb2e4dab" kindref="member">backId()</ref> + 1 Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceScalars_1aa3019c2be18e1041eac624af0d1200e8" kindref="member">MR.FaceScalars.endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18502" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18502" bodyend="18507"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1ac19f5dc12e1c170d3414f2cbb7aadfff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? float</type>
+        <definition>unsafe? float MR.Const_FaceScalars.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_FaceScalars.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceScalars_1a0a73cf2569c040a302191fbf29f7d68c" kindref="member">MR.FaceScalars.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18512" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18512" bodyend="18518"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a86b3e2e20a81e55236e249d59ed8112e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_FaceScalars.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_FaceScalars.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceScalars_1a86b3e2e20a81e55236e249d59ed8112e" kindref="member">MR.FaceScalars.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18524" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18524" bodyend="18529"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1adaf10b70c04ca2ac14512294eff0f478" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_FaceScalars.Equals</definition>
+        <argsstring>(MR.Const_FaceScalars? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_FaceScalars.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceScalars" kindref="compound">MR.Const_FaceScalars</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18533" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18533" bodyend="18538"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a345bf640b1ef3f64df49325e785b7b68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_FaceScalars.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_FaceScalars.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18540" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18540" bodyend="18547"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a582edc3a0783dfa095a995f3cfe149c4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceScalars.~Const_FaceScalars</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FaceScalars</name>
+        <qualifiedname>MR.Const_FaceScalars.~Const_FaceScalars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18228" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18228" bodyend="18228"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a6a21b5e9f94ca0e82ed74985dc2215fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_FaceScalars.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_FaceScalars.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18289" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18289" bodyend="18292"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a20f2e1bfed21b0c2a6be8de750582a96" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceScalars.Const_FaceScalars</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FaceScalars</name>
+        <qualifiedname>MR.Const_FaceScalars.Const_FaceScalars</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18314" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18314" bodyend="18319"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a416caada32a15089db1d9572e5e01342" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_FaceScalars.operator Const_FaceScalars</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; vec)</argsstring>
+        <name>operator Const_FaceScalars</name>
+        <qualifiedname>MR.Const_FaceScalars.operator Const_FaceScalars</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceScalars_1ad7b9129509e24d9b954eb3b44a24ab30" kindref="member">MR.FaceScalars.FaceScalars</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18396" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18396" bodyend="18396"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1abb020408dbf31a1468511e3584ed6590" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_FaceScalars.operator==</definition>
+        <argsstring>(MR.Const_FaceScalars _this, MR.Const_FaceScalars b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_FaceScalars.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceScalars" kindref="compound">MR.Const_FaceScalars</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceScalars" kindref="compound">MR.Const_FaceScalars</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::FaceScalars::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18401" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18401" bodyend="18406"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceScalars_1a7c6c1cce96ec8d18e03334842f03692d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_FaceScalars.operator!=</definition>
+        <argsstring>(MR.Const_FaceScalars _this, MR.Const_FaceScalars b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_FaceScalars.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceScalars" kindref="compound">MR.Const_FaceScalars</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceScalars" kindref="compound">MR.Const_FaceScalars</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18408" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18408" bodyend="18411"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1FaceScalars" kindref="compound">MR.FaceScalars</ref></computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_FaceScalars</label>
+        <link refid="classMR_1_1Const__FaceScalars"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR.FaceScalars</label>
+        <link refid="classMR_1_1FaceScalars"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_FaceScalars</label>
+        <link refid="classMR_1_1Const__FaceScalars"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="18212" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="18213" bodyend="18548"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FaceScalars_1aed116ea92508d03a89416782948eea3b" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a1b1e0edaf64953f9dffcd5d2cb2e4dab" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a10ea7d63b1be29c46bfedde211fe3e40" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1ad03bc43ec181d7e04e422a911a0cc861" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a20f2e1bfed21b0c2a6be8de750582a96" prot="package" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a835d9b2698130ef5dee71f813f3d216e" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a22f61b6bc79f27a11b99634dce33c13c" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a705c07b0a713f0715bf4744b0ef5ec94" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1af97c4a585c0833386402794ec74c0f0d" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a8638326dddc1a4b39d01bb8379972b1f" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a3581732d1825799eed3b8572c0cb023e" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1aa7c7102eb2e1331f56183d70c6ab0f53" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1ac19f5dc12e1c170d3414f2cbb7aadfff" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a216d6630e57d80ded5430c266ca7ee79" prot="protected" virt="virtual"><scope>MR::Const_FaceScalars</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a86881029b6522f116ddfc71f6e069e22" prot="public" virt="virtual"><scope>MR::Const_FaceScalars</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a39409e98cc59cb53a3bcc470b8129a2c" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1aa3019c2be18e1041eac624af0d1200e8" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1adaf10b70c04ca2ac14512294eff0f478" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a345bf640b1ef3f64df49325e785b7b68" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a83508a50248ff17677b5de3837545e4e" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a20b425a7f98e00bd67c2c31ec951b624" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a6a21b5e9f94ca0e82ed74985dc2215fb" prot="private" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a86b3e2e20a81e55236e249d59ed8112e" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a416caada32a15089db1d9572e5e01342" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>operator Const_FaceScalars</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a7c6c1cce96ec8d18e03334842f03692d" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1abb020408dbf31a1468511e3584ed6590" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1ac42041c7e3c8a8309d6b3b5ffadc501f" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a3b51e3b679f8363f96938e19dc6a2fc9" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>this[MR.FaceId i]</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1ad989fd5d5ae54b94b101768aed5a4e30" prot="public" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__FaceScalars_1a582edc3a0783dfa095a995f3cfe149c4" prot="private" virt="non-virtual"><scope>MR::Const_FaceScalars</scope><name>~Const_FaceScalars</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

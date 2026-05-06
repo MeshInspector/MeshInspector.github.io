@@ -3,16 +3,22 @@
   <compounddef id="MREdgeMetric_8h" kind="file" language="C++">
     <compoundname>MREdgeMetric.h</compoundname>
     <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MREdgeMetric.h</label>
         <link refid="MREdgeMetric_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
         <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -28,7 +34,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="12" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" bodystart="12" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="14" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" prot="public" static="no">
+        <type>struct <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref></type>
+        <definition>typedef struct MR_DihedralAngleProcessParams MR_DihedralAngleProcessParams</definition>
+        <argsstring></argsstring>
+        <name>MR_DihedralAngleProcessParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::DihedralAngleProcessParams</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="19" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" bodystart="19" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -47,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="18" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="18" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="24" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="24" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeMetric_8h_1a1db9374b9ccccdb625fdf80da6ba8cdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
@@ -65,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="25" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="25" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="31" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="31" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeMetric_8h_1a649e752e4952d1dffd2bef7c5e0a501b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
@@ -87,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="31" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="31" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="37" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="37" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeMetric_8h_1a01484edb3833aa62274791bd46b8ed17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
@@ -105,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="39" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="39" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="45" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="45" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeMetric_8h_1a5cb730a8d0c5a9bccf8a95c6eceeb00f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
@@ -127,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="45" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="45" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="51" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="51" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeMetric_8h_1a7c9f5206546af5a29ec19c92abaccd41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
@@ -145,7 +165,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="53" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="53" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="59" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="59" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeMetric_8h_1a7b63db3df66de44f538304b1087511a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
@@ -167,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="59" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="59" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="65" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="65" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeMetric_8h_1a88d08e3351e447c1acf3fc485c50efce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
@@ -210,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="70" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="70" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="76" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="76" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeMetric_8h_1a8d41aec1f1b35733b8c9b2c5fe2531cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
@@ -240,7 +260,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="78" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="78" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="84" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="84" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeMetric_8h_1aa4b47a7fa8abdeb7e881ee21548d17f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
@@ -283,7 +303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="89" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="89" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="95" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="95" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeMetric_8h_1a567337961e7274de6d273f739f2b341d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
@@ -309,11 +329,413 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::edgeAbsCurvMetric</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>angleSinFactor</computeroutput> has a default argument: <computeroutput>2</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>angleSinForBoundary</computeroutput> has a default argument: <computeroutput>0</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__MR__EdgeId_8h_1a744da7234e8737effe5a396869e0604d" kindref="member">MR_std_function_float_from_MR_EdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::edgeAbsCurvMetric</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>angleSinFactor</computeroutput> has a default argument: <computeroutput>2</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>angleSinForBoundary</computeroutput> has a default argument: <computeroutput>0</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__MR__EdgeId_8h_1a744da7234e8737effe5a396869e0604d" kindref="member">MR_std_function_float_from_MR_EdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. positive convex dihedral angles are returned multiplied on this factor Returns a pointer to a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>convexFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="97" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="97" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="103" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="103" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1a36d9cb29cc03ddf8c734ac0b50106688" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_DihedralAngleProcessParams_Get_convexFactor</definition>
+        <argsstring>(const MR_DihedralAngleProcessParams *_this)</argsstring>
+        <name>MR_DihedralAngleProcessParams_Get_convexFactor</name>
+        <param>
+          <type>const <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>positive convex dihedral angles are returned multiplied on this factor Modifies a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>convexFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>convexFactor</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="110" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="110" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1aa29dde4fe046ac356aca5178af522f37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_DihedralAngleProcessParams_Set_convexFactor</definition>
+        <argsstring>(MR_DihedralAngleProcessParams *_this, float value)</argsstring>
+        <name>MR_DihedralAngleProcessParams_Set_convexFactor</name>
+        <param>
+          <type><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>positive convex dihedral angles are returned multiplied on this factor Returns a mutable pointer to a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>convexFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="116" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1a29e49f0c9ac866b8dc5a33996db0b00a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_DihedralAngleProcessParams_GetMutable_convexFactor</definition>
+        <argsstring>(MR_DihedralAngleProcessParams *_this)</argsstring>
+        <name>MR_DihedralAngleProcessParams_GetMutable_convexFactor</name>
+        <param>
+          <type><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>negative concave dihedral angles are returned multiplied on this factor Returns a pointer to a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>concaveFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="123" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="123" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1ae63578d88facffcbc47e9e04a34efa76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_DihedralAngleProcessParams_Get_concaveFactor</definition>
+        <argsstring>(const MR_DihedralAngleProcessParams *_this)</argsstring>
+        <name>MR_DihedralAngleProcessParams_Get_concaveFactor</name>
+        <param>
+          <type>const <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>negative concave dihedral angles are returned multiplied on this factor Modifies a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>concaveFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>concaveFactor</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="130" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="130" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1ace532a0af061ab2200624115061a91b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_DihedralAngleProcessParams_Set_concaveFactor</definition>
+        <argsstring>(MR_DihedralAngleProcessParams *_this, float value)</argsstring>
+        <name>MR_DihedralAngleProcessParams_Set_concaveFactor</name>
+        <param>
+          <type><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>negative concave dihedral angles are returned multiplied on this factor Returns a mutable pointer to a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>concaveFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="136" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1a7008f0811f411768a4fac4ce34a27f09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_DihedralAngleProcessParams_GetMutable_concaveFactor</definition>
+        <argsstring>(MR_DihedralAngleProcessParams *_this)</argsstring>
+        <name>MR_DihedralAngleProcessParams_GetMutable_concaveFactor</name>
+        <param>
+          <type><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this value will be returned as dihedral angle for boundary edges Returns a pointer to a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>boundaryValue</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="143" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="143" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1a09e1db7ac6c01c8e9de1ea020d4eb767" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_DihedralAngleProcessParams_Get_boundaryValue</definition>
+        <argsstring>(const MR_DihedralAngleProcessParams *_this)</argsstring>
+        <name>MR_DihedralAngleProcessParams_Get_boundaryValue</name>
+        <param>
+          <type>const <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this value will be returned as dihedral angle for boundary edges Modifies a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>boundaryValue</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>boundaryValue</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="150" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="150" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1a8ce4136ffcd7385c9f9ed37cdee29a81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_DihedralAngleProcessParams_Set_boundaryValue</definition>
+        <argsstring>(MR_DihedralAngleProcessParams *_this, float value)</argsstring>
+        <name>MR_DihedralAngleProcessParams_Set_boundaryValue</name>
+        <param>
+          <type><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this value will be returned as dihedral angle for boundary edges Returns a mutable pointer to a member variable of class <computeroutput>MR::DihedralAngleProcessParams</computeroutput> named <computeroutput>boundaryValue</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="156" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1a1b40a4ec9998d433073a0939237e1888" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_DihedralAngleProcessParams_GetMutable_boundaryValue</definition>
+        <argsstring>(MR_DihedralAngleProcessParams *_this)</argsstring>
+        <name>MR_DihedralAngleProcessParams_GetMutable_boundaryValue</name>
+        <param>
+          <type><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="163" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="163" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1a7ab3171aa9b808234b70659c52684764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+        <definition>MRC_API MR_DihedralAngleProcessParams * MR_DihedralAngleProcessParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_DihedralAngleProcessParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREdgeMetric_8h_1ad33a1f43331968409a9a7385aac1ab5b" kindref="member">MR_DihedralAngleProcessParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="167" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="167" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1a24d90ab9e7059cc0dfe24a55036ab66a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+        <definition>MRC_API MR_DihedralAngleProcessParams * MR_DihedralAngleProcessParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_DihedralAngleProcessParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MREdgeMetric_8h_1aaf38932cf46a3487c34b760f5a65f4df" kindref="member">MR_DihedralAngleProcessParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MREdgeMetric_8h_1ab1e2b81658326a8cb1ae895a24c7f33b" kindref="member">MR_DihedralAngleProcessParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MREdgeMetric_8h_1a5a5cd2016f721851585b6359ab647c8b" kindref="member">MR_DihedralAngleProcessParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="172" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="172" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1acee280b31889db99232a080eb0d90be7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+        <definition>MRC_API MR_DihedralAngleProcessParams * MR_DihedralAngleProcessParams_ConstructFrom</definition>
+        <argsstring>(float convexFactor, float concaveFactor, float boundaryValue)</argsstring>
+        <name>MR_DihedralAngleProcessParams_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>convexFactor</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>concaveFactor</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>boundaryValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::DihedralAngleProcessParams</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREdgeMetric_8h_1ad33a1f43331968409a9a7385aac1ab5b" kindref="member">MR_DihedralAngleProcessParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="177" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="177" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1a5a5cd2016f721851585b6359ab647c8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+        <definition>MRC_API const MR_DihedralAngleProcessParams * MR_DihedralAngleProcessParams_OffsetPtr</definition>
+        <argsstring>(const MR_DihedralAngleProcessParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_DihedralAngleProcessParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="181" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="181" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1ab1e2b81658326a8cb1ae895a24c7f33b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+        <definition>MRC_API MR_DihedralAngleProcessParams * MR_DihedralAngleProcessParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_DihedralAngleProcessParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_DihedralAngleProcessParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="185" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="185" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1a2a725522dd3d864f0ca72bc64f0bf9ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+        <definition>MRC_API MR_DihedralAngleProcessParams * MR_DihedralAngleProcessParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_DihedralAngleProcessParams *_other)</argsstring>
+        <name>MR_DihedralAngleProcessParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::DihedralAngleProcessParams::DihedralAngleProcessParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MREdgeMetric_8h_1ad33a1f43331968409a9a7385aac1ab5b" kindref="member">MR_DihedralAngleProcessParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="191" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="191" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1ad33a1f43331968409a9a7385aac1ab5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_DihedralAngleProcessParams_Destroy</definition>
+        <argsstring>(const MR_DihedralAngleProcessParams *_this)</argsstring>
+        <name>MR_DihedralAngleProcessParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="194" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="194" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1aaf38932cf46a3487c34b760f5a65f4df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_DihedralAngleProcessParams_DestroyArray</definition>
+        <argsstring>(const MR_DihedralAngleProcessParams *_this)</argsstring>
+        <name>MR_DihedralAngleProcessParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="197" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="197" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1a1c221375982ebae1f47980c88e6c43ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+        <definition>MRC_API MR_DihedralAngleProcessParams * MR_DihedralAngleProcessParams_AssignFromAnother</definition>
+        <argsstring>(MR_DihedralAngleProcessParams *_this, const MR_DihedralAngleProcessParams *_other)</argsstring>
+        <name>MR_DihedralAngleProcessParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::DihedralAngleProcessParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="205" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="205" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1a0203beb57693430634a4a69c31db669b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
+        <definition>MRC_API MR_std_function_float_from_MR_EdgeId * MR_edgeDihedralAngleMetric_2</definition>
+        <argsstring>(const MR_Mesh *mesh, const MR_DihedralAngleProcessParams *params)</argsstring>
+        <name>MR_edgeDihedralAngleMetric_2</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this metric returns edge&apos;s dihedral angle computed by MR::dihedralAngle and post-processed based on the given parameters; returned value is NOT multiplied on edge&apos;s length as in other metrics; this metric is symmetric: m(e) == m(e.sym()) Generated from function <computeroutput>MR::edgeDihedralAngleMetric</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__MR__EdgeId_8h_1a744da7234e8737effe5a396869e0604d" kindref="member">MR_std_function_float_from_MR_EdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="215" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="215" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MREdgeMetric_8h_1a2097c06b6f4e3dc1f80930700b2183ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
+        <definition>MRC_API MR_std_function_float_from_MR_EdgeId * MR_edgeDihedralAngleMetric_3</definition>
+        <argsstring>(const MR_MeshTopology *topology, const MR_VertCoords *points, const MR_DihedralAngleProcessParams *params)</argsstring>
+        <name>MR_edgeDihedralAngleMetric_3</name>
+        <param>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::edgeDihedralAngleMetric</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__MR__EdgeId_8h_1a744da7234e8737effe5a396869e0604d" kindref="member">MR_std_function_float_from_MR_EdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="223" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="223" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeMetric_8h_1a7db0f0148b6743675178f1c534091390" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref> *</type>
@@ -335,7 +757,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="105" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="105" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" line="231" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h" declline="231" declcolumn="46"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -347,43 +769,87 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MREdgeMetric_8h_1ae31d038f46a25a0bd812f72c045bccc8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1ae31d038f46a25a0bd812f72c045bccc8" kindref="member">MR_identityMetric</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="MREdgeMetric_8h_1a1db9374b9ccccdb625fdf80da6ba8cdc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a1db9374b9ccccdb625fdf80da6ba8cdc" kindref="member">MR_edgeLengthMetric_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MREdgeMetric_8h_1a649e752e4952d1dffd2bef7c5e0a501b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a649e752e4952d1dffd2bef7c5e0a501b" kindref="member">MR_edgeLengthMetric_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_float_from_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MREdgeMetric_8h_1ae31d038f46a25a0bd812f72c045bccc8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1ae31d038f46a25a0bd812f72c045bccc8" kindref="member">MR_identityMetric</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="MREdgeMetric_8h_1a1db9374b9ccccdb625fdf80da6ba8cdc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a1db9374b9ccccdb625fdf80da6ba8cdc" kindref="member">MR_edgeLengthMetric_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MREdgeMetric_8h_1a01484edb3833aa62274791bd46b8ed17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a01484edb3833aa62274791bd46b8ed17" kindref="member">MR_discreteAbsMeanCurvatureMetric_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MREdgeMetric_8h_1a5cb730a8d0c5a9bccf8a95c6eceeb00f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a5cb730a8d0c5a9bccf8a95c6eceeb00f" kindref="member">MR_discreteAbsMeanCurvatureMetric_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points);</highlight></codeline>
+<codeline lineno="37" refid="MREdgeMetric_8h_1a649e752e4952d1dffd2bef7c5e0a501b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a649e752e4952d1dffd2bef7c5e0a501b" kindref="member">MR_edgeLengthMetric_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MREdgeMetric_8h_1a01484edb3833aa62274791bd46b8ed17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a01484edb3833aa62274791bd46b8ed17" kindref="member">MR_discreteAbsMeanCurvatureMetric_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MREdgeMetric_8h_1a7c9f5206546af5a29ec19c92abaccd41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a7c9f5206546af5a29ec19c92abaccd41" kindref="member">MR_discreteMinusAbsMeanCurvatureMetric_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MREdgeMetric_8h_1a7b63db3df66de44f538304b1087511a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a7b63db3df66de44f538304b1087511a1" kindref="member">MR_discreteMinusAbsMeanCurvatureMetric_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points);</highlight></codeline>
+<codeline lineno="51" refid="MREdgeMetric_8h_1a5cb730a8d0c5a9bccf8a95c6eceeb00f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a5cb730a8d0c5a9bccf8a95c6eceeb00f" kindref="member">MR_discreteAbsMeanCurvatureMetric_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MREdgeMetric_8h_1a7c9f5206546af5a29ec19c92abaccd41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a7c9f5206546af5a29ec19c92abaccd41" kindref="member">MR_discreteMinusAbsMeanCurvatureMetric_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MREdgeMetric_8h_1a88d08e3351e447c1acf3fc485c50efce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a88d08e3351e447c1acf3fc485c50efce" kindref="member">MR_edgeCurvMetric_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinFactor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinForBoundary);</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MREdgeMetric_8h_1a8d41aec1f1b35733b8c9b2c5fe2531cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a8d41aec1f1b35733b8c9b2c5fe2531cd" kindref="member">MR_edgeCurvMetric_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinFactor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinForBoundary);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MREdgeMetric_8h_1aa4b47a7fa8abdeb7e881ee21548d17f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1aa4b47a7fa8abdeb7e881ee21548d17f3" kindref="member">MR_edgeAbsCurvMetric_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinFactor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinForBoundary);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MREdgeMetric_8h_1a567337961e7274de6d273f739f2b341d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a567337961e7274de6d273f739f2b341d" kindref="member">MR_edgeAbsCurvMetric_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinFactor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinForBoundary);</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MREdgeMetric_8h_1a7db0f0148b6743675178f1c534091390" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a7db0f0148b6743675178f1c534091390" kindref="member">MR_edgeTableSymMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*metric);</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="65" refid="MREdgeMetric_8h_1a7b63db3df66de44f538304b1087511a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a7b63db3df66de44f538304b1087511a1" kindref="member">MR_discreteMinusAbsMeanCurvatureMetric_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MREdgeMetric_8h_1a88d08e3351e447c1acf3fc485c50efce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a88d08e3351e447c1acf3fc485c50efce" kindref="member">MR_edgeCurvMetric_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinFactor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinForBoundary);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MREdgeMetric_8h_1a8d41aec1f1b35733b8c9b2c5fe2531cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a8d41aec1f1b35733b8c9b2c5fe2531cd" kindref="member">MR_edgeCurvMetric_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinFactor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinForBoundary);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MREdgeMetric_8h_1aa4b47a7fa8abdeb7e881ee21548d17f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1aa4b47a7fa8abdeb7e881ee21548d17f3" kindref="member">MR_edgeAbsCurvMetric_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinFactor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinForBoundary);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MREdgeMetric_8h_1a567337961e7274de6d273f739f2b341d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a567337961e7274de6d273f739f2b341d" kindref="member">MR_edgeAbsCurvMetric_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinFactor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*angleSinForBoundary);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MREdgeMetric_8h_1a36d9cb29cc03ddf8c734ac0b50106688" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREdgeMetric_8h_1a36d9cb29cc03ddf8c734ac0b50106688" kindref="member">MR_DihedralAngleProcessParams_Get_convexFactor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MREdgeMetric_8h_1aa29dde4fe046ac356aca5178af522f37" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1aa29dde4fe046ac356aca5178af522f37" kindref="member">MR_DihedralAngleProcessParams_Set_convexFactor</ref>(<ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="MREdgeMetric_8h_1a29e49f0c9ac866b8dc5a33996db0b00a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREdgeMetric_8h_1a29e49f0c9ac866b8dc5a33996db0b00a" kindref="member">MR_DihedralAngleProcessParams_GetMutable_convexFactor</ref>(<ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MREdgeMetric_8h_1ae63578d88facffcbc47e9e04a34efa76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREdgeMetric_8h_1ae63578d88facffcbc47e9e04a34efa76" kindref="member">MR_DihedralAngleProcessParams_Get_concaveFactor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MREdgeMetric_8h_1ace532a0af061ab2200624115061a91b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1ace532a0af061ab2200624115061a91b5" kindref="member">MR_DihedralAngleProcessParams_Set_concaveFactor</ref>(<ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MREdgeMetric_8h_1a7008f0811f411768a4fac4ce34a27f09" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREdgeMetric_8h_1a7008f0811f411768a4fac4ce34a27f09" kindref="member">MR_DihedralAngleProcessParams_GetMutable_concaveFactor</ref>(<ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MREdgeMetric_8h_1a09e1db7ac6c01c8e9de1ea020d4eb767" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREdgeMetric_8h_1a09e1db7ac6c01c8e9de1ea020d4eb767" kindref="member">MR_DihedralAngleProcessParams_Get_boundaryValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MREdgeMetric_8h_1a8ce4136ffcd7385c9f9ed37cdee29a81" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1a8ce4136ffcd7385c9f9ed37cdee29a81" kindref="member">MR_DihedralAngleProcessParams_Set_boundaryValue</ref>(<ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MREdgeMetric_8h_1a1b40a4ec9998d433073a0939237e1888" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MREdgeMetric_8h_1a1b40a4ec9998d433073a0939237e1888" kindref="member">MR_DihedralAngleProcessParams_GetMutable_boundaryValue</ref>(<ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MREdgeMetric_8h_1a7ab3171aa9b808234b70659c52684764" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*<ref refid="MREdgeMetric_8h_1a7ab3171aa9b808234b70659c52684764" kindref="member">MR_DihedralAngleProcessParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="MREdgeMetric_8h_1a24d90ab9e7059cc0dfe24a55036ab66a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*<ref refid="MREdgeMetric_8h_1a24d90ab9e7059cc0dfe24a55036ab66a" kindref="member">MR_DihedralAngleProcessParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MREdgeMetric_8h_1acee280b31889db99232a080eb0d90be7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*<ref refid="MREdgeMetric_8h_1acee280b31889db99232a080eb0d90be7" kindref="member">MR_DihedralAngleProcessParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>convexFactor,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>concaveFactor,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>boundaryValue);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="MREdgeMetric_8h_1a5a5cd2016f721851585b6359ab647c8b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*<ref refid="MREdgeMetric_8h_1a5a5cd2016f721851585b6359ab647c8b" kindref="member">MR_DihedralAngleProcessParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MREdgeMetric_8h_1ab1e2b81658326a8cb1ae895a24c7f33b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*<ref refid="MREdgeMetric_8h_1ab1e2b81658326a8cb1ae895a24c7f33b" kindref="member">MR_DihedralAngleProcessParams_OffsetMutablePtr</ref>(<ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MREdgeMetric_8h_1a2a725522dd3d864f0ca72bc64f0bf9ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*<ref refid="MREdgeMetric_8h_1a2a725522dd3d864f0ca72bc64f0bf9ea" kindref="member">MR_DihedralAngleProcessParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MREdgeMetric_8h_1ad33a1f43331968409a9a7385aac1ab5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1ad33a1f43331968409a9a7385aac1ab5b" kindref="member">MR_DihedralAngleProcessParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MREdgeMetric_8h_1aaf38932cf46a3487c34b760f5a65f4df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1aaf38932cf46a3487c34b760f5a65f4df" kindref="member">MR_DihedralAngleProcessParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MREdgeMetric_8h_1a1c221375982ebae1f47980c88e6c43ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*<ref refid="MREdgeMetric_8h_1a1c221375982ebae1f47980c88e6c43ea" kindref="member">MR_DihedralAngleProcessParams_AssignFromAnother</ref>(<ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="MREdgeMetric_8h_1a0203beb57693430634a4a69c31db669b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a0203beb57693430634a4a69c31db669b" kindref="member">MR_edgeDihedralAngleMetric_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="MREdgeMetric_8h_1a2097c06b6f4e3dc1f80930700b2183ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a2097c06b6f4e3dc1f80930700b2183ac" kindref="member">MR_edgeDihedralAngleMetric_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1a5cf1e8653b08487d4ba88ae18032c02a" kindref="member">MR_DihedralAngleProcessParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MREdgeMetric_8h_1a7db0f0148b6743675178f1c534091390" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*<ref refid="MREdgeMetric_8h_1a7db0f0148b6743675178f1c534091390" kindref="member">MR_edgeTableSymMetric</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*metric);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeMetric.h"/>
   </compounddef>

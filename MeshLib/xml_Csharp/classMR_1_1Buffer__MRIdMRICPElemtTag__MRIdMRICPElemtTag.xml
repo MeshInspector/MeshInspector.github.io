@@ -2,8 +2,25 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag" prot="public" virt="non-virtual">MR.Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aa61168168702e6ea61ab42561aacaea5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new <ref refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag" kindref="compound">MR.NoDefInit_MRIdMRICPElemtTag</ref></type>
+        <definition>unsafe new MR.NoDefInit_MRIdMRICPElemtTag MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.this[MR.Const_Id_MRICPElemtTag i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.Const_Id_MRICPElemtTag i]</name>
+        <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.this[MR.Const_Id_MRICPElemtTag i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8505" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8506" bodyend="8516"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a72fcdf88fcaf67a351c5387616710f58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>new IEnumerator&lt; <ref refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag" kindref="compound">MR.NoDefInit_MRIdMRICPElemtTag</ref> &gt;</type>
@@ -45,7 +62,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::Buffer</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::Buffer</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -64,7 +81,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::Buffer</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::Buffer</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -83,7 +100,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -98,7 +115,7 @@
         <name>clear</name>
         <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aab41ce6b77da561ab9db030d7bbe388c" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aab41ce6b77da561ab9db030d7bbe388c" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -117,7 +134,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a434cefbc6368e98fd841e5bccdd561bf" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a434cefbc6368e98fd841e5bccdd561bf" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -132,7 +149,7 @@
         <name>data</name>
         <qualifiedname>MR.Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1af32aa4ef9dfbe074db8b624619c97d50" kindref="member">data</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;<ref refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1af32aa4ef9dfbe074db8b624619c97d50" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -182,7 +199,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;V&amp;gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
+<para>std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -198,7 +215,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;, MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;, MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -218,6 +235,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -246,6 +264,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -263,15 +282,29 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8371" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8372" bodyend="8531"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aa75457ca4d56fbbebabfa4c141f6dbe7" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ad259d35845fc2ed7a1a2b38a1ca95169" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a2da04ea7b6ff641a07639d375234c894" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>beginId</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a0ea4b2d9b3aedb14634bd7dcb6fae1b8" prot="package" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a072e32997999050c8c4f410931644264" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ab305fb14a3a5b1ec997e74eb32d39aa1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1ab9711795d2f0303a533fe31656b0ea15" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a1411672df744af6ce26c2655270ce82e" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aab41ce6b77da561ab9db030d7bbe388c" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a5e769e27ef01f355b6aa00314448d5b4" prot="package" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a534dd35fabdcd4bcd972358ffd23c8b5" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aedeca5783717dc8229d3ad6b43c6ffa4" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a2ff635c86302a060f3b5e2cf6904150d" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Const_Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1af32aa4ef9dfbe074db8b624619c97d50" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aae28f56725443289224a588aa325282f" prot="protected" virt="virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a120dca78894ca60dd885c7b426b8bb7a" prot="public" virt="virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1abd87305a5b52218919c3210c1c6836a4" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a8b720f02326b7a5b7ec156993d4891e1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a72fcdf88fcaf67a351c5387616710f58" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1af6d1f4597e6becf248a5b85500014891" prot="private" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a7c3fc6329995eb3df2ad0dfbdfa05d4b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1a434cefbc6368e98fd841e5bccdd561bf" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aef89ff5068dccfe12ba672ccd402ea47" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>size</name></member>
+      <member refid="classMR_1_1Buffer__MRIdMRICPElemtTag__MRIdMRICPElemtTag_1aa61168168702e6ea61ab42561aacaea5" prot="public" virt="non-virtual"><scope>MR::Buffer_MRIdMRICPElemtTag_MRIdMRICPElemtTag</scope><name>this[MR.Const_Id_MRICPElemtTag i]</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

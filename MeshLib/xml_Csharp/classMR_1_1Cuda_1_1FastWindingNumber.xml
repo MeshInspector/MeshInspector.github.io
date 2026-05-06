@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Cuda_1_1FastWindingNumber" kind="class" language="C#" prot="public">
     <compoundname>MR::Cuda::FastWindingNumber</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Cuda.Const_FastWindingNumber</basecompoundref>
+    <basecompoundref refid="classMR_1_1Cuda_1_1Const__FastWindingNumber" prot="public" virt="non-virtual">MR.Cuda.Const_FastWindingNumber</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1Cuda_1_1FastWindingNumber_1a8a7f51b986a9698cfe296e4534e04488" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -83,7 +83,7 @@
         <name>operator FastWindingNumber</name>
         <qualifiedname>MR.Cuda.FastWindingNumber.operator FastWindingNumber</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <briefdescription>
@@ -147,7 +147,7 @@
         <name>FastWindingNumber</name>
         <qualifiedname>MR.Cuda.FastWindingNumber.FastWindingNumber</qualifiedname>
         <param>
-          <type>Const_FastWindingNumber</type>
+          <type><ref refid="classMR_1_1Cuda_1_1Const__FastWindingNumber" kindref="compound">Const_FastWindingNumber</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -185,7 +185,7 @@
         <name>FastWindingNumber</name>
         <qualifiedname>MR.Cuda.FastWindingNumber.FastWindingNumber</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <briefdescription>
@@ -313,7 +313,7 @@
           <declname>gridToMeshXf</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceToMeshOptions</type>
+          <type><ref refid="classMR_1_1Const__DistanceToMeshOptions" kindref="compound">MR.Const_DistanceToMeshOptions</ref></type>
           <declname>options</declname>
         </param>
         <param>
@@ -329,14 +329,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaFastWindingNumber.cs" line="252" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaFastWindingNumber.cs" bodystart="252" bodyend="265"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1_1FastWindingNumber_1ae74929422ecd324a9402ad9811b50456" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1FastWindingNumber_1afb84422d205cac423805e9ce30c167b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Cuda.FastWindingNumber.calcFromGridByParts</definition>
-        <argsstring>(MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromStdVectorFloatRvalueRefConstMRVector3iRefInt resFunc, in MR.Vector3i dims, in MR.AffineXf3f gridToMeshXf, float beta, int layerOverlap, MR.Std.Const_Function_Bool_From_Float cb)</argsstring>
+        <argsstring>(MR.Std._ByValue_Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int resFunc, in MR.Vector3i dims, in MR.AffineXf3f gridToMeshXf, float beta, int layerOverlap, MR.Std.Const_Function_Bool_From_Float cb)</argsstring>
         <name>calcFromGridByParts</name>
         <qualifiedname>MR.Cuda.FastWindingNumber.calcFromGridByParts</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromStdVectorFloatRvalueRefConstMRVector3iRefInt</type>
+          <type>MR.Std._ByValue_Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int</type>
           <declname>resFunc</declname>
         </param>
         <param>
@@ -360,7 +360,7 @@
           <declname>cb</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Cuda_1_1FastWindingNumber_1ae74929422ecd324a9402ad9811b50456" kindref="member">MR.Cuda.FastWindingNumber.calcFromGridByParts</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Cuda_1_1FastWindingNumber_1afb84422d205cac423805e9ce30c167b4" kindref="member">MR.Cuda.FastWindingNumber.calcFromGridByParts</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -368,14 +368,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaFastWindingNumber.cs" line="271" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaFastWindingNumber.cs" bodystart="271" bodyend="284"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Cuda_1_1FastWindingNumber_1a6fecf0105f203dd12dfb36c491fba47b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1FastWindingNumber_1a8bb04d7faae293552144570dd72f7c91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.Cuda.FastWindingNumber.calcFromGridWithDistancesByParts</definition>
-        <argsstring>(MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromStdVectorFloatRvalueRefConstMRVector3iRefInt resFunc, in MR.Vector3i dims, in MR.AffineXf3f gridToMeshXf, MR.Const_DistanceToMeshOptions options, int layerOverlap, MR.Std.Const_Function_Bool_From_Float cb)</argsstring>
+        <argsstring>(MR.Std._ByValue_Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int resFunc, in MR.Vector3i dims, in MR.AffineXf3f gridToMeshXf, MR.Const_DistanceToMeshOptions options, int layerOverlap, MR.Std.Const_Function_Bool_From_Float cb)</argsstring>
         <name>calcFromGridWithDistancesByParts</name>
         <qualifiedname>MR.Cuda.FastWindingNumber.calcFromGridWithDistancesByParts</qualifiedname>
         <param>
-          <type>MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromStdVectorFloatRvalueRefConstMRVector3iRefInt</type>
+          <type>MR.Std._ByValue_Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int</type>
           <declname>resFunc</declname>
         </param>
         <param>
@@ -387,7 +387,7 @@
           <declname>gridToMeshXf</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceToMeshOptions</type>
+          <type><ref refid="classMR_1_1Const__DistanceToMeshOptions" kindref="compound">MR.Const_DistanceToMeshOptions</ref></type>
           <declname>options</declname>
         </param>
         <param>
@@ -399,7 +399,7 @@
           <declname>cb</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1Cuda_1_1FastWindingNumber_1a6fecf0105f203dd12dfb36c491fba47b" kindref="member">MR.Cuda.FastWindingNumber.calcFromGridWithDistancesByParts</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Cuda_1_1FastWindingNumber_1a8bb04d7faae293552144570dd72f7c91" kindref="member">MR.Cuda.FastWindingNumber.calcFromGridWithDistancesByParts</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -422,6 +422,7 @@
       </node>
       <node id="2">
         <label>MR.Cuda.Const_FastWindingNumber</label>
+        <link refid="classMR_1_1Cuda_1_1Const__FastWindingNumber"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -443,6 +444,7 @@
       </node>
       <node id="2">
         <label>MR.Cuda.Const_FastWindingNumber</label>
+        <link refid="classMR_1_1Cuda_1_1Const__FastWindingNumber"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -458,19 +460,31 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaFastWindingNumber.cs" line="123" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaFastWindingNumber.cs" bodystart="124" bodyend="303"/>
     <listofallmembers>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a5b79f6cb8b70d3723821167dfd01517c" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>calcFromGrid</name></member>
-      <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1ae74929422ecd324a9402ad9811b50456" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>calcFromGridByParts</name></member>
+      <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1afb84422d205cac423805e9ce30c167b4" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>calcFromGridByParts</name></member>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1ae38689dca402a71f2f6e61879ac35311" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>calcFromGridWithDistances</name></member>
-      <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a6fecf0105f203dd12dfb36c491fba47b" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>calcFromGridWithDistancesByParts</name></member>
+      <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a8bb04d7faae293552144570dd72f7c91" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>calcFromGridWithDistancesByParts</name></member>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a7350afbb046a8472d981dda7ea10a389" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>calcFromVector</name></member>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a175231878fefcecd892f9571b7feca44" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>calcSelfIntersections</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__FastWindingNumber_1a524a76a6b619f24e28de56d208f71d33" prot="package" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>Const_FastWindingNumber</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__FastWindingNumber_1a96bc630e34eaf73bb679aa6a8135a2f4" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>Const_FastWindingNumber</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__FastWindingNumber_1a84b967dcde89c86b6974ac4047f6b246" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>Const_FastWindingNumber</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__FastWindingNumber_1a406819eebb587a9d258b2c2bd675b002" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>Const_FastWindingNumber</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__FastWindingNumber_1a9a0cb5360925ec45cc6c004587e1fe4a" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>Const_FastWindingNumber</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__FastWindingNumber_1ac696ba52c2ebe1899753a8694369b738" prot="protected" virt="virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__FastWindingNumber_1aab8e79db4989321f3e4fbc8e42bddac6" prot="public" virt="virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a63e6d94ae7e95c79708b2930d038e41d" prot="package" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>FastWindingNumber</name></member>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1acd2f61962da73d68f92625293dc6256d" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>FastWindingNumber</name></member>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1aa736cc97b823e3c4bc0749b74c0a5a84" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>FastWindingNumber</name></member>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1aad3be8d7e0ab43133c47dcca82caa987" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>FastWindingNumber</name></member>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a27648ada9bc64f1e82774f773f62f2a1" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>FastWindingNumber</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__FastWindingNumber_1a9fce616aa39c4d6db699c035d698d6f7" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>operator Const_FastWindingNumber</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__FastWindingNumber_1af52235525a101c5f2268de8e3be41ba1" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>operator Const_FastWindingNumber?</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__FastWindingNumber_1a3a84cd0c9c042ec036fba52342887df1" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>operator Const_FastWindingNumber?</name></member>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1ac301ca70f248d75615e7babb363ecea7" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>operator FastWindingNumber</name></member>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a91c71c91c9259db6122304568e984061" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>operator FastWindingNumber?</name></member>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1aafb2492118cac12871ac4de063b3b92f" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>operator FastWindingNumber?</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__FastWindingNumber_1ad81224aa9a6123c3e7ce1419bb6a6ed0" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>operator MR.Const_IFastWindingNumber</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__FastWindingNumber_1ae74c1d77b80ea7b25d4a8c8793340f7a" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>operator MR.Const_IFastWindingNumberByParts</name></member>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a8a7f51b986a9698cfe296e4534e04488" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>operator MR.IFastWindingNumber</name></member>
       <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a0b60cf60ef59820e7801f56523f4490f" prot="public" virt="non-virtual"><scope>MR::Cuda::FastWindingNumber</scope><name>operator MR.IFastWindingNumberByParts</name></member>
     </listofallmembers>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoDefInit__MRGraphEdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoDefInit_MRGraphEdgeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MRGraphEdgeId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId" prot="public" virt="non-virtual">MR.Const_NoDefInit_MRGraphEdgeId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1NoDefInit__MRGraphEdgeId_1a92e21cc427c472ec4a7eb0b02af28f14" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -86,11 +86,11 @@
         <name>NoDefInit_MRGraphEdgeId</name>
         <qualifiedname>MR.NoDefInit_MRGraphEdgeId.NoDefInit_MRGraphEdgeId</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRGraphEdgeId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId" kindref="compound">MR.Const_NoDefInit_MRGraphEdgeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::NoDefInit</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -109,7 +109,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::NoDefInit</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,11 +124,11 @@
         <name>assign</name>
         <qualifiedname>MR.NoDefInit_MRGraphEdgeId.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRGraphEdgeId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId" kindref="compound">MR.Const_NoDefInit_MRGraphEdgeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,7 +143,7 @@
         <name>get</name>
         <qualifiedname>MR.NoDefInit_MRGraphEdgeId.get</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1NoDefInit__MRGraphEdgeId_1a6a4fdc552d1bb76eaae9d215b088c696" kindref="member">get</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;<ref refid="classMR_1_1NoDefInit__MRGraphEdgeId_1a6a4fdc552d1bb76eaae9d215b088c696" kindref="member">get</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -162,7 +162,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -181,7 +181,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;::operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -191,7 +191,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref>&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -204,6 +204,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRGraphEdgeId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -230,6 +231,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRGraphEdgeId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -249,16 +251,32 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1710" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1711" bodyend="1802"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1a8959393f4f638753b8852792b58d8f1b" prot="protected" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>__ref_storage_id</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1ae4054ea59ecd5664a6dbbed7af99e006" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>addAssign</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1afc55479b2c8207d74ca61fa2381eca4c" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1adaacebc841d61d617564c26e26ebbf4b" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>Const_NoDefInit_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1aaf4802d6cc1e1e61573040d46440f500" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>Const_NoDefInit_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1a235e8594da1505f0c70e09e9fbb49dc0" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>Const_NoDefInit_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1ac28df036628e1b29dbea6946a708955e" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>Const_NoDefInit_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1a0e4726cbc99f99d38d02bed8b1a5dea0" prot="protected" virt="virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1a58d7575149d001dca7e719054d889361" prot="public" virt="virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1a7002bb5f49e6b34eb6a09a6a151429e9" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1aaa2b8b872d90d83e7b800ee6a20e21a5" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>Equals</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1a6a4fdc552d1bb76eaae9d215b088c696" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>get</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1a92e21cc427c472ec4a7eb0b02af28f14" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>id</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1af1605d8ae139364a65e19d6bcc8ef689" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>less</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1a38fd9a765665fa8a6bf761776a2ab71a" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>NoDefInit_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1aaa69138ef4de93b9833a717f12ae4ccb" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>NoDefInit_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1af71bf39446b527b30c54b34c401529ab" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>NoDefInit_MRGraphEdgeId</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1adceb0591aadd384e7c9307e0c8e448f6" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>NoDefInit_MRGraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1a5faf0d9c5be3d73f030c0966b4673168" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1a6016913e2e4030929b38080f5ca2947b" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>operator int</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1af073a6bfa22550e2ae2701a351ddad00" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>operator MR.Box_GraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1a137d32c6f9e63c546f9c38ec46f37ed6" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>operator MR.ConstBox_GraphEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1a8a7d9d0e1fbcb15b70d59472c99a4208" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1a327610308fe2aea2ef8a61f5fe3fc208" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>operator==</name></member>
       <member refid="classMR_1_1NoDefInit__MRGraphEdgeId_1ac586d21c43f3ccd32dbea3bee42072eb" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRGraphEdgeId_1a306a0d5e141eb02ef0cec723fc82593a" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRGraphEdgeId</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

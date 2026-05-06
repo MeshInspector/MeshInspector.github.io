@@ -541,7 +541,7 @@
 <parametername>maxComponentCount</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>should be more then 1 </para>
+<para>should be more than 1 </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -583,7 +583,7 @@
 <parametername>maxComponentCount</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>should be more then 1 </para>
+<para>should be more than 1 </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -628,6 +628,39 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshComponents.h" line="132" column="13" declfile="MRMesh/MRMeshComponents.h" declline="132" declcolumn="13"/>
       </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga87fa009d5a9b64c256cd45780378d1fb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; Face2RegionMap, int &gt;</type>
+        <definition>std::pair&lt; Face2RegionMap, int &gt; MR::MeshComponents::getFacePairRegionMap</definition>
+        <argsstring>(const Mesh &amp;mesh, const std::vector&lt; FaceFace &gt; &amp;facePairs, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
+        <name>getFacePairRegionMap</name>
+        <qualifiedname>MR::MeshComponents::getFacePairRegionMap</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; FaceFace &gt; &amp;</type>
+          <declname>facePairs</declname>
+        </param>
+        <param>
+          <type>FaceIncidence</type>
+          <declname>incidence</declname>
+          <defval>FaceIncidence::PerEdge</defval>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given some face pairs, collects them in regions, where for each face in a region its pair face and its incident faces from other pairs are also attributed to that region; returns 1. the mapping: FaceId -&gt; RegionId, 2. the total number of regions </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshComponents.h" line="138" column="13" declfile="MRMesh/MRMeshComponents.h" declline="138" declcolumn="13"/>
+      </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1gabb9aee33af237e8ace6daa0b6b7ba783" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector&lt; double, RegionId &gt;</type>
         <definition>Vector&lt; double, RegionId &gt; MR::MeshComponents::getRegionAreas</definition>
@@ -653,7 +686,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="136" column="10" declfile="MRMesh/MRMeshComponents.h" declline="136" declcolumn="10"/>
+        <location file="MRMesh/MRMeshComponents.h" line="142" column="10" declfile="MRMesh/MRMeshComponents.h" declline="142" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1gaf0690687907bc23ce3b2772500238124" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::pair&lt; FaceBitSet, int &gt;</type>
@@ -688,7 +721,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="142" column="13" declfile="MRMesh/MRMeshComponents.h" declline="142" declcolumn="13"/>
+        <location file="MRMesh/MRMeshComponents.h" line="148" column="13" declfile="MRMesh/MRMeshComponents.h" declline="148" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1gac3f08916e38c544b82948eebe0ad7927" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; VertBitSet &gt;</type>
@@ -712,7 +745,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="146" column="15" declfile="MRMesh/MRMeshComponents.h" declline="146" declcolumn="15"/>
+        <location file="MRMesh/MRMeshComponents.h" line="152" column="15" declfile="MRMesh/MRMeshComponents.h" declline="152" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga44be685ea9ba443cf22a7e0e8c370e94" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; VertBitSet &gt;</type>
@@ -735,7 +768,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="149" column="15" declfile="MRMesh/MRMeshComponents.h" declline="149" declcolumn="15"/>
+        <location file="MRMesh/MRMeshComponents.h" line="155" column="15" declfile="MRMesh/MRMeshComponents.h" declline="155" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga35d4be81290a02ce78331c6173eac4f2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; VertBitSet &gt;</type>
@@ -758,7 +791,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="152" column="15" declfile="MRMesh/MRMeshComponents.h" declline="152" declcolumn="15"/>
+        <location file="MRMesh/MRMeshComponents.h" line="158" column="15" declfile="MRMesh/MRMeshComponents.h" declline="158" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1gafdcffc76ac25f878c3b7396979b31a59" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeBitSet &gt;</type>
@@ -781,7 +814,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="155" column="15" declfile="MRMesh/MRMeshComponents.h" declline="155" declcolumn="15"/>
+        <location file="MRMesh/MRMeshComponents.h" line="161" column="15" declfile="MRMesh/MRMeshComponents.h" declline="161" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga771199217cd0fe03f92ad929b794ea15" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; UndirectedEdgeBitSet &gt;</type>
@@ -804,7 +837,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="158" column="15" declfile="MRMesh/MRMeshComponents.h" declline="158" declcolumn="15"/>
+        <location file="MRMesh/MRMeshComponents.h" line="164" column="15" declfile="MRMesh/MRMeshComponents.h" declline="164" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1gab766c6742304e7dd92a89641da49284c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -827,7 +860,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="161" column="8" declfile="MRMesh/MRMeshComponents.h" declline="161" declcolumn="8"/>
+        <location file="MRMesh/MRMeshComponents.h" line="167" column="8" declfile="MRMesh/MRMeshComponents.h" declline="167" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1gaa41df9253ef4b45f4766fbed05ec4298" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -849,7 +882,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="162" column="8" declfile="MRMesh/MRMeshComponents.h" declline="162" declcolumn="8"/>
+        <location file="MRMesh/MRMeshComponents.h" line="168" column="8" declfile="MRMesh/MRMeshComponents.h" declline="168" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1gafb34a3c82c94661207c96d0fb0f48a27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -872,7 +905,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="165" column="7" declfile="MRMesh/MRMeshComponents.h" declline="165" declcolumn="7"/>
+        <location file="MRMesh/MRMeshComponents.h" line="171" column="7" declfile="MRMesh/MRMeshComponents.h" declline="171" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1gababcff843eb7d0922339ed7becf7ca23" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UnionFind&lt; FaceId &gt;</type>
@@ -901,7 +934,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="168" column="13" declfile="MRMesh/MRMeshComponents.h" declline="168" declcolumn="13"/>
+        <location file="MRMesh/MRMeshComponents.h" line="174" column="13" declfile="MRMesh/MRMeshComponents.h" declline="174" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga3be1646e88ab7d6cafe9a020ba75c434" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UnionFind&lt; FaceId &gt;</type>
@@ -934,7 +967,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="169" column="13" declfile="MRMesh/MRMeshComponents.h" declline="169" declcolumn="13"/>
+        <location file="MRMesh/MRMeshComponents.h" line="175" column="13" declfile="MRMesh/MRMeshComponents.h" declline="175" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga7d9b47c38d78d37528e8b728632ea875" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UnionFind&lt; FaceId &gt;</type>
@@ -958,7 +991,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="173" column="13" declfile="MRMesh/MRMeshComponents.h" declline="173" declcolumn="13"/>
+        <location file="MRMesh/MRMeshComponents.h" line="179" column="13" declfile="MRMesh/MRMeshComponents.h" declline="179" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga6621f0b03784d1eba11d9394c25bbc0b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UnionFind&lt; FaceId &gt;</type>
@@ -986,7 +1019,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="174" column="13" declfile="MRMesh/MRMeshComponents.h" declline="174" declcolumn="13"/>
+        <location file="MRMesh/MRMeshComponents.h" line="180" column="13" declfile="MRMesh/MRMeshComponents.h" declline="180" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1gaab4f40960e177485925e0ef983994118" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UnionFind&lt; VertId &gt;</type>
@@ -1010,7 +1043,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="177" column="13" declfile="MRMesh/MRMeshComponents.h" declline="177" declcolumn="13"/>
+        <location file="MRMesh/MRMeshComponents.h" line="183" column="13" declfile="MRMesh/MRMeshComponents.h" declline="183" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga1d49179fb661df7dcb1a026fc986ec5a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UnionFind&lt; VertId &gt;</type>
@@ -1033,7 +1066,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="178" column="13" declfile="MRMesh/MRMeshComponents.h" declline="178" declcolumn="13"/>
+        <location file="MRMesh/MRMeshComponents.h" line="184" column="13" declfile="MRMesh/MRMeshComponents.h" declline="184" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga404e853471df6d94afe6a73f1ec1b7ed" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UnionFind&lt; VertId &gt;</type>
@@ -1056,7 +1089,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="181" column="13" declfile="MRMesh/MRMeshComponents.h" declline="181" declcolumn="13"/>
+        <location file="MRMesh/MRMeshComponents.h" line="187" column="13" declfile="MRMesh/MRMeshComponents.h" declline="187" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga54416f91858b38cf3ce7372f9de68249" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UnionFind&lt; VertId &gt;</type>
@@ -1079,7 +1112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="184" column="13" declfile="MRMesh/MRMeshComponents.h" declline="184" declcolumn="13"/>
+        <location file="MRMesh/MRMeshComponents.h" line="190" column="13" declfile="MRMesh/MRMeshComponents.h" declline="190" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga3b8e4f75d863fddc12966da77ca570de" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UnionFind&lt; VertId &gt;</type>
@@ -1102,7 +1135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="187" column="13" declfile="MRMesh/MRMeshComponents.h" declline="187" declcolumn="13"/>
+        <location file="MRMesh/MRMeshComponents.h" line="193" column="13" declfile="MRMesh/MRMeshComponents.h" declline="193" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga7e5fd0e6213bad557af5151e1d75b907" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UnionFind&lt; VertId &gt;</type>
@@ -1140,7 +1173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="194" column="13" declfile="MRMesh/MRMeshComponents.h" declline="194" declcolumn="13"/>
+        <location file="MRMesh/MRMeshComponents.h" line="200" column="13" declfile="MRMesh/MRMeshComponents.h" declline="200" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1gacbb33dd08f88d0e7c8d8fd20492a5286" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UnionFind&lt; VertId &gt;</type>
@@ -1167,7 +1200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="197" column="13" declfile="MRMesh/MRMeshComponents.h" declline="197" declcolumn="13"/>
+        <location file="MRMesh/MRMeshComponents.h" line="203" column="13" declfile="MRMesh/MRMeshComponents.h" declline="203" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1gab9cb78e1a9f65624f29658dc041cc0c7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UnionFind&lt; UndirectedEdgeId &gt;</type>
@@ -1208,7 +1241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="202" column="13" declfile="MRMesh/MRMeshComponents.h" declline="202" declcolumn="13"/>
+        <location file="MRMesh/MRMeshComponents.h" line="208" column="13" declfile="MRMesh/MRMeshComponents.h" declline="208" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1ga144b55cc0f8b4e8963f7316fa8abc761" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UndirectedEdgeBitSet</type>
@@ -1231,7 +1264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="205" column="24" declfile="MRMesh/MRMeshComponents.h" declline="205" declcolumn="24"/>
+        <location file="MRMesh/MRMeshComponents.h" line="211" column="24" declfile="MRMesh/MRMeshComponents.h" declline="211" declcolumn="24"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

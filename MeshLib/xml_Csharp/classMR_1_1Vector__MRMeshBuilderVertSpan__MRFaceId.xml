@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId" prot="public" virt="non-virtual">MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a993d0a4ba267b1a6c75761a74051d1a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -27,7 +27,7 @@
         <name>this[MR.FaceId i]</name>
         <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.this[MR.FaceId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -77,7 +77,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,11 +92,11 @@
         <name>Vector_MRMeshBuilderVertSpan_MRFaceId</name>
         <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.Vector_MRMeshBuilderVertSpan_MRFaceId</qualifiedname>
         <param>
-          <type>Const_Vector_MRMeshBuilderVertSpan_MRFaceId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId" kindref="compound">Const_Vector_MRMeshBuilderVertSpan_MRFaceId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -153,11 +153,11 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.MeshBuilder.Const_VertSpan</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__VertSpan" kindref="compound">MR.MeshBuilder.Const_VertSpan</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -176,7 +176,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -195,7 +195,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -210,7 +210,7 @@
         <name>clear</name>
         <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aebde8c50190cd8e45c88df3f116bbb84" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aebde8c50190cd8e45c88df3f116bbb84" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -229,7 +229,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a52e55380b19c5f6ebb917d2ad491032b" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a52e55380b19c5f6ebb917d2ad491032b" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -248,11 +248,11 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.MeshBuilder.Const_VertSpan</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__VertSpan" kindref="compound">MR.MeshBuilder.Const_VertSpan</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a52e55380b19c5f6ebb917d2ad491032b" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a52e55380b19c5f6ebb917d2ad491032b" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -271,7 +271,7 @@
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aff40f1c16fd1d6e16040a9c0fc3d2540" kindref="member">reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aff40f1c16fd1d6e16040a9c0fc3d2540" kindref="member">reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -290,7 +290,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa38129a30b91f0b79867406a6b50437b" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa38129a30b91f0b79867406a6b50437b" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -309,11 +309,11 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.MeshBuilder.Const_VertSpan</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__VertSpan" kindref="compound">MR.MeshBuilder.Const_VertSpan</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa38129a30b91f0b79867406a6b50437b" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa38129a30b91f0b79867406a6b50437b" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -336,11 +336,11 @@
           <declname>len</declname>
         </param>
         <param>
-          <type>MR.MeshBuilder.Const_VertSpan</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__VertSpan" kindref="compound">MR.MeshBuilder.Const_VertSpan</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ac10d9a5d4c16eeb7d27529a9002e40bd" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ac10d9a5d4c16eeb7d27529a9002e40bd" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -359,11 +359,11 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.MeshBuilder.Const_VertSpan</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__VertSpan" kindref="compound">MR.MeshBuilder.Const_VertSpan</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ac10d9a5d4c16eeb7d27529a9002e40bd" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ac10d9a5d4c16eeb7d27529a9002e40bd" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -382,7 +382,7 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa4c3e985c50a01ceddae5621d4530f12" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa4c3e985c50a01ceddae5621d4530f12" kindref="member">autoResizeAt</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -397,11 +397,11 @@
         <name>pushBack</name>
         <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.pushBack</qualifiedname>
         <param>
-          <type>MR.MeshBuilder.Const_VertSpan</type>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__VertSpan" kindref="compound">MR.MeshBuilder.Const_VertSpan</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -420,7 +420,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -435,7 +435,7 @@
         <name>popBack</name>
         <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -450,7 +450,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -465,7 +465,7 @@
         <name>front</name>
         <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.front</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a1f896306b4fdc63b8e9d106a0a0ac168" kindref="member">front</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a1f896306b4fdc63b8e9d106a0a0ac168" kindref="member">front</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -480,7 +480,7 @@
         <name>back</name>
         <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.back</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1afcf20a47ddf2c4f0d52c36fc415c7967" kindref="member">back</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1afcf20a47ddf2c4f0d52c36fc415c7967" kindref="member">back</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -495,7 +495,7 @@
         <name>data</name>
         <qualifiedname>MR.Vector_MRMeshBuilderVertSpan_MRFaceId.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a7f93d0289fc2c4feb40dd4298fd6549e" kindref="member">data</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a7f93d0289fc2c4feb40dd4298fd6549e" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -514,7 +514,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a9accf5d42bf0fd664e75c495084f2377" kindref="member">swap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a9accf5d42bf0fd664e75c495084f2377" kindref="member">swap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -575,7 +575,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -585,7 +585,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -601,7 +601,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -621,6 +621,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId</label>
+        <link refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -649,6 +650,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRMeshBuilderVertSpan_MRFaceId</label>
+        <link refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -670,12 +672,29 @@
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ac10d9a5d4c16eeb7d27529a9002e40bd" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a85336a7a205669eaaba83c4d38fd54a2" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1afcf20a47ddf2c4f0d52c36fc415c7967" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1ae5964e61c6997824afc340f5470aeeb6" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1af1a57f98e0354e060621cb1e3bf10d07" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a8507a5fba795f6ac57be90459bf7704d" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aebde8c50190cd8e45c88df3f116bbb84" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a5a3f2da875540f2a1e623dad77c71c99" prot="package" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>Const_Vector_MRMeshBuilderVertSpan_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1af229f28e52554ebf0135323c3b6de286" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>Const_Vector_MRMeshBuilderVertSpan_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a633532b90092556b0417fea1c03e0903" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>Const_Vector_MRMeshBuilderVertSpan_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1ab1683d3cef5c23087bb1f7e4e067b731" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>Const_Vector_MRMeshBuilderVertSpan_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a9b11defeb8c52cfa3f06ebb22419405d" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>Const_Vector_MRMeshBuilderVertSpan_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a07c1013959c61361e13c428019b55c38" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>Const_Vector_MRMeshBuilderVertSpan_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1ac4ec8a8c3bd4253d8a32d801d46b2810" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>Const_Vector_MRMeshBuilderVertSpan_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1ac151eb2ad61bf016de374d952e7f858f" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>Const_Vector_MRMeshBuilderVertSpan_MRFaceId</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a7f93d0289fc2c4feb40dd4298fd6549e" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a91f8a1ba7b99a5e6771ea2dbeb25966e" prot="protected" virt="virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a5bd1502cbd6b64fb33fcf9715a0d654c" prot="public" virt="virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a9d011bd0819613e0a608390851f74ff5" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a1febb3ac0c16d52a4a38e90a9c9b5ec9" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a093c9dad7cc6e3894abffc04cacb541b" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>endId</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a1f896306b4fdc63b8e9d106a0a0ac168" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a7fed29fa4458d475921febb0bda62d8b" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a1d9d8f38ae64fe8a607e104ed7f9945a" prot="private" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a15ea3e353b94b3ffee78f28e55d048e2" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1a21aee8427ff305bb505accb2daa84051" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>operator Const_Vector_MRMeshBuilderVertSpan_MRFaceId</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a6377ff3b40a578b368bdb8a83b467292" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>operator Vector_MRMeshBuilderVertSpan_MRFaceId</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a50b321703f2381029d927ae09fe4a7f3" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a98a263daa34170e19efe9b764ef4ba06" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>pushBack</name></member>
@@ -685,6 +704,7 @@
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1afc5045a0ed39f0677da54bd0d6e52207" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>resize</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1aa38129a30b91f0b79867406a6b50437b" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1ace3d3757b2d6d48817c5b25789e46e4e" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRMeshBuilderVertSpan__MRFaceId_1aa6bafc7d7ebaba1a34ec784780d23bba" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a9accf5d42bf0fd664e75c495084f2377" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a6c74baaccb67bdd5dd2deb77e5f7684c" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>this[MR.FaceId i]</name></member>
       <member refid="classMR_1_1Vector__MRMeshBuilderVertSpan__MRFaceId_1a993d0a4ba267b1a6c75761a74051d1a5" prot="public" virt="non-virtual"><scope>MR::Vector_MRMeshBuilderVertSpan_MRFaceId</scope><name>vec</name></member>

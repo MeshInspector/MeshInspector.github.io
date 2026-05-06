@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Laplacian" kind="class" language="C#" prot="public">
     <compoundname>MR::Laplacian</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Laplacian</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Laplacian" prot="public" virt="non-virtual">MR.Const_Laplacian</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Laplacian_1a12fcd37478ae5ba2e802b2ce0687cea7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -73,7 +73,7 @@
         <name>Laplacian</name>
         <qualifiedname>MR.Laplacian.Laplacian</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
@@ -96,7 +96,7 @@
         <name>init</name>
         <qualifiedname>MR.Laplacian.init</qualifiedname>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>freeVerts</declname>
         </param>
         <param>
@@ -147,11 +147,11 @@
         <name>initFromPoints</name>
         <qualifiedname>MR.Laplacian.initFromPoints</qualifiedname>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>points</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>freeVerts</declname>
         </param>
         <param>
@@ -347,7 +347,7 @@
         <name>addAttractor</name>
         <qualifiedname>MR.Laplacian.addAttractor</qualifiedname>
         <param>
-          <type>MR.Laplacian.Const_Attractor</type>
+          <type><ref refid="classMR_1_1Const__Laplacian_1_1Const__Attractor" kindref="compound">MR.Laplacian.Const_Attractor</ref></type>
           <declname>a</declname>
         </param>
         <briefdescription>
@@ -396,6 +396,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Laplacian</label>
+        <link refid="classMR_1_1Const__Laplacian"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -417,6 +418,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Laplacian</label>
+        <link refid="classMR_1_1Const__Laplacian"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -435,8 +437,16 @@
       <member refid="classMR_1_1Laplacian_1adec94b8812ff2f12bbe9e564894393f4" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>apply</name></member>
       <member refid="classMR_1_1Laplacian_1ad42cac80dba53264cee7888c3f137692" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>applyToScalar</name></member>
       <member refid="classMR_1_1Laplacian_1a91507160fd4cef218a0745c4e96692db" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>applyToVector</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1ae3dbc40da810d0fabecb038224797d9e" prot="package" virt="non-virtual"><scope>MR::Laplacian</scope><name>Const_Laplacian</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1ae473d467899b8addb65792993e5819c4" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Const_Laplacian</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1aad75a8fb1f51f778061a92080e43558c" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Const_Laplacian</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1a78f1c96f6dd4e716bacf6e552fdba44c" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Const_Laplacian</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1aa103a58378e9e794f58135c641fdf249" prot="protected" virt="virtual"><scope>MR::Laplacian</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1aaa77adfc3f0081dbef6888c050f10891" prot="public" virt="virtual"><scope>MR::Laplacian</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1ac3d4be7e4ceb8dfec0c8e429664cea5d" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>firstLayerFixedVerts</name></member>
       <member refid="classMR_1_1Laplacian_1a479045a960528acf02d857b5d88a13e5" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>fixVertex</name></member>
       <member refid="classMR_1_1Laplacian_1af57ef04dfe76e47096b1075975ceb84d" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>fixVertex</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1a37da581035d603c8423d8498c301393f" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>freeVerts</name></member>
       <member refid="classMR_1_1Laplacian_1a465de937f70863f60a48bdc752533568" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>init</name></member>
       <member refid="classMR_1_1Laplacian_1a95b7b062050fc6505a5a7b7f01bb0cf6" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>initFromPoints</name></member>
       <member refid="classMR_1_1Laplacian_1a12fcd37478ae5ba2e802b2ce0687cea7" prot="package" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
@@ -444,7 +454,10 @@
       <member refid="classMR_1_1Laplacian_1ae08c9a839ac527f7563e515a61a0b70b" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
       <member refid="classMR_1_1Laplacian_1aca102c7cdc39358341ad9213620270a6" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
       <member refid="classMR_1_1Laplacian_1acdf83856f09ba62c6ac4dd198106215e" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>multVertexWeight</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1a504484c680e255bdb36ea947511cb03c" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>points</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1a7789db8a76c3fd960ed7af83f2737ab7" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>region</name></member>
       <member refid="classMR_1_1Laplacian_1acaa475d8642e7687fdf8d220796796cc" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>removeAllAttractors</name></member>
+      <member refid="classMR_1_1Const__Laplacian_1aa4beeecec3ec44046046d33e69e63d83" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>topology</name></member>
       <member refid="classMR_1_1Laplacian_1a6ab6466ee01c85f49d6bfd5955ba7de0" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>updateSolver</name></member>
     </listofallmembers>
   </compounddef>

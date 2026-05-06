@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjKindTraits_MRFeaturesObjectKindPoint</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjKindTraits_MRFeaturesObjectKindPoint</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint" prot="public" virt="non-virtual">MR.Const_ObjKindTraits_MRFeaturesObjectKindPoint</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1a9d1af14f5bcc10856fdd6247b3e722b3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>ObjKindTraits_MRFeaturesObjectKindPoint</name>
         <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindPoint.ObjKindTraits_MRFeaturesObjectKindPoint</qualifiedname>
         <param>
-          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindPoint</type>
+          <type><ref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint" kindref="compound">MR.Const_ObjKindTraits_MRFeaturesObjectKindPoint</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ObjKindTraits&amp;amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a2a3cd5946cfd317eb99c3d32e35e2d4c" kindref="member">MR.FeaturesObjectKind.Point</ref>&amp;amp;gt;::ObjKindTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ObjKindTraits&amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a2a3cd5946cfd317eb99c3d32e35e2d4c" kindref="member">MR.FeaturesObjectKind.Point</ref>&amp;gt;::ObjKindTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ObjKindTraits&amp;amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a2a3cd5946cfd317eb99c3d32e35e2d4c" kindref="member">MR.FeaturesObjectKind.Point</ref>&amp;amp;gt;::ObjKindTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ObjKindTraits&amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a2a3cd5946cfd317eb99c3d32e35e2d4c" kindref="member">MR.FeaturesObjectKind.Point</ref>&amp;gt;::ObjKindTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindPoint.assign</qualifiedname>
         <param>
-          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindPoint</type>
+          <type><ref refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint" kindref="compound">MR.Const_ObjKindTraits_MRFeaturesObjectKindPoint</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::ObjKindTraits&amp;amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a2a3cd5946cfd317eb99c3d32e35e2d4c" kindref="member">MR.FeaturesObjectKind.Point</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ObjKindTraits&amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a2a3cd5946cfd317eb99c3d32e35e2d4c" kindref="member">MR.FeaturesObjectKind.Point</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -102,7 +102,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::ObjKindTraits&amp;amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a2a3cd5946cfd317eb99c3d32e35e2d4c" kindref="member">MR.FeaturesObjectKind.Point</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::ObjKindTraits&amp;lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a2a3cd5946cfd317eb99c3d32e35e2d4c" kindref="member">MR.FeaturesObjectKind.Point</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjKindTraits_MRFeaturesObjectKindPoint</label>
+        <link refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjKindTraits_MRFeaturesObjectKindPoint</label>
+        <link refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="85" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="86" bodyend="126"/>
     <listofallmembers>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1a72f4c001738f56ab3aafba4c9fa71b93" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint_1aa4a36f7f0a6981eb356db8d948363e19" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindPoint</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint_1a6244245eee269d8b3efd5e7795eab1ed" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindPoint</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint_1aa21f991d22d718932e481388db90c346" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindPoint</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint_1a9efae3982ec41e6eaf1fd653e928d135" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>Const_ObjKindTraits_MRFeaturesObjectKindPoint</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint_1a2238d828d2a8309cbba1f822dd599afd" prot="protected" virt="virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint_1a3a5f624ceae456d01ca7dc74294acd55" prot="public" virt="virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjKindTraits__MRFeaturesObjectKindPoint_1a30ded09a90aed8bfcaf28a729613747c" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>Name</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1a9d1af14f5bcc10856fdd6247b3e722b3" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>ObjKindTraits_MRFeaturesObjectKindPoint</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1a9131c007ee449df559137668e602a9c4" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>ObjKindTraits_MRFeaturesObjectKindPoint</name></member>
       <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindPoint_1acb996392d844d0046e526caceef509ba" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindPoint</scope><name>ObjKindTraits_MRFeaturesObjectKindPoint</name></member>

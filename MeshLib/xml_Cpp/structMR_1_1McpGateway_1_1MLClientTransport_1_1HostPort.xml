@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1McpGateway_1_1MLClientTransport_1_1HostPort" kind="struct" language="C++" prot="private">
+    <compoundname>MR::McpGateway::MLClientTransport::HostPort</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1McpGateway_1_1MLClientTransport_1_1HostPort_1af26bbd54cf227c98537bd1d44df80a77" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::McpGateway::MLClientTransport::HostPort::host</definition>
+        <argsstring></argsstring>
+        <name>host</name>
+        <qualifiedname>MR::McpGateway::MLClientTransport::HostPort::host</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="34" column="31" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1McpGateway_1_1MLClientTransport_1_1HostPort_1a976706a973d5ce36091c13b3db26aa2a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::McpGateway::MLClientTransport::HostPort::port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <qualifiedname>MR::McpGateway::MLClientTransport::HostPort::port</qualifiedname>
+        <initializer>= 80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="34" column="40" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMCPGateway/MRMCPGatewayMlTransport.h" line="34" column="5" bodyfile="MRMCPGateway/MRMCPGatewayMlTransport.h" bodystart="34" bodyend="34"/>
+    <listofallmembers>
+      <member refid="structMR_1_1McpGateway_1_1MLClientTransport_1_1HostPort_1af26bbd54cf227c98537bd1d44df80a77" prot="public" virt="non-virtual"><scope>MR::McpGateway::MLClientTransport::HostPort</scope><name>host</name></member>
+      <member refid="structMR_1_1McpGateway_1_1MLClientTransport_1_1HostPort_1a976706a973d5ce36091c13b3db26aa2a" prot="public" virt="non-virtual"><scope>MR::McpGateway::MLClientTransport::HostPort</scope><name>port</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

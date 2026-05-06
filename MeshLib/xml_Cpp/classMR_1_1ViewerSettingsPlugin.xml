@@ -47,6 +47,7 @@
       <member refid="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" kind="function"><name>drawViewportTab_</name></member>
       <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" kind="function"><name>drawMeasurementUnitsTab_</name></member>
       <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" kind="function"><name>drawFeaturesTab_</name></member>
+      <member refid="group__GeneralGroup_1ga4a4a6cdd7bb35a234274fe59ecc9c0ee" kind="function"><name>drawMcpTab_</name></member>
       <member refid="group__GeneralGroup_1gaecf9bc528b5c54d5f96e86ef1528228d" kind="function"><name>drawLanguageSelector_</name></member>
       <member refid="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" kind="function"><name>drawThemeSelector_</name></member>
       <member refid="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" kind="function"><name>drawResetDialog_</name></member>
@@ -59,6 +60,7 @@
       <member refid="group__GeneralGroup_1ga0240b21d67858fb8936910ca704e1696" kind="function"><name>drawMouseSceneControlsSettings_</name></member>
       <member refid="group__GeneralGroup_1ga9076c9b9fe889480701ac78798e5d8df" kind="function"><name>drawSpaceMouseSettings_</name></member>
       <member refid="group__GeneralGroup_1ga602bbca830ae850c60ff9d98f7316a3b" kind="function"><name>drawTouchpadSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga83fb555192dd8d4e2a4b1207c41ba6af" kind="function"><name>drawMcpSettings_</name></member>
       <member refid="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" kind="function"><name>drawMruInnerFormats_</name></member>
       <member refid="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" kind="function"><name>drawGlobalSettings_</name></member>
       <member refid="group__GeneralGroup_1gac234fd8124156d65a822970b7bae04e4" kind="function"><name>drawCustomSettings_</name></member>
@@ -195,7 +197,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRViewerSettingsPlugin.h" line="18" column="1" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="19" bodyend="132"/>
+    <location file="MRViewer/MRViewerSettingsPlugin.h" line="18" column="1" bodyfile="MRViewer/MRViewerSettingsPlugin.h" bodystart="19" bodyend="137"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1gaca69b2de3f466e977b398c0155b02cca" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>activeTab_</name></member>
@@ -218,6 +220,8 @@
       <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawFeaturesTab_</name></member>
       <member refid="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawGlobalSettings_</name></member>
       <member refid="group__GeneralGroup_1gaecf9bc528b5c54d5f96e86ef1528228d" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawLanguageSelector_</name></member>
+      <member refid="group__GeneralGroup_1ga83fb555192dd8d4e2a4b1207c41ba6af" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMcpSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga4a4a6cdd7bb35a234274fe59ecc9c0ee" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMcpTab_</name></member>
       <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMeasurementUnitsTab_</name></member>
       <member refid="group__GeneralGroup_1ga0240b21d67858fb8936910ca704e1696" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMouseSceneControlsSettings_</name></member>
       <member refid="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMruInnerFormats_</name></member>

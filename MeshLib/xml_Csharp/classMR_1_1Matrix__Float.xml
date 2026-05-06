@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Matrix__Float" kind="class" language="C#" prot="public">
     <compoundname>MR::Matrix_Float</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Matrix_Float</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Matrix__Float" prot="public" virt="non-virtual">MR.Const_Matrix_Float</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1Matrix__Float_1acf663b871089c1387d5fe74bb85fe3f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -74,7 +74,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::Matrix</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::Matrix</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -89,11 +89,11 @@
         <name>Matrix_Float</name>
         <qualifiedname>MR.Matrix_Float.Matrix_Float</qualifiedname>
         <param>
-          <type>Const_Matrix_Float</type>
+          <type><ref refid="classMR_1_1Const__Matrix__Float" kindref="compound">Const_Matrix_Float</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::Matrix</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::Matrix</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -112,7 +112,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::Matrix</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::Matrix</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -135,7 +135,7 @@
           <declname>numCols</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::Matrix</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::Matrix</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -154,7 +154,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -177,7 +177,7 @@
           <declname>col</declname>
         </param>
         <briefdescription>
-<para>main access method Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::operator()</computeroutput>. </para>
+<para>main access method Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::operator()</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -196,7 +196,7 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;::operator()</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;::operator()</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -227,7 +227,7 @@
           <declname>nCol</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;<ref refid="classMR_1_1Matrix__Float_1aef8cec6914e2e63f8fc5a0e52ac8761c" kindref="member">getSubMatrix</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Matrix__Float_1aef8cec6914e2e63f8fc5a0e52ac8761c" kindref="member">getSubMatrix</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -246,7 +246,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;<ref refid="classMR_1_1Matrix__Float_1a5aba45abfe9f8d13e4a2a9b56a9dbcda" kindref="member">fill</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Matrix__Float_1a5aba45abfe9f8d13e4a2a9b56a9dbcda" kindref="member">fill</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -261,7 +261,7 @@
         <name>clear</name>
         <qualifiedname>MR.Matrix_Float.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;<ref refid="classMR_1_1Matrix__Float_1abc4530de7958af42202ad7bd6711a252" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Matrix__Float_1abc4530de7958af42202ad7bd6711a252" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -280,7 +280,7 @@
           <declname>dims</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;<ref refid="classMR_1_1Matrix__Float_1ac9434ecc79f9e07850b4b12c97109640" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Matrix&amp;lt;float&amp;gt;<ref refid="classMR_1_1Matrix__Float_1ac9434ecc79f9e07850b4b12c97109640" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -290,7 +290,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Row-major matrix with T values Generated from class <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1RectIndexer" kindref="compound">MR.RectIndexer</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Row-major matrix with T values Generated from class <computeroutput>MR::Matrix&amp;lt;float&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1RectIndexer" kindref="compound">MR.RectIndexer</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -303,6 +303,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Matrix_Float</label>
+        <link refid="classMR_1_1Const__Matrix__Float"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -324,6 +325,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Matrix_Float</label>
+        <link refid="classMR_1_1Const__Matrix__Float"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -342,7 +344,19 @@
       <member refid="classMR_1_1Matrix__Float_1aa37ba191114d7b7f6099e4e3c82d4759" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>call</name></member>
       <member refid="classMR_1_1Matrix__Float_1a5ce27ec18d315a983369856bccb7d4df" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>call</name></member>
       <member refid="classMR_1_1Matrix__Float_1abc4530de7958af42202ad7bd6711a252" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1ab71cdb6d7e16ef95579e349da281d3b8" prot="package" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Const_Matrix_Float</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a62cdcccf4d7a5af756e72114e7b3bb3b" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Const_Matrix_Float</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1aa4a7616de2b1450c4d5ee8e31fbfcb51" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Const_Matrix_Float</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a5d24e9e3bcd85d51a7cf328108239fef" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Const_Matrix_Float</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a3a65548304eb077aadb9c759fa8d3bd6" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Const_Matrix_Float</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a1be1b1c5c0c5ddc3ee0641366dd868a6" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Const_Matrix_Float</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a82eb9e800136bc2b48caffb3a8eb481d" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1af160e5f924d1568ce6ab02bbd44fb6e5" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>dims</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1abf51e7bf53dd0682fc63f462646c064d" prot="protected" virt="virtual"><scope>MR::Matrix_Float</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a8254df506bb8796ea214bfd868a20ef0" prot="public" virt="virtual"><scope>MR::Matrix_Float</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Matrix__Float_1a5aba45abfe9f8d13e4a2a9b56a9dbcda" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>fill</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a752fea6035795b0c917e2e18de6f0928" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>getColsNum</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a508793b4fa96ce5c6683f9a0a11a156f" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>getRowsNum</name></member>
       <member refid="classMR_1_1Matrix__Float_1aef8cec6914e2e63f8fc5a0e52ac8761c" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>getSubMatrix</name></member>
       <member refid="classMR_1_1Matrix__Float_1a812afd0fddcb8c0ba0e469a6693ad75f" prot="package" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Matrix_Float</name></member>
       <member refid="classMR_1_1Matrix__Float_1a324cc5aaec3c3595858fa0b9cd70cdb6" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Matrix_Float</name></member>
@@ -350,8 +364,13 @@
       <member refid="classMR_1_1Matrix__Float_1ac63111c37e952966f2717cff300d1859" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Matrix_Float</name></member>
       <member refid="classMR_1_1Matrix__Float_1af24f695a86b711a5e132a6ecf822e041" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Matrix_Float</name></member>
       <member refid="classMR_1_1Matrix__Float_1a7ddb089b594cf4115e7069c298b2e3a8" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>Matrix_Float</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a72678966e485259b4a6f6779b18f6f71" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>operator MR.Const_RectIndexer</name></member>
       <member refid="classMR_1_1Matrix__Float_1acf663b871089c1387d5fe74bb85fe3f5" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>operator MR.RectIndexer</name></member>
       <member refid="classMR_1_1Matrix__Float_1ac9434ecc79f9e07850b4b12c97109640" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a99f71dad3381929b763f2ec10ee2c094" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a45d1f01c80d1a29c27bcd61f0ec49f7a" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>toIndex</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1a47cec9a6128304db23af3d7fd1c15a09" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>toPixelId</name></member>
+      <member refid="classMR_1_1Const__Matrix__Float_1aef5b7d3f0581313d2e603e24fc4fced0" prot="public" virt="non-virtual"><scope>MR::Matrix_Float</scope><name>transposed</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

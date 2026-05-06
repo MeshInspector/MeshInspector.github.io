@@ -77,7 +77,7 @@ var namespaceMR_1_1UI =
     [ "getTexture", "group__GeneralGroup.html#ga5f60f09ca0ec1e1fdc5b3e18a48df65a", null ],
     [ "highlightWindowArea", "group__GeneralGroup.html#ga637238a58e24b49026d735227b16bad9", null ],
     [ "init", "group__GeneralGroup.html#gae19a547457c762941f3c9373c493b328", null ],
-    [ "input", "group__GeneralGroup.html#gabbed04ca5643f08d7b41e56fec98ee8b", null ],
+    [ "input", "group__GeneralGroup.html#ga20c859724d4c3797dfd73f020904c2d4", null ],
     [ "inputPlusMinus", "group__GeneralGroup.html#ga2d696a4ba7ed6899c61e4f297218a530", null ],
     [ "inputText", "group__GeneralGroup.html#ga2c6272f604f041b385fcb0fd25eb8838", null ],
     [ "inputTextCentered", "group__GeneralGroup.html#gac6e1d47398c0698542a3bc3c6e0471c4", null ],

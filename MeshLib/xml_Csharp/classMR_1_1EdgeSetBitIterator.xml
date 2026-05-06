@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgeSetBitIterator" kind="class" language="C#" prot="public">
     <compoundname>MR::EdgeSetBitIterator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgeSetBitIterator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__EdgeSetBitIterator" prot="public" virt="non-virtual">MR.Const_EdgeSetBitIterator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1EdgeSetBitIterator_1a67d80f51b7234fc8073a6d572d58bab2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>EdgeSetBitIterator</name>
         <qualifiedname>MR.EdgeSetBitIterator.EdgeSetBitIterator</qualifiedname>
         <param>
-          <type>MR.Const_EdgeSetBitIterator</type>
+          <type><ref refid="classMR_1_1Const__EdgeSetBitIterator" kindref="compound">MR.Const_EdgeSetBitIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>EdgeSetBitIterator</name>
         <qualifiedname>MR.EdgeSetBitIterator.EdgeSetBitIterator</qualifiedname>
         <param>
-          <type>MR.Const_EdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__EdgeBitSet" kindref="compound">MR.Const_EdgeBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
@@ -107,7 +107,7 @@
         <name>assign</name>
         <qualifiedname>MR.EdgeSetBitIterator.assign</qualifiedname>
         <param>
-          <type>MR.Const_EdgeSetBitIterator</type>
+          <type><ref refid="classMR_1_1Const__EdgeSetBitIterator" kindref="compound">MR.Const_EdgeSetBitIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>operator EdgeSetBitIterator</name>
         <qualifiedname>MR.EdgeSetBitIterator.operator EdgeSetBitIterator</qualifiedname>
         <param>
-          <type>MR.Const_EdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__EdgeBitSet" kindref="compound">MR.Const_EdgeBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgeSetBitIterator</label>
+        <link refid="classMR_1_1Const__EdgeSetBitIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgeSetBitIterator</label>
+        <link refid="classMR_1_1Const__EdgeSetBitIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,13 +218,28 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14174" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14175" bodyend="14243"/>
     <listofallmembers>
       <member refid="classMR_1_1EdgeSetBitIterator_1a61f495bace95a9596b9874acfa949226" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1a243f7c6379dad749561e9697854d1924" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>bitset</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1adfb72dc55e4a66aa45773f41f3423865" prot="package" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>Const_EdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1a89be1a13c712610bc34bc56228c4a826" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>Const_EdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1abfc030ca578ef4b89d1bd0036c1c805b" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>Const_EdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1a771a838d5820c1c41ac92a39e6e71b14" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>Const_EdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1afd61f9211978c60a4af1e41bc51eb20c" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>Const_EdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1a745dad1541dbd30d07de052d0aeaf6bf" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1a6f2bc11a921dce389e1e7a07a59450c6" prot="protected" virt="virtual"><scope>MR::EdgeSetBitIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1a8be5825508acb9480ae381ea54f4527e" prot="public" virt="virtual"><scope>MR::EdgeSetBitIterator</scope><name>Dispose</name></member>
       <member refid="classMR_1_1EdgeSetBitIterator_1a67d80f51b7234fc8073a6d572d58bab2" prot="package" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>EdgeSetBitIterator</name></member>
       <member refid="classMR_1_1EdgeSetBitIterator_1a2158259ba9421f0cc9d9c15f272c64d0" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>EdgeSetBitIterator</name></member>
       <member refid="classMR_1_1EdgeSetBitIterator_1a50107f33d4c5f3755071d7ebecca6f60" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>EdgeSetBitIterator</name></member>
       <member refid="classMR_1_1EdgeSetBitIterator_1afd281aa65b13bb9b82684a4b58f1f555" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>EdgeSetBitIterator</name></member>
       <member refid="classMR_1_1EdgeSetBitIterator_1af56a5475bbb43d27eaa6849689718217" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>EdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1a8391508819a995e9ddd9b689f4278518" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1ac825e3d967f9dc24ee1ffab563790d4a" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>Equals</name></member>
       <member refid="classMR_1_1EdgeSetBitIterator_1a9dfb1dea9fe232e3070d81c01987ff55" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1ab752d02fc550cd66ed029a7a0cd370d1" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>operator Const_EdgeSetBitIterator</name></member>
       <member refid="classMR_1_1EdgeSetBitIterator_1a591f7c4eea857c2203432299113e97fc" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>operator EdgeSetBitIterator</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1a446f9dbd3ef9da34670adf02fba0c041" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1a9ae80df3493e7b7da80d563d1d7e85cf" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__EdgeSetBitIterator_1a6e85b581f5b71ec603e2969470526726" prot="public" virt="non-virtual"><scope>MR::EdgeSetBitIterator</scope><name>operator==</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

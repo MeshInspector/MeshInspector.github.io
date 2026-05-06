@@ -1,7 +1,7 @@
 var classMR_1_1Nesting_1_1BoxNestingOptions =
 [
     [ "BoxNestingOptions", "classMR_1_1Nesting_1_1BoxNestingOptions.html#a5464d05635829d36ec7fac300c7e4079", null ],
-    [ "BoxNestingOptions", "classMR_1_1Nesting_1_1BoxNestingOptions.html#afba6a6f77b83a1f6e98f8ac7fa206d9a", null ],
+    [ "BoxNestingOptions", "classMR_1_1Nesting_1_1BoxNestingOptions.html#ad39c8a83223f3007dc04008d00f037c8", null ],
     [ "BoxNestingOptions", "classMR_1_1Nesting_1_1BoxNestingOptions.html#a6f76ff18661c3e111968f2ce9d126b41", null ],
     [ "BoxNestingOptions", "classMR_1_1Nesting_1_1BoxNestingOptions.html#a591095f4d7d50a20aba411218da0bd3e", null ],
     [ "BoxNestingOptions", "classMR_1_1Nesting_1_1BoxNestingOptions.html#a1552832b08071314ffbfaaa175095384", null ],

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneRoot" kind="class" language="C#" prot="public">
     <compoundname>MR::SceneRoot</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SceneRoot</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SceneRoot" prot="public" virt="non-virtual">MR.Const_SceneRoot</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1SceneRoot_1aad6131284cfc9665be8c4c7147b8de4c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>SceneRoot</name>
         <qualifiedname>MR.SceneRoot.SceneRoot</qualifiedname>
         <param>
-          <type>Const_SceneRoot</type>
+          <type><ref refid="classMR_1_1Const__SceneRoot" kindref="compound">Const_SceneRoot</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -119,6 +119,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SceneRoot</label>
+        <link refid="classMR_1_1Const__SceneRoot"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -140,6 +141,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SceneRoot</label>
+        <link refid="classMR_1_1Const__SceneRoot"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,10 +157,22 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1027" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1028" bodyend="1063"/>
     <listofallmembers>
       <member refid="classMR_1_1SceneRoot_1a326d047e0fe513b13c65a34a94051962" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a5e23b5e476be51072f996abbc7b43e27" prot="package" virt="non-virtual"><scope>MR::SceneRoot</scope><name>Const_SceneRoot</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a2e5a7ca4311cf1c6d0f682f09fa7bfd2" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>Const_SceneRoot</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a467b753f8ccc607759ed54d226a45f96" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>Const_SceneRoot</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a7825147bcf141ee050fa6e6a333bfcc2" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>Const_SceneRoot</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1aff0275d5076f29d147a21438391cccd2" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>constGet</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1af52f3819aa9d333baf5268d001e002e8" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>constGetSharedPtr</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1af77091f1af52cdc0eac7674c07e0811d" prot="protected" virt="virtual"><scope>MR::SceneRoot</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1aeb6415f3eb405fc635f7a566dd722ef5" prot="public" virt="virtual"><scope>MR::SceneRoot</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a46b4423872a1825ce7578e68f7dbbec3" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a3044ef7fc264bb3a23af54f2b33a5732" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>getScenePath</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1ada178e2811b9e32760d4758f3a3af417" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>getSharedPtr</name></member>
       <member refid="classMR_1_1SceneRoot_1aad6131284cfc9665be8c4c7147b8de4c" prot="package" virt="non-virtual"><scope>MR::SceneRoot</scope><name>SceneRoot</name></member>
       <member refid="classMR_1_1SceneRoot_1ab38d00140222cf6a4d49342bf98c6042" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>SceneRoot</name></member>
       <member refid="classMR_1_1SceneRoot_1a870c404c0ad94e3187cad8f920c51963" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>SceneRoot</name></member>
       <member refid="classMR_1_1SceneRoot_1a3ca512dc61c78464938704b0feeed7c6" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>SceneRoot</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a2b2175e1d03432c4b9255b2f1b7e838b" prot="public" virt="non-virtual"><scope>MR::SceneRoot</scope><name>setScenePath</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

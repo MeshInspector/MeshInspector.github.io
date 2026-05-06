@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IPointsProjector" kind="class" language="C#" prot="public">
     <compoundname>MR::IPointsProjector</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IPointsProjector</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IPointsProjector" prot="public" virt="non-virtual">MR.Const_IPointsProjector</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1IPointsProjector_1a8c5cb0579dadc2585ee5ba704d03214e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -35,7 +35,7 @@
         <name>setPointCloud</name>
         <qualifiedname>MR.IPointsProjector.setPointCloud</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <briefdescription>
@@ -62,6 +62,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IPointsProjector</label>
+        <link refid="classMR_1_1Const__IPointsProjector"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -83,6 +84,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IPointsProjector</label>
+        <link refid="classMR_1_1Const__IPointsProjector"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -97,7 +99,12 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="659" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="660" bodyend="675"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__IPointsProjector_1ac4ece63022427e858081183f3105a374" prot="package" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>Const_IPointsProjector</name></member>
+      <member refid="classMR_1_1Const__IPointsProjector_1a854dcd9e42d9f2a3f322ac8875ce8583" prot="protected" virt="virtual"><scope>MR::IPointsProjector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IPointsProjector_1a670fc8014f959ec15483b64f0990d0b1" prot="public" virt="virtual"><scope>MR::IPointsProjector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IPointsProjector_1a3844568c46ff6a673f8dbe057a7838b0" prot="public" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>findProjections</name></member>
       <member refid="classMR_1_1IPointsProjector_1a8c5cb0579dadc2585ee5ba704d03214e" prot="package" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>IPointsProjector</name></member>
+      <member refid="classMR_1_1Const__IPointsProjector_1a64f1523a564f5c30aa86a5bd2d900653" prot="public" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>projectionsHeapBytes</name></member>
       <member refid="classMR_1_1IPointsProjector_1ab4cea324b92dc9e302d471437c3630f6" prot="public" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>setPointCloud</name></member>
     </listofallmembers>
   </compounddef>

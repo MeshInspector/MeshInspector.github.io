@@ -1,7 +1,7 @@
 var classMR_1_1ArcInterpolationParams =
 [
     [ "ArcInterpolationParams", "classMR_1_1ArcInterpolationParams.html#a32c219d9906b1344bf8ac1d3751a7a87", null ],
-    [ "ArcInterpolationParams", "classMR_1_1ArcInterpolationParams.html#a789dc798f5e71150410e8bc69e2c1c89", null ],
+    [ "ArcInterpolationParams", "classMR_1_1ArcInterpolationParams.html#a36c3727ea3ddfbdc73c8ed9fd0b16308", null ],
     [ "ArcInterpolationParams", "classMR_1_1ArcInterpolationParams.html#a32c635d7b5d9c2b86b73ff4ce528fe0b", null ],
     [ "ArcInterpolationParams", "classMR_1_1ArcInterpolationParams.html#a4b5fb7cfbd1de755fe1414b25090c0ba", null ],
     [ "ArcInterpolationParams", "classMR_1_1ArcInterpolationParams.html#ad06499cf2e874e125456b92cf2d73894", null ],

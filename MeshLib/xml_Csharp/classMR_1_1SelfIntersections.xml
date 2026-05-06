@@ -2,16 +2,17 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SelfIntersections" kind="class" language="C#" prot="public">
     <compoundname>MR::SelfIntersections</compoundname>
+    <innerclass refid="classMR_1_1SelfIntersections_1_1Const__Settings" prot="public">MR::SelfIntersections::Const_Settings</innerclass>
     <innerclass refid="classMR_1_1SelfIntersections_1_1Settings" prot="public">MR::SelfIntersections::Settings</innerclass>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1SelfIntersections_1a5ecc81b59c3fff49b34c4d6db1b9e69d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1SelfIntersections_1a3f0c054fbf98ac86587b94f1a322faf4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
         <definition>static unsafe MR.FaceBitSet MR.SelfIntersections.getFaces</definition>
-        <argsstring>(MR.Const_Mesh mesh, bool? touchIsIntersection=null, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <argsstring>(MR.Const_Mesh mesh, bool? touchIsIntersection=null, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</argsstring>
         <name>getFaces</name>
         <qualifiedname>MR.SelfIntersections.getFaces</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -20,18 +21,18 @@
           <defval>null</defval>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Find all self-intersections faces component-wise Generated from function <computeroutput><ref refid="classMR_1_1SelfIntersections_1a5ecc81b59c3fff49b34c4d6db1b9e69d" kindref="member">MR.SelfIntersections.getFaces</ref></computeroutput>. Parameter <computeroutput>touchIsIntersection</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Find all self-intersections faces component-wise Generated from function <computeroutput><ref refid="classMR_1_1SelfIntersections_1a3f0c054fbf98ac86587b94f1a322faf4" kindref="member">MR.SelfIntersections.getFaces</ref></computeroutput>. Parameter <computeroutput>touchIsIntersection</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" line="354" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" bodystart="354" bodyend="363"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" line="371" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" bodystart="371" bodyend="380"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SelfIntersections_1a08c2d73fabc1f3cff484d0615628d0d6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -44,7 +45,7 @@
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.SelfIntersections.Const_Settings</type>
+          <type><ref refid="classMR_1_1SelfIntersections_1_1Const__Settings" kindref="compound">MR.SelfIntersections.Const_Settings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
@@ -54,17 +55,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" line="369" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" bodystart="369" bodyend="376"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" line="386" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" bodystart="386" bodyend="393"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" bodystart="4" bodyend="377"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFixSelfIntersections.cs" bodystart="4" bodyend="394"/>
     <listofallmembers>
       <member refid="classMR_1_1SelfIntersections_1a08c2d73fabc1f3cff484d0615628d0d6" prot="public" virt="non-virtual"><scope>MR::SelfIntersections</scope><name>fix</name></member>
-      <member refid="classMR_1_1SelfIntersections_1a5ecc81b59c3fff49b34c4d6db1b9e69d" prot="public" virt="non-virtual"><scope>MR::SelfIntersections</scope><name>getFaces</name></member>
+      <member refid="classMR_1_1SelfIntersections_1a3f0c054fbf98ac86587b94f1a322faf4" prot="public" virt="non-virtual"><scope>MR::SelfIntersections</scope><name>getFaces</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

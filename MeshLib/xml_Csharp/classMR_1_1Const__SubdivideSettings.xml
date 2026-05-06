@@ -1,0 +1,881 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SubdivideSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SubdivideSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SubdivideSettings" prot="public" virt="non-virtual">MR.SubdivideSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a96035e6831aa736dfe58fb96fe2e00e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SubdivideSettings.maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>MR.Const_SubdivideSettings.maxEdgeLen</qualifiedname>
+        <briefdescription>
+<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="28" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a608e5b09edb9d0232a24b59b332b6166" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SubdivideSettings.curvaturePriority</definition>
+        <argsstring></argsstring>
+        <name>curvaturePriority</name>
+        <qualifiedname>MR.Const_SubdivideSettings.curvaturePriority</qualifiedname>
+        <briefdescription>
+<para>edge length will be magnified by the squared difference of normals at edge's ends times this factor, thus subdivision will be finer in the regions of high curvature compared to planar regions </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="35" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a8d99826e13e6e4c91094f13d6c7d81f6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_SubdivideSettings.maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>MR.Const_SubdivideSettings.maxEdgeSplits</qualifiedname>
+        <briefdescription>
+<para>Maximum number of edge splits allowed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="41" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1ad66ffb9f43316f9a4f186099cf7138d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SubdivideSettings.maxDeviationAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxDeviationAfterFlip</name>
+        <qualifiedname>MR.Const_SubdivideSettings.maxDeviationAfterFlip</qualifiedname>
+        <briefdescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="47" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a546c18b01886168b854b18b5f3175395" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SubdivideSettings.maxAngleChangeAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChangeAfterFlip</name>
+        <qualifiedname>MR.Const_SubdivideSettings.maxAngleChangeAfterFlip</qualifiedname>
+        <briefdescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="53" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a39080af4b5e8cfdff7f5523b605db6cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SubdivideSettings.criticalAspectRatioFlip</definition>
+        <argsstring></argsstring>
+        <name>criticalAspectRatioFlip</name>
+        <qualifiedname>MR.Const_SubdivideSettings.criticalAspectRatioFlip</qualifiedname>
+        <briefdescription>
+<para>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="61" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a82103d3a3becdb348dd69f759ecc9b25" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>unsafe MR.? FaceBitSet MR.Const_SubdivideSettings.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.Const_SubdivideSettings.region</qualifiedname>
+        <briefdescription>
+<para>Region on mesh to be subdivided, it is updated during the operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="67" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="68" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1aa7b5c3182a8181ed2703c5b8e3082a5d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>unsafe MR.? FaceBitSet MR.Const_SubdivideSettings.maintainRegion</definition>
+        <argsstring></argsstring>
+        <name>maintainRegion</name>
+        <qualifiedname>MR.Const_SubdivideSettings.maintainRegion</qualifiedname>
+        <briefdescription>
+<para>Additional region to update during subdivision: if a face from here is split, it is replaced with new sub-faces; note that Subdivide can split faces even outside of main <computeroutput>region</computeroutput>, so it might be necessary to update another region. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="86" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="87" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a55678e5b98c45bf1bca2329bdb8f40af" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.? UndirectedEdgeBitSet MR.Const_SubdivideSettings.notFlippable</definition>
+        <argsstring></argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>MR.Const_SubdivideSettings.notFlippable</qualifiedname>
+        <briefdescription>
+<para><ref refid="classMR_1_1Edges" kindref="compound">Edges</ref> specified by this bit-set will never be flipped, but they can be split so it is updated during the operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="104" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="105" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1aad53b86309320b8d8bbab9b5b1b51ce8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition>unsafe MR.? VertBitSet MR.Const_SubdivideSettings.newVerts</definition>
+        <argsstring></argsstring>
+        <name>newVerts</name>
+        <qualifiedname>MR.Const_SubdivideSettings.newVerts</qualifiedname>
+        <briefdescription>
+<para>New vertices appeared during subdivision will be added here. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="122" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="123" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a5f51e469c9d65d679bccf514fe793c33" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SubdivideSettings.subdivideBorder</definition>
+        <argsstring></argsstring>
+        <name>subdivideBorder</name>
+        <qualifiedname>MR.Const_SubdivideSettings.subdivideBorder</qualifiedname>
+        <briefdescription>
+<para>If false do not touch border edges (cannot subdivide lone faces)<linebreak/>
+use <ref refid="classMR_1a3e05831f9b45095b91e0481c0955ed4d" kindref="member">MR.findRegionOuterFaces</ref> to find boundary faces. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="141" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1ab35fb47ec829ec29ae931dc6f13eb620" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SubdivideSettings.maxTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>maxTriAspectRatio</name>
+        <qualifiedname>MR.Const_SubdivideSettings.maxTriAspectRatio</qualifiedname>
+        <briefdescription>
+<para>The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="147" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1aba133255b35f1dc94843b44ba545944b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SubdivideSettings.maxSplittableTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>maxSplittableTriAspectRatio</name>
+        <qualifiedname>MR.Const_SubdivideSettings.maxSplittableTriAspectRatio</qualifiedname>
+        <briefdescription>
+<para>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="155" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a5905613db0f5ae5731ac9544df714efe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SubdivideSettings.smoothMode</definition>
+        <argsstring></argsstring>
+        <name>smoothMode</name>
+        <qualifiedname>MR.Const_SubdivideSettings.smoothMode</qualifiedname>
+        <briefdescription>
+<para>Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="162" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1acb2587f7f8182ea98e164cb2b6b5ce56" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SubdivideSettings.minSharpDihedralAngle</definition>
+        <argsstring></argsstring>
+        <name>minSharpDihedralAngle</name>
+        <qualifiedname>MR.Const_SubdivideSettings.minSharpDihedralAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="166" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1aa3cec0abaa6273a31d8b3b0319551e12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SubdivideSettings.projectOnOriginalMesh</definition>
+        <argsstring></argsstring>
+        <name>projectOnOriginalMesh</name>
+        <qualifiedname>MR.Const_SubdivideSettings.projectOnOriginalMesh</qualifiedname>
+        <briefdescription>
+<para>if true, then every new vertex will be projected on the original mesh (before smoothing) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="172" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1ab3ac68d276317355aeeb9915c34e98b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_MREdgeId</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_MREdgeId MR.Const_SubdivideSettings.beforeEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>beforeEdgeSplit</name>
+        <qualifiedname>MR.Const_SubdivideSettings.beforeEdgeSplit</qualifiedname>
+        <briefdescription>
+<para>this function is called each time edge (e) is going to split, if it returns false then this split will be skipped </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="178" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="178" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a971283c2339a8bda25f569bdc8be96a9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Void_From_MRVertId</type>
+        <definition>unsafe MR.Std.Const_Function_Void_From_MRVertId MR.Const_SubdivideSettings.onVertCreated</definition>
+        <argsstring></argsstring>
+        <name>onVertCreated</name>
+        <qualifiedname>MR.Const_SubdivideSettings.onVertCreated</qualifiedname>
+        <briefdescription>
+<para>this function is called each time a new vertex has been created, but before the ring is made Delone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="183" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="183" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a1781588eb5c2e666f45b67543e0b1c07" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId</type>
+        <definition>unsafe MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId MR.Const_SubdivideSettings.onEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>MR.Const_SubdivideSettings.onEdgeSplit</qualifiedname>
+        <briefdescription>
+<para>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="188" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="188" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SubdivideSettings_1a23797e495a438f958495b0d5938a7add" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_SubdivideSettings.progressCallback</definition>
+        <argsstring></argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>MR.Const_SubdivideSettings.progressCallback</qualifiedname>
+        <briefdescription>
+<para>callback to report algorithm progress and cancel it by user request </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="193" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="193" bodyend="193"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a8bd6fe6414315a8f7233bd6131be2b38" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SubdivideSettings.__ref_storage_maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxEdgeLen</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ref_storage_maxEdgeLen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="29" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1af07f3985ef5452be346bc3e5c2e05d84" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SubdivideSettings.__ref_storage_curvaturePriority</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_curvaturePriority</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ref_storage_curvaturePriority</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="36" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1afb69c4b68a294908a63fbc203bc6a716" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_SubdivideSettings.__ref_storage_maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxEdgeSplits</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ref_storage_maxEdgeSplits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="42" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1ad12b94f8a0963e2569c82d8c3631104e" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SubdivideSettings.__ref_storage_maxDeviationAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxDeviationAfterFlip</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ref_storage_maxDeviationAfterFlip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="48" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a5e22d9aa1f62192db0154e218cf05a9e" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SubdivideSettings.__ref_storage_maxAngleChangeAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxAngleChangeAfterFlip</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ref_storage_maxAngleChangeAfterFlip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="54" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a35d30ecfa1ebe9be2afe0dc7bea8515c" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SubdivideSettings.__ref_storage_criticalAspectRatioFlip</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_criticalAspectRatioFlip</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ref_storage_criticalAspectRatioFlip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="62" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a4fe96a0f5d438ed9abde58eb846cda23" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.FaceBitSet._Underlying **</type>
+        <definition>unsafe MR.FaceBitSet._Underlying** MR.Const_SubdivideSettings.__ptr_storage_region</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_region</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ptr_storage_region</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="80" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a098b85653e15883ddb0721844ba615c8" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.FaceBitSet._Underlying **</type>
+        <definition>unsafe MR.FaceBitSet._Underlying** MR.Const_SubdivideSettings.__ptr_storage_maintainRegion</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_maintainRegion</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ptr_storage_maintainRegion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="99" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a437c7a3fac90b99934a08a339de96828" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.UndirectedEdgeBitSet._Underlying **</type>
+        <definition>unsafe MR.UndirectedEdgeBitSet._Underlying** MR.Const_SubdivideSettings.__ptr_storage_notFlippable</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_notFlippable</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ptr_storage_notFlippable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="117" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1ac39d6804c45a7328fb13e1daefb4cc28" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.VertBitSet._Underlying **</type>
+        <definition>unsafe MR.VertBitSet._Underlying** MR.Const_SubdivideSettings.__ptr_storage_newVerts</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_newVerts</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ptr_storage_newVerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="135" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a2c00194c6d29c0a0efbd534dd7a4b6d9" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_SubdivideSettings.__ref_storage_subdivideBorder</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_subdivideBorder</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ref_storage_subdivideBorder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="142" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a0ca39d0b6cba1bd765fe3fe5c8f3c50c" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SubdivideSettings.__ref_storage_maxTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxTriAspectRatio</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ref_storage_maxTriAspectRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="148" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1ac50521a8622ffe34542cc94707027181" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SubdivideSettings.__ref_storage_maxSplittableTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxSplittableTriAspectRatio</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ref_storage_maxSplittableTriAspectRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="156" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a80a38a2162cf1cdabdff53a2f1ff8258" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_SubdivideSettings.__ref_storage_smoothMode</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_smoothMode</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ref_storage_smoothMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="163" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a2537bcaab1cd2df41d423b5cd010aadf" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SubdivideSettings.__ref_storage_minSharpDihedralAngle</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_minSharpDihedralAngle</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ref_storage_minSharpDihedralAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="167" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SubdivideSettings_1a5ee447b8d5897946d1ec79bcef3f627a" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_SubdivideSettings.__ref_storage_projectOnOriginalMesh</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_projectOnOriginalMesh</name>
+        <qualifiedname>MR.Const_SubdivideSettings.__ref_storage_projectOnOriginalMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="173" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1aa18a50333e2cfad6bea54eda05478d1f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SubdivideSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SubdivideSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1ad200f99ae39e2c98e04f0e26a621f6a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SubdivideSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SubdivideSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a14fd7dd1a38583764e857562c06685a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SubdivideSettings.Const_SubdivideSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SubdivideSettings</name>
+        <qualifiedname>MR.Const_SubdivideSettings.Const_SubdivideSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="338" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="338" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1ac71d211ccf0190830152c95eb3603e8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SubdivideSettings.Const_SubdivideSettings</definition>
+        <argsstring>(float maxEdgeLen, float curvaturePriority, int maxEdgeSplits, float maxDeviationAfterFlip, float maxAngleChangeAfterFlip, float criticalAspectRatioFlip, MR.FaceBitSet? region, MR.FaceBitSet? maintainRegion, MR.UndirectedEdgeBitSet? notFlippable, MR.VertBitSet? newVerts, bool subdivideBorder, float maxTriAspectRatio, float maxSplittableTriAspectRatio, bool smoothMode, float minSharpDihedralAngle, bool projectOnOriginalMesh, MR.Std._ByValue_Function_Bool_From_MREdgeId beforeEdgeSplit, MR.Std._ByValue_Function_Void_From_MRVertId onVertCreated, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeSplit, MR.Std._ByValue_Function_Bool_From_Float progressCallback)</argsstring>
+        <name>Const_SubdivideSettings</name>
+        <qualifiedname>MR.Const_SubdivideSettings.Const_SubdivideSettings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>maxEdgeLen</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>curvaturePriority</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxEdgeSplits</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDeviationAfterFlip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChangeAfterFlip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalAspectRatioFlip</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>maintainRegion</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref>?</type>
+          <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>?</type>
+          <declname>newVerts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>subdivideBorder</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxSplittableTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>smoothMode</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minSharpDihedralAngle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>projectOnOriginalMesh</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_MREdgeId</type>
+          <declname>beforeEdgeSplit</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Void_From_MRVertId</type>
+          <declname>onVertCreated</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId</type>
+          <declname>onEdgeSplit</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>progressCallback</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1SubdivideSettings" kindref="compound">MR.SubdivideSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="349" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="349" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a188023ed4a15e58cb7783f4f1a85324d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SubdivideSettings.Const_SubdivideSettings</definition>
+        <argsstring>(MR._ByValue_SubdivideSettings _other)</argsstring>
+        <name>Const_SubdivideSettings</name>
+        <qualifiedname>MR.Const_SubdivideSettings.Const_SubdivideSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_SubdivideSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SubdivideSettings_1afab9ec8867cf7ea966aca70cd693d026" kindref="member">MR.SubdivideSettings.SubdivideSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="368" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="368" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a3664ca2c880c12fcf523182869c4dc82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SubdivideSettings.Const_SubdivideSettings</definition>
+        <argsstring>(Const_SubdivideSettings _other)</argsstring>
+        <name>Const_SubdivideSettings</name>
+        <qualifiedname>MR.Const_SubdivideSettings.Const_SubdivideSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SubdivideSettings" kindref="compound">Const_SubdivideSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SubdivideSettings_1afab9ec8867cf7ea966aca70cd693d026" kindref="member">MR.SubdivideSettings.SubdivideSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="380" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="380" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1acc527c301f6bd4852405291464a392af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SubdivideSettings.Const_SubdivideSettings</definition>
+        <argsstring>(SubdivideSettings _other)</argsstring>
+        <name>Const_SubdivideSettings</name>
+        <qualifiedname>MR.Const_SubdivideSettings.Const_SubdivideSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SubdivideSettings" kindref="compound">SubdivideSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SubdivideSettings_1afab9ec8867cf7ea966aca70cd693d026" kindref="member">MR.SubdivideSettings.SubdivideSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="385" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="385" bodyend="385"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1a5ca24dfdf3294a82df118ffc009b999f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SubdivideSettings.~Const_SubdivideSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SubdivideSettings</name>
+        <qualifiedname>MR.Const_SubdivideSettings.~Const_SubdivideSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SubdivideSettings_1ada11d7fcec62ceccf62c36f926699306" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SubdivideSettings.Const_SubdivideSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SubdivideSettings</name>
+        <qualifiedname>MR.Const_SubdivideSettings.Const_SubdivideSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="327" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="327" bodyend="332"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1SubdivideSettings" kindref="compound">MR.SubdivideSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SubdivideSettings</label>
+        <link refid="classMR_1_1Const__SubdivideSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.SubdivideSettings</label>
+        <link refid="classMR_1_1SubdivideSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_SubdivideSettings</label>
+        <link refid="classMR_1_1Const__SubdivideSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_maintainRegion</edgelabel>
+          <edgelabel>__ptr_storage_newVerts</edgelabel>
+          <edgelabel>__ptr_storage_notFlippable</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSubdivide.cs" bodystart="8" bodyend="386"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a098b85653e15883ddb0721844ba615c8" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ptr_storage_maintainRegion</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ac39d6804c45a7328fb13e1daefb4cc28" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ptr_storage_newVerts</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a437c7a3fac90b99934a08a339de96828" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ptr_storage_notFlippable</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a4fe96a0f5d438ed9abde58eb846cda23" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a35d30ecfa1ebe9be2afe0dc7bea8515c" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_criticalAspectRatioFlip</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1af07f3985ef5452be346bc3e5c2e05d84" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_curvaturePriority</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a5e22d9aa1f62192db0154e218cf05a9e" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_maxAngleChangeAfterFlip</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ad12b94f8a0963e2569c82d8c3631104e" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_maxDeviationAfterFlip</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a8bd6fe6414315a8f7233bd6131be2b38" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_maxEdgeLen</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1afb69c4b68a294908a63fbc203bc6a716" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_maxEdgeSplits</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ac50521a8622ffe34542cc94707027181" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_maxSplittableTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a0ca39d0b6cba1bd765fe3fe5c8f3c50c" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_maxTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a2537bcaab1cd2df41d423b5cd010aadf" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_minSharpDihedralAngle</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a5ee447b8d5897946d1ec79bcef3f627a" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_projectOnOriginalMesh</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a80a38a2162cf1cdabdff53a2f1ff8258" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_smoothMode</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a2c00194c6d29c0a0efbd534dd7a4b6d9" prot="protected" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>__ref_storage_subdivideBorder</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ab3ac68d276317355aeeb9915c34e98b6" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>beforeEdgeSplit</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ada11d7fcec62ceccf62c36f926699306" prot="package" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a14fd7dd1a38583764e857562c06685a3" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ac71d211ccf0190830152c95eb3603e8b" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a188023ed4a15e58cb7783f4f1a85324d" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a3664ca2c880c12fcf523182869c4dc82" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1acc527c301f6bd4852405291464a392af" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>Const_SubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a39080af4b5e8cfdff7f5523b605db6cf" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>criticalAspectRatioFlip</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a608e5b09edb9d0232a24b59b332b6166" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>curvaturePriority</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1aa18a50333e2cfad6bea54eda05478d1f" prot="protected" virt="virtual"><scope>MR::Const_SubdivideSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ad200f99ae39e2c98e04f0e26a621f6a2" prot="public" virt="virtual"><scope>MR::Const_SubdivideSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1aa7b5c3182a8181ed2703c5b8e3082a5d" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>maintainRegion</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a546c18b01886168b854b18b5f3175395" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ad66ffb9f43316f9a4f186099cf7138d1" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>maxDeviationAfterFlip</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a96035e6831aa736dfe58fb96fe2e00e4" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a8d99826e13e6e4c91094f13d6c7d81f6" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1aba133255b35f1dc94843b44ba545944b" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>maxSplittableTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1ab35fb47ec829ec29ae931dc6f13eb620" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>maxTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1acb2587f7f8182ea98e164cb2b6b5ce56" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>minSharpDihedralAngle</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1aad53b86309320b8d8bbab9b5b1b51ce8" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>newVerts</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a55678e5b98c45bf1bca2329bdb8f40af" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>notFlippable</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a1781588eb5c2e666f45b67543e0b1c07" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a971283c2339a8bda25f569bdc8be96a9" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>onVertCreated</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a23797e495a438f958495b0d5938a7add" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>progressCallback</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1aa3cec0abaa6273a31d8b3b0319551e12" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>projectOnOriginalMesh</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a82103d3a3becdb348dd69f759ecc9b25" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>region</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a5905613db0f5ae5731ac9544df714efe" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>smoothMode</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a5f51e469c9d65d679bccf514fe793c33" prot="public" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>subdivideBorder</name></member>
+      <member refid="classMR_1_1Const__SubdivideSettings_1a5ca24dfdf3294a82df118ffc009b999f" prot="private" virt="non-virtual"><scope>MR::Const_SubdivideSettings</scope><name>~Const_SubdivideSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

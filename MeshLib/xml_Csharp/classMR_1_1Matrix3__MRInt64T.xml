@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Matrix3__MRInt64T" kind="class" language="C#" prot="public">
     <compoundname>MR::Matrix3_MRInt64T</compoundname>
+    <innerclass refid="classMR_1_1Matrix3__MRInt64T_1_1Const__QR" prot="public">MR::Matrix3_MRInt64T::Const_QR</innerclass>
     <innerclass refid="classMR_1_1Matrix3__MRInt64T_1_1QR" prot="public">MR::Matrix3_MRInt64T::QR</innerclass>
     <briefdescription>
     </briefdescription>

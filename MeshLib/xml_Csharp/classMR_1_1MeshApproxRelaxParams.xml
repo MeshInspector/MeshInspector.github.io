@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshApproxRelaxParams" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshApproxRelaxParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshApproxRelaxParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshApproxRelaxParams" prot="public" virt="non-virtual">MR.Const_MeshApproxRelaxParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshApproxRelaxParams_1a6a2bf9299774fa6af8fa9131c4eb1b2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -49,7 +49,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="1002" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="1002" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshApproxRelaxParams_1a20b9f027ef9fb92dbdfd954b469a7303" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertScalars</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertScalars" kindref="compound">Const_VertScalars</ref></type>
         <definition>new unsafe MR.? Const_VertScalars MR.MeshApproxRelaxParams.weights</definition>
         <argsstring></argsstring>
         <name>weights</name>
@@ -79,7 +79,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="1022" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="1022" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1MeshApproxRelaxParams_1a73f3038b349afb74f1bcd16dcaf19eaa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.MeshApproxRelaxParams.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -224,7 +224,7 @@
         <name>MeshApproxRelaxParams</name>
         <qualifiedname>MR.MeshApproxRelaxParams.MeshApproxRelaxParams</qualifiedname>
         <param>
-          <type>MR.Const_MeshApproxRelaxParams</type>
+          <type><ref refid="classMR_1_1Const__MeshApproxRelaxParams" kindref="compound">MR.Const_MeshApproxRelaxParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -262,7 +262,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshApproxRelaxParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_MeshApproxRelaxParams</type>
+          <type><ref refid="classMR_1_1Const__MeshApproxRelaxParams" kindref="compound">MR.Const_MeshApproxRelaxParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -289,6 +289,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshApproxRelaxParams</label>
+        <link refid="classMR_1_1Const__MeshApproxRelaxParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -302,6 +303,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshApproxRelaxParams</label>
         <link refid="classMR_1_1MeshApproxRelaxParams"/>
@@ -310,9 +315,15 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshApproxRelaxParams</label>
+        <link refid="classMR_1_1Const__MeshApproxRelaxParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ptr_storage_weights</edgelabel>
+          <edgelabel>__ref_storage_type</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -324,7 +335,22 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" line="971" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshRelax.cs" bodystart="972" bodyend="1102"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a15f715af7e447605a5c445948c753185" prot="protected" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a5d6a1ae952b6feb90e423ba45c93beb4" prot="protected" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>__ptr_storage_weights</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a2831cd4e25d817b6fba80f3e0bcb5ecd" prot="protected" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>__ref_storage_force</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a5dc782061dac841b4c7d874ba18adf52" prot="protected" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>__ref_storage_hardSmoothTetrahedrons</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1ad0492e21bd56ce778049eeee41e1abfa" prot="protected" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>__ref_storage_iterations</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1aa0b02a1c5a8ebf213cf1685d9a2a7034" prot="protected" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>__ref_storage_limitNearInitial</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a15c0ae3510e802be27e6ed06ceb98821" prot="protected" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>__ref_storage_maxInitialDist</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a62f547f8f60b11f960c54137b6f68d5a" prot="protected" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>__ref_storage_surfaceDilateRadius</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a537f470dc2ef071ad036ee33f79ce2ed" prot="protected" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>__ref_storage_type</name></member>
       <member refid="classMR_1_1MeshApproxRelaxParams_1a49232e24b71ce1f5fdf92c9c88e5dfc2" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a8a7665edf76d50a42dbc5a3903aca3cf" prot="package" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>Const_MeshApproxRelaxParams</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a3cb277927896ace2932e0b8fa32097e5" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>Const_MeshApproxRelaxParams</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a14a6c245ded1990729febe37a46b280a" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>Const_MeshApproxRelaxParams</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1ac42c4ac68dd4efec0a33f31cc81dd646" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>Const_MeshApproxRelaxParams</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a020a0810bec95e795b5f6695de66c730" prot="protected" virt="virtual"><scope>MR::MeshApproxRelaxParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1af781880b585bb071b55d9c37861707ab" prot="public" virt="virtual"><scope>MR::MeshApproxRelaxParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshApproxRelaxParams_1a9343045d84dc9a11afb04655a63b8381" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>force</name></member>
       <member refid="classMR_1_1MeshApproxRelaxParams_1a545be7ff2ad08a2d6e9a21c5c1d25230" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>hardSmoothTetrahedrons</name></member>
       <member refid="classMR_1_1MeshApproxRelaxParams_1a564ff635e217c82d7e872f0d14f49b32" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>iterations</name></member>
@@ -334,6 +360,8 @@
       <member refid="classMR_1_1MeshApproxRelaxParams_1a1594eb602e5c62726787743172fe4ede" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>MeshApproxRelaxParams</name></member>
       <member refid="classMR_1_1MeshApproxRelaxParams_1a4429bd6e4e61a50df2b6d6fc500f023b" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>MeshApproxRelaxParams</name></member>
       <member refid="classMR_1_1MeshApproxRelaxParams_1aa1e8cf63210c9d1a82ad457c9996a430" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>MeshApproxRelaxParams</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a17c740a8b88a11ca922f48213febeff8" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>operator MR.Const_MeshRelaxParams</name></member>
+      <member refid="classMR_1_1Const__MeshApproxRelaxParams_1a5f37dc60b3c9ec7db048158252209f50" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>operator MR.Const_RelaxParams</name></member>
       <member refid="classMR_1_1MeshApproxRelaxParams_1a2a111f2e5340b8df2dc8b737d112a97d" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>operator MR.MeshRelaxParams</name></member>
       <member refid="classMR_1_1MeshApproxRelaxParams_1ad4e58253d24183d41ad9d4b0a6c7cf95" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>operator MR.RelaxParams</name></member>
       <member refid="classMR_1_1MeshApproxRelaxParams_1a73f3038b349afb74f1bcd16dcaf19eaa" prot="public" virt="non-virtual"><scope>MR::MeshApproxRelaxParams</scope><name>region</name></member>

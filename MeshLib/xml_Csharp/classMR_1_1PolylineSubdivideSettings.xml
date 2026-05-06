@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolylineSubdivideSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::PolylineSubdivideSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PolylineSubdivideSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PolylineSubdivideSettings" prot="public" virt="non-virtual">MR.Const_PolylineSubdivideSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PolylineSubdivideSettings_1aef0e2b462d5e96efa9e91879401a1533" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -101,7 +101,7 @@
         <name>onEdgeSplit</name>
         <qualifiedname>MR.PolylineSubdivideSettings.onEdgeSplit</qualifiedname>
         <briefdescription>
-<para>this function is called each time edge (e) is split into (e1-&amp;gt;e) </para>
+<para>this function is called each time edge (e) is split into (e1-&gt;e) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -165,10 +165,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="322" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="322" bodyend="328"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1aeccd3a98e71d8c7303b519e6f03d012d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PolylineSubdivideSettings_1a6570393cbb871a875ff7f118728ddeab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.PolylineSubdivideSettings.PolylineSubdivideSettings</definition>
-        <argsstring>(float maxEdgeLen, int maxEdgeSplits, MR.VertBitSet? region, MR.VertBitSet? newVerts, bool useCurvature, MR.Std._ByValue_Function_VoidFuncFromMRVertId onVertCreated, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeSplit, MR.Std._ByValue_Function_BoolFuncFromFloat progressCallback)</argsstring>
+        <argsstring>(float maxEdgeLen, int maxEdgeSplits, MR.VertBitSet? region, MR.VertBitSet? newVerts, bool useCurvature, MR.Std._ByValue_Function_Void_From_MRVertId onVertCreated, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeSplit, MR.Std._ByValue_Function_Bool_From_Float progressCallback)</argsstring>
         <name>PolylineSubdivideSettings</name>
         <qualifiedname>MR.PolylineSubdivideSettings.PolylineSubdivideSettings</qualifiedname>
         <param>
@@ -192,15 +192,15 @@
           <declname>useCurvature</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMRVertId</type>
+          <type>MR.Std._ByValue_Function_Void_From_MRVertId</type>
           <declname>onVertCreated</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <type>MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId</type>
           <declname>onEdgeSplit</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progressCallback</declname>
         </param>
         <briefdescription>
@@ -238,7 +238,7 @@
         <name>PolylineSubdivideSettings</name>
         <qualifiedname>MR.PolylineSubdivideSettings.PolylineSubdivideSettings</qualifiedname>
         <param>
-          <type>Const_PolylineSubdivideSettings</type>
+          <type><ref refid="classMR_1_1Const__PolylineSubdivideSettings" kindref="compound">Const_PolylineSubdivideSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -303,6 +303,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineSubdivideSettings</label>
+        <link refid="classMR_1_1Const__PolylineSubdivideSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -316,6 +317,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PolylineSubdivideSettings</label>
         <link refid="classMR_1_1PolylineSubdivideSettings"/>
@@ -324,9 +329,14 @@
       </node>
       <node id="2">
         <label>MR.Const_PolylineSubdivideSettings</label>
+        <link refid="classMR_1_1Const__PolylineSubdivideSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_newVerts</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -338,7 +348,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" line="217" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineSubdivide.cs" bodystart="218" bodyend="379"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PolylineSubdivideSettings_1a87075c83b63493d12e4c453055f05c94" prot="protected" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__ptr_storage_newVerts</name></member>
+      <member refid="classMR_1_1Const__PolylineSubdivideSettings_1a2162f044abb452cc3555ca9bed030083" prot="protected" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__PolylineSubdivideSettings_1a9fc3f955d53dbd60e257ed302ee210df" prot="protected" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__ref_storage_maxEdgeLen</name></member>
+      <member refid="classMR_1_1Const__PolylineSubdivideSettings_1a4d0f1048b5ff5cbdf27f073bb36d43e4" prot="protected" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__ref_storage_maxEdgeSplits</name></member>
+      <member refid="classMR_1_1Const__PolylineSubdivideSettings_1a2755287340a19d68396c53494533cd3c" prot="protected" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>__ref_storage_useCurvature</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1a2d0ee28383a5c98f2588c56d0825125f" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PolylineSubdivideSettings_1aa273d6cdfb1edb3f178829468f710c06" prot="package" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>Const_PolylineSubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__PolylineSubdivideSettings_1a0ebf3a5c33713da76f4e698a0bd38462" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>Const_PolylineSubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__PolylineSubdivideSettings_1a4b9ee464d692a7c91fa07f4ff1adf360" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>Const_PolylineSubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__PolylineSubdivideSettings_1a08026de0f2dc19cf7c6a41d31e6ff771" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>Const_PolylineSubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__PolylineSubdivideSettings_1aa0805859bbe05d37ddabd1ff7cce275f" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>Const_PolylineSubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__PolylineSubdivideSettings_1af60b77e00ec3729572311e98389012ca" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>Const_PolylineSubdivideSettings</name></member>
+      <member refid="classMR_1_1Const__PolylineSubdivideSettings_1ae92b3d1ea012f8b715001c56ffb4b131" prot="protected" virt="virtual"><scope>MR::PolylineSubdivideSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolylineSubdivideSettings_1a5f2be12b95b146edd65e2414ba74f3b4" prot="public" virt="virtual"><scope>MR::PolylineSubdivideSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1aef0e2b462d5e96efa9e91879401a1533" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>maxEdgeLen</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1a30786f743f4d38f16a5566df8e3595bd" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>maxEdgeSplits</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1a90181caf76b486252e075a52bf81b567" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>newVerts</name></member>
@@ -346,7 +369,7 @@
       <member refid="classMR_1_1PolylineSubdivideSettings_1a424395adb75ae28f558b47069a29ac5b" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>onVertCreated</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1ad863815acd9b76360141e370f42a7b2e" prot="package" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1a806445da71b7f999727cc7334bf43a63" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>
-      <member refid="classMR_1_1PolylineSubdivideSettings_1aeccd3a98e71d8c7303b519e6f03d012d" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>
+      <member refid="classMR_1_1PolylineSubdivideSettings_1a6570393cbb871a875ff7f118728ddeab" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1a51b96e0fe17f39e563356c6fcbd3c091" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1a44be99991118c72da7973d3e929d045c" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>
       <member refid="classMR_1_1PolylineSubdivideSettings_1a67b27dba0d8ddf024b62bc500faa595a" prot="public" virt="non-virtual"><scope>MR::PolylineSubdivideSettings</scope><name>PolylineSubdivideSettings</name></member>

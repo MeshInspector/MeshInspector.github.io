@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectSave" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectSave</compoundname>
+    <innerclass refid="classMR_1_1ObjectSave_1_1Const__Settings" prot="public">MR::ObjectSave::Const_Settings</innerclass>
     <innerclass refid="classMR_1_1ObjectSave_1_1Settings" prot="public">MR::ObjectSave::Settings</innerclass>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ObjectSave_1a02ea345222c8335edd77a73314e87e68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -11,7 +12,7 @@
         <name>toAnySupportedSceneFormat</name>
         <qualifiedname>MR.ObjectSave.toAnySupportedSceneFormat</qualifiedname>
         <param>
-          <type>MR.Const_Object</type>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
           <declname>object_</declname>
         </param>
         <param>
@@ -19,7 +20,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.ObjectSave.Const_Settings?</type>
+          <type><ref refid="classMR_1_1ObjectSave_1_1Const__Settings" kindref="compound">MR.ObjectSave.Const_Settings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -39,7 +40,7 @@
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR.ObjectSave.toAnySupportedFormat</qualifiedname>
         <param>
-          <type>MR.Const_Object</type>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
           <declname>object_</declname>
         </param>
         <param>
@@ -47,7 +48,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.ObjectSave.Const_Settings?</type>
+          <type><ref refid="classMR_1_1ObjectSave_1_1Const__Settings" kindref="compound">MR.ObjectSave.Const_Settings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>

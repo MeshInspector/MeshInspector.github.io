@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointToPlaneAligningTransform" kind="class" language="C#" prot="public">
     <compoundname>MR::PointToPlaneAligningTransform</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointToPlaneAligningTransform</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointToPlaneAligningTransform" prot="public" virt="non-virtual">MR.Const_PointToPlaneAligningTransform</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1PointToPlaneAligningTransform_1a7fb23dbd09beb6a31a670a8e49d46501" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>PointToPlaneAligningTransform</name>
         <qualifiedname>MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</qualifiedname>
         <param>
-          <type>MR.Const_PointToPlaneAligningTransform</type>
+          <type><ref refid="classMR_1_1Const__PointToPlaneAligningTransform" kindref="compound">MR.Const_PointToPlaneAligningTransform</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.PointToPlaneAligningTransform.assign</qualifiedname>
         <param>
-          <type>MR.Const_PointToPlaneAligningTransform</type>
+          <type><ref refid="classMR_1_1Const__PointToPlaneAligningTransform" kindref="compound">MR.Const_PointToPlaneAligningTransform</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -209,6 +209,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointToPlaneAligningTransform</label>
+        <link refid="classMR_1_1Const__PointToPlaneAligningTransform"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -230,6 +231,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointToPlaneAligningTransform</label>
+        <link refid="classMR_1_1Const__PointToPlaneAligningTransform"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,7 +249,22 @@
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a5276e64fa3080924e9ce63bfabaa9811" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>add</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a7e9785dfc55f0b60d3174c3092ae862c" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>add</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1ac033bb31c130be9f97dd496b3b0378b9" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a3f6eef4bdf66580494a8109a29d85cd2" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>calculateAmendment</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a19d0022bc2197ef00ecbe4806c81f510" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>calculateAmendmentWithScale</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a50fd04c8d9c722e16017ebaa6b131a18" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>calculateFixedAxisAmendment</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a38f05e6c7e0a69bf355d11caf6c982d7" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>calculateOrthogonalAxisAmendment</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a6e09edb9bf03275a105e13189b65dbdd" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a7501081feee9d61c5a7361d30aa92c5f" prot="package" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>Const_PointToPlaneAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a6864d91d5208f0188be4e1aebd2e8885" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>Const_PointToPlaneAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a07239e2fcd5b57b0e551910cc6e806df" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>Const_PointToPlaneAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a04444dd8184308e67bf0883f31c77813" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>Const_PointToPlaneAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1abbc4c47e28ef91c3c4ea48b7d06ce1ac" prot="protected" virt="virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a492d61a05550238b58115dce97a615a5" prot="public" virt="virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1aad63ecb149bd446219d64c59573babcd" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestRigidScaleXf</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a2a30a7fa5657204067209c35f966c29b" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestRigidXf</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a05b4de2b8fd756de121a490eaca5f4d3" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestRigidXfFixedRotationAxis</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a3cd7609d8169547941d01135cae85c07" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestRigidXfOrthogonalRotationAxis</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a6c16ddd7da47a042528c9f4d2285772d" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>findBestTranslation</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a7fb23dbd09beb6a31a670a8e49d46501" prot="package" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>PointToPlaneAligningTransform</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1adf0ccc5bf8ba4a2664995b8df1966ea4" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>PointToPlaneAligningTransform</name></member>
       <member refid="classMR_1_1PointToPlaneAligningTransform_1a78dc860f2617a0ab92cc7c0422208adc" prot="public" virt="non-virtual"><scope>MR::PointToPlaneAligningTransform</scope><name>PointToPlaneAligningTransform</name></member>

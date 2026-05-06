@@ -1,0 +1,1595 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ObjectLines" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ObjectLines</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ObjectLines" prot="public" virt="non-virtual">MR.ObjectLines</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a448777c8d5e3672a2ca86adc3fc464b6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ObjectLines.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectLines.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="21" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="21" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a7b6e849d15b236232f8b0053dd52f47b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ObjectLines.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectLines.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="30" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a6b948afc7e77a67266df29e4fa24fe09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectLines.Const_ObjectLines</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ObjectLines</name>
+        <qualifiedname>MR.Const_ObjectLines.Const_ObjectLines</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="104" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="104" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1aec4d626fd4b6b4f3d7ee6b9b6ddcdd01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectLines.Const_ObjectLines</definition>
+        <argsstring>(MR._ByValue_ObjectLines _other)</argsstring>
+        <name>Const_ObjectLines</name>
+        <qualifiedname>MR.Const_ObjectLines.Const_ObjectLines</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectLines</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectLines_1a43e082ee9e735a497c44d23a53b84c97" kindref="member">MR.ObjectLines.ObjectLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="114" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="114" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1aefad1c65a1ef8583073d2f3b31bdd6cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>unsafe? byte MR.Const_ObjectLines.typeName</definition>
+        <argsstring>()</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR.Const_ObjectLines.typeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1aefad1c65a1ef8583073d2f3b31bdd6cb" kindref="member">MR.ObjectLines.typeName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="136" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="136" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a2ad372c849f67379fd95b04014e9b7bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ObjectLines.className</definition>
+        <argsstring>()</argsstring>
+        <name>className</name>
+        <qualifiedname>MR.Const_ObjectLines.className</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a2ad372c849f67379fd95b04014e9b7bd" kindref="member">MR.ObjectLines.className</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="158" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="158" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a5d75c46585286390e01c98f8eb45c58a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ObjectLines.classNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>MR.Const_ObjectLines.classNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a5d75c46585286390e01c98f8eb45c58a" kindref="member">MR.ObjectLines.classNameInPlural</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="179" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="179" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a2f8b7b92b52f3b1eb378fa6f39805348" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectLines.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR.Const_ObjectLines.clone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a2f8b7b92b52f3b1eb378fa6f39805348" kindref="member">MR.ObjectLines.clone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="189" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="189" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ace259ffdcba9b8b5a8857f8ba524f119" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectLines.shallowClone</definition>
+        <argsstring>()</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>MR.Const_ObjectLines.shallowClone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ace259ffdcba9b8b5a8857f8ba524f119" kindref="member">MR.ObjectLines.shallowClone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="199" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="199" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1af717b434eeeb84e36dcacc07e4704f2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>unsafe MR.Std.Vector_StdString MR.Const_ObjectLines.getInfoLines</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>MR.Const_ObjectLines.getInfoLines</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1af717b434eeeb84e36dcacc07e4704f2a" kindref="member">MR.ObjectLines.getInfoLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="209" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="209" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a813ea85986db3bdd2972334ab1746803" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.hasVisualRepresentation</definition>
+        <argsstring>()</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>MR.Const_ObjectLines.hasVisualRepresentation</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a813ea85986db3bdd2972334ab1746803" kindref="member">MR.ObjectLines.hasVisualRepresentation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="219" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="219" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a925dd88d7d93f4f97e1a5be648fb2cb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.hasModel</definition>
+        <argsstring>()</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>MR.Const_ObjectLines.hasModel</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a925dd88d7d93f4f97e1a5be648fb2cb3" kindref="member">MR.ObjectLines.hasModel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="229" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="229" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ae60a6530e59af1986005f699d0256149" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_SharedPtr_ConstMRPolyline3</type>
+        <definition>unsafe MR.Std.Const_SharedPtr_ConstMRPolyline3 MR.Const_ObjectLines.polyline</definition>
+        <argsstring>()</argsstring>
+        <name>polyline</name>
+        <qualifiedname>MR.Const_ObjectLines.polyline</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ae60a6530e59af1986005f699d0256149" kindref="member">MR.ObjectLines.polyline</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="239" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="239" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a1e3cbd2e18ced3d6c59107be8cf6546f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector4__UnsignedChar" kindref="compound">MR.Const_Vector4_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_Vector4_UnsignedChar MR.Const_ObjectLines.getDashPattern</definition>
+        <argsstring>(MR._InOpt_ViewportId vpId=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>getDashPattern</name>
+        <qualifiedname>MR.Const_ObjectLines.getDashPattern</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>vpId</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a1e3cbd2e18ced3d6c59107be8cf6546f" kindref="member">MR.ObjectLines.getDashPattern</ref></computeroutput>. Parameter <computeroutput>vpId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="250" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="250" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ac3f7236d1d6cb8e8d2e8a3057f7b5408" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLines.getLineWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getLineWidth</name>
+        <qualifiedname>MR.Const_ObjectLines.getLineWidth</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ac3f7236d1d6cb8e8d2e8a3057f7b5408" kindref="member">MR.ObjectLines.getLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="263" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="263" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a7f10ee49a45db860765451f24e173c6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLines.getPointSize</definition>
+        <argsstring>()</argsstring>
+        <name>getPointSize</name>
+        <qualifiedname>MR.Const_ObjectLines.getPointSize</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a7f10ee49a45db860765451f24e173c6c" kindref="member">MR.ObjectLines.getPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="273" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="273" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ac6fed8a8f53d2ac2fe65426436c32ef0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VertColors" kindref="compound">MR.Const_VertColors</ref></type>
+        <definition>unsafe MR.Const_VertColors MR.Const_ObjectLines.getVertsColorMap</definition>
+        <argsstring>()</argsstring>
+        <name>getVertsColorMap</name>
+        <qualifiedname>MR.Const_ObjectLines.getVertsColorMap</qualifiedname>
+        <briefdescription>
+<para>returns per-vertex colors of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ac6fed8a8f53d2ac2fe65426436c32ef0" kindref="member">MR.ObjectLines.getVertsColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="284" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="284" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a154337c6728c39f14b785320338f5a26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__UndirectedEdgeColors" kindref="compound">MR.Const_UndirectedEdgeColors</ref></type>
+        <definition>unsafe MR.Const_UndirectedEdgeColors MR.Const_ObjectLines.getLinesColorMap</definition>
+        <argsstring>()</argsstring>
+        <name>getLinesColorMap</name>
+        <qualifiedname>MR.Const_ObjectLines.getLinesColorMap</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a154337c6728c39f14b785320338f5a26" kindref="member">MR.ObjectLines.getLinesColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="294" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="294" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1abf48de131d4fb818e50f5c73044bb773" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.supportsVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>MR.Const_ObjectLines.supportsVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1abf48de131d4fb818e50f5c73044bb773" kindref="member">MR.ObjectLines.supportsVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="304" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="304" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a5449c8fb305df23cc3a92fd8715f7fdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRViewportMask</type>
+        <definition>unsafe MR.Std.Vector_MRViewportMask MR.Const_ObjectLines.getAllVisualizeProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>MR.Const_ObjectLines.getAllVisualizeProperties</qualifiedname>
+        <briefdescription>
+<para>get all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a5449c8fb305df23cc3a92fd8715f7fdd" kindref="member">MR.ObjectLines.getAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="315" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="315" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a6d67dbbc9dda0f635a6a5b8733c399b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+        <definition>unsafe MR.Const_ViewportMask MR.Const_ObjectLines.getVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>MR.Const_ObjectLines.getVisualizePropertyMask</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>returns mask of viewports where given property is set Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a6d67dbbc9dda0f635a6a5b8733c399b4" kindref="member">MR.ObjectLines.getVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="326" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="326" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a819732b26a9e1b71af030de5c3a8ad5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectLines.getWorldBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>MR.Const_ObjectLines.getWorldBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns cached bounding box of this point object in world coordinates; if you need bounding box in local coordinates please call <ref refid="classMR_1_1Const__ObjectLines_1a82c92d306045b9e41e96dcc9bbbe9a0d" kindref="member">getBoundingBox()</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a819732b26a9e1b71af030de5c3a8ad5a" kindref="member">MR.ObjectLines.getWorldBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="339" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="339" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ace69b24528b530dc61f4e9396004ba21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectLines.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_ObjectLines.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ace69b24528b530dc61f4e9396004ba21" kindref="member">MR.ObjectLines.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="350" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="350" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a2ef78af8fa9bcf8d2a91062fb97a4589" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLines.avgEdgeLen</definition>
+        <argsstring>()</argsstring>
+        <name>avgEdgeLen</name>
+        <qualifiedname>MR.Const_ObjectLines.avgEdgeLen</qualifiedname>
+        <briefdescription>
+<para>returns cached average edge length Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a2ef78af8fa9bcf8d2a91062fb97a4589" kindref="member">MR.ObjectLines.avgEdgeLen</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="361" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="361" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1af6efe2647e592ddad8534ee53498cd42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectLines.numUndirectedEdges</definition>
+        <argsstring>()</argsstring>
+        <name>numUndirectedEdges</name>
+        <qualifiedname>MR.Const_ObjectLines.numUndirectedEdges</qualifiedname>
+        <briefdescription>
+<para>returns cached information about the number of undirected edges in the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1af6efe2647e592ddad8534ee53498cd42" kindref="member">MR.ObjectLines.numUndirectedEdges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="372" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="372" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1af147372f331b6901963982370a9a2757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectLines.numComponents</definition>
+        <argsstring>()</argsstring>
+        <name>numComponents</name>
+        <qualifiedname>MR.Const_ObjectLines.numComponents</qualifiedname>
+        <briefdescription>
+<para>returns cached information about the number of components in the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1af147372f331b6901963982370a9a2757" kindref="member">MR.ObjectLines.numComponents</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="383" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="383" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a3ef517e23c3da0a68a82bf81373dc044" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLines.totalLength</definition>
+        <argsstring>()</argsstring>
+        <name>totalLength</name>
+        <qualifiedname>MR.Const_ObjectLines.totalLength</qualifiedname>
+        <briefdescription>
+<para>return cached total length Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a3ef517e23c3da0a68a82bf81373dc044" kindref="member">MR.ObjectLines.totalLength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="394" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="394" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a6a7fa99709b3461ab8310a40adad3e31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.getVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getVisualizeProperty</name>
+        <qualifiedname>MR.Const_ObjectLines.getVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the property is set at least in one viewport specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a6a7fa99709b3461ab8310a40adad3e31" kindref="member">MR.ObjectLines.getVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="405" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="405" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a3a264f0a2a63771ea18a478aa2276ffc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectLines.globalClippedByPlaneMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalClippedByPlaneMask</name>
+        <qualifiedname>MR.Const_ObjectLines.globalClippedByPlaneMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object or any of its parents is clipped by plane Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a3a264f0a2a63771ea18a478aa2276ffc" kindref="member">MR.ObjectLines.globalClippedByPlaneMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="416" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="416" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a6d277954e42667812843849769435d28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.globalClippedByPlane</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalClippedByPlane</name>
+        <qualifiedname>MR.Const_ObjectLines.globalClippedByPlane</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a6d277954e42667812843849769435d28" kindref="member">MR.ObjectLines.globalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="428" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="428" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a590ddf824a6bc0271bd51b0afd24647b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectLines.getFrontColor</definition>
+        <argsstring>(bool? selected=null, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getFrontColor</name>
+        <qualifiedname>MR.Const_ObjectLines.getFrontColor</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a590ddf824a6bc0271bd51b0afd24647b" kindref="member">MR.ObjectLines.getFrontColor</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="441" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="441" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ad8b0eec4da7d3706a226446c92f3306b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectLines.getFrontColorsForAllViewports</definition>
+        <argsstring>(bool? selected=null)</argsstring>
+        <name>getFrontColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectLines.getFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ad8b0eec4da7d3706a226446c92f3306b" kindref="member">MR.ObjectLines.getFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="454" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="454" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1acf0c88f8a0fa310717baecd27ce57a33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectLines.getBackColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getBackColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectLines.getBackColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1acf0c88f8a0fa310717baecd27ce57a33" kindref="member">MR.ObjectLines.getBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="466" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="466" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ac3e724d2a76479a688f2261de1931a13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectLines.getBackColor</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getBackColor</name>
+        <qualifiedname>MR.Const_ObjectLines.getBackColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ac3e724d2a76479a688f2261de1931a13" kindref="member">MR.ObjectLines.getBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="478" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="478" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a6a498f69b26d095fa58f7b1d856bfb9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_ObjectLines.getGlobalAlpha</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getGlobalAlpha</name>
+        <qualifiedname>MR.Const_ObjectLines.getGlobalAlpha</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a6a498f69b26d095fa58f7b1d856bfb9d" kindref="member">MR.ObjectLines.getGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="490" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="490" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1acbf81341359572b214d14de330076e5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__UnsignedChar" kindref="compound">MR.Const_ViewportProperty_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_UnsignedChar MR.Const_ObjectLines.getGlobalAlphaForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectLines.getGlobalAlphaForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1acbf81341359572b214d14de330076e5f" kindref="member">MR.ObjectLines.getGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="501" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="501" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ac0b6b91c4f316507ccb4fdeb2161b9b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_ObjectLines.getDirtyFlags</definition>
+        <argsstring>()</argsstring>
+        <name>getDirtyFlags</name>
+        <qualifiedname>MR.Const_ObjectLines.getDirtyFlags</qualifiedname>
+        <briefdescription>
+<para>returns current dirty flags for the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ac0b6b91c4f316507ccb4fdeb2161b9b4" kindref="member">MR.ObjectLines.getDirtyFlags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="512" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="512" bodyend="517"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a96f9bf20dbe7695c63588e57b9258211" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectLines.resetDirty</definition>
+        <argsstring>()</argsstring>
+        <name>resetDirty</name>
+        <qualifiedname>MR.Const_ObjectLines.resetDirty</qualifiedname>
+        <briefdescription>
+<para>resets all dirty flags (except for cache flags that will be reset automatically on cache update) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a96f9bf20dbe7695c63588e57b9258211" kindref="member">MR.ObjectLines.resetDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="523" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="523" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ae3fca820695edd65d2fe0d6ade9b8426" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectLines.resetDirtyExceptMask</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>resetDirtyExceptMask</name>
+        <qualifiedname>MR.Const_ObjectLines.resetDirtyExceptMask</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>reset dirty flags without some specific bits (useful for lazy normals update) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ae3fca820695edd65d2fe0d6ade9b8426" kindref="member">MR.ObjectLines.resetDirtyExceptMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="534" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="534" bodyend="539"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a82c92d306045b9e41e96dcc9bbbe9a0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectLines.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_ObjectLines.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns cached bounding box of this object in local coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a82c92d306045b9e41e96dcc9bbbe9a0d" kindref="member">MR.ObjectLines.getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="545" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="545" bodyend="550"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ac7e45c157df246a5dc1864429c2a84b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.getRedrawFlag</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getRedrawFlag</name>
+        <qualifiedname>MR.Const_ObjectLines.getRedrawFlag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the object must be redrawn (due to dirty flags) in one of specified viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ac7e45c157df246a5dc1864429c2a84b4" kindref="member">MR.ObjectLines.getRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="556" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="556" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a38b154c3a13929b7938c5ed75b3706bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.isPickable</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isPickable</name>
+        <qualifiedname>MR.Const_ObjectLines.isPickable</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a38b154c3a13929b7938c5ed75b3706bf" kindref="member">MR.ObjectLines.isPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="568" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="568" bodyend="573"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ac6e040d5d0ce444419f17aaf18ee3084" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+        <definition>unsafe MR.ColoringType MR.Const_ObjectLines.getColoringType</definition>
+        <argsstring>()</argsstring>
+        <name>getColoringType</name>
+        <qualifiedname>MR.Const_ObjectLines.getColoringType</qualifiedname>
+        <briefdescription>
+<para>returns the current coloring mode of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ac6e040d5d0ce444419f17aaf18ee3084" kindref="member">MR.ObjectLines.getColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="579" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="579" bodyend="584"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a59fade598e11b408ad6de1d8172312a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLines.getShininess</definition>
+        <argsstring>()</argsstring>
+        <name>getShininess</name>
+        <qualifiedname>MR.Const_ObjectLines.getShininess</qualifiedname>
+        <briefdescription>
+<para>returns the current shininess visual value Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a59fade598e11b408ad6de1d8172312a6" kindref="member">MR.ObjectLines.getShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="590" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="590" bodyend="595"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a8974baf20dee6692168dfeaee7e75212" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLines.getSpecularStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getSpecularStrength</name>
+        <qualifiedname>MR.Const_ObjectLines.getSpecularStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a8974baf20dee6692168dfeaee7e75212" kindref="member">MR.ObjectLines.getSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="601" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="601" bodyend="606"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1aa6e5a6ce261bfff02f101be8e481cd33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLines.getAmbientStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getAmbientStrength</name>
+        <qualifiedname>MR.Const_ObjectLines.getAmbientStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1aa6e5a6ce261bfff02f101be8e481cd33" kindref="member">MR.ObjectLines.getAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="612" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="612" bodyend="617"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a4c7e62d822def47fd20a0450e1c8b02b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.render</definition>
+        <argsstring>(MR.Const_ModelRenderParams _1)</argsstring>
+        <name>render</name>
+        <qualifiedname>MR.Const_ObjectLines.render</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelRenderParams" kindref="compound">MR.Const_ModelRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for visualization Returns true if something was drawn. Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a4c7e62d822def47fd20a0450e1c8b02b" kindref="member">MR.ObjectLines.render</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="624" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="624" bodyend="629"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1abe87eed266e47a5ee6bb5a866aa5c379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectLines.renderForPicker</definition>
+        <argsstring>(MR.Const_ModelBaseRenderParams _1, uint _2)</argsstring>
+        <name>renderForPicker</name>
+        <qualifiedname>MR.Const_ObjectLines.renderForPicker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelBaseRenderParams" kindref="compound">MR.Const_ModelBaseRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for picking Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1abe87eed266e47a5ee6bb5a866aa5c379" kindref="member">MR.ObjectLines.renderForPicker</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="635" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="635" bodyend="640"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ad347259a12808e053d4a529396b02355" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectLines.renderUi</definition>
+        <argsstring>(MR.Const_UiRenderParams params_)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR.Const_ObjectLines.renderUi</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UiRenderParams" kindref="compound">MR.Const_UiRenderParams</ref></type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for 2d UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ad347259a12808e053d4a529396b02355" kindref="member">MR.ObjectLines.renderUi</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="646" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="646" bodyend="651"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a2e600e5940ef891f5a1361f7b0f59abc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.useDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>()</argsstring>
+        <name>useDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.Const_ObjectLines.useDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <briefdescription>
+<para>whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a2e600e5940ef891f5a1361f7b0f59abc" kindref="member">MR.ObjectLines.useDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="658" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="658" bodyend="663"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1aa4ec3d18f1d3feb4eace6c4384805fa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_ObjectLines.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_ObjectLines.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1aa4ec3d18f1d3feb4eace6c4384805fa2" kindref="member">MR.ObjectLines.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="668" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="668" bodyend="673"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a8ebd5fbb0ed78669a807ac398301d92b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_ObjectLines.xf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_ObjectLines.xf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to parent space transformation (to world space if no parent) for default or given viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__ObjectLines_1a8ebd5fbb0ed78669a807ac398301d92b" kindref="member">xf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a8ebd5fbb0ed78669a807ac398301d92b" kindref="member">MR.ObjectLines.xf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="681" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="681" bodyend="689"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a75baaac8a4b0b01c9cc6f8aaa503ab29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" kindref="compound">MR.Const_ViewportProperty_MRAffineXf3f</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRAffineXf3f MR.Const_ObjectLines.xfsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>xfsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectLines.xfsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns xfs for all viewports, combined into a single object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a75baaac8a4b0b01c9cc6f8aaa503ab29" kindref="member">MR.ObjectLines.xfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="695" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="695" bodyend="700"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a57f8e2f1bf14f7f96055744b482e2832" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe MR.AffineXf3f MR.Const_ObjectLines.worldXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>worldXf</name>
+        <qualifiedname>MR.Const_ObjectLines.worldXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to world space transformation for default or specific viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__ObjectLines_1a57f8e2f1bf14f7f96055744b482e2832" kindref="member">worldXf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a57f8e2f1bf14f7f96055744b482e2832" kindref="member">MR.ObjectLines.worldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="708" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="708" bodyend="716"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a2739ac5dd8f99f55ab51e8eaad4f62e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectLines.globalVisibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalVisibilityMask</name>
+        <qualifiedname>MR.Const_ObjectLines.globalVisibilityMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object is visible together with all its parents Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a2739ac5dd8f99f55ab51e8eaad4f62e8" kindref="member">MR.ObjectLines.globalVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="722" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="722" bodyend="727"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a4644fc3256871dc7980e6b3dadbe4531" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.globalVisibility</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalVisibility</name>
+        <qualifiedname>MR.Const_ObjectLines.globalVisibility</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a4644fc3256871dc7980e6b3dadbe4531" kindref="member">MR.ObjectLines.globalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="734" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="734" bodyend="739"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1aa918868547bfd8f3e48112f4d193c4b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.isLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isLocked</name>
+        <qualifiedname>MR.Const_ObjectLines.isLocked</qualifiedname>
+        <briefdescription>
+<para>object properties lock for UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1aa918868547bfd8f3e48112f4d193c4b5" kindref="member">MR.ObjectLines.isLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="745" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="745" bodyend="750"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a54535ebde04ebcd7cd60efc4127089b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.isParentLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isParentLocked</name>
+        <qualifiedname>MR.Const_ObjectLines.isParentLocked</qualifiedname>
+        <briefdescription>
+<para>If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a54535ebde04ebcd7cd60efc4127089b0" kindref="member">MR.ObjectLines.isParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="757" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="757" bodyend="762"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ae8440c0bd31f0f5eca4b41731a7ef6e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.isAncestor</definition>
+        <argsstring>(MR.Const_Object? ancestor)</argsstring>
+        <name>isAncestor</name>
+        <qualifiedname>MR.Const_ObjectLines.isAncestor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref>?</type>
+          <declname>ancestor</declname>
+        </param>
+        <briefdescription>
+<para>return true if given object is ancestor of this one, false otherwise Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ae8440c0bd31f0f5eca4b41731a7ef6e1" kindref="member">MR.ObjectLines.isAncestor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="768" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="768" bodyend="773"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1af31f0cac63beecebec302b40df6097bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.isSelected</definition>
+        <argsstring>()</argsstring>
+        <name>isSelected</name>
+        <qualifiedname>MR.Const_ObjectLines.isSelected</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1af31f0cac63beecebec302b40df6097bd" kindref="member">MR.ObjectLines.isSelected</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="778" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="778" bodyend="783"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a9cb492a26a5dffd1562f27daa460d06f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.isAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isAncillary</name>
+        <qualifiedname>MR.Const_ObjectLines.isAncillary</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a9cb492a26a5dffd1562f27daa460d06f" kindref="member">MR.ObjectLines.isAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="788" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="788" bodyend="793"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1abc06fa8a737f6d45ffd8a3ca7c82bff5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.isGlobalAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isGlobalAncillary</name>
+        <qualifiedname>MR.Const_ObjectLines.isGlobalAncillary</qualifiedname>
+        <briefdescription>
+<para>returns true if the object or any of its ancestors are ancillary Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1abc06fa8a737f6d45ffd8a3ca7c82bff5" kindref="member">MR.ObjectLines.isGlobalAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="799" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="799" bodyend="804"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a20dc9ddd381c19e33e8c5a1f01484c24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.isVisible</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isVisible</name>
+        <qualifiedname>MR.Const_ObjectLines.isVisible</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a20dc9ddd381c19e33e8c5a1f01484c24" kindref="member">MR.ObjectLines.isVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="811" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="811" bodyend="816"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a4616dc357be9f1bae61ade416e280b3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectLines.visibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>visibilityMask</name>
+        <qualifiedname>MR.Const_ObjectLines.visibilityMask</qualifiedname>
+        <briefdescription>
+<para>gets object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a4616dc357be9f1bae61ade416e280b3e" kindref="member">MR.ObjectLines.visibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="822" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="822" bodyend="827"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a3618ad55ab8a1ecde0f45765db327109" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectLines.resetRedrawFlag</definition>
+        <argsstring>()</argsstring>
+        <name>resetRedrawFlag</name>
+        <qualifiedname>MR.Const_ObjectLines.resetRedrawFlag</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a3618ad55ab8a1ecde0f45765db327109" kindref="member">MR.ObjectLines.resetRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="832" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="832" bodyend="837"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ac4bc6ff12085eaf93bdce490d77c0db8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectLines.cloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>cloneTree</name>
+        <qualifiedname>MR.Const_ObjectLines.cloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognized children) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1ac4bc6ff12085eaf93bdce490d77c0db8" kindref="member">MR.ObjectLines.cloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="843" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="843" bodyend="848"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a282e74e7aae184a847174e7720d0c4bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectLines.shallowCloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>shallowCloneTree</name>
+        <qualifiedname>MR.Const_ObjectLines.shallowCloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognied children) clones only pointers to mesh, points or voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a282e74e7aae184a847174e7720d0c4bd" kindref="member">MR.ObjectLines.shallowCloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="855" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="855" bodyend="860"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1af6f3d07abc979d6e4af5f9eb67bca869" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectLines.getWorldTreeBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldTreeBox</name>
+        <qualifiedname>MR.Const_ObjectLines.getWorldTreeBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1af6f3d07abc979d6e4af5f9eb67bca869" kindref="member">MR.ObjectLines.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="868" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="868" bodyend="873"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a539b793ffb9fe66e3759075bf15a5f95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Set_StdString</type>
+        <definition>unsafe MR.Std.Const_Set_StdString MR.Const_ObjectLines.tags</definition>
+        <argsstring>()</argsstring>
+        <name>tags</name>
+        <qualifiedname>MR.Const_ObjectLines.tags</qualifiedname>
+        <briefdescription>
+<para>provides read-only access to the tag storage the storage is a set of unique strings Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a539b793ffb9fe66e3759075bf15a5f95" kindref="member">MR.ObjectLines.tags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="880" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="880" bodyend="885"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a6041e227967fd60ccd6e6c9e84db7ec2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLines.sameModels</definition>
+        <argsstring>(MR.Const_Object other)</argsstring>
+        <name>sameModels</name>
+        <qualifiedname>MR.Const_ObjectLines.sameModels</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a6041e227967fd60ccd6e6c9e84db7ec2" kindref="member">MR.ObjectLines.sameModels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="891" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="891" bodyend="896"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1af4d654935201e3bc43a45f9729dc069c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectLines.getModelHash</definition>
+        <argsstring>()</argsstring>
+        <name>getModelHash</name>
+        <qualifiedname>MR.Const_ObjectLines.getModelHash</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1af4d654935201e3bc43a45f9729dc069c" kindref="member">MR.ObjectLines.getModelHash</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="902" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="902" bodyend="907"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a800aa30d98f47ef4f5fe57f7287bf05d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectLines.getSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getSharedPtr</name>
+        <qualifiedname>MR.Const_ObjectLines.getSharedPtr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLines_1a800aa30d98f47ef4f5fe57f7287bf05d" kindref="member">MR.ObjectLines.getSharedPtr</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="914" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="914" bodyend="919"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a392a7411b063c4ee107cf4c29e675f18" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjectLines.~Const_ObjectLines</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ObjectLines</name>
+        <qualifiedname>MR.Const_ObjectLines.~Const_ObjectLines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="31" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a966002d491904c5059737a339e02e9b6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectLines.operator MR.Const_ObjectChildrenHolder</definition>
+        <argsstring>(Const_ObjectLines self)</argsstring>
+        <name>operator MR.Const_ObjectChildrenHolder</name>
+        <qualifiedname>MR.Const_ObjectLines.operator MR.Const_ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectLines" kindref="compound">Const_ObjectLines</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="34" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="34" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a66a427c7eb0381cafed7c1857bc00041" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectLines.operator MR.Const_Object</definition>
+        <argsstring>(Const_ObjectLines self)</argsstring>
+        <name>operator MR.Const_Object</name>
+        <qualifiedname>MR.Const_ObjectLines.operator MR.Const_Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectLines" kindref="compound">Const_ObjectLines</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="42" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="42" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a51cb7ba9f41b1bce790762619f3c010a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectLines.operator MR.Const_VisualObject</definition>
+        <argsstring>(Const_ObjectLines self)</argsstring>
+        <name>operator MR.Const_VisualObject</name>
+        <qualifiedname>MR.Const_ObjectLines.operator MR.Const_VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectLines" kindref="compound">Const_ObjectLines</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="50" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a863323f57018f6006653983bcfb40d79" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectLines.operator MR.Const_ObjectLinesHolder</definition>
+        <argsstring>(Const_ObjectLines self)</argsstring>
+        <name>operator MR.Const_ObjectLinesHolder</name>
+        <qualifiedname>MR.Const_ObjectLines.operator MR.Const_ObjectLinesHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectLines" kindref="compound">Const_ObjectLines</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="58" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1aadb0bcca23c83f9b3378dbe19ad6b8c2" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectLines.operator Const_ObjectLines?</definition>
+        <argsstring>(MR.Const_Object parent)</argsstring>
+        <name>operator Const_ObjectLines?</name>
+        <qualifiedname>MR.Const_ObjectLines.operator Const_ObjectLines?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="68" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="68" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a899fcf7fb7cfc973b68d478508b59790" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectLines.operator Const_ObjectLines?</definition>
+        <argsstring>(MR.Const_VisualObject parent)</argsstring>
+        <name>operator Const_ObjectLines?</name>
+        <qualifiedname>MR.Const_ObjectLines.operator Const_ObjectLines?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="78" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="78" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ac6a2d98d5ddddce2e0e5b93cc4f2e94d" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectLines.operator Const_ObjectLines?</definition>
+        <argsstring>(MR.Const_ObjectLinesHolder parent)</argsstring>
+        <name>operator Const_ObjectLines?</name>
+        <qualifiedname>MR.Const_ObjectLines.operator Const_ObjectLines?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectLinesHolder" kindref="compound">MR.Const_ObjectLinesHolder</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="88" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="88" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1ab5b86cba3b56a4927551aebbc9eb5f51" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectLines.staticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>staticTypeName</name>
+        <qualifiedname>MR.Const_ObjectLines.staticTypeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectLines::StaticTypeName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="125" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="125" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a7fff378808eab2b6b9424b926585c0f7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectLines.staticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassName</name>
+        <qualifiedname>MR.Const_ObjectLines.staticClassName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectLines::StaticClassName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="147" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="147" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1a001ff2efb77d3d50dd8aaed00369d047" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectLines.staticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassNameInPlural</name>
+        <qualifiedname>MR.Const_ObjectLines.staticClassNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectLines::StaticClassNameInPlural</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="168" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="168" bodyend="174"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLines_1aec1644df2d589117d673a63b3e072e32" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectLines.Const_ObjectLines</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ObjectLines</name>
+        <qualifiedname>MR.Const_ObjectLines.Const_ObjectLines</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="99" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="99" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This object type has not visual representation, just holder for lines in scene Generated from class <computeroutput><ref refid="classMR_1_1ObjectLines" kindref="compound">MR.ObjectLines</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectLinesHolder" kindref="compound">MR.ObjectLinesHolder</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ObjectLines</label>
+        <link refid="classMR_1_1Const__ObjectLines"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ObjectLines</label>
+        <link refid="classMR_1_1ObjectLines"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ObjectLines</label>
+        <link refid="classMR_1_1Const__ObjectLines"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" line="15" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectLines.cs" bodystart="16" bodyend="920"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectLines_1a2ef78af8fa9bcf8d2a91062fb97a4589" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>avgEdgeLen</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a2ad372c849f67379fd95b04014e9b7bd" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a5d75c46585286390e01c98f8eb45c58a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a2f8b7b92b52f3b1eb378fa6f39805348" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ac4bc6ff12085eaf93bdce490d77c0db8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1aec1644df2d589117d673a63b3e072e32" prot="package" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>Const_ObjectLines</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a6b948afc7e77a67266df29e4fa24fe09" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>Const_ObjectLines</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1aec4d626fd4b6b4f3d7ee6b9b6ddcdd01" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>Const_ObjectLines</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a448777c8d5e3672a2ca86adc3fc464b6" prot="protected" virt="virtual"><scope>MR::Const_ObjectLines</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a7b6e849d15b236232f8b0053dd52f47b" prot="public" virt="virtual"><scope>MR::Const_ObjectLines</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a5449c8fb305df23cc3a92fd8715f7fdd" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1aa6e5a6ce261bfff02f101be8e481cd33" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ac3e724d2a76479a688f2261de1931a13" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1acf0c88f8a0fa310717baecd27ce57a33" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a82c92d306045b9e41e96dcc9bbbe9a0d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ac6e040d5d0ce444419f17aaf18ee3084" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a1e3cbd2e18ced3d6c59107be8cf6546f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getDashPattern</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ac0b6b91c4f316507ccb4fdeb2161b9b4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a590ddf824a6bc0271bd51b0afd24647b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ad8b0eec4da7d3706a226446c92f3306b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a6a498f69b26d095fa58f7b1d856bfb9d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1acbf81341359572b214d14de330076e5f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1af717b434eeeb84e36dcacc07e4704f2a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a154337c6728c39f14b785320338f5a26" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getLinesColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ac3f7236d1d6cb8e8d2e8a3057f7b5408" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getLineWidth</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1af4d654935201e3bc43a45f9729dc069c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a7f10ee49a45db860765451f24e173c6c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ac7e45c157df246a5dc1864429c2a84b4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a800aa30d98f47ef4f5fe57f7287bf05d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a59fade598e11b408ad6de1d8172312a6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a8974baf20dee6692168dfeaee7e75212" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ac6fed8a8f53d2ac2fe65426436c32ef0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a6a7fa99709b3461ab8310a40adad3e31" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a6d67dbbc9dda0f635a6a5b8733c399b4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a819732b26a9e1b71af030de5c3a8ad5a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1af6f3d07abc979d6e4af5f9eb67bca869" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a6d277954e42667812843849769435d28" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a3a264f0a2a63771ea18a478aa2276ffc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a4644fc3256871dc7980e6b3dadbe4531" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a2739ac5dd8f99f55ab51e8eaad4f62e8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a925dd88d7d93f4f97e1a5be648fb2cb3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a813ea85986db3bdd2972334ab1746803" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ace69b24528b530dc61f4e9396004ba21" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ae8440c0bd31f0f5eca4b41731a7ef6e1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a9cb492a26a5dffd1562f27daa460d06f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1abc06fa8a737f6d45ffd8a3ca7c82bff5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1aa918868547bfd8f3e48112f4d193c4b5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a54535ebde04ebcd7cd60efc4127089b0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a38b154c3a13929b7938c5ed75b3706bf" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1af31f0cac63beecebec302b40df6097bd" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a20dc9ddd381c19e33e8c5a1f01484c24" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1aa4ec3d18f1d3feb4eace6c4384805fa2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1af147372f331b6901963982370a9a2757" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1af6efe2647e592ddad8534ee53498cd42" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>numUndirectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1aadb0bcca23c83f9b3378dbe19ad6b8c2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>operator Const_ObjectLines?</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a899fcf7fb7cfc973b68d478508b59790" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>operator Const_ObjectLines?</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ac6a2d98d5ddddce2e0e5b93cc4f2e94d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>operator Const_ObjectLines?</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a66a427c7eb0381cafed7c1857bc00041" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a966002d491904c5059737a339e02e9b6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a863323f57018f6006653983bcfb40d79" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>operator MR.Const_ObjectLinesHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a51cb7ba9f41b1bce790762619f3c010a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>operator MR.Const_VisualObject</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ae60a6530e59af1986005f699d0256149" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>polyline</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a4c7e62d822def47fd20a0450e1c8b02b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1abe87eed266e47a5ee6bb5a866aa5c379" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ad347259a12808e053d4a529396b02355" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a96f9bf20dbe7695c63588e57b9258211" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ae3fca820695edd65d2fe0d6ade9b8426" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a3618ad55ab8a1ecde0f45765db327109" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a6041e227967fd60ccd6e6c9e84db7ec2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ace259ffdcba9b8b5a8857f8ba524f119" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a282e74e7aae184a847174e7720d0c4bd" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a7fff378808eab2b6b9424b926585c0f7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a001ff2efb77d3d50dd8aaed00369d047" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1ab5b86cba3b56a4927551aebbc9eb5f51" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1abf48de131d4fb818e50f5c73044bb773" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a539b793ffb9fe66e3759075bf15a5f95" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>tags</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a3ef517e23c3da0a68a82bf81373dc044" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>totalLength</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1aefad1c65a1ef8583073d2f3b31bdd6cb" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a2e600e5940ef891f5a1361f7b0f59abc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a4616dc357be9f1bae61ade416e280b3e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a57f8e2f1bf14f7f96055744b482e2832" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a8ebd5fbb0ed78669a807ac398301d92b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a75baaac8a4b0b01c9cc6f8aaa503ab29" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLines_1a392a7411b063c4ee107cf4c29e675f18" prot="private" virt="non-virtual"><scope>MR::Const_ObjectLines</scope><name>~Const_ObjectLines</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

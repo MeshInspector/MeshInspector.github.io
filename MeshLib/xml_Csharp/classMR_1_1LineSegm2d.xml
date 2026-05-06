@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LineSegm2d" kind="class" language="C#" prot="public">
     <compoundname>MR::LineSegm2d</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_LineSegm2d</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__LineSegm2d" prot="public" virt="non-virtual">MR.Const_LineSegm2d</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1LineSegm2d_1a2a1be511ef3e418cba998a40a0ab26f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
@@ -80,7 +80,7 @@
         <name>LineSegm2d</name>
         <qualifiedname>MR.LineSegm2d.LineSegm2d</qualifiedname>
         <param>
-          <type>MR.Const_LineSegm2d</type>
+          <type><ref refid="classMR_1_1Const__LineSegm2d" kindref="compound">MR.Const_LineSegm2d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.LineSegm2d.assign</qualifiedname>
         <param>
-          <type>MR.Const_LineSegm2d</type>
+          <type><ref refid="classMR_1_1Const__LineSegm2d" kindref="compound">MR.Const_LineSegm2d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LineSegm2d</label>
+        <link refid="classMR_1_1Const__LineSegm2d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.LineSegm2d</label>
         <link refid="classMR_1_1LineSegm2d"/>
@@ -189,9 +194,14 @@
       </node>
       <node id="2">
         <label>MR.Const_LineSegm2d</label>
+        <link refid="classMR_1_1Const__LineSegm2d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_a</edgelabel>
+          <edgelabel>__ref_storage_b</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,9 +213,22 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" line="414" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineSegm.cs" bodystart="415" bodyend="485"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__LineSegm2d_1a84fd019dc4cacb7ee2ceed1483c3fc20" prot="protected" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__LineSegm2d_1a684482d2de2934e93e1b9d818cf4f014" prot="protected" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>__ref_storage_b</name></member>
       <member refid="classMR_1_1LineSegm2d_1a2a1be511ef3e418cba998a40a0ab26f0" prot="public" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>a</name></member>
       <member refid="classMR_1_1LineSegm2d_1a0041a6766fb78bf3b8a96704920ee541" prot="public" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>assign</name></member>
       <member refid="classMR_1_1LineSegm2d_1ab38ede4082b0b47f1e87867b86ab01f0" prot="public" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__LineSegm2d_1afdd919c9d40314b583e20a27b0463c28" prot="public" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__LineSegm2d_1a55bccfa84977108f4aa8c2e8a19cf192" prot="package" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>Const_LineSegm2d</name></member>
+      <member refid="classMR_1_1Const__LineSegm2d_1a4444a43ebc88a4fe143e696a6f7eb1f1" prot="public" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>Const_LineSegm2d</name></member>
+      <member refid="classMR_1_1Const__LineSegm2d_1ad6fe9ac6775ac8a1ea24df6378508fbc" prot="public" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>Const_LineSegm2d</name></member>
+      <member refid="classMR_1_1Const__LineSegm2d_1a4e0e8e58d85c786ee3b0b62de5bc4161" prot="public" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>Const_LineSegm2d</name></member>
+      <member refid="classMR_1_1Const__LineSegm2d_1ae23a6d1ed1411ed06e3a22890755ac9e" prot="public" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>Const_LineSegm2d</name></member>
+      <member refid="classMR_1_1Const__LineSegm2d_1a511a6ed8c36695815aab21f624cd3d3b" prot="public" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>dir</name></member>
+      <member refid="classMR_1_1Const__LineSegm2d_1afb5971b673b13a9f08457fd8b6b0a9a5" prot="protected" virt="virtual"><scope>MR::LineSegm2d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LineSegm2d_1ae216e931f074a9179c4d21ce89002d85" prot="public" virt="virtual"><scope>MR::LineSegm2d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LineSegm2d_1a0937edcca15177bda10ce573466f5fe9" prot="public" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>length</name></member>
+      <member refid="classMR_1_1Const__LineSegm2d_1ad2b9c748826f16fcb129ad7ea85108f6" prot="public" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>lengthSq</name></member>
       <member refid="classMR_1_1LineSegm2d_1afd5b80a7b76a196e4c54f54dc7d431c3" prot="package" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>LineSegm2d</name></member>
       <member refid="classMR_1_1LineSegm2d_1a0ebff51f4f23e2b8f6a0ce6607583829" prot="public" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>LineSegm2d</name></member>
       <member refid="classMR_1_1LineSegm2d_1ac6daeb524c3ca376f8882720213d25e6" prot="public" virt="non-virtual"><scope>MR::LineSegm2d</scope><name>LineSegm2d</name></member>

@@ -31,6 +31,13 @@ var hierarchy =
     [ "MR::Laplacian::Attractor", "structMR_1_1Laplacian_1_1Attractor.html", null ],
     [ "MR::BasicUiRenderTask::BackwardPassParams", "structMR_1_1BasicUiRenderTask_1_1BackwardPassParams.html", null ],
     [ "MR::Ball< V >", "structMR_1_1Ball.html", null ],
+    [ "MR::Mcp::Schema::Base", "structMR_1_1Mcp_1_1Schema_1_1Base.html", [
+      [ "MR::Mcp::Schema::Array", "structMR_1_1Mcp_1_1Schema_1_1Array.html", null ],
+      [ "MR::Mcp::Schema::Bool", "structMR_1_1Mcp_1_1Schema_1_1Bool.html", null ],
+      [ "MR::Mcp::Schema::Number", "structMR_1_1Mcp_1_1Schema_1_1Number.html", null ],
+      [ "MR::Mcp::Schema::Object", "structMR_1_1Mcp_1_1Schema_1_1Object.html", null ],
+      [ "MR::Mcp::Schema::String", "structMR_1_1Mcp_1_1Schema_1_1String.html", null ]
+    ] ],
     [ "spdlog::sinks::base_sink", null, [
       [ "MR::RestoringStreamsSink", "classMR_1_1RestoringStreamsSink.html", null ]
     ] ],
@@ -193,6 +200,7 @@ var hierarchy =
     [ "MR::ChunkIterator", "structMR_1_1ChunkIterator.html", null ],
     [ "MR::CloseToMeshVolumeParams", "structMR_1_1CloseToMeshVolumeParams.html", null ],
     [ "MR::CloudPartMapping", "structMR_1_1CloudPartMapping.html", null ],
+    [ "MR::McpSettings::CmdLineOverrides", "structMR_1_1McpSettings_1_1CmdLineOverrides.html", null ],
     [ "MR::CmpOld", "structMR_1_1CmpOld.html", null ],
     [ "MR::CNCMachineSettings", "classMR_1_1CNCMachineSettings.html", null ],
     [ "MR::Color", "structMR_1_1Color.html", null ],
@@ -215,6 +223,7 @@ var hierarchy =
     [ "MR::Features::Primitives::ConeSegment", "structMR_1_1Features_1_1Primitives_1_1ConeSegment.html", null ],
     [ "MR::Config", "classMR_1_1Config.html", null ],
     [ "MR::EmbeddedPython::Config", "structMR_1_1EmbeddedPython_1_1Config.html", null ],
+    [ "MR::McpGateway::Config", "structMR_1_1McpGateway_1_1Config.html", null ],
     [ "Connectables...", null, [
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, MouseScrollListener, CharPressedListener, KeyDownListener, KeyUpListener, KeyRepeatListener, SpaceMouseMoveListener, SpaceMouseDownListener, TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener, PostResizeListener, PostRescaleListener, PostFocusListener >", "structMR_1_1MultiListener.html", null ],
       [ "MR::MultiListener< Connectables... >", "structMR_1_1MultiListener.html", [
@@ -317,6 +326,7 @@ var hierarchy =
     [ "MR::RibbonMenu::DialogItemPtr", "structMR_1_1RibbonMenu_1_1DialogItemPtr.html", null ],
     [ "MR::VoxelsLoad::DicomStatus", "structMR_1_1VoxelsLoad_1_1DicomStatus.html", null ],
     [ "MR::VoxelsLoad::DicomVolumeT< T >", "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html", null ],
+    [ "MR::DihedralAngleProcessParams", "structMR_1_1DihedralAngleProcessParams.html", null ],
     [ "MR::Dipole", "structMR_1_1Dipole.html", null ],
     [ "MR::Directory", "structMR_1_1Directory.html", null ],
     [ "MR::DirectoryIterator", "structMR_1_1DirectoryIterator.html", null ],
@@ -369,6 +379,7 @@ var hierarchy =
     [ "MR::EndMillTool", "structMR_1_1EndMillTool.html", null ],
     [ "MR::Graph::EndVertices", "structMR_1_1Graph_1_1EndVertices.html", null ],
     [ "MR::UI::TestEngine::Entry", "structMR_1_1UI_1_1TestEngine_1_1Entry.html", null ],
+    [ "MR::UI::TestEngine::EntryAttributes", "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html", null ],
     [ "MR::EnumNeihbourFaces", "classMR_1_1EnumNeihbourFaces.html", null ],
     [ "MR::EnumNeihbourVertices", "classMR_1_1EnumNeihbourVertices.html", null ],
     [ "MR::MeshBuilder::equalVector3f", "structMR_1_1MeshBuilder_1_1equalVector3f.html", null ],
@@ -746,6 +757,9 @@ var hierarchy =
     [ "MR::ITransformControls", "classMR_1_1ITransformControls.html", [
       [ "MR::TransformControls", "classMR_1_1TransformControls.html", null ]
     ] ],
+    [ "fastmcpp::client::ITransport", null, [
+      [ "MR::McpGateway::MLClientTransport", "classMR_1_1McpGateway_1_1MLClientTransport.html", null ]
+    ] ],
     [ "MR::IViewerSettingsManager", "classMR_1_1IViewerSettingsManager.html", [
       [ "MR::ViewerSettingsManager", "classMR_1_1ViewerSettingsManager.html", null ]
     ] ],
@@ -795,6 +809,7 @@ var hierarchy =
     [ "MR::Mesh", "structMR_1_1Mesh.html", null ],
     [ "MR::MeshAttributesToUpdate", "structMR_1_1MeshAttributesToUpdate.html", null ],
     [ "MR::MeshDiff", "classMR_1_1MeshDiff.html", null ],
+    [ "MR::MeshFromVoxelsPostProcessingParams", "structMR_1_1MeshFromVoxelsPostProcessingParams.html", null ],
     [ "MR::MeshIntersectionResult", "structMR_1_1MeshIntersectionResult.html", [
       [ "MR::MultiMeshIntersectionResult", "structMR_1_1MultiMeshIntersectionResult.html", null ]
     ] ],
@@ -983,6 +998,7 @@ var hierarchy =
     ] ],
     [ "MR::FillingSurface::CellularSurface::Params", "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Params", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html", null ],
+    [ "MR::Mcp::Server::Params", "structMR_1_1Mcp_1_1Server_1_1Params.html", null ],
     [ "MR::PickPointManager::Params", "structMR_1_1PickPointManager_1_1Params.html", null ],
     [ "MR::UI::NonOverlappingLabelTask::Params", "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html", null ],
     [ "MR::FillingSurface::ParamsFacade< T >", "structMR_1_1FillingSurface_1_1ParamsFacade.html", null ],
@@ -1078,6 +1094,7 @@ var hierarchy =
       [ "MR::DistanceMap", "classMR_1_1DistanceMap.html", null ],
       [ "MR::Matrix< T >", "structMR_1_1Matrix.html", null ]
     ] ],
+    [ "MR::ReduceTotalAngleParams", "structMR_1_1ReduceTotalAngleParams.html", null ],
     [ "MR::RefineParameters", "structMR_1_1RefineParameters.html", null ],
     [ "MR::WeightedShell::ParametersRegions::Region", "structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html", null ],
     [ "MR::RegisterRenderObjectConstructor", "classMR_1_1RegisterRenderObjectConstructor.html", null ],
@@ -1167,6 +1184,7 @@ var hierarchy =
     [ "MR::SeparationPointStorage", "classMR_1_1SeparationPointStorage.html", null ],
     [ "MR::UI::SeparatorParams", "structMR_1_1UI_1_1SeparatorParams.html", null ],
     [ "MR::Nesting::SequentialNester", "classMR_1_1Nesting_1_1SequentialNester.html", null ],
+    [ "MR::Mcp::Server", "classMR_1_1Mcp_1_1Server.html", null ],
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::SetNew", "structMR_1_1SetNew.html", null ],
     [ "MR::GlTexture::Settings", "structMR_1_1GlTexture_1_1Settings.html", null ],
@@ -1297,6 +1315,7 @@ var hierarchy =
       [ "MR::overloaded< Ts >", "structMR_1_1overloaded.html", null ]
     ] ],
     [ "MR::TwoLineSegmClosestPoints< T >", "structMR_1_1TwoLineSegmClosestPoints.html", null ],
+    [ "MR::UI::TestEngine::Control::TypedEntry", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1TypedEntry.html", null ],
     [ "MR::TypedFlatTree", "structMR_1_1TypedFlatTree.html", null ],
     [ "MR::UiRenderManager", "structMR_1_1UiRenderManager.html", [
       [ "MR::ImGuiMenu::UiRenderManagerImpl", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html", null ]
@@ -1326,6 +1345,7 @@ var hierarchy =
     [ "Updates...", null, [
       [ "MR::PluginUpdateOr< Updates >", "classMR_1_1PluginUpdateOr.html", null ]
     ] ],
+    [ "MR::UI::TestEngine::Control::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html", null ],
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html", null ],
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html", null ],
     [ "MR::UI::TestEngine::ValueEntry", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html", null ],
@@ -1406,5 +1426,9 @@ var hierarchy =
     [ "MR::WriteRawTiffParams", "structMR_1_1WriteRawTiffParams.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", null ],
     [ "MR::ZCompensateParams", "structMR_1_1ZCompensateParams.html", null ],
-    [ "MR::ZeroOnMove< T >", "structMR_1_1ZeroOnMove.html", null ]
+    [ "MR::ZeroOnMove< T >", "structMR_1_1ZeroOnMove.html", null ],
+    [ "MR::ZlibCompressStats", "structMR_1_1ZlibCompressStats.html", null ],
+    [ "MR::ZlibParams", "structMR_1_1ZlibParams.html", [
+      [ "MR::ZlibCompressParams", "structMR_1_1ZlibCompressParams.html", null ]
+    ] ]
 ];

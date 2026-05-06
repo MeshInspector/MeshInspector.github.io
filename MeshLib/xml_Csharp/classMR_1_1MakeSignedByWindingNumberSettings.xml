@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MakeSignedByWindingNumberSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::MakeSignedByWindingNumberSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MakeSignedByWindingNumberSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MakeSignedByWindingNumberSettings" prot="public" virt="non-virtual">MR.Const_MakeSignedByWindingNumberSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MakeSignedByWindingNumberSettings_1aaac2b4e5767707d1ceb29f643e13cfe6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
@@ -120,10 +120,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="895" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="895" bodyend="901"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MakeSignedByWindingNumberSettings_1af759ee7fa3ef395940873e00d507e843" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1MakeSignedByWindingNumberSettings_1acfba3154eb043f5d1c2fa648b1c74f8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.MakeSignedByWindingNumberSettings.MakeSignedByWindingNumberSettings</definition>
-        <argsstring>(MR.AffineXf3f meshToGridXf, MR.Std._ByValue_SharedPtr_MRIFastWindingNumber fwn, float windingNumberThreshold, float windingNumberBeta, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(MR.AffineXf3f meshToGridXf, MR.Std._ByValue_SharedPtr_MRIFastWindingNumber fwn, float windingNumberThreshold, float windingNumberBeta, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>MakeSignedByWindingNumberSettings</name>
         <qualifiedname>MR.MakeSignedByWindingNumberSettings.MakeSignedByWindingNumberSettings</qualifiedname>
         <param>
@@ -143,7 +143,7 @@
           <declname>windingNumberBeta</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -181,7 +181,7 @@
         <name>MakeSignedByWindingNumberSettings</name>
         <qualifiedname>MR.MakeSignedByWindingNumberSettings.MakeSignedByWindingNumberSettings</qualifiedname>
         <param>
-          <type>Const_MakeSignedByWindingNumberSettings</type>
+          <type><ref refid="classMR_1_1Const__MakeSignedByWindingNumberSettings" kindref="compound">Const_MakeSignedByWindingNumberSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -246,6 +246,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MakeSignedByWindingNumberSettings</label>
+        <link refid="classMR_1_1Const__MakeSignedByWindingNumberSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -259,6 +260,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MakeSignedByWindingNumberSettings</label>
         <link refid="classMR_1_1MakeSignedByWindingNumberSettings"/>
@@ -267,9 +272,13 @@
       </node>
       <node id="2">
         <label>MR.Const_MakeSignedByWindingNumberSettings</label>
+        <link refid="classMR_1_1Const__MakeSignedByWindingNumberSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_meshToGridXf</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -281,11 +290,22 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="833" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="834" bodyend="949"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a1e15fcddbc6fb6c01aed32a0670e2590" prot="protected" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>__ref_storage_meshToGridXf</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1af9b8443cf2d771439f9ac8e52974b09b" prot="protected" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>__ref_storage_windingNumberBeta</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a772504f5df7bfd60eb80e99333524d95" prot="protected" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>__ref_storage_windingNumberThreshold</name></member>
       <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1a99cea99d7e1ee0fc2957d8f1ce582052" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a3f1f372b18c76ee80739f61119950cc1" prot="package" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>Const_MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a7f8fb86b426f8ecd975d6f517f615eba" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>Const_MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a3a834f70f58e9f8ca3ca770f533ed40a" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>Const_MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a4585efd4f8d52327cea48d24b953f94f" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>Const_MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a1b394f8f3299dd6a65ba41b0b13c46e8" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>Const_MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a281b516529036e240e806687b5fd874a" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>Const_MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1adb193f6599e528e987dca0322f961e47" prot="protected" virt="virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MakeSignedByWindingNumberSettings_1a0993cd1183f93ae1a052f21f1056086e" prot="public" virt="virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1a22b5c2cd99c76ab74edc29206220d3ac" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>fwn</name></member>
       <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1a56103787b445bd0495bc629c6d8ae534" prot="package" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>
       <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1a99eb76059a021ad2082beddffdd4158d" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>
-      <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1af759ee7fa3ef395940873e00d507e843" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>
+      <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1acfba3154eb043f5d1c2fa648b1c74f8f" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>
       <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1adc5f73cb8d983e84c53e7a71d4e4b0c7" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>
       <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1a99c2b44447ddebb7cbb2612e52c77295" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>
       <member refid="classMR_1_1MakeSignedByWindingNumberSettings_1a62b2d2d604184d6578ee01aae960bd2b" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>MakeSignedByWindingNumberSettings</name></member>

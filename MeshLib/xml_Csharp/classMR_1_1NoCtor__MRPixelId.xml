@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoCtor__MRPixelId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoCtor_MRPixelId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoCtor_MRPixelId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoCtor__MRPixelId" prot="public" virt="non-virtual">MR.Const_NoCtor_MRPixelId</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1NoCtor__MRPixelId_1a594aae2f7fd0f6e4758e6b82796e099f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>NoCtor_MRPixelId</name>
         <qualifiedname>MR.NoCtor_MRPixelId.NoCtor_MRPixelId</qualifiedname>
         <param>
-          <type>MR.Const_NoCtor_MRPixelId</type>
+          <type><ref refid="classMR_1_1Const__NoCtor__MRPixelId" kindref="compound">MR.Const_NoCtor_MRPixelId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoCtor&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;::NoCtor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoCtor&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;::NoCtor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoCtor&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;::NoCtor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoCtor&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;::NoCtor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.NoCtor_MRPixelId.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoCtor_MRPixelId</type>
+          <type><ref refid="classMR_1_1Const__NoCtor__MRPixelId" kindref="compound">MR.Const_NoCtor_MRPixelId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoCtor&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoCtor&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -102,7 +102,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::NoCtor&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::NoCtor&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoCtor_MRPixelId</label>
+        <link refid="classMR_1_1Const__NoCtor__MRPixelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoCtor_MRPixelId</label>
+        <link refid="classMR_1_1Const__NoCtor__MRPixelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="14158" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="14159" bodyend="14199"/>
     <listofallmembers>
       <member refid="classMR_1_1NoCtor__MRPixelId_1a9c92ec77e42b652b602a485a756ebba6" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRPixelId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRPixelId_1af298d4cb5c9166100c455593def10623" prot="package" virt="non-virtual"><scope>MR::NoCtor_MRPixelId</scope><name>Const_NoCtor_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRPixelId_1acfd7b8d8fe65373bcafa5aebb7525328" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRPixelId</scope><name>Const_NoCtor_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRPixelId_1a7ba8feb87f71c1f439c2285e9ca8ee10" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRPixelId</scope><name>Const_NoCtor_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRPixelId_1a1d43100b6372f7e527eba193924cd47e" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRPixelId</scope><name>Const_NoCtor_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRPixelId_1a166e92203f49dfc9bf84c9ed4e93e99f" prot="protected" virt="virtual"><scope>MR::NoCtor_MRPixelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRPixelId_1a4f63f6d738a86e08a7dc21773305fd99" prot="public" virt="virtual"><scope>MR::NoCtor_MRPixelId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1NoCtor__MRPixelId_1a594aae2f7fd0f6e4758e6b82796e099f" prot="package" virt="non-virtual"><scope>MR::NoCtor_MRPixelId</scope><name>NoCtor_MRPixelId</name></member>
       <member refid="classMR_1_1NoCtor__MRPixelId_1a594a0f98587ccdaf086f4330914b0904" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRPixelId</scope><name>NoCtor_MRPixelId</name></member>
       <member refid="classMR_1_1NoCtor__MRPixelId_1a6c332ed3bc52408f5f3378c692097d53" prot="public" virt="non-virtual"><scope>MR::NoCtor_MRPixelId</scope><name>NoCtor_MRPixelId</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PlaneAccumulator" kind="class" language="C#" prot="public">
     <compoundname>MR::PlaneAccumulator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PlaneAccumulator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PlaneAccumulator" prot="public" virt="non-virtual">MR.Const_PlaneAccumulator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1PlaneAccumulator_1ae973bc14c1bed773a49c486dd16a737f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>PlaneAccumulator</name>
         <qualifiedname>MR.PlaneAccumulator.PlaneAccumulator</qualifiedname>
         <param>
-          <type>MR.Const_PlaneAccumulator</type>
+          <type><ref refid="classMR_1_1Const__PlaneAccumulator" kindref="compound">MR.Const_PlaneAccumulator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.PlaneAccumulator.assign</qualifiedname>
         <param>
-          <type>MR.Const_PlaneAccumulator</type>
+          <type><ref refid="classMR_1_1Const__PlaneAccumulator" kindref="compound">MR.Const_PlaneAccumulator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -107,7 +107,7 @@
         <name>addPlane</name>
         <qualifiedname>MR.PlaneAccumulator.addPlane</qualifiedname>
         <param>
-          <type>MR.Const_Plane3d</type>
+          <type><ref refid="classMR_1_1Const__Plane3d" kindref="compound">MR.Const_Plane3d</ref></type>
           <declname>pl</declname>
         </param>
         <briefdescription>
@@ -126,7 +126,7 @@
         <name>addPlane</name>
         <qualifiedname>MR.PlaneAccumulator.addPlane</qualifiedname>
         <param>
-          <type>MR.Const_Plane3f</type>
+          <type><ref refid="classMR_1_1Const__Plane3f" kindref="compound">MR.Const_Plane3f</ref></type>
           <declname>pl</declname>
         </param>
         <briefdescription>
@@ -153,6 +153,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PlaneAccumulator</label>
+        <link refid="classMR_1_1Const__PlaneAccumulator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -174,6 +175,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PlaneAccumulator</label>
+        <link refid="classMR_1_1Const__PlaneAccumulator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -191,6 +193,14 @@
       <member refid="classMR_1_1PlaneAccumulator_1ab8cbac71d094d76975e6019ffcbf88bd" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>addPlane</name></member>
       <member refid="classMR_1_1PlaneAccumulator_1ab708ec3c378d3d44f0b4636ce803765a" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>addPlane</name></member>
       <member refid="classMR_1_1PlaneAccumulator_1a8757cbb760594c7f17993d3822069e73" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PlaneAccumulator_1a24eda0ebe862c3eab0ceeef7d68942c0" prot="package" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>Const_PlaneAccumulator</name></member>
+      <member refid="classMR_1_1Const__PlaneAccumulator_1ab5cc5ad5b13a82f91de58654647f4281" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>Const_PlaneAccumulator</name></member>
+      <member refid="classMR_1_1Const__PlaneAccumulator_1ad12f47c98a7d77b7f1de63d6c45aae22" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>Const_PlaneAccumulator</name></member>
+      <member refid="classMR_1_1Const__PlaneAccumulator_1ac35ef3e9d45c6391464311ce5d49e3a6" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>Const_PlaneAccumulator</name></member>
+      <member refid="classMR_1_1Const__PlaneAccumulator_1a32ad238dcc89a2b8caa9025ad97ac484" prot="protected" virt="virtual"><scope>MR::PlaneAccumulator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PlaneAccumulator_1aaa81d122de661f36829fe4c1834e18b2" prot="public" virt="virtual"><scope>MR::PlaneAccumulator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PlaneAccumulator_1ad010201b5d899f58120687f9dd4055d0" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>findBestCrossPoint</name></member>
+      <member refid="classMR_1_1Const__PlaneAccumulator_1a11be63a6ef98569a5cdaf76ce1080066" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>findBestCrossPoint</name></member>
       <member refid="classMR_1_1PlaneAccumulator_1ae973bc14c1bed773a49c486dd16a737f" prot="package" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>PlaneAccumulator</name></member>
       <member refid="classMR_1_1PlaneAccumulator_1aeb8fdb0c950bf55a9131635c4e8f1b76" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>PlaneAccumulator</name></member>
       <member refid="classMR_1_1PlaneAccumulator_1a5dfbf2eff6134d62793fb71cc4a98ea1" prot="public" virt="non-virtual"><scope>MR::PlaneAccumulator</scope><name>PlaneAccumulator</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SeparationPointStorage" kind="class" language="C#" prot="public">
     <compoundname>MR::SeparationPointStorage</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SeparationPointStorage</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SeparationPointStorage" prot="public" virt="non-virtual">MR.Const_SeparationPointStorage</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1SeparationPointStorage_1a03bbeb67ee8ba8eeeb3385aec4447e1d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>SeparationPointStorage</name>
         <qualifiedname>MR.SeparationPointStorage.SeparationPointStorage</qualifiedname>
         <param>
-          <type>Const_SeparationPointStorage</type>
+          <type><ref refid="classMR_1_1Const__SeparationPointStorage" kindref="compound">Const_SeparationPointStorage</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="485" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="485" bodyend="490"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1SeparationPointStorage_1ac338f3b3c7c17b27d6f91cce454e9bfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.SeparationPointStorage.Block</type>
+        <type>unsafe <ref refid="classMR_1_1Const__SeparationPointStorage_1_1Block" kindref="compound">MR.SeparationPointStorage.Block</ref></type>
         <definition>unsafe MR.SeparationPointStorage.Block MR.SeparationPointStorage.getBlock</definition>
         <argsstring>(ulong blockIndex)</argsstring>
         <name>getBlock</name>
@@ -191,6 +191,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SeparationPointStorage</label>
+        <link refid="classMR_1_1Const__SeparationPointStorage"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -212,6 +213,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SeparationPointStorage</label>
+        <link refid="classMR_1_1Const__SeparationPointStorage"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -227,7 +229,17 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" line="434" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSeparationPoint.cs" bodystart="435" bodyend="514"/>
     <listofallmembers>
       <member refid="classMR_1_1SeparationPointStorage_1a44379384872f03c70ac2642b5856cac5" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1a5146b72b79aed2cb6c247be47b369e28" prot="package" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>Const_SeparationPointStorage</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1a34eea5e1a237bdd01b7212587890ba36" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>Const_SeparationPointStorage</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1aead903649c827402761093796cb8a930" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>Const_SeparationPointStorage</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1a06f33e90d17df57831d0641c13feef0c" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>Const_SeparationPointStorage</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1ac39a8d581e2bbbfdacad918d041097ed" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>Const_SeparationPointStorage</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1a046821e9ccd47f970274f2994e914ad3" prot="protected" virt="virtual"><scope>MR::SeparationPointStorage</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1a58202cb8bf63d3e6d0387e7aca58b3ce" prot="public" virt="virtual"><scope>MR::SeparationPointStorage</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1ae90a18bcae428461039a289a8cee096b" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>findSeparationPointSet</name></member>
       <member refid="classMR_1_1SeparationPointStorage_1ac338f3b3c7c17b27d6f91cce454e9bfb" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>getBlock</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1afe766af366d4cac1fdc382da0f5c6401" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>getPoints</name></member>
+      <member refid="classMR_1_1Const__SeparationPointStorage_1a38fdbbd88b51f961c53a84272e60a43e" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>getTriangulation</name></member>
       <member refid="classMR_1_1SeparationPointStorage_1a83d1740cec435b2798f112a04a429862" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>makeUniqueVids</name></member>
       <member refid="classMR_1_1SeparationPointStorage_1a661028cb72b1baa930833b3c9eaee001" prot="public" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>resize</name></member>
       <member refid="classMR_1_1SeparationPointStorage_1a03bbeb67ee8ba8eeeb3385aec4447e1d" prot="package" virt="non-virtual"><scope>MR::SeparationPointStorage</scope><name>SeparationPointStorage</name></member>

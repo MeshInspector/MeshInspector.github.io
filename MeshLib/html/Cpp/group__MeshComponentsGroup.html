@@ -187,6 +187,7 @@ Functions</h2></td></tr>
 <tr class="memitem:gaa93eb46b6c87bd17060bee960111398c" id="r_gaa93eb46b6c87bd17060bee960111398c"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::vector&lt; FaceBitSet &gt;, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa93eb46b6c87bd17060bee960111398c">MR::MeshComponents::getAllComponents</a> (const MeshPart &amp;meshPart, int maxComponentCount, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
 <tr class="memitem:ga97b195864ae6464fc4af8dbbfbf12c25" id="r_ga97b195864ae6464fc4af8dbbfbf12c25"><td class="memItemLeft" align="right" valign="top">std::vector&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga97b195864ae6464fc4af8dbbfbf12c25">MR::MeshComponents::getAllComponents</a> (Face2RegionMap &amp;componentsMap, int componentsCount, const FaceBitSet &amp;region, int maxComponentCount)</td></tr>
 <tr class="memitem:ga2aab1963ab19bf9523812ac0264c0841" id="r_ga2aab1963ab19bf9523812ac0264c0841"><td class="memItemLeft" align="right" valign="top">std::pair&lt; Face2RegionMap, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2aab1963ab19bf9523812ac0264c0841">MR::MeshComponents::getAllComponentsMap</a> (const MeshPart &amp;meshPart, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
+<tr class="memitem:ga87fa009d5a9b64c256cd45780378d1fb" id="r_ga87fa009d5a9b64c256cd45780378d1fb"><td class="memItemLeft" align="right" valign="top">std::pair&lt; Face2RegionMap, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga87fa009d5a9b64c256cd45780378d1fb">MR::MeshComponents::getFacePairRegionMap</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1FaceFace.html">FaceFace</a> &gt; &amp;facePairs, <a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a> incidence=<a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a>, const UndirectedEdgeBitSet *isCompBd={})</td></tr>
 <tr class="memitem:gabb9aee33af237e8ace6daa0b6b7ba783" id="r_gabb9aee33af237e8ace6daa0b6b7ba783"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; double, RegionId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb9aee33af237e8ace6daa0b6b7ba783">MR::MeshComponents::getRegionAreas</a> (const MeshPart &amp;meshPart, const Face2RegionMap &amp;regionMap, int numRegions)</td></tr>
 <tr class="memdesc:gabb9aee33af237e8ace6daa0b6b7ba783"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the area of each region given via the map  <br /></td></tr>
 <tr class="memitem:gaf0690687907bc23ce3b2772500238124" id="r_gaf0690687907bc23ce3b2772500238124"><td class="memItemLeft" align="right" valign="top">std::pair&lt; FaceBitSet, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf0690687907bc23ce3b2772500238124">MR::MeshComponents::getLargeByAreaRegions</a> (const MeshPart &amp;meshPart, const Face2RegionMap &amp;regionMap, int numRegions, float minArea)</td></tr>
@@ -393,7 +394,7 @@ Functions</h2></td></tr>
 <p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
 <p>gets all connected components of mesh part \detail if components number more than the maxComponentCount, they will be combined into groups of the same size </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">maxComponentCount</td><td>should be more then 1 </td></tr>
+    <tr><td class="paramname">maxComponentCount</td><td>should be more than 1 </td></tr>
   </table>
   </dd>
 </dl>
@@ -441,7 +442,7 @@ Functions</h2></td></tr>
 <p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
 <p>gets all connected components from components map ( FaceId =&gt; RegionId ) \detail if components number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">maxComponentCount</td><td>should be more then 1 </td></tr>
+    <tr><td class="paramname">maxComponentCount</td><td>should be more than 1 </td></tr>
   </table>
   </dd>
 </dl>
@@ -890,6 +891,48 @@ Functions</h2></td></tr>
 
 <p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
 <p>returns one connected component containing given vertex, not effective to call more than once, if several components are needed use getAllComponentsVerts </p>
+
+</div>
+</div>
+<a id="ga87fa009d5a9b64c256cd45780378d1fb" name="ga87fa009d5a9b64c256cd45780378d1fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga87fa009d5a9b64c256cd45780378d1fb">&#9670;&#160;</a></span>getFacePairRegionMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; Face2RegionMap, int &gt; MR::MeshComponents::getFacePairRegionMap </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1FaceFace.html">FaceFace</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>facePairs</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga7489c91178e90fdd4200bbb0074e025f">FaceIncidence</a></td>          <td class="paramname"><span class="paramname"><em>incidence</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc">FaceIncidence::PerEdge</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const UndirectedEdgeBitSet *</td>          <td class="paramname"><span class="paramname"><em>isCompBd</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMeshComponents_8h.html">MRMesh/MRMeshComponents.h</a>&gt;</code></p>
+<p>given some face pairs, collects them in regions, where for each face in a region its pair face and its incident faces from other pairs are also attributed to that region; returns 1. the mapping: FaceId -&gt; RegionId, 2. the total number of regions </p>
 
 </div>
 </div>

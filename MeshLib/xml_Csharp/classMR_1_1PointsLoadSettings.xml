@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointsLoadSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::PointsLoadSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointsLoadSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointsLoadSettings" prot="public" virt="non-virtual">MR.Const_PointsLoadSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PointsLoadSettings_1a23738fee48586fce88572f0c4bd8ebd8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertColors" kindref="compound">VertColors</ref></type>
@@ -105,10 +105,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoadSettings.cs" line="237" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoadSettings.cs" bodystart="237" bodyend="243"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1PointsLoadSettings_1a76edbdd788a39a1c33d7c167147e17af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1PointsLoadSettings_1af9faf3d3e9830f4250cfbf51af566801" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.PointsLoadSettings.PointsLoadSettings</definition>
-        <argsstring>(MR.VertColors? colors, MR.Misc.InOut&lt; MR.AffineXf3f &gt;? outXf, MR.Std._ByValue_Function_BoolFuncFromFloat callback, bool telemetrySignal)</argsstring>
+        <argsstring>(MR.VertColors? colors, MR.Misc.InOut&lt; MR.AffineXf3f &gt;? outXf, MR.Std._ByValue_Function_Bool_From_Float callback, bool telemetrySignal)</argsstring>
         <name>PointsLoadSettings</name>
         <qualifiedname>MR.PointsLoadSettings.PointsLoadSettings</qualifiedname>
         <param>
@@ -120,7 +120,7 @@
           <declname>outXf</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>callback</declname>
         </param>
         <param>
@@ -162,7 +162,7 @@
         <name>PointsLoadSettings</name>
         <qualifiedname>MR.PointsLoadSettings.PointsLoadSettings</qualifiedname>
         <param>
-          <type>Const_PointsLoadSettings</type>
+          <type><ref refid="classMR_1_1Const__PointsLoadSettings" kindref="compound">Const_PointsLoadSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -227,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointsLoadSettings</label>
+        <link refid="classMR_1_1Const__PointsLoadSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -240,6 +241,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PointsLoadSettings</label>
         <link refid="classMR_1_1PointsLoadSettings"/>
@@ -248,9 +253,14 @@
       </node>
       <node id="2">
         <label>MR.Const_PointsLoadSettings</label>
+        <link refid="classMR_1_1Const__PointsLoadSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_colors</edgelabel>
+          <edgelabel>__ptr_storage_outXf</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -262,13 +272,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoadSettings.cs" line="168" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsLoadSettings.cs" bodystart="169" bodyend="293"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PointsLoadSettings_1a206cbfa5f6869076caf5bfbfed78b37a" prot="protected" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>__ptr_storage_colors</name></member>
+      <member refid="classMR_1_1Const__PointsLoadSettings_1a1acf751c368c3a68b684f9325edb1fd5" prot="protected" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>__ptr_storage_outXf</name></member>
+      <member refid="classMR_1_1Const__PointsLoadSettings_1a63563a6ec231538c5ef8fa77a59ca007" prot="protected" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>__ref_storage_telemetrySignal</name></member>
       <member refid="classMR_1_1PointsLoadSettings_1ac54cd04062d9273c28d31ce11753783c" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1PointsLoadSettings_1ae878a2165d7f33672bf25b663ef0d184" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>callback</name></member>
       <member refid="classMR_1_1PointsLoadSettings_1a23738fee48586fce88572f0c4bd8ebd8" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>colors</name></member>
+      <member refid="classMR_1_1Const__PointsLoadSettings_1ad074355f4916b5dfcd4494780d8a4b3a" prot="package" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>Const_PointsLoadSettings</name></member>
+      <member refid="classMR_1_1Const__PointsLoadSettings_1a9b4e7a480f0349fb3e45d2bc5264c37e" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>Const_PointsLoadSettings</name></member>
+      <member refid="classMR_1_1Const__PointsLoadSettings_1a80d821a1182b387b07e722fcd65273aa" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>Const_PointsLoadSettings</name></member>
+      <member refid="classMR_1_1Const__PointsLoadSettings_1a09b5f57ff0bd793a1d3b88e98b9ee335" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>Const_PointsLoadSettings</name></member>
+      <member refid="classMR_1_1Const__PointsLoadSettings_1ae52603bb61a84825d59faebd3bd298aa" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>Const_PointsLoadSettings</name></member>
+      <member refid="classMR_1_1Const__PointsLoadSettings_1a47ac7402f10dbff4adf2351ae77cfbb0" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>Const_PointsLoadSettings</name></member>
+      <member refid="classMR_1_1Const__PointsLoadSettings_1aee3da2df601c9f075d1ac5df7e36e4c3" prot="protected" virt="virtual"><scope>MR::PointsLoadSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointsLoadSettings_1a00ecb45886ea8c6cddff350879d9490f" prot="public" virt="virtual"><scope>MR::PointsLoadSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PointsLoadSettings_1a396fb6fb14e6f3750c88764e172d70f2" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>outXf</name></member>
       <member refid="classMR_1_1PointsLoadSettings_1a55a6b20ef036c845a934cf0675784b50" prot="package" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>PointsLoadSettings</name></member>
       <member refid="classMR_1_1PointsLoadSettings_1a7e68703b4dc939a2c9d13b17e8d1ab7f" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>PointsLoadSettings</name></member>
-      <member refid="classMR_1_1PointsLoadSettings_1a76edbdd788a39a1c33d7c167147e17af" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>PointsLoadSettings</name></member>
+      <member refid="classMR_1_1PointsLoadSettings_1af9faf3d3e9830f4250cfbf51af566801" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>PointsLoadSettings</name></member>
       <member refid="classMR_1_1PointsLoadSettings_1a5902d940a4aaf6e349a9cf5bb3550ee3" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>PointsLoadSettings</name></member>
       <member refid="classMR_1_1PointsLoadSettings_1ab6c4d981e60ec8cfdf72f6981e8dd167" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>PointsLoadSettings</name></member>
       <member refid="classMR_1_1PointsLoadSettings_1ab3fd31ca11a9b36c390966180f354a36" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>PointsLoadSettings</name></member>

@@ -1,0 +1,1411 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MeasurementObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MeasurementObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MeasurementObject" prot="public" virt="non-virtual">MR.MeasurementObject</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a5306852b6b5f38fc63df6c9b411fa808" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MeasurementObject.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeasurementObject.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="27" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="27" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a849b84e78febebd9ce280c44f8ab2a88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MeasurementObject.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeasurementObject.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="36" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a9d27d8056c236069fb04fe128df8c63f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeasurementObject.Const_MeasurementObject</definition>
+        <argsstring>(MR._ByValue_MeasurementObject _other)</argsstring>
+        <name>Const_MeasurementObject</name>
+        <qualifiedname>MR.Const_MeasurementObject.Const_MeasurementObject</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeasurementObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeasurementObject_1a4daca720f6c5b3a25a32539f8cc72e3a" kindref="member">MR.MeasurementObject.MeasurementObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="92" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="92" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a5dc7e08f9ac1017e0d16c3c2c710666c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeasurementObject.Const_MeasurementObject</definition>
+        <argsstring>(Const_MeasurementObject _other)</argsstring>
+        <name>Const_MeasurementObject</name>
+        <qualifiedname>MR.Const_MeasurementObject.Const_MeasurementObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeasurementObject" kindref="compound">Const_MeasurementObject</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeasurementObject_1a4daca720f6c5b3a25a32539f8cc72e3a" kindref="member">MR.MeasurementObject.MeasurementObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="103" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a7a0457b4c108d491d69806b8d8288fed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeasurementObject.Const_MeasurementObject</definition>
+        <argsstring>(MeasurementObject _other)</argsstring>
+        <name>Const_MeasurementObject</name>
+        <qualifiedname>MR.Const_MeasurementObject.Const_MeasurementObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeasurementObject" kindref="compound">MeasurementObject</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeasurementObject_1a4daca720f6c5b3a25a32539f8cc72e3a" kindref="member">MR.MeasurementObject.MeasurementObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="108" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1af7856cf0278d4a440d95e4520a38a032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>unsafe? byte MR.Const_MeasurementObject.typeName</definition>
+        <argsstring>()</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR.Const_MeasurementObject.typeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1af7856cf0278d4a440d95e4520a38a032" kindref="member">MR.MeasurementObject.typeName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="124" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="124" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a50cb56adad1d3ad82154cac7d2f4d4c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_MeasurementObject.className</definition>
+        <argsstring>()</argsstring>
+        <name>className</name>
+        <qualifiedname>MR.Const_MeasurementObject.className</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a50cb56adad1d3ad82154cac7d2f4d4c1" kindref="member">MR.MeasurementObject.className</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="146" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="146" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a0d3bfe92f554537fe509b6f9c34bc655" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_MeasurementObject.classNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>MR.Const_MeasurementObject.classNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a0d3bfe92f554537fe509b6f9c34bc655" kindref="member">MR.MeasurementObject.classNameInPlural</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="167" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="167" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a3b6ea34a816814e19a1fe5dfc3a4b83d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.supportsVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>MR.Const_MeasurementObject.supportsVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this class supports the property <computeroutput>type</computeroutput>. Otherwise passing it to the functions below is illegal. Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a3b6ea34a816814e19a1fe5dfc3a4b83d" kindref="member">MR.MeasurementObject.supportsVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="178" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="178" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a57982f6441a295679771ecf1201a39de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.getVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getVisualizeProperty</name>
+        <qualifiedname>MR.Const_MeasurementObject.getVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the property is set at least in one viewport specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a57982f6441a295679771ecf1201a39de" kindref="member">MR.MeasurementObject.getVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="189" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="189" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a7866b4fe6180d266d034e75cf26c3c0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+        <definition>unsafe MR.Const_ViewportMask MR.Const_MeasurementObject.getVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>MR.Const_MeasurementObject.getVisualizePropertyMask</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>returns mask of viewports where given property is set Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a7866b4fe6180d266d034e75cf26c3c0d" kindref="member">MR.MeasurementObject.getVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="200" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="200" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a08fd674d4d033f40130b571873554a48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRViewportMask</type>
+        <definition>unsafe MR.Std.Vector_MRViewportMask MR.Const_MeasurementObject.getAllVisualizeProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>MR.Const_MeasurementObject.getAllVisualizeProperties</qualifiedname>
+        <briefdescription>
+<para>get all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a08fd674d4d033f40130b571873554a48" kindref="member">MR.MeasurementObject.getAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="211" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="211" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a4c0ac5cfa3349f05868b5ac23e2b7c1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_MeasurementObject.globalClippedByPlaneMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalClippedByPlaneMask</name>
+        <qualifiedname>MR.Const_MeasurementObject.globalClippedByPlaneMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object or any of its parents is clipped by plane Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a4c0ac5cfa3349f05868b5ac23e2b7c1e" kindref="member">MR.MeasurementObject.globalClippedByPlaneMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="222" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="222" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1aec3a83f5984b0ebc0f8112499dcf34c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.globalClippedByPlane</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalClippedByPlane</name>
+        <qualifiedname>MR.Const_MeasurementObject.globalClippedByPlane</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1aec3a83f5984b0ebc0f8112499dcf34c3" kindref="member">MR.MeasurementObject.globalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="234" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="234" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a046549574e168e893c573f7ce6b5c657" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_MeasurementObject.getFrontColor</definition>
+        <argsstring>(bool? selected=null, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getFrontColor</name>
+        <qualifiedname>MR.Const_MeasurementObject.getFrontColor</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a046549574e168e893c573f7ce6b5c657" kindref="member">MR.MeasurementObject.getFrontColor</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="247" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="247" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1ac47dfe5b7fec935dc3ba383be1a51637" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_MeasurementObject.getFrontColorsForAllViewports</definition>
+        <argsstring>(bool? selected=null)</argsstring>
+        <name>getFrontColorsForAllViewports</name>
+        <qualifiedname>MR.Const_MeasurementObject.getFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1ac47dfe5b7fec935dc3ba383be1a51637" kindref="member">MR.MeasurementObject.getFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="260" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="260" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1af61d288aa049e36584d1fbf0c7efb449" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_MeasurementObject.getBackColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getBackColorsForAllViewports</name>
+        <qualifiedname>MR.Const_MeasurementObject.getBackColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1af61d288aa049e36584d1fbf0c7efb449" kindref="member">MR.MeasurementObject.getBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="272" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="272" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a6e914701402de1461260963d721a20f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_MeasurementObject.getBackColor</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getBackColor</name>
+        <qualifiedname>MR.Const_MeasurementObject.getBackColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a6e914701402de1461260963d721a20f7" kindref="member">MR.MeasurementObject.getBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="284" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="284" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a82e307afcdbf6a4357f4d5f3c7dda246" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_MeasurementObject.getGlobalAlpha</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getGlobalAlpha</name>
+        <qualifiedname>MR.Const_MeasurementObject.getGlobalAlpha</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a82e307afcdbf6a4357f4d5f3c7dda246" kindref="member">MR.MeasurementObject.getGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="296" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="296" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1aa424cf7f87bb6a88934eeef8be63bff7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__UnsignedChar" kindref="compound">MR.Const_ViewportProperty_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_UnsignedChar MR.Const_MeasurementObject.getGlobalAlphaForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.Const_MeasurementObject.getGlobalAlphaForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1aa424cf7f87bb6a88934eeef8be63bff7" kindref="member">MR.MeasurementObject.getGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="307" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="307" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a6dd52174ddec7845eb070d8483701b0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_MeasurementObject.getDirtyFlags</definition>
+        <argsstring>()</argsstring>
+        <name>getDirtyFlags</name>
+        <qualifiedname>MR.Const_MeasurementObject.getDirtyFlags</qualifiedname>
+        <briefdescription>
+<para>returns current dirty flags for the object Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a6dd52174ddec7845eb070d8483701b0a" kindref="member">MR.MeasurementObject.getDirtyFlags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="318" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="318" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a3ac59c511d6fb2627b4bc4ab5cd25883" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_MeasurementObject.resetDirty</definition>
+        <argsstring>()</argsstring>
+        <name>resetDirty</name>
+        <qualifiedname>MR.Const_MeasurementObject.resetDirty</qualifiedname>
+        <briefdescription>
+<para>resets all dirty flags (except for cache flags that will be reset automatically on cache update) Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a3ac59c511d6fb2627b4bc4ab5cd25883" kindref="member">MR.MeasurementObject.resetDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="329" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="329" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a4e6f1d284668b425647ebc07064f9b3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_MeasurementObject.resetDirtyExceptMask</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>resetDirtyExceptMask</name>
+        <qualifiedname>MR.Const_MeasurementObject.resetDirtyExceptMask</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>reset dirty flags without some specific bits (useful for lazy normals update) Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a4e6f1d284668b425647ebc07064f9b3c" kindref="member">MR.MeasurementObject.resetDirtyExceptMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="340" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="340" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a0919484fc4b1a81fbd3e8d73d564f79e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_MeasurementObject.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_MeasurementObject.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns cached bounding box of this object in local coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a0919484fc4b1a81fbd3e8d73d564f79e" kindref="member">MR.MeasurementObject.getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="351" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="351" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a43776f368c0b6d186c58d73eb562b320" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_MeasurementObject.getWorldBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>MR.Const_MeasurementObject.getWorldBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns bounding box of this object in given viewport in world coordinates, to get world bounding box of the object with all child objects, please call <ref refid="classMR_1_1Const__Object_1adec896d2f7f19300a966a810c5ff0eb3" kindref="member">Object.getWorldTreeBox</ref> method Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a43776f368c0b6d186c58d73eb562b320" kindref="member">MR.MeasurementObject.getWorldBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="364" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="364" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1aa8d31b7cc962b46b9c70ff8032618b1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.getRedrawFlag</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getRedrawFlag</name>
+        <qualifiedname>MR.Const_MeasurementObject.getRedrawFlag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the object must be redrawn (due to dirty flags) in one of specified viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1aa8d31b7cc962b46b9c70ff8032618b1b" kindref="member">MR.MeasurementObject.getRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="375" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="375" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a3f2f67ab7dc62f1a66e6e73c7cd90293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.isPickable</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isPickable</name>
+        <qualifiedname>MR.Const_MeasurementObject.isPickable</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a3f2f67ab7dc62f1a66e6e73c7cd90293" kindref="member">MR.MeasurementObject.isPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="387" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="387" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1aa780067cfe260fe4cf24756c0f3313e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+        <definition>unsafe MR.ColoringType MR.Const_MeasurementObject.getColoringType</definition>
+        <argsstring>()</argsstring>
+        <name>getColoringType</name>
+        <qualifiedname>MR.Const_MeasurementObject.getColoringType</qualifiedname>
+        <briefdescription>
+<para>returns the current coloring mode of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1aa780067cfe260fe4cf24756c0f3313e9" kindref="member">MR.MeasurementObject.getColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="398" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="398" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1abef2742ba84ffb4837f308c2f0290998" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MeasurementObject.getShininess</definition>
+        <argsstring>()</argsstring>
+        <name>getShininess</name>
+        <qualifiedname>MR.Const_MeasurementObject.getShininess</qualifiedname>
+        <briefdescription>
+<para>returns the current shininess visual value Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1abef2742ba84ffb4837f308c2f0290998" kindref="member">MR.MeasurementObject.getShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="409" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="409" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a71d1ca93fe8920795b01cb85cac2df05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MeasurementObject.getSpecularStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getSpecularStrength</name>
+        <qualifiedname>MR.Const_MeasurementObject.getSpecularStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a71d1ca93fe8920795b01cb85cac2df05" kindref="member">MR.MeasurementObject.getSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="420" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="420" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1add51ff6fade221904d0a9a7fcb7c7303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MeasurementObject.getAmbientStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getAmbientStrength</name>
+        <qualifiedname>MR.Const_MeasurementObject.getAmbientStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1add51ff6fade221904d0a9a7fcb7c7303" kindref="member">MR.MeasurementObject.getAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="431" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="431" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a1fb0bb14942a0966c6af51174ef125fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_MeasurementObject.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR.Const_MeasurementObject.clone</qualifiedname>
+        <briefdescription>
+<para>clones this object only, without its children, making new object the owner of all copied resources Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a1fb0bb14942a0966c6af51174ef125fa" kindref="member">MR.MeasurementObject.clone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="443" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="443" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a6b8473965535bef10638c9265c3d10e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_MeasurementObject.shallowClone</definition>
+        <argsstring>()</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>MR.Const_MeasurementObject.shallowClone</qualifiedname>
+        <briefdescription>
+<para>clones this object only, without its children, making new object to share resources with this object Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a6b8473965535bef10638c9265c3d10e7" kindref="member">MR.MeasurementObject.shallowClone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="455" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="455" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a0430401d11fabe8bf1fbe04fb8043b63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.render</definition>
+        <argsstring>(MR.Const_ModelRenderParams _1)</argsstring>
+        <name>render</name>
+        <qualifiedname>MR.Const_MeasurementObject.render</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelRenderParams" kindref="compound">MR.Const_ModelRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for visualization Returns true if something was drawn. Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a0430401d11fabe8bf1fbe04fb8043b63" kindref="member">MR.MeasurementObject.render</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="467" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="467" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1aee86c99748b0654a375db8d295e2c43a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_MeasurementObject.renderForPicker</definition>
+        <argsstring>(MR.Const_ModelBaseRenderParams _1, uint _2)</argsstring>
+        <name>renderForPicker</name>
+        <qualifiedname>MR.Const_MeasurementObject.renderForPicker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelBaseRenderParams" kindref="compound">MR.Const_ModelBaseRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for picking Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1aee86c99748b0654a375db8d295e2c43a" kindref="member">MR.MeasurementObject.renderForPicker</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="478" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="478" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a46a382aa09219eacad373645323c1588" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_MeasurementObject.renderUi</definition>
+        <argsstring>(MR.Const_UiRenderParams params_)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR.Const_MeasurementObject.renderUi</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UiRenderParams" kindref="compound">MR.Const_UiRenderParams</ref></type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for 2d UI Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a46a382aa09219eacad373645323c1588" kindref="member">MR.MeasurementObject.renderUi</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="489" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="489" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a352261f4124a38c58935260ef1706edf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_MeasurementObject.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_MeasurementObject.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a352261f4124a38c58935260ef1706edf" kindref="member">MR.MeasurementObject.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="500" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="500" bodyend="505"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a38589d8cbadc599567aa7df84e26f79f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>unsafe MR.Std.Vector_StdString MR.Const_MeasurementObject.getInfoLines</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>MR.Const_MeasurementObject.getInfoLines</qualifiedname>
+        <briefdescription>
+<para>return several info lines that can better describe the object in the UI Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a38589d8cbadc599567aa7df84e26f79f" kindref="member">MR.MeasurementObject.getInfoLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="511" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="511" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a5266c5afff2b0830fea630a9bb69c386" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.useDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>()</argsstring>
+        <name>useDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.Const_MeasurementObject.useDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <briefdescription>
+<para>whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a5266c5afff2b0830fea630a9bb69c386" kindref="member">MR.MeasurementObject.useDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="523" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="523" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a5a093e3d9b54df8f54931477613d57fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_MeasurementObject.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_MeasurementObject.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a5a093e3d9b54df8f54931477613d57fc" kindref="member">MR.MeasurementObject.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="533" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="533" bodyend="538"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1afe595e5c6ca78f12700ac625ba1fe7de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_MeasurementObject.xf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_MeasurementObject.xf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to parent space transformation (to world space if no parent) for default or given viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__MeasurementObject_1afe595e5c6ca78f12700ac625ba1fe7de" kindref="member">xf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1afe595e5c6ca78f12700ac625ba1fe7de" kindref="member">MR.MeasurementObject.xf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="546" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="546" bodyend="554"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a00989d8eadc183a3908b4e47bbd520c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" kindref="compound">MR.Const_ViewportProperty_MRAffineXf3f</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRAffineXf3f MR.Const_MeasurementObject.xfsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>xfsForAllViewports</name>
+        <qualifiedname>MR.Const_MeasurementObject.xfsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns xfs for all viewports, combined into a single object Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a00989d8eadc183a3908b4e47bbd520c0" kindref="member">MR.MeasurementObject.xfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="560" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="560" bodyend="565"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1addedb42c6d70a7b850ad4d4492293867" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe MR.AffineXf3f MR.Const_MeasurementObject.worldXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>worldXf</name>
+        <qualifiedname>MR.Const_MeasurementObject.worldXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to world space transformation for default or specific viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__MeasurementObject_1addedb42c6d70a7b850ad4d4492293867" kindref="member">worldXf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1addedb42c6d70a7b850ad4d4492293867" kindref="member">MR.MeasurementObject.worldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="573" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="573" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a20d471eeaaf9ce434d356ba5844ef019" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_MeasurementObject.globalVisibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalVisibilityMask</name>
+        <qualifiedname>MR.Const_MeasurementObject.globalVisibilityMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object is visible together with all its parents Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a20d471eeaaf9ce434d356ba5844ef019" kindref="member">MR.MeasurementObject.globalVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="587" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="587" bodyend="592"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a4133d6aaafd8622b0d343a0a3553eb35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.globalVisibility</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalVisibility</name>
+        <qualifiedname>MR.Const_MeasurementObject.globalVisibility</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a4133d6aaafd8622b0d343a0a3553eb35" kindref="member">MR.MeasurementObject.globalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="599" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="599" bodyend="604"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a077d73696b3370a0c6c6bded09ef437e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.isLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isLocked</name>
+        <qualifiedname>MR.Const_MeasurementObject.isLocked</qualifiedname>
+        <briefdescription>
+<para>object properties lock for UI Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a077d73696b3370a0c6c6bded09ef437e" kindref="member">MR.MeasurementObject.isLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="610" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="610" bodyend="615"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a14b2827bdc8a7f861f533def33cf1019" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.isParentLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isParentLocked</name>
+        <qualifiedname>MR.Const_MeasurementObject.isParentLocked</qualifiedname>
+        <briefdescription>
+<para>If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a14b2827bdc8a7f861f533def33cf1019" kindref="member">MR.MeasurementObject.isParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="622" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="622" bodyend="627"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1ae05f61e03d2cb3d0e95324026492e531" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.isAncestor</definition>
+        <argsstring>(MR.Const_Object? ancestor)</argsstring>
+        <name>isAncestor</name>
+        <qualifiedname>MR.Const_MeasurementObject.isAncestor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref>?</type>
+          <declname>ancestor</declname>
+        </param>
+        <briefdescription>
+<para>return true if given object is ancestor of this one, false otherwise Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1ae05f61e03d2cb3d0e95324026492e531" kindref="member">MR.MeasurementObject.isAncestor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="633" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="633" bodyend="638"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a181f6871f57cdb5eead5aaba6049d2f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.isSelected</definition>
+        <argsstring>()</argsstring>
+        <name>isSelected</name>
+        <qualifiedname>MR.Const_MeasurementObject.isSelected</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a181f6871f57cdb5eead5aaba6049d2f0" kindref="member">MR.MeasurementObject.isSelected</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="643" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="643" bodyend="648"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a3269e1a1b4ade223e923bd7347e08375" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.isAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isAncillary</name>
+        <qualifiedname>MR.Const_MeasurementObject.isAncillary</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a3269e1a1b4ade223e923bd7347e08375" kindref="member">MR.MeasurementObject.isAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="653" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="653" bodyend="658"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a697089c543bb41214b39ff201a5cbfdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.isGlobalAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isGlobalAncillary</name>
+        <qualifiedname>MR.Const_MeasurementObject.isGlobalAncillary</qualifiedname>
+        <briefdescription>
+<para>returns true if the object or any of its ancestors are ancillary Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a697089c543bb41214b39ff201a5cbfdb" kindref="member">MR.MeasurementObject.isGlobalAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="664" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="664" bodyend="669"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a3e11bcca93e89e3c941c0a20dfbcd6dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.isVisible</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isVisible</name>
+        <qualifiedname>MR.Const_MeasurementObject.isVisible</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a3e11bcca93e89e3c941c0a20dfbcd6dd" kindref="member">MR.MeasurementObject.isVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="676" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="676" bodyend="681"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a919d029b69cdf348de52b0e9eb5df751" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_MeasurementObject.visibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>visibilityMask</name>
+        <qualifiedname>MR.Const_MeasurementObject.visibilityMask</qualifiedname>
+        <briefdescription>
+<para>gets object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a919d029b69cdf348de52b0e9eb5df751" kindref="member">MR.MeasurementObject.visibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="687" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="687" bodyend="692"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a95ee3b38958d229356f9632071d7a628" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_MeasurementObject.resetRedrawFlag</definition>
+        <argsstring>()</argsstring>
+        <name>resetRedrawFlag</name>
+        <qualifiedname>MR.Const_MeasurementObject.resetRedrawFlag</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a95ee3b38958d229356f9632071d7a628" kindref="member">MR.MeasurementObject.resetRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="697" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="697" bodyend="702"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a727d943a3e99a06ebb581587fac232db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_MeasurementObject.cloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>cloneTree</name>
+        <qualifiedname>MR.Const_MeasurementObject.cloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognized children) Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a727d943a3e99a06ebb581587fac232db" kindref="member">MR.MeasurementObject.cloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="708" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="708" bodyend="713"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1ae964d9e06150db1de19049a30f564ad3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_MeasurementObject.shallowCloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>shallowCloneTree</name>
+        <qualifiedname>MR.Const_MeasurementObject.shallowCloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognied children) clones only pointers to mesh, points or voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1ae964d9e06150db1de19049a30f564ad3" kindref="member">MR.MeasurementObject.shallowCloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="720" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="720" bodyend="725"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a127cabc9a5df0e53c3a56ec5530f5d92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_MeasurementObject.getWorldTreeBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldTreeBox</name>
+        <qualifiedname>MR.Const_MeasurementObject.getWorldTreeBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a127cabc9a5df0e53c3a56ec5530f5d92" kindref="member">MR.MeasurementObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="733" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="733" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1ad8165554e365a7ceb4c3c78c954980c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.hasVisualRepresentation</definition>
+        <argsstring>()</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>MR.Const_MeasurementObject.hasVisualRepresentation</qualifiedname>
+        <briefdescription>
+<para>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1ad8165554e365a7ceb4c3c78c954980c9" kindref="member">MR.MeasurementObject.hasVisualRepresentation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="744" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="744" bodyend="749"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1ab0cf89de37101717289f1b810f55ec25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.hasModel</definition>
+        <argsstring>()</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>MR.Const_MeasurementObject.hasModel</qualifiedname>
+        <briefdescription>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid mesh() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1ab0cf89de37101717289f1b810f55ec25" kindref="member">MR.MeasurementObject.hasModel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="756" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="756" bodyend="761"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a842f9c9494697a287da4d1fc29206165" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Set_StdString</type>
+        <definition>unsafe MR.Std.Const_Set_StdString MR.Const_MeasurementObject.tags</definition>
+        <argsstring>()</argsstring>
+        <name>tags</name>
+        <qualifiedname>MR.Const_MeasurementObject.tags</qualifiedname>
+        <briefdescription>
+<para>provides read-only access to the tag storage the storage is a set of unique strings Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a842f9c9494697a287da4d1fc29206165" kindref="member">MR.MeasurementObject.tags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="768" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="768" bodyend="773"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a36e9638fe792c4f758c07c9bffee911c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeasurementObject.sameModels</definition>
+        <argsstring>(MR.Const_Object other)</argsstring>
+        <name>sameModels</name>
+        <qualifiedname>MR.Const_MeasurementObject.sameModels</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a36e9638fe792c4f758c07c9bffee911c" kindref="member">MR.MeasurementObject.sameModels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="779" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="779" bodyend="784"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a2f0171f9feb5d86c50a25151649e2b62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_MeasurementObject.getModelHash</definition>
+        <argsstring>()</argsstring>
+        <name>getModelHash</name>
+        <qualifiedname>MR.Const_MeasurementObject.getModelHash</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1a2f0171f9feb5d86c50a25151649e2b62" kindref="member">MR.MeasurementObject.getModelHash</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="790" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="790" bodyend="795"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1aba469555ab56a8df212cfbaa425cdee3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_MeasurementObject.getSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getSharedPtr</name>
+        <qualifiedname>MR.Const_MeasurementObject.getSharedPtr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__MeasurementObject_1aba469555ab56a8df212cfbaa425cdee3" kindref="member">MR.MeasurementObject.getSharedPtr</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="802" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="802" bodyend="807"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a8544d45e2ff5c1d93229e1743bbe47a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeasurementObject.~Const_MeasurementObject</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_MeasurementObject</name>
+        <qualifiedname>MR.Const_MeasurementObject.~Const_MeasurementObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="37" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a07784db19f564440fe68991688c2dd34" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_MeasurementObject.operator MR.Const_ObjectChildrenHolder</definition>
+        <argsstring>(Const_MeasurementObject self)</argsstring>
+        <name>operator MR.Const_ObjectChildrenHolder</name>
+        <qualifiedname>MR.Const_MeasurementObject.operator MR.Const_ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeasurementObject" kindref="compound">Const_MeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="40" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="40" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a78e40ce73f36d7fe2366b5bcbf9cbc85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_MeasurementObject.operator MR.Const_Object</definition>
+        <argsstring>(Const_MeasurementObject self)</argsstring>
+        <name>operator MR.Const_Object</name>
+        <qualifiedname>MR.Const_MeasurementObject.operator MR.Const_Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeasurementObject" kindref="compound">Const_MeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="48" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a242f18311847beda6316b5ca03d211a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_MeasurementObject.operator MR.Const_VisualObject</definition>
+        <argsstring>(Const_MeasurementObject self)</argsstring>
+        <name>operator MR.Const_VisualObject</name>
+        <qualifiedname>MR.Const_MeasurementObject.operator MR.Const_VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeasurementObject" kindref="compound">Const_MeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="56" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="56" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a3149650ada94b94a6220ab914a525e82" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_MeasurementObject.operator Const_MeasurementObject?</definition>
+        <argsstring>(MR.Const_Object parent)</argsstring>
+        <name>operator Const_MeasurementObject?</name>
+        <qualifiedname>MR.Const_MeasurementObject.operator Const_MeasurementObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="66" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="66" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1aa9bbcb6de94e32c4fcc5a345a0bbb850" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_MeasurementObject.operator Const_MeasurementObject?</definition>
+        <argsstring>(MR.Const_VisualObject parent)</argsstring>
+        <name>operator Const_MeasurementObject?</name>
+        <qualifiedname>MR.Const_MeasurementObject.operator Const_MeasurementObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="76" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="76" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a6955b8c54a0104e6593a6661620c94e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_MeasurementObject.staticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>staticTypeName</name>
+        <qualifiedname>MR.Const_MeasurementObject.staticTypeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::MeasurementObject::StaticTypeName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="113" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="113" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1ad99084937ee2fab108b793c6cc96a4b1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_MeasurementObject.staticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassName</name>
+        <qualifiedname>MR.Const_MeasurementObject.staticClassName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::MeasurementObject::StaticClassName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="135" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="135" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1aa52791e115d07ebb1c6f57efe10bd3e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_MeasurementObject.staticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassNameInPlural</name>
+        <qualifiedname>MR.Const_MeasurementObject.staticClassNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::MeasurementObject::StaticClassNameInPlural</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="156" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="156" bodyend="162"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeasurementObject_1a19d26b379c69a79a97b7e15005862232" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeasurementObject.Const_MeasurementObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_MeasurementObject</name>
+        <qualifiedname>MR.Const_MeasurementObject.Const_MeasurementObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="87" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="87" bodyend="87"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MeasurementObject" kindref="compound">MR.MeasurementObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1AngleMeasurementObject" kindref="compound">MR.AngleMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">MR.DistanceMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">MR.PointMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1RadiusMeasurementObject" kindref="compound">MR.RadiusMeasurementObject</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MeasurementObject</label>
+        <link refid="classMR_1_1Const__MeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.MeasurementObject</label>
+        <link refid="classMR_1_1MeasurementObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_MeasurementObject</label>
+        <link refid="classMR_1_1Const__MeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" line="21" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeasurementObject.cs" bodystart="22" bodyend="808"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MeasurementObject_1a50cb56adad1d3ad82154cac7d2f4d4c1" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a0d3bfe92f554537fe509b6f9c34bc655" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a1fb0bb14942a0966c6af51174ef125fa" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a727d943a3e99a06ebb581587fac232db" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a19d26b379c69a79a97b7e15005862232" prot="package" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>Const_MeasurementObject</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a9d27d8056c236069fb04fe128df8c63f" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>Const_MeasurementObject</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a5dc7e08f9ac1017e0d16c3c2c710666c" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>Const_MeasurementObject</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a7a0457b4c108d491d69806b8d8288fed" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>Const_MeasurementObject</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a5306852b6b5f38fc63df6c9b411fa808" prot="protected" virt="virtual"><scope>MR::Const_MeasurementObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a849b84e78febebd9ce280c44f8ab2a88" prot="public" virt="virtual"><scope>MR::Const_MeasurementObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a08fd674d4d033f40130b571873554a48" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1add51ff6fade221904d0a9a7fcb7c7303" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a6e914701402de1461260963d721a20f7" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1af61d288aa049e36584d1fbf0c7efb449" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a0919484fc4b1a81fbd3e8d73d564f79e" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1aa780067cfe260fe4cf24756c0f3313e9" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a6dd52174ddec7845eb070d8483701b0a" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a046549574e168e893c573f7ce6b5c657" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1ac47dfe5b7fec935dc3ba383be1a51637" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a82e307afcdbf6a4357f4d5f3c7dda246" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1aa424cf7f87bb6a88934eeef8be63bff7" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a38589d8cbadc599567aa7df84e26f79f" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a2f0171f9feb5d86c50a25151649e2b62" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1aa8d31b7cc962b46b9c70ff8032618b1b" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1aba469555ab56a8df212cfbaa425cdee3" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1abef2742ba84ffb4837f308c2f0290998" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a71d1ca93fe8920795b01cb85cac2df05" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a57982f6441a295679771ecf1201a39de" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a7866b4fe6180d266d034e75cf26c3c0d" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a43776f368c0b6d186c58d73eb562b320" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a127cabc9a5df0e53c3a56ec5530f5d92" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1aec3a83f5984b0ebc0f8112499dcf34c3" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a4c0ac5cfa3349f05868b5ac23e2b7c1e" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a4133d6aaafd8622b0d343a0a3553eb35" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a20d471eeaaf9ce434d356ba5844ef019" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1ab0cf89de37101717289f1b810f55ec25" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1ad8165554e365a7ceb4c3c78c954980c9" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a352261f4124a38c58935260ef1706edf" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1ae05f61e03d2cb3d0e95324026492e531" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a3269e1a1b4ade223e923bd7347e08375" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a697089c543bb41214b39ff201a5cbfdb" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a077d73696b3370a0c6c6bded09ef437e" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a14b2827bdc8a7f861f533def33cf1019" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a3f2f67ab7dc62f1a66e6e73c7cd90293" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a181f6871f57cdb5eead5aaba6049d2f0" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a3e11bcca93e89e3c941c0a20dfbcd6dd" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a5a093e3d9b54df8f54931477613d57fc" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a3149650ada94b94a6220ab914a525e82" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>operator Const_MeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1aa9bbcb6de94e32c4fcc5a345a0bbb850" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>operator Const_MeasurementObject?</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a78e40ce73f36d7fe2366b5bcbf9cbc85" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a07784db19f564440fe68991688c2dd34" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a242f18311847beda6316b5ca03d211a7" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>operator MR.Const_VisualObject</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a0430401d11fabe8bf1fbe04fb8043b63" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1aee86c99748b0654a375db8d295e2c43a" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a46a382aa09219eacad373645323c1588" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a3ac59c511d6fb2627b4bc4ab5cd25883" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a4e6f1d284668b425647ebc07064f9b3c" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a95ee3b38958d229356f9632071d7a628" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a36e9638fe792c4f758c07c9bffee911c" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a6b8473965535bef10638c9265c3d10e7" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1ae964d9e06150db1de19049a30f564ad3" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1ad99084937ee2fab108b793c6cc96a4b1" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1aa52791e115d07ebb1c6f57efe10bd3e1" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a6955b8c54a0104e6593a6661620c94e1" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a3b6ea34a816814e19a1fe5dfc3a4b83d" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a842f9c9494697a287da4d1fc29206165" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>tags</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1af7856cf0278d4a440d95e4520a38a032" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a5266c5afff2b0830fea630a9bb69c386" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a919d029b69cdf348de52b0e9eb5df751" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1addedb42c6d70a7b850ad4d4492293867" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1afe595e5c6ca78f12700ac625ba1fe7de" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a00989d8eadc183a3908b4e47bbd520c0" prot="public" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__MeasurementObject_1a8544d45e2ff5c1d93229e1743bbe47a0" prot="private" virt="non-virtual"><scope>MR::Const_MeasurementObject</scope><name>~Const_MeasurementObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

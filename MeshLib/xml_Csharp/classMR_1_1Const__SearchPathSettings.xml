@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SearchPathSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SearchPathSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SearchPathSettings" prot="public" virt="non-virtual">MR.SearchPathSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__SearchPathSettings_1aaa511aa2eb45e6f024bce8d2b9bd0aa5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1aeefd25abc54607bc39e87bf80e80bf04" kindref="member">MR.GeodesicPathApprox</ref></type>
+        <definition>unsafe MR.GeodesicPathApprox MR.Const_SearchPathSettings.geodesicPathApprox</definition>
+        <argsstring></argsstring>
+        <name>geodesicPathApprox</name>
+        <qualifiedname>MR.Const_SearchPathSettings.geodesicPathApprox</qualifiedname>
+        <briefdescription>
+<para>the algorithm to compute approximately geodesic path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="785" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="785" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SearchPathSettings_1ac5425aa628101d7d24ab8ac944e1d01d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_SearchPathSettings.maxReduceIters</definition>
+        <argsstring></argsstring>
+        <name>maxReduceIters</name>
+        <qualifiedname>MR.Const_SearchPathSettings.maxReduceIters</qualifiedname>
+        <briefdescription>
+<para>the maximum number of iterations to reduce approximate path length and convert it in geodesic path </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="791" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="791" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__SearchPathSettings_1a15420e2c99e846aecb598003746dc5e0" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1aeefd25abc54607bc39e87bf80e80bf04" kindref="member">MR.GeodesicPathApprox</ref> *</type>
+        <definition>unsafe MR.GeodesicPathApprox* MR.Const_SearchPathSettings.__ref_storage_geodesicPathApprox</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_geodesicPathApprox</name>
+        <qualifiedname>MR.Const_SearchPathSettings.__ref_storage_geodesicPathApprox</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="786" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="786" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SearchPathSettings_1aed86de03157fb9ba37b13563bbc8ff73" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_SearchPathSettings.__ref_storage_maxReduceIters</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxReduceIters</name>
+        <qualifiedname>MR.Const_SearchPathSettings.__ref_storage_maxReduceIters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="792" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="792" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SearchPathSettings_1a5e07dcc792dedd4dab92b3f146e8e6d7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SearchPathSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SearchPathSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="770" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="770" bodyend="778"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SearchPathSettings_1a681068a2e1609090813ec6024c7f3081" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SearchPathSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SearchPathSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="779" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="779" bodyend="779"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SearchPathSettings_1a6789dcd1fdf66e16d5832e9f36a6335a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SearchPathSettings.Const_SearchPathSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SearchPathSettings</name>
+        <qualifiedname>MR.Const_SearchPathSettings.Const_SearchPathSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="825" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="825" bodyend="831"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SearchPathSettings_1a3bf207a4827d1a40d546849df51934f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SearchPathSettings.Const_SearchPathSettings</definition>
+        <argsstring>(MR.GeodesicPathApprox geodesicPathApprox, int maxReduceIters)</argsstring>
+        <name>Const_SearchPathSettings</name>
+        <qualifiedname>MR.Const_SearchPathSettings.Const_SearchPathSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1aeefd25abc54607bc39e87bf80e80bf04" kindref="member">MR.GeodesicPathApprox</ref></type>
+          <declname>geodesicPathApprox</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxReduceIters</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1SearchPathSettings" kindref="compound">MR.SearchPathSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="836" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="836" bodyend="842"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SearchPathSettings_1a18e35522ef406b78942b84b161f0d300" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SearchPathSettings.Const_SearchPathSettings</definition>
+        <argsstring>(MR.Const_SearchPathSettings _other)</argsstring>
+        <name>Const_SearchPathSettings</name>
+        <qualifiedname>MR.Const_SearchPathSettings.Const_SearchPathSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SearchPathSettings" kindref="compound">MR.Const_SearchPathSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SearchPathSettings_1a913a5b8c0919cf2f8841a4b360bb7aa7" kindref="member">MR.SearchPathSettings.SearchPathSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="847" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="847" bodyend="854"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SearchPathSettings_1a368b424e1eec4780fef932d178742ae7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SearchPathSettings.Const_SearchPathSettings</definition>
+        <argsstring>(SearchPathSettings _other)</argsstring>
+        <name>Const_SearchPathSettings</name>
+        <qualifiedname>MR.Const_SearchPathSettings.Const_SearchPathSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SearchPathSettings_1a913a5b8c0919cf2f8841a4b360bb7aa7" kindref="member">MR.SearchPathSettings.SearchPathSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="859" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="859" bodyend="859"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SearchPathSettings_1a8e85239f4d87bec510f6f8388c5c40b1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SearchPathSettings.~Const_SearchPathSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SearchPathSettings</name>
+        <qualifiedname>MR.Const_SearchPathSettings.~Const_SearchPathSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="780" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="780" bodyend="780"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SearchPathSettings_1a63ea8f721d00d3b06cef4b633990fcc1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SearchPathSettings.Const_SearchPathSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SearchPathSettings</name>
+        <qualifiedname>MR.Const_SearchPathSettings.Const_SearchPathSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="814" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="814" bodyend="819"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Geo path search settings Generated from class <computeroutput><ref refid="classMR_1_1SearchPathSettings" kindref="compound">MR.SearchPathSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SearchPathSettings</label>
+        <link refid="classMR_1_1Const__SearchPathSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.SearchPathSettings</label>
+        <link refid="classMR_1_1SearchPathSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_SearchPathSettings</label>
+        <link refid="classMR_1_1Const__SearchPathSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_geodesicPathApprox</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="764" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="765" bodyend="860"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a15420e2c99e846aecb598003746dc5e0" prot="protected" virt="non-virtual"><scope>MR::Const_SearchPathSettings</scope><name>__ref_storage_geodesicPathApprox</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1aed86de03157fb9ba37b13563bbc8ff73" prot="protected" virt="non-virtual"><scope>MR::Const_SearchPathSettings</scope><name>__ref_storage_maxReduceIters</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a63ea8f721d00d3b06cef4b633990fcc1" prot="package" virt="non-virtual"><scope>MR::Const_SearchPathSettings</scope><name>Const_SearchPathSettings</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a6789dcd1fdf66e16d5832e9f36a6335a" prot="public" virt="non-virtual"><scope>MR::Const_SearchPathSettings</scope><name>Const_SearchPathSettings</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a3bf207a4827d1a40d546849df51934f0" prot="public" virt="non-virtual"><scope>MR::Const_SearchPathSettings</scope><name>Const_SearchPathSettings</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a18e35522ef406b78942b84b161f0d300" prot="public" virt="non-virtual"><scope>MR::Const_SearchPathSettings</scope><name>Const_SearchPathSettings</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a368b424e1eec4780fef932d178742ae7" prot="public" virt="non-virtual"><scope>MR::Const_SearchPathSettings</scope><name>Const_SearchPathSettings</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a5e07dcc792dedd4dab92b3f146e8e6d7" prot="protected" virt="virtual"><scope>MR::Const_SearchPathSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a681068a2e1609090813ec6024c7f3081" prot="public" virt="virtual"><scope>MR::Const_SearchPathSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1aaa511aa2eb45e6f024bce8d2b9bd0aa5" prot="public" virt="non-virtual"><scope>MR::Const_SearchPathSettings</scope><name>geodesicPathApprox</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1ac5425aa628101d7d24ab8ac944e1d01d" prot="public" virt="non-virtual"><scope>MR::Const_SearchPathSettings</scope><name>maxReduceIters</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a8e85239f4d87bec510f6f8388c5c40b1" prot="private" virt="non-virtual"><scope>MR::Const_SearchPathSettings</scope><name>~Const_SearchPathSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTunnelDetector.h" line="46" column="11" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="46" bodyend="-1"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="45" column="11" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DetectTunnelSettings_1a27a0181891bd9064803eb7608e3f0e10" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTunnelDetector.h" line="50" column="9" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="50" bodyend="-1"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="49" column="9" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DetectTunnelSettings_1a2529d1b4547bb2eed9bb781f0c131829" prot="public" static="no" mutable="no">
         <type><ref refid="group__GeneralGroup_1ga89c45ed75d3ee7e49964d4afe5a64651" kindref="member">EdgeMetric</ref></type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTunnelDetector.h" line="56" column="16" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="56" bodyend="-1"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="55" column="16" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DetectTunnelSettings_1a1179dac4ffbe7c13245c98e8833a6178" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTunnelDetector.h" line="60" column="10" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="60" bodyend="-1"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="59" column="10" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DetectTunnelSettings_1a4cf5671891104927d0393e7dd378f34b" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTunnelDetector.h" line="64" column="10" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="64" bodyend="-1"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="63" column="10" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR_1_1DetectTunnelSettings_1ae823ab96c2d11f1cccba5d61003a1202" prot="public" static="no" mutable="no">
         <type><ref refid="group__BasicStructuresGroup_1ga51ff94746a41880cd06d3272b5bcf710" kindref="member">ProgressCallback</ref></type>
@@ -96,14 +96,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRTunnelDetector.h" line="67" column="22" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="67" bodyend="-1"/>
+        <location file="MRMesh/MRTunnelDetector.h" line="66" column="22" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="66" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRTunnelDetector.h" line="43" column="1" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="44" bodyend="68"/>
+    <location file="MRMesh/MRTunnelDetector.h" line="42" column="1" bodyfile="MRMesh/MRTunnelDetector.h" bodystart="43" bodyend="67"/>
     <listofallmembers>
       <member refid="structMR_1_1DetectTunnelSettings_1a1179dac4ffbe7c13245c98e8833a6178" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>buildCoLoops</name></member>
       <member refid="structMR_1_1DetectTunnelSettings_1a4cf5671891104927d0393e7dd378f34b" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>filterEquivalentCoLoops</name></member>

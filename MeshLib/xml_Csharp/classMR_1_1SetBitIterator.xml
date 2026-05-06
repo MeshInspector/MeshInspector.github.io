@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SetBitIterator" kind="class" language="C#" prot="public">
     <compoundname>MR::SetBitIterator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SetBitIterator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SetBitIterator" prot="public" virt="non-virtual">MR.Const_SetBitIterator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1SetBitIterator_1ae5266ff0709948a3ce455ca80a38e1b0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>SetBitIterator</name>
         <qualifiedname>MR.SetBitIterator.SetBitIterator</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIterator</type>
+          <type><ref refid="classMR_1_1Const__SetBitIterator" kindref="compound">MR.Const_SetBitIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>SetBitIterator</name>
         <qualifiedname>MR.SetBitIterator.SetBitIterator</qualifiedname>
         <param>
-          <type>MR.Const_BitSet</type>
+          <type><ref refid="classMR_1_1Const__BitSet" kindref="compound">MR.Const_BitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
@@ -107,7 +107,7 @@
         <name>assign</name>
         <qualifiedname>MR.SetBitIterator.assign</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIterator</type>
+          <type><ref refid="classMR_1_1Const__SetBitIterator" kindref="compound">MR.Const_SetBitIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>operator SetBitIterator</name>
         <qualifiedname>MR.SetBitIterator.operator SetBitIterator</qualifiedname>
         <param>
-          <type>MR.Const_BitSet</type>
+          <type><ref refid="classMR_1_1Const__BitSet" kindref="compound">MR.Const_BitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIterator</label>
+        <link refid="classMR_1_1Const__SetBitIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIterator</label>
+        <link refid="classMR_1_1Const__SetBitIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,8 +218,23 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="13418" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="13419" bodyend="13487"/>
     <listofallmembers>
       <member refid="classMR_1_1SetBitIterator_1a03cb763e1e1c2b7d92f65ce170979222" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1abcf2cfbc281007d2a344c8f0c7a40048" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>bitset</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1acd787850b6adeb1532ac1cf80a0dd9d1" prot="package" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>Const_SetBitIterator</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1a8a037e096a2ee87b8e4a479ca8187f12" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>Const_SetBitIterator</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1a2c62b1d1dfb75c2efc049916186367a1" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>Const_SetBitIterator</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1a49cc21cc7bd2c6ccf757c3d15d0a3668" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>Const_SetBitIterator</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1a4f66883ab3d1461e8163cceb3f2d88ee" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>Const_SetBitIterator</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1a8b313271fd0d185ff673a2e85d9c2055" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1a1d3e90a777481dc51b3a9537aa3e7f11" prot="protected" virt="virtual"><scope>MR::SetBitIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1a263c7fd254b6b6a8342a0e3ed55a405b" prot="public" virt="virtual"><scope>MR::SetBitIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1a4adc3c5b7411b525f0a8c694d521372a" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1a4c0b599cf93289f09476283c47ca5c75" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>Equals</name></member>
       <member refid="classMR_1_1SetBitIterator_1ae50e4d633e77e7f2929d9820a40f9573" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1a55a8d756f257c7b7938a5b8c08f398e7" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>operator Const_SetBitIterator</name></member>
       <member refid="classMR_1_1SetBitIterator_1ac1426a96abe14024b073930e493a54e9" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>operator SetBitIterator</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1a2be928a97d73a58e410e3f88a6da0b77" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1ae26acc3f1238fde4d18449ebee13d804" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__SetBitIterator_1a64b9a4ce5d293ecd0fa639b246f8808e" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>operator==</name></member>
       <member refid="classMR_1_1SetBitIterator_1ae5266ff0709948a3ce455ca80a38e1b0" prot="package" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>SetBitIterator</name></member>
       <member refid="classMR_1_1SetBitIterator_1af1e8ce1bf82c151c5145f3e74029139a" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>SetBitIterator</name></member>
       <member refid="classMR_1_1SetBitIterator_1aa8025a79724586c7f23cacd93c67a8ca" prot="public" virt="non-virtual"><scope>MR::SetBitIterator</scope><name>SetBitIterator</name></member>

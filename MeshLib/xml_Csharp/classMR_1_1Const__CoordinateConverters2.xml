@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__CoordinateConverters2" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_CoordinateConverters2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1CoordinateConverters2" prot="public" virt="non-virtual">MR.CoordinateConverters2</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__CoordinateConverters2_1a967009e0a9a8ad8e25ec7ddddbaa1d2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_MRVector2i_From_ConstMRVector2fRef</type>
+        <definition>unsafe MR.Std.Const_Function_MRVector2i_From_ConstMRVector2fRef MR.Const_CoordinateConverters2.toInt</definition>
+        <argsstring></argsstring>
+        <name>toInt</name>
+        <qualifiedname>MR.Const_CoordinateConverters2.toInt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="675" column="78" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="675" bodyend="675"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__CoordinateConverters2_1a12f1d407c7ecea62fda1d31fb1c0f46b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_MRVector2f_From_ConstMRVector2iRef</type>
+        <definition>unsafe MR.Std.Const_Function_MRVector2f_From_ConstMRVector2iRef MR.Const_CoordinateConverters2.toFloat</definition>
+        <argsstring></argsstring>
+        <name>toFloat</name>
+        <qualifiedname>MR.Const_CoordinateConverters2.toFloat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="677" column="78" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="677" bodyend="677"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters2_1a974950aa946eb8167aec33d9122e58c2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_CoordinateConverters2.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_CoordinateConverters2.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="663" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="663" bodyend="671"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters2_1ab40c4b64981ad3273e15906b84f1f8f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_CoordinateConverters2.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_CoordinateConverters2.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="672" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="672" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters2_1a86832e26189d637bd59d9aeaf4a29151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CoordinateConverters2.Const_CoordinateConverters2</definition>
+        <argsstring>()</argsstring>
+        <name>Const_CoordinateConverters2</name>
+        <qualifiedname>MR.Const_CoordinateConverters2.Const_CoordinateConverters2</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="712" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="712" bodyend="718"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters2_1a98168acd4b391e7a371f7bef4d87d82a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CoordinateConverters2.Const_CoordinateConverters2</definition>
+        <argsstring>(MR.Std._ByValue_Function_MRVector2i_From_ConstMRVector2fRef toInt, MR.Std._ByValue_Function_MRVector2f_From_ConstMRVector2iRef toFloat)</argsstring>
+        <name>Const_CoordinateConverters2</name>
+        <qualifiedname>MR.Const_CoordinateConverters2.Const_CoordinateConverters2</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_MRVector2i_From_ConstMRVector2fRef</type>
+          <declname>toInt</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_MRVector2f_From_ConstMRVector2iRef</type>
+          <declname>toFloat</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1CoordinateConverters2" kindref="compound">MR.CoordinateConverters2</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="723" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="723" bodyend="731"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters2_1af68f933570c79acd614ee66a649ce27d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CoordinateConverters2.Const_CoordinateConverters2</definition>
+        <argsstring>(MR._ByValue_CoordinateConverters2 _other)</argsstring>
+        <name>Const_CoordinateConverters2</name>
+        <qualifiedname>MR.Const_CoordinateConverters2.Const_CoordinateConverters2</qualifiedname>
+        <param>
+          <type>MR._ByValue_CoordinateConverters2</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CoordinateConverters2_1ab6ef1e77c254fc308636e18be54c347d" kindref="member">MR.CoordinateConverters2.CoordinateConverters2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="736" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="736" bodyend="743"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters2_1a2b2fb1cab5156aaeb8b11e8a56e29ef1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_CoordinateConverters2.Const_CoordinateConverters2</definition>
+        <argsstring>(Const_CoordinateConverters2 _other)</argsstring>
+        <name>Const_CoordinateConverters2</name>
+        <qualifiedname>MR.Const_CoordinateConverters2.Const_CoordinateConverters2</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__CoordinateConverters2" kindref="compound">Const_CoordinateConverters2</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CoordinateConverters2_1ab6ef1e77c254fc308636e18be54c347d" kindref="member">MR.CoordinateConverters2.CoordinateConverters2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="748" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="748" bodyend="748"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters2_1ab8acf3e8ff8b8a5da2d9fd63b5324970" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_CoordinateConverters2.Const_CoordinateConverters2</definition>
+        <argsstring>(CoordinateConverters2 _other)</argsstring>
+        <name>Const_CoordinateConverters2</name>
+        <qualifiedname>MR.Const_CoordinateConverters2.Const_CoordinateConverters2</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CoordinateConverters2" kindref="compound">CoordinateConverters2</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CoordinateConverters2_1ab6ef1e77c254fc308636e18be54c347d" kindref="member">MR.CoordinateConverters2.CoordinateConverters2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="753" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="753" bodyend="753"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters2_1aadb5acf0e187b75c4361baaae1cb297a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_CoordinateConverters2.~Const_CoordinateConverters2</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_CoordinateConverters2</name>
+        <qualifiedname>MR.Const_CoordinateConverters2.~Const_CoordinateConverters2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="673" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="673" bodyend="673"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__CoordinateConverters2_1ac8fbf1938e23c21099b241a985d12aed" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CoordinateConverters2.Const_CoordinateConverters2</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_CoordinateConverters2</name>
+        <qualifiedname>MR.Const_CoordinateConverters2.Const_CoordinateConverters2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="701" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="701" bodyend="706"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>this struct contains coordinate converters float-int-float Generated from class <computeroutput><ref refid="classMR_1_1CoordinateConverters2" kindref="compound">MR.CoordinateConverters2</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_CoordinateConverters2</label>
+        <link refid="classMR_1_1Const__CoordinateConverters2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.CoordinateConverters2</label>
+        <link refid="classMR_1_1CoordinateConverters2"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_CoordinateConverters2</label>
+        <link refid="classMR_1_1Const__CoordinateConverters2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="657" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="658" bodyend="754"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__CoordinateConverters2_1ac8fbf1938e23c21099b241a985d12aed" prot="package" virt="non-virtual"><scope>MR::Const_CoordinateConverters2</scope><name>Const_CoordinateConverters2</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters2_1a86832e26189d637bd59d9aeaf4a29151" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters2</scope><name>Const_CoordinateConverters2</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters2_1a98168acd4b391e7a371f7bef4d87d82a" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters2</scope><name>Const_CoordinateConverters2</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters2_1af68f933570c79acd614ee66a649ce27d" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters2</scope><name>Const_CoordinateConverters2</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters2_1a2b2fb1cab5156aaeb8b11e8a56e29ef1" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters2</scope><name>Const_CoordinateConverters2</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters2_1ab8acf3e8ff8b8a5da2d9fd63b5324970" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters2</scope><name>Const_CoordinateConverters2</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters2_1a974950aa946eb8167aec33d9122e58c2" prot="protected" virt="virtual"><scope>MR::Const_CoordinateConverters2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters2_1ab40c4b64981ad3273e15906b84f1f8f5" prot="public" virt="virtual"><scope>MR::Const_CoordinateConverters2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters2_1a12f1d407c7ecea62fda1d31fb1c0f46b" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters2</scope><name>toFloat</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters2_1a967009e0a9a8ad8e25ec7ddddbaa1d2d" prot="public" virt="non-virtual"><scope>MR::Const_CoordinateConverters2</scope><name>toInt</name></member>
+      <member refid="classMR_1_1Const__CoordinateConverters2_1aadb5acf0e187b75c4361baaae1cb297a" prot="private" virt="non-virtual"><scope>MR::Const_CoordinateConverters2</scope><name>~Const_CoordinateConverters2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

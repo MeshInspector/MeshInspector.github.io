@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SymMatrix2i64" kind="class" language="C#" prot="public">
     <compoundname>MR::SymMatrix2i64</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SymMatrix2i64</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SymMatrix2i64" prot="public" virt="non-virtual">MR.Const_SymMatrix2i64</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SymMatrix2i64_1a49b2301fd92a5b8886897711675fd89d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref long</type>
@@ -97,7 +97,7 @@
         <name>SymMatrix2i64</name>
         <qualifiedname>MR.SymMatrix2i64.SymMatrix2i64</qualifiedname>
         <param>
-          <type>MR.Const_SymMatrix2i64</type>
+          <type><ref refid="classMR_1_1Const__SymMatrix2i64" kindref="compound">MR.Const_SymMatrix2i64</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -135,7 +135,7 @@
         <name>assign</name>
         <qualifiedname>MR.SymMatrix2i64.assign</qualifiedname>
         <param>
-          <type>MR.Const_SymMatrix2i64</type>
+          <type><ref refid="classMR_1_1Const__SymMatrix2i64" kindref="compound">MR.Const_SymMatrix2i64</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -154,7 +154,7 @@
         <name>addAssign</name>
         <qualifiedname>MR.SymMatrix2i64.addAssign</qualifiedname>
         <param>
-          <type>MR.Const_SymMatrix2i64</type>
+          <type><ref refid="classMR_1_1Const__SymMatrix2i64" kindref="compound">MR.Const_SymMatrix2i64</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -173,7 +173,7 @@
         <name>subAssign</name>
         <qualifiedname>MR.SymMatrix2i64.subAssign</qualifiedname>
         <param>
-          <type>MR.Const_SymMatrix2i64</type>
+          <type><ref refid="classMR_1_1Const__SymMatrix2i64" kindref="compound">MR.Const_SymMatrix2i64</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -238,6 +238,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SymMatrix2i64</label>
+        <link refid="classMR_1_1Const__SymMatrix2i64"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -259,6 +260,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SymMatrix2i64</label>
+        <link refid="classMR_1_1Const__SymMatrix2i64"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -273,15 +275,31 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix2.cs" line="861" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix2.cs" bodystart="862" bodyend="978"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1aea119a11bf62d3b704e3d7455de3ec9a" prot="protected" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>__ref_storage_xx</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1a1d18d49c69fac55cc99f49665a878052" prot="protected" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>__ref_storage_xy</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1ab33d7e578b916581de0fb23297e81319" prot="protected" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>__ref_storage_yy</name></member>
       <member refid="classMR_1_1SymMatrix2i64_1ade7e216ddc90bd1e8c68e9f951fc8f99" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>addAssign</name></member>
       <member refid="classMR_1_1SymMatrix2i64_1ad75e44c5ada473c9cee1226c81a5b208" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1a57950d0739acb09f9c75c7b4cf69c079" prot="package" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>Const_SymMatrix2i64</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1a4c27a6d0587fd0f8f827c4a1457740ac" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>Const_SymMatrix2i64</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1a227114bf01b748ea748d38fc753bc1c4" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>Const_SymMatrix2i64</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1a188b27643f81ca7abdac8cadcef2e010" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>Const_SymMatrix2i64</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1a38cc6a91a872dc1d517948ff54881aff" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>det</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1ac20eccd7d72b7e6480103e2a5d4a989c" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>diagonal</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1ab89b725422d344fe3e4dfc76e475929e" prot="protected" virt="virtual"><scope>MR::SymMatrix2i64</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1a7b48d0f4ee16ab81c76fec902649d5c5" prot="public" virt="virtual"><scope>MR::SymMatrix2i64</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SymMatrix2i64_1a4f2df34d7766c7c234123605c27ef3fa" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>divAssign</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1ae2e30c282b0f9e3659c219a5f5fb3776" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>identity</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1a8a6ea68b9f26e5654d244b88cb7bb550" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>inverse</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1af0f84e00b1602c40b45077dc85dc899d" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>inverse</name></member>
       <member refid="classMR_1_1SymMatrix2i64_1a98c2a299d6a50ffef29cc6ecea2d8ec0" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1a8fe9069ef39a79805ee475a76b43c98f" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>normSq</name></member>
       <member refid="classMR_1_1SymMatrix2i64_1ac2897d7137d604c5deee70cf4516f6f6" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>subAssign</name></member>
       <member refid="classMR_1_1SymMatrix2i64_1a1b6e09324e1f88f99d5c798f757c55cd" prot="package" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>SymMatrix2i64</name></member>
       <member refid="classMR_1_1SymMatrix2i64_1ad8ab98fe822e2a498f5cad7fc05a78dd" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>SymMatrix2i64</name></member>
       <member refid="classMR_1_1SymMatrix2i64_1a343ace80824e6297a4245928ff3a32e2" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>SymMatrix2i64</name></member>
       <member refid="classMR_1_1SymMatrix2i64_1a69285f5b3553a869d2750d9bec2d58d0" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>SymMatrix2i64</name></member>
+      <member refid="classMR_1_1Const__SymMatrix2i64_1ac7506f55a75a41d36818bee1eccc18c5" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>trace</name></member>
       <member refid="classMR_1_1SymMatrix2i64_1a49b2301fd92a5b8886897711675fd89d" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>xx</name></member>
       <member refid="classMR_1_1SymMatrix2i64_1a5a6bbd74a8926ce18ce2bf785d6653fe" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>xy</name></member>
       <member refid="classMR_1_1SymMatrix2i64_1a3fc7e844665a8c4feaf15271ee4ce3f3" prot="public" virt="non-virtual"><scope>MR::SymMatrix2i64</scope><name>yy</name></member>

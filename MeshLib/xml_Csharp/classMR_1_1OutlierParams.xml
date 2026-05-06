@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OutlierParams" kind="class" language="C#" prot="public">
     <compoundname>MR::OutlierParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_OutlierParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__OutlierParams" prot="public" virt="non-virtual">MR.Const_OutlierParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1OutlierParams_1af3184d787d43b01c1d66c9e651d211e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -146,7 +146,7 @@
         <name>OutlierParams</name>
         <qualifiedname>MR.OutlierParams.OutlierParams</qualifiedname>
         <param>
-          <type>MR.Const_OutlierParams</type>
+          <type><ref refid="classMR_1_1Const__OutlierParams" kindref="compound">MR.Const_OutlierParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -184,7 +184,7 @@
         <name>assign</name>
         <qualifiedname>MR.OutlierParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_OutlierParams</type>
+          <type><ref refid="classMR_1_1Const__OutlierParams" kindref="compound">MR.Const_OutlierParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -211,6 +211,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OutlierParams</label>
+        <link refid="classMR_1_1Const__OutlierParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -232,6 +233,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OutlierParams</label>
+        <link refid="classMR_1_1Const__OutlierParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -246,7 +248,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="136" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="137" bodyend="218"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__OutlierParams_1a69c17e012979e82ef03fddaad277f2ab" prot="protected" virt="non-virtual"><scope>MR::OutlierParams</scope><name>__ref_storage_maxClusterSize</name></member>
+      <member refid="classMR_1_1Const__OutlierParams_1ae5591e79fdc875b8a1891e642adcfe01" prot="protected" virt="non-virtual"><scope>MR::OutlierParams</scope><name>__ref_storage_maxNeighbors</name></member>
+      <member refid="classMR_1_1Const__OutlierParams_1aae310267ff976d9140508f149b1c2f12" prot="protected" virt="non-virtual"><scope>MR::OutlierParams</scope><name>__ref_storage_minAngle</name></member>
+      <member refid="classMR_1_1Const__OutlierParams_1a5cd8ef71c831d5cedf46edd8d6b3f9ee" prot="protected" virt="non-virtual"><scope>MR::OutlierParams</scope><name>__ref_storage_minHeight</name></member>
       <member refid="classMR_1_1OutlierParams_1a86138f4dc1b87d05a1a1daffc883047d" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__OutlierParams_1a6779cc2c0ba29bc6bb12f788dc4c586f" prot="package" virt="non-virtual"><scope>MR::OutlierParams</scope><name>Const_OutlierParams</name></member>
+      <member refid="classMR_1_1Const__OutlierParams_1a0848b16ef611b7d849f9bc6644746105" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>Const_OutlierParams</name></member>
+      <member refid="classMR_1_1Const__OutlierParams_1a320a13374af14b9c5c5e3cb0129da012" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>Const_OutlierParams</name></member>
+      <member refid="classMR_1_1Const__OutlierParams_1a4303bd278b3e210fa2323e329281419e" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>Const_OutlierParams</name></member>
+      <member refid="classMR_1_1Const__OutlierParams_1a9c54dbeae4de9febc8849fba26319342" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>Const_OutlierParams</name></member>
+      <member refid="classMR_1_1Const__OutlierParams_1aa1ed51bc7ea5810e6d14c681d233a7cd" prot="protected" virt="virtual"><scope>MR::OutlierParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OutlierParams_1ab6a735d473440b677bb371caaed68c83" prot="public" virt="virtual"><scope>MR::OutlierParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1OutlierParams_1af3184d787d43b01c1d66c9e651d211e6" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>maxClusterSize</name></member>
       <member refid="classMR_1_1OutlierParams_1a7bfa46ba4f09ac1665aac522898cb2b1" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>maxNeighbors</name></member>
       <member refid="classMR_1_1OutlierParams_1a33cfa2f0281c160bd0772363dee0e787" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>minAngle</name></member>

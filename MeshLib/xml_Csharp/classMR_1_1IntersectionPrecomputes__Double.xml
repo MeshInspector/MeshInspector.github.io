@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IntersectionPrecomputes__Double" kind="class" language="C#" prot="public">
     <compoundname>MR::IntersectionPrecomputes_Double</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IntersectionPrecomputes_Double</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IntersectionPrecomputes__Double" prot="public" virt="non-virtual">MR.Const_IntersectionPrecomputes_Double</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1IntersectionPrecomputes__Double_1aa9974434496c24e4aa27115d2fbe7aa2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -168,11 +168,11 @@
         <name>IntersectionPrecomputes_Double</name>
         <qualifiedname>MR.IntersectionPrecomputes_Double.IntersectionPrecomputes_Double</qualifiedname>
         <param>
-          <type>MR.Const_IntersectionPrecomputes_Double</type>
+          <type><ref refid="classMR_1_1Const__IntersectionPrecomputes__Double" kindref="compound">MR.Const_IntersectionPrecomputes_Double</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes&amp;amp;lt;double&amp;amp;gt;::IntersectionPrecomputes</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes&amp;lt;double&amp;gt;::IntersectionPrecomputes</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -191,7 +191,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes&amp;amp;lt;double&amp;amp;gt;::IntersectionPrecomputes</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes&amp;lt;double&amp;gt;::IntersectionPrecomputes</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -210,7 +210,7 @@
           <declname>dir</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes&amp;amp;lt;double&amp;amp;gt;::IntersectionPrecomputes</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes&amp;lt;double&amp;gt;::IntersectionPrecomputes</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -225,11 +225,11 @@
         <name>assign</name>
         <qualifiedname>MR.IntersectionPrecomputes_Double.assign</qualifiedname>
         <param>
-          <type>MR.Const_IntersectionPrecomputes_Double</type>
+          <type><ref refid="classMR_1_1Const__IntersectionPrecomputes__Double" kindref="compound">MR.Const_IntersectionPrecomputes_Double</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::IntersectionPrecomputes&amp;amp;lt;double&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::IntersectionPrecomputes&amp;lt;double&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -250,7 +250,7 @@
           <declname>dir</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes&amp;amp;lt;double&amp;amp;gt;::IntersectionPrecomputes</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes&amp;lt;double&amp;gt;::IntersectionPrecomputes</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -263,7 +263,7 @@
 <para>stores useful precomputed values for presented direction vector </para>
     </briefdescription>
     <detaileddescription>
-<para>allows to avoid repeatable computations during intersection finding Generated from class <computeroutput>MR::IntersectionPrecomputes&amp;amp;lt;double&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>allows to avoid repeatable computations during intersection finding Generated from class <computeroutput>MR::IntersectionPrecomputes&amp;lt;double&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -274,6 +274,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IntersectionPrecomputes_Double</label>
+        <link refid="classMR_1_1Const__IntersectionPrecomputes__Double"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -287,6 +288,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.IntersectionPrecomputes_Double</label>
         <link refid="classMR_1_1IntersectionPrecomputes__Double"/>
@@ -295,9 +300,14 @@
       </node>
       <node id="2">
         <label>MR.Const_IntersectionPrecomputes_Double</label>
+        <link refid="classMR_1_1Const__IntersectionPrecomputes__Double"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_invDir</edgelabel>
+          <edgelabel>__ref_storage_sign</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -309,7 +319,22 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="506" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="507" bodyend="606"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a23107a2843d07f6a107f2678e20adada" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>__ref_storage_idxX</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1ac968620ab9d0a6f8802512fcd2d9c68f" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>__ref_storage_idxY</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1afa9cb109f2c1af3a0f145b9932d30600" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>__ref_storage_invDir</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a93d77836a5bcda51c17a80bcd59be857" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>__ref_storage_maxDimIdxZ</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1abcfcd5529bcd1ad7e3bbd7d0f921c58f" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>__ref_storage_sign</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a6f6ac22417e0a3f213e19ba473d80412" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>__ref_storage_sx</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a909770707fd7102c49af48547648d1ac" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>__ref_storage_sy</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1aaecf0b8ef35db5480c00f8b2f9aa34e2" prot="protected" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>__ref_storage_sz</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Double_1ad228c15c36f03f484e7ee2a165e5bdf9" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a837eccd6f8ce2407372b9a78c1925828" prot="package" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>Const_IntersectionPrecomputes_Double</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a7a78b8bb982eaf5a09ce50fdc39e3ac7" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>Const_IntersectionPrecomputes_Double</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1ab60e24a750eb1df640cb1e76ed131948" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>Const_IntersectionPrecomputes_Double</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1aa5e23b9a9c8dc7bd4e533cd5d405ff23" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>Const_IntersectionPrecomputes_Double</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a2219e7063220613f38fb8a5120693911" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>Const_IntersectionPrecomputes_Double</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a39d18a0b2bb66fec135bd5df02ca05d1" prot="protected" virt="virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1a487d8aaf20155ba44ebef33e2dfb8a8f" prot="public" virt="virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Double_1ac5ba0b8df07a6e7e3b49ab40ecf1c082" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>idxX</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Double_1a5cba56b9813938f718ec7cd9b945d8ca" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>idxY</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Double_1ace199e9d5517414cba784167f491f164" prot="package" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>IntersectionPrecomputes_Double</name></member>
@@ -319,6 +344,7 @@
       <member refid="classMR_1_1IntersectionPrecomputes__Double_1aa82e509a05fb022cf03f702f6c1135eb" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>IntersectionPrecomputes_Double</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Double_1aa9974434496c24e4aa27115d2fbe7aa2" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>invDir</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Double_1a34eae8048c5fc73278a113e8dc500b1a" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>maxDimIdxZ</name></member>
+      <member refid="classMR_1_1Const__IntersectionPrecomputes__Double_1ab5085fd0cb3e2f7a8c2b3f97e0dbc4fa" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>operator Const_IntersectionPrecomputes_Double</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Double_1a164a0fd4b1d8d51fe2bd2b6bc26edaec" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>operator IntersectionPrecomputes_Double</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Double_1aacb1ee3c620b5417388814c2739fcdd7" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>sign</name></member>
       <member refid="classMR_1_1IntersectionPrecomputes__Double_1ad09086857b15bbeb7d423d0770ce9a03" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>sx</name></member>

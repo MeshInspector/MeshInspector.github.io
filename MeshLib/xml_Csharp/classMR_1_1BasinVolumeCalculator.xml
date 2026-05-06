@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BasinVolumeCalculator" kind="class" language="C#" prot="public">
     <compoundname>MR::BasinVolumeCalculator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BasinVolumeCalculator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BasinVolumeCalculator" prot="public" virt="non-virtual">MR.Const_BasinVolumeCalculator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1BasinVolumeCalculator_1a127efedf5d6a3e9d7c57106db193ddba" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>BasinVolumeCalculator</name>
         <qualifiedname>MR.BasinVolumeCalculator.BasinVolumeCalculator</qualifiedname>
         <param>
-          <type>MR.Const_BasinVolumeCalculator</type>
+          <type><ref refid="classMR_1_1Const__BasinVolumeCalculator" kindref="compound">MR.Const_BasinVolumeCalculator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.BasinVolumeCalculator.assign</qualifiedname>
         <param>
-          <type>MR.Const_BasinVolumeCalculator</type>
+          <type><ref refid="classMR_1_1Const__BasinVolumeCalculator" kindref="compound">MR.Const_BasinVolumeCalculator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,6 +141,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BasinVolumeCalculator</label>
+        <link refid="classMR_1_1Const__BasinVolumeCalculator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -162,6 +163,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BasinVolumeCalculator</label>
+        <link refid="classMR_1_1Const__BasinVolumeCalculator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -182,6 +184,13 @@
       <member refid="classMR_1_1BasinVolumeCalculator_1a8d77f30c1f6ea3c71ef7a3e6de27bcd6" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>BasinVolumeCalculator</name></member>
       <member refid="classMR_1_1BasinVolumeCalculator_1a041a9bdbcb4dffe144abcdc5f8ac4959" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>BasinVolumeCalculator</name></member>
       <member refid="classMR_1_1BasinVolumeCalculator_1ae9131c762d09dc9659c4991a05192901" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>BasinVolumeCalculator</name></member>
+      <member refid="classMR_1_1Const__BasinVolumeCalculator_1add9dd80bdf81580d2b966269d7b587bb" prot="package" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>Const_BasinVolumeCalculator</name></member>
+      <member refid="classMR_1_1Const__BasinVolumeCalculator_1a287c31c46f4b1a08327ad0d53da78752" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>Const_BasinVolumeCalculator</name></member>
+      <member refid="classMR_1_1Const__BasinVolumeCalculator_1a8861e560bb9af2e90cf668ef6c993e3d" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>Const_BasinVolumeCalculator</name></member>
+      <member refid="classMR_1_1Const__BasinVolumeCalculator_1a69fecfa89a4b6c80ef0c68b9956037bc" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>Const_BasinVolumeCalculator</name></member>
+      <member refid="classMR_1_1Const__BasinVolumeCalculator_1acfc0a4a77c44fcb7d1db1e000d34a02d" prot="protected" virt="virtual"><scope>MR::BasinVolumeCalculator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BasinVolumeCalculator_1a78761e20579d59ce37424c20e08def74" prot="public" virt="virtual"><scope>MR::BasinVolumeCalculator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BasinVolumeCalculator_1a664f5f42773f98fc01074c7c7417b250" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>getVolume</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

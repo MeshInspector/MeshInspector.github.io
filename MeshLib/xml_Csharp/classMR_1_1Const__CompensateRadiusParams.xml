@@ -1,0 +1,503 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__CompensateRadiusParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_CompensateRadiusParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1CompensateRadiusParams" prot="public" virt="non-virtual">MR.CompensateRadiusParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__CompensateRadiusParams_1a18392c6249e351169b3d9a56428d861d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Const_CompensateRadiusParams.direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.direction</qualifiedname>
+        <briefdescription>
+<para>Z direction of milling tool. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="29" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__CompensateRadiusParams_1ac547d0bcb1a70b9cc935db362c1410b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_CompensateRadiusParams.toolRadius</definition>
+        <argsstring></argsstring>
+        <name>toolRadius</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.toolRadius</qualifiedname>
+        <briefdescription>
+<para>radius of spherical tool </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="35" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__CompensateRadiusParams_1adb4fb2b5e5ec83d6bb13577ffef1d0a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">Const_FaceBitSet</ref></type>
+        <definition>unsafe MR.? Const_FaceBitSet MR.Const_CompensateRadiusParams.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.region</qualifiedname>
+        <briefdescription>
+<para>region of the mesh that will be compensated it should not contain closed components also please note that boundaries of the region are fixed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="43" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="44" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__CompensateRadiusParams_1a6464faf35f250c2e7cfc077945ba3f93" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_CompensateRadiusParams.maxIterations</definition>
+        <argsstring></argsstring>
+        <name>maxIterations</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.maxIterations</qualifiedname>
+        <briefdescription>
+<para>maximum iteration of applying algorithm (each iteration improves result a little bit) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="61" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__CompensateRadiusParams_1a9e5418e3f46dd612932c8b35cafa1e2a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_CompensateRadiusParams.relaxExpansion</definition>
+        <argsstring></argsstring>
+        <name>relaxExpansion</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.relaxExpansion</qualifiedname>
+        <briefdescription>
+<para>how many hops to expand around each moved vertex for relaxation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="67" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__CompensateRadiusParams_1a81dc16103b0b02441c22a04e96e4521c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_CompensateRadiusParams.relaxIterations</definition>
+        <argsstring></argsstring>
+        <name>relaxIterations</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.relaxIterations</qualifiedname>
+        <briefdescription>
+<para>how many iterations of relax is applied on each compensation iteration </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="73" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__CompensateRadiusParams_1a47c6a55b99a88c59da52ba6e2443f77d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_CompensateRadiusParams.relaxForce</definition>
+        <argsstring></argsstring>
+        <name>relaxForce</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.relaxForce</qualifiedname>
+        <briefdescription>
+<para>force of relaxations on each compensation iteration </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="79" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__CompensateRadiusParams_1ae085f306078caa9a0e3a0219fb465e90" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_CompensateRadiusParams.callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.callback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="82" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="82" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__CompensateRadiusParams_1a8cdff6cd996e2a3d3fb8afdf87bf6dce" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Const_CompensateRadiusParams.__ref_storage_direction</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_direction</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.__ref_storage_direction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="30" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__CompensateRadiusParams_1a842a1015008ec603407063cb03348f02" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_CompensateRadiusParams.__ref_storage_toolRadius</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_toolRadius</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.__ref_storage_toolRadius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="36" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__CompensateRadiusParams_1ae76a7f9082a88102fec6912df7bdb6fc" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_FaceBitSet._Underlying **</type>
+        <definition>unsafe MR.Const_FaceBitSet._Underlying** MR.Const_CompensateRadiusParams.__ptr_storage_region</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_region</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.__ptr_storage_region</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="56" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__CompensateRadiusParams_1aa64074c3b3ca0c7ba6d122ba04e5e264" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_CompensateRadiusParams.__ref_storage_maxIterations</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxIterations</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.__ref_storage_maxIterations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="62" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__CompensateRadiusParams_1ae91db763140700091cb16cdac1fdf3a1" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_CompensateRadiusParams.__ref_storage_relaxExpansion</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_relaxExpansion</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.__ref_storage_relaxExpansion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="68" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__CompensateRadiusParams_1acecaecd4a7512a1e1bb7d0aa5c150045" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_CompensateRadiusParams.__ref_storage_relaxIterations</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_relaxIterations</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.__ref_storage_relaxIterations</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="74" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__CompensateRadiusParams_1abede6e59c0f01bd4f7633096109d7c60" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_CompensateRadiusParams.__ref_storage_relaxForce</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_relaxForce</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.__ref_storage_relaxForce</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="80" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__CompensateRadiusParams_1a27f471d45074e785692176c352f0d8c1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_CompensateRadiusParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__CompensateRadiusParams_1a263e6819734a8d033d4a505e748a4dcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_CompensateRadiusParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CompensateRadiusParams_1a8e7e94354c3ae7bc832b170825f9c1b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CompensateRadiusParams.Const_CompensateRadiusParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_CompensateRadiusParams</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.Const_CompensateRadiusParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="152" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="152" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CompensateRadiusParams_1a0436d2fd006dc64a3c46e33248d942bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CompensateRadiusParams.Const_CompensateRadiusParams</definition>
+        <argsstring>(MR.Vector3f direction, float toolRadius, MR.Const_FaceBitSet? region, int maxIterations, int relaxExpansion, int relaxIterations, float relaxForce, MR.Std._ByValue_Function_Bool_From_Float callback)</argsstring>
+        <name>Const_CompensateRadiusParams</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.Const_CompensateRadiusParams</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>toolRadius</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref>?</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIterations</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>relaxExpansion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>relaxIterations</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>relaxForce</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1CompensateRadiusParams" kindref="compound">MR.CompensateRadiusParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="163" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="163" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CompensateRadiusParams_1ad5dfa84c13c8e6aef1bfa9a3eab8e063" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CompensateRadiusParams.Const_CompensateRadiusParams</definition>
+        <argsstring>(MR._ByValue_CompensateRadiusParams _other)</argsstring>
+        <name>Const_CompensateRadiusParams</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.Const_CompensateRadiusParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_CompensateRadiusParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CompensateRadiusParams_1a86a2bee9ea24a84cbd6d37b4a4abc9d6" kindref="member">MR.CompensateRadiusParams.CompensateRadiusParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="176" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="176" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CompensateRadiusParams_1a52049d21f27ac5af0e297c29544bf4bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_CompensateRadiusParams.Const_CompensateRadiusParams</definition>
+        <argsstring>(Const_CompensateRadiusParams _other)</argsstring>
+        <name>Const_CompensateRadiusParams</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.Const_CompensateRadiusParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__CompensateRadiusParams" kindref="compound">Const_CompensateRadiusParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CompensateRadiusParams_1a86a2bee9ea24a84cbd6d37b4a4abc9d6" kindref="member">MR.CompensateRadiusParams.CompensateRadiusParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="188" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="188" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__CompensateRadiusParams_1a43e9c403af0fc99fc6807d6efdca4513" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_CompensateRadiusParams.Const_CompensateRadiusParams</definition>
+        <argsstring>(CompensateRadiusParams _other)</argsstring>
+        <name>Const_CompensateRadiusParams</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.Const_CompensateRadiusParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CompensateRadiusParams" kindref="compound">CompensateRadiusParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1CompensateRadiusParams_1a86a2bee9ea24a84cbd6d37b4a4abc9d6" kindref="member">MR.CompensateRadiusParams.CompensateRadiusParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="193" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="193" bodyend="193"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__CompensateRadiusParams_1a189c1a98244520591f6bf4498aa7987d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_CompensateRadiusParams.~Const_CompensateRadiusParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_CompensateRadiusParams</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.~Const_CompensateRadiusParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__CompensateRadiusParams_1a28310abc33ce332c65eaa221927ffbd1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_CompensateRadiusParams.Const_CompensateRadiusParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_CompensateRadiusParams</name>
+        <qualifiedname>MR.Const_CompensateRadiusParams.Const_CompensateRadiusParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="141" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="141" bodyend="146"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>structure with parameters for <computeroutput>compensateRadius</computeroutput> function Generated from class <computeroutput><ref refid="classMR_1_1CompensateRadiusParams" kindref="compound">MR.CompensateRadiusParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_CompensateRadiusParams</label>
+        <link refid="classMR_1_1Const__CompensateRadiusParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.CompensateRadiusParams</label>
+        <link refid="classMR_1_1CompensateRadiusParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_CompensateRadiusParams</label>
+        <link refid="classMR_1_1Const__CompensateRadiusParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ref_storage_direction</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRadiusCompensation.cs" bodystart="9" bodyend="194"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1ae76a7f9082a88102fec6912df7bdb6fc" prot="protected" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a8cdff6cd996e2a3d3fb8afdf87bf6dce" prot="protected" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>__ref_storage_direction</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1aa64074c3b3ca0c7ba6d122ba04e5e264" prot="protected" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>__ref_storage_maxIterations</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1ae91db763140700091cb16cdac1fdf3a1" prot="protected" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>__ref_storage_relaxExpansion</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1abede6e59c0f01bd4f7633096109d7c60" prot="protected" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>__ref_storage_relaxForce</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1acecaecd4a7512a1e1bb7d0aa5c150045" prot="protected" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>__ref_storage_relaxIterations</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a842a1015008ec603407063cb03348f02" prot="protected" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>__ref_storage_toolRadius</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1ae085f306078caa9a0e3a0219fb465e90" prot="public" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>callback</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a28310abc33ce332c65eaa221927ffbd1" prot="package" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>Const_CompensateRadiusParams</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a8e7e94354c3ae7bc832b170825f9c1b5" prot="public" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>Const_CompensateRadiusParams</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a0436d2fd006dc64a3c46e33248d942bc" prot="public" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>Const_CompensateRadiusParams</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1ad5dfa84c13c8e6aef1bfa9a3eab8e063" prot="public" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>Const_CompensateRadiusParams</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a52049d21f27ac5af0e297c29544bf4bd" prot="public" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>Const_CompensateRadiusParams</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a43e9c403af0fc99fc6807d6efdca4513" prot="public" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>Const_CompensateRadiusParams</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a18392c6249e351169b3d9a56428d861d" prot="public" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>direction</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a27f471d45074e785692176c352f0d8c1" prot="protected" virt="virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a263e6819734a8d033d4a505e748a4dcf" prot="public" virt="virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a6464faf35f250c2e7cfc077945ba3f93" prot="public" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>maxIterations</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1adb4fb2b5e5ec83d6bb13577ffef1d0a8" prot="public" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>region</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a9e5418e3f46dd612932c8b35cafa1e2a" prot="public" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>relaxExpansion</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a47c6a55b99a88c59da52ba6e2443f77d" prot="public" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>relaxForce</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a81dc16103b0b02441c22a04e96e4521c" prot="public" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>relaxIterations</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1ac547d0bcb1a70b9cc935db362c1410b1" prot="public" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>toolRadius</name></member>
+      <member refid="classMR_1_1Const__CompensateRadiusParams_1a189c1a98244520591f6bf4498aa7987d" prot="private" virt="non-virtual"><scope>MR::Const_CompensateRadiusParams</scope><name>~Const_CompensateRadiusParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

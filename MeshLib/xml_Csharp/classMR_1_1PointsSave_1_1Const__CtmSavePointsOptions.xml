@@ -1,0 +1,621 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions" kind="class" language="C#" prot="public">
+    <compoundname>MR::PointsSave::Const_CtmSavePointsOptions</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions" prot="public" virt="non-virtual">MR.PointsSave.CtmSavePointsOptions</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1aa972689c9367e4d850656f9810c06fbd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.PointsSave.Const_CtmSavePointsOptions.compressionLevel</definition>
+        <argsstring></argsstring>
+        <name>compressionLevel</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.compressionLevel</qualifiedname>
+        <briefdescription>
+<para>0 - minimal compression, but fast; 9 - maximal compression, but slow </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="719" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a23cd7c0114f5f841945a9a0a56f5280d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Misc.? Const_Box&lt; byte &gt;</type>
+        <definition>unsafe MR.Misc.? Const_Box&lt;byte&gt; MR.PointsSave.Const_CtmSavePointsOptions.comment</definition>
+        <argsstring></argsstring>
+        <name>comment</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.comment</qualifiedname>
+        <briefdescription>
+<para>comment saved in the file </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="725" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="726" bodyend="737"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a8edf9d9a8f1cd3e95cd520eaa66d54e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PointsSave.Const_CtmSavePointsOptions.onlyValidPoints</definition>
+        <argsstring></argsstring>
+        <name>onlyValidPoints</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.onlyValidPoints</qualifiedname>
+        <briefdescription>
+<para>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="744" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="744" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1adf92714d80f94a97cc1390afc1152438" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PointsSave.Const_CtmSavePointsOptions.packPrimitives</definition>
+        <argsstring></argsstring>
+        <name>packPrimitives</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.packPrimitives</qualifiedname>
+        <briefdescription>
+<para>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="754" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="754" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a82a2c56caf3b7db4aec562fe2247bf0e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertColors" kindref="compound">Const_VertColors</ref></type>
+        <definition>unsafe MR.? Const_VertColors MR.PointsSave.Const_CtmSavePointsOptions.colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.colors</qualifiedname>
+        <briefdescription>
+<para>optional per-vertex color to save with the geometry </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="760" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="761" bodyend="772"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a4d6680bb816f2c618cfd58fc6d29c4cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Std.? Const_Vector_MRColor</type>
+        <definition>unsafe MR.Std.? Const_Vector_MRColor MR.PointsSave.Const_CtmSavePointsOptions.primitiveColors</definition>
+        <argsstring></argsstring>
+        <name>primitiveColors</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.primitiveColors</qualifiedname>
+        <briefdescription>
+<para>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="778" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="779" bodyend="790"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a265d6499c8efb36484866e57f81bde58" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertCoords2" kindref="compound">Const_VertCoords2</ref></type>
+        <definition>unsafe MR.? Const_VertCoords2 MR.PointsSave.Const_CtmSavePointsOptions.uvMap</definition>
+        <argsstring></argsstring>
+        <name>uvMap</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.uvMap</qualifiedname>
+        <briefdescription>
+<para>optional per-vertex uv coordinate to save with the geometry </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="796" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="797" bodyend="808"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1ab14e8a87d6045f9d76eef35030516e29" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PointsSave.Const_CtmSavePointsOptions.saveTriCornerUVCoords</definition>
+        <argsstring></argsstring>
+        <name>saveTriCornerUVCoords</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.saveTriCornerUVCoords</qualifiedname>
+        <briefdescription>
+<para>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="815" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="815" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1ab71a9b406d184f31efd20e4be1c154d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__MeshTexture" kindref="compound">Const_MeshTexture</ref></type>
+        <definition>unsafe MR.? Const_MeshTexture MR.PointsSave.Const_CtmSavePointsOptions.texture</definition>
+        <argsstring></argsstring>
+        <name>texture</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.texture</qualifiedname>
+        <briefdescription>
+<para>optional texture to save with the geometry </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="821" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="822" bodyend="833"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a1d5f711cabfa169570c05c9e35345c9e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.PointsSave.Const_CtmSavePointsOptions.materialName</definition>
+        <argsstring></argsstring>
+        <name>materialName</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.materialName</qualifiedname>
+        <briefdescription>
+<para>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="839" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="839" bodyend="839"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1abacc88695cc5dd73f34084eca3ed6366" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3d" kindref="compound">ConstBox_AffineXf3d</ref></type>
+        <definition>unsafe MR.? ConstBox_AffineXf3d MR.PointsSave.Const_CtmSavePointsOptions.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.xf</qualifiedname>
+        <briefdescription>
+<para>this transformation can optionally be applied to all vertices (points) of saved object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="844" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="845" bodyend="856"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a5cc70544dcce42f608a4914566624f40" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Optional_MRLengthUnit</type>
+        <definition>unsafe MR.Std.Const_Optional_MRLengthUnit MR.PointsSave.Const_CtmSavePointsOptions.lengthUnit</definition>
+        <argsstring></argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.lengthUnit</qualifiedname>
+        <briefdescription>
+<para>units of input coordinates and transformation, to be serialized if the format supports it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="862" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="862" bodyend="862"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a1637397189664c5feef48669988cf567" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Optional_MRColor</type>
+        <definition>unsafe MR.Std.Const_Optional_MRColor MR.PointsSave.Const_CtmSavePointsOptions.solidColor</definition>
+        <argsstring></argsstring>
+        <name>solidColor</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.solidColor</qualifiedname>
+        <briefdescription>
+<para>the color of whole object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="867" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="867" bodyend="867"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1af74844506f8ebdae4b43f637280f0c8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.PointsSave.Const_CtmSavePointsOptions.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.progress</qualifiedname>
+        <briefdescription>
+<para>to report save progress and cancel saving if user desires </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="872" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="872" bodyend="872"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a645260c4dffbef9d45fddb6e4e8a6702" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.PointsSave.Const_CtmSavePointsOptions.__ref_storage_compressionLevel</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_compressionLevel</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.__ref_storage_compressionLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="720" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="720" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a275e9b2b5055b8a83bdbe4c0d58ae8f5" prot="protected" static="no" mutable="no">
+        <type>unsafe byte **</type>
+        <definition>unsafe byte** MR.PointsSave.Const_CtmSavePointsOptions.__ptr_storage_comment</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_comment</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.__ptr_storage_comment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="738" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="738" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a96c16c14629774a1924a6ea47d8cb224" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.PointsSave.Const_CtmSavePointsOptions.__ref_storage_onlyValidPoints</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_onlyValidPoints</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.__ref_storage_onlyValidPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="745" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="745" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a4f7fbc790f8dbce105c8cd1807afa84f" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.PointsSave.Const_CtmSavePointsOptions.__ref_storage_packPrimitives</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_packPrimitives</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.__ref_storage_packPrimitives</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="755" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="755" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1acb6beca1e3ab0d4ef2049c386019a51b" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertColors._Underlying **</type>
+        <definition>unsafe MR.Const_VertColors._Underlying** MR.PointsSave.Const_CtmSavePointsOptions.__ptr_storage_colors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_colors</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.__ptr_storage_colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="773" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="773" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1aeed7f2f23f3fac98a7add33651f416a4" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Std.Const_Vector_MRColor._Underlying **</type>
+        <definition>unsafe MR.Std.Const_Vector_MRColor._Underlying** MR.PointsSave.Const_CtmSavePointsOptions.__ptr_storage_primitiveColors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_primitiveColors</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.__ptr_storage_primitiveColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="791" column="75" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="791" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a1e29882192b70c47969da1ccaf8372ef" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertCoords2._Underlying **</type>
+        <definition>unsafe MR.Const_VertCoords2._Underlying** MR.PointsSave.Const_CtmSavePointsOptions.__ptr_storage_uvMap</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_uvMap</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.__ptr_storage_uvMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="809" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="809" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a194eb64710df766f8b8480327ec33d6a" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.PointsSave.Const_CtmSavePointsOptions.__ref_storage_saveTriCornerUVCoords</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_saveTriCornerUVCoords</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.__ref_storage_saveTriCornerUVCoords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="816" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="816" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a491b54dd89edb61941fe64679b305369" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_MeshTexture._Underlying **</type>
+        <definition>unsafe MR.Const_MeshTexture._Underlying** MR.PointsSave.Const_CtmSavePointsOptions.__ptr_storage_texture</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_texture</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.__ptr_storage_texture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="834" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="834" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a4c45804986d65dd6a8218e2051e1005a" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.ConstBox_AffineXf3d._Underlying **</type>
+        <definition>unsafe MR.ConstBox_AffineXf3d._Underlying** MR.PointsSave.Const_CtmSavePointsOptions.__ptr_storage_xf</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_xf</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.__ptr_storage_xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="857" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="857" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a3defe6c34796914d95f02ac37b01bd6d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.PointsSave.Const_CtmSavePointsOptions.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="694" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="694" bodyend="702"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1aac7fa9077c8fb30c1b0366094d75022c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.PointsSave.Const_CtmSavePointsOptions.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="703" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="703" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a2087714eb68ddd99ccf8a221a98427ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsSave.Const_CtmSavePointsOptions.Const_CtmSavePointsOptions</definition>
+        <argsstring>()</argsstring>
+        <name>Const_CtmSavePointsOptions</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.Const_CtmSavePointsOptions</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="981" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="981" bodyend="987"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a1235822151a819d05a5720b08866dee6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsSave.Const_CtmSavePointsOptions.Const_CtmSavePointsOptions</definition>
+        <argsstring>(MR.PointsSave._ByValue_CtmSavePointsOptions _other)</argsstring>
+        <name>Const_CtmSavePointsOptions</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.Const_CtmSavePointsOptions</qualifiedname>
+        <param>
+          <type>MR.PointsSave._ByValue_CtmSavePointsOptions</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions_1ab30a942d4c29425a35bc9f5a1e2d3d15" kindref="member">MR.PointsSave.CtmSavePointsOptions.CtmSavePointsOptions</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="992" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="992" bodyend="999"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1ad7eacfce73a5e376b210bbf1057b5424" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointsSave.Const_CtmSavePointsOptions.Const_CtmSavePointsOptions</definition>
+        <argsstring>(Const_CtmSavePointsOptions _other)</argsstring>
+        <name>Const_CtmSavePointsOptions</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.Const_CtmSavePointsOptions</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions" kindref="compound">Const_CtmSavePointsOptions</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions_1ab30a942d4c29425a35bc9f5a1e2d3d15" kindref="member">MR.PointsSave.CtmSavePointsOptions.CtmSavePointsOptions</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1004" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1004" bodyend="1004"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1aba7517c2316b297697c870ac4be96888" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointsSave.Const_CtmSavePointsOptions.Const_CtmSavePointsOptions</definition>
+        <argsstring>(CtmSavePointsOptions _other)</argsstring>
+        <name>Const_CtmSavePointsOptions</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.Const_CtmSavePointsOptions</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions" kindref="compound">CtmSavePointsOptions</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions_1ab30a942d4c29425a35bc9f5a1e2d3d15" kindref="member">MR.PointsSave.CtmSavePointsOptions.CtmSavePointsOptions</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="1009" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="1009" bodyend="1009"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a2054e665addbb9cdb45330fae61b1fd5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointsSave.Const_CtmSavePointsOptions.~Const_CtmSavePointsOptions</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_CtmSavePointsOptions</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.~Const_CtmSavePointsOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="704" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="704" bodyend="704"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1adaedeaf09ab7faeb3632707257fb31d6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PointsSave.Const_CtmSavePointsOptions.operator MR.Const_SaveSettings</definition>
+        <argsstring>(Const_CtmSavePointsOptions self)</argsstring>
+        <name>operator MR.Const_SaveSettings</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.operator MR.Const_SaveSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions" kindref="compound">Const_CtmSavePointsOptions</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="707" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="707" bodyend="714"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1aa79fda965ac3ec9aa53230624d773118" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsSave.Const_CtmSavePointsOptions.Const_CtmSavePointsOptions</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_CtmSavePointsOptions</name>
+        <qualifiedname>MR.PointsSave.Const_CtmSavePointsOptions.Const_CtmSavePointsOptions</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="970" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="970" bodyend="975"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions" kindref="compound">MR.PointsSave.CtmSavePointsOptions</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1SaveSettings" kindref="compound">MR.SaveSettings</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.PointsSave.Const_CtmSavePointsOptions</label>
+        <link refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PointsSave.CtmSavePointsOptions</label>
+        <link refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.PointsSave.Const_CtmSavePointsOptions</label>
+        <link refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_colors</edgelabel>
+          <edgelabel>__ptr_storage_primitiveColors</edgelabel>
+          <edgelabel>__ptr_storage_texture</edgelabel>
+          <edgelabel>__ptr_storage_uvMap</edgelabel>
+          <edgelabel>__ptr_storage_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" line="688" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRCtm.cs" bodystart="689" bodyend="1010"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1acb6beca1e3ab0d4ef2049c386019a51b" prot="protected" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>__ptr_storage_colors</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a275e9b2b5055b8a83bdbe4c0d58ae8f5" prot="protected" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>__ptr_storage_comment</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1aeed7f2f23f3fac98a7add33651f416a4" prot="protected" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>__ptr_storage_primitiveColors</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a491b54dd89edb61941fe64679b305369" prot="protected" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>__ptr_storage_texture</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a1e29882192b70c47969da1ccaf8372ef" prot="protected" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>__ptr_storage_uvMap</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a4c45804986d65dd6a8218e2051e1005a" prot="protected" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a645260c4dffbef9d45fddb6e4e8a6702" prot="protected" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>__ref_storage_compressionLevel</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a96c16c14629774a1924a6ea47d8cb224" prot="protected" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>__ref_storage_onlyValidPoints</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a4f7fbc790f8dbce105c8cd1807afa84f" prot="protected" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>__ref_storage_packPrimitives</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a194eb64710df766f8b8480327ec33d6a" prot="protected" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>__ref_storage_saveTriCornerUVCoords</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a82a2c56caf3b7db4aec562fe2247bf0e" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>colors</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a23cd7c0114f5f841945a9a0a56f5280d" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>comment</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1aa972689c9367e4d850656f9810c06fbd" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>compressionLevel</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1aa79fda965ac3ec9aa53230624d773118" prot="package" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>Const_CtmSavePointsOptions</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a2087714eb68ddd99ccf8a221a98427ac" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>Const_CtmSavePointsOptions</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a1235822151a819d05a5720b08866dee6" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>Const_CtmSavePointsOptions</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1ad7eacfce73a5e376b210bbf1057b5424" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>Const_CtmSavePointsOptions</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1aba7517c2316b297697c870ac4be96888" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>Const_CtmSavePointsOptions</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a3defe6c34796914d95f02ac37b01bd6d" prot="protected" virt="virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1aac7fa9077c8fb30c1b0366094d75022c" prot="public" virt="virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a5cc70544dcce42f608a4914566624f40" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>lengthUnit</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a1d5f711cabfa169570c05c9e35345c9e" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>materialName</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a8edf9d9a8f1cd3e95cd520eaa66d54e2" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>onlyValidPoints</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1adaedeaf09ab7faeb3632707257fb31d6" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>operator MR.Const_SaveSettings</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1adf92714d80f94a97cc1390afc1152438" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>packPrimitives</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a4d6680bb816f2c618cfd58fc6d29c4cf" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>primitiveColors</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1af74844506f8ebdae4b43f637280f0c8b" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>progress</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1ab14e8a87d6045f9d76eef35030516e29" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>saveTriCornerUVCoords</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a1637397189664c5feef48669988cf567" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>solidColor</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1ab71a9b406d184f31efd20e4be1c154d0" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>texture</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a265d6499c8efb36484866e57f81bde58" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>uvMap</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1abacc88695cc5dd73f34084eca3ed6366" prot="public" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>xf</name></member>
+      <member refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions_1a2054e665addbb9cdb45330fae61b1fd5" prot="private" virt="non-virtual"><scope>MR::PointsSave::Const_CtmSavePointsOptions</scope><name>~Const_CtmSavePointsOptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

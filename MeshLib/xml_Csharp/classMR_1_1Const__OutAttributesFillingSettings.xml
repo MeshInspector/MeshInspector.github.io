@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__OutAttributesFillingSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_OutAttributesFillingSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1OutAttributesFillingSettings" prot="public" virt="non-virtual">MR.OutAttributesFillingSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__OutAttributesFillingSettings_1a737159155ba7a4ad24b24908c04883bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+        <definition>unsafe MR.? VertCoords2 MR.Const_OutAttributesFillingSettings.uvCoords</definition>
+        <argsstring></argsstring>
+        <name>uvCoords</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.uvCoords</qualifiedname>
+        <briefdescription>
+<para>optional uv-coordinates of vertices; if provided then elements corresponding to new vertices will be added there </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="621" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="622" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__OutAttributesFillingSettings_1a92544d4f4a4d4a442c30982263acae2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition>unsafe MR.? VertColors MR.Const_OutAttributesFillingSettings.colorMap</definition>
+        <argsstring></argsstring>
+        <name>colorMap</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.colorMap</qualifiedname>
+        <briefdescription>
+<para>optional colors of vertices; if provided then elements corresponding to new vertices will be added there </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="639" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="640" bodyend="651"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__OutAttributesFillingSettings_1aedd0dbf4bf82127ffe82994d60711919" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1FaceColors" kindref="compound">FaceColors</ref></type>
+        <definition>unsafe MR.? FaceColors MR.Const_OutAttributesFillingSettings.faceColors</definition>
+        <argsstring></argsstring>
+        <name>faceColors</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.faceColors</qualifiedname>
+        <briefdescription>
+<para>optional colors of faces; if provided then elements corresponding to new faces will be added there </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="657" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="658" bodyend="669"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__OutAttributesFillingSettings_1ad895734db24ae0b8513a0c882895ba5e" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.VertCoords2._Underlying **</type>
+        <definition>unsafe MR.VertCoords2._Underlying** MR.Const_OutAttributesFillingSettings.__ptr_storage_uvCoords</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_uvCoords</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.__ptr_storage_uvCoords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="634" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="634" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__OutAttributesFillingSettings_1afed12cc279f46698b06b5cdc93fd6014" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.VertColors._Underlying **</type>
+        <definition>unsafe MR.VertColors._Underlying** MR.Const_OutAttributesFillingSettings.__ptr_storage_colorMap</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_colorMap</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.__ptr_storage_colorMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="652" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="652" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__OutAttributesFillingSettings_1a6345164126e91de71df0d5f23818b02c" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.FaceColors._Underlying **</type>
+        <definition>unsafe MR.FaceColors._Underlying** MR.Const_OutAttributesFillingSettings.__ptr_storage_faceColors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_faceColors</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.__ptr_storage_faceColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="670" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="670" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__OutAttributesFillingSettings_1ae7c1aebfb70cd8860cfe9576d493adb1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_OutAttributesFillingSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="606" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="606" bodyend="614"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__OutAttributesFillingSettings_1a16f7fcfe612f57ec56c2c1a4197cd09d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_OutAttributesFillingSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="615" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="615" bodyend="615"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OutAttributesFillingSettings_1ac70dfca91ce613d0840140cdec3b04f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OutAttributesFillingSettings.Const_OutAttributesFillingSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_OutAttributesFillingSettings</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.Const_OutAttributesFillingSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="709" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="709" bodyend="715"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OutAttributesFillingSettings_1a7f3c60dc42827d2bdea5288494548e62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OutAttributesFillingSettings.Const_OutAttributesFillingSettings</definition>
+        <argsstring>(MR.VertCoords2? uvCoords, MR.VertColors? colorMap, MR.FaceColors? faceColors)</argsstring>
+        <name>Const_OutAttributesFillingSettings</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.Const_OutAttributesFillingSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords2" kindref="compound">MR.VertCoords2</ref>?</type>
+          <declname>uvCoords</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref>?</type>
+          <declname>colorMap</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceColors" kindref="compound">MR.FaceColors</ref>?</type>
+          <declname>faceColors</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1OutAttributesFillingSettings" kindref="compound">MR.OutAttributesFillingSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="720" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="720" bodyend="729"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OutAttributesFillingSettings_1a1a56fe2352c41fbc2b45d475d912d218" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OutAttributesFillingSettings.Const_OutAttributesFillingSettings</definition>
+        <argsstring>(MR.Const_OutAttributesFillingSettings _other)</argsstring>
+        <name>Const_OutAttributesFillingSettings</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.Const_OutAttributesFillingSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__OutAttributesFillingSettings" kindref="compound">MR.Const_OutAttributesFillingSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OutAttributesFillingSettings_1a5f6b7a05262b53174e2799e4f4fe8c6f" kindref="member">MR.OutAttributesFillingSettings.OutAttributesFillingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="734" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="734" bodyend="741"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__OutAttributesFillingSettings_1a4c5b6f69e7389cc3b7bdb7d6729f694a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_OutAttributesFillingSettings.Const_OutAttributesFillingSettings</definition>
+        <argsstring>(OutAttributesFillingSettings _other)</argsstring>
+        <name>Const_OutAttributesFillingSettings</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.Const_OutAttributesFillingSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1OutAttributesFillingSettings" kindref="compound">OutAttributesFillingSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1OutAttributesFillingSettings_1a5f6b7a05262b53174e2799e4f4fe8c6f" kindref="member">MR.OutAttributesFillingSettings.OutAttributesFillingSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="746" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="746" bodyend="746"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__OutAttributesFillingSettings_1a29124c2328b50969de4bdfa22c66d146" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_OutAttributesFillingSettings.~Const_OutAttributesFillingSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_OutAttributesFillingSettings</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.~Const_OutAttributesFillingSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="616" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="616" bodyend="616"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__OutAttributesFillingSettings_1a91b3035d9ce7b8ed234dc0a4c7b38ce7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_OutAttributesFillingSettings.Const_OutAttributesFillingSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_OutAttributesFillingSettings</name>
+        <qualifiedname>MR.Const_OutAttributesFillingSettings.Const_OutAttributesFillingSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="698" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="698" bodyend="703"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1OutAttributesFillingSettings" kindref="compound">MR.OutAttributesFillingSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_OutAttributesFillingSettings</label>
+        <link refid="classMR_1_1Const__OutAttributesFillingSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.OutAttributesFillingSettings</label>
+        <link refid="classMR_1_1OutAttributesFillingSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_OutAttributesFillingSettings</label>
+        <link refid="classMR_1_1Const__OutAttributesFillingSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_colorMap</edgelabel>
+          <edgelabel>__ptr_storage_faceColors</edgelabel>
+          <edgelabel>__ptr_storage_uvCoords</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="600" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="601" bodyend="747"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1afed12cc279f46698b06b5cdc93fd6014" prot="protected" virt="non-virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>__ptr_storage_colorMap</name></member>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1a6345164126e91de71df0d5f23818b02c" prot="protected" virt="non-virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>__ptr_storage_faceColors</name></member>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1ad895734db24ae0b8513a0c882895ba5e" prot="protected" virt="non-virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>__ptr_storage_uvCoords</name></member>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1a92544d4f4a4d4a442c30982263acae2d" prot="public" virt="non-virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>colorMap</name></member>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1a91b3035d9ce7b8ed234dc0a4c7b38ce7" prot="package" virt="non-virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>Const_OutAttributesFillingSettings</name></member>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1ac70dfca91ce613d0840140cdec3b04f1" prot="public" virt="non-virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>Const_OutAttributesFillingSettings</name></member>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1a7f3c60dc42827d2bdea5288494548e62" prot="public" virt="non-virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>Const_OutAttributesFillingSettings</name></member>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1a1a56fe2352c41fbc2b45d475d912d218" prot="public" virt="non-virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>Const_OutAttributesFillingSettings</name></member>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1a4c5b6f69e7389cc3b7bdb7d6729f694a" prot="public" virt="non-virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>Const_OutAttributesFillingSettings</name></member>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1ae7c1aebfb70cd8860cfe9576d493adb1" prot="protected" virt="virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1a16f7fcfe612f57ec56c2c1a4197cd09d" prot="public" virt="virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1aedd0dbf4bf82127ffe82994d60711919" prot="public" virt="non-virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>faceColors</name></member>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1a737159155ba7a4ad24b24908c04883bf" prot="public" virt="non-virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>uvCoords</name></member>
+      <member refid="classMR_1_1Const__OutAttributesFillingSettings_1a29124c2328b50969de4bdfa22c66d146" prot="private" virt="non-virtual"><scope>MR::Const_OutAttributesFillingSettings</scope><name>~Const_OutAttributesFillingSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

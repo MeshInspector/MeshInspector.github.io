@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FaceMap" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FaceMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FaceMap" prot="public" virt="non-virtual">MR.FaceMap</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__FaceMap_1a637c7b378fc62e64a236e64ceab8f25c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRFaceId</type>
+        <definition>unsafe MR.Std.Const_Vector_MRFaceId MR.Const_FaceMap.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_FaceMap.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3384" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3384" bodyend="3384"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FaceMap_1acd98e502422320c462f7bec6c5e1703d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe ref readonly MR.FaceId MR.Const_FaceMap.this[MR.FaceId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.FaceId i]</name>
+        <qualifiedname>MR.Const_FaceMap.this[MR.FaceId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::FaceMap::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3536" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3537" bodyend="3544"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1abb5074d3e609821d18a28f56cb2218a6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FaceMap.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FaceMap.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3305" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3305" bodyend="3313"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1adaeafcbc17a24e8386941262dc361bcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FaceMap.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FaceMap.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3314" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3314" bodyend="3314"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1aeafc8558adb455624eaae3acad3acf61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref> &gt; &gt;</type>
+        <definition>IEnumerator&lt; MR.Misc.ConstRef&lt; MR.FaceId &gt; &gt; MR.Const_FaceMap.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_FaceMap.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3371" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3371" bodyend="3374"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a644f471c91221107bb150071c24985c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceMap.Const_FaceMap</definition>
+        <argsstring>()</argsstring>
+        <name>Const_FaceMap</name>
+        <qualifiedname>MR.Const_FaceMap.Const_FaceMap</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3412" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3412" bodyend="3418"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a1612cdf9fe3ddef02462daa81424b593" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceMap.Const_FaceMap</definition>
+        <argsstring>(MR._ByValue_FaceMap _other)</argsstring>
+        <name>Const_FaceMap</name>
+        <qualifiedname>MR.Const_FaceMap.Const_FaceMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_FaceMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceMap_1a9999c8c76efa963b48b889b10ab90eb5" kindref="member">MR.FaceMap.FaceMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3423" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3423" bodyend="3430"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1afc185effd9c7eb33b15d09c605dfb269" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceMap.Const_FaceMap</definition>
+        <argsstring>(Const_FaceMap _other)</argsstring>
+        <name>Const_FaceMap</name>
+        <qualifiedname>MR.Const_FaceMap.Const_FaceMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">Const_FaceMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceMap_1a9999c8c76efa963b48b889b10ab90eb5" kindref="member">MR.FaceMap.FaceMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3435" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3435" bodyend="3435"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a7fb3cf9e38bc050497c2476fe8ac7563" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceMap.Const_FaceMap</definition>
+        <argsstring>(FaceMap _other)</argsstring>
+        <name>Const_FaceMap</name>
+        <qualifiedname>MR.Const_FaceMap.Const_FaceMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FaceMap_1a9999c8c76efa963b48b889b10ab90eb5" kindref="member">MR.FaceMap.FaceMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3440" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3440" bodyend="3440"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a9cbdf6cd38573b36b28ae3085f2d835f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceMap.Const_FaceMap</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_FaceMap</name>
+        <qualifiedname>MR.Const_FaceMap.Const_FaceMap</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1FaceMap_1a9999c8c76efa963b48b889b10ab90eb5" kindref="member">MR.FaceMap.FaceMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3446" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3446" bodyend="3452"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1af9b894703c6b4f82d24e430126f21fc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceMap.Const_FaceMap</definition>
+        <argsstring>(ulong size, in MR.FaceId val)</argsstring>
+        <name>Const_FaceMap</name>
+        <qualifiedname>MR.Const_FaceMap.Const_FaceMap</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1FaceMap_1a9999c8c76efa963b48b889b10ab90eb5" kindref="member">MR.FaceMap.FaceMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3458" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3458" bodyend="3467"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a83954d181b04fd92a5ffc9bd3b394cef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceMap.Const_FaceMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRFaceId &gt; vec)</argsstring>
+        <name>Const_FaceMap</name>
+        <qualifiedname>MR.Const_FaceMap.Const_FaceMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRFaceId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceMap_1a9999c8c76efa963b48b889b10ab90eb5" kindref="member">MR.FaceMap.FaceMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3473" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3473" bodyend="3480"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a4009b06d165dbc5ca7a29bfa842e934c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_FaceMap.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_FaceMap.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceMap_1a4009b06d165dbc5ca7a29bfa842e934c" kindref="member">MR.FaceMap.empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3506" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3506" bodyend="3511"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a360d49c4a4995733d1381be525557324" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_FaceMap.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_FaceMap.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceMap_1a360d49c4a4995733d1381be525557324" kindref="member">MR.FaceMap.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3516" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3516" bodyend="3521"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ab6b2770d2b4ab8b04cfa61f0f90b68c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_FaceMap.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_FaceMap.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceMap_1ab6b2770d2b4ab8b04cfa61f0f90b68c5" kindref="member">MR.FaceMap.capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3526" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3526" bodyend="3531"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ac7b21ffec1139620b0b55d445d792841" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe ref readonly MR.FaceId MR.Const_FaceMap.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_FaceMap.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1a5881716a99854db1af85c349bdadc23f" kindref="member">MR.FaceMap.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3549" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3549" bodyend="3554"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a904a0057b7b9ca1400a314e18b5f0c5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe ref readonly MR.FaceId MR.Const_FaceMap.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_FaceMap.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1ac083eb7dd6053de665fc2de240007a33" kindref="member">MR.FaceMap.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3559" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3559" bodyend="3564"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a21edbe76fb59538119a2ac7b3fbf9ad4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_FaceMap.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_FaceMap.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceMap_1a21edbe76fb59538119a2ac7b3fbf9ad4" kindref="member">MR.FaceMap.beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3570" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3570" bodyend="3575"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a60f2f79b77aafba2ec24798ed8f9b685" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_FaceMap.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_FaceMap.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__FaceMap_1a904a0057b7b9ca1400a314e18b5f0c5b" kindref="member">back()</ref> element Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceMap_1a60f2f79b77aafba2ec24798ed8f9b685" kindref="member">MR.FaceMap.backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3581" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3581" bodyend="3586"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a0f639ccac663b02dce05e1817789f086" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.Const_FaceMap.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_FaceMap.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__FaceMap_1a60f2f79b77aafba2ec24798ed8f9b685" kindref="member">backId()</ref> + 1 Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceMap_1a0f639ccac663b02dce05e1817789f086" kindref="member">MR.FaceMap.endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3592" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3592" bodyend="3597"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a8cc1c2782509850a3b312d8c52c771e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition>unsafe MR.? FaceId MR.Const_FaceMap.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_FaceMap.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1FaceMap_1a6d617c5184a6a30b3471936c0e51224c" kindref="member">MR.FaceMap.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3602" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3602" bodyend="3608"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a6ab425157706fe6b4b520cfc2b0f36b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_FaceMap.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_FaceMap.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__FaceMap_1a6ab425157706fe6b4b520cfc2b0f36b0" kindref="member">MR.FaceMap.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3614" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3614" bodyend="3619"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ab34ed5ff9d22e013b1bb49203784ce51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_FaceMap.Equals</definition>
+        <argsstring>(MR.Const_FaceMap? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_FaceMap.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3623" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3623" bodyend="3628"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a2830861fddfd88f40d6694fe1b902d44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_FaceMap.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_FaceMap.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3630" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3630" bodyend="3637"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ab93ef6cf8c4f437a3b6d2b6fe20541bd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FaceMap.~Const_FaceMap</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FaceMap</name>
+        <qualifiedname>MR.Const_FaceMap.~Const_FaceMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3315" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3315" bodyend="3315"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ae27b754012bb198b6aa2ec9b881c16d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_FaceMap.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_FaceMap.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3376" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3376" bodyend="3379"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1abd8b2cb3ca87188ae6297007e5c8c8db" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FaceMap.Const_FaceMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FaceMap</name>
+        <qualifiedname>MR.Const_FaceMap.Const_FaceMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3401" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3401" bodyend="3406"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a24eee0052d14f1f1f1d42f0a3e9660b3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_FaceMap.operator Const_FaceMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRFaceId &gt; vec)</argsstring>
+        <name>operator Const_FaceMap</name>
+        <qualifiedname>MR.Const_FaceMap.operator Const_FaceMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRFaceId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceMap_1a9999c8c76efa963b48b889b10ab90eb5" kindref="member">MR.FaceMap.FaceMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3486" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3486" bodyend="3486"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1ac18d7e9a389e5eb320a2c50879b4040e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_FaceMap.operator==</definition>
+        <argsstring>(MR.Const_FaceMap _this, MR.Const_FaceMap b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_FaceMap.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::FaceMap::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3491" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3491" bodyend="3496"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FaceMap_1a17953370b2e3c17de64e4165420423f7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_FaceMap.operator!=</definition>
+        <argsstring>(MR.Const_FaceMap _this, MR.Const_FaceMap b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_FaceMap.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3498" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3498" bodyend="3501"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1FaceMap" kindref="compound">MR.FaceMap</ref></computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_FaceMap</label>
+        <link refid="classMR_1_1Const__FaceMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR.FaceMap</label>
+        <link refid="classMR_1_1FaceMap"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_FaceMap</label>
+        <link refid="classMR_1_1Const__FaceMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="3299" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="3300" bodyend="3638"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FaceMap_1a904a0057b7b9ca1400a314e18b5f0c5b" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a60f2f79b77aafba2ec24798ed8f9b685" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a21edbe76fb59538119a2ac7b3fbf9ad4" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1ab6b2770d2b4ab8b04cfa61f0f90b68c5" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1abd8b2cb3ca87188ae6297007e5c8c8db" prot="package" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a644f471c91221107bb150071c24985c8" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a1612cdf9fe3ddef02462daa81424b593" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1afc185effd9c7eb33b15d09c605dfb269" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a7fb3cf9e38bc050497c2476fe8ac7563" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a9cbdf6cd38573b36b28ae3085f2d835f" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1af9b894703c6b4f82d24e430126f21fc8" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a83954d181b04fd92a5ffc9bd3b394cef" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a8cc1c2782509850a3b312d8c52c771e6" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1abb5074d3e609821d18a28f56cb2218a6" prot="protected" virt="virtual"><scope>MR::Const_FaceMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1adaeafcbc17a24e8386941262dc361bcf" prot="public" virt="virtual"><scope>MR::Const_FaceMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a4009b06d165dbc5ca7a29bfa842e934c" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a0f639ccac663b02dce05e1817789f086" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1ab34ed5ff9d22e013b1bb49203784ce51" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a2830861fddfd88f40d6694fe1b902d44" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1ac7b21ffec1139620b0b55d445d792841" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1aeafc8558adb455624eaae3acad3acf61" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1ae27b754012bb198b6aa2ec9b881c16d6" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a6ab425157706fe6b4b520cfc2b0f36b0" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a24eee0052d14f1f1f1d42f0a3e9660b3" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>operator Const_FaceMap</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a17953370b2e3c17de64e4165420423f7" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1ac18d7e9a389e5eb320a2c50879b4040e" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a360d49c4a4995733d1381be525557324" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1acd98e502422320c462f7bec6c5e1703d" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>this[MR.FaceId i]</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1a637c7b378fc62e64a236e64ceab8f25c" prot="public" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__FaceMap_1ab93ef6cf8c4f437a3b6d2b6fe20541bd" prot="private" virt="non-virtual"><scope>MR::Const_FaceMap</scope><name>~Const_FaceMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

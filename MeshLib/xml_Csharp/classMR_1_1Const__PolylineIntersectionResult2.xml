@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PolylineIntersectionResult2" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PolylineIntersectionResult2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PolylineIntersectionResult2" prot="public" virt="non-virtual">MR.PolylineIntersectionResult2</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__PolylineIntersectionResult2_1a63be85dba7e2d1614c49a439093df3ee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref></type>
+        <definition>unsafe MR.Const_EdgePoint MR.Const_PolylineIntersectionResult2.edgePoint</definition>
+        <argsstring></argsstring>
+        <name>edgePoint</name>
+        <qualifiedname>MR.Const_PolylineIntersectionResult2.edgePoint</qualifiedname>
+        <briefdescription>
+<para>intersection point in polyline </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="28" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__PolylineIntersectionResult2_1ae489a1a626506f16855411ebf370bb7f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_PolylineIntersectionResult2.distanceAlongLine</definition>
+        <argsstring></argsstring>
+        <name>distanceAlongLine</name>
+        <qualifiedname>MR.Const_PolylineIntersectionResult2.distanceAlongLine</qualifiedname>
+        <briefdescription>
+<para>stores the distance from ray origin to the intersection point in direction units </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="33" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__PolylineIntersectionResult2_1a62ed757e16404919be7df502ffaef4a9" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_PolylineIntersectionResult2.__ref_storage_distanceAlongLine</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_distanceAlongLine</name>
+        <qualifiedname>MR.Const_PolylineIntersectionResult2.__ref_storage_distanceAlongLine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="34" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__PolylineIntersectionResult2_1a8b5629144f180aebaac82a3a7508d78d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_PolylineIntersectionResult2.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PolylineIntersectionResult2.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PolylineIntersectionResult2_1aa6f24d9a3ec8b1c7a49c97e503e9b378" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_PolylineIntersectionResult2.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PolylineIntersectionResult2.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineIntersectionResult2_1a3f8bebd02da30635bd1c37b3c87b533c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PolylineIntersectionResult2.Const_PolylineIntersectionResult2</definition>
+        <argsstring>()</argsstring>
+        <name>Const_PolylineIntersectionResult2</name>
+        <qualifiedname>MR.Const_PolylineIntersectionResult2.Const_PolylineIntersectionResult2</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="68" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="68" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineIntersectionResult2_1aea7fb02f8697e6944dd73277990ab367" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PolylineIntersectionResult2.Const_PolylineIntersectionResult2</definition>
+        <argsstring>(MR.Const_EdgePoint edgePoint, float distanceAlongLine)</argsstring>
+        <name>Const_PolylineIntersectionResult2</name>
+        <qualifiedname>MR.Const_PolylineIntersectionResult2.Const_PolylineIntersectionResult2</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref></type>
+          <declname>edgePoint</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distanceAlongLine</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PolylineIntersectionResult2" kindref="compound">MR.PolylineIntersectionResult2</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="79" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="79" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineIntersectionResult2_1a53bc0ecbfa42c322ec068d7d5131e726" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PolylineIntersectionResult2.Const_PolylineIntersectionResult2</definition>
+        <argsstring>(MR.Const_PolylineIntersectionResult2 _other)</argsstring>
+        <name>Const_PolylineIntersectionResult2</name>
+        <qualifiedname>MR.Const_PolylineIntersectionResult2.Const_PolylineIntersectionResult2</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PolylineIntersectionResult2" kindref="compound">MR.Const_PolylineIntersectionResult2</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PolylineIntersectionResult2_1aa8741a86b1c6b7bc43283a40283ebd74" kindref="member">MR.PolylineIntersectionResult2.PolylineIntersectionResult2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="91" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="91" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PolylineIntersectionResult2_1aa8e3bf0f33281629f5c44d27aeed5d24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PolylineIntersectionResult2.Const_PolylineIntersectionResult2</definition>
+        <argsstring>(PolylineIntersectionResult2 _other)</argsstring>
+        <name>Const_PolylineIntersectionResult2</name>
+        <qualifiedname>MR.Const_PolylineIntersectionResult2.Const_PolylineIntersectionResult2</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PolylineIntersectionResult2" kindref="compound">PolylineIntersectionResult2</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PolylineIntersectionResult2_1aa8741a86b1c6b7bc43283a40283ebd74" kindref="member">MR.PolylineIntersectionResult2.PolylineIntersectionResult2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="103" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="103" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__PolylineIntersectionResult2_1af73aa99d326aa9495130382cdd8ba06c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PolylineIntersectionResult2.~Const_PolylineIntersectionResult2</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PolylineIntersectionResult2</name>
+        <qualifiedname>MR.Const_PolylineIntersectionResult2.~Const_PolylineIntersectionResult2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PolylineIntersectionResult2_1ae8a99cc529587c4b76d395d64ef0d097" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PolylineIntersectionResult2.Const_PolylineIntersectionResult2</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PolylineIntersectionResult2</name>
+        <qualifiedname>MR.Const_PolylineIntersectionResult2.Const_PolylineIntersectionResult2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="57" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="57" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1PolylineIntersectionResult2" kindref="compound">MR.PolylineIntersectionResult2</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PolylineIntersectionResult2</label>
+        <link refid="classMR_1_1Const__PolylineIntersectionResult2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PolylineIntersectionResult2</label>
+        <link refid="classMR_1_1PolylineIntersectionResult2"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_PolylineIntersectionResult2</label>
+        <link refid="classMR_1_1Const__PolylineIntersectionResult2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline2Intersect.cs" bodystart="8" bodyend="104"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1a62ed757e16404919be7df502ffaef4a9" prot="protected" virt="non-virtual"><scope>MR::Const_PolylineIntersectionResult2</scope><name>__ref_storage_distanceAlongLine</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1ae8a99cc529587c4b76d395d64ef0d097" prot="package" virt="non-virtual"><scope>MR::Const_PolylineIntersectionResult2</scope><name>Const_PolylineIntersectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1a3f8bebd02da30635bd1c37b3c87b533c" prot="public" virt="non-virtual"><scope>MR::Const_PolylineIntersectionResult2</scope><name>Const_PolylineIntersectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1aea7fb02f8697e6944dd73277990ab367" prot="public" virt="non-virtual"><scope>MR::Const_PolylineIntersectionResult2</scope><name>Const_PolylineIntersectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1a53bc0ecbfa42c322ec068d7d5131e726" prot="public" virt="non-virtual"><scope>MR::Const_PolylineIntersectionResult2</scope><name>Const_PolylineIntersectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1aa8e3bf0f33281629f5c44d27aeed5d24" prot="public" virt="non-virtual"><scope>MR::Const_PolylineIntersectionResult2</scope><name>Const_PolylineIntersectionResult2</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1a8b5629144f180aebaac82a3a7508d78d" prot="protected" virt="virtual"><scope>MR::Const_PolylineIntersectionResult2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1aa6f24d9a3ec8b1c7a49c97e503e9b378" prot="public" virt="virtual"><scope>MR::Const_PolylineIntersectionResult2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1ae489a1a626506f16855411ebf370bb7f" prot="public" virt="non-virtual"><scope>MR::Const_PolylineIntersectionResult2</scope><name>distanceAlongLine</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1a63be85dba7e2d1614c49a439093df3ee" prot="public" virt="non-virtual"><scope>MR::Const_PolylineIntersectionResult2</scope><name>edgePoint</name></member>
+      <member refid="classMR_1_1Const__PolylineIntersectionResult2_1af73aa99d326aa9495130382cdd8ba06c" prot="private" virt="non-virtual"><scope>MR::Const_PolylineIntersectionResult2</scope><name>~Const_PolylineIntersectionResult2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

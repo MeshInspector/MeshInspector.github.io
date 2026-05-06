@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointToPointAligningTransform" kind="class" language="C#" prot="public">
     <compoundname>MR::PointToPointAligningTransform</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointToPointAligningTransform</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointToPointAligningTransform" prot="public" virt="non-virtual">MR.Const_PointToPointAligningTransform</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1PointToPointAligningTransform_1a5c1b1eb58a18ac672556bdb9616caaad" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>PointToPointAligningTransform</name>
         <qualifiedname>MR.PointToPointAligningTransform.PointToPointAligningTransform</qualifiedname>
         <param>
-          <type>MR.Const_PointToPointAligningTransform</type>
+          <type><ref refid="classMR_1_1Const__PointToPointAligningTransform" kindref="compound">MR.Const_PointToPointAligningTransform</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.PointToPointAligningTransform.assign</qualifiedname>
         <param>
-          <type>MR.Const_PointToPointAligningTransform</type>
+          <type><ref refid="classMR_1_1Const__PointToPointAligningTransform" kindref="compound">MR.Const_PointToPointAligningTransform</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -163,7 +163,7 @@
         <name>add</name>
         <qualifiedname>MR.PointToPointAligningTransform.add</qualifiedname>
         <param>
-          <type>MR.Const_PointToPointAligningTransform</type>
+          <type><ref refid="classMR_1_1Const__PointToPointAligningTransform" kindref="compound">MR.Const_PointToPointAligningTransform</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -205,6 +205,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointToPointAligningTransform</label>
+        <link refid="classMR_1_1Const__PointToPointAligningTransform"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -226,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointToPointAligningTransform</label>
+        <link refid="classMR_1_1Const__PointToPointAligningTransform"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -244,11 +246,25 @@
       <member refid="classMR_1_1PointToPointAligningTransform_1a5f98e5c1bfa49fe606f20cfa1bd0e2ff" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>add</name></member>
       <member refid="classMR_1_1PointToPointAligningTransform_1add2355ea9ca400be6dcef98f2d986810" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>add</name></member>
       <member refid="classMR_1_1PointToPointAligningTransform_1a65fa8aa57ea6beda283cb2abc0dea8a2" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1afdd0ca4d2685a190cb9c5b977f8b52de" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>centroid1</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1adb265a0024578aa6ff7f0e8dc69e0bea" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>centroid2</name></member>
       <member refid="classMR_1_1PointToPointAligningTransform_1a6cd372b917426d3ca394461cad10fb24" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a8cd5d3345aa3d17f871686055cb0ddfb" prot="package" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>Const_PointToPointAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1adb5542b3866d47d70533e4bca7ff8b87" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>Const_PointToPointAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1aaee5b3f2446fab3ca70a61c7d7224618" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>Const_PointToPointAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a271c66a5b304c44c7a2b5f7baefb8809" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>Const_PointToPointAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a2a4f6f9e6e9bb153d5dd11258f626d20" prot="protected" virt="virtual"><scope>MR::PointToPointAligningTransform</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1aacb84b2829d35b5e4bf767fea8353b8d" prot="public" virt="virtual"><scope>MR::PointToPointAligningTransform</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1abc6cd1f6838f204702b8b5eff57cf7ff" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>findBestRigidScaleXf</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a85ca4fd88540f949466458e09ddc9192" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>findBestRigidXf</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1ace1e8625084ca486c811aea5ec470efb" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>findBestRigidXfFixedRotationAxis</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a62daa5bbfc4d65f3869d5fbeee22fd6b" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>findBestRigidXfOrthogonalRotationAxis</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a74cd899b8784d47e1b4db8116d088445" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>findBestTranslation</name></member>
       <member refid="classMR_1_1PointToPointAligningTransform_1a5c1b1eb58a18ac672556bdb9616caaad" prot="package" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>PointToPointAligningTransform</name></member>
       <member refid="classMR_1_1PointToPointAligningTransform_1a840cfc756a8eac90b7b2cb7a1762aa26" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>PointToPointAligningTransform</name></member>
       <member refid="classMR_1_1PointToPointAligningTransform_1a4d0aee0846a1ff67d4b909d21b58b5c6" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>PointToPointAligningTransform</name></member>
       <member refid="classMR_1_1PointToPointAligningTransform_1a83f1509f8890bde4da699eb488de1bb4" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>PointToPointAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a6dcbeef877bfc407274d39e831c2c640" prot="public" virt="non-virtual"><scope>MR::PointToPointAligningTransform</scope><name>totalWeight</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

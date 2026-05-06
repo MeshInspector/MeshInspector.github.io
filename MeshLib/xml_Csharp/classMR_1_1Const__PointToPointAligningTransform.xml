@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PointToPointAligningTransform" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PointToPointAligningTransform</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PointToPointAligningTransform" prot="public" virt="non-virtual">MR.PointToPointAligningTransform</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1a2a4f6f9e6e9bb153d5dd11258f626d20" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_PointToPointAligningTransform.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="15" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1aacb84b2829d35b5e4bf767fea8353b8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_PointToPointAligningTransform.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1adb5542b3866d47d70533e4bca7ff8b87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointToPointAligningTransform.Const_PointToPointAligningTransform</definition>
+        <argsstring>()</argsstring>
+        <name>Const_PointToPointAligningTransform</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.Const_PointToPointAligningTransform</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="32" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1aaee5b3f2446fab3ca70a61c7d7224618" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointToPointAligningTransform.Const_PointToPointAligningTransform</definition>
+        <argsstring>(MR.Const_PointToPointAligningTransform _other)</argsstring>
+        <name>Const_PointToPointAligningTransform</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.Const_PointToPointAligningTransform</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointToPointAligningTransform" kindref="compound">MR.Const_PointToPointAligningTransform</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointToPointAligningTransform_1a840cfc756a8eac90b7b2cb7a1762aa26" kindref="member">MR.PointToPointAligningTransform.PointToPointAligningTransform</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="42" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1a271c66a5b304c44c7a2b5f7baefb8809" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointToPointAligningTransform.Const_PointToPointAligningTransform</definition>
+        <argsstring>(PointToPointAligningTransform _other)</argsstring>
+        <name>Const_PointToPointAligningTransform</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.Const_PointToPointAligningTransform</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointToPointAligningTransform" kindref="compound">PointToPointAligningTransform</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointToPointAligningTransform_1a840cfc756a8eac90b7b2cb7a1762aa26" kindref="member">MR.PointToPointAligningTransform.PointToPointAligningTransform</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="53" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1afdd0ca4d2685a190cb9c5b977f8b52de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe MR.Vector3d MR.Const_PointToPointAligningTransform.centroid1</definition>
+        <argsstring>()</argsstring>
+        <name>centroid1</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.centroid1</qualifiedname>
+        <briefdescription>
+<para>returns weighted centroid of points p1 accumulated so far Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPointAligningTransform_1afdd0ca4d2685a190cb9c5b977f8b52de" kindref="member">MR.PointToPointAligningTransform.centroid1</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="59" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="59" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1adb265a0024578aa6ff7f0e8dc69e0bea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe MR.Vector3d MR.Const_PointToPointAligningTransform.centroid2</definition>
+        <argsstring>()</argsstring>
+        <name>centroid2</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.centroid2</qualifiedname>
+        <briefdescription>
+<para>returns weighted centroid of points p2 accumulated so far Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPointAligningTransform_1adb265a0024578aa6ff7f0e8dc69e0bea" kindref="member">MR.PointToPointAligningTransform.centroid2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="70" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="70" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1a6dcbeef877bfc407274d39e831c2c640" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_PointToPointAligningTransform.totalWeight</definition>
+        <argsstring>()</argsstring>
+        <name>totalWeight</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.totalWeight</qualifiedname>
+        <briefdescription>
+<para>returns summed weight of points accumulated so far Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPointAligningTransform_1a6dcbeef877bfc407274d39e831c2c640" kindref="member">MR.PointToPointAligningTransform.totalWeight</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="81" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="81" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1a85ca4fd88540f949466458e09ddc9192" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
+        <definition>unsafe MR.AffineXf3d MR.Const_PointToPointAligningTransform.findBestRigidXf</definition>
+        <argsstring>()</argsstring>
+        <name>findBestRigidXf</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.findBestRigidXf</qualifiedname>
+        <briefdescription>
+<para>Compute transformation as the solution to a least squares formulation of the problem: xf( p1_i ) = p2_i this version searches for best rigid body transformation Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPointAligningTransform_1a85ca4fd88540f949466458e09ddc9192" kindref="member">MR.PointToPointAligningTransform.findBestRigidXf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="94" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="94" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1abc6cd1f6838f204702b8b5eff57cf7ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
+        <definition>unsafe MR.AffineXf3d MR.Const_PointToPointAligningTransform.findBestRigidScaleXf</definition>
+        <argsstring>()</argsstring>
+        <name>findBestRigidScaleXf</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.findBestRigidScaleXf</qualifiedname>
+        <briefdescription>
+<para>this version searches for best rigid body transformation with uniform scaling Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPointAligningTransform_1abc6cd1f6838f204702b8b5eff57cf7ff" kindref="member">MR.PointToPointAligningTransform.findBestRigidScaleXf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="105" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="105" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1ace1e8625084ca486c811aea5ec470efb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
+        <definition>unsafe MR.AffineXf3d MR.Const_PointToPointAligningTransform.findBestRigidXfFixedRotationAxis</definition>
+        <argsstring>(in MR.Vector3d axis)</argsstring>
+        <name>findBestRigidXfFixedRotationAxis</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.findBestRigidXfFixedRotationAxis</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+<para>this version searches for best transformation where rotation is allowed only around given axis and with arbitrary translation Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPointAligningTransform_1ace1e8625084ca486c811aea5ec470efb" kindref="member">MR.PointToPointAligningTransform.findBestRigidXfFixedRotationAxis</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="116" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="116" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1a62daa5bbfc4d65f3869d5fbeee22fd6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
+        <definition>unsafe MR.AffineXf3d MR.Const_PointToPointAligningTransform.findBestRigidXfOrthogonalRotationAxis</definition>
+        <argsstring>(in MR.Vector3d ort)</argsstring>
+        <name>findBestRigidXfOrthogonalRotationAxis</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.findBestRigidXfOrthogonalRotationAxis</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>ort</declname>
+        </param>
+        <briefdescription>
+<para>this version searches for best transformation where rotation is allowed only around axes orthogonal to given one Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPointAligningTransform_1a62daa5bbfc4d65f3869d5fbeee22fd6b" kindref="member">MR.PointToPointAligningTransform.findBestRigidXfOrthogonalRotationAxis</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="130" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="130" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1a74cd899b8784d47e1b4db8116d088445" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe MR.Vector3d MR.Const_PointToPointAligningTransform.findBestTranslation</definition>
+        <argsstring>()</argsstring>
+        <name>findBestTranslation</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.findBestTranslation</qualifiedname>
+        <briefdescription>
+<para>Simplified solution for translational part only Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPointAligningTransform_1a74cd899b8784d47e1b4db8116d088445" kindref="member">MR.PointToPointAligningTransform.findBestTranslation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="144" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="144" bodyend="149"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1aeb72828d7a9f6d34c38b3d98226dacf8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointToPointAligningTransform.~Const_PointToPointAligningTransform</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PointToPointAligningTransform</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.~Const_PointToPointAligningTransform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointToPointAligningTransform_1a8cd5d3345aa3d17f871686055cb0ddfb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointToPointAligningTransform.Const_PointToPointAligningTransform</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PointToPointAligningTransform</name>
+        <qualifiedname>MR.Const_PointToPointAligningTransform.Const_PointToPointAligningTransform</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="27" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class and its main method can be used to solve the problem well-known as the absolute orientation problem. It means computing the transformation that aligns two sets of points for which correspondence is known. Generated from class <computeroutput><ref refid="classMR_1_1PointToPointAligningTransform" kindref="compound">MR.PointToPointAligningTransform</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PointToPointAligningTransform</label>
+        <link refid="classMR_1_1Const__PointToPointAligningTransform"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PointToPointAligningTransform</label>
+        <link refid="classMR_1_1PointToPointAligningTransform"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_PointToPointAligningTransform</label>
+        <link refid="classMR_1_1Const__PointToPointAligningTransform"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPointAligningTransform.cs" bodystart="10" bodyend="150"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1afdd0ca4d2685a190cb9c5b977f8b52de" prot="public" virt="non-virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>centroid1</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1adb265a0024578aa6ff7f0e8dc69e0bea" prot="public" virt="non-virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>centroid2</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a8cd5d3345aa3d17f871686055cb0ddfb" prot="package" virt="non-virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>Const_PointToPointAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1adb5542b3866d47d70533e4bca7ff8b87" prot="public" virt="non-virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>Const_PointToPointAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1aaee5b3f2446fab3ca70a61c7d7224618" prot="public" virt="non-virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>Const_PointToPointAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a271c66a5b304c44c7a2b5f7baefb8809" prot="public" virt="non-virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>Const_PointToPointAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a2a4f6f9e6e9bb153d5dd11258f626d20" prot="protected" virt="virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1aacb84b2829d35b5e4bf767fea8353b8d" prot="public" virt="virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1abc6cd1f6838f204702b8b5eff57cf7ff" prot="public" virt="non-virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>findBestRigidScaleXf</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a85ca4fd88540f949466458e09ddc9192" prot="public" virt="non-virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>findBestRigidXf</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1ace1e8625084ca486c811aea5ec470efb" prot="public" virt="non-virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>findBestRigidXfFixedRotationAxis</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a62daa5bbfc4d65f3869d5fbeee22fd6b" prot="public" virt="non-virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>findBestRigidXfOrthogonalRotationAxis</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a74cd899b8784d47e1b4db8116d088445" prot="public" virt="non-virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>findBestTranslation</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1a6dcbeef877bfc407274d39e831c2c640" prot="public" virt="non-virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>totalWeight</name></member>
+      <member refid="classMR_1_1Const__PointToPointAligningTransform_1aeb72828d7a9f6d34c38b3d98226dacf8" prot="private" virt="non-virtual"><scope>MR::Const_PointToPointAligningTransform</scope><name>~Const_PointToPointAligningTransform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

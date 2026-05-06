@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportIterator" kind="class" language="C#" prot="public">
     <compoundname>MR::ViewportIterator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ViewportIterator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ViewportIterator" prot="public" virt="non-virtual">MR.Const_ViewportIterator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1ViewportIterator_1a72470e3278f6a3c01e5d6bc344711a56" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>ViewportIterator</name>
         <qualifiedname>MR.ViewportIterator.ViewportIterator</qualifiedname>
         <param>
-          <type>MR.Const_ViewportIterator</type>
+          <type><ref refid="classMR_1_1Const__ViewportIterator" kindref="compound">MR.Const_ViewportIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>ViewportIterator</name>
         <qualifiedname>MR.ViewportIterator.ViewportIterator</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>mask</declname>
         </param>
         <briefdescription>
@@ -107,7 +107,7 @@
         <name>assign</name>
         <qualifiedname>MR.ViewportIterator.assign</qualifiedname>
         <param>
-          <type>MR.Const_ViewportIterator</type>
+          <type><ref refid="classMR_1_1Const__ViewportIterator" kindref="compound">MR.Const_ViewportIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>operator ViewportIterator</name>
         <qualifiedname>MR.ViewportIterator.operator ViewportIterator</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>mask</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ViewportIterator</label>
+        <link refid="classMR_1_1Const__ViewportIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ViewportIterator</label>
+        <link refid="classMR_1_1Const__ViewportIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,8 +218,23 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="1067" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="1068" bodyend="1136"/>
     <listofallmembers>
       <member refid="classMR_1_1ViewportIterator_1af39795b924a7e86e6ab8484b9cee7a6d" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1ad5dfaa1e6acc191fe7bdf76e0f3d45df" prot="package" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>Const_ViewportIterator</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a21ce4bdd6513367d6c492eeec536dfa3" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>Const_ViewportIterator</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1abc01ac83e2626b29425c85a1107aebe3" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>Const_ViewportIterator</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a598e0581a30bb23a00998c1ada226881" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>Const_ViewportIterator</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a3fa62f3565035309276ef4a2914c0180" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>Const_ViewportIterator</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a261fc1c42f4b254c3052cd39d5670d42" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a6f0ea7729099f263ff31537824631bce" prot="protected" virt="virtual"><scope>MR::ViewportIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a4cd9c79f6f6cd4c5ee3386e0bd5e30b8" prot="public" virt="virtual"><scope>MR::ViewportIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a5a66971128e6f6f401761ffb2a55287d" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1ad2de2d2466129b192d8004c2a816893d" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>Equals</name></member>
       <member refid="classMR_1_1ViewportIterator_1afa4c3d9c96dbb99350fb818b682a2aee" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a6d6b16e80d04e56618a0a9127bd85570" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>mask</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a05a42c6e69f38c3b7b4d53fed809cbf0" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>operator Const_ViewportIterator</name></member>
       <member refid="classMR_1_1ViewportIterator_1a22af54bda6189dd3980ad12e73c53eb4" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>operator ViewportIterator</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a969cdc8ccfaef3943b1088163da4e711" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1ae745eb8bbd518ed88ddca009a6e7153a" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__ViewportIterator_1a515a0ecfb29ea970056ea1644cd84e53" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>operator==</name></member>
       <member refid="classMR_1_1ViewportIterator_1a72470e3278f6a3c01e5d6bc344711a56" prot="package" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>ViewportIterator</name></member>
       <member refid="classMR_1_1ViewportIterator_1aef20c1a107f776c77076d1e133d0b56d" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>ViewportIterator</name></member>
       <member refid="classMR_1_1ViewportIterator_1a07fadea4fba171f2cd352efd17fe04b4" prot="public" virt="non-virtual"><scope>MR::ViewportIterator</scope><name>ViewportIterator</name></member>

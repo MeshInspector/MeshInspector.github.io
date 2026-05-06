@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FillingSurface_1_1CellularSurface" kind="class" language="C#" prot="public">
     <compoundname>MR::FillingSurface::CellularSurface</compoundname>
+    <innerclass refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params" prot="public">MR::FillingSurface::CellularSurface::Const_Params</innerclass>
     <innerclass refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params" prot="public">MR::FillingSurface::CellularSurface::Params</innerclass>
     <sectiondef kind="public-type">
       <memberdef kind="enum" id="classMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819" prot="public" static="no" strong="yes">
@@ -61,7 +62,7 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.FillingSurface.CellularSurface.Const_Params</type>
+          <type><ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params" kindref="compound">MR.FillingSurface.CellularSurface.Const_Params</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -85,11 +86,11 @@
         <name>fill</name>
         <qualifiedname>MR.FillingSurface.CellularSurface.fill</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.FillingSurface.CellularSurface.Const_Params</type>
+          <type><ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Const__Params" kindref="compound">MR.FillingSurface.CellularSurface.Const_Params</ref></type>
           <declname>params_</declname>
         </param>
         <param>

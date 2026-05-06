@@ -2,6 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FixUndercuts" kind="class" language="C#" prot="public">
     <compoundname>MR::FixUndercuts</compoundname>
+    <innerclass refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters" prot="public">MR::FixUndercuts::Const_DistMapImproveDirectionParameters</innerclass>
+    <innerclass refid="classMR_1_1FixUndercuts_1_1Const__FindParams" prot="public">MR::FixUndercuts::Const_FindParams</innerclass>
+    <innerclass refid="classMR_1_1FixUndercuts_1_1Const__FixParams" prot="public">MR::FixUndercuts::Const_FixParams</innerclass>
+    <innerclass refid="classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters" prot="public">MR::FixUndercuts::Const_ImproveDirectionParameters</innerclass>
     <innerclass refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" prot="public">MR::FixUndercuts::DistMapImproveDirectionParameters</innerclass>
     <innerclass refid="classMR_1_1FixUndercuts_1_1FindParams" prot="public">MR::FixUndercuts::FindParams</innerclass>
     <innerclass refid="classMR_1_1FixUndercuts_1_1FixParams" prot="public">MR::FixUndercuts::FixParams</innerclass>
@@ -18,7 +22,7 @@
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.FixUndercuts.Const_FixParams</type>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1Const__FixParams" kindref="compound">MR.FixUndercuts.Const_FixParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -37,7 +41,7 @@
         <name>getUndercutAreaMetric</name>
         <qualifiedname>MR.FixUndercuts.getUndercutAreaMetric</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <briefdescription>
@@ -56,7 +60,7 @@
         <name>getUndercutAreaProjectionMetric</name>
         <qualifiedname>MR.FixUndercuts.getUndercutAreaProjectionMetric</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <briefdescription>
@@ -75,11 +79,11 @@
         <name>find</name>
         <qualifiedname>MR.FixUndercuts.find</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.FixUndercuts.Const_FindParams</type>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1Const__FindParams" kindref="compound">MR.FixUndercuts.Const_FindParams</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -117,11 +121,11 @@
         <name>find</name>
         <qualifiedname>MR.FixUndercuts.find</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.FixUndercuts.Const_FindParams</type>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1Const__FindParams" kindref="compound">MR.FixUndercuts.Const_FindParams</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -154,7 +158,7 @@
         <name>scoreUndercuts</name>
         <qualifiedname>MR.FixUndercuts.scoreUndercuts</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -184,11 +188,11 @@
         <name>improveDirection</name>
         <qualifiedname>MR.FixUndercuts.improveDirection</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.FixUndercuts.Const_ImproveDirectionParameters</type>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1Const__ImproveDirectionParameters" kindref="compound">MR.FixUndercuts.Const_ImproveDirectionParameters</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -199,7 +203,7 @@
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="note"><para>does not support wallAngle yet <hruler/>
- Top view: / __/ ---<ndash/>&amp;gt; maximum radial line <ref refid="classMR_1a29dcb3e30c1418225ff5c8f1bdc4193b" kindref="member">Side</ref> view: | / _/ / / \/ \ \ | / _/ - maxBaseAngle |<ndash/>|---<mdash/>|<ndash/>| | / _/ difference between two angles is baseAngleStep \ _/_/ / | / _/ __/____/ |/_/ This picture shows polarAngle = 60 deg Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1abd8b1721231cb7ebaff5ab21d435a40c" kindref="member">MR.FixUndercuts.improveDirection</ref></computeroutput>. </para>
+ Top view: / __/ ---<ndash/>&gt; maximum radial line <ref refid="classMR_1a29dcb3e30c1418225ff5c8f1bdc4193b" kindref="member">Side</ref> view: | / _/ / / \/ \ \ | / _/ - maxBaseAngle |<ndash/>|---<mdash/>|<ndash/>| | / _/ difference between two angles is baseAngleStep \ _/_/ / | / _/ __/____/ |/_/ This picture shows polarAngle = 60 deg Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1abd8b1721231cb7ebaff5ab21d435a40c" kindref="member">MR.FixUndercuts.improveDirection</ref></computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -214,15 +218,15 @@
         <name>distMapImproveDirection</name>
         <qualifiedname>MR.FixUndercuts.distMapImproveDirection</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.FixUndercuts.Const_DistMapImproveDirectionParameters</type>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1Const__DistMapImproveDirectionParameters" kindref="compound">MR.FixUndercuts.Const_DistMapImproveDirectionParameters</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
-<para>Score candidates with distance maps, lower resolution -&amp;gt; faster score. </para>
+<para>Score candidates with distance maps, lower resolution -&gt; faster score. </para>
         </briefdescription>
         <detaileddescription>
 <para><simplesect kind="note"><para>does not support wallAngle yet Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1a3298ccc305ef370df07890656513eb12" kindref="member">MR.FixUndercuts.distMapImproveDirection</ref></computeroutput>. </para>

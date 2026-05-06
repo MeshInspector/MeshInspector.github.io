@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MeshFromVoxelsPostProcessingParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MeshFromVoxelsPostProcessingParams" prot="public" virt="non-virtual">MR.MeshFromVoxelsPostProcessingParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a243f5e849a9295f1edbb25403716d1f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MeshFromVoxelsPostProcessingParams.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.voxelSize</qualifiedname>
+        <briefdescription>
+<para>The size of voxel that was used for mesh creation, must be set. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="550" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="550" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1abecf1c0b3eadb060ff1bab5e626afd54" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_MeshFromVoxelsPostProcessingParams.reduceAngleNumIters</definition>
+        <argsstring></argsstring>
+        <name>reduceAngleNumIters</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.reduceAngleNumIters</qualifiedname>
+        <briefdescription>
+<para>the number of iterations to minimize summed deviation of triangle-triangle angles from plane; this mode highlights sharp edges; if decimation is on, this mode is performed before and after decimation and further reduces the number of triangles </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="558" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1aa5919de58f57290cbabb1cf5aea00c30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeshFromVoxelsPostProcessingParams.decimate</definition>
+        <argsstring></argsstring>
+        <name>decimate</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.decimate</qualifiedname>
+        <briefdescription>
+<para>whether to decimate resulting mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="564" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="564" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a21264b6c73000861f7da7251598c7652" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MeshFromVoxelsPostProcessingParams.tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.tinyEdgeLength</qualifiedname>
+        <briefdescription>
+<para>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="571" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="571" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a43fc45f14323dcf21efa5bbd818198db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.? UndirectedEdgeBitSet MR.Const_MeshFromVoxelsPostProcessingParams.sharpEdges</definition>
+        <argsstring></argsstring>
+        <name>sharpEdges</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.sharpEdges</qualifiedname>
+        <briefdescription>
+<para>sharp edges that are maintained during post-processing </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="577" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="578" bodyend="589"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a9eaa8313c26a89e3726bafc789e83b26" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_MeshFromVoxelsPostProcessingParams.__ref_storage_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_voxelSize</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.__ref_storage_voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="551" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="551" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a12f3f788b57b27c231186686b3139364" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_MeshFromVoxelsPostProcessingParams.__ref_storage_reduceAngleNumIters</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_reduceAngleNumIters</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.__ref_storage_reduceAngleNumIters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="559" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="559" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a48dfcc407255536d213261da0aa8e2bc" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_MeshFromVoxelsPostProcessingParams.__ref_storage_decimate</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_decimate</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.__ref_storage_decimate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="565" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a402b2be35ebd27a86ceeb474515c7311" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_MeshFromVoxelsPostProcessingParams.__ref_storage_tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_tinyEdgeLength</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.__ref_storage_tinyEdgeLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="572" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="572" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1ac710b0263f1a32b06c5a5f11c240025c" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.UndirectedEdgeBitSet._Underlying **</type>
+        <definition>unsafe MR.UndirectedEdgeBitSet._Underlying** MR.Const_MeshFromVoxelsPostProcessingParams.__ptr_storage_sharpEdges</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_sharpEdges</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.__ptr_storage_sharpEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="590" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="590" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a3748a3e3a6b7d22a6fe95804f3c20a14" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MeshFromVoxelsPostProcessingParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="535" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="535" bodyend="543"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a81294fb495f9865933f9584921b7c0c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MeshFromVoxelsPostProcessingParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="544" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="544" bodyend="544"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1aa5d2eaf3ae0ba7a39c522cdf77bbf3c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshFromVoxelsPostProcessingParams.Const_MeshFromVoxelsPostProcessingParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_MeshFromVoxelsPostProcessingParams</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.Const_MeshFromVoxelsPostProcessingParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="641" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="641" bodyend="647"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1ae4116b8319a8d746f3ffac2adbcc672b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshFromVoxelsPostProcessingParams.Const_MeshFromVoxelsPostProcessingParams</definition>
+        <argsstring>(float voxelSize, int reduceAngleNumIters, bool decimate, float tinyEdgeLength, MR.UndirectedEdgeBitSet? sharpEdges)</argsstring>
+        <name>Const_MeshFromVoxelsPostProcessingParams</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.Const_MeshFromVoxelsPostProcessingParams</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>reduceAngleNumIters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>decimate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tinyEdgeLength</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref>?</type>
+          <declname>sharpEdges</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MeshFromVoxelsPostProcessingParams" kindref="compound">MR.MeshFromVoxelsPostProcessingParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="652" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="652" bodyend="659"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1af6be9c0223cb8704c907502342d1d8a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshFromVoxelsPostProcessingParams.Const_MeshFromVoxelsPostProcessingParams</definition>
+        <argsstring>(MR.Const_MeshFromVoxelsPostProcessingParams _other)</argsstring>
+        <name>Const_MeshFromVoxelsPostProcessingParams</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.Const_MeshFromVoxelsPostProcessingParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams" kindref="compound">MR.Const_MeshFromVoxelsPostProcessingParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshFromVoxelsPostProcessingParams_1ab63b124f35976f8e7c71bae542addd87" kindref="member">MR.MeshFromVoxelsPostProcessingParams.MeshFromVoxelsPostProcessingParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="664" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="664" bodyend="671"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1ad0e5d3be8febc057117ff5059b1ae855" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshFromVoxelsPostProcessingParams.Const_MeshFromVoxelsPostProcessingParams</definition>
+        <argsstring>(MeshFromVoxelsPostProcessingParams _other)</argsstring>
+        <name>Const_MeshFromVoxelsPostProcessingParams</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.Const_MeshFromVoxelsPostProcessingParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshFromVoxelsPostProcessingParams" kindref="compound">MeshFromVoxelsPostProcessingParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshFromVoxelsPostProcessingParams_1ab63b124f35976f8e7c71bae542addd87" kindref="member">MR.MeshFromVoxelsPostProcessingParams.MeshFromVoxelsPostProcessingParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="676" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="676" bodyend="676"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1aa3898b7a615aea747bb2804ca2922f62" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshFromVoxelsPostProcessingParams.~Const_MeshFromVoxelsPostProcessingParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_MeshFromVoxelsPostProcessingParams</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.~Const_MeshFromVoxelsPostProcessingParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="545" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="545" bodyend="545"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a661b29feeee06d1c2e62bebfc1d21620" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshFromVoxelsPostProcessingParams.Const_MeshFromVoxelsPostProcessingParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_MeshFromVoxelsPostProcessingParams</name>
+        <qualifiedname>MR.Const_MeshFromVoxelsPostProcessingParams.Const_MeshFromVoxelsPostProcessingParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="630" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="630" bodyend="635"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MeshFromVoxelsPostProcessingParams" kindref="compound">MR.MeshFromVoxelsPostProcessingParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MeshFromVoxelsPostProcessingParams</label>
+        <link refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.MeshFromVoxelsPostProcessingParams</label>
+        <link refid="classMR_1_1MeshFromVoxelsPostProcessingParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_MeshFromVoxelsPostProcessingParams</label>
+        <link refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_sharpEdges</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" line="529" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRRebuildMesh.cs" bodystart="530" bodyend="677"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1ac710b0263f1a32b06c5a5f11c240025c" prot="protected" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>__ptr_storage_sharpEdges</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a48dfcc407255536d213261da0aa8e2bc" prot="protected" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>__ref_storage_decimate</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a12f3f788b57b27c231186686b3139364" prot="protected" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>__ref_storage_reduceAngleNumIters</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a402b2be35ebd27a86ceeb474515c7311" prot="protected" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>__ref_storage_tinyEdgeLength</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a9eaa8313c26a89e3726bafc789e83b26" prot="protected" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a661b29feeee06d1c2e62bebfc1d21620" prot="package" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>Const_MeshFromVoxelsPostProcessingParams</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1aa5d2eaf3ae0ba7a39c522cdf77bbf3c2" prot="public" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>Const_MeshFromVoxelsPostProcessingParams</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1ae4116b8319a8d746f3ffac2adbcc672b" prot="public" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>Const_MeshFromVoxelsPostProcessingParams</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1af6be9c0223cb8704c907502342d1d8a6" prot="public" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>Const_MeshFromVoxelsPostProcessingParams</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1ad0e5d3be8febc057117ff5059b1ae855" prot="public" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>Const_MeshFromVoxelsPostProcessingParams</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1aa5919de58f57290cbabb1cf5aea00c30" prot="public" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>decimate</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a3748a3e3a6b7d22a6fe95804f3c20a14" prot="protected" virt="virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a81294fb495f9865933f9584921b7c0c3" prot="public" virt="virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1abecf1c0b3eadb060ff1bab5e626afd54" prot="public" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>reduceAngleNumIters</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a43fc45f14323dcf21efa5bbd818198db" prot="public" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>sharpEdges</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a21264b6c73000861f7da7251598c7652" prot="public" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>tinyEdgeLength</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1a243f5e849a9295f1edbb25403716d1f7" prot="public" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>voxelSize</name></member>
+      <member refid="classMR_1_1Const__MeshFromVoxelsPostProcessingParams_1aa3898b7a615aea747bb2804ca2922f62" prot="private" virt="non-virtual"><scope>MR::Const_MeshFromVoxelsPostProcessingParams</scope><name>~Const_MeshFromVoxelsPostProcessingParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoDefInit__MREdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoDefInit_MREdgeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MREdgeId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoDefInit__MREdgeId" prot="public" virt="non-virtual">MR.Const_NoDefInit_MREdgeId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1NoDefInit__MREdgeId_1a0f278a85dc521495b15e626942c0274b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -86,11 +86,11 @@
         <name>NoDefInit_MREdgeId</name>
         <qualifiedname>MR.NoDefInit_MREdgeId.NoDefInit_MREdgeId</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MREdgeId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MREdgeId" kindref="compound">MR.Const_NoDefInit_MREdgeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;::NoDefInit</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -109,7 +109,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;::NoDefInit</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,11 +124,11 @@
         <name>assign</name>
         <qualifiedname>MR.NoDefInit_MREdgeId.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MREdgeId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MREdgeId" kindref="compound">MR.Const_NoDefInit_MREdgeId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,7 +143,7 @@
         <name>get</name>
         <qualifiedname>MR.NoDefInit_MREdgeId.get</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1NoDefInit__MREdgeId_1a1e0b7c52ea6e2825dba9ea38a761a81d" kindref="member">get</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;<ref refid="classMR_1_1NoDefInit__MREdgeId_1a1e0b7c52ea6e2825dba9ea38a761a81d" kindref="member">get</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -162,7 +162,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;::operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -181,7 +181,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;::operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -191,7 +191,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -204,6 +204,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MREdgeId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MREdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -230,6 +231,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MREdgeId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MREdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -249,16 +251,37 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="1116" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="1117" bodyend="1208"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1afaa7b06ddc868067d38fffcc5a6a5bf7" prot="protected" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>__ref_storage_id</name></member>
       <member refid="classMR_1_1NoDefInit__MREdgeId_1ab434b8eb821a322e4a343f2b9fe03277" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>addAssign</name></member>
       <member refid="classMR_1_1NoDefInit__MREdgeId_1a79e28c502ea13151645e5b46cf5cef34" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1a38c0816bb7cfd1da85709bf5b5457d7e" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>Const_NoDefInit_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1a43b9acd93a2c5d68c7d70e4ad3e8fa2e" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>Const_NoDefInit_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1a65fcbe5a8bdf3340fe5acc38a304ac08" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>Const_NoDefInit_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1a413899711cddb0eb920c959a5014f7f8" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>Const_NoDefInit_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1af29a79bdc89df964ea94f6b5cd5aefe7" prot="protected" virt="virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1a194cdb9cfdd5ceabf471d656327fa92f" prot="public" virt="virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1acd6cab6da5b36b1099c5b02364eb26bc" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1a4acba176bcfa8f0a2117ffb9ad7556a6" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1a09a16a12f8c6f7516ec7b9f0d6fd1735" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>even</name></member>
       <member refid="classMR_1_1NoDefInit__MREdgeId_1a1e0b7c52ea6e2825dba9ea38a761a81d" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>get</name></member>
       <member refid="classMR_1_1NoDefInit__MREdgeId_1a0f278a85dc521495b15e626942c0274b" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>id</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1a365881709ca2572797281549be416da8" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>less</name></member>
       <member refid="classMR_1_1NoDefInit__MREdgeId_1a5a5ad84d7988e26841d202b3e99fce4a" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>NoDefInit_MREdgeId</name></member>
       <member refid="classMR_1_1NoDefInit__MREdgeId_1a58b7fde77b69ee024a2bc893003ca2db" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>NoDefInit_MREdgeId</name></member>
       <member refid="classMR_1_1NoDefInit__MREdgeId_1aeb1411db410f120db3349c8b7d9aa192" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>NoDefInit_MREdgeId</name></member>
       <member refid="classMR_1_1NoDefInit__MREdgeId_1a1b7bfa8ce62692f479db714677bede17" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>NoDefInit_MREdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1aa28ca0788a815cc97241fd433cc9a95a" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>odd</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1a96cbbd33ac202c103df5e3db2127c066" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1aeae1f42e455b41341ae4241cec3240ba" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>operator int</name></member>
       <member refid="classMR_1_1NoDefInit__MREdgeId_1a2675027970ec320e149b35e4b3ba92a8" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>operator MR.Box_EdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1ae5dc717bb92a5290d6a32ea9881662d3" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>operator MR.ConstBox_EdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1ac776d91a36399430626af05f1a0a9537" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>operator MR.UndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1a70b495648aa79b499d7248022678f374" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1a5dc68aa37422a46e6ffca8d349babea8" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>operator==</name></member>
       <member refid="classMR_1_1NoDefInit__MREdgeId_1ae6702dc43a75b1de46e2969a52fe656a" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1adc7c89ee48ffe9c7b8e421723cfc1839" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>sym</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1a875624924b253cdc170fec3427d2570d" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>undirected</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MREdgeId_1ac5d43ee6581dc79748125a21f88b59cb" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MREdgeId</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

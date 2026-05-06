@@ -1,0 +1,737 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRMeshTotalAngle_8h" kind="file" language="C++">
+    <compoundname>MRMeshTotalAngle.h</compoundname>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRMeshTotalAngle.h</label>
+        <link refid="MRMeshTotalAngle_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" prot="public" static="no">
+        <type>struct <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref></type>
+        <definition>typedef struct MR_ReduceTotalAngleParams MR_ReduceTotalAngleParams</definition>
+        <argsstring></argsstring>
+        <name>MR_ReduceTotalAngleParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::ReduceTotalAngleParams</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="22" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a9039a91ec931e96a1a8fd83c90679082" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_ReduceTotalAngleParams_Get_maxAngleChange</definition>
+        <argsstring>(const MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_Get_maxAngleChange</name>
+        <param>
+          <type>const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximal allowed dihedral angle change (in radians) over the flipped edge Returns a pointer to a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>maxAngleChange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="29" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="29" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a1bd702ac48d1522370dae8a499fe1a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ReduceTotalAngleParams_Set_maxAngleChange</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *_this, float value)</argsstring>
+        <name>MR_ReduceTotalAngleParams_Set_maxAngleChange</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximal allowed dihedral angle change (in radians) over the flipped edge Modifies a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>maxAngleChange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>maxAngleChange</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="35" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="35" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a6b9b3b9b93dc31e3969b03736defd39a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_ReduceTotalAngleParams_GetMutable_maxAngleChange</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_GetMutable_maxAngleChange</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximal allowed dihedral angle change (in radians) over the flipped edge Returns a mutable pointer to a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>maxAngleChange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="42" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="42" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a88c69e118f696f982747f857d2d68c3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_ReduceTotalAngleParams_Get_criticalTriAspectRatio</definition>
+        <argsstring>(const MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_Get_criticalTriAspectRatio</name>
+        <param>
+          <type>const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value Returns a pointer to a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>criticalTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="50" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="50" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a70a9905fba832c30daff13dddc638bc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ReduceTotalAngleParams_Set_criticalTriAspectRatio</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *_this, float value)</argsstring>
+        <name>MR_ReduceTotalAngleParams_Set_criticalTriAspectRatio</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value Modifies a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>criticalTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>criticalTriAspectRatio</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="57" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1aa47a8cddb6f8fd32c0d7412387db995a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_ReduceTotalAngleParams_GetMutable_criticalTriAspectRatio</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_GetMutable_criticalTriAspectRatio</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if this value is less than FLT_MAX then the algorithm will ignore dihedral angle check if one of triangles has aspect ratio more than this value Returns a mutable pointer to a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>criticalTriAspectRatio</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="65" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="65" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a617ca67ede6f5fbb42e368a8a1c3832f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
+        <definition>MRC_API const float * MR_ReduceTotalAngleParams_Get_factorDelone</definition>
+        <argsstring>(const MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_Get_factorDelone</name>
+        <param>
+          <type>const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This value must be in [0,1] range; factorDelone = 0 means that only dihedral angles are minimized, ignoring Delaunay criterion; factorDelone = 1 means that only Delaunay criterion is optimized ignoring dihedral angles; other values mean that a mixture of both criteria will be optimized Returns a pointer to a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>factorDelone</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="75" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="75" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1ac13f3ce3bbd87d4d00dfcef01773499a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ReduceTotalAngleParams_Set_factorDelone</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *_this, float value)</argsstring>
+        <name>MR_ReduceTotalAngleParams_Set_factorDelone</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This value must be in [0,1] range; factorDelone = 0 means that only dihedral angles are minimized, ignoring Delaunay criterion; factorDelone = 1 means that only Delaunay criterion is optimized ignoring dihedral angles; other values mean that a mixture of both criteria will be optimized Modifies a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>factorDelone</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>factorDelone</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="84" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a8d9d319767676f3097c7b492ed7dee86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
+        <definition>MRC_API float * MR_ReduceTotalAngleParams_GetMutable_factorDelone</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_GetMutable_factorDelone</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This value must be in [0,1] range; factorDelone = 0 means that only dihedral angles are minimized, ignoring Delaunay criterion; factorDelone = 1 means that only Delaunay criterion is optimized ignoring dihedral angles; other values mean that a mixture of both criteria will be optimized Returns a mutable pointer to a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>factorDelone</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="94" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="94" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1aa50dc1d30c5ccb23b87993ce085bd6a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
+        <definition>MRC_API const MR_FaceBitSet *const  * MR_ReduceTotalAngleParams_Get_region</definition>
+        <argsstring>(const MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_Get_region</name>
+        <param>
+          <type>const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only edges with left and right faces in this set can be flipped Returns a pointer to a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="101" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="101" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1aa4216abc10ebd9420f62fdf733d992d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ReduceTotalAngleParams_Set_region</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *_this, const MR_FaceBitSet *value)</argsstring>
+        <name>MR_ReduceTotalAngleParams_Set_region</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only edges with left and right faces in this set can be flipped Modifies a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>region</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="108" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="108" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a47665c382a4def48ce60f0fb0d773caa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
+        <definition>MRC_API const MR_FaceBitSet ** MR_ReduceTotalAngleParams_GetMutable_region</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_GetMutable_region</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only edges with left and right faces in this set can be flipped Returns a mutable pointer to a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="115" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="115" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a221772f69271cb2069b115faed1a482c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *const *</type>
+        <definition>MRC_API const MR_UndirectedEdgeBitSet *const  * MR_ReduceTotalAngleParams_Get_notFlippable</definition>
+        <argsstring>(const MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_Get_notFlippable</name>
+        <param>
+          <type>const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Edges specified by this bit-set will never be flipped Returns a pointer to a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="122" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="122" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a10d58584f3bf8aa8ee24083f479abe27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ReduceTotalAngleParams_Set_notFlippable</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *_this, const MR_UndirectedEdgeBitSet *value)</argsstring>
+        <name>MR_ReduceTotalAngleParams_Set_notFlippable</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Edges specified by this bit-set will never be flipped Modifies a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>notFlippable</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>notFlippable</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="129" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1acb15336e945b972f404b41bcfed40465" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> **</type>
+        <definition>MRC_API const MR_UndirectedEdgeBitSet ** MR_ReduceTotalAngleParams_GetMutable_notFlippable</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_GetMutable_notFlippable</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Edges specified by this bit-set will never be flipped Returns a mutable pointer to a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>notFlippable</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="136" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="136" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a3ccdc4349a626abe192cf82c4380cc1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
+        <definition>MRC_API const MR_VertBitSet *const  * MR_ReduceTotalAngleParams_Get_vertRegion</definition>
+        <argsstring>(const MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_Get_vertRegion</name>
+        <param>
+          <type>const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only edges with origin or destination in this set before or after flip can be flipped Returns a pointer to a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>vertRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="143" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="143" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a51a559215e7acbe52dcc4c2941a359f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ReduceTotalAngleParams_Set_vertRegion</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *_this, const MR_VertBitSet *value)</argsstring>
+        <name>MR_ReduceTotalAngleParams_Set_vertRegion</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only edges with origin or destination in this set before or after flip can be flipped Modifies a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>vertRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>vertRegion</computeroutput>. When this function is called, this object will drop object references it held previously in <computeroutput>vertRegion</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="150" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1adbd393a25a5f5bd1dab7ffe1ac5b0ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
+        <definition>MRC_API const MR_VertBitSet ** MR_ReduceTotalAngleParams_GetMutable_vertRegion</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_GetMutable_vertRegion</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only edges with origin or destination in this set before or after flip can be flipped Returns a mutable pointer to a member variable of class <computeroutput>MR::ReduceTotalAngleParams</computeroutput> named <computeroutput>vertRegion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="157" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="157" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1af84787703e3564edaa3b358c850d49bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+        <definition>MRC_API MR_ReduceTotalAngleParams * MR_ReduceTotalAngleParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_ReduceTotalAngleParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTotalAngle_8h_1a7aa74dd239d05238a5683fce04b6b6de" kindref="member">MR_ReduceTotalAngleParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="161" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="161" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1afb6d56adae350bef333c930e78ad5fcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+        <definition>MRC_API MR_ReduceTotalAngleParams * MR_ReduceTotalAngleParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_ReduceTotalAngleParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMeshTotalAngle_8h_1a48b52294139a9726b407b5b859ac86ad" kindref="member">MR_ReduceTotalAngleParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMeshTotalAngle_8h_1ab59fd558cbaa3aa49d9e329444bf85d9" kindref="member">MR_ReduceTotalAngleParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMeshTotalAngle_8h_1aa049984b868c2e3fe3546ba874069fb4" kindref="member">MR_ReduceTotalAngleParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="166" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="166" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a68bf7009bd188b526281c71a6c866f04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+        <definition>MRC_API MR_ReduceTotalAngleParams * MR_ReduceTotalAngleParams_ConstructFrom</definition>
+        <argsstring>(float maxAngleChange, float criticalTriAspectRatio, float factorDelone, const MR_FaceBitSet *region, const MR_UndirectedEdgeBitSet *notFlippable, const MR_VertBitSet *vertRegion)</argsstring>
+        <name>MR_ReduceTotalAngleParams_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChange</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>factorDelone</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+          <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>vertRegion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::ReduceTotalAngleParams</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>notFlippable</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>vertRegion</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTotalAngle_8h_1a7aa74dd239d05238a5683fce04b6b6de" kindref="member">MR_ReduceTotalAngleParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="174" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="174" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1aa049984b868c2e3fe3546ba874069fb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+        <definition>MRC_API const MR_ReduceTotalAngleParams * MR_ReduceTotalAngleParams_OffsetPtr</definition>
+        <argsstring>(const MR_ReduceTotalAngleParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ReduceTotalAngleParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="178" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="178" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1ab59fd558cbaa3aa49d9e329444bf85d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+        <definition>MRC_API MR_ReduceTotalAngleParams * MR_ReduceTotalAngleParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ReduceTotalAngleParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="182" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="182" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1ac1da08f04b7edcd16f0aaf13251638d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+        <definition>MRC_API MR_ReduceTotalAngleParams * MR_ReduceTotalAngleParams_ConstructFromAnother</definition>
+        <argsstring>(const MR_ReduceTotalAngleParams *_other)</argsstring>
+        <name>MR_ReduceTotalAngleParams_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ReduceTotalAngleParams::ReduceTotalAngleParams</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshTotalAngle_8h_1a7aa74dd239d05238a5683fce04b6b6de" kindref="member">MR_ReduceTotalAngleParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="188" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="188" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a7aa74dd239d05238a5683fce04b6b6de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ReduceTotalAngleParams_Destroy</definition>
+        <argsstring>(const MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="191" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="191" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a48b52294139a9726b407b5b859ac86ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ReduceTotalAngleParams_DestroyArray</definition>
+        <argsstring>(const MR_ReduceTotalAngleParams *_this)</argsstring>
+        <name>MR_ReduceTotalAngleParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="194" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="194" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a59d9ccacc83fe42cacb95e8f4864af1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+        <definition>MRC_API MR_ReduceTotalAngleParams * MR_ReduceTotalAngleParams_AssignFromAnother</definition>
+        <argsstring>(MR_ReduceTotalAngleParams *_this, const MR_ReduceTotalAngleParams *_other)</argsstring>
+        <name>MR_ReduceTotalAngleParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ReduceTotalAngleParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="202" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="202" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1a9bebc0f9ad34944db2c776fc82435c3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
+        <definition>MRC_API int MR_reduceTotalAngle</definition>
+        <argsstring>(MR_MeshTopology *topology, const MR_VertCoords *points, int numIters, const MR_ReduceTotalAngleParams *params, const MR_std_function_bool_from_float *progressCallback)</argsstring>
+        <name>MR_reduceTotalAngle</name>
+        <param>
+          <type><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numIters</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progressCallback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimizes summed deviation of triangle-triangle angles from plane, where each edge is weighted by its length; performs the given number of iterations, during each the edges are flipped; returns the total number of flips done Generated from function <computeroutput>MR::reduceTotalAngle</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>progressCallback</computeroutput> is a single object. Parameter <computeroutput>progressCallback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="214" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="214" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTotalAngle_8h_1aea25b5856703f6aaefb015e93df3e327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
+        <definition>MRC_API int MR_reduceTotalAngleInMesh</definition>
+        <argsstring>(MR_Mesh *mesh, int numIters, const MR_ReduceTotalAngleParams *params, const MR_std_function_bool_from_float *progressCallback)</argsstring>
+        <name>MR_reduceTotalAngleInMesh</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numIters</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>progressCallback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::reduceTotalAngleInMesh</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>progressCallback</computeroutput> is a single object. Parameter <computeroutput>progressCallback</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" line="222" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h" declline="222" declcolumn="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTopology.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRMeshTotalAngle_8h_1a9039a91ec931e96a1a8fd83c90679082" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTotalAngle_8h_1a9039a91ec931e96a1a8fd83c90679082" kindref="member">MR_ReduceTotalAngleParams_Get_maxAngleChange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRMeshTotalAngle_8h_1a1bd702ac48d1522370dae8a499fe1a1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a1bd702ac48d1522370dae8a499fe1a1e" kindref="member">MR_ReduceTotalAngleParams_Set_maxAngleChange</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRMeshTotalAngle_8h_1a6b9b3b9b93dc31e3969b03736defd39a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTotalAngle_8h_1a6b9b3b9b93dc31e3969b03736defd39a" kindref="member">MR_ReduceTotalAngleParams_GetMutable_maxAngleChange</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRMeshTotalAngle_8h_1a88c69e118f696f982747f857d2d68c3b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTotalAngle_8h_1a88c69e118f696f982747f857d2d68c3b" kindref="member">MR_ReduceTotalAngleParams_Get_criticalTriAspectRatio</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRMeshTotalAngle_8h_1a70a9905fba832c30daff13dddc638bc8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a70a9905fba832c30daff13dddc638bc8" kindref="member">MR_ReduceTotalAngleParams_Set_criticalTriAspectRatio</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRMeshTotalAngle_8h_1aa47a8cddb6f8fd32c0d7412387db995a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTotalAngle_8h_1aa47a8cddb6f8fd32c0d7412387db995a" kindref="member">MR_ReduceTotalAngleParams_GetMutable_criticalTriAspectRatio</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRMeshTotalAngle_8h_1a617ca67ede6f5fbb42e368a8a1c3832f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTotalAngle_8h_1a617ca67ede6f5fbb42e368a8a1c3832f" kindref="member">MR_ReduceTotalAngleParams_Get_factorDelone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRMeshTotalAngle_8h_1ac13f3ce3bbd87d4d00dfcef01773499a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1ac13f3ce3bbd87d4d00dfcef01773499a" kindref="member">MR_ReduceTotalAngleParams_Set_factorDelone</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRMeshTotalAngle_8h_1a8d9d319767676f3097c7b492ed7dee86" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTotalAngle_8h_1a8d9d319767676f3097c7b492ed7dee86" kindref="member">MR_ReduceTotalAngleParams_GetMutable_factorDelone</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRMeshTotalAngle_8h_1aa50dc1d30c5ccb23b87993ce085bd6a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTotalAngle_8h_1aa50dc1d30c5ccb23b87993ce085bd6a8" kindref="member">MR_ReduceTotalAngleParams_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="MRMeshTotalAngle_8h_1aa4216abc10ebd9420f62fdf733d992d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1aa4216abc10ebd9420f62fdf733d992d4" kindref="member">MR_ReduceTotalAngleParams_Set_region</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRMeshTotalAngle_8h_1a47665c382a4def48ce60f0fb0d773caa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRMeshTotalAngle_8h_1a47665c382a4def48ce60f0fb0d773caa" kindref="member">MR_ReduceTotalAngleParams_GetMutable_region</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRMeshTotalAngle_8h_1a221772f69271cb2069b115faed1a482c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTotalAngle_8h_1a221772f69271cb2069b115faed1a482c" kindref="member">MR_ReduceTotalAngleParams_Get_notFlippable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="MRMeshTotalAngle_8h_1a10d58584f3bf8aa8ee24083f479abe27" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a10d58584f3bf8aa8ee24083f479abe27" kindref="member">MR_ReduceTotalAngleParams_Set_notFlippable</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRMeshTotalAngle_8h_1acb15336e945b972f404b41bcfed40465" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRMeshTotalAngle_8h_1acb15336e945b972f404b41bcfed40465" kindref="member">MR_ReduceTotalAngleParams_GetMutable_notFlippable</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRMeshTotalAngle_8h_1a3ccdc4349a626abe192cf82c4380cc1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTotalAngle_8h_1a3ccdc4349a626abe192cf82c4380cc1f" kindref="member">MR_ReduceTotalAngleParams_Get_vertRegion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRMeshTotalAngle_8h_1a51a559215e7acbe52dcc4c2941a359f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a51a559215e7acbe52dcc4c2941a359f3" kindref="member">MR_ReduceTotalAngleParams_Set_vertRegion</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRMeshTotalAngle_8h_1adbd393a25a5f5bd1dab7ffe1ac5b0ec2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRMeshTotalAngle_8h_1adbd393a25a5f5bd1dab7ffe1ac5b0ec2" kindref="member">MR_ReduceTotalAngleParams_GetMutable_vertRegion</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="MRMeshTotalAngle_8h_1af84787703e3564edaa3b358c850d49bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*<ref refid="MRMeshTotalAngle_8h_1af84787703e3564edaa3b358c850d49bb" kindref="member">MR_ReduceTotalAngleParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRMeshTotalAngle_8h_1afb6d56adae350bef333c930e78ad5fcb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*<ref refid="MRMeshTotalAngle_8h_1afb6d56adae350bef333c930e78ad5fcb" kindref="member">MR_ReduceTotalAngleParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRMeshTotalAngle_8h_1a68bf7009bd188b526281c71a6c866f04" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*<ref refid="MRMeshTotalAngle_8h_1a68bf7009bd188b526281c71a6c866f04" kindref="member">MR_ReduceTotalAngleParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxAngleChange,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>criticalTriAspectRatio,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>factorDelone,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*notFlippable,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*vertRegion);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="MRMeshTotalAngle_8h_1aa049984b868c2e3fe3546ba874069fb4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*<ref refid="MRMeshTotalAngle_8h_1aa049984b868c2e3fe3546ba874069fb4" kindref="member">MR_ReduceTotalAngleParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRMeshTotalAngle_8h_1ab59fd558cbaa3aa49d9e329444bf85d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*<ref refid="MRMeshTotalAngle_8h_1ab59fd558cbaa3aa49d9e329444bf85d9" kindref="member">MR_ReduceTotalAngleParams_OffsetMutablePtr</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRMeshTotalAngle_8h_1ac1da08f04b7edcd16f0aaf13251638d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*<ref refid="MRMeshTotalAngle_8h_1ac1da08f04b7edcd16f0aaf13251638d5" kindref="member">MR_ReduceTotalAngleParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MRMeshTotalAngle_8h_1a7aa74dd239d05238a5683fce04b6b6de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a7aa74dd239d05238a5683fce04b6b6de" kindref="member">MR_ReduceTotalAngleParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRMeshTotalAngle_8h_1a48b52294139a9726b407b5b859ac86ad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a48b52294139a9726b407b5b859ac86ad" kindref="member">MR_ReduceTotalAngleParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRMeshTotalAngle_8h_1a59d9ccacc83fe42cacb95e8f4864af1c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*<ref refid="MRMeshTotalAngle_8h_1a59d9ccacc83fe42cacb95e8f4864af1c" kindref="member">MR_ReduceTotalAngleParams_AssignFromAnother</ref>(<ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRMeshTotalAngle_8h_1a9bebc0f9ad34944db2c776fc82435c3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a9bebc0f9ad34944db2c776fc82435c3f" kindref="member">MR_reduceTotalAngle</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numIters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCallback);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="MRMeshTotalAngle_8h_1aea25b5856703f6aaefb015e93df3e327" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1aea25b5856703f6aaefb015e93df3e327" kindref="member">MR_reduceTotalAngleInMesh</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numIters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTotalAngle_8h_1a526e3d277ab46df4ae953a054409455f" kindref="member">MR_ReduceTotalAngleParams</ref><sp/>*params,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCallback);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTotalAngle.h"/>
+  </compounddef>
+</doxygen>

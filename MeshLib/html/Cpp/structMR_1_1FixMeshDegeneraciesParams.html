@@ -167,6 +167,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a03fabfe38c70165440f7eaf7677e07ce" id="r_a03fabfe38c70165440f7eaf7677e07ce"><td class="memItemLeft" align="right" valign="top">FaceBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03fabfe38c70165440f7eaf7677e07ce">region</a> = nullptr</td></tr>
 <tr class="memdesc:a03fabfe38c70165440f7eaf7677e07ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">degenerations will be fixed only in given region, it is updated during the operation  <br /></td></tr>
 <tr class="memitem:a53fef689c0014c588a5990ec1626c5a7" id="r_a53fef689c0014c588a5990ec1626c5a7"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#a5c91e8c36061ca0e6a68afef44486f42">MR::FixMeshDegeneraciesParams::Mode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53fef689c0014c588a5990ec1626c5a7">Remesh</a></td></tr>
+<tr class="memitem:a39c6c7eb9bf8c2a75b88975d8f434101" id="r_a39c6c7eb9bf8c2a75b88975d8f434101"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39c6c7eb9bf8c2a75b88975d8f434101">mimicPatch</a> = false</td></tr>
 <tr class="memitem:a0eff7987d6820ff165e578fac210c66e" id="r_a0eff7987d6820ff165e578fac210c66e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eff7987d6820ff165e578fac210c66e">cb</a></td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Member Enumeration Documentation</h2>
@@ -259,6 +260,21 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>maximum permitted deviation from the original surface </p>
+
+</div>
+</div>
+<a id="a39c6c7eb9bf8c2a75b88975d8f434101" name="a39c6c7eb9bf8c2a75b88975d8f434101"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39c6c7eb9bf8c2a75b88975d8f434101">&#9670;&#160;</a></span>mimicPatch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::FixMeshDegeneraciesParams::mimicPatch = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>trying to stay close to initial surface when patching also disables smoothing on patch </p>
 
 </div>
 </div>

@@ -3,6 +3,9 @@
   <compounddef id="classMR_1_1MeshSave" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshSave</compoundname>
     <innerclass refid="classMR_1_1MeshSave_1_1BinaryStlSaver" prot="public">MR::MeshSave::BinaryStlSaver</innerclass>
+    <innerclass refid="classMR_1_1MeshSave_1_1Const__BinaryStlSaver" prot="public">MR::MeshSave::Const_BinaryStlSaver</innerclass>
+    <innerclass refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions" prot="public">MR::MeshSave::Const_CtmSaveOptions</innerclass>
+    <innerclass refid="classMR_1_1MeshSave_1_1Const__NamedXfMesh" prot="public">MR::MeshSave::Const_NamedXfMesh</innerclass>
     <innerclass refid="classMR_1_1MeshSave_1_1CtmSaveOptions" prot="public">MR::MeshSave::CtmSaveOptions</innerclass>
     <innerclass refid="classMR_1_1MeshSave_1_1NamedXfMesh" prot="public">MR::MeshSave::NamedXfMesh</innerclass>
     <sectiondef kind="public-static-func">
@@ -13,7 +16,7 @@
         <name>toCtm</name>
         <qualifiedname>MR.MeshSave.toCtm</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -21,7 +24,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.MeshSave.Const_CtmSaveOptions</type>
+          <type><ref refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions" kindref="compound">MR.MeshSave.Const_CtmSaveOptions</ref></type>
           <declname>options</declname>
         </param>
         <briefdescription>
@@ -40,7 +43,7 @@
         <name>toCtm</name>
         <qualifiedname>MR.MeshSave.toCtm</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -48,7 +51,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.MeshSave.Const_CtmSaveOptions</type>
+          <type><ref refid="classMR_1_1MeshSave_1_1Const__CtmSaveOptions" kindref="compound">MR.MeshSave.Const_CtmSaveOptions</ref></type>
           <declname>options</declname>
         </param>
         <briefdescription>
@@ -67,7 +70,7 @@
         <name>toCtm</name>
         <qualifiedname>MR.MeshSave.toCtm</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -75,7 +78,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -95,7 +98,7 @@
         <name>toCtm</name>
         <qualifiedname>MR.MeshSave.toCtm</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -103,7 +106,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -123,7 +126,7 @@
         <name>toMrmesh</name>
         <qualifiedname>MR.MeshSave.toMrmesh</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -131,7 +134,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -151,7 +154,7 @@
         <name>toMrmesh</name>
         <qualifiedname>MR.MeshSave.toMrmesh</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -159,7 +162,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -179,7 +182,7 @@
         <name>toOff</name>
         <qualifiedname>MR.MeshSave.toOff</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -187,7 +190,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -207,7 +210,7 @@
         <name>toOff</name>
         <qualifiedname>MR.MeshSave.toOff</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -215,7 +218,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -235,7 +238,7 @@
         <name>toObj</name>
         <qualifiedname>MR.MeshSave.toObj</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -243,7 +246,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref></type>
           <declname>settings</declname>
         </param>
         <param>
@@ -276,7 +279,7 @@
         <name>toObj</name>
         <qualifiedname>MR.MeshSave.toObj</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -284,7 +287,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref></type>
           <declname>settings</declname>
         </param>
         <param>
@@ -307,7 +310,7 @@
         <name>toObj</name>
         <qualifiedname>MR.MeshSave.toObj</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -315,7 +318,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -335,7 +338,7 @@
         <name>toObj</name>
         <qualifiedname>MR.MeshSave.toObj</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -343,7 +346,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -363,7 +366,7 @@
         <name>toBinaryStl</name>
         <qualifiedname>MR.MeshSave.toBinaryStl</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -371,7 +374,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -391,7 +394,7 @@
         <name>toBinaryStl</name>
         <qualifiedname>MR.MeshSave.toBinaryStl</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -399,7 +402,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -419,7 +422,7 @@
         <name>toAsciiStl</name>
         <qualifiedname>MR.MeshSave.toAsciiStl</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -427,7 +430,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -447,7 +450,7 @@
         <name>toAsciiStl</name>
         <qualifiedname>MR.MeshSave.toAsciiStl</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -455,7 +458,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -475,7 +478,7 @@
         <name>toPly</name>
         <qualifiedname>MR.MeshSave.toPly</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -483,7 +486,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -503,7 +506,7 @@
         <name>toPly</name>
         <qualifiedname>MR.MeshSave.toPly</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -511,7 +514,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -531,7 +534,7 @@
         <name>toModel3mf</name>
         <qualifiedname>MR.MeshSave.toModel3mf</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -539,7 +542,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -559,7 +562,7 @@
         <name>toModel3mf</name>
         <qualifiedname>MR.MeshSave.toModel3mf</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -567,7 +570,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -587,7 +590,7 @@
         <name>to3mf</name>
         <qualifiedname>MR.MeshSave.to3mf</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -595,7 +598,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -615,7 +618,7 @@
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR.MeshSave.toAnySupportedFormat</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -623,7 +626,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -643,7 +646,7 @@
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR.MeshSave.toAnySupportedFormat</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -655,7 +658,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>

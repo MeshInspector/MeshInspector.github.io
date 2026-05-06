@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IComputeToolDistance" kind="class" language="C#" prot="public">
     <compoundname>MR::IComputeToolDistance</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IComputeToolDistance</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IComputeToolDistance" prot="public" virt="non-virtual">MR.Const_IComputeToolDistance</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1IComputeToolDistance_1a85e3cd31534e0aa15c453d579dbba905" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -39,11 +39,11 @@
           <declname>dims</declname>
         </param>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>toolpath</declname>
         </param>
         <param>
-          <type>MR.Const_EndMillTool</type>
+          <type><ref refid="classMR_1_1Const__EndMillTool" kindref="compound">MR.Const_EndMillTool</ref></type>
           <declname>toolSpec</declname>
         </param>
         <briefdescription>
@@ -69,11 +69,11 @@
           <declname>dims</declname>
         </param>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>toolpath</declname>
         </param>
         <param>
-          <type>MR.Const_Polyline2</type>
+          <type><ref refid="classMR_1_1Const__Polyline2" kindref="compound">MR.Const_Polyline2</ref></type>
           <declname>toolProfile</declname>
         </param>
         <briefdescription>
@@ -103,6 +103,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IComputeToolDistance</label>
+        <link refid="classMR_1_1Const__IComputeToolDistance"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -124,6 +125,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IComputeToolDistance</label>
+        <link refid="classMR_1_1Const__IComputeToolDistance"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -138,6 +140,10 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="391" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="392" bodyend="430"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__IComputeToolDistance_1a69f30d90d87984389f70a863ebc80b91" prot="public" virt="non-virtual"><scope>MR::IComputeToolDistance</scope><name>computeToolDistance</name></member>
+      <member refid="classMR_1_1Const__IComputeToolDistance_1a6d56ecfc890853cf99afeffee0526441" prot="package" virt="non-virtual"><scope>MR::IComputeToolDistance</scope><name>Const_IComputeToolDistance</name></member>
+      <member refid="classMR_1_1Const__IComputeToolDistance_1ad99fae3925f5373e82350646f3865158" prot="protected" virt="virtual"><scope>MR::IComputeToolDistance</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IComputeToolDistance_1a909498343a645ba1248403d000ab5f21" prot="public" virt="virtual"><scope>MR::IComputeToolDistance</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IComputeToolDistance_1a85e3cd31534e0aa15c453d579dbba905" prot="package" virt="non-virtual"><scope>MR::IComputeToolDistance</scope><name>IComputeToolDistance</name></member>
       <member refid="classMR_1_1IComputeToolDistance_1a23000218763df7aafdd1ddd42749966b" prot="public" virt="non-virtual"><scope>MR::IComputeToolDistance</scope><name>prepare</name></member>
       <member refid="classMR_1_1IComputeToolDistance_1acadec69c168d5639734d20cda090385e" prot="public" virt="non-virtual"><scope>MR::IComputeToolDistance</scope><name>prepare</name></member>

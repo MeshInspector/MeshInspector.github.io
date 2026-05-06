@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Ball2f" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Ball2f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Ball2f" prot="public" virt="non-virtual">MR.Ball2f</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Ball2f_1abbb7ec7b5a42d52ff2d7563f020930ed" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_Ball2f.Elements</definition>
+        <argsstring></argsstring>
+        <name>Elements</name>
+        <qualifiedname>MR.Const_Ball2f.Elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="524" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="524" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Ball2f_1af6a74d238b63fc0afb50deadd764211f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe ref readonly MR.Vector2f MR.Const_Ball2f.center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <qualifiedname>MR.Const_Ball2f.center</qualifiedname>
+        <briefdescription>
+<para>ball's center </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="530" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="530" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Ball2f_1a1505825a22ea82a144f705904b17bc7e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Ball2f.radiusSq</definition>
+        <argsstring></argsstring>
+        <name>radiusSq</name>
+        <qualifiedname>MR.Const_Ball2f.radiusSq</qualifiedname>
+        <briefdescription>
+<para>ball's squared radius </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="536" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="536" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Ball2f_1a7f3de38550b5a9e8e0b0378894d214e9" prot="protected" static="yes" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_Ball2f.__ref_storage_Elements</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_Elements</name>
+        <qualifiedname>MR.Const_Ball2f.__ref_storage_Elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="525" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="525" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Ball2f_1a119eb4c4926d8e50f9e87f38cf3d445f" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref> *</type>
+        <definition>unsafe MR.Vector2f* MR.Const_Ball2f.__ref_storage_center</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_center</name>
+        <qualifiedname>MR.Const_Ball2f.__ref_storage_center</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="531" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Ball2f_1a901083490614c2960070f034a3c65096" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_Ball2f.__ref_storage_radiusSq</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_radiusSq</name>
+        <qualifiedname>MR.Const_Ball2f.__ref_storage_radiusSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="537" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="537" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Ball2f_1a24bad9103d53354ec4d3a98f8e211890" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Ball2f.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Ball2f.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="512" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="512" bodyend="520"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Ball2f_1a11337cca8c6c6cb3c0c114e296ca6ddc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Ball2f.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Ball2f.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="521" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="521" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Ball2f_1afa1948c9bc4b7c88b8c3940888c0185e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Ball2f.Const_Ball2f</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Ball2f</name>
+        <qualifiedname>MR.Const_Ball2f.Const_Ball2f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="579" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="579" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Ball2f_1a2324ee90f03c7f0b84ee34a489930b08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Ball2f.Const_Ball2f</definition>
+        <argsstring>(MR.Vector2f center, float radiusSq)</argsstring>
+        <name>Const_Ball2f</name>
+        <qualifiedname>MR.Const_Ball2f.Const_Ball2f</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusSq</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Ball2f" kindref="compound">MR.Ball2f</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="590" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="590" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Ball2f_1a06c4da53bad39dfb06a70971fde21160" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Ball2f.Const_Ball2f</definition>
+        <argsstring>(MR.Const_Ball2f _other)</argsstring>
+        <name>Const_Ball2f</name>
+        <qualifiedname>MR.Const_Ball2f.Const_Ball2f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Ball2f" kindref="compound">MR.Const_Ball2f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Ball2f_1a4d906434cfd7e97b3e56a6b72b20025c" kindref="member">MR.Ball2f.Ball2f</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="601" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="601" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Ball2f_1a0a15dd09b2ab556d990d9ea139c0f830" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Ball2f.Const_Ball2f</definition>
+        <argsstring>(Ball2f _other)</argsstring>
+        <name>Const_Ball2f</name>
+        <qualifiedname>MR.Const_Ball2f.Const_Ball2f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Ball2f" kindref="compound">Ball2f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Ball2f_1a4d906434cfd7e97b3e56a6b72b20025c" kindref="member">MR.Ball2f.Ball2f</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="613" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="613" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Ball2f_1a7d1b82b0316ccad2c54a23d310b589b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Ball2f.inside</definition>
+        <argsstring>(in MR.Vector2f pt)</argsstring>
+        <name>inside</name>
+        <qualifiedname>MR.Const_Ball2f.inside</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns true if given point is strictly inside the ball (not on its spherical surface) Generated from method <computeroutput><ref refid="classMR_1_1Const__Ball2f_1a7d1b82b0316ccad2c54a23d310b589b3" kindref="member">MR.Ball2f.inside</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="619" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="619" bodyend="627"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Ball2f_1ae2a48d96bbed30410875ef0d8c43d7af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Ball2f.outside</definition>
+        <argsstring>(in MR.Vector2f pt)</argsstring>
+        <name>outside</name>
+        <qualifiedname>MR.Const_Ball2f.outside</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns true if given point is strictly outside the ball (not on its spherical surface) Generated from method <computeroutput><ref refid="classMR_1_1Const__Ball2f_1ae2a48d96bbed30410875ef0d8c43d7af" kindref="member">MR.Ball2f.outside</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="633" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="633" bodyend="641"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Ball2f_1a167e70e44c57b3a030bd9a875230f364" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Ball2f.~Const_Ball2f</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Ball2f</name>
+        <qualifiedname>MR.Const_Ball2f.~Const_Ball2f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="522" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="522" bodyend="522"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Ball2f_1a0e15a3ac2ffbfe9352479dd48a0fccdb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_Ball2f.Const_Ball2f</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Ball2f</name>
+        <qualifiedname>MR.Const_Ball2f.Const_Ball2f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="539" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="539" bodyend="546"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Ball2f_1a64d3df7318db50a3c09f13623c17dc55" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Ball2f.Const_Ball2f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Ball2f</name>
+        <qualifiedname>MR.Const_Ball2f.Const_Ball2f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="568" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="568" bodyend="573"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a ball = points surrounded by a sphere in arbitrary space with vector type V Generated from class <computeroutput><ref refid="classMR_1_1Ball2f" kindref="compound">MR.Ball2f</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Ball2f</label>
+        <link refid="classMR_1_1Const__Ball2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Ball2f</label>
+        <link refid="classMR_1_1Ball2f"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_Ball2f</label>
+        <link refid="classMR_1_1Const__Ball2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_center</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="506" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="507" bodyend="642"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Ball2f_1a119eb4c4926d8e50f9e87f38cf3d445f" prot="protected" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>__ref_storage_center</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1a7f3de38550b5a9e8e0b0378894d214e9" prot="protected" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>__ref_storage_Elements</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1a901083490614c2960070f034a3c65096" prot="protected" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>__ref_storage_radiusSq</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1af6a74d238b63fc0afb50deadd764211f" prot="public" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>center</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1a0e15a3ac2ffbfe9352479dd48a0fccdb" prot="private" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>Const_Ball2f</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1a64d3df7318db50a3c09f13623c17dc55" prot="package" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>Const_Ball2f</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1afa1948c9bc4b7c88b8c3940888c0185e" prot="public" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>Const_Ball2f</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1a2324ee90f03c7f0b84ee34a489930b08" prot="public" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>Const_Ball2f</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1a06c4da53bad39dfb06a70971fde21160" prot="public" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>Const_Ball2f</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1a0a15dd09b2ab556d990d9ea139c0f830" prot="public" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>Const_Ball2f</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1a24bad9103d53354ec4d3a98f8e211890" prot="protected" virt="virtual"><scope>MR::Const_Ball2f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1a11337cca8c6c6cb3c0c114e296ca6ddc" prot="public" virt="virtual"><scope>MR::Const_Ball2f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1abbb7ec7b5a42d52ff2d7563f020930ed" prot="public" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>Elements</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1a7d1b82b0316ccad2c54a23d310b589b3" prot="public" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>inside</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1ae2a48d96bbed30410875ef0d8c43d7af" prot="public" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>outside</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1a1505825a22ea82a144f705904b17bc7e" prot="public" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>radiusSq</name></member>
+      <member refid="classMR_1_1Const__Ball2f_1a167e70e44c57b3a030bd9a875230f364" prot="private" virt="non-virtual"><scope>MR::Const_Ball2f</scope><name>~Const_Ball2f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

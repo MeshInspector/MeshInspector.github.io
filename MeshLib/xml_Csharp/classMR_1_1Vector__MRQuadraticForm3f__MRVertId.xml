@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRQuadraticForm3f__MRVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRQuadraticForm3f_MRVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRQuadraticForm3f_MRVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId" prot="public" virt="non-virtual">MR.Const_Vector_MRQuadraticForm3f_MRVertId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ae85022dd5be2cb43e3e1b80e5c391827" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -27,7 +27,7 @@
         <name>this[MR.VertId i]</name>
         <qualifiedname>MR.Vector_MRQuadraticForm3f_MRVertId.this[MR.VertId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -77,7 +77,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,11 +92,11 @@
         <name>Vector_MRQuadraticForm3f_MRVertId</name>
         <qualifiedname>MR.Vector_MRQuadraticForm3f_MRVertId.Vector_MRQuadraticForm3f_MRVertId</qualifiedname>
         <param>
-          <type>Const_Vector_MRQuadraticForm3f_MRVertId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId" kindref="compound">Const_Vector_MRQuadraticForm3f_MRVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -153,11 +153,11 @@
           <declname>size</declname>
         </param>
         <param>
-          <type>MR.Const_QuadraticForm3f</type>
+          <type><ref refid="classMR_1_1Const__QuadraticForm3f" kindref="compound">MR.Const_QuadraticForm3f</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -176,7 +176,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -195,7 +195,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -210,7 +210,7 @@
         <name>clear</name>
         <qualifiedname>MR.Vector_MRQuadraticForm3f_MRVertId.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1aad2b910d7f536696b38abc4728e370ac" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1aad2b910d7f536696b38abc4728e370ac" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -229,7 +229,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ae344b432b0116b54c4bc56893f923242" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ae344b432b0116b54c4bc56893f923242" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -248,11 +248,11 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_QuadraticForm3f</type>
+          <type><ref refid="classMR_1_1Const__QuadraticForm3f" kindref="compound">MR.Const_QuadraticForm3f</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ae344b432b0116b54c4bc56893f923242" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ae344b432b0116b54c4bc56893f923242" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -271,7 +271,7 @@
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1aa9e5f6e642e007975c9ce39ae8a857da" kindref="member">reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1aa9e5f6e642e007975c9ce39ae8a857da" kindref="member">reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -290,7 +290,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ad6785fd6ab969aaaadb2cc6463f84da3" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ad6785fd6ab969aaaadb2cc6463f84da3" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -309,11 +309,11 @@
           <declname>newSize</declname>
         </param>
         <param>
-          <type>MR.Const_QuadraticForm3f</type>
+          <type><ref refid="classMR_1_1Const__QuadraticForm3f" kindref="compound">MR.Const_QuadraticForm3f</ref></type>
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ad6785fd6ab969aaaadb2cc6463f84da3" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ad6785fd6ab969aaaadb2cc6463f84da3" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -336,11 +336,11 @@
           <declname>len</declname>
         </param>
         <param>
-          <type>MR.Const_QuadraticForm3f</type>
+          <type><ref refid="classMR_1_1Const__QuadraticForm3f" kindref="compound">MR.Const_QuadraticForm3f</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a9239ce96273f366367f8579995abe8ef" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a9239ce96273f366367f8579995abe8ef" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -359,11 +359,11 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.Const_QuadraticForm3f</type>
+          <type><ref refid="classMR_1_1Const__QuadraticForm3f" kindref="compound">MR.Const_QuadraticForm3f</ref></type>
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a9239ce96273f366367f8579995abe8ef" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a9239ce96273f366367f8579995abe8ef" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -382,7 +382,7 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a5615826d8e06c663136d5501e3428b3c" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a5615826d8e06c663136d5501e3428b3c" kindref="member">autoResizeAt</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -397,11 +397,11 @@
         <name>pushBack</name>
         <qualifiedname>MR.Vector_MRQuadraticForm3f_MRVertId.pushBack</qualifiedname>
         <param>
-          <type>MR.Const_QuadraticForm3f</type>
+          <type><ref refid="classMR_1_1Const__QuadraticForm3f" kindref="compound">MR.Const_QuadraticForm3f</ref></type>
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -420,7 +420,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -435,7 +435,7 @@
         <name>popBack</name>
         <qualifiedname>MR.Vector_MRQuadraticForm3f_MRVertId.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -450,7 +450,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.Vector_MRQuadraticForm3f_MRVertId.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -465,7 +465,7 @@
         <name>front</name>
         <qualifiedname>MR.Vector_MRQuadraticForm3f_MRVertId.front</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a28b7e278a46f27db263edcad476e5b4d" kindref="member">front</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a28b7e278a46f27db263edcad476e5b4d" kindref="member">front</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -480,7 +480,7 @@
         <name>back</name>
         <qualifiedname>MR.Vector_MRQuadraticForm3f_MRVertId.back</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a384368c8039c8ed681b82dc8f043abfc" kindref="member">back</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a384368c8039c8ed681b82dc8f043abfc" kindref="member">back</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -495,7 +495,7 @@
         <name>data</name>
         <qualifiedname>MR.Vector_MRQuadraticForm3f_MRVertId.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a49d4bc021192389051ccc347490e0b47" kindref="member">data</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a49d4bc021192389051ccc347490e0b47" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -514,7 +514,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ae38d25373a0a2f5199c3d42fb1344f0e" kindref="member">swap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ae38d25373a0a2f5199c3d42fb1344f0e" kindref="member">swap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -575,7 +575,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -585,7 +585,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -601,7 +601,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;<ref refid="classMR_1_1QuadraticForm3f" kindref="compound">MR.QuadraticForm3f</ref>, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -621,6 +621,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRQuadraticForm3f_MRVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -649,6 +650,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRQuadraticForm3f_MRVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -670,12 +672,29 @@
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a9239ce96273f366367f8579995abe8ef" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ad796922766d9fdeab517d72437eca7f7" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a384368c8039c8ed681b82dc8f043abfc" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1a0c80ddbfcb87050eab14c07dbd7d011e" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1a4bcf4f3e4c0de660ff205b4985e1ebaf" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1af5ea7ba12b776487f11d68bf0ea85806" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1aad2b910d7f536696b38abc4728e370ac" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1af075a7a7a99a1d71071827b67773a23f" prot="package" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>Const_Vector_MRQuadraticForm3f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1a94def4d4657ca82db294785f9c2af9af" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>Const_Vector_MRQuadraticForm3f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1a66a0c162229948d4060f1667f1289b62" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>Const_Vector_MRQuadraticForm3f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1a5973dd5e44aee1d01746655d5e06b7d0" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>Const_Vector_MRQuadraticForm3f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1a3affa4e0dab2e50480ef8917d8581cc3" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>Const_Vector_MRQuadraticForm3f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1ab9a01d600e3a3f3b4c94d6a697be2d8d" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>Const_Vector_MRQuadraticForm3f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1aea86a7ae76cb923c7fe6c24777227d56" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>Const_Vector_MRQuadraticForm3f_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1a171f429effb1007c8dabcc319a1db0f4" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>Const_Vector_MRQuadraticForm3f_MRVertId</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a49d4bc021192389051ccc347490e0b47" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1ad10bfe2f6d554661878126e296144b0a" prot="protected" virt="virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1ab80625dc23178bdcb45d3c52a323c9f2" prot="public" virt="virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a337990cf88f726ebc8b1b3bab055633a" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1ab4e3c244e193ad104851e5586f1dc64f" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1abfd9e6d1f194bf5345c3e8b892aa6d42" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>endId</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a28b7e278a46f27db263edcad476e5b4d" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a4d10a7d257b2f3d54c244a63ac44caea" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ab7f6d3431d0346a22f90fbe607e3858c" prot="private" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1ad5de1d98e1889c1c0ea57da69c5698bb" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1adb2c833e8e157424652434fc4f87b0bb" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>operator Const_Vector_MRQuadraticForm3f_MRVertId</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a0ecba54d4cebbd971a6efafc4f797771" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>operator Vector_MRQuadraticForm3f_MRVertId</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a04cfe62b9312653ae4d2c8ca1abcfe57" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ac398483bb4399d71339552840fdfd253" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>pushBack</name></member>
@@ -685,6 +704,7 @@
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1a6f92d69f557812a2796049c7d922d0b8" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>resize</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ad6785fd6ab969aaaadb2cc6463f84da3" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1adf892b5e5aa08ce8fb074cbf4cce06ff" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRQuadraticForm3f__MRVertId_1a882972b25bb27f4392449540b4238db3" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ae38d25373a0a2f5199c3d42fb1344f0e" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ac4cebfe7c493803bdb808d26219ae1f2" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>this[MR.VertId i]</name></member>
       <member refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId_1ae85022dd5be2cb43e3e1b80e5c391827" prot="public" virt="non-virtual"><scope>MR::Vector_MRQuadraticForm3f_MRVertId</scope><name>vec</name></member>

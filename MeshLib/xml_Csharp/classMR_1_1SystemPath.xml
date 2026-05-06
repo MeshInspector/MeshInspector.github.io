@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SystemPath" kind="class" language="C#" prot="public">
     <compoundname>MR::SystemPath</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SystemPath</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SystemPath" prot="public" virt="non-virtual">MR.Const_SystemPath</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1SystemPath_1a446512093ff2d5b21d8b6b0af743616d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>SystemPath</name>
         <qualifiedname>MR.SystemPath.SystemPath</qualifiedname>
         <param>
-          <type>MR.Const_SystemPath</type>
+          <type><ref refid="classMR_1_1Const__SystemPath" kindref="compound">MR.Const_SystemPath</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.SystemPath.assign</qualifiedname>
         <param>
-          <type>MR.Const_SystemPath</type>
+          <type><ref refid="classMR_1_1Const__SystemPath" kindref="compound">MR.Const_SystemPath</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SystemPath</label>
+        <link refid="classMR_1_1Const__SystemPath"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SystemPath</label>
+        <link refid="classMR_1_1Const__SystemPath"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,21 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" line="178" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystemPath.cs" bodystart="179" bodyend="219"/>
     <listofallmembers>
       <member refid="classMR_1_1SystemPath_1ad6ace37dfb22f3359ace67aa5e3a9ca1" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1aac7fdd03fef0ed74b3f12f7e04895843" prot="package" virt="non-virtual"><scope>MR::SystemPath</scope><name>Const_SystemPath</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a5b57af9a2d3a5427f49edbbada019e14" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>Const_SystemPath</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a3add1dc44add2d932757a152c3bf7419" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>Const_SystemPath</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1ad795b3adc77387b3e679fa5ece3f7752" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>Const_SystemPath</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a9a9830c8ef09583f476879091668f157" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>Directory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a38e901eaa7968c1c892d61b2f72f47fa" prot="protected" virt="virtual"><scope>MR::SystemPath</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a4193da2f2a748d815fd4c3fe453c612c" prot="public" virt="virtual"><scope>MR::SystemPath</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1ae5866c6383cdcff01246ca971b269086" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getDirectory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1acfd58ee05390e051e2034d1a22d51a25" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getFontsDirectory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1adf8289351297fd4a358da35a987b5537" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getPluginsDirectory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1aee4d6f61a1848a19f9d41655af47723a" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getPythonModulesDirectory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a1f22a3b4d3dba765a2eb6140601875d1" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getResourcesDirectory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a4864b48751a6d438d63dffa0ca9e7a44" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>getSystemFonts</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1aaadb3ded390d06ec23a3ad1d24ae64e6" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>overrideDirectory</name></member>
+      <member refid="classMR_1_1Const__SystemPath_1a56fc3d78b55ad4923ceadc215a50bbee" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>SystemFontType</name></member>
       <member refid="classMR_1_1SystemPath_1a446512093ff2d5b21d8b6b0af743616d" prot="package" virt="non-virtual"><scope>MR::SystemPath</scope><name>SystemPath</name></member>
       <member refid="classMR_1_1SystemPath_1a3d788aca4435006d0e0002dddb2b420f" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>SystemPath</name></member>
       <member refid="classMR_1_1SystemPath_1a05bf38a7b3fdcdb08b0bb22ab64fff7f" prot="public" virt="non-virtual"><scope>MR::SystemPath</scope><name>SystemPath</name></member>

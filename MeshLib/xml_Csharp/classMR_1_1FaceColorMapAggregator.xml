@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FaceColorMapAggregator" kind="class" language="C#" prot="public">
     <compoundname>MR::FaceColorMapAggregator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FaceColorMapAggregator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FaceColorMapAggregator" prot="public" virt="non-virtual">MR.Const_FaceColorMapAggregator</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1a4aea9bc5b057f7b124282125254bfd55" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>FaceColorMapAggregator</name>
         <qualifiedname>MR.FaceColorMapAggregator.FaceColorMapAggregator</qualifiedname>
         <param>
-          <type>Const_FaceColorMapAggregator</type>
+          <type><ref refid="classMR_1_1Const__FaceColorMapAggregator" kindref="compound">Const_FaceColorMapAggregator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -145,7 +145,7 @@
         <name>pushBack</name>
         <qualifiedname>MR.FaceColorMapAggregator.pushBack</qualifiedname>
         <param>
-          <type>MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</type>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap" kindref="compound">MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</ref></type>
           <declname>partitialColorMap</declname>
         </param>
         <briefdescription>
@@ -168,7 +168,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</type>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap" kindref="compound">MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</ref></type>
           <declname>partitialColorMap</declname>
         </param>
         <briefdescription>
@@ -191,7 +191,7 @@
           <declname>i</declname>
         </param>
         <param>
-          <type>MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</type>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap" kindref="compound">MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</ref></type>
           <declname>partitialColorMap</declname>
         </param>
         <briefdescription>
@@ -234,7 +234,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="1582" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="1582" bodyend="1587"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1FaceColorMapAggregator_1adebc2e37fb41f2787c5151d50f211d26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</type>
+        <type>unsafe <ref refid="classMR_1_1ColorMapAggregator__MRFaceTag_1_1Const__PartialColorMap" kindref="compound">MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap</ref></type>
         <definition>unsafe MR.ColorMapAggregator_MRFaceTag.Const_PartialColorMap MR.FaceColorMapAggregator.getPartialColorMap</definition>
         <argsstring>(int i)</argsstring>
         <name>getPartialColorMap</name>
@@ -302,7 +302,7 @@
         <name>aggregate</name>
         <qualifiedname>MR.FaceColorMapAggregator.aggregate</qualifiedname>
         <param>
-          <type>MR.Const_FaceBitSet</type>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
           <declname>elementBitSet</declname>
         </param>
         <briefdescription>
@@ -329,6 +329,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceColorMapAggregator</label>
+        <link refid="classMR_1_1Const__FaceColorMapAggregator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -350,6 +351,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceColorMapAggregator</label>
+        <link refid="classMR_1_1Const__FaceColorMapAggregator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -366,6 +368,13 @@
     <listofallmembers>
       <member refid="classMR_1_1FaceColorMapAggregator_1a4d960c94bd42c5c55b35291f21f6cd49" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>aggregate</name></member>
       <member refid="classMR_1_1FaceColorMapAggregator_1a3a467aabe6edfaac6ce14228eac6a46e" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__FaceColorMapAggregator_1af454abb9c3733a28c2657b0ecbf0b0f0" prot="package" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>Const_FaceColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__FaceColorMapAggregator_1a099cc61a3561e8a794a3e73ab989a714" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>Const_FaceColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__FaceColorMapAggregator_1ae982e2c3ad234ee9fa06853af36bae5a" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>Const_FaceColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__FaceColorMapAggregator_1a539f485ae400c8227c176bb4c36d450f" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>Const_FaceColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__FaceColorMapAggregator_1ab1d1872cac6d53030b7abcc1390336ab" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>Const_FaceColorMapAggregator</name></member>
+      <member refid="classMR_1_1Const__FaceColorMapAggregator_1af9d947304eb9d4e308a64ca9e4562490" prot="protected" virt="virtual"><scope>MR::FaceColorMapAggregator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceColorMapAggregator_1abd44410e841a938c9c448192ecf95f4b" prot="public" virt="virtual"><scope>MR::FaceColorMapAggregator</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FaceColorMapAggregator_1ad9d48ed850ecdf5d6982e3b1ec028576" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>erase</name></member>
       <member refid="classMR_1_1FaceColorMapAggregator_1a4aea9bc5b057f7b124282125254bfd55" prot="package" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>FaceColorMapAggregator</name></member>
       <member refid="classMR_1_1FaceColorMapAggregator_1aeed5f679e579b3b5e6dc63b32afa42c1" prot="public" virt="non-virtual"><scope>MR::FaceColorMapAggregator</scope><name>FaceColorMapAggregator</name></member>

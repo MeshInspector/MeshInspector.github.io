@@ -10,7 +10,7 @@
         <name>toJpeg</name>
         <qualifiedname>MR.ImageSave.toJpeg</qualifiedname>
         <param>
-          <type>MR.Const_Image</type>
+          <type><ref refid="classMR_1_1Const__Image" kindref="compound">MR.Const_Image</ref></type>
           <declname>image</declname>
         </param>
         <param>
@@ -33,7 +33,7 @@
         <name>toPng</name>
         <qualifiedname>MR.ImageSave.toPng</qualifiedname>
         <param>
-          <type>MR.Const_Image</type>
+          <type><ref refid="classMR_1_1Const__Image" kindref="compound">MR.Const_Image</ref></type>
           <declname>image</declname>
         </param>
         <param>
@@ -56,7 +56,7 @@
         <name>toPng</name>
         <qualifiedname>MR.ImageSave.toPng</qualifiedname>
         <param>
-          <type>MR.Const_Image</type>
+          <type><ref refid="classMR_1_1Const__Image" kindref="compound">MR.Const_Image</ref></type>
           <declname>image</declname>
         </param>
         <param>
@@ -79,7 +79,7 @@
         <name>toTiff</name>
         <qualifiedname>MR.ImageSave.toTiff</qualifiedname>
         <param>
-          <type>MR.Const_Image</type>
+          <type><ref refid="classMR_1_1Const__Image" kindref="compound">MR.Const_Image</ref></type>
           <declname>image</declname>
         </param>
         <param>
@@ -102,7 +102,7 @@
         <name>toBmp</name>
         <qualifiedname>MR.ImageSave.toBmp</qualifiedname>
         <param>
-          <type>MR.Const_Image</type>
+          <type><ref refid="classMR_1_1Const__Image" kindref="compound">MR.Const_Image</ref></type>
           <declname>image</declname>
         </param>
         <param>
@@ -125,7 +125,7 @@
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR.ImageSave.toAnySupportedFormat</qualifiedname>
         <param>
-          <type>MR.Const_Image</type>
+          <type><ref refid="classMR_1_1Const__Image" kindref="compound">MR.Const_Image</ref></type>
           <declname>image</declname>
         </param>
         <param>

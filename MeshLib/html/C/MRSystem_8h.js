@@ -1,6 +1,5 @@
 var MRSystem_8h =
 [
-    [ "MR_std_function_void", "MRSystem_8h.html#a6271d7bfd9eac1863a0a9da93022599c", null ],
     [ "MR_SystemMemory", "MRSystem_8h.html#a0abf5a90af969389df783f83762346c2", null ],
     [ "MR_GetCpuId", "MRSystem_8h.html#a1586290577baacf2cfea38be130eb60e", null ],
     [ "MR_getCurrentStacktrace", "MRSystem_8h.html#adf06857533c49bb6393404d4ea300537", null ],

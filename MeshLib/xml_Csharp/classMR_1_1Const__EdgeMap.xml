@@ -1,0 +1,647 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__EdgeMap" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_EdgeMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1EdgeMap" prot="public" virt="non-virtual">MR.EdgeMap</derivedcompoundref>
+    <innerclass refid="classMR_1_1Const__EdgeMap_1_1__Enumerator" prot="public">MR::Const_EdgeMap::_Enumerator</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__EdgeMap_1a32e0ed0debd0c1ec892289cc0cac6ff2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MREdgeId</type>
+        <definition>unsafe MR.Std.Const_Vector_MREdgeId MR.Const_EdgeMap.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_EdgeMap.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5062" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5062" bodyend="5062"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__EdgeMap_1aa3dbba8d9d91db457b66d76f9363aac9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe ref readonly MR.EdgeId MR.Const_EdgeMap.this[MR.EdgeId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.EdgeId i]</name>
+        <qualifiedname>MR.Const_EdgeMap.this[MR.EdgeId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::EdgeMap::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5214" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5215" bodyend="5222"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1ab6b12226dcc9430ceeb9c2f31964012a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_EdgeMap.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_EdgeMap.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4983" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4983" bodyend="4991"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1aa80e7a577373a379011927e688b398e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_EdgeMap.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_EdgeMap.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4992" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4992" bodyend="4992"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a302934458849aaf60e584462ea201195" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref> &gt; &gt;</type>
+        <definition>IEnumerator&lt; MR.Misc.ConstRef&lt; MR.EdgeId &gt; &gt; MR.Const_EdgeMap.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_EdgeMap.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5049" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5049" bodyend="5052"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a675b24377cf5f93797193390052423f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgeMap.Const_EdgeMap</definition>
+        <argsstring>()</argsstring>
+        <name>Const_EdgeMap</name>
+        <qualifiedname>MR.Const_EdgeMap.Const_EdgeMap</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5090" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5090" bodyend="5096"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1aaf19c14e5b626bee50b5458a08383327" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgeMap.Const_EdgeMap</definition>
+        <argsstring>(MR._ByValue_EdgeMap _other)</argsstring>
+        <name>Const_EdgeMap</name>
+        <qualifiedname>MR.Const_EdgeMap.Const_EdgeMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_EdgeMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeMap_1aa20b6651e84e2d635cabe2c7c65fab66" kindref="member">MR.EdgeMap.EdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5101" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5101" bodyend="5108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a3acd27ba35c1a652aff1e4194f27049b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_EdgeMap.Const_EdgeMap</definition>
+        <argsstring>(Const_EdgeMap _other)</argsstring>
+        <name>Const_EdgeMap</name>
+        <qualifiedname>MR.Const_EdgeMap.Const_EdgeMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeMap" kindref="compound">Const_EdgeMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeMap_1aa20b6651e84e2d635cabe2c7c65fab66" kindref="member">MR.EdgeMap.EdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5113" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5113" bodyend="5113"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a164fe5ae02065bfa72dac83e3d9e6741" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_EdgeMap.Const_EdgeMap</definition>
+        <argsstring>(EdgeMap _other)</argsstring>
+        <name>Const_EdgeMap</name>
+        <qualifiedname>MR.Const_EdgeMap.Const_EdgeMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeMap_1aa20b6651e84e2d635cabe2c7c65fab66" kindref="member">MR.EdgeMap.EdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5118" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5118" bodyend="5118"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a1e0b5e809e544dca52ca202853b05449" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgeMap.Const_EdgeMap</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_EdgeMap</name>
+        <qualifiedname>MR.Const_EdgeMap.Const_EdgeMap</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeMap_1aa20b6651e84e2d635cabe2c7c65fab66" kindref="member">MR.EdgeMap.EdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5124" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5124" bodyend="5130"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a77676dabdd07e5d30b0b2746c9ebc5c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgeMap.Const_EdgeMap</definition>
+        <argsstring>(ulong size, in MR.EdgeId val)</argsstring>
+        <name>Const_EdgeMap</name>
+        <qualifiedname>MR.Const_EdgeMap.Const_EdgeMap</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeMap_1aa20b6651e84e2d635cabe2c7c65fab66" kindref="member">MR.EdgeMap.EdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5136" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5136" bodyend="5145"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a5bb1d87dc45ce96d3d08c7d77b3ab7e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgeMap.Const_EdgeMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; vec)</argsstring>
+        <name>Const_EdgeMap</name>
+        <qualifiedname>MR.Const_EdgeMap.Const_EdgeMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeMap_1aa20b6651e84e2d635cabe2c7c65fab66" kindref="member">MR.EdgeMap.EdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5151" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5151" bodyend="5158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a0aee0a2134bf1cc9f814ad82161626d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_EdgeMap.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_EdgeMap.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeMap_1a0aee0a2134bf1cc9f814ad82161626d8" kindref="member">MR.EdgeMap.empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5184" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5184" bodyend="5189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a7ad61a3d911850c9722a3243294ebb87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_EdgeMap.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_EdgeMap.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeMap_1a7ad61a3d911850c9722a3243294ebb87" kindref="member">MR.EdgeMap.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5194" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5194" bodyend="5199"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a7164d78d45b7c4adbd2d7c8c889a2e87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_EdgeMap.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_EdgeMap.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeMap_1a7164d78d45b7c4adbd2d7c8c889a2e87" kindref="member">MR.EdgeMap.capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5204" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5204" bodyend="5209"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1ae07fbb5f3c95e27ff0d7bf2c08698105" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe ref readonly MR.EdgeId MR.Const_EdgeMap.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_EdgeMap.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1aaae381e7413f67f2317ba13e782a5819" kindref="member">MR.EdgeMap.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5227" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5227" bodyend="5232"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1acf14a57ced463f056d6a74badeb4181b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe ref readonly MR.EdgeId MR.Const_EdgeMap.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_EdgeMap.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1a78b56c0c7aa34cb55530b0f54aaa29e3" kindref="member">MR.EdgeMap.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5237" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5237" bodyend="5242"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a60f285fd0dfe2c158c66d894a83646d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.Const_EdgeMap.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_EdgeMap.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeMap_1a60f285fd0dfe2c158c66d894a83646d1" kindref="member">MR.EdgeMap.beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5248" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5248" bodyend="5253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1af015fc1c18ee62bba03a1f9164a2f127" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.Const_EdgeMap.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_EdgeMap.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__EdgeMap_1acf14a57ced463f056d6a74badeb4181b" kindref="member">back()</ref> element Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeMap_1af015fc1c18ee62bba03a1f9164a2f127" kindref="member">MR.EdgeMap.backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5259" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5259" bodyend="5264"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a1a231a22ed33e2df6493597e623b006c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.Const_EdgeMap.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_EdgeMap.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__EdgeMap_1af015fc1c18ee62bba03a1f9164a2f127" kindref="member">backId()</ref> + 1 Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeMap_1a1a231a22ed33e2df6493597e623b006c" kindref="member">MR.EdgeMap.endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5270" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5270" bodyend="5275"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1ae8d7605009408a0a3542454cd0411140" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="structMR_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition>unsafe MR.? EdgeId MR.Const_EdgeMap.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_EdgeMap.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeMap_1a317d971f85610c821fc7153cdfb8d1ec" kindref="member">MR.EdgeMap.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5280" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5280" bodyend="5286"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a0bd9bbe54c4287d46fb7a7e438aff272" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_EdgeMap.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_EdgeMap.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__EdgeMap_1a0bd9bbe54c4287d46fb7a7e438aff272" kindref="member">MR.EdgeMap.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5292" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5292" bodyend="5297"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a77bfe3dcf0f6c846f1eef7e9c7d0e66a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_EdgeMap.Equals</definition>
+        <argsstring>(MR.Const_EdgeMap? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_EdgeMap.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeMap" kindref="compound">MR.Const_EdgeMap</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5301" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5301" bodyend="5306"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a72239dd2109c80a6aef1bc99a3d8942a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_EdgeMap.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_EdgeMap.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5308" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5308" bodyend="5315"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a871b8f5b60ae72b2e2d979eeeb2a8fb6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_EdgeMap.~Const_EdgeMap</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_EdgeMap</name>
+        <qualifiedname>MR.Const_EdgeMap.~Const_EdgeMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4993" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4993" bodyend="4993"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a5900894e8f13bf1a78984b6cf2326c61" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_EdgeMap.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_EdgeMap.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5054" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5054" bodyend="5057"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1add79c4497bef9230836de86e4f0750fd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EdgeMap.Const_EdgeMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_EdgeMap</name>
+        <qualifiedname>MR.Const_EdgeMap.Const_EdgeMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5079" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5079" bodyend="5084"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a143d8533f87e97e8a0226e2303bf71a4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_EdgeMap.operator Const_EdgeMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt; vec)</argsstring>
+        <name>operator Const_EdgeMap</name>
+        <qualifiedname>MR.Const_EdgeMap.operator Const_EdgeMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MREdgeId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1EdgeMap_1aa20b6651e84e2d635cabe2c7c65fab66" kindref="member">MR.EdgeMap.EdgeMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5164" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5164" bodyend="5164"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1a7b7e1b7efd5c7f50e3eae7884bc12245" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_EdgeMap.operator==</definition>
+        <argsstring>(MR.Const_EdgeMap _this, MR.Const_EdgeMap b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_EdgeMap.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeMap" kindref="compound">MR.Const_EdgeMap</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeMap" kindref="compound">MR.Const_EdgeMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::EdgeMap::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5169" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5169" bodyend="5174"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EdgeMap_1af7f4e1732778a4a5f892ef0a40663602" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_EdgeMap.operator!=</definition>
+        <argsstring>(MR.Const_EdgeMap _this, MR.Const_EdgeMap b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_EdgeMap.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeMap" kindref="compound">MR.Const_EdgeMap</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeMap" kindref="compound">MR.Const_EdgeMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="5176" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="5176" bodyend="5179"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1EdgeMap" kindref="compound">MR.EdgeMap</ref></computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_EdgeMap</label>
+        <link refid="classMR_1_1Const__EdgeMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR.EdgeMap</label>
+        <link refid="classMR_1_1EdgeMap"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_EdgeMap</label>
+        <link refid="classMR_1_1Const__EdgeMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4977" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4978" bodyend="5316"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__EdgeMap_1acf14a57ced463f056d6a74badeb4181b" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1af015fc1c18ee62bba03a1f9164a2f127" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a60f285fd0dfe2c158c66d894a83646d1" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a7164d78d45b7c4adbd2d7c8c889a2e87" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1add79c4497bef9230836de86e4f0750fd" prot="package" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>Const_EdgeMap</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a675b24377cf5f93797193390052423f6" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>Const_EdgeMap</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1aaf19c14e5b626bee50b5458a08383327" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>Const_EdgeMap</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a3acd27ba35c1a652aff1e4194f27049b" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>Const_EdgeMap</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a164fe5ae02065bfa72dac83e3d9e6741" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>Const_EdgeMap</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a1e0b5e809e544dca52ca202853b05449" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>Const_EdgeMap</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a77676dabdd07e5d30b0b2746c9ebc5c8" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>Const_EdgeMap</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a5bb1d87dc45ce96d3d08c7d77b3ab7e1" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>Const_EdgeMap</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1ae8d7605009408a0a3542454cd0411140" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1ab6b12226dcc9430ceeb9c2f31964012a" prot="protected" virt="virtual"><scope>MR::Const_EdgeMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1aa80e7a577373a379011927e688b398e4" prot="public" virt="virtual"><scope>MR::Const_EdgeMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a0aee0a2134bf1cc9f814ad82161626d8" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a1a231a22ed33e2df6493597e623b006c" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a77bfe3dcf0f6c846f1eef7e9c7d0e66a" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a72239dd2109c80a6aef1bc99a3d8942a" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1ae07fbb5f3c95e27ff0d7bf2c08698105" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a302934458849aaf60e584462ea201195" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a5900894e8f13bf1a78984b6cf2326c61" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a0bd9bbe54c4287d46fb7a7e438aff272" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a143d8533f87e97e8a0226e2303bf71a4" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>operator Const_EdgeMap</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1af7f4e1732778a4a5f892ef0a40663602" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a7b7e1b7efd5c7f50e3eae7884bc12245" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a7ad61a3d911850c9722a3243294ebb87" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1aa3dbba8d9d91db457b66d76f9363aac9" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>this[MR.EdgeId i]</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a32e0ed0debd0c1ec892289cc0cac6ff2" prot="public" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__EdgeMap_1a871b8f5b60ae72b2e2d979eeeb2a8fb6" prot="private" virt="non-virtual"><scope>MR::Const_EdgeMap</scope><name>~Const_EdgeMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

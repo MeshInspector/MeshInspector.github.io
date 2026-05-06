@@ -1,7 +1,7 @@
 var classMR_1_1MultiwayICPSamplingParameters =
 [
     [ "MultiwayICPSamplingParameters", "classMR_1_1MultiwayICPSamplingParameters.html#a1ca04452c7afca249c072c61522ae65d", null ],
-    [ "MultiwayICPSamplingParameters", "classMR_1_1MultiwayICPSamplingParameters.html#a52e968a66fbc51f6937ac8f5f07cadc4", null ],
+    [ "MultiwayICPSamplingParameters", "classMR_1_1MultiwayICPSamplingParameters.html#aaa6b3bfb91590abdc4640493c6d0d5b7", null ],
     [ "MultiwayICPSamplingParameters", "classMR_1_1MultiwayICPSamplingParameters.html#aed59f215a71e3f6f7e3e8a01a313900f", null ],
     [ "MultiwayICPSamplingParameters", "classMR_1_1MultiwayICPSamplingParameters.html#a49805bb255897cc5f65261ee6da6de21", null ],
     [ "MultiwayICPSamplingParameters", "classMR_1_1MultiwayICPSamplingParameters.html#a37aebe208bd0e78a83602d5e998af924", null ],

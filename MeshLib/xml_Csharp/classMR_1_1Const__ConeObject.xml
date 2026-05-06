@@ -1,0 +1,1920 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ConeObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ConeObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ConeObject" prot="public" virt="non-virtual">MR.ConeObject</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a4fd200c4f64b587e7d882e9b19fb0d77" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ConeObject.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ConeObject.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="22" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="22" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a08a6a195d57b19f874c8b820d95c0f2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ConeObject.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ConeObject.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="31" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ae6f5c1aec42acc971d75d4cba88ae90c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ConeObject.Const_ConeObject</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ConeObject</name>
+        <qualifiedname>MR.Const_ConeObject.Const_ConeObject</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="123" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="123" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a9502d4c4a20b0ed71fd3b57ca305f4f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ConeObject.Const_ConeObject</definition>
+        <argsstring>(MR._ByValue_ConeObject _other)</argsstring>
+        <name>Const_ConeObject</name>
+        <qualifiedname>MR.Const_ConeObject.Const_ConeObject</qualifiedname>
+        <param>
+          <type>MR._ByValue_ConeObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ConeObject_1ac799623bc324d04da79259548892ce2c" kindref="member">MR.ConeObject.ConeObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="133" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="133" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1af0046722bce490234cce74a087aa96a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ConeObject.Const_ConeObject</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f pointsToApprox)</argsstring>
+        <name>Const_ConeObject</name>
+        <qualifiedname>MR.Const_ConeObject.Const_ConeObject</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+<para>Finds best Cone to approx given points Generated from constructor <computeroutput><ref refid="classMR_1_1ConeObject_1ac799623bc324d04da79259548892ce2c" kindref="member">MR.ConeObject.ConeObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="145" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="145" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ae1fe07b91cbe6d77fda0e38e501dc522" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>unsafe? byte MR.Const_ConeObject.typeName</definition>
+        <argsstring>()</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR.Const_ConeObject.typeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ae1fe07b91cbe6d77fda0e38e501dc522" kindref="member">MR.ConeObject.typeName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="173" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="173" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a25b727214e4a2e639e54269cb15f9598" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ConeObject.className</definition>
+        <argsstring>()</argsstring>
+        <name>className</name>
+        <qualifiedname>MR.Const_ConeObject.className</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a25b727214e4a2e639e54269cb15f9598" kindref="member">MR.ConeObject.className</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="195" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="195" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ab622cb386c15aac22e60b38af9734fa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ConeObject.classNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>MR.Const_ConeObject.classNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ab622cb386c15aac22e60b38af9734fa4" kindref="member">MR.ConeObject.classNameInPlural</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="216" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="216" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ad5d3320b03d7078300e8bbfcfaefd07a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ConeObject.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR.Const_ConeObject.clone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ad5d3320b03d7078300e8bbfcfaefd07a" kindref="member">MR.ConeObject.clone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="226" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="226" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a5595d76692cde090223e7d95a619df53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ConeObject.shallowClone</definition>
+        <argsstring>()</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>MR.Const_ConeObject.shallowClone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a5595d76692cde090223e7d95a619df53" kindref="member">MR.ConeObject.shallowClone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="236" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="236" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a2e967f2eda7bc1478f3e8ab017d6b2fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getAngle</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getAngle</name>
+        <qualifiedname>MR.Const_ConeObject.getAngle</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>calculates cone angle from xf. It is an angle betweeh main axis and side. Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a2e967f2eda7bc1478f3e8ab017d6b2fd" kindref="member">MR.ConeObject.getAngle</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="248" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="248" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ab81cdca6e27d5fa9fec124dd153ee7c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_ConeObject.getCenter</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getCenter</name>
+        <qualifiedname>MR.Const_ConeObject.getCenter</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>calculates center from xf. Center is the apex of the cone. Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ab81cdca6e27d5fa9fec124dd153ee7c3" kindref="member">MR.ConeObject.getCenter</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="260" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="260" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a8705805a0d82e035d1a7b3df85757692" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getHeight</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getHeight</name>
+        <qualifiedname>MR.Const_ConeObject.getHeight</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>calculates cone height from xf Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a8705805a0d82e035d1a7b3df85757692" kindref="member">MR.ConeObject.getHeight</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="272" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="272" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a5b803c4b0b5d0f7dbf47188cc62f0e51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_ConeObject.getDirection</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getDirection</name>
+        <qualifiedname>MR.Const_ConeObject.getDirection</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>calculates main axis direction from xf Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a5b803c4b0b5d0f7dbf47188cc62f0e51" kindref="member">MR.ConeObject.getDirection</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="284" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="284" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a98979d4a75381b96b95edea229a0a830" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getBaseRadius</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getBaseRadius</name>
+        <qualifiedname>MR.Const_ConeObject.getBaseRadius</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Computes the base base radius from the xf. Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a98979d4a75381b96b95edea229a0a830" kindref="member">MR.ConeObject.getBaseRadius</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="296" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="296" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ab84cc703ef0abf05d943acf5ed3fd274" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_ConeObject.getBasePoint</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getBasePoint</name>
+        <qualifiedname>MR.Const_ConeObject.getBasePoint</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ab84cc703ef0abf05d943acf5ed3fd274" kindref="member">MR.ConeObject.getBasePoint</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="308" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="308" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a01979884756a271375ca251896f08d23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_MRFeatureObjectSharedProperty</type>
+        <definition>unsafe MR.Std.Const_Vector_MRFeatureObjectSharedProperty MR.Const_ConeObject.getAllSharedProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getAllSharedProperties</name>
+        <qualifiedname>MR.Const_ConeObject.getAllSharedProperties</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a01979884756a271375ca251896f08d23" kindref="member">MR.ConeObject.getAllSharedProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="318" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="318" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a901f647e4a2538a32c03cf93cd4c19ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FeatureObjectProjectPointResult" kindref="compound">MR.FeatureObjectProjectPointResult</ref></type>
+        <definition>unsafe MR.FeatureObjectProjectPointResult MR.Const_ConeObject.projectPoint</definition>
+        <argsstring>(in MR.Vector3f point, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>MR.Const_ConeObject.projectPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a901f647e4a2538a32c03cf93cd4c19ef" kindref="member">MR.ConeObject.projectPoint</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="329" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="329" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1aad84ee660ff8da9cf756715e6e0306a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.supportsVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>MR.Const_ConeObject.supportsVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1aad84ee660ff8da9cf756715e6e0306a0" kindref="member">MR.ConeObject.supportsVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="342" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="342" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a08e4420dc62fde7bcfa964c165a09efe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRViewportMask</type>
+        <definition>unsafe MR.Std.Vector_MRViewportMask MR.Const_ConeObject.getAllVisualizeProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>MR.Const_ConeObject.getAllVisualizeProperties</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a08e4420dc62fde7bcfa964c165a09efe" kindref="member">MR.ConeObject.getAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="352" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="352" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ae87d3ccaceba7a4ec822458ba271b121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+        <definition>unsafe MR.Const_ViewportMask MR.Const_ConeObject.getVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>MR.Const_ConeObject.getVisualizePropertyMask</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ae87d3ccaceba7a4ec822458ba271b121" kindref="member">MR.ConeObject.getVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="362" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="362" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a1085b8db7e0f374d9407e8638ec7af64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_MRVector3f</type>
+        <definition>unsafe MR.Std.Optional_MRVector3f MR.Const_ConeObject.getNormal</definition>
+        <argsstring>(in MR.Vector3f point)</argsstring>
+        <name>getNormal</name>
+        <qualifiedname>MR.Const_ConeObject.getNormal</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a1085b8db7e0f374d9407e8638ec7af64" kindref="member">MR.ConeObject.getNormal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="372" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="372" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ae46b67b47e76704402fc490fcadaa4b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix3f" kindref="compound">MR.Matrix3f</ref></type>
+        <definition>unsafe MR.Matrix3f MR.Const_ConeObject.getRotationMatrix</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>getRotationMatrix</name>
+        <qualifiedname>MR.Const_ConeObject.getRotationMatrix</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ae46b67b47e76704402fc490fcadaa4b6" kindref="member">MR.ConeObject.getRotationMatrix</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="388" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="388" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1af931609a5a49be90520b5ab3197a6d94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix3f" kindref="compound">MR.Matrix3f</ref></type>
+        <definition>unsafe MR.Matrix3f MR.Const_ConeObject.getScaleShearMatrix</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>getScaleShearMatrix</name>
+        <qualifiedname>MR.Const_ConeObject.getScaleShearMatrix</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1af931609a5a49be90520b5ab3197a6d94" kindref="member">MR.ConeObject.getScaleShearMatrix</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="404" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="404" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a3a74f5a729cc4555a28a16bae80ba5dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ConeObject.getDecorationsColor</definition>
+        <argsstring>(bool selected, MR._InOpt_ViewportId viewportId=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>getDecorationsColor</name>
+        <qualifiedname>MR.Const_ConeObject.getDecorationsColor</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a3a74f5a729cc4555a28a16bae80ba5dd" kindref="member">MR.ConeObject.getDecorationsColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="420" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="420" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1aaab6367f139ca9f35be7353e3e56f8ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ConeObject.getDecorationsColorForAllViewports</definition>
+        <argsstring>(bool selected)</argsstring>
+        <name>getDecorationsColorForAllViewports</name>
+        <qualifiedname>MR.Const_ConeObject.getDecorationsColorForAllViewports</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1aaab6367f139ca9f35be7353e3e56f8ad" kindref="member">MR.ConeObject.getDecorationsColorForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="433" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="433" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a92481e0de1b07319421b9ba7e30ae600" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getPointSize</definition>
+        <argsstring>()</argsstring>
+        <name>getPointSize</name>
+        <qualifiedname>MR.Const_ConeObject.getPointSize</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a92481e0de1b07319421b9ba7e30ae600" kindref="member">MR.ConeObject.getPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="444" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="444" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a2ed02c168a446889d918cfbdf481a542" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getLineWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getLineWidth</name>
+        <qualifiedname>MR.Const_ConeObject.getLineWidth</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a2ed02c168a446889d918cfbdf481a542" kindref="member">MR.ConeObject.getLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="454" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="454" bodyend="459"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a2043b5607f6596ad34c31938b38f343c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getSubfeaturePointSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSubfeaturePointSize</name>
+        <qualifiedname>MR.Const_ConeObject.getSubfeaturePointSize</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a2043b5607f6596ad34c31938b38f343c" kindref="member">MR.ConeObject.getSubfeaturePointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="465" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="465" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a68a80c6d80edb1cd1352a8986371a569" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getSubfeatureLineWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getSubfeatureLineWidth</name>
+        <qualifiedname>MR.Const_ConeObject.getSubfeatureLineWidth</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a68a80c6d80edb1cd1352a8986371a569" kindref="member">MR.ConeObject.getSubfeatureLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="475" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="475" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a04866b8da1dbe54c8be1f175e7f6de2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getMainFeatureAlpha</definition>
+        <argsstring>()</argsstring>
+        <name>getMainFeatureAlpha</name>
+        <qualifiedname>MR.Const_ConeObject.getMainFeatureAlpha</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a04866b8da1dbe54c8be1f175e7f6de2d" kindref="member">MR.ConeObject.getMainFeatureAlpha</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="486" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="486" bodyend="491"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a3af7f17eda3a36f7c5f7d2c185fc25a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getSubfeatureAlphaPoints</definition>
+        <argsstring>()</argsstring>
+        <name>getSubfeatureAlphaPoints</name>
+        <qualifiedname>MR.Const_ConeObject.getSubfeatureAlphaPoints</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a3af7f17eda3a36f7c5f7d2c185fc25a1" kindref="member">MR.ConeObject.getSubfeatureAlphaPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="496" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="496" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a8e43e197190b09457232548b5443193c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getSubfeatureAlphaLines</definition>
+        <argsstring>()</argsstring>
+        <name>getSubfeatureAlphaLines</name>
+        <qualifiedname>MR.Const_ConeObject.getSubfeatureAlphaLines</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a8e43e197190b09457232548b5443193c" kindref="member">MR.ConeObject.getSubfeatureAlphaLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="506" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="506" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a3f4cc7e822d538ed2a8b0760450dca40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getSubfeatureAlphaMesh</definition>
+        <argsstring>()</argsstring>
+        <name>getSubfeatureAlphaMesh</name>
+        <qualifiedname>MR.Const_ConeObject.getSubfeatureAlphaMesh</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a3f4cc7e822d538ed2a8b0760450dca40" kindref="member">MR.ConeObject.getSubfeatureAlphaMesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="516" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="516" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a77dc731978923e833e44bd31690cab69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.getVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getVisualizeProperty</name>
+        <qualifiedname>MR.Const_ConeObject.getVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the property is set at least in one viewport specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a77dc731978923e833e44bd31690cab69" kindref="member">MR.ConeObject.getVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="527" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="527" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a060fa0d2964d72f1b1fe7b305dee0292" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ConeObject.globalClippedByPlaneMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalClippedByPlaneMask</name>
+        <qualifiedname>MR.Const_ConeObject.globalClippedByPlaneMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object or any of its parents is clipped by plane Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a060fa0d2964d72f1b1fe7b305dee0292" kindref="member">MR.ConeObject.globalClippedByPlaneMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="538" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="538" bodyend="543"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a63e2f1289081f973c87456e63dce1598" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.globalClippedByPlane</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalClippedByPlane</name>
+        <qualifiedname>MR.Const_ConeObject.globalClippedByPlane</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a63e2f1289081f973c87456e63dce1598" kindref="member">MR.ConeObject.globalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="550" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="550" bodyend="555"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1acd7bd9430680c702c37ddfd88d9c1169" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ConeObject.getFrontColor</definition>
+        <argsstring>(bool? selected=null, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getFrontColor</name>
+        <qualifiedname>MR.Const_ConeObject.getFrontColor</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1acd7bd9430680c702c37ddfd88d9c1169" kindref="member">MR.ConeObject.getFrontColor</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="563" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="563" bodyend="569"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a2da2a9c3c20a4d186f85d9d057f4418e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ConeObject.getFrontColorsForAllViewports</definition>
+        <argsstring>(bool? selected=null)</argsstring>
+        <name>getFrontColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ConeObject.getFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a2da2a9c3c20a4d186f85d9d057f4418e" kindref="member">MR.ConeObject.getFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="576" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="576" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ade062f944948c2abadfca0ede60b9d5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ConeObject.getBackColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getBackColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ConeObject.getBackColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ade062f944948c2abadfca0ede60b9d5b" kindref="member">MR.ConeObject.getBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="588" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="588" bodyend="593"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a09bbf8e377ee76999fcd4396f48b2a5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ConeObject.getBackColor</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getBackColor</name>
+        <qualifiedname>MR.Const_ConeObject.getBackColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a09bbf8e377ee76999fcd4396f48b2a5d" kindref="member">MR.ConeObject.getBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="600" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="600" bodyend="605"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1adb0663569bd60b9e3a81a60d8ade0963" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_ConeObject.getGlobalAlpha</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getGlobalAlpha</name>
+        <qualifiedname>MR.Const_ConeObject.getGlobalAlpha</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1adb0663569bd60b9e3a81a60d8ade0963" kindref="member">MR.ConeObject.getGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="612" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="612" bodyend="617"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a8681d92987c09e2bb852b18c51d17833" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__UnsignedChar" kindref="compound">MR.Const_ViewportProperty_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_UnsignedChar MR.Const_ConeObject.getGlobalAlphaForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.Const_ConeObject.getGlobalAlphaForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a8681d92987c09e2bb852b18c51d17833" kindref="member">MR.ConeObject.getGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="623" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="623" bodyend="628"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a5eeecac0f376cdc80bafb44b565da894" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_ConeObject.getDirtyFlags</definition>
+        <argsstring>()</argsstring>
+        <name>getDirtyFlags</name>
+        <qualifiedname>MR.Const_ConeObject.getDirtyFlags</qualifiedname>
+        <briefdescription>
+<para>returns current dirty flags for the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a5eeecac0f376cdc80bafb44b565da894" kindref="member">MR.ConeObject.getDirtyFlags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="634" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="634" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a8f4fda3cc9ab398f5828b7d3f3cdcc3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ConeObject.resetDirty</definition>
+        <argsstring>()</argsstring>
+        <name>resetDirty</name>
+        <qualifiedname>MR.Const_ConeObject.resetDirty</qualifiedname>
+        <briefdescription>
+<para>resets all dirty flags (except for cache flags that will be reset automatically on cache update) Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a8f4fda3cc9ab398f5828b7d3f3cdcc3e" kindref="member">MR.ConeObject.resetDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="645" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="645" bodyend="650"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1af700a78fac4707c5d2bf070eaada394d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ConeObject.resetDirtyExceptMask</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>resetDirtyExceptMask</name>
+        <qualifiedname>MR.Const_ConeObject.resetDirtyExceptMask</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>reset dirty flags without some specific bits (useful for lazy normals update) Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1af700a78fac4707c5d2bf070eaada394d" kindref="member">MR.ConeObject.resetDirtyExceptMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="656" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="656" bodyend="661"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1adeaa2a877ddff7acb1c3df4fada0feb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ConeObject.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_ConeObject.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns cached bounding box of this object in local coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1adeaa2a877ddff7acb1c3df4fada0feb4" kindref="member">MR.ConeObject.getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="667" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="667" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1addcd5c2add0e714cb238df1de9a00699" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ConeObject.getWorldBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>MR.Const_ConeObject.getWorldBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns bounding box of this object in given viewport in world coordinates, to get world bounding box of the object with all child objects, please call <ref refid="classMR_1_1Const__Object_1adec896d2f7f19300a966a810c5ff0eb3" kindref="member">Object.getWorldTreeBox</ref> method Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1addcd5c2add0e714cb238df1de9a00699" kindref="member">MR.ConeObject.getWorldBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="680" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="680" bodyend="685"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1acbf290dc649c7219d6e9464dc3c0c165" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.getRedrawFlag</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getRedrawFlag</name>
+        <qualifiedname>MR.Const_ConeObject.getRedrawFlag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the object must be redrawn (due to dirty flags) in one of specified viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1acbf290dc649c7219d6e9464dc3c0c165" kindref="member">MR.ConeObject.getRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="691" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="691" bodyend="696"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a9370decbb130c608eaf45560bb911d99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.isPickable</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isPickable</name>
+        <qualifiedname>MR.Const_ConeObject.isPickable</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a9370decbb130c608eaf45560bb911d99" kindref="member">MR.ConeObject.isPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="703" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="703" bodyend="708"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a5725e893f1d185558199e026fabcae20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+        <definition>unsafe MR.ColoringType MR.Const_ConeObject.getColoringType</definition>
+        <argsstring>()</argsstring>
+        <name>getColoringType</name>
+        <qualifiedname>MR.Const_ConeObject.getColoringType</qualifiedname>
+        <briefdescription>
+<para>returns the current coloring mode of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a5725e893f1d185558199e026fabcae20" kindref="member">MR.ConeObject.getColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="714" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="714" bodyend="719"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a0a92f64dc959d7be59b779715ddcf5cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getShininess</definition>
+        <argsstring>()</argsstring>
+        <name>getShininess</name>
+        <qualifiedname>MR.Const_ConeObject.getShininess</qualifiedname>
+        <briefdescription>
+<para>returns the current shininess visual value Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a0a92f64dc959d7be59b779715ddcf5cc" kindref="member">MR.ConeObject.getShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="725" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="725" bodyend="730"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1aeefc9b8329b8f3a81843feb46d04e7ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getSpecularStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getSpecularStrength</name>
+        <qualifiedname>MR.Const_ConeObject.getSpecularStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1aeefc9b8329b8f3a81843feb46d04e7ac" kindref="member">MR.ConeObject.getSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="736" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="736" bodyend="741"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a1d802de13a8a7481c9081b3b8997992a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ConeObject.getAmbientStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getAmbientStrength</name>
+        <qualifiedname>MR.Const_ConeObject.getAmbientStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a1d802de13a8a7481c9081b3b8997992a" kindref="member">MR.ConeObject.getAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="747" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="747" bodyend="752"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a30f76e040b8321a080fd6a01d32d8a38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.render</definition>
+        <argsstring>(MR.Const_ModelRenderParams _1)</argsstring>
+        <name>render</name>
+        <qualifiedname>MR.Const_ConeObject.render</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelRenderParams" kindref="compound">MR.Const_ModelRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for visualization Returns true if something was drawn. Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a30f76e040b8321a080fd6a01d32d8a38" kindref="member">MR.ConeObject.render</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="759" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="759" bodyend="764"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ab406786fb2bebb226587277edd1f69af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ConeObject.renderForPicker</definition>
+        <argsstring>(MR.Const_ModelBaseRenderParams _1, uint _2)</argsstring>
+        <name>renderForPicker</name>
+        <qualifiedname>MR.Const_ConeObject.renderForPicker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelBaseRenderParams" kindref="compound">MR.Const_ModelBaseRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for picking Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ab406786fb2bebb226587277edd1f69af" kindref="member">MR.ConeObject.renderForPicker</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="770" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="770" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a91d29aa95522810625cbae3c7ebb84e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ConeObject.renderUi</definition>
+        <argsstring>(MR.Const_UiRenderParams params_)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR.Const_ConeObject.renderUi</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UiRenderParams" kindref="compound">MR.Const_UiRenderParams</ref></type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for 2d UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a91d29aa95522810625cbae3c7ebb84e9" kindref="member">MR.ConeObject.renderUi</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="781" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="781" bodyend="786"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1aa4b1f730156b72ea131a38201662b478" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ConeObject.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_ConeObject.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1aa4b1f730156b72ea131a38201662b478" kindref="member">MR.ConeObject.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="792" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="792" bodyend="797"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a27946c2b5492cc8a3f33b71190f8e20b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>unsafe MR.Std.Vector_StdString MR.Const_ConeObject.getInfoLines</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>MR.Const_ConeObject.getInfoLines</qualifiedname>
+        <briefdescription>
+<para>return several info lines that can better describe the object in the UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a27946c2b5492cc8a3f33b71190f8e20b" kindref="member">MR.ConeObject.getInfoLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="803" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="803" bodyend="808"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a6a92d07cdc7bda6fbb8ba2d61ebd7254" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.useDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>()</argsstring>
+        <name>useDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.Const_ConeObject.useDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <briefdescription>
+<para>whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a6a92d07cdc7bda6fbb8ba2d61ebd7254" kindref="member">MR.ConeObject.useDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="815" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="815" bodyend="820"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a76750efa19f5ec72245279ad2e38360c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_ConeObject.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_ConeObject.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a76750efa19f5ec72245279ad2e38360c" kindref="member">MR.ConeObject.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="825" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="825" bodyend="830"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1afdf74573015bff168bd6f3ff485854aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_ConeObject.xf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_ConeObject.xf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to parent space transformation (to world space if no parent) for default or given viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__ConeObject_1afdf74573015bff168bd6f3ff485854aa" kindref="member">xf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1afdf74573015bff168bd6f3ff485854aa" kindref="member">MR.ConeObject.xf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="838" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="838" bodyend="846"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a21c0efe27875e7f0fcca9036cd5880ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" kindref="compound">MR.Const_ViewportProperty_MRAffineXf3f</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRAffineXf3f MR.Const_ConeObject.xfsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>xfsForAllViewports</name>
+        <qualifiedname>MR.Const_ConeObject.xfsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns xfs for all viewports, combined into a single object Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a21c0efe27875e7f0fcca9036cd5880ee" kindref="member">MR.ConeObject.xfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="852" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="852" bodyend="857"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ac94a660af156c09999b462cf4b5dbb66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe MR.AffineXf3f MR.Const_ConeObject.worldXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>worldXf</name>
+        <qualifiedname>MR.Const_ConeObject.worldXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to world space transformation for default or specific viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__ConeObject_1ac94a660af156c09999b462cf4b5dbb66" kindref="member">worldXf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ac94a660af156c09999b462cf4b5dbb66" kindref="member">MR.ConeObject.worldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="865" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="865" bodyend="873"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ae057b4e62654c9ec7414cc645e924444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ConeObject.globalVisibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalVisibilityMask</name>
+        <qualifiedname>MR.Const_ConeObject.globalVisibilityMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object is visible together with all its parents Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ae057b4e62654c9ec7414cc645e924444" kindref="member">MR.ConeObject.globalVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="879" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="879" bodyend="884"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a6807d85a8a605de696319d2a7eca851f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.globalVisibility</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalVisibility</name>
+        <qualifiedname>MR.Const_ConeObject.globalVisibility</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a6807d85a8a605de696319d2a7eca851f" kindref="member">MR.ConeObject.globalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="891" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="891" bodyend="896"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ae283beff06e42f78988568ffc8d1c56f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.isLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isLocked</name>
+        <qualifiedname>MR.Const_ConeObject.isLocked</qualifiedname>
+        <briefdescription>
+<para>object properties lock for UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ae283beff06e42f78988568ffc8d1c56f" kindref="member">MR.ConeObject.isLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="902" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="902" bodyend="907"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a3720e1fd8eb730e9f9f1a1729094f2fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.isParentLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isParentLocked</name>
+        <qualifiedname>MR.Const_ConeObject.isParentLocked</qualifiedname>
+        <briefdescription>
+<para>If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a3720e1fd8eb730e9f9f1a1729094f2fa" kindref="member">MR.ConeObject.isParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="914" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="914" bodyend="919"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1acb1c9ffe4a63a6a46ae2c763a1eb92c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.isAncestor</definition>
+        <argsstring>(MR.Const_Object? ancestor)</argsstring>
+        <name>isAncestor</name>
+        <qualifiedname>MR.Const_ConeObject.isAncestor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref>?</type>
+          <declname>ancestor</declname>
+        </param>
+        <briefdescription>
+<para>return true if given object is ancestor of this one, false otherwise Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1acb1c9ffe4a63a6a46ae2c763a1eb92c2" kindref="member">MR.ConeObject.isAncestor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="925" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="925" bodyend="930"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1aa76f04b0ba32f5660f898ffc6df84c10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.isSelected</definition>
+        <argsstring>()</argsstring>
+        <name>isSelected</name>
+        <qualifiedname>MR.Const_ConeObject.isSelected</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1aa76f04b0ba32f5660f898ffc6df84c10" kindref="member">MR.ConeObject.isSelected</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="935" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="935" bodyend="940"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1aa2365cad96128a366a57549b6152551c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.isAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isAncillary</name>
+        <qualifiedname>MR.Const_ConeObject.isAncillary</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1aa2365cad96128a366a57549b6152551c" kindref="member">MR.ConeObject.isAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="945" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="945" bodyend="950"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a9231ec9981f3f2a686bd751d19528a2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.isGlobalAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isGlobalAncillary</name>
+        <qualifiedname>MR.Const_ConeObject.isGlobalAncillary</qualifiedname>
+        <briefdescription>
+<para>returns true if the object or any of its ancestors are ancillary Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a9231ec9981f3f2a686bd751d19528a2c" kindref="member">MR.ConeObject.isGlobalAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="956" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="956" bodyend="961"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a1779e36d703df21d0ce0a4ce66d6c04b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.isVisible</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isVisible</name>
+        <qualifiedname>MR.Const_ConeObject.isVisible</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a1779e36d703df21d0ce0a4ce66d6c04b" kindref="member">MR.ConeObject.isVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="968" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="968" bodyend="973"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ab76e0b3c17cb50d8025c5e5823fdcdad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ConeObject.visibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>visibilityMask</name>
+        <qualifiedname>MR.Const_ConeObject.visibilityMask</qualifiedname>
+        <briefdescription>
+<para>gets object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ab76e0b3c17cb50d8025c5e5823fdcdad" kindref="member">MR.ConeObject.visibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="979" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="979" bodyend="984"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1afb8f9ed7262d76329cd0c6207868556d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ConeObject.resetRedrawFlag</definition>
+        <argsstring>()</argsstring>
+        <name>resetRedrawFlag</name>
+        <qualifiedname>MR.Const_ConeObject.resetRedrawFlag</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1afb8f9ed7262d76329cd0c6207868556d" kindref="member">MR.ConeObject.resetRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="989" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="989" bodyend="994"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1aee0780dc05c46721f73c3f355b4895df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ConeObject.cloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>cloneTree</name>
+        <qualifiedname>MR.Const_ConeObject.cloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognized children) Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1aee0780dc05c46721f73c3f355b4895df" kindref="member">MR.ConeObject.cloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1000" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1000" bodyend="1005"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a740e575c33f55be44b1e344879b5af27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ConeObject.shallowCloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>shallowCloneTree</name>
+        <qualifiedname>MR.Const_ConeObject.shallowCloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognied children) clones only pointers to mesh, points or voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a740e575c33f55be44b1e344879b5af27" kindref="member">MR.ConeObject.shallowCloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1012" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1012" bodyend="1017"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ac9ed01650a77d5f046e8734c4a5269a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ConeObject.getWorldTreeBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldTreeBox</name>
+        <qualifiedname>MR.Const_ConeObject.getWorldTreeBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ac9ed01650a77d5f046e8734c4a5269a0" kindref="member">MR.ConeObject.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1025" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1025" bodyend="1030"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a7ca4c7fa4c488089fe61d299cece85c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.hasVisualRepresentation</definition>
+        <argsstring>()</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>MR.Const_ConeObject.hasVisualRepresentation</qualifiedname>
+        <briefdescription>
+<para>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a7ca4c7fa4c488089fe61d299cece85c7" kindref="member">MR.ConeObject.hasVisualRepresentation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1036" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1036" bodyend="1041"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a53ce1a1621fd73ccbc5f977b5e71c596" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.hasModel</definition>
+        <argsstring>()</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>MR.Const_ConeObject.hasModel</qualifiedname>
+        <briefdescription>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid mesh() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a53ce1a1621fd73ccbc5f977b5e71c596" kindref="member">MR.ConeObject.hasModel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1048" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1048" bodyend="1053"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ae1cd13cbd6865513ab56415fbbc17003" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Set_StdString</type>
+        <definition>unsafe MR.Std.Const_Set_StdString MR.Const_ConeObject.tags</definition>
+        <argsstring>()</argsstring>
+        <name>tags</name>
+        <qualifiedname>MR.Const_ConeObject.tags</qualifiedname>
+        <briefdescription>
+<para>provides read-only access to the tag storage the storage is a set of unique strings Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ae1cd13cbd6865513ab56415fbbc17003" kindref="member">MR.ConeObject.tags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1060" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1060" bodyend="1065"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ae088fc0c4ea336b862be6b42edbc54c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ConeObject.sameModels</definition>
+        <argsstring>(MR.Const_Object other)</argsstring>
+        <name>sameModels</name>
+        <qualifiedname>MR.Const_ConeObject.sameModels</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1ae088fc0c4ea336b862be6b42edbc54c7" kindref="member">MR.ConeObject.sameModels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1071" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1071" bodyend="1076"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a98065de8da7813bcf3d8c92b3d369f9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ConeObject.getModelHash</definition>
+        <argsstring>()</argsstring>
+        <name>getModelHash</name>
+        <qualifiedname>MR.Const_ConeObject.getModelHash</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a98065de8da7813bcf3d8c92b3d369f9c" kindref="member">MR.ConeObject.getModelHash</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1082" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1082" bodyend="1087"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a1c88f5ef240f2e71dc00e67042083f9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ConeObject.getSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getSharedPtr</name>
+        <qualifiedname>MR.Const_ConeObject.getSharedPtr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ConeObject_1a1c88f5ef240f2e71dc00e67042083f9e" kindref="member">MR.ConeObject.getSharedPtr</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="1094" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="1094" bodyend="1099"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a6d9b90be5df3f7fd1acdce8c2793175c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ConeObject.~Const_ConeObject</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ConeObject</name>
+        <qualifiedname>MR.Const_ConeObject.~Const_ConeObject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="32" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a6e9b228741e003378bab7e419e5b609c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ConeObject.operator MR.Const_ObjectChildrenHolder</definition>
+        <argsstring>(Const_ConeObject self)</argsstring>
+        <name>operator MR.Const_ObjectChildrenHolder</name>
+        <qualifiedname>MR.Const_ConeObject.operator MR.Const_ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ConeObject" kindref="compound">Const_ConeObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="35" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="35" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ae3a8b836bbacec94a3b7a3b1715ac597" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ConeObject.operator MR.Const_Object</definition>
+        <argsstring>(Const_ConeObject self)</argsstring>
+        <name>operator MR.Const_Object</name>
+        <qualifiedname>MR.Const_ConeObject.operator MR.Const_Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ConeObject" kindref="compound">Const_ConeObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="43" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1aaea5dd01f638fabd236009332b4ac700" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ConeObject.operator MR.Const_VisualObject</definition>
+        <argsstring>(Const_ConeObject self)</argsstring>
+        <name>operator MR.Const_VisualObject</name>
+        <qualifiedname>MR.Const_ConeObject.operator MR.Const_VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ConeObject" kindref="compound">Const_ConeObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="51" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="51" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1aec9b4e7d0808c7c6cc302cb2448b63e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ConeObject.operator MR.Const_FeatureObject</definition>
+        <argsstring>(Const_ConeObject self)</argsstring>
+        <name>operator MR.Const_FeatureObject</name>
+        <qualifiedname>MR.Const_ConeObject.operator MR.Const_FeatureObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ConeObject" kindref="compound">Const_ConeObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="59" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="59" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1afacc432ece26e8dbed43c5e075604b0e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ConeObject.operator MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</definition>
+        <argsstring>(Const_ConeObject self)</argsstring>
+        <name>operator MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</name>
+        <qualifiedname>MR.Const_ConeObject.operator MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ConeObject" kindref="compound">Const_ConeObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="67" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="67" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a53d4fba98a4b240c673b9a0335fc5584" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ConeObject.operator Const_ConeObject?</definition>
+        <argsstring>(MR.Const_Object parent)</argsstring>
+        <name>operator Const_ConeObject?</name>
+        <qualifiedname>MR.Const_ConeObject.operator Const_ConeObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="77" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="77" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a60203f0117d81b7c3457e305c9fa473c" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ConeObject.operator Const_ConeObject?</definition>
+        <argsstring>(MR.Const_VisualObject parent)</argsstring>
+        <name>operator Const_ConeObject?</name>
+        <qualifiedname>MR.Const_ConeObject.operator Const_ConeObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="87" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="87" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1abbdb63bef4bda9c0620680dc3cb3934b" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ConeObject.operator Const_ConeObject?</definition>
+        <argsstring>(MR.Const_FeatureObject parent)</argsstring>
+        <name>operator Const_ConeObject?</name>
+        <qualifiedname>MR.Const_ConeObject.operator Const_ConeObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FeatureObject" kindref="compound">MR.Const_FeatureObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="97" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="97" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a982126168471759b146ba2ab3afddcd5" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ConeObject.operator Const_ConeObject?</definition>
+        <argsstring>(MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength parent)</argsstring>
+        <name>operator Const_ConeObject?</name>
+        <qualifiedname>MR.Const_ConeObject.operator Const_ConeObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameteb6b978ab28f6303e8ea184c630bc7d8d" kindref="compound">MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="107" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="107" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a7e817c4e570f5a5f0ee5435e07da2256" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ConeObject.operator Const_ConeObject</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f pointsToApprox)</argsstring>
+        <name>operator Const_ConeObject</name>
+        <qualifiedname>MR.Const_ConeObject.operator Const_ConeObject</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+<para>Finds best Cone to approx given points Generated from constructor <computeroutput><ref refid="classMR_1_1ConeObject_1ac799623bc324d04da79259548892ce2c" kindref="member">MR.ConeObject.ConeObject</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="157" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a6e8765dc220fe6b38290256786104049" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ConeObject.staticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>staticTypeName</name>
+        <qualifiedname>MR.Const_ConeObject.staticTypeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ConeObject::StaticTypeName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="162" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="162" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1abaa67236f8312fbb8c4d0ad7504cfd33" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ConeObject.staticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassName</name>
+        <qualifiedname>MR.Const_ConeObject.staticClassName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ConeObject::StaticClassName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="184" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="184" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1ad0544a6b18c7a4edaf21780d94eb30a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ConeObject.staticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassNameInPlural</name>
+        <qualifiedname>MR.Const_ConeObject.staticClassNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ConeObject::StaticClassNameInPlural</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="205" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="205" bodyend="211"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ConeObject_1a8a062c671bde155295aaf29f94de35b5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ConeObject.Const_ConeObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ConeObject</name>
+        <qualifiedname>MR.Const_ConeObject.Const_ConeObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="118" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="118" bodyend="118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classMR_1_1Object" kindref="compound">Object</ref> to show Cone feature, position and radius are controlled by xf Generated from class <computeroutput><ref refid="classMR_1_1ConeObject" kindref="compound">MR.ConeObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::AddVisualProperties&amp;lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::angle, MR::DimensionsVisualizePropertyType::length&amp;gt;</computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ConeObject</label>
+        <link refid="classMR_1_1Const__ConeObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ConeObject</label>
+        <link refid="classMR_1_1ConeObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ConeObject</label>
+        <link refid="classMR_1_1Const__ConeObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" line="16" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRConeObject.cs" bodystart="17" bodyend="1100"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ConeObject_1a25b727214e4a2e639e54269cb15f9598" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ab622cb386c15aac22e60b38af9734fa4" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ad5d3320b03d7078300e8bbfcfaefd07a" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1aee0780dc05c46721f73c3f355b4895df" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a8a062c671bde155295aaf29f94de35b5" prot="package" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>Const_ConeObject</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ae6f5c1aec42acc971d75d4cba88ae90c" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>Const_ConeObject</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a9502d4c4a20b0ed71fd3b57ca305f4f5" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>Const_ConeObject</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1af0046722bce490234cce74a087aa96a5" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>Const_ConeObject</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a4fd200c4f64b587e7d882e9b19fb0d77" prot="protected" virt="virtual"><scope>MR::Const_ConeObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a08a6a195d57b19f874c8b820d95c0f2a" prot="public" virt="virtual"><scope>MR::Const_ConeObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a01979884756a271375ca251896f08d23" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a08e4420dc62fde7bcfa964c165a09efe" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a1d802de13a8a7481c9081b3b8997992a" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a2e967f2eda7bc1478f3e8ab017d6b2fd" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getAngle</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a09bbf8e377ee76999fcd4396f48b2a5d" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ade062f944948c2abadfca0ede60b9d5b" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ab84cc703ef0abf05d943acf5ed3fd274" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getBasePoint</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a98979d4a75381b96b95edea229a0a830" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getBaseRadius</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1adeaa2a877ddff7acb1c3df4fada0feb4" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ab81cdca6e27d5fa9fec124dd153ee7c3" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getCenter</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a5725e893f1d185558199e026fabcae20" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a3a74f5a729cc4555a28a16bae80ba5dd" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getDecorationsColor</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1aaab6367f139ca9f35be7353e3e56f8ad" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a5b803c4b0b5d0f7dbf47188cc62f0e51" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getDirection</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a5eeecac0f376cdc80bafb44b565da894" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1acd7bd9430680c702c37ddfd88d9c1169" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a2da2a9c3c20a4d186f85d9d057f4418e" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1adb0663569bd60b9e3a81a60d8ade0963" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a8681d92987c09e2bb852b18c51d17833" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a8705805a0d82e035d1a7b3df85757692" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getHeight</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a27946c2b5492cc8a3f33b71190f8e20b" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a2ed02c168a446889d918cfbdf481a542" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getLineWidth</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a04866b8da1dbe54c8be1f175e7f6de2d" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a98065de8da7813bcf3d8c92b3d369f9c" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a1085b8db7e0f374d9407e8638ec7af64" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getNormal</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a92481e0de1b07319421b9ba7e30ae600" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1acbf290dc649c7219d6e9464dc3c0c165" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ae46b67b47e76704402fc490fcadaa4b6" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getRotationMatrix</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1af931609a5a49be90520b5ab3197a6d94" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getScaleShearMatrix</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a1c88f5ef240f2e71dc00e67042083f9e" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a0a92f64dc959d7be59b779715ddcf5cc" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1aeefc9b8329b8f3a81843feb46d04e7ac" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a8e43e197190b09457232548b5443193c" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a3f4cc7e822d538ed2a8b0760450dca40" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a3af7f17eda3a36f7c5f7d2c185fc25a1" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a68a80c6d80edb1cd1352a8986371a569" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a2043b5607f6596ad34c31938b38f343c" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a77dc731978923e833e44bd31690cab69" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ae87d3ccaceba7a4ec822458ba271b121" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1addcd5c2add0e714cb238df1de9a00699" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ac9ed01650a77d5f046e8734c4a5269a0" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a63e2f1289081f973c87456e63dce1598" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a060fa0d2964d72f1b1fe7b305dee0292" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a6807d85a8a605de696319d2a7eca851f" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ae057b4e62654c9ec7414cc645e924444" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a53ce1a1621fd73ccbc5f977b5e71c596" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a7ca4c7fa4c488089fe61d299cece85c7" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1aa4b1f730156b72ea131a38201662b478" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1acb1c9ffe4a63a6a46ae2c763a1eb92c2" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1aa2365cad96128a366a57549b6152551c" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a9231ec9981f3f2a686bd751d19528a2c" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ae283beff06e42f78988568ffc8d1c56f" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a3720e1fd8eb730e9f9f1a1729094f2fa" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a9370decbb130c608eaf45560bb911d99" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1aa76f04b0ba32f5660f898ffc6df84c10" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a1779e36d703df21d0ce0a4ce66d6c04b" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a76750efa19f5ec72245279ad2e38360c" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a7e817c4e570f5a5f0ee5435e07da2256" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>operator Const_ConeObject</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a53d4fba98a4b240c673b9a0335fc5584" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>operator Const_ConeObject?</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a60203f0117d81b7c3457e305c9fa473c" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>operator Const_ConeObject?</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1abbdb63bef4bda9c0620680dc3cb3934b" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>operator Const_ConeObject?</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a982126168471759b146ba2ab3afddcd5" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>operator Const_ConeObject?</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1afacc432ece26e8dbed43c5e075604b0e" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>operator MR.Const_AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeAngle_MRDimensionsVisualizePropertyTypeLength</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1aec9b4e7d0808c7c6cc302cb2448b63e4" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>operator MR.Const_FeatureObject</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ae3a8b836bbacec94a3b7a3b1715ac597" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a6e9b228741e003378bab7e419e5b609c" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1aaea5dd01f638fabd236009332b4ac700" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>operator MR.Const_VisualObject</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a901f647e4a2538a32c03cf93cd4c19ef" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>projectPoint</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a30f76e040b8321a080fd6a01d32d8a38" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ab406786fb2bebb226587277edd1f69af" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a91d29aa95522810625cbae3c7ebb84e9" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a8f4fda3cc9ab398f5828b7d3f3cdcc3e" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1af700a78fac4707c5d2bf070eaada394d" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1afb8f9ed7262d76329cd0c6207868556d" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ae088fc0c4ea336b862be6b42edbc54c7" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a5595d76692cde090223e7d95a619df53" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a740e575c33f55be44b1e344879b5af27" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1abaa67236f8312fbb8c4d0ad7504cfd33" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ad0544a6b18c7a4edaf21780d94eb30a0" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a6e8765dc220fe6b38290256786104049" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1aad84ee660ff8da9cf756715e6e0306a0" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ae1cd13cbd6865513ab56415fbbc17003" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>tags</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ae1fe07b91cbe6d77fda0e38e501dc522" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a6a92d07cdc7bda6fbb8ba2d61ebd7254" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ab76e0b3c17cb50d8025c5e5823fdcdad" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1ac94a660af156c09999b462cf4b5dbb66" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1afdf74573015bff168bd6f3ff485854aa" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a21c0efe27875e7f0fcca9036cd5880ee" prot="public" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ConeObject_1a6d9b90be5df3f7fd1acdce8c2793175c" prot="private" virt="non-virtual"><scope>MR::Const_ConeObject</scope><name>~Const_ConeObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

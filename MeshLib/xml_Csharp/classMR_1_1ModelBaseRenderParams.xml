@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ModelBaseRenderParams" kind="class" language="C#" prot="public">
     <compoundname>MR::ModelBaseRenderParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ModelBaseRenderParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ModelBaseRenderParams" prot="public" virt="non-virtual">MR.Const_ModelBaseRenderParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ModelBaseRenderParams_1a017a4097e011211ae7633f54a109a963" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1a1117518b4d89ca3cdb9ee5dbb315312b" kindref="member">MR.DepthFunction</ref></type>
@@ -99,7 +99,7 @@
         <name>ModelBaseRenderParams</name>
         <qualifiedname>MR.ModelBaseRenderParams.ModelBaseRenderParams</qualifiedname>
         <param>
-          <type>MR.Const_ModelBaseRenderParams</type>
+          <type><ref refid="classMR_1_1Const__ModelBaseRenderParams" kindref="compound">MR.Const_ModelBaseRenderParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -145,6 +145,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ModelBaseRenderParams</label>
+        <link refid="classMR_1_1Const__ModelBaseRenderParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -158,6 +159,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ModelBaseRenderParams</label>
         <link refid="classMR_1_1ModelBaseRenderParams"/>
@@ -166,9 +171,18 @@
       </node>
       <node id="2">
         <label>MR.Const_ModelBaseRenderParams</label>
+        <link refid="classMR_1_1Const__ModelBaseRenderParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_depthFunction</edgelabel>
+          <edgelabel>__ref_storage_modelMatrix</edgelabel>
+          <edgelabel>__ref_storage_projMatrix</edgelabel>
+          <edgelabel>__ref_storage_viewMatrix</edgelabel>
+          <edgelabel>__ref_storage_viewport</edgelabel>
+          <edgelabel>__ref_storage_viewportId</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -180,11 +194,27 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="384" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="385" bodyend="429"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1abe6630a5878a3284b923a0134740a99c" prot="protected" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>__ref_storage_depthFunction</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1a48aa1c994651fee6e13183255c58009f" prot="protected" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>__ref_storage_modelMatrix</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1a5da5caa157f07ee34649f6c254339a05" prot="protected" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>__ref_storage_projMatrix</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1ab3409b7537dad6b17e3800289da59df7" prot="protected" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>__ref_storage_viewMatrix</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1a2776b0b3754ebad46e06a43d39406a73" prot="protected" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>__ref_storage_viewport</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1abdba873acc09400805036efaf017a32c" prot="protected" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>__ref_storage_viewportId</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1ab7118f8c5a92d8d03bab2e67b97ba9d2" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>clipPlane</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1aba7303876a88d3aaeaa96b42b7a056f4" prot="package" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>Const_ModelBaseRenderParams</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1ab92f71db15bf8f78ead54a85e92f23f4" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>Const_ModelBaseRenderParams</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1ab9dc0960f2299aba5f74e98752394a8b" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>Const_ModelBaseRenderParams</name></member>
       <member refid="classMR_1_1ModelBaseRenderParams_1a017a4097e011211ae7633f54a109a963" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>depthFunction</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1a9cf910147df9f2208af1ee8931a9f0b8" prot="protected" virt="virtual"><scope>MR::ModelBaseRenderParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1a68afd2fb7f34ae9494ba5bd5b734b3c4" prot="public" virt="virtual"><scope>MR::ModelBaseRenderParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ModelBaseRenderParams_1a692ca2040145e9bca32aa1806358f256" prot="package" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>ModelBaseRenderParams</name></member>
       <member refid="classMR_1_1ModelBaseRenderParams_1a39257a4811e0ca7d0de12e39f285d0a1" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>ModelBaseRenderParams</name></member>
       <member refid="classMR_1_1ModelBaseRenderParams_1aa8f37c04f3149abbc609f6824786846e" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>ModelBaseRenderParams</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1a10d807f49b3b51dbfbda983f5e3d1e23" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>modelMatrix</name></member>
       <member refid="classMR_1_1ModelBaseRenderParams_1ad47cf333a37eeb03dd0a056f7d7a93ed" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>operator MR.BaseRenderParams</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1a602c6b61b1991324b9487a2b01cbd3bf" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>operator MR.Const_BaseRenderParams</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1a3ba1f2331bca097b0908c8599393049c" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>projMatrix</name></member>
+      <member refid="classMR_1_1Const__ModelBaseRenderParams_1a50fd98919c7c8293e2a0611257447f99" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>viewMatrix</name></member>
       <member refid="classMR_1_1ModelBaseRenderParams_1a86ade95261aeea3a7a81791ca0d15daa" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>viewport</name></member>
       <member refid="classMR_1_1ModelBaseRenderParams_1a5babfc238385ca680ce5961341272525" prot="public" virt="non-virtual"><scope>MR::ModelBaseRenderParams</scope><name>viewportId</name></member>
     </listofallmembers>

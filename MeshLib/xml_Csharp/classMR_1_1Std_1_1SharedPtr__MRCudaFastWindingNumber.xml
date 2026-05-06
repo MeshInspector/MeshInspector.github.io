@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber" kind="class" language="C#" prot="public">
     <compoundname>MR::Std::SharedPtr_MRCudaFastWindingNumber</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Std.Const_SharedPtr_MRCudaFastWindingNumber</basecompoundref>
+    <basecompoundref refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber" prot="public" virt="non-virtual">MR.Std.Const_SharedPtr_MRCudaFastWindingNumber</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1afd4f2521a66b979cf16c003fd28ef57b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>SharedPtr_MRCudaFastWindingNumber</name>
         <qualifiedname>MR.Std.SharedPtr_MRCudaFastWindingNumber.SharedPtr_MRCudaFastWindingNumber</qualifiedname>
         <param>
-          <type>Const_SharedPtr_MRCudaFastWindingNumber</type>
+          <type><ref refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber" kindref="compound">Const_SharedPtr_MRCudaFastWindingNumber</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -264,7 +264,7 @@
           <declname>ptr</declname>
         </param>
         <briefdescription>
-<para>The aliasing constructor. Create a new instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&amp;amp;lt;T&amp;amp;gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&amp;amp;lt;void&amp;amp;gt;</computeroutput>. </para>
+<para>The aliasing constructor. Create a new instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&amp;lt;T&amp;gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&amp;lt;void&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -291,7 +291,7 @@
           <declname>ptr</declname>
         </param>
         <briefdescription>
-<para>The aliasing assignment. Overwrite an existing instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&amp;amp;lt;T&amp;amp;gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&amp;amp;lt;void&amp;amp;gt;</computeroutput>. </para>
+<para>The aliasing assignment. Overwrite an existing instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&amp;lt;T&amp;gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&amp;lt;void&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -338,6 +338,7 @@
       </node>
       <node id="2">
         <label>MR.Std.Const_SharedPtr_MRCudaFastWindingNumber</label>
+        <link refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -359,6 +360,7 @@
       </node>
       <node id="2">
         <label>MR.Std.Const_SharedPtr_MRCudaFastWindingNumber</label>
+        <link refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -374,6 +376,22 @@
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1ae6d939d19e60def089133853e31f0706" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>assign</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a4f256b7cb1f1bc5d5c8ef87401983857" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>assign</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1aa21e1f81cef7cc9f7507cd20fd69a00e" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>assignAliasing</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1a257d39070f392ca2b8b3bcdf085ab1b7" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>assignToMRStdSharedPtrVoid</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1a1a9cc6c20493424bfd53310798aa1a9c" prot="package" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>Const_SharedPtr_MRCudaFastWindingNumber</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1aff13bd74dd381d6a57391bc634d7cef4" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>Const_SharedPtr_MRCudaFastWindingNumber</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1ac71e82acfd643ff7feec9d715da8f54f" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>Const_SharedPtr_MRCudaFastWindingNumber</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1ad78d2f15c777502748de31aaff75fedf" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>Const_SharedPtr_MRCudaFastWindingNumber</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1ac26314435e5c8b77cf3307a066358624" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>Const_SharedPtr_MRCudaFastWindingNumber</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1a4afc72f8fc865c48f5de6608a486170c" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>Const_SharedPtr_MRCudaFastWindingNumber</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1aee4fe4ccb030fd22fb55c21de6788516" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>Const_SharedPtr_MRCudaFastWindingNumber</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1ad0c88d253141f7e3ec8f5f58c80af9e5" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>Const_SharedPtr_MRCudaFastWindingNumber</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1a2d1ad8c083556556cd4669bf93d1ae94" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>Const_SharedPtr_MRCudaFastWindingNumber</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1a272f7896a431d4eb2f80b10d4d9e927b" prot="protected" virt="virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1a4a963ff4aaef060212a137c4e1a5cbce" prot="public" virt="virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1a72205196d12c4181f8039c826612654f" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>get</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1a27748b559743057d926978b4fd65cf5d" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1a66f531f8a816a7372cfaff4a109c79e5" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>operator Const_SharedPtr_MRCudaFastWindingNumber</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1a65f5cd58f6be049369d4090f4887a170" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>operator MR.Std.SharedPtr_Void</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a266fc1d21f83a6c7ef2199d7176bb457" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>operator SharedPtr_MRCudaFastWindingNumber</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a434b9bb73d081044f7a54fee50e0a01e" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>reset</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1afd4f2521a66b979cf16c003fd28ef57b" prot="package" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>SharedPtr_MRCudaFastWindingNumber</name></member>
@@ -385,6 +403,7 @@
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a5c62d6749d54eecc3a272385003e47c4" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>SharedPtr_MRCudaFastWindingNumber</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a6b3159d41df396dc66e419f0e3be0b12" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>SharedPtr_MRCudaFastWindingNumber</name></member>
       <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a5b8cd8f82aab079560a9e40ed8572dc9" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>SharedPtr_MRCudaFastWindingNumber</name></member>
+      <member refid="classMR_1_1Std_1_1Const__SharedPtr__MRCudaFastWindingNumber_1a958baf5d318016dc74624b8a69a6ff95" prot="public" virt="non-virtual"><scope>MR::Std::SharedPtr_MRCudaFastWindingNumber</scope><name>useCount</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

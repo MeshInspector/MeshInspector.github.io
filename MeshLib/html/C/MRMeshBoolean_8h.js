@@ -8,8 +8,7 @@ var MRMeshBoolean_8h =
     [ "MR_expected_MR_BooleanResultPoints_std_string", "MRMeshBoolean_8h.html#af7f7ea1a320c24c6e4922bc0b5a41edf", null ],
     [ "MR_boolean_4_const_MR_Mesh_ref", "MRMeshBoolean_8h.html#a67bd9b7954a1caa89ca51c0aba0edc91", null ],
     [ "MR_boolean_4_MR_Mesh_rvalue_ref", "MRMeshBoolean_8h.html#a22782fb1432d16c9cd3bc3a6e91bdb29", null ],
-    [ "MR_boolean_6_const_MR_Mesh_ref", "MRMeshBoolean_8h.html#a4a97731d9637866e4ddd03958bfa6bfa", null ],
-    [ "MR_boolean_6_MR_Mesh_rvalue_ref", "MRMeshBoolean_8h.html#ae30013efc4d962ee0cbb8e77aaf2f7de", null ],
+    [ "MR_boolean_6", "MRMeshBoolean_8h.html#af94cc2c3f153caa5de2b7551e719156f", null ],
     [ "MR_BooleanParameters_AssignFromAnother", "MRMeshBoolean_8h.html#acfd01063079e4b9276e5f25e998af866", null ],
     [ "MR_BooleanParameters_ConstructFrom", "MRMeshBoolean_8h.html#a9b4b96c69a67bc77c506aac1c26e645a", null ],
     [ "MR_BooleanParameters_ConstructFromAnother", "MRMeshBoolean_8h.html#a7dc9d7074a9d3391b0ca791ef3ae4850", null ],
@@ -105,6 +104,7 @@ var MRMeshBoolean_8h =
     [ "MR_deref_const_MR_BooleanResult_ref", "MRMeshBoolean_8h.html#ab1a9425428b02824fbb9470c02787809", null ],
     [ "MR_deref_MR_BooleanResult_ref", "MRMeshBoolean_8h.html#aca0db01b47d45355d0feaa7602eb192f", null ],
     [ "MR_findIntersectionContours", "MRMeshBoolean_8h.html#abe313812b7b3040f87baa7ed8cdfd06b", null ],
+    [ "MR_forceBoolean", "MRMeshBoolean_8h.html#a45e52e348c4d8ff59d32b478989f4d63", null ],
     [ "MR_getBooleanPoints", "MRMeshBoolean_8h.html#a8e06e92a6a7297d6b5cb3e52db71bfd7", null ],
     [ "MR_selfBoolean", "MRMeshBoolean_8h.html#a29b6f563c5d3e460ce7e5132ff71aeb2", null ]
 ];

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeLinesColorMapAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeLinesColorMapAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeLinesColorMapAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeLinesColorMapAction" prot="public" virt="non-virtual">MR.Const_ChangeLinesColorMapAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeLinesColorMapAction_1a7c57befdecb0eac6f83c4396fc5d33f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeLinesColorMapAction</name>
         <qualifiedname>MR.ChangeLinesColorMapAction.ChangeLinesColorMapAction</qualifiedname>
         <param>
-          <type>Const_ChangeLinesColorMapAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeLinesColorMapAction" kindref="compound">Const_ChangeLinesColorMapAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeLinesColorMapAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeLinesColorMapAction</label>
+        <link refid="classMR_1_1Const__ChangeLinesColorMapAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeLinesColorMapAction</label>
+        <link refid="classMR_1_1Const__ChangeLinesColorMapAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,8 +271,21 @@
       <member refid="classMR_1_1ChangeLinesColorMapAction_1a0ab8d35480b7eb69f9cd7c630a4fee39" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
       <member refid="classMR_1_1ChangeLinesColorMapAction_1adddffe67ff0dd382cefa11eb0968c0b6" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
       <member refid="classMR_1_1ChangeLinesColorMapAction_1a4b73c067ecdf4c85e6968c022f3e275d" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1a9525670d60769f71a42d8f181b93f5f2" prot="package" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>Const_ChangeLinesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1ac1e1b35b48e650324a45bc336b18b64c" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>Const_ChangeLinesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1af11c9af5dd99ddfc0e5d081e746d43e0" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>Const_ChangeLinesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1a5015762b76927ea66162fe5e582aa568" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>Const_ChangeLinesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1a51ab3aa09c9ee870a9070201721d0a1e" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>Const_ChangeLinesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1a24c18e717d3f1653e05ee9a83679e611" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>Const_ChangeLinesColorMapAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1ac8a96122fd1b40aff7ddf642e774cb6b" prot="protected" virt="virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1a7da956ec257f300ba65d0aa7f173ec43" prot="public" virt="virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1a53b15540328f521ee4beeee6b105edae" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1a509ece3cea38275ca6757d1835e11ab7" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeLinesColorMapAction_1a98f68cd39416ff47510cb7b016e697ea" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>operator ChangeLinesColorMapAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1aa087519f5781a554ecbc51db2acec113" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>operator Const_ChangeLinesColorMapAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1aad2d0f2105cb4a157e839b867ce2e348" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeLinesColorMapAction_1a7c57befdecb0eac6f83c4396fc5d33f8" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeLinesColorMapAction_1abc6f839ee94405223866bfd04b1c35bb" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RingIterator__MRNextEdgeSameOrigin" kind="class" language="C#" prot="public">
     <compoundname>MR::RingIterator_MRNextEdgeSameOrigin</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_RingIterator_MRNextEdgeSameOrigin</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin" prot="public" virt="non-virtual">MR.Const_RingIterator_MRNextEdgeSameOrigin</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1RingIterator__MRNextEdgeSameOrigin_1a8c7f19c15a31ea47dd67f289069b35fc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -55,11 +55,11 @@
         <name>RingIterator_MRNextEdgeSameOrigin</name>
         <qualifiedname>MR.RingIterator_MRNextEdgeSameOrigin.RingIterator_MRNextEdgeSameOrigin</qualifiedname>
         <param>
-          <type>MR.Const_RingIterator_MRNextEdgeSameOrigin</type>
+          <type><ref refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin" kindref="compound">MR.Const_RingIterator_MRNextEdgeSameOrigin</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::RingIterator&amp;amp;lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&amp;amp;gt;::RingIterator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::RingIterator&amp;lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&amp;gt;::RingIterator</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -78,7 +78,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::RingIterator&amp;amp;lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&amp;amp;gt;::RingIterator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::RingIterator&amp;lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&amp;gt;::RingIterator</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -93,7 +93,7 @@
         <name>RingIterator_MRNextEdgeSameOrigin</name>
         <qualifiedname>MR.RingIterator_MRNextEdgeSameOrigin.RingIterator_MRNextEdgeSameOrigin</qualifiedname>
         <param>
-          <type>MR.Const_MeshTopology</type>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
           <declname>topology</declname>
         </param>
         <param>
@@ -105,7 +105,7 @@
           <declname>first</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::RingIterator&amp;amp;lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&amp;amp;gt;::RingIterator</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::RingIterator&amp;lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&amp;gt;::RingIterator</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -120,11 +120,11 @@
         <name>assign</name>
         <qualifiedname>MR.RingIterator_MRNextEdgeSameOrigin.assign</qualifiedname>
         <param>
-          <type>MR.Const_RingIterator_MRNextEdgeSameOrigin</type>
+          <type><ref refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin" kindref="compound">MR.Const_RingIterator_MRNextEdgeSameOrigin</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::RingIterator&amp;amp;lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::RingIterator&amp;lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -139,7 +139,7 @@
         <name>incr</name>
         <qualifiedname>MR.RingIterator_MRNextEdgeSameOrigin.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::RingIterator&amp;amp;lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&amp;amp;gt;::operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::RingIterator&amp;lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&amp;gt;<ref refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1af23b66c62a7fb739d49623ff64d6fa35" kindref="member">operator++</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -149,7 +149,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::RingIterator&amp;amp;lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&amp;amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::RingIterator&amp;lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -162,6 +162,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RingIterator_MRNextEdgeSameOrigin</label>
+        <link refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -188,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RingIterator_MRNextEdgeSameOrigin</label>
+        <link refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -208,8 +210,23 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="152" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="153" bodyend="214"/>
     <listofallmembers>
       <member refid="classMR_1_1RingIterator__MRNextEdgeSameOrigin_1a716d4f24320c9194175f20b6460f25c9" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1aa601d253b5fd81faaa4653d8dc7120b9" prot="package" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>Const_RingIterator_MRNextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1ab06d2cbbab832a6ccabb05716adb56ff" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>Const_RingIterator_MRNextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1a5814610b851a2182f2edc8ab34755429" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>Const_RingIterator_MRNextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1ad5532b336663f39809ed8f9b4f2302e9" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>Const_RingIterator_MRNextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1a82d68d9f97080f8b6b043ff16f4ab148" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1a9639e0f0528d1c6c2b9d0b1020a4d646" prot="protected" virt="virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1a8ce6d2d7ce63fa16254e929464801f74" prot="public" virt="virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1aa62622274777e9f5d78d69e4b5a3918e" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1a4c2d6143684c81e714f712356944ceb4" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1aa398b85624ad21e242fd527939ad1fd9" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>first</name></member>
       <member refid="classMR_1_1RingIterator__MRNextEdgeSameOrigin_1af06f78952dca9d4c4ace87a437338107" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1af9bd3216feadabcb67762564f7b97e5f" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>next</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1a30f63b76b64f70ed1c9e00a03c2dc51e" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>operator MR.Const_NextEdgeSameOrigin</name></member>
       <member refid="classMR_1_1RingIterator__MRNextEdgeSameOrigin_1a8c7f19c15a31ea47dd67f289069b35fc" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>operator MR.NextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1a2b8ce65017f78c8a31c017910c7591ab" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1af23b66c62a7fb739d49623ff64d6fa35" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__RingIterator__MRNextEdgeSameOrigin_1a6e50bae0427251f39ffdf5ded1129ada" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>operator==</name></member>
       <member refid="classMR_1_1RingIterator__MRNextEdgeSameOrigin_1a76a0b99e54aafd90609e5bde26d47d1c" prot="package" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>RingIterator_MRNextEdgeSameOrigin</name></member>
       <member refid="classMR_1_1RingIterator__MRNextEdgeSameOrigin_1ade31e5d5f76c3c7d105c8a8e61b36695" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>RingIterator_MRNextEdgeSameOrigin</name></member>
       <member refid="classMR_1_1RingIterator__MRNextEdgeSameOrigin_1aad16c4276c518bfe6f4681f87159282c" prot="public" virt="non-virtual"><scope>MR::RingIterator_MRNextEdgeSameOrigin</scope><name>RingIterator_MRNextEdgeSameOrigin</name></member>

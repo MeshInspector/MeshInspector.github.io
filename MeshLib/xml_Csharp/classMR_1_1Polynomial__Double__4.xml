@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Polynomial__Double__4" kind="class" language="C#" prot="public">
     <compoundname>MR::Polynomial_Double_4</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Polynomial_Double_4</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Polynomial__Double__4" prot="public" virt="non-virtual">MR.Const_Polynomial_Double_4</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Polynomial__Double__4_1a653cb412c83c11bc84d96f76b29b6ebc" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>Polynomial_Double_4</name>
         <qualifiedname>MR.Polynomial_Double_4.Polynomial_Double_4</qualifiedname>
         <param>
-          <type>MR.Const_Polynomial_Double_4</type>
+          <type><ref refid="classMR_1_1Const__Polynomial__Double__4" kindref="compound">MR.Const_Polynomial_Double_4</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Polynomial&amp;amp;lt;double, 4&amp;amp;gt;::Polynomial</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Polynomial&amp;lt;double, 4&amp;gt;::Polynomial</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Polynomial&amp;amp;lt;double, 4&amp;amp;gt;::Polynomial</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Polynomial&amp;lt;double, 4&amp;gt;::Polynomial</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.Polynomial_Double_4.assign</qualifiedname>
         <param>
-          <type>MR.Const_Polynomial_Double_4</type>
+          <type><ref refid="classMR_1_1Const__Polynomial__Double__4" kindref="compound">MR.Const_Polynomial_Double_4</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Polynomial&amp;amp;lt;double, 4&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Polynomial&amp;lt;double, 4&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -102,7 +102,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::Polynomial&amp;amp;lt;double, 4&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::Polynomial&amp;lt;double, 4&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Polynomial_Double_4</label>
+        <link refid="classMR_1_1Const__Polynomial__Double__4"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Polynomial_Double_4</label>
+        <link refid="classMR_1_1Const__Polynomial__Double__4"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -150,11 +152,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="2132" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="2133" bodyend="2173"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Polynomial__Double__4_1ad0e38ae7786984f14f2ba8a98567d461" prot="protected" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>__ref_storage_N</name></member>
       <member refid="classMR_1_1Polynomial__Double__4_1a805ab49f1c9912e011af8ae46f67c2c5" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__4_1aea253766c33e9abf2ab607cecf25bcbc" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__4_1a9cce400782b3f097a63c0f2c3d3e1f94" prot="package" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>Const_Polynomial_Double_4</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__4_1aa4fd28032498aecc342ba55410f7ea56" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>Const_Polynomial_Double_4</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__4_1ac2873f2a41b74226b3a9a33fca9de290" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>Const_Polynomial_Double_4</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__4_1ac2fa6414e039e7929b24e89fa7039720" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>Const_Polynomial_Double_4</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__4_1af0adce2b39483b789e55c455c9330e6a" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>deriv</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__4_1a6a07091aa65da0d67e410382350ff82b" prot="protected" virt="virtual"><scope>MR::Polynomial_Double_4</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__4_1ab7ec9e0fd9024ade0f81ed949c1a4e7e" prot="public" virt="virtual"><scope>MR::Polynomial_Double_4</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__4_1a442871443ef1052ca5bdcf05f7118ac0" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>intervalMin</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__4_1a3525897414850717a92bebc5c28bcc58" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>N</name></member>
       <member refid="classMR_1_1Polynomial__Double__4_1a653cb412c83c11bc84d96f76b29b6ebc" prot="package" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>Polynomial_Double_4</name></member>
       <member refid="classMR_1_1Polynomial__Double__4_1a775f0ae763a79c303783ed8ca0cab156" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>Polynomial_Double_4</name></member>
       <member refid="classMR_1_1Polynomial__Double__4_1a168244075fad82f365e5c0581050c464" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>Polynomial_Double_4</name></member>
       <member refid="classMR_1_1Polynomial__Double__4_1af00c465eb12f29f6904fb689b9a32fcd" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>Polynomial_Double_4</name></member>
+      <member refid="classMR_1_1Const__Polynomial__Double__4_1a7a21c089f5885c91bad15d6843795e7b" prot="public" virt="non-virtual"><scope>MR::Polynomial_Double_4</scope><name>solve</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

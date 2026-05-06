@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EdgeTri" kind="class" language="C#" prot="public">
     <compoundname>MR::EdgeTri</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgeTri</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__EdgeTri" prot="public" virt="non-virtual">MR.Const_EdgeTri</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1EdgeTri_1a79c87607875a309d73a373bdeaf4669d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -80,7 +80,7 @@
         <name>EdgeTri</name>
         <qualifiedname>MR.EdgeTri.EdgeTri</qualifiedname>
         <param>
-          <type>MR.Const_EdgeTri</type>
+          <type><ref refid="classMR_1_1Const__EdgeTri" kindref="compound">MR.Const_EdgeTri</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.EdgeTri.assign</qualifiedname>
         <param>
-          <type>MR.Const_EdgeTri</type>
+          <type><ref refid="classMR_1_1Const__EdgeTri" kindref="compound">MR.Const_EdgeTri</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgeTri</label>
+        <link refid="classMR_1_1Const__EdgeTri"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -186,6 +187,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.EdgeTri</label>
         <link refid="classMR_1_1EdgeTri"/>
@@ -194,11 +199,16 @@
       </node>
       <node id="2">
         <label>MR.Const_EdgeTri</label>
+        <link refid="classMR_1_1Const__EdgeTri"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_edge</edgelabel>
+          <edgelabel>__ref_storage_tri</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -213,13 +223,26 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" line="138" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshCollidePrecise.cs" bodystart="139" bodyend="203"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__EdgeTri_1a1d14c2b7b4a4a35d9c5e72691944c016" prot="protected" virt="non-virtual"><scope>MR::EdgeTri</scope><name>__ref_storage_edge</name></member>
+      <member refid="classMR_1_1Const__EdgeTri_1a1b293f37c6b038cb7bb53c688d73f1c0" prot="protected" virt="non-virtual"><scope>MR::EdgeTri</scope><name>__ref_storage_tri</name></member>
       <member refid="classMR_1_1EdgeTri_1ab28ebc17d8a017dd3c16feca9ce3cca2" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__EdgeTri_1afd0ea840d6117524f05f8dd5685eb349" prot="package" virt="non-virtual"><scope>MR::EdgeTri</scope><name>Const_EdgeTri</name></member>
+      <member refid="classMR_1_1Const__EdgeTri_1a143f3b70adec4e96aab85ee6f7e3ceb8" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>Const_EdgeTri</name></member>
+      <member refid="classMR_1_1Const__EdgeTri_1a023d232df065426bcfc05bc4071f2437" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>Const_EdgeTri</name></member>
+      <member refid="classMR_1_1Const__EdgeTri_1aa74e9ee5e367a4f4b07d8ea888eecd54" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>Const_EdgeTri</name></member>
+      <member refid="classMR_1_1Const__EdgeTri_1ab76e8be0ecd2ead63a3c0cd9067016ff" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>Const_EdgeTri</name></member>
+      <member refid="classMR_1_1Const__EdgeTri_1ae497ed4dea18a0c83c7af12f8bf3a28b" prot="protected" virt="virtual"><scope>MR::EdgeTri</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EdgeTri_1aeb4b641e64ca6bb79421a4da8d28a299" prot="public" virt="virtual"><scope>MR::EdgeTri</scope><name>Dispose</name></member>
       <member refid="classMR_1_1EdgeTri_1a79c87607875a309d73a373bdeaf4669d" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>edge</name></member>
       <member refid="classMR_1_1EdgeTri_1a6bbe26f235e7e41c539f7e3ea6d3c0ac" prot="package" virt="non-virtual"><scope>MR::EdgeTri</scope><name>EdgeTri</name></member>
       <member refid="classMR_1_1EdgeTri_1a745dfd57a31af7f128c8d62c2080289b" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>EdgeTri</name></member>
       <member refid="classMR_1_1EdgeTri_1a8e032997e899cbf98d90ba2153ac3355" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>EdgeTri</name></member>
       <member refid="classMR_1_1EdgeTri_1a9368cae5a424b581787761ba900bd0ee" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>EdgeTri</name></member>
       <member refid="classMR_1_1EdgeTri_1a7610b4fa511e4cd0f9608df8b2c3652a" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>EdgeTri</name></member>
+      <member refid="classMR_1_1Const__EdgeTri_1a870d8da51b5939c10a07da872b7cb7b5" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__EdgeTri_1a6a4cfa44f1128c59d04bb36828122d83" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__EdgeTri_1a5d2c76643267757c37ffa9a48750934c" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__EdgeTri_1aceeab5493e766acc78e18c67a67fb31b" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>operator==</name></member>
       <member refid="classMR_1_1EdgeTri_1ada61369c1cf9b967f4e6f8e9b810d182" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>tri</name></member>
     </listofallmembers>
   </compounddef>

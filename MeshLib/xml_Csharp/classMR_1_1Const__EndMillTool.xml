@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__EndMillTool" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_EndMillTool</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1EndMillTool" prot="public" virt="non-virtual">MR.EndMillTool</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__EndMillTool_1a88f6be4d165997e91e0b071a698f37d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_EndMillTool.length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <qualifiedname>MR.Const_EndMillTool.length</qualifiedname>
+        <briefdescription>
+<para>overall tool length </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="299" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__EndMillTool_1ab29f73de0b3da41523a67d4c5cb6a833" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_EndMillTool.diameter</definition>
+        <argsstring></argsstring>
+        <name>diameter</name>
+        <qualifiedname>MR.Const_EndMillTool.diameter</qualifiedname>
+        <briefdescription>
+<para>tool diameter </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="305" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__EndMillTool_1a1f0130b8653f70306fea5bcece609752" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__EndMillCutter" kindref="compound">MR.Const_EndMillCutter</ref></type>
+        <definition>unsafe MR.Const_EndMillCutter MR.Const_EndMillTool.cutter</definition>
+        <argsstring></argsstring>
+        <name>cutter</name>
+        <qualifiedname>MR.Const_EndMillTool.cutter</qualifiedname>
+        <briefdescription>
+<para>cutter </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="311" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="311" bodyend="311"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__EndMillTool_1a8f5a9c9b8484c4cbee08d0ba70fc9008" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_EndMillTool.__ref_storage_length</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_length</name>
+        <qualifiedname>MR.Const_EndMillTool.__ref_storage_length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="300" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__EndMillTool_1a2bf727e0e8b4cfd653858ece984d9e0b" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_EndMillTool.__ref_storage_diameter</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_diameter</name>
+        <qualifiedname>MR.Const_EndMillTool.__ref_storage_diameter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="306" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="306" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__EndMillTool_1a04f7f5af4a33c441cf8eabc55d85bb2a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_EndMillTool.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_EndMillTool.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="284" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="284" bodyend="292"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__EndMillTool_1a50fc05e9f85fb6984c858f2ed842eafa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_EndMillTool.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_EndMillTool.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="293" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="293" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EndMillTool_1a4ce7b4473a5ede6eee4a35c9de874b76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EndMillTool.Const_EndMillTool</definition>
+        <argsstring>()</argsstring>
+        <name>Const_EndMillTool</name>
+        <qualifiedname>MR.Const_EndMillTool.Const_EndMillTool</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="351" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="351" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EndMillTool_1ab78c628d56ccaa45dcf87ced5db84235" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EndMillTool.Const_EndMillTool</definition>
+        <argsstring>(float length, float diameter, MR.Const_EndMillCutter cutter)</argsstring>
+        <name>Const_EndMillTool</name>
+        <qualifiedname>MR.Const_EndMillTool.Const_EndMillTool</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>diameter</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__EndMillCutter" kindref="compound">MR.Const_EndMillCutter</ref></type>
+          <declname>cutter</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1EndMillTool" kindref="compound">MR.EndMillTool</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="362" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="362" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EndMillTool_1aa95bfccf4e8988036bebbade91e2acba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EndMillTool.Const_EndMillTool</definition>
+        <argsstring>(MR.Const_EndMillTool _other)</argsstring>
+        <name>Const_EndMillTool</name>
+        <qualifiedname>MR.Const_EndMillTool.Const_EndMillTool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EndMillTool" kindref="compound">MR.Const_EndMillTool</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EndMillTool_1a2d1371043c7236534910fd282285fc54" kindref="member">MR.EndMillTool.EndMillTool</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="374" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="374" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EndMillTool_1a9c25915ae1a4dc5d3636528a697a1607" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_EndMillTool.Const_EndMillTool</definition>
+        <argsstring>(EndMillTool _other)</argsstring>
+        <name>Const_EndMillTool</name>
+        <qualifiedname>MR.Const_EndMillTool.Const_EndMillTool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1EndMillTool" kindref="compound">EndMillTool</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1EndMillTool_1a2d1371043c7236534910fd282285fc54" kindref="member">MR.EndMillTool.EndMillTool</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="386" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="386" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EndMillTool_1ae66fcc1acb95db208a9d0ed783f32ff1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_EndMillTool.getMinimalCutLength</definition>
+        <argsstring>()</argsstring>
+        <name>getMinimalCutLength</name>
+        <qualifiedname>MR.Const_EndMillTool.getMinimalCutLength</qualifiedname>
+        <briefdescription>
+<para>compute the minimal cut length based on the cutter parameters Generated from method <computeroutput><ref refid="classMR_1_1Const__EndMillTool_1ae66fcc1acb95db208a9d0ed783f32ff1" kindref="member">MR.EndMillTool.getMinimalCutLength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="392" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="392" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__EndMillTool_1ad1016cc331bf14bda3a64ed637258140" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>unsafe MR.Mesh MR.Const_EndMillTool.toMesh</definition>
+        <argsstring>(int? horizontalResolution=null, int? verticalResolution=null)</argsstring>
+        <name>toMesh</name>
+        <qualifiedname>MR.Const_EndMillTool.toMesh</qualifiedname>
+        <param>
+          <type>int?</type>
+          <declname>horizontalResolution</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>verticalResolution</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>create a tool mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__EndMillTool_1ad1016cc331bf14bda3a64ed637258140" kindref="member">MR.EndMillTool.toMesh</ref></computeroutput>. Parameter <computeroutput>horizontalResolution</computeroutput> defaults to <computeroutput>32</computeroutput>. Parameter <computeroutput>verticalResolution</computeroutput> defaults to <computeroutput>32</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="405" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="405" bodyend="412"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__EndMillTool_1a4a67fec1541f43ad7db476a13db0474f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_EndMillTool.~Const_EndMillTool</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_EndMillTool</name>
+        <qualifiedname>MR.Const_EndMillTool.~Const_EndMillTool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="294" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="294" bodyend="294"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__EndMillTool_1a5144b23aa55938862a1d08ec19acc515" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_EndMillTool.Const_EndMillTool</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_EndMillTool</name>
+        <qualifiedname>MR.Const_EndMillTool.Const_EndMillTool</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="340" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="340" bodyend="345"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>end mill tool specifications Generated from class <computeroutput><ref refid="classMR_1_1EndMillTool" kindref="compound">MR.EndMillTool</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_EndMillTool</label>
+        <link refid="classMR_1_1Const__EndMillTool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.EndMillTool</label>
+        <link refid="classMR_1_1EndMillTool"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_EndMillTool</label>
+        <link refid="classMR_1_1Const__EndMillTool"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" line="278" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREndMill.cs" bodystart="279" bodyend="413"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__EndMillTool_1a2bf727e0e8b4cfd653858ece984d9e0b" prot="protected" virt="non-virtual"><scope>MR::Const_EndMillTool</scope><name>__ref_storage_diameter</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1a8f5a9c9b8484c4cbee08d0ba70fc9008" prot="protected" virt="non-virtual"><scope>MR::Const_EndMillTool</scope><name>__ref_storage_length</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1a5144b23aa55938862a1d08ec19acc515" prot="package" virt="non-virtual"><scope>MR::Const_EndMillTool</scope><name>Const_EndMillTool</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1a4ce7b4473a5ede6eee4a35c9de874b76" prot="public" virt="non-virtual"><scope>MR::Const_EndMillTool</scope><name>Const_EndMillTool</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1ab78c628d56ccaa45dcf87ced5db84235" prot="public" virt="non-virtual"><scope>MR::Const_EndMillTool</scope><name>Const_EndMillTool</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1aa95bfccf4e8988036bebbade91e2acba" prot="public" virt="non-virtual"><scope>MR::Const_EndMillTool</scope><name>Const_EndMillTool</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1a9c25915ae1a4dc5d3636528a697a1607" prot="public" virt="non-virtual"><scope>MR::Const_EndMillTool</scope><name>Const_EndMillTool</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1a1f0130b8653f70306fea5bcece609752" prot="public" virt="non-virtual"><scope>MR::Const_EndMillTool</scope><name>cutter</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1ab29f73de0b3da41523a67d4c5cb6a833" prot="public" virt="non-virtual"><scope>MR::Const_EndMillTool</scope><name>diameter</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1a04f7f5af4a33c441cf8eabc55d85bb2a" prot="protected" virt="virtual"><scope>MR::Const_EndMillTool</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1a50fc05e9f85fb6984c858f2ed842eafa" prot="public" virt="virtual"><scope>MR::Const_EndMillTool</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1ae66fcc1acb95db208a9d0ed783f32ff1" prot="public" virt="non-virtual"><scope>MR::Const_EndMillTool</scope><name>getMinimalCutLength</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1a88f6be4d165997e91e0b071a698f37d6" prot="public" virt="non-virtual"><scope>MR::Const_EndMillTool</scope><name>length</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1ad1016cc331bf14bda3a64ed637258140" prot="public" virt="non-virtual"><scope>MR::Const_EndMillTool</scope><name>toMesh</name></member>
+      <member refid="classMR_1_1Const__EndMillTool_1a4a67fec1541f43ad7db476a13db0474f" prot="private" virt="non-virtual"><scope>MR::Const_EndMillTool</scope><name>~Const_EndMillTool</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

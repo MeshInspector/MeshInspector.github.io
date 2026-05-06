@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SegmentSegmentIntersectResult" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SegmentSegmentIntersectResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SegmentSegmentIntersectResult" prot="public" virt="non-virtual">MR.SegmentSegmentIntersectResult</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__SegmentSegmentIntersectResult_1a7a0baa5d900465c518b7f8d2a5d0fc71" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SegmentSegmentIntersectResult.doIntersect</definition>
+        <argsstring></argsstring>
+        <name>doIntersect</name>
+        <qualifiedname>MR.Const_SegmentSegmentIntersectResult.doIntersect</qualifiedname>
+        <briefdescription>
+<para>whether the segments intersect </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="454" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SegmentSegmentIntersectResult_1ad73e5f52eb4c609919a3c3d110a1bcd7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SegmentSegmentIntersectResult.cIsLeftFromAB</definition>
+        <argsstring></argsstring>
+        <name>cIsLeftFromAB</name>
+        <qualifiedname>MR.Const_SegmentSegmentIntersectResult.cIsLeftFromAB</qualifiedname>
+        <briefdescription>
+<para>whether the directed line AB has C point at the left </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="460" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="460" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__SegmentSegmentIntersectResult_1a3b99a52b4fdac9ab16b306224ada89e2" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_SegmentSegmentIntersectResult.__ref_storage_doIntersect</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_doIntersect</name>
+        <qualifiedname>MR.Const_SegmentSegmentIntersectResult.__ref_storage_doIntersect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="455" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SegmentSegmentIntersectResult_1a4a273c4f0c14b2b17e7ee40791ac4d8e" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_SegmentSegmentIntersectResult.__ref_storage_cIsLeftFromAB</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_cIsLeftFromAB</name>
+        <qualifiedname>MR.Const_SegmentSegmentIntersectResult.__ref_storage_cIsLeftFromAB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="461" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="461" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SegmentSegmentIntersectResult_1a4ade552edb1750bc3ea8b44d01d001b8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SegmentSegmentIntersectResult.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SegmentSegmentIntersectResult.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="439" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="439" bodyend="447"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SegmentSegmentIntersectResult_1ad76d4fca705872f5d5fbb86b0325b4d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SegmentSegmentIntersectResult.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SegmentSegmentIntersectResult.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="448" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="448" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SegmentSegmentIntersectResult_1a4377e19204daf399556e312501048d5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SegmentSegmentIntersectResult.Const_SegmentSegmentIntersectResult</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SegmentSegmentIntersectResult</name>
+        <qualifiedname>MR.Const_SegmentSegmentIntersectResult.Const_SegmentSegmentIntersectResult</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="494" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="494" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SegmentSegmentIntersectResult_1a3a1d7f24f3884c98cb15b08d0ef0d554" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SegmentSegmentIntersectResult.Const_SegmentSegmentIntersectResult</definition>
+        <argsstring>(bool doIntersect, bool cIsLeftFromAB)</argsstring>
+        <name>Const_SegmentSegmentIntersectResult</name>
+        <qualifiedname>MR.Const_SegmentSegmentIntersectResult.Const_SegmentSegmentIntersectResult</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>doIntersect</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cIsLeftFromAB</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1SegmentSegmentIntersectResult" kindref="compound">MR.SegmentSegmentIntersectResult</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="505" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="505" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SegmentSegmentIntersectResult_1abf50ce64277f2fb8da87468571666139" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SegmentSegmentIntersectResult.Const_SegmentSegmentIntersectResult</definition>
+        <argsstring>(MR.Const_SegmentSegmentIntersectResult _other)</argsstring>
+        <name>Const_SegmentSegmentIntersectResult</name>
+        <qualifiedname>MR.Const_SegmentSegmentIntersectResult.Const_SegmentSegmentIntersectResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SegmentSegmentIntersectResult" kindref="compound">MR.Const_SegmentSegmentIntersectResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SegmentSegmentIntersectResult_1a567a12087572ea1f5b6b1ecaa4a4cb84" kindref="member">MR.SegmentSegmentIntersectResult.SegmentSegmentIntersectResult</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="516" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="516" bodyend="523"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SegmentSegmentIntersectResult_1a143ad91f54fe0503c9ba06955224d124" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SegmentSegmentIntersectResult.Const_SegmentSegmentIntersectResult</definition>
+        <argsstring>(SegmentSegmentIntersectResult _other)</argsstring>
+        <name>Const_SegmentSegmentIntersectResult</name>
+        <qualifiedname>MR.Const_SegmentSegmentIntersectResult.Const_SegmentSegmentIntersectResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SegmentSegmentIntersectResult" kindref="compound">SegmentSegmentIntersectResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SegmentSegmentIntersectResult_1a567a12087572ea1f5b6b1ecaa4a4cb84" kindref="member">MR.SegmentSegmentIntersectResult.SegmentSegmentIntersectResult</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="528" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="528" bodyend="528"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SegmentSegmentIntersectResult_1a6657eaf746613bcc3f67a652d7bcd815" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SegmentSegmentIntersectResult.~Const_SegmentSegmentIntersectResult</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SegmentSegmentIntersectResult</name>
+        <qualifiedname>MR.Const_SegmentSegmentIntersectResult.~Const_SegmentSegmentIntersectResult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="449" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="449" bodyend="449"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SegmentSegmentIntersectResult_1a8877001d718c4a30a1a7771c3b380ef9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SegmentSegmentIntersectResult.Const_SegmentSegmentIntersectResult</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SegmentSegmentIntersectResult</name>
+        <qualifiedname>MR.Const_SegmentSegmentIntersectResult.Const_SegmentSegmentIntersectResult</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="483" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="483" bodyend="488"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__SegmentSegmentIntersectResult_1a6beb8298b71090a34608b7cb68cc9732" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_SegmentSegmentIntersectResult.operator bool</definition>
+        <argsstring>(MR.Const_SegmentSegmentIntersectResult _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Const_SegmentSegmentIntersectResult.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SegmentSegmentIntersectResult" kindref="compound">MR.Const_SegmentSegmentIntersectResult</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::SegmentSegmentIntersectResult::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="533" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="533" bodyend="538"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1SegmentSegmentIntersectResult" kindref="compound">MR.SegmentSegmentIntersectResult</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SegmentSegmentIntersectResult</label>
+        <link refid="classMR_1_1Const__SegmentSegmentIntersectResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.SegmentSegmentIntersectResult</label>
+        <link refid="classMR_1_1SegmentSegmentIntersectResult"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_SegmentSegmentIntersectResult</label>
+        <link refid="classMR_1_1Const__SegmentSegmentIntersectResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="433" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="434" bodyend="539"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a4a273c4f0c14b2b17e7ee40791ac4d8e" prot="protected" virt="non-virtual"><scope>MR::Const_SegmentSegmentIntersectResult</scope><name>__ref_storage_cIsLeftFromAB</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a3b99a52b4fdac9ab16b306224ada89e2" prot="protected" virt="non-virtual"><scope>MR::Const_SegmentSegmentIntersectResult</scope><name>__ref_storage_doIntersect</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1ad73e5f52eb4c609919a3c3d110a1bcd7" prot="public" virt="non-virtual"><scope>MR::Const_SegmentSegmentIntersectResult</scope><name>cIsLeftFromAB</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a8877001d718c4a30a1a7771c3b380ef9" prot="package" virt="non-virtual"><scope>MR::Const_SegmentSegmentIntersectResult</scope><name>Const_SegmentSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a4377e19204daf399556e312501048d5c" prot="public" virt="non-virtual"><scope>MR::Const_SegmentSegmentIntersectResult</scope><name>Const_SegmentSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a3a1d7f24f3884c98cb15b08d0ef0d554" prot="public" virt="non-virtual"><scope>MR::Const_SegmentSegmentIntersectResult</scope><name>Const_SegmentSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1abf50ce64277f2fb8da87468571666139" prot="public" virt="non-virtual"><scope>MR::Const_SegmentSegmentIntersectResult</scope><name>Const_SegmentSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a143ad91f54fe0503c9ba06955224d124" prot="public" virt="non-virtual"><scope>MR::Const_SegmentSegmentIntersectResult</scope><name>Const_SegmentSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a4ade552edb1750bc3ea8b44d01d001b8" prot="protected" virt="virtual"><scope>MR::Const_SegmentSegmentIntersectResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1ad76d4fca705872f5d5fbb86b0325b4d0" prot="public" virt="virtual"><scope>MR::Const_SegmentSegmentIntersectResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a7a0baa5d900465c518b7f8d2a5d0fc71" prot="public" virt="non-virtual"><scope>MR::Const_SegmentSegmentIntersectResult</scope><name>doIntersect</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a6beb8298b71090a34608b7cb68cc9732" prot="public" virt="non-virtual"><scope>MR::Const_SegmentSegmentIntersectResult</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a6657eaf746613bcc3f67a652d7bcd815" prot="private" virt="non-virtual"><scope>MR::Const_SegmentSegmentIntersectResult</scope><name>~Const_SegmentSegmentIntersectResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

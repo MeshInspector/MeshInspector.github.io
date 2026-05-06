@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1WeightedShell_1_1ParametersRegions" kind="class" language="C#" prot="public">
     <compoundname>MR::WeightedShell::ParametersRegions</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.WeightedShell.Const_ParametersRegions</basecompoundref>
+    <basecompoundref refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions" prot="public" virt="non-virtual">MR.WeightedShell.Const_ParametersRegions</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1WeightedShell_1_1ParametersRegions_1a33cbdf25d3d594e1be0f136601c2524a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRWeightedShellParametersRegionsRegion</type>
@@ -196,7 +196,7 @@
         <name>ParametersRegions</name>
         <qualifiedname>MR.WeightedShell.ParametersRegions.ParametersRegions</qualifiedname>
         <param>
-          <type>Const_ParametersRegions</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions" kindref="compound">Const_ParametersRegions</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -264,6 +264,7 @@
       </node>
       <node id="2">
         <label>MR.WeightedShell.Const_ParametersRegions</label>
+        <link refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -285,6 +286,7 @@
       </node>
       <node id="2">
         <label>MR.WeightedShell.Const_ParametersRegions</label>
+        <link refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -296,11 +298,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1324" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1325" bodyend="1450"/>
     <listofallmembers>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1abe02e7e43f544884cc95dc598106c051" prot="protected" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>__ref_storage_bidirectionalMode</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1a68688baa25d71e53734a846f5728e0e6" prot="protected" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>__ref_storage_interpolationDist</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1a58e6196cde1947e33d85181fb7d36d8e" prot="protected" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>__ref_storage_numLayers</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1abc0f64fa2602ecfc170d0ae90ab17571" prot="protected" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>__ref_storage_offset</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1a59dbd0a8f3df8d6d9ae9d2e33713d260" prot="protected" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersRegions_1a6e98bc235ffc895864601d76f220119d" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>assign</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersRegions_1ad4cc337a08341a485b5c8b51b8db9ced" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>bidirectionalMode</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1a286f470b61c358f564a615bccedf4d6d" prot="package" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>Const_ParametersRegions</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1aa591c4ccdffb8d5bc16866da8a060c04" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>Const_ParametersRegions</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1a4ca271f133427e4943e73a62c7bda912" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>Const_ParametersRegions</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1a15bdb4cd84da667c95f62754be4ef70b" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>Const_ParametersRegions</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1a7b47a915ee0e371c55e40d146132f8d5" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>Const_ParametersRegions</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1af3444a0f43abc4f54e418ca7df1425d7" prot="protected" virt="virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1a2121165447e5c5f422a8b2eb76c481c6" prot="public" virt="virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>Dispose</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersRegions_1a23c68804051fe40d4f602adfbb6b1337" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>interpolationDist</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersRegions_1a8d6a42fec2bfe7a08731e5d8a5e48575" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>numLayers</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersRegions_1adc55ab7ebe7f04fb5b0c52d71173b98e" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>offset</name></member>
+      <member refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions_1a0c26082963f583ac832ff7c9ad2e2eb5" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>operator MR.WeightedShell.Const_ParametersBase</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersRegions_1a6438aa6ff97ea470f0a6cd654c6a4315" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>operator MR.WeightedShell.ParametersBase</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersRegions_1a128d8667153f6a06e155465348793a6e" prot="package" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>ParametersRegions</name></member>
       <member refid="classMR_1_1WeightedShell_1_1ParametersRegions_1aa5a78ff6f1eef79e85fd7c5ab813e5a7" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>ParametersRegions</name></member>

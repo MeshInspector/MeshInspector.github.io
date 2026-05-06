@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Nesting_1_1Const__TetrisDensifyParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Nesting::Const_TetrisDensifyParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Nesting_1_1TetrisDensifyParams" prot="public" virt="non-virtual">MR.Nesting.TetrisDensifyParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1ae7487152233ecefc07950dc7685d6a3a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Nesting_1_1Const__NestingBaseParams" kindref="compound">MR.Nesting.Const_NestingBaseParams</ref></type>
+        <definition>unsafe MR.Nesting.Const_NestingBaseParams MR.Nesting.Const_TetrisDensifyParams.baseParams</definition>
+        <argsstring></argsstring>
+        <name>baseParams</name>
+        <qualifiedname>MR.Nesting.Const_TetrisDensifyParams.baseParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="434" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="434" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1aa5771515aad1fb3abab9a99a3c9a800b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Nesting_1_1Const__TetrisDensifyOptions" kindref="compound">MR.Nesting.Const_TetrisDensifyOptions</ref></type>
+        <definition>unsafe MR.Nesting.Const_TetrisDensifyOptions MR.Nesting.Const_TetrisDensifyParams.options</definition>
+        <argsstring></argsstring>
+        <name>options</name>
+        <qualifiedname>MR.Nesting.Const_TetrisDensifyParams.options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="436" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="436" bodyend="436"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a66026e784aff8a3c3a65285746e3dc09" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Nesting.Const_TetrisDensifyParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Nesting.Const_TetrisDensifyParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="422" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="422" bodyend="430"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a2e1bd4c0b9abdad032d792bf8680dad7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Nesting.Const_TetrisDensifyParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Nesting.Const_TetrisDensifyParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="431" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="431" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a893d4c6d8062794a7fcda05e62751ecc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.Const_TetrisDensifyParams.Const_TetrisDensifyParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_TetrisDensifyParams</name>
+        <qualifiedname>MR.Nesting.Const_TetrisDensifyParams.Const_TetrisDensifyParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="471" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="471" bodyend="477"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a9f3bdccc48d8bdc83fb26818e4fa0481" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.Const_TetrisDensifyParams.Const_TetrisDensifyParams</definition>
+        <argsstring>(MR.Nesting.Const_NestingBaseParams baseParams, MR.Nesting._ByValue_TetrisDensifyOptions options)</argsstring>
+        <name>Const_TetrisDensifyParams</name>
+        <qualifiedname>MR.Nesting.Const_TetrisDensifyParams.Const_TetrisDensifyParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingBaseParams" kindref="compound">MR.Nesting.Const_NestingBaseParams</ref></type>
+          <declname>baseParams</declname>
+        </param>
+        <param>
+          <type>MR.Nesting._ByValue_TetrisDensifyOptions</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Nesting_1_1TetrisDensifyParams" kindref="compound">MR.Nesting.TetrisDensifyParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="482" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="482" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a17364324fb84a3e7944a9ce3654291a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.Const_TetrisDensifyParams.Const_TetrisDensifyParams</definition>
+        <argsstring>(MR.Nesting._ByValue_TetrisDensifyParams _other)</argsstring>
+        <name>Const_TetrisDensifyParams</name>
+        <qualifiedname>MR.Nesting.Const_TetrisDensifyParams.Const_TetrisDensifyParams</qualifiedname>
+        <param>
+          <type>MR.Nesting._ByValue_TetrisDensifyParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1a3800bb9a04399416f5b017d043c53f20" kindref="member">MR.Nesting.TetrisDensifyParams.TetrisDensifyParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="495" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="495" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a98552bcfdad844fba022aef1071c61ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Nesting.Const_TetrisDensifyParams.Const_TetrisDensifyParams</definition>
+        <argsstring>(Const_TetrisDensifyParams _other)</argsstring>
+        <name>Const_TetrisDensifyParams</name>
+        <qualifiedname>MR.Nesting.Const_TetrisDensifyParams.Const_TetrisDensifyParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams" kindref="compound">Const_TetrisDensifyParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1a3800bb9a04399416f5b017d043c53f20" kindref="member">MR.Nesting.TetrisDensifyParams.TetrisDensifyParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="507" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="507" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a34f844ca7b31c13eeec10bc5149aeefc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Nesting.Const_TetrisDensifyParams.Const_TetrisDensifyParams</definition>
+        <argsstring>(TetrisDensifyParams _other)</argsstring>
+        <name>Const_TetrisDensifyParams</name>
+        <qualifiedname>MR.Nesting.Const_TetrisDensifyParams.Const_TetrisDensifyParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Nesting_1_1TetrisDensifyParams" kindref="compound">TetrisDensifyParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Nesting_1_1TetrisDensifyParams_1a3800bb9a04399416f5b017d043c53f20" kindref="member">MR.Nesting.TetrisDensifyParams.TetrisDensifyParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="512" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="512" bodyend="512"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a6f0e06eb69709b0df38d8b92fff610f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Nesting.Const_TetrisDensifyParams.~Const_TetrisDensifyParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_TetrisDensifyParams</name>
+        <qualifiedname>MR.Nesting.Const_TetrisDensifyParams.~Const_TetrisDensifyParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="432" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="432" bodyend="432"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a2948e6ce46fcc8f9bfd643de65e9105c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.Const_TetrisDensifyParams.Const_TetrisDensifyParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_TetrisDensifyParams</name>
+        <qualifiedname>MR.Nesting.Const_TetrisDensifyParams.Const_TetrisDensifyParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="460" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="460" bodyend="465"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Nesting_1_1TetrisDensifyParams" kindref="compound">MR.Nesting.TetrisDensifyParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Nesting.Const_TetrisDensifyParams</label>
+        <link refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.Nesting.TetrisDensifyParams</label>
+        <link refid="classMR_1_1Nesting_1_1TetrisDensifyParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Nesting.Const_TetrisDensifyParams</label>
+        <link refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" line="416" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRTetrisNesting.cs" bodystart="417" bodyend="513"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1ae7487152233ecefc07950dc7685d6a3a" prot="public" virt="non-virtual"><scope>MR::Nesting::Const_TetrisDensifyParams</scope><name>baseParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a2948e6ce46fcc8f9bfd643de65e9105c" prot="package" virt="non-virtual"><scope>MR::Nesting::Const_TetrisDensifyParams</scope><name>Const_TetrisDensifyParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a893d4c6d8062794a7fcda05e62751ecc" prot="public" virt="non-virtual"><scope>MR::Nesting::Const_TetrisDensifyParams</scope><name>Const_TetrisDensifyParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a9f3bdccc48d8bdc83fb26818e4fa0481" prot="public" virt="non-virtual"><scope>MR::Nesting::Const_TetrisDensifyParams</scope><name>Const_TetrisDensifyParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a17364324fb84a3e7944a9ce3654291a9" prot="public" virt="non-virtual"><scope>MR::Nesting::Const_TetrisDensifyParams</scope><name>Const_TetrisDensifyParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a98552bcfdad844fba022aef1071c61ae" prot="public" virt="non-virtual"><scope>MR::Nesting::Const_TetrisDensifyParams</scope><name>Const_TetrisDensifyParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a34f844ca7b31c13eeec10bc5149aeefc" prot="public" virt="non-virtual"><scope>MR::Nesting::Const_TetrisDensifyParams</scope><name>Const_TetrisDensifyParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a66026e784aff8a3c3a65285746e3dc09" prot="protected" virt="virtual"><scope>MR::Nesting::Const_TetrisDensifyParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a2e1bd4c0b9abdad032d792bf8680dad7" prot="public" virt="virtual"><scope>MR::Nesting::Const_TetrisDensifyParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1aa5771515aad1fb3abab9a99a3c9a800b" prot="public" virt="non-virtual"><scope>MR::Nesting::Const_TetrisDensifyParams</scope><name>options</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__TetrisDensifyParams_1a6f0e06eb69709b0df38d8b92fff610f7" prot="private" virt="non-virtual"><scope>MR::Nesting::Const_TetrisDensifyParams</scope><name>~Const_TetrisDensifyParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

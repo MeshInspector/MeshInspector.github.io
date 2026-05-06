@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeMeshTopologyAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeMeshTopologyAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeMeshTopologyAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeMeshTopologyAction" prot="public" virt="non-virtual">MR.Const_ChangeMeshTopologyAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeMeshTopologyAction_1a8780f0805e18dc8639f60f6450faf218" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeMeshTopologyAction</name>
         <qualifiedname>MR.ChangeMeshTopologyAction.ChangeMeshTopologyAction</qualifiedname>
         <param>
-          <type>Const_ChangeMeshTopologyAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeMeshTopologyAction" kindref="compound">Const_ChangeMeshTopologyAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeMeshTopologyAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeMeshTopologyAction</label>
+        <link refid="classMR_1_1Const__ChangeMeshTopologyAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeMeshTopologyAction</label>
+        <link refid="classMR_1_1Const__ChangeMeshTopologyAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,8 +271,21 @@
       <member refid="classMR_1_1ChangeMeshTopologyAction_1adaf07965cbf0a8f16f53acda097dc0c0" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>ChangeMeshTopologyAction</name></member>
       <member refid="classMR_1_1ChangeMeshTopologyAction_1a291fc61d5c378969515cb373386a3076" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>ChangeMeshTopologyAction</name></member>
       <member refid="classMR_1_1ChangeMeshTopologyAction_1a8c087f6cb4112151ffe8aa7273a0c948" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>ChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshTopologyAction_1aa9323e9edf0b5dff8c84dab9581c7b1f" prot="package" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>Const_ChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshTopologyAction_1a2db96ea2dbb60917408a5cd84c51fdee" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>Const_ChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshTopologyAction_1accab54269f519fa8967a74207f82c443" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>Const_ChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshTopologyAction_1acb78ea008ec64085265ad90aaba8ae69" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>Const_ChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshTopologyAction_1ad6a90322839380fac814897070f10f16" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>Const_ChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshTopologyAction_1adb9048200ff1f41abdd2f69fadad3a83" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>Const_ChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshTopologyAction_1aea2c62a1a74ac422235aa9739158124d" prot="protected" virt="virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshTopologyAction_1abc6b9ce7d4c74d397fc207c7cd50ad8b" prot="public" virt="virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshTopologyAction_1a1d4eb990a20f9a519024f57fbaf7e8c3" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshTopologyAction_1ac049f1344111306019c56f1f20b42bd4" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeMeshTopologyAction_1ad29dc92f5c7caf53383ce46e234995e3" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>operator ChangeMeshTopologyAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshTopologyAction_1a6d9fef50f1fe77568f85a7c8a569bc46" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>operator Const_ChangeMeshTopologyAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshTopologyAction_1ae0434ebc0202c68ff25de0c96be14b0f" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeMeshTopologyAction_1a8780f0805e18dc8639f60f6450faf218" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeMeshTopologyAction_1acf2aeb193df175c1f4b433a26fcd6a5a" prot="public" virt="non-virtual"><scope>MR::ChangeMeshTopologyAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

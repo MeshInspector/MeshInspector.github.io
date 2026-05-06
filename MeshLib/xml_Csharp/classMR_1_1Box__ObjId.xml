@@ -99,7 +99,7 @@
         <name>Box_ObjId</name>
         <qualifiedname>MR.Box_ObjId.Box_ObjId</qualifiedname>
         <param>
-          <type>MR.Const_NoInit</type>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -258,7 +258,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;</computeroutput> This is the non-const reference to the struct. </para>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;</computeroutput> This is the non-const reference to the struct. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

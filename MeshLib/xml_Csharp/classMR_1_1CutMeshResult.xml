@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CutMeshResult" kind="struct" language="C#" prot="public">
     <compoundname>MR::CutMeshResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_CutMeshResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__CutMeshResult" prot="public" virt="non-virtual">MR.Const_CutMeshResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1CutMeshResult_1a6036b98bf53e8905006d57b198d2add3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_StdVectorMREdgeId</type>
@@ -127,7 +127,7 @@
         <name>CutMeshResult</name>
         <qualifiedname>MR.CutMeshResult.CutMeshResult</qualifiedname>
         <param>
-          <type>Const_CutMeshResult</type>
+          <type><ref refid="classMR_1_1Const__CutMeshResult" kindref="compound">Const_CutMeshResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -193,6 +193,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CutMeshResult</label>
+        <link refid="classMR_1_1Const__CutMeshResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -214,6 +215,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CutMeshResult</label>
+        <link refid="classMR_1_1Const__CutMeshResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -229,12 +231,20 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="740" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="741" bodyend="841"/>
     <listofallmembers>
       <member refid="classMR_1_1CutMeshResult_1a90cc0cb80a5cb26c2da018eb623d8d82" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1ab671161619ca4f3025f727788f91c850" prot="package" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>Const_CutMeshResult</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1aaa93dafb2654f07ba175eaae9aeba3b1" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>Const_CutMeshResult</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1a867497b886fff610d17eaeec9b881c86" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>Const_CutMeshResult</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1a950e49edc5dea0d58f1db0d2499dc370" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>Const_CutMeshResult</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1ab1c7148a945ba888759fbd86d6ea2c20" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>Const_CutMeshResult</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1a2003c93d8d10e6dc85448c83b3c5b2a6" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>Const_CutMeshResult</name></member>
       <member refid="classMR_1_1CutMeshResult_1af27e30eacad91023163db71e4f57945e" prot="package" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>CutMeshResult</name></member>
       <member refid="classMR_1_1CutMeshResult_1acae9c44ec086cbebbcaa452218a97fac" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>CutMeshResult</name></member>
       <member refid="classMR_1_1CutMeshResult_1a16661b74ee92dd23c977239dd1780077" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>CutMeshResult</name></member>
       <member refid="classMR_1_1CutMeshResult_1a9d86db7b8ca710de1ce19750ffcc45ea" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>CutMeshResult</name></member>
       <member refid="classMR_1_1CutMeshResult_1a56816aff08a44bc49db705045b7022a9" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>CutMeshResult</name></member>
       <member refid="classMR_1_1CutMeshResult_1a7345ff3973087b46d6761b9cffe6ae8d" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>CutMeshResult</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1a7713039ddce780e13ecc94a8cad43313" prot="protected" virt="virtual"><scope>MR::CutMeshResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CutMeshResult_1ab96968f5ec905c405b70060840ed2279" prot="public" virt="virtual"><scope>MR::CutMeshResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1CutMeshResult_1a2e672df7679e0f058dcbba30529bc43a" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>fbsWithContourIntersections</name></member>
       <member refid="classMR_1_1CutMeshResult_1a6036b98bf53e8905006d57b198d2add3" prot="public" virt="non-virtual"><scope>MR::CutMeshResult</scope><name>resultCut</name></member>
     </listofallmembers>

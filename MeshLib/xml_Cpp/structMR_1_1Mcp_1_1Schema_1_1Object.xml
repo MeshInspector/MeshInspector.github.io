@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Mcp_1_1Schema_1_1Object" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Mcp::Schema::Object</compoundname>
+    <basecompoundref refid="structMR_1_1Mcp_1_1Schema_1_1Base" prot="public" virt="non-virtual">MR::Mcp::Schema::Base</basecompoundref>
+    <includes refid="MRMcp_8h" local="no">MRMcp/MRMcp.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Mcp_1_1Schema_1_1Object_1af8a3b8c253103a26e99faba8a133745f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Mcp::Schema::Object::Object</definition>
+        <argsstring>()</argsstring>
+        <name>Object</name>
+        <qualifiedname>MR::Mcp::Schema::Object::Object</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="78" column="9" bodyfile="MRMcp/MRMcp.h" bodystart="78" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Mcp_1_1Schema_1_1Object_1aaecf9812313d1c213d098bf8b98d8504" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="lvalue" virt="non-virtual">
+        <type><ref refid="structMR_1_1Mcp_1_1Schema_1_1Object" kindref="compound">Object</ref> &amp;</type>
+        <definition>Object &amp; MR::Mcp::Schema::Object::addMember</definition>
+        <argsstring>(std::string name, Base schema) &amp;</argsstring>
+        <name>addMember</name>
+        <qualifiedname>MR::Mcp::Schema::Object::addMember</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Mcp_1_1Schema_1_1Base" kindref="compound">Base</ref></type>
+          <declname>schema</declname>
+        </param>
+        <briefdescription>
+<para>Add required member. Returns a reference to <computeroutput>*this</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="87" column="16" bodyfile="MRMcp/MRMcp.h" bodystart="87" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Mcp_1_1Schema_1_1Object_1a53963c4c37e0f59f3594e240089b3cc0" prot="public" static="no" const="no" explicit="no" inline="yes" refqual="lvalue" virt="non-virtual">
+        <type><ref refid="structMR_1_1Mcp_1_1Schema_1_1Object" kindref="compound">Object</ref> &amp;</type>
+        <definition>Object &amp; MR::Mcp::Schema::Object::addMemberOpt</definition>
+        <argsstring>(std::string name, Base schema) &amp;</argsstring>
+        <name>addMemberOpt</name>
+        <qualifiedname>MR::Mcp::Schema::Object::addMemberOpt</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Mcp_1_1Schema_1_1Base" kindref="compound">Base</ref></type>
+          <declname>schema</declname>
+        </param>
+        <briefdescription>
+<para>Add optional member. Returns a reference to <computeroutput>*this</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="94" column="16" bodyfile="MRMcp/MRMcp.h" bodystart="94" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Mcp_1_1Schema_1_1Object_1a879f4210a350ca91962e32da897aedbe" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
+        <type><ref refid="structMR_1_1Mcp_1_1Schema_1_1Object" kindref="compound">Object</ref> &amp;&amp;</type>
+        <definition>Object &amp;&amp; MR::Mcp::Schema::Object::addMember</definition>
+        <argsstring>(std::string name, Base schema) &amp;&amp;</argsstring>
+        <name>addMember</name>
+        <qualifiedname>MR::Mcp::Schema::Object::addMember</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Mcp_1_1Schema_1_1Base" kindref="compound">Base</ref></type>
+          <declname>schema</declname>
+        </param>
+        <briefdescription>
+<para>Add required member. Returns a reference to <computeroutput>*this</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="101" column="17" bodyfile="MRMcp/MRMcp.h" bodystart="101" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Mcp_1_1Schema_1_1Object_1a8ec8a47414c378c8ad44aa51aee8650b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" refqual="rvalue" virt="non-virtual">
+        <type><ref refid="structMR_1_1Mcp_1_1Schema_1_1Object" kindref="compound">Object</ref> &amp;&amp;</type>
+        <definition>Object &amp;&amp; MR::Mcp::Schema::Object::addMemberOpt</definition>
+        <argsstring>(std::string name, Base schema) &amp;&amp;</argsstring>
+        <name>addMemberOpt</name>
+        <qualifiedname>MR::Mcp::Schema::Object::addMemberOpt</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Mcp_1_1Schema_1_1Base" kindref="compound">Base</ref></type>
+          <declname>schema</declname>
+        </param>
+        <briefdescription>
+<para>Add optional member. Returns a reference to <computeroutput>*this</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="107" column="17" bodyfile="MRMcp/MRMcp.h" bodystart="107" bodyend="111"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A schema describing an object. Construct like this: <computeroutput><ref refid="structMR_1_1Mcp_1_1Schema_1_1Object" kindref="compound">Object</ref>{}.addMember(...).addMember(...)</computeroutput>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::Mcp::Schema::Base</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Base"/>
+      </node>
+      <node id="1">
+        <label>MR::Mcp::Schema::Object</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Object"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Mcp::Schema::Base</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Base"/>
+      </node>
+      <node id="1">
+        <label>MR::Mcp::Schema::Object</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Object"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRMcp/MRMcp.h" line="76" column="5" bodyfile="MRMcp/MRMcp.h" bodystart="77" bodyend="112"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Object_1aaecf9812313d1c213d098bf8b98d8504" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Object</scope><name>addMember</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Object_1a879f4210a350ca91962e32da897aedbe" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Object</scope><name>addMember</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Object_1a53963c4c37e0f59f3594e240089b3cc0" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Object</scope><name>addMemberOpt</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Object_1a8ec8a47414c378c8ad44aa51aee8650b" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Object</scope><name>addMemberOpt</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ad07a4f144fbb2f526abdfdd787ebff20" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Object</scope><name>asJson</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1a7d669690e5854d01f79f9d2da549f059" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Object</scope><name>asJson</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ab3722df7873d35858a407287f4bad904" prot="protected" virt="non-virtual"><scope>MR::Mcp::Schema::Object</scope><name>Base</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ad8d4f52c560bc15c39cc7651fe3d6319" prot="protected" virt="non-virtual"><scope>MR::Mcp::Schema::Object</scope><name>json</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Object_1af8a3b8c253103a26e99faba8a133745f" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::Object</scope><name>Object</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

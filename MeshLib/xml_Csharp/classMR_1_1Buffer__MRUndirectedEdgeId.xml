@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Buffer__MRUndirectedEdgeId" kind="class" language="C#" prot="public">
     <compoundname>MR::Buffer_MRUndirectedEdgeId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Buffer_MRUndirectedEdgeId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId" prot="public" virt="non-virtual">MR.Const_Buffer_MRUndirectedEdgeId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Buffer__MRUndirectedEdgeId_1aed6d4b6c8de07420a5b4e09b8360bd5d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
@@ -12,7 +12,7 @@
         <name>this[ulong i]</name>
         <qualifiedname>MR.Buffer_MRUndirectedEdgeId.this[ulong i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -62,7 +62,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;amp;gt;::Buffer</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;::Buffer</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -81,7 +81,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;amp;gt;::Buffer</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;::Buffer</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -100,7 +100,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
         <name>clear</name>
         <qualifiedname>MR.Buffer_MRUndirectedEdgeId.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRUndirectedEdgeId_1a7beca22ed67490d33e1455c7cba27052" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRUndirectedEdgeId_1a7beca22ed67490d33e1455c7cba27052" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRUndirectedEdgeId_1a7111b71dd203397a654567df2752c01b" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRUndirectedEdgeId_1a7111b71dd203397a654567df2752c01b" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -149,7 +149,7 @@
         <name>data</name>
         <qualifiedname>MR.Buffer_MRUndirectedEdgeId.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;amp;gt;<ref refid="classMR_1_1Buffer__MRUndirectedEdgeId_1a075ac01d292cb3a771c36006fcbacb14" kindref="member">data</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;<ref refid="classMR_1_1Buffer__MRUndirectedEdgeId_1a075ac01d292cb3a771c36006fcbacb14" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -199,7 +199,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;V&amp;gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
+<para>std::vector&lt;V&gt;-like container that is 1) resized without initialization of its elements, 2) much simplified: no push_back and many other methods </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -215,7 +215,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Buffer&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -235,6 +235,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRUndirectedEdgeId</label>
+        <link refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -263,6 +264,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Buffer_MRUndirectedEdgeId</label>
+        <link refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -280,15 +282,28 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="2494" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="2495" bodyend="2654"/>
     <listofallmembers>
       <member refid="classMR_1_1Buffer__MRUndirectedEdgeId_1aec012881fad554bf6e436c34f64f8777" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId_1a5a567cd0d3b45cefe6e2e61818d8e50a" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId_1ac90f683032a79c6a7ac455b4d9bdb411" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>beginId</name></member>
       <member refid="classMR_1_1Buffer__MRUndirectedEdgeId_1ae010dafd34e9bd54498ea246fb216a4c" prot="package" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>Buffer_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Buffer__MRUndirectedEdgeId_1aacf6dd77fe1de24f09e7cd667aae87a3" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>Buffer_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Buffer__MRUndirectedEdgeId_1a42437422dacb7599af215ad616f7d182" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>Buffer_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Buffer__MRUndirectedEdgeId_1a2d3e5a76502fdd88059aab4ac81955fd" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>Buffer_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId_1a5f254c7a1a10906e9e21a30586332fbc" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Buffer__MRUndirectedEdgeId_1a7beca22ed67490d33e1455c7cba27052" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId_1a628e234f2cc25aeca1a0d00087bd5005" prot="package" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>Const_Buffer_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId_1a37a68c72e85f4f9038927ac098154921" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>Const_Buffer_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId_1a30a390e484dc48b07c80c351258e42c6" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>Const_Buffer_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId_1a2efe26d2ceeff8f45cd07a8c87e63ad7" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>Const_Buffer_MRUndirectedEdgeId</name></member>
       <member refid="classMR_1_1Buffer__MRUndirectedEdgeId_1a075ac01d292cb3a771c36006fcbacb14" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId_1a39e86929520d7386a1e693b3fc37a409" prot="protected" virt="virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId_1a9c806b07a1f3384867acb7baa5eff79a" prot="public" virt="virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId_1a3f5e019dd4a5a5e9c11661455de08258" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId_1acf7b853b4376e8b8adfecd56ea24a3aa" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>endId</name></member>
       <member refid="classMR_1_1Buffer__MRUndirectedEdgeId_1a5fbeb21e51d9b5e12860825c690d6bef" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Buffer__MRUndirectedEdgeId_1a4bd1d11d312ce5f59caaef89acbf1274" prot="private" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId_1a7315a0fbf986632e6b26701635c880c1" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Buffer__MRUndirectedEdgeId_1a7111b71dd203397a654567df2752c01b" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId_1ad0dc6e3c52d9721a1f3dd305719680ff" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>size</name></member>
       <member refid="classMR_1_1Buffer__MRUndirectedEdgeId_1aed6d4b6c8de07420a5b4e09b8360bd5d" prot="public" virt="non-virtual"><scope>MR::Buffer_MRUndirectedEdgeId</scope><name>this[ulong i]</name></member>
     </listofallmembers>
   </compounddef>

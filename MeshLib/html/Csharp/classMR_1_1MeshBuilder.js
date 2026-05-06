@@ -1,6 +1,14 @@
 var classMR_1_1MeshBuilder =
 [
     [ "BuildSettings", "classMR_1_1MeshBuilder_1_1BuildSettings.html", "classMR_1_1MeshBuilder_1_1BuildSettings" ],
+    [ "Const_BuildSettings", "classMR_1_1MeshBuilder_1_1Const__BuildSettings.html", "classMR_1_1MeshBuilder_1_1Const__BuildSettings" ],
+    [ "Const_EqualVector3f", "classMR_1_1MeshBuilder_1_1Const__EqualVector3f.html", "classMR_1_1MeshBuilder_1_1Const__EqualVector3f" ],
+    [ "Const_MeshPiece", "classMR_1_1MeshBuilder_1_1Const__MeshPiece.html", "classMR_1_1MeshBuilder_1_1Const__MeshPiece" ],
+    [ "Const_Triangle", "classMR_1_1MeshBuilder_1_1Const__Triangle.html", "classMR_1_1MeshBuilder_1_1Const__Triangle" ],
+    [ "Const_UniteCloseParams", "classMR_1_1MeshBuilder_1_1Const__UniteCloseParams.html", "classMR_1_1MeshBuilder_1_1Const__UniteCloseParams" ],
+    [ "Const_VertDuplication", "classMR_1_1MeshBuilder_1_1Const__VertDuplication.html", "classMR_1_1MeshBuilder_1_1Const__VertDuplication" ],
+    [ "Const_VertexIdentifier", "classMR_1_1MeshBuilder_1_1Const__VertexIdentifier.html", "classMR_1_1MeshBuilder_1_1Const__VertexIdentifier" ],
+    [ "Const_VertSpan", "classMR_1_1MeshBuilder_1_1Const__VertSpan.html", "classMR_1_1MeshBuilder_1_1Const__VertSpan" ],
     [ "EqualVector3f", "classMR_1_1MeshBuilder_1_1EqualVector3f.html", "classMR_1_1MeshBuilder_1_1EqualVector3f" ],
     [ "MeshPiece", "classMR_1_1MeshBuilder_1_1MeshPiece.html", "classMR_1_1MeshBuilder_1_1MeshPiece" ],
     [ "Triangle", "classMR_1_1MeshBuilder_1_1Triangle.html", "classMR_1_1MeshBuilder_1_1Triangle" ],
@@ -12,9 +20,9 @@ var classMR_1_1MeshBuilder =
     [ "addTriangles", "classMR_1_1MeshBuilder.html#a8f56c81fc69887e45243cc752e0707e3", null ],
     [ "duplicateNonManifoldVertices", "classMR_1_1MeshBuilder.html#a5bc8d7a3bdf916552aba9f5bc2ce397c", null ],
     [ "fromDisjointMeshPieces", "classMR_1_1MeshBuilder.html#a0b2857c50acb2e90de92900defe8c293", null ],
-    [ "fromFaceSoup", "classMR_1_1MeshBuilder.html#a2fa23032c12816994aad18f2935072b1", null ],
+    [ "fromFaceSoup", "classMR_1_1MeshBuilder.html#a2e1a26edc35b2f5afdb45bef247a2483", null ],
     [ "fromPointTriples", "classMR_1_1MeshBuilder.html#a5a49960d15a3559eee7a68d18543449b", null ],
-    [ "fromTriangles", "classMR_1_1MeshBuilder.html#ad8a9a667962897c424be5b3d633d9cae", null ],
+    [ "fromTriangles", "classMR_1_1MeshBuilder.html#a3ec6b97dff43c9678dbbc4e82897fdf9", null ],
     [ "fromTrianglesDuplicatingNonManifoldVertices", "classMR_1_1MeshBuilder.html#a428386b924c62be15266d1467f2a17cb", null ],
     [ "uniteCloseVertices", "classMR_1_1MeshBuilder.html#a4a8977a3bc39772181faaed54cd1693e", null ],
     [ "uniteCloseVertices", "classMR_1_1MeshBuilder.html#a1ea8116ebcdc36112c22567b002ad81a", null ]

@@ -8,6 +8,15 @@
     <innerclass refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" prot="public">MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</innerclass>
     <innerclass refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f" prot="public">MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRSphere3f</innerclass>
     <innerclass refid="classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f" prot="public">MR::Features::Traits::Binary_MRSphere3f_MRSphere3f</innerclass>
+    <innerclass refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment" prot="public">MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment</innerclass>
+    <innerclass refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f" prot="public">MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f</innerclass>
+    <innerclass refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment" prot="public">MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</innerclass>
+    <innerclass refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" prot="public">MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</innerclass>
+    <innerclass refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRSphere3f" prot="public">MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesPlane_MRSphere3f</innerclass>
+    <innerclass refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRSphere3f__MRSphere3f" prot="public">MR::Features::Traits::Const_Binary_MRSphere3f_MRSphere3f</innerclass>
+    <innerclass refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesConeSegment" prot="public">MR::Features::Traits::Const_Unary_MRFeaturesPrimitivesConeSegment</innerclass>
+    <innerclass refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRFeaturesPrimitivesPlane" prot="public">MR::Features::Traits::Const_Unary_MRFeaturesPrimitivesPlane</innerclass>
+    <innerclass refid="classMR_1_1Features_1_1Traits_1_1Const__Unary__MRSphere3f" prot="public">MR::Features::Traits::Const_Unary_MRSphere3f</innerclass>
     <innerclass refid="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment" prot="public">MR::Features::Traits::Unary_MRFeaturesPrimitivesConeSegment</innerclass>
     <innerclass refid="classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane" prot="public">MR::Features::Traits::Unary_MRFeaturesPrimitivesPlane</innerclass>
     <innerclass refid="classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f" prot="public">MR::Features::Traits::Unary_MRSphere3f</innerclass>

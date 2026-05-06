@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23639" bodyend="23640"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23719" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23719" bodyend="23720"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -64,19 +64,17 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>&lt;summary&gt;
-calculates winding numbers in each point from a three-dimensional grid
-&lt;/summary&gt;
-&lt;param name=&quot;resFunc&quot;&gt;callback that gets a block of resulting winding numbers&lt;/param&gt;
-&lt;param name=&quot;dims&quot;&gt;dimensions of the grid&lt;/param&gt;
-&lt;param name=&quot;gridToMeshXf&quot;&gt;transform from integer grid locations to voxel&apos;s centers in mesh reference frame&lt;/param&gt;
-&lt;param name=&quot;beta&quot;&gt;determines the precision of the approximation: the more the better, recommended value 2 or more&lt;/param&gt;
-&lt;param name=&quot;layerOverlap&quot;&gt;overlap between two blocks of the grid, set as XY layer count&lt;/param&gt;
+<para><verbatim>calculates winding numbers in each point from a three-dimensional grid
+\\param resFunc callback that gets a block of resulting winding numbers
+\\param dims dimensions of the grid
+\\param gridToMeshXf transform from integer grid locations to voxel&apos;s centers in mesh reference frame
+\\param beta determines the precision of the approximation: the more the better, recommended value 2 or more
+\\param layerOverlap overlap between two blocks of the grid, set as XY layer count
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23641" bodyend="23651"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23721" bodyend="23729"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1IFastWindingNumberByParts_1a32085adb36386105b107f1cb9b693645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -115,19 +113,17 @@ calculates winding numbers in each point from a three-dimensional grid
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>&lt;summary&gt;
-calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid;
+<para><verbatim>calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid;
 if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point
-&lt;/summary&gt;
-&lt;param name=&quot;resFunc&quot;&gt;callback that gets a block of resulting winding numbers&lt;/param&gt;
-&lt;param name=&quot;dims&quot;&gt;dimensions of the grid&lt;/param&gt;
-&lt;param name=&quot;gridToMeshXf&quot;&gt;transform from integer grid locations to voxel&apos;s centers in mesh reference frame&lt;/param&gt;
-&lt;param name=&quot;layerOverlap&quot;&gt;overlap between two blocks of the grid, set as XY layer count&lt;/param&gt;
+\\param resFunc callback that gets a block of resulting winding numbers
+\\param dims dimensions of the grid
+\\param gridToMeshXf transform from integer grid locations to voxel&apos;s centers in mesh reference frame
+\\param layerOverlap overlap between two blocks of the grid, set as XY layer count
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23652" bodyend="23662"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23730" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23730" bodyend="23738"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -138,7 +134,7 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
 Abstract class that complements \\ref IFastWindingNumber with chunked processing variants of its methods
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23632" bodyend="23662"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23712" bodyend="23738"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a06c36db0cc9c770091c7467806bc9859" prot="public" virt="non-virtual"><scope>mrmeshpy::IFastWindingNumberByParts</scope><name>calcFromGridByParts</name></member>
       <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a32085adb36386105b107f1cb9b693645" prot="public" virt="non-virtual"><scope>mrmeshpy::IFastWindingNumberByParts</scope><name>calcFromGridWithDistancesByParts</name></member>

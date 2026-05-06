@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1GcodeProcessor" kind="class" language="C#" prot="public">
     <compoundname>MR::GcodeProcessor</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_GcodeProcessor</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__GcodeProcessor" prot="public" virt="non-virtual">MR.Const_GcodeProcessor</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1GcodeProcessor_1aa3e02e33c081105a6ecc878abac68009" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>GcodeProcessor</name>
         <qualifiedname>MR.GcodeProcessor.GcodeProcessor</qualifiedname>
         <param>
-          <type>Const_GcodeProcessor</type>
+          <type><ref refid="classMR_1_1Const__GcodeProcessor" kindref="compound">Const_GcodeProcessor</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -169,7 +169,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1185" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1185" bodyend="1190"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a10e195dabf46d85414f3d33a55f4f3cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.GcodeProcessor.MoveAction</type>
+        <type>unsafe <ref refid="classMR_1_1Const__GcodeProcessor_1_1MoveAction" kindref="compound">MR.GcodeProcessor.MoveAction</ref></type>
         <definition>unsafe MR.GcodeProcessor.MoveAction MR.GcodeProcessor.processLine</definition>
         <argsstring>(string line, MR.Std.Vector_MRGcodeProcessorCommand externalStorage)</argsstring>
         <name>processLine</name>
@@ -198,7 +198,7 @@
         <name>setCNCMachineSettings</name>
         <qualifiedname>MR.GcodeProcessor.setCNCMachineSettings</qualifiedname>
         <param>
-          <type>MR.Const_CNCMachineSettings</type>
+          <type><ref refid="classMR_1_1Const__CNCMachineSettings" kindref="compound">MR.Const_CNCMachineSettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
@@ -211,7 +211,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1212" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1212" bodyend="1217"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1GcodeProcessor_1ab1974efa77013a98d129e57c13b173e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Const_CNCMachineSettings</type>
+        <type>unsafe <ref refid="classMR_1_1Const__CNCMachineSettings" kindref="compound">MR.Const_CNCMachineSettings</ref></type>
         <definition>unsafe MR.Const_CNCMachineSettings MR.GcodeProcessor.getCNCMachineSettings</definition>
         <argsstring>()</argsstring>
         <name>getCNCMachineSettings</name>
@@ -240,6 +240,7 @@
       </node>
       <node id="2">
         <label>MR.Const_GcodeProcessor</label>
+        <link refid="classMR_1_1Const__GcodeProcessor"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -261,6 +262,7 @@
       </node>
       <node id="2">
         <label>MR.Const_GcodeProcessor</label>
+        <link refid="classMR_1_1Const__GcodeProcessor"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -276,6 +278,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1112" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1113" bodyend="1228"/>
     <listofallmembers>
       <member refid="classMR_1_1GcodeProcessor_1a028b26e379c9ac9ec8a8469fe1376c18" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__GcodeProcessor_1a059e1666ccf2f09531b56809fb566525" prot="package" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>Const_GcodeProcessor</name></member>
+      <member refid="classMR_1_1Const__GcodeProcessor_1a576848e071461e114904eef23b1c23e3" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>Const_GcodeProcessor</name></member>
+      <member refid="classMR_1_1Const__GcodeProcessor_1a52b136429eb90dabe919e0fe548b32e5" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>Const_GcodeProcessor</name></member>
+      <member refid="classMR_1_1Const__GcodeProcessor_1a79bce5dbdc45b248acf46936b5e64f98" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>Const_GcodeProcessor</name></member>
+      <member refid="classMR_1_1Const__GcodeProcessor_1a38afb264de9d2e74b1090db6b29cc2a2" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>Const_GcodeProcessor</name></member>
+      <member refid="classMR_1_1Const__GcodeProcessor_1a385404d24f588179be4a33a7dbf7a988" prot="protected" virt="virtual"><scope>MR::GcodeProcessor</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GcodeProcessor_1a7863b955f6928fe33ba964a9ffe8208a" prot="public" virt="virtual"><scope>MR::GcodeProcessor</scope><name>Dispose</name></member>
       <member refid="classMR_1_1GcodeProcessor_1aa3e02e33c081105a6ecc878abac68009" prot="package" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>GcodeProcessor</name></member>
       <member refid="classMR_1_1GcodeProcessor_1a7cea7464f75a10c5ad7574323d255f27" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>GcodeProcessor</name></member>
       <member refid="classMR_1_1GcodeProcessor_1a6205fb03c66cae8029ba225847086740" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>GcodeProcessor</name></member>

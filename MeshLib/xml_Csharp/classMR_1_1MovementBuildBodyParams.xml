@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MovementBuildBodyParams" kind="class" language="C#" prot="public">
     <compoundname>MR::MovementBuildBodyParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MovementBuildBodyParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MovementBuildBodyParams" prot="public" virt="non-virtual">MR.Const_MovementBuildBodyParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MovementBuildBodyParams_1adde4e447b1e087c9399181fa4b83129b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -200,7 +200,7 @@
         <name>MovementBuildBodyParams</name>
         <qualifiedname>MR.MovementBuildBodyParams.MovementBuildBodyParams</qualifiedname>
         <param>
-          <type>MR.Const_MovementBuildBodyParams</type>
+          <type><ref refid="classMR_1_1Const__MovementBuildBodyParams" kindref="compound">MR.Const_MovementBuildBodyParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -238,7 +238,7 @@
         <name>assign</name>
         <qualifiedname>MR.MovementBuildBodyParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_MovementBuildBodyParams</type>
+          <type><ref refid="classMR_1_1Const__MovementBuildBodyParams" kindref="compound">MR.Const_MovementBuildBodyParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -265,6 +265,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MovementBuildBodyParams</label>
+        <link refid="classMR_1_1Const__MovementBuildBodyParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -278,6 +279,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MovementBuildBodyParams</label>
         <link refid="classMR_1_1MovementBuildBodyParams"/>
@@ -286,9 +291,14 @@
       </node>
       <node id="2">
         <label>MR.Const_MovementBuildBodyParams</label>
+        <link refid="classMR_1_1Const__MovementBuildBodyParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_b2tXf</edgelabel>
+          <edgelabel>__ptr_storage_trajectoryNormals</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -300,12 +310,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" line="201" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMovementBuildBody.cs" bodystart="202" bodyend="354"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MovementBuildBodyParams_1ad8087132f36c943e3a5332c988f877c5" prot="protected" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__ptr_storage_b2tXf</name></member>
+      <member refid="classMR_1_1Const__MovementBuildBodyParams_1a74f55aea22152dff73b85e94797d2653" prot="protected" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__ptr_storage_trajectoryNormals</name></member>
+      <member refid="classMR_1_1Const__MovementBuildBodyParams_1afafbdd6f74e9201d89ead650277fc303" prot="protected" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__ref_storage_allowRotation</name></member>
+      <member refid="classMR_1_1Const__MovementBuildBodyParams_1ad3955a0ccbe11ccbe12fc1f2b0bfbb2a" prot="protected" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>__ref_storage_startMeshFromBody</name></member>
       <member refid="classMR_1_1MovementBuildBodyParams_1adde4e447b1e087c9399181fa4b83129b" prot="public" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>allowRotation</name></member>
       <member refid="classMR_1_1MovementBuildBodyParams_1a3c355553f1b8e49fdf937d5db2b5dd88" prot="public" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>assign</name></member>
       <member refid="classMR_1_1MovementBuildBodyParams_1a843ac77e475ec454e15fb4b52a694aa7" prot="public" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>b2tXf</name></member>
       <member refid="classMR_1_1MovementBuildBodyParams_1a7f934cd194c3c5a9a730771a0c901eb1" prot="public" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>bodyNormal</name></member>
       <member refid="classMR_1_1MovementBuildBodyParams_1aa2dcaeb81645f7b34d1399f5c5fdb2cd" prot="public" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>bodyUpDir</name></member>
       <member refid="classMR_1_1MovementBuildBodyParams_1a608b8b34c96f9a1e54029127b3653e1e" prot="public" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>center</name></member>
+      <member refid="classMR_1_1Const__MovementBuildBodyParams_1abf12c2227974e969bcef6ad37bf082f8" prot="package" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>Const_MovementBuildBodyParams</name></member>
+      <member refid="classMR_1_1Const__MovementBuildBodyParams_1a8324a42102db0a3d680f611b702f6468" prot="public" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>Const_MovementBuildBodyParams</name></member>
+      <member refid="classMR_1_1Const__MovementBuildBodyParams_1aaf9417502b1ca43fc014b525b125f447" prot="public" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>Const_MovementBuildBodyParams</name></member>
+      <member refid="classMR_1_1Const__MovementBuildBodyParams_1a55b9a0045d4da639979660c3b90f73a1" prot="public" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>Const_MovementBuildBodyParams</name></member>
+      <member refid="classMR_1_1Const__MovementBuildBodyParams_1a6f7a85833a12e8f77d0915249ef52880" prot="public" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>Const_MovementBuildBodyParams</name></member>
+      <member refid="classMR_1_1Const__MovementBuildBodyParams_1a480ba784fad2b3db3e745e5ab334fba2" prot="protected" virt="virtual"><scope>MR::MovementBuildBodyParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MovementBuildBodyParams_1aa2bb56fb7aaa83ef63f55467b2bc9a0b" prot="public" virt="virtual"><scope>MR::MovementBuildBodyParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MovementBuildBodyParams_1ac24abf4ca9c46b5c816d39b1d3fa90b6" prot="package" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>MovementBuildBodyParams</name></member>
       <member refid="classMR_1_1MovementBuildBodyParams_1a3826e1ab7132651a89f87fd8bbe4ed75" prot="public" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>MovementBuildBodyParams</name></member>
       <member refid="classMR_1_1MovementBuildBodyParams_1a47e1e96af8bb8ded03153262257c14c9" prot="public" virt="non-virtual"><scope>MR::MovementBuildBodyParams</scope><name>MovementBuildBodyParams</name></member>

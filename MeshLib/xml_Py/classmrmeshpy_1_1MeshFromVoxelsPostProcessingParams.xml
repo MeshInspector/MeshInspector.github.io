@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshFromVoxelsPostProcessingParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a2ac0fec4593426e3a3797d51b3abd268" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshFromVoxelsPostProcessingParams::_offsetof_decimate</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_decimate</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams._offsetof_decimate</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32569" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1af07d0bd3be7651431d1396ea615aa4c1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshFromVoxelsPostProcessingParams::_offsetof_reduceAngleNumIters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_reduceAngleNumIters</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams._offsetof_reduceAngleNumIters</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32570" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a820a96d97b234b77e6c943ba99661f7a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshFromVoxelsPostProcessingParams::_offsetof_sharpEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_sharpEdges</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams._offsetof_sharpEdges</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32571" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1afdf61de72d96add98002a2f007209b51" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshFromVoxelsPostProcessingParams::_offsetof_tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams._offsetof_tinyEdgeLength</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32572" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a5952a710ce63753fd6750056f2ca8eee" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshFromVoxelsPostProcessingParams::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams._offsetof_voxelSize</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32573" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a839a78fb0c8d55ad546a0b79278df79b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshFromVoxelsPostProcessingParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32576" bodyend="32577"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a63b18e5df1e1cf9322426bc4ecec1e37" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams" kindref="compound">MeshFromVoxelsPostProcessingParams</ref></type>
+        <definition> MeshFromVoxelsPostProcessingParams mrmeshpy.MeshFromVoxelsPostProcessingParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32580" bodyend="32581"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a63b18e5df1e1cf9322426bc4ecec1e37" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams" kindref="compound">MeshFromVoxelsPostProcessingParams</ref></type>
+        <definition> MeshFromVoxelsPostProcessingParams mrmeshpy.MeshFromVoxelsPostProcessingParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32584" bodyend="32585"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a5e96b5da2253b996ca788a4fd87e5b24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshFromVoxelsPostProcessingParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32587" bodyend="32588"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a29632bc8819c78a0c4d0260ff9262bc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshFromVoxelsPostProcessingParams.__init__</definition>
+        <argsstring>(self, MeshFromVoxelsPostProcessingParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams" kindref="compound">MeshFromVoxelsPostProcessingParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32590" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32590" bodyend="32593"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a242c72517378225a5c125a56e6ab3fe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshFromVoxelsPostProcessingParams.__init__</definition>
+        <argsstring>(self, float voxelSize, int reduceAngleNumIters, bool decimate, float tinyEdgeLength, UndirectedEdgeBitSet sharpEdges)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>reduceAngleNumIters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>decimate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tinyEdgeLength</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>sharpEdges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32595" bodyend="32598"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a79f64bf61d86faa1a12c8d6c48b83b71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshFromVoxelsPostProcessingParams.decimate</definition>
+        <argsstring>(self)</argsstring>
+        <name>decimate</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.decimate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether to decimate resulting mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32600" bodyend="32603"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1ae608d8067a515f4af07660928ee89d32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshFromVoxelsPostProcessingParams.decimate</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>decimate</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.decimate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32605" bodyend="32606"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a8a88c100b1d540bcbcb5f5b93f9ef631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshFromVoxelsPostProcessingParams.reduceAngleNumIters</definition>
+        <argsstring>(self)</argsstring>
+        <name>reduceAngleNumIters</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.reduceAngleNumIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of iterations to minimize summed deviation of triangle-triangle angles from plane;
+this mode highlights sharp edges;
+if decimation is on, this mode is performed before and after decimation and further reduces the number of triangles
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32608" bodyend="32613"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1ae115aa37f779af5ef286de41014ea1c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshFromVoxelsPostProcessingParams.reduceAngleNumIters</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>reduceAngleNumIters</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.reduceAngleNumIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32615" bodyend="32616"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a90b4c1d03999bd93562d0f9089142b6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.MeshFromVoxelsPostProcessingParams.sharpEdges</definition>
+        <argsstring>(self)</argsstring>
+        <name>sharpEdges</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.sharpEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sharp edges that are maintained during post-processing
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32618" bodyend="32621"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1ad51621d8a819a1b94523e2a37069c4d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshFromVoxelsPostProcessingParams.sharpEdges</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>sharpEdges</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.sharpEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32623" bodyend="32624"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a3025b6799ccec07b1a0f739e38bab955" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshFromVoxelsPostProcessingParams.tinyEdgeLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.tinyEdgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>only if decimate = true:
+edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32626" bodyend="32630"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a975fe439849def41b0975d0d9aab5b5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshFromVoxelsPostProcessingParams.tinyEdgeLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.tinyEdgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32632" bodyend="32633"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a0ffb91c7cbc44ec8c9b9a2dff846845b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshFromVoxelsPostProcessingParams.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The size of voxel that was used for mesh creation, must be set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32635" bodyend="32638"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a58a65663036e6d0028d64eb3284f4048" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshFromVoxelsPostProcessingParams.voxelSize</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.MeshFromVoxelsPostProcessingParams.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32640" bodyend="32641"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshFromVoxelsPostProcessingParams
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32565" bodyend="32641"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a839a78fb0c8d55ad546a0b79278df79b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a5e96b5da2253b996ca788a4fd87e5b24" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a29632bc8819c78a0c4d0260ff9262bc2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a242c72517378225a5c125a56e6ab3fe2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a2ac0fec4593426e3a3797d51b3abd268" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>_offsetof_decimate</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1af07d0bd3be7651431d1396ea615aa4c1" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>_offsetof_reduceAngleNumIters</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a820a96d97b234b77e6c943ba99661f7a" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>_offsetof_sharpEdges</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1afdf61de72d96add98002a2f007209b51" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>_offsetof_tinyEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a5952a710ce63753fd6750056f2ca8eee" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a79f64bf61d86faa1a12c8d6c48b83b71" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>decimate</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1ae608d8067a515f4af07660928ee89d32" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>decimate</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a63b18e5df1e1cf9322426bc4ecec1e37" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a63b18e5df1e1cf9322426bc4ecec1e37" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a8a88c100b1d540bcbcb5f5b93f9ef631" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>reduceAngleNumIters</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1ae115aa37f779af5ef286de41014ea1c5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>reduceAngleNumIters</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a90b4c1d03999bd93562d0f9089142b6f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>sharpEdges</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1ad51621d8a819a1b94523e2a37069c4d2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>sharpEdges</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a3025b6799ccec07b1a0f739e38bab955" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>tinyEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a975fe439849def41b0975d0d9aab5b5b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>tinyEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a0ffb91c7cbc44ec8c9b9a2dff846845b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams_1a58a65663036e6d0028d64eb3284f4048" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshFromVoxelsPostProcessingParams</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

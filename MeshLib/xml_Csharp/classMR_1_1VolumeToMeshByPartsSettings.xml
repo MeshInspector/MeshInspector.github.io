@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VolumeToMeshByPartsSettings" kind="struct" language="C#" prot="public">
     <compoundname>MR::VolumeToMeshByPartsSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VolumeToMeshByPartsSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VolumeToMeshByPartsSettings" prot="public" virt="non-virtual">MR.Const_VolumeToMeshByPartsSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VolumeToMeshByPartsSettings_1a163f6e7c21782c5264f775a766084997" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref ulong</type>
@@ -104,7 +104,7 @@
         <name>VolumeToMeshByPartsSettings</name>
         <qualifiedname>MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</qualifiedname>
         <param>
-          <type>MR.Const_VolumeToMeshByPartsSettings</type>
+          <type><ref refid="classMR_1_1Const__VolumeToMeshByPartsSettings" kindref="compound">MR.Const_VolumeToMeshByPartsSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -142,7 +142,7 @@
         <name>assign</name>
         <qualifiedname>MR.VolumeToMeshByPartsSettings.assign</qualifiedname>
         <param>
-          <type>MR.Const_VolumeToMeshByPartsSettings</type>
+          <type><ref refid="classMR_1_1Const__VolumeToMeshByPartsSettings" kindref="compound">MR.Const_VolumeToMeshByPartsSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -174,6 +174,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VolumeToMeshByPartsSettings</label>
+        <link refid="classMR_1_1Const__VolumeToMeshByPartsSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -195,6 +196,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VolumeToMeshByPartsSettings</label>
+        <link refid="classMR_1_1Const__VolumeToMeshByPartsSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -209,7 +211,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="441" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="442" bodyend="510"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VolumeToMeshByPartsSettings_1a96b0f3baf51c24b4cdfe5463b94ad86c" prot="protected" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>__ref_storage_maxVolumePartMemoryUsage</name></member>
+      <member refid="classMR_1_1Const__VolumeToMeshByPartsSettings_1a32227e6ebadaee48dfde3e06fcdac64a" prot="protected" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>__ref_storage_stripeOverlap</name></member>
       <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a6454695412cd97936453f13bac1be30d" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VolumeToMeshByPartsSettings_1ab342ee6e178b7e3898989ba6b54de157" prot="package" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>Const_VolumeToMeshByPartsSettings</name></member>
+      <member refid="classMR_1_1Const__VolumeToMeshByPartsSettings_1ad459aeebf7fff1355d39ea8c73583467" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>Const_VolumeToMeshByPartsSettings</name></member>
+      <member refid="classMR_1_1Const__VolumeToMeshByPartsSettings_1ad5785a34355d2ba99044134faa8bc79f" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>Const_VolumeToMeshByPartsSettings</name></member>
+      <member refid="classMR_1_1Const__VolumeToMeshByPartsSettings_1a872ab572d387fe209940e4cf1ff485bc" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>Const_VolumeToMeshByPartsSettings</name></member>
+      <member refid="classMR_1_1Const__VolumeToMeshByPartsSettings_1a341b368c51f4380bf9ffb1c503b07ca5" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>Const_VolumeToMeshByPartsSettings</name></member>
+      <member refid="classMR_1_1Const__VolumeToMeshByPartsSettings_1a2ddcdc382394f5a8039a2d59f8ac741a" prot="protected" virt="virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VolumeToMeshByPartsSettings_1ad1e578fd1d331efece4e0fe61e437fcf" prot="public" virt="virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a163f6e7c21782c5264f775a766084997" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>maxVolumePartMemoryUsage</name></member>
       <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a0e0d29b2a60329aef9c36da2e271a664" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>stripeOverlap</name></member>
       <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a4eb195d034a1ddb64c6fca556aa74a0e" prot="package" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>VolumeToMeshByPartsSettings</name></member>

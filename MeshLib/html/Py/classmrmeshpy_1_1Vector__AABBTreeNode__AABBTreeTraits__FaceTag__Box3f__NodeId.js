@@ -32,6 +32,7 @@ var classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeI
     [ "reserve", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#ab0ca404a5d703187ac1761a9996beb07", null ],
     [ "resize", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a960e40cdb6749c48e85fbe42e587f330", null ],
     [ "resize", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a12ba1f0c2eb2aa9c0c67d03e1274e0ca", null ],
+    [ "resizeNoInit", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a05949552268f82bea67bbd9bd8637748", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a8403988b56d767cde08833c9a6d3cc7a", null ],
     [ "resizeWithReserve", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#a23a4c39584fee63a126e5cb0a5fa7ff0", null ],
     [ "size", "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box3f__NodeId.html#ac1b9e1ad99fecefffeb02de88d02db45", null ],

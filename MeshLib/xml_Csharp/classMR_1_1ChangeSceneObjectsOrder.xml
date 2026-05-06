@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeSceneObjectsOrder" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeSceneObjectsOrder</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeSceneObjectsOrder</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeSceneObjectsOrder" prot="public" virt="non-virtual">MR.Const_ChangeSceneObjectsOrder</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeSceneObjectsOrder_1abc9de3594d83a64bca5be88a3c04cacd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeSceneObjectsOrder</name>
         <qualifiedname>MR.ChangeSceneObjectsOrder.ChangeSceneObjectsOrder</qualifiedname>
         <param>
-          <type>Const_ChangeSceneObjectsOrder</type>
+          <type><ref refid="classMR_1_1Const__ChangeSceneObjectsOrder" kindref="compound">Const_ChangeSceneObjectsOrder</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -172,7 +172,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeSceneObjectsOrder.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -199,6 +199,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeSceneObjectsOrder</label>
+        <link refid="classMR_1_1Const__ChangeSceneObjectsOrder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -220,6 +221,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeSceneObjectsOrder</label>
+        <link refid="classMR_1_1Const__ChangeSceneObjectsOrder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -241,7 +243,18 @@
       <member refid="classMR_1_1ChangeSceneObjectsOrder_1a2c1c44ed7e524e216e483c6db7717c75" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>ChangeSceneObjectsOrder</name></member>
       <member refid="classMR_1_1ChangeSceneObjectsOrder_1a5aab0cdd4f714cfd8e6e263f0816cbc0" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>ChangeSceneObjectsOrder</name></member>
       <member refid="classMR_1_1ChangeSceneObjectsOrder_1a4ab2761a27694897aa9a1f81e783a1a2" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>ChangeSceneObjectsOrder</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a9bedf93453332b58c6ec610647e0a9f3" prot="package" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>Const_ChangeSceneObjectsOrder</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a1706571c619e286b30a82ddd9fcb18fc" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>Const_ChangeSceneObjectsOrder</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1aefe9c6155d8e650c5f70fae915bdb713" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>Const_ChangeSceneObjectsOrder</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a550cd4578a2c4be84d613e020ab33c01" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>Const_ChangeSceneObjectsOrder</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1ab085f832bd764ca17233f9cbc4640d68" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>Const_ChangeSceneObjectsOrder</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a950f346bcebb85bc3766ee641437fab5" prot="protected" virt="virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a94cc3ee8bda4b073798f39aae907a6a2" prot="public" virt="virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a7ba9015bdac03f1c33366bd6524b043d" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1a103f163cb2b59dfefa69f8155118f541" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeSceneObjectsOrder_1a4c5535a2cc9ee503e19d315acc5e0fc0" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>operator ChangeSceneObjectsOrder?</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1affb63c8eb214fbb3f6b8a7b2ee60ce9d" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>operator Const_ChangeSceneObjectsOrder?</name></member>
+      <member refid="classMR_1_1Const__ChangeSceneObjectsOrder_1aea3a7acbb2dabb03311f139a720e75ea" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeSceneObjectsOrder_1abc9de3594d83a64bca5be88a3c04cacd" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>operator MR.HistoryAction</name></member>
     </listofallmembers>
   </compounddef>

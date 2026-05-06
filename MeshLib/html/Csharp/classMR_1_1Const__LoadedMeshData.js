@@ -1,0 +1,27 @@
+var classMR_1_1Const__LoadedMeshData =
+[
+    [ "Const_LoadedMeshData", "classMR_1_1Const__LoadedMeshData.html#a5fabed110f0fe6a3d3dd909c438a0921", null ],
+    [ "Const_LoadedMeshData", "classMR_1_1Const__LoadedMeshData.html#a1c92667a5efbdc034f7122c018552ca6", null ],
+    [ "Const_LoadedMeshData", "classMR_1_1Const__LoadedMeshData.html#af2c59a1f1052700d24aaa652dc7a0e91", null ],
+    [ "Const_LoadedMeshData", "classMR_1_1Const__LoadedMeshData.html#a38bb618d4e338569090a15ccdb96a8f7", null ],
+    [ "clone", "classMR_1_1Const__LoadedMeshData.html#ad32b2fd74e25f7a0cb971cbc9e32f6a1", null ],
+    [ "Dispose", "classMR_1_1Const__LoadedMeshData.html#ada1261c3eb2697ec54e422e11104bd3c", null ],
+    [ "Dispose", "classMR_1_1Const__LoadedMeshData.html#a8f4197b1317cee8e5440ed7c2c5975b1", null ],
+    [ "heapBytes", "classMR_1_1Const__LoadedMeshData.html#a3e936d2ca8038e7fae3f7a989b7af557", null ],
+    [ "operator MR.Const_ObjectMeshData", "classMR_1_1Const__LoadedMeshData.html#aa806ee2a834e14d9a50aaa12e6aeb5d1", null ],
+    [ "__ref_storage_duplicatedVertexCount", "classMR_1_1Const__LoadedMeshData.html#ab6c62115d66e1cb3ef82c8f131d72801", null ],
+    [ "__ref_storage_skippedFaceCount", "classMR_1_1Const__LoadedMeshData.html#a41e96d270af5388a225332f11a47e3fe", null ],
+    [ "__ref_storage_xf", "classMR_1_1Const__LoadedMeshData.html#a1857faaf8514ec59f63e8cba7375554c", null ],
+    [ "creases", "classMR_1_1Const__LoadedMeshData.html#aade49a2ad386150aed8e862d761e79c4", null ],
+    [ "duplicatedVertexCount", "classMR_1_1Const__LoadedMeshData.html#a73702452de71d5bfb4e6eaeb5eb792de", null ],
+    [ "faceColors", "classMR_1_1Const__LoadedMeshData.html#a11d9dc5b36a078a77c6406eaf7fcbdb2", null ],
+    [ "mesh", "classMR_1_1Const__LoadedMeshData.html#a4ed06a79041a9b30e99e7b5e7c5dc920", null ],
+    [ "selectedEdges", "classMR_1_1Const__LoadedMeshData.html#a5db09bddb11299fb749ff6b15ed57f35", null ],
+    [ "selectedFaces", "classMR_1_1Const__LoadedMeshData.html#ae02a44bff2f7ac789d2df0a4fa01a3e4", null ],
+    [ "skippedFaceCount", "classMR_1_1Const__LoadedMeshData.html#a23d5b671cdaad46946157afa65f25e26", null ],
+    [ "texture", "classMR_1_1Const__LoadedMeshData.html#aea94920a26919b1d34e81f1ee65c0be1", null ],
+    [ "texturePerFace", "classMR_1_1Const__LoadedMeshData.html#a9a8db5b588afd967e8b2f67a06eaf26e", null ],
+    [ "uvCoordinates", "classMR_1_1Const__LoadedMeshData.html#a15d99ecb42478bf68febc19783ac3f2d", null ],
+    [ "vertColors", "classMR_1_1Const__LoadedMeshData.html#af9f44c4eefbb2bfb3514daeceb88bb98", null ],
+    [ "xf", "classMR_1_1Const__LoadedMeshData.html#af846b08c69b14b4633cc50621d531091", null ]
+];

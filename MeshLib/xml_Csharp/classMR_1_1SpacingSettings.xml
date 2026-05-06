@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SpacingSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::SpacingSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SpacingSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SpacingSettings" prot="public" virt="non-virtual">MR.Const_SpacingSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SpacingSettings_1a1b3ceb254bcb302d37da13387844bac5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.SpacingSettings.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -134,18 +134,18 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="621" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="621" bodyend="627"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1SpacingSettings_1a109761900efcc7d725943149f8378bf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1SpacingSettings_1aab75ce3f71b107bbdbf1f1d07ffecd59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.SpacingSettings.SpacingSettings</definition>
-        <argsstring>(MR.Const_VertBitSet? region, MR.Std._ByValue_Function_FloatFuncFromMRUndirectedEdgeId dist, int numIters, float stabilizer, float maxSumNegW, MR.Std._ByValue_Function_BoolFuncFromMRFaceId isInverted)</argsstring>
+        <argsstring>(MR.Const_VertBitSet? region, MR.Std._ByValue_Function_Float_From_MRUndirectedEdgeId dist, int numIters, float stabilizer, float maxSumNegW, MR.Std._ByValue_Function_Bool_From_MRFaceId isInverted)</argsstring>
         <name>SpacingSettings</name>
         <qualifiedname>MR.SpacingSettings.SpacingSettings</qualifiedname>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>region</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_FloatFuncFromMRUndirectedEdgeId</type>
+          <type>MR.Std._ByValue_Function_Float_From_MRUndirectedEdgeId</type>
           <declname>dist</declname>
         </param>
         <param>
@@ -161,7 +161,7 @@
           <declname>maxSumNegW</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromMRFaceId</type>
+          <type>MR.Std._ByValue_Function_Bool_From_MRFaceId</type>
           <declname>isInverted</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>SpacingSettings</name>
         <qualifiedname>MR.SpacingSettings.SpacingSettings</qualifiedname>
         <param>
-          <type>Const_SpacingSettings</type>
+          <type><ref refid="classMR_1_1Const__SpacingSettings" kindref="compound">Const_SpacingSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -264,6 +264,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SpacingSettings</label>
+        <link refid="classMR_1_1Const__SpacingSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -277,6 +278,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SpacingSettings</label>
         <link refid="classMR_1_1SpacingSettings"/>
@@ -285,9 +290,13 @@
       </node>
       <node id="2">
         <label>MR.Const_SpacingSettings</label>
+        <link refid="classMR_1_1Const__SpacingSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -299,7 +308,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="547" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="548" bodyend="676"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SpacingSettings_1a271e1d5779128c536772d2bd32228671" prot="protected" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__SpacingSettings_1a5492a6272fca0ea4680aef4b4f929206" prot="protected" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>__ref_storage_maxSumNegW</name></member>
+      <member refid="classMR_1_1Const__SpacingSettings_1a5072a8eb5a9087c3186637946dc4e075" prot="protected" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>__ref_storage_numIters</name></member>
+      <member refid="classMR_1_1Const__SpacingSettings_1af025763c0385cf620b476592e48fe707" prot="protected" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>__ref_storage_stabilizer</name></member>
       <member refid="classMR_1_1SpacingSettings_1abd3c7f927bd0d40e95a754a4dd015035" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SpacingSettings_1a7fbbf6acd3d0d479c4fa0d6fc2ca20db" prot="package" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>Const_SpacingSettings</name></member>
+      <member refid="classMR_1_1Const__SpacingSettings_1a23eb378aa3317934ea062bd244e69bed" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>Const_SpacingSettings</name></member>
+      <member refid="classMR_1_1Const__SpacingSettings_1a9be68a79dd36cf582f20cd9262adce6e" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>Const_SpacingSettings</name></member>
+      <member refid="classMR_1_1Const__SpacingSettings_1a4e3dcf73cb6f345f37ce0e7560f9fa48" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>Const_SpacingSettings</name></member>
+      <member refid="classMR_1_1Const__SpacingSettings_1a419cb3991b6e9f2f4183fc6807b62e1a" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>Const_SpacingSettings</name></member>
+      <member refid="classMR_1_1Const__SpacingSettings_1a16175a022cbfa26d0df75577811407a0" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>Const_SpacingSettings</name></member>
+      <member refid="classMR_1_1Const__SpacingSettings_1a85bcb9272d17825de3375e846b556eb9" prot="protected" virt="virtual"><scope>MR::SpacingSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SpacingSettings_1a68f190c2259976b9b1923b812daab07f" prot="public" virt="virtual"><scope>MR::SpacingSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SpacingSettings_1af059dcabd20fcd000546b46e355a9958" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>dist</name></member>
       <member refid="classMR_1_1SpacingSettings_1af9615190efb6008947e0e2b6978d5637" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>isInverted</name></member>
       <member refid="classMR_1_1SpacingSettings_1a9e46f46fcdae4f443818731ed2a06186" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>maxSumNegW</name></member>
@@ -307,7 +328,7 @@
       <member refid="classMR_1_1SpacingSettings_1a1b3ceb254bcb302d37da13387844bac5" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>region</name></member>
       <member refid="classMR_1_1SpacingSettings_1ae7c0820dcd8844d3ff60caf7bd937014" prot="package" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>SpacingSettings</name></member>
       <member refid="classMR_1_1SpacingSettings_1adeaea458c53836029d5d007afafb52a1" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>SpacingSettings</name></member>
-      <member refid="classMR_1_1SpacingSettings_1a109761900efcc7d725943149f8378bf3" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>SpacingSettings</name></member>
+      <member refid="classMR_1_1SpacingSettings_1aab75ce3f71b107bbdbf1f1d07ffecd59" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>SpacingSettings</name></member>
       <member refid="classMR_1_1SpacingSettings_1ae38a0a964f52696e4a8a8c661101fc11" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>SpacingSettings</name></member>
       <member refid="classMR_1_1SpacingSettings_1aea8f32294eeca4cec2af9b05cb73931b" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>SpacingSettings</name></member>
       <member refid="classMR_1_1SpacingSettings_1a72bf1e5e37e7950f931a9829b2e0adfd" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>SpacingSettings</name></member>

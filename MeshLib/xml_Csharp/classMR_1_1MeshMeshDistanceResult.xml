@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshMeshDistanceResult" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshMeshDistanceResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshMeshDistanceResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshMeshDistanceResult" prot="public" virt="non-virtual">MR.Const_MeshMeshDistanceResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshMeshDistanceResult_1a30f679a95c80acae78501075ea399ade" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1PointOnFace" kindref="compound">MR.PointOnFace</ref></type>
@@ -97,11 +97,11 @@
         <name>MeshMeshDistanceResult</name>
         <qualifiedname>MR.MeshMeshDistanceResult.MeshMeshDistanceResult</qualifiedname>
         <param>
-          <type>MR.Const_PointOnFace</type>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
           <declname>a</declname>
         </param>
         <param>
-          <type>MR.Const_PointOnFace</type>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
           <declname>b</declname>
         </param>
         <param>
@@ -124,7 +124,7 @@
         <name>MeshMeshDistanceResult</name>
         <qualifiedname>MR.MeshMeshDistanceResult.MeshMeshDistanceResult</qualifiedname>
         <param>
-          <type>MR.Const_MeshMeshDistanceResult</type>
+          <type><ref refid="classMR_1_1Const__MeshMeshDistanceResult" kindref="compound">MR.Const_MeshMeshDistanceResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshMeshDistanceResult.assign</qualifiedname>
         <param>
-          <type>MR.Const_MeshMeshDistanceResult</type>
+          <type><ref refid="classMR_1_1Const__MeshMeshDistanceResult" kindref="compound">MR.Const_MeshMeshDistanceResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshMeshDistanceResult</label>
+        <link refid="classMR_1_1Const__MeshMeshDistanceResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -210,6 +211,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshMeshDistanceResult</label>
+        <link refid="classMR_1_1Const__MeshMeshDistanceResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -224,9 +226,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="123" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="124" bodyend="223"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshMeshDistanceResult_1a3fed8ff6de057e02920f1ee96b4e7ed4" prot="protected" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>__ref_storage_distSq</name></member>
       <member refid="classMR_1_1MeshMeshDistanceResult_1a30f679a95c80acae78501075ea399ade" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>a</name></member>
       <member refid="classMR_1_1MeshMeshDistanceResult_1a04b6bb0ef30bfed62b3a95a0c473291b" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>assign</name></member>
       <member refid="classMR_1_1MeshMeshDistanceResult_1a5daab4919b40987165999755442d6973" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__MeshMeshDistanceResult_1a6dedde64a074c669f42e7032532a620b" prot="package" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>Const_MeshMeshDistanceResult</name></member>
+      <member refid="classMR_1_1Const__MeshMeshDistanceResult_1a61c9a8679e168f2b565ee7bcbc3bb1a7" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>Const_MeshMeshDistanceResult</name></member>
+      <member refid="classMR_1_1Const__MeshMeshDistanceResult_1ad2f50e49c7158ccf80bd6c8991a052b9" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>Const_MeshMeshDistanceResult</name></member>
+      <member refid="classMR_1_1Const__MeshMeshDistanceResult_1a85146786bb7dce0614fb2198156320db" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>Const_MeshMeshDistanceResult</name></member>
+      <member refid="classMR_1_1Const__MeshMeshDistanceResult_1ab97ec58198ac23b9d9b85064bd9085ae" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>Const_MeshMeshDistanceResult</name></member>
+      <member refid="classMR_1_1Const__MeshMeshDistanceResult_1a984718707ddc353776287a3deaae461f" prot="protected" virt="virtual"><scope>MR::MeshMeshDistanceResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshMeshDistanceResult_1adaca799253b2dfe825ec3a7dca3f47ed" prot="public" virt="virtual"><scope>MR::MeshMeshDistanceResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshMeshDistanceResult_1a8146522295d5507f278105ee5ce6ab37" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>distSq</name></member>
       <member refid="classMR_1_1MeshMeshDistanceResult_1a95f572b9083d04e8d28c9f4f64f47244" prot="package" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>MeshMeshDistanceResult</name></member>
       <member refid="classMR_1_1MeshMeshDistanceResult_1a9c9dc417792ea6ed1bb5c9ea6d0b9c96" prot="public" virt="non-virtual"><scope>MR::MeshMeshDistanceResult</scope><name>MeshMeshDistanceResult</name></member>

@@ -7,6 +7,7 @@ var MRVector3_8cs =
     [ "MR.ConstBox_Vector3i64", "classMR_1_1ConstBox__Vector3i64.html", "classMR_1_1ConstBox__Vector3i64" ],
     [ "MR.Box_Vector3i64", "classMR_1_1Box__Vector3i64.html", "classMR_1_1Box__Vector3i64" ],
     [ "MR.Vector3i64", "structMR_1_1Vector3i64.html", "structMR_1_1Vector3i64" ],
+    [ "MR.Const_Vector3_UnsignedChar", "classMR_1_1Const__Vector3__UnsignedChar.html", "classMR_1_1Const__Vector3__UnsignedChar" ],
     [ "MR.Vector3_UnsignedChar", "classMR_1_1Vector3__UnsignedChar.html", "classMR_1_1Vector3__UnsignedChar" ],
     [ "MR.ConstBox_Vector3i", "classMR_1_1ConstBox__Vector3i.html", "classMR_1_1ConstBox__Vector3i" ],
     [ "MR.Box_Vector3i", "classMR_1_1Box__Vector3i.html", "classMR_1_1Box__Vector3i" ],

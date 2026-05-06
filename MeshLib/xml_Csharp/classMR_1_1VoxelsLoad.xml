@@ -2,6 +2,11 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsLoad" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsLoad</compoundname>
+    <innerclass refid="classMR_1_1VoxelsLoad_1_1Const__DicomStatus" prot="public">MR::VoxelsLoad::Const_DicomStatus</innerclass>
+    <innerclass refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolume" prot="public">MR::VoxelsLoad::Const_DicomVolume</innerclass>
+    <innerclass refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb" prot="public">MR::VoxelsLoad::Const_DicomVolumeAsVdb</innerclass>
+    <innerclass refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings" prot="public">MR::VoxelsLoad::Const_LoadingTiffSettings</innerclass>
+    <innerclass refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters" prot="public">MR::VoxelsLoad::Const_RawParameters</innerclass>
     <innerclass refid="classMR_1_1VoxelsLoad_1_1DicomStatus" prot="public">MR::VoxelsLoad::DicomStatus</innerclass>
     <innerclass refid="classMR_1_1VoxelsLoad_1_1DicomVolume" prot="public">MR::VoxelsLoad::DicomVolume</innerclass>
     <innerclass refid="classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" prot="public">MR::VoxelsLoad::DicomVolumeAsVdb</innerclass>
@@ -355,7 +360,7 @@
         <name>createObjectVoxels</name>
         <qualifiedname>MR.VoxelsLoad.createObjectVoxels</qualifiedname>
         <param>
-          <type>MR.VoxelsLoad.Const_DicomVolumeAsVdb</type>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__DicomVolumeAsVdb" kindref="compound">MR.VoxelsLoad.Const_DicomVolumeAsVdb</ref></type>
           <declname>dcm</declname>
         </param>
         <param>
@@ -407,7 +412,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.VoxelsLoad.Const_RawParameters</type>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters" kindref="compound">MR.VoxelsLoad.Const_RawParameters</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -435,7 +440,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.VoxelsLoad.Const_RawParameters</type>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters" kindref="compound">MR.VoxelsLoad.Const_RawParameters</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -463,7 +468,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.VoxelsLoad.Const_RawParameters</type>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters" kindref="compound">MR.VoxelsLoad.Const_RawParameters</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -491,7 +496,7 @@
           <declname>in_</declname>
         </param>
         <param>
-          <type>MR.VoxelsLoad.Const_RawParameters</type>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__RawParameters" kindref="compound">MR.VoxelsLoad.Const_RawParameters</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -760,7 +765,7 @@
         <name>loadTiffDir</name>
         <qualifiedname>MR.VoxelsLoad.loadTiffDir</qualifiedname>
         <param>
-          <type>MR.VoxelsLoad.Const_LoadingTiffSettings</type>
+          <type><ref refid="classMR_1_1VoxelsLoad_1_1Const__LoadingTiffSettings" kindref="compound">MR.VoxelsLoad.Const_LoadingTiffSettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>

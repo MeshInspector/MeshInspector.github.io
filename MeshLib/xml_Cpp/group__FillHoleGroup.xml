@@ -365,7 +365,7 @@ default metric: CircumscribedFillMetric</para>
         </inbodydescription>
         <location file="MRMesh/MRMeshFillHole.h" line="158" column="8" declfile="MRMesh/MRMeshFillHole.h" declline="158" declcolumn="8"/>
       </memberdef>
-      <memberdef kind="function" id="group__FillHoleGroup_1ga907cc2793d8772f4a33613433633f419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__FillHoleGroup_1ga907cc2793d8772f4a33613433633f419" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>HoleFillPlan</type>
         <definition>HoleFillPlan MR::getHoleFillPlan</definition>
         <argsstring>(const Mesh &amp;mesh, EdgeId e, const FillHoleParams &amp;params={})</argsstring>
@@ -391,9 +391,9 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="176" column="15" declfile="MRMesh/MRMeshFillHole.h" declline="176" declcolumn="15"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="176" column="16" declfile="MRMesh/MRMeshFillHole.h" declline="176" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="group__FillHoleGroup_1ga4d08e81c1e94219012fdb2a30693f11d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__FillHoleGroup_1ga4d08e81c1e94219012fdb2a30693f11d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; HoleFillPlan &gt;</type>
         <definition>std::vector&lt; HoleFillPlan &gt; MR::getHoleFillPlans</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges, const FillHoleParams &amp;params={})</argsstring>
@@ -419,9 +419,9 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="180" column="14" declfile="MRMesh/MRMeshFillHole.h" declline="180" declcolumn="14"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="180" column="15" declfile="MRMesh/MRMeshFillHole.h" declline="180" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__FillHoleGroup_1ga115c55acfde4c7d5a7829c8871546539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__FillHoleGroup_1ga115c55acfde4c7d5a7829c8871546539" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>HoleFillPlan</type>
         <definition>HoleFillPlan MR::getPlanarHoleFillPlan</definition>
         <argsstring>(const Mesh &amp;mesh, EdgeId e)</argsstring>
@@ -442,9 +442,9 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="184" column="15" declfile="MRMesh/MRMeshFillHole.h" declline="184" declcolumn="15"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="184" column="16" declfile="MRMesh/MRMeshFillHole.h" declline="184" declcolumn="16"/>
       </memberdef>
-      <memberdef kind="function" id="group__FillHoleGroup_1gaa4f6f304ac87174ff7ad7b84c9c8400e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__FillHoleGroup_1gaa4f6f304ac87174ff7ad7b84c9c8400e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; HoleFillPlan &gt;</type>
         <definition>std::vector&lt; HoleFillPlan &gt; MR::getPlanarHoleFillPlans</definition>
         <argsstring>(const Mesh &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;holeRepresentativeEdges)</argsstring>
@@ -465,7 +465,7 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="188" column="14" declfile="MRMesh/MRMeshFillHole.h" declline="188" declcolumn="14"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="188" column="15" declfile="MRMesh/MRMeshFillHole.h" declline="188" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga9c0d16866c22ddd9f9a804ceaafa6def" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -498,6 +498,29 @@ default metric: CircumscribedFillMetric</para>
         <inbodydescription>
         </inbodydescription>
         <location file="MRMesh/MRMeshFillHole.h" line="191" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="191" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="group__FillHoleGroup_1ga4ac05f89e820abf374a81235ddda0750" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::isFillingMultipleEdgeFree</definition>
+        <argsstring>(const MeshTopology &amp;topology, const HoleFillPlan &amp;plan)</argsstring>
+        <name>isFillingMultipleEdgeFree</name>
+        <qualifiedname>MR::isFillingMultipleEdgeFree</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const HoleFillPlan &amp;</type>
+          <declname>plan</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if <ref refid="group__FillHoleGroup_1ga9c0d16866c22ddd9f9a804ceaafa6def" kindref="member">executeHoleFillPlan()</ref> with the same topology and plan does not introduce any edge with the same end-vertices as any existed edge in the mesh; note: this function can be used for checking a fill plan that was generated before filling other holes </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshFillHole.h" line="196" column="8" declfile="MRMesh/MRMeshFillHole.h" declline="196" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga4cf35e5d941d2017efa3dbf1d9ac0c2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -563,7 +586,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="214" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="214" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="219" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="219" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga244a805b5382fa02935a6196bbe11cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -597,7 +620,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="219" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="219" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="224" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="224" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaba3046572685dab52de61c3dcf252303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeId &gt;</type>
@@ -627,7 +650,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="223" column="14" declfile="MRMesh/MRMeshFillHole.h" declline="223" declcolumn="14"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="228" column="14" declfile="MRMesh/MRMeshFillHole.h" declline="228" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaa350b72dbcd48b11d06c127fce0fb7fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -661,7 +684,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="228" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="228" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="233" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="233" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gad9d00d278b9f0d856d31227faa8500d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -699,7 +722,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="233" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="233" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="238" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="238" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga9e749cbb6ab9c3bdac4609b89a586100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -729,7 +752,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="237" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="237" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="242" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="242" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga4ca9c35a40fd933fbfd31883e3a1c76a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MakeBridgeResult</type>
@@ -763,7 +786,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="255" column="19" declfile="MRMesh/MRMeshFillHole.h" declline="255" declcolumn="19"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="260" column="19" declfile="MRMesh/MRMeshFillHole.h" declline="260" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gab3e60c9de18875e78ea96106adbacc8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MakeBridgeResult</type>
@@ -797,7 +820,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="260" column="19" declfile="MRMesh/MRMeshFillHole.h" declline="260" declcolumn="19"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="265" column="19" declfile="MRMesh/MRMeshFillHole.h" declline="265" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaeb585e92175777d0104f7cb7bad9215f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MakeBridgeResult</type>
@@ -844,7 +867,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="267" column="19" declfile="MRMesh/MRMeshFillHole.h" declline="267" declcolumn="19"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="272" column="19" declfile="MRMesh/MRMeshFillHole.h" declline="272" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga22925ca42a37db6c68a9101867744a31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -873,7 +896,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="271" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="271" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="276" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="276" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga71fca5b809e46f918e1bc23c90c3201e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -901,7 +924,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="274" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="274" declcolumn="7"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="279" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="279" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga633f1395df33828b2f19fc042879aa29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -943,11 +966,11 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This metric minimizes the sum of circumcircle radii for all triangles in the triangulation. It is rather fast to calculate, and it results in typically good triangulations. </para>
+<para>This metric minimizes the sum of circumcircle radii for all triangles in the triangulation. It is rather fast to calculate, and it results in typically good triangulations. It is measured in length units. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="54" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="54" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="55" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="55" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga4a6a9b162031e7a619eb316d702a3b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FillHoleMetric</type>
@@ -966,11 +989,11 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Same as getCircumscribedFillMetric, but with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e). </para>
+<para>Same as getCircumscribedFillMetric, but with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e). It is measured in length units. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="58" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="58" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="60" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="60" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gad478d95fcd3c6794e0da1bb6c814c0ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FillHoleMetric</type>
@@ -989,11 +1012,11 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Similar to getPlaneFillMetric with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e), but the metric minimizes the sum of circumcircle radius times aspect ratio for all triangles in the triangulation. </para>
+<para>Similar to getPlaneFillMetric with extra penalty for the triangles having normals looking in the opposite side of plane containing left of (e), but the metric minimizes the sum of circumcircle radius times aspect ratio for all triangles in the triangulation. It is measured in length units. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="63" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="63" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="66" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="66" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga9c570866771d746123bb7c5011175a86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FillHoleMetric</type>
@@ -1011,11 +1034,11 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <para>This metric minimizes the sum of triangleMetric for all triangles in the triangulation plus the sum edgeMetric for all edges inside and on the boundary of the triangulation.<linebreak/>
 Where<linebreak/>
 triangleMetric is proportional to triangle aspect ratio<linebreak/>
-edgeMetric is proportional to ( 1 - dihedralAngleCos ) </para>
+edgeMetric is proportional to ( 1 - dihedralAngleCos ) It is unitless. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="70" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="70" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="74" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="74" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga0e0bc41aafae2177ca82d4f49743974d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FillHoleMetric</type>
@@ -1028,13 +1051,13 @@ edgeMetric is proportional to ( 1 - dihedralAngleCos ) </para>
           <declname>mesh</declname>
         </param>
         <briefdescription>
-<para>Simple metric minimizing the sum of all edge lengths. </para>
         </briefdescription>
         <detaileddescription>
+<para>Simple metric minimizing the sum of all edge lengths It is measured in length units. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="73" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="73" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="78" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="78" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaf59e9c3178f5e0a965709cd905dad365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FillHoleMetric</type>
@@ -1050,11 +1073,11 @@ edgeMetric is proportional to ( 1 - dihedralAngleCos ) </para>
         </briefdescription>
         <detaileddescription>
 <para>Forbids connecting vertices from the same hole <linebreak/>
-Simple metric minimizing edge length </para>
+Simple metric minimizing edge length It is measured in length units. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="77" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="77" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="83" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="83" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga7dc0107c190f70b0ab3a4e084cf298ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FillHoleMetric</type>
@@ -1075,11 +1098,11 @@ Simple metric minimizing edge length </para>
         <detaileddescription>
 <para>Forbids connecting vertices from the same hole <linebreak/>
 penalize for large area and face normal deviation from upDir <linebreak/>
-All new faces should be parallel to given direction </para>
+All new faces should be parallel to given direction It is measured in power 4 length units (e.g. meters^4). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="82" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="82" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="89" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="89" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gabbdbb890c942e76051b284e249608eed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FillHoleMetric</type>
@@ -1100,11 +1123,11 @@ All new faces should be parallel to given direction </para>
         <detaileddescription>
 <para>Forbids connecting vertices from the same hole <linebreak/>
 penalize for long edges and its deviation from upDir <linebreak/>
-All new faces should be parallel to given direction </para>
+All new faces should be parallel to given direction It is measured in squared length units. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="87" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="87" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="95" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="95" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga92a06c2d33c1889ee1b54fdaea5674d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FillHoleMetric</type>
@@ -1126,11 +1149,11 @@ All new faces should be parallel to given direction </para>
 <para>This metric minimizes the sum of triangleMetric for all triangles in the triangulation plus the sum edgeMetric for all edges inside and on the boundary of the triangulation.<linebreak/>
 Where<linebreak/>
 triangleMetric is proportional to weighted triangle area and triangle aspect ratio<linebreak/>
-edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos( x ) ) ) ^ 4. </para>
+edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos( x ) ) ) ^ 4. It is unitless. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="94" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="94" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="103" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="103" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga334e0a0d309a569265caf591d1a78324" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FillHoleMetric</type>
@@ -1152,13 +1175,13 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
           <defval>nullptr</defval>
         </param>
         <briefdescription>
-<para>This metric minimizes summary projection of new edges to plane normal, (try do produce edges parallel to plane) </para>
         </briefdescription>
         <detaileddescription>
+<para>This metric minimizes summary projection of new edges to plane normal, (try do produce edges parallel to plane) It is measured in length units. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="97" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="97" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="107" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="107" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga1f3fb15ec3fb81a9c3fa31b16c08b6fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FillHoleMetric</type>
@@ -1173,11 +1196,11 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This metric minimizes the maximal dihedral angle between the faces in the triangulation and on its boundary </para>
+<para>This metric minimizes the maximal dihedral angle between the faces in the triangulation and on its boundary It is measured in angle units. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="101" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="101" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="112" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="112" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaf752f0a8245805123dc73f5c6a1088b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FillHoleMetric</type>
@@ -1192,11 +1215,11 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This metric consists of two parts 1) for each triangle: it is the circumcircle diameter, this avoids the appearance of degenerate triangles; 2) for each edge: square root of double total area of triangles to its left and right times the factor depending extensionally on absolute dihedral angle between left and right triangles, this makes visually triangulated surface as smooth as possible. For planar holes it is the same as getCircumscribedMetric. </para>
+<para>This metric consists of two parts 1) for each triangle: it is the circumcircle diameter, this avoids the appearance of degenerate triangles; 2) for each edge: square root of double total area of triangles to its left and right times the factor depending extensionally on absolute dihedral angle between left and right triangles, this makes visually triangulated surface as smooth as possible. It is measured in length units. For planar holes it is the same as getCircumscribedMetric. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="110" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="110" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="122" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="122" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gada97d0f756cdd818f749f7cb31043586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FillHoleMetric</type>
@@ -1215,7 +1238,7 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="113" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="113" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="125" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="125" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga202cf2363d92c6bb9820b0726c95a52f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FillHoleMetric</type>
@@ -1230,11 +1253,64 @@ edgeMetric grows with angle between triangles as ( ( 1 - cos( x ) ) / ( 1 + cos(
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This metric is for triangulation construction with minimal summed area of triangles. Warning: this metric can produce degenerated triangles </para>
+<para>This metric is for triangulation construction with minimal summed area of triangles. It is measured in squared length units. Warning: this metric can produce degenerated triangles </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshMetrics.h" line="117" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="117" declcolumn="17"/>
+        <location file="MRMesh/MRMeshMetrics.h" line="130" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="130" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__FillHoleGroup_1ga72e5fd74157ece0e3c7cc5869bf952ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FillHoleMetric</type>
+        <definition>FillHoleMetric MR::getCloseSurfaceFillMetric</definition>
+        <argsstring>(const Mesh &amp;mesh, const Mesh &amp;closeSurface)</argsstring>
+        <name>getCloseSurfaceFillMetric</name>
+        <qualifiedname>MR::getCloseSurfaceFillMetric</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>closeSurface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This metric penalizes new triangles for getting far from <computeroutput>closeSurface</computeroutput> by projecting candidate face center on <computeroutput>closeSurfce</computeroutput>. While slower - it can produce better quality results for patching It is measured in squared length units. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshMetrics.h" line="135" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="135" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__FillHoleGroup_1gabd1aad2d1ac85e32159ea366bf234d78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FillHoleMetric</type>
+        <definition>FillHoleMetric MR::mixMetrics</definition>
+        <argsstring>(const FillHoleMetric &amp;f, const FillHoleMetric &amp;g, const FillCombineMetric &amp;mix={})</argsstring>
+        <name>mixMetrics</name>
+        <qualifiedname>MR::mixMetrics</qualifiedname>
+        <param>
+          <type>const FillHoleMetric &amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>const FillHoleMetric &amp;</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>const FillCombineMetric &amp;</type>
+          <declname>mix</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compose two metrics together: return metrics are <computeroutput>mix(f.metric,g.metric)</computeroutput>. Default <computeroutput>mix</computeroutput> is sum <simplesect kind="note"><para>It is recommended to both metrics to be in same measure e.g. both meters or both meters^2 etc. So scaling input meshes won&apos;t lead to different results. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRMeshMetrics.h" line="141" column="17" declfile="MRMesh/MRMeshMetrics.h" declline="141" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

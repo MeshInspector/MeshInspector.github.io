@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__Char__MRVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_Char_MRVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_Char_MRVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__Char__MRVertId" prot="public" virt="non-virtual">MR.Const_Vector_Char_MRVertId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__Char__MRVertId_1a12541da5dde7ed28d5e9dcfad192a6fe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -27,7 +27,7 @@
         <name>this[MR.VertId i]</name>
         <qualifiedname>MR.Vector_Char_MRVertId.this[MR.VertId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -77,7 +77,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,11 +92,11 @@
         <name>Vector_Char_MRVertId</name>
         <qualifiedname>MR.Vector_Char_MRVertId.Vector_Char_MRVertId</qualifiedname>
         <param>
-          <type>Const_Vector_Char_MRVertId</type>
+          <type><ref refid="classMR_1_1Const__Vector__Char__MRVertId" kindref="compound">Const_Vector_Char_MRVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -157,7 +157,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -176,7 +176,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -195,7 +195,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -210,7 +210,7 @@
         <name>clear</name>
         <qualifiedname>MR.Vector_Char_MRVertId.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1af20d451e2b59923c2c5d93e44d3f5d46" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1af20d451e2b59923c2c5d93e44d3f5d46" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -229,7 +229,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a1ba67ba787f49c5bdf68c9ccc8f9819d" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a1ba67ba787f49c5bdf68c9ccc8f9819d" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -252,7 +252,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a1ba67ba787f49c5bdf68c9ccc8f9819d" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a1ba67ba787f49c5bdf68c9ccc8f9819d" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -271,7 +271,7 @@
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1ae9c291d912c714c6e836c01514eab2a3" kindref="member">reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1ae9c291d912c714c6e836c01514eab2a3" kindref="member">reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -290,7 +290,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a8a70277f71380ba7d88e39b17254f14b" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a8a70277f71380ba7d88e39b17254f14b" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -313,7 +313,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a8a70277f71380ba7d88e39b17254f14b" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a8a70277f71380ba7d88e39b17254f14b" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -340,7 +340,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a32acb6a4686392a41bd203698f694bb5" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a32acb6a4686392a41bd203698f694bb5" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -363,7 +363,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a32acb6a4686392a41bd203698f694bb5" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a32acb6a4686392a41bd203698f694bb5" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -382,7 +382,7 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a198e46d8e2c9755e9a36855dc745fac0" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a198e46d8e2c9755e9a36855dc745fac0" kindref="member">autoResizeAt</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -401,7 +401,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -424,7 +424,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -439,7 +439,7 @@
         <name>popBack</name>
         <qualifiedname>MR.Vector_Char_MRVertId.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -454,7 +454,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.Vector_Char_MRVertId.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -469,7 +469,7 @@
         <name>front</name>
         <qualifiedname>MR.Vector_Char_MRVertId.front</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a35b2ff53c54dca5f5360d227f51995a2" kindref="member">front</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a35b2ff53c54dca5f5360d227f51995a2" kindref="member">front</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -484,7 +484,7 @@
         <name>back</name>
         <qualifiedname>MR.Vector_Char_MRVertId.back</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1af4c450c6658de461a2727df79c5f9093" kindref="member">back</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1af4c450c6658de461a2727df79c5f9093" kindref="member">back</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -499,7 +499,7 @@
         <name>data</name>
         <qualifiedname>MR.Vector_Char_MRVertId.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a53e83f53720bd1f41606e88f358407ce" kindref="member">data</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a53e83f53720bd1f41606e88f358407ce" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -518,7 +518,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a046e5ea6b79c99ea63e8c616c3a21a58" kindref="member">swap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__Char__MRVertId_1a046e5ea6b79c99ea63e8c616c3a21a58" kindref="member">swap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -579,7 +579,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -589,7 +589,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -605,7 +605,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;char, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -625,6 +625,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_Char_MRVertId</label>
+        <link refid="classMR_1_1Const__Vector__Char__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -658,6 +659,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_Char_MRVertId</label>
+        <link refid="classMR_1_1Const__Vector__Char__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -684,13 +686,34 @@
       <member refid="classMR_1_1Vector__Char__MRVertId_1a32acb6a4686392a41bd203698f694bb5" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1a333dd9e8f423efa6428adfe901734c92" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1af4c450c6658de461a2727df79c5f9093" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1a077f41869f9816b933da776667947c02" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1a722b3731c604fda90bb34696f7029d34" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1ab5a3ae382619b6def5844e14ed205ed9" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1af20d451e2b59923c2c5d93e44d3f5d46" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1ab4ab9d2d043ff666b8b890c7f96950a9" prot="package" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>Const_Vector_Char_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1ac50ea1e5d272c96c7c2f1c32c2be9ead" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>Const_Vector_Char_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1a30ce8c15f48230336ae2bda6306d8de2" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>Const_Vector_Char_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1aa5f1b23bbf0c224498847d97d5147be6" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>Const_Vector_Char_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1ad915f44744eb84d85c10752b891f89e3" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>Const_Vector_Char_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1a37bb2e1bae0092c0366611461e2c54a6" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>Const_Vector_Char_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1afdc184bb3b39674d550fd1a56915c163" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>Const_Vector_Char_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1adae34b619b50066c8cc7da91f5d8b2e6" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>Const_Vector_Char_MRVertId</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1a53e83f53720bd1f41606e88f358407ce" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1a37263c09aebc98b0e182c5be918eb262" prot="protected" virt="virtual"><scope>MR::Vector_Char_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1aaae05c2a263e1b2d05312e93f139e3bb" prot="public" virt="virtual"><scope>MR::Vector_Char_MRVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1a02018451aa8959be9318b39f47607fce" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1aadaf9192553b66b473bf26d4cdd35f5c" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1a3dd137337459cd6b2eae0a32902d2ae7" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1a855bcb7858e10f66505328599e590e75" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1ad74cc79d9a55608394770c1b84d8d61e" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>Equals</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1a35b2ff53c54dca5f5360d227f51995a2" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1a5a1dce738ac196ae0f96cb3d46bcb612" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1a8685a7454116a151d16d8531ce60058d" prot="private" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1ad468bd9370f83c8b5d240449aab12554" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1aeac837d765c4d4dce33fa3789af0b163" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>operator Const_Vector_Char_MRVertId</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1a9698a2b615deeee7277d2f06b40195ee" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>operator Vector_Char_MRVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1aa8dd3be259ece3bec87f1c6cba5834a5" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1a189fd67bd6a8c9199730fa6cda1592eb" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1ae6699578389458140087bfb93aee175a" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1af76f84d2b1ccbbf195548af5fd37bb33" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1a47061242d3823540b03217348e681271" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>pushBack</name></member>
@@ -699,6 +722,7 @@
       <member refid="classMR_1_1Vector__Char__MRVertId_1ab5a0e33627aef37fc975e5a66ef18285" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>resize</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1a8a70277f71380ba7d88e39b17254f14b" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1a8f73d17cbaac6c5ffdfee137852f7e01" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__Char__MRVertId_1a307477e9303a6dfd32dd347be974b6de" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1a046e5ea6b79c99ea63e8c616c3a21a58" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1accd198109c7e350ac60dd8cd6d7040fa" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>this[MR.VertId i]</name></member>
       <member refid="classMR_1_1Vector__Char__MRVertId_1a12541da5dde7ed28d5e9dcfad192a6fe" prot="public" virt="non-virtual"><scope>MR::Vector_Char_MRVertId</scope><name>vec</name></member>

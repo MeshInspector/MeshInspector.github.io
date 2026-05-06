@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Tgt2SrcMaps" kind="class" language="C#" prot="public">
     <compoundname>MR::Tgt2SrcMaps</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Tgt2SrcMaps</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Tgt2SrcMaps" prot="public" virt="non-virtual">MR.Const_Tgt2SrcMaps</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Tgt2SrcMaps_1ac67b6d6a4ebcc15565aefb580458be2a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>Tgt2SrcMaps</name>
         <qualifiedname>MR.Tgt2SrcMaps.Tgt2SrcMaps</qualifiedname>
         <param>
-          <type>Const_Tgt2SrcMaps</type>
+          <type><ref refid="classMR_1_1Const__Tgt2SrcMaps" kindref="compound">Const_Tgt2SrcMaps</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -146,6 +146,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Tgt2SrcMaps</label>
+        <link refid="classMR_1_1Const__Tgt2SrcMaps"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -167,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Tgt2SrcMaps</label>
+        <link refid="classMR_1_1Const__Tgt2SrcMaps"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -182,6 +184,15 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" line="274" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMappingAdapters.cs" bodystart="275" bodyend="323"/>
     <listofallmembers>
       <member refid="classMR_1_1Tgt2SrcMaps_1a1cbf37136f03d6ee5648ede704938484" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Tgt2SrcMaps_1abe5111614ffab16402a9edb41dff43d5" prot="package" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Const_Tgt2SrcMaps</name></member>
+      <member refid="classMR_1_1Const__Tgt2SrcMaps_1ac35ae8ba4a40b7d6f4ac078fdfdbc1c4" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Const_Tgt2SrcMaps</name></member>
+      <member refid="classMR_1_1Const__Tgt2SrcMaps_1a8af5542217e002bfd946e38ad3d9c6ff" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Const_Tgt2SrcMaps</name></member>
+      <member refid="classMR_1_1Const__Tgt2SrcMaps_1a46471d1995f19fccee9d68240c09b89a" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Const_Tgt2SrcMaps</name></member>
+      <member refid="classMR_1_1Const__Tgt2SrcMaps_1ac0703e54d9da19fc2d3aff0240177178" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Const_Tgt2SrcMaps</name></member>
+      <member refid="classMR_1_1Const__Tgt2SrcMaps_1aad34b876acb16d50e7234ee32b2455b1" prot="protected" virt="virtual"><scope>MR::Tgt2SrcMaps</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Tgt2SrcMaps_1a97df8668f4f00b5e8f17f5fcb4592e98" prot="public" virt="virtual"><scope>MR::Tgt2SrcMaps</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Tgt2SrcMaps_1ac712afbda1cb906da09f21ee74dc517f" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>getPartMapping</name></member>
+      <member refid="classMR_1_1Const__Tgt2SrcMaps_1a668ee062ff164c618e0e708ed570c550" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>operator MR.Const_PartMapping</name></member>
       <member refid="classMR_1_1Tgt2SrcMaps_1ac67b6d6a4ebcc15565aefb580458be2a" prot="package" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Tgt2SrcMaps</name></member>
       <member refid="classMR_1_1Tgt2SrcMaps_1a376ba7ee3173c503ff712927b50654eb" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Tgt2SrcMaps</name></member>
       <member refid="classMR_1_1Tgt2SrcMaps_1aa59d4437722ecdd70a6c98813e4bc4ed" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Tgt2SrcMaps</name></member>

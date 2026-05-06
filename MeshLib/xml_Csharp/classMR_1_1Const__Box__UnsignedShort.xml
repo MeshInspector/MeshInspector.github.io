@@ -1,0 +1,823 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Box__UnsignedShort" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Box_UnsignedShort</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Box__UnsignedShort" prot="public" virt="non-virtual">MR.Box_UnsignedShort</derivedcompoundref>
+    <innerclass refid="structMR_1_1Const__Box__UnsignedShort_1_1__Underlying" prot="package">MR::Const_Box_UnsignedShort::_Underlying</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Box__UnsignedShort_1ada147621e4507e1a440ced69dd457d1d" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_Box_UnsignedShort.Elements</definition>
+        <argsstring></argsstring>
+        <name>Elements</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.Elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12845" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12845" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Box__UnsignedShort_1a73c8722ffe80967e8ce7113d9b183594" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Box_UnsignedShort.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12848" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Box__UnsignedShort_1a9fd9ba034fc9177a3a9d8b115d449897" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Box_UnsignedShort.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12851" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12851" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Box__UnsignedShort_1afdda4bad1179f3af44452e9f7e2cb6da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Box_UnsignedShort.this[int e]</definition>
+        <argsstring></argsstring>
+        <name>this[int e]</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.this[int e]</qualifiedname>
+        <briefdescription>
+<para>min/max access by 0/1 index Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12946" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12947" bodyend="12954"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Box__UnsignedShort_1a70ceff4a897292324ab9bad8de863578" prot="protected" static="yes" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_Box_UnsignedShort.__ref_storage_Elements</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_Elements</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.__ref_storage_Elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12846" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12846" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Box__UnsignedShort_1a006be496745607cc6ba94fc27e2ef356" prot="protected" static="no" mutable="no">
+        <type>unsafe ushort *</type>
+        <definition>unsafe ushort* MR.Const_Box_UnsignedShort.__ref_storage_min</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_min</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.__ref_storage_min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12849" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12849" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Box__UnsignedShort_1a6b85e1e589d0bd9ad5c4a3794d7ad202" prot="protected" static="no" mutable="no">
+        <type>unsafe ushort *</type>
+        <definition>unsafe ushort* MR.Const_Box_UnsignedShort.__ref_storage_max</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_max</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.__ref_storage_max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12852" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12852" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a45818029db1bd3c6ec543d554bad800c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Box_UnsignedShort.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12833" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12833" bodyend="12841"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a853108f55fca1cf797d6d32fc2ee4732" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Box_UnsignedShort.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12842" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12842" bodyend="12842"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a50bc803596bd8d224a37935c297879f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Box_UnsignedShort</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12894" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12894" bodyend="12900"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1ac99bd323030fa480203c0345a4b946aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</definition>
+        <argsstring>(MR.Const_Box_UnsignedShort _other)</argsstring>
+        <name>Const_Box_UnsignedShort</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Box__UnsignedShort" kindref="compound">MR.Const_Box_UnsignedShort</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;::Box</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12905" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12905" bodyend="12912"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a9fd9e3d7c5d83a80b307aff32dded391" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</definition>
+        <argsstring>(Box_UnsignedShort _other)</argsstring>
+        <name>Const_Box_UnsignedShort</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Box__UnsignedShort" kindref="compound">Box_UnsignedShort</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;::Box</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12917" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12917" bodyend="12917"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a72b4d2bee2a2d18ce1344cc7315ff280" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</definition>
+        <argsstring>(ushort min, ushort max)</argsstring>
+        <name>Const_Box_UnsignedShort</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</qualifiedname>
+        <param>
+          <type>ushort</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;::Box</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12922" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12922" bodyend="12928"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1afc7e5ae90d8ef8878738b72e7453d8db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>Const_Box_UnsignedShort</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;::Box</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12933" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12933" bodyend="12940"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a22590bd3f8a9e7c9f4c4392a7fa31f8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Box_UnsignedShort.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.valid</qualifiedname>
+        <briefdescription>
+<para>true if the box contains at least one point Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a22590bd3f8a9e7c9f4c4392a7fa31f8a" kindref="member">valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12970" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12970" bodyend="12975"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1ad715ebcd56a7a5161f446a6d93a1ce07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Box_UnsignedShort.center</definition>
+        <argsstring>()</argsstring>
+        <name>center</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.center</qualifiedname>
+        <briefdescription>
+<para>computes center of the box Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1ad715ebcd56a7a5161f446a6d93a1ce07" kindref="member">center</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12981" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12981" bodyend="12986"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1aeb12b9e31cff52922afe2dbfab07d93c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Box_UnsignedShort.corner</definition>
+        <argsstring>(bool c)</argsstring>
+        <name>corner</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.corner</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>returns the corner of this box as specified by given bool-vector: 0 element in (c) means take min's coordinate, 1 element in (c) means take max's coordinate Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1aeb12b9e31cff52922afe2dbfab07d93c" kindref="member">corner</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12994" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12994" bodyend="12999"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a7c6aa80736d8bf7b5ae134945e6015cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Box_UnsignedShort.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.size</qualifiedname>
+        <briefdescription>
+<para>computes size of the box in all dimensions Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a7c6aa80736d8bf7b5ae134945e6015cc" kindref="member">size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13029" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13029" bodyend="13034"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a9636963279ab80ea182ccaf2da8ba568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Box_UnsignedShort.diagonal</definition>
+        <argsstring>()</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.diagonal</qualifiedname>
+        <briefdescription>
+<para>computes length from min to max Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a9636963279ab80ea182ccaf2da8ba568" kindref="member">diagonal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13040" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13040" bodyend="13045"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a644709235e81f8cc7cc9da19977e44c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Box_UnsignedShort.volume</definition>
+        <argsstring>()</argsstring>
+        <name>volume</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.volume</qualifiedname>
+        <briefdescription>
+<para>computes the volume of this box Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a644709235e81f8cc7cc9da19977e44c4" kindref="member">volume</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13051" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13051" bodyend="13056"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a08c2671fefd8c2607b1211584bf16e63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Box_UnsignedShort.contains</definition>
+        <argsstring>(ushort pt)</argsstring>
+        <name>contains</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.contains</qualifiedname>
+        <param>
+          <type>ushort</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>checks whether given point is inside (including the surface) of this box Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a08c2671fefd8c2607b1211584bf16e63" kindref="member">contains</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13062" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13062" bodyend="13067"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1acd6b064a3078ab282289c6f1a1e2dfe5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Box_UnsignedShort.contains</definition>
+        <argsstring>(MR.Const_Box_UnsignedShort otherbox)</argsstring>
+        <name>contains</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.contains</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Box__UnsignedShort" kindref="compound">MR.Const_Box_UnsignedShort</ref></type>
+          <declname>otherbox</declname>
+        </param>
+        <briefdescription>
+<para>checks whether given box is fully inside (the surfaces may touch) of this box Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a08c2671fefd8c2607b1211584bf16e63" kindref="member">contains</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13073" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13073" bodyend="13078"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1ac2ae202b46c2e505bd79908ef88dc06b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Box_UnsignedShort.getBoxClosestPointTo</definition>
+        <argsstring>(ushort pt)</argsstring>
+        <name>getBoxClosestPointTo</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.getBoxClosestPointTo</qualifiedname>
+        <param>
+          <type>ushort</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns closest point in the box to given point Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1ac2ae202b46c2e505bd79908ef88dc06b" kindref="member">getBoxClosestPointTo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13084" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13084" bodyend="13089"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a32f13f0114198c25954409830b5bee78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Box_UnsignedShort.intersects</definition>
+        <argsstring>(MR.Const_Box_UnsignedShort b)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.intersects</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Box__UnsignedShort" kindref="compound">MR.Const_Box_UnsignedShort</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>checks whether this box intersects or touches given box Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a32f13f0114198c25954409830b5bee78" kindref="member">intersects</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13095" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13095" bodyend="13100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1afc240c816f1ba58293b39f8c461fac95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Box__UnsignedShort" kindref="compound">MR.Box_UnsignedShort</ref></type>
+        <definition>unsafe MR.Box_UnsignedShort MR.Const_Box_UnsignedShort.intersection</definition>
+        <argsstring>(MR.Const_Box_UnsignedShort b)</argsstring>
+        <name>intersection</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.intersection</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Box__UnsignedShort" kindref="compound">MR.Const_Box_UnsignedShort</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>computes intersection between this and other box Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1afc240c816f1ba58293b39f8c461fac95" kindref="member">intersection</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13106" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13106" bodyend="13111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a6db3e3889012ec339f1615bede0db8f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Box_UnsignedShort.getDistanceSq</definition>
+        <argsstring>(MR.Const_Box_UnsignedShort b)</argsstring>
+        <name>getDistanceSq</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.getDistanceSq</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Box__UnsignedShort" kindref="compound">MR.Const_Box_UnsignedShort</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>returns squared distance between this box and given one; returns zero if the boxes touch or intersect Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a6db3e3889012ec339f1615bede0db8f3" kindref="member">getDistanceSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13118" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13118" bodyend="13123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1aeb632d0b0605497b4c320e1aee7eabd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Box_UnsignedShort.getDistanceSq</definition>
+        <argsstring>(ushort pt)</argsstring>
+        <name>getDistanceSq</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.getDistanceSq</qualifiedname>
+        <param>
+          <type>ushort</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns squared distance between this box and given point; returns zero if the point is inside or on the boundary of the box Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a6db3e3889012ec339f1615bede0db8f3" kindref="member">getDistanceSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13130" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13130" bodyend="13135"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a8eb5144d631be589cedb4ae058ca968d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ushort</type>
+        <definition>unsafe ushort MR.Const_Box_UnsignedShort.getProjection</definition>
+        <argsstring>(ushort pt)</argsstring>
+        <name>getProjection</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.getProjection</qualifiedname>
+        <param>
+          <type>ushort</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns the closest point on the box to the given point for points outside the box this is equivalent to getBoxClosestPointTo Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a8eb5144d631be589cedb4ae058ca968d" kindref="member">getProjection</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13142" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13142" bodyend="13147"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a9a7533d555cd0ee4b7ad0eeac3669248" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Box__UnsignedShort" kindref="compound">MR.Box_UnsignedShort</ref></type>
+        <definition>unsafe MR.Box_UnsignedShort MR.Const_Box_UnsignedShort.expanded</definition>
+        <argsstring>(ushort expansion)</argsstring>
+        <name>expanded</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.expanded</qualifiedname>
+        <param>
+          <type>ushort</type>
+          <declname>expansion</declname>
+        </param>
+        <briefdescription>
+<para>decreases min and increased max on given value Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a9a7533d555cd0ee4b7ad0eeac3669248" kindref="member">expanded</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13153" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13153" bodyend="13158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a06439b3dcd88a63731fed63c818b1b72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Box__UnsignedShort" kindref="compound">MR.Box_UnsignedShort</ref></type>
+        <definition>unsafe MR.Box_UnsignedShort MR.Const_Box_UnsignedShort.insignificantlyExpanded</definition>
+        <argsstring>()</argsstring>
+        <name>insignificantlyExpanded</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.insignificantlyExpanded</qualifiedname>
+        <briefdescription>
+<para>decreases min and increases max to their closest representable value Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a06439b3dcd88a63731fed63c818b1b72" kindref="member">insignificantlyExpanded</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13164" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13164" bodyend="13169"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a83c432544ee2c246fa81cc672bc892f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Box_UnsignedShort.Equals</definition>
+        <argsstring>(MR.Const_Box_UnsignedShort? a)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Box__UnsignedShort" kindref="compound">MR.Const_Box_UnsignedShort</ref>?</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13188" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13188" bodyend="13193"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a9bff6361f50b6a2cabba155ce9bf18cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_Box_UnsignedShort.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13195" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13195" bodyend="13202"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1aeea7f8a2bf8f5f0cbb93bcb029c14c00" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Box_UnsignedShort.~Const_Box_UnsignedShort</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Box_UnsignedShort</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.~Const_Box_UnsignedShort</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12843" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12843" bodyend="12843"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a3d246bdba6e016349933f7eb8e776ed8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Box_UnsignedShort</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12854" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12854" bodyend="12861"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a0ec62db8ecd8fb44f6ce035c4a9bed0d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Box_UnsignedShort</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.Const_Box_UnsignedShort</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12883" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12883" bodyend="12888"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1abc83935794798906a01d34724b72c708" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Box__UnsignedShort" kindref="compound">MR.Box_UnsignedShort</ref></type>
+        <definition>static unsafe MR.Box_UnsignedShort MR.Const_Box_UnsignedShort.fromMinAndSize</definition>
+        <argsstring>(ushort min, ushort size)</argsstring>
+        <name>fromMinAndSize</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.fromMinAndSize</qualifiedname>
+        <param>
+          <type>ushort</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1abc83935794798906a01d34724b72c708" kindref="member">fromMinAndSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12959" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12959" bodyend="12964"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1ac49c7e514cff8df04f48031b0f737e21" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Box_UnsignedShort.getMinBoxCorner</definition>
+        <argsstring>(ushort n)</argsstring>
+        <name>getMinBoxCorner</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.getMinBoxCorner</qualifiedname>
+        <param>
+          <type>ushort</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box's corner for which d is minimal Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1ac49c7e514cff8df04f48031b0f737e21" kindref="member">getMinBoxCorner</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13006" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13006" bodyend="13011"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a074bcac4dcb4f9030608ddf0ec0ff1ed" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Box_UnsignedShort.getMaxBoxCorner</definition>
+        <argsstring>(ushort n)</argsstring>
+        <name>getMaxBoxCorner</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.getMaxBoxCorner</qualifiedname>
+        <param>
+          <type>ushort</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box's corner for which d is maximal Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a074bcac4dcb4f9030608ddf0ec0ff1ed" kindref="member">getMaxBoxCorner</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13018" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13018" bodyend="13023"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1a70bf18b8e5ff8ccfdd84e02a814ba236" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Box_UnsignedShort.operator==</definition>
+        <argsstring>(MR.Const_Box_UnsignedShort _this, MR.Const_Box_UnsignedShort a)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Box__UnsignedShort" kindref="compound">MR.Const_Box_UnsignedShort</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Box__UnsignedShort" kindref="compound">MR.Const_Box_UnsignedShort</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;<ref refid="classMR_1_1Const__Box__UnsignedShort_1a70bf18b8e5ff8ccfdd84e02a814ba236" kindref="member">operator==</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13174" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13174" bodyend="13179"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Box__UnsignedShort_1ab18f92db923eedf284279d8fc3831fbc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Box_UnsignedShort.operator!=</definition>
+        <argsstring>(MR.Const_Box_UnsignedShort _this, MR.Const_Box_UnsignedShort a)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_Box_UnsignedShort.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Box__UnsignedShort" kindref="compound">MR.Const_Box_UnsignedShort</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Box__UnsignedShort" kindref="compound">MR.Const_Box_UnsignedShort</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="13181" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="13181" bodyend="13184"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Box given by its min- and max- corners Generated from class <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1SimpleVolumeMinMaxU16" kindref="compound">MR.SimpleVolumeMinMaxU16</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Box_UnsignedShort</label>
+        <link refid="classMR_1_1Const__Box__UnsignedShort"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.Box_UnsignedShort</label>
+        <link refid="classMR_1_1Box__UnsignedShort"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Box_UnsignedShort</label>
+        <link refid="classMR_1_1Const__Box__UnsignedShort"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="12827" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="12828" bodyend="13203"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a70ceff4a897292324ab9bad8de863578" prot="protected" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>__ref_storage_Elements</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a6b85e1e589d0bd9ad5c4a3794d7ad202" prot="protected" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>__ref_storage_max</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a006be496745607cc6ba94fc27e2ef356" prot="protected" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>__ref_storage_min</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1ad715ebcd56a7a5161f446a6d93a1ce07" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>center</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a3d246bdba6e016349933f7eb8e776ed8" prot="private" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>Const_Box_UnsignedShort</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a0ec62db8ecd8fb44f6ce035c4a9bed0d" prot="package" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>Const_Box_UnsignedShort</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a50bc803596bd8d224a37935c297879f0" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>Const_Box_UnsignedShort</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1ac99bd323030fa480203c0345a4b946aa" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>Const_Box_UnsignedShort</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a9fd9e3d7c5d83a80b307aff32dded391" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>Const_Box_UnsignedShort</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a72b4d2bee2a2d18ce1344cc7315ff280" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>Const_Box_UnsignedShort</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1afc7e5ae90d8ef8878738b72e7453d8db" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>Const_Box_UnsignedShort</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a08c2671fefd8c2607b1211584bf16e63" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>contains</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1acd6b064a3078ab282289c6f1a1e2dfe5" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>contains</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1aeb12b9e31cff52922afe2dbfab07d93c" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>corner</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a9636963279ab80ea182ccaf2da8ba568" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>diagonal</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a45818029db1bd3c6ec543d554bad800c" prot="protected" virt="virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a853108f55fca1cf797d6d32fc2ee4732" prot="public" virt="virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1ada147621e4507e1a440ced69dd457d1d" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>Elements</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a83c432544ee2c246fa81cc672bc892f1" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a9bff6361f50b6a2cabba155ce9bf18cf" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a9a7533d555cd0ee4b7ad0eeac3669248" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>expanded</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1abc83935794798906a01d34724b72c708" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>fromMinAndSize</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1ac2ae202b46c2e505bd79908ef88dc06b" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>getBoxClosestPointTo</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a6db3e3889012ec339f1615bede0db8f3" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>getDistanceSq</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1aeb632d0b0605497b4c320e1aee7eabd8" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>getDistanceSq</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a074bcac4dcb4f9030608ddf0ec0ff1ed" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>getMaxBoxCorner</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1ac49c7e514cff8df04f48031b0f737e21" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>getMinBoxCorner</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a8eb5144d631be589cedb4ae058ca968d" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>getProjection</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a06439b3dcd88a63731fed63c818b1b72" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>insignificantlyExpanded</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1afc240c816f1ba58293b39f8c461fac95" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>intersection</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a32f13f0114198c25954409830b5bee78" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>intersects</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a9fd9ba034fc9177a3a9d8b115d449897" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>max</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a73c8722ffe80967e8ce7113d9b183594" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>min</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1ab18f92db923eedf284279d8fc3831fbc" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a70bf18b8e5ff8ccfdd84e02a814ba236" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a7c6aa80736d8bf7b5ae134945e6015cc" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1afdda4bad1179f3af44452e9f7e2cb6da" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>this[int e]</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a22590bd3f8a9e7c9f4c4392a7fa31f8a" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1a644709235e81f8cc7cc9da19977e44c4" prot="public" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>volume</name></member>
+      <member refid="classMR_1_1Const__Box__UnsignedShort_1aeea7f8a2bf8f5f0cbb93bcb029c14c00" prot="private" virt="non-virtual"><scope>MR::Const_Box_UnsignedShort</scope><name>~Const_Box_UnsignedShort</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

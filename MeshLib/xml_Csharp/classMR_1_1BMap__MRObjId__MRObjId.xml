@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BMap__MRObjId__MRObjId" kind="class" language="C#" prot="public">
     <compoundname>MR::BMap_MRObjId_MRObjId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BMap_MRObjId_MRObjId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BMap__MRObjId__MRObjId" prot="public" virt="non-virtual">MR.Const_BMap_MRObjId_MRObjId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BMap__MRObjId__MRObjId_1ae1e69fe3cb0a30788ced08c27319775a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Buffer__MRObjId__MRObjId" kindref="compound">MR.Buffer_MRObjId_MRObjId</ref></type>
@@ -89,7 +89,7 @@
           <declname>tsize</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -108,7 +108,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::BMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::BMap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -127,7 +127,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,7 +137,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>flat map: I -&amp;gt; T Generated from class <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -150,6 +150,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BMap_MRObjId_MRObjId</label>
+        <link refid="classMR_1_1Const__BMap__MRObjId__MRObjId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -171,6 +172,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BMap_MRObjId_MRObjId</label>
+        <link refid="classMR_1_1Const__BMap__MRObjId__MRObjId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -185,12 +187,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="11037" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="11038" bodyend="11116"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__BMap__MRObjId__MRObjId_1ac1bae37bfcfa1c3705436698af11d1c2" prot="protected" virt="non-virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1BMap__MRObjId__MRObjId_1aa84e807b449db334ee4a668b9822768b" prot="public" virt="non-virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>assign</name></member>
       <member refid="classMR_1_1BMap__MRObjId__MRObjId_1ae1e69fe3cb0a30788ced08c27319775a" prot="public" virt="non-virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>b</name></member>
       <member refid="classMR_1_1BMap__MRObjId__MRObjId_1aee79fd62ccf7af6b5d22daf2f4ebc46c" prot="package" virt="non-virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>BMap_MRObjId_MRObjId</name></member>
       <member refid="classMR_1_1BMap__MRObjId__MRObjId_1a1f529a182a61e6217bb1656b649f1dc3" prot="public" virt="non-virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>BMap_MRObjId_MRObjId</name></member>
       <member refid="classMR_1_1BMap__MRObjId__MRObjId_1a5c22841c8be757b5c9f23e8453aa02e8" prot="public" virt="non-virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>BMap_MRObjId_MRObjId</name></member>
       <member refid="classMR_1_1BMap__MRObjId__MRObjId_1a05bd4dbf926faf4cb2152d851640a878" prot="public" virt="non-virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>BMap_MRObjId_MRObjId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRObjId__MRObjId_1aded0e0676d2131d613e69c5bee6f93ba" prot="package" virt="non-virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>Const_BMap_MRObjId_MRObjId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRObjId__MRObjId_1a52c111fb6f1da6ccead8fa542875b8ba" prot="public" virt="non-virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>Const_BMap_MRObjId_MRObjId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRObjId__MRObjId_1ae89fd724f22b6bf6c2c531c72444fe5d" prot="public" virt="non-virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>Const_BMap_MRObjId_MRObjId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRObjId__MRObjId_1a3fb86a3713cb80a2c98ab6b015485177" prot="public" virt="non-virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>Const_BMap_MRObjId_MRObjId</name></member>
+      <member refid="classMR_1_1Const__BMap__MRObjId__MRObjId_1af862576ffd7b5fa96ed076edf0646b58" prot="protected" virt="virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BMap__MRObjId__MRObjId_1ac36c5b1144ec9ac52297698099dafeb9" prot="public" virt="virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1BMap__MRObjId__MRObjId_1aaedf2db9dad4d84a7e1dc5c5c97b70bc" prot="public" virt="non-virtual"><scope>MR::BMap_MRObjId_MRObjId</scope><name>tsize</name></member>
     </listofallmembers>
   </compounddef>

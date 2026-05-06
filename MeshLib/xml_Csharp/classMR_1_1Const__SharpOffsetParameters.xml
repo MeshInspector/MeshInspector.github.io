@@ -1,0 +1,641 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SharpOffsetParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SharpOffsetParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SharpOffsetParameters" prot="public" virt="non-virtual">MR.SharpOffsetParameters</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__SharpOffsetParameters_1a8f76ecbc572c3a96caf1c95a3d9d8d56" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.? UndirectedEdgeBitSet MR.Const_SharpOffsetParameters.outSharpEdges</definition>
+        <argsstring></argsstring>
+        <name>outSharpEdges</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.outSharpEdges</qualifiedname>
+        <briefdescription>
+<para>if non-null then created sharp edges will be saved here </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="737" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="738" bodyend="749"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SharpOffsetParameters_1ac2eb8ed65277714ebf0c05b6486533ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SharpOffsetParameters.minNewVertDev</definition>
+        <argsstring></argsstring>
+        <name>minNewVertDev</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.minNewVertDev</qualifiedname>
+        <briefdescription>
+<para>minimal surface deviation to introduce new vertex in a voxel, measured in voxelSize </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="755" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="755" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SharpOffsetParameters_1a1cab7d03db26a250b63ec2c4dfcba1ee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SharpOffsetParameters.maxNewRank2VertDev</definition>
+        <argsstring></argsstring>
+        <name>maxNewRank2VertDev</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.maxNewRank2VertDev</qualifiedname>
+        <briefdescription>
+<para>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes), measured in voxelSize </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="761" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="761" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SharpOffsetParameters_1a5afe9688f12706ab225afda830f3eb59" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SharpOffsetParameters.maxNewRank3VertDev</definition>
+        <argsstring></argsstring>
+        <name>maxNewRank3VertDev</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.maxNewRank3VertDev</qualifiedname>
+        <briefdescription>
+<para>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes), measured in voxelSize </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="767" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="767" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SharpOffsetParameters_1ab4bddd46451104ed2c442b954db2b79f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SharpOffsetParameters.maxOldVertPosCorrection</definition>
+        <argsstring></argsstring>
+        <name>maxOldVertPosCorrection</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.maxOldVertPosCorrection</qualifiedname>
+        <briefdescription>
+<para>correct positions of the input vertices using reference mesh by not more than this distance, measured in voxelSize; big correction can be wrong and result from self-intersections in the reference mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="774" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="774" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SharpOffsetParameters_1ae73773eba0858253e6c0c1de7d3e76f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1a616095899064d3af43a1861f0ae70fed" kindref="member">MR.SignDetectionMode</ref></type>
+        <definition>unsafe MR.SignDetectionMode MR.Const_SharpOffsetParameters.signDetectionMode</definition>
+        <argsstring></argsstring>
+        <name>signDetectionMode</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.signDetectionMode</qualifiedname>
+        <briefdescription>
+<para>determines the method to compute distance sign </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="780" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="780" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SharpOffsetParameters_1a3a560deb91a7d616390ac704cf72810e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SharpOffsetParameters.closeHolesInHoleWindingNumber</definition>
+        <argsstring></argsstring>
+        <name>closeHolesInHoleWindingNumber</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.closeHolesInHoleWindingNumber</qualifiedname>
+        <briefdescription>
+<para>whether to construct closed mesh in signMode = <ref refid="classMR_1aacd4e54997154b3fd8baece917df2044a748273fc30eaf6ab0c262df0bfb86f68" kindref="member">SignDetectionModeShort.HoleWindingNumber</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="786" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="786" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SharpOffsetParameters_1a098cb63a43a18a0278fa1c001bfb6f3d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SharpOffsetParameters.windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.windingNumberThreshold</qualifiedname>
+        <briefdescription>
+<para>only for <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="794" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="794" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SharpOffsetParameters_1a288f1131cf222e129228cf497c538b09" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SharpOffsetParameters.windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.windingNumberBeta</qualifiedname>
+        <briefdescription>
+<para>only for <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>: determines the precision of fast approximation: the more the better, minimum value is 1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="801" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="801" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SharpOffsetParameters_1a5094304f97f601ade7daab8234edd5c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_SharedPtr_MRIFastWindingNumber</type>
+        <definition>unsafe MR.Std.Const_SharedPtr_MRIFastWindingNumber MR.Const_SharpOffsetParameters.fwn</definition>
+        <argsstring></argsstring>
+        <name>fwn</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.fwn</qualifiedname>
+        <briefdescription>
+<para>defines particular implementation of <ref refid="classMR_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref> interface that will compute windings. If it is not specified, default <ref refid="classMR_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref> is used this only used if signDetectionMode == <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda3065abc09e5d4edae66468fee91282e4" kindref="member">SignDetectionMode.HoleWindingRule</ref>, otherwise it is ignored providing this will disable memoryEfficient (as if memoryEfficient == false) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="809" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="809" bodyend="809"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SharpOffsetParameters_1a5193a1c250600121b5af5a5036743bd6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SharpOffsetParameters.memoryEfficient</definition>
+        <argsstring></argsstring>
+        <name>memoryEfficient</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.memoryEfficient</qualifiedname>
+        <briefdescription>
+<para>use <ref refid="classMR_1_1FunctionVolume" kindref="compound">FunctionVolume</ref> for voxel grid representation: </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>memory consumption for voxel storage is approx. (dims.z / (2 * thread_count)) lesser</para>
+</listitem><listitem><para>computations are about 15% slower (because some z-layers are computed twice) this setting is ignored (as if memoryEfficient == false) if a) signDetectionMode = <ref refid="classMR_1a616095899064d3af43a1861f0ae70feda011b949ced7ed48dafe7b08ae740dae9" kindref="member">SignDetectionMode.OpenVDB</ref>, or b) <ref refid="classMR_1_1Const__SharpOffsetParameters_1a5094304f97f601ade7daab8234edd5c7" kindref="member">fwn</ref> is provided (CUDA computations require full memory storage) used only by <ref refid="classMR_1ae72f1f0048d06bd678b000a3c48b3e67" kindref="member">mcOffsetMesh</ref> and <ref refid="classMR_1a38ffb830955994b7e6a635b6aae21b26" kindref="member">sharpOffsetMesh</ref> methods </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="820" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="820" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SharpOffsetParameters_1a5b46d5cdae63be2c27f679625bc77323" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_SharpOffsetParameters.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.voxelSize</qualifiedname>
+        <briefdescription>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="827" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="827" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SharpOffsetParameters_1ab3007043df92e50d19d7a38643823bf9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_SharpOffsetParameters.callBack</definition>
+        <argsstring></argsstring>
+        <name>callBack</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.callBack</qualifiedname>
+        <briefdescription>
+<para>Progress callback. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="833" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="833" bodyend="833"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__SharpOffsetParameters_1af33b8c0e68cc91e8a9566e100b1c90bb" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.UndirectedEdgeBitSet._Underlying **</type>
+        <definition>unsafe MR.UndirectedEdgeBitSet._Underlying** MR.Const_SharpOffsetParameters.__ptr_storage_outSharpEdges</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_outSharpEdges</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.__ptr_storage_outSharpEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="750" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="750" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SharpOffsetParameters_1ad289bf2e198c931fa276e99b745bb53a" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SharpOffsetParameters.__ref_storage_minNewVertDev</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_minNewVertDev</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.__ref_storage_minNewVertDev</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="756" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="756" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SharpOffsetParameters_1ae5f5ff43ac585498fec82be765ebbe2c" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SharpOffsetParameters.__ref_storage_maxNewRank2VertDev</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxNewRank2VertDev</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.__ref_storage_maxNewRank2VertDev</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="762" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="762" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SharpOffsetParameters_1a2f25d184e5f1816d84ada06989dff47a" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SharpOffsetParameters.__ref_storage_maxNewRank3VertDev</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxNewRank3VertDev</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.__ref_storage_maxNewRank3VertDev</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="768" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="768" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SharpOffsetParameters_1acf2520115043cd525b2ceb4c1447d598" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SharpOffsetParameters.__ref_storage_maxOldVertPosCorrection</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxOldVertPosCorrection</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.__ref_storage_maxOldVertPosCorrection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="775" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="775" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SharpOffsetParameters_1ac6cc45f160dbcbe2361f085aac76102c" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1a616095899064d3af43a1861f0ae70fed" kindref="member">MR.SignDetectionMode</ref> *</type>
+        <definition>unsafe MR.SignDetectionMode* MR.Const_SharpOffsetParameters.__ref_storage_signDetectionMode</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_signDetectionMode</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.__ref_storage_signDetectionMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="781" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="781" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SharpOffsetParameters_1a27ee7e7e1e62592dd45a455013274a16" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_SharpOffsetParameters.__ref_storage_closeHolesInHoleWindingNumber</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_closeHolesInHoleWindingNumber</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.__ref_storage_closeHolesInHoleWindingNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="787" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="787" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SharpOffsetParameters_1af7c541f4e85663a93f21227f42025816" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SharpOffsetParameters.__ref_storage_windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_windingNumberThreshold</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.__ref_storage_windingNumberThreshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="795" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="795" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SharpOffsetParameters_1a6995472b98df1593ab3f7fc98b560fbb" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SharpOffsetParameters.__ref_storage_windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_windingNumberBeta</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.__ref_storage_windingNumberBeta</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="802" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="802" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SharpOffsetParameters_1a68c88c896efcb55b5bc0ac20ab6d2275" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_SharpOffsetParameters.__ref_storage_memoryEfficient</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_memoryEfficient</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.__ref_storage_memoryEfficient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="821" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="821" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SharpOffsetParameters_1a4c2c838b06b10ad30483eb510e2648dc" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_SharpOffsetParameters.__ref_storage_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_voxelSize</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.__ref_storage_voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="828" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="828" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SharpOffsetParameters_1a8ca12081fac953b9d965214cb2a1f649" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SharpOffsetParameters.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="704" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="704" bodyend="712"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SharpOffsetParameters_1ae603c18cd70a6a444a27442b4e1132a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SharpOffsetParameters.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="713" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="713" bodyend="713"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SharpOffsetParameters_1a2132b1bcfa6dfd467624681f21e87b65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SharpOffsetParameters.Const_SharpOffsetParameters</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SharpOffsetParameters</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.Const_SharpOffsetParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="934" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="934" bodyend="940"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SharpOffsetParameters_1a36fea789e0636b654d58c9de1ecdaeb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SharpOffsetParameters.Const_SharpOffsetParameters</definition>
+        <argsstring>(MR._ByValue_SharpOffsetParameters _other)</argsstring>
+        <name>Const_SharpOffsetParameters</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.Const_SharpOffsetParameters</qualifiedname>
+        <param>
+          <type>MR._ByValue_SharpOffsetParameters</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SharpOffsetParameters_1af274458e7ccdeae83cafc28e138e96b7" kindref="member">MR.SharpOffsetParameters.SharpOffsetParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="945" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="945" bodyend="952"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SharpOffsetParameters_1aabdbbdb1f750f4342fdd1ac82c98f66c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SharpOffsetParameters.Const_SharpOffsetParameters</definition>
+        <argsstring>(Const_SharpOffsetParameters _other)</argsstring>
+        <name>Const_SharpOffsetParameters</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.Const_SharpOffsetParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SharpOffsetParameters" kindref="compound">Const_SharpOffsetParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SharpOffsetParameters_1af274458e7ccdeae83cafc28e138e96b7" kindref="member">MR.SharpOffsetParameters.SharpOffsetParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="957" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="957" bodyend="957"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SharpOffsetParameters_1a987f265ea98a08beeeb28026618e2f1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SharpOffsetParameters.Const_SharpOffsetParameters</definition>
+        <argsstring>(SharpOffsetParameters _other)</argsstring>
+        <name>Const_SharpOffsetParameters</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.Const_SharpOffsetParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SharpOffsetParameters" kindref="compound">SharpOffsetParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SharpOffsetParameters_1af274458e7ccdeae83cafc28e138e96b7" kindref="member">MR.SharpOffsetParameters.SharpOffsetParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="962" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="962" bodyend="962"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SharpOffsetParameters_1a045d448e41bcc1ca5559beb04ea6aa35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SharpOffsetParameters.~Const_SharpOffsetParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SharpOffsetParameters</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.~Const_SharpOffsetParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="714" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="714" bodyend="714"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__SharpOffsetParameters_1a60c2265cf9d45b476e7628f9e29f1013" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_SharpOffsetParameters.operator MR.Const_BaseShellParameters</definition>
+        <argsstring>(Const_SharpOffsetParameters self)</argsstring>
+        <name>operator MR.Const_BaseShellParameters</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.operator MR.Const_BaseShellParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SharpOffsetParameters" kindref="compound">Const_SharpOffsetParameters</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="717" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="717" bodyend="724"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SharpOffsetParameters_1ac301de344dd22949dcf693b6dec1f673" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_SharpOffsetParameters.operator MR.Const_OffsetParameters</definition>
+        <argsstring>(Const_SharpOffsetParameters self)</argsstring>
+        <name>operator MR.Const_OffsetParameters</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.operator MR.Const_OffsetParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SharpOffsetParameters" kindref="compound">Const_SharpOffsetParameters</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="725" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="725" bodyend="732"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SharpOffsetParameters_1a90bb7761c1b51761c09e106da88a1cfe" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SharpOffsetParameters.Const_SharpOffsetParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SharpOffsetParameters</name>
+        <qualifiedname>MR.Const_SharpOffsetParameters.Const_SharpOffsetParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="923" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="923" bodyend="928"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1SharpOffsetParameters" kindref="compound">MR.SharpOffsetParameters</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1OffsetParameters" kindref="compound">MR.OffsetParameters</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1BaseShellParameters" kindref="compound">MR.BaseShellParameters</ref></computeroutput> Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1GeneralOffsetParameters" kindref="compound">MR.GeneralOffsetParameters</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SharpOffsetParameters</label>
+        <link refid="classMR_1_1Const__SharpOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.SharpOffsetParameters</label>
+        <link refid="classMR_1_1SharpOffsetParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_SharpOffsetParameters</label>
+        <link refid="classMR_1_1Const__SharpOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_outSharpEdges</edgelabel>
+          <edgelabel>__ref_storage_signDetectionMode</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="698" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="699" bodyend="963"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1af33b8c0e68cc91e8a9566e100b1c90bb" prot="protected" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>__ptr_storage_outSharpEdges</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a27ee7e7e1e62592dd45a455013274a16" prot="protected" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>__ref_storage_closeHolesInHoleWindingNumber</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ae5f5ff43ac585498fec82be765ebbe2c" prot="protected" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>__ref_storage_maxNewRank2VertDev</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a2f25d184e5f1816d84ada06989dff47a" prot="protected" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>__ref_storage_maxNewRank3VertDev</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1acf2520115043cd525b2ceb4c1447d598" prot="protected" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>__ref_storage_maxOldVertPosCorrection</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a68c88c896efcb55b5bc0ac20ab6d2275" prot="protected" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>__ref_storage_memoryEfficient</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ad289bf2e198c931fa276e99b745bb53a" prot="protected" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>__ref_storage_minNewVertDev</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ac6cc45f160dbcbe2361f085aac76102c" prot="protected" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>__ref_storage_signDetectionMode</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a4c2c838b06b10ad30483eb510e2648dc" prot="protected" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>__ref_storage_voxelSize</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a6995472b98df1593ab3f7fc98b560fbb" prot="protected" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>__ref_storage_windingNumberBeta</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1af7c541f4e85663a93f21227f42025816" prot="protected" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>__ref_storage_windingNumberThreshold</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ab3007043df92e50d19d7a38643823bf9" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>callBack</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a3a560deb91a7d616390ac704cf72810e" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a90bb7761c1b51761c09e106da88a1cfe" prot="package" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>Const_SharpOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a2132b1bcfa6dfd467624681f21e87b65" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>Const_SharpOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a36fea789e0636b654d58c9de1ecdaeb8" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>Const_SharpOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1aabdbbdb1f750f4342fdd1ac82c98f66c" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>Const_SharpOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a987f265ea98a08beeeb28026618e2f1b" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>Const_SharpOffsetParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a8ca12081fac953b9d965214cb2a1f649" prot="protected" virt="virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ae603c18cd70a6a444a27442b4e1132a8" prot="public" virt="virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a5094304f97f601ade7daab8234edd5c7" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>fwn</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a1cab7d03db26a250b63ec2c4dfcba1ee" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>maxNewRank2VertDev</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a5afe9688f12706ab225afda830f3eb59" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>maxNewRank3VertDev</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ab4bddd46451104ed2c442b954db2b79f" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>maxOldVertPosCorrection</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a5193a1c250600121b5af5a5036743bd6" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>memoryEfficient</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ac2eb8ed65277714ebf0c05b6486533ce" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>minNewVertDev</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a60c2265cf9d45b476e7628f9e29f1013" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>operator MR.Const_BaseShellParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ac301de344dd22949dcf693b6dec1f673" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>operator MR.Const_OffsetParameters</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a8f76ecbc572c3a96caf1c95a3d9d8d56" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>outSharpEdges</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1ae73773eba0858253e6c0c1de7d3e76f2" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>signDetectionMode</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a5b46d5cdae63be2c27f679625bc77323" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>voxelSize</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a288f1131cf222e129228cf497c538b09" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>windingNumberBeta</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a098cb63a43a18a0278fa1c001bfb6f3d" prot="public" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>windingNumberThreshold</name></member>
+      <member refid="classMR_1_1Const__SharpOffsetParameters_1a045d448e41bcc1ca5559beb04ea6aa35" prot="private" virt="non-virtual"><scope>MR::Const_SharpOffsetParameters</scope><name>~Const_SharpOffsetParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

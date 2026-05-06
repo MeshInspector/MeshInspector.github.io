@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Cone3f" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Cone3f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Cone3f" prot="public" virt="non-virtual">MR.Cone3f</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Cone3f_1a974dd18672983a1ea450b642424fd617" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Line3f" kindref="compound">MR.Const_Line3f</ref></type>
+        <definition>unsafe MR.Const_Line3f MR.Const_Cone3f.axis</definition>
+        <argsstring></argsstring>
+        <name>axis</name>
+        <qualifiedname>MR.Const_Cone3f.axis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="27" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Cone3f_1a69e2c1f9c1d667f998adcca15ebb4080" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Cone3f.angle</definition>
+        <argsstring></argsstring>
+        <name>angle</name>
+        <qualifiedname>MR.Const_Cone3f.angle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="30" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Cone3f_1abb776741ce247c038fc342ab0061b0b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Cone3f.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <qualifiedname>MR.Const_Cone3f.height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="34" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__Cone3f_1af3f3fb05f5dae81f35aae6d4f9f736f1" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_Cone3f.__ref_storage_angle</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_angle</name>
+        <qualifiedname>MR.Const_Cone3f.__ref_storage_angle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="31" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__Cone3f_1ad3878c88ee322437b4c1737590a8c932" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_Cone3f.__ref_storage_height</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_height</name>
+        <qualifiedname>MR.Const_Cone3f.__ref_storage_height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="35" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Cone3f_1a3178fb6a5c756e4276acd48617ba9fca" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Cone3f.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Cone3f.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Cone3f_1a4723e7b6ebce4eb29354c83775aee844" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Cone3f.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Cone3f.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Cone3f_1a85e536c22e3c744eb9d53e1ebb944a21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Cone3f.Const_Cone3f</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Cone3f</name>
+        <qualifiedname>MR.Const_Cone3f.Const_Cone3f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="75" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="75" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Cone3f_1abae7e88fc37da3702b54ae03758b41e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Cone3f.Const_Cone3f</definition>
+        <argsstring>(MR.Const_Cone3f _other)</argsstring>
+        <name>Const_Cone3f</name>
+        <qualifiedname>MR.Const_Cone3f.Const_Cone3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Cone3f" kindref="compound">MR.Const_Cone3f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cone3f_1acd9de0a8e387b611f71986b78b7d2475" kindref="member">MR.Cone3f.Cone3f</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="86" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="86" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Cone3f_1a79a5d15f7938bfd0d088caf9da4bcff1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Cone3f.Const_Cone3f</definition>
+        <argsstring>(Cone3f _other)</argsstring>
+        <name>Const_Cone3f</name>
+        <qualifiedname>MR.Const_Cone3f.Const_Cone3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Cone3f" kindref="compound">Cone3f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cone3f_1acd9de0a8e387b611f71986b78b7d2475" kindref="member">MR.Cone3f.Cone3f</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="98" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Cone3f_1ac2f648a90aff927691eced579e1e46d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Cone3f.Const_Cone3f</definition>
+        <argsstring>(MR.Const_Line3f inAxis, float inAngle, float inHeight)</argsstring>
+        <name>Const_Cone3f</name>
+        <qualifiedname>MR.Const_Cone3f.Const_Cone3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Line3f" kindref="compound">MR.Const_Line3f</ref></type>
+          <declname>inAxis</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inHeight</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cone3f_1acd9de0a8e387b611f71986b78b7d2475" kindref="member">MR.Cone3f.Cone3f</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="107" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="107" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Cone3f_1ab303b5e99d6f470b5ee8dbcd2eae778e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Const_Cone3f.center</definition>
+        <argsstring>()</argsstring>
+        <name>center</name>
+        <qualifiedname>MR.Const_Cone3f.center</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Cone3f_1a3065099e168f707cf5cf9297e118e07f" kindref="member">MR.Cone3f.center</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="120" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="120" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Cone3f_1aa8f2a9efd77e8b8172139e94156ab8d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Const_Cone3f.direction</definition>
+        <argsstring>()</argsstring>
+        <name>direction</name>
+        <qualifiedname>MR.Const_Cone3f.direction</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Cone3f_1a2265a2343a653298f72139766902f991" kindref="member">MR.Cone3f.direction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="131" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="131" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Cone3f_1af7de7aa17e7e0e48b5ecb27af6d35a85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Const_Cone3f.apex</definition>
+        <argsstring>()</argsstring>
+        <name>apex</name>
+        <qualifiedname>MR.Const_Cone3f.apex</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Cone3f_1a367973003453e963c7fd0f5e10378996" kindref="member">MR.Cone3f.apex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="142" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="142" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Cone3f_1a13743a702ed79b860f0a4bf62d032556" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Cone3f.projectPoint</definition>
+        <argsstring>(in MR.Vector3f point)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>MR.Const_Cone3f.projectPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Cone3f_1a13743a702ed79b860f0a4bf62d032556" kindref="member">MR.Cone3f.projectPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="152" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="152" bodyend="160"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Cone3f_1a0b3acd4903f79c2696f9cff02b97f0db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Cone3f.~Const_Cone3f</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Cone3f</name>
+        <qualifiedname>MR.Const_Cone3f.~Const_Cone3f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Cone3f_1a2f96b6d8c2a39dd7b0bba90c9d3050bd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Cone3f.Const_Cone3f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Cone3f</name>
+        <qualifiedname>MR.Const_Cone3f.Const_Cone3f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="64" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="64" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Cone3f" kindref="compound">MR.Cone3f</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Cone3f</label>
+        <link refid="classMR_1_1Const__Cone3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Cone3f</label>
+        <link refid="classMR_1_1Cone3f"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Cone3f</label>
+        <link refid="classMR_1_1Const__Cone3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="9" bodyend="161"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Cone3f_1af3f3fb05f5dae81f35aae6d4f9f736f1" prot="protected" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>__ref_storage_angle</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1ad3878c88ee322437b4c1737590a8c932" prot="protected" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>__ref_storage_height</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1a69e2c1f9c1d667f998adcca15ebb4080" prot="public" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>angle</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1af7de7aa17e7e0e48b5ecb27af6d35a85" prot="public" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>apex</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1a974dd18672983a1ea450b642424fd617" prot="public" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>axis</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1ab303b5e99d6f470b5ee8dbcd2eae778e" prot="public" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>center</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1a2f96b6d8c2a39dd7b0bba90c9d3050bd" prot="package" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>Const_Cone3f</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1a85e536c22e3c744eb9d53e1ebb944a21" prot="public" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>Const_Cone3f</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1abae7e88fc37da3702b54ae03758b41e6" prot="public" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>Const_Cone3f</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1a79a5d15f7938bfd0d088caf9da4bcff1" prot="public" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>Const_Cone3f</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1ac2f648a90aff927691eced579e1e46d4" prot="public" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>Const_Cone3f</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1aa8f2a9efd77e8b8172139e94156ab8d0" prot="public" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>direction</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1a3178fb6a5c756e4276acd48617ba9fca" prot="protected" virt="virtual"><scope>MR::Const_Cone3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1a4723e7b6ebce4eb29354c83775aee844" prot="public" virt="virtual"><scope>MR::Const_Cone3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1abb776741ce247c038fc342ab0061b0b9" prot="public" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>height</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1a13743a702ed79b860f0a4bf62d032556" prot="public" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>projectPoint</name></member>
+      <member refid="classMR_1_1Const__Cone3f_1a0b3acd4903f79c2696f9cff02b97f0db" prot="private" virt="non-virtual"><scope>MR::Const_Cone3f</scope><name>~Const_Cone3f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

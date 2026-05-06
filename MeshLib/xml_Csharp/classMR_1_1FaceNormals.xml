@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FaceNormals" kind="class" language="C#" prot="public">
     <compoundname>MR::FaceNormals</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FaceNormals</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FaceNormals" prot="public" virt="non-virtual">MR.Const_FaceNormals</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FaceNormals_1a3c96c1b125d2ac76c74f7af297629b4f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>FaceNormals</name>
         <qualifiedname>MR.FaceNormals.FaceNormals</qualifiedname>
         <param>
-          <type>Const_FaceNormals</type>
+          <type><ref refid="classMR_1_1Const__FaceNormals" kindref="compound">Const_FaceNormals</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -176,7 +176,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceNormals_1a068fd7657f3250b91214c31decc6863c" kindref="member">MR.FaceNormals.FaceNormals</ref></computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceNormals_1a068fd7657f3250b91214c31decc6863c" kindref="member">MR.FaceNormals.FaceNormals</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -473,7 +473,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.FaceNormals.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::FaceNormals::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::FaceNormals::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -598,7 +598,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceNormals_1a068fd7657f3250b91214c31decc6863c" kindref="member">MR.FaceNormals.FaceNormals</ref></computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1FaceNormals_1a068fd7657f3250b91214c31decc6863c" kindref="member">MR.FaceNormals.FaceNormals</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -608,7 +608,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -644,6 +644,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceNormals</label>
+        <link refid="classMR_1_1Const__FaceNormals"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -677,6 +678,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceNormals</label>
+        <link refid="classMR_1_1Const__FaceNormals"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -703,9 +705,26 @@
       <member refid="classMR_1_1FaceNormals_1a84f4ad4c3fca8613b05488aa264d8d49" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1FaceNormals_1a273f2647ec6c1a9c72d71bf501bde1fa" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1FaceNormals_1a31f8db4aa41bc5a9c5eac52e6edc5466" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a8d9d3225df53e727b8d48c7d1246c4b4" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a651302c8e0be34568c446310d8585218" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a1ac8bf38742fe90ae1128c6b5f1d2f49" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>capacity</name></member>
       <member refid="classMR_1_1FaceNormals_1af82348bd66b80232d702a8e747f51b8f" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1aca6d38cd63bbc707d7eb17e9b9de2f69" prot="package" virt="non-virtual"><scope>MR::FaceNormals</scope><name>Const_FaceNormals</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a31b78393980face7f4fbc8e31bc950a5" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>Const_FaceNormals</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a8ef8d1ea026c2a0a554b60cfb2d9e259" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>Const_FaceNormals</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a021796db9af59e608548cb1c92704397" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>Const_FaceNormals</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a859edcb5eaaa2562801fc0f4509c0e84" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>Const_FaceNormals</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1aa3e5597d10f083819bb5a173c455b187" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>Const_FaceNormals</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a644a392f38077fc568a06752446bd883" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>Const_FaceNormals</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1abf26c48a5f74849f376e6945dba52f38" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>Const_FaceNormals</name></member>
       <member refid="classMR_1_1FaceNormals_1aaa67a3578e91f5482b352567e464e972" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a9e958d34cb75eafe5d985c4664b7dd92" prot="protected" virt="virtual"><scope>MR::FaceNormals</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1ae224fa73237a99ab9f1664d90db9516a" prot="public" virt="virtual"><scope>MR::FaceNormals</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FaceNormals_1a2abbb3ac1ac68feaafafe12e47d83b06" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1abb4433741c903e2dbf3163ab53bcfbaa" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1ad3015d60fb5995e7651669a34433f33e" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1adbca668a372d4d397cd993fcf40968d2" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1afaa26bcc61a73b39223e03f6cd61d1cc" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>Equals</name></member>
       <member refid="classMR_1_1FaceNormals_1ab4e1cee8d41b240fce248885f6583d7a" prot="package" virt="non-virtual"><scope>MR::FaceNormals</scope><name>FaceNormals</name></member>
       <member refid="classMR_1_1FaceNormals_1a068fd7657f3250b91214c31decc6863c" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>FaceNormals</name></member>
       <member refid="classMR_1_1FaceNormals_1a74a23180f5757b3918ef8bc9f4bc07b5" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>FaceNormals</name></member>
@@ -717,7 +736,11 @@
       <member refid="classMR_1_1FaceNormals_1a7232281273dfad4701fc4b24cf922e35" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>front</name></member>
       <member refid="classMR_1_1FaceNormals_1a276c8705a0ea7c0d2e7b7a9d121cdda6" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1FaceNormals_1aff66bce3e6ebea0e6ea63547bdc1bf01" prot="private" virt="non-virtual"><scope>MR::FaceNormals</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a28031a13597863bd7effbf109e745b6d" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1ac1d195f8bef27aebe48611858af8f5e5" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>operator Const_FaceNormals</name></member>
       <member refid="classMR_1_1FaceNormals_1a84a14a3573f1921da29b66d450a200f4" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>operator FaceNormals</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1ae0337c8c94ca5f8aa24a30a9bc3709c7" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a17d1b6c7284deb672077fa2fa3444ba6" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>operator==</name></member>
       <member refid="classMR_1_1FaceNormals_1afe2da44fbe142635a8bef5a383a01561" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>popBack</name></member>
       <member refid="classMR_1_1FaceNormals_1acfdb3318ff98630b28bbf09ea9c31a68" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>pushBack</name></member>
       <member refid="classMR_1_1FaceNormals_1a6281390dade3e2670c3cf321d568428f" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>pushBack</name></member>
@@ -727,6 +750,7 @@
       <member refid="classMR_1_1FaceNormals_1ad1895ac160bf930c069376bec1a050cb" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>resizeNoInit</name></member>
       <member refid="classMR_1_1FaceNormals_1a3d3c24e997f8bb3f70ad75de025e9ef5" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1FaceNormals_1a374b232eb2af4a2d2ac4a605b8c63a67" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__FaceNormals_1a3c26288643db55298571f3ef4cc6ffed" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>size</name></member>
       <member refid="classMR_1_1FaceNormals_1aff33ee6dd5cc98797edcf672d504e14a" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>swap</name></member>
       <member refid="classMR_1_1FaceNormals_1a6cf5c7c0ff6ea6aef4633e766dba29d0" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>this[MR.FaceId i]</name></member>
       <member refid="classMR_1_1FaceNormals_1a3c96c1b125d2ac76c74f7af297629b4f" prot="public" virt="non-virtual"><scope>MR::FaceNormals</scope><name>vec</name></member>

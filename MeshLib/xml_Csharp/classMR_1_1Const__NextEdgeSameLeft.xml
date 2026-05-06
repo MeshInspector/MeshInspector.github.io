@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__NextEdgeSameLeft" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_NextEdgeSameLeft</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1NextEdgeSameLeft" prot="public" virt="non-virtual">MR.NextEdgeSameLeft</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__NextEdgeSameLeft_1a3c6968d6b78e39f89f7c7f4facbad1b4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_NextEdgeSameLeft.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_NextEdgeSameLeft.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="675" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="675" bodyend="683"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__NextEdgeSameLeft_1a08021f95e19e48cc4e2fc19f1c9efc65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_NextEdgeSameLeft.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_NextEdgeSameLeft.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="684" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="684" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NextEdgeSameLeft_1af9ea7584cf7d34649dff2395daf6b07b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NextEdgeSameLeft.Const_NextEdgeSameLeft</definition>
+        <argsstring>(MR.Const_NextEdgeSameLeft _other)</argsstring>
+        <name>Const_NextEdgeSameLeft</name>
+        <qualifiedname>MR.Const_NextEdgeSameLeft.Const_NextEdgeSameLeft</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NextEdgeSameLeft" kindref="compound">MR.Const_NextEdgeSameLeft</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1NextEdgeSameLeft_1a0bf1a26c5ea35574406b64dc71774fcc" kindref="member">MR.NextEdgeSameLeft.NextEdgeSameLeft</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="692" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="692" bodyend="698"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NextEdgeSameLeft_1a20c48ed197109e7af759e8d4155a400a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_NextEdgeSameLeft.Const_NextEdgeSameLeft</definition>
+        <argsstring>(NextEdgeSameLeft _other)</argsstring>
+        <name>Const_NextEdgeSameLeft</name>
+        <qualifiedname>MR.Const_NextEdgeSameLeft.Const_NextEdgeSameLeft</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">NextEdgeSameLeft</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1NextEdgeSameLeft_1a0bf1a26c5ea35574406b64dc71774fcc" kindref="member">MR.NextEdgeSameLeft.NextEdgeSameLeft</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="703" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="703" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NextEdgeSameLeft_1ae33d6ac781befa39230f5b5fad3e0b78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NextEdgeSameLeft.Const_NextEdgeSameLeft</definition>
+        <argsstring>(MR.Const_MeshTopology topology)</argsstring>
+        <name>Const_NextEdgeSameLeft</name>
+        <qualifiedname>MR.Const_NextEdgeSameLeft.Const_NextEdgeSameLeft</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1NextEdgeSameLeft_1a0bf1a26c5ea35574406b64dc71774fcc" kindref="member">MR.NextEdgeSameLeft.NextEdgeSameLeft</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="708" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="708" bodyend="714"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NextEdgeSameLeft_1a1d13e4a81a149c89ff8a2731787af46e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.Const_NextEdgeSameLeft.next</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>next</name>
+        <qualifiedname>MR.Const_NextEdgeSameLeft.next</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__NextEdgeSameLeft_1a1d13e4a81a149c89ff8a2731787af46e" kindref="member">MR.NextEdgeSameLeft.next</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="724" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="724" bodyend="729"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__NextEdgeSameLeft_1a39399ccb48650854b5e64e1b3d86b3a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_NextEdgeSameLeft.~Const_NextEdgeSameLeft</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_NextEdgeSameLeft</name>
+        <qualifiedname>MR.Const_NextEdgeSameLeft.~Const_NextEdgeSameLeft</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="685" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="685" bodyend="685"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__NextEdgeSameLeft_1a3f0dcccff43233972e38c1fa2a80b6c3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NextEdgeSameLeft.Const_NextEdgeSameLeft</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_NextEdgeSameLeft</name>
+        <qualifiedname>MR.Const_NextEdgeSameLeft.Const_NextEdgeSameLeft</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="687" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="687" bodyend="687"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__NextEdgeSameLeft_1a95628ec0182a582eb04898c23b69bbe7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_NextEdgeSameLeft.operator Const_NextEdgeSameLeft</definition>
+        <argsstring>(MR.Const_MeshTopology topology)</argsstring>
+        <name>operator Const_NextEdgeSameLeft</name>
+        <qualifiedname>MR.Const_NextEdgeSameLeft.operator Const_NextEdgeSameLeft</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTopology" kindref="compound">MR.Const_MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1NextEdgeSameLeft_1a0bf1a26c5ea35574406b64dc71774fcc" kindref="member">MR.NextEdgeSameLeft.NextEdgeSameLeft</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="719" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="719" bodyend="719"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::RingIterator&amp;lt;<ref refid="classMR_1_1NextEdgeSameLeft" kindref="compound">MR.NextEdgeSameLeft</ref>&amp;gt;</computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_NextEdgeSameLeft</label>
+        <link refid="classMR_1_1Const__NextEdgeSameLeft"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.NextEdgeSameLeft</label>
+        <link refid="classMR_1_1NextEdgeSameLeft"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_NextEdgeSameLeft</label>
+        <link refid="classMR_1_1Const__NextEdgeSameLeft"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" line="669" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRingIterator.cs" bodystart="670" bodyend="730"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1a3f0dcccff43233972e38c1fa2a80b6c3" prot="package" virt="non-virtual"><scope>MR::Const_NextEdgeSameLeft</scope><name>Const_NextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1af9ea7584cf7d34649dff2395daf6b07b" prot="public" virt="non-virtual"><scope>MR::Const_NextEdgeSameLeft</scope><name>Const_NextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1a20c48ed197109e7af759e8d4155a400a" prot="public" virt="non-virtual"><scope>MR::Const_NextEdgeSameLeft</scope><name>Const_NextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1ae33d6ac781befa39230f5b5fad3e0b78" prot="public" virt="non-virtual"><scope>MR::Const_NextEdgeSameLeft</scope><name>Const_NextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1a3c6968d6b78e39f89f7c7f4facbad1b4" prot="protected" virt="virtual"><scope>MR::Const_NextEdgeSameLeft</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1a08021f95e19e48cc4e2fc19f1c9efc65" prot="public" virt="virtual"><scope>MR::Const_NextEdgeSameLeft</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1a1d13e4a81a149c89ff8a2731787af46e" prot="public" virt="non-virtual"><scope>MR::Const_NextEdgeSameLeft</scope><name>next</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1a95628ec0182a582eb04898c23b69bbe7" prot="public" virt="non-virtual"><scope>MR::Const_NextEdgeSameLeft</scope><name>operator Const_NextEdgeSameLeft</name></member>
+      <member refid="classMR_1_1Const__NextEdgeSameLeft_1a39399ccb48650854b5e64e1b3d86b3a4" prot="private" virt="non-virtual"><scope>MR::Const_NextEdgeSameLeft</scope><name>~Const_NextEdgeSameLeft</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

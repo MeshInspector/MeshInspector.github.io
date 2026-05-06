@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshBuilder_1_1Const__VertSpan" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshBuilder::Const_VertSpan</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MeshBuilder_1_1VertSpan" prot="public" virt="non-virtual">MR.MeshBuilder.VertSpan</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1Const__VertSpan_1ae23b34af515dfbafac89cef79ffdc9fe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.MeshBuilder.Const_VertSpan.firstVertex</definition>
+        <argsstring></argsstring>
+        <name>firstVertex</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertSpan.firstVertex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="561" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="561" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a447122bd5a2214ec373b2f270e1d48e8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.MeshBuilder.Const_VertSpan.lastVertex</definition>
+        <argsstring></argsstring>
+        <name>lastVertex</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertSpan.lastVertex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="564" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="564" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1MeshBuilder_1_1Const__VertSpan_1ab5e242e69e30cc1bebb46832e1c86665" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.MeshBuilder.Const_VertSpan.__ref_storage_firstVertex</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_firstVertex</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertSpan.__ref_storage_firstVertex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="562" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a3a51c9cbd81910183525f6f317f09432" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.MeshBuilder.Const_VertSpan.__ref_storage_lastVertex</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_lastVertex</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertSpan.__ref_storage_lastVertex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="565" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="565" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a402e3928796185d7a171315ff539c0e8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.MeshBuilder.Const_VertSpan.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertSpan.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="549" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="549" bodyend="557"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a59511aa2b5acb668f0d2acd516be3fd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.MeshBuilder.Const_VertSpan.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertSpan.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="558" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="558" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a8c34d2efa1edb7481ecbb30c6ae7b13d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshBuilder.Const_VertSpan.Const_VertSpan</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VertSpan</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertSpan.Const_VertSpan</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="598" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="598" bodyend="604"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a29f9d56208a1fd4ecb6359cb6f17144c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshBuilder.Const_VertSpan.Const_VertSpan</definition>
+        <argsstring>(int firstVertex, int lastVertex)</argsstring>
+        <name>Const_VertSpan</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertSpan.Const_VertSpan</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>firstVertex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lastVertex</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="609" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="609" bodyend="615"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertSpan_1aead2759f3045881cd8511068d8d0e485" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshBuilder.Const_VertSpan.Const_VertSpan</definition>
+        <argsstring>(MR.MeshBuilder.Const_VertSpan _other)</argsstring>
+        <name>Const_VertSpan</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertSpan.Const_VertSpan</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Const__VertSpan" kindref="compound">MR.MeshBuilder.Const_VertSpan</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1VertSpan_1a4643324cae793abe2443d0d24a16bcd9" kindref="member">MR.MeshBuilder.VertSpan.VertSpan</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="620" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="620" bodyend="627"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertSpan_1adc1dde8a16f25ae9e2799284a25ac5cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshBuilder.Const_VertSpan.Const_VertSpan</definition>
+        <argsstring>(VertSpan _other)</argsstring>
+        <name>Const_VertSpan</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertSpan.Const_VertSpan</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">VertSpan</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1VertSpan_1a4643324cae793abe2443d0d24a16bcd9" kindref="member">MR.MeshBuilder.VertSpan.VertSpan</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="632" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="632" bodyend="632"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a474178a4d48d9435c0c89cae59f169e4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshBuilder.Const_VertSpan.~Const_VertSpan</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VertSpan</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertSpan.~Const_VertSpan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="559" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="559" bodyend="559"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a4ed09c19ab24069ef8ce3e27014958a9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshBuilder.Const_VertSpan.Const_VertSpan</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VertSpan</name>
+        <qualifiedname>MR.MeshBuilder.Const_VertSpan.Const_VertSpan</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="587" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="587" bodyend="592"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1VertSpan" kindref="compound">MR.MeshBuilder.VertSpan</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.MeshBuilder.Const_VertSpan</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Const__VertSpan"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.MeshBuilder.VertSpan</label>
+        <link refid="classMR_1_1MeshBuilder_1_1VertSpan"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.MeshBuilder.Const_VertSpan</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Const__VertSpan"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="543" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="544" bodyend="633"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1ab5e242e69e30cc1bebb46832e1c86665" prot="protected" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertSpan</scope><name>__ref_storage_firstVertex</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a3a51c9cbd81910183525f6f317f09432" prot="protected" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertSpan</scope><name>__ref_storage_lastVertex</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a4ed09c19ab24069ef8ce3e27014958a9" prot="package" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertSpan</scope><name>Const_VertSpan</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a8c34d2efa1edb7481ecbb30c6ae7b13d" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertSpan</scope><name>Const_VertSpan</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a29f9d56208a1fd4ecb6359cb6f17144c" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertSpan</scope><name>Const_VertSpan</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1aead2759f3045881cd8511068d8d0e485" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertSpan</scope><name>Const_VertSpan</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1adc1dde8a16f25ae9e2799284a25ac5cd" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertSpan</scope><name>Const_VertSpan</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a402e3928796185d7a171315ff539c0e8" prot="protected" virt="virtual"><scope>MR::MeshBuilder::Const_VertSpan</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a59511aa2b5acb668f0d2acd516be3fd0" prot="public" virt="virtual"><scope>MR::MeshBuilder::Const_VertSpan</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1ae23b34af515dfbafac89cef79ffdc9fe" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertSpan</scope><name>firstVertex</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a447122bd5a2214ec373b2f270e1d48e8" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertSpan</scope><name>lastVertex</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Const__VertSpan_1a474178a4d48d9435c0c89cae59f169e4" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::Const_VertSpan</scope><name>~Const_VertSpan</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

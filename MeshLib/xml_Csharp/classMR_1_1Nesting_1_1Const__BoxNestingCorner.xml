@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Nesting_1_1Const__BoxNestingCorner" kind="class" language="C#" prot="public">
+    <compoundname>MR::Nesting::Const_BoxNestingCorner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Nesting_1_1BoxNestingCorner" prot="public" virt="non-virtual">MR.Nesting.BoxNestingCorner</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1a82b1787d6509b39553ef3ab4a75335d5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Nesting.Const_BoxNestingCorner.pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <qualifiedname>MR.Nesting.Const_BoxNestingCorner.pos</qualifiedname>
+        <briefdescription>
+<para><ref refid="structMR_1_1Vector3f" kindref="compound">Vector3f</ref> - corner position. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="30" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1a45198d94e1abd9fd834c71e7d1e2c06d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Nesting.Const_BoxNestingCorner.bitMask</definition>
+        <argsstring></argsstring>
+        <name>bitMask</name>
+        <qualifiedname>MR.Nesting.Const_BoxNestingCorner.bitMask</qualifiedname>
+        <briefdescription>
+<para>corner mask 0bZYX (0b000 - lower left corner, 0b111 - upper right) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="36" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1aca61004094d26795c02dc9118db915fd" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Nesting.Const_BoxNestingCorner.__ref_storage_pos</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_pos</name>
+        <qualifiedname>MR.Nesting.Const_BoxNestingCorner.__ref_storage_pos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="31" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1a4ad33c5195ad7ae2b39b9b99aa9ceaea" prot="protected" static="no" mutable="no">
+        <type>unsafe byte *</type>
+        <definition>unsafe byte* MR.Nesting.Const_BoxNestingCorner.__ref_storage_bitMask</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_bitMask</name>
+        <qualifiedname>MR.Nesting.Const_BoxNestingCorner.__ref_storage_bitMask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="37" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1a032602aff5cdf4713139d5c61dc63f0a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Nesting.Const_BoxNestingCorner.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Nesting.Const_BoxNestingCorner.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="15" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1adb0fe36f3d4ab8a45eae4c6c99fca559" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Nesting.Const_BoxNestingCorner.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Nesting.Const_BoxNestingCorner.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="24" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1ae436155e551b683a93f4d79466a1abdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.Const_BoxNestingCorner.Const_BoxNestingCorner</definition>
+        <argsstring>()</argsstring>
+        <name>Const_BoxNestingCorner</name>
+        <qualifiedname>MR.Nesting.Const_BoxNestingCorner.Const_BoxNestingCorner</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="70" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="70" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1af7ca767fc80c1a1e4174c7ea7a0fb002" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.Const_BoxNestingCorner.Const_BoxNestingCorner</definition>
+        <argsstring>(MR.Vector3f pos, byte bitMask)</argsstring>
+        <name>Const_BoxNestingCorner</name>
+        <qualifiedname>MR.Nesting.Const_BoxNestingCorner.Const_BoxNestingCorner</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>bitMask</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Nesting_1_1BoxNestingCorner" kindref="compound">MR.Nesting.BoxNestingCorner</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="81" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="81" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1ad4377faf5188c98c8d088b37fc282767" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.Const_BoxNestingCorner.Const_BoxNestingCorner</definition>
+        <argsstring>(MR.Nesting.Const_BoxNestingCorner _other)</argsstring>
+        <name>Const_BoxNestingCorner</name>
+        <qualifiedname>MR.Nesting.Const_BoxNestingCorner.Const_BoxNestingCorner</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner" kindref="compound">MR.Nesting.Const_BoxNestingCorner</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Nesting_1_1BoxNestingCorner_1a0519e5b2e2245020a0cf47036b59b4f0" kindref="member">MR.Nesting.BoxNestingCorner.BoxNestingCorner</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="92" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="92" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1a14f0b8cbf1a78a3f9e34dfed52f479a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Nesting.Const_BoxNestingCorner.Const_BoxNestingCorner</definition>
+        <argsstring>(BoxNestingCorner _other)</argsstring>
+        <name>Const_BoxNestingCorner</name>
+        <qualifiedname>MR.Nesting.Const_BoxNestingCorner.Const_BoxNestingCorner</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Nesting_1_1BoxNestingCorner" kindref="compound">BoxNestingCorner</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Nesting_1_1BoxNestingCorner_1a0519e5b2e2245020a0cf47036b59b4f0" kindref="member">MR.Nesting.BoxNestingCorner.BoxNestingCorner</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="104" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="104" bodyend="104"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1ad5d8231f97b5734d7415c4632cbf423c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Nesting.Const_BoxNestingCorner.~Const_BoxNestingCorner</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_BoxNestingCorner</name>
+        <qualifiedname>MR.Nesting.Const_BoxNestingCorner.~Const_BoxNestingCorner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="25" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1a30b8b9fa98f6b042cf1d9481ae5f8022" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Nesting.Const_BoxNestingCorner.Const_BoxNestingCorner</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_BoxNestingCorner</name>
+        <qualifiedname>MR.Nesting.Const_BoxNestingCorner.Const_BoxNestingCorner</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="59" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="59" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Nesting_1_1BoxNestingCorner" kindref="compound">MR.Nesting.BoxNestingCorner</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Nesting.Const_BoxNestingCorner</label>
+        <link refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.Nesting.BoxNestingCorner</label>
+        <link refid="classMR_1_1Nesting_1_1BoxNestingCorner"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Nesting.Const_BoxNestingCorner</label>
+        <link refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_pos</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" line="9" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBoxNesting.cs" bodystart="10" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1a4ad33c5195ad7ae2b39b9b99aa9ceaea" prot="protected" virt="non-virtual"><scope>MR::Nesting::Const_BoxNestingCorner</scope><name>__ref_storage_bitMask</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1aca61004094d26795c02dc9118db915fd" prot="protected" virt="non-virtual"><scope>MR::Nesting::Const_BoxNestingCorner</scope><name>__ref_storage_pos</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1a45198d94e1abd9fd834c71e7d1e2c06d" prot="public" virt="non-virtual"><scope>MR::Nesting::Const_BoxNestingCorner</scope><name>bitMask</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1a30b8b9fa98f6b042cf1d9481ae5f8022" prot="package" virt="non-virtual"><scope>MR::Nesting::Const_BoxNestingCorner</scope><name>Const_BoxNestingCorner</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1ae436155e551b683a93f4d79466a1abdc" prot="public" virt="non-virtual"><scope>MR::Nesting::Const_BoxNestingCorner</scope><name>Const_BoxNestingCorner</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1af7ca767fc80c1a1e4174c7ea7a0fb002" prot="public" virt="non-virtual"><scope>MR::Nesting::Const_BoxNestingCorner</scope><name>Const_BoxNestingCorner</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1ad4377faf5188c98c8d088b37fc282767" prot="public" virt="non-virtual"><scope>MR::Nesting::Const_BoxNestingCorner</scope><name>Const_BoxNestingCorner</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1a14f0b8cbf1a78a3f9e34dfed52f479a8" prot="public" virt="non-virtual"><scope>MR::Nesting::Const_BoxNestingCorner</scope><name>Const_BoxNestingCorner</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1a032602aff5cdf4713139d5c61dc63f0a" prot="protected" virt="virtual"><scope>MR::Nesting::Const_BoxNestingCorner</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1adb0fe36f3d4ab8a45eae4c6c99fca559" prot="public" virt="virtual"><scope>MR::Nesting::Const_BoxNestingCorner</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1a82b1787d6509b39553ef3ab4a75335d5" prot="public" virt="non-virtual"><scope>MR::Nesting::Const_BoxNestingCorner</scope><name>pos</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__BoxNestingCorner_1ad5d8231f97b5734d7415c4632cbf423c" prot="private" virt="non-virtual"><scope>MR::Nesting::Const_BoxNestingCorner</scope><name>~Const_BoxNestingCorner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

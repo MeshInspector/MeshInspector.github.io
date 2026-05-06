@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SymbolMeshParams" kind="class" language="C#" prot="public">
     <compoundname>MR::SymbolMeshParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SymbolMeshParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SymbolMeshParams" prot="public" virt="non-virtual">MR.Const_SymbolMeshParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SymbolMeshParams_1a46f00c1ade84d2d506e286b6b5b791ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.String</type>
@@ -194,7 +194,7 @@
         <name>SymbolMeshParams</name>
         <qualifiedname>MR.SymbolMeshParams.SymbolMeshParams</qualifiedname>
         <param>
-          <type>Const_SymbolMeshParams</type>
+          <type><ref refid="classMR_1_1Const__SymbolMeshParams" kindref="compound">Const_SymbolMeshParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -259,6 +259,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SymbolMeshParams</label>
+        <link refid="classMR_1_1Const__SymbolMeshParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -272,6 +273,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SymbolMeshParams</label>
         <link refid="classMR_1_1SymbolMeshParams"/>
@@ -280,9 +285,14 @@
       </node>
       <node id="2">
         <label>MR.Const_SymbolMeshParams</label>
+        <link refid="classMR_1_1Const__SymbolMeshParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_align</edgelabel>
+          <edgelabel>__ref_storage_symbolsDistanceAdditionalOffset</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -294,9 +304,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" line="187" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRSymbolMesh.cs" bodystart="188" bodyend="304"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a78efcebe0cf7f56193edafcae22a6391" prot="protected" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>__ref_storage_align</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a5914c833581eb32e814c66bccebb3954" prot="protected" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>__ref_storage_fontDetalization</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a25f47bfda7adbd978f8c2395f51aba97" prot="protected" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>__ref_storage_MaxGeneratedFontHeight</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a2c4138ab5fff85a0f9fd5105730cfb6d" prot="protected" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>__ref_storage_symbolsDistanceAdditionalOffset</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a744bff0dfb93fe3e2cd66a0c03bc3787" prot="protected" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>__ref_storage_symbolsThicknessOffsetModifier</name></member>
       <member refid="classMR_1_1SymbolMeshParams_1a9ff4f1c62cdf99b4a3b871f9bf69d2e3" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>align</name></member>
       <member refid="classMR_1_1SymbolMeshParams_1a0ddf564a92c28588d91cd30c1ee72a6e" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a3415d481cb4c839c216007b4ff6bc7d5" prot="package" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>Const_SymbolMeshParams</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1ad0c328aaac22796ad45f6163094c2eb2" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>Const_SymbolMeshParams</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a11841277b2beedaec9b73a65183e212e" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>Const_SymbolMeshParams</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a801722c39f11bfbd832c73a1ae0d0869" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>Const_SymbolMeshParams</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a06721c19d731991607b79cc2b0ce983b" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>Const_SymbolMeshParams</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a8abc8f6fb17af7abe1d00c8dbb5a214b" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>Const_SymbolMeshParams</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1ac969417f5f0ef7668595503dfb2e3a38" prot="protected" virt="virtual"><scope>MR::SymbolMeshParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a04f00c8b9261eda10d8ad0d995daa439" prot="public" virt="virtual"><scope>MR::SymbolMeshParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SymbolMeshParams_1a1326fa62046ea6a7170c6106e781970e" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>fontDetalization</name></member>
+      <member refid="classMR_1_1Const__SymbolMeshParams_1a2b0ce98ffeb40787479d07160c2be585" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>MaxGeneratedFontHeight</name></member>
       <member refid="classMR_1_1SymbolMeshParams_1aa275fe91818dbc12017376563e7d8566" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>pathToFontFile</name></member>
       <member refid="classMR_1_1SymbolMeshParams_1a52d654830f0e20cfa98a10abe75eccc4" prot="package" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>SymbolMeshParams</name></member>
       <member refid="classMR_1_1SymbolMeshParams_1a13389b8a22dafc936f956a7383ceb417" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>SymbolMeshParams</name></member>

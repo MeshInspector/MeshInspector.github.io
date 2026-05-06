@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UiRenderManager" kind="class" language="C#" prot="public">
     <compoundname>MR::UiRenderManager</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_UiRenderManager</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__UiRenderManager" prot="public" virt="non-virtual">MR.Const_UiRenderManager</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1UiRenderManager_1afb5b161d7a73af4ee6ef0e9fde27e7f9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>UiRenderManager</name>
         <qualifiedname>MR.UiRenderManager.UiRenderManager</qualifiedname>
         <param>
-          <type>Const_UiRenderManager</type>
+          <type><ref refid="classMR_1_1Const__UiRenderManager" kindref="compound">Const_UiRenderManager</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -158,7 +158,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1491" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1491" bodyend="1496"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UiRenderManager_1a3ba30e9cda56de739f8c57674fa50d3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.BasicUiRenderTask.BackwardPassParams</type>
+        <type>unsafe <ref refid="classMR_1_1Const__BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">MR.BasicUiRenderTask.BackwardPassParams</ref></type>
         <definition>unsafe MR.BasicUiRenderTask.BackwardPassParams MR.UiRenderManager.beginBackwardPass</definition>
         <argsstring>(MR.ViewportId viewport, MR.Std.Vector_StdSharedPtrMRBasicUiRenderTask tasks)</argsstring>
         <name>beginBackwardPass</name>
@@ -191,7 +191,7 @@
           <declname>viewport</declname>
         </param>
         <param>
-          <type>MR.BasicUiRenderTask.Const_BackwardPassParams</type>
+          <type><ref refid="classMR_1_1Const__BasicUiRenderTask_1_1Const__BackwardPassParams" kindref="compound">MR.BasicUiRenderTask.Const_BackwardPassParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -218,6 +218,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UiRenderManager</label>
+        <link refid="classMR_1_1Const__UiRenderManager"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -239,6 +240,7 @@
       </node>
       <node id="2">
         <label>MR.Const_UiRenderManager</label>
+        <link refid="classMR_1_1Const__UiRenderManager"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -255,6 +257,13 @@
     <listofallmembers>
       <member refid="classMR_1_1UiRenderManager_1a0cdd389be09e58c5d5068a1e2fbfb54c" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>assign</name></member>
       <member refid="classMR_1_1UiRenderManager_1a3ba30e9cda56de739f8c57674fa50d3e" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>beginBackwardPass</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a438b51222fb602af83dfe148655c6514" prot="package" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>Const_UiRenderManager</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a977b1da1a53627718fafa8aeca10bbf0" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>Const_UiRenderManager</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a2454ecae814c2534c9a2276629d81ae3" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>Const_UiRenderManager</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a623a8209b99cec5a1aa59cbb481adb01" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>Const_UiRenderManager</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a15f3271c53d6c45188df4d4cbba79231" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>Const_UiRenderManager</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a759f9ce4bc2cfdad9022735d3a4581ff" prot="protected" virt="virtual"><scope>MR::UiRenderManager</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UiRenderManager_1a9714eada8c121877bee230f7bec8352f" prot="public" virt="virtual"><scope>MR::UiRenderManager</scope><name>Dispose</name></member>
       <member refid="classMR_1_1UiRenderManager_1a5cbfbea4de891528083bc996df0549dd" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>finishBackwardPass</name></member>
       <member refid="classMR_1_1UiRenderManager_1a76bec50407215c004e3216a60eb1a81c" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>postRenderViewport</name></member>
       <member refid="classMR_1_1UiRenderManager_1a7afb07d5a7227a2937f8d64ad35fb75d" prot="public" virt="non-virtual"><scope>MR::UiRenderManager</scope><name>preRenderViewport</name></member>

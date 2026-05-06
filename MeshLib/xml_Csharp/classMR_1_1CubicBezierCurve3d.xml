@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CubicBezierCurve3d" kind="class" language="C#" prot="public">
     <compoundname>MR::CubicBezierCurve3d</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_CubicBezierCurve3d</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__CubicBezierCurve3d" prot="public" virt="non-virtual">MR.Const_CubicBezierCurve3d</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1CubicBezierCurve3d_1aa7c10b9b0cdf0fd94ab691915be32fcd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref MR.ArrayVector3d4</type>
@@ -67,7 +67,7 @@
         <name>CubicBezierCurve3d</name>
         <qualifiedname>MR.CubicBezierCurve3d.CubicBezierCurve3d</qualifiedname>
         <param>
-          <type>MR.Const_CubicBezierCurve3d</type>
+          <type><ref refid="classMR_1_1Const__CubicBezierCurve3d" kindref="compound">MR.Const_CubicBezierCurve3d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -105,7 +105,7 @@
         <name>assign</name>
         <qualifiedname>MR.CubicBezierCurve3d.assign</qualifiedname>
         <param>
-          <type>MR.Const_CubicBezierCurve3d</type>
+          <type><ref refid="classMR_1_1Const__CubicBezierCurve3d" kindref="compound">MR.Const_CubicBezierCurve3d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -132,6 +132,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CubicBezierCurve3d</label>
+        <link refid="classMR_1_1Const__CubicBezierCurve3d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -145,6 +146,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.CubicBezierCurve3d</label>
         <link refid="classMR_1_1CubicBezierCurve3d"/>
@@ -153,9 +158,13 @@
       </node>
       <node id="2">
         <label>MR.Const_CubicBezierCurve3d</label>
+        <link refid="classMR_1_1Const__CubicBezierCurve3d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__array_storage_p</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -167,11 +176,22 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" line="752" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBezier.cs" bodystart="753" bodyend="807"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__CubicBezierCurve3d_1abfb403e100e2c549a51e9420ae6de768" prot="protected" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>__array_storage_p</name></member>
+      <member refid="classMR_1_1Const__CubicBezierCurve3d_1a1dc469490cf3d5dfe0c22518e5a1925a" prot="protected" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>__ref_storage_Elements</name></member>
       <member refid="classMR_1_1CubicBezierCurve3d_1a6a212f8025554c98b32c6de2c867b66f" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__CubicBezierCurve3d_1ad5c7519b3cbd106b9994e1ee788419e8" prot="package" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>Const_CubicBezierCurve3d</name></member>
+      <member refid="classMR_1_1Const__CubicBezierCurve3d_1a25cb7d5b300c7b928373fa266c34362f" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>Const_CubicBezierCurve3d</name></member>
+      <member refid="classMR_1_1Const__CubicBezierCurve3d_1adc0f3be3a89308fa9837ea610542cdaf" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>Const_CubicBezierCurve3d</name></member>
+      <member refid="classMR_1_1Const__CubicBezierCurve3d_1a2d3ee19a0a679451bf1a96487be9f090" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>Const_CubicBezierCurve3d</name></member>
       <member refid="classMR_1_1CubicBezierCurve3d_1a3653a02dc551fb76a1afb4153e49f70b" prot="package" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>CubicBezierCurve3d</name></member>
       <member refid="classMR_1_1CubicBezierCurve3d_1abdb36410aeb8f2e2c3cda273e214b3cf" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>CubicBezierCurve3d</name></member>
       <member refid="classMR_1_1CubicBezierCurve3d_1ab4333c1fd291f9179e868cf3b683fa4e" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>CubicBezierCurve3d</name></member>
       <member refid="classMR_1_1CubicBezierCurve3d_1aa71ba56cb853acb6e018b99b3445240e" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>CubicBezierCurve3d</name></member>
+      <member refid="classMR_1_1Const__CubicBezierCurve3d_1a760e37d52a7005ab570b8a18469d4861" prot="protected" virt="virtual"><scope>MR::CubicBezierCurve3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CubicBezierCurve3d_1a8782f3b3d25bd58a906751b7194ecc83" prot="public" virt="virtual"><scope>MR::CubicBezierCurve3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CubicBezierCurve3d_1a134eba6d9db4556d53b41572e385840e" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>Elements</name></member>
+      <member refid="classMR_1_1Const__CubicBezierCurve3d_1aa0f87568464cf7ff73ca4f23186a9b4e" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>getPoint</name></member>
+      <member refid="classMR_1_1Const__CubicBezierCurve3d_1a02a62ef332f0e1ad6ed86349b4d37578" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>getWeights</name></member>
       <member refid="classMR_1_1CubicBezierCurve3d_1aa7c10b9b0cdf0fd94ab691915be32fcd" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve3d</scope><name>p</name></member>
     </listofallmembers>
   </compounddef>

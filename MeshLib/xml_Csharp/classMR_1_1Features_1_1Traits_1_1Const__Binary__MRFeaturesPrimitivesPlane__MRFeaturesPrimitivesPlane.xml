@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" kind="class" language="C#" prot="public">
+    <compoundname>MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" prot="public" virt="non-virtual">MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1ace49c2a29737796e9bb1dfd2cdaeec0e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3014" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3014" bodyend="3022"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a17798037592d9c5d77702b7c3014524a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3023" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3023" bodyend="3023"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a88960e1c768968c518491d6647c186cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name>
+        <qualifiedname>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3031" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3031" bodyend="3036"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1ab206bbf26c06fcda0741c1b8c0b7d23e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</definition>
+        <argsstring>(MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane _other)</argsstring>
+        <name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name>
+        <qualifiedname>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" kindref="compound">MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Features::Traits::Binary&amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>&amp;gt;::Binary</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3041" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3041" bodyend="3047"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a55b0e622f466d65d03f682d24800f7ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</definition>
+        <argsstring>(Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane _other)</argsstring>
+        <name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name>
+        <qualifiedname>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" kindref="compound">Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Features::Traits::Binary&amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>&amp;gt;::Binary</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3052" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3052" bodyend="3052"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a21e10db2a0c0e0a67dae4b03763a7dfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Features_1_1MeasureResult" kindref="compound">MR.Features.MeasureResult</ref></type>
+        <definition>unsafe MR.Features.MeasureResult MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.measure</definition>
+        <argsstring>(MR.Features.Primitives.Const_Plane a, MR.Features.Primitives.Const_Plane b)</argsstring>
+        <name>measure</name>
+        <qualifiedname>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.measure</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane" kindref="compound">MR.Features.Primitives.Const_Plane</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane" kindref="compound">MR.Features.Primitives.Const_Plane</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Features::Traits::Binary&amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>&amp;gt;<ref refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a21e10db2a0c0e0a67dae4b03763a7dfa" kindref="member">measure</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3057" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3057" bodyend="3062"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1ae22a96f8d7cdb1d04223b37ade535526" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.~Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name>
+        <qualifiedname>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.~Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3024" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3024" bodyend="3024"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1acdbcbefc667b1c3487c296741726f6e7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name>
+        <qualifiedname>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3026" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3026" bodyend="3026"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::Features::Traits::Binary&amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</label>
+        <link refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</label>
+        <link refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</label>
+        <link refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="3008" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="3009" bodyend="3063"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1acdbcbefc667b1c3487c296741726f6e7" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a88960e1c768968c518491d6647c186cd" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1ab206bbf26c06fcda0741c1b8c0b7d23e" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a55b0e622f466d65d03f682d24800f7ca" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1ace49c2a29737796e9bb1dfd2cdaeec0e" prot="protected" virt="virtual"><scope>MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a17798037592d9c5d77702b7c3014524a" prot="public" virt="virtual"><scope>MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1a21e10db2a0c0e0a67dae4b03763a7dfa" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>measure</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane_1ae22a96f8d7cdb1d04223b37ade535526" prot="private" virt="non-virtual"><scope>MR::Features::Traits::Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</scope><name>~Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

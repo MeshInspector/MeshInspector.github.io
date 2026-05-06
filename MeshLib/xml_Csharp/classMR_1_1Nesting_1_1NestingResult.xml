@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Nesting_1_1NestingResult" kind="class" language="C#" prot="public">
     <compoundname>MR::Nesting::NestingResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Nesting.Const_NestingResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Nesting_1_1Const__NestingResult" prot="public" virt="non-virtual">MR.Nesting.Const_NestingResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Nesting_1_1NestingResult_1a7673c85a64735aa47d22368153ad04c1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
@@ -105,7 +105,7 @@
         <name>NestingResult</name>
         <qualifiedname>MR.Nesting.NestingResult.NestingResult</qualifiedname>
         <param>
-          <type>MR.Nesting.Const_NestingResult</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingResult" kindref="compound">MR.Nesting.Const_NestingResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.Nesting.NestingResult.assign</qualifiedname>
         <param>
-          <type>MR.Nesting.Const_NestingResult</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingResult" kindref="compound">MR.Nesting.Const_NestingResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -173,6 +173,7 @@
       </node>
       <node id="2">
         <label>MR.Nesting.Const_NestingResult</label>
+        <link refid="classMR_1_1Nesting_1_1Const__NestingResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Nesting.NestingResult</label>
         <link refid="classMR_1_1Nesting_1_1NestingResult"/>
@@ -194,9 +199,13 @@
       </node>
       <node id="2">
         <label>MR.Nesting.Const_NestingResult</label>
+        <link refid="classMR_1_1Nesting_1_1Const__NestingResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_xf</edgelabel>
         </childnode>
       </node>
       <node id="4">
@@ -205,7 +214,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" line="111" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" bodystart="112" bodyend="182"/>
     <listofallmembers>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingResult_1ab91d6c688456b69ea996acf4a4a12221" prot="protected" virt="non-virtual"><scope>MR::Nesting::NestingResult</scope><name>__ref_storage_nested</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingResult_1a88e578b727b38fc5dff8eb65b9083091" prot="protected" virt="non-virtual"><scope>MR::Nesting::NestingResult</scope><name>__ref_storage_xf</name></member>
       <member refid="classMR_1_1Nesting_1_1NestingResult_1aab415925fb88e6c73885655c2d65e20d" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingResult_1a9697b812c9b5c969a82b68b9e68bc1dc" prot="package" virt="non-virtual"><scope>MR::Nesting::NestingResult</scope><name>Const_NestingResult</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingResult_1a338a0b1096eb1de1442e2f0e8d0e7fe8" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingResult</scope><name>Const_NestingResult</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingResult_1ac897cae3c4d0b09f2109e4f64e77e73b" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingResult</scope><name>Const_NestingResult</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingResult_1ae3730701a93e272aca4a1e443209504b" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingResult</scope><name>Const_NestingResult</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingResult_1a37358dbb0fccd16156ca80b2757a5a79" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingResult</scope><name>Const_NestingResult</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingResult_1a6c998c1f38ad705695b81629c219cea4" prot="protected" virt="virtual"><scope>MR::Nesting::NestingResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingResult_1a304538900ab5138062fb7fdcd6616be4" prot="public" virt="virtual"><scope>MR::Nesting::NestingResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Nesting_1_1NestingResult_1ac6381aae81876ec649d6ec9e9908a594" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingResult</scope><name>nested</name></member>
       <member refid="classMR_1_1Nesting_1_1NestingResult_1a1e0fd01f224599c04f3ba45738153112" prot="package" virt="non-virtual"><scope>MR::Nesting::NestingResult</scope><name>NestingResult</name></member>
       <member refid="classMR_1_1Nesting_1_1NestingResult_1af62d63b0f715538bf2cf01a2cc9ec3c9" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingResult</scope><name>NestingResult</name></member>

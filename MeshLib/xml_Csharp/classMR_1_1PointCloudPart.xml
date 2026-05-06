@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointCloudPart" kind="class" language="C#" prot="public">
     <compoundname>MR::PointCloudPart</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointCloudPart</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointCloudPart" prot="public" virt="non-virtual">MR.Const_PointCloudPart</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PointCloudPart_1a1863e0fbefdc817429523d69c60c14eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.PointCloudPart.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -51,7 +51,7 @@
         <name>PointCloudPart</name>
         <qualifiedname>MR.PointCloudPart.PointCloudPart</qualifiedname>
         <param>
-          <type>MR.Const_PointCloudPart</type>
+          <type><ref refid="classMR_1_1Const__PointCloudPart" kindref="compound">MR.Const_PointCloudPart</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -89,11 +89,11 @@
         <name>PointCloudPart</name>
         <qualifiedname>MR.PointCloudPart.PointCloudPart</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>c</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>bs</declname>
           <defval>null</defval>
         </param>
@@ -113,7 +113,7 @@
         <name>assign</name>
         <qualifiedname>MR.PointCloudPart.assign</qualifiedname>
         <param>
-          <type>MR.Const_PointCloudPart</type>
+          <type><ref refid="classMR_1_1Const__PointCloudPart" kindref="compound">MR.Const_PointCloudPart</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -134,7 +134,7 @@
         <name>operator PointCloudPart</name>
         <qualifiedname>MR.PointCloudPart.operator PointCloudPart</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>c</declname>
         </param>
         <briefdescription>
@@ -161,6 +161,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointCloudPart</label>
+        <link refid="classMR_1_1Const__PointCloudPart"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -174,6 +175,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PointCloudPart</label>
         <link refid="classMR_1_1PointCloudPart"/>
@@ -182,9 +187,13 @@
       </node>
       <node id="2">
         <label>MR.Const_PointCloudPart</label>
+        <link refid="classMR_1_1Const__PointCloudPart"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -196,7 +205,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" line="116" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudPart.cs" bodystart="117" bodyend="191"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PointCloudPart_1a3eb9e87c4074a47b0cf19e3687d8bc53" prot="protected" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>__ptr_storage_region</name></member>
       <member refid="classMR_1_1PointCloudPart_1a4ad6e5b4ea826b9771a67d3f887f2a3f" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1aad38fd2c083065cd0c92f329dbb8b9c2" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>cloud</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1a79bf0cb82addb6718077ea9a57c079e8" prot="package" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>Const_PointCloudPart</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1a90a3d7821482cbe09e5f743f5ba44ba9" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>Const_PointCloudPart</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1a7d5e2a63b78aebd3db1699de9d5f06bf" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>Const_PointCloudPart</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1a32fa79b257d5ac398f33be4054209988" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>Const_PointCloudPart</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1a1633fcb6184bd676d24eaa6e7c53edfb" prot="protected" virt="virtual"><scope>MR::PointCloudPart</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1afdde52b46b7c9f5af4faf3c09854cff6" prot="public" virt="virtual"><scope>MR::PointCloudPart</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointCloudPart_1a3b527514b908ba9d62546128e6158f3e" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>operator Const_PointCloudPart</name></member>
       <member refid="classMR_1_1PointCloudPart_1a3fa746eb12430f18ee5d1938b6b66bdd" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>operator PointCloudPart</name></member>
       <member refid="classMR_1_1PointCloudPart_1ad1b6eafcd8d8446c9dbb8c3c795204f5" prot="package" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>PointCloudPart</name></member>
       <member refid="classMR_1_1PointCloudPart_1a186cdd09153352462ff1dbc6184c0932" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>PointCloudPart</name></member>

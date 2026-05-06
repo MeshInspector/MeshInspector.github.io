@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MultiwayAligningTransform::Const_Stabilizer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Const__MultiwayAligningTransform_1_1Stabilizer" prot="public" virt="non-virtual">MR.Const_MultiwayAligningTransform.Stabilizer</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a579f6f3d7fb900841f8e8e09f39dbbc6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_MultiwayAligningTransform.Const_Stabilizer.rot</definition>
+        <argsstring></argsstring>
+        <name>rot</name>
+        <qualifiedname>MR.Const_MultiwayAligningTransform.Const_Stabilizer.rot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" line="110" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a16fd87171fb18f5aefba0765f5cb1209" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_MultiwayAligningTransform.Const_Stabilizer.shift</definition>
+        <argsstring></argsstring>
+        <name>shift</name>
+        <qualifiedname>MR.Const_MultiwayAligningTransform.Const_Stabilizer.shift</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" line="114" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a4d4c60b71d616c3355e354b29b781de8" prot="protected" static="no" mutable="no">
+        <type>unsafe double *</type>
+        <definition>unsafe double* MR.Const_MultiwayAligningTransform.Const_Stabilizer.__ref_storage_rot</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_rot</name>
+        <qualifiedname>MR.Const_MultiwayAligningTransform.Const_Stabilizer.__ref_storage_rot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" line="111" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1af97a6f100cbc01cd1131ab66196318ef" prot="protected" static="no" mutable="no">
+        <type>unsafe double *</type>
+        <definition>unsafe double* MR.Const_MultiwayAligningTransform.Const_Stabilizer.__ref_storage_shift</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_shift</name>
+        <qualifiedname>MR.Const_MultiwayAligningTransform.Const_Stabilizer.__ref_storage_shift</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" line="115" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a96a80620f3570bfc84f742fb58c57d27" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MultiwayAligningTransform.Const_Stabilizer.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MultiwayAligningTransform.Const_Stabilizer.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" line="97" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" bodystart="97" bodyend="105"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1ac8a47e21101b9a631a180516f8d72b4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MultiwayAligningTransform.Const_Stabilizer.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MultiwayAligningTransform.Const_Stabilizer.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" line="106" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a493956f4b6ffa5212bcb0238d9b573e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MultiwayAligningTransform.Const_Stabilizer.Const_Stabilizer</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Stabilizer</name>
+        <qualifiedname>MR.Const_MultiwayAligningTransform.Const_Stabilizer.Const_Stabilizer</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" line="148" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" bodystart="148" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1adea3862196aca4032000d837bc9aaec9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MultiwayAligningTransform.Const_Stabilizer.Const_Stabilizer</definition>
+        <argsstring>(double rot, double shift)</argsstring>
+        <name>Const_Stabilizer</name>
+        <qualifiedname>MR.Const_MultiwayAligningTransform.Const_Stabilizer.Const_Stabilizer</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>rot</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>shift</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Const__MultiwayAligningTransform_1_1Stabilizer" kindref="compound">MR.MultiwayAligningTransform.Stabilizer</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" line="159" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" bodystart="159" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a7fa38dc377f18853673c836878218a90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MultiwayAligningTransform.Const_Stabilizer.Const_Stabilizer</definition>
+        <argsstring>(MR.MultiwayAligningTransform.Const_Stabilizer _other)</argsstring>
+        <name>Const_Stabilizer</name>
+        <qualifiedname>MR.Const_MultiwayAligningTransform.Const_Stabilizer.Const_Stabilizer</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer" kindref="compound">MR.MultiwayAligningTransform.Const_Stabilizer</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::MultiwayAligningTransform::Stabilizer::Stabilizer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" line="170" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" bodystart="170" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a51fe2d96831a100a3217e40f583c5444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MultiwayAligningTransform.Const_Stabilizer.Const_Stabilizer</definition>
+        <argsstring>(Stabilizer _other)</argsstring>
+        <name>Const_Stabilizer</name>
+        <qualifiedname>MR.Const_MultiwayAligningTransform.Const_Stabilizer.Const_Stabilizer</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MultiwayAligningTransform_1_1Stabilizer" kindref="compound">Stabilizer</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::MultiwayAligningTransform::Stabilizer::Stabilizer</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" line="182" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" bodystart="182" bodyend="182"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a0c6088563aa0c27d81fe0c9c35790f9f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MultiwayAligningTransform.Const_Stabilizer.~Const_Stabilizer</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Stabilizer</name>
+        <qualifiedname>MR.Const_MultiwayAligningTransform.Const_Stabilizer.~Const_Stabilizer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" line="107" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" bodystart="107" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1adb3781c8636246b58299804700452bd9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MultiwayAligningTransform.Const_Stabilizer.Const_Stabilizer</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Stabilizer</name>
+        <qualifiedname>MR.Const_MultiwayAligningTransform.Const_Stabilizer.Const_Stabilizer</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" line="137" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" bodystart="137" bodyend="142"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>small stabilizer allows one to convert the linear system from under-determined to determined (e.g. too few linearly independent pairs for some object); large stabilizer results in suboptimal found transformations (huge stabilizier =&gt; zero transforamtions) Generated from class <computeroutput><ref refid="classMR_1_1Const__MultiwayAligningTransform_1_1Stabilizer" kindref="compound">MR.MultiwayAligningTransform.Stabilizer</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MultiwayAligningTransform.Const_Stabilizer</label>
+        <link refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Const_MultiwayAligningTransform.Stabilizer</label>
+        <link refid="classMR_1_1Const__MultiwayAligningTransform_1_1Stabilizer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_MultiwayAligningTransform.Const_Stabilizer</label>
+        <link refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" line="91" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayAligningTransform.cs" bodystart="92" bodyend="183"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a4d4c60b71d616c3355e354b29b781de8" prot="protected" virt="non-virtual"><scope>MR::Const_MultiwayAligningTransform::Const_Stabilizer</scope><name>__ref_storage_rot</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1af97a6f100cbc01cd1131ab66196318ef" prot="protected" virt="non-virtual"><scope>MR::Const_MultiwayAligningTransform::Const_Stabilizer</scope><name>__ref_storage_shift</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1adb3781c8636246b58299804700452bd9" prot="package" virt="non-virtual"><scope>MR::Const_MultiwayAligningTransform::Const_Stabilizer</scope><name>Const_Stabilizer</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a493956f4b6ffa5212bcb0238d9b573e6" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayAligningTransform::Const_Stabilizer</scope><name>Const_Stabilizer</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1adea3862196aca4032000d837bc9aaec9" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayAligningTransform::Const_Stabilizer</scope><name>Const_Stabilizer</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a7fa38dc377f18853673c836878218a90" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayAligningTransform::Const_Stabilizer</scope><name>Const_Stabilizer</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a51fe2d96831a100a3217e40f583c5444" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayAligningTransform::Const_Stabilizer</scope><name>Const_Stabilizer</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a96a80620f3570bfc84f742fb58c57d27" prot="protected" virt="virtual"><scope>MR::Const_MultiwayAligningTransform::Const_Stabilizer</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1ac8a47e21101b9a631a180516f8d72b4e" prot="public" virt="virtual"><scope>MR::Const_MultiwayAligningTransform::Const_Stabilizer</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a579f6f3d7fb900841f8e8e09f39dbbc6" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayAligningTransform::Const_Stabilizer</scope><name>rot</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a16fd87171fb18f5aefba0765f5cb1209" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayAligningTransform::Const_Stabilizer</scope><name>shift</name></member>
+      <member refid="classMR_1_1Const__MultiwayAligningTransform_1_1Const__Stabilizer_1a0c6088563aa0c27d81fe0c9c35790f9f" prot="private" virt="non-virtual"><scope>MR::Const_MultiwayAligningTransform::Const_Stabilizer</scope><name>~Const_Stabilizer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolumeMinMax" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax" prot="public" virt="non-virtual">MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1a6aec95e39220564b85b3b9d4cb5939ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -55,11 +55,11 @@
         <name>VoxelsVolumeAccessor_MRSimpleVolumeMinMax</name>
         <qualifiedname>MR.VoxelsVolumeAccessor_MRSimpleVolumeMinMax.VoxelsVolumeAccessor_MRSimpleVolumeMinMax</qualifiedname>
         <param>
-          <type>MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</type>
+          <type><ref refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax" kindref="compound">MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -78,7 +78,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -93,11 +93,11 @@
         <name>VoxelsVolumeAccessor_MRSimpleVolumeMinMax</name>
         <qualifiedname>MR.VoxelsVolumeAccessor_MRSimpleVolumeMinMax.VoxelsVolumeAccessor_MRSimpleVolumeMinMax</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolume</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolume" kindref="compound">MR.Const_SimpleVolume</ref></type>
           <declname>volume</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;gt;::VoxelsVolumeAccessor</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -107,7 +107,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>VoxelsVolumeAccessor specialization for simple volumes with min/max Generated from class <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::VoxelsVolumeAccessor&amp;amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;amp;gt;</computeroutput> This is the non-const half of the class. </para>
+<para>VoxelsVolumeAccessor specialization for simple volumes with min/max Generated from class <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref>&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::VoxelsVolumeAccessor&amp;lt;<ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref>&amp;gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -120,6 +120,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</label>
+        <link refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -141,6 +142,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</label>
+        <link refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,7 +157,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" line="103" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolumeAccess.cs" bodystart="104" bodyend="143"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1a5518e846a8535b0ef77757da05965b5f" prot="protected" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>__ref_storage_CacheEffective</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1a8fac3d20b6c803bbcd40fd49105c0bb8" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>CacheEffective</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1a56e712daa2ee3b4081f4cdf2a6d2ed80" prot="package" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1a9af5626c747ecfcd62f36035d9022c46" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1a9d30d204cffd38335eb5e0bd0931b52d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1a754094c3caf8ff06fa46501ed0bbe9f7" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>Const_VoxelsVolumeAccessor_MRSimpleVolumeMinMax</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1ae065f0fd4d8f0df669a69baa95f167d1" prot="protected" virt="virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1a0cc65c6bd312c07e97d4cfb6d3bc3509" prot="public" virt="virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1ab5e7c8e2c16ba302280fa1fbbe7fef2c" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>operator MR.Const_VoxelsVolumeAccessor_MRSimpleVolume</name></member>
       <member refid="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1a6aec95e39220564b85b3b9d4cb5939ac" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>operator MR.VoxelsVolumeAccessor_MRSimpleVolume</name></member>
+      <member refid="classMR_1_1Const__VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1adec5b119db05e14d792634f2584cd5cf" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>shift</name></member>
       <member refid="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1a425f820aaa3a38134cdd663ad2d31f77" prot="package" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>VoxelsVolumeAccessor_MRSimpleVolumeMinMax</name></member>
       <member refid="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1aa491c8d89ed6664fab38d28602ff06cd" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>VoxelsVolumeAccessor_MRSimpleVolumeMinMax</name></member>
       <member refid="classMR_1_1VoxelsVolumeAccessor__MRSimpleVolumeMinMax_1a7337176188f23b1dee1a727d56ed5f13" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor_MRSimpleVolumeMinMax</scope><name>VoxelsVolumeAccessor_MRSimpleVolumeMinMax</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId" kind="class" language="C#" prot="public">
     <compoundname>MR::MapOrHashMap_MRFaceId_MRFaceId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MapOrHashMap_MRFaceId_MRFaceId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId" prot="public" virt="non-virtual">MR.Const_MapOrHashMap_MRFaceId_MRFaceId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ae3bd65964d28050e8198af728bb8e318" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Variant_MRFaceMap_PhmapFlatHashMapMRFaceIdMRFaceId</type>
@@ -70,7 +70,7 @@
           <declname>var</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -89,7 +89,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::MapOrHashMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::MapOrHashMap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -104,11 +104,11 @@
         <name>MapOrHashMap_MRFaceId_MRFaceId</name>
         <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.MapOrHashMap_MRFaceId_MRFaceId</qualifiedname>
         <param>
-          <type>Const_MapOrHashMap_MRFaceId_MRFaceId</type>
+          <type><ref refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId" kindref="compound">Const_MapOrHashMap_MRFaceId_MRFaceId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::MapOrHashMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::MapOrHashMap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -127,7 +127,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::MapOrHashMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::MapOrHashMap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -146,7 +146,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -165,7 +165,7 @@
           <declname>m</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a72cbe7bedda9afdc46aa7b1730c90656" kindref="member">setMap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a72cbe7bedda9afdc46aa7b1730c90656" kindref="member">setMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -184,7 +184,7 @@
           <declname>m</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a13edc53ee2d7308e539373c150f3d030" kindref="member">setHashMap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a13edc53ee2d7308e539373c150f3d030" kindref="member">setHashMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -207,7 +207,7 @@
           <declname>hashAdditionalCapacity</declname>
         </param>
         <briefdescription>
-<para>if this stores dense map then resizes it to denseTotalSize; if this stores hash map then sets its capacity to size()+hashAdditionalCapacity Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a8d75c92dab98bd08861a534d7718c83c" kindref="member">resizeReserve</ref></computeroutput>. </para>
+<para>if this stores dense map then resizes it to denseTotalSize; if this stores hash map then sets its capacity to size()+hashAdditionalCapacity Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a8d75c92dab98bd08861a534d7718c83c" kindref="member">resizeReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -230,7 +230,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a95e854475a956c5d98e2618f5c4e2c6f" kindref="member">pushBack</ref></computeroutput>. </para>
+<para>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a95e854475a956c5d98e2618f5c4e2c6f" kindref="member">pushBack</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -245,7 +245,7 @@
         <name>getMap</name>
         <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.getMap</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a6b7b958c87c7c834ed459fc99c710364" kindref="member">getMap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a6b7b958c87c7c834ed459fc99c710364" kindref="member">getMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -260,7 +260,7 @@
         <name>getHashMap</name>
         <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.getHashMap</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ae36b29639a3413d1bd552400f3ed683c" kindref="member">getHashMap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ae36b29639a3413d1bd552400f3ed683c" kindref="member">getHashMap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -275,7 +275,7 @@
         <name>clear</name>
         <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a148a635ebc1077c1e09c57eecb780152" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a148a635ebc1077c1e09c57eecb780152" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -285,7 +285,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>stores a mapping from keys K to values V in one of two forms: 1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey) 2) as hash map preferable when valid keys are a small subset of the range Generated from class <computeroutput>MR::MapOrHashMap&amp;amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>stores a mapping from keys K to values V in one of two forms: 1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey) 2) as hash map preferable when valid keys are a small subset of the range Generated from class <computeroutput>MR::MapOrHashMap&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -298,6 +298,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MapOrHashMap_MRFaceId_MRFaceId</label>
+        <link refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -319,6 +320,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MapOrHashMap_MRFaceId_MRFaceId</label>
+        <link refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -335,6 +337,16 @@
     <listofallmembers>
       <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ac0ed9a72a0224c16a3ab3e5b3a0cca0b" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>assign</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a148a635ebc1077c1e09c57eecb780152" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a6fa031b37c26a447752ea69957f5e927" prot="package" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>Const_MapOrHashMap_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a353c16901b06dc43e0bec63fc678eeb2" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>Const_MapOrHashMap_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1aac4269d009633c050b5836ee91f7e4e3" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>Const_MapOrHashMap_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a82103400443e2a4bb30b49fb75dfecd6" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>Const_MapOrHashMap_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a2f917ccc282ad9e7c93dd8c6f4c9a127" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>Const_MapOrHashMap_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a82205eac64735db9077fb1364f22dca9" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>Const_MapOrHashMap_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1adda28a1088bd37b746c3886aa823f255" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>createHashMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a924f0ffc1d06be7c9857bfdeb2ab11e3" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>createMap</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1afb2656d90bb2a84e30893ac69553f6df" prot="protected" virt="virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MapOrHashMap__MRFaceId__MRFaceId_1a8b8e6eb5225b583964596275a1d69a73" prot="public" virt="virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ae36b29639a3413d1bd552400f3ed683c" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>getHashMap</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a6b7b958c87c7c834ed459fc99c710364" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>getMap</name></member>
       <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ac4f5f7b4c1a7d101b1f291d7ebef60d0" prot="package" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>MapOrHashMap_MRFaceId_MRFaceId</name></member>

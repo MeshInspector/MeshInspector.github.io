@@ -151,21 +151,31 @@ $(function(){initNavTree('classMR_1_1IFastWindingNumberByParts.html','','classMR
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
  <div class="center">
-  <img src="classMR_1_1IFastWindingNumberByParts.png" alt=""/>
- </div></div>
+  <img src="classMR_1_1IFastWindingNumberByParts.png" usemap="#MR_2EIFastWindingNumberByParts_map" alt=""/>
+  <map id="MR_2EIFastWindingNumberByParts_map" name="MR_2EIFastWindingNumberByParts_map">
+<area href="classMR_1_1Const__IFastWindingNumberByParts.html" title="Abstract class that complements IFastWindingNumber with chunked processing variants of its methods Ge..." alt="MR.Const_IFastWindingNumberByParts" shape="rect" coords="122,56,356,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9e1bbdeec36e5fe078a532d171681959" id="r_a9e1bbdeec36e5fe078a532d171681959"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e1bbdeec36e5fe078a532d171681959">calcFromGridByParts</a> (MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromStdVectorFloatRvalueRefConstMRVector3iRefInt resFunc, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> gridToMeshXf, float beta, int layerOverlap, MR.Std.Const_Function_Bool_From_Float cb)</td></tr>
-<tr class="memdesc:a9e1bbdeec36e5fe078a532d171681959"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
-<tr class="memitem:ae986caad43d62a9e8b6605580abd04e5" id="r_ae986caad43d62a9e8b6605580abd04e5"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae986caad43d62a9e8b6605580abd04e5">calcFromGridWithDistancesByParts</a> (MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromStdVectorFloatRvalueRefConstMRVector3iRefInt resFunc, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> gridToMeshXf, MR.Const_DistanceToMeshOptions options, int layerOverlap, MR.Std.Const_Function_Bool_From_Float cb)</td></tr>
-<tr class="memdesc:ae986caad43d62a9e8b6605580abd04e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
+<tr class="memitem:a1956106d30f3ea809c3f88b7bfb2bf93" id="r_a1956106d30f3ea809c3f88b7bfb2bf93"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1956106d30f3ea809c3f88b7bfb2bf93">calcFromGridByParts</a> (MR.Std._ByValue_Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int resFunc, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> gridToMeshXf, float beta, int layerOverlap, MR.Std.Const_Function_Bool_From_Float cb)</td></tr>
+<tr class="memdesc:a1956106d30f3ea809c3f88b7bfb2bf93"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
+<tr class="memitem:a7c927c1d7e88c4521631c2181856d27e" id="r_a7c927c1d7e88c4521631c2181856d27e"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c927c1d7e88c4521631c2181856d27e">calcFromGridWithDistancesByParts</a> (MR.Std._ByValue_Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int resFunc, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> gridToMeshXf, <a class="el" href="classMR_1_1Const__DistanceToMeshOptions.html">MR.Const_DistanceToMeshOptions</a> options, int layerOverlap, MR.Std.Const_Function_Bool_From_Float cb)</td></tr>
+<tr class="memdesc:a7c927c1d7e88c4521631c2181856d27e"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
+<tr class="inherit_header pub_methods_classMR_1_1Const__IFastWindingNumberByParts"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1Const__IFastWindingNumberByParts')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classMR_1_1Const__IFastWindingNumberByParts.html">MR.Const_IFastWindingNumberByParts</a></td></tr>
+<tr class="memitem:a301a32532a2c8849f0d4d17454400209 inherit pub_methods_classMR_1_1Const__IFastWindingNumberByParts" id="r_a301a32532a2c8849f0d4d17454400209"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__IFastWindingNumberByParts.html#a301a32532a2c8849f0d4d17454400209">Dispose</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_classMR_1_1Const__IFastWindingNumberByParts"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_classMR_1_1Const__IFastWindingNumberByParts')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Protected Member Functions inherited from <a class="el" href="classMR_1_1Const__IFastWindingNumberByParts.html">MR.Const_IFastWindingNumberByParts</a></td></tr>
+<tr class="memitem:aea303205c61fa7127ed84a8884c134db inherit pro_methods_classMR_1_1Const__IFastWindingNumberByParts" id="r_aea303205c61fa7127ed84a8884c134db"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Const__IFastWindingNumberByParts.html#aea303205c61fa7127ed84a8884c134db">Dispose</a> (bool disposing)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract class that complements <a class="el" href="classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a> with chunked processing variants of its methods Generated from class <span class="tt"><a class="el" href="classMR_1_1IFastWindingNumberByParts.html" title="Abstract class that complements IFastWindingNumber with chunked processing variants of its methods Ge...">MR.IFastWindingNumberByParts</a></span>. Derived classes: Direct: (non-virtual) <span class="tt"><a class="el" href="classMR_1_1Cuda_1_1FastWindingNumber.html" title="the class for fast approximate computation of winding number for a mesh (using its AABB tree) Generat...">MR.Cuda.FastWindingNumber</a></span> This is the non-const half of the class. </p>
 </div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a9e1bbdeec36e5fe078a532d171681959" name="a9e1bbdeec36e5fe078a532d171681959"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e1bbdeec36e5fe078a532d171681959">&#9670;&#160;</a></span>calcFromGridByParts()</h2>
+<a id="a1956106d30f3ea809c3f88b7bfb2bf93" name="a1956106d30f3ea809c3f88b7bfb2bf93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1956106d30f3ea809c3f88b7bfb2bf93">&#9670;&#160;</a></span>calcFromGridByParts()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176,7 +186,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.IFastWindingNumberByParts.calcFromGridByParts </td>
           <td>(</td>
-          <td class="paramtype">MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromStdVectorFloatRvalueRefConstMRVector3iRefInt</td>          <td class="paramname"><span class="paramname"><em>resFunc</em></span>, </td>
+          <td class="paramtype">MR.Std._ByValue_Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int</td>          <td class="paramname"><span class="paramname"><em>resFunc</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -214,20 +224,19 @@ Public Member Functions</h2></td></tr>
 <p>calculates winding numbers in each point from a three-dimensional grid </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">resFunc</td><td>callback that gets a block of resulting winding numbers</td></tr>
-    <tr><td class="paramname">dims</td><td>dimensions of the grid</td></tr>
-    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame</td></tr>
-    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more</td></tr>
-    <tr><td class="paramname">layerOverlap</td><td>overlap between two blocks of the grid, set as XY layer count</td></tr>
+    <tr><td class="paramname">resFunc</td><td>callback that gets a block of resulting winding numbers </td></tr>
+    <tr><td class="paramname">dims</td><td>dimensions of the grid </td></tr>
+    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame </td></tr>
+    <tr><td class="paramname">beta</td><td>determines the precision of the approximation: the more the better, recommended value 2 or more </td></tr>
+    <tr><td class="paramname">layerOverlap</td><td>overlap between two blocks of the grid, set as XY layer count Generated from method <span class="tt"><a class="el" href="#a1956106d30f3ea809c3f88b7bfb2bf93" title="calculates winding numbers in each point from a three-dimensional grid">MR.IFastWindingNumberByParts.calcFromGridByParts</a></span>. </td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <span class="tt"><a class="el" href="#a9e1bbdeec36e5fe078a532d171681959" title="calculates winding numbers in each point from a three-dimensional grid">MR.IFastWindingNumberByParts.calcFromGridByParts</a></span>. </p>
 
 </div>
 </div>
-<a id="ae986caad43d62a9e8b6605580abd04e5" name="ae986caad43d62a9e8b6605580abd04e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae986caad43d62a9e8b6605580abd04e5">&#9670;&#160;</a></span>calcFromGridWithDistancesByParts()</h2>
+<a id="a7c927c1d7e88c4521631c2181856d27e" name="a7c927c1d7e88c4521631c2181856d27e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c927c1d7e88c4521631c2181856d27e">&#9670;&#160;</a></span>calcFromGridWithDistancesByParts()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,7 +247,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">unsafe void MR.IFastWindingNumberByParts.calcFromGridWithDistancesByParts </td>
           <td>(</td>
-          <td class="paramtype">MR.Std._ByValue_Function_ExpectedVoidStdStringFuncFromStdVectorFloatRvalueRefConstMRVector3iRefInt</td>          <td class="paramname"><span class="paramname"><em>resFunc</em></span>, </td>
+          <td class="paramtype">MR.Std._ByValue_Function_ExpectedVoidStdString_From_StdVectorFloatRvalueRef_ConstMRVector3iRef_Int</td>          <td class="paramname"><span class="paramname"><em>resFunc</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -253,7 +262,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR.Const_DistanceToMeshOptions</td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__DistanceToMeshOptions.html">MR.Const_DistanceToMeshOptions</a></td>          <td class="paramname"><span class="paramname"><em>options</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -276,14 +285,13 @@ Public Member Functions</h2></td></tr>
 <p>calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">resFunc</td><td>callback that gets a block of resulting winding numbers</td></tr>
-    <tr><td class="paramname">dims</td><td>dimensions of the grid</td></tr>
-    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame</td></tr>
-    <tr><td class="paramname">layerOverlap</td><td>overlap between two blocks of the grid, set as XY layer count</td></tr>
+    <tr><td class="paramname">resFunc</td><td>callback that gets a block of resulting winding numbers </td></tr>
+    <tr><td class="paramname">dims</td><td>dimensions of the grid </td></tr>
+    <tr><td class="paramname">gridToMeshXf</td><td>transform from integer grid locations to voxel's centers in mesh reference frame </td></tr>
+    <tr><td class="paramname">layerOverlap</td><td>overlap between two blocks of the grid, set as XY layer count Generated from method <span class="tt"><a class="el" href="#a7c927c1d7e88c4521631c2181856d27e" title="calculates distances with the sign obtained from generalized winding number in each point from a thre...">MR.IFastWindingNumberByParts.calcFromGridWithDistancesByParts</a></span>. </td></tr>
   </table>
   </dd>
 </dl>
-<p>Generated from method <span class="tt"><a class="el" href="#ae986caad43d62a9e8b6605580abd04e5" title="calculates distances with the sign obtained from generalized winding number in each point from a thre...">MR.IFastWindingNumberByParts.calcFromGridWithDistancesByParts</a></span>. </p>
 
 </div>
 </div>

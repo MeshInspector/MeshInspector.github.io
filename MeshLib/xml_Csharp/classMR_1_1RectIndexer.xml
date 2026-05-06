@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RectIndexer" kind="class" language="C#" prot="public">
     <compoundname>MR::RectIndexer</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_RectIndexer</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__RectIndexer" prot="public" virt="non-virtual">MR.Const_RectIndexer</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1RectIndexer_1a03ab49244938e8adbc8b09e3bf9b5de1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>RectIndexer</name>
         <qualifiedname>MR.RectIndexer.RectIndexer</qualifiedname>
         <param>
-          <type>MR.Const_RectIndexer</type>
+          <type><ref refid="classMR_1_1Const__RectIndexer" kindref="compound">MR.Const_RectIndexer</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -107,7 +107,7 @@
         <name>assign</name>
         <qualifiedname>MR.RectIndexer.assign</qualifiedname>
         <param>
-          <type>MR.Const_RectIndexer</type>
+          <type><ref refid="classMR_1_1Const__RectIndexer" kindref="compound">MR.Const_RectIndexer</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -161,7 +161,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>a class for converting 2D integer coordinates into 1D linear coordinates and backward Generated from class <computeroutput><ref refid="classMR_1_1RectIndexer" kindref="compound">MR.RectIndexer</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1DistanceMap" kindref="compound">MR.DistanceMap</ref></computeroutput> <computeroutput>MR::Matrix&amp;amp;lt;float&amp;amp;gt;</computeroutput> This is the non-const half of the class. </para>
+<para>a class for converting 2D integer coordinates into 1D linear coordinates and backward Generated from class <computeroutput><ref refid="classMR_1_1RectIndexer" kindref="compound">MR.RectIndexer</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1DistanceMap" kindref="compound">MR.DistanceMap</ref></computeroutput> <computeroutput>MR::Matrix&amp;lt;float&amp;gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -174,6 +174,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RectIndexer</label>
+        <link refid="classMR_1_1Const__RectIndexer"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -195,6 +196,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RectIndexer</label>
+        <link refid="classMR_1_1Const__RectIndexer"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -209,7 +211,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRectIndexer.cs" line="213" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRectIndexer.cs" bodystart="214" bodyend="285"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__RectIndexer_1a26ba0cf69b94f0e1dc1d92aa160a8aed" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>areNeigbors</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a16d2ad37b3844b72d07c29d7f5451ddb" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>areNeigbors</name></member>
       <member refid="classMR_1_1RectIndexer_1a320c5f45653d5d1ebff32d13ca5db2db" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1ac804bb50d27d340dad2f335c32fca512" prot="package" virt="non-virtual"><scope>MR::RectIndexer</scope><name>Const_RectIndexer</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1ad90b89acea7e050f9e4cbe596c6b5cf4" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>Const_RectIndexer</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a1046dea32b87bbaeaf6a4eddfc55bdda" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>Const_RectIndexer</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a065466dd69d1a3f78659e086fd81bfd0" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>Const_RectIndexer</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a8bacb9ff18447d680441a6880ddb0b9e" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>Const_RectIndexer</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a96202ab6f3211bb76ca47f6088a697c6" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>dims</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a581841d98cf522d7c6f7f2176c17b854" prot="protected" virt="virtual"><scope>MR::RectIndexer</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a537808d3e1f384d6ec76b3218aa44785" prot="public" virt="virtual"><scope>MR::RectIndexer</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1aed45be26daca21af98e411f6129d6f4d" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a1f501ba688144e542b7ed9294c759cbb" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a67c578125e474c01b81e1c3383c2f547" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>operator Const_RectIndexer</name></member>
       <member refid="classMR_1_1RectIndexer_1a2fd9aeda7975cda737ca0af51abb31c1" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>operator RectIndexer</name></member>
       <member refid="classMR_1_1RectIndexer_1a03ab49244938e8adbc8b09e3bf9b5de1" prot="package" virt="non-virtual"><scope>MR::RectIndexer</scope><name>RectIndexer</name></member>
       <member refid="classMR_1_1RectIndexer_1aaade34a3fb7a2c857f510fe790b579ba" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>RectIndexer</name></member>
@@ -217,6 +232,11 @@
       <member refid="classMR_1_1RectIndexer_1a9a8fe9fd16fe2a6b5f7a5db41227ff47" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>RectIndexer</name></member>
       <member refid="classMR_1_1RectIndexer_1a59ae113b31f2a918e5c85bdcf9593efc" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>RectIndexer</name></member>
       <member refid="classMR_1_1RectIndexer_1a1c86a4b8850368f0ce7e6b4ed448a6a8" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a750bf83d59351789aee3fe708c8e9c73" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1aab704587249eaa783ca60b50bc886adf" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>toIndex</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a0d8dd2f3b349c1c83319c77438384c54" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>toPixelId</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1ae647ed717117bb9380e31d68cddf5f43" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>toPos</name></member>
+      <member refid="classMR_1_1Const__RectIndexer_1a5945e0c44574b4cff6705ac54922aaec" prot="public" virt="non-virtual"><scope>MR::RectIndexer</scope><name>toPos</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AllLocalTriangulations" kind="class" language="C#" prot="public">
     <compoundname>MR::AllLocalTriangulations</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AllLocalTriangulations</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AllLocalTriangulations" prot="public" virt="non-virtual">MR.Const_AllLocalTriangulations</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1AllLocalTriangulations_1ac17d8e95cef23c0ffc93da55cbc7c410" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Buffer__MRVertId" kindref="compound">MR.Buffer_MRVertId</ref></type>
@@ -149,6 +149,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AllLocalTriangulations</label>
+        <link refid="classMR_1_1Const__AllLocalTriangulations"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -170,6 +171,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AllLocalTriangulations</label>
+        <link refid="classMR_1_1Const__AllLocalTriangulations"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -189,6 +191,12 @@
       <member refid="classMR_1_1AllLocalTriangulations_1a81b136ff0fb13698a804619e51164024" prot="public" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>AllLocalTriangulations</name></member>
       <member refid="classMR_1_1AllLocalTriangulations_1a1b9cd903ada3e761764e31d8ac09accb" prot="public" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>AllLocalTriangulations</name></member>
       <member refid="classMR_1_1AllLocalTriangulations_1aeb8fb255c32c5ac4202037088bd3aa34" prot="public" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1ad876baa7aa1eee5e4ba6182cdd69c034" prot="package" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>Const_AllLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1ade530919e7eed86c3f38f9861327cb2f" prot="public" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>Const_AllLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1ad486c6d2a0c9df07eb05256bb3031ce7" prot="public" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>Const_AllLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1a6e5de51511cce5fd478e60dbfd638591" prot="public" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>Const_AllLocalTriangulations</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1adfcbe19e861a19e5f0a7bbb3763797da" prot="protected" virt="virtual"><scope>MR::AllLocalTriangulations</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AllLocalTriangulations_1ac3233d1cbe782345aef9694878f5c840" prot="public" virt="virtual"><scope>MR::AllLocalTriangulations</scope><name>Dispose</name></member>
       <member refid="classMR_1_1AllLocalTriangulations_1a8fbc72ea15447226ec93fc4c72311dab" prot="public" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>fanRecords</name></member>
       <member refid="classMR_1_1AllLocalTriangulations_1ac17d8e95cef23c0ffc93da55cbc7c410" prot="public" virt="non-virtual"><scope>MR::AllLocalTriangulations</scope><name>neighbors</name></member>
     </listofallmembers>

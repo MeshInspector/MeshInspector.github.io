@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreeBase__MRObjTreeTraits" kind="class" language="C#" prot="public">
     <compoundname>MR::AABBTreeBase_MRObjTreeTraits</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreeBase_MRObjTreeTraits</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits" prot="public" virt="non-virtual">MR.Const_AABBTreeBase_MRObjTreeTraits</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1AABBTreeBase__MRObjTreeTraits_1a71a0dfec8daa653c2337329bb090c73c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;amp;gt;::AABBTreeBase</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;::AABBTreeBase</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -69,11 +69,11 @@
         <name>AABBTreeBase_MRObjTreeTraits</name>
         <qualifiedname>MR.AABBTreeBase_MRObjTreeTraits.AABBTreeBase_MRObjTreeTraits</qualifiedname>
         <param>
-          <type>Const_AABBTreeBase_MRObjTreeTraits</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits" kindref="compound">Const_AABBTreeBase_MRObjTreeTraits</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;amp;gt;::AABBTreeBase</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;::AABBTreeBase</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,7 +92,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;amp;gt;::AABBTreeBase</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;::AABBTreeBase</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -111,7 +111,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::AABBTreeBase&amp;amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -130,7 +130,7 @@
           <declname>leafMap</declname>
         </param>
         <briefdescription>
-<para>fills map: LeafId -&amp;gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput>MR::AABBTreeBase&amp;amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;amp;gt;<ref refid="classMR_1_1AABBTreeBase__MRObjTreeTraits_1a0b35a3f8130a478733a099f2a7fd9e21" kindref="member">getLeafOrderAndReset</ref></computeroutput>. </para>
+<para>fills map: LeafId -&gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;<ref refid="classMR_1_1AABBTreeBase__MRObjTreeTraits_1a0b35a3f8130a478733a099f2a7fd9e21" kindref="member">getLeafOrderAndReset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -140,7 +140,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>base class for most AABB-trees (except for <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>) Generated from class <computeroutput>MR::AABBTreeBase&amp;amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1AABBTreeObjects" kindref="compound">MR.AABBTreeObjects</ref></computeroutput> This is the non-const half of the class. </para>
+<para>base class for most AABB-trees (except for <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>) Generated from class <computeroutput>MR::AABBTreeBase&amp;lt;<ref refid="classMR_1_1ObjTreeTraits" kindref="compound">MR.ObjTreeTraits</ref>&amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1AABBTreeObjects" kindref="compound">MR.AABBTreeObjects</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -153,6 +153,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeBase_MRObjTreeTraits</label>
+        <link refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -174,6 +175,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeBase_MRObjTreeTraits</label>
+        <link refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -194,7 +196,24 @@
       <member refid="classMR_1_1AABBTreeBase__MRObjTreeTraits_1a6afb8bc956db6cf2d02191d88cf1db4e" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>AABBTreeBase_MRObjTreeTraits</name></member>
       <member refid="classMR_1_1AABBTreeBase__MRObjTreeTraits_1a1bf77a6b75598565da4b969cfe079a94" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>AABBTreeBase_MRObjTreeTraits</name></member>
       <member refid="classMR_1_1AABBTreeBase__MRObjTreeTraits_1ad48339dd1b86753eb3ebb2e0ed81dfdd" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a3c16517f885d8d979b7aff5092e22530" prot="package" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>Const_AABBTreeBase_MRObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a08af00e88651090a8c702669ba289148" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>Const_AABBTreeBase_MRObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1af901dc7c7b07d7db34512a8f4f6e25bf" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>Const_AABBTreeBase_MRObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a2fc97b1fd074735bf27a619c798e8abb" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>Const_AABBTreeBase_MRObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a76a577b8fe5ad3ffaa267c4dd124b71f" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>Const_AABBTreeBase_MRObjTreeTraits</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1abccb3883b171ac6cc47e4e0efc903563" prot="protected" virt="virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a2fa2cd33325a582f536f20f9630acd4b" prot="public" virt="virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a98e5499961508b7f33ea6c0f1a1e1853" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1ac82d2a09cf944bb6ffe6734c7b4bd123" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>getLeafOrder</name></member>
       <member refid="classMR_1_1AABBTreeBase__MRObjTreeTraits_1a0b35a3f8130a478733a099f2a7fd9e21" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1aa09cee8390205dcca219f339735cf8c8" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>getNodesFromLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a47970da626cb8c91276664c24c4b2cb8" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>getSubtreeLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a9891d9aecbd2f0576d2e613c50b4a2bf" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>getSubtrees</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1a5e2372f0655fcd9009d0e58672e53de3" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1aa0bf9821201343e9cc22f1dcc2be9b48" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>nodes</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1af6bd6ee0415a6c7ba32314e925443c29" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>numLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1ae6f7c574a8443b8f33b2d9c9db7a3b07" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>rootNodeId</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRObjTreeTraits_1ae40c038d377c1605290c4a32eaecba79" prot="public" virt="non-virtual"><scope>MR::AABBTreeBase_MRObjTreeTraits</scope><name>this[MR.NodeId nid]</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

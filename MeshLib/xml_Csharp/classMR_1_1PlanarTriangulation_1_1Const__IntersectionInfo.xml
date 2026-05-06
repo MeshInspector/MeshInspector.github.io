@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo" kind="class" language="C#" prot="public">
+    <compoundname>MR::PlanarTriangulation::Const_IntersectionInfo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo" prot="public" virt="non-virtual">MR.PlanarTriangulation.IntersectionInfo</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1af4c29a123e2ed48743ca145156d6dbbe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe ref readonly MR.VertId MR.PlanarTriangulation.Const_IntersectionInfo.lOrg</definition>
+        <argsstring></argsstring>
+        <name>lOrg</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.lOrg</qualifiedname>
+        <briefdescription>
+<para>if lDest is invalid then lOrg is id of input vertex ids of lower intersection edge vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="42" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a348e0202ba7907d4be3bb1d703ef7600" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe ref readonly MR.VertId MR.PlanarTriangulation.Const_IntersectionInfo.lDest</definition>
+        <argsstring></argsstring>
+        <name>lDest</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.lDest</qualifiedname>
+        <briefdescription>
+<para>if lDest is invalid then lOrg is id of input vertex ids of lower intersection edge vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="49" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a3c046be68e6824e01ace54b38fa70784" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe ref readonly MR.VertId MR.PlanarTriangulation.Const_IntersectionInfo.uOrg</definition>
+        <argsstring></argsstring>
+        <name>uOrg</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.uOrg</qualifiedname>
+        <briefdescription>
+<para>ids of upper intersection edge vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="55" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a030dd0d3d6e8ee96e87a11438a61df74" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe ref readonly MR.VertId MR.PlanarTriangulation.Const_IntersectionInfo.uDest</definition>
+        <argsstring></argsstring>
+        <name>uDest</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.uDest</qualifiedname>
+        <briefdescription>
+<para>ids of upper intersection edge vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="61" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1ab2a11ee6c4d7158ff985ef64ffebdb97" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.PlanarTriangulation.Const_IntersectionInfo.lRatio</definition>
+        <argsstring></argsstring>
+        <name>lRatio</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.lRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="67" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1ad15ee38c08ec604599bcbbad5ba9006c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.PlanarTriangulation.Const_IntersectionInfo.uRatio</definition>
+        <argsstring></argsstring>
+        <name>uRatio</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.uRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="72" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a250f60da9618048e5f3e9352497ad447" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> *</type>
+        <definition>unsafe MR.VertId* MR.PlanarTriangulation.Const_IntersectionInfo.__ref_storage_lOrg</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_lOrg</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.__ref_storage_lOrg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="43" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1acb50390e50464d25169b12249451977c" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> *</type>
+        <definition>unsafe MR.VertId* MR.PlanarTriangulation.Const_IntersectionInfo.__ref_storage_lDest</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_lDest</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.__ref_storage_lDest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="50" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a1c7c8a9f9f86e156bcc2889f1fa6963d" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> *</type>
+        <definition>unsafe MR.VertId* MR.PlanarTriangulation.Const_IntersectionInfo.__ref_storage_uOrg</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_uOrg</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.__ref_storage_uOrg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="56" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a530a8821d78c47e5377c011a112b83ad" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> *</type>
+        <definition>unsafe MR.VertId* MR.PlanarTriangulation.Const_IntersectionInfo.__ref_storage_uDest</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_uDest</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.__ref_storage_uDest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="62" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a014ebf5fae6c672a7efc3f0d7d69f95f" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.PlanarTriangulation.Const_IntersectionInfo.__ref_storage_lRatio</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_lRatio</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.__ref_storage_lRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="68" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a2720f7761cd220d2a736c069aac236e1" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.PlanarTriangulation.Const_IntersectionInfo.__ref_storage_uRatio</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_uRatio</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.__ref_storage_uRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="73" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a4a336c34aa06cd2efba15cefabfc921c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.PlanarTriangulation.Const_IntersectionInfo.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="26" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="26" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a5ebc137d6e74af3782bf3a32f87feb50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.PlanarTriangulation.Const_IntersectionInfo.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="35" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a1d7aaae6b931f2d439e784eecd2c495c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlanarTriangulation.Const_IntersectionInfo.Const_IntersectionInfo</definition>
+        <argsstring>()</argsstring>
+        <name>Const_IntersectionInfo</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.Const_IntersectionInfo</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="130" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="130" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1ac6570905ea4042b593390857f0f84cbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlanarTriangulation.Const_IntersectionInfo.Const_IntersectionInfo</definition>
+        <argsstring>(MR.VertId lOrg, MR.VertId lDest, MR.VertId uOrg, MR.VertId uDest, float lRatio, float uRatio)</argsstring>
+        <name>Const_IntersectionInfo</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.Const_IntersectionInfo</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>lOrg</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>lDest</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>uOrg</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>uDest</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>uRatio</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo" kindref="compound">MR.PlanarTriangulation.IntersectionInfo</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="141" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="141" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1ab3af7646fa270984474295e37e2b09a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlanarTriangulation.Const_IntersectionInfo.Const_IntersectionInfo</definition>
+        <argsstring>(MR.PlanarTriangulation.Const_IntersectionInfo _other)</argsstring>
+        <name>Const_IntersectionInfo</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.Const_IntersectionInfo</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo" kindref="compound">MR.PlanarTriangulation.Const_IntersectionInfo</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a6e55b3847d5caf14e724517856d9ea5a" kindref="member">MR.PlanarTriangulation.IntersectionInfo.IntersectionInfo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="152" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="152" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a1cc311d6eb3ceb07dd42866856e61c96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PlanarTriangulation.Const_IntersectionInfo.Const_IntersectionInfo</definition>
+        <argsstring>(IntersectionInfo _other)</argsstring>
+        <name>Const_IntersectionInfo</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.Const_IntersectionInfo</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo" kindref="compound">IntersectionInfo</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo_1a6e55b3847d5caf14e724517856d9ea5a" kindref="member">MR.PlanarTriangulation.IntersectionInfo.IntersectionInfo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="164" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="164" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a68bbe6e1d60cad034ffa1e92e3505f9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PlanarTriangulation.Const_IntersectionInfo.isIntersection</definition>
+        <argsstring>()</argsstring>
+        <name>isIntersection</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.isIntersection</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a68bbe6e1d60cad034ffa1e92e3505f9c" kindref="member">MR.PlanarTriangulation.IntersectionInfo.isIntersection</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="169" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="169" bodyend="174"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a6c3fdf32a4363fd6244a3ba5f02184ca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PlanarTriangulation.Const_IntersectionInfo.~Const_IntersectionInfo</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_IntersectionInfo</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.~Const_IntersectionInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="36" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a0f17e2e079784b48c29d9d98141f08ac" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlanarTriangulation.Const_IntersectionInfo.Const_IntersectionInfo</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_IntersectionInfo</name>
+        <qualifiedname>MR.PlanarTriangulation.Const_IntersectionInfo.Const_IntersectionInfo</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="119" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="119" bodyend="124"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Info about intersection point for mapping Generated from class <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo" kindref="compound">MR.PlanarTriangulation.IntersectionInfo</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.PlanarTriangulation.Const_IntersectionInfo</label>
+        <link refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PlanarTriangulation.IntersectionInfo</label>
+        <link refid="classMR_1_1PlanarTriangulation_1_1IntersectionInfo"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.PlanarTriangulation.Const_IntersectionInfo</label>
+        <link refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_lDest</edgelabel>
+          <edgelabel>__ref_storage_lOrg</edgelabel>
+          <edgelabel>__ref_storage_uDest</edgelabel>
+          <edgelabel>__ref_storage_uOrg</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="20" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="21" bodyend="175"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1acb50390e50464d25169b12249451977c" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>__ref_storage_lDest</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a250f60da9618048e5f3e9352497ad447" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>__ref_storage_lOrg</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a014ebf5fae6c672a7efc3f0d7d69f95f" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>__ref_storage_lRatio</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a530a8821d78c47e5377c011a112b83ad" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>__ref_storage_uDest</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a1c7c8a9f9f86e156bcc2889f1fa6963d" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>__ref_storage_uOrg</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a2720f7761cd220d2a736c069aac236e1" prot="protected" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>__ref_storage_uRatio</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a0f17e2e079784b48c29d9d98141f08ac" prot="package" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>Const_IntersectionInfo</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a1d7aaae6b931f2d439e784eecd2c495c" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>Const_IntersectionInfo</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1ac6570905ea4042b593390857f0f84cbc" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>Const_IntersectionInfo</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1ab3af7646fa270984474295e37e2b09a8" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>Const_IntersectionInfo</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a1cc311d6eb3ceb07dd42866856e61c96" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>Const_IntersectionInfo</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a4a336c34aa06cd2efba15cefabfc921c" prot="protected" virt="virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a5ebc137d6e74af3782bf3a32f87feb50" prot="public" virt="virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a68bbe6e1d60cad034ffa1e92e3505f9c" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>isIntersection</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a348e0202ba7907d4be3bb1d703ef7600" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>lDest</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1af4c29a123e2ed48743ca145156d6dbbe" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>lOrg</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1ab2a11ee6c4d7158ff985ef64ffebdb97" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>lRatio</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a030dd0d3d6e8ee96e87a11438a61df74" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>uDest</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a3c046be68e6824e01ace54b38fa70784" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>uOrg</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1ad15ee38c08ec604599bcbbad5ba9006c" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>uRatio</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1Const__IntersectionInfo_1a6c3fdf32a4363fd6244a3ba5f02184ca" prot="private" virt="non-virtual"><scope>MR::PlanarTriangulation::Const_IntersectionInfo</scope><name>~Const_IntersectionInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

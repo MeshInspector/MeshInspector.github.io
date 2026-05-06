@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__BooleanResultMapper_1_1__ByValue__Maps" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_BooleanResultMapper::_ByValue_Maps</compoundname>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__BooleanResultMapper_1_1__ByValue__Maps_1a8a342e92c5e270e9a498533b374b028b" prot="package" static="no" mutable="no">
+        <type>readonly? <ref refid="classMR_1_1Const__BooleanResultMapper_1_1Const__Maps" kindref="compound">Const_Maps</ref></type>
+        <definition>readonly? Const_Maps MR.Const_BooleanResultMapper._ByValue_Maps.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <qualifiedname>MR.Const_BooleanResultMapper._ByValue_Maps.Value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="519" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="519" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__BooleanResultMapper_1_1__ByValue__Maps_1a8167fcf0da9adb7a68d0a9edb7411b2c" prot="package" static="no" mutable="no">
+        <type>readonly MR.Misc._PassBy</type>
+        <definition>readonly MR.Misc._PassBy MR.Const_BooleanResultMapper._ByValue_Maps.PassByMode</definition>
+        <argsstring></argsstring>
+        <name>PassByMode</name>
+        <qualifiedname>MR.Const_BooleanResultMapper._ByValue_Maps.PassByMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="521" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="521" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This is used as a function parameter when the underlying function receives <computeroutput><ref refid="classMR_1_1Const__BooleanResultMapper_1_1Maps" kindref="compound">Maps</ref></computeroutput> by value. Usage: </para>
+    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>Pass <computeroutput>new()</computeroutput> to default-construct the instance.</para>
+</listitem><listitem><para>Pass an instance of <computeroutput><ref refid="classMR_1_1Const__BooleanResultMapper_1_1Maps" kindref="compound">Maps</ref></computeroutput>/<computeroutput><ref refid="classMR_1_1Const__BooleanResultMapper_1_1Const__Maps" kindref="compound">Const_Maps</ref></computeroutput> to copy it into the function.</para>
+</listitem><listitem><para>Pass <computeroutput>Move(instance)</computeroutput> to move it into the function. This is a more efficient form of copying that might invalidate the input object. Be careful if your input isn't a unique reference to this object.</para>
+</listitem><listitem><para>Pass <computeroutput>null</computeroutput> to use the default argument, assuming the parameter has a default argument (has <computeroutput>?</computeroutput> in the type). </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_BooleanResultMapper._ByValue_Maps</label>
+        <link refid="classMR_1_1Const__BooleanResultMapper_1_1__ByValue__Maps"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Value</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>PassByMode</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_BooleanResultMapper.Const_Maps</label>
+        <link refid="classMR_1_1Const__BooleanResultMapper_1_1Const__Maps"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="516" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="517" bodyend="527"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1_1__ByValue__Maps_1a8167fcf0da9adb7a68d0a9edb7411b2c" prot="package" virt="non-virtual"><scope>MR::Const_BooleanResultMapper::_ByValue_Maps</scope><name>PassByMode</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1_1__ByValue__Maps_1a8a342e92c5e270e9a498533b374b028b" prot="package" virt="non-virtual"><scope>MR::Const_BooleanResultMapper::_ByValue_Maps</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CloudPartMapping" kind="class" language="C#" prot="public">
     <compoundname>MR::CloudPartMapping</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_CloudPartMapping</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__CloudPartMapping" prot="public" virt="non-virtual">MR.Const_CloudPartMapping</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1CloudPartMapping_1a069aabcb425b4ebfecd39aa867e4a664" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertMap" kindref="compound">VertMap</ref></type>
@@ -103,7 +103,7 @@
         <name>CloudPartMapping</name>
         <qualifiedname>MR.CloudPartMapping.CloudPartMapping</qualifiedname>
         <param>
-          <type>MR.Const_CloudPartMapping</type>
+          <type><ref refid="classMR_1_1Const__CloudPartMapping" kindref="compound">MR.Const_CloudPartMapping</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.CloudPartMapping.assign</qualifiedname>
         <param>
-          <type>MR.Const_CloudPartMapping</type>
+          <type><ref refid="classMR_1_1Const__CloudPartMapping" kindref="compound">MR.Const_CloudPartMapping</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CloudPartMapping</label>
+        <link refid="classMR_1_1Const__CloudPartMapping"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.CloudPartMapping</label>
         <link refid="classMR_1_1CloudPartMapping"/>
@@ -189,9 +194,14 @@
       </node>
       <node id="2">
         <label>MR.Const_CloudPartMapping</label>
+        <link refid="classMR_1_1Const__CloudPartMapping"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_src2tgtVerts</edgelabel>
+          <edgelabel>__ptr_storage_tgt2srcVerts</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,12 +213,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" line="133" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" bodystart="134" bodyend="222"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__CloudPartMapping_1ac732b40106747a1c45ab435868bfdc24" prot="protected" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>__ptr_storage_src2tgtVerts</name></member>
+      <member refid="classMR_1_1Const__CloudPartMapping_1adca33672101ba61d2af99f456414440f" prot="protected" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>__ptr_storage_tgt2srcVerts</name></member>
       <member refid="classMR_1_1CloudPartMapping_1a0308b6582834199db16ca2186404585a" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>assign</name></member>
       <member refid="classMR_1_1CloudPartMapping_1abb615cfa0565012cea32bbd64093f39f" prot="package" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>CloudPartMapping</name></member>
       <member refid="classMR_1_1CloudPartMapping_1a55754082cc4185434fc9adb8633eda4c" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>CloudPartMapping</name></member>
       <member refid="classMR_1_1CloudPartMapping_1aebe4a327b85f9d3b28c2b24e0134108b" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>CloudPartMapping</name></member>
       <member refid="classMR_1_1CloudPartMapping_1a8622cc9ad8301b1f4bed603b21b52ecb" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>CloudPartMapping</name></member>
       <member refid="classMR_1_1CloudPartMapping_1a58eedd1b9f9cd58d15b27d820f25d1eb" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>CloudPartMapping</name></member>
+      <member refid="classMR_1_1Const__CloudPartMapping_1aa1ffb599e7c07826cacdd033e8fef17b" prot="package" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>Const_CloudPartMapping</name></member>
+      <member refid="classMR_1_1Const__CloudPartMapping_1a7daae85ffdcdc34fabf1db8dabd427ca" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>Const_CloudPartMapping</name></member>
+      <member refid="classMR_1_1Const__CloudPartMapping_1a7dc8aad5c766598e66450dde29ce4218" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>Const_CloudPartMapping</name></member>
+      <member refid="classMR_1_1Const__CloudPartMapping_1aca150d2a6c27613a24dd3cc651fdb164" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>Const_CloudPartMapping</name></member>
+      <member refid="classMR_1_1Const__CloudPartMapping_1a7127216d413a28472fde867f0f0913dd" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>Const_CloudPartMapping</name></member>
+      <member refid="classMR_1_1Const__CloudPartMapping_1a3061cb2380a5570a663116fadf9f8754" prot="protected" virt="virtual"><scope>MR::CloudPartMapping</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CloudPartMapping_1a7b4c0a7f91532d12d936c2c1a8075542" prot="public" virt="virtual"><scope>MR::CloudPartMapping</scope><name>Dispose</name></member>
       <member refid="classMR_1_1CloudPartMapping_1a069aabcb425b4ebfecd39aa867e4a664" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>src2tgtVerts</name></member>
       <member refid="classMR_1_1CloudPartMapping_1a55165fbba68279c43c624618a17caa58" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>tgt2srcVerts</name></member>
     </listofallmembers>

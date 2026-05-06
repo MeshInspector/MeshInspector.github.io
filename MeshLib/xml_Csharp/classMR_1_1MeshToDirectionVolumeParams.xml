@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshToDirectionVolumeParams" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshToDirectionVolumeParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshToDirectionVolumeParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshToDirectionVolumeParams" prot="public" virt="non-virtual">MR.Const_MeshToDirectionVolumeParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshToDirectionVolumeParams_1a534460c00f89b9d779836977e877931c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1DistanceVolumeParams" kindref="compound">MR.DistanceVolumeParams</ref></type>
@@ -98,7 +98,7 @@
           <declname>vol</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceToMeshOptions</type>
+          <type><ref refid="classMR_1_1Const__DistanceToMeshOptions" kindref="compound">MR.Const_DistanceToMeshOptions</ref></type>
           <declname>dist</declname>
         </param>
         <param>
@@ -140,7 +140,7 @@
         <name>MeshToDirectionVolumeParams</name>
         <qualifiedname>MR.MeshToDirectionVolumeParams.MeshToDirectionVolumeParams</qualifiedname>
         <param>
-          <type>Const_MeshToDirectionVolumeParams</type>
+          <type><ref refid="classMR_1_1Const__MeshToDirectionVolumeParams" kindref="compound">Const_MeshToDirectionVolumeParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -205,6 +205,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshToDirectionVolumeParams</label>
+        <link refid="classMR_1_1Const__MeshToDirectionVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -226,6 +227,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshToDirectionVolumeParams</label>
+        <link refid="classMR_1_1Const__MeshToDirectionVolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -241,6 +243,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" line="703" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRMeshToDistanceVolume.cs" bodystart="704" bodyend="808"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshToDirectionVolumeParams_1ac1046bba8f69f0b1a5a9452d9714b819" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1a1311ba077ab859610833aa7acced8a41" prot="package" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>Const_MeshToDirectionVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1a70b07bf1f86c117401ca46383e8aa49a" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>Const_MeshToDirectionVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1a3e7c023a85b645fce499908b67ff2df9" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>Const_MeshToDirectionVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1a153c503470995615f9ecb3053e0786ae" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>Const_MeshToDirectionVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1aa954821546c6cd3a133e72d409d9dfe9" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>Const_MeshToDirectionVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1ab7bc01167e9a5933cb8793747d912f82" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>Const_MeshToDirectionVolumeParams</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1a6601b5ed27eea32a2992281b4cf83e87" prot="protected" virt="virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshToDirectionVolumeParams_1aa359cc1d5953a699f1759d02fcfbba2d" prot="public" virt="virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshToDirectionVolumeParams_1ab9c750d592a82ea8f9e4f47daa8535bd" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>dist</name></member>
       <member refid="classMR_1_1MeshToDirectionVolumeParams_1a3a3934dbb896a57bf0cdee63fb868bbe" prot="package" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>MeshToDirectionVolumeParams</name></member>
       <member refid="classMR_1_1MeshToDirectionVolumeParams_1a276365cea822a1e4cc22ad06d13758b9" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>MeshToDirectionVolumeParams</name></member>

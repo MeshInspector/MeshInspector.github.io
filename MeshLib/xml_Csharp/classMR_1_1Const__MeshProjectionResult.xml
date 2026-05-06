@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MeshProjectionResult" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MeshProjectionResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MeshProjectionResult" prot="public" virt="non-virtual">MR.MeshProjectionResult</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__MeshProjectionResult_1acb4f070fbfc0e3fb7a2e316574d28434" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
+        <definition>unsafe MR.Const_PointOnFace MR.Const_MeshProjectionResult.proj</definition>
+        <argsstring></argsstring>
+        <name>proj</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.proj</qualifiedname>
+        <briefdescription>
+<para>the closest point on mesh, transformed by xf if it is given </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="28" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshProjectionResult_1a171f0518155e1f6acf5f405affa5e0ed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+        <definition>unsafe MR.Const_MeshTriPoint MR.Const_MeshProjectionResult.mtp</definition>
+        <argsstring></argsstring>
+        <name>mtp</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.mtp</qualifiedname>
+        <briefdescription>
+<para>its barycentric representation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="33" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MeshProjectionResult_1aaa45891273daa0dcba8e0b6f66febd1d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MeshProjectionResult.distSq</definition>
+        <argsstring></argsstring>
+        <name>distSq</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.distSq</qualifiedname>
+        <briefdescription>
+<para>squared distance from original projected point to proj </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="38" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__MeshProjectionResult_1a9dc3f92f04a3efa5a50260558cf08e92" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_MeshProjectionResult.__ref_storage_distSq</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_distSq</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.__ref_storage_distSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="39" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionResult_1ad0ad74fcc5d079d7d7a753c1c9763d91" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MeshProjectionResult.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionResult_1abdf26409481e76f9e00b7f48ff17272f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MeshProjectionResult.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionResult_1a69bbd2441e739b76e140b91f3a66ae28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshProjectionResult.Const_MeshProjectionResult</definition>
+        <argsstring>()</argsstring>
+        <name>Const_MeshProjectionResult</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.Const_MeshProjectionResult</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="80" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionResult_1a49573dc4e0caa6e85b0270e0d14e2a7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshProjectionResult.Const_MeshProjectionResult</definition>
+        <argsstring>(MR.Const_PointOnFace proj, MR.Const_MeshTriPoint mtp, float distSq)</argsstring>
+        <name>Const_MeshProjectionResult</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.Const_MeshProjectionResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointOnFace" kindref="compound">MR.Const_PointOnFace</ref></type>
+          <declname>proj</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTriPoint" kindref="compound">MR.Const_MeshTriPoint</ref></type>
+          <declname>mtp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distSq</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MeshProjectionResult" kindref="compound">MR.MeshProjectionResult</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="91" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="91" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionResult_1a063369ecbc6feaed19ad54ee24d8207a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshProjectionResult.Const_MeshProjectionResult</definition>
+        <argsstring>(MR.Const_MeshProjectionResult _other)</argsstring>
+        <name>Const_MeshProjectionResult</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.Const_MeshProjectionResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshProjectionResult" kindref="compound">MR.Const_MeshProjectionResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshProjectionResult_1a751457aa2de847d39b666525bfb5c509" kindref="member">MR.MeshProjectionResult.MeshProjectionResult</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="104" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="104" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionResult_1ad50c355bfc7b0e8424e7e257df4ff22f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshProjectionResult.Const_MeshProjectionResult</definition>
+        <argsstring>(MeshProjectionResult _other)</argsstring>
+        <name>Const_MeshProjectionResult</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.Const_MeshProjectionResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshProjectionResult_1a751457aa2de847d39b666525bfb5c509" kindref="member">MR.MeshProjectionResult.MeshProjectionResult</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="116" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionResult_1ad2a44b0abc110154e62a998390200d44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_MeshProjectionResult.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.valid</qualifiedname>
+        <briefdescription>
+<para>check for validity, otherwise the projection was not found Generated from method <computeroutput><ref refid="classMR_1_1Const__MeshProjectionResult_1ad2a44b0abc110154e62a998390200d44" kindref="member">MR.MeshProjectionResult.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="132" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="132" bodyend="137"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionResult_1a8707e93ec48db794fd29f751c3b2695b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MeshProjectionResult.~Const_MeshProjectionResult</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_MeshProjectionResult</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.~Const_MeshProjectionResult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionResult_1a70138ad39cc3d30478e10fc668350455" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MeshProjectionResult.Const_MeshProjectionResult</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_MeshProjectionResult</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.Const_MeshProjectionResult</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="69" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="69" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__MeshProjectionResult_1abe59cdbaaf7f82d2322682ffe0795bb1" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_MeshProjectionResult.operator bool</definition>
+        <argsstring>(MR.Const_MeshProjectionResult _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Const_MeshProjectionResult.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshProjectionResult" kindref="compound">MR.Const_MeshProjectionResult</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::MeshProjectionResult::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="121" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="121" bodyend="126"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MeshProjectionResult" kindref="compound">MR.MeshProjectionResult</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MeshProjectionResult</label>
+        <link refid="classMR_1_1Const__MeshProjectionResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.MeshProjectionResult</label>
+        <link refid="classMR_1_1MeshProjectionResult"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_MeshProjectionResult</label>
+        <link refid="classMR_1_1Const__MeshProjectionResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshProject.cs" bodystart="8" bodyend="138"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1a9dc3f92f04a3efa5a50260558cf08e92" prot="protected" virt="non-virtual"><scope>MR::Const_MeshProjectionResult</scope><name>__ref_storage_distSq</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1a70138ad39cc3d30478e10fc668350455" prot="package" virt="non-virtual"><scope>MR::Const_MeshProjectionResult</scope><name>Const_MeshProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1a69bbd2441e739b76e140b91f3a66ae28" prot="public" virt="non-virtual"><scope>MR::Const_MeshProjectionResult</scope><name>Const_MeshProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1a49573dc4e0caa6e85b0270e0d14e2a7b" prot="public" virt="non-virtual"><scope>MR::Const_MeshProjectionResult</scope><name>Const_MeshProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1a063369ecbc6feaed19ad54ee24d8207a" prot="public" virt="non-virtual"><scope>MR::Const_MeshProjectionResult</scope><name>Const_MeshProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1ad50c355bfc7b0e8424e7e257df4ff22f" prot="public" virt="non-virtual"><scope>MR::Const_MeshProjectionResult</scope><name>Const_MeshProjectionResult</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1ad0ad74fcc5d079d7d7a753c1c9763d91" prot="protected" virt="virtual"><scope>MR::Const_MeshProjectionResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1abdf26409481e76f9e00b7f48ff17272f" prot="public" virt="virtual"><scope>MR::Const_MeshProjectionResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1aaa45891273daa0dcba8e0b6f66febd1d" prot="public" virt="non-virtual"><scope>MR::Const_MeshProjectionResult</scope><name>distSq</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1a171f0518155e1f6acf5f405affa5e0ed" prot="public" virt="non-virtual"><scope>MR::Const_MeshProjectionResult</scope><name>mtp</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1abe59cdbaaf7f82d2322682ffe0795bb1" prot="public" virt="non-virtual"><scope>MR::Const_MeshProjectionResult</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1acb4f070fbfc0e3fb7a2e316574d28434" prot="public" virt="non-virtual"><scope>MR::Const_MeshProjectionResult</scope><name>proj</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1ad2a44b0abc110154e62a998390200d44" prot="public" virt="non-virtual"><scope>MR::Const_MeshProjectionResult</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__MeshProjectionResult_1a8707e93ec48db794fd29f751c3b2695b" prot="private" virt="non-virtual"><scope>MR::Const_MeshProjectionResult</scope><name>~Const_MeshProjectionResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

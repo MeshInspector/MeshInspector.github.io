@@ -1,7 +1,7 @@
 var classMR_1_1DecimatePolylineSettings__MRVector2f =
 [
     [ "DecimatePolylineSettings_MRVector2f", "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a2bcfc0595393ab797145d7dc8b9a4fd3", null ],
-    [ "DecimatePolylineSettings_MRVector2f", "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a871f00e5a14ea840ef59d21d51cc995e", null ],
+    [ "DecimatePolylineSettings_MRVector2f", "classMR_1_1DecimatePolylineSettings__MRVector2f.html#ab6010aa81701c87eb89077abe5c8dbc6", null ],
     [ "DecimatePolylineSettings_MRVector2f", "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a9c9f1f420981e4c2cba1f7d339dc3625", null ],
     [ "DecimatePolylineSettings_MRVector2f", "classMR_1_1DecimatePolylineSettings__MRVector2f.html#ae26af5dd9f5c2adaa4f86362ec70cb64", null ],
     [ "DecimatePolylineSettings_MRVector2f", "classMR_1_1DecimatePolylineSettings__MRVector2f.html#a091322056865ca6e2db6e05f31ef02d6", null ],

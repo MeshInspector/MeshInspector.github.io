@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Cone3d" kind="class" language="C#" prot="public">
     <compoundname>MR::Cone3d</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Cone3d</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Cone3d" prot="public" virt="non-virtual">MR.Const_Cone3d</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Cone3d_1ae2106e1a40f559342b1b9b466752ba58" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Line3d" kindref="compound">MR.Line3d</ref></type>
@@ -94,7 +94,7 @@
         <name>Cone3d</name>
         <qualifiedname>MR.Cone3d.Cone3d</qualifiedname>
         <param>
-          <type>MR.Const_Cone3d</type>
+          <type><ref refid="classMR_1_1Const__Cone3d" kindref="compound">MR.Const_Cone3d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -132,7 +132,7 @@
         <name>Cone3d</name>
         <qualifiedname>MR.Cone3d.Cone3d</qualifiedname>
         <param>
-          <type>MR.Const_Line3d</type>
+          <type><ref refid="classMR_1_1Const__Line3d" kindref="compound">MR.Const_Line3d</ref></type>
           <declname>inAxis</declname>
         </param>
         <param>
@@ -159,7 +159,7 @@
         <name>assign</name>
         <qualifiedname>MR.Cone3d.assign</qualifiedname>
         <param>
-          <type>MR.Const_Cone3d</type>
+          <type><ref refid="classMR_1_1Const__Cone3d" kindref="compound">MR.Const_Cone3d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -231,6 +231,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Cone3d</label>
+        <link refid="classMR_1_1Const__Cone3d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -252,6 +253,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Cone3d</label>
+        <link refid="classMR_1_1Const__Cone3d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -266,6 +268,8 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" line="492" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCone3.cs" bodystart="493" bodyend="615"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Cone3d_1a44752756a6871aeb72d4e35d32b357e0" prot="protected" virt="non-virtual"><scope>MR::Cone3d</scope><name>__ref_storage_angle</name></member>
+      <member refid="classMR_1_1Const__Cone3d_1ab3cf2bdc7c52a02644f86ce3929cc6f2" prot="protected" virt="non-virtual"><scope>MR::Cone3d</scope><name>__ref_storage_height</name></member>
       <member refid="classMR_1_1Cone3d_1ae3f86e27266b8bd379fa39c5b118aad9" prot="public" virt="non-virtual"><scope>MR::Cone3d</scope><name>angle</name></member>
       <member refid="classMR_1_1Cone3d_1ad3a03f64d43f1356227af5300abbf7e5" prot="public" virt="non-virtual"><scope>MR::Cone3d</scope><name>apex</name></member>
       <member refid="classMR_1_1Cone3d_1a6acf97626f23b715b8fc4d6f12c6993c" prot="public" virt="non-virtual"><scope>MR::Cone3d</scope><name>assign</name></member>
@@ -276,8 +280,16 @@
       <member refid="classMR_1_1Cone3d_1a80847962780104e2e9ccd64bb7be2923" prot="public" virt="non-virtual"><scope>MR::Cone3d</scope><name>Cone3d</name></member>
       <member refid="classMR_1_1Cone3d_1a84c71531a7fb7f4b86552982e60833eb" prot="public" virt="non-virtual"><scope>MR::Cone3d</scope><name>Cone3d</name></member>
       <member refid="classMR_1_1Cone3d_1a43f5410538a6149c06e50a4a889338fa" prot="public" virt="non-virtual"><scope>MR::Cone3d</scope><name>Cone3d</name></member>
+      <member refid="classMR_1_1Const__Cone3d_1a57f0f395b3248709d7a56f5dd17c220b" prot="package" virt="non-virtual"><scope>MR::Cone3d</scope><name>Const_Cone3d</name></member>
+      <member refid="classMR_1_1Const__Cone3d_1a9b80471ff5446e63ccb8c656be6c7dbd" prot="public" virt="non-virtual"><scope>MR::Cone3d</scope><name>Const_Cone3d</name></member>
+      <member refid="classMR_1_1Const__Cone3d_1aa56fc8a8d15d6bdc3d59b9bc5e93487c" prot="public" virt="non-virtual"><scope>MR::Cone3d</scope><name>Const_Cone3d</name></member>
+      <member refid="classMR_1_1Const__Cone3d_1a5985a80aeebb8145a017ef970709796e" prot="public" virt="non-virtual"><scope>MR::Cone3d</scope><name>Const_Cone3d</name></member>
+      <member refid="classMR_1_1Const__Cone3d_1ac6bb186a8d31ccf63718ed09eadbb246" prot="public" virt="non-virtual"><scope>MR::Cone3d</scope><name>Const_Cone3d</name></member>
       <member refid="classMR_1_1Cone3d_1ac3738fb43eb91145d753f311375efe37" prot="public" virt="non-virtual"><scope>MR::Cone3d</scope><name>direction</name></member>
+      <member refid="classMR_1_1Const__Cone3d_1af5cf7e39560d8b99cc26a1945829623d" prot="protected" virt="virtual"><scope>MR::Cone3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Cone3d_1a5687e57445880bff130ca01d9cc7e509" prot="public" virt="virtual"><scope>MR::Cone3d</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Cone3d_1aedf7797cd3af241ab9db961a172ed35b" prot="public" virt="non-virtual"><scope>MR::Cone3d</scope><name>height</name></member>
+      <member refid="classMR_1_1Const__Cone3d_1af11d3f0f0e2f6a65827b65ba0be40ec4" prot="public" virt="non-virtual"><scope>MR::Cone3d</scope><name>projectPoint</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoDefInit__MRTextureId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoDefInit_MRTextureId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MRTextureId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoDefInit__MRTextureId" prot="public" virt="non-virtual">MR.Const_NoDefInit_MRTextureId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1NoDefInit__MRTextureId_1ab5cd0326dec745bf040fb6922dd2f740" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -86,11 +86,11 @@
         <name>NoDefInit_MRTextureId</name>
         <qualifiedname>MR.NoDefInit_MRTextureId.NoDefInit_MRTextureId</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRTextureId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRTextureId" kindref="compound">MR.Const_NoDefInit_MRTextureId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;::NoDefInit</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -109,7 +109,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;::NoDefInit</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,11 +124,11 @@
         <name>assign</name>
         <qualifiedname>MR.NoDefInit_MRTextureId.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRTextureId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRTextureId" kindref="compound">MR.Const_NoDefInit_MRTextureId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,7 +143,7 @@
         <name>get</name>
         <qualifiedname>MR.NoDefInit_MRTextureId.get</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;<ref refid="classMR_1_1NoDefInit__MRTextureId_1a7d341dea5d7e9f148e1307b7d030dc23" kindref="member">get</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;<ref refid="classMR_1_1NoDefInit__MRTextureId_1a7d341dea5d7e9f148e1307b7d030dc23" kindref="member">get</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -162,7 +162,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;::operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -181,7 +181,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;::operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -191,7 +191,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -204,6 +204,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRTextureId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRTextureId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -230,6 +231,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRTextureId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRTextureId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -249,16 +251,32 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3492" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3493" bodyend="3584"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a3ffda4a36bdcccbf601317ec10df0adc" prot="protected" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>__ref_storage_id</name></member>
       <member refid="classMR_1_1NoDefInit__MRTextureId_1a604636c27cd89937d1a7df4f0142d627" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>addAssign</name></member>
       <member refid="classMR_1_1NoDefInit__MRTextureId_1a17d2ade382a6e94388032c48bc53a8cd" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a604939d2a3034f0744f66625c6caa448" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>Const_NoDefInit_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a5a5d6fdd1e5796ebca11d256724c62a4" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>Const_NoDefInit_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a80aaff4c6061a399d5d91cf066cd95b6" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>Const_NoDefInit_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1ac336cb53a5089554f33d921be70f83e9" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>Const_NoDefInit_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a1b749e0eea5d9cbeacfc53ae79ce9e15" prot="protected" virt="virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1aadfbde0e6e3c82b225c44cdcf627124c" prot="public" virt="virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a41a2eb50bccf04859c96af76ee4e21cb" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a2abc06c1ba6db9173c788a0983d5713e" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>Equals</name></member>
       <member refid="classMR_1_1NoDefInit__MRTextureId_1a7d341dea5d7e9f148e1307b7d030dc23" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>get</name></member>
       <member refid="classMR_1_1NoDefInit__MRTextureId_1ab5cd0326dec745bf040fb6922dd2f740" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>id</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1af072565dabb58f5b76e2997445c58063" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>less</name></member>
       <member refid="classMR_1_1NoDefInit__MRTextureId_1a9ee55a43b8e2c45c8473eba88923e243" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>NoDefInit_MRTextureId</name></member>
       <member refid="classMR_1_1NoDefInit__MRTextureId_1ac4e6b515b1551d0007bf5c9403bb8b0a" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>NoDefInit_MRTextureId</name></member>
       <member refid="classMR_1_1NoDefInit__MRTextureId_1ac5ad1308ab31a787ec0de3debb6d4b9c" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>NoDefInit_MRTextureId</name></member>
       <member refid="classMR_1_1NoDefInit__MRTextureId_1a576a8c59041d7e09192c3b8d7d981b32" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>NoDefInit_MRTextureId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1ab43e6750cda8c95edb336044b94164e1" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a8753cc5ea85c8758249b5dea8fa7919e" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>operator int</name></member>
       <member refid="classMR_1_1NoDefInit__MRTextureId_1a0519d36fa8f55a80ee50f57ba49dc98a" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>operator MR.Box_TextureId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1abf4c968aa6bcd8ddc0032a938d1700c9" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>operator MR.ConstBox_TextureId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1aa8b2e615f78a35967400ea69fffb3aac" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1aabcbaae88f385cdbe645a744646e6411" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>operator==</name></member>
       <member refid="classMR_1_1NoDefInit__MRTextureId_1a3a1d566b5438a89b2c0a02bed762328d" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRTextureId_1a360745c0514e6146f407b72f92c3a09f" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRTextureId</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

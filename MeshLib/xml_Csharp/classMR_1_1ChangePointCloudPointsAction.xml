@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangePointCloudPointsAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangePointCloudPointsAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangePointCloudPointsAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangePointCloudPointsAction" prot="public" virt="non-virtual">MR.Const_ChangePointCloudPointsAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangePointCloudPointsAction_1a164a147693101c1bbfb6e12b45a445ca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangePointCloudPointsAction</name>
         <qualifiedname>MR.ChangePointCloudPointsAction.ChangePointCloudPointsAction</qualifiedname>
         <param>
-          <type>Const_ChangePointCloudPointsAction</type>
+          <type><ref refid="classMR_1_1Const__ChangePointCloudPointsAction" kindref="compound">Const_ChangePointCloudPointsAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangePointCloudPointsAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -226,6 +226,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangePointCloudPointsAction</label>
+        <link refid="classMR_1_1Const__ChangePointCloudPointsAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -247,6 +248,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangePointCloudPointsAction</label>
+        <link refid="classMR_1_1Const__ChangePointCloudPointsAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -269,8 +271,21 @@
       <member refid="classMR_1_1ChangePointCloudPointsAction_1a8654d9d0db6f94a1645f02b10787f77b" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>ChangePointCloudPointsAction</name></member>
       <member refid="classMR_1_1ChangePointCloudPointsAction_1adb0f8be110e1889775bfe343b6f3537d" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>ChangePointCloudPointsAction</name></member>
       <member refid="classMR_1_1ChangePointCloudPointsAction_1a787247bace822ebfd9e0f69722de95b1" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>ChangePointCloudPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudPointsAction_1aa18b5464fcc50f79f0001461c26d79c1" prot="package" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>Const_ChangePointCloudPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudPointsAction_1a5ce67ee12770dd4e370b2149ebad5291" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>Const_ChangePointCloudPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudPointsAction_1a334233eafb4a77c097278abb134e376b" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>Const_ChangePointCloudPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudPointsAction_1a62b8fff2a04035873312f396a4d5d565" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>Const_ChangePointCloudPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudPointsAction_1a400e33dce6895fcc8ff5530c6725973f" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>Const_ChangePointCloudPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudPointsAction_1a644cdeba4213b65e17bf03b24e09b60b" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>Const_ChangePointCloudPointsAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudPointsAction_1a71bce957e7c69f76a6ee493d14f51057" prot="protected" virt="virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudPointsAction_1a1e3a558f56d4ad4616a95ea024f4c34e" prot="public" virt="virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudPointsAction_1a933376757f48f9dd17f0d903e46d922a" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudPointsAction_1a0a4452365760865206974ac946ee272c" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangePointCloudPointsAction_1a0f12e2e260780309de6a2fb2887c3d1b" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>operator ChangePointCloudPointsAction?</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudPointsAction_1ae664b55f67598c8eada630313903ddd2" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>operator Const_ChangePointCloudPointsAction?</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudPointsAction_1a68a58419baa90123c3c0d10b3ed11535" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangePointCloudPointsAction_1a164a147693101c1bbfb6e12b45a445ca" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangePointCloudPointsAction_1af12b37f9d7822bf7b00e514fd20bc3dc" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudPointsAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

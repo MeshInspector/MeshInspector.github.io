@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ICPGroupPairs" kind="class" language="C#" prot="public">
     <compoundname>MR::ICPGroupPairs</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ICPGroupPairs</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ICPGroupPairs" prot="public" virt="non-virtual">MR.Const_ICPGroupPairs</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ICPGroupPairs_1a50186eaa3f6cc6c83c3e4f1c30fe9361" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MRICPGroupPair</type>
@@ -153,7 +153,7 @@
         <name>ICPGroupPairs</name>
         <qualifiedname>MR.ICPGroupPairs.ICPGroupPairs</qualifiedname>
         <param>
-          <type>Const_ICPGroupPairs</type>
+          <type><ref refid="classMR_1_1Const__ICPGroupPairs" kindref="compound">Const_ICPGroupPairs</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -218,6 +218,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ICPGroupPairs</label>
+        <link refid="classMR_1_1Const__ICPGroupPairs"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -239,6 +240,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ICPGroupPairs</label>
+        <link refid="classMR_1_1Const__ICPGroupPairs"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -255,13 +257,23 @@
     <listofallmembers>
       <member refid="classMR_1_1ICPGroupPairs_1a7458077233a8c0b22c4824bc7dd6776b" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>active</name></member>
       <member refid="classMR_1_1ICPGroupPairs_1a412ff87c4c87eeea9536eca8e9d217c3" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a07ca07b1bf16b7cf62f75ba496811f99" prot="package" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>Const_ICPGroupPairs</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a14ab4ac889026677c2f8555fa12c0879" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>Const_ICPGroupPairs</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a24361bfac2d3929e1a2afc50b7c54f37" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>Const_ICPGroupPairs</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a3985b9b418a13a6ad6ea6478b0360332" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>Const_ICPGroupPairs</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1ad7dcecac1587dc24ccc3bee2a5569831" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>Const_ICPGroupPairs</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a5dcc0c47b41b49b7bbb664d76403c643" prot="protected" virt="virtual"><scope>MR::ICPGroupPairs</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a4cacb225416bb54c231541976d1b619d" prot="public" virt="virtual"><scope>MR::ICPGroupPairs</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ICPGroupPairs_1ac244fd0185ace675087bc45220a105e8" prot="package" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>ICPGroupPairs</name></member>
       <member refid="classMR_1_1ICPGroupPairs_1aba428f719340e54cf566bb1dd4de4406" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>ICPGroupPairs</name></member>
       <member refid="classMR_1_1ICPGroupPairs_1abb6c719fac6c609d3851511eb6ccf32b" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>ICPGroupPairs</name></member>
       <member refid="classMR_1_1ICPGroupPairs_1aae740a50fcaa6a0ca0ee7fb98681ca30" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>ICPGroupPairs</name></member>
       <member refid="classMR_1_1ICPGroupPairs_1a1b7c24086897f9dcd2519cbae2db64c3" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>ICPGroupPairs</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1ae566c2ceb0324c7075eb51242475a566" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>operator Const_ICPGroupPairs?</name></member>
       <member refid="classMR_1_1ICPGroupPairs_1a476796d5c24fd164ff117d8ed4916393" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>operator ICPGroupPairs?</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1ae035a81af0872704602f66c16e75dc94" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>operator MR.Const_IPointPairs</name></member>
       <member refid="classMR_1_1ICPGroupPairs_1ae464ca42d66eeb68b34f021f77672afa" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>operator MR.IPointPairs</name></member>
+      <member refid="classMR_1_1Const__ICPGroupPairs_1a54175d0fd405b2198574be161452b098" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>size</name></member>
       <member refid="classMR_1_1ICPGroupPairs_1a06b8e43ce31799f051efa9f1d4eea387" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>this[ulong idx]</name></member>
       <member refid="classMR_1_1ICPGroupPairs_1a50186eaa3f6cc6c83c3e4f1c30fe9361" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>vec</name></member>
     </listofallmembers>

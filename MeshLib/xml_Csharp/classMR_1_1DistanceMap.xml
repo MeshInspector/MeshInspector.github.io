@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DistanceMap" kind="class" language="C#" prot="public">
     <compoundname>MR::DistanceMap</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DistanceMap</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DistanceMap" prot="public" virt="non-virtual">MR.Const_DistanceMap</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1DistanceMap_1a66333727f1594e35ca2a0e0a52426a23" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -29,7 +29,7 @@
         <name>operator DistanceMap</name>
         <qualifiedname>MR.DistanceMap.operator DistanceMap</qualifiedname>
         <param>
-          <type>MR.Const_Matrix_Float</type>
+          <type><ref refid="classMR_1_1Const__Matrix__Float" kindref="compound">MR.Const_Matrix_Float</ref></type>
           <declname>m</declname>
         </param>
         <briefdescription>
@@ -108,7 +108,7 @@
         <name>DistanceMap</name>
         <qualifiedname>MR.DistanceMap.DistanceMap</qualifiedname>
         <param>
-          <type>Const_DistanceMap</type>
+          <type><ref refid="classMR_1_1Const__DistanceMap" kindref="compound">Const_DistanceMap</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -169,7 +169,7 @@
         <name>DistanceMap</name>
         <qualifiedname>MR.DistanceMap.DistanceMap</qualifiedname>
         <param>
-          <type>MR.Const_Matrix_Float</type>
+          <type><ref refid="classMR_1_1Const__Matrix__Float" kindref="compound">MR.Const_Matrix_Float</ref></type>
           <declname>m</declname>
         </param>
         <briefdescription>
@@ -273,13 +273,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="594" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="594" bodyend="599"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1ab5bfcb63732e1abb21c727f5c3ba4b64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Const_DistanceMap</type>
+        <type>unsafe <ref refid="classMR_1_1Const__DistanceMap" kindref="compound">MR.Const_DistanceMap</ref></type>
         <definition>unsafe MR.Const_DistanceMap MR.DistanceMap.mergeMax</definition>
         <argsstring>(MR.Const_DistanceMap rhs)</argsstring>
         <name>mergeMax</name>
         <qualifiedname>MR.DistanceMap.mergeMax</qualifiedname>
         <param>
-          <type>MR.Const_DistanceMap</type>
+          <type><ref refid="classMR_1_1Const__DistanceMap" kindref="compound">MR.Const_DistanceMap</ref></type>
           <declname>rhs</declname>
         </param>
         <briefdescription>
@@ -292,13 +292,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="605" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="605" bodyend="610"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1aef1f9b77285d5180c37681f053d126f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Const_DistanceMap</type>
+        <type>unsafe <ref refid="classMR_1_1Const__DistanceMap" kindref="compound">MR.Const_DistanceMap</ref></type>
         <definition>unsafe MR.Const_DistanceMap MR.DistanceMap.mergeMin</definition>
         <argsstring>(MR.Const_DistanceMap rhs)</argsstring>
         <name>mergeMin</name>
         <qualifiedname>MR.DistanceMap.mergeMin</qualifiedname>
         <param>
-          <type>MR.Const_DistanceMap</type>
+          <type><ref refid="classMR_1_1Const__DistanceMap" kindref="compound">MR.Const_DistanceMap</ref></type>
           <declname>rhs</declname>
         </param>
         <briefdescription>
@@ -311,13 +311,13 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="616" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="616" bodyend="621"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1DistanceMap_1aa55579232aaea120b95c81e83aa4f584" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Const_DistanceMap</type>
+        <type>unsafe <ref refid="classMR_1_1Const__DistanceMap" kindref="compound">MR.Const_DistanceMap</ref></type>
         <definition>unsafe MR.Const_DistanceMap MR.DistanceMap.subAssign</definition>
         <argsstring>(MR.Const_DistanceMap rhs)</argsstring>
         <name>subAssign</name>
         <qualifiedname>MR.DistanceMap.subAssign</qualifiedname>
         <param>
-          <type>MR.Const_DistanceMap</type>
+          <type><ref refid="classMR_1_1Const__DistanceMap" kindref="compound">MR.Const_DistanceMap</ref></type>
           <declname>rhs</declname>
         </param>
         <briefdescription>
@@ -504,6 +504,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DistanceMap</label>
+        <link refid="classMR_1_1Const__DistanceMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -525,6 +526,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DistanceMap</label>
+        <link refid="classMR_1_1Const__DistanceMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -539,9 +541,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" line="470" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMap.cs" bodystart="471" bodyend="723"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DistanceMap_1a4bf2cac99936a105687a263cbd18a3f0" prot="protected" virt="non-virtual"><scope>MR::DistanceMap</scope><name>__ref_storage_NOTVALIDVALUE</name></member>
       <member refid="classMR_1_1DistanceMap_1af8b63e1355a396b9d9b39f7f722363a5" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>assign</name></member>
       <member refid="classMR_1_1DistanceMap_1a6768a0117a817a6436ae70153c7993f5" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a3b462b5b484eed28235a162522a3748b" prot="package" virt="non-virtual"><scope>MR::DistanceMap</scope><name>Const_DistanceMap</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a0bf861091ff4de0c7917a2c58ec70054" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>Const_DistanceMap</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a2996eb7e63484726d63f0fe16086eadc" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>Const_DistanceMap</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1ae16537e53e9f12b4121efb5792eb5f59" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>Const_DistanceMap</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a84e6d9172e5998cafc9bb0bba2863cd1" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>Const_DistanceMap</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a98eb83f9710677e8fc58a4830034286b" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>Const_DistanceMap</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a379b761ec294baf14cca2da25b47434a" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>Const_DistanceMap</name></member>
       <member refid="classMR_1_1DistanceMap_1a0b9807682fa87edeb78c6af72b899665" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1ac600fb0ae58f35f51277108e51eab95c" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>dims</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a6cca14a2a97317429dfacbffa4cab120" prot="protected" virt="virtual"><scope>MR::DistanceMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1ab3d8b1f4b6322c57fe383fb075ba5a7d" prot="public" virt="virtual"><scope>MR::DistanceMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DistanceMap_1a8a9773a181c04a4373ca7d05ce953a0a" prot="package" virt="non-virtual"><scope>MR::DistanceMap</scope><name>DistanceMap</name></member>
       <member refid="classMR_1_1DistanceMap_1af82b21b9e40c4c5fe6a68bca4407d76e" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>DistanceMap</name></member>
       <member refid="classMR_1_1DistanceMap_1a083e273279e285524821ba71e09de012" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>DistanceMap</name></member>
@@ -549,19 +562,47 @@
       <member refid="classMR_1_1DistanceMap_1ab14f86c9b3b9d415144b16d622bb7ada" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>DistanceMap</name></member>
       <member refid="classMR_1_1DistanceMap_1a818f6daa8f1f44a01eed795af1148547" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>DistanceMap</name></member>
       <member refid="classMR_1_1DistanceMap_1ac2af1c0086a2c8135c3b76c4a74abdf4" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>DistanceMap</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1ab5292fb5a02e601810272d0f81e2bc67" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a7e2d37ca341892e7bd981e9e03e99c59" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a2c17de9136e14b23a76949850a7b7182" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>getDerivativeMap</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a932ef365ca10972b981fcbc0b1bfc126" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>getInterpolated</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1af783dac521a329f7452cc1a82c2e67c7" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>getLocalMaximums</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a7bc4f50e61f0a278e5611a9bd99c7322" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>getMaxIndex</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a483dd57b903791ee4d4dc88f1d5ad631" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>getMinIndex</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a420593eb4b252c8f66da083e2deb5c7f" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>getMinMaxValues</name></member>
       <member refid="classMR_1_1DistanceMap_1adb64edb162ee757b79097f42134f9f32" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>getValue</name></member>
       <member refid="classMR_1_1DistanceMap_1a036ff71686fb71aeee9e472402c3ec72" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>getValue</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a888204d37229697c873c4d866b8951c1" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>getXYDerivativeMaps</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a3c43989e0b3c5a0a255fbbafce4a2624" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1DistanceMap_1afd6a696c89f5871907b3f23d73f55550" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>invalidateAll</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1aef6ad386ff27cfba64dd1a0fe7ea12b7" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>isInBounds</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a7b959b0f6c6bfa45484044676a9c1304" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>isInBounds</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1af0e7228d80a865456c1e476acee740e3" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>isValid</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1ac9e7ed23be3dafa992bd1b210358da17" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>isValid</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a32a94bbc49d17d8e4fd014f23793a72c" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>max</name></member>
       <member refid="classMR_1_1DistanceMap_1ab5bfcb63732e1abb21c727f5c3ba4b64" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>mergeMax</name></member>
       <member refid="classMR_1_1DistanceMap_1aef1f9b77285d5180c37681f053d126f6" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>mergeMin</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1abfc0ab92fb0d428d4e9e97c90e4714db" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>min</name></member>
       <member refid="classMR_1_1DistanceMap_1af2d5f4efc513b19939313d87a59d6c37" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>negate</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a07e45fe6874d28cdcf1e45af4274257c" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>NOTVALIDVALUE</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1abd06210d18a5cdf22d00eb06cb619217" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>numPoints</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a14f3803ac7f0eac2cfb91b449a419107" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>operator Const_DistanceMap</name></member>
       <member refid="classMR_1_1DistanceMap_1adb5b3450d11343feda19625755dfd7da" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>operator DistanceMap</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1aa3c297f57245ff303af79e80515efcae" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>operator MR.Const_RectIndexer</name></member>
       <member refid="classMR_1_1DistanceMap_1a66333727f1594e35ca2a0e0a52426a23" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>operator MR.RectIndexer</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1ace3810787a6f6e73324507af716e43e8" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>operator-</name></member>
       <member refid="classMR_1_1DistanceMap_1a29754806c2ec6381f917d332713d1a24" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>resize</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a74756a855a7427158fc45ad3590a4ee9" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>resX</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a7fde80d9d4f1916be2cbe1cea1c6c454" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>resY</name></member>
       <member refid="classMR_1_1DistanceMap_1a0bb96cc8a0437c486c68d7f51b51c759" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>set</name></member>
       <member refid="classMR_1_1DistanceMap_1a7d71c91f8edb3dc341457908c2df1740" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>set</name></member>
       <member refid="classMR_1_1DistanceMap_1aff230a1af41af47022edb93a7b2764f2" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>set</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a5bb4c841375e076936256ce308de2c33" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>size</name></member>
       <member refid="classMR_1_1DistanceMap_1aa55579232aaea120b95c81e83aa4f584" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a2a4f4b54c06428b0ab40afe58a79284c" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>toIndex</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a3e989c24d264703c0a0ffd38174c9a5e" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>toPixelId</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a1add7939a1245c90e22c77c8806622c2" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>unproject</name></member>
+      <member refid="classMR_1_1Const__DistanceMap_1a265aae6df9735feb5e433643056b434a" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>unprojectInterpolated</name></member>
       <member refid="classMR_1_1DistanceMap_1a83e865ea740ab33e70b41bb8168d31ca" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>unset</name></member>
       <member refid="classMR_1_1DistanceMap_1a69da00ffad5210fd96d56bc93eb2420f" prot="public" virt="non-virtual"><scope>MR::DistanceMap</scope><name>unset</name></member>
     </listofallmembers>

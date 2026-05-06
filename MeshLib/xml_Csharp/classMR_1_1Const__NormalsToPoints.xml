@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__NormalsToPoints" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_NormalsToPoints</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1NormalsToPoints" prot="public" virt="non-virtual">MR.NormalsToPoints</derivedcompoundref>
+    <innerclass refid="classMR_1_1Const__NormalsToPoints_1_1Const__ISolver" prot="public">MR::Const_NormalsToPoints::Const_ISolver</innerclass>
+    <innerclass refid="classMR_1_1Const__NormalsToPoints_1_1ISolver" prot="public">MR::Const_NormalsToPoints::ISolver</innerclass>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__NormalsToPoints_1a0fa47af9f1bcefd965503bf67d2fe823" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_NormalsToPoints.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_NormalsToPoints.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" line="15" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__NormalsToPoints_1afebd290c6ba57124afda331e0b077005" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_NormalsToPoints.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_NormalsToPoints.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NormalsToPoints_1aff10a31e44f5b141fb6c0f6c66167d1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NormalsToPoints.Const_NormalsToPoints</definition>
+        <argsstring>()</argsstring>
+        <name>Const_NormalsToPoints</name>
+        <qualifiedname>MR.Const_NormalsToPoints.Const_NormalsToPoints</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" line="32" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NormalsToPoints_1ab21611af8daf6485ffe6cc4ca0fc62d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NormalsToPoints.Const_NormalsToPoints</definition>
+        <argsstring>(MR._ByValue_NormalsToPoints _other)</argsstring>
+        <name>Const_NormalsToPoints</name>
+        <qualifiedname>MR.Const_NormalsToPoints.Const_NormalsToPoints</qualifiedname>
+        <param>
+          <type>MR._ByValue_NormalsToPoints</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1NormalsToPoints_1af0ef4b1417f7e5fb4d3da37ed3bbd547" kindref="member">MR.NormalsToPoints.NormalsToPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" line="42" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__NormalsToPoints_1a52773f42d1cb4b4510e56cabaafe3602" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_NormalsToPoints.~Const_NormalsToPoints</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_NormalsToPoints</name>
+        <qualifiedname>MR.Const_NormalsToPoints.~Const_NormalsToPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__NormalsToPoints_1a326cd6a2dc3731dc8318e1c090e262f4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NormalsToPoints.Const_NormalsToPoints</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_NormalsToPoints</name>
+        <qualifiedname>MR.Const_NormalsToPoints.Const_NormalsToPoints</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" line="27" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The purpose of this class is to update vertex positions given target triangle normals; see the article "Static/Dynamic Filtering for <ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> Geometry" Generated from class <computeroutput><ref refid="classMR_1_1NormalsToPoints" kindref="compound">MR.NormalsToPoints</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_NormalsToPoints</label>
+        <link refid="classMR_1_1Const__NormalsToPoints"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.NormalsToPoints</label>
+        <link refid="classMR_1_1NormalsToPoints"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_NormalsToPoints</label>
+        <link refid="classMR_1_1Const__NormalsToPoints"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNormalsToPoints.cs" bodystart="10" bodyend="139"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__NormalsToPoints_1a326cd6a2dc3731dc8318e1c090e262f4" prot="package" virt="non-virtual"><scope>MR::Const_NormalsToPoints</scope><name>Const_NormalsToPoints</name></member>
+      <member refid="classMR_1_1Const__NormalsToPoints_1aff10a31e44f5b141fb6c0f6c66167d1b" prot="public" virt="non-virtual"><scope>MR::Const_NormalsToPoints</scope><name>Const_NormalsToPoints</name></member>
+      <member refid="classMR_1_1Const__NormalsToPoints_1ab21611af8daf6485ffe6cc4ca0fc62d2" prot="public" virt="non-virtual"><scope>MR::Const_NormalsToPoints</scope><name>Const_NormalsToPoints</name></member>
+      <member refid="classMR_1_1Const__NormalsToPoints_1a0fa47af9f1bcefd965503bf67d2fe823" prot="protected" virt="virtual"><scope>MR::Const_NormalsToPoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NormalsToPoints_1afebd290c6ba57124afda331e0b077005" prot="public" virt="virtual"><scope>MR::Const_NormalsToPoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NormalsToPoints_1a52773f42d1cb4b4510e56cabaafe3602" prot="private" virt="non-virtual"><scope>MR::Const_NormalsToPoints</scope><name>~Const_NormalsToPoints</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

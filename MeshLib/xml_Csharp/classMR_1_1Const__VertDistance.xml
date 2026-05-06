@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VertDistance" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VertDistance</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VertDistance" prot="public" virt="non-virtual">MR.VertDistance</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__VertDistance_1a2acedad7ef555d21965c813f18e12f20" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe ref readonly MR.VertId MR.Const_VertDistance.vert</definition>
+        <argsstring></argsstring>
+        <name>vert</name>
+        <qualifiedname>MR.Const_VertDistance.vert</qualifiedname>
+        <briefdescription>
+<para>vertex in question </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="28" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__VertDistance_1a627a8a9ee7fd9a15f33925df7aa7dbfb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_VertDistance.distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <qualifiedname>MR.Const_VertDistance.distance</qualifiedname>
+        <briefdescription>
+<para>best known distance to reach this vertex </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="34" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__VertDistance_1a10a30816cedaf6739c52dc02385dd4d1" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> *</type>
+        <definition>unsafe MR.VertId* MR.Const_VertDistance.__ref_storage_vert</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_vert</name>
+        <qualifiedname>MR.Const_VertDistance.__ref_storage_vert</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="29" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__VertDistance_1a73b2a31769d296965bb4a69d687511b2" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_VertDistance.__ref_storage_distance</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_distance</name>
+        <qualifiedname>MR.Const_VertDistance.__ref_storage_distance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="35" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertDistance_1a3f9cf031f2bb2fd2fce67819d72ee376" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_VertDistance.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VertDistance.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertDistance_1a40325917cc10699d59fbf7f84fc5d404" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_VertDistance.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VertDistance.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertDistance_1a959f8ccb3123dee78e07f8299fb60593" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertDistance.Const_VertDistance</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VertDistance</name>
+        <qualifiedname>MR.Const_VertDistance.Const_VertDistance</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="68" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="68" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertDistance_1a71a732ec0ba7a52a66ee01660e6ed871" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertDistance.Const_VertDistance</definition>
+        <argsstring>(MR.Const_VertDistance _other)</argsstring>
+        <name>Const_VertDistance</name>
+        <qualifiedname>MR.Const_VertDistance.Const_VertDistance</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertDistance" kindref="compound">MR.Const_VertDistance</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VertDistance_1a05a39b605828e3abe02e49514a3bfdf7" kindref="member">MR.VertDistance.VertDistance</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="79" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="79" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertDistance_1a6933b45ab8e3e086505efc603004d8d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VertDistance.Const_VertDistance</definition>
+        <argsstring>(VertDistance _other)</argsstring>
+        <name>Const_VertDistance</name>
+        <qualifiedname>MR.Const_VertDistance.Const_VertDistance</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertDistance" kindref="compound">VertDistance</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VertDistance_1a05a39b605828e3abe02e49514a3bfdf7" kindref="member">MR.VertDistance.VertDistance</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="91" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertDistance_1ae1b87ce8d674b466b842335ae4dc2724" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertDistance.Const_VertDistance</definition>
+        <argsstring>(MR.VertId v, float d)</argsstring>
+        <name>Const_VertDistance</name>
+        <qualifiedname>MR.Const_VertDistance.Const_VertDistance</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VertDistance_1a05a39b605828e3abe02e49514a3bfdf7" kindref="member">MR.VertDistance.VertDistance</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="96" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="96" bodyend="102"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertDistance_1a540a2d4d5b01e1b0966590043beb798a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VertDistance.~Const_VertDistance</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VertDistance</name>
+        <qualifiedname>MR.Const_VertDistance.~Const_VertDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertDistance_1a19c9f117e5c64dbf669e20cc0001bd07" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertDistance.Const_VertDistance</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VertDistance</name>
+        <qualifiedname>MR.Const_VertDistance.Const_VertDistance</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="57" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="57" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertDistance_1a65fa1c98f8e9303bcd7c56dd115620fe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_VertDistance.operator&lt;</definition>
+        <argsstring>(MR.Const_VertDistance a, MR.Const_VertDistance b)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>MR.Const_VertDistance.operator&lt;</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertDistance" kindref="compound">MR.Const_VertDistance</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertDistance" kindref="compound">MR.Const_VertDistance</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>smaller distance to be the first Generated from function <computeroutput>MR::operator&amp;lt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="108" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="108" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertDistance_1aeff8a59d899579af0b9240e1afba2c2d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_VertDistance.operator&gt;</definition>
+        <argsstring>(MR.Const_VertDistance a, MR.Const_VertDistance b)</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>MR.Const_VertDistance.operator&gt;</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertDistance" kindref="compound">MR.Const_VertDistance</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertDistance" kindref="compound">MR.Const_VertDistance</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="115" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertDistance_1a9cad9ee25e241081f11864bc7a058375" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_VertDistance.operator&lt;=</definition>
+        <argsstring>(MR.Const_VertDistance a, MR.Const_VertDistance b)</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>MR.Const_VertDistance.operator&lt;=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertDistance" kindref="compound">MR.Const_VertDistance</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertDistance" kindref="compound">MR.Const_VertDistance</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="120" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertDistance_1a0d6f3cce27810bc469e5e0f5cd984c22" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_VertDistance.operator&gt;=</definition>
+        <argsstring>(MR.Const_VertDistance a, MR.Const_VertDistance b)</argsstring>
+        <name>operator&gt;=</name>
+        <qualifiedname>MR.Const_VertDistance.operator&gt;=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertDistance" kindref="compound">MR.Const_VertDistance</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertDistance" kindref="compound">MR.Const_VertDistance</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="125" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="125" bodyend="128"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1VertDistance" kindref="compound">MR.VertDistance</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_VertDistance</label>
+        <link refid="classMR_1_1Const__VertDistance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.VertDistance</label>
+        <link refid="classMR_1_1VertDistance"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_VertDistance</label>
+        <link refid="classMR_1_1Const__VertDistance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_vert</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="8" bodyend="129"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VertDistance_1a73b2a31769d296965bb4a69d687511b2" prot="protected" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>__ref_storage_distance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a10a30816cedaf6739c52dc02385dd4d1" prot="protected" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>__ref_storage_vert</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a19c9f117e5c64dbf669e20cc0001bd07" prot="package" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>Const_VertDistance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a959f8ccb3123dee78e07f8299fb60593" prot="public" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>Const_VertDistance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a71a732ec0ba7a52a66ee01660e6ed871" prot="public" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>Const_VertDistance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a6933b45ab8e3e086505efc603004d8d1" prot="public" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>Const_VertDistance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1ae1b87ce8d674b466b842335ae4dc2724" prot="public" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>Const_VertDistance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a3f9cf031f2bb2fd2fce67819d72ee376" prot="protected" virt="virtual"><scope>MR::Const_VertDistance</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a40325917cc10699d59fbf7f84fc5d404" prot="public" virt="virtual"><scope>MR::Const_VertDistance</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a627a8a9ee7fd9a15f33925df7aa7dbfb" prot="public" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>distance</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a65fa1c98f8e9303bcd7c56dd115620fe" prot="public" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>operator&lt;</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a9cad9ee25e241081f11864bc7a058375" prot="public" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>operator&lt;=</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1aeff8a59d899579af0b9240e1afba2c2d" prot="public" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>operator&gt;</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a0d6f3cce27810bc469e5e0f5cd984c22" prot="public" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>operator&gt;=</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a2acedad7ef555d21965c813f18e12f20" prot="public" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>vert</name></member>
+      <member refid="classMR_1_1Const__VertDistance_1a540a2d4d5b01e1b0966590043beb798a" prot="private" virt="non-virtual"><scope>MR::Const_VertDistance</scope><name>~Const_VertDistance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

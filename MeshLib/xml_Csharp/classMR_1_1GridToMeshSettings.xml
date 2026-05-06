@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1GridToMeshSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::GridToMeshSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_GridToMeshSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__GridToMeshSettings" prot="public" virt="non-virtual">MR.Const_GridToMeshSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1GridToMeshSettings_1a8e9279925d5eae288f629bfbee49940c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -149,10 +149,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="572" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="572" bodyend="578"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1GridToMeshSettings_1a79cbde5a0ce2a0ba76887eb0a38ae713" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1GridToMeshSettings_1aabea4a719e879795d881a2d9e90e8750" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.GridToMeshSettings.GridToMeshSettings</definition>
-        <argsstring>(MR.Vector3f voxelSize, float isoValue, float adaptivity, int maxFaces, int maxVertices, bool relaxDisorientedTriangles, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(MR.Vector3f voxelSize, float isoValue, float adaptivity, int maxFaces, int maxVertices, bool relaxDisorientedTriangles, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>GridToMeshSettings</name>
         <qualifiedname>MR.GridToMeshSettings.GridToMeshSettings</qualifiedname>
         <param>
@@ -180,7 +180,7 @@
           <declname>relaxDisorientedTriangles</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -218,7 +218,7 @@
         <name>GridToMeshSettings</name>
         <qualifiedname>MR.GridToMeshSettings.GridToMeshSettings</qualifiedname>
         <param>
-          <type>Const_GridToMeshSettings</type>
+          <type><ref refid="classMR_1_1Const__GridToMeshSettings" kindref="compound">Const_GridToMeshSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -283,6 +283,7 @@
       </node>
       <node id="2">
         <label>MR.Const_GridToMeshSettings</label>
+        <link refid="classMR_1_1Const__GridToMeshSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -296,6 +297,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.GridToMeshSettings</label>
         <link refid="classMR_1_1GridToMeshSettings"/>
@@ -304,9 +309,13 @@
       </node>
       <node id="2">
         <label>MR.Const_GridToMeshSettings</label>
+        <link refid="classMR_1_1Const__GridToMeshSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -318,12 +327,26 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" line="511" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVDBConversions.cs" bodystart="512" bodyend="625"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1a7ae30a481e045ee1da356cb91d947465" prot="protected" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>__ref_storage_adaptivity</name></member>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1a90a0d2623c2fabe2ef760b955c5ed993" prot="protected" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>__ref_storage_isoValue</name></member>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1a25454835dd9d6e0e5b8d51d50354aa81" prot="protected" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>__ref_storage_maxFaces</name></member>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1a3935ca2748ee1b3d986256333dd9f456" prot="protected" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>__ref_storage_maxVertices</name></member>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1a76e6cf92941b8e8f17f61596740699ee" prot="protected" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>__ref_storage_relaxDisorientedTriangles</name></member>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1a3a4fc67ca58d37b4b730cd743f734f58" prot="protected" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1GridToMeshSettings_1a121857b40909855ddf4e329cbb32055b" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>adaptivity</name></member>
       <member refid="classMR_1_1GridToMeshSettings_1af5766fa330ebb77d8b3c2689f03b884d" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>assign</name></member>
       <member refid="classMR_1_1GridToMeshSettings_1a13fd596b0d9ec494985e6170d41d9372" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1a1b3c12a8e813a1ec2fb56b08b404b6a1" prot="package" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>Const_GridToMeshSettings</name></member>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1aa76b3dd0cd754117ae459d1c2748fb6e" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>Const_GridToMeshSettings</name></member>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1abb323f21758d7f380f617d9187ea613e" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>Const_GridToMeshSettings</name></member>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1a11c8061ce574db55e63cdfda25369924" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>Const_GridToMeshSettings</name></member>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1a6201b82c07a5b9d3c248f12a9aeb423d" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>Const_GridToMeshSettings</name></member>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1a7acb1cc277f3fe85fd3096ba101464b8" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>Const_GridToMeshSettings</name></member>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1a4698ac63bc8626259af07446ded26dd2" prot="protected" virt="virtual"><scope>MR::GridToMeshSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GridToMeshSettings_1a667fde96296c57200efdd16ca7b9fce2" prot="public" virt="virtual"><scope>MR::GridToMeshSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1GridToMeshSettings_1aabaf609a8a72eea6bab83ef0030688f7" prot="package" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>GridToMeshSettings</name></member>
       <member refid="classMR_1_1GridToMeshSettings_1a3755177020f1ce5d135b71304d7bae3d" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>GridToMeshSettings</name></member>
-      <member refid="classMR_1_1GridToMeshSettings_1a79cbde5a0ce2a0ba76887eb0a38ae713" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>GridToMeshSettings</name></member>
+      <member refid="classMR_1_1GridToMeshSettings_1aabea4a719e879795d881a2d9e90e8750" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>GridToMeshSettings</name></member>
       <member refid="classMR_1_1GridToMeshSettings_1ac53ef8702a4d873c7d4d4932220fe82c" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>GridToMeshSettings</name></member>
       <member refid="classMR_1_1GridToMeshSettings_1a415d421a868191a95a566bb3e1cba079" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>GridToMeshSettings</name></member>
       <member refid="classMR_1_1GridToMeshSettings_1ac4a546b1910f492043db5ea0acc19e34" prot="public" virt="non-virtual"><scope>MR::GridToMeshSettings</scope><name>GridToMeshSettings</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TriTriDistanceResult__Double" kind="class" language="C#" prot="public">
     <compoundname>MR::TriTriDistanceResult_Double</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TriTriDistanceResult_Double</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TriTriDistanceResult__Double" prot="public" virt="non-virtual">MR.Const_TriTriDistanceResult_Double</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TriTriDistanceResult__Double_1adf279b7e5e2d513333926fa0ddd70f62" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
@@ -56,7 +56,7 @@
         <name>overlap</name>
         <qualifiedname>MR.TriTriDistanceResult_Double.overlap</qualifiedname>
         <briefdescription>
-<para>overlap==true means that the triangles are intersecting and not just touch one another =&amp;gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another </para>
+<para>overlap==true means that the triangles are intersecting and not just touch one another =&gt; distSq == 0 if distSq == 0 and overlap == false, then the triangles just touch one another </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -128,7 +128,7 @@
           <declname>overlap</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR::TriTriDistanceResult&amp;amp;lt;double&amp;amp;gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::TriTriDistanceResult&amp;lt;double&amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,11 +143,11 @@
         <name>TriTriDistanceResult_Double</name>
         <qualifiedname>MR.TriTriDistanceResult_Double.TriTriDistanceResult_Double</qualifiedname>
         <param>
-          <type>MR.Const_TriTriDistanceResult_Double</type>
+          <type><ref refid="classMR_1_1Const__TriTriDistanceResult__Double" kindref="compound">MR.Const_TriTriDistanceResult_Double</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TriTriDistanceResult&amp;amp;lt;double&amp;amp;gt;::TriTriDistanceResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TriTriDistanceResult&amp;lt;double&amp;gt;::TriTriDistanceResult</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -166,7 +166,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::TriTriDistanceResult&amp;amp;lt;double&amp;amp;gt;::TriTriDistanceResult</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::TriTriDistanceResult&amp;lt;double&amp;gt;::TriTriDistanceResult</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -181,11 +181,11 @@
         <name>assign</name>
         <qualifiedname>MR.TriTriDistanceResult_Double.assign</qualifiedname>
         <param>
-          <type>MR.Const_TriTriDistanceResult_Double</type>
+          <type><ref refid="classMR_1_1Const__TriTriDistanceResult__Double" kindref="compound">MR.Const_TriTriDistanceResult_Double</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::TriTriDistanceResult&amp;amp;lt;double&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::TriTriDistanceResult&amp;lt;double&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -195,7 +195,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::TriTriDistanceResult&amp;amp;lt;double&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::TriTriDistanceResult&amp;lt;double&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TriTriDistanceResult_Double</label>
+        <link refid="classMR_1_1Const__TriTriDistanceResult__Double"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -221,6 +222,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.TriTriDistanceResult_Double</label>
         <link refid="classMR_1_1TriTriDistanceResult__Double"/>
@@ -229,9 +234,14 @@
       </node>
       <node id="2">
         <label>MR.Const_TriTriDistanceResult_Double</label>
+        <link refid="classMR_1_1Const__TriTriDistanceResult__Double"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_a</edgelabel>
+          <edgelabel>__ref_storage_b</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -243,9 +253,20 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" line="413" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriDist.cs" bodystart="414" bodyend="505"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Double_1a2a1a7b07f5dd879bd19b426c03031a46" prot="protected" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Double_1a7e5c3d7855309160aadedebe3155574b" prot="protected" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>__ref_storage_b</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Double_1a3ed4637ede0c62f4533be367270b395e" prot="protected" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>__ref_storage_distSq</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Double_1a367309598da4e8da455f4d40e792f94f" prot="protected" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>__ref_storage_overlap</name></member>
       <member refid="classMR_1_1TriTriDistanceResult__Double_1adf279b7e5e2d513333926fa0ddd70f62" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>a</name></member>
       <member refid="classMR_1_1TriTriDistanceResult__Double_1abb52533c9fe7d97e391d2f667e1dcab9" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>assign</name></member>
       <member refid="classMR_1_1TriTriDistanceResult__Double_1a1f110790d0d0ea0fac71e6491bd27be0" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Double_1a0dceebc436f6e9724b51efa74e15c109" prot="package" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>Const_TriTriDistanceResult_Double</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Double_1acde5c6e477ccab2ec5d3f2896683b5c7" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>Const_TriTriDistanceResult_Double</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Double_1ae1f2c3c3a0ae63432a2070f8f1aaecc9" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>Const_TriTriDistanceResult_Double</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Double_1ac4a2c2386f2c7c9333a27b3fbe2bf5dd" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>Const_TriTriDistanceResult_Double</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Double_1aecef9b964aeb036ca7dbf261807c6cc7" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>Const_TriTriDistanceResult_Double</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Double_1acae8b84426c7ae25a73b421c53f03103" prot="protected" virt="virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriTriDistanceResult__Double_1acad30471820eb2d5e2598f54efa42903" prot="public" virt="virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TriTriDistanceResult__Double_1aba05e48341bff4b60bbd496f1497209d" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>distSq</name></member>
       <member refid="classMR_1_1TriTriDistanceResult__Double_1a34a85c84abeb100f5a652696cadfbaa5" prot="public" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>overlap</name></member>
       <member refid="classMR_1_1TriTriDistanceResult__Double_1a7ac52a68a308441d124b780162682826" prot="package" virt="non-virtual"><scope>MR::TriTriDistanceResult_Double</scope><name>TriTriDistanceResult_Double</name></member>

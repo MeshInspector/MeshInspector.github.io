@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FaceFace" kind="class" language="C#" prot="public">
     <compoundname>MR::FaceFace</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FaceFace</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FaceFace" prot="public" virt="non-virtual">MR.Const_FaceFace</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FaceFace_1a1abd657335f7f2582706c2ffdbb21556" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -80,7 +80,7 @@
         <name>FaceFace</name>
         <qualifiedname>MR.FaceFace.FaceFace</qualifiedname>
         <param>
-          <type>MR.Const_FaceFace</type>
+          <type><ref refid="classMR_1_1Const__FaceFace" kindref="compound">MR.Const_FaceFace</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.FaceFace.assign</qualifiedname>
         <param>
-          <type>MR.Const_FaceFace</type>
+          <type><ref refid="classMR_1_1Const__FaceFace" kindref="compound">MR.Const_FaceFace</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceFace</label>
+        <link refid="classMR_1_1Const__FaceFace"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FaceFace</label>
         <link refid="classMR_1_1FaceFace"/>
@@ -189,9 +194,14 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceFace</label>
+        <link refid="classMR_1_1Const__FaceFace"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_aFace</edgelabel>
+          <edgelabel>__ref_storage_bFace</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,9 +213,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceFace.cs" line="105" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFaceFace.cs" bodystart="106" bodyend="170"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FaceFace_1ad8a80ef4431649a78fa719611b6ea9c3" prot="protected" virt="non-virtual"><scope>MR::FaceFace</scope><name>__ref_storage_aFace</name></member>
+      <member refid="classMR_1_1Const__FaceFace_1a4dcabdbfb8c667789c4b2dbffb31e176" prot="protected" virt="non-virtual"><scope>MR::FaceFace</scope><name>__ref_storage_bFace</name></member>
       <member refid="classMR_1_1FaceFace_1a1abd657335f7f2582706c2ffdbb21556" prot="public" virt="non-virtual"><scope>MR::FaceFace</scope><name>aFace</name></member>
       <member refid="classMR_1_1FaceFace_1a7125dba4d66444f4f3ea58c7ac718629" prot="public" virt="non-virtual"><scope>MR::FaceFace</scope><name>assign</name></member>
       <member refid="classMR_1_1FaceFace_1acae2f7902e16a918dad894db890808ac" prot="public" virt="non-virtual"><scope>MR::FaceFace</scope><name>bFace</name></member>
+      <member refid="classMR_1_1Const__FaceFace_1a0c95002db1ab5735215587d8a1e6391b" prot="package" virt="non-virtual"><scope>MR::FaceFace</scope><name>Const_FaceFace</name></member>
+      <member refid="classMR_1_1Const__FaceFace_1a98b01d704f07b52bf2801c5716d192f3" prot="public" virt="non-virtual"><scope>MR::FaceFace</scope><name>Const_FaceFace</name></member>
+      <member refid="classMR_1_1Const__FaceFace_1a69b3458e261ec51e6b3f1f2370f8f25d" prot="public" virt="non-virtual"><scope>MR::FaceFace</scope><name>Const_FaceFace</name></member>
+      <member refid="classMR_1_1Const__FaceFace_1aac2b90a949ebef86b42bd0937db8501c" prot="public" virt="non-virtual"><scope>MR::FaceFace</scope><name>Const_FaceFace</name></member>
+      <member refid="classMR_1_1Const__FaceFace_1adff1f77ef0c326dda15d8b770c0065a3" prot="public" virt="non-virtual"><scope>MR::FaceFace</scope><name>Const_FaceFace</name></member>
+      <member refid="classMR_1_1Const__FaceFace_1ac84cab62b7eb51b764e5a947a697e753" prot="protected" virt="virtual"><scope>MR::FaceFace</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceFace_1a0827a5ce85a488964c5b6b20664085b6" prot="public" virt="virtual"><scope>MR::FaceFace</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FaceFace_1accb60c63f231f7831ba3b70a173aa20c" prot="package" virt="non-virtual"><scope>MR::FaceFace</scope><name>FaceFace</name></member>
       <member refid="classMR_1_1FaceFace_1a96668098d42f2fa436a1ecd71a2d1ee5" prot="public" virt="non-virtual"><scope>MR::FaceFace</scope><name>FaceFace</name></member>
       <member refid="classMR_1_1FaceFace_1a916922bf52cad831991c27797a1fcf7a" prot="public" virt="non-virtual"><scope>MR::FaceFace</scope><name>FaceFace</name></member>

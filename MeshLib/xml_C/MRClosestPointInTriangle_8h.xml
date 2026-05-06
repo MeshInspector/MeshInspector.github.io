@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRClosestPointInTriangle_8h" kind="file" language="C++">
+    <compoundname>MRClosestPointInTriangle.h</compoundname>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRClosestPointInTriangle.h</label>
+        <link refid="MRClosestPointInTriangle_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRClosestPointInTriangle_8h_1a0edd342a1af1ed3d85d08809490b8dca" prot="public" static="no">
+        <type>struct <ref refid="MRClosestPointInTriangle_8h_1a0edd342a1af1ed3d85d08809490b8dca" kindref="member">MR_std_pair_MR_Vector3d_MR_TriPointd</ref></type>
+        <definition>typedef struct MR_std_pair_MR_Vector3d_MR_TriPointd MR_std_pair_MR_Vector3d_MR_TriPointd</definition>
+        <argsstring></argsstring>
+        <name>MR_std_pair_MR_Vector3d_MR_TriPointd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores two objects: <computeroutput>MR::Vector3d</computeroutput> and <computeroutput>MR::Vector3d</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRClosestPointInTriangle.h" line="11" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRClosestPointInTriangle.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" prot="public" static="no">
+        <type>struct <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref></type>
+        <definition>typedef struct MR_std_pair_MR_Vector3f_MR_TriPointf MR_std_pair_MR_Vector3f_MR_TriPointf</definition>
+        <argsstring></argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_TriPointf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores two objects: <computeroutput>MR::Vector3f</computeroutput> and <computeroutput>MR::Vector3f</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRClosestPointInTriangle.h" line="12" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRClosestPointInTriangle.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRClosestPointInTriangle_8h_1add58ff418aa150679024edb9051e1022" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Vector3f_MR_TriPointf * MR_closestPointInTriangle_float</definition>
+        <argsstring>(const MR_Vector3f *p, const MR_Vector3f *a, const MR_Vector3f *b, const MR_Vector3f *c)</argsstring>
+        <name>MR_closestPointInTriangle_float</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::closestPointInTriangle&lt;float&gt;</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__Vector3f__MR__TriPointf_8h_1aca7034128e17856b3483467349851d3c" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRClosestPointInTriangle.h" line="21" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRClosestPointInTriangle.h" declline="21" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRClosestPointInTriangle_8h_1ae46485db45483993120fa67113c9a21b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRClosestPointInTriangle_8h_1a0edd342a1af1ed3d85d08809490b8dca" kindref="member">MR_std_pair_MR_Vector3d_MR_TriPointd</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Vector3d_MR_TriPointd * MR_closestPointInTriangle_double</definition>
+        <argsstring>(const MR_Vector3d *p, const MR_Vector3d *a, const MR_Vector3d *b, const MR_Vector3d *c)</argsstring>
+        <name>MR_closestPointInTriangle_double</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::closestPointInTriangle&lt;double&gt;</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__Vector3d__MR__TriPointd_8h_1aa5c26833225b0f13031df4471148fcb1" kindref="member">MR_std_pair_MR_Vector3d_MR_TriPointd_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRClosestPointInTriangle.h" line="29" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRClosestPointInTriangle.h" declline="29" declcolumn="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MRClosestPointInTriangle_8h_1a0edd342a1af1ed3d85d08809490b8dca" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestPointInTriangle_8h_1a0edd342a1af1ed3d85d08809490b8dca" kindref="member">MR_std_pair_MR_Vector3d_MR_TriPointd</ref><sp/><ref refid="MRClosestPointInTriangle_8h_1a0edd342a1af1ed3d85d08809490b8dca" kindref="member">MR_std_pair_MR_Vector3d_MR_TriPointd</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_MR_Vector3d_MR_TriPointd.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_MR_Vector3f_MR_TriPointf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRClosestPointInTriangle_8h_1add58ff418aa150679024edb9051e1022" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRClosestPointInTriangle_8h_1a1292c99c99bcabbef255ba7bdb51714a" kindref="member">MR_std_pair_MR_Vector3f_MR_TriPointf</ref><sp/>*<ref refid="MRClosestPointInTriangle_8h_1add58ff418aa150679024edb9051e1022" kindref="member">MR_closestPointInTriangle_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRClosestPointInTriangle_8h_1ae46485db45483993120fa67113c9a21b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRClosestPointInTriangle_8h_1a0edd342a1af1ed3d85d08809490b8dca" kindref="member">MR_std_pair_MR_Vector3d_MR_TriPointd</ref><sp/>*<ref refid="MRClosestPointInTriangle_8h_1ae46485db45483993120fa67113c9a21b" kindref="member">MR_closestPointInTriangle_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRClosestPointInTriangle.h"/>
+  </compounddef>
+</doxygen>

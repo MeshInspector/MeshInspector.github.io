@@ -8,6 +8,6 @@ var classMR_1_1MultiwayICP =
     [ "devEnableIndependentEquationsMode", "classMR_1_1MultiwayICP.html#ad2f07dda4a5478ad6f85163e8e1b08d8", null ],
     [ "resamplePoints", "classMR_1_1MultiwayICP.html#adc72d721bc443d2a5386600ac02245db", null ],
     [ "setParams", "classMR_1_1MultiwayICP.html#a18c8e783f38a8339216447e687db7af1", null ],
-    [ "setPerIterationCallback", "classMR_1_1MultiwayICP.html#a891cf06bf2a92a57ec2a28c34b7389f2", null ],
+    [ "setPerIterationCallback", "classMR_1_1MultiwayICP.html#a7bc6d78b1eddc91e0179fb73ddcacb64", null ],
     [ "updateAllPointPairs", "classMR_1_1MultiwayICP.html#ab40ecc7d1988d56294a3198330064ec1", null ]
 ];

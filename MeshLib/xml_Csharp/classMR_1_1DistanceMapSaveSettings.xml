@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DistanceMapSaveSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::DistanceMapSaveSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DistanceMapSaveSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DistanceMapSaveSettings" prot="public" virt="non-virtual">MR.Const_DistanceMapSaveSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DistanceMapSaveSettings_1a66e2579c66d13bbf394a0d66a8cc5ecb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
@@ -75,10 +75,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1998" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1998" bodyend="2004"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1DistanceMapSaveSettings_1a2c2015d2958818e4fbbb13d56e13013e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1DistanceMapSaveSettings_1a603194d45b8ab62610ec0de558da7877" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.DistanceMapSaveSettings.DistanceMapSaveSettings</definition>
-        <argsstring>(MR.AffineXf3f? xf, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <argsstring>(MR.AffineXf3f? xf, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
         <name>DistanceMapSaveSettings</name>
         <qualifiedname>MR.DistanceMapSaveSettings.DistanceMapSaveSettings</qualifiedname>
         <param>
@@ -86,7 +86,7 @@
           <declname>xf</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progress</declname>
         </param>
         <briefdescription>
@@ -124,7 +124,7 @@
         <name>DistanceMapSaveSettings</name>
         <qualifiedname>MR.DistanceMapSaveSettings.DistanceMapSaveSettings</qualifiedname>
         <param>
-          <type>Const_DistanceMapSaveSettings</type>
+          <type><ref refid="classMR_1_1Const__DistanceMapSaveSettings" kindref="compound">Const_DistanceMapSaveSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DistanceMapSaveSettings</label>
+        <link refid="classMR_1_1Const__DistanceMapSaveSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -202,6 +203,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.DistanceMapSaveSettings</label>
         <link refid="classMR_1_1DistanceMapSaveSettings"/>
@@ -210,9 +215,13 @@
       </node>
       <node id="2">
         <label>MR.Const_DistanceMapSaveSettings</label>
+        <link refid="classMR_1_1Const__DistanceMapSaveSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_xf</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -224,10 +233,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" line="1949" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapParams.cs" bodystart="1950" bodyend="2052"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DistanceMapSaveSettings_1adc4dc576d7e4b273076d18d83174ce21" prot="protected" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>__ptr_storage_xf</name></member>
       <member refid="classMR_1_1DistanceMapSaveSettings_1a7fc380a1bb5b0bb90bcf30e9a81c4dcc" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__DistanceMapSaveSettings_1a04eb4aaaed40d3616b94499b1eb90154" prot="package" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>Const_DistanceMapSaveSettings</name></member>
+      <member refid="classMR_1_1Const__DistanceMapSaveSettings_1ad9e63388c708a43b25d677912d499575" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>Const_DistanceMapSaveSettings</name></member>
+      <member refid="classMR_1_1Const__DistanceMapSaveSettings_1ad0a55f9c73b9db4e29b6e07115b1dcbb" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>Const_DistanceMapSaveSettings</name></member>
+      <member refid="classMR_1_1Const__DistanceMapSaveSettings_1a33f66698632cee93a3a0225625e61e68" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>Const_DistanceMapSaveSettings</name></member>
+      <member refid="classMR_1_1Const__DistanceMapSaveSettings_1ad8849b29b6dc55fb8db834c9a63fc942" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>Const_DistanceMapSaveSettings</name></member>
+      <member refid="classMR_1_1Const__DistanceMapSaveSettings_1aff9bec3b2da8c027f028fa6f0ee473ae" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>Const_DistanceMapSaveSettings</name></member>
+      <member refid="classMR_1_1Const__DistanceMapSaveSettings_1a8ab934788cee41ab8d972f15e6f5e718" prot="protected" virt="virtual"><scope>MR::DistanceMapSaveSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DistanceMapSaveSettings_1a69f6f246e11ff990764400107575921b" prot="public" virt="virtual"><scope>MR::DistanceMapSaveSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DistanceMapSaveSettings_1af9e7ad64d06a8df4fd9854300cd4b5e0" prot="package" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>DistanceMapSaveSettings</name></member>
       <member refid="classMR_1_1DistanceMapSaveSettings_1ac7ba069e335f2dea6644a77d5df2c0ca" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>DistanceMapSaveSettings</name></member>
-      <member refid="classMR_1_1DistanceMapSaveSettings_1a2c2015d2958818e4fbbb13d56e13013e" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>DistanceMapSaveSettings</name></member>
+      <member refid="classMR_1_1DistanceMapSaveSettings_1a603194d45b8ab62610ec0de558da7877" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>DistanceMapSaveSettings</name></member>
       <member refid="classMR_1_1DistanceMapSaveSettings_1a7cd2881005d6a5361cc257aafb7eb152" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>DistanceMapSaveSettings</name></member>
       <member refid="classMR_1_1DistanceMapSaveSettings_1acafedddb8b7587777078c61fcda72583" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>DistanceMapSaveSettings</name></member>
       <member refid="classMR_1_1DistanceMapSaveSettings_1a2f4f9fdb8967a93301a279f1c3e70bf1" prot="public" virt="non-virtual"><scope>MR::DistanceMapSaveSettings</scope><name>DistanceMapSaveSettings</name></member>

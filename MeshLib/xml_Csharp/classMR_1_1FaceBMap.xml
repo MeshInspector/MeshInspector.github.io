@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FaceBMap" kind="class" language="C#" prot="public">
     <compoundname>MR::FaceBMap</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FaceBMap</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FaceBMap" prot="public" virt="non-virtual">MR.Const_FaceBMap</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FaceBMap_1af658984e113ea976da2427fb0243f33e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Buffer__MRFaceId__MRFaceId" kindref="compound">MR.Buffer_MRFaceId_MRFaceId</ref></type>
@@ -137,7 +137,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>flat map: I -&amp;gt; T Generated from class <computeroutput><ref refid="classMR_1_1FaceBMap" kindref="compound">MR.FaceBMap</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>flat map: I -&gt; T Generated from class <computeroutput><ref refid="classMR_1_1FaceBMap" kindref="compound">MR.FaceBMap</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -150,6 +150,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceBMap</label>
+        <link refid="classMR_1_1Const__FaceBMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -171,6 +172,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FaceBMap</label>
+        <link refid="classMR_1_1Const__FaceBMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -185,8 +187,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="8687" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="8688" bodyend="8766"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FaceBMap_1a1ab522ceba190103f8d5d38d52ca8a41" prot="protected" virt="non-virtual"><scope>MR::FaceBMap</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1FaceBMap_1ad3388fd18746672b6db42b3dbdb64f0f" prot="public" virt="non-virtual"><scope>MR::FaceBMap</scope><name>assign</name></member>
       <member refid="classMR_1_1FaceBMap_1af658984e113ea976da2427fb0243f33e" prot="public" virt="non-virtual"><scope>MR::FaceBMap</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1abb6c7824774ea4f60526bb68f797e8fe" prot="package" virt="non-virtual"><scope>MR::FaceBMap</scope><name>Const_FaceBMap</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1a5ea0d2ed63946652e031c38fc728cbd1" prot="public" virt="non-virtual"><scope>MR::FaceBMap</scope><name>Const_FaceBMap</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1ae03ea14cf5e3829c6f7e585a7028506c" prot="public" virt="non-virtual"><scope>MR::FaceBMap</scope><name>Const_FaceBMap</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1a875f18b321953850d79705b7c13ac26d" prot="public" virt="non-virtual"><scope>MR::FaceBMap</scope><name>Const_FaceBMap</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1a2bb940abea8e45797d73f136aa432e35" prot="protected" virt="virtual"><scope>MR::FaceBMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FaceBMap_1a63be60a68e4582818d0b8e2bb48011f9" prot="public" virt="virtual"><scope>MR::FaceBMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FaceBMap_1a5c97748b3ed9cc49c7b24f4ed8d6643e" prot="package" virt="non-virtual"><scope>MR::FaceBMap</scope><name>FaceBMap</name></member>
       <member refid="classMR_1_1FaceBMap_1affde7c86b3163c2c13283caf790a8dc1" prot="public" virt="non-virtual"><scope>MR::FaceBMap</scope><name>FaceBMap</name></member>
       <member refid="classMR_1_1FaceBMap_1a408c44e522334d2c9ca63d2393277a24" prot="public" virt="non-virtual"><scope>MR::FaceBMap</scope><name>FaceBMap</name></member>

@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__LineInterpolationParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_LineInterpolationParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1LineInterpolationParams" prot="public" virt="non-virtual">MR.LineInterpolationParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__LineInterpolationParams_1aca4a769bb9976733d530b2fc33ae9ca1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_LineInterpolationParams.eps</definition>
+        <argsstring></argsstring>
+        <name>eps</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.eps</qualifiedname>
+        <briefdescription>
+<para>maximal deviation from given line </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1417" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1417" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__LineInterpolationParams_1a08dcaeecabf9156b33af2beaf9bcef24" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_LineInterpolationParams.maxLength</definition>
+        <argsstring></argsstring>
+        <name>maxLength</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.maxLength</qualifiedname>
+        <briefdescription>
+<para>maximal length of the line </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1423" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1423" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__LineInterpolationParams_1a041ef9a464c784a7794a766c25102c71" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_LineInterpolationParams.cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.cb</qualifiedname>
+        <briefdescription>
+<para>callback for reporting on progress </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1429" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1429" bodyend="1429"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__LineInterpolationParams_1abbaff537533541b9f7e8493013f67a70" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_LineInterpolationParams.__ref_storage_eps</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_eps</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.__ref_storage_eps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1418" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__LineInterpolationParams_1a85b5c0b60f204e1aa1e8156f692197ba" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_LineInterpolationParams.__ref_storage_maxLength</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxLength</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.__ref_storage_maxLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1424" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1424" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__LineInterpolationParams_1a59253487a0744eeb4f266dd4e8605f76" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_LineInterpolationParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1402" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1402" bodyend="1410"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__LineInterpolationParams_1a5c4389f8b4dbb72b14fe7d299663bbf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_LineInterpolationParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1411" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1411" bodyend="1411"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LineInterpolationParams_1a75374b8ae342285e0b4537b31e147d90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_LineInterpolationParams.Const_LineInterpolationParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_LineInterpolationParams</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.Const_LineInterpolationParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1469" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1469" bodyend="1475"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LineInterpolationParams_1ad6822df85961cbdf85659c498b1624a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_LineInterpolationParams.Const_LineInterpolationParams</definition>
+        <argsstring>(float eps, float maxLength, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
+        <name>Const_LineInterpolationParams</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.Const_LineInterpolationParams</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>eps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxLength</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1LineInterpolationParams" kindref="compound">MR.LineInterpolationParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1480" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1480" bodyend="1487"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LineInterpolationParams_1a1661555fa57cf1b96d2539155fdb8ddd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_LineInterpolationParams.Const_LineInterpolationParams</definition>
+        <argsstring>(MR._ByValue_LineInterpolationParams _other)</argsstring>
+        <name>Const_LineInterpolationParams</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.Const_LineInterpolationParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_LineInterpolationParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LineInterpolationParams_1a36dfa8dcd527827dc4c466d5ae8c50a7" kindref="member">MR.LineInterpolationParams.LineInterpolationParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1492" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1492" bodyend="1499"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LineInterpolationParams_1a620ed3b07dfb6867548ca0647ba041d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_LineInterpolationParams.Const_LineInterpolationParams</definition>
+        <argsstring>(Const_LineInterpolationParams _other)</argsstring>
+        <name>Const_LineInterpolationParams</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.Const_LineInterpolationParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__LineInterpolationParams" kindref="compound">Const_LineInterpolationParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LineInterpolationParams_1a36dfa8dcd527827dc4c466d5ae8c50a7" kindref="member">MR.LineInterpolationParams.LineInterpolationParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1504" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1504" bodyend="1504"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LineInterpolationParams_1a23e040451f6cfc96522e3a513c5a1eb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_LineInterpolationParams.Const_LineInterpolationParams</definition>
+        <argsstring>(LineInterpolationParams _other)</argsstring>
+        <name>Const_LineInterpolationParams</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.Const_LineInterpolationParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1LineInterpolationParams" kindref="compound">LineInterpolationParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LineInterpolationParams_1a36dfa8dcd527827dc4c466d5ae8c50a7" kindref="member">MR.LineInterpolationParams.LineInterpolationParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1509" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1509" bodyend="1509"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__LineInterpolationParams_1ac0ddb0d92c9937975db62ab0fb4468e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_LineInterpolationParams.~Const_LineInterpolationParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_LineInterpolationParams</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.~Const_LineInterpolationParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1412" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1412" bodyend="1412"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__LineInterpolationParams_1a0cd1aa08a6cf10629ddb1944fd80a962" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_LineInterpolationParams.Const_LineInterpolationParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_LineInterpolationParams</name>
+        <qualifiedname>MR.Const_LineInterpolationParams.Const_LineInterpolationParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1458" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1458" bodyend="1463"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Tolerance parameters for linear interpolation of tool path segments Generated from class <computeroutput><ref refid="classMR_1_1LineInterpolationParams" kindref="compound">MR.LineInterpolationParams</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_LineInterpolationParams</label>
+        <link refid="classMR_1_1Const__LineInterpolationParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.LineInterpolationParams</label>
+        <link refid="classMR_1_1LineInterpolationParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_LineInterpolationParams</label>
+        <link refid="classMR_1_1Const__LineInterpolationParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="1396" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="1397" bodyend="1510"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1abbaff537533541b9f7e8493013f67a70" prot="protected" virt="non-virtual"><scope>MR::Const_LineInterpolationParams</scope><name>__ref_storage_eps</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a85b5c0b60f204e1aa1e8156f692197ba" prot="protected" virt="non-virtual"><scope>MR::Const_LineInterpolationParams</scope><name>__ref_storage_maxLength</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a041ef9a464c784a7794a766c25102c71" prot="public" virt="non-virtual"><scope>MR::Const_LineInterpolationParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a0cd1aa08a6cf10629ddb1944fd80a962" prot="package" virt="non-virtual"><scope>MR::Const_LineInterpolationParams</scope><name>Const_LineInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a75374b8ae342285e0b4537b31e147d90" prot="public" virt="non-virtual"><scope>MR::Const_LineInterpolationParams</scope><name>Const_LineInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1ad6822df85961cbdf85659c498b1624a2" prot="public" virt="non-virtual"><scope>MR::Const_LineInterpolationParams</scope><name>Const_LineInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a1661555fa57cf1b96d2539155fdb8ddd" prot="public" virt="non-virtual"><scope>MR::Const_LineInterpolationParams</scope><name>Const_LineInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a620ed3b07dfb6867548ca0647ba041d8" prot="public" virt="non-virtual"><scope>MR::Const_LineInterpolationParams</scope><name>Const_LineInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a23e040451f6cfc96522e3a513c5a1eb6" prot="public" virt="non-virtual"><scope>MR::Const_LineInterpolationParams</scope><name>Const_LineInterpolationParams</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a59253487a0744eeb4f266dd4e8605f76" prot="protected" virt="virtual"><scope>MR::Const_LineInterpolationParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a5c4389f8b4dbb72b14fe7d299663bbf3" prot="public" virt="virtual"><scope>MR::Const_LineInterpolationParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1aca4a769bb9976733d530b2fc33ae9ca1" prot="public" virt="non-virtual"><scope>MR::Const_LineInterpolationParams</scope><name>eps</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1a08dcaeecabf9156b33af2beaf9bcef24" prot="public" virt="non-virtual"><scope>MR::Const_LineInterpolationParams</scope><name>maxLength</name></member>
+      <member refid="classMR_1_1Const__LineInterpolationParams_1ac0ddb0d92c9937975db62ab0fb4468e8" prot="private" virt="non-virtual"><scope>MR::Const_LineInterpolationParams</scope><name>~Const_LineInterpolationParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

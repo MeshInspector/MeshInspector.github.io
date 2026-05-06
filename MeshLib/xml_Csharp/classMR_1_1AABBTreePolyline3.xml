@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreePolyline3" kind="class" language="C#" prot="public">
     <compoundname>MR::AABBTreePolyline3</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreePolyline3</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AABBTreePolyline3" prot="public" virt="non-virtual">MR.Const_AABBTreePolyline3</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1AABBTreePolyline3_1ae5388c7e36de97720df9e8f1cf920107" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -89,7 +89,7 @@
         <name>AABBTreePolyline3</name>
         <qualifiedname>MR.AABBTreePolyline3.AABBTreePolyline3</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>polyline</declname>
         </param>
         <briefdescription>
@@ -108,11 +108,11 @@
         <name>AABBTreePolyline3</name>
         <qualifiedname>MR.AABBTreePolyline3.AABBTreePolyline3</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
           <declname>edgeSet</declname>
         </param>
         <briefdescription>
@@ -154,7 +154,7 @@
           <declname>leafMap</declname>
         </param>
         <briefdescription>
-<para>fills map: LeafId -&amp;gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput><ref refid="classMR_1_1AABBTreePolyline3_1a4b42668c388abf6af08da29fb322a85f" kindref="member">MR.AABBTreePolyline3.getLeafOrderAndReset</ref></computeroutput>. </para>
+<para>fills map: LeafId -&gt; leaf#, then resets leaf order to 0,1,2,...; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput><ref refid="classMR_1_1AABBTreePolyline3_1a4b42668c388abf6af08da29fb322a85f" kindref="member">MR.AABBTreePolyline3.getLeafOrderAndReset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -164,7 +164,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>bounding volume hierarchy for line segments Generated from class <computeroutput><ref refid="classMR_1_1AABBTreePolyline3" kindref="compound">MR.AABBTreePolyline3</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::AABBTreeBase&amp;amp;lt;MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;&amp;amp;gt;</computeroutput> This is the non-const half of the class. </para>
+<para>bounding volume hierarchy for line segments Generated from class <computeroutput><ref refid="classMR_1_1AABBTreePolyline3" kindref="compound">MR.AABBTreePolyline3</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -177,6 +177,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreePolyline3</label>
+        <link refid="classMR_1_1Const__AABBTreePolyline3"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -198,6 +199,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreePolyline3</label>
+        <link refid="classMR_1_1Const__AABBTreePolyline3"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -218,8 +220,26 @@
       <member refid="classMR_1_1AABBTreePolyline3_1af8e334e25eac39ca6370cb928d81d980" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>AABBTreePolyline3</name></member>
       <member refid="classMR_1_1AABBTreePolyline3_1ab44323e9571f712b214c78db3b7d81cc" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>AABBTreePolyline3</name></member>
       <member refid="classMR_1_1AABBTreePolyline3_1a5b9c98cf587235bc5443a7845d1a37c3" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1aef537e7be27e396409f1a5bf700fe8f6" prot="package" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>Const_AABBTreePolyline3</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1af6428b31b1f94e02925fd111153685b1" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>Const_AABBTreePolyline3</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1a4397762fd0aac5eaf21c7be866143dd8" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>Const_AABBTreePolyline3</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1a8d894c506ac7150b20dc15f36b479b41" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>Const_AABBTreePolyline3</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1a3ebb0bc8d73cedb1f78e4a3dca58950d" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>Const_AABBTreePolyline3</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1aec28cf9dbbf860bf176208eeee3cf35b" prot="protected" virt="virtual"><scope>MR::AABBTreePolyline3</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1a4e4ebd7ef5939f47fb6ca142f25028a5" prot="public" virt="virtual"><scope>MR::AABBTreePolyline3</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1a51e2f51183f29d97cf9e57f7d655f270" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1a270cc82447e1521e309ba57345c3a719" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>getLeafOrder</name></member>
       <member refid="classMR_1_1AABBTreePolyline3_1a4b42668c388abf6af08da29fb322a85f" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1ab89fa9a81c60cb0e83ee18b90971cb0b" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>getNodesFromLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1a6f78f4427f51487307050bcc2d6c1863" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>getSubtreeLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1ab636686283d3f347bbdf82d6d984b550" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>getSubtrees</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1ad53dc127466a14061517a67f14058141" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1a4449cb208cf9f816238511d30137ff2c" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>nodes</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1aa4122c4ee79a613f07c288541ccae522" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>numLeaves</name></member>
       <member refid="classMR_1_1AABBTreePolyline3_1ae5388c7e36de97720df9e8f1cf920107" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>operator MR.AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1a59d265bf2d1210d8663d4a99a0e5c65e" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>operator MR.Const_AABBTreeBase_MRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1a64c0fb9927b0962030110ff7a21d2d1c" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>rootNodeId</name></member>
+      <member refid="classMR_1_1Const__AABBTreePolyline3_1ab8ab05d7df98cd436c81603e228bfbed" prot="public" virt="non-virtual"><scope>MR::AABBTreePolyline3</scope><name>this[MR.NodeId nid]</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

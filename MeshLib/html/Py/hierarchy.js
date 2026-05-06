@@ -231,6 +231,7 @@ var hierarchy =
     [ "mrmeshpy.VoxelsLoad.DicomStatusEnum", "classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum.html", null ],
     [ "mrmeshpy.VoxelsLoad.DicomVolume", "classmrmeshpy_1_1VoxelsLoad_1_1DicomVolume.html", null ],
     [ "mrmeshpy.VoxelsLoad.DicomVolumeAsVdb", "classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html", null ],
+    [ "mrmeshpy.DihedralAngleProcessParams", "classmrmeshpy_1_1DihedralAngleProcessParams.html", null ],
     [ "mrmeshpy.DimensionsVisualizePropertyType", "classmrmeshpy_1_1DimensionsVisualizePropertyType.html", null ],
     [ "mrmeshpy.Dipole", "classmrmeshpy_1_1Dipole.html", null ],
     [ "mrmeshpy.Dipoles", "classmrmeshpy_1_1Dipoles.html", null ],
@@ -616,6 +617,7 @@ var hierarchy =
     [ "mrmeshpy.LoadedObjectT_ObjectVoxels", "classmrmeshpy_1_1LoadedObjectT__ObjectVoxels.html", null ],
     [ "mrmeshpy.VoxelsLoad.LoadingTiffSettings", "classmrmeshpy_1_1VoxelsLoad_1_1LoadingTiffSettings.html", null ],
     [ "mrmeshpy.Locale", "classmrmeshpy_1_1Locale.html", null ],
+    [ "mrmeshpy.LocaleDomainId", "classmrmeshpy_1_1LocaleDomainId.html", null ],
     [ "mrmeshpy.ObjectVoxels.VolumeRenderingParams.LutType", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html", null ],
     [ "mrmeshpy.MakeBridgeResult", "classmrmeshpy_1_1MakeBridgeResult.html", null ],
     [ "mrmeshpy.MakeDegenerateBandAroundRegionParams", "classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams.html", null ],
@@ -660,6 +662,7 @@ var hierarchy =
     [ "mrmeshpy.MeshComponents", "classmrmeshpy_1_1MeshComponents.html", null ],
     [ "mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression", "classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression.html", null ],
     [ "mrmeshpy.MeshDiff", "classmrmeshpy_1_1MeshDiff.html", null ],
+    [ "mrmeshpy.MeshFromVoxelsPostProcessingParams", "classmrmeshpy_1_1MeshFromVoxelsPostProcessingParams.html", null ],
     [ "mrmeshpy.MeshIntersectionResult", "classmrmeshpy_1_1MeshIntersectionResult.html", [
       [ "mrmeshpy.MultiMeshIntersectionResult", "classmrmeshpy_1_1MultiMeshIntersectionResult.html", null ]
     ] ],
@@ -974,6 +977,7 @@ var hierarchy =
       [ "mrmeshpy.DistanceMap", "classmrmeshpy_1_1DistanceMap.html", null ],
       [ "mrmeshpy.Matrix_float", "classmrmeshpy_1_1Matrix__float.html", null ]
     ] ],
+    [ "mrmeshpy.ReduceTotalAngleParams", "classmrmeshpy_1_1ReduceTotalAngleParams.html", null ],
     [ "mrmeshpy.RefineParameters", "classmrmeshpy_1_1RefineParameters.html", null ],
     [ "mrmeshpy.WeightedShell.ParametersRegions.Region", "classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region.html", null ],
     [ "mrmeshpy.RegionId", "classmrmeshpy_1_1RegionId.html", [
@@ -1543,5 +1547,9 @@ var hierarchy =
     [ "mrmeshpy.WriteRawTiffParams", "classmrmeshpy_1_1WriteRawTiffParams.html", null ],
     [ "mrmeshpy.XfBasedCache_Box3f", "classmrmeshpy_1_1XfBasedCache__Box3f.html", null ],
     [ "mrmeshpy.ZCompensateParams", "classmrmeshpy_1_1ZCompensateParams.html", null ],
-    [ "mrmeshpy.ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", null ]
+    [ "mrmeshpy.ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", null ],
+    [ "mrmeshpy.ZlibCompressStats", "classmrmeshpy_1_1ZlibCompressStats.html", null ],
+    [ "mrmeshpy.ZlibParams", "classmrmeshpy_1_1ZlibParams.html", [
+      [ "mrmeshpy.ZlibCompressParams", "classmrmeshpy_1_1ZlibCompressParams.html", null ]
+    ] ]
 ];

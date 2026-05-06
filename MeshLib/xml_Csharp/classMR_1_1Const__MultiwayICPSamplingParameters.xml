@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MultiwayICPSamplingParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MultiwayICPSamplingParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MultiwayICPSamplingParameters" prot="public" virt="non-virtual">MR.MultiwayICPSamplingParameters</derivedcompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1Const__MultiwayICPSamplingParameters_1acc9f3fadf1c87e7fcdbb16e52fbe2311" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>CascadeMode</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.CascadeMode</qualifiedname>
+        <enumvalue id="classMR_1_1Const__MultiwayICPSamplingParameters_1acc9f3fadf1c87e7fcdbb16e52fbe2311aa7e82daa7280af25afbaa076ac16eb1e" prot="public">
+          <name>Sequential</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__MultiwayICPSamplingParameters_1acc9f3fadf1c87e7fcdbb16e52fbe2311a2f3d2e7b83aab89388906ca92d0ca505" prot="public">
+          <name>AABBTreeBased</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>separates objects on groups based on their index in ICPObjects (good if all objects about the size of all objects together) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="896" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="897" bodyend="903"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__MultiwayICPSamplingParameters_1a8c469606f793755abebd5f356d029860" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MultiwayICPSamplingParameters.samplingVoxelSize</definition>
+        <argsstring></argsstring>
+        <name>samplingVoxelSize</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.samplingVoxelSize</qualifiedname>
+        <briefdescription>
+<para>sampling size of each object, 0 has special meaning "take all valid points" </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="790" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="790" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MultiwayICPSamplingParameters_1a14b02722b8dd89e8c53b058efaeba94b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_MultiwayICPSamplingParameters.maxGroupSize</definition>
+        <argsstring></argsstring>
+        <name>maxGroupSize</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.maxGroupSize</qualifiedname>
+        <briefdescription>
+<para>size of maximum icp group to work with; if the number of objects exceeds this value, icp is applied in cascade mode; maxGroupSize = 1 means that every object is moved independently on half distance to the previous position of all other objects; maxGroupSize = 0 means that a big system of equations for all objects is solved (force no cascading) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="799" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="799" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MultiwayICPSamplingParameters_1aab18e062fe99d9c6216aad2ff7693253" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__MultiwayICPSamplingParameters_1acc9f3fadf1c87e7fcdbb16e52fbe2311" kindref="member">MR.MultiwayICPSamplingParameters.CascadeMode</ref></type>
+        <definition>unsafe MR.MultiwayICPSamplingParameters.CascadeMode MR.Const_MultiwayICPSamplingParameters.cascadeMode</definition>
+        <argsstring></argsstring>
+        <name>cascadeMode</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.cascadeMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="802" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="802" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MultiwayICPSamplingParameters_1a76fea01da05c251e3575cb218cac0ce4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_MultiwayICPSamplingParameters.cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.cb</qualifiedname>
+        <briefdescription>
+<para>callback for progress reports </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="808" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="808" bodyend="808"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__MultiwayICPSamplingParameters_1a07718c96bdacb6829c5e9fce96e24613" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_MultiwayICPSamplingParameters.__ref_storage_samplingVoxelSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_samplingVoxelSize</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.__ref_storage_samplingVoxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="791" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="791" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MultiwayICPSamplingParameters_1a9f9cc2590bb83694b4d8e7287a8b7a1a" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_MultiwayICPSamplingParameters.__ref_storage_maxGroupSize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxGroupSize</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.__ref_storage_maxGroupSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="800" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="800" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MultiwayICPSamplingParameters_1a7d6764a4baecb03ccd7fc48c3e3c2365" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__MultiwayICPSamplingParameters_1acc9f3fadf1c87e7fcdbb16e52fbe2311" kindref="member">MR.MultiwayICPSamplingParameters.CascadeMode</ref> *</type>
+        <definition>unsafe MR.MultiwayICPSamplingParameters.CascadeMode* MR.Const_MultiwayICPSamplingParameters.__ref_storage_cascadeMode</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_cascadeMode</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.__ref_storage_cascadeMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="803" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="803" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayICPSamplingParameters_1aa9c50fcbddd2a5f51a2f3dea175fa675" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MultiwayICPSamplingParameters.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="775" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="775" bodyend="783"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayICPSamplingParameters_1a78640ca54b81a371c007bf1e2f468b6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MultiwayICPSamplingParameters.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="784" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="784" bodyend="784"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayICPSamplingParameters_1a663a6b2133aafd1b7ffdc4dc3a7b7e2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MultiwayICPSamplingParameters.Const_MultiwayICPSamplingParameters</definition>
+        <argsstring>()</argsstring>
+        <name>Const_MultiwayICPSamplingParameters</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.Const_MultiwayICPSamplingParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="854" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="854" bodyend="860"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayICPSamplingParameters_1af39a94f2c0354825ab609a29194d8385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MultiwayICPSamplingParameters.Const_MultiwayICPSamplingParameters</definition>
+        <argsstring>(float samplingVoxelSize, int maxGroupSize, MR.MultiwayICPSamplingParameters.CascadeMode cascadeMode, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
+        <name>Const_MultiwayICPSamplingParameters</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.Const_MultiwayICPSamplingParameters</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>samplingVoxelSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxGroupSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MultiwayICPSamplingParameters_1acc9f3fadf1c87e7fcdbb16e52fbe2311" kindref="member">MR.MultiwayICPSamplingParameters.CascadeMode</ref></type>
+          <declname>cascadeMode</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MultiwayICPSamplingParameters" kindref="compound">MR.MultiwayICPSamplingParameters</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="865" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="865" bodyend="872"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayICPSamplingParameters_1aa228dcfefdd697669166380ac8218651" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MultiwayICPSamplingParameters.Const_MultiwayICPSamplingParameters</definition>
+        <argsstring>(MR._ByValue_MultiwayICPSamplingParameters _other)</argsstring>
+        <name>Const_MultiwayICPSamplingParameters</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.Const_MultiwayICPSamplingParameters</qualifiedname>
+        <param>
+          <type>MR._ByValue_MultiwayICPSamplingParameters</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MultiwayICPSamplingParameters_1a1ca04452c7afca249c072c61522ae65d" kindref="member">MR.MultiwayICPSamplingParameters.MultiwayICPSamplingParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="877" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="877" bodyend="884"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayICPSamplingParameters_1a91a3a21706f6e7d36877cae048cd57f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MultiwayICPSamplingParameters.Const_MultiwayICPSamplingParameters</definition>
+        <argsstring>(Const_MultiwayICPSamplingParameters _other)</argsstring>
+        <name>Const_MultiwayICPSamplingParameters</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.Const_MultiwayICPSamplingParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MultiwayICPSamplingParameters" kindref="compound">Const_MultiwayICPSamplingParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MultiwayICPSamplingParameters_1a1ca04452c7afca249c072c61522ae65d" kindref="member">MR.MultiwayICPSamplingParameters.MultiwayICPSamplingParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="889" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="889" bodyend="889"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayICPSamplingParameters_1abd6bb3a3a49ec37e7785c1af7e964005" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MultiwayICPSamplingParameters.Const_MultiwayICPSamplingParameters</definition>
+        <argsstring>(MultiwayICPSamplingParameters _other)</argsstring>
+        <name>Const_MultiwayICPSamplingParameters</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.Const_MultiwayICPSamplingParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MultiwayICPSamplingParameters" kindref="compound">MultiwayICPSamplingParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MultiwayICPSamplingParameters_1a1ca04452c7afca249c072c61522ae65d" kindref="member">MR.MultiwayICPSamplingParameters.MultiwayICPSamplingParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="894" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="894" bodyend="894"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayICPSamplingParameters_1ab21ef55ca75ed0c1840f9ac6b6d835d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MultiwayICPSamplingParameters.~Const_MultiwayICPSamplingParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_MultiwayICPSamplingParameters</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.~Const_MultiwayICPSamplingParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="785" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="785" bodyend="785"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MultiwayICPSamplingParameters_1a39301b6a868d1e7abb49347a32b42563" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MultiwayICPSamplingParameters.Const_MultiwayICPSamplingParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_MultiwayICPSamplingParameters</name>
+        <qualifiedname>MR.Const_MultiwayICPSamplingParameters.Const_MultiwayICPSamplingParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="843" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="843" bodyend="848"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters that are used for sampling of the <ref refid="classMR_1_1MultiwayICP" kindref="compound">MultiwayICP</ref> objects Generated from class <computeroutput><ref refid="classMR_1_1MultiwayICPSamplingParameters" kindref="compound">MR.MultiwayICPSamplingParameters</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MultiwayICPSamplingParameters</label>
+        <link refid="classMR_1_1Const__MultiwayICPSamplingParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.MultiwayICPSamplingParameters</label>
+        <link refid="classMR_1_1MultiwayICPSamplingParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_MultiwayICPSamplingParameters</label>
+        <link refid="classMR_1_1Const__MultiwayICPSamplingParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_cascadeMode</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" line="769" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMultiwayICP.cs" bodystart="770" bodyend="904"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a7d6764a4baecb03ccd7fc48c3e3c2365" prot="protected" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>__ref_storage_cascadeMode</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a9f9cc2590bb83694b4d8e7287a8b7a1a" prot="protected" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>__ref_storage_maxGroupSize</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a07718c96bdacb6829c5e9fce96e24613" prot="protected" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>__ref_storage_samplingVoxelSize</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1acc9f3fadf1c87e7fcdbb16e52fbe2311" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>CascadeMode</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1aab18e062fe99d9c6216aad2ff7693253" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>cascadeMode</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a76fea01da05c251e3575cb218cac0ce4" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a39301b6a868d1e7abb49347a32b42563" prot="package" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>Const_MultiwayICPSamplingParameters</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a663a6b2133aafd1b7ffdc4dc3a7b7e2e" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>Const_MultiwayICPSamplingParameters</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1af39a94f2c0354825ab609a29194d8385" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>Const_MultiwayICPSamplingParameters</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1aa228dcfefdd697669166380ac8218651" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>Const_MultiwayICPSamplingParameters</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a91a3a21706f6e7d36877cae048cd57f4" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>Const_MultiwayICPSamplingParameters</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1abd6bb3a3a49ec37e7785c1af7e964005" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>Const_MultiwayICPSamplingParameters</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1aa9c50fcbddd2a5f51a2f3dea175fa675" prot="protected" virt="virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a78640ca54b81a371c007bf1e2f468b6b" prot="public" virt="virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a14b02722b8dd89e8c53b058efaeba94b" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>maxGroupSize</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1a8c469606f793755abebd5f356d029860" prot="public" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>samplingVoxelSize</name></member>
+      <member refid="classMR_1_1Const__MultiwayICPSamplingParameters_1ab21ef55ca75ed0c1840f9ac6b6d835d0" prot="private" virt="non-virtual"><scope>MR::Const_MultiwayICPSamplingParameters</scope><name>~Const_MultiwayICPSamplingParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

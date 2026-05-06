@@ -1,0 +1,1055 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__GraphEdgeBitSet" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_GraphEdgeBitSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1GraphEdgeBitSet" prot="public" virt="non-virtual">MR.GraphEdgeBitSet</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__GraphEdgeBitSet_1a9fd4af5454a37609460c993ed33e5335" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_GraphEdgeBitSet.BitsPerBlock</definition>
+        <argsstring></argsstring>
+        <name>BitsPerBlock</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.BitsPerBlock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11350" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GraphEdgeBitSet_1a1f7bcd0f421fb535d209f7d18c28650c" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_GraphEdgeBitSet.Npos</definition>
+        <argsstring></argsstring>
+        <name>Npos</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.Npos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11353" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11353" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__GraphEdgeBitSet_1a5e1ed5328a9a428d96160e2f6d7f2d5b" prot="protected" static="yes" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_GraphEdgeBitSet.__ref_storage_BitsPerBlock</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_BitsPerBlock</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.__ref_storage_BitsPerBlock</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11351" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GraphEdgeBitSet_1ab22c82988a98552cf7e28ab575955961" prot="protected" static="yes" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_GraphEdgeBitSet.__ref_storage_Npos</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_Npos</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.__ref_storage_Npos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11354" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11354" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ad5c34bd9b20dc74c37692ce8a2924e31" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_GraphEdgeBitSet.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11264" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11264" bodyend="11272"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a8d0e69ebcbd86b0d4b8566f513fe1866" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_GraphEdgeBitSet.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11273" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11273" bodyend="11273"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a393f8730442fe52c61963e5c48a45f7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref> &gt;</type>
+        <definition>IEnumerator&lt; MR.GraphEdgeId &gt; MR.Const_GraphEdgeBitSet.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11330" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11330" bodyend="11333"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1af90809d5aadc089d53bb9a5c87d31347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>Const_GraphEdgeBitSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11376" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11376" bodyend="11381"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ab2c0c64e5b65c96334f55574faa688bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</definition>
+        <argsstring>(MR._ByValue_GraphEdgeBitSet _other)</argsstring>
+        <name>Const_GraphEdgeBitSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</qualifiedname>
+        <param>
+          <type>MR._ByValue_GraphEdgeBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a9982678446b39c4fb864a8829e0d79f9" kindref="member">MR.GraphEdgeBitSet.GraphEdgeBitSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11386" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11386" bodyend="11392"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ae698862e37d962bb58689d1cbb8ba84a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</definition>
+        <argsstring>(Const_GraphEdgeBitSet _other)</argsstring>
+        <name>Const_GraphEdgeBitSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GraphEdgeBitSet" kindref="compound">Const_GraphEdgeBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a9982678446b39c4fb864a8829e0d79f9" kindref="member">MR.GraphEdgeBitSet.GraphEdgeBitSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11397" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11397" bodyend="11397"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a5519036c4c8a3b8b515d490782c359f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</definition>
+        <argsstring>(GraphEdgeBitSet _other)</argsstring>
+        <name>Const_GraphEdgeBitSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a9982678446b39c4fb864a8829e0d79f9" kindref="member">MR.GraphEdgeBitSet.GraphEdgeBitSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11402" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11402" bodyend="11402"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1adf8dcbb4720832f082709594fb7d9841" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</definition>
+        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <name>Const_GraphEdgeBitSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>fillValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>creates bitset of given size filled with given value Generated from constructor <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a9982678446b39c4fb864a8829e0d79f9" kindref="member">MR.GraphEdgeBitSet.GraphEdgeBitSet</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11409" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11409" bodyend="11415"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ac17230951a550deb2c4ea481e3c54fa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</definition>
+        <argsstring>(MR.Const_BitSet src)</argsstring>
+        <name>Const_GraphEdgeBitSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BitSet" kindref="compound">MR.Const_BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>copies all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet&lt;U&gt;) Generated from constructor <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a9982678446b39c4fb864a8829e0d79f9" kindref="member">MR.GraphEdgeBitSet.GraphEdgeBitSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11421" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11421" bodyend="11427"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a185bbfcb1540bd6b2817f78dbb9768a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.BitSet &gt; src)</argsstring>
+        <name>Const_GraphEdgeBitSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref> &gt;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>moves all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet&lt;U&gt;) Generated from constructor <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet_1a9982678446b39c4fb864a8829e0d79f9" kindref="member">MR.GraphEdgeBitSet.GraphEdgeBitSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11433" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11433" bodyend="11439"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a581585fb20989f802780109247727cb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_GraphEdgeBitSet.test</definition>
+        <argsstring>(MR.GraphEdgeId n)</argsstring>
+        <name>test</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.test</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1a581585fb20989f802780109247727cb1" kindref="member">MR.GraphEdgeBitSet.test</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11444" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11444" bodyend="11449"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a89e26e83521c9c17412c474b50525407" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe MR.GraphEdgeId MR.Const_GraphEdgeBitSet.findFirst</definition>
+        <argsstring>()</argsstring>
+        <name>findFirst</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.findFirst</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::GraphEdgeBitSet::find_first</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11454" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11454" bodyend="11459"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a25913667a065ef4700e952b74fa68be4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe MR.GraphEdgeId MR.Const_GraphEdgeBitSet.findNext</definition>
+        <argsstring>(MR.GraphEdgeId pos)</argsstring>
+        <name>findNext</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.findNext</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::GraphEdgeBitSet::find_next</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11464" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11464" bodyend="11469"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a1d5ba8d3c473bb303dc74b4de90ae706" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe MR.GraphEdgeId MR.Const_GraphEdgeBitSet.findLast</definition>
+        <argsstring>()</argsstring>
+        <name>findLast</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.findLast</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::GraphEdgeBitSet::find_last</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11474" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11474" bodyend="11479"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ae49aca7e4a26a5414562775a31842679" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe MR.GraphEdgeId MR.Const_GraphEdgeBitSet.findFirstNotSet</definition>
+        <argsstring>()</argsstring>
+        <name>findFirstNotSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.findFirstNotSet</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::GraphEdgeBitSet::find_first_not_set</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11484" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11484" bodyend="11489"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1aeeb3b8544714eb381e050dc9c89f2a1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe MR.GraphEdgeId MR.Const_GraphEdgeBitSet.findNextNotSet</definition>
+        <argsstring>(MR.GraphEdgeId pos)</argsstring>
+        <name>findNextNotSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.findNextNotSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::GraphEdgeBitSet::find_next_not_set</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11494" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11494" bodyend="11499"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a82d34703fad645640533509db1f3b24f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe MR.GraphEdgeId MR.Const_GraphEdgeBitSet.findLastNotSet</definition>
+        <argsstring>()</argsstring>
+        <name>findLastNotSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.findLastNotSet</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::GraphEdgeBitSet::find_last_not_set</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11504" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11504" bodyend="11509"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a087f6b7b865093247b737c7439e968de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe MR.GraphEdgeId MR.Const_GraphEdgeBitSet.nthSetBit</definition>
+        <argsstring>(ulong n)</argsstring>
+        <name>nthSetBit</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.nthSetBit</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1a087f6b7b865093247b737c7439e968de" kindref="member">MR.GraphEdgeBitSet.nthSetBit</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11515" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11515" bodyend="11520"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ad5bbc494baa45ee6a04e40b367dfb629" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_GraphEdgeBitSet.isSubsetOf</definition>
+        <argsstring>(MR.Const_GraphEdgeBitSet a)</argsstring>
+        <name>isSubsetOf</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.isSubsetOf</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GraphEdgeBitSet" kindref="compound">MR.Const_GraphEdgeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false. Generated from method <computeroutput>MR::GraphEdgeBitSet::is_subset_of</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11526" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11526" bodyend="11531"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a367aee18e62506c8754b74ff82c4e7f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_GraphEdgeBitSet.intersects</definition>
+        <argsstring>(MR.Const_GraphEdgeBitSet a)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.intersects</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GraphEdgeBitSet" kindref="compound">MR.Const_GraphEdgeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false. Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1a367aee18e62506c8754b74ff82c4e7f1" kindref="member">MR.GraphEdgeBitSet.intersects</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11537" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11537" bodyend="11542"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1aa440be6276827f3cfb6de2446d149bb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
+        <definition>unsafe MR.GraphEdgeBitSet MR.Const_GraphEdgeBitSet.getMapping</definition>
+        <argsstring>(MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId" kindref="compound">MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1aa440be6276827f3cfb6de2446d149bb6" kindref="member">MR.GraphEdgeBitSet.getMapping</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11547" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11547" bodyend="11552"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a75b56c6385d89ea91a6546c649b6517c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
+        <definition>unsafe MR.GraphEdgeBitSet MR.Const_GraphEdgeBitSet.getMapping</definition>
+        <argsstring>(MR.Const_BMap_MRGraphEdgeId_MRGraphEdgeId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BMap__MRGraphEdgeId__MRGraphEdgeId" kindref="compound">MR.Const_BMap_MRGraphEdgeId_MRGraphEdgeId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1aa440be6276827f3cfb6de2446d149bb6" kindref="member">MR.GraphEdgeBitSet.getMapping</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11557" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11557" bodyend="11562"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a460f04c8003f108837f0aebe03e50481" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
+        <definition>unsafe MR.GraphEdgeBitSet MR.Const_GraphEdgeBitSet.getMapping</definition>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1aa440be6276827f3cfb6de2446d149bb6" kindref="member">MR.GraphEdgeBitSet.getMapping</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11567" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11567" bodyend="11572"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a2e6c6fb1b494fa08042527674b3a5172" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
+        <definition>unsafe MR.GraphEdgeBitSet MR.Const_GraphEdgeBitSet.getMapping</definition>
+        <argsstring>(MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId map, ulong resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRGraphEdgeId__MRGraphEdgeId" kindref="compound">MR.Const_Vector_MRGraphEdgeId_MRGraphEdgeId</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1aa440be6276827f3cfb6de2446d149bb6" kindref="member">MR.GraphEdgeBitSet.getMapping</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11577" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11577" bodyend="11582"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a60a6665b29d3a54b9e9ad9ce01ca8780" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
+        <definition>unsafe MR.GraphEdgeBitSet MR.Const_GraphEdgeBitSet.getMapping</definition>
+        <argsstring>(MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId map, ulong resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>MR.Phmap.Const_FlatHashMap_MRGraphEdgeId_MRGraphEdgeId</type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1aa440be6276827f3cfb6de2446d149bb6" kindref="member">MR.GraphEdgeBitSet.getMapping</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11587" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11587" bodyend="11592"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a21622f3eea79f2132c629da2cf8b9c9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe MR.GraphEdgeId MR.Const_GraphEdgeBitSet.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the back() element Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1a21622f3eea79f2132c629da2cf8b9c9b" kindref="member">MR.GraphEdgeBitSet.backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11598" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11598" bodyend="11603"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a79f6478c9ed310f7d75d6026eae9791a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>unsafe MR.GraphEdgeId MR.Const_GraphEdgeBitSet.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.endId</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1a79f6478c9ed310f7d75d6026eae9791a" kindref="member">MR.GraphEdgeBitSet.endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11619" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11619" bodyend="11624"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a282f2d9a22b16196b6bc746c29144377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_GraphEdgeBitSet.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1a282f2d9a22b16196b6bc746c29144377" kindref="member">MR.GraphEdgeBitSet.empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11640" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11640" bodyend="11645"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1aa654468b20f3ac193a206c0e98119e80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_GraphEdgeBitSet.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1aa654468b20f3ac193a206c0e98119e80" kindref="member">MR.GraphEdgeBitSet.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11650" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11650" bodyend="11655"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a4cd0fa3501947ca3cfd22be3beb8c91f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_GraphEdgeBitSet.numBlocks</definition>
+        <argsstring>()</argsstring>
+        <name>numBlocks</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.numBlocks</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::GraphEdgeBitSet::num_blocks</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11660" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11660" bodyend="11665"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a9ac5ac9cd87397517ae07eceec3f40d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_GraphEdgeBitSet.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1a9ac5ac9cd87397517ae07eceec3f40d6" kindref="member">MR.GraphEdgeBitSet.capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11670" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11670" bodyend="11675"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ab324d3e487126e9142d84f017be6aed7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_GraphEdgeBitSet.uncheckedTest</definition>
+        <argsstring>(ulong n)</argsstring>
+        <name>uncheckedTest</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.uncheckedTest</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1ab324d3e487126e9142d84f017be6aed7" kindref="member">MR.GraphEdgeBitSet.uncheckedTest</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11680" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11680" bodyend="11685"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a5be5f2ef89ce0efa23f580be2c0f522f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_MRUint64T</type>
+        <definition>unsafe MR.Std.Const_Vector_MRUint64T MR.Const_GraphEdgeBitSet.bits</definition>
+        <argsstring>()</argsstring>
+        <name>bits</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.bits</qualifiedname>
+        <briefdescription>
+<para>read-only access to all bits stored as a vector of uint64 blocks Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1a5be5f2ef89ce0efa23f580be2c0f522f" kindref="member">MR.GraphEdgeBitSet.bits</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11691" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11691" bodyend="11696"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1acb2504524c4c205e1dba22213dbd226d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_GraphEdgeBitSet.all</definition>
+        <argsstring>()</argsstring>
+        <name>all</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.all</qualifiedname>
+        <briefdescription>
+<para>returns true if all bits in this container are set Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1acb2504524c4c205e1dba22213dbd226d" kindref="member">MR.GraphEdgeBitSet.all</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11702" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11702" bodyend="11707"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ab444bef9a3c836c634491c0d58df8ef9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_GraphEdgeBitSet.any</definition>
+        <argsstring>()</argsstring>
+        <name>any</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.any</qualifiedname>
+        <briefdescription>
+<para>returns true if at least one bits in this container is set Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1ab444bef9a3c836c634491c0d58df8ef9" kindref="member">MR.GraphEdgeBitSet.any</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11713" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11713" bodyend="11718"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ab1b5c7c2defe5ac5346686d8350b0153" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_GraphEdgeBitSet.none</definition>
+        <argsstring>()</argsstring>
+        <name>none</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.none</qualifiedname>
+        <briefdescription>
+<para>returns true if all bits in this container are reset Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1ab1b5c7c2defe5ac5346686d8350b0153" kindref="member">MR.GraphEdgeBitSet.none</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11724" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11724" bodyend="11729"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ab772b7083e6b789ecb2ca7ede5e523ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_GraphEdgeBitSet.count</definition>
+        <argsstring>()</argsstring>
+        <name>count</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.count</qualifiedname>
+        <briefdescription>
+<para>computes the number of set bits in the whole set Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1ab772b7083e6b789ecb2ca7ede5e523ec" kindref="member">MR.GraphEdgeBitSet.count</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11735" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11735" bodyend="11740"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1aa7eb9cf3dbf7fb282c1652cc55060a05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_GraphEdgeBitSet.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1aa7eb9cf3dbf7fb282c1652cc55060a05" kindref="member">MR.GraphEdgeBitSet.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11746" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11746" bodyend="11751"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1aaa329de8b6e64569bc07f705ff4a59be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_GraphEdgeBitSet.~Const_GraphEdgeBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_GraphEdgeBitSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.~Const_GraphEdgeBitSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11274" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11274" bodyend="11274"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1af0b1bc3a4ba49e2e5273ec316746066c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_GraphEdgeBitSet.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11335" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11335" bodyend="11338"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ae7db8170a4673b1c544c6d7b9af3df82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_GraphEdgeBitSet.operator MR.Const_BitSet</definition>
+        <argsstring>(Const_GraphEdgeBitSet self)</argsstring>
+        <name>operator MR.Const_BitSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.operator MR.Const_BitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GraphEdgeBitSet" kindref="compound">Const_GraphEdgeBitSet</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11341" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11341" bodyend="11348"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1ae44ee11430eb99fb6f114c6a430fb143" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1GraphEdgeId" kindref="compound">MR.GraphEdgeId</ref></type>
+        <definition>static MR.GraphEdgeId MR.Const_GraphEdgeBitSet.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.beginId</qualifiedname>
+        <briefdescription>
+<para>[<ref refid="classMR_1_1Const__GraphEdgeBitSet_1ae44ee11430eb99fb6f114c6a430fb143" kindref="member">beginId()</ref>, <ref refid="classMR_1_1Const__GraphEdgeBitSet_1a79f6478c9ed310f7d75d6026eae9791a" kindref="member">endId()</ref>) is the range of all bits in the set Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1ae44ee11430eb99fb6f114c6a430fb143" kindref="member">MR.GraphEdgeBitSet.beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11609" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11609" bodyend="11614"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a9ff9e0c0a0af6069057443aa49236068" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></type>
+        <definition>static unsafe MR.BitSet MR.Const_GraphEdgeBitSet.fromBlocks</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRUint64T &gt; blocks)</argsstring>
+        <name>fromBlocks</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.fromBlocks</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRUint64T &gt;</type>
+          <declname>blocks</declname>
+        </param>
+        <briefdescription>
+<para>creates bitset from the given blocks of bits Generated from method <computeroutput><ref refid="classMR_1_1Const__GraphEdgeBitSet_1a9ff9e0c0a0af6069057443aa49236068" kindref="member">MR.GraphEdgeBitSet.fromBlocks</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11630" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11630" bodyend="11635"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a2f4e311beca5e4bd1944c480b7303732" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
+        <definition>static unsafe MR.GraphEdgeBitSet MR.Const_GraphEdgeBitSet.operator&amp;</definition>
+        <argsstring>(MR.Const_GraphEdgeBitSet a, MR.Const_GraphEdgeBitSet b)</argsstring>
+        <name>operator&amp;</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.operator&amp;</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GraphEdgeBitSet" kindref="compound">MR.Const_GraphEdgeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__GraphEdgeBitSet" kindref="compound">MR.Const_GraphEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator&amp;amp;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11756" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11756" bodyend="11761"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a21b725326dbd487482c0acd341515ab8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
+        <definition>static unsafe MR.GraphEdgeBitSet MR.Const_GraphEdgeBitSet.operator|</definition>
+        <argsstring>(MR.Const_GraphEdgeBitSet a, MR.Const_GraphEdgeBitSet b)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.operator|</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GraphEdgeBitSet" kindref="compound">MR.Const_GraphEdgeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__GraphEdgeBitSet" kindref="compound">MR.Const_GraphEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator|</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11766" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11766" bodyend="11771"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1afa5e54b5379106ca627ffd7366af23c9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
+        <definition>static unsafe MR.GraphEdgeBitSet MR.Const_GraphEdgeBitSet.operator^</definition>
+        <argsstring>(MR.Const_GraphEdgeBitSet a, MR.Const_GraphEdgeBitSet b)</argsstring>
+        <name>operator^</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.operator^</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GraphEdgeBitSet" kindref="compound">MR.Const_GraphEdgeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__GraphEdgeBitSet" kindref="compound">MR.Const_GraphEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator^</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11776" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11776" bodyend="11781"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1a88ac504b46135e1d0d08e015948c68d6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></type>
+        <definition>static unsafe MR.GraphEdgeBitSet MR.Const_GraphEdgeBitSet.operator-</definition>
+        <argsstring>(MR.Const_GraphEdgeBitSet a, MR.Const_GraphEdgeBitSet b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GraphEdgeBitSet" kindref="compound">MR.Const_GraphEdgeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__GraphEdgeBitSet" kindref="compound">MR.Const_GraphEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator-</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11786" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11786" bodyend="11791"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1af8477aad0920e598b896f83f560824dd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>Const_GraphEdgeBitSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11356" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11356" bodyend="11369"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__GraphEdgeBitSet_1aa335168a1bb3d704d60fc92c834654c4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_GraphEdgeBitSet</name>
+        <qualifiedname>MR.Const_GraphEdgeBitSet.Const_GraphEdgeBitSet</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11371" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11371" bodyend="11371"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__GraphEdgeBitSet_1aa654468b20f3ac193a206c0e98119e80" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_GraphEdgeBitSet</label>
+        <link refid="classMR_1_1Const__GraphEdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.GraphEdgeBitSet</label>
+        <link refid="classMR_1_1GraphEdgeBitSet"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_GraphEdgeBitSet</label>
+        <link refid="classMR_1_1Const__GraphEdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="11258" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="11259" bodyend="11792"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a5e1ed5328a9a428d96160e2f6d7f2d5b" prot="protected" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>__ref_storage_BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab22c82988a98552cf7e28ab575955961" prot="protected" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>__ref_storage_Npos</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1acb2504524c4c205e1dba22213dbd226d" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>all</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab444bef9a3c836c634491c0d58df8ef9" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>any</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a21622f3eea79f2132c629da2cf8b9c9b" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ae44ee11430eb99fb6f114c6a430fb143" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a5be5f2ef89ce0efa23f580be2c0f522f" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>bits</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a9fd4af5454a37609460c993ed33e5335" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a9ac5ac9cd87397517ae07eceec3f40d6" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1af8477aad0920e598b896f83f560824dd" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1aa335168a1bb3d704d60fc92c834654c4" prot="package" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1af90809d5aadc089d53bb9a5c87d31347" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab2c0c64e5b65c96334f55574faa688bc" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ae698862e37d962bb58689d1cbb8ba84a" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a5519036c4c8a3b8b515d490782c359f6" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1adf8dcbb4720832f082709594fb7d9841" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ac17230951a550deb2c4ea481e3c54fa3" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a185bbfcb1540bd6b2817f78dbb9768a4" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>Const_GraphEdgeBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab772b7083e6b789ecb2ca7ede5e523ec" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>count</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ad5c34bd9b20dc74c37692ce8a2924e31" prot="protected" virt="virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a8d0e69ebcbd86b0d4b8566f513fe1866" prot="public" virt="virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a282f2d9a22b16196b6bc746c29144377" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a79f6478c9ed310f7d75d6026eae9791a" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a89e26e83521c9c17412c474b50525407" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>findFirst</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ae49aca7e4a26a5414562775a31842679" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>findFirstNotSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a1d5ba8d3c473bb303dc74b4de90ae706" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>findLast</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a82d34703fad645640533509db1f3b24f" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>findLastNotSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a25913667a065ef4700e952b74fa68be4" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>findNext</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1aeeb3b8544714eb381e050dc9c89f2a1a" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>findNextNotSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a9ff9e0c0a0af6069057443aa49236068" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>fromBlocks</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a393f8730442fe52c61963e5c48a45f7c" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1af0b1bc3a4ba49e2e5273ec316746066c" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1aa440be6276827f3cfb6de2446d149bb6" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a75b56c6385d89ea91a6546c649b6517c" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a460f04c8003f108837f0aebe03e50481" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a2e6c6fb1b494fa08042527674b3a5172" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a60a6665b29d3a54b9e9ad9ce01ca8780" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1aa7eb9cf3dbf7fb282c1652cc55060a05" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a367aee18e62506c8754b74ff82c4e7f1" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>intersects</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ad5bbc494baa45ee6a04e40b367dfb629" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>isSubsetOf</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab1b5c7c2defe5ac5346686d8350b0153" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>none</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a1f7bcd0f421fb535d209f7d18c28650c" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>Npos</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a087f6b7b865093247b737c7439e968de" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a4cd0fa3501947ca3cfd22be3beb8c91f" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>numBlocks</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ae7db8170a4673b1c544c6d7b9af3df82" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>operator MR.Const_BitSet</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a2f4e311beca5e4bd1944c480b7303732" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>operator&amp;</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a88ac504b46135e1d0d08e015948c68d6" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1afa5e54b5379106ca627ffd7366af23c9" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>operator^</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a21b725326dbd487482c0acd341515ab8" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>operator|</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1aa654468b20f3ac193a206c0e98119e80" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1a581585fb20989f802780109247727cb1" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>test</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1ab324d3e487126e9142d84f017be6aed7" prot="public" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classMR_1_1Const__GraphEdgeBitSet_1aaa329de8b6e64569bc07f705ff4a59be" prot="private" virt="non-virtual"><scope>MR::Const_GraphEdgeBitSet</scope><name>~Const_GraphEdgeBitSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

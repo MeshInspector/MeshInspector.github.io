@@ -304,6 +304,57 @@
         </inbodydescription>
         <location file="MRMesh/MREdgeMetric.h" line="48" column="14" declfile="MRMesh/MREdgeMetric.h" declline="48" declcolumn="14"/>
       </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gaa2a5b359dace91a4b35c9874d04a7931" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EdgeMetric</type>
+        <definition>EdgeMetric MR::edgeDihedralAngleMetric</definition>
+        <argsstring>(const Mesh &amp;mesh, const DihedralAngleProcessParams &amp;params={})</argsstring>
+        <name>edgeDihedralAngleMetric</name>
+        <qualifiedname>MR::edgeDihedralAngleMetric</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const DihedralAngleProcessParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this metric returns edge&apos;s dihedral angle computed by <ref refid="group__GeneralGroup_1gaf638aabbfacdad04a67c4be5dee8d85d" kindref="member">MR::dihedralAngle</ref> and post-processed based on the given parameters; returned value is NOT multiplied on edge&apos;s length as in other metrics; this metric is symmetric: m(e) == m(e.sym()) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MREdgeMetric.h" line="60" column="14" declfile="MRMesh/MREdgeMetric.h" declline="60" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga5d38c69469719f54826d15925625b6c8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EdgeMetric</type>
+        <definition>EdgeMetric MR::edgeDihedralAngleMetric</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertCoords &amp;points, const DihedralAngleProcessParams &amp;params={})</argsstring>
+        <name>edgeDihedralAngleMetric</name>
+        <qualifiedname>MR::edgeDihedralAngleMetric</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertCoords &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const DihedralAngleProcessParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MREdgeMetric.h" line="61" column="14" declfile="MRMesh/MREdgeMetric.h" declline="61" declcolumn="14"/>
+      </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga4e42be093ad0a3c2093cbfe41a7fc8e4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeMetric</type>
         <definition>EdgeMetric MR::edgeTableSymMetric</definition>
@@ -325,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgeMetric.h" line="52" column="14" declfile="MRMesh/MREdgeMetric.h" declline="52" declcolumn="14"/>
+        <location file="MRMesh/MREdgeMetric.h" line="65" column="14" declfile="MRMesh/MREdgeMetric.h" declline="65" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="user-defined">
@@ -350,7 +401,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="19" column="8" declfile="MRMesh/MREdgePaths.h" declline="19" declcolumn="8"/>
+        <location file="MRMesh/MREdgePaths.h" line="18" column="8" declfile="MRMesh/MREdgePaths.h" declline="18" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gac69eac289f7c94aff94e7e9db7ed8a62" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -373,7 +424,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="22" column="8" declfile="MRMesh/MREdgePaths.h" declline="22" declcolumn="8"/>
+        <location file="MRMesh/MREdgePaths.h" line="21" column="8" declfile="MRMesh/MREdgePaths.h" declline="21" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga49b1ba597792f69ce9ff43247589abdc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeLoop &gt;</type>
@@ -396,7 +447,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="25" column="15" declfile="MRMesh/MREdgePaths.h" declline="25" declcolumn="15"/>
+        <location file="MRMesh/MREdgePaths.h" line="24" column="15" declfile="MRMesh/MREdgePaths.h" declline="24" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gae1c98eba979eff47ecbc85819055f406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -415,7 +466,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="29" column="7" declfile="MRMesh/MREdgePaths.h" declline="29" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="28" column="7" declfile="MRMesh/MREdgePaths.h" declline="28" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gac4206d9b8cd70351f464480a31eb6991" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -434,7 +485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="31" column="7" declfile="MRMesh/MREdgePaths.h" declline="31" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="30" column="7" declfile="MRMesh/MREdgePaths.h" declline="30" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gadfc4088a950f5dd961c5ba835c4b0689" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -457,9 +508,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="34" column="10" declfile="MRMesh/MREdgePaths.h" declline="34" declcolumn="10"/>
+        <location file="MRMesh/MREdgePaths.h" line="33" column="10" declfile="MRMesh/MREdgePaths.h" declline="33" declcolumn="10"/>
       </memberdef>
-      <memberdef kind="function" id="group__SurfacePathGroup_1ga1792643322d571922601c7286a802f51" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga1792643322d571922601c7286a802f51" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
         <definition>double MR::calcPathLength</definition>
         <argsstring>(const EdgePath &amp;path, const Mesh &amp;mesh)</argsstring>
@@ -479,7 +530,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="35" column="16" bodyfile="MRMesh/MREdgePaths.h" bodystart="35" bodyend="35"/>
+        <location file="MRMesh/MREdgePaths.h" line="34" column="10" declfile="MRMesh/MREdgePaths.h" declline="34" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gaa0da41b632b9d216759f5517ea25fbd6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Vector3d</type>
@@ -502,7 +553,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="39" column="12" declfile="MRMesh/MREdgePaths.h" declline="39" declcolumn="12"/>
+        <location file="MRMesh/MREdgePaths.h" line="38" column="12" declfile="MRMesh/MREdgePaths.h" declline="38" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga694b3fe06b8459a249a7c22467194ff8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -525,9 +576,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="42" column="7" declfile="MRMesh/MREdgePaths.h" declline="42" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="41" column="7" declfile="MRMesh/MREdgePaths.h" declline="41" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__SurfacePathGroup_1gaabc40dcee3ba22d445c0f838f170d549" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="group__SurfacePathGroup_1gaabc40dcee3ba22d445c0f838f170d549" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void MR::sortPathsByLength</definition>
         <argsstring>(std::vector&lt; EdgePath &gt; &amp;paths, const Mesh &amp;mesh)</argsstring>
@@ -547,7 +598,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="43" column="13" bodyfile="MRMesh/MREdgePaths.h" bodystart="43" bodyend="43"/>
+        <location file="MRMesh/MREdgePaths.h" line="42" column="7" declfile="MRMesh/MREdgePaths.h" declline="42" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga76647b99785eef207f1f05c7dc568e35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -574,7 +625,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="46" column="7" declfile="MRMesh/MREdgePaths.h" declline="46" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="45" column="7" declfile="MRMesh/MREdgePaths.h" declline="45" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gabb3f2849332e308e7fbcdf6f50eac262" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgePath</type>
@@ -606,7 +657,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="58" column="12" declfile="MRMesh/MREdgePaths.h" declline="58" declcolumn="12"/>
+        <location file="MRMesh/MREdgePaths.h" line="57" column="12" declfile="MRMesh/MREdgePaths.h" declline="57" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga02ee193e489ee539ab60e56139f84aa5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgePath</type>
@@ -638,7 +689,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="62" column="12" declfile="MRMesh/MREdgePaths.h" declline="62" declcolumn="12"/>
+        <location file="MRMesh/MREdgePaths.h" line="61" column="12" declfile="MRMesh/MREdgePaths.h" declline="61" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga7068d3620fb34fe34aaf973ecfa5999f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgePath</type>
@@ -684,7 +735,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="67" column="12" declfile="MRMesh/MREdgePaths.h" declline="67" declcolumn="12"/>
+        <location file="MRMesh/MREdgePaths.h" line="66" column="12" declfile="MRMesh/MREdgePaths.h" declline="66" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gaa54ee5037fb3fe5674b2ef9b1ccf084f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgePath</type>
@@ -716,7 +767,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="75" column="12" declfile="MRMesh/MREdgePaths.h" declline="75" declcolumn="12"/>
+        <location file="MRMesh/MREdgePaths.h" line="74" column="12" declfile="MRMesh/MREdgePaths.h" declline="74" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga04f0df3b565536ea021a215e7022f0f8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgePath</type>
@@ -762,7 +813,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="80" column="12" declfile="MRMesh/MREdgePaths.h" declline="80" declcolumn="12"/>
+        <location file="MRMesh/MREdgePaths.h" line="79" column="12" declfile="MRMesh/MREdgePaths.h" declline="79" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gac13992e29bf5dd0ada3fdd1fa5f12f18" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgePath</type>
@@ -794,7 +845,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="87" column="12" declfile="MRMesh/MREdgePaths.h" declline="87" declcolumn="12"/>
+        <location file="MRMesh/MREdgePaths.h" line="86" column="12" declfile="MRMesh/MREdgePaths.h" declline="86" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga2e859da5422bb433cd50959d4c1f5c3c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgePath</type>
@@ -830,7 +881,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="90" column="12" declfile="MRMesh/MREdgePaths.h" declline="90" declcolumn="12"/>
+        <location file="MRMesh/MREdgePaths.h" line="89" column="12" declfile="MRMesh/MREdgePaths.h" declline="89" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga9abf677f3818dddee4eda4f17b494cfc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgePath</type>
@@ -866,7 +917,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="95" column="12" declfile="MRMesh/MREdgePaths.h" declline="95" declcolumn="12"/>
+        <location file="MRMesh/MREdgePaths.h" line="94" column="12" declfile="MRMesh/MREdgePaths.h" declline="94" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gae474ab43755b30ced4f02ee56022a3eb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgePath</type>
@@ -924,7 +975,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="100" column="12" declfile="MRMesh/MREdgePaths.h" declline="100" declcolumn="12"/>
+        <location file="MRMesh/MREdgePaths.h" line="99" column="12" declfile="MRMesh/MREdgePaths.h" declline="99" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga219897fc7869629ce5165c35fd571aab" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgePath</type>
@@ -960,7 +1011,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="108" column="12" declfile="MRMesh/MREdgePaths.h" declline="108" declcolumn="12"/>
+        <location file="MRMesh/MREdgePaths.h" line="107" column="12" declfile="MRMesh/MREdgePaths.h" declline="107" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga1511fecfd8301ba24f79d02e8fa45982" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; VertId &gt;</type>
@@ -983,7 +1034,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="112" column="15" declfile="MRMesh/MREdgePaths.h" declline="112" declcolumn="15"/>
+        <location file="MRMesh/MREdgePaths.h" line="111" column="15" declfile="MRMesh/MREdgePaths.h" declline="111" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gad068beca376e3cf83e4dd7242e2895ee" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeLoop &gt;</type>
@@ -1006,7 +1057,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="115" column="15" declfile="MRMesh/MREdgePaths.h" declline="115" declcolumn="15"/>
+        <location file="MRMesh/MREdgePaths.h" line="114" column="15" declfile="MRMesh/MREdgePaths.h" declline="114" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga377401ceaf2122bc30a61a0eab94847d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeLoop &gt;</type>
@@ -1033,7 +1084,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="116" column="15" declfile="MRMesh/MREdgePaths.h" declline="116" declcolumn="15"/>
+        <location file="MRMesh/MREdgePaths.h" line="115" column="15" declfile="MRMesh/MREdgePaths.h" declline="115" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga0dc43107bcd013968ae734778000b674" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeLoop</type>
@@ -1055,7 +1106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="118" column="12" declfile="MRMesh/MREdgePaths.h" declline="118" declcolumn="12"/>
+        <location file="MRMesh/MREdgePaths.h" line="117" column="12" declfile="MRMesh/MREdgePaths.h" declline="117" declcolumn="12"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga114a5d76c6d32bc160b8b37c5ab5c7ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1091,7 +1142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="121" column="7" declfile="MRMesh/MREdgePaths.h" declline="121" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="120" column="7" declfile="MRMesh/MREdgePaths.h" declline="120" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gab11dcd26158decf73bbbaafe28944456" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1126,7 +1177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="122" column="7" declfile="MRMesh/MREdgePaths.h" declline="122" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="121" column="7" declfile="MRMesh/MREdgePaths.h" declline="121" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga84c9cd9d7243cae376c8758beb6c70dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1161,7 +1212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="123" column="7" declfile="MRMesh/MREdgePaths.h" declline="123" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="122" column="7" declfile="MRMesh/MREdgePaths.h" declline="122" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga3e3b684cdc3ff80a0b5abc9ef633d404" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1197,7 +1248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="126" column="7" declfile="MRMesh/MREdgePaths.h" declline="126" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="125" column="7" declfile="MRMesh/MREdgePaths.h" declline="125" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gad8b9000f87b599330d274b4b75060467" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1232,7 +1283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="127" column="7" declfile="MRMesh/MREdgePaths.h" declline="127" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="126" column="7" declfile="MRMesh/MREdgePaths.h" declline="126" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga23b6b80a3a61d1f1c8bcfc3bb1693801" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1267,7 +1318,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="128" column="7" declfile="MRMesh/MREdgePaths.h" declline="128" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="127" column="7" declfile="MRMesh/MREdgePaths.h" declline="127" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga4f1c56a182b9fcbe7dd9cab5564473dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1299,7 +1350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="131" column="7" declfile="MRMesh/MREdgePaths.h" declline="131" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="130" column="7" declfile="MRMesh/MREdgePaths.h" declline="130" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga97f761bb5bc7bb62fd18a5142907936e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1330,7 +1381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="132" column="7" declfile="MRMesh/MREdgePaths.h" declline="132" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="131" column="7" declfile="MRMesh/MREdgePaths.h" declline="131" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga068aa0418e823edd8a4aea01dad16a3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1361,7 +1412,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="133" column="7" declfile="MRMesh/MREdgePaths.h" declline="133" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="132" column="7" declfile="MRMesh/MREdgePaths.h" declline="132" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gaa884a58991fce08349f987c0a54c5320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1396,7 +1447,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="134" column="7" declfile="MRMesh/MREdgePaths.h" declline="134" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="133" column="7" declfile="MRMesh/MREdgePaths.h" declline="133" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gaf672a3839f9ef74e70e7810edcba2757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1431,7 +1482,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="135" column="7" declfile="MRMesh/MREdgePaths.h" declline="135" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="134" column="7" declfile="MRMesh/MREdgePaths.h" declline="134" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga5975604c02ce4c594e07f8842a6a54d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1466,7 +1517,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="136" column="7" declfile="MRMesh/MREdgePaths.h" declline="136" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="135" column="7" declfile="MRMesh/MREdgePaths.h" declline="135" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga4d9b525e2a13c59a961a8c19c0241cf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1498,7 +1549,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="139" column="7" declfile="MRMesh/MREdgePaths.h" declline="139" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="138" column="7" declfile="MRMesh/MREdgePaths.h" declline="138" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga036e2af3d1da743c9d0fd628ac3e448e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1529,7 +1580,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="140" column="7" declfile="MRMesh/MREdgePaths.h" declline="140" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="139" column="7" declfile="MRMesh/MREdgePaths.h" declline="139" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gab8e36e0d087fbd88e882ffcf90a7d5c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1560,7 +1611,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="141" column="7" declfile="MRMesh/MREdgePaths.h" declline="141" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="140" column="7" declfile="MRMesh/MREdgePaths.h" declline="140" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga2f7c1aea16986258c61ae83c1541d3f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1595,7 +1646,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="142" column="7" declfile="MRMesh/MREdgePaths.h" declline="142" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="141" column="7" declfile="MRMesh/MREdgePaths.h" declline="141" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga26534842008bbd0a84eb6c37eac73ded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1630,7 +1681,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="143" column="7" declfile="MRMesh/MREdgePaths.h" declline="143" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="142" column="7" declfile="MRMesh/MREdgePaths.h" declline="142" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gaae44493b7ad45bf11d4a455ce5694ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1665,7 +1716,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="144" column="7" declfile="MRMesh/MREdgePaths.h" declline="144" declcolumn="7"/>
+        <location file="MRMesh/MREdgePaths.h" line="143" column="7" declfile="MRMesh/MREdgePaths.h" declline="143" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1ga073f5968db04089e69a7b40abc1aaf1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1697,7 +1748,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="147" column="6" declfile="MRMesh/MREdgePaths.h" declline="147" declcolumn="6"/>
+        <location file="MRMesh/MREdgePaths.h" line="146" column="6" declfile="MRMesh/MREdgePaths.h" declline="146" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gacb71fc9052e9e4c153a7016b45e70a83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1725,7 +1776,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="151" column="6" declfile="MRMesh/MREdgePaths.h" declline="151" declcolumn="6"/>
+        <location file="MRMesh/MREdgePaths.h" line="150" column="6" declfile="MRMesh/MREdgePaths.h" declline="150" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="group__SurfacePathGroup_1gaba6bba9899b4b1a78c2c711d73b92ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -1762,7 +1813,52 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MREdgePaths.h" line="155" column="6" declfile="MRMesh/MREdgePaths.h" declline="155" declcolumn="6"/>
+        <location file="MRMesh/MREdgePaths.h" line="154" column="6" declfile="MRMesh/MREdgePaths.h" declline="154" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1gacbfadb233d804c66b6968368fcca05f0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Contour3f</type>
+        <definition>Contour3f MR::edgePathToContour3f</definition>
+        <argsstring>(const Mesh &amp;mesh, const EdgePath &amp;line)</argsstring>
+        <name>edgePathToContour3f</name>
+        <qualifiedname>MR::edgePathToContour3f</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const EdgePath &amp;</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+<para>converts lines on mesh in 3D contours by computing coordinate of each point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MREdgePaths.h" line="158" column="13" declfile="MRMesh/MREdgePaths.h" declline="158" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__SurfacePathGroup_1ga6af8590fd17b0f605429dfd96564cb83" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Contours3f</type>
+        <definition>Contours3f MR::edgePathsToContours3f</definition>
+        <argsstring>(const Mesh &amp;mesh, const std::vector&lt; EdgePath &gt; &amp;lines)</argsstring>
+        <name>edgePathsToContours3f</name>
+        <qualifiedname>MR::edgePathsToContours3f</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; EdgePath &gt; &amp;</type>
+          <declname>lines</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MREdgePaths.h" line="159" column="14" declfile="MRMesh/MREdgePaths.h" declline="159" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

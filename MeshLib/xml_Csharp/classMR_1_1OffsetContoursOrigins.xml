@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OffsetContoursOrigins" kind="class" language="C#" prot="public">
     <compoundname>MR::OffsetContoursOrigins</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_OffsetContoursOrigins</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__OffsetContoursOrigins" prot="public" virt="non-virtual">MR.Const_OffsetContoursOrigins</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1OffsetContoursOrigins_1a5f355cbb47b1482f3c60f70653bce3bc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1OffsetContourIndex" kindref="compound">MR.OffsetContourIndex</ref></type>
@@ -136,19 +136,19 @@
         <name>OffsetContoursOrigins</name>
         <qualifiedname>MR.OffsetContoursOrigins.OffsetContoursOrigins</qualifiedname>
         <param>
-          <type>MR.Const_OffsetContourIndex</type>
+          <type><ref refid="classMR_1_1Const__OffsetContourIndex" kindref="compound">MR.Const_OffsetContourIndex</ref></type>
           <declname>lOrg</declname>
         </param>
         <param>
-          <type>MR.Const_OffsetContourIndex</type>
+          <type><ref refid="classMR_1_1Const__OffsetContourIndex" kindref="compound">MR.Const_OffsetContourIndex</ref></type>
           <declname>lDest</declname>
         </param>
         <param>
-          <type>MR.Const_OffsetContourIndex</type>
+          <type><ref refid="classMR_1_1Const__OffsetContourIndex" kindref="compound">MR.Const_OffsetContourIndex</ref></type>
           <declname>uOrg</declname>
         </param>
         <param>
-          <type>MR.Const_OffsetContourIndex</type>
+          <type><ref refid="classMR_1_1Const__OffsetContourIndex" kindref="compound">MR.Const_OffsetContourIndex</ref></type>
           <declname>uDest</declname>
         </param>
         <param>
@@ -175,7 +175,7 @@
         <name>OffsetContoursOrigins</name>
         <qualifiedname>MR.OffsetContoursOrigins.OffsetContoursOrigins</qualifiedname>
         <param>
-          <type>MR.Const_OffsetContoursOrigins</type>
+          <type><ref refid="classMR_1_1Const__OffsetContoursOrigins" kindref="compound">MR.Const_OffsetContoursOrigins</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -213,7 +213,7 @@
         <name>assign</name>
         <qualifiedname>MR.OffsetContoursOrigins.assign</qualifiedname>
         <param>
-          <type>MR.Const_OffsetContoursOrigins</type>
+          <type><ref refid="classMR_1_1Const__OffsetContoursOrigins" kindref="compound">MR.Const_OffsetContoursOrigins</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -240,6 +240,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OffsetContoursOrigins</label>
+        <link refid="classMR_1_1Const__OffsetContoursOrigins"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -261,6 +262,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OffsetContoursOrigins</label>
+        <link refid="classMR_1_1Const__OffsetContoursOrigins"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -275,7 +277,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="389" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="390" bodyend="513"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__OffsetContoursOrigins_1a008eec82a6c8b4314747c49a5084e4d5" prot="protected" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>__ref_storage_lRatio</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursOrigins_1a453b21779d8ff097a26934a697efbaa7" prot="protected" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>__ref_storage_uRatio</name></member>
       <member refid="classMR_1_1OffsetContoursOrigins_1a8e4d038887687f0ccab795cfed260750" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursOrigins_1afe7c447579fa7205ad3b74ec1278966a" prot="package" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>Const_OffsetContoursOrigins</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursOrigins_1a9a3b7890641bbdc55301f8b03f4dbec9" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>Const_OffsetContoursOrigins</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursOrigins_1ad15dff51d41f3f4b4436409fdc750091" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>Const_OffsetContoursOrigins</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursOrigins_1aa269f746d02e8bca85e1d744ec61e882" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>Const_OffsetContoursOrigins</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursOrigins_1a150fb02ce172d7b7b06039e740f3370a" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>Const_OffsetContoursOrigins</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursOrigins_1a34e4a4905d54d99ab3ead07af6e49739" prot="protected" virt="virtual"><scope>MR::OffsetContoursOrigins</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursOrigins_1a6e3cda17d7db5c7caf07ab6d8cbaedd8" prot="public" virt="virtual"><scope>MR::OffsetContoursOrigins</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursOrigins_1a095de339ea492d4eaedb33181710ae72" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>isIntersection</name></member>
       <member refid="classMR_1_1OffsetContoursOrigins_1ab102833a258c60cb00d40c501dfc597c" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>lDest</name></member>
       <member refid="classMR_1_1OffsetContoursOrigins_1a5f355cbb47b1482f3c60f70653bce3bc" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>lOrg</name></member>
       <member refid="classMR_1_1OffsetContoursOrigins_1adbae18d1fd60a4a41a8d5fd409096786" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>lRatio</name></member>
@@ -287,6 +299,7 @@
       <member refid="classMR_1_1OffsetContoursOrigins_1aff882e7dd986832198242f8ee7e7f4ff" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>uDest</name></member>
       <member refid="classMR_1_1OffsetContoursOrigins_1a3d41c1344c724c0314de50d45f6f66b9" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>uOrg</name></member>
       <member refid="classMR_1_1OffsetContoursOrigins_1ad6d6147d1b44a3968aee7449c4225b97" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>uRatio</name></member>
+      <member refid="classMR_1_1Const__OffsetContoursOrigins_1a27ec028580f2099a229845932f6bde4a" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

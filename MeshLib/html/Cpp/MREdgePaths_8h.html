@@ -144,7 +144,6 @@ $(function(){initNavTree('MREdgePaths_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MREdgeMetric_8h_source.html">MREdgeMetric.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &lt;cfloat&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
@@ -228,6 +227,9 @@ Functions</h2></td></tr>
 <tr class="memdesc:gacb71fc9052e9e4c153a7016b45e70a83"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all intersection points between given contour and plane, adds them in outIntersections and returns their number  <br /></td></tr>
 <tr class="memitem:gaba6bba9899b4b1a78c2c711d73b92ecd" id="r_gaba6bba9899b4b1a78c2c711d73b92ecd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gaba6bba9899b4b1a78c2c711d73b92ecd">MR::getPathEdgesInPlane</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;path, const <a class="el" href="group__GeneralGroup.html#ga6b8606e6618471611100352ed5a178a7">Plane3f</a> &amp;plane, float tolerance=0.0f, std::vector&lt; EdgeId &gt; *outInPlaneEdges=nullptr)</td></tr>
 <tr class="memdesc:gaba6bba9899b4b1a78c2c711d73b92ecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all path edges located in given plane with given tolerance, adds them in outInPlaneEdges and returns their number  <br /></td></tr>
+<tr class="memitem:gacbfadb233d804c66b6968368fcca05f0" id="r_gacbfadb233d804c66b6968368fcca05f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga19c0568c2b8f7fe1df67adc9cf370bc0">Contour3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#gacbfadb233d804c66b6968368fcca05f0">MR::edgePathToContour3f</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;line)</td></tr>
+<tr class="memdesc:gacbfadb233d804c66b6968368fcca05f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts lines on mesh in 3D contours by computing coordinate of each point  <br /></td></tr>
+<tr class="memitem:ga6af8590fd17b0f605429dfd96564cb83" id="r_ga6af8590fd17b0f605429dfd96564cb83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SurfacePathGroup.html#ga6af8590fd17b0f605429dfd96564cb83">MR::edgePathsToContours3f</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;lines)</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

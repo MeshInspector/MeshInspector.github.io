@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Pdf" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Pdf</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Pdf" prot="public" virt="non-virtual">MR.Pdf</derivedcompoundref>
+    <innerclass refid="classMR_1_1Const__Pdf_1_1Cell" prot="public">MR::Const_Pdf::Cell</innerclass>
+    <innerclass refid="classMR_1_1Const__Pdf_1_1CellCustomParams" prot="public">MR::Const_Pdf::CellCustomParams</innerclass>
+    <innerclass refid="classMR_1_1Const__Pdf_1_1Const__Cell" prot="public">MR::Const_Pdf::Const_Cell</innerclass>
+    <innerclass refid="classMR_1_1Const__Pdf_1_1Const__CellCustomParams" prot="public">MR::Const_Pdf::Const_CellCustomParams</innerclass>
+    <innerclass refid="classMR_1_1Const__Pdf_1_1Const__ImageParams" prot="public">MR::Const_Pdf::Const_ImageParams</innerclass>
+    <innerclass refid="classMR_1_1Const__Pdf_1_1Const__PaletteRowStats" prot="public">MR::Const_Pdf::Const_PaletteRowStats</innerclass>
+    <innerclass refid="classMR_1_1Const__Pdf_1_1Const__TextCellParams" prot="public">MR::Const_Pdf::Const_TextCellParams</innerclass>
+    <innerclass refid="classMR_1_1Const__Pdf_1_1Const__TextParams" prot="public">MR::Const_Pdf::Const_TextParams</innerclass>
+    <innerclass refid="classMR_1_1Const__Pdf_1_1ImageParams" prot="public">MR::Const_Pdf::ImageParams</innerclass>
+    <innerclass refid="classMR_1_1Const__Pdf_1_1PaletteRowStats" prot="public">MR::Const_Pdf::PaletteRowStats</innerclass>
+    <innerclass refid="classMR_1_1Const__Pdf_1_1TextCellParams" prot="public">MR::Const_Pdf::TextCellParams</innerclass>
+    <innerclass refid="classMR_1_1Const__Pdf_1_1TextParams" prot="public">MR::Const_Pdf::TextParams</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1Const__Pdf_1a7892f5728ae65bba32cd8c15eb4c7c70" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>AlignmentHorizontal</name>
+        <qualifiedname>MR.Const_Pdf.AlignmentHorizontal</qualifiedname>
+        <enumvalue id="classMR_1_1Const__Pdf_1a7892f5728ae65bba32cd8c15eb4c7c70a945d5e233cf7d6240f6b783b36a374ff" prot="public">
+          <name>Left</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__Pdf_1a7892f5728ae65bba32cd8c15eb4c7c70a4f1f6016fc9f3f2353c0cc7c67b292bd" prot="public">
+          <name>Center</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__Pdf_1a7892f5728ae65bba32cd8c15eb4c7c70a92b09c7c48c520c3c55e497875da437c" prot="public">
+          <name>Right</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="468" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="469" bodyend="473"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1a37345050908d0f9420d201e3114c6529" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Pdf.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Pdf.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="372" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="372" bodyend="380"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1a8a0eb5e48708bd91f436c669eee4af34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Pdf.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Pdf.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="381" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="381" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1a1c733870ba0b4004639bf78ceb9e1b1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.Const_Pdf</definition>
+        <argsstring>(MR.Const_PdfParameters? params_=null)</argsstring>
+        <name>Const_Pdf</name>
+        <qualifiedname>MR.Const_Pdf.Const_Pdf</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PdfParameters" kindref="compound">MR.Const_PdfParameters</ref>?</type>
+          <declname>params_</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Ctor. Create a document, but not a page. To create a new page use newPage() method Generated from constructor <computeroutput><ref refid="classMR_1_1Pdf_1a81627f8cf190934a1d2f01ca463f13c0" kindref="member">MR.Pdf.Pdf</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1PdfParameters" kindref="compound">MR.PdfParameters()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="391" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="391" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1a0b09390d4b8e6df3d1774ec52121d277" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.Const_Pdf</definition>
+        <argsstring>(MR._ByValue_Pdf other)</argsstring>
+        <name>Const_Pdf</name>
+        <qualifiedname>MR.Const_Pdf.Const_Pdf</qualifiedname>
+        <param>
+          <type>MR._ByValue_Pdf</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Pdf_1a81627f8cf190934a1d2f01ca463f13c0" kindref="member">MR.Pdf.Pdf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="409" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="409" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1aab9988c0d6fb8fcd11b76b2c0d7c3bfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Pdf.getCursorPosX</definition>
+        <argsstring>()</argsstring>
+        <name>getCursorPosX</name>
+        <qualifiedname>MR.Const_Pdf.getCursorPosX</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Pdf_1aab9988c0d6fb8fcd11b76b2c0d7c3bfb" kindref="member">MR.Pdf.getCursorPosX</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="431" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="431" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1ab489baaf72cdac119c55754c1e977113" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Pdf.getCursorPosY</definition>
+        <argsstring>()</argsstring>
+        <name>getCursorPosY</name>
+        <qualifiedname>MR.Const_Pdf.getCursorPosY</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Pdf_1ab489baaf72cdac119c55754c1e977113" kindref="member">MR.Pdf.getCursorPosY</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="441" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="441" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1a125814d3ce7c85a727d51bfb104d34eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe MR.Vector2f MR.Const_Pdf.getPageSize</definition>
+        <argsstring>()</argsstring>
+        <name>getPageSize</name>
+        <qualifiedname>MR.Const_Pdf.getPageSize</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Pdf_1a125814d3ce7c85a727d51bfb104d34eb" kindref="member">MR.Pdf.getPageSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="451" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="451" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1af3f61b12e819ffc1402206393f6455a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref></type>
+        <definition>unsafe MR.Box2f MR.Const_Pdf.getPageWorkArea</definition>
+        <argsstring>()</argsstring>
+        <name>getPageWorkArea</name>
+        <qualifiedname>MR.Const_Pdf.getPageWorkArea</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Pdf_1af3f61b12e819ffc1402206393f6455a4" kindref="member">MR.Pdf.getPageWorkArea</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="461" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="461" bodyend="466"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1ac452790978eb18e0074216b9f6836f9c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Pdf.~Const_Pdf</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Pdf</name>
+        <qualifiedname>MR.Const_Pdf.~Const_Pdf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="382" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="382" bodyend="382"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1a1f205c51d7dc9da67c26534fa83f7958" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.Const_Pdf</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Pdf</name>
+        <qualifiedname>MR.Const_Pdf.Const_Pdf</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="384" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="384" bodyend="384"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1ac325b3aad4860d982b0148704b19a448" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Pdf.operator Const_Pdf</definition>
+        <argsstring>(MR.Const_PdfParameters? params_)</argsstring>
+        <name>operator Const_Pdf</name>
+        <qualifiedname>MR.Const_Pdf.operator Const_Pdf</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PdfParameters" kindref="compound">MR.Const_PdfParameters</ref>?</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Ctor. Create a document, but not a page. To create a new page use newPage() method Generated from constructor <computeroutput><ref refid="classMR_1_1Pdf_1a81627f8cf190934a1d2f01ca463f13c0" kindref="member">MR.Pdf.Pdf</ref></computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1PdfParameters" kindref="compound">MR.PdfParameters()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="404" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="404" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1ac92c0be514d96de9cbcb3ab334105253" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Pdf.operator bool</definition>
+        <argsstring>(MR.Const_Pdf _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Const_Pdf.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Pdf" kindref="compound">MR.Const_Pdf</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Checking the ability to work with a document Generated from conversion operator <computeroutput>MR::Pdf::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="421" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="421" bodyend="426"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for simple creation pdf. Generated from class <computeroutput><ref refid="classMR_1_1Pdf" kindref="compound">MR.Pdf</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Pdf</label>
+        <link refid="classMR_1_1Const__Pdf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.Pdf</label>
+        <link refid="classMR_1_1Pdf"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Pdf</label>
+        <link refid="classMR_1_1Const__Pdf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="366" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="367" bodyend="2346"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Pdf_1a7892f5728ae65bba32cd8c15eb4c7c70" prot="public" virt="non-virtual"><scope>MR::Const_Pdf</scope><name>AlignmentHorizontal</name></member>
+      <member refid="classMR_1_1Const__Pdf_1a1f205c51d7dc9da67c26534fa83f7958" prot="package" virt="non-virtual"><scope>MR::Const_Pdf</scope><name>Const_Pdf</name></member>
+      <member refid="classMR_1_1Const__Pdf_1a1c733870ba0b4004639bf78ceb9e1b1f" prot="public" virt="non-virtual"><scope>MR::Const_Pdf</scope><name>Const_Pdf</name></member>
+      <member refid="classMR_1_1Const__Pdf_1a0b09390d4b8e6df3d1774ec52121d277" prot="public" virt="non-virtual"><scope>MR::Const_Pdf</scope><name>Const_Pdf</name></member>
+      <member refid="classMR_1_1Const__Pdf_1a37345050908d0f9420d201e3114c6529" prot="protected" virt="virtual"><scope>MR::Const_Pdf</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Pdf_1a8a0eb5e48708bd91f436c669eee4af34" prot="public" virt="virtual"><scope>MR::Const_Pdf</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Pdf_1aab9988c0d6fb8fcd11b76b2c0d7c3bfb" prot="public" virt="non-virtual"><scope>MR::Const_Pdf</scope><name>getCursorPosX</name></member>
+      <member refid="classMR_1_1Const__Pdf_1ab489baaf72cdac119c55754c1e977113" prot="public" virt="non-virtual"><scope>MR::Const_Pdf</scope><name>getCursorPosY</name></member>
+      <member refid="classMR_1_1Const__Pdf_1a125814d3ce7c85a727d51bfb104d34eb" prot="public" virt="non-virtual"><scope>MR::Const_Pdf</scope><name>getPageSize</name></member>
+      <member refid="classMR_1_1Const__Pdf_1af3f61b12e819ffc1402206393f6455a4" prot="public" virt="non-virtual"><scope>MR::Const_Pdf</scope><name>getPageWorkArea</name></member>
+      <member refid="classMR_1_1Const__Pdf_1ac92c0be514d96de9cbcb3ab334105253" prot="public" virt="non-virtual"><scope>MR::Const_Pdf</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__Pdf_1ac325b3aad4860d982b0148704b19a448" prot="public" virt="non-virtual"><scope>MR::Const_Pdf</scope><name>operator Const_Pdf</name></member>
+      <member refid="classMR_1_1Const__Pdf_1ac452790978eb18e0074216b9f6836f9c" prot="private" virt="non-virtual"><scope>MR::Const_Pdf</scope><name>~Const_Pdf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

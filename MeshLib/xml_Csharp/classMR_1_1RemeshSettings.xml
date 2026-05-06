@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1RemeshSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::RemeshSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_RemeshSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__RemeshSettings" prot="public" virt="non-virtual">MR.Const_RemeshSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1RemeshSettings_1a6fa95b6c7aebc6640c70c489cca181bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -206,7 +206,7 @@
         <name>onEdgeSplit</name>
         <qualifiedname>MR.RemeshSettings.onEdgeSplit</qualifiedname>
         <briefdescription>
-<para>this function is called each time edge (e) is split into (e1-&amp;gt;e), but before the ring is made Delone </para>
+<para>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -301,10 +301,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="2100" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="2100" bodyend="2106"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1RemeshSettings_1a836b113cd92a52793147b9564e585ffa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1RemeshSettings_1afadf262c20f29e977f586ef74eb27678" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.RemeshSettings.RemeshSettings</definition>
-        <argsstring>(float targetEdgeLen, int maxEdgeSplits, float maxAngleChangeAfterFlip, bool frozenBoundary, float maxBdShift, bool useCurvature, float maxSplittableTriAspectRatio, int finalRelaxIters, bool finalRelaxNoShrinkage, MR.FaceBitSet? region, MR.UndirectedEdgeBitSet? notFlippable, bool packMesh, bool projectOnOriginalMesh, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeSplit, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeDel, MR.Std._ByValue_Function_BoolFuncFromMREdgeIdConstMRVector3fRef preCollapse, MR.Std._ByValue_Function_BoolFuncFromFloat progressCallback)</argsstring>
+        <argsstring>(float targetEdgeLen, int maxEdgeSplits, float maxAngleChangeAfterFlip, bool frozenBoundary, float maxBdShift, bool useCurvature, float maxSplittableTriAspectRatio, int finalRelaxIters, bool finalRelaxNoShrinkage, MR.FaceBitSet? region, MR.UndirectedEdgeBitSet? notFlippable, bool packMesh, bool projectOnOriginalMesh, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeSplit, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeDel, MR.Std._ByValue_Function_Bool_From_MREdgeId_ConstMRVector3fRef preCollapse, MR.Std._ByValue_Function_Bool_From_Float progressCallback)</argsstring>
         <name>RemeshSettings</name>
         <qualifiedname>MR.RemeshSettings.RemeshSettings</qualifiedname>
         <param>
@@ -360,19 +360,19 @@
           <declname>projectOnOriginalMesh</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <type>MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId</type>
           <declname>onEdgeSplit</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <type>MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId</type>
           <declname>onEdgeDel</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromMREdgeIdConstMRVector3fRef</type>
+          <type>MR.Std._ByValue_Function_Bool_From_MREdgeId_ConstMRVector3fRef</type>
           <declname>preCollapse</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>progressCallback</declname>
         </param>
         <briefdescription>
@@ -410,7 +410,7 @@
         <name>RemeshSettings</name>
         <qualifiedname>MR.RemeshSettings.RemeshSettings</qualifiedname>
         <param>
-          <type>Const_RemeshSettings</type>
+          <type><ref refid="classMR_1_1Const__RemeshSettings" kindref="compound">Const_RemeshSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -475,6 +475,7 @@
       </node>
       <node id="2">
         <label>MR.Const_RemeshSettings</label>
+        <link refid="classMR_1_1Const__RemeshSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -488,6 +489,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.RemeshSettings</label>
         <link refid="classMR_1_1RemeshSettings"/>
@@ -496,9 +501,14 @@
       </node>
       <node id="2">
         <label>MR.Const_RemeshSettings</label>
+        <link refid="classMR_1_1Const__RemeshSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_notFlippable</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -510,7 +520,28 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1933" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1934" bodyend="2158"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__RemeshSettings_1a2e144e264ff95a1dcb4312a23c69cd21" prot="protected" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>__ptr_storage_notFlippable</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a60f03b638ded3374331cc07ddd0c0336" prot="protected" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a49b97de020ccbf6c928e70d151094586" prot="protected" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>__ref_storage_finalRelaxIters</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a42ce6722b60f413f8a39272d91f71de7" prot="protected" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>__ref_storage_finalRelaxNoShrinkage</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1aec8ff790284e8efca3c63bc46efc2929" prot="protected" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>__ref_storage_frozenBoundary</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a937f4b661c6ff441fc311ba0853bdfa2" prot="protected" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>__ref_storage_maxAngleChangeAfterFlip</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1ab5d7cc8065688f83e3642807c199ed6c" prot="protected" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>__ref_storage_maxBdShift</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a650eba2a8f14ec9bdfc1f634001e72f5" prot="protected" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>__ref_storage_maxEdgeSplits</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a84832280c85ee4c2ba92b6a500400688" prot="protected" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>__ref_storage_maxSplittableTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a420c8bda8bf596603b93cbd877656a82" prot="protected" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>__ref_storage_packMesh</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1ac8ffc8c2856f2c2e5239d7c9fcdc3cca" prot="protected" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>__ref_storage_projectOnOriginalMesh</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1ac0ee070d65d6aa05fb44c4d9471e75ef" prot="protected" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>__ref_storage_targetEdgeLen</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1aa68d46bd1870f3690a5a31c56da53444" prot="protected" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>__ref_storage_useCurvature</name></member>
       <member refid="classMR_1_1RemeshSettings_1a8135724dd2f44a816686ce14a292c35a" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a1d765d51751ef0e65a97171e2456f076" prot="package" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>Const_RemeshSettings</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a55bdf74c5ef12d8d144dd142b2a597f7" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>Const_RemeshSettings</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a6a2a6e752f819b4fc01f0965277041a4" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>Const_RemeshSettings</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a410ac65fa7805e6dffc878b6ba8e1b6e" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>Const_RemeshSettings</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a077594c741a03582fbd53595870b456b" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>Const_RemeshSettings</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a856325db4dcc973757f25e2c1d7e34a7" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>Const_RemeshSettings</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a045d2a6da473a4cdc752284f7d146c54" prot="protected" virt="virtual"><scope>MR::RemeshSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a435efd47befcca1951d91519244de230" prot="public" virt="virtual"><scope>MR::RemeshSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1RemeshSettings_1aa850f0dfa5b2ea1499d220174d5f5dea" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>finalRelaxIters</name></member>
       <member refid="classMR_1_1RemeshSettings_1a29dd5f95d7806750d40e89020792465a" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>finalRelaxNoShrinkage</name></member>
       <member refid="classMR_1_1RemeshSettings_1a1e54e7c58f6a61255a7ce70d49fe62dc" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>frozenBoundary</name></member>
@@ -528,7 +559,7 @@
       <member refid="classMR_1_1RemeshSettings_1a4f2c8225746fce47bdebd0ffd0182f28" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>region</name></member>
       <member refid="classMR_1_1RemeshSettings_1a71efaa087ecce08ded1593ac53f270d3" prot="package" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>RemeshSettings</name></member>
       <member refid="classMR_1_1RemeshSettings_1ad9b6380e8d637f8c2ba5e5f2c36fd115" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>RemeshSettings</name></member>
-      <member refid="classMR_1_1RemeshSettings_1a836b113cd92a52793147b9564e585ffa" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>RemeshSettings</name></member>
+      <member refid="classMR_1_1RemeshSettings_1afadf262c20f29e977f586ef74eb27678" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>RemeshSettings</name></member>
       <member refid="classMR_1_1RemeshSettings_1ac157e99791f8e2ae24ae565be1367f03" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>RemeshSettings</name></member>
       <member refid="classMR_1_1RemeshSettings_1aa316c4431cacf7d50ce917dd4910b4f3" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>RemeshSettings</name></member>
       <member refid="classMR_1_1RemeshSettings_1a1410b041495d56bc3e616e34105e54d3" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>RemeshSettings</name></member>

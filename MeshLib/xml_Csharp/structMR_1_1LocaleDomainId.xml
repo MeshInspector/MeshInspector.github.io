@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1LocaleDomainId" kind="struct" language="C#" prot="public">
+    <compoundname>MR::LocaleDomainId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1LocaleDomainId_1aecb0eac991ac122b9a125197d8a1756e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR.LocaleDomainId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.LocaleDomainId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7180" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7180" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1ad03ec1d79b2be9d352c2014fbd14cc17" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.LocaleDomainId.operator LocaleDomainId</definition>
+        <argsstring>(ConstBox_LocaleDomainId other)</argsstring>
+        <name>operator LocaleDomainId</name>
+        <qualifiedname>MR.LocaleDomainId.operator LocaleDomainId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__LocaleDomainId" kindref="compound">ConstBox_LocaleDomainId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Copy contents from a wrapper class to this struct. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7185" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1aadcbeb2dc7a9eb8ce757564ab4c63ede" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.LocaleDomainId.operator int</definition>
+        <argsstring>(MR.LocaleDomainId _this)</argsstring>
+        <name>operator int</name>
+        <qualifiedname>MR.LocaleDomainId.operator int</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1LocaleDomainId" kindref="compound">MR.LocaleDomainId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::LocaleDomainId::operator int</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7232" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7232" bodyend="7237"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1af9b5dfb8007976853d8afdf72f63f291" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.LocaleDomainId.operator bool</definition>
+        <argsstring>(MR.LocaleDomainId _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.LocaleDomainId.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1LocaleDomainId" kindref="compound">MR.LocaleDomainId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::LocaleDomainId::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7242" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7242" bodyend="7247"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1a94e9e9331a6e6f13a6f5fdb5b7cfb32f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.LocaleDomainId.operator==</definition>
+        <argsstring>(MR.LocaleDomainId _this, MR.LocaleDomainId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.LocaleDomainId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1LocaleDomainId" kindref="compound">MR.LocaleDomainId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1LocaleDomainId" kindref="compound">MR.LocaleDomainId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::LocaleDomainId::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7278" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7278" bodyend="7283"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1ae86c5bd09bfea1c89b5488844cee26b4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.LocaleDomainId.operator!=</definition>
+        <argsstring>(MR.LocaleDomainId _this, MR.LocaleDomainId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.LocaleDomainId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1LocaleDomainId" kindref="compound">MR.LocaleDomainId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1LocaleDomainId" kindref="compound">MR.LocaleDomainId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7285" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7285" bodyend="7288"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1a7c1520be38e25c26dad824b6d6df8bf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.LocaleDomainId.LocaleDomainId</definition>
+        <argsstring>(LocaleDomainId _other)</argsstring>
+        <name>LocaleDomainId</name>
+        <qualifiedname>MR.LocaleDomainId.LocaleDomainId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1LocaleDomainId" kindref="compound">LocaleDomainId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7190" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7190" bodyend="7190"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1ad4ddc28b8fda3b72821b09f61d3ecd9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LocaleDomainId.LocaleDomainId</definition>
+        <argsstring>()</argsstring>
+        <name>LocaleDomainId</name>
+        <qualifiedname>MR.LocaleDomainId.LocaleDomainId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7195" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7195" bodyend="7200"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1a3983f354bd9fc9c7ab7833c428fb274b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LocaleDomainId.LocaleDomainId</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>LocaleDomainId</name>
+        <qualifiedname>MR.LocaleDomainId.LocaleDomainId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1LocaleDomainId_1a7c1520be38e25c26dad824b6d6df8bf2" kindref="member">MR.LocaleDomainId.LocaleDomainId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7205" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7205" bodyend="7210"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1a060be9e876b483f1554c56a420cc631c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LocaleDomainId.LocaleDomainId</definition>
+        <argsstring>(int i)</argsstring>
+        <name>LocaleDomainId</name>
+        <qualifiedname>MR.LocaleDomainId.LocaleDomainId</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1LocaleDomainId_1a7c1520be38e25c26dad824b6d6df8bf2" kindref="member">MR.LocaleDomainId.LocaleDomainId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7222" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7222" bodyend="7227"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1aafef54cda8bcd19daf08f83bd876ee7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.LocaleDomainId.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.LocaleDomainId.valid</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1LocaleDomainId_1aafef54cda8bcd19daf08f83bd876ee7c" kindref="member">MR.LocaleDomainId.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7252" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7252" bodyend="7260"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1a33f876113411101cced1acff83635d5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.LocaleDomainId.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.LocaleDomainId.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1LocaleDomainId_1a33f876113411101cced1acff83635d5d" kindref="member">MR.LocaleDomainId.get</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7265" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7265" bodyend="7273"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1ad0027501c736476314c5e55288a37d82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.LocaleDomainId.less</definition>
+        <argsstring>(MR.LocaleDomainId b)</argsstring>
+        <name>less</name>
+        <qualifiedname>MR.LocaleDomainId.less</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1LocaleDomainId" kindref="compound">MR.LocaleDomainId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::LocaleDomainId::operator&amp;lt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7293" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7293" bodyend="7301"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1a65ec31fc476972c3d71ee459a11cfbc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LocaleDomainId.decr</definition>
+        <argsstring>()</argsstring>
+        <name>decr</name>
+        <qualifiedname>MR.LocaleDomainId.decr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::LocaleDomainId::operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7306" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7306" bodyend="7314"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1aaf4bf18551989ed73054ffb7b045abb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1LocaleDomainId" kindref="compound">LocaleDomainId</ref></type>
+        <definition>unsafe LocaleDomainId MR.LocaleDomainId.decr</definition>
+        <argsstring>(MR.LocaleDomainId _this)</argsstring>
+        <name>decr</name>
+        <qualifiedname>MR.LocaleDomainId.decr</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1LocaleDomainId" kindref="compound">MR.LocaleDomainId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::LocaleDomainId::operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7319" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7319" bodyend="7326"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1a4cb816705f0f9ee23f21c4e16f84fb61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LocaleDomainId.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.LocaleDomainId.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::LocaleDomainId::operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7331" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7331" bodyend="7339"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1ad536f7ea3de69dafa8caf891438765fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1LocaleDomainId" kindref="compound">LocaleDomainId</ref></type>
+        <definition>unsafe LocaleDomainId MR.LocaleDomainId.incr</definition>
+        <argsstring>(MR.LocaleDomainId _this)</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.LocaleDomainId.incr</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1LocaleDomainId" kindref="compound">MR.LocaleDomainId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::LocaleDomainId::operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7344" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7344" bodyend="7351"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1a203f62397cf90a19379073e1a25669e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1LocaleDomainId" kindref="compound">MR.LocaleDomainId</ref></type>
+        <definition>unsafe ref MR.LocaleDomainId MR.LocaleDomainId.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.LocaleDomainId.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::LocaleDomainId::operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7356" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7356" bodyend="7364"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1ad5473698167b8d4aa1ec760ee01f28f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1LocaleDomainId" kindref="compound">MR.LocaleDomainId</ref></type>
+        <definition>unsafe ref MR.LocaleDomainId MR.LocaleDomainId.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.LocaleDomainId.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::LocaleDomainId::operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7369" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7369" bodyend="7377"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1a1c6e3062120d4a601cc5baf6bf6bad49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.LocaleDomainId.Equals</definition>
+        <argsstring>(MR.LocaleDomainId b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.LocaleDomainId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1LocaleDomainId" kindref="compound">MR.LocaleDomainId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7381" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7381" bodyend="7384"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1LocaleDomainId_1ae67495bfc04ed6f163e5d341c3376d2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.LocaleDomainId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.LocaleDomainId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7386" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7386" bodyend="7393"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1LocaleDomainId" kindref="compound">MR.LocaleDomainId</ref></computeroutput>. This is the by-value version of the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.LocaleDomainId</label>
+        <link refid="structMR_1_1LocaleDomainId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.LocaleDomainId</label>
+        <link refid="structMR_1_1LocaleDomainId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7177" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7178" bodyend="7394"/>
+    <listofallmembers>
+      <member refid="structMR_1_1LocaleDomainId_1ad5473698167b8d4aa1ec760ee01f28f2" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>addAssign</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1a65ec31fc476972c3d71ee459a11cfbc8" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>decr</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1aaf4bf18551989ed73054ffb7b045abb3" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>decr</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1a1c6e3062120d4a601cc5baf6bf6bad49" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>Equals</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1ae67495bfc04ed6f163e5d341c3376d2d" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>Equals</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1a33f876113411101cced1acff83635d5d" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>get</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1aecb0eac991ac122b9a125197d8a1756e" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>id</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1a4cb816705f0f9ee23f21c4e16f84fb61" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>incr</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1ad536f7ea3de69dafa8caf891438765fc" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>incr</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1ad0027501c736476314c5e55288a37d82" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>less</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1a7c1520be38e25c26dad824b6d6df8bf2" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>LocaleDomainId</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1ad4ddc28b8fda3b72821b09f61d3ecd9c" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>LocaleDomainId</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1a3983f354bd9fc9c7ab7833c428fb274b" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>LocaleDomainId</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1a060be9e876b483f1554c56a420cc631c" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>LocaleDomainId</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1af9b5dfb8007976853d8afdf72f63f291" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>operator bool</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1aadcbeb2dc7a9eb8ce757564ab4c63ede" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>operator int</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1ad03ec1d79b2be9d352c2014fbd14cc17" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>operator LocaleDomainId</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1ae86c5bd09bfea1c89b5488844cee26b4" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1a94e9e9331a6e6f13a6f5fdb5b7cfb32f" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>operator==</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1a203f62397cf90a19379073e1a25669e7" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>subAssign</name></member>
+      <member refid="structMR_1_1LocaleDomainId_1aafef54cda8bcd19daf08f83bd876ee7c" prot="public" virt="non-virtual"><scope>MR::LocaleDomainId</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ChangeNameAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ChangeNameAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeNameAction" prot="public" virt="non-virtual">MR.ChangeNameAction</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1aa7c57fef55663c47ca52d681be984ae6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ChangeNameAction.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangeNameAction.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1a8c5b7ffa61f0be935eb0a2f9dab66e8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ChangeNameAction.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ChangeNameAction.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1ae449f3f0b3405ac3fb405d2a37c1c573" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeNameAction.Const_ChangeNameAction</definition>
+        <argsstring>(MR._ByValue_ChangeNameAction _other)</argsstring>
+        <name>Const_ChangeNameAction</name>
+        <qualifiedname>MR.Const_ChangeNameAction.Const_ChangeNameAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeNameAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeNameAction_1a1d82b6634a26cd7a288d82796dfc865a" kindref="member">MR.ChangeNameAction.ChangeNameAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="56" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="56" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1abeb45fdfced93008160c813ac74821d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeNameAction.Const_ChangeNameAction</definition>
+        <argsstring>(Const_ChangeNameAction _other)</argsstring>
+        <name>Const_ChangeNameAction</name>
+        <qualifiedname>MR.Const_ChangeNameAction.Const_ChangeNameAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangeNameAction" kindref="compound">Const_ChangeNameAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeNameAction_1a1d82b6634a26cd7a288d82796dfc865a" kindref="member">MR.ChangeNameAction.ChangeNameAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="67" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1a1d8e9f9e23881361af39f6a964377d15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeNameAction.Const_ChangeNameAction</definition>
+        <argsstring>(ChangeNameAction _other)</argsstring>
+        <name>Const_ChangeNameAction</name>
+        <qualifiedname>MR.Const_ChangeNameAction.Const_ChangeNameAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeNameAction" kindref="compound">ChangeNameAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeNameAction_1a1d82b6634a26cd7a288d82796dfc865a" kindref="member">MR.ChangeNameAction.ChangeNameAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="72" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1a33d83463b4459e358c3ba0f81820baf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeNameAction.Const_ChangeNameAction</definition>
+        <argsstring>(string actionName, MR.Std._ByValue_SharedPtr_MRObject obj)</argsstring>
+        <name>Const_ChangeNameAction</name>
+        <qualifiedname>MR.Const_ChangeNameAction.Const_ChangeNameAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>actionName</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_SharedPtr_MRObject</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>construct before giving new name to the object Generated from constructor <computeroutput><ref refid="classMR_1_1ChangeNameAction_1a1d82b6634a26cd7a288d82796dfc865a" kindref="member">MR.ChangeNameAction.ChangeNameAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="78" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="78" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1a0ad1ac2006da4ad52808bfc0dc24c18c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ChangeNameAction.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_ChangeNameAction.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeNameAction_1a0ad1ac2006da4ad52808bfc0dc24c18c" kindref="member">MR.ChangeNameAction.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="93" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="93" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1a833a6142efaeda8716cc310543a402d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ChangeNameAction.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_ChangeNameAction.heapBytes</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ChangeNameAction_1a833a6142efaeda8716cc310543a402d8" kindref="member">MR.ChangeNameAction.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="103" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="103" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1a4db54d2911fd963ba3d9b6ad5387e227" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ChangeNameAction.~Const_ChangeNameAction</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ChangeNameAction</name>
+        <qualifiedname>MR.Const_ChangeNameAction.~Const_ChangeNameAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1a66d7c8d6686970172c279b2a98c7eb24" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ChangeNameAction.operator MR.Const_HistoryAction</definition>
+        <argsstring>(Const_ChangeNameAction self)</argsstring>
+        <name>operator MR.Const_HistoryAction</name>
+        <qualifiedname>MR.Const_ChangeNameAction.operator MR.Const_HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ChangeNameAction" kindref="compound">Const_ChangeNameAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="30" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1aa0b1840558cbf499da14f9af6c48e6b6" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ChangeNameAction.operator Const_ChangeNameAction?</definition>
+        <argsstring>(MR.Const_HistoryAction parent)</argsstring>
+        <name>operator Const_ChangeNameAction?</name>
+        <qualifiedname>MR.Const_ChangeNameAction.operator Const_ChangeNameAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__HistoryAction" kindref="compound">MR.Const_HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="40" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="40" bodyend="49"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ChangeNameAction_1ad8c4027882469e59cff078b837335334" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ChangeNameAction.Const_ChangeNameAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ChangeNameAction</name>
+        <qualifiedname>MR.Const_ChangeNameAction.Const_ChangeNameAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="51" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This action to undo/redo the change of object name Generated from class <computeroutput><ref refid="classMR_1_1ChangeNameAction" kindref="compound">MR.ChangeNameAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ChangeNameAction</label>
+        <link refid="classMR_1_1Const__ChangeNameAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ChangeNameAction</label>
+        <link refid="classMR_1_1ChangeNameAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ChangeNameAction</label>
+        <link refid="classMR_1_1Const__ChangeNameAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" line="11" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeNameAction.cs" bodystart="12" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ChangeNameAction_1ad8c4027882469e59cff078b837335334" prot="package" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>Const_ChangeNameAction</name></member>
+      <member refid="classMR_1_1Const__ChangeNameAction_1ae449f3f0b3405ac3fb405d2a37c1c573" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>Const_ChangeNameAction</name></member>
+      <member refid="classMR_1_1Const__ChangeNameAction_1abeb45fdfced93008160c813ac74821d0" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>Const_ChangeNameAction</name></member>
+      <member refid="classMR_1_1Const__ChangeNameAction_1a1d8e9f9e23881361af39f6a964377d15" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>Const_ChangeNameAction</name></member>
+      <member refid="classMR_1_1Const__ChangeNameAction_1a33d83463b4459e358c3ba0f81820baf3" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>Const_ChangeNameAction</name></member>
+      <member refid="classMR_1_1Const__ChangeNameAction_1aa7c57fef55663c47ca52d681be984ae6" prot="protected" virt="virtual"><scope>MR::Const_ChangeNameAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeNameAction_1a8c5b7ffa61f0be935eb0a2f9dab66e8f" prot="public" virt="virtual"><scope>MR::Const_ChangeNameAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeNameAction_1a833a6142efaeda8716cc310543a402d8" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeNameAction_1a0ad1ac2006da4ad52808bfc0dc24c18c" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ChangeNameAction_1aa0b1840558cbf499da14f9af6c48e6b6" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>operator Const_ChangeNameAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeNameAction_1a66d7c8d6686970172c279b2a98c7eb24" prot="public" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>operator MR.Const_HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeNameAction_1a4db54d2911fd963ba3d9b6ad5387e227" prot="private" virt="non-virtual"><scope>MR::Const_ChangeNameAction</scope><name>~Const_ChangeNameAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

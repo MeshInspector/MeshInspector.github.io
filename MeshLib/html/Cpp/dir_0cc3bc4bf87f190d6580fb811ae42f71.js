@@ -56,7 +56,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRChrono.h", "MRChrono_8h.html", "MRChrono_8h" ],
     [ "MRChunkIterator.h", "MRChunkIterator_8h.html", "MRChunkIterator_8h" ],
     [ "MRCircleObject.h", "MRCircleObject_8h.html", null ],
-    [ "MRClosestPointInTriangle.h", "MRClosestPointInTriangle_8h.html", null ],
+    [ "MRClosestPointInTriangle.h", "MRClosestPointInTriangle_8h.html", "MRClosestPointInTriangle_8h" ],
     [ "MRClosestWeightedPoint.h", "MRClosestWeightedPoint_8h.html", "MRClosestWeightedPoint_8h" ],
     [ "MRCloseVertices.h", "MRCloseVertices_8h.html", "MRCloseVertices_8h" ],
     [ "MRCloudPartMapping.h", "MRCloudPartMapping_8h.html", null ],
@@ -239,6 +239,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRMeshToPointCloud.h", "MRMeshToPointCloud_8h.html", "MRMeshToPointCloud_8h" ],
     [ "MRMeshTopology.h", "MRMeshTopology_8h.html", "MRMeshTopology_8h" ],
     [ "MRMeshTopologyDiff.h", "MRMeshTopologyDiff_8h.html", null ],
+    [ "MRMeshTotalAngle.h", "MRMeshTotalAngle_8h.html", "MRMeshTotalAngle_8h" ],
     [ "MRMeshTrimWithPlane.h", "MRMeshTrimWithPlane_8h.html", "MRMeshTrimWithPlane_8h" ],
     [ "MRMeshTriPoint.h", "MRMeshTriPoint_8h.html", null ],
     [ "MRMeta.h", "MRMeta_8h.html", "MRMeta_8h" ],
@@ -335,6 +336,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRProgressCallback.h", "MRProgressCallback_8h.html", "MRProgressCallback_8h" ],
     [ "MRProgressReadWrite.h", "MRProgressReadWrite_8h.html", "MRProgressReadWrite_8h" ],
     [ "MRProjectionMeshAttribute.h", "MRProjectionMeshAttribute_8h.html", "MRProjectionMeshAttribute_8h" ],
+    [ "MRProtectedRun.h", "MRProtectedRun_8h.html", "MRProtectedRun_8h" ],
     [ "MRQuadraticForm.h", "MRQuadraticForm_8h.html", null ],
     [ "MRQuaternion.h", "MRQuaternion_8h.html", null ],
     [ "MRRadiusCompensation.h", "MRRadiusCompensation_8h.html", "MRRadiusCompensation_8h" ],
@@ -359,6 +361,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRSceneRoot.h", "MRSceneRoot_8h.html", "MRSceneRoot_8h" ],
     [ "MRSceneSettings.h", "MRSceneSettings_8h.html", null ],
     [ "MRScopedValue.h", "MRScopedValue_8h.html", "MRScopedValue_8h" ],
+    [ "MRSegmentMesh.h", "MRSegmentMesh_8h.html", "MRSegmentMesh_8h" ],
     [ "MRSegmPoint.h", "MRSegmPoint_8h.html", null ],
     [ "MRSeparationPoint.h", "MRSeparationPoint_8h.html", "MRSeparationPoint_8h" ],
     [ "MRSerializer.h", "MRSerializer_8h.html", "MRSerializer_8h" ],
@@ -429,5 +432,6 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRWatershedGraph.h", "MRWatershedGraph_8h.html", null ],
     [ "MRWriter.h", "MRWriter_8h.html", "MRWriter_8h" ],
     [ "MRXfBasedCache.h", "MRXfBasedCache_8h.html", null ],
-    [ "MRZip.h", "MRZip_8h.html", "MRZip_8h" ]
+    [ "MRZip.h", "MRZip_8h.html", "MRZip_8h" ],
+    [ "MRZlib.h", "MRMesh_2MRZlib_8h.html", "MRMesh_2MRZlib_8h" ]
 ];

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BestFitParabolad" kind="class" language="C#" prot="public">
     <compoundname>MR::BestFitParabolad</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BestFitParabolad</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BestFitParabolad" prot="public" virt="non-virtual">MR.Const_BestFitParabolad</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1BestFitParabolad_1ac6b6da371ca5422a6c1a4d7d8f2510b1" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>BestFitParabolad</name>
         <qualifiedname>MR.BestFitParabolad.BestFitParabolad</qualifiedname>
         <param>
-          <type>MR.Const_BestFitParabolad</type>
+          <type><ref refid="classMR_1_1Const__BestFitParabolad" kindref="compound">MR.Const_BestFitParabolad</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.BestFitParabolad.assign</qualifiedname>
         <param>
-          <type>MR.Const_BestFitParabolad</type>
+          <type><ref refid="classMR_1_1Const__BestFitParabolad" kindref="compound">MR.Const_BestFitParabolad</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -165,6 +165,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BestFitParabolad</label>
+        <link refid="classMR_1_1Const__BestFitParabolad"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -186,6 +187,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BestFitParabolad</label>
+        <link refid="classMR_1_1Const__BestFitParabolad"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -207,6 +209,13 @@
       <member refid="classMR_1_1BestFitParabolad_1a351a99a02eeeaeed71657ae59db976e3" prot="public" virt="non-virtual"><scope>MR::BestFitParabolad</scope><name>BestFitParabolad</name></member>
       <member refid="classMR_1_1BestFitParabolad_1ad2d43cd0b2627c7f0a1b28ab2791736e" prot="public" virt="non-virtual"><scope>MR::BestFitParabolad</scope><name>BestFitParabolad</name></member>
       <member refid="classMR_1_1BestFitParabolad_1ad8f24ad5c50618949028bdfb8872eb07" prot="public" virt="non-virtual"><scope>MR::BestFitParabolad</scope><name>BestFitParabolad</name></member>
+      <member refid="classMR_1_1Const__BestFitParabolad_1a5b4d97c6536ad8709b78ecfc8fb68391" prot="package" virt="non-virtual"><scope>MR::BestFitParabolad</scope><name>Const_BestFitParabolad</name></member>
+      <member refid="classMR_1_1Const__BestFitParabolad_1a24a19095c7f882444864320324507c5e" prot="public" virt="non-virtual"><scope>MR::BestFitParabolad</scope><name>Const_BestFitParabolad</name></member>
+      <member refid="classMR_1_1Const__BestFitParabolad_1a67a0396fbd4a41976a263dfa7d61f21c" prot="public" virt="non-virtual"><scope>MR::BestFitParabolad</scope><name>Const_BestFitParabolad</name></member>
+      <member refid="classMR_1_1Const__BestFitParabolad_1aa4df10229591e56be2a2eb8f6bcb2184" prot="public" virt="non-virtual"><scope>MR::BestFitParabolad</scope><name>Const_BestFitParabolad</name></member>
+      <member refid="classMR_1_1Const__BestFitParabolad_1a6a938d80ddce239d7288dc4eb8535d9e" prot="protected" virt="virtual"><scope>MR::BestFitParabolad</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BestFitParabolad_1abc611ca928021e00abb13e3855ee9453" prot="public" virt="virtual"><scope>MR::BestFitParabolad</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BestFitParabolad_1ae392e3ac408b65fe50ef09799432a393" prot="public" virt="non-virtual"><scope>MR::BestFitParabolad</scope><name>getBestParabola</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

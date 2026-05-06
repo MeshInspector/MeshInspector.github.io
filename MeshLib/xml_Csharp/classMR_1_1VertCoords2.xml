@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VertCoords2" kind="class" language="C#" prot="public">
     <compoundname>MR::VertCoords2</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VertCoords2</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VertCoords2" prot="public" virt="non-virtual">MR.Const_VertCoords2</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1VertCoords2_1a131f0cbe29fc24c6096a85cba51ad409" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -92,7 +92,7 @@
         <name>VertCoords2</name>
         <qualifiedname>MR.VertCoords2.VertCoords2</qualifiedname>
         <param>
-          <type>Const_VertCoords2</type>
+          <type><ref refid="classMR_1_1Const__VertCoords2" kindref="compound">Const_VertCoords2</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -176,7 +176,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoords2_1acd69768544ee2ab7553365c9806a4476" kindref="member">MR.VertCoords2.VertCoords2</ref></computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoords2_1acd69768544ee2ab7553365c9806a4476" kindref="member">MR.VertCoords2.VertCoords2</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -473,7 +473,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.VertCoords2.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::VertCoords2::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::VertCoords2::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -598,7 +598,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoords2_1acd69768544ee2ab7553365c9806a4476" kindref="member">MR.VertCoords2.VertCoords2</ref></computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1VertCoords2_1acd69768544ee2ab7553365c9806a4476" kindref="member">MR.VertCoords2.VertCoords2</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -608,7 +608,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -644,6 +644,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertCoords2</label>
+        <link refid="classMR_1_1Const__VertCoords2"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -677,6 +678,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VertCoords2</label>
+        <link refid="classMR_1_1Const__VertCoords2"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -703,13 +705,34 @@
       <member refid="classMR_1_1VertCoords2_1a85a8e9e5cbe979765bfb3be101e48a5a" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1VertCoords2_1a989a4bbd353c1c20e8d2bee93c506409" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1VertCoords2_1acc81fc3f9c550aaa072d6f270464a42e" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a5ecc482de42f8b833f9194963165d2b7" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1ad207a200dbe64ab7d22a92e6a5599f02" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a6ba9f9057bd56247f12a931c3fd4f534" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>capacity</name></member>
       <member refid="classMR_1_1VertCoords2_1aabcbc68f1b6c63df5a75554f462820c6" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a7f5f992439155967e50ccbd2fdc9aaf0" prot="package" virt="non-virtual"><scope>MR::VertCoords2</scope><name>Const_VertCoords2</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1abdcc29cc9149a203679e3582561d142f" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>Const_VertCoords2</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1ae401a462f68ede6a847a202b5ce4167e" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>Const_VertCoords2</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1afd5171fd56f570094dac94cee8ab3a04" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>Const_VertCoords2</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1adf1d2bc9ea703c507a223e6ed77b0edf" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>Const_VertCoords2</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a1a2b81dfa661fac3b4d896d12b90bc0e" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>Const_VertCoords2</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a0632844576278d9063611049473954fc" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>Const_VertCoords2</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1ad4297d35f775d0a9cc90ff39b4967e44" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>Const_VertCoords2</name></member>
       <member refid="classMR_1_1VertCoords2_1a0da9a7f80cba7f78cbef374948a87847" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a8b56f531415bc0125f0d93e68581861c" prot="protected" virt="virtual"><scope>MR::VertCoords2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1ab1eaa4166851daddce9124a15ecb6a48" prot="public" virt="virtual"><scope>MR::VertCoords2</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VertCoords2_1a6fda58d2bdbe71decb2b0975858d6a38" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a86274932b65d7e86c3b21b16264c2b33" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a077171a3c66c8bb8ec5968a41276a0a4" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1ab91ded0f76dd55df17dce9e78f330ccc" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a650392943c1b6452309331eb47d789b9" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>Equals</name></member>
       <member refid="classMR_1_1VertCoords2_1a2f1cd1bb8ebf6c68dbefb9d08772d5dd" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>front</name></member>
       <member refid="classMR_1_1VertCoords2_1a53d574b3776a2e4eba35f03f55917646" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1VertCoords2_1a2a5b97f04b52f7cce925fffec1bdb300" prot="private" virt="non-virtual"><scope>MR::VertCoords2</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a56d8cc2427d88b95137edd5ab9ce9682" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1acec25e69600659b7763353d20986aeaa" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>operator Const_VertCoords2</name></member>
       <member refid="classMR_1_1VertCoords2_1a8d2ce0f86fce0501de5c749abcdf556b" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>operator VertCoords2</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a21da146552ddd12288545674ab38e152" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1a77d7e7fc267ff71f2b6b99b00146f181" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>operator==</name></member>
       <member refid="classMR_1_1VertCoords2_1a0b1c87cd191d0581d2981f2cb8c8051a" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>popBack</name></member>
       <member refid="classMR_1_1VertCoords2_1a5d1835badbb72cec6c936371e0d56bd8" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>pushBack</name></member>
       <member refid="classMR_1_1VertCoords2_1a0d7d7b01387246c92bbd5243824c6ea5" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>pushBack</name></member>
@@ -719,6 +742,7 @@
       <member refid="classMR_1_1VertCoords2_1adef75a1360f189262d723fee9d706996" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>resizeNoInit</name></member>
       <member refid="classMR_1_1VertCoords2_1a3ea196885f13933d8a146514328199b5" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1VertCoords2_1a32430548032f19d6f9c3f3e57cb93aa6" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__VertCoords2_1add3fb5c38b971e36956d3522a1abd9a4" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>size</name></member>
       <member refid="classMR_1_1VertCoords2_1a96b3c9467f0f926929ddfa0dc76b60fb" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>swap</name></member>
       <member refid="classMR_1_1VertCoords2_1a92fd879a847a83328b71f59214501f8d" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>this[MR.VertId i]</name></member>
       <member refid="classMR_1_1VertCoords2_1a131f0cbe29fc24c6096a85cba51ad409" prot="public" virt="non-virtual"><scope>MR::VertCoords2</scope><name>vec</name></member>

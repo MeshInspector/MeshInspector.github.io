@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1OneMeshIntersection" kind="class" language="C#" prot="public">
     <compoundname>MR::OneMeshIntersection</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_OneMeshIntersection</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__OneMeshIntersection" prot="public" virt="non-virtual">MR.Const_OneMeshIntersection</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1OneMeshIntersection_1a10d3d4aff8b3fb6e18db964412dc6146" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Variant_MRFaceId_MREdgeId_MRVertId</type>
@@ -103,7 +103,7 @@
         <name>OneMeshIntersection</name>
         <qualifiedname>MR.OneMeshIntersection.OneMeshIntersection</qualifiedname>
         <param>
-          <type>MR.Const_OneMeshIntersection</type>
+          <type><ref refid="classMR_1_1Const__OneMeshIntersection" kindref="compound">MR.Const_OneMeshIntersection</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.OneMeshIntersection.assign</qualifiedname>
         <param>
-          <type>MR.Const_OneMeshIntersection</type>
+          <type><ref refid="classMR_1_1Const__OneMeshIntersection" kindref="compound">MR.Const_OneMeshIntersection</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_OneMeshIntersection</label>
+        <link refid="classMR_1_1Const__OneMeshIntersection"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.OneMeshIntersection</label>
         <link refid="classMR_1_1OneMeshIntersection"/>
@@ -189,9 +194,13 @@
       </node>
       <node id="2">
         <label>MR.Const_OneMeshIntersection</label>
+        <link refid="classMR_1_1Const__OneMeshIntersection"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_coordinate</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -203,8 +212,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="390" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="391" bodyend="471"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__OneMeshIntersection_1aa23a26ac6f476258d1075292b6f39b9a" prot="protected" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>__ref_storage_coordinate</name></member>
       <member refid="classMR_1_1OneMeshIntersection_1a62075a7de8cca858dbcc1060f15e9ee3" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__OneMeshIntersection_1ae89248922169640de5f8ea39b8d28129" prot="package" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>Const_OneMeshIntersection</name></member>
+      <member refid="classMR_1_1Const__OneMeshIntersection_1a3c7474bd716c3d67574c576312ce4ab8" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>Const_OneMeshIntersection</name></member>
+      <member refid="classMR_1_1Const__OneMeshIntersection_1a57e59c209b6cdb25f2dc69f859084c8a" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>Const_OneMeshIntersection</name></member>
+      <member refid="classMR_1_1Const__OneMeshIntersection_1a5304c89c80ce9d469dd990976f583505" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>Const_OneMeshIntersection</name></member>
+      <member refid="classMR_1_1Const__OneMeshIntersection_1a385272806584e5f7b1167412b67e7d84" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>Const_OneMeshIntersection</name></member>
       <member refid="classMR_1_1OneMeshIntersection_1a52018b9fa481ea28a6885e5a19716ef4" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>coordinate</name></member>
+      <member refid="classMR_1_1Const__OneMeshIntersection_1a5c295edac5190c9a8f588c41c12ded01" prot="protected" virt="virtual"><scope>MR::OneMeshIntersection</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__OneMeshIntersection_1ab182aa358b9597759ae212b138b8ed04" prot="public" virt="virtual"><scope>MR::OneMeshIntersection</scope><name>Dispose</name></member>
       <member refid="classMR_1_1OneMeshIntersection_1a7b23c2147d04675d268f29530a841f09" prot="package" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>OneMeshIntersection</name></member>
       <member refid="classMR_1_1OneMeshIntersection_1a7812974843c150dde2089a593fa9f715" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>OneMeshIntersection</name></member>
       <member refid="classMR_1_1OneMeshIntersection_1aec003fd76d9a04c5b2f7d2479b5cb49d" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>OneMeshIntersection</name></member>

@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__GCommand" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_GCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1GCommand" prot="public" virt="non-virtual">MR.GCommand</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__GCommand_1a325b6360b7bdcb906077c581a5baa579" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1ae8b6d4808fb530b2853f712a381e2fee" kindref="member">MR.MoveType</ref></type>
+        <definition>unsafe MR.MoveType MR.Const_GCommand.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>MR.Const_GCommand.type</qualifiedname>
+        <briefdescription>
+<para>type of command GX (G0, G1, etc). By default - G1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2029" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2029" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GCommand_1a9b061221aa5bcf8d3bfe06a31b2c996e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1afd36e700e6c3e32c350de8faa2cc7b37" kindref="member">MR.ArcPlane</ref></type>
+        <definition>unsafe MR.ArcPlane MR.Const_GCommand.arcPlane</definition>
+        <argsstring></argsstring>
+        <name>arcPlane</name>
+        <qualifiedname>MR.Const_GCommand.arcPlane</qualifiedname>
+        <briefdescription>
+<para>plane of the arc; only relevant when type is ArcCW or ArcCCW </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2035" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2035" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GCommand_1a21b75538a162dd38808bd117d2e48a7a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_GCommand.feed</definition>
+        <argsstring></argsstring>
+        <name>feed</name>
+        <qualifiedname>MR.Const_GCommand.feed</qualifiedname>
+        <briefdescription>
+<para>feedrate for move </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2041" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2041" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GCommand_1af67032513e97cf37a70f0d89446d7048" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_GCommand.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR.Const_GCommand.x</qualifiedname>
+        <briefdescription>
+<para>coordinates of destination point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2047" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2047" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GCommand_1a63ce110f0517ee404a9be27817782bf9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_GCommand.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR.Const_GCommand.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2050" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2050" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GCommand_1a5b4aa39180fd56cdda8da888b27a9e8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_GCommand.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR.Const_GCommand.z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2053" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2053" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GCommand_1a7f9411c200b9c9eee4e95c477bf53905" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Const_GCommand.arcCenter</definition>
+        <argsstring></argsstring>
+        <name>arcCenter</name>
+        <qualifiedname>MR.Const_GCommand.arcCenter</qualifiedname>
+        <briefdescription>
+<para>if type is ArcCW or ArcCCW center of the arc should be specified </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2059" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2059" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__GCommand_1a762316f0711290facc26b1f3c30305f6" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1ae8b6d4808fb530b2853f712a381e2fee" kindref="member">MR.MoveType</ref> *</type>
+        <definition>unsafe MR.MoveType* MR.Const_GCommand.__ref_storage_type</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_type</name>
+        <qualifiedname>MR.Const_GCommand.__ref_storage_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2030" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2030" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GCommand_1a2789c740d2099daca949d5afc924ef33" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="classMR_1afd36e700e6c3e32c350de8faa2cc7b37" kindref="member">MR.ArcPlane</ref> *</type>
+        <definition>unsafe MR.ArcPlane* MR.Const_GCommand.__ref_storage_arcPlane</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_arcPlane</name>
+        <qualifiedname>MR.Const_GCommand.__ref_storage_arcPlane</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2036" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2036" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GCommand_1ada050be4157a129117004bd63f88c3bc" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_GCommand.__ref_storage_feed</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_feed</name>
+        <qualifiedname>MR.Const_GCommand.__ref_storage_feed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2042" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2042" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GCommand_1ae055fe8f25b1457b7341d2b0c7911e51" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_GCommand.__ref_storage_x</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_x</name>
+        <qualifiedname>MR.Const_GCommand.__ref_storage_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2048" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2048" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GCommand_1a2459870bff0ac8a370b8a60172bb41f4" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_GCommand.__ref_storage_y</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_y</name>
+        <qualifiedname>MR.Const_GCommand.__ref_storage_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2051" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2051" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GCommand_1a69276ae07326e4b6863164844b42afab" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_GCommand.__ref_storage_z</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_z</name>
+        <qualifiedname>MR.Const_GCommand.__ref_storage_z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2054" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2054" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__GCommand_1a63d60c744edd9f50856700739334a029" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Const_GCommand.__ref_storage_arcCenter</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_arcCenter</name>
+        <qualifiedname>MR.Const_GCommand.__ref_storage_arcCenter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2060" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2060" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__GCommand_1a8cbae790e257d1aa51ea6ba98aefa853" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_GCommand.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_GCommand.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2014" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2014" bodyend="2022"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__GCommand_1a050e3d90598f26cec282d2352e5ce23b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_GCommand.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_GCommand.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2023" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2023" bodyend="2023"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GCommand_1a313f68a49d57c0fd9b164b6acce495cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GCommand.Const_GCommand</definition>
+        <argsstring>()</argsstring>
+        <name>Const_GCommand</name>
+        <qualifiedname>MR.Const_GCommand.Const_GCommand</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2123" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2123" bodyend="2129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GCommand_1a77be98e01b8233db299ad9d4ae5e7831" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GCommand.Const_GCommand</definition>
+        <argsstring>(MR.MoveType type, MR.ArcPlane arcPlane, float feed, float x, float y, float z, MR.Vector3f arcCenter)</argsstring>
+        <name>Const_GCommand</name>
+        <qualifiedname>MR.Const_GCommand.Const_GCommand</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1ae8b6d4808fb530b2853f712a381e2fee" kindref="member">MR.MoveType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1afd36e700e6c3e32c350de8faa2cc7b37" kindref="member">MR.ArcPlane</ref></type>
+          <declname>arcPlane</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>feed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>arcCenter</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1GCommand" kindref="compound">MR.GCommand</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2134" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2134" bodyend="2140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GCommand_1ac242ddf67a3dbe487c587caf073f232c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GCommand.Const_GCommand</definition>
+        <argsstring>(MR.Const_GCommand _other)</argsstring>
+        <name>Const_GCommand</name>
+        <qualifiedname>MR.Const_GCommand.Const_GCommand</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__GCommand" kindref="compound">MR.Const_GCommand</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1GCommand_1a8147bfaecf10fb82caae60692d69aada" kindref="member">MR.GCommand.GCommand</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2145" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2145" bodyend="2152"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GCommand_1af1b98c1ae8bcb3db128475c758a781c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_GCommand.Const_GCommand</definition>
+        <argsstring>(GCommand _other)</argsstring>
+        <name>Const_GCommand</name>
+        <qualifiedname>MR.Const_GCommand.Const_GCommand</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GCommand" kindref="compound">GCommand</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1GCommand_1a8147bfaecf10fb82caae60692d69aada" kindref="member">MR.GCommand.GCommand</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2157" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2157" bodyend="2157"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__GCommand_1a9385055faf5eb084feb6e0c08b401fb5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_GCommand.~Const_GCommand</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_GCommand</name>
+        <qualifiedname>MR.Const_GCommand.~Const_GCommand</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2024" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2024" bodyend="2024"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__GCommand_1acd0fd6bad04f12ff40ddc2536d717a6c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GCommand.Const_GCommand</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_GCommand</name>
+        <qualifiedname>MR.Const_GCommand.Const_GCommand</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2112" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2112" bodyend="2117"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A single G-code move command Generated from class <computeroutput><ref refid="classMR_1_1GCommand" kindref="compound">MR.GCommand</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_GCommand</label>
+        <link refid="classMR_1_1Const__GCommand"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.GCommand</label>
+        <link refid="classMR_1_1GCommand"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_GCommand</label>
+        <link refid="classMR_1_1Const__GCommand"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_arcCenter</edgelabel>
+          <edgelabel>__ref_storage_arcPlane</edgelabel>
+          <edgelabel>__ref_storage_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="2008" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="2009" bodyend="2158"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__GCommand_1a63d60c744edd9f50856700739334a029" prot="protected" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>__ref_storage_arcCenter</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a2789c740d2099daca949d5afc924ef33" prot="protected" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>__ref_storage_arcPlane</name></member>
+      <member refid="classMR_1_1Const__GCommand_1ada050be4157a129117004bd63f88c3bc" prot="protected" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>__ref_storage_feed</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a762316f0711290facc26b1f3c30305f6" prot="protected" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>__ref_storage_type</name></member>
+      <member refid="classMR_1_1Const__GCommand_1ae055fe8f25b1457b7341d2b0c7911e51" prot="protected" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>__ref_storage_x</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a2459870bff0ac8a370b8a60172bb41f4" prot="protected" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>__ref_storage_y</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a69276ae07326e4b6863164844b42afab" prot="protected" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>__ref_storage_z</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a7f9411c200b9c9eee4e95c477bf53905" prot="public" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>arcCenter</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a9b061221aa5bcf8d3bfe06a31b2c996e" prot="public" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>arcPlane</name></member>
+      <member refid="classMR_1_1Const__GCommand_1acd0fd6bad04f12ff40ddc2536d717a6c" prot="package" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>Const_GCommand</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a313f68a49d57c0fd9b164b6acce495cd" prot="public" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>Const_GCommand</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a77be98e01b8233db299ad9d4ae5e7831" prot="public" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>Const_GCommand</name></member>
+      <member refid="classMR_1_1Const__GCommand_1ac242ddf67a3dbe487c587caf073f232c" prot="public" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>Const_GCommand</name></member>
+      <member refid="classMR_1_1Const__GCommand_1af1b98c1ae8bcb3db128475c758a781c8" prot="public" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>Const_GCommand</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a8cbae790e257d1aa51ea6ba98aefa853" prot="protected" virt="virtual"><scope>MR::Const_GCommand</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a050e3d90598f26cec282d2352e5ce23b" prot="public" virt="virtual"><scope>MR::Const_GCommand</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a21b75538a162dd38808bd117d2e48a7a" prot="public" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>feed</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a325b6360b7bdcb906077c581a5baa579" prot="public" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>type</name></member>
+      <member refid="classMR_1_1Const__GCommand_1af67032513e97cf37a70f0d89446d7048" prot="public" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>x</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a63ce110f0517ee404a9be27817782bf9" prot="public" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>y</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a5b4aa39180fd56cdda8da888b27a9e8b" prot="public" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>z</name></member>
+      <member refid="classMR_1_1Const__GCommand_1a9385055faf5eb084feb6e0c08b401fb5" prot="private" virt="non-virtual"><scope>MR::Const_GCommand</scope><name>~Const_GCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

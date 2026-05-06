@@ -1,0 +1,1659 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ObjectLabel" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ObjectLabel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ObjectLabel" prot="public" virt="non-virtual">MR.ObjectLabel</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1af4f2e9c2828be259b476ec0ad08d3c52" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ObjectLabel.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectLabel.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="30" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="30" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a4c1c58c108bb696167f725d64407cca7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ObjectLabel.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectLabel.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="39" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ae09e13b1963bdec520f18852c7310b90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectLabel.Const_ObjectLabel</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ObjectLabel</name>
+        <qualifiedname>MR.Const_ObjectLabel.Const_ObjectLabel</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="95" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="95" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a22e596b0a1220a47915f0a41099f21f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectLabel.Const_ObjectLabel</definition>
+        <argsstring>(MR._ByValue_ObjectLabel _other)</argsstring>
+        <name>Const_ObjectLabel</name>
+        <qualifiedname>MR.Const_ObjectLabel.Const_ObjectLabel</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectLabel</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectLabel_1a5897f00376207e24607387f9cf3d8645" kindref="member">MR.ObjectLabel.ObjectLabel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="105" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="105" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a78b65991d0dc02bd8885b07ac3ba4890" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>unsafe? byte MR.Const_ObjectLabel.typeName</definition>
+        <argsstring>()</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR.Const_ObjectLabel.typeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a78b65991d0dc02bd8885b07ac3ba4890" kindref="member">MR.ObjectLabel.typeName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="127" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="127" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ae9e348e358131b30d22d4e837ec76a01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.hasVisualRepresentation</definition>
+        <argsstring>()</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>MR.Const_ObjectLabel.hasVisualRepresentation</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ae9e348e358131b30d22d4e837ec76a01" kindref="member">MR.ObjectLabel.hasVisualRepresentation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="138" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="138" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ac1e1446af775d8f0b06e6c3e3a867c08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectLabel.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR.Const_ObjectLabel.clone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ac1e1446af775d8f0b06e6c3e3a867c08" kindref="member">MR.ObjectLabel.clone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="148" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="148" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a329f434dac60b7e429d85586f2659301" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectLabel.shallowClone</definition>
+        <argsstring>()</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>MR.Const_ObjectLabel.shallowClone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a329f434dac60b7e429d85586f2659301" kindref="member">MR.ObjectLabel.shallowClone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="158" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="158" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a8074543d882b604b678ffd3fe9a31d21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLabel.getFontHeight</definition>
+        <argsstring>()</argsstring>
+        <name>getFontHeight</name>
+        <qualifiedname>MR.Const_ObjectLabel.getFontHeight</qualifiedname>
+        <briefdescription>
+<para>returns size of label font on screen in pixels Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a8074543d882b604b678ffd3fe9a31d21" kindref="member">MR.ObjectLabel.getFontHeight</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="169" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="169" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1af63ab3189a8ecc1dfe9f3f5a9a587dc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__PositionedText" kindref="compound">MR.Const_PositionedText</ref></type>
+        <definition>unsafe MR.Const_PositionedText MR.Const_ObjectLabel.getLabel</definition>
+        <argsstring>()</argsstring>
+        <name>getLabel</name>
+        <qualifiedname>MR.Const_ObjectLabel.getLabel</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1af63ab3189a8ecc1dfe9f3f5a9a587dc3" kindref="member">MR.ObjectLabel.getLabel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="179" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="179" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a4c6d595d3ed91354885dc5b49199be3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Filesystem.Const_Path</type>
+        <definition>unsafe MR.Std.Filesystem.Const_Path MR.Const_ObjectLabel.getFontPath</definition>
+        <argsstring>()</argsstring>
+        <name>getFontPath</name>
+        <qualifiedname>MR.Const_ObjectLabel.getFontPath</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a4c6d595d3ed91354885dc5b49199be3f" kindref="member">MR.ObjectLabel.getFontPath</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="189" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="189" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a10cdc29ff8135ae3869c088c375ef5de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe ref readonly MR.Vector2f MR.Const_ObjectLabel.getPivotPoint</definition>
+        <argsstring>()</argsstring>
+        <name>getPivotPoint</name>
+        <qualifiedname>MR.Const_ObjectLabel.getPivotPoint</qualifiedname>
+        <briefdescription>
+<para>get pivot point Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a10cdc29ff8135ae3869c088c375ef5de" kindref="member">MR.ObjectLabel.getPivotPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="200" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="200" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a1025c12988b4bb4ecddaca840efc358c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe ref readonly MR.Vector2f MR.Const_ObjectLabel.getPivotShift</definition>
+        <argsstring>()</argsstring>
+        <name>getPivotShift</name>
+        <qualifiedname>MR.Const_ObjectLabel.getPivotShift</qualifiedname>
+        <briefdescription>
+<para>get pivot shift (pivot point * text diagonal) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a1025c12988b4bb4ecddaca840efc358c" kindref="member">MR.ObjectLabel.getPivotShift</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="211" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="211" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a63d264a6ec2750cc6657624f53aa16d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLabel.getLeaderLineWidth</definition>
+        <argsstring>()</argsstring>
+        <name>getLeaderLineWidth</name>
+        <qualifiedname>MR.Const_ObjectLabel.getLeaderLineWidth</qualifiedname>
+        <briefdescription>
+<para>returns width of leader line in pixels Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a63d264a6ec2750cc6657624f53aa16d8" kindref="member">MR.ObjectLabel.getLeaderLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="222" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="222" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a739bda0fd48e2813622c939207a6bf15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLabel.getSourcePointSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSourcePointSize</name>
+        <qualifiedname>MR.Const_ObjectLabel.getSourcePointSize</qualifiedname>
+        <briefdescription>
+<para>returns size of source point in pixels Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a739bda0fd48e2813622c939207a6bf15" kindref="member">MR.ObjectLabel.getSourcePointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="233" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="233" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ad6f1b963b0c25585cb1ae3f76d377202" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLabel.getBackgroundPadding</definition>
+        <argsstring>()</argsstring>
+        <name>getBackgroundPadding</name>
+        <qualifiedname>MR.Const_ObjectLabel.getBackgroundPadding</qualifiedname>
+        <briefdescription>
+<para>returns background padding in pixels Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ad6f1b963b0c25585cb1ae3f76d377202" kindref="member">MR.ObjectLabel.getBackgroundPadding</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="244" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="244" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a23634774deda23e0892cf972e1b51f33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectLabel.getSourcePointColor</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getSourcePointColor</name>
+        <qualifiedname>MR.Const_ObjectLabel.getSourcePointColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns color of source point Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a23634774deda23e0892cf972e1b51f33" kindref="member">MR.ObjectLabel.getSourcePointColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="256" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="256" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1afccb42c6162275c8c7ebe3af939a6384" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectLabel.getLeaderLineColor</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getLeaderLineColor</name>
+        <qualifiedname>MR.Const_ObjectLabel.getLeaderLineColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>return color of leader line Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1afccb42c6162275c8c7ebe3af939a6384" kindref="member">MR.ObjectLabel.getLeaderLineColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="268" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="268" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a16a157ed7c5a7e6900a90ef5b42b14e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectLabel.getContourColor</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getContourColor</name>
+        <qualifiedname>MR.Const_ObjectLabel.getContourColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>return contour color Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a16a157ed7c5a7e6900a90ef5b42b14e4" kindref="member">MR.ObjectLabel.getContourColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="280" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="280" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ab7bbff6057b792128a2413b4cb6023b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectLabel.getSourcePointColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getSourcePointColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectLabel.getSourcePointColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ab7bbff6057b792128a2413b4cb6023b1" kindref="member">MR.ObjectLabel.getSourcePointColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="290" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="290" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1af5c90d29930648dd6b2bceb95db2d30a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectLabel.getLeaderLineColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getLeaderLineColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectLabel.getLeaderLineColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1af5c90d29930648dd6b2bceb95db2d30a" kindref="member">MR.ObjectLabel.getLeaderLineColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="300" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="300" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a252d01b142cb98fb993c126b87788ef8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectLabel.getContourColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getContourColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectLabel.getContourColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a252d01b142cb98fb993c126b87788ef8" kindref="member">MR.ObjectLabel.getContourColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="310" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="310" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a7d2c22cc96e6bb315ef67d2973b33349" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectLabel.getWorldBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>MR.Const_ObjectLabel.getWorldBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns cached bounding box of this label object in world coordinates; if you need bounding box in local coordinates please call <ref refid="classMR_1_1Const__ObjectLabel_1acd35f9ba08ffac95e8e7748560cd6e7a" kindref="member">getBoundingBox()</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a7d2c22cc96e6bb315ef67d2973b33349" kindref="member">MR.ObjectLabel.getWorldBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="323" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="323" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a78ff735d8f3adad241b055fe2e854a75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_SharedPtr_MRMesh</type>
+        <definition>unsafe MR.Std.Const_SharedPtr_MRMesh MR.Const_ObjectLabel.labelRepresentingMesh</definition>
+        <argsstring>()</argsstring>
+        <name>labelRepresentingMesh</name>
+        <qualifiedname>MR.Const_ObjectLabel.labelRepresentingMesh</qualifiedname>
+        <briefdescription>
+<para>returns mesh that represents current label only used in Render object for binding, cleared after it Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a78ff735d8f3adad241b055fe2e854a75" kindref="member">MR.ObjectLabel.labelRepresentingMesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="335" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="335" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a3f4035e093d5625960a4f69e8cd623a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectLabel.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_ObjectLabel.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a3f4035e093d5625960a4f69e8cd623a6" kindref="member">MR.ObjectLabel.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="346" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="346" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ac1919800b56b6d6d1e89b079df9c5149" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRViewportMask</type>
+        <definition>unsafe MR.Std.Vector_MRViewportMask MR.Const_ObjectLabel.getAllVisualizeProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>MR.Const_ObjectLabel.getAllVisualizeProperties</qualifiedname>
+        <briefdescription>
+<para>get all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ac1919800b56b6d6d1e89b079df9c5149" kindref="member">MR.ObjectLabel.getAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="357" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="357" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a93e8ffaf5bf29c1d27721c6eb3167a97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+        <definition>unsafe MR.Const_ViewportMask MR.Const_ObjectLabel.getVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>MR.Const_ObjectLabel.getVisualizePropertyMask</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>returns mask of viewports where given property is set Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a93e8ffaf5bf29c1d27721c6eb3167a97" kindref="member">MR.ObjectLabel.getVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="368" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="368" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a210080674c3e13b3a39adda8c9ac3239" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectLabel.buildMeshFromText</definition>
+        <argsstring>()</argsstring>
+        <name>buildMeshFromText</name>
+        <qualifiedname>MR.Const_ObjectLabel.buildMeshFromText</qualifiedname>
+        <briefdescription>
+<para>Loads font, and converts the symbols of text into mesh; since this operation is time consuming, one can call this method in parallel for several ObjectLabels before rendering Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a210080674c3e13b3a39adda8c9ac3239" kindref="member">MR.ObjectLabel.buildMeshFromText</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="380" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="380" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1abaccb6509ffaa3727e3c19d20acd5bc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ObjectLabel.className</definition>
+        <argsstring>()</argsstring>
+        <name>className</name>
+        <qualifiedname>MR.Const_ObjectLabel.className</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1abaccb6509ffaa3727e3c19d20acd5bc5" kindref="member">MR.ObjectLabel.className</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="401" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="401" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ade4c817dc574fe34816735544ec1d085" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ObjectLabel.classNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>MR.Const_ObjectLabel.classNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ade4c817dc574fe34816735544ec1d085" kindref="member">MR.ObjectLabel.classNameInPlural</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="422" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="422" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a8043395cde3c1a53b4b513053a36e145" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.supportsVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>MR.Const_ObjectLabel.supportsVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this class supports the property <computeroutput>type</computeroutput>. Otherwise passing it to the functions below is illegal. Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a8043395cde3c1a53b4b513053a36e145" kindref="member">MR.ObjectLabel.supportsVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="433" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="433" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a82a18fff9ff233b1e35177bd526e8725" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.getVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getVisualizeProperty</name>
+        <qualifiedname>MR.Const_ObjectLabel.getVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the property is set at least in one viewport specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a82a18fff9ff233b1e35177bd526e8725" kindref="member">MR.ObjectLabel.getVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="444" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="444" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ad6a6ef3e4f28fc1244a1b03a9d3985c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectLabel.globalClippedByPlaneMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalClippedByPlaneMask</name>
+        <qualifiedname>MR.Const_ObjectLabel.globalClippedByPlaneMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object or any of its parents is clipped by plane Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ad6a6ef3e4f28fc1244a1b03a9d3985c9" kindref="member">MR.ObjectLabel.globalClippedByPlaneMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="455" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="455" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a21964bea35fc06de304fbb88313a2633" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.globalClippedByPlane</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalClippedByPlane</name>
+        <qualifiedname>MR.Const_ObjectLabel.globalClippedByPlane</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a21964bea35fc06de304fbb88313a2633" kindref="member">MR.ObjectLabel.globalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="467" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="467" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ac0145d081bb04ff0ea3b75215a65bcef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectLabel.getFrontColor</definition>
+        <argsstring>(bool? selected=null, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getFrontColor</name>
+        <qualifiedname>MR.Const_ObjectLabel.getFrontColor</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ac0145d081bb04ff0ea3b75215a65bcef" kindref="member">MR.ObjectLabel.getFrontColor</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="480" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="480" bodyend="486"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a7cebc70c57f56d91d040a308ace7b42d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectLabel.getFrontColorsForAllViewports</definition>
+        <argsstring>(bool? selected=null)</argsstring>
+        <name>getFrontColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectLabel.getFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a7cebc70c57f56d91d040a308ace7b42d" kindref="member">MR.ObjectLabel.getFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="493" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="493" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a565c13f0aafaf9b1545ff5fe36870290" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectLabel.getBackColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getBackColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectLabel.getBackColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a565c13f0aafaf9b1545ff5fe36870290" kindref="member">MR.ObjectLabel.getBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="505" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="505" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a919c119bb5ee1c8f682680906862fb96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectLabel.getBackColor</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getBackColor</name>
+        <qualifiedname>MR.Const_ObjectLabel.getBackColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a919c119bb5ee1c8f682680906862fb96" kindref="member">MR.ObjectLabel.getBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="517" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="517" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a345fc0805a6624bf726a3f0f41a67b2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_ObjectLabel.getGlobalAlpha</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getGlobalAlpha</name>
+        <qualifiedname>MR.Const_ObjectLabel.getGlobalAlpha</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a345fc0805a6624bf726a3f0f41a67b2e" kindref="member">MR.ObjectLabel.getGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="529" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="529" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1abf3365bb96453ee072772670270db58c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__UnsignedChar" kindref="compound">MR.Const_ViewportProperty_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_UnsignedChar MR.Const_ObjectLabel.getGlobalAlphaForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectLabel.getGlobalAlphaForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1abf3365bb96453ee072772670270db58c" kindref="member">MR.ObjectLabel.getGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="540" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="540" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a2fb278eb5ae3868781520b875a4c9ca5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_ObjectLabel.getDirtyFlags</definition>
+        <argsstring>()</argsstring>
+        <name>getDirtyFlags</name>
+        <qualifiedname>MR.Const_ObjectLabel.getDirtyFlags</qualifiedname>
+        <briefdescription>
+<para>returns current dirty flags for the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a2fb278eb5ae3868781520b875a4c9ca5" kindref="member">MR.ObjectLabel.getDirtyFlags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="551" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="551" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a449cf9643c4121b53159aecffd6064fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectLabel.resetDirty</definition>
+        <argsstring>()</argsstring>
+        <name>resetDirty</name>
+        <qualifiedname>MR.Const_ObjectLabel.resetDirty</qualifiedname>
+        <briefdescription>
+<para>resets all dirty flags (except for cache flags that will be reset automatically on cache update) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a449cf9643c4121b53159aecffd6064fc" kindref="member">MR.ObjectLabel.resetDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="562" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="562" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1aeea76e14b6eaa2390e0c7e9ec6477262" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectLabel.resetDirtyExceptMask</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>resetDirtyExceptMask</name>
+        <qualifiedname>MR.Const_ObjectLabel.resetDirtyExceptMask</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>reset dirty flags without some specific bits (useful for lazy normals update) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1aeea76e14b6eaa2390e0c7e9ec6477262" kindref="member">MR.ObjectLabel.resetDirtyExceptMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="573" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="573" bodyend="578"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1acd35f9ba08ffac95e8e7748560cd6e7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectLabel.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_ObjectLabel.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns cached bounding box of this object in local coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1acd35f9ba08ffac95e8e7748560cd6e7a" kindref="member">MR.ObjectLabel.getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="584" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="584" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a727be2f91f5747f4461c3f52fcd0ee7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.getRedrawFlag</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getRedrawFlag</name>
+        <qualifiedname>MR.Const_ObjectLabel.getRedrawFlag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the object must be redrawn (due to dirty flags) in one of specified viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a727be2f91f5747f4461c3f52fcd0ee7d" kindref="member">MR.ObjectLabel.getRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="595" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="595" bodyend="600"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a22cb9503b1b2390c9aabe808cdc86b9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.isPickable</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isPickable</name>
+        <qualifiedname>MR.Const_ObjectLabel.isPickable</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a22cb9503b1b2390c9aabe808cdc86b9e" kindref="member">MR.ObjectLabel.isPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="607" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="607" bodyend="612"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a0538f397425be1e34e64ab18a88c0dd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+        <definition>unsafe MR.ColoringType MR.Const_ObjectLabel.getColoringType</definition>
+        <argsstring>()</argsstring>
+        <name>getColoringType</name>
+        <qualifiedname>MR.Const_ObjectLabel.getColoringType</qualifiedname>
+        <briefdescription>
+<para>returns the current coloring mode of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a0538f397425be1e34e64ab18a88c0dd9" kindref="member">MR.ObjectLabel.getColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="618" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="618" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a86ccfbd61eaf8276c349107d39c748ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLabel.getShininess</definition>
+        <argsstring>()</argsstring>
+        <name>getShininess</name>
+        <qualifiedname>MR.Const_ObjectLabel.getShininess</qualifiedname>
+        <briefdescription>
+<para>returns the current shininess visual value Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a86ccfbd61eaf8276c349107d39c748ff" kindref="member">MR.ObjectLabel.getShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="629" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="629" bodyend="634"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a24d4ce97b16e718bb917321aacf6208a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLabel.getSpecularStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getSpecularStrength</name>
+        <qualifiedname>MR.Const_ObjectLabel.getSpecularStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a24d4ce97b16e718bb917321aacf6208a" kindref="member">MR.ObjectLabel.getSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="640" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="640" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ab16063a90f9a69b6115bd29cb00b24a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectLabel.getAmbientStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getAmbientStrength</name>
+        <qualifiedname>MR.Const_ObjectLabel.getAmbientStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ab16063a90f9a69b6115bd29cb00b24a6" kindref="member">MR.ObjectLabel.getAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="651" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="651" bodyend="656"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a985854cf796ee1372cb6308d01aba330" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.render</definition>
+        <argsstring>(MR.Const_ModelRenderParams _1)</argsstring>
+        <name>render</name>
+        <qualifiedname>MR.Const_ObjectLabel.render</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelRenderParams" kindref="compound">MR.Const_ModelRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for visualization Returns true if something was drawn. Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a985854cf796ee1372cb6308d01aba330" kindref="member">MR.ObjectLabel.render</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="663" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="663" bodyend="668"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ad60a91b7e9d65c49cff6444869495ff2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectLabel.renderForPicker</definition>
+        <argsstring>(MR.Const_ModelBaseRenderParams _1, uint _2)</argsstring>
+        <name>renderForPicker</name>
+        <qualifiedname>MR.Const_ObjectLabel.renderForPicker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelBaseRenderParams" kindref="compound">MR.Const_ModelBaseRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for picking Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ad60a91b7e9d65c49cff6444869495ff2" kindref="member">MR.ObjectLabel.renderForPicker</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="674" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="674" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a3c0ada506284284585735d7e8815c7f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectLabel.renderUi</definition>
+        <argsstring>(MR.Const_UiRenderParams params_)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR.Const_ObjectLabel.renderUi</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UiRenderParams" kindref="compound">MR.Const_UiRenderParams</ref></type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for 2d UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a3c0ada506284284585735d7e8815c7f8" kindref="member">MR.ObjectLabel.renderUi</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="685" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="685" bodyend="690"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a507244a8d215d8006c4207dbd09e0792" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>unsafe MR.Std.Vector_StdString MR.Const_ObjectLabel.getInfoLines</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>MR.Const_ObjectLabel.getInfoLines</qualifiedname>
+        <briefdescription>
+<para>return several info lines that can better describe the object in the UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a507244a8d215d8006c4207dbd09e0792" kindref="member">MR.ObjectLabel.getInfoLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="696" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="696" bodyend="701"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a1cb1cc3b8472f69ad9a275476e583cea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.useDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>()</argsstring>
+        <name>useDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.Const_ObjectLabel.useDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <briefdescription>
+<para>whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a1cb1cc3b8472f69ad9a275476e583cea" kindref="member">MR.ObjectLabel.useDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="708" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="708" bodyend="713"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a272547b7a46c00bbf9a0a40599cfc84b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_ObjectLabel.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_ObjectLabel.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a272547b7a46c00bbf9a0a40599cfc84b" kindref="member">MR.ObjectLabel.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="718" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="718" bodyend="723"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ae00ef3796515704f52cd2e78a933bf0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_ObjectLabel.xf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_ObjectLabel.xf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to parent space transformation (to world space if no parent) for default or given viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__ObjectLabel_1ae00ef3796515704f52cd2e78a933bf0f" kindref="member">xf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ae00ef3796515704f52cd2e78a933bf0f" kindref="member">MR.ObjectLabel.xf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="731" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="731" bodyend="739"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1acfd2f844869ef52cebc5c0f144d9e551" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" kindref="compound">MR.Const_ViewportProperty_MRAffineXf3f</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRAffineXf3f MR.Const_ObjectLabel.xfsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>xfsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectLabel.xfsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns xfs for all viewports, combined into a single object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1acfd2f844869ef52cebc5c0f144d9e551" kindref="member">MR.ObjectLabel.xfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="745" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="745" bodyend="750"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a558d8fbbc5be204ef2063ffc67b0e2b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe MR.AffineXf3f MR.Const_ObjectLabel.worldXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>worldXf</name>
+        <qualifiedname>MR.Const_ObjectLabel.worldXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to world space transformation for default or specific viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__ObjectLabel_1a558d8fbbc5be204ef2063ffc67b0e2b3" kindref="member">worldXf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a558d8fbbc5be204ef2063ffc67b0e2b3" kindref="member">MR.ObjectLabel.worldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="758" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="758" bodyend="766"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1af6ddced6cf3444f27f182d1e4be268e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectLabel.globalVisibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalVisibilityMask</name>
+        <qualifiedname>MR.Const_ObjectLabel.globalVisibilityMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object is visible together with all its parents Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1af6ddced6cf3444f27f182d1e4be268e4" kindref="member">MR.ObjectLabel.globalVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="772" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="772" bodyend="777"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a593618c4530561434299fcaf8d5c76ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.globalVisibility</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalVisibility</name>
+        <qualifiedname>MR.Const_ObjectLabel.globalVisibility</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a593618c4530561434299fcaf8d5c76ca" kindref="member">MR.ObjectLabel.globalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="784" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="784" bodyend="789"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1aeca55e174c78b2c84f9bb42185314caf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.isLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isLocked</name>
+        <qualifiedname>MR.Const_ObjectLabel.isLocked</qualifiedname>
+        <briefdescription>
+<para>object properties lock for UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1aeca55e174c78b2c84f9bb42185314caf" kindref="member">MR.ObjectLabel.isLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="795" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="795" bodyend="800"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1aec746bb6b829d2c8384299e545278dd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.isParentLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isParentLocked</name>
+        <qualifiedname>MR.Const_ObjectLabel.isParentLocked</qualifiedname>
+        <briefdescription>
+<para>If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1aec746bb6b829d2c8384299e545278dd5" kindref="member">MR.ObjectLabel.isParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="807" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="807" bodyend="812"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a9f817f9c215c81c751f4fe3adb971c1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.isAncestor</definition>
+        <argsstring>(MR.Const_Object? ancestor)</argsstring>
+        <name>isAncestor</name>
+        <qualifiedname>MR.Const_ObjectLabel.isAncestor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref>?</type>
+          <declname>ancestor</declname>
+        </param>
+        <briefdescription>
+<para>return true if given object is ancestor of this one, false otherwise Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a9f817f9c215c81c751f4fe3adb971c1e" kindref="member">MR.ObjectLabel.isAncestor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="818" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="818" bodyend="823"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1aa9769a39b90dde350bb8a0e6b94a869e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.isSelected</definition>
+        <argsstring>()</argsstring>
+        <name>isSelected</name>
+        <qualifiedname>MR.Const_ObjectLabel.isSelected</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1aa9769a39b90dde350bb8a0e6b94a869e" kindref="member">MR.ObjectLabel.isSelected</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="828" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="828" bodyend="833"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a7e42461de87f86bef27d72302a2688e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.isAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isAncillary</name>
+        <qualifiedname>MR.Const_ObjectLabel.isAncillary</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a7e42461de87f86bef27d72302a2688e5" kindref="member">MR.ObjectLabel.isAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="838" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="838" bodyend="843"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ad8c56f374433c1aafe7e94e2a2f3ed99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.isGlobalAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isGlobalAncillary</name>
+        <qualifiedname>MR.Const_ObjectLabel.isGlobalAncillary</qualifiedname>
+        <briefdescription>
+<para>returns true if the object or any of its ancestors are ancillary Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ad8c56f374433c1aafe7e94e2a2f3ed99" kindref="member">MR.ObjectLabel.isGlobalAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="849" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="849" bodyend="854"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1af0ca3af87cdf38303a8ab5be4d93932c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.isVisible</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isVisible</name>
+        <qualifiedname>MR.Const_ObjectLabel.isVisible</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1af0ca3af87cdf38303a8ab5be4d93932c" kindref="member">MR.ObjectLabel.isVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="861" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="861" bodyend="866"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a4e615263783ccd500f7da33c5859e7a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectLabel.visibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>visibilityMask</name>
+        <qualifiedname>MR.Const_ObjectLabel.visibilityMask</qualifiedname>
+        <briefdescription>
+<para>gets object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a4e615263783ccd500f7da33c5859e7a1" kindref="member">MR.ObjectLabel.visibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="872" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="872" bodyend="877"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ab7b7b81576aea266952a3c140d209d48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectLabel.resetRedrawFlag</definition>
+        <argsstring>()</argsstring>
+        <name>resetRedrawFlag</name>
+        <qualifiedname>MR.Const_ObjectLabel.resetRedrawFlag</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1ab7b7b81576aea266952a3c140d209d48" kindref="member">MR.ObjectLabel.resetRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="882" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="882" bodyend="887"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a5a157e2237f269d602727a15438d4923" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectLabel.cloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>cloneTree</name>
+        <qualifiedname>MR.Const_ObjectLabel.cloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognized children) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a5a157e2237f269d602727a15438d4923" kindref="member">MR.ObjectLabel.cloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="893" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="893" bodyend="898"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a3ccf9be0b3c75f48be513d53282c31c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectLabel.shallowCloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>shallowCloneTree</name>
+        <qualifiedname>MR.Const_ObjectLabel.shallowCloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognied children) clones only pointers to mesh, points or voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a3ccf9be0b3c75f48be513d53282c31c9" kindref="member">MR.ObjectLabel.shallowCloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="905" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="905" bodyend="910"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a74b04ba317847299fe7b1679c00af849" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectLabel.getWorldTreeBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldTreeBox</name>
+        <qualifiedname>MR.Const_ObjectLabel.getWorldTreeBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a74b04ba317847299fe7b1679c00af849" kindref="member">MR.ObjectLabel.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="918" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="918" bodyend="923"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1abf6aa11b17c07fdb1831456dde09d629" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.hasModel</definition>
+        <argsstring>()</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>MR.Const_ObjectLabel.hasModel</qualifiedname>
+        <briefdescription>
+<para>does the object have any model available (but possibly empty), e.g. <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> has valid mesh() or <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> has valid pointCloud() Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1abf6aa11b17c07fdb1831456dde09d629" kindref="member">MR.ObjectLabel.hasModel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="930" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="930" bodyend="935"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a72f9b6eb8fca47b81547903804a6a413" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Set_StdString</type>
+        <definition>unsafe MR.Std.Const_Set_StdString MR.Const_ObjectLabel.tags</definition>
+        <argsstring>()</argsstring>
+        <name>tags</name>
+        <qualifiedname>MR.Const_ObjectLabel.tags</qualifiedname>
+        <briefdescription>
+<para>provides read-only access to the tag storage the storage is a set of unique strings Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a72f9b6eb8fca47b81547903804a6a413" kindref="member">MR.ObjectLabel.tags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="942" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="942" bodyend="947"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1add8f1ccb9040b68d2c83605fbbc13560" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectLabel.sameModels</definition>
+        <argsstring>(MR.Const_Object other)</argsstring>
+        <name>sameModels</name>
+        <qualifiedname>MR.Const_ObjectLabel.sameModels</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1add8f1ccb9040b68d2c83605fbbc13560" kindref="member">MR.ObjectLabel.sameModels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="953" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="953" bodyend="958"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a79738b9f3fcecacbc0729cd4a2785c24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectLabel.getModelHash</definition>
+        <argsstring>()</argsstring>
+        <name>getModelHash</name>
+        <qualifiedname>MR.Const_ObjectLabel.getModelHash</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1a79738b9f3fcecacbc0729cd4a2785c24" kindref="member">MR.ObjectLabel.getModelHash</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="964" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="964" bodyend="969"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1aa99ffe73d5e18286dded1d2a47768deb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectLabel.getSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getSharedPtr</name>
+        <qualifiedname>MR.Const_ObjectLabel.getSharedPtr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectLabel_1aa99ffe73d5e18286dded1d2a47768deb" kindref="member">MR.ObjectLabel.getSharedPtr</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="976" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="976" bodyend="981"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1ab30c7152a7cc9b19bf802152cd3072e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjectLabel.~Const_ObjectLabel</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ObjectLabel</name>
+        <qualifiedname>MR.Const_ObjectLabel.~Const_ObjectLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="40" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a9f4f3ff1618f6857885b29d2eac7448a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectLabel.operator MR.Const_ObjectChildrenHolder</definition>
+        <argsstring>(Const_ObjectLabel self)</argsstring>
+        <name>operator MR.Const_ObjectChildrenHolder</name>
+        <qualifiedname>MR.Const_ObjectLabel.operator MR.Const_ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectLabel" kindref="compound">Const_ObjectLabel</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="43" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="43" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a8169e6bc18a06626868b652f2de2b6bf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectLabel.operator MR.Const_Object</definition>
+        <argsstring>(Const_ObjectLabel self)</argsstring>
+        <name>operator MR.Const_Object</name>
+        <qualifiedname>MR.Const_ObjectLabel.operator MR.Const_Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectLabel" kindref="compound">Const_ObjectLabel</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="51" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="51" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a021b8200bd68b187117fc1647cf8b44b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectLabel.operator MR.Const_VisualObject</definition>
+        <argsstring>(Const_ObjectLabel self)</argsstring>
+        <name>operator MR.Const_VisualObject</name>
+        <qualifiedname>MR.Const_ObjectLabel.operator MR.Const_VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectLabel" kindref="compound">Const_ObjectLabel</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="59" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="59" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1aa71346bd16f48f8bb12162e56ad1f24d" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectLabel.operator Const_ObjectLabel?</definition>
+        <argsstring>(MR.Const_Object parent)</argsstring>
+        <name>operator Const_ObjectLabel?</name>
+        <qualifiedname>MR.Const_ObjectLabel.operator Const_ObjectLabel?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="69" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="69" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a8b59cf41cc4676b006f906d343f45f83" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectLabel.operator Const_ObjectLabel?</definition>
+        <argsstring>(MR.Const_VisualObject parent)</argsstring>
+        <name>operator Const_ObjectLabel?</name>
+        <qualifiedname>MR.Const_ObjectLabel.operator Const_ObjectLabel?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="79" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="79" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a0ea2602cf697e83731c0c4a77054d204" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectLabel.staticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>staticTypeName</name>
+        <qualifiedname>MR.Const_ObjectLabel.staticTypeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectLabel::StaticTypeName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="116" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="116" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a6a8a4e72325131b5702dc8b2c1d586fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectLabel.staticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassName</name>
+        <qualifiedname>MR.Const_ObjectLabel.staticClassName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectLabel::StaticClassName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="390" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="390" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1a46079af0e451c228039fb33a0a99e3df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectLabel.staticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassNameInPlural</name>
+        <qualifiedname>MR.Const_ObjectLabel.staticClassNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectLabel::StaticClassNameInPlural</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="411" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="411" bodyend="417"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectLabel_1af452c852e9efc541512c3b815cce13eb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectLabel.Const_ObjectLabel</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ObjectLabel</name>
+        <qualifiedname>MR.Const_ObjectLabel.Const_ObjectLabel</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="90" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="90" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This object type renders label in scene. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>default pivot point = (0, 0) Generated from class <computeroutput><ref refid="classMR_1_1ObjectLabel" kindref="compound">MR.ObjectLabel</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> This is the const half of the class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ObjectLabel</label>
+        <link refid="classMR_1_1Const__ObjectLabel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ObjectLabel</label>
+        <link refid="classMR_1_1ObjectLabel"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ObjectLabel</label>
+        <link refid="classMR_1_1Const__ObjectLabel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" line="24" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRObjectLabel.cs" bodystart="25" bodyend="982"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectLabel_1a210080674c3e13b3a39adda8c9ac3239" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>buildMeshFromText</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1abaccb6509ffaa3727e3c19d20acd5bc5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ade4c817dc574fe34816735544ec1d085" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ac1e1446af775d8f0b06e6c3e3a867c08" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a5a157e2237f269d602727a15438d4923" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1af452c852e9efc541512c3b815cce13eb" prot="package" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>Const_ObjectLabel</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ae09e13b1963bdec520f18852c7310b90" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>Const_ObjectLabel</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a22e596b0a1220a47915f0a41099f21f9" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>Const_ObjectLabel</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1af4f2e9c2828be259b476ec0ad08d3c52" prot="protected" virt="virtual"><scope>MR::Const_ObjectLabel</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a4c1c58c108bb696167f725d64407cca7" prot="public" virt="virtual"><scope>MR::Const_ObjectLabel</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ac1919800b56b6d6d1e89b079df9c5149" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ab16063a90f9a69b6115bd29cb00b24a6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a919c119bb5ee1c8f682680906862fb96" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a565c13f0aafaf9b1545ff5fe36870290" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ad6f1b963b0c25585cb1ae3f76d377202" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getBackgroundPadding</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1acd35f9ba08ffac95e8e7748560cd6e7a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a0538f397425be1e34e64ab18a88c0dd9" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a16a157ed7c5a7e6900a90ef5b42b14e4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getContourColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a252d01b142cb98fb993c126b87788ef8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getContourColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a2fb278eb5ae3868781520b875a4c9ca5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a8074543d882b604b678ffd3fe9a31d21" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getFontHeight</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a4c6d595d3ed91354885dc5b49199be3f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getFontPath</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ac0145d081bb04ff0ea3b75215a65bcef" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a7cebc70c57f56d91d040a308ace7b42d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a345fc0805a6624bf726a3f0f41a67b2e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1abf3365bb96453ee072772670270db58c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a507244a8d215d8006c4207dbd09e0792" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1af63ab3189a8ecc1dfe9f3f5a9a587dc3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getLabel</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1afccb42c6162275c8c7ebe3af939a6384" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getLeaderLineColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1af5c90d29930648dd6b2bceb95db2d30a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getLeaderLineColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a63d264a6ec2750cc6657624f53aa16d8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getLeaderLineWidth</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a79738b9f3fcecacbc0729cd4a2785c24" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a10cdc29ff8135ae3869c088c375ef5de" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getPivotPoint</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a1025c12988b4bb4ecddaca840efc358c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getPivotShift</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a727be2f91f5747f4461c3f52fcd0ee7d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1aa99ffe73d5e18286dded1d2a47768deb" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a86ccfbd61eaf8276c349107d39c748ff" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a23634774deda23e0892cf972e1b51f33" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getSourcePointColor</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ab7bbff6057b792128a2413b4cb6023b1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getSourcePointColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a739bda0fd48e2813622c939207a6bf15" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getSourcePointSize</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a24d4ce97b16e718bb917321aacf6208a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a82a18fff9ff233b1e35177bd526e8725" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a93e8ffaf5bf29c1d27721c6eb3167a97" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a7d2c22cc96e6bb315ef67d2973b33349" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a74b04ba317847299fe7b1679c00af849" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a21964bea35fc06de304fbb88313a2633" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ad6a6ef3e4f28fc1244a1b03a9d3985c9" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a593618c4530561434299fcaf8d5c76ca" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1af6ddced6cf3444f27f182d1e4be268e4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1abf6aa11b17c07fdb1831456dde09d629" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ae9e348e358131b30d22d4e837ec76a01" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a3f4035e093d5625960a4f69e8cd623a6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a9f817f9c215c81c751f4fe3adb971c1e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a7e42461de87f86bef27d72302a2688e5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ad8c56f374433c1aafe7e94e2a2f3ed99" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1aeca55e174c78b2c84f9bb42185314caf" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1aec746bb6b829d2c8384299e545278dd5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a22cb9503b1b2390c9aabe808cdc86b9e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1aa9769a39b90dde350bb8a0e6b94a869e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1af0ca3af87cdf38303a8ab5be4d93932c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a78ff735d8f3adad241b055fe2e854a75" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>labelRepresentingMesh</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a272547b7a46c00bbf9a0a40599cfc84b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1aa71346bd16f48f8bb12162e56ad1f24d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>operator Const_ObjectLabel?</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a8b59cf41cc4676b006f906d343f45f83" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>operator Const_ObjectLabel?</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a8169e6bc18a06626868b652f2de2b6bf" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a9f4f3ff1618f6857885b29d2eac7448a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a021b8200bd68b187117fc1647cf8b44b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>operator MR.Const_VisualObject</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a985854cf796ee1372cb6308d01aba330" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ad60a91b7e9d65c49cff6444869495ff2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a3c0ada506284284585735d7e8815c7f8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a449cf9643c4121b53159aecffd6064fc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1aeea76e14b6eaa2390e0c7e9ec6477262" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ab7b7b81576aea266952a3c140d209d48" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1add8f1ccb9040b68d2c83605fbbc13560" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a329f434dac60b7e429d85586f2659301" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a3ccf9be0b3c75f48be513d53282c31c9" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a6a8a4e72325131b5702dc8b2c1d586fb" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a46079af0e451c228039fb33a0a99e3df" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a0ea2602cf697e83731c0c4a77054d204" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a8043395cde3c1a53b4b513053a36e145" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a72f9b6eb8fca47b81547903804a6a413" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>tags</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a78b65991d0dc02bd8885b07ac3ba4890" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a1cb1cc3b8472f69ad9a275476e583cea" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a4e615263783ccd500f7da33c5859e7a1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1a558d8fbbc5be204ef2063ffc67b0e2b3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ae00ef3796515704f52cd2e78a933bf0f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1acfd2f844869ef52cebc5c0f144d9e551" prot="public" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectLabel_1ab30c7152a7cc9b19bf802152cd3072e3" prot="private" virt="non-virtual"><scope>MR::Const_ObjectLabel</scope><name>~Const_ObjectLabel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

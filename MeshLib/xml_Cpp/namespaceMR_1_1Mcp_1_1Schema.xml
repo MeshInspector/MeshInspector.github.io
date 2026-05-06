@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1Mcp_1_1Schema" kind="namespace" language="C++">
+    <compoundname>MR::Mcp::Schema</compoundname>
+    <innerclass refid="structMR_1_1Mcp_1_1Schema_1_1Array" prot="public">MR::Mcp::Schema::Array</innerclass>
+    <innerclass refid="structMR_1_1Mcp_1_1Schema_1_1Base" prot="public">MR::Mcp::Schema::Base</innerclass>
+    <innerclass refid="structMR_1_1Mcp_1_1Schema_1_1Bool" prot="public">MR::Mcp::Schema::Bool</innerclass>
+    <innerclass refid="structMR_1_1Mcp_1_1Schema_1_1Number" prot="public">MR::Mcp::Schema::Number</innerclass>
+    <innerclass refid="structMR_1_1Mcp_1_1Schema_1_1Object" prot="public">MR::Mcp::Schema::Object</innerclass>
+    <innerclass refid="structMR_1_1Mcp_1_1Schema_1_1String" prot="public">MR::Mcp::Schema::String</innerclass>
+    <briefdescription>
+<para>This is used to build json schemas. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMcp/MRMcp.h" line="19" column="1"/>
+  </compounddef>
+</doxygen>

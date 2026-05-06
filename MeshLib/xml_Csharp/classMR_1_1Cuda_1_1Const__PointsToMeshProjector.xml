@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector" kind="class" language="C#" prot="public">
+    <compoundname>MR::Cuda::Const_PointsToMeshProjector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Cuda_1_1PointsToMeshProjector" prot="public" virt="non-virtual">MR.Cuda.PointsToMeshProjector</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1acd9ad7fc72d377e1afdc3d3cbbf74bbd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Cuda.Const_PointsToMeshProjector.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Cuda.Const_PointsToMeshProjector.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" line="19" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" bodystart="19" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1adfe1466efe7d1fc5372095f5e5f35082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Cuda.Const_PointsToMeshProjector.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Cuda.Const_PointsToMeshProjector.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" line="28" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a30c1365e012d872d8df43e12fbc76e53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cuda.Const_PointsToMeshProjector.Const_PointsToMeshProjector</definition>
+        <argsstring>()</argsstring>
+        <name>Const_PointsToMeshProjector</name>
+        <qualifiedname>MR.Cuda.Const_PointsToMeshProjector.Const_PointsToMeshProjector</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" line="58" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" bodystart="58" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a6b9df534abc4ddb6c2c9b95a674063ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cuda.Const_PointsToMeshProjector.Const_PointsToMeshProjector</definition>
+        <argsstring>(MR.Cuda._ByValue_PointsToMeshProjector _other)</argsstring>
+        <name>Const_PointsToMeshProjector</name>
+        <qualifiedname>MR.Cuda.Const_PointsToMeshProjector.Const_PointsToMeshProjector</qualifiedname>
+        <param>
+          <type>MR.Cuda._ByValue_PointsToMeshProjector</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a4352edd884565a055ba8c8b99587e89f" kindref="member">MR.Cuda.PointsToMeshProjector.PointsToMeshProjector</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" line="68" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" bodystart="68" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a0c5d2e92cddc3957fd34799932d82002" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Cuda.Const_PointsToMeshProjector.Const_PointsToMeshProjector</definition>
+        <argsstring>(Const_PointsToMeshProjector _other)</argsstring>
+        <name>Const_PointsToMeshProjector</name>
+        <qualifiedname>MR.Cuda.Const_PointsToMeshProjector.Const_PointsToMeshProjector</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector" kindref="compound">Const_PointsToMeshProjector</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a4352edd884565a055ba8c8b99587e89f" kindref="member">MR.Cuda.PointsToMeshProjector.PointsToMeshProjector</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" line="79" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1ac3f7a8e10de898caab17054a19c1187b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Cuda.Const_PointsToMeshProjector.Const_PointsToMeshProjector</definition>
+        <argsstring>(PointsToMeshProjector _other)</argsstring>
+        <name>Const_PointsToMeshProjector</name>
+        <qualifiedname>MR.Cuda.Const_PointsToMeshProjector.Const_PointsToMeshProjector</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Cuda_1_1PointsToMeshProjector" kindref="compound">PointsToMeshProjector</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a4352edd884565a055ba8c8b99587e89f" kindref="member">MR.Cuda.PointsToMeshProjector.PointsToMeshProjector</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" line="84" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a037a6da851564253b1238312669e9251" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Cuda.Const_PointsToMeshProjector.projectionsHeapBytes</definition>
+        <argsstring>(ulong numProjections)</argsstring>
+        <name>projectionsHeapBytes</name>
+        <qualifiedname>MR.Cuda.Const_PointsToMeshProjector.projectionsHeapBytes</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numProjections</declname>
+        </param>
+        <briefdescription>
+<para>Returns amount of additional memory needed to compute projections Generated from method <computeroutput><ref refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a037a6da851564253b1238312669e9251" kindref="member">MR.Cuda.PointsToMeshProjector.projectionsHeapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" line="90" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" bodystart="90" bodyend="95"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1accef039a86cb2dd5fd88b6f7fe561820" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Cuda.Const_PointsToMeshProjector.~Const_PointsToMeshProjector</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PointsToMeshProjector</name>
+        <qualifiedname>MR.Cuda.Const_PointsToMeshProjector.~Const_PointsToMeshProjector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" line="29" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a6dacf8fbd0207d569e3e35876ee708d6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Cuda.Const_PointsToMeshProjector.operator MR.Const_IPointsToMeshProjector</definition>
+        <argsstring>(Const_PointsToMeshProjector self)</argsstring>
+        <name>operator MR.Const_IPointsToMeshProjector</name>
+        <qualifiedname>MR.Cuda.Const_PointsToMeshProjector.operator MR.Const_IPointsToMeshProjector</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector" kindref="compound">Const_PointsToMeshProjector</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" line="32" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" bodystart="32" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1ac8675580f0e0f03eaa9f73c5f5e0be3a" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Cuda.Const_PointsToMeshProjector.operator Const_PointsToMeshProjector?</definition>
+        <argsstring>(MR.Const_IPointsToMeshProjector parent)</argsstring>
+        <name>operator Const_PointsToMeshProjector?</name>
+        <qualifiedname>MR.Cuda.Const_PointsToMeshProjector.operator Const_PointsToMeshProjector?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__IPointsToMeshProjector" kindref="compound">MR.Const_IPointsToMeshProjector</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" line="42" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" bodystart="42" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a38a130ad3cea0a4503f46b88bff66f57" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cuda.Const_PointsToMeshProjector.Const_PointsToMeshProjector</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PointsToMeshProjector</name>
+        <qualifiedname>MR.Cuda.Const_PointsToMeshProjector.Const_PointsToMeshProjector</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" line="53" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Computes the closest point on mesh to each of given points on GPU. It caches data that necessary for computing Generated from class <computeroutput><ref refid="classMR_1_1Cuda_1_1PointsToMeshProjector" kindref="compound">MR.Cuda.PointsToMeshProjector</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1IPointsToMeshProjector" kindref="compound">MR.IPointsToMeshProjector</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Cuda.Const_PointsToMeshProjector</label>
+        <link refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Cuda.PointsToMeshProjector</label>
+        <link refid="classMR_1_1Cuda_1_1PointsToMeshProjector"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Cuda.Const_PointsToMeshProjector</label>
+        <link refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" line="13" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsToMeshProjector.cs" bodystart="14" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a38a130ad3cea0a4503f46b88bff66f57" prot="package" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>Const_PointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a30c1365e012d872d8df43e12fbc76e53" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>Const_PointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a6b9df534abc4ddb6c2c9b95a674063ed" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>Const_PointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a0c5d2e92cddc3957fd34799932d82002" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>Const_PointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1ac3f7a8e10de898caab17054a19c1187b" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>Const_PointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1acd9ad7fc72d377e1afdc3d3cbbf74bbd" prot="protected" virt="virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1adfe1466efe7d1fc5372095f5e5f35082" prot="public" virt="virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1ac8675580f0e0f03eaa9f73c5f5e0be3a" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>operator Const_PointsToMeshProjector?</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a6dacf8fbd0207d569e3e35876ee708d6" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>operator MR.Const_IPointsToMeshProjector</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1a037a6da851564253b1238312669e9251" prot="public" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
+      <member refid="classMR_1_1Cuda_1_1Const__PointsToMeshProjector_1accef039a86cb2dd5fd88b6f7fe561820" prot="private" virt="non-virtual"><scope>MR::Cuda::Const_PointsToMeshProjector</scope><name>~Const_PointsToMeshProjector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

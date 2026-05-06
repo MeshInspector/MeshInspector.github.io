@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SearchPathSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::SearchPathSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SearchPathSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SearchPathSettings" prot="public" virt="non-virtual">MR.Const_SearchPathSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SearchPathSettings_1a79b2759b95aacabb25ac063ebd5adbae" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1aeefd25abc54607bc39e87bf80e80bf04" kindref="member">MR.GeodesicPathApprox</ref></type>
@@ -105,7 +105,7 @@
         <name>SearchPathSettings</name>
         <qualifiedname>MR.SearchPathSettings.SearchPathSettings</qualifiedname>
         <param>
-          <type>MR.Const_SearchPathSettings</type>
+          <type><ref refid="classMR_1_1Const__SearchPathSettings" kindref="compound">MR.Const_SearchPathSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.SearchPathSettings.assign</qualifiedname>
         <param>
-          <type>MR.Const_SearchPathSettings</type>
+          <type><ref refid="classMR_1_1Const__SearchPathSettings" kindref="compound">MR.Const_SearchPathSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SearchPathSettings</label>
+        <link refid="classMR_1_1Const__SearchPathSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SearchPathSettings</label>
         <link refid="classMR_1_1SearchPathSettings"/>
@@ -191,9 +196,13 @@
       </node>
       <node id="2">
         <label>MR.Const_SearchPathSettings</label>
+        <link refid="classMR_1_1Const__SearchPathSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_geodesicPathApprox</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -205,7 +214,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="867" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="868" bodyend="938"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a15420e2c99e846aecb598003746dc5e0" prot="protected" virt="non-virtual"><scope>MR::SearchPathSettings</scope><name>__ref_storage_geodesicPathApprox</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1aed86de03157fb9ba37b13563bbc8ff73" prot="protected" virt="non-virtual"><scope>MR::SearchPathSettings</scope><name>__ref_storage_maxReduceIters</name></member>
       <member refid="classMR_1_1SearchPathSettings_1aef0b88a99e08a957d731115d80de1944" prot="public" virt="non-virtual"><scope>MR::SearchPathSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a63ea8f721d00d3b06cef4b633990fcc1" prot="package" virt="non-virtual"><scope>MR::SearchPathSettings</scope><name>Const_SearchPathSettings</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a6789dcd1fdf66e16d5832e9f36a6335a" prot="public" virt="non-virtual"><scope>MR::SearchPathSettings</scope><name>Const_SearchPathSettings</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a3bf207a4827d1a40d546849df51934f0" prot="public" virt="non-virtual"><scope>MR::SearchPathSettings</scope><name>Const_SearchPathSettings</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a18e35522ef406b78942b84b161f0d300" prot="public" virt="non-virtual"><scope>MR::SearchPathSettings</scope><name>Const_SearchPathSettings</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a368b424e1eec4780fef932d178742ae7" prot="public" virt="non-virtual"><scope>MR::SearchPathSettings</scope><name>Const_SearchPathSettings</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a5e07dcc792dedd4dab92b3f146e8e6d7" prot="protected" virt="virtual"><scope>MR::SearchPathSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SearchPathSettings_1a681068a2e1609090813ec6024c7f3081" prot="public" virt="virtual"><scope>MR::SearchPathSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SearchPathSettings_1a79b2759b95aacabb25ac063ebd5adbae" prot="public" virt="non-virtual"><scope>MR::SearchPathSettings</scope><name>geodesicPathApprox</name></member>
       <member refid="classMR_1_1SearchPathSettings_1adda00ebd151e8f583bf850022059f4fe" prot="public" virt="non-virtual"><scope>MR::SearchPathSettings</scope><name>maxReduceIters</name></member>
       <member refid="classMR_1_1SearchPathSettings_1af4e50b1c4faa0c0a39c1b49a5b12742a" prot="package" virt="non-virtual"><scope>MR::SearchPathSettings</scope><name>SearchPathSettings</name></member>

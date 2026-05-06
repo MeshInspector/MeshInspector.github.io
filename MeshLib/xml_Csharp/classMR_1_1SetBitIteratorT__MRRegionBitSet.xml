@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SetBitIteratorT__MRRegionBitSet" kind="class" language="C#" prot="public">
     <compoundname>MR::SetBitIteratorT_MRRegionBitSet</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRRegionBitSet</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet" prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRRegionBitSet</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRRegionBitSet_1adfab819691498fca6bef927d49327c11" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>SetBitIteratorT_MRRegionBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRRegionBitSet.SetBitIteratorT_MRRegionBitSet</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIteratorT_MRRegionBitSet</type>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRRegionBitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>SetBitIteratorT_MRRegionBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRRegionBitSet.SetBitIteratorT_MRRegionBitSet</qualifiedname>
         <param>
-          <type>MR.Const_RegionBitSet</type>
+          <type><ref refid="classMR_1_1Const__RegionBitSet" kindref="compound">MR.Const_RegionBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -107,11 +107,11 @@
         <name>assign</name>
         <qualifiedname>MR.SetBitIteratorT_MRRegionBitSet.assign</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIteratorT_MRRegionBitSet</type>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRRegionBitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,7 +126,7 @@
         <name>incr</name>
         <qualifiedname>MR.SetBitIteratorT_MRRegionBitSet.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;amp;gt;::operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;gt;<ref refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1ac2055c90a4874b2d972c698b7498dc08" kindref="member">operator++</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,11 +143,11 @@
         <name>operator SetBitIteratorT_MRRegionBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRRegionBitSet.operator SetBitIteratorT_MRRegionBitSet</qualifiedname>
         <param>
-          <type>MR.Const_RegionBitSet</type>
+          <type><ref refid="classMR_1_1Const__RegionBitSet" kindref="compound">MR.Const_RegionBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -157,7 +157,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIteratorT_MRRegionBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIteratorT_MRRegionBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,8 +218,23 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15182" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15183" bodyend="15251"/>
     <listofallmembers>
       <member refid="classMR_1_1SetBitIteratorT__MRRegionBitSet_1ae14c4084753745b9bf6b133884e79822" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1a9dff428055f5ef4634146877c1901363" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>bitset</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1a4f98f816307b4de5c2dfa1a6f76a48d6" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>Const_SetBitIteratorT_MRRegionBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1a6db5f09cf676bbd87446f144ecae535f" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>Const_SetBitIteratorT_MRRegionBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1a9fc64bef2cd153e8d20c4cc573439013" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>Const_SetBitIteratorT_MRRegionBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1a71ffb9479479483b1d669555e19fc83d" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>Const_SetBitIteratorT_MRRegionBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1aca092ab9be9ee0542a9f50bcfbc6f7c9" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>Const_SetBitIteratorT_MRRegionBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1aec9b19e356de9571691cc278eb32ba25" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1a4d85e8d2656f50979d60923a7fce08b6" prot="protected" virt="virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1a2effcd3a8ebee756d30b541d583b910f" prot="public" virt="virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1a1ec1efbc6882699cea253f9218578912" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1a8bf0fa28205e3b0d06a3b743d996ada8" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>Equals</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRRegionBitSet_1a2666f04c55cbe37fe80726e4f37a81e3" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1a5b0f4b1d4f82192e8a31e5f4d296182d" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>operator Const_SetBitIteratorT_MRRegionBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRRegionBitSet_1a6f21027a74971e57622d80420e419bfe" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>operator SetBitIteratorT_MRRegionBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1ad73763ccb2c16449ba673a484a41478e" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1ac2055c90a4874b2d972c698b7498dc08" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRRegionBitSet_1aef9ec994c41c3c8c9826691b2373e55b" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>operator==</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRRegionBitSet_1adfab819691498fca6bef927d49327c11" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>SetBitIteratorT_MRRegionBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRRegionBitSet_1a79f4dc1e70e6f916675013b3ed16bd11" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>SetBitIteratorT_MRRegionBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRRegionBitSet_1a368d2a793a084f11a5c4f401944e5da3" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRRegionBitSet</scope><name>SetBitIteratorT_MRRegionBitSet</name></member>

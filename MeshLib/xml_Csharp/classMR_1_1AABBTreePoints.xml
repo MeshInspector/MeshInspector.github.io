@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreePoints" kind="class" language="C#" prot="public">
     <compoundname>MR::AABBTreePoints</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreePoints</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AABBTreePoints" prot="public" virt="non-virtual">MR.Const_AABBTreePoints</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1AABBTreePoints_1a64e33feea4db75fb52e2eb2acd747eae" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -54,7 +54,7 @@
         <name>AABBTreePoints</name>
         <qualifiedname>MR.AABBTreePoints.AABBTreePoints</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <briefdescription>
@@ -73,7 +73,7 @@
         <name>AABBTreePoints</name>
         <qualifiedname>MR.AABBTreePoints.AABBTreePoints</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <briefdescription>
@@ -92,11 +92,11 @@
         <name>AABBTreePoints</name>
         <qualifiedname>MR.AABBTreePoints.AABBTreePoints</qualifiedname>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>points</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>validPoints</declname>
           <defval>null</defval>
         </param>
@@ -154,11 +154,11 @@
         <name>refit</name>
         <qualifiedname>MR.AABBTreePoints.refit</qualifiedname>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>newCoords</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
           <declname>changedVerts</declname>
         </param>
         <briefdescription>
@@ -197,7 +197,7 @@
         <name>operator AABBTreePoints</name>
         <qualifiedname>MR.AABBTreePoints.operator AABBTreePoints</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>pointCloud</declname>
         </param>
         <briefdescription>
@@ -216,7 +216,7 @@
         <name>operator AABBTreePoints</name>
         <qualifiedname>MR.AABBTreePoints.operator AABBTreePoints</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <briefdescription>
@@ -235,7 +235,7 @@
         <name>operator AABBTreePoints</name>
         <qualifiedname>MR.AABBTreePoints.operator AABBTreePoints</qualifiedname>
         <param>
-          <type>MR.Const_VertCoords</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
           <declname>points</declname>
         </param>
         <briefdescription>
@@ -262,6 +262,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreePoints</label>
+        <link refid="classMR_1_1Const__AABBTreePoints"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -283,6 +284,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreePoints</label>
+        <link refid="classMR_1_1Const__AABBTreePoints"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -297,17 +299,36 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" line="656" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreePoints.cs" bodystart="657" bodyend="767"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a97d5522e4ca15ec82e6d19936fc1d1f2" prot="protected" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>__ref_storage_MaxNumPointsInLeaf</name></member>
       <member refid="classMR_1_1AABBTreePoints_1a64e33feea4db75fb52e2eb2acd747eae" prot="package" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>AABBTreePoints</name></member>
       <member refid="classMR_1_1AABBTreePoints_1a644a4d5a0d24918d9cdab7d496128704" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>AABBTreePoints</name></member>
       <member refid="classMR_1_1AABBTreePoints_1a5c2f71cf9ef21aac7a83acb86427eb91" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>AABBTreePoints</name></member>
       <member refid="classMR_1_1AABBTreePoints_1ad24157dc906bb637917b5fae45f6647f" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>AABBTreePoints</name></member>
       <member refid="classMR_1_1AABBTreePoints_1a7ec65571fa44e3daee66649224af0d7f" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>AABBTreePoints</name></member>
       <member refid="classMR_1_1AABBTreePoints_1a461ac6e486e624910fdb1df77919d571" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a5ab5a75641fee0e2a20eaddf071d0b98" prot="package" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>Const_AABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a71975d85f85bd69fca85554f914904bc" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>Const_AABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a31bb6033cc8fe587fe0c332ac74c44fb" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>Const_AABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a5925db33ec752ca5391554cbbd8ff208" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>Const_AABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1ad8ca670f6ff5ea7a9519b90550c7aa48" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>Const_AABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a249f7e5fddab3cec3afce4f8ad2035c6" prot="protected" virt="virtual"><scope>MR::AABBTreePoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1abc3355661c5af5fd85c3dddb5db20cfd" prot="public" virt="virtual"><scope>MR::AABBTreePoints</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a3d876e6c1e51de7124d25d22b7d8d555" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a330027a0b3fe60d3a4ff524cc72512ac" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>getLeafOrder</name></member>
       <member refid="classMR_1_1AABBTreePoints_1a9283d974aa5edb3440a8521c5dfb0f90" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a088bdf7d225f1c1932771ab7b8b31851" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a2cebebbf509c179cd4610c077ee40af2" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>MaxNumPointsInLeaf</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a25e7e1b9c562742fd50b72870b6e5839" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>nodes</name></member>
       <member refid="classMR_1_1AABBTreePoints_1a09ed3d7a8a57d4385d09e34a9c2e2107" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>operator AABBTreePoints</name></member>
       <member refid="classMR_1_1AABBTreePoints_1a34b19d60b140e52545f0a1f8ec6df97a" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>operator AABBTreePoints</name></member>
       <member refid="classMR_1_1AABBTreePoints_1ad78503b538f226b9b6473f6212998d29" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>operator AABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a454206dabdaa6f5cb652fe751157c47f" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>operator Const_AABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a0f498c1406136ec7ee09dc477eb1e86c" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>operator Const_AABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a28c745d63a05c8cefd4305e39bcd40c7" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>operator Const_AABBTreePoints</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a6082a61cd4cd4c770a2fb5eff2bd0e19" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>orderedPoints</name></member>
       <member refid="classMR_1_1AABBTreePoints_1a233c82a526d1389bc9440a59eb28b919" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>refit</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a205923661aef6ba04d17e3264cd9d0fb" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>rootNodeId</name></member>
+      <member refid="classMR_1_1Const__AABBTreePoints_1a947fe77b1f64c2f7824ce93ee916d8dc" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints</scope><name>this[MR.NodeId nid]</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</basecompoundref>
+    <basecompoundref refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment" prot="public" virt="non-virtual">MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1a2010c669370a54b68838e8588f8bc9dd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</name>
         <qualifiedname>MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</qualifiedname>
         <param>
-          <type>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</type>
+          <type><ref refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment" kindref="compound">MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&amp;amp;gt;::Binary</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Features::Traits::Binary&amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&amp;gt;::Binary</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&amp;amp;gt;::Binary</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Features::Traits::Binary&amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&amp;gt;::Binary</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.Features.Traits.Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment.assign</qualifiedname>
         <param>
-          <type>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</type>
+          <type><ref refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment" kindref="compound">MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Features::Traits::Binary&amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -102,7 +102,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::Features::Traits::Binary&amp;amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::Features::Traits::Binary&amp;lt;<ref refid="classMR_1_1Features_1_1Primitives_1_1Plane" kindref="compound">MR.Features.Primitives.Plane</ref>, <ref refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">MR.Features.Primitives.ConeSegment</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</label>
+        <link refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Traits.Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</label>
+        <link refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +157,13 @@
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1af586c11d5bf320436ef49a8388449429" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</scope><name>Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1a8a6e8193620e3b2b70c17afec83c762b" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</scope><name>Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</name></member>
       <member refid="classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1a9649661f8a3c48c21fd17c0574fbd4f3" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</scope><name>Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1a9ff3b20a1c0ada854a21e167aabd2da7" prot="package" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</scope><name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1ab5d6bb98d7784d1ac403896748a7b4c7" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</scope><name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1ac129155bb1aca3f1d4c5a2f72f0c1e30" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</scope><name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1a3c7ba28901d6fa116631ad43afab91a1" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</scope><name>Const_Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1a8ad7bc77a68eb1847e65b0a1d4501718" prot="protected" virt="virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1af6a64756446a470814bc6245a8d4ad89" prot="public" virt="virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Traits_1_1Const__Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment_1a6b5e92b9e046f7c7184e9c9e36c4a83f" prot="public" virt="non-virtual"><scope>MR::Features::Traits::Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment</scope><name>measure</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

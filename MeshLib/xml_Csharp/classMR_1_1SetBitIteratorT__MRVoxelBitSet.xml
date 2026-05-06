@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SetBitIteratorT__MRVoxelBitSet" kind="class" language="C#" prot="public">
     <compoundname>MR::SetBitIteratorT_MRVoxelBitSet</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRVoxelBitSet</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet" prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRVoxelBitSet</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRVoxelBitSet_1a4de15da600d7b50f9412c7a7d4e5cfc4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>SetBitIteratorT_MRVoxelBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRVoxelBitSet.SetBitIteratorT_MRVoxelBitSet</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIteratorT_MRVoxelBitSet</type>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRVoxelBitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>SetBitIteratorT_MRVoxelBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRVoxelBitSet.SetBitIteratorT_MRVoxelBitSet</qualifiedname>
         <param>
-          <type>MR.Const_VoxelBitSet</type>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -107,11 +107,11 @@
         <name>assign</name>
         <qualifiedname>MR.SetBitIteratorT_MRVoxelBitSet.assign</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIteratorT_MRVoxelBitSet</type>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRVoxelBitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,7 +126,7 @@
         <name>incr</name>
         <qualifiedname>MR.SetBitIteratorT_MRVoxelBitSet.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;amp;gt;::operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;<ref refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a57c6b7e6f0cb0a0f9a014c062f80eb7a" kindref="member">operator++</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,11 +143,11 @@
         <name>operator SetBitIteratorT_MRVoxelBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRVoxelBitSet.operator SetBitIteratorT_MRVoxelBitSet</qualifiedname>
         <param>
-          <type>MR.Const_VoxelBitSet</type>
+          <type><ref refid="classMR_1_1Const__VoxelBitSet" kindref="compound">MR.Const_VoxelBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -157,7 +157,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIteratorT_MRVoxelBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIteratorT_MRVoxelBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,8 +218,23 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="14930" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="14931" bodyend="14999"/>
     <listofallmembers>
       <member refid="classMR_1_1SetBitIteratorT__MRVoxelBitSet_1a770149eb6bacfdede71ccf9a6df38eef" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a375ac587740fb0779c2e4e72403e0875" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>bitset</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a43d7a4b233520157dc662b7b97a3c1d2" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>Const_SetBitIteratorT_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1ab30f8d8c383ace3935d35547fa0e0fce" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>Const_SetBitIteratorT_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1ac2f272edaf8dff8b00d1345f426f97ae" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>Const_SetBitIteratorT_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1aff0531d1dbeb28d5b18e6f55cf71455c" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>Const_SetBitIteratorT_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a47fd71d78ddbc2b8656e79ba25687827" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>Const_SetBitIteratorT_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a4a5c70999b92d5ac63b78912c5289b71" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a4621acf7d35def809cef4ddb108f1812" prot="protected" virt="virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1aaee6b1f4e3c758425173a446c5fb0e68" prot="public" virt="virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a0f622b47dd24ac26641dc6c047a4a933" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a98d1587ee8019c40dda1a05830272d81" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>Equals</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRVoxelBitSet_1aba6bee7f648999aa297d445cf4bfd1e6" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a461c337db82975961aba653700103f43" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>operator Const_SetBitIteratorT_MRVoxelBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRVoxelBitSet_1aa1be29229799c2e2ce0a624cca9dd5c8" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>operator SetBitIteratorT_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1ae730748b8722f20d6270ff7c5105e6d4" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a57c6b7e6f0cb0a0f9a014c062f80eb7a" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRVoxelBitSet_1a65cadc5e8d381d425a4238d19e05e0bb" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>operator==</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRVoxelBitSet_1a4de15da600d7b50f9412c7a7d4e5cfc4" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>SetBitIteratorT_MRVoxelBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRVoxelBitSet_1ad62a30c9b4b278e1b1d75c8309d5fdd7" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>SetBitIteratorT_MRVoxelBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRVoxelBitSet_1aa4a06a6721f83522102b930ae439434c" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRVoxelBitSet</scope><name>SetBitIteratorT_MRVoxelBitSet</name></member>

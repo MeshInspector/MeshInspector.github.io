@@ -10,7 +10,7 @@
         <name>toTiff</name>
         <qualifiedname>MR.DistanceMapSave.toTiff</qualifiedname>
         <param>
-          <type>MR.Const_DistanceMap</type>
+          <type><ref refid="classMR_1_1Const__DistanceMap" kindref="compound">MR.Const_DistanceMap</ref></type>
           <declname>dmap</declname>
         </param>
         <param>
@@ -18,7 +18,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceMapSaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__DistanceMapSaveSettings" kindref="compound">MR.Const_DistanceMapSaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -38,7 +38,7 @@
         <name>toRAW</name>
         <qualifiedname>MR.DistanceMapSave.toRAW</qualifiedname>
         <param>
-          <type>MR.Const_DistanceMap</type>
+          <type><ref refid="classMR_1_1Const__DistanceMap" kindref="compound">MR.Const_DistanceMap</ref></type>
           <declname>dmap</declname>
         </param>
         <param>
@@ -46,12 +46,12 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceMapSaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__DistanceMapSaveSettings" kindref="compound">MR.Const_DistanceMapSaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Save <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> to binary file Format: 2 integer - DistanceMap.resX &amp; DistanceMap.resY [resX * resY] float - matrix of values Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapSave_1af5f73d2b7ddf420b84901ac67016729f" kindref="member">MR.DistanceMapSave.toRAW</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Save <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> to binary file Format: 2 integer - <ref refid="classMR_1_1Const__DistanceMap_1a74756a855a7427158fc45ad3590a4ee9" kindref="member">DistanceMap.resX</ref> &amp; <ref refid="classMR_1_1Const__DistanceMap_1a7fde80d9d4f1916be2cbe1cea1c6c454" kindref="member">DistanceMap.resY</ref> [resX * resY] float - matrix of values Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapSave_1af5f73d2b7ddf420b84901ac67016729f" kindref="member">MR.DistanceMapSave.toRAW</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -66,7 +66,7 @@
         <name>toMrDistanceMap</name>
         <qualifiedname>MR.DistanceMapSave.toMrDistanceMap</qualifiedname>
         <param>
-          <type>MR.Const_DistanceMap</type>
+          <type><ref refid="classMR_1_1Const__DistanceMap" kindref="compound">MR.Const_DistanceMap</ref></type>
           <declname>dmap</declname>
         </param>
         <param>
@@ -74,7 +74,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceMapSaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__DistanceMapSaveSettings" kindref="compound">MR.Const_DistanceMapSaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -94,7 +94,7 @@
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR.DistanceMapSave.toAnySupportedFormat</qualifiedname>
         <param>
-          <type>MR.Const_DistanceMap</type>
+          <type><ref refid="classMR_1_1Const__DistanceMap" kindref="compound">MR.Const_DistanceMap</ref></type>
           <declname>dmap</declname>
         </param>
         <param>
@@ -102,7 +102,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_DistanceMapSaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__DistanceMapSaveSettings" kindref="compound">MR.Const_DistanceMapSaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>

@@ -1,0 +1,602 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SaveSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SaveSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SaveSettings" prot="public" virt="non-virtual">MR.SaveSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1ae240a083e37e263d752acb670e6ce52a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SaveSettings.onlyValidPoints</definition>
+        <argsstring></argsstring>
+        <name>onlyValidPoints</name>
+        <qualifiedname>MR.Const_SaveSettings.onlyValidPoints</qualifiedname>
+        <briefdescription>
+<para>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="34" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1aad1a8adc37e02df28d1bedfa4427e65d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SaveSettings.packPrimitives</definition>
+        <argsstring></argsstring>
+        <name>packPrimitives</name>
+        <qualifiedname>MR.Const_SaveSettings.packPrimitives</qualifiedname>
+        <briefdescription>
+<para>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines); if packPrimitives=true, then ids of invalid primitives are reused by valid primitives and higher compression (in .ctm format) can be reached if the order of triangles is changed; if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero; currently this flag affects the saving in .ctm and .ply formats only </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="44" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1aa4b2aa75e07d76efa560bb1d5d203cb9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertColors" kindref="compound">Const_VertColors</ref></type>
+        <definition>unsafe MR.? Const_VertColors MR.Const_SaveSettings.colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <qualifiedname>MR.Const_SaveSettings.colors</qualifiedname>
+        <briefdescription>
+<para>optional per-vertex color to save with the geometry </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="50" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="51" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1a68a83c0ba08f5d1288e3d181a420162d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Std.? Const_Vector_MRColor</type>
+        <definition>unsafe MR.Std.? Const_Vector_MRColor MR.Const_SaveSettings.primitiveColors</definition>
+        <argsstring></argsstring>
+        <name>primitiveColors</name>
+        <qualifiedname>MR.Const_SaveSettings.primitiveColors</qualifiedname>
+        <briefdescription>
+<para>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="68" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="69" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1a3267b87bd37a01c0e09160e8385ee040" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertCoords2" kindref="compound">Const_VertCoords2</ref></type>
+        <definition>unsafe MR.? Const_VertCoords2 MR.Const_SaveSettings.uvMap</definition>
+        <argsstring></argsstring>
+        <name>uvMap</name>
+        <qualifiedname>MR.Const_SaveSettings.uvMap</qualifiedname>
+        <briefdescription>
+<para>optional per-vertex uv coordinate to save with the geometry </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="86" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="87" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1afb6b51d9ab949fd20bdb0d4a7694fca9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_SaveSettings.saveTriCornerUVCoords</definition>
+        <argsstring></argsstring>
+        <name>saveTriCornerUVCoords</name>
+        <qualifiedname>MR.Const_SaveSettings.saveTriCornerUVCoords</qualifiedname>
+        <briefdescription>
+<para>if a format supports both per-vertex and per-tri-corner UV-coordinates, then prefer the later option (it takes more space but more supported in other software) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="105" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1a1868b10519878c3215c93ccb0e0e4b0b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__MeshTexture" kindref="compound">Const_MeshTexture</ref></type>
+        <definition>unsafe MR.? Const_MeshTexture MR.Const_SaveSettings.texture</definition>
+        <argsstring></argsstring>
+        <name>texture</name>
+        <qualifiedname>MR.Const_SaveSettings.texture</qualifiedname>
+        <briefdescription>
+<para>optional texture to save with the geometry </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="111" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="112" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1a3ca4654f9d779bb61a372dc0a4ee4f4d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_SaveSettings.materialName</definition>
+        <argsstring></argsstring>
+        <name>materialName</name>
+        <qualifiedname>MR.Const_SaveSettings.materialName</qualifiedname>
+        <briefdescription>
+<para>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="129" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1aee56c53cf4f101b9e1871da4bedbfb5d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3d" kindref="compound">ConstBox_AffineXf3d</ref></type>
+        <definition>unsafe MR.? ConstBox_AffineXf3d MR.Const_SaveSettings.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_SaveSettings.xf</qualifiedname>
+        <briefdescription>
+<para>this transformation can optionally be applied to all vertices (points) of saved object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="134" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="135" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1afbd14e4ebbe98232e14e14c39b857c78" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Optional_MRLengthUnit</type>
+        <definition>unsafe MR.Std.Const_Optional_MRLengthUnit MR.Const_SaveSettings.lengthUnit</definition>
+        <argsstring></argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>MR.Const_SaveSettings.lengthUnit</qualifiedname>
+        <briefdescription>
+<para>units of input coordinates and transformation, to be serialized if the format supports it </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="152" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="152" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1a81207c6d4125a748e1d92b0f1e2ad7b7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Optional_MRColor</type>
+        <definition>unsafe MR.Std.Const_Optional_MRColor MR.Const_SaveSettings.solidColor</definition>
+        <argsstring></argsstring>
+        <name>solidColor</name>
+        <qualifiedname>MR.Const_SaveSettings.solidColor</qualifiedname>
+        <briefdescription>
+<para>the color of whole object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="157" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__SaveSettings_1a3e406f35dd33e3685c97a3d6632f1ea6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_SaveSettings.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.Const_SaveSettings.progress</qualifiedname>
+        <briefdescription>
+<para>to report save progress and cancel saving if user desires </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="162" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="162" bodyend="162"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__SaveSettings_1a261715a00d47eda8ffb143a16c9576f1" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_SaveSettings.__ref_storage_onlyValidPoints</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_onlyValidPoints</name>
+        <qualifiedname>MR.Const_SaveSettings.__ref_storage_onlyValidPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="35" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SaveSettings_1ac6458550b586645841d71c61ebe3bd0a" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_SaveSettings.__ref_storage_packPrimitives</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_packPrimitives</name>
+        <qualifiedname>MR.Const_SaveSettings.__ref_storage_packPrimitives</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="45" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SaveSettings_1a5c1c9ea016c1fb2805d45b0d58b9c58d" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertColors._Underlying **</type>
+        <definition>unsafe MR.Const_VertColors._Underlying** MR.Const_SaveSettings.__ptr_storage_colors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_colors</name>
+        <qualifiedname>MR.Const_SaveSettings.__ptr_storage_colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="63" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SaveSettings_1a3f974a1c41528d04c5507b8fb2645f0e" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Std.Const_Vector_MRColor._Underlying **</type>
+        <definition>unsafe MR.Std.Const_Vector_MRColor._Underlying** MR.Const_SaveSettings.__ptr_storage_primitiveColors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_primitiveColors</name>
+        <qualifiedname>MR.Const_SaveSettings.__ptr_storage_primitiveColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="81" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SaveSettings_1a55343fb9b2629d8ab75faa9a32fbb8d0" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertCoords2._Underlying **</type>
+        <definition>unsafe MR.Const_VertCoords2._Underlying** MR.Const_SaveSettings.__ptr_storage_uvMap</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_uvMap</name>
+        <qualifiedname>MR.Const_SaveSettings.__ptr_storage_uvMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="99" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SaveSettings_1ac84bcefa0757fda0fdd96544a4a22348" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_SaveSettings.__ref_storage_saveTriCornerUVCoords</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_saveTriCornerUVCoords</name>
+        <qualifiedname>MR.Const_SaveSettings.__ref_storage_saveTriCornerUVCoords</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="106" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SaveSettings_1a1b7b37741c8d81e40862d7b74fd783c6" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_MeshTexture._Underlying **</type>
+        <definition>unsafe MR.Const_MeshTexture._Underlying** MR.Const_SaveSettings.__ptr_storage_texture</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_texture</name>
+        <qualifiedname>MR.Const_SaveSettings.__ptr_storage_texture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="124" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__SaveSettings_1adb3a4884ed904a5de17afb6315e13cdd" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.ConstBox_AffineXf3d._Underlying **</type>
+        <definition>unsafe MR.ConstBox_AffineXf3d._Underlying** MR.Const_SaveSettings.__ptr_storage_xf</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_xf</name>
+        <qualifiedname>MR.Const_SaveSettings.__ptr_storage_xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="147" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="147" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1a94d410b5a61ad03e5d0def3476959de7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SaveSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SaveSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="18" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="18" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1abb442483fd854830392f030c2d8178df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SaveSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SaveSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="27" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1a74b9ca0113d8bede40794a2276790596" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SaveSettings.Const_SaveSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_SaveSettings</name>
+        <qualifiedname>MR.Const_SaveSettings.Const_SaveSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="259" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="259" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1ac60faf9d62f23bd6f3198d9c609a9a77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SaveSettings.Const_SaveSettings</definition>
+        <argsstring>(bool onlyValidPoints, bool packPrimitives, MR.Const_VertColors? colors, MR.Std.Const_Vector_MRColor? primitiveColors, MR.Const_VertCoords2? uvMap, bool saveTriCornerUVCoords, MR.Const_MeshTexture? texture, string materialName, MR.AffineXf3d? xf, MR.LengthUnit? lengthUnit, MR._InOpt_Color solidColor, MR.Std._ByValue_Function_Bool_From_Float progress)</argsstring>
+        <name>Const_SaveSettings</name>
+        <qualifiedname>MR.Const_SaveSettings.Const_SaveSettings</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>onlyValidPoints</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>packPrimitives</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertColors" kindref="compound">MR.Const_VertColors</ref>?</type>
+          <declname>colors</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRColor?</type>
+          <declname>primitiveColors</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertCoords2" kindref="compound">MR.Const_VertCoords2</ref>?</type>
+          <declname>uvMap</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveTriCornerUVCoords</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__MeshTexture" kindref="compound">MR.Const_MeshTexture</ref>?</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>materialName</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref>?</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1ac25d360f4673587185736923888bcde1" kindref="member">MR.LengthUnit</ref>?</type>
+          <declname>lengthUnit</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_Color</type>
+          <declname>solidColor</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1SaveSettings" kindref="compound">MR.SaveSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="270" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="270" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1a4f2b9f60633d28351cade5aa4ebc96c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SaveSettings.Const_SaveSettings</definition>
+        <argsstring>(MR._ByValue_SaveSettings _other)</argsstring>
+        <name>Const_SaveSettings</name>
+        <qualifiedname>MR.Const_SaveSettings.Const_SaveSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_SaveSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SaveSettings_1ae4cf7617b98c26fe584e4f7594cc49d6" kindref="member">MR.SaveSettings.SaveSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="292" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="292" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1a506f91750aff9650135b9b0c05d8e27f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SaveSettings.Const_SaveSettings</definition>
+        <argsstring>(Const_SaveSettings _other)</argsstring>
+        <name>Const_SaveSettings</name>
+        <qualifiedname>MR.Const_SaveSettings.Const_SaveSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">Const_SaveSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SaveSettings_1ae4cf7617b98c26fe584e4f7594cc49d6" kindref="member">MR.SaveSettings.SaveSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="304" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="304" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1aafa05cfac60283d1f9d7aab90303711b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SaveSettings.Const_SaveSettings</definition>
+        <argsstring>(SaveSettings _other)</argsstring>
+        <name>Const_SaveSettings</name>
+        <qualifiedname>MR.Const_SaveSettings.Const_SaveSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SaveSettings_1ae4cf7617b98c26fe584e4f7594cc49d6" kindref="member">MR.SaveSettings.SaveSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="309" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="309" bodyend="309"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1a01372bb5cd830bb9e8d8e5f7192ee2d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SaveSettings.~Const_SaveSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SaveSettings</name>
+        <qualifiedname>MR.Const_SaveSettings.~Const_SaveSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="28" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SaveSettings_1a9a878266da9fba3dd0b906038a2b74f5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SaveSettings.Const_SaveSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SaveSettings</name>
+        <qualifiedname>MR.Const_SaveSettings.Const_SaveSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="248" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="248" bodyend="253"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>determines how to save points/lines/mesh Generated from class <computeroutput><ref refid="classMR_1_1SaveSettings" kindref="compound">MR.SaveSettings</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1MeshSave_1_1CtmSaveOptions" kindref="compound">MR.MeshSave.CtmSaveOptions</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions" kindref="compound">MR.PointsSave.CtmSavePointsOptions</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SaveSettings</label>
+        <link refid="classMR_1_1Const__SaveSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.SaveSettings</label>
+        <link refid="classMR_1_1SaveSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_SaveSettings</label>
+        <link refid="classMR_1_1Const__SaveSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_colors</edgelabel>
+          <edgelabel>__ptr_storage_primitiveColors</edgelabel>
+          <edgelabel>__ptr_storage_texture</edgelabel>
+          <edgelabel>__ptr_storage_uvMap</edgelabel>
+          <edgelabel>__ptr_storage_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" line="12" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSaveSettings.cs" bodystart="13" bodyend="310"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SaveSettings_1a5c1c9ea016c1fb2805d45b0d58b9c58d" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ptr_storage_colors</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a3f974a1c41528d04c5507b8fb2645f0e" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ptr_storage_primitiveColors</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a1b7b37741c8d81e40862d7b74fd783c6" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ptr_storage_texture</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a55343fb9b2629d8ab75faa9a32fbb8d0" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ptr_storage_uvMap</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1adb3a4884ed904a5de17afb6315e13cdd" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a261715a00d47eda8ffb143a16c9576f1" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ref_storage_onlyValidPoints</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1ac6458550b586645841d71c61ebe3bd0a" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ref_storage_packPrimitives</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1ac84bcefa0757fda0fdd96544a4a22348" prot="protected" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>__ref_storage_saveTriCornerUVCoords</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1aa4b2aa75e07d76efa560bb1d5d203cb9" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>colors</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a9a878266da9fba3dd0b906038a2b74f5" prot="package" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a74b9ca0113d8bede40794a2276790596" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1ac60faf9d62f23bd6f3198d9c609a9a77" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a4f2b9f60633d28351cade5aa4ebc96c2" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a506f91750aff9650135b9b0c05d8e27f" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1aafa05cfac60283d1f9d7aab90303711b" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>Const_SaveSettings</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a94d410b5a61ad03e5d0def3476959de7" prot="protected" virt="virtual"><scope>MR::Const_SaveSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1abb442483fd854830392f030c2d8178df" prot="public" virt="virtual"><scope>MR::Const_SaveSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1afbd14e4ebbe98232e14e14c39b857c78" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>lengthUnit</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a3ca4654f9d779bb61a372dc0a4ee4f4d" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>materialName</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1ae240a083e37e263d752acb670e6ce52a" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>onlyValidPoints</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1aad1a8adc37e02df28d1bedfa4427e65d" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>packPrimitives</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a68a83c0ba08f5d1288e3d181a420162d" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>primitiveColors</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a3e406f35dd33e3685c97a3d6632f1ea6" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>progress</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1afb6b51d9ab949fd20bdb0d4a7694fca9" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>saveTriCornerUVCoords</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a81207c6d4125a748e1d92b0f1e2ad7b7" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>solidColor</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a1868b10519878c3215c93ccb0e0e4b0b" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>texture</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a3267b87bd37a01c0e09160e8385ee040" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>uvMap</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1aee56c53cf4f101b9e1871da4bedbfb5d" prot="public" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__SaveSettings_1a01372bb5cd830bb9e8d8e5f7192ee2d4" prot="private" virt="non-virtual"><scope>MR::Const_SaveSettings</scope><name>~Const_SaveSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

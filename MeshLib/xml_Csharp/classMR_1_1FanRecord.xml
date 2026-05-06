@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FanRecord" kind="class" language="C#" prot="public">
     <compoundname>MR::FanRecord</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_FanRecord</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__FanRecord" prot="public" virt="non-virtual">MR.Const_FanRecord</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FanRecord_1a94fa91033729ce8e2f3c6e48e0c16408" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -92,7 +92,7 @@
         <name>FanRecord</name>
         <qualifiedname>MR.FanRecord.FanRecord</qualifiedname>
         <param>
-          <type>MR.Const_FanRecord</type>
+          <type><ref refid="classMR_1_1Const__FanRecord" kindref="compound">MR.Const_FanRecord</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -130,7 +130,7 @@
         <name>FanRecord</name>
         <qualifiedname>MR.FanRecord.FanRecord</qualifiedname>
         <param>
-          <type>MR.Const_NoInit</type>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -149,7 +149,7 @@
         <name>assign</name>
         <qualifiedname>MR.FanRecord.assign</qualifiedname>
         <param>
-          <type>MR.Const_FanRecord</type>
+          <type><ref refid="classMR_1_1Const__FanRecord" kindref="compound">MR.Const_FanRecord</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,7 +189,7 @@
         <name>operator FanRecord</name>
         <qualifiedname>MR.FanRecord.operator FanRecord</qualifiedname>
         <param>
-          <type>MR.Const_NoInit</type>
+          <type><ref refid="classMR_1_1Const__NoInit" kindref="compound">MR.Const_NoInit</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -216,6 +216,7 @@
       </node>
       <node id="2">
         <label>MR.Const_FanRecord</label>
+        <link refid="classMR_1_1Const__FanRecord"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -229,6 +230,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FanRecord</label>
         <link refid="classMR_1_1FanRecord"/>
@@ -237,9 +242,13 @@
       </node>
       <node id="2">
         <label>MR.Const_FanRecord</label>
+        <link refid="classMR_1_1Const__FanRecord"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_border</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -251,14 +260,25 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" line="134" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLocalTriangulations.cs" bodystart="135" bodyend="222"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__FanRecord_1a3080d7e4ce885b3fb31a3dfa45f57ebd" prot="protected" virt="non-virtual"><scope>MR::FanRecord</scope><name>__ref_storage_border</name></member>
+      <member refid="classMR_1_1Const__FanRecord_1a492ec2de418aa63df18ca01944d15491" prot="protected" virt="non-virtual"><scope>MR::FanRecord</scope><name>__ref_storage_firstNei</name></member>
       <member refid="classMR_1_1FanRecord_1aa06f0ebd405f9f4853d01e58e3776d92" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>assign</name></member>
       <member refid="classMR_1_1FanRecord_1a94fa91033729ce8e2f3c6e48e0c16408" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>border</name></member>
+      <member refid="classMR_1_1Const__FanRecord_1a9abb986b9ae759835de356f53a69c305" prot="package" virt="non-virtual"><scope>MR::FanRecord</scope><name>Const_FanRecord</name></member>
+      <member refid="classMR_1_1Const__FanRecord_1ac6388c0900a9af09bf122ab3160a7ce3" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>Const_FanRecord</name></member>
+      <member refid="classMR_1_1Const__FanRecord_1adfc4b76d48f9e7cfa32865a4ff93bd42" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>Const_FanRecord</name></member>
+      <member refid="classMR_1_1Const__FanRecord_1abf6ae6dd2af3f76721c83bf240e13476" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>Const_FanRecord</name></member>
+      <member refid="classMR_1_1Const__FanRecord_1a6c137fc19adfe6b959c7fbda5e84b1a3" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>Const_FanRecord</name></member>
+      <member refid="classMR_1_1Const__FanRecord_1a4d547cf6cbd41a6896dd7dd96eee2aaf" prot="protected" virt="virtual"><scope>MR::FanRecord</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FanRecord_1a173957bc0e822fd4987354e717bdc4f3" prot="public" virt="virtual"><scope>MR::FanRecord</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FanRecord_1aa42b68fff872049a43171d3625238622" prot="package" virt="non-virtual"><scope>MR::FanRecord</scope><name>FanRecord</name></member>
       <member refid="classMR_1_1FanRecord_1a70d10c1148a2fdde802edeb8792b7729" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>FanRecord</name></member>
       <member refid="classMR_1_1FanRecord_1a10945435859db0b2f5c48c63adce8900" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>FanRecord</name></member>
       <member refid="classMR_1_1FanRecord_1a7cfefec90677024536c97487e15be069" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>FanRecord</name></member>
       <member refid="classMR_1_1FanRecord_1af11b3cab67a77ff354fcbd7271cc9f3f" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>FanRecord</name></member>
       <member refid="classMR_1_1FanRecord_1a99c6917f09c9114d1fbb28e2b9819ef4" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>firstNei</name></member>
+      <member refid="classMR_1_1Const__FanRecord_1a6414885e01bfcc4d5311024936fa7c77" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>operator Const_FanRecord</name></member>
+      <member refid="classMR_1_1Const__FanRecord_1a16906304990ae73e62141db3a0faa450" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>operator Const_FanRecord</name></member>
       <member refid="classMR_1_1FanRecord_1a10122431e5574f278681c61c74b5bd90" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>operator FanRecord</name></member>
       <member refid="classMR_1_1FanRecord_1a932b41cf80b7a56f5738d8b4fbedef59" prot="public" virt="non-virtual"><scope>MR::FanRecord</scope><name>operator FanRecord</name></member>
     </listofallmembers>

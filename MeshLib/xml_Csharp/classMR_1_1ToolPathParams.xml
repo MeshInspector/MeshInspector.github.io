@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ToolPathParams" kind="class" language="C#" prot="public">
     <compoundname>MR::ToolPathParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ToolPathParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ToolPathParams" prot="public" virt="non-virtual">MR.Const_ToolPathParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1a7195a5a6a112d727d4027663b44689d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -11,12 +11,13 @@
         <name>millRadius</name>
         <qualifiedname>MR.ToolPathParams.millRadius</qualifiedname>
         <briefdescription>
+<para>radius of the milling tool </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="364" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="364" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="415" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="415" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1a8e43edb51706453ebe54d9c97baf17d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -25,12 +26,13 @@
         <name>voxelSize</name>
         <qualifiedname>MR.ToolPathParams.voxelSize</qualifiedname>
         <briefdescription>
+<para>size of voxel needed to offset mesh </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="367" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="367" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="420" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="420" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1a52895b7bcf2496f6f864eb70ed364035" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -39,12 +41,13 @@
         <name>sectionStep</name>
         <qualifiedname>MR.ToolPathParams.sectionStep</qualifiedname>
         <briefdescription>
+<para>distance between sections built along Z axis; in Constant Cusp mode sectionStep should be bigger than voxelSize (x1.2 or more is recommended) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="371" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="371" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="426" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="426" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1a80f060994654a40c5e161377d6ea6a8f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -53,12 +56,13 @@
         <name>critTransitionLength</name>
         <qualifiedname>MR.ToolPathParams.critTransitionLength</qualifiedname>
         <briefdescription>
+<para>if distance to the next section is smaller than it, transition will be performed along the surface; otherwise transition will be through the safe plane </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="375" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="375" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="432" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="432" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1ac4579aa03e64fdb7234a4300c8788612" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -67,12 +71,13 @@
         <name>plungeLength</name>
         <qualifiedname>MR.ToolPathParams.plungeLength</qualifiedname>
         <briefdescription>
+<para>when the mill is moving down, it will be slowed down in this distance from mesh </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="378" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="378" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="437" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="437" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1a431f76cb999c251164a712802aa04b88" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -81,12 +86,13 @@
         <name>retractLength</name>
         <qualifiedname>MR.ToolPathParams.retractLength</qualifiedname>
         <briefdescription>
+<para>when the mill is moving up, it will be slowed down in this distance from mesh </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="381" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="381" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="442" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="442" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1abc4d04bb6f64591a34091bb98b9c4ee8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -95,12 +101,13 @@
         <name>plungeFeed</name>
         <qualifiedname>MR.ToolPathParams.plungeFeed</qualifiedname>
         <briefdescription>
+<para>speed of slow movement down </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="384" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="384" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="447" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="447" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1ad79a884fa62a9ae24d96533cab3e227b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -109,12 +116,13 @@
         <name>retractFeed</name>
         <qualifiedname>MR.ToolPathParams.retractFeed</qualifiedname>
         <briefdescription>
+<para>speed of slow movement up </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="387" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="387" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="452" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="452" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1a9e42c852eca5bd424fbe5b64ddc271a9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -123,12 +131,13 @@
         <name>baseFeed</name>
         <qualifiedname>MR.ToolPathParams.baseFeed</qualifiedname>
         <briefdescription>
+<para>speed of regular milling </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="390" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="390" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="457" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="457" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1aca860cdb913aec0be2767b4df1627ff5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -137,12 +146,13 @@
         <name>safeZ</name>
         <qualifiedname>MR.ToolPathParams.safeZ</qualifiedname>
         <briefdescription>
+<para>z-coordinate of plane where tool can move in any direction without touching the object </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="393" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="393" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="462" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="462" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1aed6c08d09f3c0117b0dc971b599306c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1a4c32f3ff80d7644f35d698296c9b8ca3" kindref="member">MR.BypassDirection</ref></type>
@@ -151,12 +161,13 @@
         <name>bypassDir</name>
         <qualifiedname>MR.ToolPathParams.bypassDir</qualifiedname>
         <briefdescription>
+<para>which direction isolines or sections should be passed in </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="396" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="396" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="467" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="467" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1a901d3e156b5cfbfb148e2fcc2544960b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
@@ -165,12 +176,13 @@
         <name>xf</name>
         <qualifiedname>MR.ToolPathParams.xf</qualifiedname>
         <briefdescription>
+<para>mesh can be transformed using xf parameter </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="399" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="400" bodyend="409"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="472" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="473" bodyend="482"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1ac759b76e49fa12d353ee0523fb99d750" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -179,12 +191,13 @@
         <name>flatTool</name>
         <qualifiedname>MR.ToolPathParams.flatTool</qualifiedname>
         <briefdescription>
+<para>if true then a tool path for a flat milling tool will be generated </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="412" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="412" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="487" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="487" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1ad318da90823ea54913145fc3b441aef4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Function_Bool_From_Float</type>
@@ -193,12 +206,13 @@
         <name>cb</name>
         <qualifiedname>MR.ToolPathParams.cb</qualifiedname>
         <briefdescription>
+<para>callback for reporting on progress </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="415" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="415" bodyend="415"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="492" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="492" bodyend="492"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1a543238597e8d8ac1e9ec18c66ee5a34d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -207,12 +221,13 @@
         <name>toolpathExpansion</name>
         <qualifiedname>MR.ToolPathParams.toolpathExpansion</qualifiedname>
         <briefdescription>
+<para>if &gt; 0 - expand the trajectory creation area and create toolpath to mill excess material to make empty areas; the area has the shape of a box; lacing specific only </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="420" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="420" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="498" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="498" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1a8a27b8bd50ed333dc059140fcefb1774" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_StdVectorMRVector3f</type>
@@ -221,12 +236,13 @@
         <name>isolines</name>
         <qualifiedname>MR.ToolPathParams.isolines</qualifiedname>
         <briefdescription>
+<para>optional output, stores isolines without transits </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="423" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="424" bodyend="433"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="503" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="504" bodyend="513"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1a962b186fdbdbcb96795399b3c5c7f958" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_StdVectorMRVector3f</type>
@@ -235,12 +251,13 @@
         <name>startContours</name>
         <qualifiedname>MR.ToolPathParams.startContours</qualifiedname>
         <briefdescription>
+<para>optional output, polyline containing start vertices for isolines </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="436" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="437" bodyend="446"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="518" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="519" bodyend="528"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1a0e51c97b4114992ebac39cc646b3f924" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.Std.? Vector_MRVector3f</type>
@@ -249,12 +266,13 @@
         <name>startVertices</name>
         <qualifiedname>MR.ToolPathParams.startVertices</qualifiedname>
         <briefdescription>
+<para>start vertices on the offset mesh used for calculating isolines </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="449" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="450" bodyend="459"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="533" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="534" bodyend="543"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ToolPathParams_1ac9e62a8512dcbccca9bf426e60378ed3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1MeshPart" kindref="compound">MeshPart</ref></type>
@@ -263,12 +281,13 @@
         <name>offsetMesh</name>
         <qualifiedname>MR.ToolPathParams.offsetMesh</qualifiedname>
         <briefdescription>
+<para>optional pre-computed offset mesh; if null, it will be computed internally </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="461" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="462" bodyend="471"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="548" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="549" bodyend="558"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -292,7 +311,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="490" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="490" bodyend="494"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="577" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="577" bodyend="581"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -309,12 +328,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="500" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="500" bodyend="506"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="587" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="587" bodyend="593"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ToolPathParams_1a72f56ed84a37585da38e9fb031d2382d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ToolPathParams_1a6e1cfc4b7dc1a3ed309259b36bc170c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ToolPathParams.ToolPathParams</definition>
-        <argsstring>(float millRadius, float voxelSize, float sectionStep, float critTransitionLength, float plungeLength, float retractLength, float plungeFeed, float retractFeed, float baseFeed, float safeZ, MR.BypassDirection bypassDir, MR.AffineXf3f? xf, bool flatTool, MR.Std._ByValue_Function_BoolFuncFromFloat cb, float toolpathExpansion, MR.Std.Vector_StdVectorMRVector3f? isolines, MR.Std.Vector_StdVectorMRVector3f? startContours, MR.Std.Vector_MRVector3f? startVertices, MR.MeshPart? offsetMesh)</argsstring>
+        <argsstring>(float millRadius, float voxelSize, float sectionStep, float critTransitionLength, float plungeLength, float retractLength, float plungeFeed, float retractFeed, float baseFeed, float safeZ, MR.BypassDirection bypassDir, MR.AffineXf3f? xf, bool flatTool, MR.Std._ByValue_Function_Bool_From_Float cb, float toolpathExpansion, MR.Std.Vector_StdVectorMRVector3f? isolines, MR.Std.Vector_StdVectorMRVector3f? startContours, MR.Std.Vector_MRVector3f? startVertices, MR.MeshPart? offsetMesh)</argsstring>
         <name>ToolPathParams</name>
         <qualifiedname>MR.ToolPathParams.ToolPathParams</qualifiedname>
         <param>
@@ -370,7 +389,7 @@
           <declname>flatTool</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <param>
@@ -400,7 +419,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="511" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="511" bodyend="523"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="598" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="598" bodyend="610"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ToolPathParams_1afac28b4f9a5f9d745336f2ecb07bcc81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -419,7 +438,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="528" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="528" bodyend="535"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="615" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="615" bodyend="622"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ToolPathParams_1adfc6d6c6e88d23266ba8afa61d22aa8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -428,7 +447,7 @@
         <name>ToolPathParams</name>
         <qualifiedname>MR.ToolPathParams.ToolPathParams</qualifiedname>
         <param>
-          <type>Const_ToolPathParams</type>
+          <type><ref refid="classMR_1_1Const__ToolPathParams" kindref="compound">Const_ToolPathParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -438,7 +457,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="540" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="540" bodyend="540"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="627" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="627" bodyend="627"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ToolPathParams_1aafb94740bc944e48a8891108e8be5416" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -457,7 +476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="545" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="545" bodyend="545"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="632" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="632" bodyend="632"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ToolPathParams_1a5bcf9f71d4d19db9bb2c550b17a85f3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ToolPathParams" kindref="compound">MR.ToolPathParams</ref></type>
@@ -476,11 +495,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="550" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="550" bodyend="557"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="637" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="637" bodyend="644"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput><ref refid="classMR_1_1ToolPathParams" kindref="compound">MR.ToolPathParams</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ConstantCuspParams" kindref="compound">MR.ConstantCuspParams</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Parameters shared by all tool path generation functions Generated from class <computeroutput><ref refid="classMR_1_1ToolPathParams" kindref="compound">MR.ToolPathParams</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ConstantCuspParams" kindref="compound">MR.ConstantCuspParams</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -493,6 +512,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ToolPathParams</label>
+        <link refid="classMR_1_1Const__ToolPathParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -506,6 +526,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ToolPathParams</label>
         <link refid="classMR_1_1ToolPathParams"/>
@@ -514,9 +538,18 @@
       </node>
       <node id="2">
         <label>MR.Const_ToolPathParams</label>
+        <link refid="classMR_1_1Const__ToolPathParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_isolines</edgelabel>
+          <edgelabel>__ptr_storage_offsetMesh</edgelabel>
+          <edgelabel>__ptr_storage_startContours</edgelabel>
+          <edgelabel>__ptr_storage_startVertices</edgelabel>
+          <edgelabel>__ptr_storage_xf</edgelabel>
+          <edgelabel>__ref_storage_bypassDir</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -526,13 +559,39 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="361" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="362" bodyend="558"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" line="410" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRToolPath.cs" bodystart="411" bodyend="645"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ToolPathParams_1aa2ee6e1870bb7ced36f8b22012717102" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ptr_storage_isolines</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a9f9e09fef4853aa1709a2c8e3daeee8a" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ptr_storage_offsetMesh</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1adf504a8b2fd4b1b879c94e6731508237" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ptr_storage_startContours</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a638377be519ef8c51f43d773c0b957c0" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ptr_storage_startVertices</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a015f79182a2310ea720cb98e4e3792a3" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ac73051aef75d35e2c29f79e8a4a406de" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_baseFeed</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ac52e2cfae26aecefc5fd203c8b0efbe1" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_bypassDir</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a20567ac53c48dffb0cc7d316d3eb9cf5" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_critTransitionLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a5dfa8207d2a35dcb1bd2a8caaeab63a4" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_flatTool</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1acfeb822205e890a384f9ce2d3a9fb3df" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_millRadius</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a6fe41980bd7f6da6e70497aeb9a4983d" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_plungeFeed</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ad56e148e23dca6dd52618bf18645cbc9" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_plungeLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a159be748619e2d19d2ed399e23b313bb" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_retractFeed</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1aa1d82c3ba62ca993760bac732965e2dd" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_retractLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a9b7dccb35477d484f2de2f3f076a6eeb" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_safeZ</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a36f02395eb1648f2aea41aec46bee55b" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_sectionStep</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1ae4b3d83c27e36cfe85f42f8c4d2e9464" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_toolpathExpansion</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1afee1d497a41713b0f880bc53317f5c7b" prot="protected" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1ToolPathParams_1a5bcf9f71d4d19db9bb2c550b17a85f3f" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>assign</name></member>
       <member refid="classMR_1_1ToolPathParams_1a9e42c852eca5bd424fbe5b64ddc271a9" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>baseFeed</name></member>
       <member refid="classMR_1_1ToolPathParams_1aed6c08d09f3c0117b0dc971b599306c2" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>bypassDir</name></member>
       <member refid="classMR_1_1ToolPathParams_1ad318da90823ea54913145fc3b441aef4" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a9e39a07320cefb3f6f9937c0758ec57d" prot="package" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a699421b8c469bc54bf642ccc4db46f95" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a89f8988e9475d110a634972c47410864" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a089e0cab8c26f65a7cf5a419d3505764" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a702da4aded67090073655047a3976732" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>Const_ToolPathParams</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a70f9f88261b55c46ddfdb730c6668a74" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>Const_ToolPathParams</name></member>
       <member refid="classMR_1_1ToolPathParams_1a80f060994654a40c5e161377d6ea6a8f" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>critTransitionLength</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a425739a518752427b714fcaf1c2d57d9" prot="protected" virt="virtual"><scope>MR::ToolPathParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ToolPathParams_1a9bfdd835752449af9b7f7cec08d8c059" prot="public" virt="virtual"><scope>MR::ToolPathParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ToolPathParams_1ac759b76e49fa12d353ee0523fb99d750" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>flatTool</name></member>
       <member refid="classMR_1_1ToolPathParams_1a8a27b8bd50ed333dc059140fcefb1774" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>isolines</name></member>
       <member refid="classMR_1_1ToolPathParams_1a7195a5a6a112d727d4027663b44689d0" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>millRadius</name></member>
@@ -548,7 +607,7 @@
       <member refid="classMR_1_1ToolPathParams_1a543238597e8d8ac1e9ec18c66ee5a34d" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>toolpathExpansion</name></member>
       <member refid="classMR_1_1ToolPathParams_1ad7be082f2d5f7c3615a1cb91d0c930ef" prot="package" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>
       <member refid="classMR_1_1ToolPathParams_1a86ed3fd7077e03118a68c4c1ec191a85" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>
-      <member refid="classMR_1_1ToolPathParams_1a72f56ed84a37585da38e9fb031d2382d" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>
+      <member refid="classMR_1_1ToolPathParams_1a6e1cfc4b7dc1a3ed309259b36bc170c9" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>
       <member refid="classMR_1_1ToolPathParams_1afac28b4f9a5f9d745336f2ecb07bcc81" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>
       <member refid="classMR_1_1ToolPathParams_1adfc6d6c6e88d23266ba8afa61d22aa8b" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>
       <member refid="classMR_1_1ToolPathParams_1aafb94740bc944e48a8891108e8be5416" prot="public" virt="non-virtual"><scope>MR::ToolPathParams</scope><name>ToolPathParams</name></member>

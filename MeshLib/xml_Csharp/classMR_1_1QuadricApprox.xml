@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1QuadricApprox" kind="class" language="C#" prot="public">
     <compoundname>MR::QuadricApprox</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_QuadricApprox</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__QuadricApprox" prot="public" virt="non-virtual">MR.Const_QuadricApprox</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1QuadricApprox_1a257cbb8d46cdd833debac994dd07d198" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,7 +50,7 @@
         <name>QuadricApprox</name>
         <qualifiedname>MR.QuadricApprox.QuadricApprox</qualifiedname>
         <param>
-          <type>MR.Const_QuadricApprox</type>
+          <type><ref refid="classMR_1_1Const__QuadricApprox" kindref="compound">MR.Const_QuadricApprox</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -88,7 +88,7 @@
         <name>assign</name>
         <qualifiedname>MR.QuadricApprox.assign</qualifiedname>
         <param>
-          <type>MR.Const_QuadricApprox</type>
+          <type><ref refid="classMR_1_1Const__QuadricApprox" kindref="compound">MR.Const_QuadricApprox</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -140,6 +140,7 @@
       </node>
       <node id="2">
         <label>MR.Const_QuadricApprox</label>
+        <link refid="classMR_1_1Const__QuadricApprox"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -161,6 +162,7 @@
       </node>
       <node id="2">
         <label>MR.Const_QuadricApprox</label>
+        <link refid="classMR_1_1Const__QuadricApprox"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -177,6 +179,12 @@
     <listofallmembers>
       <member refid="classMR_1_1QuadricApprox_1a0069aeb6381b69537a768f43eddf44a0" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>addPoint</name></member>
       <member refid="classMR_1_1QuadricApprox_1a095d2498909f239356e4925615de965c" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__QuadricApprox_1af1c64fbfcf174a9c748d3ac86b59c08d" prot="package" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>Const_QuadricApprox</name></member>
+      <member refid="classMR_1_1Const__QuadricApprox_1a93c989cdb323f8ccac9deca6c858e6ae" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>Const_QuadricApprox</name></member>
+      <member refid="classMR_1_1Const__QuadricApprox_1af130c605fb7e84030a2dd23902b8d2be" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>Const_QuadricApprox</name></member>
+      <member refid="classMR_1_1Const__QuadricApprox_1af6558bb57d1af1b63cc9aaa9df86300c" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>Const_QuadricApprox</name></member>
+      <member refid="classMR_1_1Const__QuadricApprox_1ae97dfe73581667b5aff662ca04254668" prot="protected" virt="virtual"><scope>MR::QuadricApprox</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__QuadricApprox_1aa315cc9b32d1baebaf91ce6da71bda6c" prot="public" virt="virtual"><scope>MR::QuadricApprox</scope><name>Dispose</name></member>
       <member refid="classMR_1_1QuadricApprox_1a257cbb8d46cdd833debac994dd07d198" prot="package" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>QuadricApprox</name></member>
       <member refid="classMR_1_1QuadricApprox_1aa07acaf6a7203a853fb3621c82b3126f" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>QuadricApprox</name></member>
       <member refid="classMR_1_1QuadricApprox_1ad9b367c9f3aaa37769662ba33e2d479b" prot="public" virt="non-virtual"><scope>MR::QuadricApprox</scope><name>QuadricApprox</name></member>

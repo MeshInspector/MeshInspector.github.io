@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Vector__MRGraphVertId__MRGraphVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::Vector_MRGraphVertId_MRGraphVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Vector_MRGraphVertId_MRGraphVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId" prot="public" virt="non-virtual">MR.Const_Vector_MRGraphVertId_MRGraphVertId</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a15c70050a5b5c14cbdd96c0cd57158b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
@@ -27,7 +27,7 @@
         <name>this[MR.GraphVertId i]</name>
         <qualifiedname>MR.Vector_MRGraphVertId_MRGraphVertId.this[MR.GraphVertId i]</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -77,7 +77,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -92,11 +92,11 @@
         <name>Vector_MRGraphVertId_MRGraphVertId</name>
         <qualifiedname>MR.Vector_MRGraphVertId_MRGraphVertId.Vector_MRGraphVertId_MRGraphVertId</qualifiedname>
         <param>
-          <type>Const_Vector_MRGraphVertId_MRGraphVertId</type>
+          <type><ref refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId" kindref="compound">Const_Vector_MRGraphVertId_MRGraphVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -134,7 +134,7 @@
           <declname>size</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -157,7 +157,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -176,7 +176,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -195,7 +195,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -210,7 +210,7 @@
         <name>clear</name>
         <qualifiedname>MR.Vector_MRGraphVertId_MRGraphVertId.clear</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a5625735ad3fa7586581a227d54e324ec" kindref="member">clear</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a5625735ad3fa7586581a227d54e324ec" kindref="member">clear</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -229,7 +229,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a7b4adca0c5cac7b25e24be9cd5713d29" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a7b4adca0c5cac7b25e24be9cd5713d29" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -252,7 +252,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a7b4adca0c5cac7b25e24be9cd5713d29" kindref="member">resize</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a7b4adca0c5cac7b25e24be9cd5713d29" kindref="member">resize</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -271,7 +271,7 @@
           <declname>targetSize</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a807b36040f6d5e3a12a9493d465ae81d" kindref="member">resizeNoInit</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a807b36040f6d5e3a12a9493d465ae81d" kindref="member">resizeNoInit</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -290,7 +290,7 @@
           <declname>capacity</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a213314cc3037074561efd69ded3fe1f3" kindref="member">reserve</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a213314cc3037074561efd69ded3fe1f3" kindref="member">reserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -309,7 +309,7 @@
           <declname>newSize</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a8d41d51022d970c289facbe209cdda6a" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a8d41d51022d970c289facbe209cdda6a" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -332,7 +332,7 @@
           <declname>value</declname>
         </param>
         <briefdescription>
-<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a8d41d51022d970c289facbe209cdda6a" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a8d41d51022d970c289facbe209cdda6a" kindref="member">resizeWithReserve</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -359,7 +359,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a8bf1e0bbc3a12412aa00bec3bf221f3b" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a8bf1e0bbc3a12412aa00bec3bf221f3b" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -382,7 +382,7 @@
           <declname>val</declname>
         </param>
         <briefdescription>
-<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a8bf1e0bbc3a12412aa00bec3bf221f3b" kindref="member">autoResizeSet</ref></computeroutput>. </para>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a8bf1e0bbc3a12412aa00bec3bf221f3b" kindref="member">autoResizeSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -401,7 +401,7 @@
           <declname>i</declname>
         </param>
         <briefdescription>
-<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a4ed8df16b354377860205d9ae2913b49" kindref="member">autoResizeAt</ref></computeroutput>. </para>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a4ed8df16b354377860205d9ae2913b49" kindref="member">autoResizeAt</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -420,7 +420,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -443,7 +443,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::push_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::push_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -458,7 +458,7 @@
         <name>popBack</name>
         <qualifiedname>MR.Vector_MRGraphVertId_MRGraphVertId.popBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::pop_back</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::pop_back</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -473,7 +473,7 @@
         <name>emplaceBack</name>
         <qualifiedname>MR.Vector_MRGraphVertId_MRGraphVertId.emplaceBack</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::emplace_back&amp;amp;lt;&amp;amp;gt;</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::emplace_back&amp;lt;&amp;gt;</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -488,7 +488,7 @@
         <name>front</name>
         <qualifiedname>MR.Vector_MRGraphVertId_MRGraphVertId.front</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a76f54f1e4828d1b3a340bcdf9428010c" kindref="member">front</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a76f54f1e4828d1b3a340bcdf9428010c" kindref="member">front</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -503,7 +503,7 @@
         <name>back</name>
         <qualifiedname>MR.Vector_MRGraphVertId_MRGraphVertId.back</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a9e4eed1e0371c57266ad4e2af6e82013" kindref="member">back</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a9e4eed1e0371c57266ad4e2af6e82013" kindref="member">back</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -518,7 +518,7 @@
         <name>data</name>
         <qualifiedname>MR.Vector_MRGraphVertId_MRGraphVertId.data</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a699e8e4686cf5a7c8eaa0dce4ee3f9f2" kindref="member">data</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a699e8e4686cf5a7c8eaa0dce4ee3f9f2" kindref="member">data</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -537,7 +537,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a57927156046b82edf20664e02e079bf3" kindref="member">swap</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;<ref refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a57927156046b82edf20664e02e079bf3" kindref="member">swap</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -598,7 +598,7 @@
           <declname>vec</declname>
         </param>
         <briefdescription>
-<para>moves data from the given std::vector&amp;lt;T&amp;gt; Generated from constructor <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;::Vector</computeroutput>. </para>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;::Vector</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -608,7 +608,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;T&amp;gt;-like container that requires specific indexing type, </para>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -624,7 +624,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -644,6 +644,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRGraphVertId_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -677,6 +678,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Vector_MRGraphVertId_MRGraphVertId</label>
+        <link refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -703,13 +705,34 @@
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a8bf1e0bbc3a12412aa00bec3bf221f3b" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a0819d0536764ae24ea46fb6ef211a307" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a9e4eed1e0371c57266ad4e2af6e82013" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a00fd4df60f8c654e5fa136876d6657c9" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a89070f9fadaf6f339d88c4258174f251" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a4bdf9f50420286465263bc9a0bb24dc1" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>capacity</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a5625735ad3fa7586581a227d54e324ec" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a843b34300d52e2ffd033c24ba030cd32" prot="package" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>Const_Vector_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a400101b0a18b1e356ca927fbd38c6d3e" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>Const_Vector_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1aa73ec11a11ad0ef59a546fbc70b02537" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>Const_Vector_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1ad8be3d11091c723cd4f0c34615f7c237" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>Const_Vector_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a4888d3efd255ae875da67c0066ef5c29" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>Const_Vector_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a09071860a6d24d90cdc9ee7ad051cb9b" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>Const_Vector_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1ae3ccd5c05b3bb6e6f83ddd1a03634312" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>Const_Vector_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a6cfec9c27738dec938d7c696d131f050" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>Const_Vector_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a699e8e4686cf5a7c8eaa0dce4ee3f9f2" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1add7148cf18ae029200bb6cafbefa3943" prot="protected" virt="virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1ab64b3d4b677bfd718bdd2513d492bfa2" prot="public" virt="virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a99a828fb6593382f94514267ffd47952" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a6fb0ee5bdea1edb7f40a2c8876bdcd18" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a3df5c8dcb4da0dc1893248766368d32c" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1af8482cf7de38bea16e3577b5c68bc2ee" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a3e7c277406434a8a57dbc7318c7e3d0d" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>Equals</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a76f54f1e4828d1b3a340bcdf9428010c" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>front</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a935575667f67372c10152564ad76dadb" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a86b350efb6e1f50db3f6f259be6424bb" prot="private" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1ad81b380e6a790682ad3bf55e5db32594" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a539a5822f906ef3f3db47e3fdd89e4fa" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>operator Const_Vector_MRGraphVertId_MRGraphVertId</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1aba3d8aa239c94ca8166e85fad0936040" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>operator Vector_MRGraphVertId_MRGraphVertId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1ace1924400eb6374617fc39016c73658c" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a04421434ea1117c208c30ecdd70f6600" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>operator==</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1adf4876b978080ca73f2664a135729d8f" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>popBack</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1ada6c91f2549e62110aacdb8558eaa0c0" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>pushBack</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a2c0f761e0b866227b2545d5e465c349d" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>pushBack</name></member>
@@ -719,6 +742,7 @@
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a807b36040f6d5e3a12a9493d465ae81d" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>resizeNoInit</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a8d41d51022d970c289facbe209cdda6a" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>resizeWithReserve</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a06658b819cbcc0bb6ea1f2ab5e7c765f" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1Const__Vector__MRGraphVertId__MRGraphVertId_1a1bf50184b996b1f8af3acc53b027370f" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>size</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a57927156046b82edf20664e02e079bf3" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>swap</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a888629df272765ad092d4aa83cf27301" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>this[MR.GraphVertId i]</name></member>
       <member refid="classMR_1_1Vector__MRGraphVertId__MRGraphVertId_1a15c70050a5b5c14cbdd96c0cd57158b4" prot="public" virt="non-virtual"><scope>MR::Vector_MRGraphVertId_MRGraphVertId</scope><name>vec</name></member>

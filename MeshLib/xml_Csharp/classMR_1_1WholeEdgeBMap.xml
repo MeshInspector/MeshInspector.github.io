@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1WholeEdgeBMap" kind="class" language="C#" prot="public">
     <compoundname>MR::WholeEdgeBMap</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_WholeEdgeBMap</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__WholeEdgeBMap" prot="public" virt="non-virtual">MR.Const_WholeEdgeBMap</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1WholeEdgeBMap_1a93be25662818a8487f08b6062ba71dec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Buffer__MREdgeId__MRUndirectedEdgeId" kindref="compound">MR.Buffer_MREdgeId_MRUndirectedEdgeId</ref></type>
@@ -137,7 +137,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>flat map: I -&amp;gt; T Generated from class <computeroutput><ref refid="classMR_1_1WholeEdgeBMap" kindref="compound">MR.WholeEdgeBMap</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>flat map: I -&gt; T Generated from class <computeroutput><ref refid="classMR_1_1WholeEdgeBMap" kindref="compound">MR.WholeEdgeBMap</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -150,6 +150,7 @@
       </node>
       <node id="2">
         <label>MR.Const_WholeEdgeBMap</label>
+        <link refid="classMR_1_1Const__WholeEdgeBMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -171,6 +172,7 @@
       </node>
       <node id="2">
         <label>MR.Const_WholeEdgeBMap</label>
+        <link refid="classMR_1_1Const__WholeEdgeBMap"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -185,8 +187,15 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9627" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9628" bodyend="9706"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__WholeEdgeBMap_1ae1994813d4aadef39cea00c3d91de1bf" prot="protected" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1WholeEdgeBMap_1a40d1133633ef416d051f0752e23cdee2" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>assign</name></member>
       <member refid="classMR_1_1WholeEdgeBMap_1a93be25662818a8487f08b6062ba71dec" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeBMap_1aaac157e5f27a47d7f4cbbfd4ede33a8f" prot="package" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>Const_WholeEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeBMap_1a9da526cd866f49b96d110e03f45802c1" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>Const_WholeEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeBMap_1a9057b864461fb1c4386dc0f161b5d021" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>Const_WholeEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeBMap_1a26a341f51091435b6052503f3426c8fb" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>Const_WholeEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeBMap_1adabb3cc50978a9a8225f01332f5c1c16" prot="protected" virt="virtual"><scope>MR::WholeEdgeBMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__WholeEdgeBMap_1a0b46dee4df495727c04f3e229c62731a" prot="public" virt="virtual"><scope>MR::WholeEdgeBMap</scope><name>Dispose</name></member>
       <member refid="classMR_1_1WholeEdgeBMap_1a03f03500855ecf781e2b1ece5dfd3c53" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>tsize</name></member>
       <member refid="classMR_1_1WholeEdgeBMap_1a00dfdc6c8d9d0ac4237b2f7cb3caaea4" prot="package" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>WholeEdgeBMap</name></member>
       <member refid="classMR_1_1WholeEdgeBMap_1ae08c1b674cabbf647ca6fdcd60ebdc0f" prot="public" virt="non-virtual"><scope>MR::WholeEdgeBMap</scope><name>WholeEdgeBMap</name></member>

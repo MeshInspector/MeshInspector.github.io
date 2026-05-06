@@ -291,13 +291,11 @@ this remains valid only if tree is valid
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">&lt;summary&gt;
-calculates winding numbers in each point from a three-dimensional grid
-&lt;/summary&gt;
-&lt;param name="res"&gt;resulting winding numbers, will be resized automatically&lt;/param&gt;
-&lt;param name="dims"&gt;dimensions of the grid&lt;/param&gt;
-&lt;param name="gridToMeshXf"&gt;transform from integer grid locations to voxel's centers in mesh reference frame&lt;/param&gt;
-&lt;param name="beta"&gt;determines the precision of the approximation: the more the better, recommended value 2 or more&lt;/param&gt;
+<pre class="fragment">calculates winding numbers in each point from a three-dimensional grid
+\\param res resulting winding numbers, will be resized automatically
+\\param dims dimensions of the grid
+\\param gridToMeshXf transform from integer grid locations to voxel's centers in mesh reference frame
+\\param beta determines the precision of the approximation: the more the better, recommended value 2 or more
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1IFastWindingNumber.html#a5d368442bd4a019e50adacc23099b4ba">mrmeshpy.IFastWindingNumber</a>.</p>
 
@@ -341,12 +339,10 @@ calculates winding numbers in each point from a three-dimensional grid
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">&lt;summary&gt;
-calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid;
+<pre class="fragment">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid;
 if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point
-&lt;/summary&gt;
-&lt;param name="res"&gt;resulting signed distances, will be resized automatically&lt;/param&gt;
-&lt;param name="dims"&gt;dimensions of the grid&lt;/param&gt;
+\\param res resulting signed distances, will be resized automatically
+\\param dims dimensions of the grid
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1IFastWindingNumber.html#a9abbdfdad45943314155c587e2f9c488">mrmeshpy.IFastWindingNumber</a>.</p>
 
@@ -424,11 +420,9 @@ if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">&lt;summary&gt;
-calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected
-&lt;/summary&gt;
-&lt;param name="res"&gt;resulting bit set&lt;/param&gt;
-&lt;param name="beta"&gt;determines the precision of the approximation: the more the better, recommended value 2 or more&lt;/param&gt;
+<pre class="fragment">calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected
+\\param res resulting bit set
+\\param beta determines the precision of the approximation: the more the better, recommended value 2 or more
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1IFastWindingNumber.html#a898b12e02f113538c5d54bf9af0d7bd9">mrmeshpy.IFastWindingNumber</a>.</p>
 

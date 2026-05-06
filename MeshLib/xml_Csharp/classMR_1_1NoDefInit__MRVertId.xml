@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoDefInit__MRVertId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoDefInit_MRVertId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MRVertId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoDefInit__MRVertId" prot="public" virt="non-virtual">MR.Const_NoDefInit_MRVertId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1NoDefInit__MRVertId_1a9dc0bc03e2c261fe4d5dd54977245159" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -86,11 +86,11 @@
         <name>NoDefInit_MRVertId</name>
         <qualifiedname>MR.NoDefInit_MRVertId.NoDefInit_MRVertId</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRVertId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRVertId" kindref="compound">MR.Const_NoDefInit_MRVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::NoDefInit</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -109,7 +109,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::NoDefInit</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,11 +124,11 @@
         <name>assign</name>
         <qualifiedname>MR.NoDefInit_MRVertId.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRVertId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRVertId" kindref="compound">MR.Const_NoDefInit_MRVertId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,7 +143,7 @@
         <name>get</name>
         <qualifiedname>MR.NoDefInit_MRVertId.get</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;<ref refid="classMR_1_1NoDefInit__MRVertId_1a2f455daa97099ae6926166f8801ad8e1" kindref="member">get</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1NoDefInit__MRVertId_1a2f455daa97099ae6926166f8801ad8e1" kindref="member">get</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -162,7 +162,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -181,7 +181,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;::operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -191,7 +191,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -204,6 +204,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRVertId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -230,6 +231,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRVertId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRVertId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -249,16 +251,32 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="766" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="767" bodyend="858"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1af01a57df6810e38c097de758905abc65" prot="protected" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>__ref_storage_id</name></member>
       <member refid="classMR_1_1NoDefInit__MRVertId_1a7df3f8b39042f3fada6ac9f32f60ec76" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>addAssign</name></member>
       <member refid="classMR_1_1NoDefInit__MRVertId_1ace784d62f874a402fd8d7d9fdc2ff23c" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a4620cd839e9ba28cec62309d61e862e5" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>Const_NoDefInit_MRVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1ac3bb6c6a5147e880eae2021328b57a6a" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>Const_NoDefInit_MRVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a435b3eb6c772652241525abdec96206c" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>Const_NoDefInit_MRVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a7a035d8bf1763982a2fca47ad3b226b1" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>Const_NoDefInit_MRVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a92b9277d0c6aa584471bb3a0c9728523" prot="protected" virt="virtual"><scope>MR::NoDefInit_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a607c506aebb7bbd407308a5925bfadf2" prot="public" virt="virtual"><scope>MR::NoDefInit_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a92601e1ea3d935b63853685a607c20f7" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a537279c0ee95d609d9acbcee8a822d4d" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>Equals</name></member>
       <member refid="classMR_1_1NoDefInit__MRVertId_1a2f455daa97099ae6926166f8801ad8e1" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>get</name></member>
       <member refid="classMR_1_1NoDefInit__MRVertId_1a9dc0bc03e2c261fe4d5dd54977245159" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>id</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a84d30bbd0cb2e4dfe532991e272981a5" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>less</name></member>
       <member refid="classMR_1_1NoDefInit__MRVertId_1a9c0e6287a8a58e5564cbc449e147da59" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>NoDefInit_MRVertId</name></member>
       <member refid="classMR_1_1NoDefInit__MRVertId_1a15c509bb1fc84a7db9dfcbfe240f8827" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>NoDefInit_MRVertId</name></member>
       <member refid="classMR_1_1NoDefInit__MRVertId_1acef982bfc6d42dd958c8509298ff87bf" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>NoDefInit_MRVertId</name></member>
       <member refid="classMR_1_1NoDefInit__MRVertId_1a04ed353d7a6229d667e680654071ffa3" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>NoDefInit_MRVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1aebde718da56fec6ee74948386f098021" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1ad6ff41098125d7f6939d3c595ea3d739" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>operator int</name></member>
       <member refid="classMR_1_1NoDefInit__MRVertId_1a8ee8a5e51e4c60e981b7568817572d06" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>operator MR.Box_VertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a549e4050eb34c0f74e9d95d0f1df922a" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>operator MR.ConstBox_VertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a41d55e22e968c237ab27aa4eb47442cc" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1afa11adfa85ad1178e1cad5449fa3f4b5" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>operator==</name></member>
       <member refid="classMR_1_1NoDefInit__MRVertId_1a229e2be335719d679bee5c19eadea1cc" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a48c8cf8647edaf6fc8784584963ea0c8" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRVertId</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

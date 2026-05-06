@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportMask" kind="class" language="C#" prot="public">
     <compoundname>MR::ViewportMask</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ViewportMask</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ViewportMask" prot="public" virt="non-virtual">MR.Const_ViewportMask</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ViewportMask_1a3e9f46ffe88c2c2b3e8f97d77e5ad82b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref uint</type>
@@ -66,7 +66,7 @@
         <name>ViewportMask</name>
         <qualifiedname>MR.ViewportMask.ViewportMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -142,7 +142,7 @@
         <name>assign</name>
         <qualifiedname>MR.ViewportMask.assign</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -161,7 +161,7 @@
         <name>bitandAssign</name>
         <qualifiedname>MR.ViewportMask.bitandAssign</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -180,7 +180,7 @@
         <name>bitorAssign</name>
         <qualifiedname>MR.ViewportMask.bitorAssign</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -199,7 +199,7 @@
         <name>xorAssign</name>
         <qualifiedname>MR.ViewportMask.xorAssign</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -274,6 +274,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ViewportMask</label>
+        <link refid="classMR_1_1Const__ViewportMask"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -305,6 +306,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ViewportMask</label>
+        <link refid="classMR_1_1Const__ViewportMask"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -326,12 +328,37 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" line="756" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportId.cs" bodystart="757" bodyend="886"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ViewportMask_1a481f6f5f36430e4d544bee166e5de1d0" prot="protected" virt="non-virtual"><scope>MR::ViewportMask</scope><name>__ref_storage_mask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>all</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>any</name></member>
       <member refid="classMR_1_1ViewportMask_1a18b15efc49661a7695f5256730866f77" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>assign</name></member>
       <member refid="classMR_1_1ViewportMask_1a444220773d482ba5f0db21cd8b9a8e1f" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>bitandAssign</name></member>
       <member refid="classMR_1_1ViewportMask_1acdcaef4841668450ee7c578bd46a08f0" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>bitorAssign</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a64725114e4238e1076889a132f16d59a" prot="package" virt="non-virtual"><scope>MR::ViewportMask</scope><name>Const_ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a8fb0c2e5450c112c8a411817ec5a6b9b" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>Const_ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ab4987ce92d7bca9bd9037ade8d2a5e76" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>Const_ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a3d0617c5b8b85b573f1973fc827201fb" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>Const_ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1aa92d8dcd4d527acafdd7a64cf2c6671d" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>Const_ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a8d4d52c9fcb90736e72b888244d73e9d" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>Const_ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a338d22cc67ac2a7572634e57ef3ec940" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>contains</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a27cc4fa3322a2dc118f9d7da2f5adf46" prot="protected" virt="virtual"><scope>MR::ViewportMask</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ac85755db46ca2ac08b580a2c1f6d4054" prot="public" virt="virtual"><scope>MR::ViewportMask</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a8c3ede4944a25c290be04a7a1ee876c7" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a3a64e9de02ef9c46d8be93bf07814518" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ad57d7c5b54eb457e769cc1c84d7365af" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a4c9c1feb82e50eda20205cff8fbacc4e" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ab10959b6747d80cf5ef9871b980f2875" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>less</name></member>
       <member refid="classMR_1_1ViewportMask_1a3e9f46ffe88c2c2b3e8f97d77e5ad82b" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>mask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a2094f03ae120b4f0d3e94b63dd78e97b" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>operator Const_ViewportMask</name></member>
       <member refid="classMR_1_1ViewportMask_1acc5ff9296adeb8a9f4ac492ed36b568f" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>operator ViewportMask</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ad2870bddb4eb8c3a8dfe3ab8f65ac8a7" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a3d1980d578881cf4a6113050206a52bf" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>operator&amp;</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ac5aaae3f1ea1cc67aae6645d70c117d3" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a0b683ff02bc22c2b66666a7a093bfd6f" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>operator^</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a53db719f4b7b9d1938b3053dde9bb100" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>operator|</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1a90470a3307200b912e4d8a44c0a59ed5" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>operator~</name></member>
       <member refid="classMR_1_1ViewportMask_1ad65cf7590eb081e3f4097e5e0cbc3abf" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>set</name></member>
+      <member refid="classMR_1_1Const__ViewportMask_1ad04a867277d97a3de2fdda475df07b92" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>value</name></member>
       <member refid="classMR_1_1ViewportMask_1a38c3059dfa11562e23cb98405f46e7b1" prot="package" virt="non-virtual"><scope>MR::ViewportMask</scope><name>ViewportMask</name></member>
       <member refid="classMR_1_1ViewportMask_1a0016ae3bac1ac1004fbcf31642637a60" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>ViewportMask</name></member>
       <member refid="classMR_1_1ViewportMask_1a15e5c4896c31c39af5061c4292b981a1" prot="public" virt="non-virtual"><scope>MR::ViewportMask</scope><name>ViewportMask</name></member>

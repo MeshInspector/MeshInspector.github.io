@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BendTextAlongCurveParams" kind="class" language="C#" prot="public">
     <compoundname>MR::BendTextAlongCurveParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BendTextAlongCurveParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BendTextAlongCurveParams" prot="public" virt="non-virtual">MR.Const_BendTextAlongCurveParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BendTextAlongCurveParams_1a96294c444b76cc0b4de5ecc058edb713" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1SymbolMeshParams" kindref="compound">MR.SymbolMeshParams</ref></type>
@@ -235,7 +235,7 @@
         <name>BendTextAlongCurveParams</name>
         <qualifiedname>MR.BendTextAlongCurveParams.BendTextAlongCurveParams</qualifiedname>
         <param>
-          <type>Const_BendTextAlongCurveParams</type>
+          <type><ref refid="classMR_1_1Const__BendTextAlongCurveParams" kindref="compound">Const_BendTextAlongCurveParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -300,6 +300,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BendTextAlongCurveParams</label>
+        <link refid="classMR_1_1Const__BendTextAlongCurveParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -313,6 +314,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.BendTextAlongCurveParams</label>
         <link refid="classMR_1_1BendTextAlongCurveParams"/>
@@ -321,9 +326,13 @@
       </node>
       <node id="2">
         <label>MR.Const_BendTextAlongCurveParams</label>
+        <link refid="classMR_1_1Const__BendTextAlongCurveParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_pivotBoxPoint</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -335,6 +344,13 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="683" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="684" bodyend="800"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1a11c17db07d9031e03eeb0e05982c0df5" prot="protected" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>__ref_storage_fontBasedSizeCalc</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1a83f38e6d316b03334d21a3f3e1261bed" prot="protected" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>__ref_storage_fontHeight</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1a291e4fa6750d3befb40c3f2927f953d1" prot="protected" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>__ref_storage_periodicCurve</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1a513e4a8f2a6ff543457181dc613bd30b" prot="protected" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>__ref_storage_pivotBoxPoint</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1a29f7322bd5e9b6dda989e5d192ed5fd9" prot="protected" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>__ref_storage_pivotCurveTime</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1ad0079987a425fbb7b54ef098d9961144" prot="protected" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>__ref_storage_stretch</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1ab9faf222cf816a86ef90b3d8c505b1de" prot="protected" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>__ref_storage_surfaceOffset</name></member>
       <member refid="classMR_1_1BendTextAlongCurveParams_1ab8c2e73e265544201025016b2e9db8a4" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>assign</name></member>
       <member refid="classMR_1_1BendTextAlongCurveParams_1a526e18bef731e1560ab5bea40716245e" prot="package" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>BendTextAlongCurveParams</name></member>
       <member refid="classMR_1_1BendTextAlongCurveParams_1ac920e84c5df108f873d9b5e8a1d2dc6c" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>BendTextAlongCurveParams</name></member>
@@ -342,6 +358,14 @@
       <member refid="classMR_1_1BendTextAlongCurveParams_1a5ccd4d2139d456f366933e826d549bad" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>BendTextAlongCurveParams</name></member>
       <member refid="classMR_1_1BendTextAlongCurveParams_1ab29d5b51e091a609bccbc81fb2e71d5f" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>BendTextAlongCurveParams</name></member>
       <member refid="classMR_1_1BendTextAlongCurveParams_1ae9325a499c2eb2d778543efb71b4aeeb" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>BendTextAlongCurveParams</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1aed289265d000e5e2025ea592b84c99f5" prot="package" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>Const_BendTextAlongCurveParams</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1a8f02305dfb4ff0685007537f834d5e55" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>Const_BendTextAlongCurveParams</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1a11486a12a93770713123624e5eb77027" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>Const_BendTextAlongCurveParams</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1a0520f3d9e179a716ad0bac07eb1b2276" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>Const_BendTextAlongCurveParams</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1af4befa471b3ef1cc10fc4cd30ebd68ef" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>Const_BendTextAlongCurveParams</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1a0afb34d8cf1e79ba3577641267520974" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>Const_BendTextAlongCurveParams</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1a990c52c39d9a07f07b4514c20bc672a0" prot="protected" virt="virtual"><scope>MR::BendTextAlongCurveParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BendTextAlongCurveParams_1a2137aebdfaf30d6d2cd5c8c19857ca18" prot="public" virt="virtual"><scope>MR::BendTextAlongCurveParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1BendTextAlongCurveParams_1a0ed3ad48bc21cbd47567d2612ed993c0" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>fontBasedSizeCalc</name></member>
       <member refid="classMR_1_1BendTextAlongCurveParams_1a0af85221c1a3b61eadd08fca95189b88" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>fontHeight</name></member>
       <member refid="classMR_1_1BendTextAlongCurveParams_1a4d395c0158b3d29dd5b51b76f077c614" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>periodicCurve</name></member>

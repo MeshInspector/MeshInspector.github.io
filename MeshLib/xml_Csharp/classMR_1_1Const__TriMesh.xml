@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__TriMesh" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_TriMesh</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1TriMesh" prot="public" virt="non-virtual">MR.TriMesh</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__TriMesh_1a6e031fa3bab8a97a0141205c4abd6cf3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Triangulation" kindref="compound">MR.Const_Triangulation</ref></type>
+        <definition>unsafe MR.Const_Triangulation MR.Const_TriMesh.tris</definition>
+        <argsstring></argsstring>
+        <name>tris</name>
+        <qualifiedname>MR.Const_TriMesh.tris</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" line="27" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TriMesh_1a023a000ce257457ae484dd400fee278c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref></type>
+        <definition>unsafe MR.Const_VertCoords MR.Const_TriMesh.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <qualifiedname>MR.Const_TriMesh.points</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" line="29" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriMesh_1a37a6862f374574d7c34755110ee37baf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_TriMesh.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_TriMesh.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" line="15" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriMesh_1a89fda2d95af0660f0f406c8f1051661d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_TriMesh.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_TriMesh.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriMesh_1aba8d8ae78ac68e26853857f5270557a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriMesh.Const_TriMesh</definition>
+        <argsstring>()</argsstring>
+        <name>Const_TriMesh</name>
+        <qualifiedname>MR.Const_TriMesh.Const_TriMesh</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" line="64" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" bodystart="64" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriMesh_1ad91882d6df582a6edace8c1c85d66a87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriMesh.Const_TriMesh</definition>
+        <argsstring>(MR._ByValue_Triangulation tris, MR._ByValue_VertCoords points)</argsstring>
+        <name>Const_TriMesh</name>
+        <qualifiedname>MR.Const_TriMesh.Const_TriMesh</qualifiedname>
+        <param>
+          <type>MR._ByValue_Triangulation</type>
+          <declname>tris</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_VertCoords</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1TriMesh" kindref="compound">MR.TriMesh</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" line="75" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" bodystart="75" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriMesh_1a801ac5246068fe79c18c87c9ee0ebc09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriMesh.Const_TriMesh</definition>
+        <argsstring>(MR._ByValue_TriMesh _other)</argsstring>
+        <name>Const_TriMesh</name>
+        <qualifiedname>MR.Const_TriMesh.Const_TriMesh</qualifiedname>
+        <param>
+          <type>MR._ByValue_TriMesh</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriMesh_1a1a46cf3bb7dcffa5f459eeb1ce294570" kindref="member">MR.TriMesh.TriMesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" line="88" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" bodystart="88" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriMesh_1a4775993c5a2dc769245216d3a5dd685a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TriMesh.Const_TriMesh</definition>
+        <argsstring>(Const_TriMesh _other)</argsstring>
+        <name>Const_TriMesh</name>
+        <qualifiedname>MR.Const_TriMesh.Const_TriMesh</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriMesh" kindref="compound">Const_TriMesh</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriMesh_1a1a46cf3bb7dcffa5f459eeb1ce294570" kindref="member">MR.TriMesh.TriMesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" line="100" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriMesh_1aed8ded8216ff85ebb96a51b9f1fccfee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TriMesh.Const_TriMesh</definition>
+        <argsstring>(TriMesh _other)</argsstring>
+        <name>Const_TriMesh</name>
+        <qualifiedname>MR.Const_TriMesh.Const_TriMesh</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TriMesh" kindref="compound">TriMesh</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriMesh_1a1a46cf3bb7dcffa5f459eeb1ce294570" kindref="member">MR.TriMesh.TriMesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" line="105" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" bodystart="105" bodyend="105"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriMesh_1ac884c44f8fa8aeebdb2877fac7c8091c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TriMesh.~Const_TriMesh</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_TriMesh</name>
+        <qualifiedname>MR.Const_TriMesh.~Const_TriMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriMesh_1a6acd842f5564cba69fd64802c64da1a2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriMesh.Const_TriMesh</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_TriMesh</name>
+        <qualifiedname>MR.Const_TriMesh.Const_TriMesh</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" line="53" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" bodystart="53" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>very simple structure for storing mesh of triangles only, without easy navigation between neighbor elements as in <ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> Generated from class <computeroutput><ref refid="classMR_1_1TriMesh" kindref="compound">MR.TriMesh</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_TriMesh</label>
+        <link refid="classMR_1_1Const__TriMesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.TriMesh</label>
+        <link refid="classMR_1_1TriMesh"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_TriMesh</label>
+        <link refid="classMR_1_1Const__TriMesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriMesh.cs" bodystart="10" bodyend="106"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__TriMesh_1a6acd842f5564cba69fd64802c64da1a2" prot="package" virt="non-virtual"><scope>MR::Const_TriMesh</scope><name>Const_TriMesh</name></member>
+      <member refid="classMR_1_1Const__TriMesh_1aba8d8ae78ac68e26853857f5270557a8" prot="public" virt="non-virtual"><scope>MR::Const_TriMesh</scope><name>Const_TriMesh</name></member>
+      <member refid="classMR_1_1Const__TriMesh_1ad91882d6df582a6edace8c1c85d66a87" prot="public" virt="non-virtual"><scope>MR::Const_TriMesh</scope><name>Const_TriMesh</name></member>
+      <member refid="classMR_1_1Const__TriMesh_1a801ac5246068fe79c18c87c9ee0ebc09" prot="public" virt="non-virtual"><scope>MR::Const_TriMesh</scope><name>Const_TriMesh</name></member>
+      <member refid="classMR_1_1Const__TriMesh_1a4775993c5a2dc769245216d3a5dd685a" prot="public" virt="non-virtual"><scope>MR::Const_TriMesh</scope><name>Const_TriMesh</name></member>
+      <member refid="classMR_1_1Const__TriMesh_1aed8ded8216ff85ebb96a51b9f1fccfee" prot="public" virt="non-virtual"><scope>MR::Const_TriMesh</scope><name>Const_TriMesh</name></member>
+      <member refid="classMR_1_1Const__TriMesh_1a37a6862f374574d7c34755110ee37baf" prot="protected" virt="virtual"><scope>MR::Const_TriMesh</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriMesh_1a89fda2d95af0660f0f406c8f1051661d" prot="public" virt="virtual"><scope>MR::Const_TriMesh</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriMesh_1a023a000ce257457ae484dd400fee278c" prot="public" virt="non-virtual"><scope>MR::Const_TriMesh</scope><name>points</name></member>
+      <member refid="classMR_1_1Const__TriMesh_1a6e031fa3bab8a97a0141205c4abd6cf3" prot="public" virt="non-virtual"><scope>MR::Const_TriMesh</scope><name>tris</name></member>
+      <member refid="classMR_1_1Const__TriMesh_1ac884c44f8fa8aeebdb2877fac7c8091c" prot="private" virt="non-virtual"><scope>MR::Const_TriMesh</scope><name>~Const_TriMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

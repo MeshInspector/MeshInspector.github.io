@@ -1,7 +1,7 @@
 var classMR_1_1DistanceVolumeParams =
 [
     [ "DistanceVolumeParams", "classMR_1_1DistanceVolumeParams.html#a35cddf4279d7226d0bc04f44be8bb927", null ],
-    [ "DistanceVolumeParams", "classMR_1_1DistanceVolumeParams.html#aafba592ce404d449341ea7d38b36849c", null ],
+    [ "DistanceVolumeParams", "classMR_1_1DistanceVolumeParams.html#a10faf60457b3bf97c6188d0132ad3a2b", null ],
     [ "DistanceVolumeParams", "classMR_1_1DistanceVolumeParams.html#aa9796e61d8843d6ca604183bc8ac1ca9", null ],
     [ "DistanceVolumeParams", "classMR_1_1DistanceVolumeParams.html#a12e758d0b53a7d97f85df65283043c2d", null ],
     [ "DistanceVolumeParams", "classMR_1_1DistanceVolumeParams.html#a95107a0e3e5bf1fece46b4a3fa25e320", null ],

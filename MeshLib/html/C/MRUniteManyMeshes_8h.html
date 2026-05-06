@@ -520,7 +520,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases Returns a pointer to a member variable of class <span class="tt">MR::UniteManyMeshesParams</span> named <span class="tt">forceCut</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </dd></dl>
+<p>If this option is enabled boolean will cut meshes even if there are self-intersections in intersecting area also applying MR::MeshBuilder::uniteCloseVertices and MR::fillHoles afterwards </p><dl class="section warning"><dt>Warning</dt><dd>if enabled - closed meshes expected on input </dd>
+<dd>
+not recommended in most cases Returns a pointer to a member variable of class <span class="tt">MR::UniteManyMeshesParams</span> named <span class="tt">forceCut</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </dd></dl>
 
 </div>
 </div>
@@ -682,7 +684,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases Returns a mutable pointer to a member variable of class <span class="tt">MR::UniteManyMeshesParams</span> named <span class="tt">forceCut</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </dd></dl>
+<p>If this option is enabled boolean will cut meshes even if there are self-intersections in intersecting area also applying MR::MeshBuilder::uniteCloseVertices and MR::fillHoles afterwards </p><dl class="section warning"><dt>Warning</dt><dd>if enabled - closed meshes expected on input </dd>
+<dd>
+not recommended in most cases Returns a mutable pointer to a member variable of class <span class="tt">MR::UniteManyMeshesParams</span> named <span class="tt">forceCut</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </dd></dl>
 
 </div>
 </div>
@@ -896,7 +900,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases Modifies a member variable of class <span class="tt">MR::UniteManyMeshesParams</span> named <span class="tt">forceCut</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">forceCut</span>. </dd></dl>
+<p>If this option is enabled boolean will cut meshes even if there are self-intersections in intersecting area also applying MR::MeshBuilder::uniteCloseVertices and MR::fillHoles afterwards </p><dl class="section warning"><dt>Warning</dt><dd>if enabled - closed meshes expected on input </dd>
+<dd>
+not recommended in most cases Modifies a member variable of class <span class="tt">MR::UniteManyMeshesParams</span> named <span class="tt">forceCut</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">forceCut</span>. </dd></dl>
 
 </div>
 </div>

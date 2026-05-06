@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointPair" kind="class" language="C#" prot="public">
     <compoundname>MR::PointPair</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointPair</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointPair" prot="public" virt="non-virtual">MR.Const_PointPair</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PointPair_1ab4e09ee32e9c8d2040ae7bdb55b27bdc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -222,7 +222,7 @@
         <name>PointPair</name>
         <qualifiedname>MR.PointPair.PointPair</qualifiedname>
         <param>
-          <type>MR.Const_PointPair</type>
+          <type><ref refid="classMR_1_1Const__PointPair" kindref="compound">MR.Const_PointPair</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -260,7 +260,7 @@
         <name>assign</name>
         <qualifiedname>MR.PointPair.assign</qualifiedname>
         <param>
-          <type>MR.Const_PointPair</type>
+          <type><ref refid="classMR_1_1Const__PointPair" kindref="compound">MR.Const_PointPair</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -287,6 +287,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointPair</label>
+        <link refid="classMR_1_1Const__PointPair"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -305,6 +306,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PointPair</label>
         <link refid="classMR_1_1PointPair"/>
@@ -313,11 +318,20 @@
       </node>
       <node id="2">
         <label>MR.Const_PointPair</label>
+        <link refid="classMR_1_1Const__PointPair"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_srcNorm</edgelabel>
+          <edgelabel>__ref_storage_srcPoint</edgelabel>
+          <edgelabel>__ref_storage_srcVertId</edgelabel>
+          <edgelabel>__ref_storage_tgtCloseVert</edgelabel>
+          <edgelabel>__ref_storage_tgtNorm</edgelabel>
+          <edgelabel>__ref_storage_tgtPoint</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -332,10 +346,31 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="568" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="569" bodyend="679"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PointPair_1a97043b362eaeac895903089284915fdc" prot="protected" virt="non-virtual"><scope>MR::PointPair</scope><name>__ref_storage_distSq</name></member>
+      <member refid="classMR_1_1Const__PointPair_1a0473d4f0f4cb7c6adf190dd4aee89128" prot="protected" virt="non-virtual"><scope>MR::PointPair</scope><name>__ref_storage_normalsAngleCos</name></member>
+      <member refid="classMR_1_1Const__PointPair_1afbf6a2d3b16da7555d6b8e33021e29b6" prot="protected" virt="non-virtual"><scope>MR::PointPair</scope><name>__ref_storage_srcNorm</name></member>
+      <member refid="classMR_1_1Const__PointPair_1a8902ad3d09d89afe42a5bc841eadb561" prot="protected" virt="non-virtual"><scope>MR::PointPair</scope><name>__ref_storage_srcPoint</name></member>
+      <member refid="classMR_1_1Const__PointPair_1aca6d6982078129ee2b9d8d7f06fbd713" prot="protected" virt="non-virtual"><scope>MR::PointPair</scope><name>__ref_storage_srcVertId</name></member>
+      <member refid="classMR_1_1Const__PointPair_1aa791cd995809960287e1c31e04126e0d" prot="protected" virt="non-virtual"><scope>MR::PointPair</scope><name>__ref_storage_tgtCloseVert</name></member>
+      <member refid="classMR_1_1Const__PointPair_1add96891076528fccdfd3079d3fa734f0" prot="protected" virt="non-virtual"><scope>MR::PointPair</scope><name>__ref_storage_tgtNorm</name></member>
+      <member refid="classMR_1_1Const__PointPair_1a9bc0f8546cd93c4ac7c781fbf8b158c0" prot="protected" virt="non-virtual"><scope>MR::PointPair</scope><name>__ref_storage_tgtOnBd</name></member>
+      <member refid="classMR_1_1Const__PointPair_1a62c9c08b8add038420546fd40007b4e6" prot="protected" virt="non-virtual"><scope>MR::PointPair</scope><name>__ref_storage_tgtPoint</name></member>
+      <member refid="classMR_1_1Const__PointPair_1ae547e47661404d99e909d19a30cca655" prot="protected" virt="non-virtual"><scope>MR::PointPair</scope><name>__ref_storage_weight</name></member>
       <member refid="classMR_1_1PointPair_1af1f65c72527757ec9d342b663c6955df" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PointPair_1a20a32013798524311f96664951e97d49" prot="package" virt="non-virtual"><scope>MR::PointPair</scope><name>Const_PointPair</name></member>
+      <member refid="classMR_1_1Const__PointPair_1adc0940e38387186369631cab71c9192b" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>Const_PointPair</name></member>
+      <member refid="classMR_1_1Const__PointPair_1ad6be1f05b3efa772d7b038ddb6bf95c1" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>Const_PointPair</name></member>
+      <member refid="classMR_1_1Const__PointPair_1ae2057b3d4c832a43f27724d7a8259b89" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>Const_PointPair</name></member>
+      <member refid="classMR_1_1Const__PointPair_1afd8e142bbec4acf6bbc899696eea8e5a" prot="protected" virt="virtual"><scope>MR::PointPair</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointPair_1a97b6bfd4325704b718f72b445a97fc72" prot="public" virt="virtual"><scope>MR::PointPair</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PointPair_1a54f402ca78a997127d51332dc5671793" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>distSq</name></member>
+      <member refid="classMR_1_1Const__PointPair_1ac4b5a3164b25340f980fe417f6da9014" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__PointPair_1a29b86cacd48c818433b6c656a79f8ebe" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>Equals</name></member>
       <member refid="classMR_1_1PointPair_1a8cb638bd82e19d47e4073283c7f7a429" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>normalsAngleCos</name></member>
+      <member refid="classMR_1_1Const__PointPair_1a21b55ddd02bf6ef4fa6f62e7da209422" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>operator MR.Const_ICPPairData</name></member>
       <member refid="classMR_1_1PointPair_1ad4c7e4f3d4b6011fc0fd482d7191438c" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>operator MR.ICPPairData</name></member>
+      <member refid="classMR_1_1Const__PointPair_1ab232626a95be53ea442d918c17735c81" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__PointPair_1a0ffdc58d883d2b9721a977be96828695" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>operator==</name></member>
       <member refid="classMR_1_1PointPair_1a19245595d8d898978705f1073708b412" prot="package" virt="non-virtual"><scope>MR::PointPair</scope><name>PointPair</name></member>
       <member refid="classMR_1_1PointPair_1a8d5639dafb1aa43a724aa79db25108d0" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>PointPair</name></member>
       <member refid="classMR_1_1PointPair_1a0960fc5693b452782da3df8798477c9c" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>PointPair</name></member>

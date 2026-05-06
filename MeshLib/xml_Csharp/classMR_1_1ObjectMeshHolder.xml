@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ObjectMeshHolder" kind="class" language="C#" prot="public">
     <compoundname>MR::ObjectMeshHolder</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectMeshHolder</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ObjectMeshHolder" prot="public" virt="non-virtual">MR.Const_ObjectMeshHolder</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ObjectMeshHolder_1a55c416c1b2b2055f8a33d7fe6448c761" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -442,7 +442,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.ObjectMeshHolder.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_ObjectMeshHolder</type>
+          <type><ref refid="classMR_1_1Const__ObjectMeshHolder" kindref="compound">MR.Const_ObjectMeshHolder</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -856,15 +856,15 @@
         <name>copyTextureAndColors</name>
         <qualifiedname>MR.ObjectMeshHolder.copyTextureAndColors</qualifiedname>
         <param>
-          <type>MR.Const_ObjectMeshHolder</type>
+          <type><ref refid="classMR_1_1Const__ObjectMeshHolder" kindref="compound">MR.Const_ObjectMeshHolder</ref></type>
           <declname>src</declname>
         </param>
         <param>
-          <type>MR.Const_VertMap</type>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
           <declname>thisToSrc</declname>
         </param>
         <param>
-          <type>MR.Const_FaceMap?</type>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref>?</type>
           <declname>thisToSrcFaces</declname>
           <defval>null</defval>
         </param>
@@ -902,15 +902,15 @@
         <name>copyColors</name>
         <qualifiedname>MR.ObjectMeshHolder.copyColors</qualifiedname>
         <param>
-          <type>MR.Const_ObjectMeshHolder</type>
+          <type><ref refid="classMR_1_1Const__ObjectMeshHolder" kindref="compound">MR.Const_ObjectMeshHolder</ref></type>
           <declname>src</declname>
         </param>
         <param>
-          <type>MR.Const_VertMap</type>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
           <declname>thisToSrc</declname>
         </param>
         <param>
-          <type>MR.Const_FaceMap?</type>
+          <type><ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref>?</type>
           <declname>thisToSrcFaces</declname>
           <defval>null</defval>
         </param>
@@ -1073,11 +1073,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1096,11 +1096,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.ObjectMeshHolder.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1119,11 +1119,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.ObjectMeshHolder.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1165,12 +1165,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectMeshHolder_1a70c567e601f4d52447b0f34e982d34b5" kindref="member">MR.ObjectMeshHolder.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectMeshHolder_1a70c567e601f4d52447b0f34e982d34b5" kindref="member">MR.ObjectMeshHolder.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1327,12 +1327,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectMeshHolder_1ad41cf8b26b319be2bd00d9b7ef3cf591" kindref="member">MR.ObjectMeshHolder.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectMeshHolder_1ad41cf8b26b319be2bd00d9b7ef3cf591" kindref="member">MR.ObjectMeshHolder.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1552,12 +1552,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectMeshHolder_1abe7a35d2e39b7ce810a24ee6fd8782e2" kindref="member">MR.ObjectMeshHolder.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectMeshHolder_1abe7a35d2e39b7ce810a24ee6fd8782e2" kindref="member">MR.ObjectMeshHolder.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1754,12 +1754,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectMeshHolder_1a261bb2ef6973770ab75a709e7e6687b8" kindref="member">MR.ObjectMeshHolder.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectMeshHolder_1a261bb2ef6973770ab75a709e7e6687b8" kindref="member">MR.ObjectMeshHolder.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1774,7 +1774,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.ObjectMeshHolder.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1858,6 +1858,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectMeshHolder</label>
+        <link refid="classMR_1_1Const__ObjectMeshHolder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1879,6 +1880,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ObjectMeshHolder</label>
+        <link refid="classMR_1_1Const__ObjectMeshHolder"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1893,21 +1895,110 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" line="1280" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMeshHolder.cs" bodystart="1281" bodyend="2295"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a43c3df0b9457e7737b4e90ff39b95b46" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>actualSerializeFormat</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a7fc1276029e66b9daaee9fd909b4a7dd" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>addChild</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1aceee8c6b0d84ae938b9c5fa6d1b501bb" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>addChildBefore</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a7f370f2e75483df37e9ae2181dc92672" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>addTag</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a9a8bfac5dc6e1db3c6eab77f221bef84" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>addTexture</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1aa7df0afc461871049abd8e1e8e8b7d8e" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>applyScale</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a6480911d426956e4ca0a30837ca5a79f" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a593ea90c81f8c3040ef9b88835909a5d" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>avgEdgeLen</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1add0b6a902fe7bdee670aa8c22ba0ba38" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a06374bce707629c7e29275247843dbdc" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>classNameInPlural</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a87cd9a0c3fa516fd9cdf7626069d04ef" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>clearAncillaryTexture</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ade418862b335dd00f35d9d01a05cd5d4" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ab6ad9701b096f682ec724b60ba88370a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1aea5a1bfef369efcb98725da5245b7fea" prot="package" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>Const_ObjectMeshHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a9758321d9086558801c80ec23716d61c" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>Const_ObjectMeshHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a9ab567d82d92938ae566eb42b5e0fa5f" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>Const_ObjectMeshHolder</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a8aa8a19cc451c3ad0c7a2fc6f5a18430" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a99592bc26747bb4ac342e886f3762dcf" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>copyColors</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a919fbb7d7807eae2839b42c03ad40594" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>copyTextureAndColors</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a4e4575bd4a237f932713462a750188f4" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>creases</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1abed6b908b95ea64eb3480dd1635bc93f" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>data</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1aa12844b3bb74ef520a4fd8ab548ab1e8" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ab39ade7a1072c8c36d6114eb1a85be28" prot="protected" virt="virtual"><scope>MR::ObjectMeshHolder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1af1277d2a14b464185e9c5f0b63916996" prot="public" virt="virtual"><scope>MR::ObjectMeshHolder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a9b200abcadc347a3f8c42666546be627" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>flatShading</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a61971d87453fa9db67435f0f30ea1388" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ab3d65fde9d0320fb4e36e770c46506ca" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1af73bb3484f1146f2d1bf778603b18730" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getAncillaryTexture</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1aabb5c16cb31c018d0c370cfaf796f31e" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getAncillaryUVCoords</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a6ef4289ba2d0ae7b592086f8377375de" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a98b094b1166b0e19ea758b176d23b71c" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a1f8e535fd3ec5453bbab3cbff6782b72" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getBordersColor</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a585559234a2e5b5707514d14d26e6b41" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getBordersColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a3d24cf83f2f87e964d9646d8e91399ad" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a3aad8526f69c276ed5a8b996348a1f96" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a329e0f6bbbcae4679324147015f134bb" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a15ec300ad86160afff4086fa8e96aa0d" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getEdgesColor</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a7a71e03e06a3b7f68e859a4e84e10b27" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getEdgesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a00c080063f9531044068c54ce65bff8c" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getEdgeWidth</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a960c62148044ae6a8b9e412835eb6df5" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getFacesColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ae10fce5edfb0746171136360a516d8e6" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1adf3b27e068e23227c5117b64a960c27d" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a1e865fbfe5b7ac8b4cec1222bc56fa05" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a63b9a79e87d56e3a50323b569c85d56d" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1afd1f1dc9d8cae625fd77b6adf628e339" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a6f5ab9e213b10d16ddff6cad9823cffc" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1aa5b43926bff98f1db228ca1524564b71" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getPointsColor</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1aae846c8ffdfe95698de71b6ab399ea09" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getPointsColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a53be2bc1280ebd449c218f139607b878" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a04b43b1214b9fe1c41e9e8419537d6ef" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a26de9d815e4248a08474b2d1cc792f81" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getSelectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1afd96dc7cd0a745dbccc10c6301c7b6b3" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getSelectedEdgesColor</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1af4d19598c0546717a1ffc9da2b720475" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getSelectedEdgesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a58f0479240b857c3c4d36f8c62b2a337" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getSelectedFaces</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a9bcf718dda3bdfbcfbcc4295df517326" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getSelectedFacesColor</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a5e8ca1f73df28a0057256b3a5c900935" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getSelectedFacesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ab72e8a2613e0311270fdb06ae90e9be7" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ab97d4ca11262020a3535fb0275282c15" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1acab0e5742089f3f73b0a518a1a68fb1a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ad74a3e0cc943359258bbb02e6d617600" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getTexture</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ac91a8fccc672983e0b2e7e5d8d4566d4" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getTexturePerFace</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a1beec9d6b68fdeb175a564ef7f1c4207" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getTextures</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1aa64907329afe0b30670e3651ba5edccf" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getUVCoords</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a0d62a28e04efe0129d1b031161cd5324" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a33853b8c553a49d632570d9493f01f10" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a69e904cee52c3bc9b407e9eb3dc12663" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a94df9c7c86d099759a44dd921dbc52b4" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a1e6e319456187763320200b526b2ed00" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1acf790e3cfa8b0678296fc71d42ba95bb" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a57f66f435a8fd11fa77bb6305740981c" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a945b340a0617ddb7eec666838d3351e8" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1afa1f222c23044a5bba6034d1679b1334" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a63b16bbaecae4fb557c3a608749a7b6f" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>hasAncillaryTexture</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1aed268569cf359fd4653851ffea563556" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ad01b9b9dbbc69bf9a9d20d0baf0cf8d5" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a1384987774d935cc0792eaf0954a3214" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a04cf2719145f33c3393484dbfeb39671" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>invalidateMetricsCache</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1afa17bb89359a92b9522c5f516733d6f1" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a9dab6d6cc003489bc6dfc0c00c2c8e4c" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a3c4cb662f303c0c1cd7dc744455219c8" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a05f9783b3faf03bcf1b85d6a6bb79bac" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a54294e5e53aa8c27d00eafe97dee8008" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>isMeshClosed</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ae49d24cb0ae0aa7e3f222f6abf0bca30" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1aad6cd89ca1bb78d29c84439fdeccd580" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ade54a6bfc963b1a2a5a84cc7ab051250" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a58a84ca1213b9b29754cb3f66b384940" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a27141ad37dfd94cce1beb8891291f7f8" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>mesh</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a0b5d09295b2d681257dc3b70d4404e17" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>meshPart</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ad0dd8fa55b36ae14cc0d611d9c660d47" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a0546f63b53a293ff9a5922a0e14a2ab7" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>numComponents</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a656bc3c541922b57513d12e6ce90e6c3" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>numCreaseEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ad2de8629358a7d3c0685b3aa43299df6" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>numHandles</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a6d8bced425d863a1450ac2ac2185b325" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>numHoles</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1aec0da9802edfc16d0d301762b7b0e264" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>numSelectedEdges</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a99686cc90d7db3174ef4433f49e1679b" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>numSelectedFaces</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a5f80dcaa432dd15a5e1c1771e6045679" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>numUndirectedEdges</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a0b35ac9f441c083d65ce04352a159dec" prot="package" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>ObjectMeshHolder</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1abfc942737d8ce471b5a6349f01b7086f" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>ObjectMeshHolder</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1acc3f910a7c7374e5b17352a18277b1bc" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>ObjectMeshHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1aefc2caa3bf4868e055209273ee55fc87" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>operator Const_ObjectMeshHolder?</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a81566a88adf3541bac3f83a5f032c84c" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>operator Const_ObjectMeshHolder?</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a6cbc0677be2952c4a75ef96aa92a9b6d" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a6dd3d4a37ab244b8c2bf760c32b6ba36" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a4857c70aab8f18e201b500488b968b97" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a2d8e598ec6a415c2d0c53e9732771ca6" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a55c416c1b2b2055f8a33d7fe6448c761" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>operator MR.ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1ae244989b534b7268a24a0ba59002d1db" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>operator MR.VisualObject</name></member>
@@ -1915,12 +2006,21 @@
       <member refid="classMR_1_1ObjectMeshHolder_1acd6d89777fb42aac9bd8b23103e8bdb4" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>operator ObjectMeshHolder?</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a125bf69f64575a2cfa44cc003792e7af" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1aad8ea263d26131bf7647a191716f964d" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ae957440c747f425f3083c78f4c99cc40" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a8de2aae9a5542e48ca4f894108784706" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a7c49d3dcbeb5ca4ca1bdb04bc1a4c11b" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>renderUi</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1ad51304bcca61810e53d368e1e0935f90" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a72ca7de2fa9c7cafd4f1ff74675f27e2" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ac914653e4365d35302b9a84fd420b4c4" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1abbb1bbc1c4250daa824a837a3385ada8" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a3ccd329847a161e536ef873d2e5e7335" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1ac14ad990c92e73049a1ad8ff0ed7d0c8" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1abae9da6422af98be599e5e645c991056" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>sameModels</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1ad7a1d375ef9905497db8eaf417b5f79c" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>select</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a267c48037566e0f865d253bfdd816d9f" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>selectedArea</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1ab9cfa967a494fd0bd058a5ea7c930d66" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>selectEdges</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1ae03e6c858e859b6e14cff7b7b676752a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>selectFaces</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1aee3212c509cb8938a7dbea3a8942870c" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>serializeFormat</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a838ace770b5d3be0f15d1caeaa733276" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a8a83e1affe201ab4b190ca9872a7edec" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>setAmbientStrength</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a1d1479bbb2b1924bdb85bb5d7df4412a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>setAncillary</name></member>
@@ -1972,9 +2072,18 @@
       <member refid="classMR_1_1ObjectMeshHolder_1a4a6b16f9a9d89765c8c9d43753b2b58a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a68a9ba60c1670220fe3365dc4bcb448a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>setXf</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a5e8371a4242f6875a5ec1264de1d12c8" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a0063157039fdc41897e0db39bb85cbd2" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a943421f9388aee04926bc94428abeb4a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a5460fc6ec763c0402757d6f4afe7d6a2" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a8b32002f23f5942b4e1091eda9e9f766" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a5583bbf6bf30ac754b8f043611c6461b" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a05851416e72bf0a3a364155c4884582c" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a89674ce226b00b9e4532b781547cd911" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a691e9c49fa92122352a2e70bb7ae817b" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ab880c2fb649b45e46e8c444eaf01beb6" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>tags</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1aaee9ce4cd46962acd4f6b7217232fa19" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a7d02940908fad00b20444e86eb9a3a95" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>totalArea</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a46342cb2481a19a310e931b3a7ae14a3" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>typeName</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a1ae825c9f4283e8d8291c8a1e87e6cac" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>updateAncillaryUVCoords</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a617e3ae865c7bd47369949281b5c205a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>updateData</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1aefabb0af0889099c3907da1c1225b61b" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>updateFacesColorMap</name></member>
@@ -1982,6 +2091,12 @@
       <member refid="classMR_1_1ObjectMeshHolder_1a037a5f3de0832dc77334d3e0b8eae7f3" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>updateTextures</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a2734f2ac157455b6b01e2c67d2b7db67" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>updateUVCoords</name></member>
       <member refid="classMR_1_1ObjectMeshHolder_1a5bfd0582e3690f0482646a87ee3d929a" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>updateVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a7adbfab648dee6108e4597f19d5a3353" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a439c0756815ca35868756839d6871167" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a51725bdcc90b55a8a84e4ebf9a16cf1e" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>volume</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1ae44c77b7d7a36de47dc76a96bbdacae1" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1a85314773ebfb7035a8328f2461bfeaa0" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshHolder_1abab590186529d09435ac035227404000" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

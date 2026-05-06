@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LoadedMeshData" kind="class" language="C#" prot="public">
     <compoundname>MR::LoadedMeshData</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_LoadedMeshData</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__LoadedMeshData" prot="public" virt="non-virtual">MR.Const_LoadedMeshData</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1LoadedMeshData_1acdc5bc631743b158a971d0f4a4eeb3e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref></type>
@@ -260,7 +260,7 @@
         <name>LoadedMeshData</name>
         <qualifiedname>MR.LoadedMeshData.LoadedMeshData</qualifiedname>
         <param>
-          <type>Const_LoadedMeshData</type>
+          <type><ref refid="classMR_1_1Const__LoadedMeshData" kindref="compound">Const_LoadedMeshData</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -325,6 +325,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedMeshData</label>
+        <link refid="classMR_1_1Const__LoadedMeshData"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -338,6 +339,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.LoadedMeshData</label>
         <link refid="classMR_1_1LoadedMeshData"/>
@@ -346,9 +351,13 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedMeshData</label>
+        <link refid="classMR_1_1Const__LoadedMeshData"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_xf</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -360,16 +369,29 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="232" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="233" bodyend="397"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__LoadedMeshData_1ab6c62115d66e1cb3ef82c8f131d72801" prot="protected" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>__ref_storage_duplicatedVertexCount</name></member>
+      <member refid="classMR_1_1Const__LoadedMeshData_1a41e96d270af5388a225332f11a47e3fe" prot="protected" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>__ref_storage_skippedFaceCount</name></member>
+      <member refid="classMR_1_1Const__LoadedMeshData_1a1857faaf8514ec59f63e8cba7375554c" prot="protected" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>__ref_storage_xf</name></member>
       <member refid="classMR_1_1LoadedMeshData_1a0df9f46821410cf98aa9ebf35988fe9b" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__LoadedMeshData_1ad32b2fd74e25f7a0cb971cbc9e32f6a1" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__LoadedMeshData_1a70b169f88e04b6989041230acd88538f" prot="package" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>Const_LoadedMeshData</name></member>
+      <member refid="classMR_1_1Const__LoadedMeshData_1a5fabed110f0fe6a3d3dd909c438a0921" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>Const_LoadedMeshData</name></member>
+      <member refid="classMR_1_1Const__LoadedMeshData_1a1c92667a5efbdc034f7122c018552ca6" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>Const_LoadedMeshData</name></member>
+      <member refid="classMR_1_1Const__LoadedMeshData_1af2c59a1f1052700d24aaa652dc7a0e91" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>Const_LoadedMeshData</name></member>
+      <member refid="classMR_1_1Const__LoadedMeshData_1a38bb618d4e338569090a15ccdb96a8f7" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>Const_LoadedMeshData</name></member>
       <member refid="classMR_1_1LoadedMeshData_1a1e276d9d441d42f8df73e504ebc87bb5" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>creases</name></member>
+      <member refid="classMR_1_1Const__LoadedMeshData_1a8f4197b1317cee8e5440ed7c2c5975b1" prot="protected" virt="virtual"><scope>MR::LoadedMeshData</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LoadedMeshData_1ada1261c3eb2697ec54e422e11104bd3c" prot="public" virt="virtual"><scope>MR::LoadedMeshData</scope><name>Dispose</name></member>
       <member refid="classMR_1_1LoadedMeshData_1a0c67c21d9bad821ae6b87f2190fde054" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>duplicatedVertexCount</name></member>
       <member refid="classMR_1_1LoadedMeshData_1aa16a6e55d93bad85f78b06b3e2badc00" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>faceColors</name></member>
+      <member refid="classMR_1_1Const__LoadedMeshData_1a3e936d2ca8038e7fae3f7a989b7af557" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1LoadedMeshData_1af855cef67ee96622c734607dfd487d71" prot="package" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>LoadedMeshData</name></member>
       <member refid="classMR_1_1LoadedMeshData_1a27fb46dd2c4c31d17c8abb5c8b8f97eb" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>LoadedMeshData</name></member>
       <member refid="classMR_1_1LoadedMeshData_1a17f2a6b7ae51878ac5b3dc668a371507" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>LoadedMeshData</name></member>
       <member refid="classMR_1_1LoadedMeshData_1a480a3178bed64c6945aa906d74ed8b38" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>LoadedMeshData</name></member>
       <member refid="classMR_1_1LoadedMeshData_1a73eb06c4034945c67639c9d97a935c78" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>LoadedMeshData</name></member>
       <member refid="classMR_1_1LoadedMeshData_1a36d53f84ac94f92bc9cfe9a8090129d8" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>mesh</name></member>
+      <member refid="classMR_1_1Const__LoadedMeshData_1aa806ee2a834e14d9a50aaa12e6aeb5d1" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>operator MR.Const_ObjectMeshData</name></member>
       <member refid="classMR_1_1LoadedMeshData_1af56160f2e44c6d881363cc2b9cba0538" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>operator MR.ObjectMeshData</name></member>
       <member refid="classMR_1_1LoadedMeshData_1a833d5615d664a76954339cad537d6584" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>selectedEdges</name></member>
       <member refid="classMR_1_1LoadedMeshData_1ae47075947227a6f2d26b3e5bf7936eee" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>selectedFaces</name></member>

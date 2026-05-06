@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__WeightedVertex" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_WeightedVertex</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1WeightedVertex" prot="public" virt="non-virtual">MR.WeightedVertex</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__WeightedVertex_1ad3edc90f1953d886b53e374db881e1a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe ref readonly MR.VertId MR.Const_WeightedVertex.v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <qualifiedname>MR.Const_WeightedVertex.v</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="25" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__WeightedVertex_1a60416565622833578dc765810d6ecd75" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_WeightedVertex.weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <qualifiedname>MR.Const_WeightedVertex.weight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="28" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__WeightedVertex_1a73257b8abe8e685622eb4f38a929b02b" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> *</type>
+        <definition>unsafe MR.VertId* MR.Const_WeightedVertex.__ref_storage_v</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_v</name>
+        <qualifiedname>MR.Const_WeightedVertex.__ref_storage_v</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="26" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__WeightedVertex_1aba1151986ee120f644f810234889e2ff" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_WeightedVertex.__ref_storage_weight</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_weight</name>
+        <qualifiedname>MR.Const_WeightedVertex.__ref_storage_weight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="29" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__WeightedVertex_1aa1f350000948f212c66ac1894bbb7781" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_WeightedVertex.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_WeightedVertex.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__WeightedVertex_1a6daea963c73f1aff302ecd484d90f21e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_WeightedVertex.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_WeightedVertex.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WeightedVertex_1aeba73ec193569e52da7074047f0f3ee2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WeightedVertex.Const_WeightedVertex</definition>
+        <argsstring>()</argsstring>
+        <name>Const_WeightedVertex</name>
+        <qualifiedname>MR.Const_WeightedVertex.Const_WeightedVertex</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="62" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WeightedVertex_1a1665ba4a968594c97a255017e9757c28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WeightedVertex.Const_WeightedVertex</definition>
+        <argsstring>(MR.VertId v, float weight)</argsstring>
+        <name>Const_WeightedVertex</name>
+        <qualifiedname>MR.Const_WeightedVertex.Const_WeightedVertex</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1WeightedVertex" kindref="compound">MR.WeightedVertex</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="73" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="73" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WeightedVertex_1abbe7c180fe0036197873e6f2241edc9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WeightedVertex.Const_WeightedVertex</definition>
+        <argsstring>(MR.Const_WeightedVertex _other)</argsstring>
+        <name>Const_WeightedVertex</name>
+        <qualifiedname>MR.Const_WeightedVertex.Const_WeightedVertex</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__WeightedVertex" kindref="compound">MR.Const_WeightedVertex</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WeightedVertex_1ad40ed35d2f69ccbdbce7cbd855008150" kindref="member">MR.WeightedVertex.WeightedVertex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="84" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="84" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__WeightedVertex_1aa8aa9889238e777c66c0beffa0318581" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_WeightedVertex.Const_WeightedVertex</definition>
+        <argsstring>(WeightedVertex _other)</argsstring>
+        <name>Const_WeightedVertex</name>
+        <qualifiedname>MR.Const_WeightedVertex.Const_WeightedVertex</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1WeightedVertex" kindref="compound">WeightedVertex</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1WeightedVertex_1ad40ed35d2f69ccbdbce7cbd855008150" kindref="member">MR.WeightedVertex.WeightedVertex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="96" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="96" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__WeightedVertex_1afde3f57bbc15ac78114f88c2c2d4861f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_WeightedVertex.~Const_WeightedVertex</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_WeightedVertex</name>
+        <qualifiedname>MR.Const_WeightedVertex.~Const_WeightedVertex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__WeightedVertex_1af35917972428a8bb85f3fbbda69f06f4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_WeightedVertex.Const_WeightedVertex</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_WeightedVertex</name>
+        <qualifiedname>MR.Const_WeightedVertex.Const_WeightedVertex</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="51" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="51" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1WeightedVertex" kindref="compound">MR.WeightedVertex</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_WeightedVertex</label>
+        <link refid="classMR_1_1Const__WeightedVertex"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.WeightedVertex</label>
+        <link refid="classMR_1_1WeightedVertex"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_WeightedVertex</label>
+        <link refid="classMR_1_1Const__WeightedVertex"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_v</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTriPoint.cs" bodystart="8" bodyend="97"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__WeightedVertex_1a73257b8abe8e685622eb4f38a929b02b" prot="protected" virt="non-virtual"><scope>MR::Const_WeightedVertex</scope><name>__ref_storage_v</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1aba1151986ee120f644f810234889e2ff" prot="protected" virt="non-virtual"><scope>MR::Const_WeightedVertex</scope><name>__ref_storage_weight</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1af35917972428a8bb85f3fbbda69f06f4" prot="package" virt="non-virtual"><scope>MR::Const_WeightedVertex</scope><name>Const_WeightedVertex</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1aeba73ec193569e52da7074047f0f3ee2" prot="public" virt="non-virtual"><scope>MR::Const_WeightedVertex</scope><name>Const_WeightedVertex</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1a1665ba4a968594c97a255017e9757c28" prot="public" virt="non-virtual"><scope>MR::Const_WeightedVertex</scope><name>Const_WeightedVertex</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1abbe7c180fe0036197873e6f2241edc9d" prot="public" virt="non-virtual"><scope>MR::Const_WeightedVertex</scope><name>Const_WeightedVertex</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1aa8aa9889238e777c66c0beffa0318581" prot="public" virt="non-virtual"><scope>MR::Const_WeightedVertex</scope><name>Const_WeightedVertex</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1aa1f350000948f212c66ac1894bbb7781" prot="protected" virt="virtual"><scope>MR::Const_WeightedVertex</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1a6daea963c73f1aff302ecd484d90f21e" prot="public" virt="virtual"><scope>MR::Const_WeightedVertex</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1ad3edc90f1953d886b53e374db881e1a1" prot="public" virt="non-virtual"><scope>MR::Const_WeightedVertex</scope><name>v</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1a60416565622833578dc765810d6ecd75" prot="public" virt="non-virtual"><scope>MR::Const_WeightedVertex</scope><name>weight</name></member>
+      <member refid="classMR_1_1Const__WeightedVertex_1afde3f57bbc15ac78114f88c2c2d4861f" prot="private" virt="non-virtual"><scope>MR::Const_WeightedVertex</scope><name>~Const_WeightedVertex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

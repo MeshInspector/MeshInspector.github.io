@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VolumeSegmentationParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VolumeSegmentationParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VolumeSegmentationParameters" prot="public" virt="non-virtual">MR.VolumeSegmentationParameters</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__VolumeSegmentationParameters_1a7d8105dd96ce0cd6987710e6cb5950a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_VolumeSegmentationParameters.buildPathExponentModifier</definition>
+        <argsstring></argsstring>
+        <name>buildPathExponentModifier</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.buildPathExponentModifier</qualifiedname>
+        <briefdescription>
+<para>Exponent modifier of path building metric (paths are built between voxel pairs and then marked as tooth seed) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="30" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__VolumeSegmentationParameters_1aef488e531dab36d0d32450368a5bde4a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_VolumeSegmentationParameters.segmentationExponentModifier</definition>
+        <argsstring></argsstring>
+        <name>segmentationExponentModifier</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.segmentationExponentModifier</qualifiedname>
+        <briefdescription>
+<para>Exponent modifier of graph cutting metric (volume presents graph with seeds, this graph are min cut) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="36" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__VolumeSegmentationParameters_1aa32c1e97cc8c4fddd32480e1df81bf34" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_VolumeSegmentationParameters.voxelsExpansion</definition>
+        <argsstring></argsstring>
+        <name>voxelsExpansion</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.voxelsExpansion</qualifiedname>
+        <briefdescription>
+<para>Segment box expansion (only part of volume are segmented, this parameter shows how much to expand this part) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="42" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__VolumeSegmentationParameters_1ad37841e0eb7b574f0c1bc83e9b9e3ad9" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_VolumeSegmentationParameters.__ref_storage_buildPathExponentModifier</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_buildPathExponentModifier</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.__ref_storage_buildPathExponentModifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="31" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__VolumeSegmentationParameters_1a24a3f00a3481ac610632b6598f591f36" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_VolumeSegmentationParameters.__ref_storage_segmentationExponentModifier</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_segmentationExponentModifier</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.__ref_storage_segmentationExponentModifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="37" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__VolumeSegmentationParameters_1abdd3355a5f3f9f2a9e10b0f6e7865839" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_VolumeSegmentationParameters.__ref_storage_voxelsExpansion</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_voxelsExpansion</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.__ref_storage_voxelsExpansion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="43" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmentationParameters_1a738a91403b12ff69b0fcb136833a73db" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_VolumeSegmentationParameters.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="15" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmentationParameters_1a1b015d69bfcc09ba6cdb093df111d1b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_VolumeSegmentationParameters.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmentationParameters_1aa9c0935c2ad2d485558f962b128e617e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VolumeSegmentationParameters.Const_VolumeSegmentationParameters</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VolumeSegmentationParameters</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.Const_VolumeSegmentationParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="82" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="82" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmentationParameters_1af947f18ce977ca48ca0b24c5b7811ab4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VolumeSegmentationParameters.Const_VolumeSegmentationParameters</definition>
+        <argsstring>(float buildPathExponentModifier, float segmentationExponentModifier, int voxelsExpansion)</argsstring>
+        <name>Const_VolumeSegmentationParameters</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.Const_VolumeSegmentationParameters</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>buildPathExponentModifier</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>segmentationExponentModifier</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>voxelsExpansion</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1VolumeSegmentationParameters" kindref="compound">MR.VolumeSegmentationParameters</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="93" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="93" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmentationParameters_1a474791df2392ffa3c7414e9874703baa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VolumeSegmentationParameters.Const_VolumeSegmentationParameters</definition>
+        <argsstring>(MR.Const_VolumeSegmentationParameters _other)</argsstring>
+        <name>Const_VolumeSegmentationParameters</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.Const_VolumeSegmentationParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VolumeSegmentationParameters" kindref="compound">MR.Const_VolumeSegmentationParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VolumeSegmentationParameters_1ac5d32997b3f626808fc0dff68bd9f7fa" kindref="member">MR.VolumeSegmentationParameters.VolumeSegmentationParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="104" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="104" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmentationParameters_1a076bf2cb20abf3d171058ace9bb4cdf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VolumeSegmentationParameters.Const_VolumeSegmentationParameters</definition>
+        <argsstring>(VolumeSegmentationParameters _other)</argsstring>
+        <name>Const_VolumeSegmentationParameters</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.Const_VolumeSegmentationParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VolumeSegmentationParameters" kindref="compound">VolumeSegmentationParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VolumeSegmentationParameters_1ac5d32997b3f626808fc0dff68bd9f7fa" kindref="member">MR.VolumeSegmentationParameters.VolumeSegmentationParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="116" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmentationParameters_1ac598e964be3014ceff3a2e9f69e80070" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VolumeSegmentationParameters.~Const_VolumeSegmentationParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VolumeSegmentationParameters</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.~Const_VolumeSegmentationParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VolumeSegmentationParameters_1a4220aceedc649ae86e4e83e1730ff340" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VolumeSegmentationParameters.Const_VolumeSegmentationParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VolumeSegmentationParameters</name>
+        <qualifiedname>MR.Const_VolumeSegmentationParameters.Const_VolumeSegmentationParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="71" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="71" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters for volume segmentation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classMR_1a570164c9fa738330e4096fc83af4e60d" kindref="member">segmentVolume</ref> Generated from class <computeroutput><ref refid="classMR_1_1VolumeSegmentationParameters" kindref="compound">MR.VolumeSegmentationParameters</ref></computeroutput>. This is the const half of the class. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_VolumeSegmentationParameters</label>
+        <link refid="classMR_1_1Const__VolumeSegmentationParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.VolumeSegmentationParameters</label>
+        <link refid="classMR_1_1VolumeSegmentationParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_VolumeSegmentationParameters</label>
+        <link refid="classMR_1_1Const__VolumeSegmentationParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVolumeSegment.cs" bodystart="10" bodyend="117"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1ad37841e0eb7b574f0c1bc83e9b9e3ad9" prot="protected" virt="non-virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>__ref_storage_buildPathExponentModifier</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1a24a3f00a3481ac610632b6598f591f36" prot="protected" virt="non-virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>__ref_storage_segmentationExponentModifier</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1abdd3355a5f3f9f2a9e10b0f6e7865839" prot="protected" virt="non-virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>__ref_storage_voxelsExpansion</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1a7d8105dd96ce0cd6987710e6cb5950a5" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>buildPathExponentModifier</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1a4220aceedc649ae86e4e83e1730ff340" prot="package" virt="non-virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>Const_VolumeSegmentationParameters</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1aa9c0935c2ad2d485558f962b128e617e" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>Const_VolumeSegmentationParameters</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1af947f18ce977ca48ca0b24c5b7811ab4" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>Const_VolumeSegmentationParameters</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1a474791df2392ffa3c7414e9874703baa" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>Const_VolumeSegmentationParameters</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1a076bf2cb20abf3d171058ace9bb4cdf5" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>Const_VolumeSegmentationParameters</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1a738a91403b12ff69b0fcb136833a73db" prot="protected" virt="virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1a1b015d69bfcc09ba6cdb093df111d1b4" prot="public" virt="virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1aef488e531dab36d0d32450368a5bde4a" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>segmentationExponentModifier</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1aa32c1e97cc8c4fddd32480e1df81bf34" prot="public" virt="non-virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>voxelsExpansion</name></member>
+      <member refid="classMR_1_1Const__VolumeSegmentationParameters_1ac598e964be3014ceff3a2e9f69e80070" prot="private" virt="non-virtual"><scope>MR::Const_VolumeSegmentationParameters</scope><name>~Const_VolumeSegmentationParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

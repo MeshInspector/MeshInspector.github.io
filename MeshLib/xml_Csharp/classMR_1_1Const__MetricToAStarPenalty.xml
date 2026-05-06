@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MetricToAStarPenalty" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MetricToAStarPenalty</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MetricToAStarPenalty" prot="public" virt="non-virtual">MR.MetricToAStarPenalty</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__MetricToAStarPenalty_1a6fd9d0a778ed2b41eff517d39025ac2f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__VertCoords" kindref="compound">Const_VertCoords</ref></type>
+        <definition>unsafe MR.? Const_VertCoords MR.Const_MetricToAStarPenalty.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <qualifiedname>MR.Const_MetricToAStarPenalty.points</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1492" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1493" bodyend="1504"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MetricToAStarPenalty_1a6e4e165459eb2df4353706e3e1105263" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Const_MetricToAStarPenalty.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <qualifiedname>MR.Const_MetricToAStarPenalty.target</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1507" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1507" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__MetricToAStarPenalty_1acc20dc4b6120920a4157488482c0a5d0" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_VertCoords._Underlying **</type>
+        <definition>unsafe MR.Const_VertCoords._Underlying** MR.Const_MetricToAStarPenalty.__ptr_storage_points</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_points</name>
+        <qualifiedname>MR.Const_MetricToAStarPenalty.__ptr_storage_points</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1505" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1505" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__MetricToAStarPenalty_1a04858f5470ceb49d41da5d34b5c469fe" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Const_MetricToAStarPenalty.__ref_storage_target</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_target</name>
+        <qualifiedname>MR.Const_MetricToAStarPenalty.__ref_storage_target</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1508" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1508" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MetricToAStarPenalty_1a902055d534f2cd761486d1aa049cdf74" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MetricToAStarPenalty.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MetricToAStarPenalty.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1480" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1480" bodyend="1488"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MetricToAStarPenalty_1ab352ee1dbc977e526ec867655424779e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MetricToAStarPenalty.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MetricToAStarPenalty.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1489" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1489" bodyend="1489"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MetricToAStarPenalty_1a51990eacd7961f703d8e0f6b03c190b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MetricToAStarPenalty.Const_MetricToAStarPenalty</definition>
+        <argsstring>()</argsstring>
+        <name>Const_MetricToAStarPenalty</name>
+        <qualifiedname>MR.Const_MetricToAStarPenalty.Const_MetricToAStarPenalty</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1541" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1541" bodyend="1547"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MetricToAStarPenalty_1ab56e863910dced01a5b7ccf17c0e745c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MetricToAStarPenalty.Const_MetricToAStarPenalty</definition>
+        <argsstring>(MR.Const_VertCoords? points, MR.Vector3f target)</argsstring>
+        <name>Const_MetricToAStarPenalty</name>
+        <qualifiedname>MR.Const_MetricToAStarPenalty.Const_MetricToAStarPenalty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref>?</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MetricToAStarPenalty" kindref="compound">MR.MetricToAStarPenalty</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1552" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1552" bodyend="1559"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MetricToAStarPenalty_1a4463b763006a35451f059364c66fa594" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MetricToAStarPenalty.Const_MetricToAStarPenalty</definition>
+        <argsstring>(MR.Const_MetricToAStarPenalty _other)</argsstring>
+        <name>Const_MetricToAStarPenalty</name>
+        <qualifiedname>MR.Const_MetricToAStarPenalty.Const_MetricToAStarPenalty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MetricToAStarPenalty" kindref="compound">MR.Const_MetricToAStarPenalty</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MetricToAStarPenalty_1af3ba5376cee8adf2478cca78a3dff7c3" kindref="member">MR.MetricToAStarPenalty.MetricToAStarPenalty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1564" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1564" bodyend="1571"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MetricToAStarPenalty_1a6e48618f3fffa5d322678c14de6c2707" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MetricToAStarPenalty.Const_MetricToAStarPenalty</definition>
+        <argsstring>(MetricToAStarPenalty _other)</argsstring>
+        <name>Const_MetricToAStarPenalty</name>
+        <qualifiedname>MR.Const_MetricToAStarPenalty.Const_MetricToAStarPenalty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MetricToAStarPenalty" kindref="compound">MetricToAStarPenalty</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MetricToAStarPenalty_1af3ba5376cee8adf2478cca78a3dff7c3" kindref="member">MR.MetricToAStarPenalty.MetricToAStarPenalty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1576" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1576" bodyend="1576"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MetricToAStarPenalty_1acef9039f69981994dac07f2e8a378903" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_MetricToAStarPenalty.call</definition>
+        <argsstring>(float metric, MR.VertId v)</argsstring>
+        <name>call</name>
+        <qualifiedname>MR.Const_MetricToAStarPenalty.call</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::MetricToAStarPenalty::operator()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1581" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1581" bodyend="1586"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MetricToAStarPenalty_1a37c962086f831cb3318b099f6f17e49b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MetricToAStarPenalty.~Const_MetricToAStarPenalty</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_MetricToAStarPenalty</name>
+        <qualifiedname>MR.Const_MetricToAStarPenalty.~Const_MetricToAStarPenalty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1490" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1490" bodyend="1490"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MetricToAStarPenalty_1a768d55e8f8f18977928694a448beb141" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MetricToAStarPenalty.Const_MetricToAStarPenalty</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_MetricToAStarPenalty</name>
+        <qualifiedname>MR.Const_MetricToAStarPenalty.Const_MetricToAStarPenalty</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1530" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1530" bodyend="1535"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>the vertices in the queue are ordered by the sum of their metric from a start location and the lower bound of a path till target point (A* heuristic) Generated from class <computeroutput><ref refid="classMR_1_1MetricToAStarPenalty" kindref="compound">MR.MetricToAStarPenalty</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MetricToAStarPenalty</label>
+        <link refid="classMR_1_1Const__MetricToAStarPenalty"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.MetricToAStarPenalty</label>
+        <link refid="classMR_1_1MetricToAStarPenalty"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_MetricToAStarPenalty</label>
+        <link refid="classMR_1_1Const__MetricToAStarPenalty"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_points</edgelabel>
+          <edgelabel>__ref_storage_target</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" line="1474" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgePathsBuilder.cs" bodystart="1475" bodyend="1587"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1acc20dc4b6120920a4157488482c0a5d0" prot="protected" virt="non-virtual"><scope>MR::Const_MetricToAStarPenalty</scope><name>__ptr_storage_points</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a04858f5470ceb49d41da5d34b5c469fe" prot="protected" virt="non-virtual"><scope>MR::Const_MetricToAStarPenalty</scope><name>__ref_storage_target</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1acef9039f69981994dac07f2e8a378903" prot="public" virt="non-virtual"><scope>MR::Const_MetricToAStarPenalty</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a768d55e8f8f18977928694a448beb141" prot="package" virt="non-virtual"><scope>MR::Const_MetricToAStarPenalty</scope><name>Const_MetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a51990eacd7961f703d8e0f6b03c190b0" prot="public" virt="non-virtual"><scope>MR::Const_MetricToAStarPenalty</scope><name>Const_MetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1ab56e863910dced01a5b7ccf17c0e745c" prot="public" virt="non-virtual"><scope>MR::Const_MetricToAStarPenalty</scope><name>Const_MetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a4463b763006a35451f059364c66fa594" prot="public" virt="non-virtual"><scope>MR::Const_MetricToAStarPenalty</scope><name>Const_MetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a6e48618f3fffa5d322678c14de6c2707" prot="public" virt="non-virtual"><scope>MR::Const_MetricToAStarPenalty</scope><name>Const_MetricToAStarPenalty</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a902055d534f2cd761486d1aa049cdf74" prot="protected" virt="virtual"><scope>MR::Const_MetricToAStarPenalty</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1ab352ee1dbc977e526ec867655424779e" prot="public" virt="virtual"><scope>MR::Const_MetricToAStarPenalty</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a6fd9d0a778ed2b41eff517d39025ac2f" prot="public" virt="non-virtual"><scope>MR::Const_MetricToAStarPenalty</scope><name>points</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a6e4e165459eb2df4353706e3e1105263" prot="public" virt="non-virtual"><scope>MR::Const_MetricToAStarPenalty</scope><name>target</name></member>
+      <member refid="classMR_1_1Const__MetricToAStarPenalty_1a37c962086f831cb3318b099f6f17e49b" prot="private" virt="non-virtual"><scope>MR::Const_MetricToAStarPenalty</scope><name>~Const_MetricToAStarPenalty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -188,7 +188,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases </dd></dl>
+<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area if enabled returned meshes will not be stitched but merged, consider <a class="el" href="group__GeneralGroup.html#gafd13ce716b18402ee77952081cf52e40">MR::MeshBuilder::uniteCloseVertices</a> and <a class="el" href="group__FillHoleGroup.html#ga1829ba14703d9aca13dbb785ea1794d0">MR::fillHoles</a> afterwards </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases </dd></dl>
 
 </div>
 </div>

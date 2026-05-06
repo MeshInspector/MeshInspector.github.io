@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SetBitIteratorT__MRGraphVertBitSet" kind="class" language="C#" prot="public">
     <compoundname>MR::SetBitIteratorT_MRGraphVertBitSet</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRGraphVertBitSet</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet" prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRGraphVertBitSet</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRGraphVertBitSet_1a9aa8232243e2f69b40e86e9260048660" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>SetBitIteratorT_MRGraphVertBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRGraphVertBitSet.SetBitIteratorT_MRGraphVertBitSet</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIteratorT_MRGraphVertBitSet</type>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRGraphVertBitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>SetBitIteratorT_MRGraphVertBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRGraphVertBitSet.SetBitIteratorT_MRGraphVertBitSet</qualifiedname>
         <param>
-          <type>MR.Const_GraphVertBitSet</type>
+          <type><ref refid="classMR_1_1Const__GraphVertBitSet" kindref="compound">MR.Const_GraphVertBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -107,11 +107,11 @@
         <name>assign</name>
         <qualifiedname>MR.SetBitIteratorT_MRGraphVertBitSet.assign</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIteratorT_MRGraphVertBitSet</type>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRGraphVertBitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,7 +126,7 @@
         <name>incr</name>
         <qualifiedname>MR.SetBitIteratorT_MRGraphVertBitSet.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;amp;gt;::operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;gt;<ref refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1aff8e3e311321ca48e8ab02e869c91b81" kindref="member">operator++</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,11 +143,11 @@
         <name>operator SetBitIteratorT_MRGraphVertBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRGraphVertBitSet.operator SetBitIteratorT_MRGraphVertBitSet</qualifiedname>
         <param>
-          <type>MR.Const_GraphVertBitSet</type>
+          <type><ref refid="classMR_1_1Const__GraphVertBitSet" kindref="compound">MR.Const_GraphVertBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -157,7 +157,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIteratorT_MRGraphVertBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIteratorT_MRGraphVertBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,8 +218,23 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="16190" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="16191" bodyend="16259"/>
     <listofallmembers>
       <member refid="classMR_1_1SetBitIteratorT__MRGraphVertBitSet_1aa6d6e2e32d6c33e7831ac7ee8d68391d" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1a875b2776566a359ef54d395648e38519" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>bitset</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1ab479ecf3e53734f3a6f984f5740383cc" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>Const_SetBitIteratorT_MRGraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1affa2178c123901f734b6c02bdd6ac79b" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>Const_SetBitIteratorT_MRGraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1a5a7322fceb8fc79566bc45ae48188144" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>Const_SetBitIteratorT_MRGraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1a02ac9bb8c77f10ac296c00bcdd9a47f7" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>Const_SetBitIteratorT_MRGraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1a1cb5cd1742cc5cbe462c7ac2e867f6f5" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>Const_SetBitIteratorT_MRGraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1a09fc8179072febde5140a0e39e9be500" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1ae5aa0f533f0e6b2614410a4908798f55" prot="protected" virt="virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1ae8ac8c2c53c9946e424b53a83cd2e22f" prot="public" virt="virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1a8bb2a67992b680c8dea8927c3276488e" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1ad7ee04a3d6f3794684630345325189f4" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>Equals</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRGraphVertBitSet_1a99a2b1ea8e0c5f60964adda501e69074" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1a0f406a9be6198fdd9b55bf71e3950b6b" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>operator Const_SetBitIteratorT_MRGraphVertBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRGraphVertBitSet_1a0383c51b85349bc5aff46f605a4680a0" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>operator SetBitIteratorT_MRGraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1a2e6b7e4a91e12776042062f081099d42" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1aff8e3e311321ca48e8ab02e869c91b81" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRGraphVertBitSet_1af1b11447b42e9f5cd8297694cb1c051d" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>operator==</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRGraphVertBitSet_1a9aa8232243e2f69b40e86e9260048660" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>SetBitIteratorT_MRGraphVertBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRGraphVertBitSet_1a6d98265db465b85dde2b06780d047355" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>SetBitIteratorT_MRGraphVertBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRGraphVertBitSet_1a4858206f1af9375cc2da19b7c4d57fd6" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRGraphVertBitSet</scope><name>SetBitIteratorT_MRGraphVertBitSet</name></member>

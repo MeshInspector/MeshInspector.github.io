@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BMap__MRVertId__MRUint64T" kind="class" language="C#" prot="public">
     <compoundname>MR::BMap_MRVertId_MRUint64T</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BMap_MRVertId_MRUint64T</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BMap__MRVertId__MRUint64T" prot="public" virt="non-virtual">MR.Const_BMap_MRVertId_MRUint64T</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BMap__MRVertId__MRUint64T_1ad9ac5a5ad67e0c5dbb5d656560830f97" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Buffer__MRVertId" kindref="compound">MR.Buffer_MRVertId</ref></type>
@@ -89,7 +89,7 @@
           <declname>tsize</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, MR_uint64_t&amp;amp;gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, MR_uint64_t&amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -108,7 +108,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, MR_uint64_t&amp;amp;gt;::BMap</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, MR_uint64_t&amp;gt;::BMap</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -127,7 +127,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, MR_uint64_t&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, MR_uint64_t&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -137,7 +137,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>flat map: I -&amp;gt; T Generated from class <computeroutput>MR::BMap&amp;amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, MR_uint64_t&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>flat map: I -&gt; T Generated from class <computeroutput>MR::BMap&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, MR_uint64_t&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -150,6 +150,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BMap_MRVertId_MRUint64T</label>
+        <link refid="classMR_1_1Const__BMap__MRVertId__MRUint64T"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -171,6 +172,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BMap_MRVertId_MRUint64T</label>
+        <link refid="classMR_1_1Const__BMap__MRVertId__MRUint64T"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -185,12 +187,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9862" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9863" bodyend="9941"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__BMap__MRVertId__MRUint64T_1abb426ad3e7fa4dfb113c6bb784956550" prot="protected" virt="non-virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>__ref_storage_tsize</name></member>
       <member refid="classMR_1_1BMap__MRVertId__MRUint64T_1acbb35bf770d2331631e8fe02b94260b0" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>assign</name></member>
       <member refid="classMR_1_1BMap__MRVertId__MRUint64T_1ad9ac5a5ad67e0c5dbb5d656560830f97" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>b</name></member>
       <member refid="classMR_1_1BMap__MRVertId__MRUint64T_1a75590a0ac22d37ef121f331e44a7bcea" prot="package" virt="non-virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>BMap_MRVertId_MRUint64T</name></member>
       <member refid="classMR_1_1BMap__MRVertId__MRUint64T_1ade11186ae28ce2f1cb5b8b0477d7b1ef" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>BMap_MRVertId_MRUint64T</name></member>
       <member refid="classMR_1_1BMap__MRVertId__MRUint64T_1a35a236d511dceb58ee74b2e62114dd24" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>BMap_MRVertId_MRUint64T</name></member>
       <member refid="classMR_1_1BMap__MRVertId__MRUint64T_1a07aa237ef9f5bbf698f116dd147144e1" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>BMap_MRVertId_MRUint64T</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVertId__MRUint64T_1a83c56ffc9e97c2492429b541bb3881cd" prot="package" virt="non-virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>Const_BMap_MRVertId_MRUint64T</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVertId__MRUint64T_1ad16954a879992ca5d202da5f4be32f17" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>Const_BMap_MRVertId_MRUint64T</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVertId__MRUint64T_1af4f689ff8a8d6f259a4e5eb8eaeff26b" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>Const_BMap_MRVertId_MRUint64T</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVertId__MRUint64T_1a5ed7ded9a608daa72bbca7861cea0c0c" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>Const_BMap_MRVertId_MRUint64T</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVertId__MRUint64T_1a869109fb88c495b68ad0241183c80729" prot="protected" virt="virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BMap__MRVertId__MRUint64T_1a7b856cdd6682a6f28efe58ec47cc465b" prot="public" virt="virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>Dispose</name></member>
       <member refid="classMR_1_1BMap__MRVertId__MRUint64T_1a277d0c822aa03a3c6b3a8abf44cf288c" prot="public" virt="non-virtual"><scope>MR::BMap_MRVertId_MRUint64T</scope><name>tsize</name></member>
     </listofallmembers>
   </compounddef>

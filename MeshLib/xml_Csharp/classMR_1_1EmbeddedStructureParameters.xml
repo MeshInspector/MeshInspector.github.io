@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1EmbeddedStructureParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::EmbeddedStructureParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_EmbeddedStructureParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__EmbeddedStructureParameters" prot="public" virt="non-virtual">MR.Const_EmbeddedStructureParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1EmbeddedStructureParameters_1a41614ef4ba74554412790186c323a4b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -193,7 +193,7 @@
         <name>EmbeddedStructureParameters</name>
         <qualifiedname>MR.EmbeddedStructureParameters.EmbeddedStructureParameters</qualifiedname>
         <param>
-          <type>MR.Const_EmbeddedStructureParameters</type>
+          <type><ref refid="classMR_1_1Const__EmbeddedStructureParameters" kindref="compound">MR.Const_EmbeddedStructureParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -231,7 +231,7 @@
         <name>assign</name>
         <qualifiedname>MR.EmbeddedStructureParameters.assign</qualifiedname>
         <param>
-          <type>MR.Const_EmbeddedStructureParameters</type>
+          <type><ref refid="classMR_1_1Const__EmbeddedStructureParameters" kindref="compound">MR.Const_EmbeddedStructureParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -258,6 +258,7 @@
       </node>
       <node id="2">
         <label>MR.Const_EmbeddedStructureParameters</label>
+        <link refid="classMR_1_1Const__EmbeddedStructureParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -271,6 +272,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.EmbeddedStructureParameters</label>
         <link refid="classMR_1_1EmbeddedStructureParameters"/>
@@ -279,9 +284,16 @@
       </node>
       <node id="2">
         <label>MR.Const_EmbeddedStructureParameters</label>
+        <link refid="classMR_1_1Const__EmbeddedStructureParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_new2oldFaces</edgelabel>
+          <edgelabel>__ptr_storage_outCutFaces</edgelabel>
+          <edgelabel>__ptr_storage_outFillFaces</edgelabel>
+          <edgelabel>__ptr_storage_outStructFaces</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -293,8 +305,22 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" line="209" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREmbedTerrainStructure.cs" bodystart="210" bodyend="335"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a653bbf055a2191768f320545960a51b2" prot="protected" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>__ptr_storage_new2oldFaces</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a550d666be000fe3ddb8dd236650a02a1" prot="protected" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>__ptr_storage_outCutFaces</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a9e9da76f3411eb2107d19fb419bf9dd6" prot="protected" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>__ptr_storage_outFillFaces</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a68c38338cbeb4a2e1d1a3d3108629c5a" prot="protected" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>__ptr_storage_outStructFaces</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a46b0f00ff55432797b36d6e7f3e3cf98" prot="protected" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>__ref_storage_cutAngle</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a0ba1b49f84cf14d4169bf9b04b54f6c9" prot="protected" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>__ref_storage_fillAngle</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a13dfdb59c38bd674d14ac6ad9e597557" prot="protected" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>__ref_storage_minAnglePrecision</name></member>
       <member refid="classMR_1_1EmbeddedStructureParameters_1a59754e4b92856fbd47a861d8deaf424d" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a9d8bd478db209fbd3a38f49b145264f8" prot="package" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>Const_EmbeddedStructureParameters</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a566ad505b4ca0ea57c241a8277e16a01" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>Const_EmbeddedStructureParameters</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a52987f588129b9fd7d048a823afb6e8a" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>Const_EmbeddedStructureParameters</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a0e0c3d95da631f4678fc2fb033d707c3" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>Const_EmbeddedStructureParameters</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1ac534ecf6a026b1f329788f590ca5d86c" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>Const_EmbeddedStructureParameters</name></member>
       <member refid="classMR_1_1EmbeddedStructureParameters_1a23c1d0313b51fa09aa031998efd5b730" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>cutAngle</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1ab382623ade505d63a317a57ba705e5df" prot="protected" virt="virtual"><scope>MR::EmbeddedStructureParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__EmbeddedStructureParameters_1a1338cba0a2c25c7b2ef9bd7360fdbabd" prot="public" virt="virtual"><scope>MR::EmbeddedStructureParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1EmbeddedStructureParameters_1ade8450f21d0a089e884c088c0b0ede99" prot="package" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>EmbeddedStructureParameters</name></member>
       <member refid="classMR_1_1EmbeddedStructureParameters_1a8aab7cac34585a5b6eeefef6d7f3d0fe" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>EmbeddedStructureParameters</name></member>
       <member refid="classMR_1_1EmbeddedStructureParameters_1aaaa62bbd2fd422ec831786bd5b2440b5" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>EmbeddedStructureParameters</name></member>

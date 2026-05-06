@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelTraits_MRVectorFloatMRVoxelId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelTraits_MRVectorFloatMRVoxelId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId" prot="public" virt="non-virtual">MR.Const_VoxelTraits_MRVectorFloatMRVoxelId</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1a466303ff0f50f4276b57b002030e5949" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>VoxelTraits_MRVectorFloatMRVoxelId</name>
         <qualifiedname>MR.VoxelTraits_MRVectorFloatMRVoxelId.VoxelTraits_MRVectorFloatMRVoxelId</qualifiedname>
         <param>
-          <type>MR.Const_VoxelTraits_MRVectorFloatMRVoxelId</type>
+          <type><ref refid="classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId" kindref="compound">MR.Const_VoxelTraits_MRVectorFloatMRVoxelId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;amp;lt;MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;&amp;amp;gt;::VoxelTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;lt;MR::Vector&amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;&amp;gt;::VoxelTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;amp;lt;MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;&amp;amp;gt;::VoxelTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;lt;MR::Vector&amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;&amp;gt;::VoxelTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.VoxelTraits_MRVectorFloatMRVoxelId.assign</qualifiedname>
         <param>
-          <type>MR.Const_VoxelTraits_MRVectorFloatMRVoxelId</type>
+          <type><ref refid="classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId" kindref="compound">MR.Const_VoxelTraits_MRVectorFloatMRVoxelId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::VoxelTraits&amp;amp;lt;MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::VoxelTraits&amp;lt;MR::Vector&amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -102,7 +102,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::VoxelTraits&amp;amp;lt;MR::Vector&amp;amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;amp;gt;&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::VoxelTraits&amp;lt;MR::Vector&amp;lt;float, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&amp;gt;&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelTraits_MRVectorFloatMRVoxelId</label>
+        <link refid="classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelTraits_MRVectorFloatMRVoxelId</label>
+        <link refid="classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3357" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3358" bodyend="3398"/>
     <listofallmembers>
       <member refid="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1ae1650012699cf2c1d40e8cbbca8465fe" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId_1a0b50bdd71be4c2464eeb8e55686db6c2" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>Const_VoxelTraits_MRVectorFloatMRVoxelId</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId_1a64c3832adff4c9a36cd8699ace7ae6a4" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>Const_VoxelTraits_MRVectorFloatMRVoxelId</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId_1a30efa10bf74bac8906081f36087e4929" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>Const_VoxelTraits_MRVectorFloatMRVoxelId</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId_1aff288cacf0a0cd94a15dceec670e72e5" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>Const_VoxelTraits_MRVectorFloatMRVoxelId</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId_1a9551a31d1b117f8733d30b12dce5de2d" prot="protected" virt="virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVectorFloatMRVoxelId_1a0784ea73206d98cef8f93fec703e4e62" prot="public" virt="virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1a466303ff0f50f4276b57b002030e5949" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>VoxelTraits_MRVectorFloatMRVoxelId</name></member>
       <member refid="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1a34f19c76ac178f0499b661f1cdefa8a6" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>VoxelTraits_MRVectorFloatMRVoxelId</name></member>
       <member refid="classMR_1_1VoxelTraits__MRVectorFloatMRVoxelId_1ad4b04b43542d51a96927c9ae6683ae5a" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorFloatMRVoxelId</scope><name>VoxelTraits_MRVectorFloatMRVoxelId</name></member>

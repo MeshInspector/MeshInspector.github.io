@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1StitchHolesParams" kind="struct" language="C#" prot="public">
     <compoundname>MR::StitchHolesParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_StitchHolesParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__StitchHolesParams" prot="public" virt="non-virtual">MR.Const_StitchHolesParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1StitchHolesParams_1a97509e6b095df58502fc3e0c700cc625" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></type>
@@ -128,7 +128,7 @@ default for <ref refid="classMR_1a4d6b7ee98d4541f1ce78ac9eaa4c8e7c" kindref="mem
         <name>StitchHolesParams</name>
         <qualifiedname>MR.StitchHolesParams.StitchHolesParams</qualifiedname>
         <param>
-          <type>Const_StitchHolesParams</type>
+          <type><ref refid="classMR_1_1Const__StitchHolesParams" kindref="compound">Const_StitchHolesParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -203,6 +203,7 @@ Structure has some options to control <ref refid="classMR_1a4d6b7ee98d4541f1ce78
       </node>
       <node id="2">
         <label>MR.Const_StitchHolesParams</label>
+        <link refid="classMR_1_1Const__StitchHolesParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,6 +217,10 @@ Structure has some options to control <ref refid="classMR_1a4d6b7ee98d4541f1ce78
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.StitchHolesParams</label>
         <link refid="classMR_1_1StitchHolesParams"/>
@@ -224,9 +229,13 @@ Structure has some options to control <ref refid="classMR_1a4d6b7ee98d4541f1ce78
       </node>
       <node id="2">
         <label>MR.Const_StitchHolesParams</label>
+        <link refid="classMR_1_1Const__StitchHolesParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_outNewFaces</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -238,7 +247,16 @@ Structure has some options to control <ref refid="classMR_1a4d6b7ee98d4541f1ce78
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="575" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="576" bodyend="680"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a12998ee912b7f907a79da986d54beb2e" prot="protected" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>__ptr_storage_outNewFaces</name></member>
       <member refid="classMR_1_1StitchHolesParams_1af856cd6e44234f201f8737a7090fc796" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a63def955f8abc48f169783af915d3066" prot="package" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>Const_StitchHolesParams</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a994aa68d5db97d21d51a79b64e725a30" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>Const_StitchHolesParams</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a0374bc6d31d0dca45350b65de930af3c" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>Const_StitchHolesParams</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a870ccc4389d5f39894a1268a0cfccbc5" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>Const_StitchHolesParams</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a893f6474fd1c13bbb12c82886cda8950" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>Const_StitchHolesParams</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a6ec3d8a02ffb2f5860c89b089557bd94" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>Const_StitchHolesParams</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1aa88d549c61e76cbc64cfa50d7e01174e" prot="protected" virt="virtual"><scope>MR::StitchHolesParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__StitchHolesParams_1a9baf2beb151c6e8e307b9122e54349f0" prot="public" virt="virtual"><scope>MR::StitchHolesParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1StitchHolesParams_1a97509e6b095df58502fc3e0c700cc625" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>metric</name></member>
       <member refid="classMR_1_1StitchHolesParams_1af1b91d94e597fe8ee14c178e094e718c" prot="public" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>outNewFaces</name></member>
       <member refid="classMR_1_1StitchHolesParams_1ae8b6bb9a7824b496fd770e5f46691e29" prot="package" virt="non-virtual"><scope>MR::StitchHolesParams</scope><name>StitchHolesParams</name></member>

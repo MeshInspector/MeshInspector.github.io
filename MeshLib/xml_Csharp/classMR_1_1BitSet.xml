@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BitSet" kind="class" language="C#" prot="public">
     <compoundname>MR::BitSet</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BitSet</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BitSet" prot="public" virt="non-virtual">MR.Const_BitSet</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1BitSet_1a1c451498e1750c398cfc78c265e471a8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>BitSet</name>
         <qualifiedname>MR.BitSet.BitSet</qualifiedname>
         <param>
-          <type>Const_BitSet</type>
+          <type><ref refid="classMR_1_1Const__BitSet" kindref="compound">Const_BitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -518,7 +518,7 @@
         <name>bitandAssign</name>
         <qualifiedname>MR.BitSet.bitandAssign</qualifiedname>
         <param>
-          <type>MR.Const_BitSet</type>
+          <type><ref refid="classMR_1_1Const__BitSet" kindref="compound">MR.Const_BitSet</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -537,7 +537,7 @@
         <name>bitorAssign</name>
         <qualifiedname>MR.BitSet.bitorAssign</qualifiedname>
         <param>
-          <type>MR.Const_BitSet</type>
+          <type><ref refid="classMR_1_1Const__BitSet" kindref="compound">MR.Const_BitSet</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -556,7 +556,7 @@
         <name>xorAssign</name>
         <qualifiedname>MR.BitSet.xorAssign</qualifiedname>
         <param>
-          <type>MR.Const_BitSet</type>
+          <type><ref refid="classMR_1_1Const__BitSet" kindref="compound">MR.Const_BitSet</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -575,7 +575,7 @@
         <name>subAssign</name>
         <qualifiedname>MR.BitSet.subAssign</qualifiedname>
         <param>
-          <type>MR.Const_BitSet</type>
+          <type><ref refid="classMR_1_1Const__BitSet" kindref="compound">MR.Const_BitSet</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -594,7 +594,7 @@
         <name>subtract</name>
         <qualifiedname>MR.BitSet.subtract</qualifiedname>
         <param>
-          <type>MR.Const_BitSet</type>
+          <type><ref refid="classMR_1_1Const__BitSet" kindref="compound">MR.Const_BitSet</ref></type>
           <declname>b</declname>
         </param>
         <param>
@@ -707,7 +707,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>std::vector&amp;lt;bool&amp;gt; like container (random-access, size_t - index type, bool - value type) with all bits after size() considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1EdgeBitSet" kindref="compound">MR.EdgeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></computeroutput> <computeroutput>MR::TypedBitSet&amp;amp;lt;MR::Id&amp;amp;lt;MR::ICPElemtTag&amp;amp;gt;&amp;amp;gt;</computeroutput> <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></computeroutput> This is the non-const half of the class. </para>
+<para>std::vector&lt;bool&gt; like container (random-access, size_t - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__BitSet_1a634f417e22e2ab72b7b1403b712e0095" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1EdgeBitSet" kindref="compound">MR.EdgeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1GraphEdgeBitSet" kindref="compound">MR.GraphEdgeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PixelBitSet" kindref="compound">MR.PixelBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1RegionBitSet" kindref="compound">MR.RegionBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref></computeroutput> <computeroutput>MR::TypedBitSet&amp;lt;MR::Id&amp;lt;MR::ICPElemtTag&amp;gt;&amp;gt;</computeroutput> <computeroutput><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -723,6 +723,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BitSet</label>
+        <link refid="classMR_1_1Const__BitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -754,6 +755,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BitSet</label>
+        <link refid="classMR_1_1Const__BitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -775,22 +777,65 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="17343" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="17344" bodyend="17713"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__BitSet_1a65d7665b35831966b4b6edeee897158e" prot="protected" virt="non-virtual"><scope>MR::BitSet</scope><name>__ref_storage_BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a3f6839b1b1c97cb0356e6d9b9dd1c45e" prot="protected" virt="non-virtual"><scope>MR::BitSet</scope><name>__ref_storage_Npos</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a7a1f885004d1581045d9ede862161178" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>all</name></member>
+      <member refid="classMR_1_1Const__BitSet_1ab8c0a0cd8cfd9fbc9df267181939d075" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>any</name></member>
       <member refid="classMR_1_1BitSet_1aab5127868c081567af702f786893297c" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>assign</name></member>
       <member refid="classMR_1_1BitSet_1a0118c635148e2754106f3f19631aa391" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1BitSet_1a21211d083a2e6eb1329b5414f84a7f62" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1BitSet_1a4bfbebe73d5aa9a470087c473d641637" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classMR_1_1Const__BitSet_1ab265372d8150c16b527342dbf63d80fb" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__BitSet_1ac3fc041a26b4dbbcc7ba9f7f99a4c98f" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>beginId</name></member>
       <member refid="classMR_1_1BitSet_1a0c4e2027e4ac77fcc1b56eaf6909f2ff" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>bitandAssign</name></member>
       <member refid="classMR_1_1BitSet_1ae37fea547dbed41ae122c7b8ec18c699" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>bitorAssign</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a132e03e692d1c8f145bcb43a8701a684" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>bits</name></member>
       <member refid="classMR_1_1BitSet_1a1c451498e1750c398cfc78c265e471a8" prot="package" virt="non-virtual"><scope>MR::BitSet</scope><name>BitSet</name></member>
       <member refid="classMR_1_1BitSet_1a9be29d55f98f19cb86e1abb9971e06fa" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>BitSet</name></member>
       <member refid="classMR_1_1BitSet_1a5ba9d128ac6042840fef3519c482f036" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>BitSet</name></member>
       <member refid="classMR_1_1BitSet_1a2bbbd944bbda7f12b4c057ef1a367180" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>BitSet</name></member>
       <member refid="classMR_1_1BitSet_1a2ad37fba8d5afd1f0d3c58022d14bbcd" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>BitSet</name></member>
       <member refid="classMR_1_1BitSet_1a9b7871e0923af1b677c0dd90b573264f" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>BitSet</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a84506cfb5d185fc80b03373d9e2e70bc" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__BitSet_1ad6b230f2839f6ded8d2cb7472ea32ab7" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>capacity</name></member>
       <member refid="classMR_1_1BitSet_1a9c80718c0a5f61d438898b7ee6599691" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a2bf361235c1a2b00e11b05eb22de781b" prot="package" virt="non-virtual"><scope>MR::BitSet</scope><name>Const_BitSet</name></member>
+      <member refid="classMR_1_1Const__BitSet_1afcd6b96cfc1ade119e8ee2b5a96e6609" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>Const_BitSet</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a794444336f69ea91434163bba3bef901" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>Const_BitSet</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a2bb5be6ea52977521906e22990790fdc" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>Const_BitSet</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a62400617cb0d8c61daa721efff92e776" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>Const_BitSet</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a4ecd0740b67b1673ea02706408b81541" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>Const_BitSet</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a9ed648a715299f13db613257718eec98" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>count</name></member>
+      <member refid="classMR_1_1Const__BitSet_1aa170da6bd65109ad26e089609cc48508" prot="protected" virt="virtual"><scope>MR::BitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a593bc6d52bce5fe191af2677e0915780" prot="public" virt="virtual"><scope>MR::BitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BitSet_1afa150d5275b7fb203c67227c3fc2f26f" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a2e0578cac7f837eba2db34abfe769388" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a59b8938ea08eed8131f3b0f57fb047f0" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a5d6dc6cd9bfa1156757f1001d037dfbc" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__BitSet_1af9ee4eac118b10fffd6109e7fbffa6ab" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>findFirst</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a9006c8238d16c3d3fe08053745051414" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>findFirstNotSet</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a8a7a1a4f494051cb01af93378da7e060" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>findLast</name></member>
+      <member refid="classMR_1_1Const__BitSet_1ab4352e7e0fb1eb87015b450cc4c1885f" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>findLastNotSet</name></member>
+      <member refid="classMR_1_1Const__BitSet_1ad23371de4560a1c6a5c924b0d87ae3f0" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>findNext</name></member>
+      <member refid="classMR_1_1Const__BitSet_1ac125bb975f6864d03990975fcc4327db" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>findNextNotSet</name></member>
       <member refid="classMR_1_1BitSet_1a35703d195b4e602bfc25da109f3397dd" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1BitSet_1a63dd4728e17c9bda6e8dd08da06d8fd2" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1BitSet_1a8dc4b9d9250e7d35422fa0e178e40190" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a9c74735c05d6740aaa748d25fb0de696" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>fromBlocks</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a612a5f6072818b7a3081c267d601ab2f" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__BitSet_1af56d593b4b846ed8b9f041a9e9f4e135" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__BitSet_1adc5e85c1a7292e3dce1930d29bd51380" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>intersects</name></member>
+      <member refid="classMR_1_1Const__BitSet_1ad6793ad9ea9c6b9530a0be51fc1d8bc1" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>isSubsetOf</name></member>
+      <member refid="classMR_1_1Const__BitSet_1adf89309ae33908a1f8952b8091b58fa0" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>none</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a190ab5eb68bebfe1751dba9dfba222bd" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>Npos</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a9d31854bab0e5c40fc812e15bdb2f606" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>nthSetBit</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a45f0162050ba0b5d4c542e0301b83d59" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>numBlocks</name></member>
+      <member refid="classMR_1_1Const__BitSet_1ace566ce12d6a9dd7049b9b66d1d08cac" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__BitSet_1af1e28e49ccd08d6df7f961995f0d1a79" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>operator&amp;</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a7652820da0470a7ccf77a50ba814cdce" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a10c8ec5e26cbbb518219944118f4a3a7" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__BitSet_1ad5ba3c1d06634afcb1b0d426ce3091c4" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>operator^</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a2a9b72c5ff0f51471115fe9ac5578006" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>operator|</name></member>
       <member refid="classMR_1_1BitSet_1a6f7258f97e87c17a6553ecece544bc1d" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>popBack</name></member>
       <member refid="classMR_1_1BitSet_1a878f01d1bce3be85f0d1e4bffd94a8b1" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>pushBack</name></member>
       <member refid="classMR_1_1BitSet_1a86083274f05956913a5ad3e8f8d80a4d" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>reserve</name></member>
@@ -805,9 +850,12 @@
       <member refid="classMR_1_1BitSet_1a745e30a23a3bc43fbf041747a3cbd39f" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>set</name></member>
       <member refid="classMR_1_1BitSet_1a080895da5751a312ecacfd41528d37d4" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>set</name></member>
       <member refid="classMR_1_1BitSet_1a009c9053c312e423c8654ad8eda49a3f" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>shrinkToFit</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a634f417e22e2ab72b7b1403b712e0095" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>size</name></member>
       <member refid="classMR_1_1BitSet_1a90b29c78c8608ceb9ed2611e5e4cd81c" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>subAssign</name></member>
       <member refid="classMR_1_1BitSet_1acafb73050ae96f33042511edfecb4ced" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>subtract</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a43dc3d621dd67f43bf1610fd551ec677" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>test</name></member>
       <member refid="classMR_1_1BitSet_1a41b00e3180848ee00f309ec1505e8971" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>testSet</name></member>
+      <member refid="classMR_1_1Const__BitSet_1a42f35c52ac5cfb8a9a2bad40a5061792" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>uncheckedTest</name></member>
       <member refid="classMR_1_1BitSet_1ae17651b434ff1b585acdc5f8c901ccdf" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>uncheckedTestSet</name></member>
       <member refid="classMR_1_1BitSet_1a0db32d794751115b8870bb93a92150e1" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>xorAssign</name></member>
     </listofallmembers>

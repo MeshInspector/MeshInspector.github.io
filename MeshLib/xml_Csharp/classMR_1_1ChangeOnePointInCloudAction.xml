@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ChangeOnePointInCloudAction" kind="class" language="C#" prot="public">
     <compoundname>MR::ChangeOnePointInCloudAction</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeOnePointInCloudAction</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ChangeOnePointInCloudAction" prot="public" virt="non-virtual">MR.Const_ChangeOnePointInCloudAction</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1ChangeOnePointInCloudAction_1af51533d7f951025605fe9f5a79abd736" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -92,7 +92,7 @@
         <name>ChangeOnePointInCloudAction</name>
         <qualifiedname>MR.ChangeOnePointInCloudAction.ChangeOnePointInCloudAction</qualifiedname>
         <param>
-          <type>Const_ChangeOnePointInCloudAction</type>
+          <type><ref refid="classMR_1_1Const__ChangeOnePointInCloudAction" kindref="compound">Const_ChangeOnePointInCloudAction</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -207,7 +207,7 @@
         <name>action</name>
         <qualifiedname>MR.ChangeOnePointInCloudAction.action</qualifiedname>
         <param>
-          <type>MR.HistoryAction.Type</type>
+          <type><ref refid="classMR_1_1Const__HistoryAction_1ae664dfd809de5d276f572a1db6247e56" kindref="member">MR.HistoryAction.Type</ref></type>
           <declname>_1</declname>
         </param>
         <briefdescription>
@@ -234,6 +234,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeOnePointInCloudAction</label>
+        <link refid="classMR_1_1Const__ChangeOnePointInCloudAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -255,6 +256,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ChangeOnePointInCloudAction</label>
+        <link refid="classMR_1_1Const__ChangeOnePointInCloudAction"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -277,8 +279,21 @@
       <member refid="classMR_1_1ChangeOnePointInCloudAction_1a72b1b0d831e856016cbe15a9efbcc735" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>ChangeOnePointInCloudAction</name></member>
       <member refid="classMR_1_1ChangeOnePointInCloudAction_1ad3036305427c08a6a36915655c21d95e" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>ChangeOnePointInCloudAction</name></member>
       <member refid="classMR_1_1ChangeOnePointInCloudAction_1af889e194045a2280eedf9e2766991cd5" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>ChangeOnePointInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1a5606de56b63cfb129d25e2816c414a12" prot="package" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>Const_ChangeOnePointInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1ac802d37a1b6875988e615942f5b20e68" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>Const_ChangeOnePointInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1a869b2b00c0113dd8a8a0fbe519a118b4" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>Const_ChangeOnePointInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1aa73f7d2972bbff1c0a0be824ae694848" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>Const_ChangeOnePointInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1a1c61bcdd1c25a28b5c40f687b0ae796f" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>Const_ChangeOnePointInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1a525eb15deacb57c49201f85f912283b9" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>Const_ChangeOnePointInCloudAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1a449fbd2924fb43099d257434e7b8d314" prot="protected" virt="virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1a63839613f9f0fccfe3dddeb41cd6fdb3" prot="public" virt="virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1ae8f3e138578730be60eeb413a0cde17a" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1ae6c29c811424e5b4df8b49db54daea1a" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>name</name></member>
       <member refid="classMR_1_1ChangeOnePointInCloudAction_1a09d8e29c1f4711755fd945fa71024099" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>operator ChangeOnePointInCloudAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1a8ef49c7ca8197f674c5e44b91648a669" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>operator Const_ChangeOnePointInCloudAction?</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1afe4c8c841162f56bcc0af149f327c28e" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>operator MR.Const_HistoryAction</name></member>
       <member refid="classMR_1_1ChangeOnePointInCloudAction_1af51533d7f951025605fe9f5a79abd736" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>operator MR.HistoryAction</name></member>
+      <member refid="classMR_1_1Const__ChangeOnePointInCloudAction_1a8ed37054d59017826ed22a638567ec81" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

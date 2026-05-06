@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Mcp_1_1Schema_1_1String" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Mcp::Schema::String</compoundname>
+    <basecompoundref refid="structMR_1_1Mcp_1_1Schema_1_1Base" prot="public" virt="non-virtual">MR::Mcp::Schema::Base</basecompoundref>
+    <includes refid="MRMcp_8h" local="no">MRMcp/MRMcp.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Mcp_1_1Schema_1_1String_1aa45a18330dacd8ed1bd9b4af38bed320" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Mcp::Schema::String::String</definition>
+        <argsstring>()</argsstring>
+        <name>String</name>
+        <qualifiedname>MR::Mcp::Schema::String::String</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="46" column="9" bodyfile="MRMcp/MRMcp.h" bodystart="46" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A schema describing a string. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::Mcp::Schema::Base</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Base"/>
+      </node>
+      <node id="1">
+        <label>MR::Mcp::Schema::String</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1String"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Mcp::Schema::Base</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1Base"/>
+      </node>
+      <node id="1">
+        <label>MR::Mcp::Schema::String</label>
+        <link refid="structMR_1_1Mcp_1_1Schema_1_1String"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MRMcp/MRMcp.h" line="44" column="5" bodyfile="MRMcp/MRMcp.h" bodystart="45" bodyend="51"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ad07a4f144fbb2f526abdfdd787ebff20" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::String</scope><name>asJson</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1a7d669690e5854d01f79f9d2da549f059" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::String</scope><name>asJson</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ab3722df7873d35858a407287f4bad904" prot="protected" virt="non-virtual"><scope>MR::Mcp::Schema::String</scope><name>Base</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1Base_1ad8d4f52c560bc15c39cc7651fe3d6319" prot="protected" virt="non-virtual"><scope>MR::Mcp::Schema::String</scope><name>json</name></member>
+      <member refid="structMR_1_1Mcp_1_1Schema_1_1String_1aa45a18330dacd8ed1bd9b4af38bed320" prot="public" virt="non-virtual"><scope>MR::Mcp::Schema::String</scope><name>String</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

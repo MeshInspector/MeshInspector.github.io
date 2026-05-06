@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FlowAggregator_1_1Const__Flows" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FlowAggregator::Const_Flows</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Const__FlowAggregator_1_1Flows" prot="public" virt="non-virtual">MR.Const_FlowAggregator.Flows</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1a002ae7945c9fd26d88cd099a15af7501" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
+        <definition>unsafe MR.Const_Polyline3 MR.Const_FlowAggregator.Const_Flows.polyline</definition>
+        <argsstring></argsstring>
+        <name>polyline</name>
+        <qualifiedname>MR.Const_FlowAggregator.Const_Flows.polyline</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="677" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="677" bodyend="677"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1acf7b24f9796ea2840e62c968d0a7ffd2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__UndirectedEdgeScalars" kindref="compound">MR.Const_UndirectedEdgeScalars</ref></type>
+        <definition>unsafe MR.Const_UndirectedEdgeScalars MR.Const_FlowAggregator.Const_Flows.flowPerEdge</definition>
+        <argsstring></argsstring>
+        <name>flowPerEdge</name>
+        <qualifiedname>MR.Const_FlowAggregator.Const_Flows.flowPerEdge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="679" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="679" bodyend="679"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1ac4c848ea03393cd110de4a81f7c73b22" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FlowAggregator.Const_Flows.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FlowAggregator.Const_Flows.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="665" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="665" bodyend="673"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1af488bafca4ee5d46b2a0173e8a657ccd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FlowAggregator.Const_Flows.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FlowAggregator.Const_Flows.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="674" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="674" bodyend="674"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1a97d4f90836b6abda5fb4c6fb68f00689" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FlowAggregator.Const_Flows.Const_Flows</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Flows</name>
+        <qualifiedname>MR.Const_FlowAggregator.Const_Flows.Const_Flows</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="714" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="714" bodyend="720"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1a406bffffaa4a700b9099af13b9d9ef38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FlowAggregator.Const_Flows.Const_Flows</definition>
+        <argsstring>(MR._ByValue_Polyline3 polyline, MR._ByValue_UndirectedEdgeScalars flowPerEdge)</argsstring>
+        <name>Const_Flows</name>
+        <qualifiedname>MR.Const_FlowAggregator.Const_Flows.Const_Flows</qualifiedname>
+        <param>
+          <type>MR._ByValue_Polyline3</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeScalars</type>
+          <declname>flowPerEdge</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Const__FlowAggregator_1_1Flows" kindref="compound">MR.FlowAggregator.Flows</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="725" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="725" bodyend="733"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1a4b10f1b8daa5277ba7cd4fa4b2f8a028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FlowAggregator.Const_Flows.Const_Flows</definition>
+        <argsstring>(MR.FlowAggregator._ByValue_Flows _other)</argsstring>
+        <name>Const_Flows</name>
+        <qualifiedname>MR.Const_FlowAggregator.Const_Flows.Const_Flows</qualifiedname>
+        <param>
+          <type>MR.FlowAggregator._ByValue_Flows</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::FlowAggregator::Flows::Flows</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="738" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="738" bodyend="745"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1a248e590c93c930911e00d741710d8e45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FlowAggregator.Const_Flows.Const_Flows</definition>
+        <argsstring>(Const_Flows _other)</argsstring>
+        <name>Const_Flows</name>
+        <qualifiedname>MR.Const_FlowAggregator.Const_Flows.Const_Flows</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows" kindref="compound">Const_Flows</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::FlowAggregator::Flows::Flows</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="750" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="750" bodyend="750"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1ac757ebc89da052bfa59a654c1e13cc91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FlowAggregator.Const_Flows.Const_Flows</definition>
+        <argsstring>(Flows _other)</argsstring>
+        <name>Const_Flows</name>
+        <qualifiedname>MR.Const_FlowAggregator.Const_Flows.Const_Flows</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FlowAggregator_1_1Flows" kindref="compound">Flows</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::FlowAggregator::Flows::Flows</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="755" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="755" bodyend="755"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1ad3263db9926eef4688d013857e432ad0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FlowAggregator.Const_Flows.~Const_Flows</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Flows</name>
+        <qualifiedname>MR.Const_FlowAggregator.Const_Flows.~Const_Flows</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="675" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="675" bodyend="675"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1ad78705c1cb1f840cd77c2be69acb2286" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FlowAggregator.Const_Flows.Const_Flows</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Flows</name>
+        <qualifiedname>MR.Const_FlowAggregator.Const_Flows.Const_Flows</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="703" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="703" bodyend="708"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Const__FlowAggregator_1_1Flows" kindref="compound">MR.FlowAggregator.Flows</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_FlowAggregator.Const_Flows</label>
+        <link refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.Const_FlowAggregator.Flows</label>
+        <link refid="classMR_1_1Const__FlowAggregator_1_1Flows"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_FlowAggregator.Const_Flows</label>
+        <link refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="659" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="660" bodyend="756"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1ad78705c1cb1f840cd77c2be69acb2286" prot="package" virt="non-virtual"><scope>MR::Const_FlowAggregator::Const_Flows</scope><name>Const_Flows</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1a97d4f90836b6abda5fb4c6fb68f00689" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator::Const_Flows</scope><name>Const_Flows</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1a406bffffaa4a700b9099af13b9d9ef38" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator::Const_Flows</scope><name>Const_Flows</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1a4b10f1b8daa5277ba7cd4fa4b2f8a028" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator::Const_Flows</scope><name>Const_Flows</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1a248e590c93c930911e00d741710d8e45" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator::Const_Flows</scope><name>Const_Flows</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1ac757ebc89da052bfa59a654c1e13cc91" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator::Const_Flows</scope><name>Const_Flows</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1ac4c848ea03393cd110de4a81f7c73b22" prot="protected" virt="virtual"><scope>MR::Const_FlowAggregator::Const_Flows</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1af488bafca4ee5d46b2a0173e8a657ccd" prot="public" virt="virtual"><scope>MR::Const_FlowAggregator::Const_Flows</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1acf7b24f9796ea2840e62c968d0a7ffd2" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator::Const_Flows</scope><name>flowPerEdge</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1a002ae7945c9fd26d88cd099a15af7501" prot="public" virt="non-virtual"><scope>MR::Const_FlowAggregator::Const_Flows</scope><name>polyline</name></member>
+      <member refid="classMR_1_1Const__FlowAggregator_1_1Const__Flows_1ad3263db9926eef4688d013857e432ad0" prot="private" virt="non-virtual"><scope>MR::Const_FlowAggregator::Const_Flows</scope><name>~Const_Flows</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Features_1_1Primitives_1_1ConeSegment" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::Primitives::ConeSegment</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Features.Primitives.Const_ConeSegment</basecompoundref>
+    <basecompoundref refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment" prot="public" virt="non-virtual">MR.Features.Primitives.Const_ConeSegment</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1af72dc370de2cb3fdfbe97a5f04818da0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -11,7 +11,7 @@
         <name>referencePoint</name>
         <qualifiedname>MR.Features.Primitives.ConeSegment.referencePoint</qualifiedname>
         <briefdescription>
-<para>Some point on the axis, but not necessarily the true center point. Use <computeroutput>centerPoint()</computeroutput> for that. </para>
+<para>Some point on the axis, but not necessarily the true center point. Use <computeroutput><ref refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a49c79fcacc4bce4cd53ffed7776b68b4" kindref="member">centerPoint()</ref></computeroutput> for that. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -199,7 +199,7 @@
         <name>ConeSegment</name>
         <qualifiedname>MR.Features.Primitives.ConeSegment.ConeSegment</qualifiedname>
         <param>
-          <type>MR.Features.Primitives.Const_ConeSegment</type>
+          <type><ref refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment" kindref="compound">MR.Features.Primitives.Const_ConeSegment</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -237,7 +237,7 @@
         <name>assign</name>
         <qualifiedname>MR.Features.Primitives.ConeSegment.assign</qualifiedname>
         <param>
-          <type>MR.Features.Primitives.Const_ConeSegment</type>
+          <type><ref refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment" kindref="compound">MR.Features.Primitives.Const_ConeSegment</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -264,6 +264,7 @@
       </node>
       <node id="2">
         <label>MR.Features.Primitives.Const_ConeSegment</label>
+        <link refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -282,6 +283,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Features.Primitives.ConeSegment</label>
         <link refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment"/>
@@ -290,11 +295,16 @@
       </node>
       <node id="2">
         <label>MR.Features.Primitives.Const_ConeSegment</label>
+        <link refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_dir</edgelabel>
+          <edgelabel>__ref_storage_referencePoint</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -309,19 +319,48 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="591" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="592" bodyend="685"/>
     <listofallmembers>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a004adaa4b05db2d88e63d071dd073627" prot="protected" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>__ref_storage_dir</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a806f71ae41a9856cd86527a45b105d5c" prot="protected" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>__ref_storage_hollow</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a434c510ea92d8cb45bf7a4b605f5f9a2" prot="protected" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>__ref_storage_negativeLength</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a8b7f61a56e1744e15281adbe1cca2b67" prot="protected" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>__ref_storage_negativeSideRadius</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a7e50d918e0c37966a557a12a40a9e5d2" prot="protected" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>__ref_storage_positiveLength</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a530b8d1296ec8e856f8f856780af71fd" prot="protected" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>__ref_storage_positiveSideRadius</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a8ab20a46b4357c049c9c7eae52d1c8bd" prot="protected" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>__ref_storage_referencePoint</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1a4e25f5bda09fe784428561eb8d208987" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>assign</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a4611718edf077904630de52e094e22c1" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>axis</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a7cbe03a79a548b96ccd7efeace17410d" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>baseCircle</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a7709025305e5129a62a0862a57f99801" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>basePlane</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a5288b90c7d0fd58f84e4106db56bbbd8" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>basePoint</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a49c79fcacc4bce4cd53ffed7776b68b4" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>centerPoint</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1a1b37aa695f039218c0f2e582b6112a87" prot="package" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>ConeSegment</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1a336ffa611f8a83553510b0ade6300c9e" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>ConeSegment</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1a3049dc06a32a670b86b37621ffab85c7" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>ConeSegment</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1ae4fea37bf0f8222890b4659da755e266" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>ConeSegment</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1ade70aa3dd899ab2b08c8d9893b3db798" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>ConeSegment</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1abc24032399b9faa91feb10bc9cffb26d" prot="package" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>Const_ConeSegment</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a2bc4f78bc78edab356bd09a71c36c0ae" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>Const_ConeSegment</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a4f9909582b4c971e424932be016044b0" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>Const_ConeSegment</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a9cac329c354271dc71fc1d22831270c1" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>Const_ConeSegment</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1ab459bfe24dea94402001713998f11289" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>Const_ConeSegment</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1a7a31f1b710316583af514d73134b1ace" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>dir</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1ad4be7a8a141e901f034e93ac67d7adc9" prot="protected" virt="virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a72db89b875b66f13ffb2faa6ea3db1d4" prot="public" virt="virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a49e99fce83d16525c576da5e9cab39e9" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a5b24a22de84fd9f067cf57e810dd6d98" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1ae7ac2229d9507763a2d6f750b94be3ed" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>extendToInfinity</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1ad2d365350c0b14120e3326c6710086d9" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>extendToInfinity</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1af408f0f57db1dad13bcf26e2b759ad6e" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>hollow</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a1045d74e0e9a72acae5bd95a5e35a2e9" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>isCircle</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1aaa886dfee6d61953d3352f56c43b7757" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>isZeroRadius</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1ade327b82687f3c936c3f367cf3a81061" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>length</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1a8d8cf64f6b25257fe8a6ce091eece38c" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>negativeLength</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1affe21769dfd6d38860480c43deaa8113" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>negativeSideRadius</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1aa42a8836b7ab8b1dede84ea006f57e8b" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a83ab748bcb8603c8770fba09ce78557a" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>operator==</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1ada1701317a3a3a7f8688c729477c8152" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>positiveLength</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1a6e2514b3f7eb08f69d93934d70260c1b" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>positiveSideRadius</name></member>
       <member refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment_1af72dc370de2cb3fdfbe97a5f04818da0" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>referencePoint</name></member>
+      <member refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment_1a9fb9df0d03198f6bb720e0d9143f6c2f" prot="public" virt="non-virtual"><scope>MR::Features::Primitives::ConeSegment</scope><name>untruncateCone</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

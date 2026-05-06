@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IteratorRange__MRChunkIterator" kind="class" language="C#" prot="public">
     <compoundname>MR::IteratorRange_MRChunkIterator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IteratorRange_MRChunkIterator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IteratorRange__MRChunkIterator" prot="public" virt="non-virtual">MR.Const_IteratorRange_MRChunkIterator</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1IteratorRange__MRChunkIterator_1a5338f3ece7cf679d0f10706570c2d9c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref></type>
@@ -65,11 +65,11 @@
         <name>IteratorRange_MRChunkIterator</name>
         <qualifiedname>MR.IteratorRange_MRChunkIterator.IteratorRange_MRChunkIterator</qualifiedname>
         <param>
-          <type>MR.Const_IteratorRange_MRChunkIterator</type>
+          <type><ref refid="classMR_1_1Const__IteratorRange__MRChunkIterator" kindref="compound">MR.Const_IteratorRange_MRChunkIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;amp;gt;::IteratorRange</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;gt;::IteratorRange</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,7 +88,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;amp;gt;::IteratorRange</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;gt;::IteratorRange</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -103,15 +103,15 @@
         <name>IteratorRange_MRChunkIterator</name>
         <qualifiedname>MR.IteratorRange_MRChunkIterator.IteratorRange_MRChunkIterator</qualifiedname>
         <param>
-          <type>MR.Const_ChunkIterator</type>
+          <type><ref refid="classMR_1_1Const__ChunkIterator" kindref="compound">MR.Const_ChunkIterator</ref></type>
           <declname>begin</declname>
         </param>
         <param>
-          <type>MR.Const_ChunkIterator</type>
+          <type><ref refid="classMR_1_1Const__ChunkIterator" kindref="compound">MR.Const_ChunkIterator</ref></type>
           <declname>end</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;amp;gt;::IteratorRange</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;gt;::IteratorRange</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,11 +126,11 @@
         <name>assign</name>
         <qualifiedname>MR.IteratorRange_MRChunkIterator.assign</qualifiedname>
         <param>
-          <type>MR.Const_IteratorRange_MRChunkIterator</type>
+          <type><ref refid="classMR_1_1Const__IteratorRange__MRChunkIterator" kindref="compound">MR.Const_IteratorRange_MRChunkIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -140,7 +140,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>simple alternative to boost/iterator_range Generated from class <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>simple alternative to boost/iterator_range Generated from class <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1ChunkIterator" kindref="compound">MR.ChunkIterator</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -156,6 +156,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IteratorRange_MRChunkIterator</label>
+        <link refid="classMR_1_1Const__IteratorRange__MRChunkIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -182,6 +183,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IteratorRange_MRChunkIterator</label>
+        <link refid="classMR_1_1Const__IteratorRange__MRChunkIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -200,7 +202,14 @@
     <listofallmembers>
       <member refid="classMR_1_1IteratorRange__MRChunkIterator_1a84bc1052459c65793c98f56def7fda7f" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRChunkIterator</scope><name>assign</name></member>
       <member refid="classMR_1_1IteratorRange__MRChunkIterator_1a5338f3ece7cf679d0f10706570c2d9c2" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRChunkIterator</scope><name>begin</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a1bebc88730b6c59b4e47e5623fb78677" prot="package" virt="non-virtual"><scope>MR::IteratorRange_MRChunkIterator</scope><name>Const_IteratorRange_MRChunkIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a9864cac0779eb7fcd82f2bd64ea6b76c" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRChunkIterator</scope><name>Const_IteratorRange_MRChunkIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a8d80fa856e407d8ea37b66a5d5cda53f" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRChunkIterator</scope><name>Const_IteratorRange_MRChunkIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a5f4e29ab9c3956b5b9ad580ee31eb01f" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRChunkIterator</scope><name>Const_IteratorRange_MRChunkIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a8bc0a42d293b7fd41d1c9a8dcc5b74df" prot="protected" virt="virtual"><scope>MR::IteratorRange_MRChunkIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a3e9c55f542a6d73e714744c3b1690c3d" prot="public" virt="virtual"><scope>MR::IteratorRange_MRChunkIterator</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IteratorRange__MRChunkIterator_1aa0ad6c9d6421fd87e162cd9a1665a1a7" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRChunkIterator</scope><name>end</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRChunkIterator_1a22279300ea70acef473369a32002991f" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRChunkIterator</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1IteratorRange__MRChunkIterator_1a8455c8708da9af1e56cf57929a63e4be" prot="package" virt="non-virtual"><scope>MR::IteratorRange_MRChunkIterator</scope><name>IteratorRange_MRChunkIterator</name></member>
       <member refid="classMR_1_1IteratorRange__MRChunkIterator_1a6b65e1797dc7bb241f19c2b0f4204f71" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRChunkIterator</scope><name>IteratorRange_MRChunkIterator</name></member>
       <member refid="classMR_1_1IteratorRange__MRChunkIterator_1a2f2fb769dbde9eced2a18a09fa7177b3" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRChunkIterator</scope><name>IteratorRange_MRChunkIterator</name></member>

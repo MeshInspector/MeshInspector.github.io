@@ -1,7 +1,7 @@
 var classMR_1_1DecimateSettings =
 [
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#ab67032cee10cf045f9a4cee048756b24", null ],
-    [ "DecimateSettings", "classMR_1_1DecimateSettings.html#aa56e196e71352498aecc43522f18a8b3", null ],
+    [ "DecimateSettings", "classMR_1_1DecimateSettings.html#a626117acb5f02241e19b472323d6ee39", null ],
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#a99a889cfdc331349b8e18b3b2fc5d088", null ],
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#aa705d47a48108e8562a3cd9a12128b6d", null ],
     [ "DecimateSettings", "classMR_1_1DecimateSettings.html#a07505c08c620c736e4f5041c08418e2d", null ],

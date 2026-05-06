@@ -46,6 +46,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRChangeXfAction.cs", "MRChangeXfAction_8cs.html", "MRChangeXfAction_8cs" ],
     [ "MRChunkIterator.cs", "MRChunkIterator_8cs.html", "MRChunkIterator_8cs" ],
     [ "MRCircleObject.cs", "MRCircleObject_8cs.html", "MRCircleObject_8cs" ],
+    [ "MRClosestPointInTriangle.cs", "MRClosestPointInTriangle_8cs.html", "MRClosestPointInTriangle_8cs" ],
     [ "MRClosestWeightedPoint.cs", "MRClosestWeightedPoint_8cs.html", "MRClosestWeightedPoint_8cs" ],
     [ "MRCloseVertices.cs", "MRCloseVertices_8cs.html", "MRCloseVertices_8cs" ],
     [ "MRCloudPartMapping.cs", "MRCloudPartMapping_8cs.html", "MRCloudPartMapping_8cs" ],
@@ -202,6 +203,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRMeshToPointCloud.cs", "MRMeshToPointCloud_8cs.html", "MRMeshToPointCloud_8cs" ],
     [ "MRMeshTopology.cs", "MRMeshTopology_8cs.html", "MRMeshTopology_8cs" ],
     [ "MRMeshTopologyDiff.cs", "MRMeshTopologyDiff_8cs.html", "MRMeshTopologyDiff_8cs" ],
+    [ "MRMeshTotalAngle.cs", "MRMeshTotalAngle_8cs.html", "MRMeshTotalAngle_8cs" ],
     [ "MRMeshTrimWithPlane.cs", "MRMeshTrimWithPlane_8cs.html", "MRMeshTrimWithPlane_8cs" ],
     [ "MRMeshTriPoint.cs", "MRMeshTriPoint_8cs.html", "MRMeshTriPoint_8cs" ],
     [ "MRMinMaxArg.cs", "MRMinMaxArg_8cs.html", "MRMinMaxArg_8cs" ],
@@ -289,6 +291,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRProgressCallback.cs", "MRProgressCallback_8cs.html", "MRProgressCallback_8cs" ],
     [ "MRProgressReadWrite.cs", "MRProgressReadWrite_8cs.html", "MRProgressReadWrite_8cs" ],
     [ "MRProjectionMeshAttribute.cs", "MRProjectionMeshAttribute_8cs.html", "MRProjectionMeshAttribute_8cs" ],
+    [ "MRProtectedRun.cs", "MRProtectedRun_8cs.html", "MRProtectedRun_8cs" ],
     [ "MRQuadraticForm.cs", "MRQuadraticForm_8cs.html", "MRQuadraticForm_8cs" ],
     [ "MRQuaternion.cs", "MRQuaternion_8cs.html", "MRQuaternion_8cs" ],
     [ "MRRadiusCompensation.cs", "MRRadiusCompensation_8cs.html", "MRRadiusCompensation_8cs" ],
@@ -310,6 +313,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRSceneLoad.cs", "MRSceneLoad_8cs.html", "MRSceneLoad_8cs" ],
     [ "MRSceneRoot.cs", "MRSceneRoot_8cs.html", "MRSceneRoot_8cs" ],
     [ "MRSceneSettings.cs", "MRSceneSettings_8cs.html", "MRSceneSettings_8cs" ],
+    [ "MRSegmentMesh.cs", "MRSegmentMesh_8cs.html", "MRSegmentMesh_8cs" ],
     [ "MRSegmPoint.cs", "MRSegmPoint_8cs.html", "MRSegmPoint_8cs" ],
     [ "MRSeparationPoint.cs", "MRSeparationPoint_8cs.html", "MRSeparationPoint_8cs" ],
     [ "MRSerializer.cs", "MRSerializer_8cs.html", "MRSerializer_8cs" ],
@@ -340,6 +344,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRTorus.cs", "MRTorus_8cs.html", "MRTorus_8cs" ],
     [ "MRTriangleIntersection.cs", "MRTriangleIntersection_8cs.html", "MRTriangleIntersection_8cs" ],
     [ "MRTriDist.cs", "MRTriDist_8cs.html", "MRTriDist_8cs" ],
+    [ "MRTriMath.cs", "MRTriMath_8cs.html", "MRTriMath_8cs" ],
     [ "MRTriMesh.cs", "MRTriMesh_8cs.html", "MRTriMesh_8cs" ],
     [ "MRTripleFaceIntersections.cs", "MRTripleFaceIntersections_8cs.html", "MRTripleFaceIntersections_8cs" ],
     [ "MRTriPoint.cs", "MRTriPoint_8cs.html", "MRTriPoint_8cs" ],
@@ -364,5 +369,6 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRVolumeIndexer.cs", "MRVolumeIndexer_8cs.html", "MRVolumeIndexer_8cs" ],
     [ "MRWatershedGraph.cs", "MRWatershedGraph_8cs.html", "MRWatershedGraph_8cs" ],
     [ "MRXfBasedCache.cs", "MRXfBasedCache_8cs.html", "MRXfBasedCache_8cs" ],
-    [ "MRZip.cs", "MRZip_8cs.html", "MRZip_8cs" ]
+    [ "MRZip.cs", "MRZip_8cs.html", "MRZip_8cs" ],
+    [ "MRZlib.cs", "MRZlib_8cs.html", "MRZlib_8cs" ]
 ];

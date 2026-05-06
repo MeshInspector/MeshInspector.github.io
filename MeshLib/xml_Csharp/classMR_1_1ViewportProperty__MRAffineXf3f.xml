@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ViewportProperty__MRAffineXf3f" kind="class" language="C#" prot="public">
     <compoundname>MR::ViewportProperty_MRAffineXf3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ViewportProperty_MRAffineXf3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" prot="public" virt="non-virtual">MR.Const_ViewportProperty_MRAffineXf3f</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ViewportProperty__MRAffineXf3f_1a82fbc57250231db4ee3b62b8ac00112f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>unsafe ref <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
@@ -11,13 +11,13 @@
         <name>this[MR.ViewportId id]</name>
         <qualifiedname>MR.ViewportProperty_MRAffineXf3f.this[MR.ViewportId id]</qualifiedname>
         <briefdescription>
-<para>returns direct access to value associated with given viewport (or default value if !id) Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::operator[]</computeroutput>. </para>
+<para>returns direct access to value associated with given viewport (or default value if !id) Generated from method <computeroutput>MR::ViewportProperty&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;gt;::operator[]</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="201" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="202" bodyend="209"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="234" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="235" bodyend="242"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="113" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="113" bodyend="113"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="146" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="146" bodyend="146"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="118" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="118" bodyend="123"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="151" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="151" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRAffineXf3f_1ad0f0a17671a3084410b4dadf6e91de3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -71,13 +71,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="128" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="128" bodyend="134"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="161" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="161" bodyend="167"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRAffineXf3f_1ae9b6fb7ff2974b8aaf43bd599354db9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -86,17 +86,17 @@
         <name>ViewportProperty_MRAffineXf3f</name>
         <qualifiedname>MR.ViewportProperty_MRAffineXf3f.ViewportProperty_MRAffineXf3f</qualifiedname>
         <param>
-          <type>Const_ViewportProperty_MRAffineXf3f</type>
+          <type><ref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" kindref="compound">Const_ViewportProperty_MRAffineXf3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="139" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="139" bodyend="139"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="172" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="172" bodyend="172"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRAffineXf3f_1a24c73891a7d4450c3e39e41b3170bc93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -109,13 +109,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="144" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="144" bodyend="144"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="177" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="177" bodyend="177"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRAffineXf3f_1a5c73f9c721b836d952dc306a6e0d13bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -128,13 +128,13 @@
           <declname>def</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="149" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="149" bodyend="157"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="182" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="182" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRAffineXf3f_1a2158485ccba518fefaae01ec72d94c98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1ViewportProperty__MRAffineXf3f" kindref="compound">MR.ViewportProperty_MRAffineXf3f</ref></type>
@@ -147,13 +147,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ViewportProperty&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="167" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="167" bodyend="174"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="200" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="200" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRAffineXf3f_1ad48270649533d16075c9763d775d732b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -166,13 +166,13 @@
           <declname>def</declname>
         </param>
         <briefdescription>
-<para>sets default property value Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1ad48270649533d16075c9763d775d732b" kindref="member">set</ref></computeroutput>. </para>
+<para>sets default property value Generated from method <computeroutput>MR::ViewportProperty&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1ad48270649533d16075c9763d775d732b" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="180" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="180" bodyend="185"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="213" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="213" bodyend="218"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRAffineXf3f_1a05df621ad97946796f8bbd06614df7aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe new ref <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
@@ -181,13 +181,13 @@
         <name>get</name>
         <qualifiedname>MR.ViewportProperty_MRAffineXf3f.get</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a05df621ad97946796f8bbd06614df7aa" kindref="member">get</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::ViewportProperty&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a05df621ad97946796f8bbd06614df7aa" kindref="member">get</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="190" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="190" bodyend="195"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="223" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="223" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRAffineXf3f_1a02ab748526b5880b1c63636bcde24b6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -204,13 +204,13 @@
           <declname>id</declname>
         </param>
         <briefdescription>
-<para>sets specific property value for given viewport (or default value if !id) Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1ad48270649533d16075c9763d775d732b" kindref="member">set</ref></computeroutput>. </para>
+<para>sets specific property value for given viewport (or default value if !id) Generated from method <computeroutput>MR::ViewportProperty&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1ad48270649533d16075c9763d775d732b" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="215" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="215" bodyend="220"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="248" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="248" bodyend="253"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRAffineXf3f_1a5ca1edd08b927ec1002b60e430787d36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -223,13 +223,13 @@
           <declname>id</declname>
         </param>
         <briefdescription>
-<para>forgets specific property value for given viewport (or all viewports if !id); returns true if any specific value was removed Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a5ca1edd08b927ec1002b60e430787d36" kindref="member">reset</ref></computeroutput>. </para>
+<para>forgets specific property value for given viewport (or all viewports if !id); returns true if any specific value was removed Generated from method <computeroutput>MR::ViewportProperty&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a5ca1edd08b927ec1002b60e430787d36" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="227" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="227" bodyend="232"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="260" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="260" bodyend="265"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1ViewportProperty__MRAffineXf3f_1a16cdd78cb7ebdd9a3a1161c610acbe79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -238,13 +238,13 @@
         <name>reset</name>
         <qualifiedname>MR.ViewportProperty_MRAffineXf3f.reset</qualifiedname>
         <briefdescription>
-<para>forgets specific property value for all viewports; returns true if any specific value was removed Generated from method <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a5ca1edd08b927ec1002b60e430787d36" kindref="member">reset</ref></computeroutput>. </para>
+<para>forgets specific property value for all viewports; returns true if any specific value was removed Generated from method <computeroutput>MR::ViewportProperty&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;gt;<ref refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a5ca1edd08b927ec1002b60e430787d36" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="239" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="239" bodyend="244"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="272" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="272" bodyend="277"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -259,17 +259,17 @@
           <declname>def</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;::ViewportProperty</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::ViewportProperty&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;gt;::ViewportProperty</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="162" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="162" bodyend="162"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="195" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="195" bodyend="195"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>storage of some viewport-dependent property, which has some default value for all viewports and special values for some specific viewports Generated from class <computeroutput>MR::ViewportProperty&amp;amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>storage of some viewport-dependent property, which has some default value for all viewports and special values for some specific viewports Generated from class <computeroutput>MR::ViewportProperty&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -282,9 +282,12 @@
       </node>
       <node id="2">
         <label>MR.Const_ViewportProperty_MRAffineXf3f</label>
+        <link refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -292,6 +295,9 @@
       </node>
       <node id="4">
         <label>System.IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System.IEquatable</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -303,9 +309,12 @@
       </node>
       <node id="2">
         <label>MR.Const_ViewportProperty_MRAffineXf3f</label>
+        <link refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
         </childnode>
       </node>
       <node id="3">
@@ -314,12 +323,29 @@
       <node id="4">
         <label>System.IDisposable</label>
       </node>
+      <node id="5">
+        <label>System.IEquatable</label>
+      </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="111" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="112" bodyend="245"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="144" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="145" bodyend="278"/>
     <listofallmembers>
       <member refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a2158485ccba518fefaae01ec72d94c98" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1a1ec0985ee384c1e2a4f1e51d878eb6dc" prot="package" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Const_ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1aca373fd015be82ddbfceb19dc49805aa" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Const_ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1af9f030f995b789d44988d5a05053e88e" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Const_ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1aa4f11c5c30499ed4b547d988ce839b28" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Const_ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1a1ab2112c4382ebf7706a556c81f54a99" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Const_ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1ae6bdddcf957745eb032da7f7314e6856" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Const_ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1a82955e3ad237d818d803faca69f84062" prot="protected" virt="virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1ab5be76e7e4fe62116a304d580ab6b088" prot="public" virt="virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1af078205e0e153c0331b4e8f40532b331" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1a89afe5c0f96b18877772f3f1bd27b01b" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>Equals</name></member>
       <member refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a05df621ad97946796f8bbd06614df7aa" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1a1ae8b39ffb13d8543b21ff0e6429c0d0" prot="public" virt="non-virtual" ambiguityscope="MR::Const_ViewportProperty_MRAffineXf3f."><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1a416d392a3901e2316585aa2f858b4635" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>operator Const_ViewportProperty_MRAffineXf3f</name></member>
       <member refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a8e644adb0e2794a37364e227abb23ea7" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>operator ViewportProperty_MRAffineXf3f</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1ac1e3d3f5e0406aff43be91736e22cea9" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f_1af4d1254ddc6a8ab2ecebb038a86ee244" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>operator==</name></member>
       <member refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a5ca1edd08b927ec1002b60e430787d36" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>reset</name></member>
       <member refid="classMR_1_1ViewportProperty__MRAffineXf3f_1a16cdd78cb7ebdd9a3a1161c610acbe79" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>reset</name></member>
       <member refid="classMR_1_1ViewportProperty__MRAffineXf3f_1ad48270649533d16075c9763d775d732b" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRAffineXf3f</scope><name>set</name></member>

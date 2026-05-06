@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__SceneRoot" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_SceneRoot</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SceneRoot" prot="public" virt="non-virtual">MR.SceneRoot</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__SceneRoot_1af77091f1af52cdc0eac7674c07e0811d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_SceneRoot.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SceneRoot.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="922" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="922" bodyend="930"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__SceneRoot_1aeb6415f3eb405fc635f7a566dd722ef5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_SceneRoot.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_SceneRoot.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="931" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="931" bodyend="931"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SceneRoot_1a2e5a7ca4311cf1c6d0f682f09fa7bfd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SceneRoot.Const_SceneRoot</definition>
+        <argsstring>(MR._ByValue_SceneRoot _other)</argsstring>
+        <name>Const_SceneRoot</name>
+        <qualifiedname>MR.Const_SceneRoot.Const_SceneRoot</qualifiedname>
+        <param>
+          <type>MR._ByValue_SceneRoot</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SceneRoot_1ab38d00140222cf6a4d49342bf98c6042" kindref="member">MR.SceneRoot.SceneRoot</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="939" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="939" bodyend="945"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SceneRoot_1a467b753f8ccc607759ed54d226a45f96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SceneRoot.Const_SceneRoot</definition>
+        <argsstring>(Const_SceneRoot _other)</argsstring>
+        <name>Const_SceneRoot</name>
+        <qualifiedname>MR.Const_SceneRoot.Const_SceneRoot</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__SceneRoot" kindref="compound">Const_SceneRoot</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SceneRoot_1ab38d00140222cf6a4d49342bf98c6042" kindref="member">MR.SceneRoot.SceneRoot</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="950" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="950" bodyend="950"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SceneRoot_1a7825147bcf141ee050fa6e6a333bfcc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SceneRoot.Const_SceneRoot</definition>
+        <argsstring>(SceneRoot _other)</argsstring>
+        <name>Const_SceneRoot</name>
+        <qualifiedname>MR.Const_SceneRoot.Const_SceneRoot</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SceneRoot" kindref="compound">SceneRoot</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1SceneRoot_1ab38d00140222cf6a4d49342bf98c6042" kindref="member">MR.SceneRoot.SceneRoot</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="955" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="955" bodyend="955"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__SceneRoot_1a4c8a060f09a5a925ead215126167fd6f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_SceneRoot.~Const_SceneRoot</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_SceneRoot</name>
+        <qualifiedname>MR.Const_SceneRoot.~Const_SceneRoot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="932" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="932" bodyend="932"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__SceneRoot_1a5e23b5e476be51072f996abbc7b43e27" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_SceneRoot.Const_SceneRoot</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_SceneRoot</name>
+        <qualifiedname>MR.Const_SceneRoot.Const_SceneRoot</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="934" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="934" bodyend="934"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__SceneRoot_1a46b4423872a1825ce7578e68f7dbbec3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SceneRootObject" kindref="compound">MR.SceneRootObject</ref></type>
+        <definition>static unsafe MR.SceneRootObject MR.Const_SceneRoot.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.Const_SceneRoot.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SceneRoot_1a46b4423872a1825ce7578e68f7dbbec3" kindref="member">MR.SceneRoot.get</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="960" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="960" bodyend="965"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SceneRoot_1ada178e2811b9e32760d4758f3a3af417" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRSceneRootObject</type>
+        <definition>static unsafe MR.Std.SharedPtr_MRSceneRootObject MR.Const_SceneRoot.getSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getSharedPtr</name>
+        <qualifiedname>MR.Const_SceneRoot.getSharedPtr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SceneRoot_1ada178e2811b9e32760d4758f3a3af417" kindref="member">MR.SceneRoot.getSharedPtr</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="970" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="970" bodyend="975"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SceneRoot_1a2b2175e1d03432c4b9255b2f1b7e838b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.Const_SceneRoot.setScenePath</definition>
+        <argsstring>(string scenePath)</argsstring>
+        <name>setScenePath</name>
+        <qualifiedname>MR.Const_SceneRoot.setScenePath</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>scenePath</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SceneRoot_1a2b2175e1d03432c4b9255b2f1b7e838b" kindref="member">MR.SceneRoot.setScenePath</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="980" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="980" bodyend="989"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SceneRoot_1aff0275d5076f29d147a21438391cccd2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__SceneRootObject" kindref="compound">MR.Const_SceneRootObject</ref></type>
+        <definition>static unsafe MR.Const_SceneRootObject MR.Const_SceneRoot.constGet</definition>
+        <argsstring>()</argsstring>
+        <name>constGet</name>
+        <qualifiedname>MR.Const_SceneRoot.constGet</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SceneRoot_1aff0275d5076f29d147a21438391cccd2" kindref="member">MR.SceneRoot.constGet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="994" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="994" bodyend="999"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SceneRoot_1af52f3819aa9d333baf5268d001e002e8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_ConstMRSceneRootObject</type>
+        <definition>static unsafe MR.Std.SharedPtr_ConstMRSceneRootObject MR.Const_SceneRoot.constGetSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>constGetSharedPtr</name>
+        <qualifiedname>MR.Const_SceneRoot.constGetSharedPtr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SceneRoot_1af52f3819aa9d333baf5268d001e002e8" kindref="member">MR.SceneRoot.constGetSharedPtr</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1004" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1004" bodyend="1009"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__SceneRoot_1a3044ef7fc264bb3a23af54f2b33a5732" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Filesystem.Const_Path</type>
+        <definition>static unsafe MR.Std.Filesystem.Const_Path MR.Const_SceneRoot.getScenePath</definition>
+        <argsstring>()</argsstring>
+        <name>getScenePath</name>
+        <qualifiedname>MR.Const_SceneRoot.getScenePath</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__SceneRoot_1a3044ef7fc264bb3a23af54f2b33a5732" kindref="member">MR.SceneRoot.getScenePath</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="1014" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="1014" bodyend="1019"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Singleton to store scene root object Generated from class <computeroutput><ref refid="classMR_1_1SceneRoot" kindref="compound">MR.SceneRoot</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_SceneRoot</label>
+        <link refid="classMR_1_1Const__SceneRoot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.SceneRoot</label>
+        <link refid="classMR_1_1SceneRoot"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_SceneRoot</label>
+        <link refid="classMR_1_1Const__SceneRoot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" line="916" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneRoot.cs" bodystart="917" bodyend="1020"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__SceneRoot_1a5e23b5e476be51072f996abbc7b43e27" prot="package" virt="non-virtual"><scope>MR::Const_SceneRoot</scope><name>Const_SceneRoot</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a2e5a7ca4311cf1c6d0f682f09fa7bfd2" prot="public" virt="non-virtual"><scope>MR::Const_SceneRoot</scope><name>Const_SceneRoot</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a467b753f8ccc607759ed54d226a45f96" prot="public" virt="non-virtual"><scope>MR::Const_SceneRoot</scope><name>Const_SceneRoot</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a7825147bcf141ee050fa6e6a333bfcc2" prot="public" virt="non-virtual"><scope>MR::Const_SceneRoot</scope><name>Const_SceneRoot</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1aff0275d5076f29d147a21438391cccd2" prot="public" virt="non-virtual"><scope>MR::Const_SceneRoot</scope><name>constGet</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1af52f3819aa9d333baf5268d001e002e8" prot="public" virt="non-virtual"><scope>MR::Const_SceneRoot</scope><name>constGetSharedPtr</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1af77091f1af52cdc0eac7674c07e0811d" prot="protected" virt="virtual"><scope>MR::Const_SceneRoot</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1aeb6415f3eb405fc635f7a566dd722ef5" prot="public" virt="virtual"><scope>MR::Const_SceneRoot</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a46b4423872a1825ce7578e68f7dbbec3" prot="public" virt="non-virtual"><scope>MR::Const_SceneRoot</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a3044ef7fc264bb3a23af54f2b33a5732" prot="public" virt="non-virtual"><scope>MR::Const_SceneRoot</scope><name>getScenePath</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1ada178e2811b9e32760d4758f3a3af417" prot="public" virt="non-virtual"><scope>MR::Const_SceneRoot</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a2b2175e1d03432c4b9255b2f1b7e838b" prot="public" virt="non-virtual"><scope>MR::Const_SceneRoot</scope><name>setScenePath</name></member>
+      <member refid="classMR_1_1Const__SceneRoot_1a4c8a060f09a5a925ead215126167fd6f" prot="private" virt="non-virtual"><scope>MR::Const_SceneRoot</scope><name>~Const_SceneRoot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

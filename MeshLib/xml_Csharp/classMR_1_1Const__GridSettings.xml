@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__GridSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_GridSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1GridSettings" prot="public" virt="non-virtual">MR.GridSettings</derivedcompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1Const__GridSettings_1a990ab8bc9bccb8d4ed8ad62bf9911d80" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>EdgeType</name>
+        <qualifiedname>MR.Const_GridSettings.EdgeType</qualifiedname>
+        <enumvalue id="classMR_1_1Const__GridSettings_1a990ab8bc9bccb8d4ed8ad62bf9911d80ac1b5fa03ecdb95d4a45dd1c40b02527f" prot="public">
+          <name>Horizontal</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__GridSettings_1a990ab8bc9bccb8d4ed8ad62bf9911d80a06ce2a25e5d12c166a36f654dbea6012" prot="public">
+          <name>Vertical</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__GridSettings_1a990ab8bc9bccb8d4ed8ad62bf9911d80af14de12b788d5fd679e1e5d2875b95f4" prot="public">
+          <name>DiagonalA</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__GridSettings_1a990ab8bc9bccb8d4ed8ad62bf9911d80abdd515b2294ff6174a1894240f02e08e" prot="public">
+          <name>DiagonalB</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="133" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="134" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="enum" id="classMR_1_1Const__GridSettings_1a104c4cde9df4efe62412eb2b8cb11191" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>TriType</name>
+        <qualifiedname>MR.Const_GridSettings.TriType</qualifiedname>
+        <enumvalue id="classMR_1_1Const__GridSettings_1a104c4cde9df4efe62412eb2b8cb11191ab75fcdd2d72d9e000beab48622402d93" prot="public">
+          <name>Lower</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__GridSettings_1a104c4cde9df4efe62412eb2b8cb11191a19de5b94f7b83900d4b296d9fa491aec" prot="public">
+          <name>Upper</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="145" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="146" bodyend="151"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__GridSettings_1aa2d59e405eda90a9db7ebbdfd42b12bc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+        <definition>unsafe ref readonly MR.Vector2i MR.Const_GridSettings.dim</definition>
+        <argsstring></argsstring>
+        <name>dim</name>
+        <qualifiedname>MR.Const_GridSettings.dim</qualifiedname>
+        <briefdescription>
+<para>the number of cells in X and Y dimensions; the number of vertices will be at most (X+1)*(Y+1) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="30" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GridSettings_1a8bbdae8296392da1aa9f3d0933cd21aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__BMap__MRVertId__MRUint64T" kindref="compound">MR.Const_BMap_MRVertId_MRUint64T</ref></type>
+        <definition>unsafe MR.Const_BMap_MRVertId_MRUint64T MR.Const_GridSettings.vertIds</definition>
+        <argsstring></argsstring>
+        <name>vertIds</name>
+        <qualifiedname>MR.Const_GridSettings.vertIds</qualifiedname>
+        <briefdescription>
+<para>grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid; index is x + y * ( settings.dim.x + 1 ) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="37" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GridSettings_1a505f83d364dc33ff184ada9a179b936c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__BMap__MRUndirectedEdgeId__MRUint64T" kindref="compound">MR.Const_BMap_MRUndirectedEdgeId_MRUint64T</ref></type>
+        <definition>unsafe MR.Const_BMap_MRUndirectedEdgeId_MRUint64T MR.Const_GridSettings.uedgeIds</definition>
+        <argsstring></argsstring>
+        <name>uedgeIds</name>
+        <qualifiedname>MR.Const_GridSettings.uedgeIds</qualifiedname>
+        <briefdescription>
+<para>grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex; both vertices of valid edge must be valid as well; index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="44" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__GridSettings_1ac0750f89f09eafa7cabade631f623bb8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__BMap__MRFaceId__MRUint64T" kindref="compound">MR.Const_BMap_MRFaceId_MRUint64T</ref></type>
+        <definition>unsafe MR.Const_BMap_MRFaceId_MRUint64T MR.Const_GridSettings.faceIds</definition>
+        <argsstring></argsstring>
+        <name>faceIds</name>
+        <qualifiedname>MR.Const_GridSettings.faceIds</qualifiedname>
+        <briefdescription>
+<para>grid coordinates of lower-left vertex and triangle-type to faceId; all 3 vertices and all 3 edges of valid face must be valid as well; index is 2 * ( x + y * settings.dim.x ) + triType </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="51" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__GridSettings_1a5d62ab5a17c15aa5cc7ae24b9eb1ace0" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref> *</type>
+        <definition>unsafe MR.Vector2i* MR.Const_GridSettings.__ref_storage_dim</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_dim</name>
+        <qualifiedname>MR.Const_GridSettings.__ref_storage_dim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="31" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__GridSettings_1a1f5ca667333b1dc54e06f58a415bbf7e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_GridSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_GridSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__GridSettings_1add21a49b4e8ec21647eb9e016b817db1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_GridSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_GridSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GridSettings_1af2a15a621a01d1bc9d7ff78a2ff01a96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GridSettings.Const_GridSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_GridSettings</name>
+        <qualifiedname>MR.Const_GridSettings.Const_GridSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="99" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="99" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GridSettings_1a7d428fbd57a9f0740d4e25f07c629976" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GridSettings.Const_GridSettings</definition>
+        <argsstring>(MR.Vector2i dim, MR._ByValue_BMap_MRVertId_MRUint64T vertIds, MR._ByValue_BMap_MRUndirectedEdgeId_MRUint64T uedgeIds, MR._ByValue_BMap_MRFaceId_MRUint64T faceIds)</argsstring>
+        <name>Const_GridSettings</name>
+        <qualifiedname>MR.Const_GridSettings.Const_GridSettings</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>dim</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_BMap_MRVertId_MRUint64T</type>
+          <declname>vertIds</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_BMap_MRUndirectedEdgeId_MRUint64T</type>
+          <declname>uedgeIds</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_BMap_MRFaceId_MRUint64T</type>
+          <declname>faceIds</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1GridSettings" kindref="compound">MR.GridSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="110" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="110" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__GridSettings_1acf6a6e408766abcbb970697fac4995e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GridSettings.Const_GridSettings</definition>
+        <argsstring>(MR._ByValue_GridSettings _other)</argsstring>
+        <name>Const_GridSettings</name>
+        <qualifiedname>MR.Const_GridSettings.Const_GridSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_GridSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1GridSettings_1a09629deb2da7ea8ff2a9d5024ac5d174" kindref="member">MR.GridSettings.GridSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="124" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="124" bodyend="131"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__GridSettings_1a3455fc05bf79b729310ca6519f3b5fff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_GridSettings.~Const_GridSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_GridSettings</name>
+        <qualifiedname>MR.Const_GridSettings.~Const_GridSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__GridSettings_1a6d8a5b00be9e97cec69f1755537b4375" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_GridSettings.Const_GridSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_GridSettings</name>
+        <qualifiedname>MR.Const_GridSettings.Const_GridSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="88" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="88" bodyend="93"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>settings defining regular grid, where each quadrangular cell is split on two triangles in one of two ways Generated from class <computeroutput><ref refid="classMR_1_1GridSettings" kindref="compound">MR.GridSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_GridSettings</label>
+        <link refid="classMR_1_1Const__GridSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.GridSettings</label>
+        <link refid="classMR_1_1GridSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_GridSettings</label>
+        <link refid="classMR_1_1Const__GridSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_dim</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="9" bodyend="152"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__GridSettings_1a5d62ab5a17c15aa5cc7ae24b9eb1ace0" prot="protected" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>__ref_storage_dim</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a6d8a5b00be9e97cec69f1755537b4375" prot="package" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>Const_GridSettings</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1af2a15a621a01d1bc9d7ff78a2ff01a96" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>Const_GridSettings</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a7d428fbd57a9f0740d4e25f07c629976" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>Const_GridSettings</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1acf6a6e408766abcbb970697fac4995e3" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>Const_GridSettings</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1aa2d59e405eda90a9db7ebbdfd42b12bc" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>dim</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a1f5ca667333b1dc54e06f58a415bbf7e" prot="protected" virt="virtual"><scope>MR::Const_GridSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1add21a49b4e8ec21647eb9e016b817db1" prot="public" virt="virtual"><scope>MR::Const_GridSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a990ab8bc9bccb8d4ed8ad62bf9911d80" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>EdgeType</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1ac0750f89f09eafa7cabade631f623bb8" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>faceIds</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a104c4cde9df4efe62412eb2b8cb11191" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>TriType</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a505f83d364dc33ff184ada9a179b936c" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>uedgeIds</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a8bbdae8296392da1aa9f3d0933cd21aa" prot="public" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>vertIds</name></member>
+      <member refid="classMR_1_1Const__GridSettings_1a3455fc05bf79b729310ca6519f3b5fff" prot="private" virt="non-virtual"><scope>MR::Const_GridSettings</scope><name>~Const_GridSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

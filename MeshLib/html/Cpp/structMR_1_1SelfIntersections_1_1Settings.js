@@ -7,6 +7,7 @@ var structMR_1_1SelfIntersections_1_1Settings =
     [ "callback", "group__GeneralGroup.html#gad3d19d62f4659d2ff0a0415ffecba3c4", null ],
     [ "maxExpand", "group__GeneralGroup.html#ga7798ca5ce166d10f94b4f994252918f8", null ],
     [ "method", "group__GeneralGroup.html#gaface1dd6cc60f50dd76186b73d130994", null ],
+    [ "mimicPatch", "group__GeneralGroup.html#ga7bfc384755edd125c08bc81a9f993114", null ],
     [ "relaxIterations", "group__GeneralGroup.html#gaca7a5619c15bc97f529b69737ac12bb6", null ],
     [ "subdivideEdgeLen", "group__GeneralGroup.html#ga27581dba0d20048070937e95346b4224", null ],
     [ "touchIsIntersection", "group__GeneralGroup.html#gae5606c4ebbd1f6f3acf27a76862219b0", null ]

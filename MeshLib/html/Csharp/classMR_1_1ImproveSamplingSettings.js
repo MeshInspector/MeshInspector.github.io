@@ -1,7 +1,7 @@
 var classMR_1_1ImproveSamplingSettings =
 [
     [ "ImproveSamplingSettings", "classMR_1_1ImproveSamplingSettings.html#a1a447894c0c444baa26b9e469bb70550", null ],
-    [ "ImproveSamplingSettings", "classMR_1_1ImproveSamplingSettings.html#af0d7d5b2ef4f35874441cf72dd5d71c0", null ],
+    [ "ImproveSamplingSettings", "classMR_1_1ImproveSamplingSettings.html#ab2bef5f9df7a8fb8079b5a4c9df77f4f", null ],
     [ "ImproveSamplingSettings", "classMR_1_1ImproveSamplingSettings.html#a3047aca01c89a4d701be7a0c9e5c36c0", null ],
     [ "ImproveSamplingSettings", "classMR_1_1ImproveSamplingSettings.html#ab1c703d5ca96dacbf41ae0c300322cdc", null ],
     [ "ImproveSamplingSettings", "classMR_1_1ImproveSamplingSettings.html#a5cf3fec9c2f19a4743e8d71719738bf6", null ],

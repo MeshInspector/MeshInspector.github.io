@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SimpleVolumeMinMaxU16" kind="class" language="C#" prot="public">
     <compoundname>MR::SimpleVolumeMinMaxU16</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SimpleVolumeMinMaxU16</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SimpleVolumeMinMaxU16" prot="public" virt="non-virtual">MR.Const_SimpleVolumeMinMaxU16</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SimpleVolumeMinMaxU16_1a1f602347fc50113add668e246fc91397" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Vector__UnsignedShort__MRVoxelId" kindref="compound">MR.Vector_UnsignedShort_MRVoxelId</ref></type>
@@ -179,7 +179,7 @@
         <name>SimpleVolumeMinMaxU16</name>
         <qualifiedname>MR.SimpleVolumeMinMaxU16.SimpleVolumeMinMaxU16</qualifiedname>
         <param>
-          <type>Const_SimpleVolumeMinMaxU16</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolumeMinMaxU16" kindref="compound">Const_SimpleVolumeMinMaxU16</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -236,7 +236,7 @@
         <name>intersect</name>
         <qualifiedname>MR.SimpleVolumeMinMaxU16.intersect</qualifiedname>
         <param>
-          <type>MR.Const_Box_UnsignedShort</type>
+          <type><ref refid="classMR_1_1Const__Box__UnsignedShort" kindref="compound">MR.Const_Box_UnsignedShort</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -250,7 +250,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <computeroutput><ref refid="classMR_1_1SimpleVolumeMinMaxU16" kindref="compound">MR.SimpleVolumeMinMaxU16</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1SimpleVolumeU16" kindref="compound">MR.SimpleVolumeU16</ref></computeroutput> <computeroutput>MR::Box&amp;amp;lt;unsigned short&amp;amp;gt;</computeroutput> This is the non-const half of the class. </para>
+<para>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <computeroutput><ref refid="classMR_1_1SimpleVolumeMinMaxU16" kindref="compound">MR.SimpleVolumeMinMaxU16</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1SimpleVolumeU16" kindref="compound">MR.SimpleVolumeU16</ref></computeroutput> <computeroutput>MR::Box&amp;lt;unsigned short&amp;gt;</computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -263,6 +263,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SimpleVolumeMinMaxU16</label>
+        <link refid="classMR_1_1Const__SimpleVolumeMinMaxU16"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -281,6 +282,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="6">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SimpleVolumeMinMaxU16</label>
         <link refid="classMR_1_1SimpleVolumeMinMaxU16"/>
@@ -289,11 +294,16 @@
       </node>
       <node id="2">
         <label>MR.Const_SimpleVolumeMinMaxU16</label>
+        <link refid="classMR_1_1Const__SimpleVolumeMinMaxU16"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
         </childnode>
         <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>__ref_storage_dims</edgelabel>
+          <edgelabel>__ref_storage_voxelSize</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -308,19 +318,54 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="929" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="930" bodyend="1037"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1ae4456228895ec85d153e7896fabb3789" prot="protected" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>__ref_storage_dims</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1afa658fbed2b7fa6316d4928bdc98708b" prot="protected" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>__ref_storage_Elements</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1aa442917c2f984164161372aa0ca048b3" prot="protected" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>__ref_storage_max</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a87c20ba075cddad12cee967f97021bce" prot="protected" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>__ref_storage_min</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a255acc167367f4b4a1f0821538ea1983" prot="protected" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1a21248d3d5cb2c6ab1f27b5fd46e4184b" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a2d6c55b618454cab4b7a2a6fb2d9b364" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>center</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a644f64a97ea0597c821ac7741388f766" prot="package" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>Const_SimpleVolumeMinMaxU16</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a3caab504518cb0b97416f95ece311f44" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>Const_SimpleVolumeMinMaxU16</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a57e8f240627806f8e621a6591992c22e" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>Const_SimpleVolumeMinMaxU16</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1afcd59373d3f3a1d892a397b43018a2b3" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>Const_SimpleVolumeMinMaxU16</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a164d209ef11573d3675a0b6178482bdf" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>Const_SimpleVolumeMinMaxU16</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1ad3e0056b60ac2887eb25dfd2f973ee0f" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>corner</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1a1f602347fc50113add668e246fc91397" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1abcefcdc95dc9184b4254914769876077" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>diagonal</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1a8298ab9645c4d40ec2c2a672682fd121" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>dims</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a256055287316d494fc1d6d2a7a05ae6a" prot="protected" virt="virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a77dfffe67b2fe0af98e1ec53415644d6" prot="public" virt="virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a89e54a4cc9aa733abb171cc8198b2655" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>Elements</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a7aa2f390267aff718f87e22b78a81fcf" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a631c5d2779528b327f02472df908b3d2" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a0598ac351a666080d12ac5bc2aec0e05" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>expanded</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a942f811501f6f99f86ef28a407f2535c" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>fromMinAndSize</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1ab74c77829973b4c004b47ca37619ac66" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>getBoxClosestPointTo</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1aa842e60b45ee17d830e99decd9a91c94" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>getMaxBoxCorner</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1aec2c0513e8ac01d86d012518fb74df22" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>getMinBoxCorner</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a6baa0e553f95a09f3e182a79e9df6cd6" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>getProjection</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a95ae12ce604a6cd247d516a0f52b6dda" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1abdd7e2556c6e9a51694b4899a3f40e1b" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>insignificantlyExpanded</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1ae5c63c09034fe96fd9a19bd3a3aa6ae8" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>intersect</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a2c167f9f181415b85eff5cc59840ba63" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>intersection</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1af385b2141b99dddcb378a3d23768d33e" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>intersects</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1a72f9f6095594e5fb799e277141368464" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>max</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1a47a7be706a36e96fb2d26cc9c049afca" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>min</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1a457605d7ddf8a8702fd9d467e43d66ec" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>operator MR.Box_UnsignedShort</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a940b93687f247407843822defb828149" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>operator MR.Const_Box_UnsignedShort</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a68464d5ae0a7df61d39e0dda38965974" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>operator MR.Const_SimpleVolumeU16</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1a69c55af1b2425fc2e906863c5616e748" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>operator MR.SimpleVolumeU16</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1aaac1c55d624924196e810f86fe00dcd8" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1aaf8cf3417bfe14ab9f86f13d1cc0dc97" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>operator==</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1afcd626463cf2f50aae37994732dd55df" prot="package" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>SimpleVolumeMinMaxU16</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1a0cdd99fa9e49bfe773d1799d88046ab5" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>SimpleVolumeMinMaxU16</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1aaf18ad50cae9f1e115f9e45836163a96" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>SimpleVolumeMinMaxU16</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1a35aec0cd59065ab05ccff493f4d95094" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>SimpleVolumeMinMaxU16</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1a2e110ce530967d9ebf8768c19f0bb2dc" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>SimpleVolumeMinMaxU16</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a53c4af6e5cc545a23f5424718a1fef58" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1a0bcb73fac97479f26479122fdc7fa923" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__SimpleVolumeMinMaxU16_1ad8c914a811695d55ff7d7a940990da6f" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>volume</name></member>
       <member refid="classMR_1_1SimpleVolumeMinMaxU16_1ad0547476b4eb7a5a8eaca23f06990b41" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMaxU16</scope><name>voxelSize</name></member>
     </listofallmembers>
   </compounddef>

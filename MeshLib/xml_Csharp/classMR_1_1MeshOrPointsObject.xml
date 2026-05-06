@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshOrPointsObject" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshOrPointsObject</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshOrPointsObject</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshOrPointsObject" prot="public" virt="non-virtual">MR.Const_MeshOrPointsObject</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1MeshOrPointsObject_1a04f00fc8113ff78d69dc60daccdcc9bf" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -69,7 +69,7 @@
         <name>MeshOrPointsObject</name>
         <qualifiedname>MR.MeshOrPointsObject.MeshOrPointsObject</qualifiedname>
         <param>
-          <type>Const_MeshOrPointsObject</type>
+          <type><ref refid="classMR_1_1Const__MeshOrPointsObject" kindref="compound">Const_MeshOrPointsObject</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -303,6 +303,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshOrPointsObject</label>
+        <link refid="classMR_1_1Const__MeshOrPointsObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -329,6 +330,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshOrPointsObject</label>
+        <link refid="classMR_1_1Const__MeshOrPointsObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -348,7 +350,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" line="207" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPointsObject.cs" bodystart="208" bodyend="337"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a8aab65eb7fcafba2265c33d0e677f066" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>arrow</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ac95bcdcf9ff96fed1f7342ab0dfa437e" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>asObjectMesh</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ad50104ead7bbc92b2065df74f55b9366" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>asObjectPoints</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1a3f46095816f2121dc1d6146b3a3d5ea4" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a9219b46774729bc6dd4e2432a918a0b1" prot="package" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a556b3ae7786a52fab836f07807041316" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ada96cb8ed3c96a8925fca9c4a826c4ad" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ac07113afc7548218c7058bc7217ad5b2" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1aeaf411692f6a4e226d228ae398324d33" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a0d068de51da6b7116be2f016a234a5b1" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a3b71337c138ee25f1d96481e4dd197b8" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a0a2129b1b4c7d80d7bb503b43a5229a3" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ab86a33099f37cd1a6cc76e7fe05d8ed8" prot="protected" virt="virtual"><scope>MR::MeshOrPointsObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a9a9b68609466c68c2732b1a46ef16dda" prot="public" virt="virtual"><scope>MR::MeshOrPointsObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a013d2968cd8da2f05a386f1e67c9abdc" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a7235687b01da463fd192d6d56c5ec065" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1aabe7c6acfb0c9c983560e7632890dfdb" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>get</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a9ab034da7c487609a4be1bab217844b2" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>meshOrPoints</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1a04f00fc8113ff78d69dc60daccdcc9bf" prot="package" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1a7c10ee09237da9a9a973cd5ffed69253" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1a581fe35f1da2142116491bda1deba7a3" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
@@ -357,9 +376,14 @@
       <member refid="classMR_1_1MeshOrPointsObject_1ae9c92f2cb30d119a7fe05a95e335a072" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1a23470a3f9a4f9a24c51e18202836e552" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1a0891ad8de7f716e8bf3c29b835658e2d" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ad3fd69b8da20ef26fd784893f082cdfa" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ac674fce55a1c30616497bf493382db31" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator Const_MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a40a2d7ba293a925c52cdc6c8713bc6c1" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator Const_MeshOrPointsObject</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1ac8d88f2c57a22de3f01794c3ac6a2ce2" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator MeshOrPointsObject</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1abc09cafd8d390df20a227459ceb4b3a3" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator MeshOrPointsObject</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1aaf4720930502c08a26d9e15cddd268c4" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator MeshOrPointsObject</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1a45b77d98599c01e963df1972b334841e" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsObject_1ae8ff5b08c0fe35856a2621e36625b82e" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator==</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1ae934c991645373a2f9a5eec77cf33d3e" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>reset</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1abe3fb04159bb5610a4a113213b2f626f" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>set</name></member>
       <member refid="classMR_1_1MeshOrPointsObject_1ac132887b0b8535328e5838b8c41c429e" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>set</name></member>

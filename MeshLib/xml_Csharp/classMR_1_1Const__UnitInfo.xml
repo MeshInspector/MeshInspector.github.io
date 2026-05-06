@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__UnitInfo" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_UnitInfo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1UnitInfo" prot="public" virt="non-virtual">MR.UnitInfo</derivedcompoundref>
+    <innerclass refid="structMR_1_1Const__UnitInfo_1_1__Underlying" prot="package">MR::Const_UnitInfo::_Underlying</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__UnitInfo_1a447ed1867fa58dad7f7e85934029e0a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_UnitInfo.conversionFactor</definition>
+        <argsstring></argsstring>
+        <name>conversionFactor</name>
+        <qualifiedname>MR.Const_UnitInfo.conversionFactor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" line="127" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__UnitInfo_1a25849a06552872bd07ad78fb86f08d08" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_StringView</type>
+        <definition>unsafe MR.Std.Const_StringView MR.Const_UnitInfo.prettyName</definition>
+        <argsstring></argsstring>
+        <name>prettyName</name>
+        <qualifiedname>MR.Const_UnitInfo.prettyName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" line="130" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__UnitInfo_1a0f5520cfdac63aa8a78e2678b3c4c900" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_StringView</type>
+        <definition>unsafe MR.Std.Const_StringView MR.Const_UnitInfo.unitSuffix</definition>
+        <argsstring></argsstring>
+        <name>unitSuffix</name>
+        <qualifiedname>MR.Const_UnitInfo.unitSuffix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" line="134" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" bodystart="134" bodyend="134"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__UnitInfo_1a51f6cc6610fa5b2fba179b80e88c2e30" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_UnitInfo.__ref_storage_conversionFactor</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_conversionFactor</name>
+        <qualifiedname>MR.Const_UnitInfo.__ref_storage_conversionFactor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" line="128" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__UnitInfo_1a60a7d594829185001c33f0e6ffb33ff4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_UnitInfo.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UnitInfo.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" line="113" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" bodystart="113" bodyend="121"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__UnitInfo_1a973963a363c4993bb54f094886d1a1bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_UnitInfo.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UnitInfo.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" line="122" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UnitInfo_1a33df151a76cd455aea78331ca74db04b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UnitInfo.Const_UnitInfo</definition>
+        <argsstring>()</argsstring>
+        <name>Const_UnitInfo</name>
+        <qualifiedname>MR.Const_UnitInfo.Const_UnitInfo</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" line="175" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" bodystart="175" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UnitInfo_1a2eeaa9f9078a631b002e777dddd76a9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UnitInfo.Const_UnitInfo</definition>
+        <argsstring>(float conversionFactor, string prettyName, string unitSuffix)</argsstring>
+        <name>Const_UnitInfo</name>
+        <qualifiedname>MR.Const_UnitInfo.Const_UnitInfo</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>conversionFactor</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>prettyName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>unitSuffix</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1UnitInfo" kindref="compound">MR.UnitInfo</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" line="186" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" bodystart="186" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UnitInfo_1ae33d9cf22d2603eda58126c63b46d0f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UnitInfo.Const_UnitInfo</definition>
+        <argsstring>(MR.Const_UnitInfo _other)</argsstring>
+        <name>Const_UnitInfo</name>
+        <qualifiedname>MR.Const_UnitInfo.Const_UnitInfo</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UnitInfo" kindref="compound">MR.Const_UnitInfo</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UnitInfo_1a1637ead20036b222ecac4e1eed91a28e" kindref="member">MR.UnitInfo.UnitInfo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" line="205" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" bodystart="205" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UnitInfo_1a4bcbe82cc7273ad199757d92f82d1ff4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UnitInfo.Const_UnitInfo</definition>
+        <argsstring>(UnitInfo _other)</argsstring>
+        <name>Const_UnitInfo</name>
+        <qualifiedname>MR.Const_UnitInfo.Const_UnitInfo</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UnitInfo" kindref="compound">UnitInfo</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UnitInfo_1a1637ead20036b222ecac4e1eed91a28e" kindref="member">MR.UnitInfo.UnitInfo</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" line="217" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" bodystart="217" bodyend="217"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__UnitInfo_1a1d053dce9d79dc442db4ebc5e57a38bf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UnitInfo.~Const_UnitInfo</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_UnitInfo</name>
+        <qualifiedname>MR.Const_UnitInfo.~Const_UnitInfo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" line="123" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" bodystart="123" bodyend="123"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__UnitInfo_1ac87755febdb2fd1929f6db3e20369390" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UnitInfo.Const_UnitInfo</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_UnitInfo</name>
+        <qualifiedname>MR.Const_UnitInfo.Const_UnitInfo</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" line="164" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" bodystart="164" bodyend="169"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1UnitInfo" kindref="compound">MR.UnitInfo</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_UnitInfo</label>
+        <link refid="classMR_1_1Const__UnitInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.UnitInfo</label>
+        <link refid="classMR_1_1UnitInfo"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_UnitInfo</label>
+        <link refid="classMR_1_1Const__UnitInfo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" line="107" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnitInfo.cs" bodystart="108" bodyend="218"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__UnitInfo_1a51f6cc6610fa5b2fba179b80e88c2e30" prot="protected" virt="non-virtual"><scope>MR::Const_UnitInfo</scope><name>__ref_storage_conversionFactor</name></member>
+      <member refid="classMR_1_1Const__UnitInfo_1ac87755febdb2fd1929f6db3e20369390" prot="package" virt="non-virtual"><scope>MR::Const_UnitInfo</scope><name>Const_UnitInfo</name></member>
+      <member refid="classMR_1_1Const__UnitInfo_1a33df151a76cd455aea78331ca74db04b" prot="public" virt="non-virtual"><scope>MR::Const_UnitInfo</scope><name>Const_UnitInfo</name></member>
+      <member refid="classMR_1_1Const__UnitInfo_1a2eeaa9f9078a631b002e777dddd76a9a" prot="public" virt="non-virtual"><scope>MR::Const_UnitInfo</scope><name>Const_UnitInfo</name></member>
+      <member refid="classMR_1_1Const__UnitInfo_1ae33d9cf22d2603eda58126c63b46d0f4" prot="public" virt="non-virtual"><scope>MR::Const_UnitInfo</scope><name>Const_UnitInfo</name></member>
+      <member refid="classMR_1_1Const__UnitInfo_1a4bcbe82cc7273ad199757d92f82d1ff4" prot="public" virt="non-virtual"><scope>MR::Const_UnitInfo</scope><name>Const_UnitInfo</name></member>
+      <member refid="classMR_1_1Const__UnitInfo_1a447ed1867fa58dad7f7e85934029e0a5" prot="public" virt="non-virtual"><scope>MR::Const_UnitInfo</scope><name>conversionFactor</name></member>
+      <member refid="classMR_1_1Const__UnitInfo_1a60a7d594829185001c33f0e6ffb33ff4" prot="protected" virt="virtual"><scope>MR::Const_UnitInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UnitInfo_1a973963a363c4993bb54f094886d1a1bb" prot="public" virt="virtual"><scope>MR::Const_UnitInfo</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UnitInfo_1a25849a06552872bd07ad78fb86f08d08" prot="public" virt="non-virtual"><scope>MR::Const_UnitInfo</scope><name>prettyName</name></member>
+      <member refid="classMR_1_1Const__UnitInfo_1a0f5520cfdac63aa8a78e2678b3c4c900" prot="public" virt="non-virtual"><scope>MR::Const_UnitInfo</scope><name>unitSuffix</name></member>
+      <member refid="classMR_1_1Const__UnitInfo_1a1d053dce9d79dc442db4ebc5e57a38bf" prot="private" virt="non-virtual"><scope>MR::Const_UnitInfo</scope><name>~Const_UnitInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

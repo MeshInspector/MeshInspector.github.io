@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FillHoleMetric" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FillHoleMetric</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FillHoleMetric" prot="public" virt="non-virtual">MR.FillHoleMetric</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__FillHoleMetric_1aacf47f4ebb734d64ab03b267f55fd192" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Double_From_MRVertId_MRVertId_MRVertId</type>
+        <definition>unsafe MR.Std.Const_Function_Double_From_MRVertId_MRVertId_MRVertId MR.Const_FillHoleMetric.triangleMetric</definition>
+        <argsstring></argsstring>
+        <name>triangleMetric</name>
+        <qualifiedname>MR.Const_FillHoleMetric.triangleMetric</qualifiedname>
+        <briefdescription>
+<para>is called for each triangle, if it is set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="38" column="82" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FillHoleMetric_1a64bee85464f6a3e9d21ce93cfc4f47dd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Double_From_MRVertId_MRVertId_MRVertId_MRVertId</type>
+        <definition>unsafe MR.Std.Const_Function_Double_From_MRVertId_MRVertId_MRVertId_MRVertId MR.Const_FillHoleMetric.edgeMetric</definition>
+        <argsstring></argsstring>
+        <name>edgeMetric</name>
+        <qualifiedname>MR.Const_FillHoleMetric.edgeMetric</qualifiedname>
+        <briefdescription>
+<para>is called for each edge, if it is set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="43" column="91" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__FillHoleMetric_1a872206d15d6215237b091fe990b43f6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Double_From_Double_Double</type>
+        <definition>unsafe MR.Std.Const_Function_Double_From_Double_Double MR.Const_FillHoleMetric.combineMetric</definition>
+        <argsstring></argsstring>
+        <name>combineMetric</name>
+        <qualifiedname>MR.Const_FillHoleMetric.combineMetric</qualifiedname>
+        <briefdescription>
+<para>is called to combine metrics from different candidates, if it is not set it just summarizes input </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="48" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleMetric_1af104b27e50aa28b74230780f78ca4622" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FillHoleMetric.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FillHoleMetric.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="23" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="23" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleMetric_1a3ba2ed358ebf7e9285c4f5538b3efd40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FillHoleMetric.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FillHoleMetric.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="32" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleMetric_1a2dc670f48d146e1a64eb39c793a60b4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FillHoleMetric.Const_FillHoleMetric</definition>
+        <argsstring>()</argsstring>
+        <name>Const_FillHoleMetric</name>
+        <qualifiedname>MR.Const_FillHoleMetric.Const_FillHoleMetric</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="90" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="90" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleMetric_1a12d704a588a1d1561d0c5b83f9bf1ef1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FillHoleMetric.Const_FillHoleMetric</definition>
+        <argsstring>(MR.Std._ByValue_Function_Double_From_MRVertId_MRVertId_MRVertId triangleMetric, MR.Std._ByValue_Function_Double_From_MRVertId_MRVertId_MRVertId_MRVertId edgeMetric, MR.Std._ByValue_Function_Double_From_Double_Double combineMetric)</argsstring>
+        <name>Const_FillHoleMetric</name>
+        <qualifiedname>MR.Const_FillHoleMetric.Const_FillHoleMetric</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_Double_From_MRVertId_MRVertId_MRVertId</type>
+          <declname>triangleMetric</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Double_From_MRVertId_MRVertId_MRVertId_MRVertId</type>
+          <declname>edgeMetric</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Double_From_Double_Double</type>
+          <declname>combineMetric</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FillHoleMetric" kindref="compound">MR.FillHoleMetric</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="101" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="101" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleMetric_1ac4f3ddcc28b36801f9b8292745ba2d97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FillHoleMetric.Const_FillHoleMetric</definition>
+        <argsstring>(MR._ByValue_FillHoleMetric _other)</argsstring>
+        <name>Const_FillHoleMetric</name>
+        <qualifiedname>MR.Const_FillHoleMetric.Const_FillHoleMetric</qualifiedname>
+        <param>
+          <type>MR._ByValue_FillHoleMetric</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FillHoleMetric_1ab2435bf1ca9e3e7908cbdbd44e1f4e8d" kindref="member">MR.FillHoleMetric.FillHoleMetric</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="115" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="115" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleMetric_1a129a00fa32e958e2e45a9adc35ee33c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FillHoleMetric.Const_FillHoleMetric</definition>
+        <argsstring>(Const_FillHoleMetric _other)</argsstring>
+        <name>Const_FillHoleMetric</name>
+        <qualifiedname>MR.Const_FillHoleMetric.Const_FillHoleMetric</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FillHoleMetric" kindref="compound">Const_FillHoleMetric</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FillHoleMetric_1ab2435bf1ca9e3e7908cbdbd44e1f4e8d" kindref="member">MR.FillHoleMetric.FillHoleMetric</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="127" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleMetric_1a39b13f9d322c463cc4f9e613240226bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FillHoleMetric.Const_FillHoleMetric</definition>
+        <argsstring>(FillHoleMetric _other)</argsstring>
+        <name>Const_FillHoleMetric</name>
+        <qualifiedname>MR.Const_FillHoleMetric.Const_FillHoleMetric</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FillHoleMetric_1ab2435bf1ca9e3e7908cbdbd44e1f4e8d" kindref="member">MR.FillHoleMetric.FillHoleMetric</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="132" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="132" bodyend="132"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleMetric_1ad78e854dfc751355147fc3e82aa64b27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FillHoleMetric.~Const_FillHoleMetric</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FillHoleMetric</name>
+        <qualifiedname>MR.Const_FillHoleMetric.~Const_FillHoleMetric</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="33" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FillHoleMetric_1a270447faa0358dc8c4d117c2c0089099" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FillHoleMetric.Const_FillHoleMetric</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FillHoleMetric</name>
+        <qualifiedname>MR.Const_FillHoleMetric.Const_FillHoleMetric</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="79" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="79" bodyend="84"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_FillHoleMetric</label>
+        <link refid="classMR_1_1Const__FillHoleMetric"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.FillHoleMetric</label>
+        <link refid="classMR_1_1FillHoleMetric"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_FillHoleMetric</label>
+        <link refid="classMR_1_1Const__FillHoleMetric"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" line="17" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMetrics.cs" bodystart="18" bodyend="133"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FillHoleMetric_1a872206d15d6215237b091fe990b43f6c" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleMetric</scope><name>combineMetric</name></member>
+      <member refid="classMR_1_1Const__FillHoleMetric_1a270447faa0358dc8c4d117c2c0089099" prot="package" virt="non-virtual"><scope>MR::Const_FillHoleMetric</scope><name>Const_FillHoleMetric</name></member>
+      <member refid="classMR_1_1Const__FillHoleMetric_1a2dc670f48d146e1a64eb39c793a60b4d" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleMetric</scope><name>Const_FillHoleMetric</name></member>
+      <member refid="classMR_1_1Const__FillHoleMetric_1a12d704a588a1d1561d0c5b83f9bf1ef1" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleMetric</scope><name>Const_FillHoleMetric</name></member>
+      <member refid="classMR_1_1Const__FillHoleMetric_1ac4f3ddcc28b36801f9b8292745ba2d97" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleMetric</scope><name>Const_FillHoleMetric</name></member>
+      <member refid="classMR_1_1Const__FillHoleMetric_1a129a00fa32e958e2e45a9adc35ee33c6" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleMetric</scope><name>Const_FillHoleMetric</name></member>
+      <member refid="classMR_1_1Const__FillHoleMetric_1a39b13f9d322c463cc4f9e613240226bd" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleMetric</scope><name>Const_FillHoleMetric</name></member>
+      <member refid="classMR_1_1Const__FillHoleMetric_1af104b27e50aa28b74230780f78ca4622" prot="protected" virt="virtual"><scope>MR::Const_FillHoleMetric</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FillHoleMetric_1a3ba2ed358ebf7e9285c4f5538b3efd40" prot="public" virt="virtual"><scope>MR::Const_FillHoleMetric</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FillHoleMetric_1a64bee85464f6a3e9d21ce93cfc4f47dd" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleMetric</scope><name>edgeMetric</name></member>
+      <member refid="classMR_1_1Const__FillHoleMetric_1aacf47f4ebb734d64ab03b267f55fd192" prot="public" virt="non-virtual"><scope>MR::Const_FillHoleMetric</scope><name>triangleMetric</name></member>
+      <member refid="classMR_1_1Const__FillHoleMetric_1ad78e854dfc751355147fc3e82aa64b27" prot="private" virt="non-virtual"><scope>MR::Const_FillHoleMetric</scope><name>~Const_FillHoleMetric</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

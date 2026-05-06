@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelTraits__MRVoxelBitSet" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelTraits_MRVoxelBitSet</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelTraits_MRVoxelBitSet</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__VoxelTraits__MRVoxelBitSet" prot="public" virt="non-virtual">MR.Const_VoxelTraits_MRVoxelBitSet</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVoxelBitSet_1aa647287d5abbe52643910ee9141fe485" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>VoxelTraits_MRVoxelBitSet</name>
         <qualifiedname>MR.VoxelTraits_MRVoxelBitSet.VoxelTraits_MRVoxelBitSet</qualifiedname>
         <param>
-          <type>MR.Const_VoxelTraits_MRVoxelBitSet</type>
+          <type><ref refid="classMR_1_1Const__VoxelTraits__MRVoxelBitSet" kindref="compound">MR.Const_VoxelTraits_MRVoxelBitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;amp;gt;::VoxelTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;::VoxelTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;amp;gt;::VoxelTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::VoxelTraits&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;::VoxelTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.VoxelTraits_MRVoxelBitSet.assign</qualifiedname>
         <param>
-          <type>MR.Const_VoxelTraits_MRVoxelBitSet</type>
+          <type><ref refid="classMR_1_1Const__VoxelTraits__MRVoxelBitSet" kindref="compound">MR.Const_VoxelTraits_MRVoxelBitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::VoxelTraits&amp;amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::VoxelTraits&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -102,7 +102,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::VoxelTraits&amp;amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::VoxelTraits&amp;lt;<ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelTraits_MRVoxelBitSet</label>
+        <link refid="classMR_1_1Const__VoxelTraits__MRVoxelBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_VoxelTraits_MRVoxelBitSet</label>
+        <link refid="classMR_1_1Const__VoxelTraits__MRVoxelBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3885" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3886" bodyend="3926"/>
     <listofallmembers>
       <member refid="classMR_1_1VoxelTraits__MRVoxelBitSet_1a30fe54c58556198842e56f2de4581489" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelBitSet_1a889ff2069197474f0be95c23bb9bca98" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>Const_VoxelTraits_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelBitSet_1ac6489a27fab9f5c298c8b6fb1136e88d" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>Const_VoxelTraits_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelBitSet_1a2c6839b709d031eddd07e7281da05b32" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>Const_VoxelTraits_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelBitSet_1abc5986791ad5cfd7fb4ec8fd4542adbe" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>Const_VoxelTraits_MRVoxelBitSet</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelBitSet_1aa70b078aa58d554aa5ad3e8c3410b82e" prot="protected" virt="virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VoxelTraits__MRVoxelBitSet_1a3e5579ed2e9d7d043a1aed2f5650d672" prot="public" virt="virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>Dispose</name></member>
       <member refid="classMR_1_1VoxelTraits__MRVoxelBitSet_1aa647287d5abbe52643910ee9141fe485" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>VoxelTraits_MRVoxelBitSet</name></member>
       <member refid="classMR_1_1VoxelTraits__MRVoxelBitSet_1a80a05872b0b8ff5b326621ad02c63c45" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>VoxelTraits_MRVoxelBitSet</name></member>
       <member refid="classMR_1_1VoxelTraits__MRVoxelBitSet_1aab16965ff29be7523d5d45ee1c6cc026" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVoxelBitSet</scope><name>VoxelTraits_MRVoxelBitSet</name></member>

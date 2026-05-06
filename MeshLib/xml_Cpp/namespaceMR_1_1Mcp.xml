@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1Mcp" kind="namespace" language="C++">
+    <compoundname>MR::Mcp</compoundname>
+    <innerclass refid="classMR_1_1Mcp_1_1Server" prot="public">MR::Mcp::Server</innerclass>
+    <innernamespace refid="namespaceMR_1_1Mcp_1_1Schema">MR::Mcp::Schema</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1Mcp_1a255c34dcc4e67f496bea3c6daef7bdba" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMCP_API <ref refid="classMR_1_1Mcp_1_1Server" kindref="compound">Server</ref> &amp;</type>
+        <definition>MRMCP_API Server &amp; MR::Mcp::getDefaultServer</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultServer</name>
+        <qualifiedname>MR::Mcp::getDefaultServer</qualifiedname>
+        <briefdescription>
+<para>The global instance of the MCP server. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMcp/MRMcp.h" line="193" column="19" declfile="MRMcp/MRMcp.h" declline="193" declcolumn="19"/>
+      </memberdef>
+      <member refid="group__GeneralGroup_1ga0c165bcc8653a7af45f1680f2ed83811" kind="function"><name>idOf</name></member>
+      <member refid="group__GeneralGroup_1ga0280b00dcc1ca26b3e93e6321da0598a" kind="function"><name>resolveId</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMcp/MRMcp.h" line="15" column="1"/>
+  </compounddef>
+</doxygen>

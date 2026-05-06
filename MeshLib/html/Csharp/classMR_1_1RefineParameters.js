@@ -1,7 +1,7 @@
 var classMR_1_1RefineParameters =
 [
     [ "RefineParameters", "classMR_1_1RefineParameters.html#a025cad4241887118592bf5f5b8c372da", null ],
-    [ "RefineParameters", "classMR_1_1RefineParameters.html#acdb1439f4f5f467aafc68ab57ac3b073", null ],
+    [ "RefineParameters", "classMR_1_1RefineParameters.html#ab5d9afbb32de0c56467d6e5b283a80a2", null ],
     [ "RefineParameters", "classMR_1_1RefineParameters.html#aa339ea784228e1f059eaaf663e269696", null ],
     [ "RefineParameters", "classMR_1_1RefineParameters.html#aa0934a64cd02007afc18ced8d1a1e5a7", null ],
     [ "RefineParameters", "classMR_1_1RefineParameters.html#a83763ce0108f8bf15444dfbc2412cc45", null ],

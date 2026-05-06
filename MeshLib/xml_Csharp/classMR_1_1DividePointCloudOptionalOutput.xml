@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1DividePointCloudOptionalOutput" kind="class" language="C#" prot="public">
     <compoundname>MR::DividePointCloudOptionalOutput</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_DividePointCloudOptionalOutput</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__DividePointCloudOptionalOutput" prot="public" virt="non-virtual">MR.Const_DividePointCloudOptionalOutput</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1DividePointCloudOptionalOutput_1a7b5e5a5ad268bb5737c01e33bbe4ca2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1VertMap" kindref="compound">VertMap</ref></type>
@@ -124,7 +124,7 @@
         <name>DividePointCloudOptionalOutput</name>
         <qualifiedname>MR.DividePointCloudOptionalOutput.DividePointCloudOptionalOutput</qualifiedname>
         <param>
-          <type>MR.Const_DividePointCloudOptionalOutput</type>
+          <type><ref refid="classMR_1_1Const__DividePointCloudOptionalOutput" kindref="compound">MR.Const_DividePointCloudOptionalOutput</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.DividePointCloudOptionalOutput.assign</qualifiedname>
         <param>
-          <type>MR.Const_DividePointCloudOptionalOutput</type>
+          <type><ref refid="classMR_1_1Const__DividePointCloudOptionalOutput" kindref="compound">MR.Const_DividePointCloudOptionalOutput</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_DividePointCloudOptionalOutput</label>
+        <link refid="classMR_1_1Const__DividePointCloudOptionalOutput"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -202,6 +203,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.DividePointCloudOptionalOutput</label>
         <link refid="classMR_1_1DividePointCloudOptionalOutput"/>
@@ -210,9 +215,15 @@
       </node>
       <node id="2">
         <label>MR.Const_DividePointCloudOptionalOutput</label>
+        <link refid="classMR_1_1Const__DividePointCloudOptionalOutput"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_otherOutVmap</edgelabel>
+          <edgelabel>__ptr_storage_otherPart</edgelabel>
+          <edgelabel>__ptr_storage_outVmap</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -224,7 +235,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" line="160" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudDivideWithPlane.cs" bodystart="161" bodyend="269"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1aa55aec30ec0d253adc3326533d47bc36" prot="protected" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>__ptr_storage_otherOutVmap</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a67aef001a90e2f6590341d9f2fd76a7a" prot="protected" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>__ptr_storage_otherPart</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a5f83de4284329c21ef9503d9e623af99" prot="protected" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>__ptr_storage_outVmap</name></member>
       <member refid="classMR_1_1DividePointCloudOptionalOutput_1ab495d19a264dec241840f19b2b775f45" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a3bf16b93b7d48d80f401bf6baceb36ca" prot="package" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>Const_DividePointCloudOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a67b6f2a72167910ea3505b009e7b5f38" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>Const_DividePointCloudOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1aa460a9e7103e74cd84b8d534b67eac82" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>Const_DividePointCloudOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a157f07653ff632a3017d2711dda004ee" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>Const_DividePointCloudOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a0898c909eff1a2bc7a3d16d7f46254d1" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>Const_DividePointCloudOptionalOutput</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a8bf24a7d1113f862b5e8f5aaabc577f3" prot="protected" virt="virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__DividePointCloudOptionalOutput_1a29776891891e2aceb832e9f476fe30b3" prot="public" virt="virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>Dispose</name></member>
       <member refid="classMR_1_1DividePointCloudOptionalOutput_1af00d6a53095904c59f1ba48c05d3e6e9" prot="package" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>DividePointCloudOptionalOutput</name></member>
       <member refid="classMR_1_1DividePointCloudOptionalOutput_1aafd814b187f564ded2b8f586628f660d" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>DividePointCloudOptionalOutput</name></member>
       <member refid="classMR_1_1DividePointCloudOptionalOutput_1a7ef1c309216fa74f4c82232372392215" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>DividePointCloudOptionalOutput</name></member>

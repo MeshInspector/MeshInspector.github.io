@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointCloudApproxRelaxParams" kind="class" language="C#" prot="public">
     <compoundname>MR::PointCloudApproxRelaxParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointCloudApproxRelaxParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointCloudApproxRelaxParams" prot="public" virt="non-virtual">MR.Const_PointCloudApproxRelaxParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PointCloudApproxRelaxParams_1a9f212056331e43f999e81fea6369b897" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1a04fbc78203c3033872b6d43c31d2805c" kindref="member">MR.RelaxApproxType</ref></type>
@@ -49,7 +49,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="542" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="542" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1PointCloudApproxRelaxParams_1a5d6ce71080a29b20a5757c47ef106f00" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.PointCloudApproxRelaxParams.region</definition>
         <argsstring></argsstring>
         <name>region</name>
@@ -194,7 +194,7 @@
         <name>PointCloudApproxRelaxParams</name>
         <qualifiedname>MR.PointCloudApproxRelaxParams.PointCloudApproxRelaxParams</qualifiedname>
         <param>
-          <type>MR.Const_PointCloudApproxRelaxParams</type>
+          <type><ref refid="classMR_1_1Const__PointCloudApproxRelaxParams" kindref="compound">MR.Const_PointCloudApproxRelaxParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -232,7 +232,7 @@
         <name>assign</name>
         <qualifiedname>MR.PointCloudApproxRelaxParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_PointCloudApproxRelaxParams</type>
+          <type><ref refid="classMR_1_1Const__PointCloudApproxRelaxParams" kindref="compound">MR.Const_PointCloudApproxRelaxParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -259,6 +259,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointCloudApproxRelaxParams</label>
+        <link refid="classMR_1_1Const__PointCloudApproxRelaxParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -272,6 +273,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PointCloudApproxRelaxParams</label>
         <link refid="classMR_1_1PointCloudApproxRelaxParams"/>
@@ -280,9 +285,14 @@
       </node>
       <node id="2">
         <label>MR.Const_PointCloudApproxRelaxParams</label>
+        <link refid="classMR_1_1Const__PointCloudApproxRelaxParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_region</edgelabel>
+          <edgelabel>__ref_storage_type</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -294,12 +304,27 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" line="511" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudRelax.cs" bodystart="512" bodyend="622"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a27f4764a8d2937762ab6590ee7ac5914" prot="protected" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a874c45de8ca2843e91e62d5335dcc693" prot="protected" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>__ref_storage_force</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a2695b347ddbc5423d3870510493b864d" prot="protected" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>__ref_storage_iterations</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1ac564fcf4a28f23df42c767eb28c7c362" prot="protected" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>__ref_storage_limitNearInitial</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a3feac27e1a43bb71b8e2f5e99ba3736e" prot="protected" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>__ref_storage_maxInitialDist</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a4e4201bd90477c6011802783b1d7a846" prot="protected" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>__ref_storage_neighborhoodRadius</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a9f1d9e5c2561aa8dc505841d667a5e87" prot="protected" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>__ref_storage_type</name></member>
       <member refid="classMR_1_1PointCloudApproxRelaxParams_1a938d917fb6e74c12b252eec61aefc5e9" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a9faa6f36ea915807acfe35d23d6ecf44" prot="package" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>Const_PointCloudApproxRelaxParams</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1afc1a9b075cf3a372d04f567878ccd35d" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>Const_PointCloudApproxRelaxParams</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1acbc8e23eab9ef8314371c89ccdfef216" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>Const_PointCloudApproxRelaxParams</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a573163db9d5eeba5f1947a5ae1d615dc" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>Const_PointCloudApproxRelaxParams</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a23c2e7e2357492c9daccda2dfd99d12c" prot="protected" virt="virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a8d51fb71a8c77229db2c94732fc2340a" prot="public" virt="virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PointCloudApproxRelaxParams_1af7c5b151cd681efb052eddb4e6e35584" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>force</name></member>
       <member refid="classMR_1_1PointCloudApproxRelaxParams_1ab630953d03bfb929d16344bb18fa3129" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>iterations</name></member>
       <member refid="classMR_1_1PointCloudApproxRelaxParams_1a5ae949fb204a4258640690eb47d30e05" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>limitNearInitial</name></member>
       <member refid="classMR_1_1PointCloudApproxRelaxParams_1ac2da44309cc6f470a18fb6fde664c92e" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>maxInitialDist</name></member>
       <member refid="classMR_1_1PointCloudApproxRelaxParams_1a737c49734315fdb3d7fd32ef285b5be5" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>neighborhoodRadius</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1aa8b726d16211464ceda3f5b43dccb71c" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>operator MR.Const_PointCloudRelaxParams</name></member>
+      <member refid="classMR_1_1Const__PointCloudApproxRelaxParams_1a3d7fd5adf220b75769f7a9ed1ad0d483" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>operator MR.Const_RelaxParams</name></member>
       <member refid="classMR_1_1PointCloudApproxRelaxParams_1adb3da3ede39a30ae15552a28af089b9d" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>operator MR.PointCloudRelaxParams</name></member>
       <member refid="classMR_1_1PointCloudApproxRelaxParams_1aedc7c2ccb09df55714f4637348c9023a" prot="public" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>operator MR.RelaxParams</name></member>
       <member refid="classMR_1_1PointCloudApproxRelaxParams_1a366552c00026f7f97ffc120ee288ff2b" prot="package" virt="non-virtual"><scope>MR::PointCloudApproxRelaxParams</scope><name>PointCloudApproxRelaxParams</name></member>

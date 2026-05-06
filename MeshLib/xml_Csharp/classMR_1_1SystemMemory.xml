@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SystemMemory" kind="class" language="C#" prot="public">
     <compoundname>MR::SystemMemory</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SystemMemory</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SystemMemory" prot="public" virt="non-virtual">MR.Const_SystemMemory</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SystemMemory_1a4002353a353c44cfc00d140d0bc088f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref ulong</type>
@@ -105,7 +105,7 @@
         <name>SystemMemory</name>
         <qualifiedname>MR.SystemMemory.SystemMemory</qualifiedname>
         <param>
-          <type>MR.Const_SystemMemory</type>
+          <type><ref refid="classMR_1_1Const__SystemMemory" kindref="compound">MR.Const_SystemMemory</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.SystemMemory.assign</qualifiedname>
         <param>
-          <type>MR.Const_SystemMemory</type>
+          <type><ref refid="classMR_1_1Const__SystemMemory" kindref="compound">MR.Const_SystemMemory</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SystemMemory</label>
+        <link refid="classMR_1_1Const__SystemMemory"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -191,6 +192,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SystemMemory</label>
+        <link refid="classMR_1_1Const__SystemMemory"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -205,7 +207,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" line="109" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSystem.cs" bodystart="110" bodyend="180"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SystemMemory_1a5fd56f91337804d679d151e577b9d5ca" prot="protected" virt="non-virtual"><scope>MR::SystemMemory</scope><name>__ref_storage_physicalAvailable</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1ad96f9a261a81c6ecc61fdbb4270812a3" prot="protected" virt="non-virtual"><scope>MR::SystemMemory</scope><name>__ref_storage_physicalTotal</name></member>
       <member refid="classMR_1_1SystemMemory_1a1fa9f0c537bf4aedc7e9b8660851831d" prot="public" virt="non-virtual"><scope>MR::SystemMemory</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1a551fcb0c970137c3d70ed98a25faab6e" prot="package" virt="non-virtual"><scope>MR::SystemMemory</scope><name>Const_SystemMemory</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1aa1b84142b21bcd23a143676a30d7cb80" prot="public" virt="non-virtual"><scope>MR::SystemMemory</scope><name>Const_SystemMemory</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1af62955c1782d1e95f56102f37e18bd7f" prot="public" virt="non-virtual"><scope>MR::SystemMemory</scope><name>Const_SystemMemory</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1a7edb3b2e057ad64c12c4397b40f1208b" prot="public" virt="non-virtual"><scope>MR::SystemMemory</scope><name>Const_SystemMemory</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1a8932438c0eadaef14fb95a0602b08764" prot="public" virt="non-virtual"><scope>MR::SystemMemory</scope><name>Const_SystemMemory</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1a8a3e8c66357c1fcfa0827fc8531fc671" prot="protected" virt="virtual"><scope>MR::SystemMemory</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SystemMemory_1a4b9fd846418cb174a55dfb4b82a3056d" prot="public" virt="virtual"><scope>MR::SystemMemory</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SystemMemory_1ab413fe8bb25bf2ecd28bcf1068237a0a" prot="public" virt="non-virtual"><scope>MR::SystemMemory</scope><name>physicalAvailable</name></member>
       <member refid="classMR_1_1SystemMemory_1a4002353a353c44cfc00d140d0bc088f2" prot="public" virt="non-virtual"><scope>MR::SystemMemory</scope><name>physicalTotal</name></member>
       <member refid="classMR_1_1SystemMemory_1aa5a117340aed0ac947f1884eb4c09b1d" prot="package" virt="non-virtual"><scope>MR::SystemMemory</scope><name>SystemMemory</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MeshOrPointsXf" kind="class" language="C#" prot="public">
     <compoundname>MR::MeshOrPointsXf</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshOrPointsXf</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MeshOrPointsXf" prot="public" virt="non-virtual">MR.Const_MeshOrPointsXf</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MeshOrPointsXf_1a4e6e0c1c226a8653223fd75e342ea76b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1MeshOrPoints" kindref="compound">MR.MeshOrPoints</ref></type>
@@ -65,7 +65,7 @@
         <name>MeshOrPointsXf</name>
         <qualifiedname>MR.MeshOrPointsXf.MeshOrPointsXf</qualifiedname>
         <param>
-          <type>MR.Const_MeshOrPointsXf</type>
+          <type><ref refid="classMR_1_1Const__MeshOrPointsXf" kindref="compound">MR.Const_MeshOrPointsXf</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -103,7 +103,7 @@
         <name>MeshOrPointsXf</name>
         <qualifiedname>MR.MeshOrPointsXf.MeshOrPointsXf</qualifiedname>
         <param>
-          <type>MR.Const_MeshOrPoints</type>
+          <type><ref refid="classMR_1_1Const__MeshOrPoints" kindref="compound">MR.Const_MeshOrPoints</ref></type>
           <declname>obj</declname>
         </param>
         <param>
@@ -126,7 +126,7 @@
         <name>assign</name>
         <qualifiedname>MR.MeshOrPointsXf.assign</qualifiedname>
         <param>
-          <type>MR.Const_MeshOrPointsXf</type>
+          <type><ref refid="classMR_1_1Const__MeshOrPointsXf" kindref="compound">MR.Const_MeshOrPointsXf</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -153,6 +153,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshOrPointsXf</label>
+        <link refid="classMR_1_1Const__MeshOrPointsXf"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -166,6 +167,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MeshOrPointsXf</label>
         <link refid="classMR_1_1MeshOrPointsXf"/>
@@ -174,9 +179,13 @@
       </node>
       <node id="2">
         <label>MR.Const_MeshOrPointsXf</label>
+        <link refid="classMR_1_1Const__MeshOrPointsXf"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_xf</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -188,12 +197,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" line="849" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOrPoints.cs" bodystart="850" bodyend="919"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MeshOrPointsXf_1a8edef671a1fbc7e3659c49939e40e848" prot="protected" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>__ref_storage_xf</name></member>
       <member refid="classMR_1_1MeshOrPointsXf_1a29d33ac36c28d0afbb50410594f66ba5" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsXf_1a80dc35e6e21f4d8bedb033ea34ed795a" prot="package" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>Const_MeshOrPointsXf</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsXf_1acbf7471beaca7476ed47cab03dd5e51d" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>Const_MeshOrPointsXf</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsXf_1acaa6a77faafb84b2864a0054be603ffd" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>Const_MeshOrPointsXf</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsXf_1ad17120e023573f97066921d2b8aa541f" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>Const_MeshOrPointsXf</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsXf_1a4f63db3e1a2604a2b11a9fd81eede467" prot="protected" virt="virtual"><scope>MR::MeshOrPointsXf</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsXf_1a3bc33d8fd604cfcb2b631af3bb681f19" prot="public" virt="virtual"><scope>MR::MeshOrPointsXf</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsXf_1a1f4074ca323a25c8d81bd681c2166736" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>limitedProjector</name></member>
       <member refid="classMR_1_1MeshOrPointsXf_1a5b479a3b5e1cc916f5fdf3ef004d2ebc" prot="package" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>MeshOrPointsXf</name></member>
       <member refid="classMR_1_1MeshOrPointsXf_1a1239c438c3dff98bad1422ee93a5e7f8" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>MeshOrPointsXf</name></member>
       <member refid="classMR_1_1MeshOrPointsXf_1ab5c001c10cea279cb54761b168ab8f8d" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>MeshOrPointsXf</name></member>
       <member refid="classMR_1_1MeshOrPointsXf_1a66c907740dac44c6b17788206dc69da5" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>MeshOrPointsXf</name></member>
       <member refid="classMR_1_1MeshOrPointsXf_1a4e6e0c1c226a8653223fd75e342ea76b" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>obj</name></member>
+      <member refid="classMR_1_1Const__MeshOrPointsXf_1a3ef51a84b02b7a50c12e3800b54b8c54" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>projector</name></member>
       <member refid="classMR_1_1MeshOrPointsXf_1ae6d851625ab0095d40569bfe4e953898" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsXf</scope><name>xf</name></member>
     </listofallmembers>
   </compounddef>

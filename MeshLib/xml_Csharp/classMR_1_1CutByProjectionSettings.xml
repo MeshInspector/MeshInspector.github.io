@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1CutByProjectionSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::CutByProjectionSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_CutByProjectionSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__CutByProjectionSettings" prot="public" virt="non-virtual">MR.Const_CutByProjectionSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1CutByProjectionSettings_1af4530181b0b21c811a0cca7106f3c0e1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -105,7 +105,7 @@
         <name>CutByProjectionSettings</name>
         <qualifiedname>MR.CutByProjectionSettings.CutByProjectionSettings</qualifiedname>
         <param>
-          <type>MR.Const_CutByProjectionSettings</type>
+          <type><ref refid="classMR_1_1Const__CutByProjectionSettings" kindref="compound">MR.Const_CutByProjectionSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.CutByProjectionSettings.assign</qualifiedname>
         <param>
-          <type>MR.Const_CutByProjectionSettings</type>
+          <type><ref refid="classMR_1_1Const__CutByProjectionSettings" kindref="compound">MR.Const_CutByProjectionSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_CutByProjectionSettings</label>
+        <link refid="classMR_1_1Const__CutByProjectionSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.CutByProjectionSettings</label>
         <link refid="classMR_1_1CutByProjectionSettings"/>
@@ -191,9 +196,14 @@
       </node>
       <node id="2">
         <label>MR.Const_CutByProjectionSettings</label>
+        <link refid="classMR_1_1Const__CutByProjectionSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_cont2mesh</edgelabel>
+          <edgelabel>__ref_storage_direction</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -205,7 +215,14 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1020" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1021" bodyend="1102"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__CutByProjectionSettings_1ad2369a0cd31dee256d303efb7e3ffc78" prot="protected" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>__ptr_storage_cont2mesh</name></member>
+      <member refid="classMR_1_1Const__CutByProjectionSettings_1a9eb3c78413972d361258f95067259f65" prot="protected" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>__ref_storage_direction</name></member>
       <member refid="classMR_1_1CutByProjectionSettings_1a3bd08216256da6a551fec6ca357b88a2" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__CutByProjectionSettings_1a1f6d5d47835a80a5ac721d98d3766041" prot="package" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>Const_CutByProjectionSettings</name></member>
+      <member refid="classMR_1_1Const__CutByProjectionSettings_1acc42acd26f65749ee41cd9848ca9abe0" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>Const_CutByProjectionSettings</name></member>
+      <member refid="classMR_1_1Const__CutByProjectionSettings_1aa68821fc04d08987acb82875414648a8" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>Const_CutByProjectionSettings</name></member>
+      <member refid="classMR_1_1Const__CutByProjectionSettings_1a0987f0df95478b513fba279e7d706bb3" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>Const_CutByProjectionSettings</name></member>
+      <member refid="classMR_1_1Const__CutByProjectionSettings_1a7c750635ad46609b729761fb2e976578" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>Const_CutByProjectionSettings</name></member>
       <member refid="classMR_1_1CutByProjectionSettings_1a920e5c5498135589ee86466cc9f5d9fb" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>cont2mesh</name></member>
       <member refid="classMR_1_1CutByProjectionSettings_1af5f842bb846210138bbb83f7e41a7d83" prot="package" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>CutByProjectionSettings</name></member>
       <member refid="classMR_1_1CutByProjectionSettings_1adbaa4f1db2e1aceaad4f152052bfe642" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>CutByProjectionSettings</name></member>
@@ -213,6 +230,8 @@
       <member refid="classMR_1_1CutByProjectionSettings_1aeb6c52ddc7105374ea595db9469cb578" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>CutByProjectionSettings</name></member>
       <member refid="classMR_1_1CutByProjectionSettings_1a0d626dd400c35c53305223b0a56d0d30" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>CutByProjectionSettings</name></member>
       <member refid="classMR_1_1CutByProjectionSettings_1af4530181b0b21c811a0cca7106f3c0e1" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>direction</name></member>
+      <member refid="classMR_1_1Const__CutByProjectionSettings_1a23cde79bec4170474b0d4a903357bbb6" prot="protected" virt="virtual"><scope>MR::CutByProjectionSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CutByProjectionSettings_1ac7a5a476cf7748cfa33e6b39da424ee9" prot="public" virt="virtual"><scope>MR::CutByProjectionSettings</scope><name>Dispose</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

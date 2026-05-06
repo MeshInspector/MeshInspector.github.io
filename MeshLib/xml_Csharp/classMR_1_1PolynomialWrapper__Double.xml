@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PolynomialWrapper__Double" kind="class" language="C#" prot="public">
     <compoundname>MR::PolynomialWrapper_Double</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PolynomialWrapper_Double</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PolynomialWrapper__Double" prot="public" virt="non-virtual">MR.Const_PolynomialWrapper_Double</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PolynomialWrapper__Double_1a6724eb1ffe1307369031607cf1b4e992" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Variant_MRPolynomialDouble0_MRPolynomialDouble1_MRPolynomialDouble2_MRPolynomialDouble3_MRPolynomialDouble4_MRPolynomialDouble5_MRPolynomialDouble6</type>
@@ -51,11 +51,11 @@
         <name>PolynomialWrapper_Double</name>
         <qualifiedname>MR.PolynomialWrapper_Double.PolynomialWrapper_Double</qualifiedname>
         <param>
-          <type>MR.Const_PolynomialWrapper_Double</type>
+          <type><ref refid="classMR_1_1Const__PolynomialWrapper__Double" kindref="compound">MR.Const_PolynomialWrapper_Double</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::PolynomialWrapper&amp;amp;lt;double&amp;amp;gt;::PolynomialWrapper</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::PolynomialWrapper&amp;lt;double&amp;gt;::PolynomialWrapper</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -74,7 +74,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::PolynomialWrapper&amp;amp;lt;double&amp;amp;gt;::PolynomialWrapper</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::PolynomialWrapper&amp;lt;double&amp;gt;::PolynomialWrapper</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -89,11 +89,11 @@
         <name>assign</name>
         <qualifiedname>MR.PolynomialWrapper_Double.assign</qualifiedname>
         <param>
-          <type>MR.Const_PolynomialWrapper_Double</type>
+          <type><ref refid="classMR_1_1Const__PolynomialWrapper__Double" kindref="compound">MR.Const_PolynomialWrapper_Double</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::PolynomialWrapper&amp;amp;lt;double&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::PolynomialWrapper&amp;lt;double&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -103,7 +103,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>This is a unifying interface for a polynomial of some degree, known only in runtime Generated from class <computeroutput>MR::PolynomialWrapper&amp;amp;lt;double&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>This is a unifying interface for a polynomial of some degree, known only in runtime Generated from class <computeroutput>MR::PolynomialWrapper&amp;lt;double&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -116,6 +116,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolynomialWrapper_Double</label>
+        <link refid="classMR_1_1Const__PolynomialWrapper__Double"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -137,6 +138,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PolynomialWrapper_Double</label>
+        <link refid="classMR_1_1Const__PolynomialWrapper__Double"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -152,6 +154,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="2849" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="2850" bodyend="2905"/>
     <listofallmembers>
       <member refid="classMR_1_1PolynomialWrapper__Double_1a875c3e2b0bb34fc363fddbb7bea7f0be" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1a5fe042b1ec436bf59052bd6dfe4572ae" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1a8f48e6158c1e48704d88d347b89b235c" prot="package" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>Const_PolynomialWrapper_Double</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1ac6c5f87b4f909218c48f71ee867a25bc" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>Const_PolynomialWrapper_Double</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1ad677c931f39ac5f42d42bc5e979f7291" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>Const_PolynomialWrapper_Double</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1ac06f0d83ed31cf79fb36a37fab673d81" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>deriv</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1addf2239d4355a43bc89e4168f235d452" prot="protected" virt="virtual"><scope>MR::PolynomialWrapper_Double</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1af44c18a46818de3137b42d633f6d466d" prot="public" virt="virtual"><scope>MR::PolynomialWrapper_Double</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PolynomialWrapper__Double_1a4739892854a821402c891bf98195a740" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>intervalMin</name></member>
       <member refid="classMR_1_1PolynomialWrapper__Double_1a6724eb1ffe1307369031607cf1b4e992" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>poly</name></member>
       <member refid="classMR_1_1PolynomialWrapper__Double_1a74ff877d2e6350f046e2e2d2fd946d8e" prot="package" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>PolynomialWrapper_Double</name></member>
       <member refid="classMR_1_1PolynomialWrapper__Double_1aa786702ad4962a30328ecc6589b31944" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper_Double</scope><name>PolynomialWrapper_Double</name></member>

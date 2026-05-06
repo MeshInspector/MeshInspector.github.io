@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f" prot="public" virt="non-virtual">MR.AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1adec8c663cd278b84f92a7fe97d04db6d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__AABBTreeNode__MRAABBTreeTraitsMRFaceTagMRBox3f" kindref="compound">MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f</ref></type>
+        <definition>unsafe MR.Const_AABBTreeNode_MRAABBTreeTraitsMRFaceTagMRBox3f MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.this[MR.NodeId nid]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.NodeId nid]</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.this[MR.NodeId nid]</qualifiedname>
+        <briefdescription>
+<para>const-access to any node Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="77" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="78" bodyend="85"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1acf0f1021c5e2ac6fb671adb706bb452c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a86d15e7c0a7f70e9e42a064526a26051" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a38a6e37bbd5a2a8e4c857c738c3bd1ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</definition>
+        <argsstring>()</argsstring>
+        <name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="34" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a68568c374bdbee07b17f54dcee29e6a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</definition>
+        <argsstring>(MR._ByValue_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f _other)</argsstring>
+        <name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</qualifiedname>
+        <param>
+          <type>MR._ByValue_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;::AABBTreeBase</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="44" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="44" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a1648111b783a65c19c8f5c8060778b77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</definition>
+        <argsstring>(Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f _other)</argsstring>
+        <name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f" kindref="compound">Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;::AABBTreeBase</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="55" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a2cb918885c549798ab01b20e0fe89104" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</definition>
+        <argsstring>(AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f _other)</argsstring>
+        <name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f" kindref="compound">AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;::AABBTreeBase</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="60" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a030cba6dd0daacaa4db99740c43f6d07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId" kindref="compound">MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId</ref></type>
+        <definition>unsafe MR.Const_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.nodes</definition>
+        <argsstring>()</argsstring>
+        <name>nodes</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.nodes</qualifiedname>
+        <briefdescription>
+<para>const-access to all nodes Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a030cba6dd0daacaa4db99740c43f6d07" kindref="member">nodes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="66" column="94" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="66" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a169994247c53bec816d4a4dab36fda27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns the root node bounding box Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a169994247c53bec816d4a4dab36fda27" kindref="member">getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="102" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="102" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a7e266cc6c007001bf2c6e8e49eebe1db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a7e266cc6c007001bf2c6e8e49eebe1db" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="113" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="113" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1afaaae1df50dfff30520c3625b60b9e10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.numLeaves</definition>
+        <argsstring>()</argsstring>
+        <name>numLeaves</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.numLeaves</qualifiedname>
+        <briefdescription>
+<para>returns the number of leaves in whole tree Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1afaaae1df50dfff30520c3625b60b9e10" kindref="member">numLeaves</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="124" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="124" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a715fb635f06988c725194e019ee34cdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRNodeId</type>
+        <definition>unsafe MR.Std.Vector_MRNodeId MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.getSubtrees</definition>
+        <argsstring>(int minNum)</argsstring>
+        <name>getSubtrees</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.getSubtrees</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>minNum</declname>
+        </param>
+        <briefdescription>
+<para>returns at least given number of top-level not-intersecting subtrees, union of which contain all tree leaves Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a715fb635f06988c725194e019ee34cdd" kindref="member">getSubtrees</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="135" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="135" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a3d7272fe3b331feb1044ba05a6b1bc84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>unsafe MR.FaceBitSet MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.getSubtreeLeaves</definition>
+        <argsstring>(MR.NodeId subtreeRoot)</argsstring>
+        <name>getSubtreeLeaves</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.getSubtreeLeaves</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>subtreeRoot</declname>
+        </param>
+        <briefdescription>
+<para>returns all leaves in the subtree with given root Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a3d7272fe3b331feb1044ba05a6b1bc84" kindref="member">getSubtreeLeaves</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="146" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="146" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1aaa75cf111e853685720eca07277ab0d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref></type>
+        <definition>unsafe MR.NodeBitSet MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.getNodesFromLeaves</definition>
+        <argsstring>(MR.Const_FaceBitSet leaves)</argsstring>
+        <name>getNodesFromLeaves</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.getNodesFromLeaves</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
+          <declname>leaves</declname>
+        </param>
+        <briefdescription>
+<para>returns set of nodes containing among direct or indirect children given leaves Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1aaa75cf111e853685720eca07277ab0d8" kindref="member">getNodesFromLeaves</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="157" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="157" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1aac607570166d63b7fa6a67c360dafefc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.getLeafOrder</definition>
+        <argsstring>(MR.FaceBMap leafMap)</argsstring>
+        <name>getLeafOrder</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.getLeafOrder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceBMap" kindref="compound">MR.FaceBMap</ref></type>
+          <declname>leafMap</declname>
+        </param>
+        <briefdescription>
+<para>fills map: LeafId -&gt; leaf#; buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1aac607570166d63b7fa6a67c360dafefc" kindref="member">getLeafOrder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="169" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="169" bodyend="174"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a1aa5e73096c66eb16c69eee5e25b6b8c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.~Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.~Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1aa449e833832a38aa5b1743399fcc2755" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="29" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a5799612af184cb91a0a5eae17469091c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>static MR.NodeId MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.rootNodeId</definition>
+        <argsstring>()</argsstring>
+        <name>rootNodeId</name>
+        <qualifiedname>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f.rootNodeId</qualifiedname>
+        <briefdescription>
+<para>returns root node id Generated from method <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;<ref refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a5799612af184cb91a0a5eae17469091c" kindref="member">rootNodeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="91" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="91" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>base class for most AABB-trees (except for <ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>) Generated from class <computeroutput>MR::AABBTreeBase&amp;lt;MR::AABBTreeTraits&amp;lt;MR::FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;&amp;gt;</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1AABBTree" kindref="compound">MR.AABBTree</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</label>
+        <link refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</label>
+        <link refid="classMR_1_1AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</label>
+        <link refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" line="11" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeBase.cs" bodystart="12" bodyend="175"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1aa449e833832a38aa5b1743399fcc2755" prot="package" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a38a6e37bbd5a2a8e4c857c738c3bd1ca" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a68568c374bdbee07b17f54dcee29e6a7" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a1648111b783a65c19c8f5c8060778b77" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a2cb918885c549798ab01b20e0fe89104" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1acf0f1021c5e2ac6fb671adb706bb452c" prot="protected" virt="virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a86d15e7c0a7f70e9e42a064526a26051" prot="public" virt="virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a169994247c53bec816d4a4dab36fda27" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1aac607570166d63b7fa6a67c360dafefc" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>getLeafOrder</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1aaa75cf111e853685720eca07277ab0d8" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>getNodesFromLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a3d7272fe3b331feb1044ba05a6b1bc84" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>getSubtreeLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a715fb635f06988c725194e019ee34cdd" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>getSubtrees</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a7e266cc6c007001bf2c6e8e49eebe1db" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a030cba6dd0daacaa4db99740c43f6d07" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>nodes</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1afaaae1df50dfff30520c3625b60b9e10" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>numLeaves</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a5799612af184cb91a0a5eae17469091c" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>rootNodeId</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1adec8c663cd278b84f92a7fe97d04db6d" prot="public" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>this[MR.NodeId nid]</name></member>
+      <member refid="classMR_1_1Const__AABBTreeBase__MRAABBTreeTraitsMRFaceTagMRBox3f_1a1aa5e73096c66eb16c69eee5e25b6b8c" prot="private" virt="non-virtual"><scope>MR::Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</scope><name>~Const_AABBTreeBase_MRAABBTreeTraitsMRFaceTagMRBox3f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

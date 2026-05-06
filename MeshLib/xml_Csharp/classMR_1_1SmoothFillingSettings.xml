@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SmoothFillingSettings" kind="class" language="C#" prot="public">
     <compoundname>MR::SmoothFillingSettings</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SmoothFillingSettings</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SmoothFillingSettings" prot="public" virt="non-virtual">MR.Const_SmoothFillingSettings</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SmoothFillingSettings_1a8691e5e74428c5cae071a0ce44499ece" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -124,7 +124,7 @@
         <name>SmoothFillingSettings</name>
         <qualifiedname>MR.SmoothFillingSettings.SmoothFillingSettings</qualifiedname>
         <param>
-          <type>MR.Const_SmoothFillingSettings</type>
+          <type><ref refid="classMR_1_1Const__SmoothFillingSettings" kindref="compound">MR.Const_SmoothFillingSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,7 +162,7 @@
         <name>assign</name>
         <qualifiedname>MR.SmoothFillingSettings.assign</qualifiedname>
         <param>
-          <type>MR.Const_SmoothFillingSettings</type>
+          <type><ref refid="classMR_1_1Const__SmoothFillingSettings" kindref="compound">MR.Const_SmoothFillingSettings</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -189,6 +189,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SmoothFillingSettings</label>
+        <link refid="classMR_1_1Const__SmoothFillingSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -202,6 +203,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.SmoothFillingSettings</label>
         <link refid="classMR_1_1SmoothFillingSettings"/>
@@ -210,9 +215,14 @@
       </node>
       <node id="2">
         <label>MR.Const_SmoothFillingSettings</label>
+        <link refid="classMR_1_1Const__SmoothFillingSettings"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_edgeWeights</edgelabel>
+          <edgelabel>__ref_storage_vmass</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -224,7 +234,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" line="484" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillHoleNicely.cs" bodystart="485" bodyend="560"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SmoothFillingSettings_1a849ffef60a634231d6aa9a755bd7cde6" prot="protected" virt="non-virtual"><scope>MR::SmoothFillingSettings</scope><name>__ref_storage_edgeWeights</name></member>
+      <member refid="classMR_1_1Const__SmoothFillingSettings_1a676be1d8e572865a6d1677e5928fd2e6" prot="protected" virt="non-virtual"><scope>MR::SmoothFillingSettings</scope><name>__ref_storage_naturalSmooth</name></member>
+      <member refid="classMR_1_1Const__SmoothFillingSettings_1a9119bbfdc26c8b2b9e022cb79cf24598" prot="protected" virt="non-virtual"><scope>MR::SmoothFillingSettings</scope><name>__ref_storage_vmass</name></member>
       <member refid="classMR_1_1SmoothFillingSettings_1a7a734089e8c80b22e9a604b2585d012b" prot="public" virt="non-virtual"><scope>MR::SmoothFillingSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SmoothFillingSettings_1a37ca4555edad178197d6607202b828dc" prot="package" virt="non-virtual"><scope>MR::SmoothFillingSettings</scope><name>Const_SmoothFillingSettings</name></member>
+      <member refid="classMR_1_1Const__SmoothFillingSettings_1a32bc10ef492cf65264a604f765a27dcd" prot="public" virt="non-virtual"><scope>MR::SmoothFillingSettings</scope><name>Const_SmoothFillingSettings</name></member>
+      <member refid="classMR_1_1Const__SmoothFillingSettings_1a70c85fd403c944f0fc7f0c61d01dcc72" prot="public" virt="non-virtual"><scope>MR::SmoothFillingSettings</scope><name>Const_SmoothFillingSettings</name></member>
+      <member refid="classMR_1_1Const__SmoothFillingSettings_1a900fb26838e3aa00c6e67ae90bc2f5a9" prot="public" virt="non-virtual"><scope>MR::SmoothFillingSettings</scope><name>Const_SmoothFillingSettings</name></member>
+      <member refid="classMR_1_1Const__SmoothFillingSettings_1a76fa70bdb02b273b510321f927e96b2b" prot="public" virt="non-virtual"><scope>MR::SmoothFillingSettings</scope><name>Const_SmoothFillingSettings</name></member>
+      <member refid="classMR_1_1Const__SmoothFillingSettings_1a96e8af00a3f63ec5a23538b5294c27c0" prot="protected" virt="virtual"><scope>MR::SmoothFillingSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SmoothFillingSettings_1aa485beb97a64e8672a7d7ed377b412b3" prot="public" virt="virtual"><scope>MR::SmoothFillingSettings</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SmoothFillingSettings_1a10c2912048dc8b9833638397da6539f0" prot="public" virt="non-virtual"><scope>MR::SmoothFillingSettings</scope><name>edgeWeights</name></member>
       <member refid="classMR_1_1SmoothFillingSettings_1a8691e5e74428c5cae071a0ce44499ece" prot="public" virt="non-virtual"><scope>MR::SmoothFillingSettings</scope><name>naturalSmooth</name></member>
       <member refid="classMR_1_1SmoothFillingSettings_1adc17b571e7194e5674d6e82c5d21d3da" prot="package" virt="non-virtual"><scope>MR::SmoothFillingSettings</scope><name>SmoothFillingSettings</name></member>

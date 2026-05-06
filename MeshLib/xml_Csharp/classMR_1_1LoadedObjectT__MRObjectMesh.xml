@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LoadedObjectT__MRObjectMesh" kind="class" language="C#" prot="public">
     <compoundname>MR::LoadedObjectT_MRObjectMesh</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_LoadedObjectT_MRObjectMesh</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__LoadedObjectT__MRObjectMesh" prot="public" virt="non-virtual">MR.Const_LoadedObjectT_MRObjectMesh</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1LoadedObjectT__MRObjectMesh_1a6ef985a3bb8fc43452c7f06e4f57ef8f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.SharedPtr_MRObjectMesh</type>
@@ -107,7 +107,7 @@
           <declname>lengthUnit</declname>
         </param>
         <briefdescription>
-<para>Constructs <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;amp;gt;</computeroutput> elementwise. </para>
+<para>Constructs <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;gt;</computeroutput> elementwise. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,7 +126,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;amp;gt;<ref refid="classMR_1_1LoadedObjectT" kindref="compound">LoadedObjectT</ref></computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;gt;<ref refid="classMR_1_1LoadedObjectT" kindref="compound">LoadedObjectT</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -141,11 +141,11 @@
         <name>LoadedObjectT_MRObjectMesh</name>
         <qualifiedname>MR.LoadedObjectT_MRObjectMesh.LoadedObjectT_MRObjectMesh</qualifiedname>
         <param>
-          <type>Const_LoadedObjectT_MRObjectMesh</type>
+          <type><ref refid="classMR_1_1Const__LoadedObjectT__MRObjectMesh" kindref="compound">Const_LoadedObjectT_MRObjectMesh</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;amp;gt;<ref refid="classMR_1_1LoadedObjectT" kindref="compound">LoadedObjectT</ref></computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;gt;<ref refid="classMR_1_1LoadedObjectT" kindref="compound">LoadedObjectT</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -164,7 +164,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;amp;gt;<ref refid="classMR_1_1LoadedObjectT" kindref="compound">LoadedObjectT</ref></computeroutput>. </para>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;gt;<ref refid="classMR_1_1LoadedObjectT" kindref="compound">LoadedObjectT</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -183,7 +183,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -193,7 +193,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>result of loading (e.g. from a file) as one object (with possible subobjects) Generated from class <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>result of loading (e.g. from a file) as one object (with possible subobjects) Generated from class <computeroutput><ref refid="classMR_1_1LoadedObjectT" kindref="compound">MR.LoadedObjectT</ref>&amp;lt;<ref refid="classMR_1_1ObjectMesh" kindref="compound">MR.ObjectMesh</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -206,6 +206,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedObjectT_MRObjectMesh</label>
+        <link refid="classMR_1_1Const__LoadedObjectT__MRObjectMesh"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -227,6 +228,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LoadedObjectT_MRObjectMesh</label>
+        <link refid="classMR_1_1Const__LoadedObjectT__MRObjectMesh"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -242,6 +244,14 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" line="424" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedObjects.cs" bodystart="425" bodyend="535"/>
     <listofallmembers>
       <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1a79a63e17844a2576a8641d020aab4dca" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectMesh_1a08ea9a00a7e806fdf8832f602546476b" prot="package" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>Const_LoadedObjectT_MRObjectMesh</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectMesh_1abf0c91d4beb58c78a534bd411558c4d9" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>Const_LoadedObjectT_MRObjectMesh</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectMesh_1a0615bd11f8be192f8935fbf1df19061d" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>Const_LoadedObjectT_MRObjectMesh</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectMesh_1ae61255f493def30c0267cde8c08358ea" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>Const_LoadedObjectT_MRObjectMesh</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectMesh_1aa7e896c35dfb35817a16a6504f4c2a59" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>Const_LoadedObjectT_MRObjectMesh</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectMesh_1ac481f8f57228096201cf7f15141bc1be" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>Const_LoadedObjectT_MRObjectMesh</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectMesh_1a3f3230379b314393de76c763f9ed5e0d" prot="protected" virt="virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LoadedObjectT__MRObjectMesh_1abd35dda684c624364ea64715805e0792" prot="public" virt="virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>Dispose</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1ae2e9a04a5335d0a3575025edc2321407" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>lengthUnit</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1afde06c347b8da646588068244ec843a7" prot="package" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>LoadedObjectT_MRObjectMesh</name></member>
       <member refid="classMR_1_1LoadedObjectT__MRObjectMesh_1a52445be4e9e7cd01376898f59570255d" prot="public" virt="non-virtual"><scope>MR::LoadedObjectT_MRObjectMesh</scope><name>LoadedObjectT_MRObjectMesh</name></member>

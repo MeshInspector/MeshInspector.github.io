@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__RayOrigin__Float" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_RayOrigin_Float</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1RayOrigin__Float" prot="public" virt="non-virtual">MR.RayOrigin_Float</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__RayOrigin__Float_1a33ab11fd77ee674fc30b82ac2c893232" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_RayOrigin_Float.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_RayOrigin_Float.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" line="13" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__RayOrigin__Float_1a632af98ab990d2d5720ea83d9d7bf973" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_RayOrigin_Float.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_RayOrigin_Float.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RayOrigin__Float_1a415ef4168c451b217020b14660d38e55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RayOrigin_Float.Const_RayOrigin_Float</definition>
+        <argsstring>(MR.Const_RayOrigin_Float _other)</argsstring>
+        <name>Const_RayOrigin_Float</name>
+        <qualifiedname>MR.Const_RayOrigin_Float.Const_RayOrigin_Float</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__RayOrigin__Float" kindref="compound">MR.Const_RayOrigin_Float</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::RayOrigin&amp;lt;float&amp;gt;::RayOrigin</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" line="30" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RayOrigin__Float_1a165b771c69e7d47275e7f40ccc4df063" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_RayOrigin_Float.Const_RayOrigin_Float</definition>
+        <argsstring>(RayOrigin_Float _other)</argsstring>
+        <name>Const_RayOrigin_Float</name>
+        <qualifiedname>MR.Const_RayOrigin_Float.Const_RayOrigin_Float</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RayOrigin__Float" kindref="compound">RayOrigin_Float</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::RayOrigin&amp;lt;float&amp;gt;::RayOrigin</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" line="41" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RayOrigin__Float_1a3b770f046e578431f4ac7da2e5a4ed18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RayOrigin_Float.Const_RayOrigin_Float</definition>
+        <argsstring>(in MR.Vector3f ro)</argsstring>
+        <name>Const_RayOrigin_Float</name>
+        <qualifiedname>MR.Const_RayOrigin_Float.Const_RayOrigin_Float</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>ro</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::RayOrigin&amp;lt;float&amp;gt;::RayOrigin</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" line="46" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" bodystart="46" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__RayOrigin__Float_1a54c0f9bd5ce26da6d503704ca1bddb2a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_RayOrigin_Float.~Const_RayOrigin_Float</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_RayOrigin_Float</name>
+        <qualifiedname>MR.Const_RayOrigin_Float.~Const_RayOrigin_Float</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__RayOrigin__Float_1a8f31cf92173883dac9ce0a965881312e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RayOrigin_Float.Const_RayOrigin_Float</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_RayOrigin_Float</name>
+        <qualifiedname>MR.Const_RayOrigin_Float.Const_RayOrigin_Float</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" line="25" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__RayOrigin__Float_1acf18d74803b998a581cf36c84edcd6e6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_RayOrigin_Float.operator Const_RayOrigin_Float</definition>
+        <argsstring>(in MR.Vector3f ro)</argsstring>
+        <name>operator Const_RayOrigin_Float</name>
+        <qualifiedname>MR.Const_RayOrigin_Float.operator Const_RayOrigin_Float</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>ro</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::RayOrigin&amp;lt;float&amp;gt;::RayOrigin</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" line="59" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" bodystart="59" bodyend="59"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::RayOrigin&amp;lt;float&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_RayOrigin_Float</label>
+        <link refid="classMR_1_1Const__RayOrigin__Float"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.RayOrigin_Float</label>
+        <link refid="classMR_1_1RayOrigin__Float"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_RayOrigin_Float</label>
+        <link refid="classMR_1_1Const__RayOrigin__Float"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRayBoxIntersection.cs" bodystart="8" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__RayOrigin__Float_1a8f31cf92173883dac9ce0a965881312e" prot="package" virt="non-virtual"><scope>MR::Const_RayOrigin_Float</scope><name>Const_RayOrigin_Float</name></member>
+      <member refid="classMR_1_1Const__RayOrigin__Float_1a415ef4168c451b217020b14660d38e55" prot="public" virt="non-virtual"><scope>MR::Const_RayOrigin_Float</scope><name>Const_RayOrigin_Float</name></member>
+      <member refid="classMR_1_1Const__RayOrigin__Float_1a165b771c69e7d47275e7f40ccc4df063" prot="public" virt="non-virtual"><scope>MR::Const_RayOrigin_Float</scope><name>Const_RayOrigin_Float</name></member>
+      <member refid="classMR_1_1Const__RayOrigin__Float_1a3b770f046e578431f4ac7da2e5a4ed18" prot="public" virt="non-virtual"><scope>MR::Const_RayOrigin_Float</scope><name>Const_RayOrigin_Float</name></member>
+      <member refid="classMR_1_1Const__RayOrigin__Float_1a33ab11fd77ee674fc30b82ac2c893232" prot="protected" virt="virtual"><scope>MR::Const_RayOrigin_Float</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RayOrigin__Float_1a632af98ab990d2d5720ea83d9d7bf973" prot="public" virt="virtual"><scope>MR::Const_RayOrigin_Float</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RayOrigin__Float_1acf18d74803b998a581cf36c84edcd6e6" prot="public" virt="non-virtual"><scope>MR::Const_RayOrigin_Float</scope><name>operator Const_RayOrigin_Float</name></member>
+      <member refid="classMR_1_1Const__RayOrigin__Float_1a54c0f9bd5ce26da6d503704ca1bddb2a" prot="private" virt="non-virtual"><scope>MR::Const_RayOrigin_Float</scope><name>~Const_RayOrigin_Float</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__MergeVolumePartSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_MergeVolumePartSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1MergeVolumePartSettings" prot="public" virt="non-virtual">MR.MergeVolumePartSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__MergeVolumePartSettings_1a24097299dce3b63550a70817a74d4883" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Void_From_MRMeshRef_Float_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Void_From_MRMeshRef_Float_Float MR.Const_MergeVolumePartSettings.preCut</definition>
+        <argsstring></argsstring>
+        <name>preCut</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.preCut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="28" column="75" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MergeVolumePartSettings_1ad7939291113c650dc7b9ac43b4f9945a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Void_From_MRMeshRef</type>
+        <definition>unsafe MR.Std.Const_Function_Void_From_MRMeshRef MR.Const_MergeVolumePartSettings.postCut</definition>
+        <argsstring></argsstring>
+        <name>postCut</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.postCut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="30" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MergeVolumePartSettings_1a939ad7c7c0361688206ac4cfb54d1529" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Void_From_MRMeshRef_ConstMRPartMappingRef</type>
+        <definition>unsafe MR.Std.Const_Function_Void_From_MRMeshRef_ConstMRPartMappingRef MR.Const_MergeVolumePartSettings.postMerge</definition>
+        <argsstring></argsstring>
+        <name>postMerge</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.postMerge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="32" column="85" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MergeVolumePartSettings_1ad19ea946b95200f319ccad26a56f97d3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__PartMapping" kindref="compound">MR.Const_PartMapping</ref></type>
+        <definition>unsafe MR.Const_PartMapping MR.Const_MergeVolumePartSettings.mapping</definition>
+        <argsstring></argsstring>
+        <name>mapping</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.mapping</qualifiedname>
+        <briefdescription>
+<para>mapping with initialized maps required for the <computeroutput>postMerge</computeroutput> callback </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="37" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__MergeVolumePartSettings_1ae4db33026d7b11f751b8824fb17774be" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Const_MergeVolumePartSettings.origin</definition>
+        <argsstring></argsstring>
+        <name>origin</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.origin</qualifiedname>
+        <briefdescription>
+<para>origin (position of the (0;0;0) voxel) of the voxel volume part, usually specified for <ref refid="classMR_1_1SimpleVolume" kindref="compound">SimpleVolume</ref> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="42" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__MergeVolumePartSettings_1a14650c4ddd9aceab6464b93265d9edfd" prot="protected" static="no" mutable="no">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref> *</type>
+        <definition>unsafe MR.Vector3f* MR.Const_MergeVolumePartSettings.__ref_storage_origin</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_origin</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.__ref_storage_origin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="43" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__MergeVolumePartSettings_1af8a4c14411d22b7bceff6f6169cebfee" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_MergeVolumePartSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="16" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__MergeVolumePartSettings_1aab4a063108b167abfe833f53131c5671" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_MergeVolumePartSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="25" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MergeVolumePartSettings_1aa1186dedafb838649838bd64ba93e3e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MergeVolumePartSettings.Const_MergeVolumePartSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_MergeVolumePartSettings</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.Const_MergeVolumePartSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="98" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="98" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MergeVolumePartSettings_1a7dc9ea575196b24d566de5c4b05aba0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MergeVolumePartSettings.Const_MergeVolumePartSettings</definition>
+        <argsstring>(MR.Std._ByValue_Function_Void_From_MRMeshRef_Float_Float preCut, MR.Std._ByValue_Function_Void_From_MRMeshRef postCut, MR.Std._ByValue_Function_Void_From_MRMeshRef_ConstMRPartMappingRef postMerge, MR.Const_PartMapping mapping, MR.Vector3f origin)</argsstring>
+        <name>Const_MergeVolumePartSettings</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.Const_MergeVolumePartSettings</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_Void_From_MRMeshRef_Float_Float</type>
+          <declname>preCut</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Void_From_MRMeshRef</type>
+          <declname>postCut</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Void_From_MRMeshRef_ConstMRPartMappingRef</type>
+          <declname>postMerge</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__PartMapping" kindref="compound">MR.Const_PartMapping</ref></type>
+          <declname>mapping</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>origin</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MergeVolumePartSettings" kindref="compound">MR.MergeVolumePartSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="109" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="109" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MergeVolumePartSettings_1ab0b12f5b21b8878c7171e0650de762e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MergeVolumePartSettings.Const_MergeVolumePartSettings</definition>
+        <argsstring>(MR._ByValue_MergeVolumePartSettings _other)</argsstring>
+        <name>Const_MergeVolumePartSettings</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.Const_MergeVolumePartSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_MergeVolumePartSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MergeVolumePartSettings_1a4f7f7ae91d9d932613b479879a5f126e" kindref="member">MR.MergeVolumePartSettings.MergeVolumePartSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="124" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="124" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MergeVolumePartSettings_1a016d97a6e50d12c3596bb9ab53ba4122" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MergeVolumePartSettings.Const_MergeVolumePartSettings</definition>
+        <argsstring>(Const_MergeVolumePartSettings _other)</argsstring>
+        <name>Const_MergeVolumePartSettings</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.Const_MergeVolumePartSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__MergeVolumePartSettings" kindref="compound">Const_MergeVolumePartSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MergeVolumePartSettings_1a4f7f7ae91d9d932613b479879a5f126e" kindref="member">MR.MergeVolumePartSettings.MergeVolumePartSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="136" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__MergeVolumePartSettings_1a2ec2efaac6f7846d0e00581f84864d0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MergeVolumePartSettings.Const_MergeVolumePartSettings</definition>
+        <argsstring>(MergeVolumePartSettings _other)</argsstring>
+        <name>Const_MergeVolumePartSettings</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.Const_MergeVolumePartSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MergeVolumePartSettings" kindref="compound">MergeVolumePartSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MergeVolumePartSettings_1a4f7f7ae91d9d932613b479879a5f126e" kindref="member">MR.MergeVolumePartSettings.MergeVolumePartSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="141" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="141" bodyend="141"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__MergeVolumePartSettings_1ac703494c7fd55edd73bde90c6395e467" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_MergeVolumePartSettings.~Const_MergeVolumePartSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_MergeVolumePartSettings</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.~Const_MergeVolumePartSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="26" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__MergeVolumePartSettings_1ad406dbec26424b2321b065efc3f99105" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_MergeVolumePartSettings.Const_MergeVolumePartSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_MergeVolumePartSettings</name>
+        <qualifiedname>MR.Const_MergeVolumePartSettings.Const_MergeVolumePartSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="87" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="87" bodyend="92"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_MergeVolumePartSettings</label>
+        <link refid="classMR_1_1Const__MergeVolumePartSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.MergeVolumePartSettings</label>
+        <link refid="classMR_1_1MergeVolumePartSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_MergeVolumePartSettings</label>
+        <link refid="classMR_1_1Const__MergeVolumePartSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ref_storage_origin</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="10" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="11" bodyend="142"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1a14650c4ddd9aceab6464b93265d9edfd" prot="protected" virt="non-virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>__ref_storage_origin</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1ad406dbec26424b2321b065efc3f99105" prot="package" virt="non-virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>Const_MergeVolumePartSettings</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1aa1186dedafb838649838bd64ba93e3e3" prot="public" virt="non-virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>Const_MergeVolumePartSettings</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1a7dc9ea575196b24d566de5c4b05aba0f" prot="public" virt="non-virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>Const_MergeVolumePartSettings</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1ab0b12f5b21b8878c7171e0650de762e3" prot="public" virt="non-virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>Const_MergeVolumePartSettings</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1a016d97a6e50d12c3596bb9ab53ba4122" prot="public" virt="non-virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>Const_MergeVolumePartSettings</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1a2ec2efaac6f7846d0e00581f84864d0c" prot="public" virt="non-virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>Const_MergeVolumePartSettings</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1af8a4c14411d22b7bceff6f6169cebfee" prot="protected" virt="virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1aab4a063108b167abfe833f53131c5671" prot="public" virt="virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1ad19ea946b95200f319ccad26a56f97d3" prot="public" virt="non-virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>mapping</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1ae4db33026d7b11f751b8824fb17774be" prot="public" virt="non-virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>origin</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1ad7939291113c650dc7b9ac43b4f9945a" prot="public" virt="non-virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>postCut</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1a939ad7c7c0361688206ac4cfb54d1529" prot="public" virt="non-virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>postMerge</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1a24097299dce3b63550a70817a74d4883" prot="public" virt="non-virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>preCut</name></member>
+      <member refid="classMR_1_1Const__MergeVolumePartSettings_1ac703494c7fd55edd73bde90c6395e467" prot="private" virt="non-virtual"><scope>MR::Const_MergeVolumePartSettings</scope><name>~Const_MergeVolumePartSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

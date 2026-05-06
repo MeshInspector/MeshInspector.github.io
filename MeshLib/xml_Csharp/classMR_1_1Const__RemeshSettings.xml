@@ -1,0 +1,775 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__RemeshSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_RemeshSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1RemeshSettings" prot="public" virt="non-virtual">MR.RemeshSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1a6c210030c43ee07be11340e7272abbd7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_RemeshSettings.targetEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>targetEdgeLen</name>
+        <qualifiedname>MR.Const_RemeshSettings.targetEdgeLen</qualifiedname>
+        <briefdescription>
+<para>the algorithm will try to keep the length of all edges close to this value, splitting the edges longer than targetEdgeLen, and then eliminating the edges shorter than targetEdgeLen </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1626" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1626" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1aa8888119eee95c23a3af0d9df1f52fb7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_RemeshSettings.maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>MR.Const_RemeshSettings.maxEdgeSplits</qualifiedname>
+        <briefdescription>
+<para>Maximum number of edge splits allowed during subdivision. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1632" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1632" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1a432fe7473ba742b08d30ab1d08845fac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_RemeshSettings.maxAngleChangeAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChangeAfterFlip</name>
+        <qualifiedname>MR.Const_RemeshSettings.maxAngleChangeAfterFlip</qualifiedname>
+        <briefdescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1638" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1638" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1a771bbf6e5fd5eaceacfd43636f60e0ae" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_RemeshSettings.frozenBoundary</definition>
+        <argsstring></argsstring>
+        <name>frozenBoundary</name>
+        <qualifiedname>MR.Const_RemeshSettings.frozenBoundary</qualifiedname>
+        <briefdescription>
+<para>Allows or prohibits splitting and/or collapse boundary edges it recommended to keep default value here for better quality. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1645" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1645" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1a50ae8c84523540f3d149e4911c454c6d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_RemeshSettings.maxBdShift</definition>
+        <argsstring></argsstring>
+        <name>maxBdShift</name>
+        <qualifiedname>MR.Const_RemeshSettings.maxBdShift</qualifiedname>
+        <briefdescription>
+<para>Maximal shift of a boundary during one edge collapse only makes sense if <computeroutput>frozenBoundary=false</computeroutput> </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1652" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1652" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1aa150e60443d8ebdec90ec19e54674f07" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_RemeshSettings.useCurvature</definition>
+        <argsstring></argsstring>
+        <name>useCurvature</name>
+        <qualifiedname>MR.Const_RemeshSettings.useCurvature</qualifiedname>
+        <briefdescription>
+<para>This option in subdivision works best for natural surfaces, where all triangles are close to equilateral and have similar area, and no sharp edges in between. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1659" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1659" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1a7e6d2186e4b56d48a0ea55780971f585" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_RemeshSettings.maxSplittableTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>maxSplittableTriAspectRatio</name>
+        <qualifiedname>MR.Const_RemeshSettings.maxSplittableTriAspectRatio</qualifiedname>
+        <briefdescription>
+<para>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if frozenBoundary==true, otherwise many narrow triangles can appear near border. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1667" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1667" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1af92a88f2b80500863ec0fad94ce1f744" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_RemeshSettings.finalRelaxIters</definition>
+        <argsstring></argsstring>
+        <name>finalRelaxIters</name>
+        <qualifiedname>MR.Const_RemeshSettings.finalRelaxIters</qualifiedname>
+        <briefdescription>
+<para>the number of iterations of final relaxation of mesh vertices; few iterations can give almost perfect uniformity of the vertices and edge lengths but deviate from the original surface </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1674" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1674" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1acaf59e5d38e5380c59859633a79e1fb6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_RemeshSettings.finalRelaxNoShrinkage</definition>
+        <argsstring></argsstring>
+        <name>finalRelaxNoShrinkage</name>
+        <qualifiedname>MR.Const_RemeshSettings.finalRelaxNoShrinkage</qualifiedname>
+        <briefdescription>
+<para>if true prevents the surface from shrinkage after many iterations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1680" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1680" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1abcdcadd25453203f51297e8a2d082c2e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>unsafe MR.? FaceBitSet MR.Const_RemeshSettings.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.Const_RemeshSettings.region</qualifiedname>
+        <briefdescription>
+<para>Region on mesh to be changed, it is updated during the operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1686" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1687" bodyend="1698"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1a3cfc59a610990fb0095571e4029b2899" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.? UndirectedEdgeBitSet MR.Const_RemeshSettings.notFlippable</definition>
+        <argsstring></argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>MR.Const_RemeshSettings.notFlippable</qualifiedname>
+        <briefdescription>
+<para><ref refid="classMR_1_1Edges" kindref="compound">Edges</ref> specified by this bit-set will never be flipped or collapsed, but they can be replaced during collapse of nearby edges so it is updated during the operation; also the vertices incident to these edges are excluded from relaxation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1705" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1706" bodyend="1717"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1adca1bb84e7e5f1001e243a43e4165e2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_RemeshSettings.packMesh</definition>
+        <argsstring></argsstring>
+        <name>packMesh</name>
+        <qualifiedname>MR.Const_RemeshSettings.packMesh</qualifiedname>
+        <briefdescription>
+<para>whether to pack mesh at the end </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1723" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1723" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1af6ba364603cabf15e7c4a94c2684303f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_RemeshSettings.projectOnOriginalMesh</definition>
+        <argsstring></argsstring>
+        <name>projectOnOriginalMesh</name>
+        <qualifiedname>MR.Const_RemeshSettings.projectOnOriginalMesh</qualifiedname>
+        <briefdescription>
+<para>if true, then every new vertex after subdivision will be projected on the original mesh (before smoothing); this does not affect the vertices moved on other stages of the processing </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1730" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1730" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1acb488ebcd17aa8acec2532bfdc42248c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId</type>
+        <definition>unsafe MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId MR.Const_RemeshSettings.onEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>MR.Const_RemeshSettings.onEdgeSplit</qualifiedname>
+        <briefdescription>
+<para>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1736" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1736" bodyend="1736"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1aad983555d3cba2ccdf36878c6d8674b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId</type>
+        <definition>unsafe MR.Std.Const_Function_Void_From_MREdgeId_MREdgeId MR.Const_RemeshSettings.onEdgeDel</definition>
+        <argsstring></argsstring>
+        <name>onEdgeDel</name>
+        <qualifiedname>MR.Const_RemeshSettings.onEdgeDel</qualifiedname>
+        <briefdescription>
+<para>if valid (e1) is given then dest(e) = dest(e1) and their origins are in different ends of collapsing edge, e1 shall take the place of e </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1741" column="71" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1741" bodyend="1741"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1aeb88e106485800461c4fa3b06fa4ca2a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_MREdgeId_ConstMRVector3fRef</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_MREdgeId_ConstMRVector3fRef MR.Const_RemeshSettings.preCollapse</definition>
+        <argsstring></argsstring>
+        <name>preCollapse</name>
+        <qualifiedname>MR.Const_RemeshSettings.preCollapse</qualifiedname>
+        <briefdescription>
+<para>The user can provide this optional callback that is invoked immediately before edge collapse;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1749" column="81" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1749" bodyend="1749"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__RemeshSettings_1a77c977dd948cf3808319c86cb485a458" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_RemeshSettings.progressCallback</definition>
+        <argsstring></argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>MR.Const_RemeshSettings.progressCallback</qualifiedname>
+        <briefdescription>
+<para>callback to report algorithm progress and cancel it by user request </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1754" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1754" bodyend="1754"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__RemeshSettings_1ac0ee070d65d6aa05fb44c4d9471e75ef" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_RemeshSettings.__ref_storage_targetEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_targetEdgeLen</name>
+        <qualifiedname>MR.Const_RemeshSettings.__ref_storage_targetEdgeLen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1627" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1627" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RemeshSettings_1a650eba2a8f14ec9bdfc1f634001e72f5" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_RemeshSettings.__ref_storage_maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxEdgeSplits</name>
+        <qualifiedname>MR.Const_RemeshSettings.__ref_storage_maxEdgeSplits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1633" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1633" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RemeshSettings_1a937f4b661c6ff441fc311ba0853bdfa2" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_RemeshSettings.__ref_storage_maxAngleChangeAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxAngleChangeAfterFlip</name>
+        <qualifiedname>MR.Const_RemeshSettings.__ref_storage_maxAngleChangeAfterFlip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1639" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1639" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RemeshSettings_1aec8ff790284e8efca3c63bc46efc2929" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_RemeshSettings.__ref_storage_frozenBoundary</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_frozenBoundary</name>
+        <qualifiedname>MR.Const_RemeshSettings.__ref_storage_frozenBoundary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1646" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1646" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RemeshSettings_1ab5d7cc8065688f83e3642807c199ed6c" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_RemeshSettings.__ref_storage_maxBdShift</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxBdShift</name>
+        <qualifiedname>MR.Const_RemeshSettings.__ref_storage_maxBdShift</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1653" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1653" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RemeshSettings_1aa68d46bd1870f3690a5a31c56da53444" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_RemeshSettings.__ref_storage_useCurvature</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_useCurvature</name>
+        <qualifiedname>MR.Const_RemeshSettings.__ref_storage_useCurvature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1660" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1660" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RemeshSettings_1a84832280c85ee4c2ba92b6a500400688" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_RemeshSettings.__ref_storage_maxSplittableTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_maxSplittableTriAspectRatio</name>
+        <qualifiedname>MR.Const_RemeshSettings.__ref_storage_maxSplittableTriAspectRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1668" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1668" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RemeshSettings_1a49b97de020ccbf6c928e70d151094586" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_RemeshSettings.__ref_storage_finalRelaxIters</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_finalRelaxIters</name>
+        <qualifiedname>MR.Const_RemeshSettings.__ref_storage_finalRelaxIters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1675" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1675" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RemeshSettings_1a42ce6722b60f413f8a39272d91f71de7" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_RemeshSettings.__ref_storage_finalRelaxNoShrinkage</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_finalRelaxNoShrinkage</name>
+        <qualifiedname>MR.Const_RemeshSettings.__ref_storage_finalRelaxNoShrinkage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1681" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1681" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RemeshSettings_1a60f03b638ded3374331cc07ddd0c0336" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.FaceBitSet._Underlying **</type>
+        <definition>unsafe MR.FaceBitSet._Underlying** MR.Const_RemeshSettings.__ptr_storage_region</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_region</name>
+        <qualifiedname>MR.Const_RemeshSettings.__ptr_storage_region</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1699" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1699" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RemeshSettings_1a2e144e264ff95a1dcb4312a23c69cd21" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.UndirectedEdgeBitSet._Underlying **</type>
+        <definition>unsafe MR.UndirectedEdgeBitSet._Underlying** MR.Const_RemeshSettings.__ptr_storage_notFlippable</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_notFlippable</name>
+        <qualifiedname>MR.Const_RemeshSettings.__ptr_storage_notFlippable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1718" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1718" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RemeshSettings_1a420c8bda8bf596603b93cbd877656a82" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_RemeshSettings.__ref_storage_packMesh</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_packMesh</name>
+        <qualifiedname>MR.Const_RemeshSettings.__ref_storage_packMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1724" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1724" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__RemeshSettings_1ac8ffc8c2856f2c2e5239d7c9fcdc3cca" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_RemeshSettings.__ref_storage_projectOnOriginalMesh</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_projectOnOriginalMesh</name>
+        <qualifiedname>MR.Const_RemeshSettings.__ref_storage_projectOnOriginalMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1731" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1731" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__RemeshSettings_1a045d2a6da473a4cdc752284f7d146c54" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_RemeshSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_RemeshSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1610" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1610" bodyend="1618"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__RemeshSettings_1a435efd47befcca1951d91519244de230" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_RemeshSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_RemeshSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1619" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1619" bodyend="1619"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RemeshSettings_1a55bdf74c5ef12d8d144dd142b2a597f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RemeshSettings.Const_RemeshSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_RemeshSettings</name>
+        <qualifiedname>MR.Const_RemeshSettings.Const_RemeshSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1881" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1881" bodyend="1887"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RemeshSettings_1a6a2a6e752f819b4fc01f0965277041a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RemeshSettings.Const_RemeshSettings</definition>
+        <argsstring>(float targetEdgeLen, int maxEdgeSplits, float maxAngleChangeAfterFlip, bool frozenBoundary, float maxBdShift, bool useCurvature, float maxSplittableTriAspectRatio, int finalRelaxIters, bool finalRelaxNoShrinkage, MR.FaceBitSet? region, MR.UndirectedEdgeBitSet? notFlippable, bool packMesh, bool projectOnOriginalMesh, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeSplit, MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId onEdgeDel, MR.Std._ByValue_Function_Bool_From_MREdgeId_ConstMRVector3fRef preCollapse, MR.Std._ByValue_Function_Bool_From_Float progressCallback)</argsstring>
+        <name>Const_RemeshSettings</name>
+        <qualifiedname>MR.Const_RemeshSettings.Const_RemeshSettings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>targetEdgeLen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxEdgeSplits</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChangeAfterFlip</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>frozenBoundary</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxBdShift</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useCurvature</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxSplittableTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>finalRelaxIters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>finalRelaxNoShrinkage</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref>?</type>
+          <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>packMesh</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>projectOnOriginalMesh</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId</type>
+          <declname>onEdgeSplit</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Void_From_MREdgeId_MREdgeId</type>
+          <declname>onEdgeDel</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_MREdgeId_ConstMRVector3fRef</type>
+          <declname>preCollapse</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>progressCallback</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1RemeshSettings" kindref="compound">MR.RemeshSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1892" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1892" bodyend="1904"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RemeshSettings_1a410ac65fa7805e6dffc878b6ba8e1b6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RemeshSettings.Const_RemeshSettings</definition>
+        <argsstring>(MR._ByValue_RemeshSettings _other)</argsstring>
+        <name>Const_RemeshSettings</name>
+        <qualifiedname>MR.Const_RemeshSettings.Const_RemeshSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_RemeshSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RemeshSettings_1ad9b6380e8d637f8c2ba5e5f2c36fd115" kindref="member">MR.RemeshSettings.RemeshSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1909" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1909" bodyend="1916"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RemeshSettings_1a077594c741a03582fbd53595870b456b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_RemeshSettings.Const_RemeshSettings</definition>
+        <argsstring>(Const_RemeshSettings _other)</argsstring>
+        <name>Const_RemeshSettings</name>
+        <qualifiedname>MR.Const_RemeshSettings.Const_RemeshSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__RemeshSettings" kindref="compound">Const_RemeshSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RemeshSettings_1ad9b6380e8d637f8c2ba5e5f2c36fd115" kindref="member">MR.RemeshSettings.RemeshSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1921" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1921" bodyend="1921"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__RemeshSettings_1a856325db4dcc973757f25e2c1d7e34a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_RemeshSettings.Const_RemeshSettings</definition>
+        <argsstring>(RemeshSettings _other)</argsstring>
+        <name>Const_RemeshSettings</name>
+        <qualifiedname>MR.Const_RemeshSettings.Const_RemeshSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RemeshSettings" kindref="compound">RemeshSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1RemeshSettings_1ad9b6380e8d637f8c2ba5e5f2c36fd115" kindref="member">MR.RemeshSettings.RemeshSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1926" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1926" bodyend="1926"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__RemeshSettings_1ac1356c0ec0bb0802adb888db9c86bea5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_RemeshSettings.~Const_RemeshSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_RemeshSettings</name>
+        <qualifiedname>MR.Const_RemeshSettings.~Const_RemeshSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1620" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1620" bodyend="1620"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__RemeshSettings_1a1d765d51751ef0e65a97171e2456f076" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_RemeshSettings.Const_RemeshSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_RemeshSettings</name>
+        <qualifiedname>MR.Const_RemeshSettings.Const_RemeshSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1870" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1870" bodyend="1875"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1RemeshSettings" kindref="compound">MR.RemeshSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_RemeshSettings</label>
+        <link refid="classMR_1_1Const__RemeshSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.RemeshSettings</label>
+        <link refid="classMR_1_1RemeshSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_RemeshSettings</label>
+        <link refid="classMR_1_1Const__RemeshSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_notFlippable</edgelabel>
+          <edgelabel>__ptr_storage_region</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1604" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1605" bodyend="1927"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__RemeshSettings_1a2e144e264ff95a1dcb4312a23c69cd21" prot="protected" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>__ptr_storage_notFlippable</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a60f03b638ded3374331cc07ddd0c0336" prot="protected" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>__ptr_storage_region</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a49b97de020ccbf6c928e70d151094586" prot="protected" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>__ref_storage_finalRelaxIters</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a42ce6722b60f413f8a39272d91f71de7" prot="protected" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>__ref_storage_finalRelaxNoShrinkage</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1aec8ff790284e8efca3c63bc46efc2929" prot="protected" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>__ref_storage_frozenBoundary</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a937f4b661c6ff441fc311ba0853bdfa2" prot="protected" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>__ref_storage_maxAngleChangeAfterFlip</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1ab5d7cc8065688f83e3642807c199ed6c" prot="protected" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>__ref_storage_maxBdShift</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a650eba2a8f14ec9bdfc1f634001e72f5" prot="protected" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>__ref_storage_maxEdgeSplits</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a84832280c85ee4c2ba92b6a500400688" prot="protected" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>__ref_storage_maxSplittableTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a420c8bda8bf596603b93cbd877656a82" prot="protected" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>__ref_storage_packMesh</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1ac8ffc8c2856f2c2e5239d7c9fcdc3cca" prot="protected" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>__ref_storage_projectOnOriginalMesh</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1ac0ee070d65d6aa05fb44c4d9471e75ef" prot="protected" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>__ref_storage_targetEdgeLen</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1aa68d46bd1870f3690a5a31c56da53444" prot="protected" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>__ref_storage_useCurvature</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a1d765d51751ef0e65a97171e2456f076" prot="package" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>Const_RemeshSettings</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a55bdf74c5ef12d8d144dd142b2a597f7" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>Const_RemeshSettings</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a6a2a6e752f819b4fc01f0965277041a4" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>Const_RemeshSettings</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a410ac65fa7805e6dffc878b6ba8e1b6e" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>Const_RemeshSettings</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a077594c741a03582fbd53595870b456b" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>Const_RemeshSettings</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a856325db4dcc973757f25e2c1d7e34a7" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>Const_RemeshSettings</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a045d2a6da473a4cdc752284f7d146c54" prot="protected" virt="virtual"><scope>MR::Const_RemeshSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a435efd47befcca1951d91519244de230" prot="public" virt="virtual"><scope>MR::Const_RemeshSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1af92a88f2b80500863ec0fad94ce1f744" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>finalRelaxIters</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1acaf59e5d38e5380c59859633a79e1fb6" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>finalRelaxNoShrinkage</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a771bbf6e5fd5eaceacfd43636f60e0ae" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>frozenBoundary</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a432fe7473ba742b08d30ab1d08845fac" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a50ae8c84523540f3d149e4911c454c6d" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>maxBdShift</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1aa8888119eee95c23a3af0d9df1f52fb7" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a7e6d2186e4b56d48a0ea55780971f585" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>maxSplittableTriAspectRatio</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a3cfc59a610990fb0095571e4029b2899" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>notFlippable</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1aad983555d3cba2ccdf36878c6d8674b1" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>onEdgeDel</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1acb488ebcd17aa8acec2532bfdc42248c" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1adca1bb84e7e5f1001e243a43e4165e2d" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>packMesh</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1aeb88e106485800461c4fa3b06fa4ca2a" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>preCollapse</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a77c977dd948cf3808319c86cb485a458" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>progressCallback</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1af6ba364603cabf15e7c4a94c2684303f" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>projectOnOriginalMesh</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1abcdcadd25453203f51297e8a2d082c2e" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>region</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1a6c210030c43ee07be11340e7272abbd7" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>targetEdgeLen</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1aa150e60443d8ebdec90ec19e54674f07" prot="public" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>useCurvature</name></member>
+      <member refid="classMR_1_1Const__RemeshSettings_1ac1356c0ec0bb0802adb888db9c86bea5" prot="private" virt="non-virtual"><scope>MR::Const_RemeshSettings</scope><name>~Const_RemeshSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

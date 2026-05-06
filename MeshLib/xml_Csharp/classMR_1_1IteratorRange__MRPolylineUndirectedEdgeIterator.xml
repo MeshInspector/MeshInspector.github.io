@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator" kind="class" language="C#" prot="public">
     <compoundname>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IteratorRange_MRPolylineUndirectedEdgeIterator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator" prot="public" virt="non-virtual">MR.Const_IteratorRange_MRPolylineUndirectedEdgeIterator</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator_1ab4cc57953aa3d752c1cfa993811f0ec1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">MR.PolylineUndirectedEdgeIterator</ref></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="704" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="704" bodyend="704"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="975" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="975" bodyend="975"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator_1aeae809b5efb2e22401247eba621553e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">MR.PolylineUndirectedEdgeIterator</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="706" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="706" bodyend="706"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="977" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="977" bodyend="977"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="732" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="732" bodyend="736"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="1003" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="1003" bodyend="1007"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -65,17 +65,17 @@
         <name>IteratorRange_MRPolylineUndirectedEdgeIterator</name>
         <qualifiedname>MR.IteratorRange_MRPolylineUndirectedEdgeIterator.IteratorRange_MRPolylineUndirectedEdgeIterator</qualifiedname>
         <param>
-          <type>MR.Const_IteratorRange_MRPolylineUndirectedEdgeIterator</type>
+          <type><ref refid="classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator" kindref="compound">MR.Const_IteratorRange_MRPolylineUndirectedEdgeIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">MR.PolylineUndirectedEdgeIterator</ref>&amp;amp;gt;::IteratorRange</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">MR.PolylineUndirectedEdgeIterator</ref>&amp;gt;::IteratorRange</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="742" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="742" bodyend="749"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="1013" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="1013" bodyend="1020"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator_1a425103343639f30abdc54aca522bc583" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -88,13 +88,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">MR.PolylineUndirectedEdgeIterator</ref>&amp;amp;gt;::IteratorRange</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">MR.PolylineUndirectedEdgeIterator</ref>&amp;gt;::IteratorRange</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="754" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="754" bodyend="754"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="1025" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="1025" bodyend="1025"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator_1a8f2ba152b00ab3d93e37519197e939fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -103,21 +103,21 @@
         <name>IteratorRange_MRPolylineUndirectedEdgeIterator</name>
         <qualifiedname>MR.IteratorRange_MRPolylineUndirectedEdgeIterator.IteratorRange_MRPolylineUndirectedEdgeIterator</qualifiedname>
         <param>
-          <type>MR.Const_PolylineUndirectedEdgeIterator</type>
+          <type><ref refid="classMR_1_1Const__PolylineUndirectedEdgeIterator" kindref="compound">MR.Const_PolylineUndirectedEdgeIterator</ref></type>
           <declname>begin</declname>
         </param>
         <param>
-          <type>MR.Const_PolylineUndirectedEdgeIterator</type>
+          <type><ref refid="classMR_1_1Const__PolylineUndirectedEdgeIterator" kindref="compound">MR.Const_PolylineUndirectedEdgeIterator</ref></type>
           <declname>end</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">MR.PolylineUndirectedEdgeIterator</ref>&amp;amp;gt;::IteratorRange</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">MR.PolylineUndirectedEdgeIterator</ref>&amp;gt;::IteratorRange</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="759" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="759" bodyend="767"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="1030" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="1030" bodyend="1038"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator_1a1e7ceff74bdeb201743bfb2308208eaf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator" kindref="compound">MR.IteratorRange_MRPolylineUndirectedEdgeIterator</ref></type>
@@ -126,21 +126,21 @@
         <name>assign</name>
         <qualifiedname>MR.IteratorRange_MRPolylineUndirectedEdgeIterator.assign</qualifiedname>
         <param>
-          <type>MR.Const_IteratorRange_MRPolylineUndirectedEdgeIterator</type>
+          <type><ref refid="classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator" kindref="compound">MR.Const_IteratorRange_MRPolylineUndirectedEdgeIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">MR.PolylineUndirectedEdgeIterator</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">MR.PolylineUndirectedEdgeIterator</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="772" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="772" bodyend="779"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="1043" column="72" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="1043" bodyend="1050"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>simple alternative to boost/iterator_range Generated from class <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">MR.PolylineUndirectedEdgeIterator</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>simple alternative to boost/iterator_range Generated from class <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1PolylineUndirectedEdgeIterator" kindref="compound">MR.PolylineUndirectedEdgeIterator</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -156,6 +156,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IteratorRange_MRPolylineUndirectedEdgeIterator</label>
+        <link refid="classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -182,6 +183,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IteratorRange_MRPolylineUndirectedEdgeIterator</label>
+        <link refid="classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,11 +198,18 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="702" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="703" bodyend="780"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="973" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="974" bodyend="1051"/>
     <listofallmembers>
       <member refid="classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator_1a1e7ceff74bdeb201743bfb2308208eaf" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</scope><name>assign</name></member>
       <member refid="classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator_1ab4cc57953aa3d752c1cfa993811f0ec1" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</scope><name>begin</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator_1a02f86f97aa97ced92f7c0eb546449f7c" prot="package" virt="non-virtual"><scope>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</scope><name>Const_IteratorRange_MRPolylineUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator_1a7cad983f1e2866a5b0e9f45f9f976ab7" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</scope><name>Const_IteratorRange_MRPolylineUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator_1aff96778d231718746de7a90b6889c5d4" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</scope><name>Const_IteratorRange_MRPolylineUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator_1aaab3c448e039eccdd8ccc648fc4577a0" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</scope><name>Const_IteratorRange_MRPolylineUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator_1aaaf6dc582c955f18eb31045cd7946e32" prot="protected" virt="virtual"><scope>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator_1a7525f0cbeb00dc0d3b58780daebb8ba6" prot="public" virt="virtual"><scope>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator_1aeae809b5efb2e22401247eba621553e4" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</scope><name>end</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRPolylineUndirectedEdgeIterator_1acb79376dbb60039bcc2686bf09e8af0a" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator_1a6f4b7a5397cb917cd1019e0c3d72209e" prot="package" virt="non-virtual"><scope>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</scope><name>IteratorRange_MRPolylineUndirectedEdgeIterator</name></member>
       <member refid="classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator_1a67db39d4bac0b8c1d6692d592c1ec5d3" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</scope><name>IteratorRange_MRPolylineUndirectedEdgeIterator</name></member>
       <member refid="classMR_1_1IteratorRange__MRPolylineUndirectedEdgeIterator_1a425103343639f30abdc54aca522bc583" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRPolylineUndirectedEdgeIterator</scope><name>IteratorRange_MRPolylineUndirectedEdgeIterator</name></member>

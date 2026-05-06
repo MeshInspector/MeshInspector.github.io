@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__NoCtor__MRUndirectedEdgeId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_NoCtor_MRUndirectedEdgeId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1NoCtor__MRUndirectedEdgeId" prot="public" virt="non-virtual">MR.NoCtor_MRUndirectedEdgeId</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a5032a534e5c21f0fff8a1223c0eae06a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_NoCtor_MRUndirectedEdgeId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_NoCtor_MRUndirectedEdgeId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12772" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12772" bodyend="12780"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a000dbb5cc7d4a8f75b403a365869b248" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_NoCtor_MRUndirectedEdgeId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_NoCtor_MRUndirectedEdgeId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12781" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12781" bodyend="12781"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a843ced10291b73918da3460705661806" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NoCtor_MRUndirectedEdgeId.Const_NoCtor_MRUndirectedEdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_NoCtor_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.Const_NoCtor_MRUndirectedEdgeId.Const_NoCtor_MRUndirectedEdgeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12789" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12789" bodyend="12794"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a7f57cda222c4fe05db009a9c4879ce0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NoCtor_MRUndirectedEdgeId.Const_NoCtor_MRUndirectedEdgeId</definition>
+        <argsstring>(MR.Const_NoCtor_MRUndirectedEdgeId _other)</argsstring>
+        <name>Const_NoCtor_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.Const_NoCtor_MRUndirectedEdgeId.Const_NoCtor_MRUndirectedEdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId" kindref="compound">MR.Const_NoCtor_MRUndirectedEdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::NoCtor&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;::NoCtor</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12799" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12799" bodyend="12805"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1acbd8160c116d080d417645bd2e7d4559" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_NoCtor_MRUndirectedEdgeId.Const_NoCtor_MRUndirectedEdgeId</definition>
+        <argsstring>(NoCtor_MRUndirectedEdgeId _other)</argsstring>
+        <name>Const_NoCtor_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.Const_NoCtor_MRUndirectedEdgeId.Const_NoCtor_MRUndirectedEdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoCtor__MRUndirectedEdgeId" kindref="compound">NoCtor_MRUndirectedEdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::NoCtor&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;::NoCtor</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12810" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12810" bodyend="12810"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a57a0a0d6e2da2f38084201a96a229916" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_NoCtor_MRUndirectedEdgeId.~Const_NoCtor_MRUndirectedEdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_NoCtor_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.Const_NoCtor_MRUndirectedEdgeId.~Const_NoCtor_MRUndirectedEdgeId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12782" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12782" bodyend="12782"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1acfed5648d0978c2606e676b7219f69b8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NoCtor_MRUndirectedEdgeId.Const_NoCtor_MRUndirectedEdgeId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_NoCtor_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.Const_NoCtor_MRUndirectedEdgeId.Const_NoCtor_MRUndirectedEdgeId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12784" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12784" bodyend="12784"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::NoCtor&amp;lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_NoCtor_MRUndirectedEdgeId</label>
+        <link refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.NoCtor_MRUndirectedEdgeId</label>
+        <link refid="classMR_1_1NoCtor__MRUndirectedEdgeId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_NoCtor_MRUndirectedEdgeId</label>
+        <link refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="12766" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="12767" bodyend="12811"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1acfed5648d0978c2606e676b7219f69b8" prot="package" virt="non-virtual"><scope>MR::Const_NoCtor_MRUndirectedEdgeId</scope><name>Const_NoCtor_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a843ced10291b73918da3460705661806" prot="public" virt="non-virtual"><scope>MR::Const_NoCtor_MRUndirectedEdgeId</scope><name>Const_NoCtor_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a7f57cda222c4fe05db009a9c4879ce0b" prot="public" virt="non-virtual"><scope>MR::Const_NoCtor_MRUndirectedEdgeId</scope><name>Const_NoCtor_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1acbd8160c116d080d417645bd2e7d4559" prot="public" virt="non-virtual"><scope>MR::Const_NoCtor_MRUndirectedEdgeId</scope><name>Const_NoCtor_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a5032a534e5c21f0fff8a1223c0eae06a" prot="protected" virt="virtual"><scope>MR::Const_NoCtor_MRUndirectedEdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a000dbb5cc7d4a8f75b403a365869b248" prot="public" virt="virtual"><scope>MR::Const_NoCtor_MRUndirectedEdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoCtor__MRUndirectedEdgeId_1a57a0a0d6e2da2f38084201a96a229916" prot="private" virt="non-virtual"><scope>MR::Const_NoCtor_MRUndirectedEdgeId</scope><name>~Const_NoCtor_MRUndirectedEdgeId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

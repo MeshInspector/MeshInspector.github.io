@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ModelPointsData" kind="class" language="C#" prot="public">
     <compoundname>MR::ModelPointsData</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ModelPointsData</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ModelPointsData" prot="public" virt="non-virtual">MR.Const_ModelPointsData</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ModelPointsData_1aae6b5f272d933668f583d64a56e04c24" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertCoords</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertCoords" kindref="compound">Const_VertCoords</ref></type>
         <definition>new unsafe MR.? Const_VertCoords MR.ModelPointsData.points</definition>
         <argsstring></argsstring>
         <name>points</name>
@@ -20,7 +20,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="179" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="180" bodyend="189"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ModelPointsData_1a0b2d08f58747a4a789d3cb74d541f2b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_VertBitSet</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">Const_VertBitSet</ref></type>
         <definition>new unsafe MR.? Const_VertBitSet MR.ModelPointsData.validPoints</definition>
         <argsstring></argsstring>
         <name>validPoints</name>
@@ -112,11 +112,11 @@
         <name>ModelPointsData</name>
         <qualifiedname>MR.ModelPointsData.ModelPointsData</qualifiedname>
         <param>
-          <type>MR.Const_VertCoords?</type>
+          <type><ref refid="classMR_1_1Const__VertCoords" kindref="compound">MR.Const_VertCoords</ref>?</type>
           <declname>points</declname>
         </param>
         <param>
-          <type>MR.Const_VertBitSet?</type>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
           <declname>validPoints</declname>
         </param>
         <param>
@@ -143,7 +143,7 @@
         <name>ModelPointsData</name>
         <qualifiedname>MR.ModelPointsData.ModelPointsData</qualifiedname>
         <param>
-          <type>MR.Const_ModelPointsData</type>
+          <type><ref refid="classMR_1_1Const__ModelPointsData" kindref="compound">MR.Const_ModelPointsData</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -181,7 +181,7 @@
         <name>assign</name>
         <qualifiedname>MR.ModelPointsData.assign</qualifiedname>
         <param>
-          <type>MR.Const_ModelPointsData</type>
+          <type><ref refid="classMR_1_1Const__ModelPointsData" kindref="compound">MR.Const_ModelPointsData</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -208,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ModelPointsData</label>
+        <link refid="classMR_1_1Const__ModelPointsData"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -221,6 +222,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ModelPointsData</label>
         <link refid="classMR_1_1ModelPointsData"/>
@@ -229,9 +234,16 @@
       </node>
       <node id="2">
         <label>MR.Const_ModelPointsData</label>
+        <link refid="classMR_1_1Const__ModelPointsData"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_points</edgelabel>
+          <edgelabel>__ptr_storage_validPoints</edgelabel>
+          <edgelabel>__ptr_storage_xf</edgelabel>
+          <edgelabel>__ref_storage_fakeObjId</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -243,7 +255,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="174" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="175" bodyend="288"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ModelPointsData_1a774dbd4a22fc613b87f1db23fa8e03a5" prot="protected" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>__ptr_storage_points</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1afa4c563d67d03ca631eca61a3bf116b0" prot="protected" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>__ptr_storage_validPoints</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1aa8b796f8bcfcf8823bc99616c99fd56f" prot="protected" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>__ptr_storage_xf</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a79ad0167725166553b08de11cfe20da5" prot="protected" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>__ref_storage_fakeObjId</name></member>
       <member refid="classMR_1_1ModelPointsData_1af9577c1d980b9a1be4e39b25a4933a11" prot="public" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1aa02f42c9c9a8562642a13f98e751ecb5" prot="package" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>Const_ModelPointsData</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a7511a34c5df982c87a585aeb02a9a3c6" prot="public" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>Const_ModelPointsData</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a1b1869205f79899059e06d8cd0727288" prot="public" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>Const_ModelPointsData</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a4028d29dcc4e3a6999c84c9b9c78b2e0" prot="public" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>Const_ModelPointsData</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1ab6997d56c3a92ead8dfffe24a9093a6f" prot="public" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>Const_ModelPointsData</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1ac546eeb188a78350b345ec308fbc9561" prot="protected" virt="virtual"><scope>MR::ModelPointsData</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ModelPointsData_1a9ab17382f7fc3bfaa62767dfe82b545a" prot="public" virt="virtual"><scope>MR::ModelPointsData</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ModelPointsData_1aed4e1bda4a7af3fe24db2dc3778f1452" prot="public" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>fakeObjId</name></member>
       <member refid="classMR_1_1ModelPointsData_1a0cbaa3302ecdd43ecd164f6c569cc8b3" prot="package" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>ModelPointsData</name></member>
       <member refid="classMR_1_1ModelPointsData_1ada514182d1b922c21330857fe4d52179" prot="public" virt="non-virtual"><scope>MR::ModelPointsData</scope><name>ModelPointsData</name></member>

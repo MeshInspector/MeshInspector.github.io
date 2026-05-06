@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f" kind="class" language="C#" prot="public">
     <compoundname>MR::AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f" prot="public" virt="non-virtual">MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f_1a1e996df0e1fdf96b26e0863043b2dc96" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</name>
         <qualifiedname>MR.AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f.AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</qualifiedname>
         <param>
-          <type>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f" kindref="compound">MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;::AABBTreeTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::AABBTreeTraits&amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;gt;::AABBTreeTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;::AABBTreeTraits</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::AABBTreeTraits&amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;gt;::AABBTreeTraits</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f.assign</qualifiedname>
         <param>
-          <type>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</type>
+          <type><ref refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f" kindref="compound">MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::AABBTreeTraits&amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -102,7 +102,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::AABBTreeTraits&amp;amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::AABBTreeTraits&amp;lt;MR::UndirectedEdgeTag, <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</label>
+        <link refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</label>
+        <link refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -155,6 +157,12 @@
       <member refid="classMR_1_1AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f_1a90c5a76bda91f765a79d1c52133f8aa8" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</scope><name>AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</name></member>
       <member refid="classMR_1_1AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f_1a3768aaa39044923b2b23cbdb01bfce1c" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</scope><name>AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</name></member>
       <member refid="classMR_1_1AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f_1a97390a308649361a445998f08ce1df6a" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f_1a7ef03653a0c2ffbe6422013c04a9395a" prot="package" virt="non-virtual"><scope>MR::AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</scope><name>Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f_1adb1fa770766d9ad5053184d4307436f3" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</scope><name>Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f_1aac9eb581200a0c59e60607ea73a48976" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</scope><name>Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f_1a2dfe2cbf006ac026efdcee0bd5eeef09" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</scope><name>Const_AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f_1a821bf76982e9eaabdaca69a16dfae722" prot="protected" virt="virtual"><scope>MR::AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__AABBTreeTraits__MRUndirectedEdgeTag__MRBox2f_1a0a83aaa9fe976ad86ac4c31c7c773b80" prot="public" virt="virtual"><scope>MR::AABBTreeTraits_MRUndirectedEdgeTag_MRBox2f</scope><name>Dispose</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

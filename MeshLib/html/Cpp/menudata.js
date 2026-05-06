@@ -85,7 +85,8 @@ var menudata={children:[
 {text:"Spaces and Transformations",url:"../SpacesHelp.html"},
 {text:"How to use С++ Example Plugin",url:"../ExamplePluginOverview.html"},
 {text:"State Plugins Overview",url:"../StatePluginsHelp.html"},
-{text:"How to Add Plugin",url:"../HowtoAddPluginOverview.html"}]},
+{text:"How to Add Plugin",url:"../HowtoAddPluginOverview.html"},
+{text:"Internationalization Guide",url:"../I18nGuide.html"}]},
 {text:"API",url:"../APIPage.html",children:[
 {text:"C++",url:"APICppPage.html",children:[
 {text:"Topics",url:"topics.html"},
@@ -283,6 +284,7 @@ var menudata={children:[
 {text:"g",url:"functions_vars_g.html#index_g"},
 {text:"h",url:"functions_vars_h.html#index_h"},
 {text:"i",url:"functions_vars_i.html#index_i"},
+{text:"j",url:"functions_vars_j.html#index_j"},
 {text:"k",url:"functions_vars_k.html#index_k"},
 {text:"l",url:"functions_vars_l.html#index_l"},
 {text:"m",url:"functions_vars_m.html#index_m"},

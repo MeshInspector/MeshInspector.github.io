@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SegmentSegmentIntersectResult" kind="class" language="C#" prot="public">
     <compoundname>MR::SegmentSegmentIntersectResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SegmentSegmentIntersectResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SegmentSegmentIntersectResult" prot="public" virt="non-virtual">MR.Const_SegmentSegmentIntersectResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SegmentSegmentIntersectResult_1a1e1c6a65a5c4a4451ed275a811605a6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref bool</type>
@@ -105,7 +105,7 @@
         <name>SegmentSegmentIntersectResult</name>
         <qualifiedname>MR.SegmentSegmentIntersectResult.SegmentSegmentIntersectResult</qualifiedname>
         <param>
-          <type>MR.Const_SegmentSegmentIntersectResult</type>
+          <type><ref refid="classMR_1_1Const__SegmentSegmentIntersectResult" kindref="compound">MR.Const_SegmentSegmentIntersectResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.SegmentSegmentIntersectResult.assign</qualifiedname>
         <param>
-          <type>MR.Const_SegmentSegmentIntersectResult</type>
+          <type><ref refid="classMR_1_1Const__SegmentSegmentIntersectResult" kindref="compound">MR.Const_SegmentSegmentIntersectResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SegmentSegmentIntersectResult</label>
+        <link refid="classMR_1_1Const__SegmentSegmentIntersectResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -191,6 +192,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SegmentSegmentIntersectResult</label>
+        <link refid="classMR_1_1Const__SegmentSegmentIntersectResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -205,9 +207,19 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" line="545" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPrecisePredicates2.cs" bodystart="546" bodyend="616"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a4a273c4f0c14b2b17e7ee40791ac4d8e" prot="protected" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>__ref_storage_cIsLeftFromAB</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a3b99a52b4fdac9ab16b306224ada89e2" prot="protected" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>__ref_storage_doIntersect</name></member>
       <member refid="classMR_1_1SegmentSegmentIntersectResult_1a2c9b1d1ea6389bab021b16bca4135c2f" prot="public" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>assign</name></member>
       <member refid="classMR_1_1SegmentSegmentIntersectResult_1ab828224eef8f481c8395326f176f1cc1" prot="public" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>cIsLeftFromAB</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a8877001d718c4a30a1a7771c3b380ef9" prot="package" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>Const_SegmentSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a4377e19204daf399556e312501048d5c" prot="public" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>Const_SegmentSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a3a1d7f24f3884c98cb15b08d0ef0d554" prot="public" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>Const_SegmentSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1abf50ce64277f2fb8da87468571666139" prot="public" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>Const_SegmentSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a143ad91f54fe0503c9ba06955224d124" prot="public" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>Const_SegmentSegmentIntersectResult</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a4ade552edb1750bc3ea8b44d01d001b8" prot="protected" virt="virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1ad76d4fca705872f5d5fbb86b0325b4d0" prot="public" virt="virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SegmentSegmentIntersectResult_1a1e1c6a65a5c4a4451ed275a811605a6e" prot="public" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>doIntersect</name></member>
+      <member refid="classMR_1_1Const__SegmentSegmentIntersectResult_1a6beb8298b71090a34608b7cb68cc9732" prot="public" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>operator bool</name></member>
       <member refid="classMR_1_1SegmentSegmentIntersectResult_1a40cbc73c60c90d15b5ba38cf688d43bd" prot="package" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>SegmentSegmentIntersectResult</name></member>
       <member refid="classMR_1_1SegmentSegmentIntersectResult_1a567a12087572ea1f5b6b1ecaa4a4cb84" prot="public" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>SegmentSegmentIntersectResult</name></member>
       <member refid="classMR_1_1SegmentSegmentIntersectResult_1a037e445b43a25df4786ae917027ab074" prot="public" virt="non-virtual"><scope>MR::SegmentSegmentIntersectResult</scope><name>SegmentSegmentIntersectResult</name></member>

@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__FreeFormDeformer" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_FreeFormDeformer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1FreeFormDeformer" prot="public" virt="non-virtual">MR.FreeFormDeformer</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1adfa34b2b5d6d38c7b69ce17758016a32" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_FreeFormDeformer.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="15" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1afa07290a5db73c8ee40ad1d674688732" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_FreeFormDeformer.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a16038d56628dcfe55a936f16ece6de70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FreeFormDeformer.Const_FreeFormDeformer</definition>
+        <argsstring>(MR._ByValue_FreeFormDeformer _other)</argsstring>
+        <name>Const_FreeFormDeformer</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.Const_FreeFormDeformer</qualifiedname>
+        <param>
+          <type>MR._ByValue_FreeFormDeformer</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FreeFormDeformer_1aa934589cbaacd8bfc80add6ec4c29df4" kindref="member">MR.FreeFormDeformer.FreeFormDeformer</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="32" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="32" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a72d8e76bca1da3d6fb7ccd70d11bbf08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FreeFormDeformer.Const_FreeFormDeformer</definition>
+        <argsstring>(Const_FreeFormDeformer _other)</argsstring>
+        <name>Const_FreeFormDeformer</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.Const_FreeFormDeformer</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FreeFormDeformer" kindref="compound">Const_FreeFormDeformer</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FreeFormDeformer_1aa934589cbaacd8bfc80add6ec4c29df4" kindref="member">MR.FreeFormDeformer.FreeFormDeformer</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="43" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a0a821466170fe2131014c97ab117489e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FreeFormDeformer.Const_FreeFormDeformer</definition>
+        <argsstring>(FreeFormDeformer _other)</argsstring>
+        <name>Const_FreeFormDeformer</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.Const_FreeFormDeformer</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FreeFormDeformer" kindref="compound">FreeFormDeformer</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FreeFormDeformer_1aa934589cbaacd8bfc80add6ec4c29df4" kindref="member">MR.FreeFormDeformer.FreeFormDeformer</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="48" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a255576839460763db0814a46f0c01bcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FreeFormDeformer.Const_FreeFormDeformer</definition>
+        <argsstring>(MR.VertCoords coords, MR.Const_VertBitSet valid)</argsstring>
+        <name>Const_FreeFormDeformer</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.Const_FreeFormDeformer</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords" kindref="compound">MR.VertCoords</ref></type>
+          <declname>coords</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+          <declname>valid</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FreeFormDeformer_1aa934589cbaacd8bfc80add6ec4c29df4" kindref="member">MR.FreeFormDeformer.FreeFormDeformer</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="54" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="54" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a7c8749fad303aabd4d3e67cd6525ae96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FreeFormDeformer.Const_FreeFormDeformer</definition>
+        <argsstring>(MR.Mesh mesh, MR.Const_VertBitSet? region=null)</argsstring>
+        <name>Const_FreeFormDeformer</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.Const_FreeFormDeformer</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FreeFormDeformer_1aa934589cbaacd8bfc80add6ec4c29df4" kindref="member">MR.FreeFormDeformer.FreeFormDeformer</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="66" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="66" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a786e12a9407e50ec8502e5ca86c2fdd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe ref readonly MR.Vector3f MR.Const_FreeFormDeformer.getRefGridPointPosition</definition>
+        <argsstring>(in MR.Vector3i coordOfPointInGrid)</argsstring>
+        <name>getRefGridPointPosition</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.getRefGridPointPosition</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>coordOfPointInGrid</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FreeFormDeformer_1a786e12a9407e50ec8502e5ca86c2fdd4" kindref="member">MR.FreeFormDeformer.getRefGridPointPosition</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="84" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="84" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a0513856f97448c94da6623fd259f6f74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_FreeFormDeformer.apply</definition>
+        <argsstring>()</argsstring>
+        <name>apply</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.apply</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FreeFormDeformer_1a0513856f97448c94da6623fd259f6f74" kindref="member">MR.FreeFormDeformer.apply</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="99" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="99" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a607823be46dc30af691e575c8201eb4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_FreeFormDeformer.applySinglePoint</definition>
+        <argsstring>(in MR.Vector3f point)</argsstring>
+        <name>applySinglePoint</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.applySinglePoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FreeFormDeformer_1a607823be46dc30af691e575c8201eb4b" kindref="member">MR.FreeFormDeformer.applySinglePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="110" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="110" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a508990a3fdddb8a9a0716f001a81509e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_FreeFormDeformer.getIndex</definition>
+        <argsstring>(in MR.Vector3i coordOfPointInGrid)</argsstring>
+        <name>getIndex</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.getIndex</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>coordOfPointInGrid</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FreeFormDeformer_1a508990a3fdddb8a9a0716f001a81509e" kindref="member">MR.FreeFormDeformer.getIndex</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="124" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="124" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a83df84a16059bbfa7f059ea5c4d6d680" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>unsafe MR.Vector3i MR.Const_FreeFormDeformer.getCoord</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getCoord</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.getCoord</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FreeFormDeformer_1a83df84a16059bbfa7f059ea5c4d6d680" kindref="member">MR.FreeFormDeformer.getCoord</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="138" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="138" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a9fd98bb1e492b178aa619c3a8b72f5a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Vector_MRVector3f</type>
+        <definition>unsafe MR.Std.Const_Vector_MRVector3f MR.Const_FreeFormDeformer.getAllRefGridPositions</definition>
+        <argsstring>()</argsstring>
+        <name>getAllRefGridPositions</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.getAllRefGridPositions</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FreeFormDeformer_1a9fd98bb1e492b178aa619c3a8b72f5a0" kindref="member">MR.FreeFormDeformer.getAllRefGridPositions</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="148" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="148" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a611719a867e60c13b13c57f891fcfa2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>unsafe ref readonly MR.Vector3i MR.Const_FreeFormDeformer.getResolution</definition>
+        <argsstring>()</argsstring>
+        <name>getResolution</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.getResolution</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__FreeFormDeformer_1a611719a867e60c13b13c57f891fcfa2c" kindref="member">MR.FreeFormDeformer.getResolution</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="158" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="158" bodyend="163"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a55dc7591b129b2f3fc1556282160a5eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_FreeFormDeformer.~Const_FreeFormDeformer</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_FreeFormDeformer</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.~Const_FreeFormDeformer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a2ade058197a580c32a6ac57e919738a6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_FreeFormDeformer.Const_FreeFormDeformer</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_FreeFormDeformer</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.Const_FreeFormDeformer</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="27" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__FreeFormDeformer_1a6edfc7953d8f43a57281913ea6936ad5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_FreeFormDeformer.operator Const_FreeFormDeformer</definition>
+        <argsstring>(MR.Mesh mesh)</argsstring>
+        <name>operator Const_FreeFormDeformer</name>
+        <qualifiedname>MR.Const_FreeFormDeformer.operator Const_FreeFormDeformer</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1FreeFormDeformer_1aa934589cbaacd8bfc80add6ec4c29df4" kindref="member">MR.FreeFormDeformer.FreeFormDeformer</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="78" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="78" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for deforming mesh using Bernstein interpolation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><programlisting filename="cpp-examples/FreeFormDeformation.dox.cpp"></programlisting> Generated from class <computeroutput><ref refid="classMR_1_1FreeFormDeformer" kindref="compound">MR.FreeFormDeformer</ref></computeroutput>. This is the const half of the class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_FreeFormDeformer</label>
+        <link refid="classMR_1_1Const__FreeFormDeformer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.FreeFormDeformer</label>
+        <link refid="classMR_1_1FreeFormDeformer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_FreeFormDeformer</label>
+        <link refid="classMR_1_1Const__FreeFormDeformer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFreeFormDeformer.cs" bodystart="10" bodyend="164"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a0513856f97448c94da6623fd259f6f74" prot="public" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>apply</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a607823be46dc30af691e575c8201eb4b" prot="public" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>applySinglePoint</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a2ade058197a580c32a6ac57e919738a6" prot="package" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>Const_FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a16038d56628dcfe55a936f16ece6de70" prot="public" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>Const_FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a72d8e76bca1da3d6fb7ccd70d11bbf08" prot="public" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>Const_FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a0a821466170fe2131014c97ab117489e" prot="public" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>Const_FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a255576839460763db0814a46f0c01bcb" prot="public" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>Const_FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a7c8749fad303aabd4d3e67cd6525ae96" prot="public" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>Const_FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1adfa34b2b5d6d38c7b69ce17758016a32" prot="protected" virt="virtual"><scope>MR::Const_FreeFormDeformer</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1afa07290a5db73c8ee40ad1d674688732" prot="public" virt="virtual"><scope>MR::Const_FreeFormDeformer</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a9fd98bb1e492b178aa619c3a8b72f5a0" prot="public" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>getAllRefGridPositions</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a83df84a16059bbfa7f059ea5c4d6d680" prot="public" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>getCoord</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a508990a3fdddb8a9a0716f001a81509e" prot="public" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>getIndex</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a786e12a9407e50ec8502e5ca86c2fdd4" prot="public" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>getRefGridPointPosition</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a611719a867e60c13b13c57f891fcfa2c" prot="public" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>getResolution</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a6edfc7953d8f43a57281913ea6936ad5" prot="public" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>operator Const_FreeFormDeformer</name></member>
+      <member refid="classMR_1_1Const__FreeFormDeformer_1a55dc7591b129b2f3fc1556282160a5eb" prot="private" virt="non-virtual"><scope>MR::Const_FreeFormDeformer</scope><name>~Const_FreeFormDeformer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

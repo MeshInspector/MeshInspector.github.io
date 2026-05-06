@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DihedralAngleProcessParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DihedralAngleProcessParams</compoundname>
+    <includes refid="MREdgeMetric_8h" local="no">MRMesh/MREdgeMetric.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gac5be006d2871232ebdac4d91e32d1264" kind="variable"><name>convexFactor</name></member>
+      <member refid="group__GeneralGroup_1ga02f9a36cc38f075c05945cd1d672a9b4" kind="variable"><name>concaveFactor</name></member>
+      <member refid="group__GeneralGroup_1gaf8d91d7986ad0925066b5e8c5f79b96e" kind="variable"><name>boundaryValue</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MREdgeMetric.h" line="50" column="1" bodyfile="MRMesh/MREdgeMetric.h" bodystart="51" bodyend="55"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf8d91d7986ad0925066b5e8c5f79b96e" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>boundaryValue</name></member>
+      <member refid="group__GeneralGroup_1ga02f9a36cc38f075c05945cd1d672a9b4" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>concaveFactor</name></member>
+      <member refid="group__GeneralGroup_1gac5be006d2871232ebdac4d91e32d1264" prot="public" virt="non-virtual"><scope>MR::DihedralAngleProcessParams</scope><name>convexFactor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

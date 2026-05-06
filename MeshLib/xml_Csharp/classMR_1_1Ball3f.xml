@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Ball3f" kind="class" language="C#" prot="public">
     <compoundname>MR::Ball3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Ball3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Ball3f" prot="public" virt="non-virtual">MR.Const_Ball3f</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Ball3f_1a5b464024cc030cdf230799efa9fba729" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -105,7 +105,7 @@
         <name>Ball3f</name>
         <qualifiedname>MR.Ball3f.Ball3f</qualifiedname>
         <param>
-          <type>MR.Const_Ball3f</type>
+          <type><ref refid="classMR_1_1Const__Ball3f" kindref="compound">MR.Const_Ball3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.Ball3f.assign</qualifiedname>
         <param>
-          <type>MR.Const_Ball3f</type>
+          <type><ref refid="classMR_1_1Const__Ball3f" kindref="compound">MR.Const_Ball3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Ball3f</label>
+        <link refid="classMR_1_1Const__Ball3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Ball3f</label>
         <link refid="classMR_1_1Ball3f"/>
@@ -191,9 +196,13 @@
       </node>
       <node id="2">
         <label>MR.Const_Ball3f</label>
+        <link refid="classMR_1_1Const__Ball3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_center</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -205,6 +214,9 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="1159" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="1160" bodyend="1230"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Ball3f_1a2badf3b0ac457131dbedae4e35026910" prot="protected" virt="non-virtual"><scope>MR::Ball3f</scope><name>__ref_storage_center</name></member>
+      <member refid="classMR_1_1Const__Ball3f_1afbf871bea2af34640ae8137123fc6fb5" prot="protected" virt="non-virtual"><scope>MR::Ball3f</scope><name>__ref_storage_Elements</name></member>
+      <member refid="classMR_1_1Const__Ball3f_1a82783ac9642811528a69d5e76bed2c7c" prot="protected" virt="non-virtual"><scope>MR::Ball3f</scope><name>__ref_storage_radiusSq</name></member>
       <member refid="classMR_1_1Ball3f_1a29d00c2a0809b3991286c84499e84316" prot="public" virt="non-virtual"><scope>MR::Ball3f</scope><name>assign</name></member>
       <member refid="classMR_1_1Ball3f_1a78c3cbf6b20782041946802b04f08fe8" prot="package" virt="non-virtual"><scope>MR::Ball3f</scope><name>Ball3f</name></member>
       <member refid="classMR_1_1Ball3f_1aad538264d539b54042d4864fb6394865" prot="public" virt="non-virtual"><scope>MR::Ball3f</scope><name>Ball3f</name></member>
@@ -212,6 +224,16 @@
       <member refid="classMR_1_1Ball3f_1a113906b80b45718d3d0f7e7317221255" prot="public" virt="non-virtual"><scope>MR::Ball3f</scope><name>Ball3f</name></member>
       <member refid="classMR_1_1Ball3f_1a2174c53435d2098897cecb944e5135bd" prot="public" virt="non-virtual"><scope>MR::Ball3f</scope><name>Ball3f</name></member>
       <member refid="classMR_1_1Ball3f_1a5b464024cc030cdf230799efa9fba729" prot="public" virt="non-virtual"><scope>MR::Ball3f</scope><name>center</name></member>
+      <member refid="classMR_1_1Const__Ball3f_1a55820e6c2f94cdef64f1ee9c453ff5b1" prot="package" virt="non-virtual"><scope>MR::Ball3f</scope><name>Const_Ball3f</name></member>
+      <member refid="classMR_1_1Const__Ball3f_1ab06889ea3fface21e8c283aadeb80ddf" prot="public" virt="non-virtual"><scope>MR::Ball3f</scope><name>Const_Ball3f</name></member>
+      <member refid="classMR_1_1Const__Ball3f_1a44aef74c76f7f5855f638a390bbad1c2" prot="public" virt="non-virtual"><scope>MR::Ball3f</scope><name>Const_Ball3f</name></member>
+      <member refid="classMR_1_1Const__Ball3f_1ad4ee73d3a845766372e55854628ec525" prot="public" virt="non-virtual"><scope>MR::Ball3f</scope><name>Const_Ball3f</name></member>
+      <member refid="classMR_1_1Const__Ball3f_1a625a0b5d6374a4f736b14feffffbec3c" prot="public" virt="non-virtual"><scope>MR::Ball3f</scope><name>Const_Ball3f</name></member>
+      <member refid="classMR_1_1Const__Ball3f_1afe9c2668de27dfbe07e0a5fb943c8dfb" prot="protected" virt="virtual"><scope>MR::Ball3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Ball3f_1a4975f4af8bb8866eadff1f325578c352" prot="public" virt="virtual"><scope>MR::Ball3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Ball3f_1a31d530f86c095ba2d38aaad689371d30" prot="public" virt="non-virtual"><scope>MR::Ball3f</scope><name>Elements</name></member>
+      <member refid="classMR_1_1Const__Ball3f_1a2e0e059c224762ae3ef66ebc765e9be6" prot="public" virt="non-virtual"><scope>MR::Ball3f</scope><name>inside</name></member>
+      <member refid="classMR_1_1Const__Ball3f_1a959bf08d7b7c7bc495ba0b908fb4bbc8" prot="public" virt="non-virtual"><scope>MR::Ball3f</scope><name>outside</name></member>
       <member refid="classMR_1_1Ball3f_1af1cd6d3ffe8adeb1989dde3f53338ff7" prot="public" virt="non-virtual"><scope>MR::Ball3f</scope><name>radiusSq</name></member>
     </listofallmembers>
   </compounddef>

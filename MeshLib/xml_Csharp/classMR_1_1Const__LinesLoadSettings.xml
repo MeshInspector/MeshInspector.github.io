@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__LinesLoadSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_LinesLoadSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1LinesLoadSettings" prot="public" virt="non-virtual">MR.LinesLoadSettings</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__LinesLoadSettings_1a4d367e2c395b847a39441c7ba8eb95a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition>unsafe MR.? VertColors MR.Const_LinesLoadSettings.colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.colors</qualifiedname>
+        <briefdescription>
+<para>optional load artifact: per-vertex color map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="29" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="30" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__LinesLoadSettings_1a517ca501daed629d6597feb65cccfc54" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Function_Bool_From_Float</type>
+        <definition>unsafe MR.Std.Const_Function_Bool_From_Float MR.Const_LinesLoadSettings.callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.callback</qualifiedname>
+        <briefdescription>
+<para>callback for set progress and stop process </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="47" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__LinesLoadSettings_1a8a03a532adcfaf0f7f8c301727fa1862" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_LinesLoadSettings.telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.telemetrySignal</qualifiedname>
+        <briefdescription>
+<para>permit telemetry signal about loading </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="52" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__LinesLoadSettings_1adde8a139c2189b3a232d7250282ec10e" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.VertColors._Underlying **</type>
+        <definition>unsafe MR.VertColors._Underlying** MR.Const_LinesLoadSettings.__ptr_storage_colors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_colors</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.__ptr_storage_colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="42" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__LinesLoadSettings_1a7c133d4ff2d32eabcba4e451725d4e96" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_LinesLoadSettings.__ref_storage_telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_telemetrySignal</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.__ref_storage_telemetrySignal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="53" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__LinesLoadSettings_1a619461756a1fc18648565fb642841239" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_LinesLoadSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__LinesLoadSettings_1a0ee2c4c735e0bddc0da312379ec7f51b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_LinesLoadSettings.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LinesLoadSettings_1a525971bc1e7b944154d4828f7ac99576" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_LinesLoadSettings.Const_LinesLoadSettings</definition>
+        <argsstring>()</argsstring>
+        <name>Const_LinesLoadSettings</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.Const_LinesLoadSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="93" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="93" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LinesLoadSettings_1a85c2a5dde29dc37a745fa78d17e2edce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_LinesLoadSettings.Const_LinesLoadSettings</definition>
+        <argsstring>(MR.VertColors? colors, MR.Std._ByValue_Function_Bool_From_Float callback, bool telemetrySignal)</argsstring>
+        <name>Const_LinesLoadSettings</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.Const_LinesLoadSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref>?</type>
+          <declname>colors</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>telemetrySignal</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1LinesLoadSettings" kindref="compound">MR.LinesLoadSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="104" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="104" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LinesLoadSettings_1a7638587c03ea78b125b49145621f470e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_LinesLoadSettings.Const_LinesLoadSettings</definition>
+        <argsstring>(MR._ByValue_LinesLoadSettings _other)</argsstring>
+        <name>Const_LinesLoadSettings</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.Const_LinesLoadSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_LinesLoadSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LinesLoadSettings_1ad784a907c794e9c084afa95fefbb47c5" kindref="member">MR.LinesLoadSettings.LinesLoadSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="117" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="117" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LinesLoadSettings_1aa2de215d1d78e1164f2a4db785564499" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_LinesLoadSettings.Const_LinesLoadSettings</definition>
+        <argsstring>(Const_LinesLoadSettings _other)</argsstring>
+        <name>Const_LinesLoadSettings</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.Const_LinesLoadSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__LinesLoadSettings" kindref="compound">Const_LinesLoadSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LinesLoadSettings_1ad784a907c794e9c084afa95fefbb47c5" kindref="member">MR.LinesLoadSettings.LinesLoadSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="129" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__LinesLoadSettings_1ae7b0f7da9ec69708400933e1a9a6e118" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_LinesLoadSettings.Const_LinesLoadSettings</definition>
+        <argsstring>(LinesLoadSettings _other)</argsstring>
+        <name>Const_LinesLoadSettings</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.Const_LinesLoadSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LinesLoadSettings_1ad784a907c794e9c084afa95fefbb47c5" kindref="member">MR.LinesLoadSettings.LinesLoadSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="134" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="134" bodyend="134"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__LinesLoadSettings_1ae12eae2af4e3566d3c87488a8f3bcfd5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_LinesLoadSettings.~Const_LinesLoadSettings</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_LinesLoadSettings</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.~Const_LinesLoadSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__LinesLoadSettings_1a3a65bba06838b93635787505f39ce046" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_LinesLoadSettings.Const_LinesLoadSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_LinesLoadSettings</name>
+        <qualifiedname>MR.Const_LinesLoadSettings.Const_LinesLoadSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="82" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="82" bodyend="87"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>setting for polyline loading from external format, and locations of optional output data Generated from class <computeroutput><ref refid="classMR_1_1LinesLoadSettings" kindref="compound">MR.LinesLoadSettings</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_LinesLoadSettings</label>
+        <link refid="classMR_1_1Const__LinesLoadSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.LinesLoadSettings</label>
+        <link refid="classMR_1_1LinesLoadSettings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_LinesLoadSettings</label>
+        <link refid="classMR_1_1Const__LinesLoadSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_colors</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoadSettings.cs" bodystart="9" bodyend="135"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1adde8a139c2189b3a232d7250282ec10e" prot="protected" virt="non-virtual"><scope>MR::Const_LinesLoadSettings</scope><name>__ptr_storage_colors</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a7c133d4ff2d32eabcba4e451725d4e96" prot="protected" virt="non-virtual"><scope>MR::Const_LinesLoadSettings</scope><name>__ref_storage_telemetrySignal</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a517ca501daed629d6597feb65cccfc54" prot="public" virt="non-virtual"><scope>MR::Const_LinesLoadSettings</scope><name>callback</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a4d367e2c395b847a39441c7ba8eb95a7" prot="public" virt="non-virtual"><scope>MR::Const_LinesLoadSettings</scope><name>colors</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a3a65bba06838b93635787505f39ce046" prot="package" virt="non-virtual"><scope>MR::Const_LinesLoadSettings</scope><name>Const_LinesLoadSettings</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a525971bc1e7b944154d4828f7ac99576" prot="public" virt="non-virtual"><scope>MR::Const_LinesLoadSettings</scope><name>Const_LinesLoadSettings</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a85c2a5dde29dc37a745fa78d17e2edce" prot="public" virt="non-virtual"><scope>MR::Const_LinesLoadSettings</scope><name>Const_LinesLoadSettings</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a7638587c03ea78b125b49145621f470e" prot="public" virt="non-virtual"><scope>MR::Const_LinesLoadSettings</scope><name>Const_LinesLoadSettings</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1aa2de215d1d78e1164f2a4db785564499" prot="public" virt="non-virtual"><scope>MR::Const_LinesLoadSettings</scope><name>Const_LinesLoadSettings</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1ae7b0f7da9ec69708400933e1a9a6e118" prot="public" virt="non-virtual"><scope>MR::Const_LinesLoadSettings</scope><name>Const_LinesLoadSettings</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a619461756a1fc18648565fb642841239" prot="protected" virt="virtual"><scope>MR::Const_LinesLoadSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a0ee2c4c735e0bddc0da312379ec7f51b" prot="public" virt="virtual"><scope>MR::Const_LinesLoadSettings</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1a8a03a532adcfaf0f7f8c301727fa1862" prot="public" virt="non-virtual"><scope>MR::Const_LinesLoadSettings</scope><name>telemetrySignal</name></member>
+      <member refid="classMR_1_1Const__LinesLoadSettings_1ae12eae2af4e3566d3c87488a8f3bcfd5" prot="private" virt="non-virtual"><scope>MR::Const_LinesLoadSettings</scope><name>~Const_LinesLoadSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

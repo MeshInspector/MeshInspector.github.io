@@ -21,6 +21,7 @@ var annotated_dup =
     [ "MR_FaceId", "structMR__FaceId.html", "structMR__FaceId" ],
     [ "MR_GraphEdgeId", "structMR__GraphEdgeId.html", "structMR__GraphEdgeId" ],
     [ "MR_GraphVertId", "structMR__GraphVertId.html", "structMR__GraphVertId" ],
+    [ "MR_LocaleDomainId", "structMR__LocaleDomainId.html", "structMR__LocaleDomainId" ],
     [ "MR_Matrix2b", "structMR__Matrix2b.html", "structMR__Matrix2b" ],
     [ "MR_Matrix2d", "structMR__Matrix2d.html", "structMR__Matrix2d" ],
     [ "MR_Matrix2f", "structMR__Matrix2f.html", "structMR__Matrix2f" ],

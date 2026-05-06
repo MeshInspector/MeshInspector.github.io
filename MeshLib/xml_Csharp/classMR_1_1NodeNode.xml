@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NodeNode" kind="class" language="C#" prot="public">
     <compoundname>MR::NodeNode</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NodeNode</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NodeNode" prot="public" virt="non-virtual">MR.Const_NodeNode</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1NodeNode_1a9c64f2332e43f1728aabb94013875894" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1549" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1549" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1557" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1557" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1NodeNode_1aab61070e7af069f5165ab2424b9499ba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1551" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1551" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1559" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1559" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1555" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1555" bodyend="1559"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1563" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1563" bodyend="1567"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1565" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1565" bodyend="1571"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1573" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1573" bodyend="1579"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NodeNode_1a42143bd900e96aeaa15bdbdaadc38e37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1576" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1576" bodyend="1582"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1584" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1584" bodyend="1590"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NodeNode_1ab32c44f82547df4cd2abe6c732ba8bfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -103,7 +103,7 @@
         <name>NodeNode</name>
         <qualifiedname>MR.NodeNode.NodeNode</qualifiedname>
         <param>
-          <type>MR.Const_NodeNode</type>
+          <type><ref refid="classMR_1_1Const__NodeNode" kindref="compound">MR.Const_NodeNode</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1587" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1587" bodyend="1594"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1595" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1595" bodyend="1602"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NodeNode_1a92bdded20eba9783dae9ea060fc4ad26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1599" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1599" bodyend="1599"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1607" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1607" bodyend="1607"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1NodeNode_1a87a6a1b86496781f0815995d0060879c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1NodeNode" kindref="compound">MR.NodeNode</ref></type>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.NodeNode.assign</qualifiedname>
         <param>
-          <type>MR.Const_NodeNode</type>
+          <type><ref refid="classMR_1_1Const__NodeNode" kindref="compound">MR.Const_NodeNode</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1604" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1604" bodyend="1611"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1612" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1612" bodyend="1619"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NodeNode</label>
+        <link refid="classMR_1_1Const__NodeNode"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -181,6 +182,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.NodeNode</label>
         <link refid="classMR_1_1NodeNode"/>
@@ -189,9 +194,14 @@
       </node>
       <node id="2">
         <label>MR.Const_NodeNode</label>
+        <link refid="classMR_1_1Const__NodeNode"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_aNode</edgelabel>
+          <edgelabel>__ref_storage_bNode</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -201,11 +211,20 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1547" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1548" bodyend="1612"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="1555" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="1556" bodyend="1620"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__NodeNode_1af67ca3cf57753d06e00c3b9b72c1046d" prot="protected" virt="non-virtual"><scope>MR::NodeNode</scope><name>__ref_storage_aNode</name></member>
+      <member refid="classMR_1_1Const__NodeNode_1a043436ffdfc5916e25b0a126d816cde4" prot="protected" virt="non-virtual"><scope>MR::NodeNode</scope><name>__ref_storage_bNode</name></member>
       <member refid="classMR_1_1NodeNode_1a9c64f2332e43f1728aabb94013875894" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>aNode</name></member>
       <member refid="classMR_1_1NodeNode_1a87a6a1b86496781f0815995d0060879c" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>assign</name></member>
       <member refid="classMR_1_1NodeNode_1aab61070e7af069f5165ab2424b9499ba" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>bNode</name></member>
+      <member refid="classMR_1_1Const__NodeNode_1ae7ac7abdc68129387e6eb9e367d7437e" prot="package" virt="non-virtual"><scope>MR::NodeNode</scope><name>Const_NodeNode</name></member>
+      <member refid="classMR_1_1Const__NodeNode_1a99b006df0fd503b556284d8d8e0a7dbb" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>Const_NodeNode</name></member>
+      <member refid="classMR_1_1Const__NodeNode_1a6d31b29f27e14d63540c54e470a96860" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>Const_NodeNode</name></member>
+      <member refid="classMR_1_1Const__NodeNode_1ad56cc7ec02581ee4c6d688fe4c9b3335" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>Const_NodeNode</name></member>
+      <member refid="classMR_1_1Const__NodeNode_1a8fdc88141df161c9ce8700af2f851495" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>Const_NodeNode</name></member>
+      <member refid="classMR_1_1Const__NodeNode_1afd072ec6fe0301b0ed527713b83db97b" prot="protected" virt="virtual"><scope>MR::NodeNode</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NodeNode_1a7a5fce1bcfb1f7df1601fca7d5629618" prot="public" virt="virtual"><scope>MR::NodeNode</scope><name>Dispose</name></member>
       <member refid="classMR_1_1NodeNode_1ab21d6aed99349ef7fea6643675d3729d" prot="package" virt="non-virtual"><scope>MR::NodeNode</scope><name>NodeNode</name></member>
       <member refid="classMR_1_1NodeNode_1a1b443c190a800d1396417d42f0b7756f" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>NodeNode</name></member>
       <member refid="classMR_1_1NodeNode_1a42143bd900e96aeaa15bdbdaadc38e37" prot="public" virt="non-virtual"><scope>MR::NodeNode</scope><name>NodeNode</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum" kind="class" language="C#" prot="public">
     <compoundname>MR::IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum" prot="public" virt="non-virtual">MR.Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum_1ac73b7a332b2d11c82f15b41531157890" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</name>
         <qualifiedname>MR.IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum.IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</qualifiedname>
         <param>
-          <type>MR.Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum" kindref="compound">MR.Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IsVisualizeMaskEnum&amp;amp;lt;<ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">MR.AnyVisualizeMaskEnum</ref>&amp;amp;gt;::IsVisualizeMaskEnum</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IsVisualizeMaskEnum&amp;lt;<ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">MR.AnyVisualizeMaskEnum</ref>&amp;gt;::IsVisualizeMaskEnum</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IsVisualizeMaskEnum&amp;amp;lt;<ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">MR.AnyVisualizeMaskEnum</ref>&amp;amp;gt;::IsVisualizeMaskEnum</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IsVisualizeMaskEnum&amp;lt;<ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">MR.AnyVisualizeMaskEnum</ref>&amp;gt;::IsVisualizeMaskEnum</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum.assign</qualifiedname>
         <param>
-          <type>MR.Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum" kindref="compound">MR.Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::IsVisualizeMaskEnum&amp;amp;lt;<ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">MR.AnyVisualizeMaskEnum</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::IsVisualizeMaskEnum&amp;lt;<ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">MR.AnyVisualizeMaskEnum</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -102,7 +102,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::IsVisualizeMaskEnum&amp;amp;lt;<ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">MR.AnyVisualizeMaskEnum</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::IsVisualizeMaskEnum&amp;lt;<ref refid="classMR_1_1AnyVisualizeMaskEnum" kindref="compound">MR.AnyVisualizeMaskEnum</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -115,6 +115,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</label>
+        <link refid="classMR_1_1Const__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -136,6 +137,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</label>
+        <link refid="classMR_1_1Const__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -151,6 +153,12 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="73" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="74" bodyend="114"/>
     <listofallmembers>
       <member refid="classMR_1_1IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum_1abf3efa3a59fa879d7b9cc9fbc4fcb31f" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum_1ad7d04deccd77537aa53aabe6b3aede64" prot="package" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</scope><name>Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum_1a9e321f6c8b9d56e1c94e2995b2c8a861" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</scope><name>Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum_1a6efb3a2815c1b7f7cf69ab5a7dd25bfd" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</scope><name>Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum_1aea6c6e7728f264651c1b9068c074f6f3" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</scope><name>Const_IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum_1afa447ace768e6c428783b004e4b92176" prot="protected" virt="virtual"><scope>MR::IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum_1ae678c3ea0228981ef274741d3a75dba7" prot="public" virt="virtual"><scope>MR::IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum_1ac73b7a332b2d11c82f15b41531157890" prot="package" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</scope><name>IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</name></member>
       <member refid="classMR_1_1IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum_1a2738844109f4c375fe8560c33ce11051" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</scope><name>IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</name></member>
       <member refid="classMR_1_1IsVisualizeMaskEnum__MRAnyVisualizeMaskEnum_1a3b1f29f35037d5fd08116ea13e51dafd" prot="public" virt="non-virtual"><scope>MR::IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</scope><name>IsVisualizeMaskEnum_MRAnyVisualizeMaskEnum</name></member>

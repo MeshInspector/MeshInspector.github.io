@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1ComputeSweptVolumeParameters" kind="class" language="C#" prot="public">
     <compoundname>MR::ComputeSweptVolumeParameters</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_ComputeSweptVolumeParameters</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__ComputeSweptVolumeParameters" prot="public" virt="non-virtual">MR.Const_ComputeSweptVolumeParameters</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1ComputeSweptVolumeParameters_1a57449756da3dd6cd99667c118be4a7ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1MeshPart" kindref="compound">MR.MeshPart</ref></type>
@@ -20,7 +20,7 @@
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="177" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="177" bodyend="177"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1ComputeSweptVolumeParameters_1ad113ea9d77d68cdd31fd3e5d73b2f68f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
-        <type>new unsafe MR.? Const_EndMillTool</type>
+        <type>new unsafe MR.? <ref refid="classMR_1_1Const__EndMillTool" kindref="compound">Const_EndMillTool</ref></type>
         <definition>new unsafe MR.? Const_EndMillTool MR.ComputeSweptVolumeParameters.toolSpec</definition>
         <argsstring></argsstring>
         <name>toolSpec</name>
@@ -131,7 +131,7 @@
         <name>ComputeSweptVolumeParameters</name>
         <qualifiedname>MR.ComputeSweptVolumeParameters.ComputeSweptVolumeParameters</qualifiedname>
         <param>
-          <type>Const_ComputeSweptVolumeParameters</type>
+          <type><ref refid="classMR_1_1Const__ComputeSweptVolumeParameters" kindref="compound">Const_ComputeSweptVolumeParameters</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -162,22 +162,22 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="263" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="263" bodyend="263"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ComputeSweptVolumeParameters_1ac0ef4174d4b5074cf9bf75371d1d29b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1ComputeSweptVolumeParameters_1ac91063b0ddec457936dfef6a89315498" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.ComputeSweptVolumeParameters.ComputeSweptVolumeParameters</definition>
-        <argsstring>(MR.Const_Polyline3 path, MR.Const_MeshPart toolMesh, MR.Const_EndMillTool? toolSpec, float voxelSize, ulong memoryLimit, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <argsstring>(MR.Const_Polyline3 path, MR.Const_MeshPart toolMesh, MR.Const_EndMillTool? toolSpec, float voxelSize, ulong memoryLimit, MR.Std._ByValue_Function_Bool_From_Float cb)</argsstring>
         <name>ComputeSweptVolumeParameters</name>
         <qualifiedname>MR.ComputeSweptVolumeParameters.ComputeSweptVolumeParameters</qualifiedname>
         <param>
-          <type>MR.Const_Polyline3</type>
+          <type><ref refid="classMR_1_1Const__Polyline3" kindref="compound">MR.Const_Polyline3</ref></type>
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_MeshPart</type>
+          <type><ref refid="classMR_1_1Const__MeshPart" kindref="compound">MR.Const_MeshPart</ref></type>
           <declname>toolMesh</declname>
         </param>
         <param>
-          <type>MR.Const_EndMillTool?</type>
+          <type><ref refid="classMR_1_1Const__EndMillTool" kindref="compound">MR.Const_EndMillTool</ref>?</type>
           <declname>toolSpec</declname>
         </param>
         <param>
@@ -189,7 +189,7 @@
           <declname>memoryLimit</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float</type>
           <declname>cb</declname>
         </param>
         <briefdescription>
@@ -216,6 +216,7 @@
       </node>
       <node id="2">
         <label>MR.Const_ComputeSweptVolumeParameters</label>
+        <link refid="classMR_1_1Const__ComputeSweptVolumeParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -229,6 +230,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.ComputeSweptVolumeParameters</label>
         <link refid="classMR_1_1ComputeSweptVolumeParameters"/>
@@ -237,9 +242,13 @@
       </node>
       <node id="2">
         <label>MR.Const_ComputeSweptVolumeParameters</label>
+        <link refid="classMR_1_1Const__ComputeSweptVolumeParameters"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_toolSpec</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -251,13 +260,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="172" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="173" bodyend="279"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__ComputeSweptVolumeParameters_1a4e7d69fd6f1620309cdc5b8f61bbd6d4" prot="protected" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>__ptr_storage_toolSpec</name></member>
+      <member refid="classMR_1_1Const__ComputeSweptVolumeParameters_1ae63e0659c49572dc69a765660981f29b" prot="protected" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>__ref_storage_memoryLimit</name></member>
+      <member refid="classMR_1_1Const__ComputeSweptVolumeParameters_1ab4aad45f542b582dd71bbf3c197be816" prot="protected" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>__ref_storage_voxelSize</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1a25176ee17d5e30124e52529c9fc24727" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>cb</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1ab6f7b1f91584808ebcdc97ec9aa2fefd" prot="package" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1a327e218959c40195b90c642c98ddd0c1" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1accc2f049a061f7d438262bc61786ad3c" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1a3393ab91aff2f8818a55c4df98b5a691" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>
-      <member refid="classMR_1_1ComputeSweptVolumeParameters_1ac0ef4174d4b5074cf9bf75371d1d29b3" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>
+      <member refid="classMR_1_1ComputeSweptVolumeParameters_1ac91063b0ddec457936dfef6a89315498" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>ComputeSweptVolumeParameters</name></member>
+      <member refid="classMR_1_1Const__ComputeSweptVolumeParameters_1ae6950ef83e42aac6597d6463de8850cc" prot="package" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>Const_ComputeSweptVolumeParameters</name></member>
+      <member refid="classMR_1_1Const__ComputeSweptVolumeParameters_1a9fa79270e84a0c60c84fc2fa6209901c" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>Const_ComputeSweptVolumeParameters</name></member>
+      <member refid="classMR_1_1Const__ComputeSweptVolumeParameters_1af4f1405a0183212e11f0ef3169ba4e13" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>Const_ComputeSweptVolumeParameters</name></member>
+      <member refid="classMR_1_1Const__ComputeSweptVolumeParameters_1a59bd9964396aec87fe6f9aa5ee2f548f" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>Const_ComputeSweptVolumeParameters</name></member>
+      <member refid="classMR_1_1Const__ComputeSweptVolumeParameters_1a24ef2c15d96baf709170f6dd3cdc5ddb" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>Const_ComputeSweptVolumeParameters</name></member>
+      <member refid="classMR_1_1Const__ComputeSweptVolumeParameters_1a12f13b80153910a0ef5465613e5ba98e" prot="protected" virt="virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ComputeSweptVolumeParameters_1a4a4f6b86a2d71ac6c0af6b4c72d70d23" prot="public" virt="virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1a7a41156017b054a3d8938aaa7b19257a" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>memoryLimit</name></member>
+      <member refid="classMR_1_1Const__ComputeSweptVolumeParameters_1a851af0ce1ed1a4fde4bac1f9b0c7b25c" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>path</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1a57449756da3dd6cd99667c118be4a7ff" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>toolMesh</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1ad113ea9d77d68cdd31fd3e5d73b2f68f" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>toolSpec</name></member>
       <member refid="classMR_1_1ComputeSweptVolumeParameters_1a1c9b629e219c97d8b117720bef856a39" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>voxelSize</name></member>

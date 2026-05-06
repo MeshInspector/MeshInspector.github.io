@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__VertMap" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_VertMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1VertMap" prot="public" virt="non-virtual">MR.VertMap</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__VertMap_1a529d4f4b68efe5910427c6e49f0b0b3c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRVertId</type>
+        <definition>unsafe MR.Std.Const_Vector_MRVertId MR.Const_VertMap.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_VertMap.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4207" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4207" bodyend="4207"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__VertMap_1afd72136e0d6547fbabf39ad504fd3d6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe ref readonly MR.VertId MR.Const_VertMap.this[MR.VertId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.VertId i]</name>
+        <qualifiedname>MR.Const_VertMap.this[MR.VertId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VertMap::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4359" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4360" bodyend="4367"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1af98c747f484c0af7a31d0f1085110882" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_VertMap.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VertMap.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4128" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4128" bodyend="4136"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1aaa7eb415d1a8dfd34934b156b3c2529b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_VertMap.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_VertMap.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4137" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4137" bodyend="4137"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1abf779cc145a625bf7845799480dd3fe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref> &gt; &gt;</type>
+        <definition>IEnumerator&lt; MR.Misc.ConstRef&lt; MR.VertId &gt; &gt; MR.Const_VertMap.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_VertMap.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4194" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4194" bodyend="4197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1acec8d39f802a5bd538ab4a10b9f98121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertMap.Const_VertMap</definition>
+        <argsstring>()</argsstring>
+        <name>Const_VertMap</name>
+        <qualifiedname>MR.Const_VertMap.Const_VertMap</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4235" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4235" bodyend="4241"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1ace7c865d0d7a3b9f8fa231620146f19c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertMap.Const_VertMap</definition>
+        <argsstring>(MR._ByValue_VertMap _other)</argsstring>
+        <name>Const_VertMap</name>
+        <qualifiedname>MR.Const_VertMap.Const_VertMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VertMap_1a15d4aa846fe5bccf1c88bdd674dc508c" kindref="member">MR.VertMap.VertMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4246" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4246" bodyend="4253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a6ab53f826b744d1b58bb5a5f34bfec0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VertMap.Const_VertMap</definition>
+        <argsstring>(Const_VertMap _other)</argsstring>
+        <name>Const_VertMap</name>
+        <qualifiedname>MR.Const_VertMap.Const_VertMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">Const_VertMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VertMap_1a15d4aa846fe5bccf1c88bdd674dc508c" kindref="member">MR.VertMap.VertMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4258" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4258" bodyend="4258"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a2e1c4af561f70f33eb353e95a948148e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VertMap.Const_VertMap</definition>
+        <argsstring>(VertMap _other)</argsstring>
+        <name>Const_VertMap</name>
+        <qualifiedname>MR.Const_VertMap.Const_VertMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1VertMap_1a15d4aa846fe5bccf1c88bdd674dc508c" kindref="member">MR.VertMap.VertMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4263" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4263" bodyend="4263"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a78260fdd43b62e7d261699f2a6b4e6a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertMap.Const_VertMap</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_VertMap</name>
+        <qualifiedname>MR.Const_VertMap.Const_VertMap</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1VertMap_1a15d4aa846fe5bccf1c88bdd674dc508c" kindref="member">MR.VertMap.VertMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4269" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4269" bodyend="4275"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1acc0eeab1a44fb572b8fa3145007ff1ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertMap.Const_VertMap</definition>
+        <argsstring>(ulong size, in MR.VertId val)</argsstring>
+        <name>Const_VertMap</name>
+        <qualifiedname>MR.Const_VertMap.Const_VertMap</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1VertMap_1a15d4aa846fe5bccf1c88bdd674dc508c" kindref="member">MR.VertMap.VertMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4281" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4281" bodyend="4290"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1abc9ca8dd8c997ed7e6a426036cb65524" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertMap.Const_VertMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVertId &gt; vec)</argsstring>
+        <name>Const_VertMap</name>
+        <qualifiedname>MR.Const_VertMap.Const_VertMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVertId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1VertMap_1a15d4aa846fe5bccf1c88bdd674dc508c" kindref="member">MR.VertMap.VertMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4296" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4296" bodyend="4303"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a13080a3ee8d15715a75e1c4e778a5277" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_VertMap.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_VertMap.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1a13080a3ee8d15715a75e1c4e778a5277" kindref="member">MR.VertMap.empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4329" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4329" bodyend="4334"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1ad87bdcab401f3115f290fe31ddd1f011" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VertMap.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_VertMap.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1ad87bdcab401f3115f290fe31ddd1f011" kindref="member">MR.VertMap.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4339" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4339" bodyend="4344"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1ab82ee90aa57fbe515c44d22b861a0651" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VertMap.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_VertMap.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1ab82ee90aa57fbe515c44d22b861a0651" kindref="member">MR.VertMap.capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4349" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4349" bodyend="4354"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1afa76033715eff2905577c7da3f895371" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe ref readonly MR.VertId MR.Const_VertMap.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_VertMap.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertMap_1a9550a7bd612175118be08a7ead441297" kindref="member">MR.VertMap.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4372" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4372" bodyend="4377"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a5fc2a00f8672dfacdbd3a043814233b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe ref readonly MR.VertId MR.Const_VertMap.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_VertMap.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertMap_1a6d8965e54890115adfd034c8a09fa33c" kindref="member">MR.VertMap.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4382" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4382" bodyend="4387"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a21c116ca03a80416c1899f88a4ea4176" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Const_VertMap.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_VertMap.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1a21c116ca03a80416c1899f88a4ea4176" kindref="member">MR.VertMap.beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4393" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4393" bodyend="4398"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a35ae652ddf4af50c0221221374f5e3da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Const_VertMap.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_VertMap.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__VertMap_1a5fc2a00f8672dfacdbd3a043814233b0" kindref="member">back()</ref> element Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1a35ae652ddf4af50c0221221374f5e3da" kindref="member">MR.VertMap.backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4404" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4404" bodyend="4409"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a11c2e90acdf43dd0d185bf1780e3eb83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Const_VertMap.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_VertMap.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__VertMap_1a35ae652ddf4af50c0221221374f5e3da" kindref="member">backId()</ref> + 1 Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1a11c2e90acdf43dd0d185bf1780e3eb83" kindref="member">MR.VertMap.endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4415" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4415" bodyend="4420"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1ac5b06c910ff7245545a064d109f6badd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="structMR_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition>unsafe MR.? VertId MR.Const_VertMap.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_VertMap.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertMap_1a4f8975c4965b8a806fbf94e71c817feb" kindref="member">MR.VertMap.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4425" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4425" bodyend="4431"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1abea33d26613564188c32d9e109cbf04b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_VertMap.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_VertMap.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__VertMap_1abea33d26613564188c32d9e109cbf04b" kindref="member">MR.VertMap.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4437" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4437" bodyend="4442"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a5413dfcdba1f71b9aca80e55647880c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_VertMap.Equals</definition>
+        <argsstring>(MR.Const_VertMap? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_VertMap.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4446" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4446" bodyend="4451"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1ab4a08557fb262260a79f9103140088d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_VertMap.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_VertMap.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4453" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4453" bodyend="4460"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1accd680e662615cb6c1ef8bb6649f65a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_VertMap.~Const_VertMap</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_VertMap</name>
+        <qualifiedname>MR.Const_VertMap.~Const_VertMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4138" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4138" bodyend="4138"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1af4d6b080c133ec7274059def256c0026" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_VertMap.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_VertMap.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4199" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4199" bodyend="4202"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a823fc2f63052ded4cfc686ae5ff2c661" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_VertMap.Const_VertMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_VertMap</name>
+        <qualifiedname>MR.Const_VertMap.Const_VertMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4224" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4224" bodyend="4229"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a3802112fa4fb32d8456ac2757be0fe3f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_VertMap.operator Const_VertMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRVertId &gt; vec)</argsstring>
+        <name>operator Const_VertMap</name>
+        <qualifiedname>MR.Const_VertMap.operator Const_VertMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRVertId &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1VertMap_1a15d4aa846fe5bccf1c88bdd674dc508c" kindref="member">MR.VertMap.VertMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4309" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4309" bodyend="4309"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1af2d45f39af84d36e17eb2f0649ad1e7f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_VertMap.operator==</definition>
+        <argsstring>(MR.Const_VertMap _this, MR.Const_VertMap b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_VertMap.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::VertMap::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4314" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4314" bodyend="4319"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__VertMap_1a3233a5a27da5738b761137fe0a78c4c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_VertMap.operator!=</definition>
+        <argsstring>(MR.Const_VertMap _this, MR.Const_VertMap b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_VertMap.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertMap" kindref="compound">MR.Const_VertMap</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4321" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4321" bodyend="4324"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1VertMap" kindref="compound">MR.VertMap</ref></computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_VertMap</label>
+        <link refid="classMR_1_1Const__VertMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="6">
+        <label>MR.VertMap</label>
+        <link refid="classMR_1_1VertMap"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_VertMap</label>
+        <link refid="classMR_1_1Const__VertMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="4122" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="4123" bodyend="4461"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__VertMap_1a5fc2a00f8672dfacdbd3a043814233b0" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a35ae652ddf4af50c0221221374f5e3da" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a21c116ca03a80416c1899f88a4ea4176" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__VertMap_1ab82ee90aa57fbe515c44d22b861a0651" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a823fc2f63052ded4cfc686ae5ff2c661" prot="package" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
+      <member refid="classMR_1_1Const__VertMap_1acec8d39f802a5bd538ab4a10b9f98121" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
+      <member refid="classMR_1_1Const__VertMap_1ace7c865d0d7a3b9f8fa231620146f19c" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a6ab53f826b744d1b58bb5a5f34bfec0f" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a2e1c4af561f70f33eb353e95a948148e" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a78260fdd43b62e7d261699f2a6b4e6a9" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
+      <member refid="classMR_1_1Const__VertMap_1acc0eeab1a44fb572b8fa3145007ff1ff" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
+      <member refid="classMR_1_1Const__VertMap_1abc9ca8dd8c997ed7e6a426036cb65524" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Const_VertMap</name></member>
+      <member refid="classMR_1_1Const__VertMap_1ac5b06c910ff7245545a064d109f6badd" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__VertMap_1af98c747f484c0af7a31d0f1085110882" prot="protected" virt="virtual"><scope>MR::Const_VertMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertMap_1aaa7eb415d1a8dfd34934b156b3c2529b" prot="public" virt="virtual"><scope>MR::Const_VertMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a13080a3ee8d15715a75e1c4e778a5277" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a11c2e90acdf43dd0d185bf1780e3eb83" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a5413dfcdba1f71b9aca80e55647880c6" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__VertMap_1ab4a08557fb262260a79f9103140088d2" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__VertMap_1afa76033715eff2905577c7da3f895371" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__VertMap_1abf779cc145a625bf7845799480dd3fe7" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__VertMap_1af4d6b080c133ec7274059def256c0026" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__VertMap_1abea33d26613564188c32d9e109cbf04b" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a3802112fa4fb32d8456ac2757be0fe3f" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>operator Const_VertMap</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a3233a5a27da5738b761137fe0a78c4c1" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__VertMap_1af2d45f39af84d36e17eb2f0649ad1e7f" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__VertMap_1ad87bdcab401f3115f290fe31ddd1f011" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__VertMap_1afd72136e0d6547fbabf39ad504fd3d6c" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>this[MR.VertId i]</name></member>
+      <member refid="classMR_1_1Const__VertMap_1a529d4f4b68efe5910427c6e49f0b0b3c" prot="public" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__VertMap_1accd680e662615cb6c1ef8bb6649f65a0" prot="private" virt="non-virtual"><scope>MR::Const_VertMap</scope><name>~Const_VertMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

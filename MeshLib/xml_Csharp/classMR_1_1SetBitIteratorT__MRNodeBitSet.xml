@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SetBitIteratorT__MRNodeBitSet" kind="class" language="C#" prot="public">
     <compoundname>MR::SetBitIteratorT_MRNodeBitSet</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRNodeBitSet</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet" prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRNodeBitSet</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRNodeBitSet_1a16ab002b9fadb87e4f1af8fe60a1ad2f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>SetBitIteratorT_MRNodeBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRNodeBitSet.SetBitIteratorT_MRNodeBitSet</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIteratorT_MRNodeBitSet</type>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRNodeBitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>SetBitIteratorT_MRNodeBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRNodeBitSet.SetBitIteratorT_MRNodeBitSet</qualifiedname>
         <param>
-          <type>MR.Const_NodeBitSet</type>
+          <type><ref refid="classMR_1_1Const__NodeBitSet" kindref="compound">MR.Const_NodeBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -107,11 +107,11 @@
         <name>assign</name>
         <qualifiedname>MR.SetBitIteratorT_MRNodeBitSet.assign</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIteratorT_MRNodeBitSet</type>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRNodeBitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,7 +126,7 @@
         <name>incr</name>
         <qualifiedname>MR.SetBitIteratorT_MRNodeBitSet.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;amp;gt;::operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;gt;<ref refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1a366330ecad48d076ced2868fec2a6393" kindref="member">operator++</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,11 +143,11 @@
         <name>operator SetBitIteratorT_MRNodeBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRNodeBitSet.operator SetBitIteratorT_MRNodeBitSet</qualifiedname>
         <param>
-          <type>MR.Const_NodeBitSet</type>
+          <type><ref refid="classMR_1_1Const__NodeBitSet" kindref="compound">MR.Const_NodeBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -157,7 +157,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1NodeBitSet" kindref="compound">MR.NodeBitSet</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIteratorT_MRNodeBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIteratorT_MRNodeBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,8 +218,23 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15434" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15435" bodyend="15503"/>
     <listofallmembers>
       <member refid="classMR_1_1SetBitIteratorT__MRNodeBitSet_1ad8d6e01f8392b13d219e90555974b410" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1ab384b26cec62ee6e8836996e85891c8c" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>bitset</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1acdce37fcc55be16ac3c851a4d628889d" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>Const_SetBitIteratorT_MRNodeBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1ade8c9121ee3d8de8388e3bdb5acb362b" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>Const_SetBitIteratorT_MRNodeBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1a95b329dd200861a246c97190115bc16e" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>Const_SetBitIteratorT_MRNodeBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1a9b7b0a2e923539b7becd49a56eba5de3" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>Const_SetBitIteratorT_MRNodeBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1a6f66099bab5af672b9db9014249073fb" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>Const_SetBitIteratorT_MRNodeBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1afdfc3017d7ad3ad65fee832cc76f681c" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1a267f4ce3b4d7a01a521af92418341eb5" prot="protected" virt="virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1ab4e6ee41e3b238ce30951ba189f4fa7d" prot="public" virt="virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1a37e6bbe1a02c56ccde1170418c606c94" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1afc8462aaf6f92e6921c542878ee71cc2" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>Equals</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRNodeBitSet_1a32bfc0d34b0365b7fbd7ab11f034b63b" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1abec6d774c1327e8014b520816f4511c5" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>operator Const_SetBitIteratorT_MRNodeBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRNodeBitSet_1ac7e18802e59dd05caa9239cdcc26c5e4" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>operator SetBitIteratorT_MRNodeBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1a1d5f7ecebfaf3223dda256d731adc55d" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1a366330ecad48d076ced2868fec2a6393" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRNodeBitSet_1a2a7ed7cf5593a70301e10a9f553864f1" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>operator==</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRNodeBitSet_1a16ab002b9fadb87e4f1af8fe60a1ad2f" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>SetBitIteratorT_MRNodeBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRNodeBitSet_1ad49affbf1f89dbeb55af197f5c155e6e" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>SetBitIteratorT_MRNodeBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRNodeBitSet_1a4a925c80ae7c5329e0472c573d9898bd" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRNodeBitSet</scope><name>SetBitIteratorT_MRNodeBitSet</name></member>

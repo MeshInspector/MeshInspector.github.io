@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1McpGateway" kind="namespace" language="C++">
+    <compoundname>MR::McpGateway</compoundname>
+    <innerclass refid="structMR_1_1McpGateway_1_1Config" prot="public">MR::McpGateway::Config</innerclass>
+    <innerclass refid="classMR_1_1McpGateway_1_1MLClientTransport" prot="public">MR::McpGateway::MLClientTransport</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a1865d391c5eaff99701877d104fb7266" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::atomic&lt; bool &gt; &amp;</type>
+        <definition>std::atomic&lt; bool &gt; &amp; MR::McpGateway::getBackendAlive</definition>
+        <argsstring>()</argsstring>
+        <name>getBackendAlive</name>
+        <qualifiedname>MR::McpGateway::getBackendAlive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Single source of truth for &quot;is the backend currently alive?&quot;. Updated by <computeroutput>updateBackendAliveAndNotify</computeroutput> (from <computeroutput>probeAndTrackBackend</computeroutput> and from the persistent transport&apos;s SSE connect/error callbacks). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="17" column="13" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="17" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a9ab308a9eb9041eb3bb4933a227f605c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::McpGateway::probeBackendAlive</definition>
+        <argsstring>(const std::string &amp;targetUrl)</argsstring>
+        <name>probeBackendAlive</name>
+        <qualifiedname>MR::McpGateway::probeBackendAlive</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>targetUrl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raw HTTP liveness probe. No state updates, no transition events. Used at startup (before any client is connected, so transitions would be spurious). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="21" column="6" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="21" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a153505bbfb54eb994b1929e70f09d9f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::McpGateway::updateBackendAliveAndNotify</definition>
+        <argsstring>(bool nowAlive)</argsstring>
+        <name>updateBackendAliveAndNotify</name>
+        <qualifiedname>MR::McpGateway::updateBackendAliveAndNotify</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>nowAlive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates <computeroutput><ref refid="namespaceMR_1_1McpGateway_1a1865d391c5eaff99701877d104fb7266" kindref="member">getBackendAlive()</ref></computeroutput> and emits <computeroutput>notifications/tools/list_changed</computeroutput> on a real alive↔dead transition. Suppresses the very first call (baseline-set, not a transition the client cares about). Safe to call from any thread: emit goes through <computeroutput><ref refid="namespaceMR_1_1McpGateway_1a125af5dc97b6c00c8b23e57f661a1b96" kindref="member">gatewayStdoutMutex()</ref></computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="27" column="6" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a7a95f3dc050ff3960ed8ad8918399289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::McpGateway::probeAndTrackBackend</definition>
+        <argsstring>(const std::string &amp;targetUrl)</argsstring>
+        <name>probeAndTrackBackend</name>
+        <qualifiedname>MR::McpGateway::probeAndTrackBackend</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>targetUrl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Probes the backend and routes the result through <computeroutput>updateBackendAliveAndNotify</computeroutput>, so a state transition synchronously emits <computeroutput>notifications/tools/list_changed</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="31" column="6" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="31" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a125af5dc97b6c00c8b23e57f661a1b96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::mutex &amp;</type>
+        <definition>std::mutex &amp; MR::McpGateway::gatewayStdoutMutex</definition>
+        <argsstring>()</argsstring>
+        <name>gatewayStdoutMutex</name>
+        <qualifiedname>MR::McpGateway::gatewayStdoutMutex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutex held during direct gateway-side writes to stdout (notifications emitted from background threads). Protects against emit-vs-emit interleaving. Does NOT cover fastmcpp&apos;s own response writes — fastmcpp&apos;s stdio_server does not expose its writer mutex; treat emit-vs-response interleaving as a pre-existing fastmcpp limitation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="38" column="12" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="38" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1aa850caecea2d15bbf4a28557f7c247b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::McpGateway::registerLocalTools</definition>
+        <argsstring>(fastmcpp::ProxyApp &amp;proxy, const Config &amp;cfg)</argsstring>
+        <name>registerLocalTools</name>
+        <qualifiedname>MR::McpGateway::registerLocalTools</qualifiedname>
+        <param>
+          <type>fastmcpp::ProxyApp &amp;</type>
+          <declname>proxy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1McpGateway_1_1Config" kindref="compound">Config</ref> &amp;</type>
+          <declname>cfg</declname>
+        </param>
+        <briefdescription>
+<para>Registers the gateway-local <computeroutput>launch</computeroutput> and <computeroutput>status</computeroutput> tools on <computeroutput>proxy</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="41" column="6" declfile="MRMCPGateway/MRMCPGatewayBackend.h" declline="41" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a492feeb41d07c965ac23ee0076d73f14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; nlohmann::json &gt; &amp;</type>
+        <definition>std::vector&lt; nlohmann::json &gt; &amp; MR::McpGateway::getCachedTools</definition>
+        <argsstring>()</argsstring>
+        <name>getCachedTools</name>
+        <qualifiedname>MR::McpGateway::getCachedTools</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tool-schema entries loaded from the on-disk cache at startup. Spliced into <computeroutput>tools/list</computeroutput> responses by the gateway&apos;s handler when the backend is offline. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayCache.h" line="14" column="13" declfile="MRMCPGateway/MRMCPGatewayCache.h" declline="14" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a7233b4a48f42fac23e3288ae84c19ed8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::McpGateway::ensureFreshCache</definition>
+        <argsstring>(const Config &amp;cfg)</argsstring>
+        <name>ensureFreshCache</name>
+        <qualifiedname>MR::McpGateway::ensureFreshCache</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1McpGateway_1_1Config" kindref="compound">Config</ref> &amp;</type>
+          <declname>cfg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If the cache file is missing or its build stamp doesn&apos;t match this binary, and the backend isn&apos;t already running, spawn the backend hidden so it dumps its tool schemas, then embed the build stamp into the just-written file. Best-effort — failures are logged to stderr but non-fatal. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayCache.h" line="20" column="6" declfile="MRMCPGateway/MRMCPGatewayCache.h" declline="20" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1af9483605d5022a0931882af143fee33e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::McpGateway::loadCachedTools</definition>
+        <argsstring>(const Config &amp;cfg)</argsstring>
+        <name>loadCachedTools</name>
+        <qualifiedname>MR::McpGateway::loadCachedTools</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1McpGateway_1_1Config" kindref="compound">Config</ref> &amp;</type>
+          <declname>cfg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parses <computeroutput>mcp_tools_cache.json</computeroutput> and populates <computeroutput><ref refid="namespaceMR_1_1McpGateway_1a492feeb41d07c965ac23ee0076d73f14" kindref="member">getCachedTools()</ref></computeroutput>. Errors are non-fatal (logged + leaves the cache empty). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayCache.h" line="24" column="6" declfile="MRMCPGateway/MRMCPGatewayCache.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a513db1d1766357ace9b7e93446e3a1d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::McpGateway::spawnDetached</definition>
+        <argsstring>(const std::filesystem::path &amp;exe, const std::vector&lt; std::string &gt; &amp;args)</argsstring>
+        <name>spawnDetached</name>
+        <qualifiedname>MR::McpGateway::spawnDetached</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>exe</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Spawns <computeroutput>exe</computeroutput> with <computeroutput>args</computeroutput> as a detached child process and returns immediately. The child survives this process exiting (Windows: DETACHED_PROCESS; POSIX: setsid + double-fork). Returns true if the child was launched successfully (does not verify it then ran to completion). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewaySpawn.h" line="14" column="6" declfile="MRMCPGateway/MRMCPGatewaySpawn.h" declline="14" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a9ff5364896665cd137e921006696f4ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::McpGateway::spawnAndWait</definition>
+        <argsstring>(const std::filesystem::path &amp;exe, const std::vector&lt; std::string &gt; &amp;args, std::chrono::seconds timeout)</argsstring>
+        <name>spawnAndWait</name>
+        <qualifiedname>MR::McpGateway::spawnAndWait</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>exe</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::string &gt; &amp;</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>std::chrono::seconds</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Spawns <computeroutput>exe</computeroutput> with <computeroutput>args</computeroutput> as an attached child process and blocks until it exits or <computeroutput>timeout</computeroutput> elapses. On timeout the child is force-killed. Returns true iff the child ran to completion within the timeout (regardless of its exit code — caller decides what counts as success based on side effects, e.g. a written cache file). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewaySpawn.h" line="20" column="6" declfile="MRMCPGateway/MRMCPGatewaySpawn.h" declline="20" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1ac20c4e1c03dba31d5c77bdd7aa9f78d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::McpGateway::pathFromUtf8</definition>
+        <argsstring>(const std::string &amp;s)</argsstring>
+        <name>pathFromUtf8</name>
+        <qualifiedname>MR::McpGateway::pathFromUtf8</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UTF-8 std::string -&gt; std::filesystem::path. On Windows this is non-trivial: <computeroutput>path( std::string )</computeroutput> interprets the bytes as the system code page, which silently loses any character not representable in the current locale (e.g. CJK on US-Windows). On POSIX, paths are UTF-8 by convention so this is essentially a passthrough. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayUtf8.h" line="14" column="23" declfile="MRMCPGateway/MRMCPGatewayUtf8.h" declline="14" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1McpGateway_1a312b4f994478a92f82d7b53b3b2c2c39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string MR::McpGateway::pathToUtf8</definition>
+        <argsstring>(const std::filesystem::path &amp;p)</argsstring>
+        <name>pathToUtf8</name>
+        <qualifiedname>MR::McpGateway::pathToUtf8</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>std::filesystem::path -&gt; UTF-8 std::string. Mirror of pathFromUtf8 — on Windows, <computeroutput>path::string()</computeroutput> narrows via the system code page, which corrupts non-ASCII chars before we hand the string off to spawn args / log output / cerr. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMCPGateway/MRMCPGatewayUtf8.h" line="19" column="13" declfile="MRMCPGateway/MRMCPGatewayUtf8.h" declline="19" declcolumn="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMCPGateway/MRMCPGatewayBackend.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>

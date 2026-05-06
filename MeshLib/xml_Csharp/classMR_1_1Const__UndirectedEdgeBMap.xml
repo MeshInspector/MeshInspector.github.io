@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__UndirectedEdgeBMap" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_UndirectedEdgeBMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1UndirectedEdgeBMap" prot="public" virt="non-virtual">MR.UndirectedEdgeBMap</derivedcompoundref>
+    <innerclass refid="structMR_1_1Const__UndirectedEdgeBMap_1_1__Underlying" prot="package">MR::Const_UndirectedEdgeBMap::_Underlying</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__UndirectedEdgeBMap_1a17d880314e9a6456062a0fea97f94b2a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Buffer__MRUndirectedEdgeId__MRUndirectedEdgeId" kindref="compound">MR.Const_Buffer_MRUndirectedEdgeId_MRUndirectedEdgeId</ref></type>
+        <definition>unsafe MR.Const_Buffer_MRUndirectedEdgeId_MRUndirectedEdgeId MR.Const_UndirectedEdgeBMap.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.Const_UndirectedEdgeBMap.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9314" column="76" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9314" bodyend="9314"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__UndirectedEdgeBMap_1a1c6ef9d32040dbcd20ae34f4a16a0407" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_UndirectedEdgeBMap.tsize</definition>
+        <argsstring></argsstring>
+        <name>tsize</name>
+        <qualifiedname>MR.Const_UndirectedEdgeBMap.tsize</qualifiedname>
+        <briefdescription>
+<para>target size, all values inside b must be less than this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9319" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9319" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__UndirectedEdgeBMap_1a4536a5442aeb4d2af79522dd0768f117" prot="protected" static="no" mutable="no">
+        <type>unsafe ulong *</type>
+        <definition>unsafe ulong* MR.Const_UndirectedEdgeBMap.__ref_storage_tsize</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_tsize</name>
+        <qualifiedname>MR.Const_UndirectedEdgeBMap.__ref_storage_tsize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9320" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9320" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeBMap_1aa717b457ebf5f33e34014062abf098e0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_UndirectedEdgeBMap.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UndirectedEdgeBMap.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9302" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9302" bodyend="9310"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeBMap_1ad3e220ff67db79f6d76405cb3a94de8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_UndirectedEdgeBMap.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_UndirectedEdgeBMap.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9311" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9311" bodyend="9311"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeBMap_1ad4f8ff7dafe18bb42c119f1875d05d7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UndirectedEdgeBMap.Const_UndirectedEdgeBMap</definition>
+        <argsstring>()</argsstring>
+        <name>Const_UndirectedEdgeBMap</name>
+        <qualifiedname>MR.Const_UndirectedEdgeBMap.Const_UndirectedEdgeBMap</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9354" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9354" bodyend="9360"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeBMap_1ae5290dd8d46a0b3c38f012cd04e0dd37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UndirectedEdgeBMap.Const_UndirectedEdgeBMap</definition>
+        <argsstring>(MR._ByValue_Buffer_MRUndirectedEdgeId_MRUndirectedEdgeId b, ulong tsize)</argsstring>
+        <name>Const_UndirectedEdgeBMap</name>
+        <qualifiedname>MR.Const_UndirectedEdgeBMap.Const_UndirectedEdgeBMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_Buffer_MRUndirectedEdgeId_MRUndirectedEdgeId</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>tsize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1UndirectedEdgeBMap" kindref="compound">MR.UndirectedEdgeBMap</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9365" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9365" bodyend="9372"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeBMap_1a974e3339c090d5481e10590a580b8aa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UndirectedEdgeBMap.Const_UndirectedEdgeBMap</definition>
+        <argsstring>(MR._ByValue_UndirectedEdgeBMap _other)</argsstring>
+        <name>Const_UndirectedEdgeBMap</name>
+        <qualifiedname>MR.Const_UndirectedEdgeBMap.Const_UndirectedEdgeBMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeBMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UndirectedEdgeBMap_1adaec44cb7dede089dae717ba427c9aa9" kindref="member">MR.UndirectedEdgeBMap.UndirectedEdgeBMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9377" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9377" bodyend="9384"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeBMap_1adc5edbe4836c3a3bba059507941f3c0c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UndirectedEdgeBMap.~Const_UndirectedEdgeBMap</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_UndirectedEdgeBMap</name>
+        <qualifiedname>MR.Const_UndirectedEdgeBMap.~Const_UndirectedEdgeBMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9312" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9312" bodyend="9312"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__UndirectedEdgeBMap_1ada42d234c9cbf14aac6d6168ec9b6c47" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_UndirectedEdgeBMap.Const_UndirectedEdgeBMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_UndirectedEdgeBMap</name>
+        <qualifiedname>MR.Const_UndirectedEdgeBMap.Const_UndirectedEdgeBMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9343" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9343" bodyend="9348"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>flat map: I -&gt; T Generated from class <computeroutput><ref refid="classMR_1_1UndirectedEdgeBMap" kindref="compound">MR.UndirectedEdgeBMap</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_UndirectedEdgeBMap</label>
+        <link refid="classMR_1_1Const__UndirectedEdgeBMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.UndirectedEdgeBMap</label>
+        <link refid="classMR_1_1UndirectedEdgeBMap"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_UndirectedEdgeBMap</label>
+        <link refid="classMR_1_1Const__UndirectedEdgeBMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" line="9296" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBuffer.cs" bodystart="9297" bodyend="9385"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1a4536a5442aeb4d2af79522dd0768f117" prot="protected" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>__ref_storage_tsize</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1a17d880314e9a6456062a0fea97f94b2a" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>b</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1ada42d234c9cbf14aac6d6168ec9b6c47" prot="package" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>Const_UndirectedEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1ad4f8ff7dafe18bb42c119f1875d05d7d" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>Const_UndirectedEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1ae5290dd8d46a0b3c38f012cd04e0dd37" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>Const_UndirectedEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1a974e3339c090d5481e10590a580b8aa6" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>Const_UndirectedEdgeBMap</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1aa717b457ebf5f33e34014062abf098e0" prot="protected" virt="virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1ad3e220ff67db79f6d76405cb3a94de8e" prot="public" virt="virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1a1c6ef9d32040dbcd20ae34f4a16a0407" prot="public" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>tsize</name></member>
+      <member refid="classMR_1_1Const__UndirectedEdgeBMap_1adc5edbe4836c3a3bba059507941f3c0c" prot="private" virt="non-virtual"><scope>MR::Const_UndirectedEdgeBMap</scope><name>~Const_UndirectedEdgeBMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

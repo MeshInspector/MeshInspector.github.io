@@ -202,14 +202,12 @@ Abstract class that complements \\ref IFastWindingNumber with chunked processing
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">&lt;summary&gt;
-calculates winding numbers in each point from a three-dimensional grid
-&lt;/summary&gt;
-&lt;param name="resFunc"&gt;callback that gets a block of resulting winding numbers&lt;/param&gt;
-&lt;param name="dims"&gt;dimensions of the grid&lt;/param&gt;
-&lt;param name="gridToMeshXf"&gt;transform from integer grid locations to voxel's centers in mesh reference frame&lt;/param&gt;
-&lt;param name="beta"&gt;determines the precision of the approximation: the more the better, recommended value 2 or more&lt;/param&gt;
-&lt;param name="layerOverlap"&gt;overlap between two blocks of the grid, set as XY layer count&lt;/param&gt;
+<pre class="fragment">calculates winding numbers in each point from a three-dimensional grid
+\\param resFunc callback that gets a block of resulting winding numbers
+\\param dims dimensions of the grid
+\\param gridToMeshXf transform from integer grid locations to voxel's centers in mesh reference frame
+\\param beta determines the precision of the approximation: the more the better, recommended value 2 or more
+\\param layerOverlap overlap between two blocks of the grid, set as XY layer count
 </pre> 
 </div>
 </div>
@@ -256,14 +254,12 @@ calculates winding numbers in each point from a three-dimensional grid
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">&lt;summary&gt;
-calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid;
+<pre class="fragment">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid;
 if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point
-&lt;/summary&gt;
-&lt;param name="resFunc"&gt;callback that gets a block of resulting winding numbers&lt;/param&gt;
-&lt;param name="dims"&gt;dimensions of the grid&lt;/param&gt;
-&lt;param name="gridToMeshXf"&gt;transform from integer grid locations to voxel's centers in mesh reference frame&lt;/param&gt;
-&lt;param name="layerOverlap"&gt;overlap between two blocks of the grid, set as XY layer count&lt;/param&gt;
+\\param resFunc callback that gets a block of resulting winding numbers
+\\param dims dimensions of the grid
+\\param gridToMeshXf transform from integer grid locations to voxel's centers in mesh reference frame
+\\param layerOverlap overlap between two blocks of the grid, set as XY layer count
 </pre> 
 </div>
 </div>

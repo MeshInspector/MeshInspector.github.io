@@ -3,6 +3,7 @@
   <compounddef id="std__array__MR__Vector3d__3_8h" kind="file" language="C++">
     <compoundname>std_array_MR_Vector3d_3.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includedby refid="MRTriMath_8h" local="no">MRTriMath.h</includedby>
     <incdepgraph>
       <node id="2">
         <label>MRCMesh/MRVector3.h</label>
@@ -46,6 +47,18 @@
         <label>stdint.h</label>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRTriMath.h</label>
+        <link refid="MRTriMath_8h"/>
+      </node>
+      <node id="1">
+        <label>std_array_MR_Vector3d_3.h</label>
+        <link refid="std__array__MR__Vector3d__3_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
     <innerclass refid="structMR__std__array__MR__Vector3d__3" prot="public">MR_std_array_MR_Vector3d_3</innerclass>
     <sectiondef kind="typedef">
       <memberdef kind="typedef" id="std__array__MR__Vector3d__3_8h_1ace0987ea77140eca8dd5c1d9e279129c" prot="public" static="no">

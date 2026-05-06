@@ -8,7 +8,7 @@
       <member refid="group__GeneralGroup_1ga4d6a2b64ba35e979aaf98098d6f34be3" kind="variable"><name>triangulateOnly</name></member>
       <member refid="group__GeneralGroup_1ga41a8d4e28e645afe297f2d7450ae6a3d" kind="variable"><name>subdivideSettings</name></member>
       <member refid="group__GeneralGroup_1ga45ec4f63aa8dff81d3ed1c6c8ac1fefd" kind="variable"><name>smoothCurvature</name></member>
-      <member refid="group__GeneralGroup_1ga574c3df036ce8c752e88ed337c0e06e2" kind="variable"><name>smoothSeettings</name></member>
+      <member refid="group__GeneralGroup_1gad2e68e1f1a6709a037e454b3673663d2" kind="variable"><name>smoothSettings</name></member>
       <member refid="group__GeneralGroup_1gaa0918f73a5da8336e98604cadd4373b1" kind="variable"><name>outAttributes</name></member>
     </sectiondef>
     <briefdescription>
@@ -38,7 +38,7 @@
           <edgelabel>subdivideSettings</edgelabel>
         </childnode>
         <childnode refid="5" relation="usage">
-          <edgelabel>smoothSeettings</edgelabel>
+          <edgelabel>smoothSettings</edgelabel>
         </childnode>
         <childnode refid="6" relation="usage">
           <edgelabel>outAttributes</edgelabel>
@@ -60,7 +60,7 @@
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaa0918f73a5da8336e98604cadd4373b1" prot="public" virt="non-virtual"><scope>MR::StitchHolesNicelySettings</scope><name>outAttributes</name></member>
       <member refid="group__GeneralGroup_1ga45ec4f63aa8dff81d3ed1c6c8ac1fefd" prot="public" virt="non-virtual"><scope>MR::StitchHolesNicelySettings</scope><name>smoothCurvature</name></member>
-      <member refid="group__GeneralGroup_1ga574c3df036ce8c752e88ed337c0e06e2" prot="public" virt="non-virtual"><scope>MR::StitchHolesNicelySettings</scope><name>smoothSeettings</name></member>
+      <member refid="group__GeneralGroup_1gad2e68e1f1a6709a037e454b3673663d2" prot="public" virt="non-virtual"><scope>MR::StitchHolesNicelySettings</scope><name>smoothSettings</name></member>
       <member refid="group__GeneralGroup_1ga41a8d4e28e645afe297f2d7450ae6a3d" prot="public" virt="non-virtual"><scope>MR::StitchHolesNicelySettings</scope><name>subdivideSettings</name></member>
       <member refid="group__GeneralGroup_1ga4d6a2b64ba35e979aaf98098d6f34be3" prot="public" virt="non-virtual"><scope>MR::StitchHolesNicelySettings</scope><name>triangulateOnly</name></member>
       <member refid="group__GeneralGroup_1ga83e24c3d8730be6202659fcb65549581" prot="public" virt="non-virtual"><scope>MR::StitchHolesNicelySettings</scope><name>triangulateParams</name></member>

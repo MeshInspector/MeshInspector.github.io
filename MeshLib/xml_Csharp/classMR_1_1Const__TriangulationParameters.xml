@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__TriangulationParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_TriangulationParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1TriangulationParameters" prot="public" virt="non-virtual">MR.TriangulationParameters</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__TriangulationParameters_1a071e8a886101405b03c0a26b9140e778" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_TriangulationParameters.numNeighbours</definition>
+        <argsstring></argsstring>
+        <name>numNeighbours</name>
+        <qualifiedname>MR.Const_TriangulationParameters.numNeighbours</qualifiedname>
+        <briefdescription>
+<para>The number of nearest neighbor points to use for building of local triangulation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Too small value can make not optimal triangulation and additional holes<linebreak/>
+Too big value increases difficulty of optimization and decreases performance &lt;table border=0&gt; &lt;caption id="TriangulationParameters::numNeighbours_examples"&gt;&lt;/caption&gt; &lt;tr&gt; &lt;td&gt;<image type="html" name="triangulate_3.png">"Good" width = 350cm &lt;/td&gt;</image>
+ &lt;td&gt;<image type="html" name="triangulate_2.png">"Too small value" width = 350cm &lt;/td&gt;</image>
+ &lt;/tr&gt; &lt;/table&gt; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="39" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TriangulationParameters_1ae9145b32e27dc75b8969abcd32570776" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_TriangulationParameters.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <qualifiedname>MR.Const_TriangulationParameters.radius</qualifiedname>
+        <briefdescription>
+<para>Radius of neighborhood around each point to consider for building local triangulation. This is an alternative to numNeighbours parameter. Please set to positive value only one of them. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="47" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TriangulationParameters_1a384e92acac2faef4598b5d4b3a74d603" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_TriangulationParameters.critAngle</definition>
+        <argsstring></argsstring>
+        <name>critAngle</name>
+        <qualifiedname>MR.Const_TriangulationParameters.critAngle</qualifiedname>
+        <briefdescription>
+<para>Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value) &lt;table border=0&gt; &lt;caption id="TriangulationParameters::critAngle_examples"&gt;&lt;/caption&gt; &lt;tr&gt; &lt;td&gt;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><image type="html" name="triangulate_3.png">"Good" width = 350cm &lt;/td&gt;</image>
+ &lt;td&gt;<image type="html" name="triangulate_4.png">"Too small value" width = 350cm &lt;/td&gt;</image>
+ &lt;/tr&gt; &lt;/table&gt; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="60" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TriangulationParameters_1ac037ed6e20a1a236a96e0978a95ad9c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_TriangulationParameters.boundaryAngle</definition>
+        <argsstring></argsstring>
+        <name>boundaryAngle</name>
+        <qualifiedname>MR.Const_TriangulationParameters.boundaryAngle</qualifiedname>
+        <briefdescription>
+<para>the vertex is considered as boundary if its neighbor ring has angle more than this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="66" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TriangulationParameters_1a7620382ba47550eb077dd40018b901e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_TriangulationParameters.critHoleLength</definition>
+        <argsstring></argsstring>
+        <name>critHoleLength</name>
+        <qualifiedname>MR.Const_TriangulationParameters.critHoleLength</qualifiedname>
+        <briefdescription>
+<para>Critical length of hole (all holes with length less then this value will be filled) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If value is subzero it is set automaticly to 0.7*bbox.diagonal() </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="73" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TriangulationParameters_1a274a148099ec9b9a0ed1eaedd3cec0df" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_TriangulationParameters.automaticRadiusIncrease</definition>
+        <argsstring></argsstring>
+        <name>automaticRadiusIncrease</name>
+        <qualifiedname>MR.Const_TriangulationParameters.automaticRadiusIncrease</qualifiedname>
+        <briefdescription>
+<para>automatic increase of the radius if points outside can make triangles from original radius not-Delone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="79" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__TriangulationParameters_1a1ba23a3adc5f99be6ad36c1a05ca13d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__PointCloud" kindref="compound">Const_PointCloud</ref></type>
+        <definition>unsafe MR.? Const_PointCloud MR.Const_TriangulationParameters.searchNeighbors</definition>
+        <argsstring></argsstring>
+        <name>searchNeighbors</name>
+        <qualifiedname>MR.Const_TriangulationParameters.searchNeighbors</qualifiedname>
+        <briefdescription>
+<para>optional: if provided this cloud will be used for searching of neighbors (so it must have same validPoints) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="85" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="86" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__TriangulationParameters_1ab71eb092e17c74fe48b3929306c4e053" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_TriangulationParameters.__ref_storage_numNeighbours</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_numNeighbours</name>
+        <qualifiedname>MR.Const_TriangulationParameters.__ref_storage_numNeighbours</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="40" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__TriangulationParameters_1af4b1b020e59c401350bf506cb9b36bd0" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_TriangulationParameters.__ref_storage_radius</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_radius</name>
+        <qualifiedname>MR.Const_TriangulationParameters.__ref_storage_radius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="48" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__TriangulationParameters_1aea073f3dff3248553dd295bf20eb05e7" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_TriangulationParameters.__ref_storage_critAngle</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_critAngle</name>
+        <qualifiedname>MR.Const_TriangulationParameters.__ref_storage_critAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="61" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__TriangulationParameters_1ac591bed035c1938dc2caa01ec5338688" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_TriangulationParameters.__ref_storage_boundaryAngle</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_boundaryAngle</name>
+        <qualifiedname>MR.Const_TriangulationParameters.__ref_storage_boundaryAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="67" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__TriangulationParameters_1aaf377ec37f0f9e232158156ae7f82757" prot="protected" static="no" mutable="no">
+        <type>unsafe float *</type>
+        <definition>unsafe float* MR.Const_TriangulationParameters.__ref_storage_critHoleLength</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_critHoleLength</name>
+        <qualifiedname>MR.Const_TriangulationParameters.__ref_storage_critHoleLength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="74" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__TriangulationParameters_1a7ada7eadbac41513fd96d4a30c2330de" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_TriangulationParameters.__ref_storage_automaticRadiusIncrease</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_automaticRadiusIncrease</name>
+        <qualifiedname>MR.Const_TriangulationParameters.__ref_storage_automaticRadiusIncrease</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="80" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__TriangulationParameters_1a54cdeed2f6078bff1ab3771952173915" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Const_PointCloud._Underlying **</type>
+        <definition>unsafe MR.Const_PointCloud._Underlying** MR.Const_TriangulationParameters.__ptr_storage_searchNeighbors</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_searchNeighbors</name>
+        <qualifiedname>MR.Const_TriangulationParameters.__ptr_storage_searchNeighbors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="98" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriangulationParameters_1a74022a458dab47c91030042c81b0aeaa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_TriangulationParameters.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_TriangulationParameters.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="15" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriangulationParameters_1acc7055e6c21d0591bb6d58b0a70dfa32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_TriangulationParameters.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_TriangulationParameters.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="24" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriangulationParameters_1a726597f41a71823d59559d73c91e21a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriangulationParameters.Const_TriangulationParameters</definition>
+        <argsstring>()</argsstring>
+        <name>Const_TriangulationParameters</name>
+        <qualifiedname>MR.Const_TriangulationParameters.Const_TriangulationParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="161" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="161" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriangulationParameters_1a39fa3287350d34db71097e3722076b1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriangulationParameters.Const_TriangulationParameters</definition>
+        <argsstring>(int numNeighbours, float radius, float critAngle, float boundaryAngle, float critHoleLength, bool automaticRadiusIncrease, MR.Const_PointCloud? searchNeighbors)</argsstring>
+        <name>Const_TriangulationParameters</name>
+        <qualifiedname>MR.Const_TriangulationParameters.Const_TriangulationParameters</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numNeighbours</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>critAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>boundaryAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>critHoleLength</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>automaticRadiusIncrease</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref>?</type>
+          <declname>searchNeighbors</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1TriangulationParameters" kindref="compound">MR.TriangulationParameters</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="172" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="172" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriangulationParameters_1a65bf5892a21d500a5dc2dd6bf701addd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriangulationParameters.Const_TriangulationParameters</definition>
+        <argsstring>(MR.Const_TriangulationParameters _other)</argsstring>
+        <name>Const_TriangulationParameters</name>
+        <qualifiedname>MR.Const_TriangulationParameters.Const_TriangulationParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__TriangulationParameters" kindref="compound">MR.Const_TriangulationParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangulationParameters_1a4e466bd05f8b5a99f0e77d18562392a6" kindref="member">MR.TriangulationParameters.TriangulationParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="184" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="184" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__TriangulationParameters_1ae6659d755e35ef2fb2344471445944f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TriangulationParameters.Const_TriangulationParameters</definition>
+        <argsstring>(TriangulationParameters _other)</argsstring>
+        <name>Const_TriangulationParameters</name>
+        <qualifiedname>MR.Const_TriangulationParameters.Const_TriangulationParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1TriangulationParameters_1a4e466bd05f8b5a99f0e77d18562392a6" kindref="member">MR.TriangulationParameters.TriangulationParameters</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="196" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="196" bodyend="196"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriangulationParameters_1a6898c52cdea2c92958eebcbabe489f3c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_TriangulationParameters.~Const_TriangulationParameters</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_TriangulationParameters</name>
+        <qualifiedname>MR.Const_TriangulationParameters.~Const_TriangulationParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="25" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__TriangulationParameters_1a13e4c9f4c3b076fd2906fdba2f4a0052" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_TriangulationParameters.Const_TriangulationParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_TriangulationParameters</name>
+        <qualifiedname>MR.Const_TriangulationParameters.Const_TriangulationParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="150" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="150" bodyend="155"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters of point cloud triangulation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classMR_1a3cdd62f00020dd257c7ba0d90e6b5d5f" kindref="member">triangulatePointCloud</ref> Generated from class <computeroutput><ref refid="classMR_1_1TriangulationParameters" kindref="compound">MR.TriangulationParameters</ref></computeroutput>. This is the const half of the class. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_TriangulationParameters</label>
+        <link refid="classMR_1_1Const__TriangulationParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.TriangulationParameters</label>
+        <link refid="classMR_1_1TriangulationParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_TriangulationParameters</label>
+        <link refid="classMR_1_1Const__TriangulationParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_searchNeighbors</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" line="9" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointCloudTriangulation.cs" bodystart="10" bodyend="197"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a54cdeed2f6078bff1ab3771952173915" prot="protected" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>__ptr_storage_searchNeighbors</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a7ada7eadbac41513fd96d4a30c2330de" prot="protected" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>__ref_storage_automaticRadiusIncrease</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1ac591bed035c1938dc2caa01ec5338688" prot="protected" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>__ref_storage_boundaryAngle</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1aea073f3dff3248553dd295bf20eb05e7" prot="protected" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>__ref_storage_critAngle</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1aaf377ec37f0f9e232158156ae7f82757" prot="protected" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>__ref_storage_critHoleLength</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1ab71eb092e17c74fe48b3929306c4e053" prot="protected" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>__ref_storage_numNeighbours</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1af4b1b020e59c401350bf506cb9b36bd0" prot="protected" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>__ref_storage_radius</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a274a148099ec9b9a0ed1eaedd3cec0df" prot="public" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>automaticRadiusIncrease</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1ac037ed6e20a1a236a96e0978a95ad9c2" prot="public" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>boundaryAngle</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a13e4c9f4c3b076fd2906fdba2f4a0052" prot="package" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a726597f41a71823d59559d73c91e21a3" prot="public" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a39fa3287350d34db71097e3722076b1c" prot="public" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a65bf5892a21d500a5dc2dd6bf701addd" prot="public" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1ae6659d755e35ef2fb2344471445944f3" prot="public" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>Const_TriangulationParameters</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a384e92acac2faef4598b5d4b3a74d603" prot="public" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>critAngle</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a7620382ba47550eb077dd40018b901e9" prot="public" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>critHoleLength</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a74022a458dab47c91030042c81b0aeaa" prot="protected" virt="virtual"><scope>MR::Const_TriangulationParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1acc7055e6c21d0591bb6d58b0a70dfa32" prot="public" virt="virtual"><scope>MR::Const_TriangulationParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a071e8a886101405b03c0a26b9140e778" prot="public" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>numNeighbours</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1ae9145b32e27dc75b8969abcd32570776" prot="public" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>radius</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a1ba23a3adc5f99be6ad36c1a05ca13d9" prot="public" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>searchNeighbors</name></member>
+      <member refid="classMR_1_1Const__TriangulationParameters_1a6898c52cdea2c92958eebcbabe489f3c" prot="private" virt="non-virtual"><scope>MR::Const_TriangulationParameters</scope><name>~Const_TriangulationParameters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

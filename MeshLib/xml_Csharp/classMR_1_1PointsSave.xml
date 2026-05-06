@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointsSave" kind="class" language="C#" prot="public">
     <compoundname>MR::PointsSave</compoundname>
+    <innerclass refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions" prot="public">MR::PointsSave::Const_CtmSavePointsOptions</innerclass>
     <innerclass refid="classMR_1_1PointsSave_1_1CtmSavePointsOptions" prot="public">MR::PointsSave::CtmSavePointsOptions</innerclass>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1PointsSave_1a4fe8445f727f4f7cde6010bd2df622f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -11,7 +12,7 @@
         <name>toCtm</name>
         <qualifiedname>MR.PointsSave.toCtm</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -19,7 +20,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.PointsSave.Const_CtmSavePointsOptions</type>
+          <type><ref refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions" kindref="compound">MR.PointsSave.Const_CtmSavePointsOptions</ref></type>
           <declname>options</declname>
         </param>
         <briefdescription>
@@ -38,7 +39,7 @@
         <name>toCtm</name>
         <qualifiedname>MR.PointsSave.toCtm</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -46,7 +47,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.PointsSave.Const_CtmSavePointsOptions</type>
+          <type><ref refid="classMR_1_1PointsSave_1_1Const__CtmSavePointsOptions" kindref="compound">MR.PointsSave.Const_CtmSavePointsOptions</ref></type>
           <declname>options</declname>
         </param>
         <briefdescription>
@@ -65,7 +66,7 @@
         <name>toCtm</name>
         <qualifiedname>MR.PointsSave.toCtm</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -73,7 +74,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -93,7 +94,7 @@
         <name>toCtm</name>
         <qualifiedname>MR.PointsSave.toCtm</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -101,7 +102,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -121,7 +122,7 @@
         <name>toXyz</name>
         <qualifiedname>MR.PointsSave.toXyz</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -129,7 +130,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -149,7 +150,7 @@
         <name>toXyz</name>
         <qualifiedname>MR.PointsSave.toXyz</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -157,7 +158,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -177,7 +178,7 @@
         <name>toXyzn</name>
         <qualifiedname>MR.PointsSave.toXyzn</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -185,7 +186,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -205,7 +206,7 @@
         <name>toXyzn</name>
         <qualifiedname>MR.PointsSave.toXyzn</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -213,7 +214,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -233,7 +234,7 @@
         <name>toAsc</name>
         <qualifiedname>MR.PointsSave.toAsc</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -241,7 +242,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -261,7 +262,7 @@
         <name>toAsc</name>
         <qualifiedname>MR.PointsSave.toAsc</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -269,7 +270,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -289,7 +290,7 @@
         <name>toPly</name>
         <qualifiedname>MR.PointsSave.toPly</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -297,7 +298,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -317,7 +318,7 @@
         <name>toPly</name>
         <qualifiedname>MR.PointsSave.toPly</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -325,7 +326,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -345,7 +346,7 @@
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR.PointsSave.toAnySupportedFormat</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -353,7 +354,7 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -373,7 +374,7 @@
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR.PointsSave.toAnySupportedFormat</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>points</declname>
         </param>
         <param>
@@ -385,7 +386,7 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Const_SaveSettings?</type>
+          <type><ref refid="classMR_1_1Const__SaveSettings" kindref="compound">MR.Const_SaveSettings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>

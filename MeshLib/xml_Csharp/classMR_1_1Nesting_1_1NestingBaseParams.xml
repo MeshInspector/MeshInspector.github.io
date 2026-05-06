@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Nesting_1_1NestingBaseParams" kind="class" language="C#" prot="public">
     <compoundname>MR::Nesting::NestingBaseParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Nesting.Const_NestingBaseParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Nesting_1_1Const__NestingBaseParams" prot="public" virt="non-virtual">MR.Nesting.Const_NestingBaseParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Nesting_1_1NestingBaseParams_1aef4d496bf5f05539586e9f7af35d7c50" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
@@ -105,7 +105,7 @@
         <name>NestingBaseParams</name>
         <qualifiedname>MR.Nesting.NestingBaseParams.NestingBaseParams</qualifiedname>
         <param>
-          <type>MR.Nesting.Const_NestingBaseParams</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingBaseParams" kindref="compound">MR.Nesting.Const_NestingBaseParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.Nesting.NestingBaseParams.assign</qualifiedname>
         <param>
-          <type>MR.Nesting.Const_NestingBaseParams</type>
+          <type><ref refid="classMR_1_1Nesting_1_1Const__NestingBaseParams" kindref="compound">MR.Nesting.Const_NestingBaseParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -173,6 +173,7 @@
       </node>
       <node id="2">
         <label>MR.Nesting.Const_NestingBaseParams</label>
+        <link refid="classMR_1_1Nesting_1_1Const__NestingBaseParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Nesting.NestingBaseParams</label>
         <link refid="classMR_1_1Nesting_1_1NestingBaseParams"/>
@@ -194,9 +199,13 @@
       </node>
       <node id="2">
         <label>MR.Nesting.Const_NestingBaseParams</label>
+        <link refid="classMR_1_1Nesting_1_1Const__NestingBaseParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_nest</edgelabel>
         </childnode>
       </node>
       <node id="4">
@@ -205,7 +214,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" line="561" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNestingStructures.cs" bodystart="562" bodyend="632"/>
     <listofallmembers>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingBaseParams_1af172170c2abd851d40c0d50119e331d7" prot="protected" virt="non-virtual"><scope>MR::Nesting::NestingBaseParams</scope><name>__ref_storage_minInterval</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingBaseParams_1a091d5847524c85ab60c26f93f7653400" prot="protected" virt="non-virtual"><scope>MR::Nesting::NestingBaseParams</scope><name>__ref_storage_nest</name></member>
       <member refid="classMR_1_1Nesting_1_1NestingBaseParams_1a875bb951b385c890a7b978ed68660d85" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingBaseParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingBaseParams_1a842222f6ee03cae3cf5f8857d178b2dd" prot="package" virt="non-virtual"><scope>MR::Nesting::NestingBaseParams</scope><name>Const_NestingBaseParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingBaseParams_1a743531fdaff5923e572ffcf9c415c9ce" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingBaseParams</scope><name>Const_NestingBaseParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingBaseParams_1a11479fdd0905bc1002c91a7bcd5a4049" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingBaseParams</scope><name>Const_NestingBaseParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingBaseParams_1a9936c453f0928d8258f3971eb3be2fbe" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingBaseParams</scope><name>Const_NestingBaseParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingBaseParams_1aa8d13ef1ecd0c59d579b9c5d2ba6b484" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingBaseParams</scope><name>Const_NestingBaseParams</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingBaseParams_1ae94abe51dafeba06444174a69c2de088" prot="protected" virt="virtual"><scope>MR::Nesting::NestingBaseParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Nesting_1_1Const__NestingBaseParams_1abc63e0bf06b951c06e8bbf3c67cb6a7c" prot="public" virt="virtual"><scope>MR::Nesting::NestingBaseParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Nesting_1_1NestingBaseParams_1a6a7d232b904fbbbcb6dc3af28008bf91" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingBaseParams</scope><name>minInterval</name></member>
       <member refid="classMR_1_1Nesting_1_1NestingBaseParams_1aef4d496bf5f05539586e9f7af35d7c50" prot="public" virt="non-virtual"><scope>MR::Nesting::NestingBaseParams</scope><name>nest</name></member>
       <member refid="classMR_1_1Nesting_1_1NestingBaseParams_1a37d25d48ca8dfa436bf6d21b3028088a" prot="package" virt="non-virtual"><scope>MR::Nesting::NestingBaseParams</scope><name>NestingBaseParams</name></member>

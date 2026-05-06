@@ -34,6 +34,7 @@ var group__MeshComponentsGroup =
     [ "MR::MeshComponents::getComponentsUndirectedEdges", "group__MeshComponentsGroup.html#ga144b55cc0f8b4e8963f7316fa8abc761", null ],
     [ "MR::MeshComponents::getComponentsVerts", "group__MeshComponentsGroup.html#gac2482651f614e0165c208254ab32c6fa", null ],
     [ "MR::MeshComponents::getComponentVerts", "group__MeshComponentsGroup.html#ga75b5490074101f02a07ffafbe1d42d12", null ],
+    [ "MR::MeshComponents::getFacePairRegionMap", "group__MeshComponentsGroup.html#ga87fa009d5a9b64c256cd45780378d1fb", null ],
     [ "MR::MeshComponents::getLargeByAreaComponents", "group__MeshComponentsGroup.html#ga0e01c5d278553086be9238207fdd5e4e", null ],
     [ "MR::MeshComponents::getLargeByAreaComponents", "group__MeshComponentsGroup.html#gad617931e08318ec49a55b018164c1c74", null ],
     [ "MR::MeshComponents::getLargeByAreaRegions", "group__MeshComponentsGroup.html#gaf0690687907bc23ce3b2772500238124", null ],

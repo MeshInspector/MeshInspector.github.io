@@ -10,6 +10,7 @@ var classMR_1_1Graph =
     [ "areNeighbors", "group__GeneralGroup.html#gac3097672a81dda206c80984a7fdb0806", null ],
     [ "checkValidity", "group__GeneralGroup.html#gab26fbb915c93b782e599cf1a768fab63", null ],
     [ "construct", "group__GeneralGroup.html#ga59a709d25b047768d7e7ce781f08cda1", null ],
+    [ "construct", "group__GeneralGroup.html#ga7c360c48e97cbb1393e1a1f39e2013b9", null ],
     [ "edgeSize", "group__GeneralGroup.html#ga0c5f4eae690cb57f429c9656db0e2dad", null ],
     [ "ends", "group__GeneralGroup.html#ga0c37e0844926fa87642bc735718dd643", null ],
     [ "findEdge", "group__GeneralGroup.html#ga273cded12b630876938d2dde74193619", null ],

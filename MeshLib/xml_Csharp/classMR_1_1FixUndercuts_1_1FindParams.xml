@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FixUndercuts_1_1FindParams" kind="class" language="C#" prot="public">
     <compoundname>MR::FixUndercuts::FindParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.FixUndercuts.Const_FindParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1FixUndercuts_1_1Const__FindParams" prot="public" virt="non-virtual">MR.FixUndercuts.Const_FindParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FixUndercuts_1_1FindParams_1a2fbc4b736abef8f7378ed9ad6a718fdd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
@@ -105,7 +105,7 @@
         <name>FindParams</name>
         <qualifiedname>MR.FixUndercuts.FindParams.FindParams</qualifiedname>
         <param>
-          <type>MR.FixUndercuts.Const_FindParams</type>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1Const__FindParams" kindref="compound">MR.FixUndercuts.Const_FindParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.FixUndercuts.FindParams.assign</qualifiedname>
         <param>
-          <type>MR.FixUndercuts.Const_FindParams</type>
+          <type><ref refid="classMR_1_1FixUndercuts_1_1Const__FindParams" kindref="compound">MR.FixUndercuts.Const_FindParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.FixUndercuts.Const_FindParams</label>
+        <link refid="classMR_1_1FixUndercuts_1_1Const__FindParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FixUndercuts.FindParams</label>
         <link refid="classMR_1_1FixUndercuts_1_1FindParams"/>
@@ -191,9 +196,13 @@
       </node>
       <node id="2">
         <label>MR.FixUndercuts.Const_FindParams</label>
+        <link refid="classMR_1_1FixUndercuts_1_1Const__FindParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_upDirection</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -205,7 +214,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="116" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="117" bodyend="190"/>
     <listofallmembers>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1ac3689214eb3e5aea2377c9683c096f6a" prot="protected" virt="non-virtual"><scope>MR::FixUndercuts::FindParams</scope><name>__ref_storage_upDirection</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1a1beed6bec25ce754aebb5fae59d01933" prot="protected" virt="non-virtual"><scope>MR::FixUndercuts::FindParams</scope><name>__ref_storage_wallAngle</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1FindParams_1a6c79f36d4bc8d436d1fcaaaafd2e64c2" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FindParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1aad20161e6a2c52616b313ddace7a8609" prot="package" virt="non-virtual"><scope>MR::FixUndercuts::FindParams</scope><name>Const_FindParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1acc9106cf5c69957edfb80ce3ef9ce758" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FindParams</scope><name>Const_FindParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1ad484195929b9d305643f1b3aff20bafa" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FindParams</scope><name>Const_FindParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1a8e1e2ebeb83d0bcc78b5d89b3658e264" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FindParams</scope><name>Const_FindParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1ac9b44391fc2f6fdb9bec518b348390d0" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FindParams</scope><name>Const_FindParams</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1a6c11842af65799d2f7d8ad9499ab3405" prot="protected" virt="virtual"><scope>MR::FixUndercuts::FindParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1FixUndercuts_1_1Const__FindParams_1a8949f6aafd9860b2bb1574be16ceb0d2" prot="public" virt="virtual"><scope>MR::FixUndercuts::FindParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1FindParams_1a4df26c6ac427e35ccfe5b01ed49ff3e6" prot="package" virt="non-virtual"><scope>MR::FixUndercuts::FindParams</scope><name>FindParams</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1FindParams_1af37954b1bc89aa05429516e6a4709f89" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FindParams</scope><name>FindParams</name></member>
       <member refid="classMR_1_1FixUndercuts_1_1FindParams_1a5954d007bbef6f0b4c3ac4df248feac9" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FindParams</scope><name>FindParams</name></member>

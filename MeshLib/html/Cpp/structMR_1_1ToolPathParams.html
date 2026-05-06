@@ -144,6 +144,9 @@ $(function(){initNavTree('structMR_1_1ToolPathParams.html','','structMR_1_1ToolP
 </div><!--header-->
 <div class="contents">
 
+<p>Parameters shared by all tool path generation functions.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRToolPath_8h_source.html">MRVoxels/MRToolPath.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR::ToolPathParams:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -152,7 +155,7 @@ $(function(){initNavTree('structMR_1_1ToolPathParams.html','','structMR_1_1ToolP
  <div class="center">
   <img src="structMR_1_1ToolPathParams.png" usemap="#MR_3A_3AToolPathParams_map" alt=""/>
   <map id="MR_3A_3AToolPathParams_map" name="MR_3A_3AToolPathParams_map">
-<area href="structMR_1_1ConstantCuspParams.html" alt="MR::ConstantCuspParams" shape="rect" coords="0,56,157,80"/>
+<area href="structMR_1_1ConstantCuspParams.html" title="Tool path parameters specific to the constant-cusp strategy." alt="MR::ConstantCuspParams" shape="rect" coords="0,56,157,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -190,10 +193,13 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ga58e0e695e11b0b6bd4c0ce7ecd0b0889" id="r_ga58e0e695e11b0b6bd4c0ce7ecd0b0889"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga58e0e695e11b0b6bd4c0ce7ecd0b0889">startContours</a> = nullptr</td></tr>
 <tr class="memdesc:ga58e0e695e11b0b6bd4c0ce7ecd0b0889"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional output, polyline containing start vertices for isolines  <br /></td></tr>
 <tr class="memitem:gadf1fc52d9134c621ba9630531ee2c99d" id="r_gadf1fc52d9134c621ba9630531ee2c99d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Vector3f &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gadf1fc52d9134c621ba9630531ee2c99d">startVertices</a> = nullptr</td></tr>
-<tr class="memdesc:gadf1fc52d9134c621ba9630531ee2c99d"><td class="mdescLeft">&#160;</td><td class="mdescRight">start vertices on the offset mesh used for calcutating isolines  <br /></td></tr>
+<tr class="memdesc:gadf1fc52d9134c621ba9630531ee2c99d"><td class="mdescLeft">&#160;</td><td class="mdescRight">start vertices on the offset mesh used for calculating isolines  <br /></td></tr>
 <tr class="memitem:ga290865e63260a699f02e17210427d220" id="r_ga290865e63260a699f02e17210427d220"><td class="memItemLeft" align="right" valign="top">MeshPart *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga290865e63260a699f02e17210427d220">offsetMesh</a> = nullptr</td></tr>
+<tr class="memdesc:ga290865e63260a699f02e17210427d220"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional pre-computed offset mesh; if null, it will be computed internally  <br /></td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Parameters shared by all tool path generation functions. </p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>MRVoxels/<a class="el" href="MRToolPath_8h_source.html">MRToolPath.h</a></li>
 </ul>
 </div><!-- contents -->

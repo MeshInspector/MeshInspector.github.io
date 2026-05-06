@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Pdf::Const_Cell::Empty</compoundname>
+    <basecompoundref refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty" prot="public" virt="non-virtual">MR.Const_Pdf.Const_Cell.Const_Empty</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1a6e5ea5d129fc2c5492d53b8d309798e9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.Const_Cell.Empty.Empty</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Empty</name>
+        <qualifiedname>MR.Const_Pdf.Const_Cell.Empty.Empty</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="636" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="636" bodyend="636"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1a9d612b9270b04a9cdb9bda54bd36edf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.Const_Cell.Empty.Empty</definition>
+        <argsstring>()</argsstring>
+        <name>Empty</name>
+        <qualifiedname>MR.Const_Pdf.Const_Cell.Empty.Empty</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="641" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="641" bodyend="646"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1aa40d545e4ec0b523f272b46cfef5cfe0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Pdf.Const_Cell.Empty.Empty</definition>
+        <argsstring>(MR.Pdf.Cell.Const_Empty _other)</argsstring>
+        <name>Empty</name>
+        <qualifiedname>MR.Const_Pdf.Const_Cell.Empty.Empty</qualifiedname>
+        <param>
+          <type>MR.Pdf.Cell.Const_Empty</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Pdf::Cell::Empty::Empty</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="651" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="651" bodyend="657"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1ad8cfbd703fada9d34a2e9921c6f3b296" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Pdf.Const_Cell.Empty.Empty</definition>
+        <argsstring>(Empty _other)</argsstring>
+        <name>Empty</name>
+        <qualifiedname>MR.Const_Pdf.Const_Cell.Empty.Empty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty" kindref="compound">Empty</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Pdf::Cell::Empty::Empty</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="662" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="662" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1a36f30f9c9cee9bbed94f6c3de20810a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Pdf.Cell.Empty</type>
+        <definition>unsafe MR.Pdf.Cell.Empty MR.Const_Pdf.Const_Cell.Empty.assign</definition>
+        <argsstring>(MR.Pdf.Cell.Const_Empty _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Const_Pdf.Const_Cell.Empty.assign</qualifiedname>
+        <param>
+          <type>MR.Pdf.Cell.Const_Empty</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Pdf::Cell::Empty::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="667" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="667" bodyend="674"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::Pdf::Cell::Empty</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Pdf.Const_Cell.Empty</label>
+        <link refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Pdf.Const_Cell.Const_Empty</label>
+        <link refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Pdf.Const_Cell.Empty</label>
+        <link refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_Pdf.Const_Cell.Const_Empty</label>
+        <link refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="634" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="635" bodyend="675"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1a36f30f9c9cee9bbed94f6c3de20810a3" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty_1a57caa4ea2ab565d90b700a9cec04d81f" prot="package" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>Const_Empty</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty_1a9766d2b5e553479aed0a89499bc1b106" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>Const_Empty</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty_1aa516bf7b73dfce27952d3f58ef6a4b98" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>Const_Empty</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty_1a55914e6d26119b559b608419ce931ce7" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>Const_Empty</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty_1a6f8124391654b99518d6c81d16c376d0" prot="protected" virt="virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Const__Empty_1aeb8bdf97f5d949bb92e0231f72f93d08" prot="public" virt="virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1a6e5ea5d129fc2c5492d53b8d309798e9" prot="package" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>Empty</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1a9d612b9270b04a9cdb9bda54bd36edf1" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>Empty</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1aa40d545e4ec0b523f272b46cfef5cfe0" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>Empty</name></member>
+      <member refid="classMR_1_1Const__Pdf_1_1Const__Cell_1_1Empty_1ad8cfbd703fada9d34a2e9921c6f3b296" prot="public" virt="non-virtual"><scope>MR::Const_Pdf::Const_Cell::Empty</scope><name>Empty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

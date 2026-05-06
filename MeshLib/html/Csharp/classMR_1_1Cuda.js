@@ -1,10 +1,14 @@
 var classMR_1_1Cuda =
 [
     [ "ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", "classMR_1_1Cuda_1_1ComputeToolDistance" ],
+    [ "Const_ComputeToolDistance", "classMR_1_1Cuda_1_1Const__ComputeToolDistance.html", "classMR_1_1Cuda_1_1Const__ComputeToolDistance" ],
+    [ "Const_FastWindingNumber", "classMR_1_1Cuda_1_1Const__FastWindingNumber.html", "classMR_1_1Cuda_1_1Const__FastWindingNumber" ],
+    [ "Const_PointsProjector", "classMR_1_1Cuda_1_1Const__PointsProjector.html", "classMR_1_1Cuda_1_1Const__PointsProjector" ],
+    [ "Const_PointsToMeshProjector", "classMR_1_1Cuda_1_1Const__PointsToMeshProjector.html", "classMR_1_1Cuda_1_1Const__PointsToMeshProjector" ],
     [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
     [ "PointsProjector", "classMR_1_1Cuda_1_1PointsProjector.html", "classMR_1_1Cuda_1_1PointsProjector" ],
     [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ],
-    [ "computeDistanceMap", "classMR_1_1Cuda.html#ad69766bef468c8b9ce8fb77c1319cca2", null ],
+    [ "computeDistanceMap", "classMR_1_1Cuda.html#a672eb663ba302d642c6f967c77a11bdc", null ],
     [ "computeDistanceMapHeapBytes", "classMR_1_1Cuda.html#a3ab27361d47f6d576bfb8fa27a8f9c37", null ],
     [ "computeSkyViewFactor", "classMR_1_1Cuda.html#a0ea88f5709a51086f7724af94d64e56c", null ],
     [ "distanceMapFromContours", "classMR_1_1Cuda.html#ad3e17c83bdc91cabccc103c84ee2652c", null ],
@@ -21,5 +25,5 @@ var classMR_1_1Cuda =
     [ "maxBufferSizeAlignedByBlock", "classMR_1_1Cuda.html#aefb189df8f6d85fbf79e770d31a57360", null ],
     [ "negatePicture", "classMR_1_1Cuda.html#ab2b7f6383c91b4355a8e3efd50505461", null ],
     [ "pointsToDistanceVolume", "classMR_1_1Cuda.html#ada48bf1cb30a1dd5423bcb0d29c6b1d2", null ],
-    [ "pointsToDistanceVolumeByParts", "classMR_1_1Cuda.html#aa4424e8eec38230eb05046c5f5d8a96f", null ]
+    [ "pointsToDistanceVolumeByParts", "classMR_1_1Cuda.html#ac41726497d51f9764c2d9c2c2e9db105", null ]
 ];

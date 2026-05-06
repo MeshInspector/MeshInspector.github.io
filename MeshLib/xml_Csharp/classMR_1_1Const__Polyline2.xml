@@ -1,0 +1,780 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Polyline2" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Polyline2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Polyline2" prot="public" virt="non-virtual">MR.Polyline2</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Polyline2_1a2c64b50bd786c273d6f53732bc891dff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__PolylineTopology" kindref="compound">MR.Const_PolylineTopology</ref></type>
+        <definition>unsafe MR.Const_PolylineTopology MR.Const_Polyline2.topology</definition>
+        <argsstring></argsstring>
+        <name>topology</name>
+        <qualifiedname>MR.Const_Polyline2.topology</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="26" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Polyline2_1ac202551f3e96340996ba910f6d8bd298" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__VertCoords2" kindref="compound">MR.Const_VertCoords2</ref></type>
+        <definition>unsafe MR.Const_VertCoords2 MR.Const_Polyline2.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <qualifiedname>MR.Const_Polyline2.points</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="28" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a1d711afb50b231e938198f1a4b5ef2c3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Polyline2.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Polyline2.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="14" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a51d3d58fd329009c4cb9a486ce57dc07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Polyline2.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Polyline2.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="23" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a55dd17be7cf445b97fdbbd3f922865da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Polyline2.Const_Polyline2</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Polyline2</name>
+        <qualifiedname>MR.Const_Polyline2.Const_Polyline2</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="63" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="63" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1ab29662e0443cb68762b87e0e066cc47d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Polyline2.Const_Polyline2</definition>
+        <argsstring>(MR._ByValue_Polyline2 _other)</argsstring>
+        <name>Const_Polyline2</name>
+        <qualifiedname>MR.Const_Polyline2.Const_Polyline2</qualifiedname>
+        <param>
+          <type>MR._ByValue_Polyline2</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="74" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="74" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1ae9e74c614269084d31194d9d056429ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Polyline2.Const_Polyline2</definition>
+        <argsstring>(Const_Polyline2 _other)</argsstring>
+        <name>Const_Polyline2</name>
+        <qualifiedname>MR.Const_Polyline2.Const_Polyline2</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Polyline2" kindref="compound">Const_Polyline2</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="86" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a9a4b9cda5f50b8b580bf659fa81c2fc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Polyline2.Const_Polyline2</definition>
+        <argsstring>(Polyline2 _other)</argsstring>
+        <name>Const_Polyline2</name>
+        <qualifiedname>MR.Const_Polyline2.Const_Polyline2</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Polyline2" kindref="compound">Polyline2</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="91" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1aa5baa2987450efcbebaeab9c0bb85d21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Polyline2.Const_Polyline2</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector2f contour)</argsstring>
+        <name>Const_Polyline2</name>
+        <qualifiedname>MR.Const_Polyline2.Const_Polyline2</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector2f</type>
+          <declname>contour</declname>
+        </param>
+        <briefdescription>
+<para>creates polyline from one contour (open or closed) Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="97" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="97" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a4f86626285b78a592bc563aa70cc90c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Polyline2.Const_Polyline2</definition>
+        <argsstring>(MR.Std.Const_Vector_StdVectorMRVector2f contours)</argsstring>
+        <name>Const_Polyline2</name>
+        <qualifiedname>MR.Const_Polyline2.Const_Polyline2</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMRVector2f</type>
+          <declname>contours</declname>
+        </param>
+        <briefdescription>
+<para>creates polyline from several contours (each can be open or closed) Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="116" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="116" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1af8a6b4be403c4a4f21efbf22a83ae914" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Polyline2.Const_Polyline2</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVertId comp2firstVert, MR._ByValue_VertCoords2 ps)</argsstring>
+        <name>Const_Polyline2</name>
+        <qualifiedname>MR.Const_Polyline2.Const_Polyline2</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVertId</type>
+          <declname>comp2firstVert</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_VertCoords2</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+<para>creates comp2firstVert.size()-1 not-closed polylines each pair (a,b) of indices in </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>comp2firstVert</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>defines vertex range of a polyline [a,b) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>point coordinates Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="137" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="137" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a9073f4d565fbea8805ef6a68db987971" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe MR.Vector2f MR.Const_Polyline2.orgPnt</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>orgPnt</name>
+        <qualifiedname>MR.Const_Polyline2.orgPnt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns coordinates of the edge origin Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a9073f4d565fbea8805ef6a68db987971" kindref="member">MR.Polyline2.orgPnt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="151" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="151" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a9c78d41452db4c1b4514a0cbab735bf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe MR.Vector2f MR.Const_Polyline2.destPnt</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>destPnt</name>
+        <qualifiedname>MR.Const_Polyline2.destPnt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns coordinates of the edge destination Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a9c78d41452db4c1b4514a0cbab735bf2" kindref="member">MR.Polyline2.destPnt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="162" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="162" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1ad6b95d0299d0fc542b6001e5429d3d28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe MR.Vector2f MR.Const_Polyline2.edgePoint</definition>
+        <argsstring>(MR.EdgeId e, float f)</argsstring>
+        <name>edgePoint</name>
+        <qualifiedname>MR.Const_Polyline2.edgePoint</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>returns a point on the edge: origin point for f=0 and destination point for f=1 Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1ad6b95d0299d0fc542b6001e5429d3d28" kindref="member">MR.Polyline2.edgePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="173" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="173" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1aad104b179ee69b525c423dc9f2eb7394" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe MR.Vector2f MR.Const_Polyline2.edgePoint</definition>
+        <argsstring>(MR.Const_EdgePoint ep)</argsstring>
+        <name>edgePoint</name>
+        <qualifiedname>MR.Const_Polyline2.edgePoint</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgePoint" kindref="compound">MR.Const_EdgePoint</ref></type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+<para>computes coordinates of point given as edge and relative position on it Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1ad6b95d0299d0fc542b6001e5429d3d28" kindref="member">MR.Polyline2.edgePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="184" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="184" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a3cf6877996d6fa01650afe71065c633c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe MR.Vector2f MR.Const_Polyline2.edgeCenter</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>edgeCenter</name>
+        <qualifiedname>MR.Const_Polyline2.edgeCenter</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns edge's centroid Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a3cf6877996d6fa01650afe71065c633c" kindref="member">MR.Polyline2.edgeCenter</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="195" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="195" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a4dd63a789d5e69d1c25b51ad11450759" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe MR.Vector2f MR.Const_Polyline2.edgeVector</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>edgeVector</name>
+        <qualifiedname>MR.Const_Polyline2.edgeVector</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns vector equal to edge destination point minus edge origin point Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a4dd63a789d5e69d1c25b51ad11450759" kindref="member">MR.Polyline2.edgeVector</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="206" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="206" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1ae642d2248b997c2e94c810aba741f346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1LineSegm2f" kindref="compound">MR.LineSegm2f</ref></type>
+        <definition>unsafe MR.LineSegm2f MR.Const_Polyline2.edgeSegment</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>edgeSegment</name>
+        <qualifiedname>MR.Const_Polyline2.edgeSegment</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns line segment of given edge Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1ae642d2248b997c2e94c810aba741f346" kindref="member">MR.Polyline2.edgeSegment</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="217" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="217" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a76feae005da2e0424f357d5fce108e9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref></type>
+        <definition>unsafe MR.EdgePoint MR.Const_Polyline2.toEdgePoint</definition>
+        <argsstring>(MR.VertId v)</argsstring>
+        <name>toEdgePoint</name>
+        <qualifiedname>MR.Const_Polyline2.toEdgePoint</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>converts vertex into edge-point representation Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a76feae005da2e0424f357d5fce108e9d" kindref="member">MR.Polyline2.toEdgePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="228" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="228" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a35fda8d7c226504ce1732795c63f5ddd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1EdgePoint" kindref="compound">MR.EdgePoint</ref></type>
+        <definition>unsafe MR.EdgePoint MR.Const_Polyline2.toEdgePoint</definition>
+        <argsstring>(MR.EdgeId e, in MR.Vector2f p)</argsstring>
+        <name>toEdgePoint</name>
+        <qualifiedname>MR.Const_Polyline2.toEdgePoint</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>converts edge and point's coordinates into edge-point representation Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a76feae005da2e0424f357d5fce108e9d" kindref="member">MR.Polyline2.toEdgePoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="239" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="239" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a1e9f595e48da0451758ed5ccd4bef25d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Polyline2.edgeLength</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>edgeLength</name>
+        <qualifiedname>MR.Const_Polyline2.edgeLength</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns Euclidean length of the edge Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a1e9f595e48da0451758ed5ccd4bef25d" kindref="member">MR.Polyline2.edgeLength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="253" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="253" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a431add856352467734a2229395dc045e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Polyline2.edgeLengthSq</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>edgeLengthSq</name>
+        <qualifiedname>MR.Const_Polyline2.edgeLengthSq</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns squared Euclidean length of the edge (faster to compute than length) Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a431add856352467734a2229395dc045e" kindref="member">MR.Polyline2.edgeLengthSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="264" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="264" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1aff73db1834d59d57a99adff17f31bd6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe MR.Vector3f MR.Const_Polyline2.loopDirArea</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>loopDirArea</name>
+        <qualifiedname>MR.Const_Polyline2.loopDirArea</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>calculates directed loop area if iterating in <computeroutput>e</computeroutput> direction .z = FLT_MAX if <computeroutput>e</computeroutput> does not represent a loop Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1aff73db1834d59d57a99adff17f31bd6d" kindref="member">MR.Polyline2.loopDirArea</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="276" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="276" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1acf1dbc5888bee9e01248f6418ca58eb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Polyline2.totalLength</definition>
+        <argsstring>()</argsstring>
+        <name>totalLength</name>
+        <qualifiedname>MR.Const_Polyline2.totalLength</qualifiedname>
+        <briefdescription>
+<para>returns total length of the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1acf1dbc5888bee9e01248f6418ca58eb0" kindref="member">MR.Polyline2.totalLength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="287" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="287" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1acce3f0e4eddc1a3c141cba591e54f27e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_Polyline2.averageEdgeLength</definition>
+        <argsstring>()</argsstring>
+        <name>averageEdgeLength</name>
+        <qualifiedname>MR.Const_Polyline2.averageEdgeLength</qualifiedname>
+        <briefdescription>
+<para>returns average edge length in the polyline Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1acce3f0e4eddc1a3c141cba591e54f27e" kindref="member">MR.Polyline2.averageEdgeLength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="298" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="298" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a3b1a544a507a0d0bcc8ee635d88b4114" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__AABBTreePolyline2" kindref="compound">MR.Const_AABBTreePolyline2</ref></type>
+        <definition>unsafe MR.Const_AABBTreePolyline2 MR.Const_Polyline2.getAABBTree</definition>
+        <argsstring>()</argsstring>
+        <name>getAABBTree</name>
+        <qualifiedname>MR.Const_Polyline2.getAABBTree</qualifiedname>
+        <briefdescription>
+<para>returns cached aabb-tree for this polyline, creating it if it did not exist in a thread-safe manner Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a3b1a544a507a0d0bcc8ee635d88b4114" kindref="member">MR.Polyline2.getAABBTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="309" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="309" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1acff97915ea8d242a9b072e8c4a754a4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__AABBTreePolyline2" kindref="compound">Const_AABBTreePolyline2</ref></type>
+        <definition>unsafe MR.? Const_AABBTreePolyline2 MR.Const_Polyline2.getAABBTreeNotCreate</definition>
+        <argsstring>()</argsstring>
+        <name>getAABBTreeNotCreate</name>
+        <qualifiedname>MR.Const_Polyline2.getAABBTreeNotCreate</qualifiedname>
+        <briefdescription>
+<para>returns cached aabb-tree for this polyline, but does not create it if it did not exist Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1acff97915ea8d242a9b072e8c4a754a4b" kindref="member">MR.Polyline2.getAABBTreeNotCreate</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="320" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="320" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a7b9ec48f8ad6f6f560d44840d5641faf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref></type>
+        <definition>unsafe MR.Box2f MR.Const_Polyline2.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_Polyline2.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns the minimal bounding box containing all valid vertices (implemented via <ref refid="classMR_1_1Const__Polyline2_1a3b1a544a507a0d0bcc8ee635d88b4114" kindref="member">getAABBTree()</ref>) Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a7b9ec48f8ad6f6f560d44840d5641faf" kindref="member">MR.Polyline2.getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="332" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="332" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a9b4019ef6c19060e06379e1297ed7f12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref></type>
+        <definition>unsafe MR.Box2f MR.Const_Polyline2.computeBoundingBox</definition>
+        <argsstring>(MR.AffineXf2f? toWorld=null)</argsstring>
+        <name>computeBoundingBox</name>
+        <qualifiedname>MR.Const_Polyline2.computeBoundingBox</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf2f" kindref="compound">MR.AffineXf2f</ref>?</type>
+          <declname>toWorld</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>passes through all valid points and finds the minimal bounding box containing all of them </para>
+        </briefdescription>
+        <detaileddescription>
+<para>if toWorld transformation is given then returns minimal bounding box in world space Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a9b4019ef6c19060e06379e1297ed7f12" kindref="member">MR.Polyline2.computeBoundingBox</ref></computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="344" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="344" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a9aae770cf4ac19a8476b1012a465985b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>unsafe MR.Vector2f MR.Const_Polyline2.findCenterFromPoints</definition>
+        <argsstring>()</argsstring>
+        <name>findCenterFromPoints</name>
+        <qualifiedname>MR.Const_Polyline2.findCenterFromPoints</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a9aae770cf4ac19a8476b1012a465985b" kindref="member">MR.Polyline2.findCenterFromPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="356" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="356" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1aef328151ee1d3890f90deaea46739b8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdVectorMRVector2f</type>
+        <definition>unsafe MR.Std.Vector_StdVectorMRVector2f MR.Const_Polyline2.contours</definition>
+        <argsstring>(MR.Std.Vector_StdVectorMRVertId? vertMap=null)</argsstring>
+        <name>contours</name>
+        <qualifiedname>MR.Const_Polyline2.contours</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_StdVectorMRVertId?</type>
+          <declname>vertMap</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>convert Polyline to simple contour structures with vector of points inside </para>
+        </briefdescription>
+        <detaileddescription>
+<para>if all even edges are consistently oriented, then the output contours will be oriented the same <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vertMap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional output map for for each contour point to corresponding <ref refid="structMR_1_1VertId" kindref="compound">VertId</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1aef328151ee1d3890f90deaea46739b8a" kindref="member">MR.Polyline2.contours</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="369" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="369" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a75c583f7f78627ad4e35c71edb0641bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Polyline2.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Polyline2.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Polyline2_1a75c583f7f78627ad4e35c71edb0641bb" kindref="member">MR.Polyline2.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="380" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="380" bodyend="385"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1aa96cb6132318836eebb03cd44524ca15" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Polyline2.~Const_Polyline2</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Polyline2</name>
+        <qualifiedname>MR.Const_Polyline2.~Const_Polyline2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a9267dab1ef6a45cdb172f5604a9a665e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Polyline2.Const_Polyline2</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Polyline2</name>
+        <qualifiedname>MR.Const_Polyline2.Const_Polyline2</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="52" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="52" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a72efe2f5f4b1dcd1bc48cf912373fc82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Polyline2.operator Const_Polyline2</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector2f contour)</argsstring>
+        <name>operator Const_Polyline2</name>
+        <qualifiedname>MR.Const_Polyline2.operator Const_Polyline2</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector2f</type>
+          <declname>contour</declname>
+        </param>
+        <briefdescription>
+<para>creates polyline from one contour (open or closed) Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="110" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Polyline2_1a33cac904d276929634f67da2c6592946" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Polyline2.operator Const_Polyline2</definition>
+        <argsstring>(MR.Std.Const_Vector_StdVectorMRVector2f contours)</argsstring>
+        <name>operator Const_Polyline2</name>
+        <qualifiedname>MR.Const_Polyline2.operator Const_Polyline2</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMRVector2f</type>
+          <declname>contours</declname>
+        </param>
+        <briefdescription>
+<para>creates polyline from several contours (each can be open or closed) Generated from constructor <computeroutput><ref refid="classMR_1_1Polyline2_1a7f9fd7c58138e969e9d33573eb56139d" kindref="member">MR.Polyline2.Polyline2</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="129" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="129" bodyend="129"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>polyline that stores points of type V Generated from class <computeroutput><ref refid="classMR_1_1Polyline2" kindref="compound">MR.Polyline2</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Polyline2</label>
+        <link refid="classMR_1_1Const__Polyline2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.Polyline2</label>
+        <link refid="classMR_1_1Polyline2"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Polyline2</label>
+        <link refid="classMR_1_1Const__Polyline2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="9" bodyend="386"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Polyline2_1acce3f0e4eddc1a3c141cba591e54f27e" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>averageEdgeLength</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a9b4019ef6c19060e06379e1297ed7f12" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>computeBoundingBox</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a9267dab1ef6a45cdb172f5604a9a665e" prot="package" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a55dd17be7cf445b97fdbbd3f922865da" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1ab29662e0443cb68762b87e0e066cc47d" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1ae9e74c614269084d31194d9d056429ec" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a9a4b9cda5f50b8b580bf659fa81c2fc5" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1aa5baa2987450efcbebaeab9c0bb85d21" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a4f86626285b78a592bc563aa70cc90c9" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1af8a6b4be403c4a4f21efbf22a83ae914" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1aef328151ee1d3890f90deaea46739b8a" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>contours</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a9c78d41452db4c1b4514a0cbab735bf2" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>destPnt</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a1d711afb50b231e938198f1a4b5ef2c3" prot="protected" virt="virtual"><scope>MR::Const_Polyline2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a51d3d58fd329009c4cb9a486ce57dc07" prot="public" virt="virtual"><scope>MR::Const_Polyline2</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a3cf6877996d6fa01650afe71065c633c" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>edgeCenter</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a1e9f595e48da0451758ed5ccd4bef25d" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>edgeLength</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a431add856352467734a2229395dc045e" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>edgeLengthSq</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1ad6b95d0299d0fc542b6001e5429d3d28" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>edgePoint</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1aad104b179ee69b525c423dc9f2eb7394" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>edgePoint</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1ae642d2248b997c2e94c810aba741f346" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>edgeSegment</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a4dd63a789d5e69d1c25b51ad11450759" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>edgeVector</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a9aae770cf4ac19a8476b1012a465985b" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>findCenterFromPoints</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a3b1a544a507a0d0bcc8ee635d88b4114" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>getAABBTree</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1acff97915ea8d242a9b072e8c4a754a4b" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>getAABBTreeNotCreate</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a7b9ec48f8ad6f6f560d44840d5641faf" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a75c583f7f78627ad4e35c71edb0641bb" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1aff73db1834d59d57a99adff17f31bd6d" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>loopDirArea</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a72efe2f5f4b1dcd1bc48cf912373fc82" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>operator Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a33cac904d276929634f67da2c6592946" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>operator Const_Polyline2</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a9073f4d565fbea8805ef6a68db987971" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>orgPnt</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1ac202551f3e96340996ba910f6d8bd298" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>points</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a76feae005da2e0424f357d5fce108e9d" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>toEdgePoint</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a35fda8d7c226504ce1732795c63f5ddd" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>toEdgePoint</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1a2c64b50bd786c273d6f53732bc891dff" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>topology</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1acf1dbc5888bee9e01248f6418ca58eb0" prot="public" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>totalLength</name></member>
+      <member refid="classMR_1_1Const__Polyline2_1aa96cb6132318836eebb03cd44524ca15" prot="private" virt="non-virtual"><scope>MR::Const_Polyline2</scope><name>~Const_Polyline2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

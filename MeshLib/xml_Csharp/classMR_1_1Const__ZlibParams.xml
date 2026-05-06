@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ZlibParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ZlibParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ZlibParams" prot="public" virt="non-virtual">MR.ZlibParams</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ZlibParams_1ae289d948f6bf45b0e77772bd97025187" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ZlibParams.rawDeflate</definition>
+        <argsstring></argsstring>
+        <name>rawDeflate</name>
+        <qualifiedname>MR.Const_ZlibParams.rawDeflate</qualifiedname>
+        <briefdescription>
+<para>wire format of the (de)compressed bytes: true → raw deflate (RFC 1951, no wrapper) — suitable for a ZIP entry; false (default) → zlib-wrapped (RFC 1950) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="34" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ZlibParams_1aaf302b9fd4fcc1f1721fc63352d303c2" prot="protected" static="no" mutable="no">
+        <type>unsafe bool *</type>
+        <definition>unsafe bool* MR.Const_ZlibParams.__ref_storage_rawDeflate</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_rawDeflate</name>
+        <qualifiedname>MR.Const_ZlibParams.__ref_storage_rawDeflate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="35" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ZlibParams_1aac56f18a75cd96d87f9bd7a24de59422" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ZlibParams.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ZlibParams.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ZlibParams_1ac93ab460e35ee3609ba9d00119ca5895" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ZlibParams.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ZlibParams.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="26" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ZlibParams_1a4560045f8f956344e28267c473033f43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ZlibParams.Const_ZlibParams</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ZlibParams</name>
+        <qualifiedname>MR.Const_ZlibParams.Const_ZlibParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="62" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ZlibParams_1ad16490ac32ff333b27e3e2a55a90cfc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ZlibParams.Const_ZlibParams</definition>
+        <argsstring>(bool rawDeflate)</argsstring>
+        <name>Const_ZlibParams</name>
+        <qualifiedname>MR.Const_ZlibParams.Const_ZlibParams</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>rawDeflate</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ZlibParams" kindref="compound">MR.ZlibParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="73" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="73" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ZlibParams_1ae5a708384ef399208914a13c92ea0a50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ZlibParams.Const_ZlibParams</definition>
+        <argsstring>(MR.Const_ZlibParams _other)</argsstring>
+        <name>Const_ZlibParams</name>
+        <qualifiedname>MR.Const_ZlibParams.Const_ZlibParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ZlibParams" kindref="compound">MR.Const_ZlibParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ZlibParams_1a9623066e779c9d1671b55d306b8a623c" kindref="member">MR.ZlibParams.ZlibParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="84" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="84" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ZlibParams_1abee88f5aa0d6623300cfb5084f2b85e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ZlibParams.Const_ZlibParams</definition>
+        <argsstring>(ZlibParams _other)</argsstring>
+        <name>Const_ZlibParams</name>
+        <qualifiedname>MR.Const_ZlibParams.Const_ZlibParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ZlibParams" kindref="compound">ZlibParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ZlibParams_1a9623066e779c9d1671b55d306b8a623c" kindref="member">MR.ZlibParams.ZlibParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="96" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="96" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ZlibParams_1a4d3ff24a5017b59ea2a2349a442e85ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ZlibParams.~Const_ZlibParams</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ZlibParams</name>
+        <qualifiedname>MR.Const_ZlibParams.~Const_ZlibParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ZlibParams_1a90ae62fb9f3abe4b88d0206a3840ab5f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ZlibParams.Const_ZlibParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ZlibParams</name>
+        <qualifiedname>MR.Const_ZlibParams.Const_ZlibParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="51" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="51" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>parameters shared by zlibCompressStream and zlibDecompressStream Generated from class <computeroutput><ref refid="classMR_1_1ZlibParams" kindref="compound">MR.ZlibParams</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ZlibCompressParams" kindref="compound">MR.ZlibCompressParams</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ZlibParams</label>
+        <link refid="classMR_1_1Const__ZlibParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ZlibParams</label>
+        <link refid="classMR_1_1ZlibParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ZlibParams</label>
+        <link refid="classMR_1_1Const__ZlibParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" line="11" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRZlib.cs" bodystart="12" bodyend="97"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ZlibParams_1aaf302b9fd4fcc1f1721fc63352d303c2" prot="protected" virt="non-virtual"><scope>MR::Const_ZlibParams</scope><name>__ref_storage_rawDeflate</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1a90ae62fb9f3abe4b88d0206a3840ab5f" prot="package" virt="non-virtual"><scope>MR::Const_ZlibParams</scope><name>Const_ZlibParams</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1a4560045f8f956344e28267c473033f43" prot="public" virt="non-virtual"><scope>MR::Const_ZlibParams</scope><name>Const_ZlibParams</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1ad16490ac32ff333b27e3e2a55a90cfc8" prot="public" virt="non-virtual"><scope>MR::Const_ZlibParams</scope><name>Const_ZlibParams</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1ae5a708384ef399208914a13c92ea0a50" prot="public" virt="non-virtual"><scope>MR::Const_ZlibParams</scope><name>Const_ZlibParams</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1abee88f5aa0d6623300cfb5084f2b85e6" prot="public" virt="non-virtual"><scope>MR::Const_ZlibParams</scope><name>Const_ZlibParams</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1aac56f18a75cd96d87f9bd7a24de59422" prot="protected" virt="virtual"><scope>MR::Const_ZlibParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1ac93ab460e35ee3609ba9d00119ca5895" prot="public" virt="virtual"><scope>MR::Const_ZlibParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1ae289d948f6bf45b0e77772bd97025187" prot="public" virt="non-virtual"><scope>MR::Const_ZlibParams</scope><name>rawDeflate</name></member>
+      <member refid="classMR_1_1Const__ZlibParams_1a4d3ff24a5017b59ea2a2349a442e85ea" prot="private" virt="non-virtual"><scope>MR::Const_ZlibParams</scope><name>~Const_ZlibParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NumSum" kind="class" language="C#" prot="public">
     <compoundname>MR::NumSum</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NumSum</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NumSum" prot="public" virt="non-virtual">MR.Const_NumSum</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1NumSum_1a7809ee0659836c4b28ece0af71b793eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -103,7 +103,7 @@
         <name>NumSum</name>
         <qualifiedname>MR.NumSum.NumSum</qualifiedname>
         <param>
-          <type>MR.Const_NumSum</type>
+          <type><ref refid="classMR_1_1Const__NumSum" kindref="compound">MR.Const_NumSum</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -141,7 +141,7 @@
         <name>assign</name>
         <qualifiedname>MR.NumSum.assign</qualifiedname>
         <param>
-          <type>MR.Const_NumSum</type>
+          <type><ref refid="classMR_1_1Const__NumSum" kindref="compound">MR.Const_NumSum</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -168,6 +168,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NumSum</label>
+        <link refid="classMR_1_1Const__NumSum"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -189,6 +190,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NumSum</label>
+        <link refid="classMR_1_1Const__NumSum"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -203,13 +205,24 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1333" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1334" bodyend="1398"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__NumSum_1a324cc1ed1b2df496a3201771b2ec6532" prot="protected" virt="non-virtual"><scope>MR::NumSum</scope><name>__ref_storage_num</name></member>
+      <member refid="classMR_1_1Const__NumSum_1a8e47984b3e569dd29f6867b049ec26d3" prot="protected" virt="non-virtual"><scope>MR::NumSum</scope><name>__ref_storage_sum</name></member>
       <member refid="classMR_1_1NumSum_1a89a96b8b942f9dfb0cc17bf15df9ad77" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NumSum_1a9ae8a29d53aed502175a2f562b77b9d3" prot="package" virt="non-virtual"><scope>MR::NumSum</scope><name>Const_NumSum</name></member>
+      <member refid="classMR_1_1Const__NumSum_1ad2cccf0f6ff41998116973ddcfc76696" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>Const_NumSum</name></member>
+      <member refid="classMR_1_1Const__NumSum_1a8666a434e2e2a9111ac0b7a455930078" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>Const_NumSum</name></member>
+      <member refid="classMR_1_1Const__NumSum_1a97317e7a9d3edf9dccb8dff60ea37efb" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>Const_NumSum</name></member>
+      <member refid="classMR_1_1Const__NumSum_1a7cab98a3232af92f3e8c9f276e02f179" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>Const_NumSum</name></member>
+      <member refid="classMR_1_1Const__NumSum_1a2a11cfb5fd948c9ba68932e768f2cc1c" prot="protected" virt="virtual"><scope>MR::NumSum</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NumSum_1a19e9b63b127774f50a8df3e022c689e0" prot="public" virt="virtual"><scope>MR::NumSum</scope><name>Dispose</name></member>
       <member refid="classMR_1_1NumSum_1a7809ee0659836c4b28ece0af71b793eb" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>num</name></member>
       <member refid="classMR_1_1NumSum_1a0357ab6cc3974fab7696d0fa271d68df" prot="package" virt="non-virtual"><scope>MR::NumSum</scope><name>NumSum</name></member>
       <member refid="classMR_1_1NumSum_1a1c7c11d244fd80153b9cccf795efd201" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>NumSum</name></member>
       <member refid="classMR_1_1NumSum_1a5203d8c61a6cb8480b2cd01b43a87dd6" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>NumSum</name></member>
       <member refid="classMR_1_1NumSum_1adba797e0e7fd378387d45560db892b5b" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>NumSum</name></member>
       <member refid="classMR_1_1NumSum_1a93344442769356b9f71e8fae0d92c364" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>NumSum</name></member>
+      <member refid="classMR_1_1Const__NumSum_1a2ed72b127d76ed4fc03ffd96bf771c44" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Const__NumSum_1ab115fb59d1c34ecd454764c3c110fcae" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>rootMeanSqF</name></member>
       <member refid="classMR_1_1NumSum_1a2a8f969c81a89b7a90271eda1e5ae188" prot="public" virt="non-virtual"><scope>MR::NumSum</scope><name>sum</name></member>
     </listofallmembers>
   </compounddef>

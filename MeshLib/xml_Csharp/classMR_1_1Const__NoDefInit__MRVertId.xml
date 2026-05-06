@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__NoDefInit__MRVertId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_NoDefInit_MRVertId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1NoDefInit__MRVertId" prot="public" virt="non-virtual">MR.NoDefInit_MRVertId</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__NoDefInit__MRVertId_1ad6ff60a6612a47c115106328955a6682" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_NoDefInit_MRVertId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="633" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="633" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__NoDefInit__MRVertId_1af01a57df6810e38c097de758905abc65" prot="protected" static="no" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_NoDefInit_MRVertId.__ref_storage_id</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_id</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.__ref_storage_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="634" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="634" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1a92b9277d0c6aa584471bb3a0c9728523" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_NoDefInit_MRVertId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="611" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="611" bodyend="619"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1a607c506aebb7bbd407308a5925bfadf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_NoDefInit_MRVertId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="620" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="620" bodyend="620"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1ac3bb6c6a5147e880eae2021328b57a6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NoDefInit_MRVertId.Const_NoDefInit_MRVertId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_NoDefInit_MRVertId</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.Const_NoDefInit_MRVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="661" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="661" bodyend="667"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1a435b3eb6c772652241525abdec96206c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NoDefInit_MRVertId.Const_NoDefInit_MRVertId</definition>
+        <argsstring>(MR.Const_NoDefInit_MRVertId _other)</argsstring>
+        <name>Const_NoDefInit_MRVertId</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.Const_NoDefInit_MRVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRVertId" kindref="compound">MR.Const_NoDefInit_MRVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="672" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="672" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1a7a035d8bf1763982a2fca47ad3b226b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_NoDefInit_MRVertId.Const_NoDefInit_MRVertId</definition>
+        <argsstring>(NoDefInit_MRVertId _other)</argsstring>
+        <name>Const_NoDefInit_MRVertId</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.Const_NoDefInit_MRVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoDefInit__MRVertId" kindref="compound">NoDefInit_MRVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="684" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="684" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1a48c8cf8647edaf6fc8784584963ea0c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_NoDefInit_MRVertId.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.valid</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__NoDefInit__MRVertId_1a48c8cf8647edaf6fc8784584963ea0c8" kindref="member">valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="709" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="709" bodyend="714"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1a84d30bbd0cb2e4dfe532991e272981a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_NoDefInit_MRVertId.less</definition>
+        <argsstring>(MR.VertId b)</argsstring>
+        <name>less</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.less</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::operator&amp;lt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="734" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="734" bodyend="739"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1a92601e1ea3d935b63853685a607c20f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_NoDefInit_MRVertId.Equals</definition>
+        <argsstring>(MR.VertId b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="743" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="743" bodyend="746"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1a537279c0ee95d609d9acbcee8a822d4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_NoDefInit_MRVertId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="748" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="748" bodyend="755"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1ad2dd53dd191663e5129866756e1eef01" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_NoDefInit_MRVertId.~Const_NoDefInit_MRVertId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_NoDefInit_MRVertId</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.~Const_NoDefInit_MRVertId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="621" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="621" bodyend="621"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1a549e4050eb34c0f74e9d95d0f1df922a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_NoDefInit_MRVertId.operator MR.ConstBox_VertId</definition>
+        <argsstring>(Const_NoDefInit_MRVertId self)</argsstring>
+        <name>operator MR.ConstBox_VertId</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.operator MR.ConstBox_VertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRVertId" kindref="compound">Const_NoDefInit_MRVertId</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="624" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="624" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1ad6ff41098125d7f6939d3c595ea3d739" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_NoDefInit_MRVertId.operator int</definition>
+        <argsstring>(MR.Const_NoDefInit_MRVertId _this)</argsstring>
+        <name>operator int</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.operator int</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRVertId" kindref="compound">MR.Const_NoDefInit_MRVertId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::operator int</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="689" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="689" bodyend="694"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1aebde718da56fec6ee74948386f098021" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_NoDefInit_MRVertId.operator bool</definition>
+        <argsstring>(MR.Const_NoDefInit_MRVertId _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRVertId" kindref="compound">MR.Const_NoDefInit_MRVertId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;::operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="699" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="699" bodyend="704"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1afa11adfa85ad1178e1cad5449fa3f4b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_NoDefInit_MRVertId.operator==</definition>
+        <argsstring>(MR.Const_NoDefInit_MRVertId _this, MR.VertId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRVertId" kindref="compound">MR.Const_NoDefInit_MRVertId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;<ref refid="classMR_1_1Const__NoDefInit__MRVertId_1afa11adfa85ad1178e1cad5449fa3f4b5" kindref="member">operator==</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="719" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="719" bodyend="724"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1a41d55e22e968c237ab27aa4eb47442cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_NoDefInit_MRVertId.operator!=</definition>
+        <argsstring>(MR.Const_NoDefInit_MRVertId _this, MR.VertId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRVertId" kindref="compound">MR.Const_NoDefInit_MRVertId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="726" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="726" bodyend="729"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__NoDefInit__MRVertId_1a4620cd839e9ba28cec62309d61e862e5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_NoDefInit_MRVertId.Const_NoDefInit_MRVertId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_NoDefInit_MRVertId</name>
+        <qualifiedname>MR.Const_NoDefInit_MRVertId.Const_NoDefInit_MRVertId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="650" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="650" bodyend="655"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_NoDefInit_MRVertId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="5">
+        <label>MR.NoDefInit_MRVertId</label>
+        <link refid="classMR_1_1NoDefInit__MRVertId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_NoDefInit_MRVertId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="605" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="606" bodyend="756"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1af01a57df6810e38c097de758905abc65" prot="protected" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>__ref_storage_id</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a4620cd839e9ba28cec62309d61e862e5" prot="package" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>Const_NoDefInit_MRVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1ac3bb6c6a5147e880eae2021328b57a6a" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>Const_NoDefInit_MRVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a435b3eb6c772652241525abdec96206c" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>Const_NoDefInit_MRVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a7a035d8bf1763982a2fca47ad3b226b1" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>Const_NoDefInit_MRVertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a92b9277d0c6aa584471bb3a0c9728523" prot="protected" virt="virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a607c506aebb7bbd407308a5925bfadf2" prot="public" virt="virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a92601e1ea3d935b63853685a607c20f7" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a537279c0ee95d609d9acbcee8a822d4d" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1ad6ff60a6612a47c115106328955a6682" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>id</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a84d30bbd0cb2e4dfe532991e272981a5" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>less</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1aebde718da56fec6ee74948386f098021" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1ad6ff41098125d7f6939d3c595ea3d739" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>operator int</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a549e4050eb34c0f74e9d95d0f1df922a" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>operator MR.ConstBox_VertId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a41d55e22e968c237ab27aa4eb47442cc" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1afa11adfa85ad1178e1cad5449fa3f4b5" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1a48c8cf8647edaf6fc8784584963ea0c8" prot="public" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>valid</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRVertId_1ad2dd53dd191663e5129866756e1eef01" prot="private" virt="non-virtual"><scope>MR::Const_NoDefInit_MRVertId</scope><name>~Const_NoDefInit_MRVertId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

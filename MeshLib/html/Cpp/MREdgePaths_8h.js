@@ -23,6 +23,8 @@ var MREdgePaths_8h =
     [ "MR::dilateRegionByMetric", "group__SurfacePathGroup.html#ga114a5d76c6d32bc160b8b37c5ab5c7ae", null ],
     [ "MR::dilateRegionByMetric", "group__SurfacePathGroup.html#ga84c9cd9d7243cae376c8758beb6c70dc", null ],
     [ "MR::dilateRegionByMetric", "group__SurfacePathGroup.html#gab11dcd26158decf73bbbaafe28944456", null ],
+    [ "MR::edgePathsToContours3f", "group__SurfacePathGroup.html#ga6af8590fd17b0f605429dfd96564cb83", null ],
+    [ "MR::edgePathToContour3f", "group__SurfacePathGroup.html#gacbfadb233d804c66b6968368fcca05f0", null ],
     [ "MR::erodeRegion", "group__SurfacePathGroup.html#ga4d9b525e2a13c59a961a8c19c0241cf5", null ],
     [ "MR::erodeRegion", "group__SurfacePathGroup.html#gab8e36e0d087fbd88e882ffcf90a7d5c5", null ],
     [ "MR::erodeRegion", "group__SurfacePathGroup.html#ga036e2af3d1da743c9d0fd628ac3e448e", null ],

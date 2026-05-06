@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PointsProjectionResult" kind="class" language="C#" prot="public">
     <compoundname>MR::PointsProjectionResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointsProjectionResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PointsProjectionResult" prot="public" virt="non-virtual">MR.Const_PointsProjectionResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PointsProjectionResult_1a8085b225c4fe2857449f6c8acb8df7f4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref float</type>
@@ -105,7 +105,7 @@
         <name>PointsProjectionResult</name>
         <qualifiedname>MR.PointsProjectionResult.PointsProjectionResult</qualifiedname>
         <param>
-          <type>MR.Const_PointsProjectionResult</type>
+          <type><ref refid="classMR_1_1Const__PointsProjectionResult" kindref="compound">MR.Const_PointsProjectionResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.PointsProjectionResult.assign</qualifiedname>
         <param>
-          <type>MR.Const_PointsProjectionResult</type>
+          <type><ref refid="classMR_1_1Const__PointsProjectionResult" kindref="compound">MR.Const_PointsProjectionResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PointsProjectionResult</label>
+        <link refid="classMR_1_1Const__PointsProjectionResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PointsProjectionResult</label>
         <link refid="classMR_1_1PointsProjectionResult"/>
@@ -191,9 +196,13 @@
       </node>
       <node id="2">
         <label>MR.Const_PointsProjectionResult</label>
+        <link refid="classMR_1_1Const__PointsProjectionResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_vId</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -205,7 +214,16 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="109" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="110" bodyend="180"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PointsProjectionResult_1a727d6561644d9b8b2c7ccf91ea5e4aa4" prot="protected" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>__ref_storage_distSq</name></member>
+      <member refid="classMR_1_1Const__PointsProjectionResult_1aacad869e4efb222c40bb0d6b3eb6c853" prot="protected" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>__ref_storage_vId</name></member>
       <member refid="classMR_1_1PointsProjectionResult_1a9c7186b7a73694170108aedc5beb04ec" prot="public" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__PointsProjectionResult_1a736e651532a9f0fa1da0744ad97ecebd" prot="package" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>Const_PointsProjectionResult</name></member>
+      <member refid="classMR_1_1Const__PointsProjectionResult_1a58209ec52c0206bca653917f2d9bc0c0" prot="public" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>Const_PointsProjectionResult</name></member>
+      <member refid="classMR_1_1Const__PointsProjectionResult_1a659676bfc4a60c3efb4b3f63af13f233" prot="public" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>Const_PointsProjectionResult</name></member>
+      <member refid="classMR_1_1Const__PointsProjectionResult_1ab0a40baa09e6d85cf7b828cbc9e3ac31" prot="public" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>Const_PointsProjectionResult</name></member>
+      <member refid="classMR_1_1Const__PointsProjectionResult_1a522237c7857d5c12945851ce39d40fff" prot="public" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>Const_PointsProjectionResult</name></member>
+      <member refid="classMR_1_1Const__PointsProjectionResult_1ad925968ee9cbaaccb91e4f5a899c61ce" prot="protected" virt="virtual"><scope>MR::PointsProjectionResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointsProjectionResult_1a55c9ba622406a584dccadb2c7f0767f9" prot="public" virt="virtual"><scope>MR::PointsProjectionResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PointsProjectionResult_1a8085b225c4fe2857449f6c8acb8df7f4" prot="public" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>distSq</name></member>
       <member refid="classMR_1_1PointsProjectionResult_1a967137037708ecbe5509705ab92c3fd0" prot="package" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>PointsProjectionResult</name></member>
       <member refid="classMR_1_1PointsProjectionResult_1ac9c61180d80d4d8b4824325aa256693e" prot="public" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>PointsProjectionResult</name></member>

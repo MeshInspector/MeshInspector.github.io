@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IPointPairs" kind="class" language="C#" prot="public">
     <compoundname>MR::IPointPairs</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IPointPairs</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IPointPairs" prot="public" virt="non-virtual">MR.Const_IPointPairs</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1IPointPairs_1af8bf3c1f87d9be39210356c794329ad3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></type>
@@ -73,6 +73,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IPointPairs</label>
+        <link refid="classMR_1_1Const__IPointPairs"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -94,6 +95,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IPointPairs</label>
+        <link refid="classMR_1_1Const__IPointPairs"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -109,7 +111,11 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="803" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="804" bodyend="846"/>
     <listofallmembers>
       <member refid="classMR_1_1IPointPairs_1af8bf3c1f87d9be39210356c794329ad3" prot="public" virt="non-virtual"><scope>MR::IPointPairs</scope><name>active</name></member>
+      <member refid="classMR_1_1Const__IPointPairs_1a8a0bfd7cec0d45bd2e1a8a026374c163" prot="package" virt="non-virtual"><scope>MR::IPointPairs</scope><name>Const_IPointPairs</name></member>
+      <member refid="classMR_1_1Const__IPointPairs_1a634c2748713fab53dad483fa67f45890" prot="protected" virt="virtual"><scope>MR::IPointPairs</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IPointPairs_1a77e4eba595a527f35468e0e9090a8269" prot="public" virt="virtual"><scope>MR::IPointPairs</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IPointPairs_1a264e34c0503915623ab5a0cf27d36467" prot="package" virt="non-virtual"><scope>MR::IPointPairs</scope><name>IPointPairs</name></member>
+      <member refid="classMR_1_1Const__IPointPairs_1a75373a78a79036e48872f9c00a1e49a4" prot="public" virt="non-virtual"><scope>MR::IPointPairs</scope><name>size</name></member>
       <member refid="classMR_1_1IPointPairs_1a600879d87e9ed117bcc0038a9a1b7fbf" prot="public" virt="non-virtual"><scope>MR::IPointPairs</scope><name>this[ulong _1]</name></member>
     </listofallmembers>
   </compounddef>

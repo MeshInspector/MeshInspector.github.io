@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Vector_MRAffineXf3f_MRObjId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Vector__MRAffineXf3f__MRObjId" prot="public" virt="non-virtual">MR.Vector_MRAffineXf3f_MRObjId</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aafae1063530acb3c23384f96f13a1583" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRAffineXf3f</type>
+        <definition>unsafe MR.Std.Const_Vector_MRAffineXf3f MR.Const_Vector_MRAffineXf3f_MRObjId.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40759" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40759" bodyend="40759"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a7d1dc3b53b6dc72f33233aa464716ef4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_Vector_MRAffineXf3f_MRObjId.this[MR.ObjId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.ObjId i]</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.this[MR.ObjId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40911" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40912" bodyend="40919"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1ae280dcbbfc67f25f2b3ce82274850ce5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Vector_MRAffineXf3f_MRObjId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40680" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40680" bodyend="40688"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1abd1bec1ee8b6f065019b851aac4f7926" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Vector_MRAffineXf3f_MRObjId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40689" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40689" bodyend="40689"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a7ec6980538381e7d0cbdfecc89872767" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; MR.Misc.ConstRef&lt; <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref> &gt; &gt;</type>
+        <definition>IEnumerator&lt; MR.Misc.ConstRef&lt; MR.AffineXf3f &gt; &gt; MR.Const_Vector_MRAffineXf3f_MRObjId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40746" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40746" bodyend="40749"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a739b52478570a243d8bb5184d6c9f19b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Vector_MRAffineXf3f_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40787" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40787" bodyend="40793"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a093f22267fa902215fba20e3a3e17650" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</definition>
+        <argsstring>(MR._ByValue_Vector_MRAffineXf3f_MRObjId _other)</argsstring>
+        <name>Const_Vector_MRAffineXf3f_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRAffineXf3f_MRObjId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40798" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40798" bodyend="40805"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a99dc37c348d166edc96da1ce086eacfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</definition>
+        <argsstring>(Const_Vector_MRAffineXf3f_MRObjId _other)</argsstring>
+        <name>Const_Vector_MRAffineXf3f_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" kindref="compound">Const_Vector_MRAffineXf3f_MRObjId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40810" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40810" bodyend="40810"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a13b2b870da7e6a38c01b981bb24f59e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</definition>
+        <argsstring>(Vector_MRAffineXf3f_MRObjId _other)</argsstring>
+        <name>Const_Vector_MRAffineXf3f_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRAffineXf3f__MRObjId" kindref="compound">Vector_MRAffineXf3f_MRObjId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40815" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40815" bodyend="40815"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1ab92a90600ab2d5d06a3c32c73255282b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Vector_MRAffineXf3f_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40821" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40821" bodyend="40827"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a120acc63e8bced9f6ce5991d9c0880fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</definition>
+        <argsstring>(ulong size, in MR.AffineXf3f val)</argsstring>
+        <name>Const_Vector_MRAffineXf3f_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40833" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40833" bodyend="40842"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aab683c5788c7b541d9cd032e9a8f5cf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt; vec)</argsstring>
+        <name>Const_Vector_MRAffineXf3f_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40848" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40848" bodyend="40855"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a0e0dea538628ba39acd1ef07b5aab4d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Vector_MRAffineXf3f_MRObjId.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a0e0dea538628ba39acd1ef07b5aab4d3" kindref="member">empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40881" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40881" bodyend="40886"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1acd530c7be2d4c84e6933fc5cf3d3f5dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRAffineXf3f_MRObjId.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1acd530c7be2d4c84e6933fc5cf3d3f5dd" kindref="member">size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40891" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40891" bodyend="40896"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a7383e7bb5e50da902d846f8b24a265d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRAffineXf3f_MRObjId.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a7383e7bb5e50da902d846f8b24a265d4" kindref="member">capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40901" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40901" bodyend="40906"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a9c42217510e38ecad0d73364883d4dca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_Vector_MRAffineXf3f_MRObjId.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a9c42217510e38ecad0d73364883d4dca" kindref="member">front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40924" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40924" bodyend="40929"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aee385465962a3c54f46da3a79980034c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_Vector_MRAffineXf3f_MRObjId.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aee385465962a3c54f46da3a79980034c" kindref="member">back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40934" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40934" bodyend="40939"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a229cb973bebd55e5f0805fb97e819311" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+        <definition>unsafe MR.ObjId MR.Const_Vector_MRAffineXf3f_MRObjId.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a229cb973bebd55e5f0805fb97e819311" kindref="member">beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40945" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40945" bodyend="40950"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1af680b57469af099b6f00e9d6a4d42edc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+        <definition>unsafe MR.ObjId MR.Const_Vector_MRAffineXf3f_MRObjId.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aee385465962a3c54f46da3a79980034c" kindref="member">back()</ref> element Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1af680b57469af099b6f00e9d6a4d42edc" kindref="member">backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40956" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40956" bodyend="40961"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aa5c1ef9d5bdd9da8ac67dd8aef0cd701" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+        <definition>unsafe MR.ObjId MR.Const_Vector_MRAffineXf3f_MRObjId.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1af680b57469af099b6f00e9d6a4d42edc" kindref="member">backId()</ref> + 1 Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aa5c1ef9d5bdd9da8ac67dd8aef0cd701" kindref="member">endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40967" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40967" bodyend="40972"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a2fdbc1c6018db9dae79fe0b033cd5f13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="structMR_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition>unsafe MR.? AffineXf3f MR.Const_Vector_MRAffineXf3f_MRObjId.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a2fdbc1c6018db9dae79fe0b033cd5f13" kindref="member">data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40977" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40977" bodyend="40983"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a89b9644840f9eaa002aa813077ac3a68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Vector_MRAffineXf3f_MRObjId.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a89b9644840f9eaa002aa813077ac3a68" kindref="member">heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40989" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40989" bodyend="40994"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a9249463472ae89be7a7fe3a8019245c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Vector_MRAffineXf3f_MRObjId.Equals</definition>
+        <argsstring>(MR.Const_Vector_MRAffineXf3f_MRObjId? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" kindref="compound">MR.Const_Vector_MRAffineXf3f_MRObjId</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40998" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40998" bodyend="41003"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a29e9df8bf72f31a5411864d944296c68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_Vector_MRAffineXf3f_MRObjId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="41005" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="41005" bodyend="41012"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a33e7b7c2570e041343c62955e0b9431a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Vector_MRAffineXf3f_MRObjId.~Const_Vector_MRAffineXf3f_MRObjId</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Vector_MRAffineXf3f_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.~Const_Vector_MRAffineXf3f_MRObjId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40690" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40690" bodyend="40690"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1abfe71730d7e07f32555552af7c55aa44" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Vector_MRAffineXf3f_MRObjId.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40751" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40751" bodyend="40754"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aeca7ded1afdf5806654d3220a05b248b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Vector_MRAffineXf3f_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.Const_Vector_MRAffineXf3f_MRObjId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40776" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40776" bodyend="40781"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a71e359652db822c856548ddc92c59310" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Vector_MRAffineXf3f_MRObjId.operator Const_Vector_MRAffineXf3f_MRObjId</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt; vec)</argsstring>
+        <name>operator Const_Vector_MRAffineXf3f_MRObjId</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.operator Const_Vector_MRAffineXf3f_MRObjId</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRAffineXf3f &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;::Vector</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40861" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40861" bodyend="40861"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a1036937bed60f57f0ef64214e4ec2b3e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Vector_MRAffineXf3f_MRObjId.operator==</definition>
+        <argsstring>(MR.Const_Vector_MRAffineXf3f_MRObjId _this, MR.Const_Vector_MRAffineXf3f_MRObjId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" kindref="compound">MR.Const_Vector_MRAffineXf3f_MRObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" kindref="compound">MR.Const_Vector_MRAffineXf3f_MRObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;<ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a1036937bed60f57f0ef64214e4ec2b3e" kindref="member">operator==</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40866" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40866" bodyend="40871"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a024036281389afac254060848c7650c6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Vector_MRAffineXf3f_MRObjId.operator!=</definition>
+        <argsstring>(MR.Const_Vector_MRAffineXf3f_MRObjId _this, MR.Const_Vector_MRAffineXf3f_MRObjId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_Vector_MRAffineXf3f_MRObjId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" kindref="compound">MR.Const_Vector_MRAffineXf3f_MRObjId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId" kindref="compound">MR.Const_Vector_MRAffineXf3f_MRObjId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40873" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40873" bodyend="40876"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&amp;lt;<ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>, <ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref>&amp;gt;</computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRAffineXf3f_MRObjId</label>
+        <link refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="6">
+        <label>MR.Vector_MRAffineXf3f_MRObjId</label>
+        <link refid="classMR_1_1Vector__MRAffineXf3f__MRObjId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Vector_MRAffineXf3f_MRObjId</label>
+        <link refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="40674" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="40675" bodyend="41013"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aee385465962a3c54f46da3a79980034c" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1af680b57469af099b6f00e9d6a4d42edc" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a229cb973bebd55e5f0805fb97e819311" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a7383e7bb5e50da902d846f8b24a265d4" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aeca7ded1afdf5806654d3220a05b248b" prot="package" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Const_Vector_MRAffineXf3f_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a739b52478570a243d8bb5184d6c9f19b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Const_Vector_MRAffineXf3f_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a093f22267fa902215fba20e3a3e17650" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Const_Vector_MRAffineXf3f_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a99dc37c348d166edc96da1ce086eacfe" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Const_Vector_MRAffineXf3f_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a13b2b870da7e6a38c01b981bb24f59e0" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Const_Vector_MRAffineXf3f_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1ab92a90600ab2d5d06a3c32c73255282b" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Const_Vector_MRAffineXf3f_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a120acc63e8bced9f6ce5991d9c0880fa" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Const_Vector_MRAffineXf3f_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aab683c5788c7b541d9cd032e9a8f5cf5" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Const_Vector_MRAffineXf3f_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a2fdbc1c6018db9dae79fe0b033cd5f13" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1ae280dcbbfc67f25f2b3ce82274850ce5" prot="protected" virt="virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1abd1bec1ee8b6f065019b851aac4f7926" prot="public" virt="virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a0e0dea538628ba39acd1ef07b5aab4d3" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aa5c1ef9d5bdd9da8ac67dd8aef0cd701" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a9249463472ae89be7a7fe3a8019245c0" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a29e9df8bf72f31a5411864d944296c68" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a9c42217510e38ecad0d73364883d4dca" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a7ec6980538381e7d0cbdfecc89872767" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1abfe71730d7e07f32555552af7c55aa44" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a89b9644840f9eaa002aa813077ac3a68" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a71e359652db822c856548ddc92c59310" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>operator Const_Vector_MRAffineXf3f_MRObjId</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a024036281389afac254060848c7650c6" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a1036937bed60f57f0ef64214e4ec2b3e" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1acd530c7be2d4c84e6933fc5cf3d3f5dd" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a7d1dc3b53b6dc72f33233aa464716ef4" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>this[MR.ObjId i]</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1aafae1063530acb3c23384f96f13a1583" prot="public" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__Vector__MRAffineXf3f__MRObjId_1a33e7b7c2570e041343c62955e0b9431a" prot="private" virt="non-virtual"><scope>MR::Const_Vector_MRAffineXf3f_MRObjId</scope><name>~Const_Vector_MRAffineXf3f_MRObjId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

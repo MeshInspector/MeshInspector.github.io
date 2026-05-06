@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MarchingCubesByParts" kind="class" language="C#" prot="public">
     <compoundname>MR::MarchingCubesByParts</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MarchingCubesByParts</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MarchingCubesByParts" prot="public" virt="non-virtual">MR.Const_MarchingCubesByParts</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1MarchingCubesByParts_1a16c339038723a518881ab1c7716c4a06" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -58,7 +58,7 @@
           <declname>dims</declname>
         </param>
         <param>
-          <type>MR.Const_MarchingCubesParams</type>
+          <type><ref refid="classMR_1_1Const__MarchingCubesParams" kindref="compound">MR.Const_MarchingCubesParams</ref></type>
           <declname>params_</declname>
         </param>
         <param>
@@ -111,11 +111,11 @@
         <name>addPart</name>
         <qualifiedname>MR.MarchingCubesByParts.addPart</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolume</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolume" kindref="compound">MR.Const_SimpleVolume</ref></type>
           <declname>part</declname>
         </param>
         <briefdescription>
-<para>adds one more part of volume into consideration, with first z=nextZ() Generated from method <computeroutput><ref refid="classMR_1_1MarchingCubesByParts_1aa5299e6762e6fd90d072b7d54e867f2a" kindref="member">MR.MarchingCubesByParts.addPart</ref></computeroutput>. </para>
+<para>adds one more part of volume into consideration, with first z=<ref refid="classMR_1_1Const__MarchingCubesByParts_1af161e375b7144211ded79c225354112b" kindref="member">nextZ()</ref> Generated from method <computeroutput><ref refid="classMR_1_1MarchingCubesByParts_1aa5299e6762e6fd90d072b7d54e867f2a" kindref="member">MR.MarchingCubesByParts.addPart</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -140,7 +140,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>converts volume split on parts by planes z=const into mesh, last z-layer of previous part must be repeated as first z-layer of next part usage: <ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MarchingCubesByParts</ref> x( dims, params); x.addPart( part1 ); ... x.addPart( partN ); <ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> mesh = Mesh::fromTriMesh( *x.<ref refid="classMR_1_1MarchingCubesByParts_1a8cfcd7c18166f2f8aedb84d88182a027" kindref="member">finalize()</ref> ); Generated from class <computeroutput><ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MR.MarchingCubesByParts</ref></computeroutput>. This is the non-const half of the class. </para>
+<para>converts volume split on parts by planes z=const into mesh, last z-layer of previous part must be repeated as first z-layer of next part usage: <ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MarchingCubesByParts</ref> x( dims, params); x.addPart( part1 ); ... x.addPart( partN ); <ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> mesh = <ref refid="classMR_1_1Const__Mesh_1ab80764bcf163893a8d86269e9910e2eb" kindref="member">Mesh.fromTriMesh</ref>( *x.<ref refid="classMR_1_1MarchingCubesByParts_1a8cfcd7c18166f2f8aedb84d88182a027" kindref="member">finalize()</ref> ); Generated from class <computeroutput><ref refid="classMR_1_1MarchingCubesByParts" kindref="compound">MR.MarchingCubesByParts</ref></computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -153,6 +153,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MarchingCubesByParts</label>
+        <link refid="classMR_1_1Const__MarchingCubesByParts"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -174,6 +175,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MarchingCubesByParts</label>
+        <link refid="classMR_1_1Const__MarchingCubesByParts"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -190,10 +192,17 @@
     <listofallmembers>
       <member refid="classMR_1_1MarchingCubesByParts_1aa5299e6762e6fd90d072b7d54e867f2a" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>addPart</name></member>
       <member refid="classMR_1_1MarchingCubesByParts_1a7c69ed6465c11c8d303966db1fe8952b" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesByParts_1a8e7aabcb2e903c080eba99c3d7af3e96" prot="package" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>Const_MarchingCubesByParts</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesByParts_1a945394d2c1d7e563845aa508ca382977" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>Const_MarchingCubesByParts</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesByParts_1a1ef39ec09c72ba5b1a5ab356e1ea99af" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>Const_MarchingCubesByParts</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesByParts_1ad304b8459881108f1a97dd44a7e9829e" prot="protected" virt="virtual"><scope>MR::MarchingCubesByParts</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesByParts_1af71cb5ba6c8a814eb009b62b4c07a864" prot="public" virt="virtual"><scope>MR::MarchingCubesByParts</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MarchingCubesByParts_1a8cfcd7c18166f2f8aedb84d88182a027" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>finalize</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesByParts_1ab98f9e09e81d936a44a9b9c328b97115" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>layersPerBlock</name></member>
       <member refid="classMR_1_1MarchingCubesByParts_1a16c339038723a518881ab1c7716c4a06" prot="package" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>MarchingCubesByParts</name></member>
       <member refid="classMR_1_1MarchingCubesByParts_1adac6d7cfc97b0d20c65c2f5108c05124" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>MarchingCubesByParts</name></member>
       <member refid="classMR_1_1MarchingCubesByParts_1a45c819adf6300026c35837c67bc7372c" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>MarchingCubesByParts</name></member>
+      <member refid="classMR_1_1Const__MarchingCubesByParts_1af161e375b7144211ded79c225354112b" prot="public" virt="non-virtual"><scope>MR::MarchingCubesByParts</scope><name>nextZ</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

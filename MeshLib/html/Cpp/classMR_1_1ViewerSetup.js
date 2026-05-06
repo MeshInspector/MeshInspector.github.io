@@ -9,7 +9,9 @@ var classMR_1_1ViewerSetup =
     [ "setupCommonPlugins", "group__GeneralGroup.html#ga04abb25fb543f1b7f29d33eed34bdb81", null ],
     [ "setupConfiguration", "group__GeneralGroup.html#ga401738f95d6edbb1474a51c84ddb63f1", null ],
     [ "setupExtendedLibraries", "group__GeneralGroup.html#ga7af550b06bca5828017818c0fd0f41ce", null ],
+    [ "setupMcp", "group__GeneralGroup.html#gaf6506d80121763c6d296ced7af498180", null ],
     [ "setupSettingsManager", "group__GeneralGroup.html#ga0266ab3528d133e67c46d515595d499d", null ],
+    [ "shutdownMcp", "group__GeneralGroup.html#ga57b5cf0d7abf7293b6186d7b32ff831d", null ],
     [ "unloadExtendedLibraries", "group__GeneralGroup.html#ga2c129133dc78a903ad58f466bb4bd591", null ],
     [ "setupCustomLogSink", "group__GeneralGroup.html#ga01b6a5ca99cb834e86dbb5494153de45", null ],
     [ "shutdownCustomLogSink", "group__GeneralGroup.html#ga7895602798d8ec93e4374882cc9c89c4", null ]

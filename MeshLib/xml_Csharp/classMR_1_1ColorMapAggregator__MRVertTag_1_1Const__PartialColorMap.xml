@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap" kind="class" language="C#" prot="public">
+    <compoundname>MR::ColorMapAggregator_MRVertTag::Const_PartialColorMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap" prot="public" virt="non-virtual">MR.ColorMapAggregator_MRVertTag.PartialColorMap</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a207e4cee67a2a593edb2e16645f2bff3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__VertColors" kindref="compound">MR.Const_VertColors</ref></type>
+        <definition>unsafe MR.Const_VertColors MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.colorMap</definition>
+        <argsstring></argsstring>
+        <name>colorMap</name>
+        <qualifiedname>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.colorMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="29" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a269323bb0a180b4ea13f8d526907f0f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <qualifiedname>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="32" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1ab62f17f06e01ddc19714d5b4623f4ef9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="16" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a55218fc08258f665d05066f6eee9b6f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="25" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a90d51cb7343141d49b69ce643f9e4ff4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Const_PartialColorMap</definition>
+        <argsstring>()</argsstring>
+        <name>Const_PartialColorMap</name>
+        <qualifiedname>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Const_PartialColorMap</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="67" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="67" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1adf42c130bfe16a6951d8b8a35f5c1d72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Const_PartialColorMap</definition>
+        <argsstring>(MR._ByValue_VertColors colorMap, MR._ByValue_VertBitSet elements)</argsstring>
+        <name>Const_PartialColorMap</name>
+        <qualifiedname>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Const_PartialColorMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertColors</type>
+          <declname>colorMap</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_VertBitSet</type>
+          <declname>elements</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR::ColorMapAggregator&amp;lt;MR::VertTag&amp;gt;<ref refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap" kindref="compound">PartialColorMap</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="78" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="78" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a3d39ed38dafed31e07deb0d9a4214e32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Const_PartialColorMap</definition>
+        <argsstring>(MR.ColorMapAggregator_MRVertTag._ByValue_PartialColorMap _other)</argsstring>
+        <name>Const_PartialColorMap</name>
+        <qualifiedname>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Const_PartialColorMap</qualifiedname>
+        <param>
+          <type>MR.ColorMapAggregator_MRVertTag._ByValue_PartialColorMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::ColorMapAggregator&amp;lt;MR::VertTag&amp;gt;<ref refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap_1ad0b16c48c775b9a92771131af0422d88" kindref="member">PartialColorMap.PartialColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="91" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="91" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1ab248bebe86cadf8fa2ca4c472d58a1b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Const_PartialColorMap</definition>
+        <argsstring>(Const_PartialColorMap _other)</argsstring>
+        <name>Const_PartialColorMap</name>
+        <qualifiedname>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Const_PartialColorMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap" kindref="compound">Const_PartialColorMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::ColorMapAggregator&amp;lt;MR::VertTag&amp;gt;<ref refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap_1ad0b16c48c775b9a92771131af0422d88" kindref="member">PartialColorMap.PartialColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="103" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a498dbeb49e06bd153ebf5f4418c2ec8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Const_PartialColorMap</definition>
+        <argsstring>(PartialColorMap _other)</argsstring>
+        <name>Const_PartialColorMap</name>
+        <qualifiedname>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Const_PartialColorMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap" kindref="compound">PartialColorMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::ColorMapAggregator&amp;lt;MR::VertTag&amp;gt;<ref refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap_1ad0b16c48c775b9a92771131af0422d88" kindref="member">PartialColorMap.PartialColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="108" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="108" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a1283ea65109b17fc225d8e18560b937a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.~Const_PartialColorMap</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PartialColorMap</name>
+        <qualifiedname>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.~Const_PartialColorMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="26" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a03fad9bf927466df9d73b34bac079d95" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Const_PartialColorMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PartialColorMap</name>
+        <qualifiedname>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap.Const_PartialColorMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="56" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="56" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>partial color map Generated from class <computeroutput>MR::ColorMapAggregator&amp;lt;MR::VertTag&amp;gt;<ref refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap" kindref="compound">PartialColorMap</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</label>
+        <link refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.ColorMapAggregator_MRVertTag.PartialColorMap</label>
+        <link refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1PartialColorMap"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</label>
+        <link refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="10" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="11" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a207e4cee67a2a593edb2e16645f2bff3" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRVertTag::Const_PartialColorMap</scope><name>colorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a03fad9bf927466df9d73b34bac079d95" prot="package" virt="non-virtual"><scope>MR::ColorMapAggregator_MRVertTag::Const_PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a90d51cb7343141d49b69ce643f9e4ff4" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRVertTag::Const_PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1adf42c130bfe16a6951d8b8a35f5c1d72" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRVertTag::Const_PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a3d39ed38dafed31e07deb0d9a4214e32" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRVertTag::Const_PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1ab248bebe86cadf8fa2ca4c472d58a1b5" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRVertTag::Const_PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a498dbeb49e06bd153ebf5f4418c2ec8d" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRVertTag::Const_PartialColorMap</scope><name>Const_PartialColorMap</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1ab62f17f06e01ddc19714d5b4623f4ef9" prot="protected" virt="virtual"><scope>MR::ColorMapAggregator_MRVertTag::Const_PartialColorMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a55218fc08258f665d05066f6eee9b6f8" prot="public" virt="virtual"><scope>MR::ColorMapAggregator_MRVertTag::Const_PartialColorMap</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a269323bb0a180b4ea13f8d526907f0f2" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator_MRVertTag::Const_PartialColorMap</scope><name>elements</name></member>
+      <member refid="classMR_1_1ColorMapAggregator__MRVertTag_1_1Const__PartialColorMap_1a1283ea65109b17fc225d8e18560b937a" prot="private" virt="non-virtual"><scope>MR::ColorMapAggregator_MRVertTag::Const_PartialColorMap</scope><name>~Const_PartialColorMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

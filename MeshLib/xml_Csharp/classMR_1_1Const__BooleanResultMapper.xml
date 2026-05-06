@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__BooleanResultMapper" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_BooleanResultMapper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1BooleanResultMapper" prot="public" virt="non-virtual">MR.BooleanResultMapper</derivedcompoundref>
+    <innerclass refid="classMR_1_1Const__BooleanResultMapper_1_1__ByValue__Maps" prot="public">MR::Const_BooleanResultMapper::_ByValue_Maps</innerclass>
+    <innerclass refid="classMR_1_1Const__BooleanResultMapper_1_1Const__Maps" prot="public">MR::Const_BooleanResultMapper::Const_Maps</innerclass>
+    <innerclass refid="classMR_1_1Const__BooleanResultMapper_1_1Maps" prot="public">MR::Const_BooleanResultMapper::Maps</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1Const__BooleanResultMapper_1a618390a99bef142c428a5f9ab54b1f2b" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>MapObject</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.MapObject</qualifiedname>
+        <enumvalue id="classMR_1_1Const__BooleanResultMapper_1a618390a99bef142c428a5f9ab54b1f2ba7fc56270e7a70fa81a5935b72eacbe29" prot="public">
+          <name>A</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__BooleanResultMapper_1a618390a99bef142c428a5f9ab54b1f2ba9d5ed678fe57bcca610140957afab571" prot="public">
+          <name>B</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1Const__BooleanResultMapper_1a618390a99bef142c428a5f9ab54b1f2bae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Input object index enum. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="231" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="232" bodyend="236"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__BooleanResultMapper_1a09d0b078e1ca44b9a999fc6f6f785510" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Array_MRBooleanResultMapperMaps_2</type>
+        <definition>unsafe MR.Std.Const_Array_MRBooleanResultMapperMaps_2 MR.Const_BooleanResultMapper.maps</definition>
+        <argsstring></argsstring>
+        <name>maps</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.maps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="83" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="83" bodyend="83"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1a16be4d0096aa9c6251a71310ebbef969" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_BooleanResultMapper.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="71" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="71" bodyend="79"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1a4a830f8c85fe2aaeb4124a5f22392555" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_BooleanResultMapper.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="80" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1a0f0f8b825061bdf94c068842f74ada22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BooleanResultMapper.Const_BooleanResultMapper</definition>
+        <argsstring>()</argsstring>
+        <name>Const_BooleanResultMapper</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.Const_BooleanResultMapper</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="111" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="111" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1a093261f8519e80a2421089f23c0055e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BooleanResultMapper.Const_BooleanResultMapper</definition>
+        <argsstring>(MR._ByValue_BooleanResultMapper _other)</argsstring>
+        <name>Const_BooleanResultMapper</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.Const_BooleanResultMapper</qualifiedname>
+        <param>
+          <type>MR._ByValue_BooleanResultMapper</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanResultMapper_1afade241a084e350772386120b922671d" kindref="member">MR.BooleanResultMapper.BooleanResultMapper</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="122" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="122" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1a080221768206a0e29e5a5f2ed511dc24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_BooleanResultMapper.Const_BooleanResultMapper</definition>
+        <argsstring>(Const_BooleanResultMapper _other)</argsstring>
+        <name>Const_BooleanResultMapper</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.Const_BooleanResultMapper</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BooleanResultMapper" kindref="compound">Const_BooleanResultMapper</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanResultMapper_1afade241a084e350772386120b922671d" kindref="member">MR.BooleanResultMapper.BooleanResultMapper</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="134" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1ae940280a43a3f355b6ad395384175833" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_BooleanResultMapper.Const_BooleanResultMapper</definition>
+        <argsstring>(BooleanResultMapper _other)</argsstring>
+        <name>Const_BooleanResultMapper</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.Const_BooleanResultMapper</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BooleanResultMapper" kindref="compound">BooleanResultMapper</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1BooleanResultMapper_1afade241a084e350772386120b922671d" kindref="member">MR.BooleanResultMapper.BooleanResultMapper</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="139" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1a830c4f6a08c5c9db35e21fb3fb73d63f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>unsafe MR.FaceBitSet MR.Const_BooleanResultMapper.map</definition>
+        <argsstring>(MR.Const_FaceBitSet oldBS, MR.BooleanResultMapper.MapObject obj)</argsstring>
+        <name>map</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.map</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
+          <declname>oldBS</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__BooleanResultMapper_1a618390a99bef142c428a5f9ab54b1f2b" kindref="member">MR.BooleanResultMapper.MapObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Returns faces bitset of result mesh corresponding input one Generated from method <computeroutput><ref refid="classMR_1_1Const__BooleanResultMapper_1a830c4f6a08c5c9db35e21fb3fb73d63f" kindref="member">MR.BooleanResultMapper.map</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="145" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="145" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1aff24891a6b05efd78f5bbc095b081783" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
+        <definition>unsafe MR.VertBitSet MR.Const_BooleanResultMapper.map</definition>
+        <argsstring>(MR.Const_VertBitSet oldBS, MR.BooleanResultMapper.MapObject obj)</argsstring>
+        <name>map</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.map</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+          <declname>oldBS</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__BooleanResultMapper_1a618390a99bef142c428a5f9ab54b1f2b" kindref="member">MR.BooleanResultMapper.MapObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Returns vertices bitset of result mesh corresponding input one Generated from method <computeroutput><ref refid="classMR_1_1Const__BooleanResultMapper_1a830c4f6a08c5c9db35e21fb3fb73d63f" kindref="member">MR.BooleanResultMapper.map</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="156" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="156" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1adac473f45960c58001dc282fa9b7adf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1EdgeBitSet" kindref="compound">MR.EdgeBitSet</ref></type>
+        <definition>unsafe MR.EdgeBitSet MR.Const_BooleanResultMapper.map</definition>
+        <argsstring>(MR.Const_EdgeBitSet oldBS, MR.BooleanResultMapper.MapObject obj)</argsstring>
+        <name>map</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.map</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__EdgeBitSet" kindref="compound">MR.Const_EdgeBitSet</ref></type>
+          <declname>oldBS</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__BooleanResultMapper_1a618390a99bef142c428a5f9ab54b1f2b" kindref="member">MR.BooleanResultMapper.MapObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Returns edges bitset of result mesh corresponding input one Generated from method <computeroutput><ref refid="classMR_1_1Const__BooleanResultMapper_1a830c4f6a08c5c9db35e21fb3fb73d63f" kindref="member">MR.BooleanResultMapper.map</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="167" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="167" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1a9d613a2274ad749e3dae07d631dfd134" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>unsafe MR.UndirectedEdgeBitSet MR.Const_BooleanResultMapper.map</definition>
+        <argsstring>(MR.Const_UndirectedEdgeBitSet oldBS, MR.BooleanResultMapper.MapObject obj)</argsstring>
+        <name>map</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.map</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeBitSet" kindref="compound">MR.Const_UndirectedEdgeBitSet</ref></type>
+          <declname>oldBS</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__BooleanResultMapper_1a618390a99bef142c428a5f9ab54b1f2b" kindref="member">MR.BooleanResultMapper.MapObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Returns undirected edges bitset of result mesh corresponding input one Generated from method <computeroutput><ref refid="classMR_1_1Const__BooleanResultMapper_1a830c4f6a08c5c9db35e21fb3fb73d63f" kindref="member">MR.BooleanResultMapper.map</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="178" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="178" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1a581c3ba9fdc018890120e33e5362b850" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>unsafe MR.FaceBitSet MR.Const_BooleanResultMapper.newFaces</definition>
+        <argsstring>()</argsstring>
+        <name>newFaces</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.newFaces</qualifiedname>
+        <briefdescription>
+<para>Returns only new faces that are created during boolean operation Generated from method <computeroutput><ref refid="classMR_1_1Const__BooleanResultMapper_1a581c3ba9fdc018890120e33e5362b850" kindref="member">MR.BooleanResultMapper.newFaces</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="189" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="189" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1a99ca312978faa226cb7a7c661edb55bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>unsafe MR.FaceBitSet MR.Const_BooleanResultMapper.filteredOldFaceBitSet</definition>
+        <argsstring>(MR.Const_FaceBitSet oldBS, MR.BooleanResultMapper.MapObject obj)</argsstring>
+        <name>filteredOldFaceBitSet</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.filteredOldFaceBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__FaceBitSet" kindref="compound">MR.Const_FaceBitSet</ref></type>
+          <declname>oldBS</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__BooleanResultMapper_1a618390a99bef142c428a5f9ab54b1f2b" kindref="member">MR.BooleanResultMapper.MapObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>returns updated oldBS leaving only faces that has corresponding ones in result mesh Generated from method <computeroutput><ref refid="classMR_1_1Const__BooleanResultMapper_1a99ca312978faa226cb7a7c661edb55bd" kindref="member">MR.BooleanResultMapper.filteredOldFaceBitSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="200" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="200" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1acfff28160db4cee9d03eb73e33492f55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FaceMap" kindref="compound">MR.FaceMap</ref></type>
+        <definition>unsafe MR.FaceMap MR.Const_BooleanResultMapper.getNew2OldFaceMap</definition>
+        <argsstring>(MR.BooleanResultMapper.MapObject obj)</argsstring>
+        <name>getNew2OldFaceMap</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.getNew2OldFaceMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BooleanResultMapper_1a618390a99bef142c428a5f9ab54b1f2b" kindref="member">MR.BooleanResultMapper.MapObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>returns map: new_face_id-&gt;old_obj_face_id for faces from </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__BooleanResultMapper_1acfff28160db4cee9d03eb73e33492f55" kindref="member">MR.BooleanResultMapper.getNew2OldFaceMap</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="211" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="211" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1a6af09173985861b4df807c90ae252ed1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__BooleanResultMapper_1_1Const__Maps" kindref="compound">MR.BooleanResultMapper.Const_Maps</ref></type>
+        <definition>unsafe MR.BooleanResultMapper.Const_Maps MR.Const_BooleanResultMapper.getMaps</definition>
+        <argsstring>(MR.BooleanResultMapper.MapObject index)</argsstring>
+        <name>getMaps</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.getMaps</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BooleanResultMapper_1a618390a99bef142c428a5f9ab54b1f2b" kindref="member">MR.BooleanResultMapper.MapObject</ref></type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__BooleanResultMapper_1a6af09173985861b4df807c90ae252ed1" kindref="member">MR.BooleanResultMapper.getMaps</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="221" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="221" bodyend="226"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1a8cb3389d078f5573440e640b6fac20cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_BooleanResultMapper.~Const_BooleanResultMapper</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_BooleanResultMapper</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.~Const_BooleanResultMapper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="81" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="81" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__BooleanResultMapper_1ab7d2edd419922f21dc92f2ae2763f36a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_BooleanResultMapper.Const_BooleanResultMapper</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_BooleanResultMapper</name>
+        <qualifiedname>MR.Const_BooleanResultMapper.Const_BooleanResultMapper</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="100" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="100" bodyend="105"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_BooleanResultMapper</label>
+        <link refid="classMR_1_1Const__BooleanResultMapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR.BooleanResultMapper</label>
+        <link refid="classMR_1_1BooleanResultMapper"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_BooleanResultMapper</label>
+        <link refid="classMR_1_1Const__BooleanResultMapper"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" line="65" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBooleanOperation.cs" bodystart="66" bodyend="562"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1ab7d2edd419922f21dc92f2ae2763f36a" prot="package" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>Const_BooleanResultMapper</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1a0f0f8b825061bdf94c068842f74ada22" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>Const_BooleanResultMapper</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1a093261f8519e80a2421089f23c0055e3" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>Const_BooleanResultMapper</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1a080221768206a0e29e5a5f2ed511dc24" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>Const_BooleanResultMapper</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1ae940280a43a3f355b6ad395384175833" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>Const_BooleanResultMapper</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1a16be4d0096aa9c6251a71310ebbef969" prot="protected" virt="virtual"><scope>MR::Const_BooleanResultMapper</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1a4a830f8c85fe2aaeb4124a5f22392555" prot="public" virt="virtual"><scope>MR::Const_BooleanResultMapper</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1a99ca312978faa226cb7a7c661edb55bd" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>filteredOldFaceBitSet</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1a6af09173985861b4df807c90ae252ed1" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>getMaps</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1acfff28160db4cee9d03eb73e33492f55" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>getNew2OldFaceMap</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1a830c4f6a08c5c9db35e21fb3fb73d63f" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>map</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1aff24891a6b05efd78f5bbc095b081783" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>map</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1adac473f45960c58001dc282fa9b7adf6" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>map</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1a9d613a2274ad749e3dae07d631dfd134" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>map</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1a618390a99bef142c428a5f9ab54b1f2b" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>MapObject</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1a09d0b078e1ca44b9a999fc6f6f785510" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>maps</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1a581c3ba9fdc018890120e33e5362b850" prot="public" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>newFaces</name></member>
+      <member refid="classMR_1_1Const__BooleanResultMapper_1a8cb3389d078f5573440e640b6fac20cb" prot="private" virt="non-virtual"><scope>MR::Const_BooleanResultMapper</scope><name>~Const_BooleanResultMapper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

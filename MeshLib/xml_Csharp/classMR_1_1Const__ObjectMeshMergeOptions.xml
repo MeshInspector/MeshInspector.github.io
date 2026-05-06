@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ObjectMeshMergeOptions" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ObjectMeshMergeOptions</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ObjectMeshMergeOptions" prot="public" virt="non-virtual">MR.ObjectMeshMergeOptions</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ObjectMeshMergeOptions_1a21e799e81cb061f57c65ea45d28e828a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe MR.Std.? Const_Vector_MRAffineXf3f</type>
+        <definition>unsafe MR.Std.? Const_Vector_MRAffineXf3f MR.Const_ObjectMeshMergeOptions.overrideXfs</definition>
+        <argsstring></argsstring>
+        <name>overrideXfs</name>
+        <qualifiedname>MR.Const_ObjectMeshMergeOptions.overrideXfs</qualifiedname>
+        <briefdescription>
+<para>if not nullptr: merged object will take overridden transform for each object </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" line="2433" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" bodystart="2434" bodyend="2445"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ObjectMeshMergeOptions_1adcd4a5aeaf6e8495e87acc64592c332e" prot="protected" static="no" mutable="no">
+        <type>unsafe MR.Std.Const_Vector_MRAffineXf3f._Underlying **</type>
+        <definition>unsafe MR.Std.Const_Vector_MRAffineXf3f._Underlying** MR.Const_ObjectMeshMergeOptions.__ptr_storage_overrideXfs</definition>
+        <argsstring></argsstring>
+        <name>__ptr_storage_overrideXfs</name>
+        <qualifiedname>MR.Const_ObjectMeshMergeOptions.__ptr_storage_overrideXfs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" line="2446" column="76" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" bodystart="2446" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshMergeOptions_1ae73aad72d31b1d28358a30462292ff80" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ObjectMeshMergeOptions.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectMeshMergeOptions.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" line="2418" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" bodystart="2418" bodyend="2426"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshMergeOptions_1ab961425d9f893579acd69d43e0bdb504" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ObjectMeshMergeOptions.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectMeshMergeOptions.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" line="2427" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" bodystart="2427" bodyend="2427"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshMergeOptions_1afcb9a3ea0d4d041bb39fda419789ba45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectMeshMergeOptions.Const_ObjectMeshMergeOptions</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ObjectMeshMergeOptions</name>
+        <qualifiedname>MR.Const_ObjectMeshMergeOptions.Const_ObjectMeshMergeOptions</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" line="2473" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" bodystart="2473" bodyend="2479"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshMergeOptions_1a6f5e5e5e21a4d60a972b31bda8ef3f32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectMeshMergeOptions.Const_ObjectMeshMergeOptions</definition>
+        <argsstring>(MR.Std.Const_Vector_MRAffineXf3f? overrideXfs)</argsstring>
+        <name>Const_ObjectMeshMergeOptions</name>
+        <qualifiedname>MR.Const_ObjectMeshMergeOptions.Const_ObjectMeshMergeOptions</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRAffineXf3f?</type>
+          <declname>overrideXfs</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ObjectMeshMergeOptions" kindref="compound">MR.ObjectMeshMergeOptions</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" line="2484" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" bodystart="2484" bodyend="2491"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshMergeOptions_1abcfc2a74eceb51898d30d92ee2c413f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectMeshMergeOptions.Const_ObjectMeshMergeOptions</definition>
+        <argsstring>(MR.Const_ObjectMeshMergeOptions _other)</argsstring>
+        <name>Const_ObjectMeshMergeOptions</name>
+        <qualifiedname>MR.Const_ObjectMeshMergeOptions.Const_ObjectMeshMergeOptions</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectMeshMergeOptions" kindref="compound">MR.Const_ObjectMeshMergeOptions</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectMeshMergeOptions_1ac70509712a19d710bbbbca44fd43c50c" kindref="member">MR.ObjectMeshMergeOptions.ObjectMeshMergeOptions</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" line="2496" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" bodystart="2496" bodyend="2503"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshMergeOptions_1a7a0c736408f6d0c6bea6ea9f13d67615" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjectMeshMergeOptions.Const_ObjectMeshMergeOptions</definition>
+        <argsstring>(ObjectMeshMergeOptions _other)</argsstring>
+        <name>Const_ObjectMeshMergeOptions</name>
+        <qualifiedname>MR.Const_ObjectMeshMergeOptions.Const_ObjectMeshMergeOptions</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectMeshMergeOptions" kindref="compound">ObjectMeshMergeOptions</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectMeshMergeOptions_1ac70509712a19d710bbbbca44fd43c50c" kindref="member">MR.ObjectMeshMergeOptions.ObjectMeshMergeOptions</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" line="2508" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" bodystart="2508" bodyend="2508"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshMergeOptions_1adc266d72c010236469010d95c628123e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjectMeshMergeOptions.~Const_ObjectMeshMergeOptions</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ObjectMeshMergeOptions</name>
+        <qualifiedname>MR.Const_ObjectMeshMergeOptions.~Const_ObjectMeshMergeOptions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" line="2428" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" bodystart="2428" bodyend="2428"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectMeshMergeOptions_1a622fde1c3301bc303f459ce4f10e5d79" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectMeshMergeOptions.Const_ObjectMeshMergeOptions</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ObjectMeshMergeOptions</name>
+        <qualifiedname>MR.Const_ObjectMeshMergeOptions.Const_ObjectMeshMergeOptions</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" line="2462" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" bodystart="2462" bodyend="2467"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>options to better control <ref refid="classMR_1aa2f4fdce7f3e976c2cf0a336acd5f4e9" kindref="member">MR.merge</ref> function Generated from class <computeroutput><ref refid="classMR_1_1ObjectMeshMergeOptions" kindref="compound">MR.ObjectMeshMergeOptions</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ObjectMeshMergeOptions</label>
+        <link refid="classMR_1_1Const__ObjectMeshMergeOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ObjectMeshMergeOptions</label>
+        <link refid="classMR_1_1ObjectMeshMergeOptions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.Const_ObjectMeshMergeOptions</label>
+        <link refid="classMR_1_1Const__ObjectMeshMergeOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>__ptr_storage_overrideXfs</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" line="2412" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectMesh.cs" bodystart="2413" bodyend="2509"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1adcd4a5aeaf6e8495e87acc64592c332e" prot="protected" virt="non-virtual"><scope>MR::Const_ObjectMeshMergeOptions</scope><name>__ptr_storage_overrideXfs</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1a622fde1c3301bc303f459ce4f10e5d79" prot="package" virt="non-virtual"><scope>MR::Const_ObjectMeshMergeOptions</scope><name>Const_ObjectMeshMergeOptions</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1afcb9a3ea0d4d041bb39fda419789ba45" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshMergeOptions</scope><name>Const_ObjectMeshMergeOptions</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1a6f5e5e5e21a4d60a972b31bda8ef3f32" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshMergeOptions</scope><name>Const_ObjectMeshMergeOptions</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1abcfc2a74eceb51898d30d92ee2c413f0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshMergeOptions</scope><name>Const_ObjectMeshMergeOptions</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1a7a0c736408f6d0c6bea6ea9f13d67615" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshMergeOptions</scope><name>Const_ObjectMeshMergeOptions</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1ae73aad72d31b1d28358a30462292ff80" prot="protected" virt="virtual"><scope>MR::Const_ObjectMeshMergeOptions</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1ab961425d9f893579acd69d43e0bdb504" prot="public" virt="virtual"><scope>MR::Const_ObjectMeshMergeOptions</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1a21e799e81cb061f57c65ea45d28e828a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectMeshMergeOptions</scope><name>overrideXfs</name></member>
+      <member refid="classMR_1_1Const__ObjectMeshMergeOptions_1adc266d72c010236469010d95c628123e" prot="private" virt="non-virtual"><scope>MR::Const_ObjectMeshMergeOptions</scope><name>~Const_ObjectMeshMergeOptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

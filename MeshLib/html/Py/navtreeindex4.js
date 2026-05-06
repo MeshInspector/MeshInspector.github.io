@@ -1,12 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"classmrmeshpy_1_1BMap__VertId__unsigned__long.html#adadc30d4e7a504a882c236b85c8d4b6b":[6,1,0,0,2,59,0],
-"classmrmeshpy_1_1BMap__VertId__unsigned__long.html#adadc30d4e7a504a882c236b85c8d4b6b":[6,1,1,0,1,59,0],
-"classmrmeshpy_1_1BMap__VoxelId__VoxelId.html":[6,1,0,0,2,60],
-"classmrmeshpy_1_1BMap__VoxelId__VoxelId.html":[6,1,1,0,1,60],
-"classmrmeshpy_1_1BMap__VoxelId__VoxelId.html#a0115fecd53a3a8fe5da6f301801e8374":[6,1,0,0,2,60,2],
-"classmrmeshpy_1_1BMap__VoxelId__VoxelId.html#a0115fecd53a3a8fe5da6f301801e8374":[6,1,1,0,1,60,2],
-"classmrmeshpy_1_1BMap__VoxelId__VoxelId.html#a2c1ed26487f54df4dca3181b3dc92681":[6,1,0,0,2,60,3],
 "classmrmeshpy_1_1BMap__VoxelId__VoxelId.html#a2c1ed26487f54df4dca3181b3dc92681":[6,1,1,0,1,60,3],
 "classmrmeshpy_1_1BMap__VoxelId__VoxelId.html#a7a2f7909e0ecdbd2a365c8d4c9e3170f":[6,1,0,0,2,60,1],
 "classmrmeshpy_1_1BMap__VoxelId__VoxelId.html#a7a2f7909e0ecdbd2a365c8d4c9e3170f":[6,1,1,0,1,60,1],
@@ -249,5 +242,12 @@ var NAVTREEINDEX4 =
 "classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a2cc58396ac77ba0f5eee1517f838aa05":[6,1,0,0,2,41,0,5],
 "classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a2cc58396ac77ba0f5eee1517f838aa05":[6,1,1,0,1,41,0,5],
 "classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a54c7d5c0c775c1df9663c71265ba72a7":[6,1,0,0,2,41,0,0],
-"classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a54c7d5c0c775c1df9663c71265ba72a7":[6,1,1,0,1,41,0,0]
+"classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a54c7d5c0c775c1df9663c71265ba72a7":[6,1,1,0,1,41,0,0],
+"classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a657e37a6c794c25652d5affb4782d60c":[6,1,0,0,2,41,0,1],
+"classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a657e37a6c794c25652d5affb4782d60c":[6,1,1,0,1,41,0,1],
+"classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a7452b00ce05bee4da1014211b2843736":[6,1,0,0,2,41,0,4],
+"classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a7452b00ce05bee4da1014211b2843736":[6,1,1,0,1,41,0,4],
+"classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a84b81b7d4e4460f9ef641882ad26baed":[6,1,0,0,2,41,0,2],
+"classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#a84b81b7d4e4460f9ef641882ad26baed":[6,1,1,0,1,41,0,2],
+"classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams.html#ad2802cc50f104f7e226850a196bb6ace":[6,1,0,0,2,41,0,3]
 };

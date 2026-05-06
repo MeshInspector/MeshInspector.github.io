@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1PartMapping" kind="class" language="C#" prot="public">
     <compoundname>MR::PartMapping</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_PartMapping</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__PartMapping" prot="public" virt="non-virtual">MR.Const_PartMapping</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1PartMapping_1a389f80cff21a01e9b11cfc21df6e912b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId" kindref="compound">MapOrHashMap_MRFaceId_MRFaceId</ref></type>
@@ -175,7 +175,7 @@
         <name>PartMapping</name>
         <qualifiedname>MR.PartMapping.PartMapping</qualifiedname>
         <param>
-          <type>MR.Const_PartMapping</type>
+          <type><ref refid="classMR_1_1Const__PartMapping" kindref="compound">MR.Const_PartMapping</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -213,7 +213,7 @@
         <name>assign</name>
         <qualifiedname>MR.PartMapping.assign</qualifiedname>
         <param>
-          <type>MR.Const_PartMapping</type>
+          <type><ref refid="classMR_1_1Const__PartMapping" kindref="compound">MR.Const_PartMapping</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -255,6 +255,7 @@
       </node>
       <node id="2">
         <label>MR.Const_PartMapping</label>
+        <link refid="classMR_1_1Const__PartMapping"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -268,6 +269,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.PartMapping</label>
         <link refid="classMR_1_1PartMapping"/>
@@ -276,9 +281,18 @@
       </node>
       <node id="2">
         <label>MR.Const_PartMapping</label>
+        <link refid="classMR_1_1Const__PartMapping"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_src2tgtEdges</edgelabel>
+          <edgelabel>__ptr_storage_src2tgtFaces</edgelabel>
+          <edgelabel>__ptr_storage_src2tgtVerts</edgelabel>
+          <edgelabel>__ptr_storage_tgt2srcEdges</edgelabel>
+          <edgelabel>__ptr_storage_tgt2srcFaces</edgelabel>
+          <edgelabel>__ptr_storage_tgt2srcVerts</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -290,8 +304,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="225" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="226" bodyend="381"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__PartMapping_1a0ac0d90e73a8e5b99c5b61eba5ed749b" prot="protected" virt="non-virtual"><scope>MR::PartMapping</scope><name>__ptr_storage_src2tgtEdges</name></member>
+      <member refid="classMR_1_1Const__PartMapping_1a8851429c200fb7dca1f4b2110b2bdd28" prot="protected" virt="non-virtual"><scope>MR::PartMapping</scope><name>__ptr_storage_src2tgtFaces</name></member>
+      <member refid="classMR_1_1Const__PartMapping_1a58f842177de2142035f943404725793a" prot="protected" virt="non-virtual"><scope>MR::PartMapping</scope><name>__ptr_storage_src2tgtVerts</name></member>
+      <member refid="classMR_1_1Const__PartMapping_1af16af16eec543b957f6271da3a9e6bbf" prot="protected" virt="non-virtual"><scope>MR::PartMapping</scope><name>__ptr_storage_tgt2srcEdges</name></member>
+      <member refid="classMR_1_1Const__PartMapping_1ac6170f47eb71104ffeb1b002e6ea6c75" prot="protected" virt="non-virtual"><scope>MR::PartMapping</scope><name>__ptr_storage_tgt2srcFaces</name></member>
+      <member refid="classMR_1_1Const__PartMapping_1abb9cbb86327d31b04e3c7ce6f23f379b" prot="protected" virt="non-virtual"><scope>MR::PartMapping</scope><name>__ptr_storage_tgt2srcVerts</name></member>
       <member refid="classMR_1_1PartMapping_1a15337a2e784ae69953b3507e77ec18c0" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>assign</name></member>
       <member refid="classMR_1_1PartMapping_1a60b244018f6eea2bd210b60c38e873e0" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__PartMapping_1a47e418c652db33119bcd039c3bcb9e6c" prot="package" virt="non-virtual"><scope>MR::PartMapping</scope><name>Const_PartMapping</name></member>
+      <member refid="classMR_1_1Const__PartMapping_1a83c71f0779f244d87e6b5c34ac3fa0bd" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>Const_PartMapping</name></member>
+      <member refid="classMR_1_1Const__PartMapping_1a2416176f4ceb4770b034e60f309e56cc" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>Const_PartMapping</name></member>
+      <member refid="classMR_1_1Const__PartMapping_1a6bcdffb96a479140cccadf2b3b54efb3" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>Const_PartMapping</name></member>
+      <member refid="classMR_1_1Const__PartMapping_1afd17aad9529674e2b040005d9c9ecda9" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>Const_PartMapping</name></member>
+      <member refid="classMR_1_1Const__PartMapping_1a644dafa19bfb9198533791220c3b4024" prot="protected" virt="virtual"><scope>MR::PartMapping</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PartMapping_1a04b21901d9cfbd8086367ac1d870d478" prot="public" virt="virtual"><scope>MR::PartMapping</scope><name>Dispose</name></member>
       <member refid="classMR_1_1PartMapping_1ae5d73a849396bbcc18842cca85fccb43" prot="package" virt="non-virtual"><scope>MR::PartMapping</scope><name>PartMapping</name></member>
       <member refid="classMR_1_1PartMapping_1a410ecb83fa36078e19f302b4da9d1c68" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>PartMapping</name></member>
       <member refid="classMR_1_1PartMapping_1ac924df683753d1fb3ac7253ee9e77ba5" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>PartMapping</name></member>

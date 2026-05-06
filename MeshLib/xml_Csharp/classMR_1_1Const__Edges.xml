@@ -1,0 +1,647 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Edges" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Edges</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Edges" prot="public" virt="non-virtual">MR.Edges</derivedcompoundref>
+    <innerclass refid="classMR_1_1Const__Edges_1_1__Enumerator" prot="public">MR::Const_Edges::_Enumerator</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Edges_1aa529f18466a960065da7726a17391f0b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_StdArrayMRVertId2</type>
+        <definition>unsafe MR.Std.Const_Vector_StdArrayMRVertId2 MR.Const_Edges.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_Edges.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="95" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Edges_1a30b599c69665a658336c8fe56d74a605" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe ref readonly MR.Std.Array_MRVertId_2</type>
+        <definition>unsafe ref readonly MR.Std.Array_MRVertId_2 MR.Const_Edges.this[MR.UndirectedEdgeId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.UndirectedEdgeId i]</name>
+        <qualifiedname>MR.Const_Edges.this[MR.UndirectedEdgeId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Edges::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="247" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="248" bodyend="255"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1ab91560cf8bbb50f0d9e78b549b82b451" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Edges.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Edges.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a3c986da5c219505c6da342c2cb9c74d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Edges.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Edges.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="25" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a0ccb86afb66c166373c3e520ab1df4bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; MR.Misc.ConstRef&lt; MR.Std.Array_MRVertId_2 &gt; &gt;</type>
+        <definition>IEnumerator&lt; MR.Misc.ConstRef&lt; MR.Std.Array_MRVertId_2 &gt; &gt; MR.Const_Edges.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Edges.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="82" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1aaad1d7e8bc0a3dc66b66c582e2dfd320" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Edges.Const_Edges</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Edges</name>
+        <qualifiedname>MR.Const_Edges.Const_Edges</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="123" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="123" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1ac75a23b7c4e5ce54f13d6453cac4eedf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Edges.Const_Edges</definition>
+        <argsstring>(MR._ByValue_Edges _other)</argsstring>
+        <name>Const_Edges</name>
+        <qualifiedname>MR.Const_Edges.Const_Edges</qualifiedname>
+        <param>
+          <type>MR._ByValue_Edges</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Edges_1a16fa410e1092eb194e3a51a6112a7f7c" kindref="member">MR.Edges.Edges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="134" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="134" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a8b08b3cd59850ce77c24863b229983ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Edges.Const_Edges</definition>
+        <argsstring>(Const_Edges _other)</argsstring>
+        <name>Const_Edges</name>
+        <qualifiedname>MR.Const_Edges.Const_Edges</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Edges" kindref="compound">Const_Edges</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Edges_1a16fa410e1092eb194e3a51a6112a7f7c" kindref="member">MR.Edges.Edges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="146" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a53d34d5b7bec8d388d5afdc1b9286027" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Edges.Const_Edges</definition>
+        <argsstring>(Edges _other)</argsstring>
+        <name>Const_Edges</name>
+        <qualifiedname>MR.Const_Edges.Const_Edges</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Edges" kindref="compound">Edges</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Edges_1a16fa410e1092eb194e3a51a6112a7f7c" kindref="member">MR.Edges.Edges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="151" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="151" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a10dcc764803ea776843821ce078a2cc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Edges.Const_Edges</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Edges</name>
+        <qualifiedname>MR.Const_Edges.Const_Edges</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1Edges_1a16fa410e1092eb194e3a51a6112a7f7c" kindref="member">MR.Edges.Edges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="157" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="157" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a48960e70647cbb1227849623afbfba73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Edges.Const_Edges</definition>
+        <argsstring>(ulong size, in MR.Std.Array_MRVertId_2 val)</argsstring>
+        <name>Const_Edges</name>
+        <qualifiedname>MR.Const_Edges.Const_Edges</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in MR.Std.Array_MRVertId_2</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1Edges_1a16fa410e1092eb194e3a51a6112a7f7c" kindref="member">MR.Edges.Edges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="169" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="169" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1affedd161f31ada5f30f0ea19653cb54f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Edges.Const_Edges</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVertId2 &gt; vec)</argsstring>
+        <name>Const_Edges</name>
+        <qualifiedname>MR.Const_Edges.Const_Edges</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVertId2 &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Edges_1a16fa410e1092eb194e3a51a6112a7f7c" kindref="member">MR.Edges.Edges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="184" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="184" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1af5b36459d79e2d16fa190a8602adaf72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Edges.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Edges.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Edges_1af5b36459d79e2d16fa190a8602adaf72" kindref="member">MR.Edges.empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="217" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="217" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a9f636bdad96a460a7802845b8e9ae8ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Edges.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Edges.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Edges_1a9f636bdad96a460a7802845b8e9ae8ec" kindref="member">MR.Edges.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="227" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="227" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a59ed01fd796b49180a1a6e9db15f6784" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Edges.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Edges.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Edges_1a59ed01fd796b49180a1a6e9db15f6784" kindref="member">MR.Edges.capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="237" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="237" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1aebc2f310c01f0747afbe6f019023fd27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly MR.Std.Array_MRVertId_2</type>
+        <definition>unsafe ref readonly MR.Std.Array_MRVertId_2 MR.Const_Edges.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_Edges.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Edges_1a6b13875473ff22d1ff98b38b08fee574" kindref="member">MR.Edges.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="260" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="260" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1aace4174a68fd132d1346bf15ea881929" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly MR.Std.Array_MRVertId_2</type>
+        <definition>unsafe ref readonly MR.Std.Array_MRVertId_2 MR.Const_Edges.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_Edges.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Edges_1ad557c99044d10879ff5fce8905fa1f1f" kindref="member">MR.Edges.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="270" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="270" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1aeefe47a1a46b90781e63b1dc8038ecf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe MR.UndirectedEdgeId MR.Const_Edges.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Edges.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput><ref refid="classMR_1_1Const__Edges_1aeefe47a1a46b90781e63b1dc8038ecf0" kindref="member">MR.Edges.beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="281" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="281" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a2d75acf24f9e2820fb2aab4e68113d7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe MR.UndirectedEdgeId MR.Const_Edges.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Edges.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__Edges_1aace4174a68fd132d1346bf15ea881929" kindref="member">back()</ref> element Generated from method <computeroutput><ref refid="classMR_1_1Const__Edges_1a2d75acf24f9e2820fb2aab4e68113d7b" kindref="member">MR.Edges.backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="292" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="292" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1ae4f8e1dc25578b878101cc37a2e97cbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe MR.UndirectedEdgeId MR.Const_Edges.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Edges.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Edges_1a2d75acf24f9e2820fb2aab4e68113d7b" kindref="member">backId()</ref> + 1 Generated from method <computeroutput><ref refid="classMR_1_1Const__Edges_1ae4f8e1dc25578b878101cc37a2e97cbe" kindref="member">MR.Edges.endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="303" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="303" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1aee8eb20a8883ef124dd39b15a7c62b4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.? Array_MRVertId_2</type>
+        <definition>unsafe MR.Std.? Array_MRVertId_2 MR.Const_Edges.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Edges.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Edges_1a5c1b7f066540613eadcb2e790a8ac278" kindref="member">MR.Edges.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="313" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="313" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a68099adc9b94f08a50164a65d3e67d70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Edges.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Edges.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Edges_1a68099adc9b94f08a50164a65d3e67d70" kindref="member">MR.Edges.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="325" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="325" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a7d93377f328d8cd08ab187c6e90f2f11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Edges.Equals</definition>
+        <argsstring>(MR.Const_Edges? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Edges.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Edges" kindref="compound">MR.Const_Edges</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="334" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="334" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1ac35f492b30785d6fdf2d878c139edb4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_Edges.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Edges.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="341" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="341" bodyend="348"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a7b6f04e4883188f7960036f5be7a458d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Edges.~Const_Edges</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Edges</name>
+        <qualifiedname>MR.Const_Edges.~Const_Edges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="26" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1ab541f8231347b4f88b12be8572be0061" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Edges.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Edges.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="87" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="87" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1aa01e9c4aa5983c760bc039858ff8bef9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Edges.Const_Edges</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Edges</name>
+        <qualifiedname>MR.Const_Edges.Const_Edges</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="112" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="112" bodyend="117"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a4c430a067259b8c903e4290a7d7e6c15" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Edges.operator Const_Edges</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVertId2 &gt; vec)</argsstring>
+        <name>operator Const_Edges</name>
+        <qualifiedname>MR.Const_Edges.operator Const_Edges</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_StdArrayMRVertId2 &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Edges_1a16fa410e1092eb194e3a51a6112a7f7c" kindref="member">MR.Edges.Edges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="197" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="197" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a66132a09adb7aad35b918362ea1f2e8b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Edges.operator==</definition>
+        <argsstring>(MR.Const_Edges _this, MR.Const_Edges b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_Edges.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Edges" kindref="compound">MR.Const_Edges</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Edges" kindref="compound">MR.Const_Edges</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Edges::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="202" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="202" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Edges_1a5427d5e9d9836c35b161167761fe5e20" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Edges.operator!=</definition>
+        <argsstring>(MR.Const_Edges _this, MR.Const_Edges b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_Edges.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Edges" kindref="compound">MR.Const_Edges</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Edges" kindref="compound">MR.Const_Edges</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="209" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="209" bodyend="212"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1Edges" kindref="compound">MR.Edges</ref></computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Edges</label>
+        <link refid="classMR_1_1Const__Edges"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR.Edges</label>
+        <link refid="classMR_1_1Edges"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Edges</label>
+        <link refid="classMR_1_1Const__Edges"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="10" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="11" bodyend="349"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Edges_1aace4174a68fd132d1346bf15ea881929" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Edges_1a2d75acf24f9e2820fb2aab4e68113d7b" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Edges_1aeefe47a1a46b90781e63b1dc8038ecf0" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Edges_1a59ed01fd796b49180a1a6e9db15f6784" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Edges_1aa01e9c4aa5983c760bc039858ff8bef9" prot="package" virt="non-virtual"><scope>MR::Const_Edges</scope><name>Const_Edges</name></member>
+      <member refid="classMR_1_1Const__Edges_1aaad1d7e8bc0a3dc66b66c582e2dfd320" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>Const_Edges</name></member>
+      <member refid="classMR_1_1Const__Edges_1ac75a23b7c4e5ce54f13d6453cac4eedf" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>Const_Edges</name></member>
+      <member refid="classMR_1_1Const__Edges_1a8b08b3cd59850ce77c24863b229983ca" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>Const_Edges</name></member>
+      <member refid="classMR_1_1Const__Edges_1a53d34d5b7bec8d388d5afdc1b9286027" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>Const_Edges</name></member>
+      <member refid="classMR_1_1Const__Edges_1a10dcc764803ea776843821ce078a2cc1" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>Const_Edges</name></member>
+      <member refid="classMR_1_1Const__Edges_1a48960e70647cbb1227849623afbfba73" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>Const_Edges</name></member>
+      <member refid="classMR_1_1Const__Edges_1affedd161f31ada5f30f0ea19653cb54f" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>Const_Edges</name></member>
+      <member refid="classMR_1_1Const__Edges_1aee8eb20a8883ef124dd39b15a7c62b4f" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Edges_1ab91560cf8bbb50f0d9e78b549b82b451" prot="protected" virt="virtual"><scope>MR::Const_Edges</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Edges_1a3c986da5c219505c6da342c2cb9c74d5" prot="public" virt="virtual"><scope>MR::Const_Edges</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Edges_1af5b36459d79e2d16fa190a8602adaf72" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Edges_1ae4f8e1dc25578b878101cc37a2e97cbe" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Edges_1a7d93377f328d8cd08ab187c6e90f2f11" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Edges_1ac35f492b30785d6fdf2d878c139edb4f" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Edges_1aebc2f310c01f0747afbe6f019023fd27" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__Edges_1a0ccb86afb66c166373c3e520ab1df4bc" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Edges_1ab541f8231347b4f88b12be8572be0061" prot="private" virt="non-virtual"><scope>MR::Const_Edges</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Edges_1a68099adc9b94f08a50164a65d3e67d70" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Edges_1a4c430a067259b8c903e4290a7d7e6c15" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>operator Const_Edges</name></member>
+      <member refid="classMR_1_1Const__Edges_1a5427d5e9d9836c35b161167761fe5e20" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Edges_1a66132a09adb7aad35b918362ea1f2e8b" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Edges_1a9f636bdad96a460a7802845b8e9ae8ec" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Edges_1a30b599c69665a658336c8fe56d74a605" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>this[MR.UndirectedEdgeId i]</name></member>
+      <member refid="classMR_1_1Const__Edges_1aa529f18466a960065da7726a17391f0b" prot="public" virt="non-virtual"><scope>MR::Const_Edges</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__Edges_1a7b6f04e4883188f7960036f5be7a458d" prot="private" virt="non-virtual"><scope>MR::Const_Edges</scope><name>~Const_Edges</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

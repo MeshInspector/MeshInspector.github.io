@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Dipoles" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Dipoles</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Dipoles" prot="public" virt="non-virtual">MR.Dipoles</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Dipoles_1a8cb87de067bda82efe9b501942508f66" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe MR.Std.Const_Vector_MRDipole</type>
+        <definition>unsafe MR.Std.Const_Vector_MRDipole MR.Const_Dipoles.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.Const_Dipoles.vec</qualifiedname>
+        <briefdescription>
+<para>The user can directly manipulate the vector, they can't break anything anyway. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2595" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2595" bodyend="2595"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Dipoles_1a12ba4135bd9836483687c8180e8350d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__Dipole" kindref="compound">MR.Const_Dipole</ref></type>
+        <definition>unsafe MR.Const_Dipole MR.Const_Dipoles.this[MR.NodeId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.NodeId i]</name>
+        <qualifiedname>MR.Const_Dipoles.this[MR.NodeId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Dipoles::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2730" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2731" bodyend="2741"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a8bea2fd8461ca36af10a1d14e14f0809" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Dipoles.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Dipoles.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2516" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2516" bodyend="2524"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a7c15612694d19f80eecff40d2cfca49f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Dipoles.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Dipoles.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2525" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2525" bodyend="2525"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a7037da7c126ef6457004549d7424c62d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; <ref refid="classMR_1_1Const__Dipole" kindref="compound">MR.Const_Dipole</ref> &gt;</type>
+        <definition>IEnumerator&lt; MR.Const_Dipole &gt; MR.Const_Dipoles.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Dipoles.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2582" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2582" bodyend="2585"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1aea533e9afca68fe096af0ebb1a20d5db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Dipoles.Const_Dipoles</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Dipoles</name>
+        <qualifiedname>MR.Const_Dipoles.Const_Dipoles</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2623" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2623" bodyend="2629"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1ab758336957f9317ebd4d56e5796b1a07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Dipoles.Const_Dipoles</definition>
+        <argsstring>(MR._ByValue_Dipoles _other)</argsstring>
+        <name>Const_Dipoles</name>
+        <qualifiedname>MR.Const_Dipoles.Const_Dipoles</qualifiedname>
+        <param>
+          <type>MR._ByValue_Dipoles</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2634" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2634" bodyend="2641"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a08f0601241757d6d6d369bc690b56371" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Dipoles.Const_Dipoles</definition>
+        <argsstring>(Const_Dipoles _other)</argsstring>
+        <name>Const_Dipoles</name>
+        <qualifiedname>MR.Const_Dipoles.Const_Dipoles</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Dipoles" kindref="compound">Const_Dipoles</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2646" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2646" bodyend="2646"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a697922f1704095a6f95586ff3a033cd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Dipoles.Const_Dipoles</definition>
+        <argsstring>(Dipoles _other)</argsstring>
+        <name>Const_Dipoles</name>
+        <qualifiedname>MR.Const_Dipoles.Const_Dipoles</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Dipoles" kindref="compound">Dipoles</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2651" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2651" bodyend="2651"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1ac55b1daac851797970985e223b74c5cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Dipoles.Const_Dipoles</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>Const_Dipoles</name>
+        <qualifiedname>MR.Const_Dipoles.Const_Dipoles</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2657" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2657" bodyend="2663"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a075de37da6f03c290ab1f26688c9580c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Dipoles.Const_Dipoles</definition>
+        <argsstring>(ulong size, MR.Const_Dipole val)</argsstring>
+        <name>Const_Dipoles</name>
+        <qualifiedname>MR.Const_Dipoles.Const_Dipoles</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Dipole" kindref="compound">MR.Const_Dipole</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2669" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2669" bodyend="2676"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1af4e51b619c0ad0c52b73c3e9051f5ab8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Dipoles.Const_Dipoles</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt; vec)</argsstring>
+        <name>Const_Dipoles</name>
+        <qualifiedname>MR.Const_Dipoles.Const_Dipoles</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2682" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2682" bodyend="2689"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a99b7c9c5b95bc7847df06e8186561d1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_Dipoles.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR.Const_Dipoles.empty</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Dipoles_1a99b7c9c5b95bc7847df06e8186561d1b" kindref="member">MR.Dipoles.empty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2700" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2700" bodyend="2705"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a5c869cee1182ea6aa6cb493a10be414a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Dipoles.size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>MR.Const_Dipoles.size</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Dipoles_1a5c869cee1182ea6aa6cb493a10be414a" kindref="member">MR.Dipoles.size</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2710" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2710" bodyend="2715"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1acf82f41930b0a4f42760b7c95817917f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Dipoles.capacity</definition>
+        <argsstring>()</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR.Const_Dipoles.capacity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__Dipoles_1acf82f41930b0a4f42760b7c95817917f" kindref="member">MR.Dipoles.capacity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2720" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2720" bodyend="2725"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1afbcaeb3cec17950a1589ca113f30e985" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Dipole" kindref="compound">MR.Const_Dipole</ref></type>
+        <definition>unsafe MR.Const_Dipole MR.Const_Dipoles.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.Const_Dipoles.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1a5ee2d0a9170797f13b93a8f536a81016" kindref="member">MR.Dipoles.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2746" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2746" bodyend="2754"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1af68ededddea7a353279e3bde78bf03ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__Dipole" kindref="compound">MR.Const_Dipole</ref></type>
+        <definition>unsafe MR.Const_Dipole MR.Const_Dipoles.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.Const_Dipoles.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1aae4a4f0e4c74aa7fb0a151ce09b74fc4" kindref="member">MR.Dipoles.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2759" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2759" bodyend="2767"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a60c5b32c2b9a163bdaa5c2e3059e5e4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>unsafe MR.NodeId MR.Const_Dipoles.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR.Const_Dipoles.beginId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the first element Generated from method <computeroutput><ref refid="classMR_1_1Const__Dipoles_1a60c5b32c2b9a163bdaa5c2e3059e5e4d" kindref="member">MR.Dipoles.beginId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2773" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2773" bodyend="2778"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1ab55480471162b203498f372d3cd1ac22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>unsafe MR.NodeId MR.Const_Dipoles.backId</definition>
+        <argsstring>()</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR.Const_Dipoles.backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the <ref refid="classMR_1_1Const__Dipoles_1af68ededddea7a353279e3bde78bf03ea" kindref="member">back()</ref> element Generated from method <computeroutput><ref refid="classMR_1_1Const__Dipoles_1ab55480471162b203498f372d3cd1ac22" kindref="member">MR.Dipoles.backId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2784" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2784" bodyend="2789"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1ae21bbf5e190fa05fecdd4f25b9848fbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>unsafe MR.NodeId MR.Const_Dipoles.endId</definition>
+        <argsstring>()</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR.Const_Dipoles.endId</qualifiedname>
+        <briefdescription>
+<para>returns <ref refid="classMR_1_1Const__Dipoles_1ab55480471162b203498f372d3cd1ac22" kindref="member">backId()</ref> + 1 Generated from method <computeroutput><ref refid="classMR_1_1Const__Dipoles_1ae21bbf5e190fa05fecdd4f25b9848fbd" kindref="member">MR.Dipoles.endId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2795" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2795" bodyend="2800"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1ad4ac78e770737f17866fd6a86fa291c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.? <ref refid="classMR_1_1Const__Dipole" kindref="compound">Const_Dipole</ref></type>
+        <definition>unsafe MR.? Const_Dipole MR.Const_Dipoles.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Const_Dipoles.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Dipoles_1ac047d3c847f41ffea2a8a2546f1d4c8d" kindref="member">MR.Dipoles.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2805" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2805" bodyend="2814"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1ad0e74b450a52fbf998633d77b5d3c804" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_Dipoles.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_Dipoles.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__Dipoles_1ad0e74b450a52fbf998633d77b5d3c804" kindref="member">MR.Dipoles.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2820" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2820" bodyend="2825"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a8111ce20a7006606584927aed1bf25f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Dipoles.~Const_Dipoles</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Dipoles</name>
+        <qualifiedname>MR.Const_Dipoles.~Const_Dipoles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2526" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2526" bodyend="2526"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a7ee84a7cd084afd58e00545268822c13" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. MR.Const_Dipoles.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <qualifiedname>MR.Const_Dipoles.GetEnumerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2587" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2587" bodyend="2590"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a8fa22ea939397d37bcc065001b9a97b7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Dipoles.Const_Dipoles</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Dipoles</name>
+        <qualifiedname>MR.Const_Dipoles.Const_Dipoles</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2612" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2612" bodyend="2617"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Dipoles_1a4a798782142ce624ceb3fe0520360419" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_Dipoles.operator Const_Dipoles</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt; vec)</argsstring>
+        <name>operator Const_Dipoles</name>
+        <qualifiedname>MR.Const_Dipoles.operator Const_Dipoles</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRDipole &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std::vector&lt;T&gt; Generated from constructor <computeroutput><ref refid="classMR_1_1Dipoles_1af2c42fcb85f5f1954b960ff95d855284" kindref="member">MR.Dipoles.Dipoles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2695" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2695" bodyend="2695"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std::vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1Dipoles" kindref="compound">MR.Dipoles</ref></computeroutput>. This is the const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Dipoles</label>
+        <link refid="classMR_1_1Const__Dipoles"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.Dipoles</label>
+        <link refid="classMR_1_1Dipoles"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IEnumerable</label>
+      </node>
+      <node id="1">
+        <label>MR.Const_Dipoles</label>
+        <link refid="classMR_1_1Const__Dipoles"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="2510" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="2511" bodyend="2826"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Dipoles_1af68ededddea7a353279e3bde78bf03ea" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>back</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ab55480471162b203498f372d3cd1ac22" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a60c5b32c2b9a163bdaa5c2e3059e5e4d" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>beginId</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1acf82f41930b0a4f42760b7c95817917f" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>capacity</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a8fa22ea939397d37bcc065001b9a97b7" prot="package" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1aea533e9afca68fe096af0ebb1a20d5db" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ab758336957f9317ebd4d56e5796b1a07" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a08f0601241757d6d6d369bc690b56371" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a697922f1704095a6f95586ff3a033cd1" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ac55b1daac851797970985e223b74c5cd" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a075de37da6f03c290ab1f26688c9580c" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1af4e51b619c0ad0c52b73c3e9051f5ab8" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ad4ac78e770737f17866fd6a86fa291c6" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>data</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a8bea2fd8461ca36af10a1d14e14f0809" prot="protected" virt="virtual"><scope>MR::Const_Dipoles</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a7c15612694d19f80eecff40d2cfca49f" prot="public" virt="virtual"><scope>MR::Const_Dipoles</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a99b7c9c5b95bc7847df06e8186561d1b" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ae21bbf5e190fa05fecdd4f25b9848fbd" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1afbcaeb3cec17950a1589ca113f30e985" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>front</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a7037da7c126ef6457004549d7424c62d" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a7ee84a7cd084afd58e00545268822c13" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1ad0e74b450a52fbf998633d77b5d3c804" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a4a798782142ce624ceb3fe0520360419" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>operator Const_Dipoles</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a5c869cee1182ea6aa6cb493a10be414a" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>size</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a12ba4135bd9836483687c8180e8350d8" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>this[MR.NodeId i]</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a8cb87de067bda82efe9b501942508f66" prot="public" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>vec</name></member>
+      <member refid="classMR_1_1Const__Dipoles_1a8111ce20a7006606584927aed1bf25f5" prot="private" virt="non-virtual"><scope>MR::Const_Dipoles</scope><name>~Const_Dipoles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

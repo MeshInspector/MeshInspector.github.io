@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" kind="class" language="C#" prot="public">
     <compoundname>MR::FillingSurface::TPMS::VolumeParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.FillingSurface.TPMS.Const_VolumeParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams" prot="public" virt="non-virtual">MR.FillingSurface.TPMS.Const_VolumeParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a8ab90e6a2471df4fdac01d3cc142e9fd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" kindref="member">MR.FillingSurface.TPMS.Type</ref></type>
@@ -121,7 +121,7 @@
         <name>VolumeParams</name>
         <qualifiedname>MR.FillingSurface.TPMS.VolumeParams.VolumeParams</qualifiedname>
         <param>
-          <type>MR.FillingSurface.TPMS.Const_VolumeParams</type>
+          <type><ref refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams" kindref="compound">MR.FillingSurface.TPMS.Const_VolumeParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -159,7 +159,7 @@
         <name>assign</name>
         <qualifiedname>MR.FillingSurface.TPMS.VolumeParams.assign</qualifiedname>
         <param>
-          <type>MR.FillingSurface.TPMS.Const_VolumeParams</type>
+          <type><ref refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams" kindref="compound">MR.FillingSurface.TPMS.Const_VolumeParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -186,6 +186,7 @@
       </node>
       <node id="2">
         <label>MR.FillingSurface.TPMS.Const_VolumeParams</label>
+        <link refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -199,6 +200,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.FillingSurface.TPMS.VolumeParams</label>
         <link refid="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams"/>
@@ -207,9 +212,13 @@
       </node>
       <node id="2">
         <label>MR.FillingSurface.TPMS.Const_VolumeParams</label>
+        <link refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_type</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -221,7 +230,17 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="137" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="138" bodyend="207"/>
     <listofallmembers>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams_1a13bd81ef9a776ac7c0431aa155fbaff6" prot="protected" virt="non-virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>__ref_storage_frequency</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams_1a8925cbe33509460e4a8722493785bd74" prot="protected" virt="non-virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>__ref_storage_resolution</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams_1acf4be758f31af43e8e0cc935fc4b7783" prot="protected" virt="non-virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>__ref_storage_type</name></member>
       <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1ad1674c599cf851a6bac3d1c091e1a71e" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams_1ae1c180cdd3f89f0ac17ac8515d1b0f28" prot="package" virt="non-virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>Const_VolumeParams</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams_1a952259f3710434ef72e5d1f65f5b3831" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>Const_VolumeParams</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams_1a231f1b1c8688efe44a69dc33f1bf1993" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>Const_VolumeParams</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams_1a033c33804d1a3f119eec6991af96821c" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>Const_VolumeParams</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams_1aeabe8b2a5a80f25df226289a31e811dc" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>Const_VolumeParams</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams_1a8aebe545fc46c6504aa5a28466cd71c6" prot="protected" virt="virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1Const__VolumeParams_1a1cb9c82e5c4d41c9da96b2846cb53b6e" prot="public" virt="virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1aa70cc6e7adfa231d370f1bb37f3c611b" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>frequency</name></member>
       <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1ae3a38c44f82c03d998889ab45c4bc7c5" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>resolution</name></member>
       <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams_1a8ab90e6a2471df4fdac01d3cc142e9fd" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::VolumeParams</scope><name>type</name></member>

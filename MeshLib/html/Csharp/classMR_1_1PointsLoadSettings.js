@@ -1,7 +1,7 @@
 var classMR_1_1PointsLoadSettings =
 [
     [ "PointsLoadSettings", "classMR_1_1PointsLoadSettings.html#a7e68703b4dc939a2c9d13b17e8d1ab7f", null ],
-    [ "PointsLoadSettings", "classMR_1_1PointsLoadSettings.html#a76edbdd788a39a1c33d7c167147e17af", null ],
+    [ "PointsLoadSettings", "classMR_1_1PointsLoadSettings.html#af9faf3d3e9830f4250cfbf51af566801", null ],
     [ "PointsLoadSettings", "classMR_1_1PointsLoadSettings.html#a5902d940a4aaf6e349a9cf5bb3550ee3", null ],
     [ "PointsLoadSettings", "classMR_1_1PointsLoadSettings.html#ab6c4d981e60ec8cfdf72f6981e8dd167", null ],
     [ "PointsLoadSettings", "classMR_1_1PointsLoadSettings.html#ab3fd31ca11a9b36c390966180f354a36", null ],

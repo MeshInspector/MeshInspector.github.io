@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1XfBasedCache__MRBox3f" kind="class" language="C#" prot="public">
     <compoundname>MR::XfBasedCache_MRBox3f</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_XfBasedCache_MRBox3f</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__XfBasedCache__MRBox3f" prot="public" virt="non-virtual">MR.Const_XfBasedCache_MRBox3f</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1XfBasedCache__MRBox3f_1aa9a17bab33fde725f5e63c351cab3a39" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>XfBasedCache_MRBox3f</name>
         <qualifiedname>MR.XfBasedCache_MRBox3f.XfBasedCache_MRBox3f</qualifiedname>
         <param>
-          <type>MR.Const_XfBasedCache_MRBox3f</type>
+          <type><ref refid="classMR_1_1Const__XfBasedCache__MRBox3f" kindref="compound">MR.Const_XfBasedCache_MRBox3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;::XfBasedCache</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::XfBasedCache&amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;::XfBasedCache</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;::XfBasedCache</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::XfBasedCache&amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;::XfBasedCache</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>assign</name>
         <qualifiedname>MR.XfBasedCache_MRBox3f.assign</qualifiedname>
         <param>
-          <type>MR.Const_XfBasedCache_MRBox3f</type>
+          <type><ref refid="classMR_1_1Const__XfBasedCache__MRBox3f" kindref="compound">MR.Const_XfBasedCache_MRBox3f</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::XfBasedCache&amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -115,7 +115,7 @@
           <declname>t</declname>
         </param>
         <briefdescription>
-<para>sets new transformation and the object Generated from method <computeroutput>MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;<ref refid="classMR_1_1XfBasedCache__MRBox3f_1a1587cbafac478bdfe7ff2b0cd8451189" kindref="member">set</ref></computeroutput>. </para>
+<para>sets new transformation and the object Generated from method <computeroutput>MR::XfBasedCache&amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;<ref refid="classMR_1_1XfBasedCache__MRBox3f_1a1587cbafac478bdfe7ff2b0cd8451189" kindref="member">set</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -130,7 +130,7 @@
         <name>reset</name>
         <qualifiedname>MR.XfBasedCache_MRBox3f.reset</qualifiedname>
         <briefdescription>
-<para>clears stored object Generated from method <computeroutput>MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;<ref refid="classMR_1_1XfBasedCache__MRBox3f_1a7ea027bc30a34dbcce72ea438b34de28" kindref="member">reset</ref></computeroutput>. </para>
+<para>clears stored object Generated from method <computeroutput>MR::XfBasedCache&amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;<ref refid="classMR_1_1XfBasedCache__MRBox3f_1a7ea027bc30a34dbcce72ea438b34de28" kindref="member">reset</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -140,7 +140,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>optional T-object container, which stores a transformation as well for which the object is valid Generated from class <computeroutput>MR::XfBasedCache&amp;amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>optional T-object container, which stores a transformation as well for which the object is valid Generated from class <computeroutput>MR::XfBasedCache&amp;lt;<ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -153,6 +153,7 @@
       </node>
       <node id="2">
         <label>MR.Const_XfBasedCache_MRBox3f</label>
+        <link refid="classMR_1_1Const__XfBasedCache__MRBox3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -174,6 +175,7 @@
       </node>
       <node id="2">
         <label>MR.Const_XfBasedCache_MRBox3f</label>
+        <link refid="classMR_1_1Const__XfBasedCache__MRBox3f"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -189,6 +191,13 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" line="74" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRXfBasedCache.cs" bodystart="75" bodyend="140"/>
     <listofallmembers>
       <member refid="classMR_1_1XfBasedCache__MRBox3f_1a32900f8b614e428d9c827fff4021a466" prot="public" virt="non-virtual"><scope>MR::XfBasedCache_MRBox3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1a0f025338fb635dd0fc542e436e6e2105" prot="package" virt="non-virtual"><scope>MR::XfBasedCache_MRBox3f</scope><name>Const_XfBasedCache_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1a444bbd28fdf7fbd236f7db95cab81629" prot="public" virt="non-virtual"><scope>MR::XfBasedCache_MRBox3f</scope><name>Const_XfBasedCache_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1ad20754cb02609a7882e6e912f632f918" prot="public" virt="non-virtual"><scope>MR::XfBasedCache_MRBox3f</scope><name>Const_XfBasedCache_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1ae8fc22adf1d3662fa4a5b10b795102a8" prot="public" virt="non-virtual"><scope>MR::XfBasedCache_MRBox3f</scope><name>Const_XfBasedCache_MRBox3f</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1acfd1ec937703456325070517ea344b20" prot="protected" virt="virtual"><scope>MR::XfBasedCache_MRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1aec6bf653fff6540b474c1b49af5d6b8a" prot="public" virt="virtual"><scope>MR::XfBasedCache_MRBox3f</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__XfBasedCache__MRBox3f_1abb351ae52191a94c922db6bf03f567a5" prot="public" virt="non-virtual"><scope>MR::XfBasedCache_MRBox3f</scope><name>get</name></member>
       <member refid="classMR_1_1XfBasedCache__MRBox3f_1a7ea027bc30a34dbcce72ea438b34de28" prot="public" virt="non-virtual"><scope>MR::XfBasedCache_MRBox3f</scope><name>reset</name></member>
       <member refid="classMR_1_1XfBasedCache__MRBox3f_1a1587cbafac478bdfe7ff2b0cd8451189" prot="public" virt="non-virtual"><scope>MR::XfBasedCache_MRBox3f</scope><name>set</name></member>
       <member refid="classMR_1_1XfBasedCache__MRBox3f_1aa9a17bab33fde725f5e63c351cab3a39" prot="package" virt="non-virtual"><scope>MR::XfBasedCache_MRBox3f</scope><name>XfBasedCache_MRBox3f</name></member>

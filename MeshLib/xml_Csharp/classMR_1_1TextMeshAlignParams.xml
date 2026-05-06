@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1TextMeshAlignParams" kind="class" language="C#" prot="public">
     <compoundname>MR::TextMeshAlignParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_TextMeshAlignParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__TextMeshAlignParams" prot="public" virt="non-virtual">MR.Const_TextMeshAlignParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1TextMeshAlignParams_1ad27be9c1cc613b7722f48874b77cc86d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MR.MeshTriPoint</ref></type>
@@ -295,7 +295,7 @@
         <name>TextMeshAlignParams</name>
         <qualifiedname>MR.TextMeshAlignParams.TextMeshAlignParams</qualifiedname>
         <param>
-          <type>Const_TextMeshAlignParams</type>
+          <type><ref refid="classMR_1_1Const__TextMeshAlignParams" kindref="compound">Const_TextMeshAlignParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -360,6 +360,7 @@
       </node>
       <node id="2">
         <label>MR.Const_TextMeshAlignParams</label>
+        <link refid="classMR_1_1Const__TextMeshAlignParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -373,6 +374,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.TextMeshAlignParams</label>
         <link refid="classMR_1_1TextMeshAlignParams"/>
@@ -381,9 +386,17 @@
       </node>
       <node id="2">
         <label>MR.Const_TextMeshAlignParams</label>
+        <link refid="classMR_1_1Const__TextMeshAlignParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_textNormal</edgelabel>
+          <edgelabel>__ref_storage_align</edgelabel>
+          <edgelabel>__ref_storage_direction</edgelabel>
+          <edgelabel>__ref_storage_pivotPoint</edgelabel>
+          <edgelabel>__ref_storage_symbolsDistanceAdditionalOffset</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -395,12 +408,33 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" line="280" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCSymbolMesh/MRAlignTextToMesh.cs" bodystart="281" bodyend="446"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1acea1c7f50401f4d2e08029c21de25323" prot="protected" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>__ptr_storage_textNormal</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1a5a1cf22955ae7a90a59a46ae0c1a7f2e" prot="protected" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>__ref_storage_align</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1a43066d8cf03efae8a540c86caf102084" prot="protected" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>__ref_storage_direction</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1ab047cb08620af82e1be6bf20ee34c3fb" prot="protected" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>__ref_storage_fontBasedSizeCalc</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1a4c1605c109843058816dfbc01ad5b792" prot="protected" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>__ref_storage_fontDetalization</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1aba437eaf58ba08d0c1807d83541fb098" prot="protected" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>__ref_storage_fontHeight</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1ac75d6cb335126e3a94f47b89b00a794d" prot="protected" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>__ref_storage_MaxGeneratedFontHeight</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1a95b4e5b1a9597737c3c89e2bd09e25f0" prot="protected" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>__ref_storage_pivotPoint</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1a18c9a94b853270af99d70c5424786ac2" prot="protected" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>__ref_storage_surfaceOffset</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1a13eabe983cee671086b59751ac4b2b1e" prot="protected" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>__ref_storage_symbolsDistanceAdditionalOffset</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1a1bb45bb07958df3fbc75d9bd99623212" prot="protected" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>__ref_storage_symbolsThicknessOffsetModifier</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1ac1a0f1fc0f7a81d90b1af8d0c9e16bb4" prot="protected" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>__ref_storage_textMaximumMovement</name></member>
       <member refid="classMR_1_1TextMeshAlignParams_1ac4f3dc3f912694a811e17a5d4144404c" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>align</name></member>
       <member refid="classMR_1_1TextMeshAlignParams_1a9046bca00ac5aa23fc3f96b2127cd409" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1a4ca23fe7e9389761d88139a15f86d39f" prot="package" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>Const_TextMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1a3ea8b0c44217fe21239acaf6c9a65a6a" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>Const_TextMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1a6e5571b83ce9f4e19b693300e02cc335" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>Const_TextMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1aed6241010dcf588262659d96d0e62746" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>Const_TextMeshAlignParams</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1aa0c6d9ab3cfa36f05fc022bf6a796c04" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>Const_TextMeshAlignParams</name></member>
       <member refid="classMR_1_1TextMeshAlignParams_1a60fd69d1f38e07a8ff186da1377bb12c" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>direction</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1a4c2ad7ca9647e554f5e25883d126065f" prot="protected" virt="virtual"><scope>MR::TextMeshAlignParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1a4e3e0357f6e6c3c1c14ae64ca8d546d1" prot="public" virt="virtual"><scope>MR::TextMeshAlignParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1TextMeshAlignParams_1a5a14dceb177885e449fb5f75cb73af5c" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>fontBasedSizeCalc</name></member>
       <member refid="classMR_1_1TextMeshAlignParams_1ab613d0d40bacc2c896ce242a398f613b" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>fontDetalization</name></member>
       <member refid="classMR_1_1TextMeshAlignParams_1ab66897160740c738a250a43f2e5d627a" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>fontHeight</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1aae8f1c12b6a4d67b2a182f9eef0f7204" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>MaxGeneratedFontHeight</name></member>
+      <member refid="classMR_1_1Const__TextMeshAlignParams_1a91afc9d42796beb887f4bcadb55f1ed6" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>operator MR.Const_SymbolMeshParams</name></member>
       <member refid="classMR_1_1TextMeshAlignParams_1a2a837fa81595f8d2396d10dc5a9b188d" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>operator MR.SymbolMeshParams</name></member>
       <member refid="classMR_1_1TextMeshAlignParams_1ae40ba6fdc734f559f4aeaeee501ac89e" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>pathToFontFile</name></member>
       <member refid="classMR_1_1TextMeshAlignParams_1a1eead220a80f5443cf21994b7c478dcc" prot="public" virt="non-virtual"><scope>MR::TextMeshAlignParams</scope><name>pivotPoint</name></member>

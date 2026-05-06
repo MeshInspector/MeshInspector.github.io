@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshFromVoxelsPostProcessingParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshFromVoxelsPostProcessingParams</compoundname>
+    <includes refid="MRRebuildMesh_8h" local="no">MRVoxels/MRRebuildMesh.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga4667a0c5821308543fc4bb22fe0b5a75" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1gab54c7eea81e00c39b9abb9df575d6d7f" kind="variable"><name>reduceAngleNumIters</name></member>
+      <member refid="group__GeneralGroup_1ga68c5ac664611ddc71939e4e09e549fde" kind="variable"><name>decimate</name></member>
+      <member refid="group__GeneralGroup_1ga3a49bffc03d6fbcb0a6205cc05c89873" kind="variable"><name>tinyEdgeLength</name></member>
+      <member refid="group__GeneralGroup_1gad1e312886fdda5bff521039d292c760c" kind="variable"><name>sharpEdges</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRVoxels/MRRebuildMesh.h" line="75" column="1" bodyfile="MRVoxels/MRRebuildMesh.h" bodystart="76" bodyend="94"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga68c5ac664611ddc71939e4e09e549fde" prot="public" virt="non-virtual"><scope>MR::MeshFromVoxelsPostProcessingParams</scope><name>decimate</name></member>
+      <member refid="group__GeneralGroup_1gab54c7eea81e00c39b9abb9df575d6d7f" prot="public" virt="non-virtual"><scope>MR::MeshFromVoxelsPostProcessingParams</scope><name>reduceAngleNumIters</name></member>
+      <member refid="group__GeneralGroup_1gad1e312886fdda5bff521039d292c760c" prot="public" virt="non-virtual"><scope>MR::MeshFromVoxelsPostProcessingParams</scope><name>sharpEdges</name></member>
+      <member refid="group__GeneralGroup_1ga3a49bffc03d6fbcb0a6205cc05c89873" prot="public" virt="non-virtual"><scope>MR::MeshFromVoxelsPostProcessingParams</scope><name>tinyEdgeLength</name></member>
+      <member refid="group__GeneralGroup_1ga4667a0c5821308543fc4bb22fe0b5a75" prot="public" virt="non-virtual"><scope>MR::MeshFromVoxelsPostProcessingParams</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

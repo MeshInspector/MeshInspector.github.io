@@ -3,6 +3,8 @@
   <compounddef id="classMR_1_1Features_1_1Primitives" kind="class" language="C#" prot="public">
     <compoundname>MR::Features::Primitives</compoundname>
     <innerclass refid="classMR_1_1Features_1_1Primitives_1_1ConeSegment" prot="public">MR::Features::Primitives::ConeSegment</innerclass>
+    <innerclass refid="classMR_1_1Features_1_1Primitives_1_1Const__ConeSegment" prot="public">MR::Features::Primitives::Const_ConeSegment</innerclass>
+    <innerclass refid="classMR_1_1Features_1_1Primitives_1_1Const__Plane" prot="public">MR::Features::Primitives::Const_Plane</innerclass>
     <innerclass refid="classMR_1_1Features_1_1Primitives_1_1Plane" prot="public">MR::Features::Primitives::Plane</innerclass>
     <briefdescription>
     </briefdescription>

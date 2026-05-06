@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SymMatrix4__UnsignedChar" kind="class" language="C#" prot="public">
     <compoundname>MR::SymMatrix4_UnsignedChar</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SymMatrix4_UnsignedChar</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SymMatrix4__UnsignedChar" prot="public" virt="non-virtual">MR.Const_SymMatrix4_UnsignedChar</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1SymMatrix4__UnsignedChar_1ae223c73900d3c2d09794c30edbaf22d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref byte</type>
@@ -202,11 +202,11 @@
         <name>SymMatrix4_UnsignedChar</name>
         <qualifiedname>MR.SymMatrix4_UnsignedChar.SymMatrix4_UnsignedChar</qualifiedname>
         <param>
-          <type>MR.Const_SymMatrix4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__SymMatrix4__UnsignedChar" kindref="compound">MR.Const_SymMatrix4_UnsignedChar</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SymMatrix4&amp;amp;lt;unsigned char&amp;amp;gt;::SymMatrix4</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SymMatrix4&amp;lt;unsigned char&amp;gt;::SymMatrix4</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -225,7 +225,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SymMatrix4&amp;amp;lt;unsigned char&amp;amp;gt;::SymMatrix4</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SymMatrix4&amp;lt;unsigned char&amp;gt;::SymMatrix4</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -240,11 +240,11 @@
         <name>assign</name>
         <qualifiedname>MR.SymMatrix4_UnsignedChar.assign</qualifiedname>
         <param>
-          <type>MR.Const_SymMatrix4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__SymMatrix4__UnsignedChar" kindref="compound">MR.Const_SymMatrix4_UnsignedChar</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SymMatrix4&amp;amp;lt;unsigned char&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SymMatrix4&amp;lt;unsigned char&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -259,11 +259,11 @@
         <name>addAssign</name>
         <qualifiedname>MR.SymMatrix4_UnsignedChar.addAssign</qualifiedname>
         <param>
-          <type>MR.Const_SymMatrix4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__SymMatrix4__UnsignedChar" kindref="compound">MR.Const_SymMatrix4_UnsignedChar</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SymMatrix4&amp;amp;lt;unsigned char&amp;amp;gt;::operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SymMatrix4&amp;lt;unsigned char&amp;gt;::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -278,11 +278,11 @@
         <name>subAssign</name>
         <qualifiedname>MR.SymMatrix4_UnsignedChar.subAssign</qualifiedname>
         <param>
-          <type>MR.Const_SymMatrix4_UnsignedChar</type>
+          <type><ref refid="classMR_1_1Const__SymMatrix4__UnsignedChar" kindref="compound">MR.Const_SymMatrix4_UnsignedChar</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SymMatrix4&amp;amp;lt;unsigned char&amp;amp;gt;::operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SymMatrix4&amp;lt;unsigned char&amp;gt;::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -301,7 +301,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SymMatrix4&amp;amp;lt;unsigned char&amp;amp;gt;::operator*=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SymMatrix4&amp;lt;unsigned char&amp;gt;::operator*=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -320,7 +320,7 @@
           <declname>b</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SymMatrix4&amp;amp;lt;unsigned char&amp;amp;gt;::operator/=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SymMatrix4&amp;lt;unsigned char&amp;gt;::operator/=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -330,7 +330,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>symmetric 4x4 matrix Generated from class <computeroutput>MR::SymMatrix4&amp;amp;lt;unsigned char&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>symmetric 4x4 matrix Generated from class <computeroutput>MR::SymMatrix4&amp;lt;unsigned char&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -343,6 +343,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SymMatrix4_UnsignedChar</label>
+        <link refid="classMR_1_1Const__SymMatrix4__UnsignedChar"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -369,6 +370,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SymMatrix4_UnsignedChar</label>
+        <link refid="classMR_1_1Const__SymMatrix4__UnsignedChar"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -388,15 +390,39 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" line="2551" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSymMatrix4.cs" bodystart="2552" bodyend="2703"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a6c4c43156cc9fbf7606dda8cd34b7e11" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>__ref_storage_ww</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1ae8a2f56b3e4bb8abe767a7dc0fb65ac6" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>__ref_storage_xw</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a2e3c4fb44b03c8c1ad73c4b351925770" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>__ref_storage_xx</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a0a8a29428e51585ae8fb82ced2aaeb50" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>__ref_storage_xy</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1acb0fb02d67fff5b0e107855dcb64a879" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>__ref_storage_xz</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a49d01bd2b5723459d3ec88d2d794bb23" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>__ref_storage_yw</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1af0edd639de816819dae96c161b6008cf" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>__ref_storage_yy</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a193924be409745013c9e9a850cb55776" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>__ref_storage_yz</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1ace705ba6139d6519e3f6ed7b5b6b5fd6" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>__ref_storage_zw</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1aa36810a632f959693538e4e10f64fb79" prot="protected" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>__ref_storage_zz</name></member>
       <member refid="classMR_1_1SymMatrix4__UnsignedChar_1af7ad727ddfc2c8cd9d243bfe3e0d63d1" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>addAssign</name></member>
       <member refid="classMR_1_1SymMatrix4__UnsignedChar_1a5d6435960eaca345ef9f09b31b678b85" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a444c074c042d25c77e92864ed1282d10" prot="package" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>Const_SymMatrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1ac56ba9391be75459f9fe82f0d83055a7" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>Const_SymMatrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1ac945ace25d65be0f2d3194a5d54c2860" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>Const_SymMatrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a2165416f059cdb78266fda6d048957cb" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>Const_SymMatrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a0c0d22816c77128bc0b497c75b157a2a" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>diagonal</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a4376551a200a553261fb61d6d57e12e9" prot="protected" virt="virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a682c4d529f5437fb2d45fe70daf4eea7" prot="public" virt="virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>Dispose</name></member>
       <member refid="classMR_1_1SymMatrix4__UnsignedChar_1a398b3c137cd55de73854ce5fd4be210d" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>divAssign</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1aa0d1bee8641b4963c57664f0ded9cc02" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1aa9db308493efe44e19eea6e5a80f2fc6" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a39f49e00a9ba91093019cce2505d9688" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>identity</name></member>
       <member refid="classMR_1_1SymMatrix4__UnsignedChar_1aec1d5e18ca565fae2f680dcfae57a84e" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a52dbaa21bb0aedb2e8db3cf0fa749d36" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>normSq</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1abba559653a9f554404eb2d88bd58c94e" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a401fad4359c6eaeaefe5b1a3c068a917" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>operator==</name></member>
       <member refid="classMR_1_1SymMatrix4__UnsignedChar_1abdd668c5a9a0e004bcc2dc0ecd9108c8" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>subAssign</name></member>
       <member refid="classMR_1_1SymMatrix4__UnsignedChar_1aa540fd8c4c81225721a3a2d9c45405e5" prot="package" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>SymMatrix4_UnsignedChar</name></member>
       <member refid="classMR_1_1SymMatrix4__UnsignedChar_1ae0c67503a62099ab9cb21faad4b6e9fe" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>SymMatrix4_UnsignedChar</name></member>
       <member refid="classMR_1_1SymMatrix4__UnsignedChar_1aef0b053caa5fb9d3bcbfe12beeeeaa27" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>SymMatrix4_UnsignedChar</name></member>
       <member refid="classMR_1_1SymMatrix4__UnsignedChar_1a5ff816fe721f83bb969208b8e6610e14" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>SymMatrix4_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__SymMatrix4__UnsignedChar_1a553d9b19029e5997782a27a5e47b2ab8" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>trace</name></member>
       <member refid="classMR_1_1SymMatrix4__UnsignedChar_1a710c951335981b68e52bf72b4cc05aa7" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>ww</name></member>
       <member refid="classMR_1_1SymMatrix4__UnsignedChar_1aa522f85b305081bea5f6668316c41ddd" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>xw</name></member>
       <member refid="classMR_1_1SymMatrix4__UnsignedChar_1ae223c73900d3c2d09794c30edbaf22d9" prot="public" virt="non-virtual"><scope>MR::SymMatrix4_UnsignedChar</scope><name>xx</name></member>

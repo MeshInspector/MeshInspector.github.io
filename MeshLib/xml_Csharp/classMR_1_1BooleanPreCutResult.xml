@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1BooleanPreCutResult" kind="class" language="C#" prot="public">
     <compoundname>MR::BooleanPreCutResult</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_BooleanPreCutResult</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__BooleanPreCutResult" prot="public" virt="non-virtual">MR.Const_BooleanPreCutResult</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1BooleanPreCutResult_1a7c03684c0d1803ea8482a97aa5615f4c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="516" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="516" bodyend="516"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="518" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="518" bodyend="518"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1BooleanPreCutResult_1af16cc3517fc72a4a4ffd89119df82ffe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe MR.Std.Vector_MROneMeshContour</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="518" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="518" bodyend="518"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="520" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="520" bodyend="520"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="544" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="544" bodyend="548"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="546" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="546" bodyend="550"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="554" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="554" bodyend="560"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="556" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="556" bodyend="562"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanPreCutResult_1a97845352bcc67158449f376daacbd1e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="565" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="565" bodyend="573"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="567" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="567" bodyend="575"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanPreCutResult_1af902c0299cad7168b2894edae0f91223" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="578" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="578" bodyend="585"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="580" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="580" bodyend="587"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanPreCutResult_1a467dcde1c3f18ddb767d6df39fc4ed66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -122,7 +122,7 @@
         <name>BooleanPreCutResult</name>
         <qualifiedname>MR.BooleanPreCutResult.BooleanPreCutResult</qualifiedname>
         <param>
-          <type>Const_BooleanPreCutResult</type>
+          <type><ref refid="classMR_1_1Const__BooleanPreCutResult" kindref="compound">Const_BooleanPreCutResult</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="590" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="590" bodyend="590"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="592" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="592" bodyend="592"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanPreCutResult_1aac3507e8def6bc3c0e1acf7b3dff3783" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="595" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="595" bodyend="595"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="597" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="597" bodyend="597"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1BooleanPreCutResult_1ad95b7991fa790ca489f351c3dd21c528" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1BooleanPreCutResult" kindref="compound">MR.BooleanPreCutResult</ref></type>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="600" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="600" bodyend="607"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="602" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="602" bodyend="609"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -187,6 +187,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BooleanPreCutResult</label>
+        <link refid="classMR_1_1Const__BooleanPreCutResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -208,6 +209,7 @@
       </node>
       <node id="2">
         <label>MR.Const_BooleanPreCutResult</label>
+        <link refid="classMR_1_1Const__BooleanPreCutResult"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -220,7 +222,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="514" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="515" bodyend="608"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="516" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="517" bodyend="610"/>
     <listofallmembers>
       <member refid="classMR_1_1BooleanPreCutResult_1ad95b7991fa790ca489f351c3dd21c528" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>assign</name></member>
       <member refid="classMR_1_1BooleanPreCutResult_1ab50085855e8904add5805a824700b346" prot="package" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>BooleanPreCutResult</name></member>
@@ -229,7 +231,15 @@
       <member refid="classMR_1_1BooleanPreCutResult_1af902c0299cad7168b2894edae0f91223" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>BooleanPreCutResult</name></member>
       <member refid="classMR_1_1BooleanPreCutResult_1a467dcde1c3f18ddb767d6df39fc4ed66" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>BooleanPreCutResult</name></member>
       <member refid="classMR_1_1BooleanPreCutResult_1aac3507e8def6bc3c0e1acf7b3dff3783" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1af3a61bc319ba0b786a81a20f6a2a9bb6" prot="package" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1a96703be45f17d2c131ebd8dfa16478d4" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1ad359bc35237df735250c717ffb171778" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1ac5f6336bbeea85c865a65960ed28fee9" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1a900c93e8427de4b8f059c88afe36fb44" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1adc462e98edff664992f36e5cdd1b33a1" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>Const_BooleanPreCutResult</name></member>
       <member refid="classMR_1_1BooleanPreCutResult_1af16cc3517fc72a4a4ffd89119df82ffe" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>contours</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1a3962bc1a34ef5f4c851661cc31fb0125" prot="protected" virt="virtual"><scope>MR::BooleanPreCutResult</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BooleanPreCutResult_1ac2528e2c7d51f2225833e15d9de32a38" prot="public" virt="virtual"><scope>MR::BooleanPreCutResult</scope><name>Dispose</name></member>
       <member refid="classMR_1_1BooleanPreCutResult_1a7c03684c0d1803ea8482a97aa5615f4c" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>mesh</name></member>
     </listofallmembers>
   </compounddef>

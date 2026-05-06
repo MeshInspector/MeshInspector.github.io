@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Ball2d" kind="class" language="C#" prot="public">
     <compoundname>MR::Ball2d</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Ball2d</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Ball2d" prot="public" virt="non-virtual">MR.Const_Ball2d</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Ball2d_1abc44fb6101d36de7be6f7ab86d4e9ff0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
@@ -105,7 +105,7 @@
         <name>Ball2d</name>
         <qualifiedname>MR.Ball2d.Ball2d</qualifiedname>
         <param>
-          <type>MR.Const_Ball2d</type>
+          <type><ref refid="classMR_1_1Const__Ball2d" kindref="compound">MR.Const_Ball2d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.Ball2d.assign</qualifiedname>
         <param>
-          <type>MR.Const_Ball2d</type>
+          <type><ref refid="classMR_1_1Const__Ball2d" kindref="compound">MR.Const_Ball2d</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Ball2d</label>
+        <link refid="classMR_1_1Const__Ball2d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -183,6 +184,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.Ball2d</label>
         <link refid="classMR_1_1Ball2d"/>
@@ -191,9 +196,13 @@
       </node>
       <node id="2">
         <label>MR.Const_Ball2d</label>
+        <link refid="classMR_1_1Const__Ball2d"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ref_storage_center</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -205,6 +214,9 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="904" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="905" bodyend="975"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Ball2d_1ace3b76b53ef3fa15b9b762099f707ea9" prot="protected" virt="non-virtual"><scope>MR::Ball2d</scope><name>__ref_storage_center</name></member>
+      <member refid="classMR_1_1Const__Ball2d_1af8c37c9c1db1fbc35a784aa2305ceda0" prot="protected" virt="non-virtual"><scope>MR::Ball2d</scope><name>__ref_storage_Elements</name></member>
+      <member refid="classMR_1_1Const__Ball2d_1a1fbe5bb46013de307412897ca0f2f0ab" prot="protected" virt="non-virtual"><scope>MR::Ball2d</scope><name>__ref_storage_radiusSq</name></member>
       <member refid="classMR_1_1Ball2d_1a8862684a97d370ca3f83a4755c8fa005" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>assign</name></member>
       <member refid="classMR_1_1Ball2d_1a56c4d4f800d0afc0baa251df0d65ea71" prot="package" virt="non-virtual"><scope>MR::Ball2d</scope><name>Ball2d</name></member>
       <member refid="classMR_1_1Ball2d_1ac28ca766a9ae0486e66609c96750acae" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>Ball2d</name></member>
@@ -212,6 +224,16 @@
       <member refid="classMR_1_1Ball2d_1a629c7b0363b324f0eb679408a461aaa7" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>Ball2d</name></member>
       <member refid="classMR_1_1Ball2d_1a4373f3d40d28a7faddaacf7a9a2b98a8" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>Ball2d</name></member>
       <member refid="classMR_1_1Ball2d_1abc44fb6101d36de7be6f7ab86d4e9ff0" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>center</name></member>
+      <member refid="classMR_1_1Const__Ball2d_1aaa8523d50eb4390a39dc0165ad2090af" prot="package" virt="non-virtual"><scope>MR::Ball2d</scope><name>Const_Ball2d</name></member>
+      <member refid="classMR_1_1Const__Ball2d_1a4562419a17785095e5d9cdde2e2fdb35" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>Const_Ball2d</name></member>
+      <member refid="classMR_1_1Const__Ball2d_1a7043042092eb3726ca46a29c7eeecb2e" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>Const_Ball2d</name></member>
+      <member refid="classMR_1_1Const__Ball2d_1a9123cde5b5d61dc2641d9c5f83d9bfed" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>Const_Ball2d</name></member>
+      <member refid="classMR_1_1Const__Ball2d_1a96e246ba1f27200b04ee7626e332d4c6" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>Const_Ball2d</name></member>
+      <member refid="classMR_1_1Const__Ball2d_1a9db423f53b23e709fb76408b531a2a72" prot="protected" virt="virtual"><scope>MR::Ball2d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Ball2d_1abc6d5f69b59b296ea8a64323f7276b85" prot="public" virt="virtual"><scope>MR::Ball2d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Ball2d_1af736cbf8acd7916d1523c1617b6cb5ae" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>Elements</name></member>
+      <member refid="classMR_1_1Const__Ball2d_1a9388e3c55d5ddaa569500f2c69093e7f" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>inside</name></member>
+      <member refid="classMR_1_1Const__Ball2d_1afdef1d99458604ff8dcac8c96df8f3da" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>outside</name></member>
       <member refid="classMR_1_1Ball2d_1a89effc589f13b59a90e2fa6c3c795f92" prot="public" virt="non-virtual"><scope>MR::Ball2d</scope><name>radiusSq</name></member>
     </listofallmembers>
   </compounddef>

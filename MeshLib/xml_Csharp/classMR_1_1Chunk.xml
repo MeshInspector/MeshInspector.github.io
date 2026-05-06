@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Chunk" kind="class" language="C#" prot="public">
     <compoundname>MR::Chunk</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Chunk</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Chunk" prot="public" virt="non-virtual">MR.Const_Chunk</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Chunk_1a1a73cf60e35d957c7671524228bfec2d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref ulong</type>
@@ -105,7 +105,7 @@
         <name>Chunk</name>
         <qualifiedname>MR.Chunk.Chunk</qualifiedname>
         <param>
-          <type>MR.Const_Chunk</type>
+          <type><ref refid="classMR_1_1Const__Chunk" kindref="compound">MR.Const_Chunk</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -143,7 +143,7 @@
         <name>assign</name>
         <qualifiedname>MR.Chunk.assign</qualifiedname>
         <param>
-          <type>MR.Const_Chunk</type>
+          <type><ref refid="classMR_1_1Const__Chunk" kindref="compound">MR.Const_Chunk</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Chunk</label>
+        <link refid="classMR_1_1Const__Chunk"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -191,6 +192,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Chunk</label>
+        <link refid="classMR_1_1Const__Chunk"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -205,12 +207,21 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" line="111" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChunkIterator.cs" bodystart="112" bodyend="182"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Chunk_1aa834992d64329c33187f545c3ef007ff" prot="protected" virt="non-virtual"><scope>MR::Chunk</scope><name>__ref_storage_offset</name></member>
+      <member refid="classMR_1_1Const__Chunk_1a4fbdf50760770fd2312a29fb518a92e0" prot="protected" virt="non-virtual"><scope>MR::Chunk</scope><name>__ref_storage_size</name></member>
       <member refid="classMR_1_1Chunk_1aaf7a7ef75c29cf295d2c0c28b6ae38d5" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>assign</name></member>
       <member refid="classMR_1_1Chunk_1abd173c261792a7292a559caefb8443e0" prot="package" virt="non-virtual"><scope>MR::Chunk</scope><name>Chunk</name></member>
       <member refid="classMR_1_1Chunk_1a6cbe636e45c5abbb469191e5a9d1ab1d" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>Chunk</name></member>
       <member refid="classMR_1_1Chunk_1ac40d843e5d882c6d59f97670dc975bf6" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>Chunk</name></member>
       <member refid="classMR_1_1Chunk_1a0e854c45e40389a7c336c8857f6b64fc" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>Chunk</name></member>
       <member refid="classMR_1_1Chunk_1a89ba1d301e26989c66c34a110190f358" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>Chunk</name></member>
+      <member refid="classMR_1_1Const__Chunk_1aca029394444452b7f9d41c95d0468a66" prot="package" virt="non-virtual"><scope>MR::Chunk</scope><name>Const_Chunk</name></member>
+      <member refid="classMR_1_1Const__Chunk_1af40bacbceb535898891236c14ee22231" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>Const_Chunk</name></member>
+      <member refid="classMR_1_1Const__Chunk_1a86d5da46ac34925a50a230515f3b85ff" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>Const_Chunk</name></member>
+      <member refid="classMR_1_1Const__Chunk_1a9712a0458aad8b151e11544839c5469f" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>Const_Chunk</name></member>
+      <member refid="classMR_1_1Const__Chunk_1a59cfa1b22fa8430b5ffe1b8d87fef236" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>Const_Chunk</name></member>
+      <member refid="classMR_1_1Const__Chunk_1aa07e399099fc936b7eae16b4b57f35ea" prot="protected" virt="virtual"><scope>MR::Chunk</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Chunk_1a9d8cb797b9b6e89d860201e4decda04f" prot="public" virt="virtual"><scope>MR::Chunk</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Chunk_1a1a73cf60e35d957c7671524228bfec2d" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>offset</name></member>
       <member refid="classMR_1_1Chunk_1a2ef2694f3e24e2e3e6eabc6fae97668c" prot="public" virt="non-virtual"><scope>MR::Chunk</scope><name>size</name></member>
     </listofallmembers>

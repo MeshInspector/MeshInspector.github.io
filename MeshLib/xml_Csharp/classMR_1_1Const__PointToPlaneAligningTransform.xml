@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__PointToPlaneAligningTransform" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_PointToPlaneAligningTransform</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1PointToPlaneAligningTransform" prot="public" virt="non-virtual">MR.PointToPlaneAligningTransform</derivedcompoundref>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1abbc4c47e28ef91c3c4ea48b7d06ce1ac" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_PointToPlaneAligningTransform.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="18" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="18" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a492d61a05550238b58115dce97a615a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_PointToPlaneAligningTransform.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="27" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a6864d91d5208f0188be4e1aebd2e8885" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointToPlaneAligningTransform.Const_PointToPlaneAligningTransform</definition>
+        <argsstring>()</argsstring>
+        <name>Const_PointToPlaneAligningTransform</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.Const_PointToPlaneAligningTransform</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="35" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a07239e2fcd5b57b0e551910cc6e806df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointToPlaneAligningTransform.Const_PointToPlaneAligningTransform</definition>
+        <argsstring>(MR.Const_PointToPlaneAligningTransform _other)</argsstring>
+        <name>Const_PointToPlaneAligningTransform</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.Const_PointToPlaneAligningTransform</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__PointToPlaneAligningTransform" kindref="compound">MR.Const_PointToPlaneAligningTransform</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointToPlaneAligningTransform_1adf0ccc5bf8ba4a2664995b8df1966ea4" kindref="member">MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="45" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="45" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a04444dd8184308e67bf0883f31c77813" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointToPlaneAligningTransform.Const_PointToPlaneAligningTransform</definition>
+        <argsstring>(PointToPlaneAligningTransform _other)</argsstring>
+        <name>Const_PointToPlaneAligningTransform</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.Const_PointToPlaneAligningTransform</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointToPlaneAligningTransform" kindref="compound">PointToPlaneAligningTransform</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1PointToPlaneAligningTransform_1adf0ccc5bf8ba4a2664995b8df1966ea4" kindref="member">MR.PointToPlaneAligningTransform.PointToPlaneAligningTransform</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="56" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a2a30a7fa5657204067209c35f966c29b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
+        <definition>unsafe MR.AffineXf3d MR.Const_PointToPlaneAligningTransform.findBestRigidXf</definition>
+        <argsstring>()</argsstring>
+        <name>findBestRigidXf</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.findBestRigidXf</qualifiedname>
+        <briefdescription>
+<para>Compute transformation as the solution to a least squares optimization problem: xf( p1_i ) = p2_i this version searches for best rigid body transformation Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPlaneAligningTransform_1a2a30a7fa5657204067209c35f966c29b" kindref="member">MR.PointToPlaneAligningTransform.findBestRigidXf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="64" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1aad63ecb149bd446219d64c59573babcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
+        <definition>unsafe MR.AffineXf3d MR.Const_PointToPlaneAligningTransform.findBestRigidScaleXf</definition>
+        <argsstring>()</argsstring>
+        <name>findBestRigidScaleXf</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.findBestRigidScaleXf</qualifiedname>
+        <briefdescription>
+<para>this version searches for best rigid body transformation with uniform scaling Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPlaneAligningTransform_1aad63ecb149bd446219d64c59573babcd" kindref="member">MR.PointToPlaneAligningTransform.findBestRigidScaleXf</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="75" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="75" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a05b4de2b8fd756de121a490eaca5f4d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
+        <definition>unsafe MR.AffineXf3d MR.Const_PointToPlaneAligningTransform.findBestRigidXfFixedRotationAxis</definition>
+        <argsstring>(in MR.Vector3d axis)</argsstring>
+        <name>findBestRigidXfFixedRotationAxis</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.findBestRigidXfFixedRotationAxis</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+<para>this version searches for best transformation where rotation is allowed only around given axis and with arbitrary translation Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPlaneAligningTransform_1a05b4de2b8fd756de121a490eaca5f4d3" kindref="member">MR.PointToPlaneAligningTransform.findBestRigidXfFixedRotationAxis</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="86" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="86" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a3cd7609d8169547941d01135cae85c07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3d" kindref="compound">MR.AffineXf3d</ref></type>
+        <definition>unsafe MR.AffineXf3d MR.Const_PointToPlaneAligningTransform.findBestRigidXfOrthogonalRotationAxis</definition>
+        <argsstring>(in MR.Vector3d ort)</argsstring>
+        <name>findBestRigidXfOrthogonalRotationAxis</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.findBestRigidXfOrthogonalRotationAxis</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>ort</declname>
+        </param>
+        <briefdescription>
+<para>this version searches for best transformation where rotation is allowed only around axes orthogonal to given one Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPlaneAligningTransform_1a3cd7609d8169547941d01135cae85c07" kindref="member">MR.PointToPlaneAligningTransform.findBestRigidXfOrthogonalRotationAxis</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="100" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="100" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a6c16ddd7da47a042528c9f4d2285772d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe MR.Vector3d MR.Const_PointToPlaneAligningTransform.findBestTranslation</definition>
+        <argsstring>(MR._InOpt_Vector3d rotAngles=default, double? scale=null)</argsstring>
+        <name>findBestTranslation</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.findBestTranslation</qualifiedname>
+        <param>
+          <type>MR._InOpt_Vector3d</type>
+          <declname>rotAngles</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>double?</type>
+          <declname>scale</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this version searches for best translational part of affine transformation with given linear part Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPlaneAligningTransform_1a6c16ddd7da47a042528c9f4d2285772d" kindref="member">MR.PointToPlaneAligningTransform.findBestTranslation</ref></computeroutput>. Parameter <computeroutput>rotAngles</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>scale</computeroutput> defaults to <computeroutput>1</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="116" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="116" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a3f6eef4bdf66580494a8109a29d85cd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1RigidScaleXf3d" kindref="compound">MR.RigidScaleXf3d</ref></type>
+        <definition>unsafe MR.RigidScaleXf3d MR.Const_PointToPlaneAligningTransform.calculateAmendment</definition>
+        <argsstring>()</argsstring>
+        <name>calculateAmendment</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.calculateAmendment</qualifiedname>
+        <briefdescription>
+<para>Compute transformation relative to given approximation and return it as angles and shift (scale = 1) Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPlaneAligningTransform_1a3f6eef4bdf66580494a8109a29d85cd2" kindref="member">MR.PointToPlaneAligningTransform.calculateAmendment</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="128" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="128" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a19d0022bc2197ef00ecbe4806c81f510" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1RigidScaleXf3d" kindref="compound">MR.RigidScaleXf3d</ref></type>
+        <definition>unsafe MR.RigidScaleXf3d MR.Const_PointToPlaneAligningTransform.calculateAmendmentWithScale</definition>
+        <argsstring>()</argsstring>
+        <name>calculateAmendmentWithScale</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.calculateAmendmentWithScale</qualifiedname>
+        <briefdescription>
+<para>Compute transformation relative to given approximation and return it as scale, angles and shift Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPlaneAligningTransform_1a19d0022bc2197ef00ecbe4806c81f510" kindref="member">MR.PointToPlaneAligningTransform.calculateAmendmentWithScale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="139" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="139" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a50fd04c8d9c722e16017ebaa6b131a18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1RigidScaleXf3d" kindref="compound">MR.RigidScaleXf3d</ref></type>
+        <definition>unsafe MR.RigidScaleXf3d MR.Const_PointToPlaneAligningTransform.calculateFixedAxisAmendment</definition>
+        <argsstring>(in MR.Vector3d axis)</argsstring>
+        <name>calculateFixedAxisAmendment</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.calculateFixedAxisAmendment</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+<para>this version searches for best transformation where rotation is allowed only around given axis and with arbitrary translation Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPlaneAligningTransform_1a50fd04c8d9c722e16017ebaa6b131a18" kindref="member">MR.PointToPlaneAligningTransform.calculateFixedAxisAmendment</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="150" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="150" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a38f05e6c7e0a69bf355d11caf6c982d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1RigidScaleXf3d" kindref="compound">MR.RigidScaleXf3d</ref></type>
+        <definition>unsafe MR.RigidScaleXf3d MR.Const_PointToPlaneAligningTransform.calculateOrthogonalAxisAmendment</definition>
+        <argsstring>(in MR.Vector3d ort)</argsstring>
+        <name>calculateOrthogonalAxisAmendment</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.calculateOrthogonalAxisAmendment</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>ort</declname>
+        </param>
+        <briefdescription>
+<para>this version searches for best transformation where rotation is allowed only around axes orthogonal to given one Generated from method <computeroutput><ref refid="classMR_1_1Const__PointToPlaneAligningTransform_1a38f05e6c7e0a69bf355d11caf6c982d7" kindref="member">MR.PointToPlaneAligningTransform.calculateOrthogonalAxisAmendment</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="164" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="164" bodyend="172"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a5d2ae4f74256e9e5fb89c46350d517ad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_PointToPlaneAligningTransform.~Const_PointToPlaneAligningTransform</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_PointToPlaneAligningTransform</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.~Const_PointToPlaneAligningTransform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="28" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__PointToPlaneAligningTransform_1a7501081feee9d61c5a7361d30aa92c5f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_PointToPlaneAligningTransform.Const_PointToPlaneAligningTransform</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_PointToPlaneAligningTransform</name>
+        <qualifiedname>MR.Const_PointToPlaneAligningTransform.Const_PointToPlaneAligningTransform</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="30" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class and its main method can be used to solve the problem of 3D shape alignment. This algorithm uses a point-to-plane error metric in which the object of minimization is the sum of the squared distance between a point and the tangent plane at its correspondence point. To use this technique it's need to have small rotation angles. So there is an approximate solution. The result of this algorithm is the transformation of first points (p1) which aligns it to the second ones (p2). Generated from class <computeroutput><ref refid="classMR_1_1PointToPlaneAligningTransform" kindref="compound">MR.PointToPlaneAligningTransform</ref></computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_PointToPlaneAligningTransform</label>
+        <link refid="classMR_1_1Const__PointToPlaneAligningTransform"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.PointToPlaneAligningTransform</label>
+        <link refid="classMR_1_1PointToPlaneAligningTransform"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_PointToPlaneAligningTransform</label>
+        <link refid="classMR_1_1Const__PointToPlaneAligningTransform"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" line="12" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointToPlaneAligningTransform.cs" bodystart="13" bodyend="173"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a3f6eef4bdf66580494a8109a29d85cd2" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>calculateAmendment</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a19d0022bc2197ef00ecbe4806c81f510" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>calculateAmendmentWithScale</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a50fd04c8d9c722e16017ebaa6b131a18" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>calculateFixedAxisAmendment</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a38f05e6c7e0a69bf355d11caf6c982d7" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>calculateOrthogonalAxisAmendment</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a7501081feee9d61c5a7361d30aa92c5f" prot="package" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>Const_PointToPlaneAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a6864d91d5208f0188be4e1aebd2e8885" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>Const_PointToPlaneAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a07239e2fcd5b57b0e551910cc6e806df" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>Const_PointToPlaneAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a04444dd8184308e67bf0883f31c77813" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>Const_PointToPlaneAligningTransform</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1abbc4c47e28ef91c3c4ea48b7d06ce1ac" prot="protected" virt="virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a492d61a05550238b58115dce97a615a5" prot="public" virt="virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1aad63ecb149bd446219d64c59573babcd" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>findBestRigidScaleXf</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a2a30a7fa5657204067209c35f966c29b" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>findBestRigidXf</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a05b4de2b8fd756de121a490eaca5f4d3" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>findBestRigidXfFixedRotationAxis</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a3cd7609d8169547941d01135cae85c07" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>findBestRigidXfOrthogonalRotationAxis</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a6c16ddd7da47a042528c9f4d2285772d" prot="public" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>findBestTranslation</name></member>
+      <member refid="classMR_1_1Const__PointToPlaneAligningTransform_1a5d2ae4f74256e9e5fb89c46350d517ad" prot="private" virt="non-virtual"><scope>MR::Const_PointToPlaneAligningTransform</scope><name>~Const_PointToPlaneAligningTransform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

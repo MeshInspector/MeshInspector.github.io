@@ -2,6 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SceneLoad" kind="class" language="C#" prot="public">
     <compoundname>MR::SceneLoad</compoundname>
+    <innerclass refid="classMR_1_1SceneLoad_1_1Const__Result" prot="public">MR::SceneLoad::Const_Result</innerclass>
+    <innerclass refid="classMR_1_1SceneLoad_1_1Const__Settings" prot="public">MR::SceneLoad::Const_Settings</innerclass>
     <innerclass refid="classMR_1_1SceneLoad_1_1Result" prot="public">MR::SceneLoad::Result</innerclass>
     <innerclass refid="classMR_1_1SceneLoad_1_1Settings" prot="public">MR::SceneLoad::Settings</innerclass>
     <sectiondef kind="public-static-func">
@@ -16,7 +18,7 @@
           <declname>files</declname>
         </param>
         <param>
-          <type>MR.SceneLoad.Const_Settings?</type>
+          <type><ref refid="classMR_1_1SceneLoad_1_1Const__Settings" kindref="compound">MR.SceneLoad.Const_Settings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>
@@ -44,7 +46,7 @@
           <declname>postLoadCallback</declname>
         </param>
         <param>
-          <type>MR.SceneLoad.Const_Settings?</type>
+          <type><ref refid="classMR_1_1SceneLoad_1_1Const__Settings" kindref="compound">MR.SceneLoad.Const_Settings</ref>?</type>
           <declname>settings</declname>
           <defval>null</defval>
         </param>

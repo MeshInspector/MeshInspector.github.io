@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1GraphVertBitSet" kind="class" language="C#" prot="public">
     <compoundname>MR::GraphVertBitSet</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_GraphVertBitSet</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__GraphVertBitSet" prot="public" virt="non-virtual">MR.Const_GraphVertBitSet</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1GraphVertBitSet_1abb5029c7a24a2ed025d25da8f79ae425" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -89,7 +89,7 @@
         <name>GraphVertBitSet</name>
         <qualifiedname>MR.GraphVertBitSet.GraphVertBitSet</qualifiedname>
         <param>
-          <type>Const_GraphVertBitSet</type>
+          <type><ref refid="classMR_1_1Const__GraphVertBitSet" kindref="compound">Const_GraphVertBitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -151,11 +151,11 @@
         <name>GraphVertBitSet</name>
         <qualifiedname>MR.GraphVertBitSet.GraphVertBitSet</qualifiedname>
         <param>
-          <type>MR.Const_BitSet</type>
+          <type><ref refid="classMR_1_1Const__BitSet" kindref="compound">MR.Const_BitSet</ref></type>
           <declname>src</declname>
         </param>
         <briefdescription>
-<para>copies all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet&amp;lt;U&amp;gt;) Generated from constructor <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a1c27aee46b5b6a7f8b99eaef65abc443" kindref="member">MR.GraphVertBitSet.GraphVertBitSet</ref></computeroutput>. </para>
+<para>copies all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet&lt;U&gt;) Generated from constructor <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a1c27aee46b5b6a7f8b99eaef65abc443" kindref="member">MR.GraphVertBitSet.GraphVertBitSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -174,7 +174,7 @@
           <declname>src</declname>
         </param>
         <briefdescription>
-<para>moves all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet&amp;lt;U&amp;gt;) Generated from constructor <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a1c27aee46b5b6a7f8b99eaef65abc443" kindref="member">MR.GraphVertBitSet.GraphVertBitSet</ref></computeroutput>. </para>
+<para>moves all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet&lt;U&gt;) Generated from constructor <computeroutput><ref refid="classMR_1_1GraphVertBitSet_1a1c27aee46b5b6a7f8b99eaef65abc443" kindref="member">MR.GraphVertBitSet.GraphVertBitSet</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -430,7 +430,7 @@
         <name>bitandAssign</name>
         <qualifiedname>MR.GraphVertBitSet.bitandAssign</qualifiedname>
         <param>
-          <type>MR.Const_GraphVertBitSet</type>
+          <type><ref refid="classMR_1_1Const__GraphVertBitSet" kindref="compound">MR.Const_GraphVertBitSet</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -449,7 +449,7 @@
         <name>bitorAssign</name>
         <qualifiedname>MR.GraphVertBitSet.bitorAssign</qualifiedname>
         <param>
-          <type>MR.Const_GraphVertBitSet</type>
+          <type><ref refid="classMR_1_1Const__GraphVertBitSet" kindref="compound">MR.Const_GraphVertBitSet</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -468,7 +468,7 @@
         <name>xorAssign</name>
         <qualifiedname>MR.GraphVertBitSet.xorAssign</qualifiedname>
         <param>
-          <type>MR.Const_GraphVertBitSet</type>
+          <type><ref refid="classMR_1_1Const__GraphVertBitSet" kindref="compound">MR.Const_GraphVertBitSet</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -487,7 +487,7 @@
         <name>subAssign</name>
         <qualifiedname>MR.GraphVertBitSet.subAssign</qualifiedname>
         <param>
-          <type>MR.Const_GraphVertBitSet</type>
+          <type><ref refid="classMR_1_1Const__GraphVertBitSet" kindref="compound">MR.Const_GraphVertBitSet</ref></type>
           <declname>b</declname>
         </param>
         <briefdescription>
@@ -506,7 +506,7 @@
         <name>subtract</name>
         <qualifiedname>MR.GraphVertBitSet.subtract</qualifiedname>
         <param>
-          <type>MR.Const_GraphVertBitSet</type>
+          <type><ref refid="classMR_1_1Const__GraphVertBitSet" kindref="compound">MR.Const_GraphVertBitSet</ref></type>
           <declname>b</declname>
         </param>
         <param>
@@ -765,7 +765,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Vector&amp;lt;bool, I&amp;gt; like container (random-access, I - index type, bool - value type) with all bits after size() considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after <ref refid="classMR_1_1Const__GraphVertBitSet_1a594f38f3d9c8ce99053b4bab31c95976" kindref="member">size()</ref> considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1GraphVertBitSet" kindref="compound">MR.GraphVertBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -781,6 +781,7 @@
       </node>
       <node id="2">
         <label>MR.Const_GraphVertBitSet</label>
+        <link refid="classMR_1_1Const__GraphVertBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -807,6 +808,7 @@
       </node>
       <node id="2">
         <label>MR.Const_GraphVertBitSet</label>
+        <link refid="classMR_1_1Const__GraphVertBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -823,16 +825,51 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="10789" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="10790" bodyend="11191"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a8a895545eaf4f64e68f56bae0a8c5fce" prot="protected" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>__ref_storage_BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a754766f041325d7a5869a73c6207d851" prot="protected" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>__ref_storage_Npos</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a8355bb8914bb447aa3ae278490881d17" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>all</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a524ab7ab63bd9a49559441d62345bd51" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>any</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1ad52b2bf7ebe2af06b80a706cd2c40667" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>assign</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1addeae56acf6aa04ad08a3ed3c42a04d7" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1ac7f93b9bbe7d531c878a630dd4ed4e6f" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>autoResizeSet</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1aea47cb80961bdee39897918f0afab5a0" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a0e341454975b121942e655796576260d" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>backId</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a519a2937d273a609616656e0ec9abd94" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>beginId</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a1e2feabcd0469bbde4409df30a591b97" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>bitandAssign</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a4e815e7273e747548e4806539961ad36" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>bitorAssign</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a9e1fc2f9a8c0c3f34dc0b759a1ecbeb1" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>bits</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1ae365e37b159d0e1271452d4d2e2452f5" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>BitsPerBlock</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a21bc4477517f9bfbda419b6f18db2032" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>capacity</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a45840a30155a1704e54fa082902e76a0" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>clear</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a6517f4840af86d5e173affcb795c7d1b" prot="package" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>Const_GraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1abed3144b5f397ed1581da67bb297cff4" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>Const_GraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a38ba9dcc760ed7f66b61a0fd7f4e8a8d" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>Const_GraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a5b16dbbe03d12f4e4652e885da3970bb" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>Const_GraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a220612aa4252fc8e309744a4fd64fb71" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>Const_GraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1aa2a64f667dab810794314f8cec8b90e9" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>Const_GraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a1abfcda7f3718e1fd3f9444811482190" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>Const_GraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1af583a73be4213d357afc1dfdc9f16b6d" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>Const_GraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1aaf8a7407d0968725b81378146e08db39" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>count</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a5e0d89d8ef37b844db8c1a5a68ec698c" prot="protected" virt="virtual"><scope>MR::GraphVertBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a2ee02fb91b9d15a5644948ef1574dbf4" prot="public" virt="virtual"><scope>MR::GraphVertBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1aee86eddfbbadf6f62c1d28abdb0f9e6c" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>empty</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a1512016fc4b22ef5045fd679ea7b00e9" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>endId</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a42278d544ce557d4c0bc5d7b42b6428e" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>findFirst</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a9fb3696f29283ca0f0647cb254abbf21" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>findFirstNotSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a81879f1032f0337342df4c5398a99f78" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>findLast</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a4db4c457280bc9ab41b9a0379050b272" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>findLastNotSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a56c9ca343b2e39a07d1ec8f6d43a8e08" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>findNext</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1af3a93c642b8cfb8675fdaf5336232206" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>findNextNotSet</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a529e19056b619eef4b1a8680e7767c32" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a7f75feb32512109f7a92222d59a21fa3" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>flip</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a10a701ac5d9f975216c1ea8dffe3c913" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a3d940f610985f95596bb18885f4b92d2" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>fromBlocks</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a4fc1f41d8ac1e28c40f271dc21cc760f" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GetEnumerator</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1aa4c88dc24a35d30187fbe29fac3a8538" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a75ebbdf35f3ba38d93a6a76de6f3637f" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a120126c571c859a2f54aac7d4a94c35c" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a8cc31098fdb6cd5286290d793becf07d" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>getMapping</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1aa70e2a67954cb27d9a5c65a82df7e8ae" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>getMapping</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1adb4f630e54e0198854c2dd47fa5d072c" prot="package" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a1c27aee46b5b6a7f8b99eaef65abc443" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a340b527ea4abbf4951921f9ac7f06fdc" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
@@ -841,7 +878,19 @@
       <member refid="classMR_1_1GraphVertBitSet_1a66fff3d23b7da7257c459e132ed80f7d" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a28093ce51fa51d117b15367612871085" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a77b2209a53a267fbf5460cb26fdc6309" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>GraphVertBitSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a4724d67ff89ab8e1abfc9d6891c426c7" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a50e74f78973c3f6e36e5269ab5a407bb" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>intersects</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1ae670459d50b797a775625d4e3b779670" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>isSubsetOf</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1ae308fbbc60412ab2e8f3f07384f47263" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>none</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1afed23f598cc39b297ba552f91be976df" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>Npos</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1ac6cfe5042920c5dc1af7dba984d33926" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a95b10e0a6084adb8bb72c3946649bec7" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>numBlocks</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1abb5029c7a24a2ed025d25da8f79ae425" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>operator MR.BitSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a736709edd2a53ea0ba895e8d39586f27" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>operator MR.Const_BitSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a43de6e018058ee8785705f8e3191d601" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>operator&amp;</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a7ba375ce8231953877d3b59ea6fd8199" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1aeeae07db14aaf9638a4aea2c7cffd2fd" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>operator^</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a9165a3ea07362590ef1050c48239b103" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>operator|</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a37340bd572f1da41fa9a40bad60beb11" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>popBack</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1ace10780e9f152ec23d30572bfadfd900" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>pushBack</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1ac0c45dab0d964cd288170298667cf89a" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>reserve</name></member>
@@ -856,9 +905,12 @@
       <member refid="classMR_1_1GraphVertBitSet_1a8649ddabf768a485742e21347d1cbf9c" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a293e6391cfe842f3f6b34530dfb3b01e" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>set</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a55d45eea411cef7840f37e185ef5680f" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>shrinkToFit</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a594f38f3d9c8ce99053b4bab31c95976" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>size</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a5c3bd48f8e59bf57ba2b25230167011c" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>subAssign</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1ae90e1379ecf592287b61c267763a8200" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>subtract</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1acc98f29f689230b3e7709bd5a1160125" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>test</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1ad17f3d2cb10a7e994bdaf77997a3f76f" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>testSet</name></member>
+      <member refid="classMR_1_1Const__GraphVertBitSet_1a2979f32347b24196436e02568abd6127" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>uncheckedTest</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1ae92d6192ecd9446edcd96687078eab59" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>uncheckedTestSet</name></member>
       <member refid="classMR_1_1GraphVertBitSet_1a766035ed1a4aa01b59075acdf8319e96" prot="public" virt="non-virtual"><scope>MR::GraphVertBitSet</scope><name>xorAssign</name></member>
     </listofallmembers>

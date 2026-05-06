@@ -2,6 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1WeightedShell" kind="class" language="C#" prot="public">
     <compoundname>MR::WeightedShell</compoundname>
+    <innerclass refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams" prot="public">MR::WeightedShell::Const_DistanceVolumeCreationParams</innerclass>
+    <innerclass refid="classMR_1_1WeightedShell_1_1Const__ParametersBase" prot="public">MR::WeightedShell::Const_ParametersBase</innerclass>
+    <innerclass refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric" prot="public">MR::WeightedShell::Const_ParametersMetric</innerclass>
+    <innerclass refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions" prot="public">MR::WeightedShell::Const_ParametersRegions</innerclass>
     <innerclass refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" prot="public">MR::WeightedShell::DistanceVolumeCreationParams</innerclass>
     <innerclass refid="classMR_1_1WeightedShell_1_1ParametersBase" prot="public">MR::WeightedShell::ParametersBase</innerclass>
     <innerclass refid="classMR_1_1WeightedShell_1_1ParametersMetric" prot="public">MR::WeightedShell::ParametersMetric</innerclass>
@@ -14,11 +18,11 @@
         <name>pointsToDistanceVolume</name>
         <qualifiedname>MR.WeightedShell.pointsToDistanceVolume</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>cloud</declname>
         </param>
         <param>
-          <type>MR.WeightedShell.Const_DistanceVolumeCreationParams</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams" kindref="compound">MR.WeightedShell.Const_DistanceVolumeCreationParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -37,11 +41,11 @@
         <name>meshToDistanceVolume</name>
         <qualifiedname>MR.WeightedShell.meshToDistanceVolume</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.WeightedShell.Const_DistanceVolumeCreationParams</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__DistanceVolumeCreationParams" kindref="compound">MR.WeightedShell.Const_DistanceVolumeCreationParams</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -60,15 +64,15 @@
         <name>pointsShell</name>
         <qualifiedname>MR.WeightedShell.pointsShell</qualifiedname>
         <param>
-          <type>MR.Const_PointCloud</type>
+          <type><ref refid="classMR_1_1Const__PointCloud" kindref="compound">MR.Const_PointCloud</ref></type>
           <declname>cloud</declname>
         </param>
         <param>
-          <type>MR.Const_VertScalars</type>
+          <type><ref refid="classMR_1_1Const__VertScalars" kindref="compound">MR.Const_VertScalars</ref></type>
           <declname>pointWeights</declname>
         </param>
         <param>
-          <type>MR.WeightedShell.Const_ParametersMetric</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric" kindref="compound">MR.WeightedShell.Const_ParametersMetric</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -87,15 +91,15 @@
         <name>meshShell</name>
         <qualifiedname>MR.WeightedShell.meshShell</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.Const_VertScalars</type>
+          <type><ref refid="classMR_1_1Const__VertScalars" kindref="compound">MR.Const_VertScalars</ref></type>
           <declname>vertWeights</declname>
         </param>
         <param>
-          <type>MR.WeightedShell.Const_ParametersMetric</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersMetric" kindref="compound">MR.WeightedShell.Const_ParametersMetric</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -114,7 +118,7 @@
         <name>calculateShellWeightsFromRegions</name>
         <qualifiedname>MR.WeightedShell.calculateShellWeightsFromRegions</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
@@ -141,11 +145,11 @@
         <name>meshShell</name>
         <qualifiedname>MR.WeightedShell.meshShell</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.WeightedShell.Const_ParametersRegions</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions" kindref="compound">MR.WeightedShell.Const_ParametersRegions</ref></type>
           <declname>params_</declname>
         </param>
         <briefdescription>
@@ -157,22 +161,22 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1577" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1577" bodyend="1585"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1WeightedShell_1ae3595b4bcd950272f4aa52f03f698052" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1ad6ca04c27d7c4365abb15752feb103b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.WeightedShell.meshShell</definition>
-        <argsstring>(MR.Const_Mesh mesh, MR.WeightedShell.Const_ParametersRegions params_, MR.Std._ByValue_Function_MRFunctionVolumeFuncFromConstMRMeshRefConstMRWeightedShellDistanceVolumeCreationParamsRef volumeBuilder)</argsstring>
+        <argsstring>(MR.Const_Mesh mesh, MR.WeightedShell.Const_ParametersRegions params_, MR.Std._ByValue_Function_MRFunctionVolume_From_ConstMRMeshRef_ConstMRWeightedShellDistanceVolumeCreationParamsRef volumeBuilder)</argsstring>
         <name>meshShell</name>
         <qualifiedname>MR.WeightedShell.meshShell</qualifiedname>
         <param>
-          <type>MR.Const_Mesh</type>
+          <type><ref refid="classMR_1_1Const__Mesh" kindref="compound">MR.Const_Mesh</ref></type>
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR.WeightedShell.Const_ParametersRegions</type>
+          <type><ref refid="classMR_1_1WeightedShell_1_1Const__ParametersRegions" kindref="compound">MR.WeightedShell.Const_ParametersRegions</ref></type>
           <declname>params_</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_MRFunctionVolumeFuncFromConstMRMeshRefConstMRWeightedShellDistanceVolumeCreationParamsRef</type>
+          <type>MR.Std._ByValue_Function_MRFunctionVolume_From_ConstMRMeshRef_ConstMRWeightedShellDistanceVolumeCreationParamsRef</type>
           <declname>volumeBuilder</declname>
         </param>
         <briefdescription>
@@ -194,7 +198,7 @@
       <member refid="classMR_1_1WeightedShell_1a763a6fe685b45f4558b004904cd284eb" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>calculateShellWeightsFromRegions</name></member>
       <member refid="classMR_1_1WeightedShell_1a8760db9d0c498327bdb200da4b78de33" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>meshShell</name></member>
       <member refid="classMR_1_1WeightedShell_1a06e94717e57a00157fcde0c34721f6dc" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>meshShell</name></member>
-      <member refid="classMR_1_1WeightedShell_1ae3595b4bcd950272f4aa52f03f698052" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>meshShell</name></member>
+      <member refid="classMR_1_1WeightedShell_1ad6ca04c27d7c4365abb15752feb103b5" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>meshShell</name></member>
       <member refid="classMR_1_1WeightedShell_1ad8babcfcf4a060f9f9099d5063f06462" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>meshToDistanceVolume</name></member>
       <member refid="classMR_1_1WeightedShell_1acea209e9f19afa7cdac2593429765dd3" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>pointsShell</name></member>
       <member refid="classMR_1_1WeightedShell_1ab49f78a785d0670be3517d4052aff824" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>pointsToDistanceVolume</name></member>

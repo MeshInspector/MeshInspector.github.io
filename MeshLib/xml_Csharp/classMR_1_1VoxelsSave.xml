@@ -2,16 +2,17 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1VoxelsSave" kind="class" language="C#" prot="public">
     <compoundname>MR::VoxelsSave</compoundname>
+    <innerclass refid="classMR_1_1VoxelsSave_1_1Const__SavingSettings" prot="public">MR::VoxelsSave::Const_SavingSettings</innerclass>
     <innerclass refid="classMR_1_1VoxelsSave_1_1SavingSettings" prot="public">MR::VoxelsSave::SavingSettings</innerclass>
     <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a6c6921e445751acc40c054ff9d25dfe2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a56867aadf2bd62203ce5312a547d2b7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.toDicom</definition>
-        <argsstring>(MR.Const_VdbVolume vdbVolume, string path, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <argsstring>(MR.Const_VdbVolume vdbVolume, string path, MR.Std._ByValue_Function_Bool_From_Float? cb=null)</argsstring>
         <name>toDicom</name>
         <qualifiedname>MR.VoxelsSave.toDicom</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -19,12 +20,12 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>cb</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Save voxels object to a single 3d DICOM file Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a6c6921e445751acc40c054ff9d25dfe2" kindref="member">MR.VoxelsSave.toDicom</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Save voxels object to a single 3d DICOM file Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a56867aadf2bd62203ce5312a547d2b7a" kindref="member">MR.VoxelsSave.toDicom</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -39,7 +40,7 @@
         <name>toDicom</name>
         <qualifiedname>MR.VoxelsSave.toDicom</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolumeU16</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolumeU16" kindref="compound">MR.Const_SimpleVolumeU16</ref></type>
           <declname>volume</declname>
         </param>
         <param>
@@ -57,7 +58,7 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Saves object to a single 3d DICOM file. <computeroutput>sourceScale</computeroutput> specifies the true scale of the voxel data which will be saved with "slope" and "intercept" parameters of the output dicom. Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a6c6921e445751acc40c054ff9d25dfe2" kindref="member">MR.VoxelsSave.toDicom</ref>&amp;amp;lt;unsigned short&amp;amp;gt;</computeroutput>. Parameter <computeroutput>sourceScale</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Saves object to a single 3d DICOM file. <computeroutput>sourceScale</computeroutput> specifies the true scale of the voxel data which will be saved with "slope" and "intercept" parameters of the output dicom. Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a56867aadf2bd62203ce5312a547d2b7a" kindref="member">MR.VoxelsSave.toDicom</ref>&amp;lt;unsigned short&amp;gt;</computeroutput>. Parameter <computeroutput>sourceScale</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -65,14 +66,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="1122" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="1122" bodyend="1133"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a9cac18be1e6f88ceb2f05d50b3e1af73" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1ad88c3ffe914a03a5e782647df2d8d0cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.toRawAutoname</definition>
-        <argsstring>(MR.Const_VdbVolume vdbVolume, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_VdbVolume vdbVolume, string file, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>toRawAutoname</name>
         <qualifiedname>MR.VoxelsSave.toRawAutoname</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -80,12 +81,12 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Save raw voxels file, writing parameters in file name Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a9cac18be1e6f88ceb2f05d50b3e1af73" kindref="member">MR.VoxelsSave.toRawAutoname</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Save raw voxels file, writing parameters in file name Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1ad88c3ffe914a03a5e782647df2d8d0cc" kindref="member">MR.VoxelsSave.toRawAutoname</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -93,14 +94,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="322" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="322" bodyend="333"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1af31ef9e217e1cc80e0eb4de5ebbb2a3e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a2e4880bdcdcf1ee0213d0012d04a4f05" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.toRawAutoname</definition>
-        <argsstring>(MR.Const_SimpleVolume simpleVolume, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_SimpleVolume simpleVolume, string file, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>toRawAutoname</name>
         <qualifiedname>MR.VoxelsSave.toRawAutoname</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolume</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolume" kindref="compound">MR.Const_SimpleVolume</ref></type>
           <declname>simpleVolume</declname>
         </param>
         <param>
@@ -108,12 +109,12 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a9cac18be1e6f88ceb2f05d50b3e1af73" kindref="member">MR.VoxelsSave.toRawAutoname</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1ad88c3ffe914a03a5e782647df2d8d0cc" kindref="member">MR.VoxelsSave.toRawAutoname</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -121,14 +122,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="339" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="339" bodyend="350"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a0be9c0e9d104e38b4f8a49f2d2122d17" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1abb678afd096e1254695af4fe10843b42" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.gridToRawAutoname</definition>
-        <argsstring>(MR.Const_FloatGrid grid, in MR.Vector3i dims, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_FloatGrid grid, in MR.Vector3i dims, string file, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>gridToRawAutoname</name>
         <qualifiedname>MR.VoxelsSave.gridToRawAutoname</qualifiedname>
         <param>
-          <type>MR.Const_FloatGrid</type>
+          <type><ref refid="classMR_1_1Const__FloatGrid" kindref="compound">MR.Const_FloatGrid</ref></type>
           <declname>grid</declname>
         </param>
         <param>
@@ -140,12 +141,12 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a0be9c0e9d104e38b4f8a49f2d2122d17" kindref="member">MR.VoxelsSave.gridToRawAutoname</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1abb678afd096e1254695af4fe10843b42" kindref="member">MR.VoxelsSave.gridToRawAutoname</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -153,14 +154,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="356" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="356" bodyend="370"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a4a756f407097d79b64c293ed7bf92ccd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a8f5a21495a5329c42b4ee7bddbb66592" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.gridToRawFloat</definition>
-        <argsstring>(MR.Const_FloatGrid grid, in MR.Vector3i dims, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_FloatGrid grid, in MR.Vector3i dims, MR.Std.Ostream out_, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>gridToRawFloat</name>
         <qualifiedname>MR.VoxelsSave.gridToRawFloat</qualifiedname>
         <param>
-          <type>MR.Const_FloatGrid</type>
+          <type><ref refid="classMR_1_1Const__FloatGrid" kindref="compound">MR.Const_FloatGrid</ref></type>
           <declname>grid</declname>
         </param>
         <param>
@@ -172,12 +173,12 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Save voxels in raw format with each value as 32-bit float in given binary stream Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a4a756f407097d79b64c293ed7bf92ccd" kindref="member">MR.VoxelsSave.gridToRawFloat</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Save voxels in raw format with each value as 32-bit float in given binary stream Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a8f5a21495a5329c42b4ee7bddbb66592" kindref="member">MR.VoxelsSave.gridToRawFloat</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -185,14 +186,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="377" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="377" bodyend="387"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1ac0f8be4fc2ad72364b988027e0aae2c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a3e4c6b990e8ecd4472bc1d9cf438d054" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.toRawFloat</definition>
-        <argsstring>(MR.Const_VdbVolume vdbVolume, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_VdbVolume vdbVolume, MR.Std.Ostream out_, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>toRawFloat</name>
         <qualifiedname>MR.VoxelsSave.toRawFloat</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -200,12 +201,12 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1ac0f8be4fc2ad72364b988027e0aae2c1" kindref="member">MR.VoxelsSave.toRawFloat</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a3e4c6b990e8ecd4472bc1d9cf438d054" kindref="member">MR.VoxelsSave.toRawFloat</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -213,14 +214,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="393" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="393" bodyend="400"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1af07874e74b05490640ee2e8a9124e652" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1aa4fab38ec45b26f101b8adfaea5ad2b4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.toRawFloat</definition>
-        <argsstring>(MR.Const_SimpleVolume simpleVolume, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_SimpleVolume simpleVolume, MR.Std.Ostream out_, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>toRawFloat</name>
         <qualifiedname>MR.VoxelsSave.toRawFloat</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolume</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolume" kindref="compound">MR.Const_SimpleVolume</ref></type>
           <declname>simpleVolume</declname>
         </param>
         <param>
@@ -228,12 +229,12 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1ac0f8be4fc2ad72364b988027e0aae2c1" kindref="member">MR.VoxelsSave.toRawFloat</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a3e4c6b990e8ecd4472bc1d9cf438d054" kindref="member">MR.VoxelsSave.toRawFloat</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -241,14 +242,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="406" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="406" bodyend="413"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a290a80182f4938af7df0000590db56bb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a5ad5d386b17f0e89626830027eaa9455" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.toGav</definition>
-        <argsstring>(MR.Const_VdbVolume vdbVolume, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_VdbVolume vdbVolume, string file, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>toGav</name>
         <qualifiedname>MR.VoxelsSave.toGav</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -256,12 +257,12 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Save voxels in Gav-format in given destination Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a290a80182f4938af7df0000590db56bb" kindref="member">MR.VoxelsSave.toGav</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Save voxels in Gav-format in given destination Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a5ad5d386b17f0e89626830027eaa9455" kindref="member">MR.VoxelsSave.toGav</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -269,14 +270,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="420" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="420" bodyend="431"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1adb37e85d0078e1294029fe57f4bf8335" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a04f220ffc2ad604c3054fea83a78dc42" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.toGav</definition>
-        <argsstring>(MR.Const_VdbVolume vdbVolume, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_VdbVolume vdbVolume, MR.Std.Ostream out_, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>toGav</name>
         <qualifiedname>MR.VoxelsSave.toGav</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -284,12 +285,12 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a290a80182f4938af7df0000590db56bb" kindref="member">MR.VoxelsSave.toGav</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a5ad5d386b17f0e89626830027eaa9455" kindref="member">MR.VoxelsSave.toGav</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -297,14 +298,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="437" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="437" bodyend="444"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1ae11273e46998c8b4b338b7e768ac1206" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a422acea4b9a02ebe102f071fc8c4b35e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.toGav</definition>
-        <argsstring>(MR.Const_SimpleVolumeMinMax simpleVolumeMinMax, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_SimpleVolumeMinMax simpleVolumeMinMax, string file, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>toGav</name>
         <qualifiedname>MR.VoxelsSave.toGav</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolumeMinMax</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolumeMinMax" kindref="compound">MR.Const_SimpleVolumeMinMax</ref></type>
           <declname>simpleVolumeMinMax</declname>
         </param>
         <param>
@@ -312,12 +313,12 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a290a80182f4938af7df0000590db56bb" kindref="member">MR.VoxelsSave.toGav</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a5ad5d386b17f0e89626830027eaa9455" kindref="member">MR.VoxelsSave.toGav</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -325,14 +326,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="450" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="450" bodyend="461"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a54c5262fdffa76fb987328e59ce9b502" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.toGav</definition>
-        <argsstring>(MR.Const_SimpleVolumeMinMax simpleVolumeMinMax, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_SimpleVolumeMinMax simpleVolumeMinMax, MR.Std.Ostream out_, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>toGav</name>
         <qualifiedname>MR.VoxelsSave.toGav</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolumeMinMax</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolumeMinMax" kindref="compound">MR.Const_SimpleVolumeMinMax</ref></type>
           <declname>simpleVolumeMinMax</declname>
         </param>
         <param>
@@ -340,12 +341,12 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a290a80182f4938af7df0000590db56bb" kindref="member">MR.VoxelsSave.toGav</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a5ad5d386b17f0e89626830027eaa9455" kindref="member">MR.VoxelsSave.toGav</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -353,14 +354,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="467" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="467" bodyend="474"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a03716929055448a0a7eccbd8af3c80f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a1dfc9abb84583039fa63a328e90b2f96" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.toGav</definition>
-        <argsstring>(MR.Const_SimpleVolume simpleVolume, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_SimpleVolume simpleVolume, string file, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>toGav</name>
         <qualifiedname>MR.VoxelsSave.toGav</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolume</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolume" kindref="compound">MR.Const_SimpleVolume</ref></type>
           <declname>simpleVolume</declname>
         </param>
         <param>
@@ -368,12 +369,12 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a290a80182f4938af7df0000590db56bb" kindref="member">MR.VoxelsSave.toGav</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a5ad5d386b17f0e89626830027eaa9455" kindref="member">MR.VoxelsSave.toGav</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -381,14 +382,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="480" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="480" bodyend="491"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a3d577dd8122884f5efde439d0890e8a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a790f731e569e4dd687cb56ba6a2e3090" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.toGav</definition>
-        <argsstring>(MR.Const_SimpleVolume simpleVolume, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_SimpleVolume simpleVolume, MR.Std.Ostream out_, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>toGav</name>
         <qualifiedname>MR.VoxelsSave.toGav</qualifiedname>
         <param>
-          <type>MR.Const_SimpleVolume</type>
+          <type><ref refid="classMR_1_1Const__SimpleVolume" kindref="compound">MR.Const_SimpleVolume</ref></type>
           <declname>simpleVolume</declname>
         </param>
         <param>
@@ -396,12 +397,12 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a290a80182f4938af7df0000590db56bb" kindref="member">MR.VoxelsSave.toGav</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a5ad5d386b17f0e89626830027eaa9455" kindref="member">MR.VoxelsSave.toGav</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -409,14 +410,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="497" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="497" bodyend="504"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1ade9d534451d92b171376e12f5ad36ac1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a1129aa652bb4c2d5c8aeef240536f732" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.gridToVdb</definition>
-        <argsstring>(MR.Const_FloatGrid grid, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_FloatGrid grid, string file, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>gridToVdb</name>
         <qualifiedname>MR.VoxelsSave.gridToVdb</qualifiedname>
         <param>
-          <type>MR.Const_FloatGrid</type>
+          <type><ref refid="classMR_1_1Const__FloatGrid" kindref="compound">MR.Const_FloatGrid</ref></type>
           <declname>grid</declname>
         </param>
         <param>
@@ -424,12 +425,12 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Save voxels file in OpenVDB format Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1ade9d534451d92b171376e12f5ad36ac1" kindref="member">MR.VoxelsSave.gridToVdb</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Save voxels file in OpenVDB format Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a1129aa652bb4c2d5c8aeef240536f732" kindref="member">MR.VoxelsSave.gridToVdb</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -437,14 +438,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="511" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="511" bodyend="522"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a90139acf573c437a73c2390d048b7fa4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1aa8228e12318152582999e3df222a9b4f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.gridToVdb</definition>
-        <argsstring>(MR.Const_FloatGrid grid, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_FloatGrid grid, MR.Std.Ostream out_, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>gridToVdb</name>
         <qualifiedname>MR.VoxelsSave.gridToVdb</qualifiedname>
         <param>
-          <type>MR.Const_FloatGrid</type>
+          <type><ref refid="classMR_1_1Const__FloatGrid" kindref="compound">MR.Const_FloatGrid</ref></type>
           <declname>grid</declname>
         </param>
         <param>
@@ -452,12 +453,12 @@
           <declname>out_</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1ade9d534451d92b171376e12f5ad36ac1" kindref="member">MR.VoxelsSave.gridToVdb</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a1129aa652bb4c2d5c8aeef240536f732" kindref="member">MR.VoxelsSave.gridToVdb</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -465,14 +466,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="528" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="528" bodyend="535"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a15288de4fc39da73d605bccadb9d7481" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1af9a739cd943151f986574b8eb8042105" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.toVdb</definition>
-        <argsstring>(MR.Const_VdbVolume vdbVolume, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_VdbVolume vdbVolume, string file, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>toVdb</name>
         <qualifiedname>MR.VoxelsSave.toVdb</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -480,12 +481,12 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a15288de4fc39da73d605bccadb9d7481" kindref="member">MR.VoxelsSave.toVdb</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1af9a739cd943151f986574b8eb8042105" kindref="member">MR.VoxelsSave.toVdb</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -493,14 +494,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="541" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="541" bodyend="552"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a61d164e695f8a35d7ef40d92b503ac2e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a391d2aa641e6f2a8f4cd693419d45ab4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.gridToAnySupportedFormat</definition>
-        <argsstring>(MR.Const_FloatGrid grid, in MR.Vector3i dims, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_FloatGrid grid, in MR.Vector3i dims, string file, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>gridToAnySupportedFormat</name>
         <qualifiedname>MR.VoxelsSave.gridToAnySupportedFormat</qualifiedname>
         <param>
-          <type>MR.Const_FloatGrid</type>
+          <type><ref refid="classMR_1_1Const__FloatGrid" kindref="compound">MR.Const_FloatGrid</ref></type>
           <declname>grid</declname>
         </param>
         <param>
@@ -512,12 +513,12 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Saves voxels in a file, detecting the format from file extension Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a61d164e695f8a35d7ef40d92b503ac2e" kindref="member">MR.VoxelsSave.gridToAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Saves voxels in a file, detecting the format from file extension Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a391d2aa641e6f2a8f4cd693419d45ab4" kindref="member">MR.VoxelsSave.gridToAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -525,14 +526,14 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="559" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="559" bodyend="573"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a81f68ce09e87d7e547c4c9f4862c2a89" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1a4aa1d6eed07f5a4ee3c34e5665f81a15" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.toAnySupportedFormat</definition>
-        <argsstring>(MR.Const_VdbVolume vdbVolume, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(MR.Const_VdbVolume vdbVolume, string file, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>toAnySupportedFormat</name>
         <qualifiedname>MR.VoxelsSave.toAnySupportedFormat</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -540,12 +541,12 @@
           <declname>file</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a81f68ce09e87d7e547c4c9f4862c2a89" kindref="member">MR.VoxelsSave.toAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1a4aa1d6eed07f5a4ee3c34e5665f81a15" kindref="member">MR.VoxelsSave.toAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -553,10 +554,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" line="579" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsSave.cs" bodystart="579" bodyend="590"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1VoxelsSave_1ae174243e90561c32d2a42c58bee25a1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1VoxelsSave_1ac82a47838c51d797d05c0fa60b08e0c8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>static unsafe void MR.VoxelsSave.saveSliceToImage</definition>
-        <argsstring>(string path, MR.Const_VdbVolume vdbVolume, MR.SlicePlane slicePlain, int sliceNumber, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <argsstring>(string path, MR.Const_VdbVolume vdbVolume, MR.SlicePlane slicePlain, int sliceNumber, MR.Std._ByValue_Function_Bool_From_Float? callback=null)</argsstring>
         <name>saveSliceToImage</name>
         <qualifiedname>MR.VoxelsSave.saveSliceToImage</qualifiedname>
         <param>
@@ -564,7 +565,7 @@
           <declname>path</declname>
         </param>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
@@ -576,12 +577,12 @@
           <declname>sliceNumber</declname>
         </param>
         <param>
-          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <type>MR.Std._ByValue_Function_Bool_From_Float?</type>
           <declname>callback</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>save the slice by the active plane through the sliceNumber to an image file Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1ae174243e90561c32d2a42c58bee25a1a" kindref="member">MR.VoxelsSave.saveSliceToImage</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<para>save the slice by the active plane through the sliceNumber to an image file Generated from function <computeroutput><ref refid="classMR_1_1VoxelsSave_1ac82a47838c51d797d05c0fa60b08e0c8" kindref="member">MR.VoxelsSave.saveSliceToImage</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -596,11 +597,11 @@
         <name>saveAllSlicesToImage</name>
         <qualifiedname>MR.VoxelsSave.saveAllSlicesToImage</qualifiedname>
         <param>
-          <type>MR.Const_VdbVolume</type>
+          <type><ref refid="classMR_1_1Const__VdbVolume" kindref="compound">MR.Const_VdbVolume</ref></type>
           <declname>vdbVolume</declname>
         </param>
         <param>
-          <type>MR.VoxelsSave.Const_SavingSettings</type>
+          <type><ref refid="classMR_1_1VoxelsSave_1_1Const__SavingSettings" kindref="compound">MR.VoxelsSave.Const_SavingSettings</ref></type>
           <declname>settings</declname>
         </param>
         <briefdescription>
@@ -619,27 +620,27 @@
     </detaileddescription>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" line="1095" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRDicom.cs" bodystart="1096" bodyend="1134"/>
     <listofallmembers>
-      <member refid="classMR_1_1VoxelsSave_1a61d164e695f8a35d7ef40d92b503ac2e" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>gridToAnySupportedFormat</name></member>
-      <member refid="classMR_1_1VoxelsSave_1a0be9c0e9d104e38b4f8a49f2d2122d17" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>gridToRawAutoname</name></member>
-      <member refid="classMR_1_1VoxelsSave_1a4a756f407097d79b64c293ed7bf92ccd" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>gridToRawFloat</name></member>
-      <member refid="classMR_1_1VoxelsSave_1ade9d534451d92b171376e12f5ad36ac1" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>gridToVdb</name></member>
-      <member refid="classMR_1_1VoxelsSave_1a90139acf573c437a73c2390d048b7fa4" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>gridToVdb</name></member>
+      <member refid="classMR_1_1VoxelsSave_1a391d2aa641e6f2a8f4cd693419d45ab4" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>gridToAnySupportedFormat</name></member>
+      <member refid="classMR_1_1VoxelsSave_1abb678afd096e1254695af4fe10843b42" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>gridToRawAutoname</name></member>
+      <member refid="classMR_1_1VoxelsSave_1a8f5a21495a5329c42b4ee7bddbb66592" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>gridToRawFloat</name></member>
+      <member refid="classMR_1_1VoxelsSave_1a1129aa652bb4c2d5c8aeef240536f732" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>gridToVdb</name></member>
+      <member refid="classMR_1_1VoxelsSave_1aa8228e12318152582999e3df222a9b4f" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>gridToVdb</name></member>
       <member refid="classMR_1_1VoxelsSave_1a1183900514fb84082b997eae6f87608a" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>saveAllSlicesToImage</name></member>
-      <member refid="classMR_1_1VoxelsSave_1ae174243e90561c32d2a42c58bee25a1a" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>saveSliceToImage</name></member>
-      <member refid="classMR_1_1VoxelsSave_1a81f68ce09e87d7e547c4c9f4862c2a89" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toAnySupportedFormat</name></member>
-      <member refid="classMR_1_1VoxelsSave_1a6c6921e445751acc40c054ff9d25dfe2" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toDicom</name></member>
+      <member refid="classMR_1_1VoxelsSave_1ac82a47838c51d797d05c0fa60b08e0c8" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>saveSliceToImage</name></member>
+      <member refid="classMR_1_1VoxelsSave_1a4aa1d6eed07f5a4ee3c34e5665f81a15" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classMR_1_1VoxelsSave_1a56867aadf2bd62203ce5312a547d2b7a" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toDicom</name></member>
       <member refid="classMR_1_1VoxelsSave_1ae6e2453df20537093a548aa9518f1107" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toDicom</name></member>
-      <member refid="classMR_1_1VoxelsSave_1a290a80182f4938af7df0000590db56bb" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toGav</name></member>
-      <member refid="classMR_1_1VoxelsSave_1adb37e85d0078e1294029fe57f4bf8335" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toGav</name></member>
-      <member refid="classMR_1_1VoxelsSave_1ae11273e46998c8b4b338b7e768ac1206" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toGav</name></member>
-      <member refid="classMR_1_1VoxelsSave_1a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toGav</name></member>
-      <member refid="classMR_1_1VoxelsSave_1a03716929055448a0a7eccbd8af3c80f1" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toGav</name></member>
-      <member refid="classMR_1_1VoxelsSave_1a3d577dd8122884f5efde439d0890e8a7" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toGav</name></member>
-      <member refid="classMR_1_1VoxelsSave_1a9cac18be1e6f88ceb2f05d50b3e1af73" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toRawAutoname</name></member>
-      <member refid="classMR_1_1VoxelsSave_1af31ef9e217e1cc80e0eb4de5ebbb2a3e" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toRawAutoname</name></member>
-      <member refid="classMR_1_1VoxelsSave_1ac0f8be4fc2ad72364b988027e0aae2c1" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toRawFloat</name></member>
-      <member refid="classMR_1_1VoxelsSave_1af07874e74b05490640ee2e8a9124e652" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toRawFloat</name></member>
-      <member refid="classMR_1_1VoxelsSave_1a15288de4fc39da73d605bccadb9d7481" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toVdb</name></member>
+      <member refid="classMR_1_1VoxelsSave_1a5ad5d386b17f0e89626830027eaa9455" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toGav</name></member>
+      <member refid="classMR_1_1VoxelsSave_1a04f220ffc2ad604c3054fea83a78dc42" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toGav</name></member>
+      <member refid="classMR_1_1VoxelsSave_1a422acea4b9a02ebe102f071fc8c4b35e" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toGav</name></member>
+      <member refid="classMR_1_1VoxelsSave_1a54c5262fdffa76fb987328e59ce9b502" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toGav</name></member>
+      <member refid="classMR_1_1VoxelsSave_1a1dfc9abb84583039fa63a328e90b2f96" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toGav</name></member>
+      <member refid="classMR_1_1VoxelsSave_1a790f731e569e4dd687cb56ba6a2e3090" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toGav</name></member>
+      <member refid="classMR_1_1VoxelsSave_1ad88c3ffe914a03a5e782647df2d8d0cc" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toRawAutoname</name></member>
+      <member refid="classMR_1_1VoxelsSave_1a2e4880bdcdcf1ee0213d0012d04a4f05" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toRawAutoname</name></member>
+      <member refid="classMR_1_1VoxelsSave_1a3e4c6b990e8ecd4472bc1d9cf438d054" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toRawFloat</name></member>
+      <member refid="classMR_1_1VoxelsSave_1aa4fab38ec45b26f101b8adfaea5ad2b4" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toRawFloat</name></member>
+      <member refid="classMR_1_1VoxelsSave_1af9a739cd943151f986574b8eb8042105" prot="public" virt="non-virtual"><scope>MR::VoxelsSave</scope><name>toVdb</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

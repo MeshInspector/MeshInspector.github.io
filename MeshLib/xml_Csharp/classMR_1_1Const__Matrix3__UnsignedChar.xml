@@ -1,0 +1,808 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__Matrix3__UnsignedChar" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_Matrix3_UnsignedChar</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Matrix3__UnsignedChar" prot="public" virt="non-virtual">MR.Matrix3_UnsignedChar</derivedcompoundref>
+    <innerclass refid="structMR_1_1Const__Matrix3__UnsignedChar_1_1__Underlying" prot="package">MR::Const_Matrix3_UnsignedChar::_Underlying</innerclass>
+    <innerclass refid="classMR_1_1Const__Matrix3__UnsignedChar_1_1Const__QR" prot="public">MR::Const_Matrix3_UnsignedChar::Const_QR</innerclass>
+    <innerclass refid="classMR_1_1Const__Matrix3__UnsignedChar_1_1QR" prot="public">MR::Const_Matrix3_UnsignedChar::QR</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__Matrix3__UnsignedChar_1a5c7d66cc0da7646a5680e6fe84513be0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_Vector3_UnsignedChar MR.Const_Matrix3_UnsignedChar.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.x</qualifiedname>
+        <briefdescription>
+<para>rows, identity matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6656" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6656" bodyend="6656"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Matrix3__UnsignedChar_1ade935711687f0fdb8821cc75d6f87934" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_Vector3_UnsignedChar MR.Const_Matrix3_UnsignedChar.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6658" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6658" bodyend="6658"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Matrix3__UnsignedChar_1aa9ccd703ac2a9397c1274ea7c17fb1d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_Vector3_UnsignedChar MR.Const_Matrix3_UnsignedChar.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6660" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6660" bodyend="6660"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__Matrix3__UnsignedChar_1a151d97844474868dab52d1378ebdf280" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_Vector3_UnsignedChar MR.Const_Matrix3_UnsignedChar.this[int row]</definition>
+        <argsstring></argsstring>
+        <name>this[int row]</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.this[int row]</qualifiedname>
+        <briefdescription>
+<para>row access Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6821" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6822" bodyend="6829"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a019468d2b60e808d39b48fa7817e39ca" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_Matrix3_UnsignedChar.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6641" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6641" bodyend="6649"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1ace0f29f74c2c1cd14070d3f1cacd7ba8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_Matrix3_UnsignedChar.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6650" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6650" bodyend="6650"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1ad9cda8ccdb8d920852828c6b5fc944e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Matrix3_UnsignedChar.Const_Matrix3_UnsignedChar</definition>
+        <argsstring>()</argsstring>
+        <name>Const_Matrix3_UnsignedChar</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.Const_Matrix3_UnsignedChar</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6702" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6702" bodyend="6708"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1ad6197f678396b06b3df67a229b3db607" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Matrix3_UnsignedChar.Const_Matrix3_UnsignedChar</definition>
+        <argsstring>(MR.Const_Matrix3_UnsignedChar _other)</argsstring>
+        <name>Const_Matrix3_UnsignedChar</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.Const_Matrix3_UnsignedChar</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;::Matrix3</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6713" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6713" bodyend="6720"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a70968388bb1b4ab8de29444413fc0272" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Matrix3_UnsignedChar.Const_Matrix3_UnsignedChar</definition>
+        <argsstring>(Matrix3_UnsignedChar _other)</argsstring>
+        <name>Const_Matrix3_UnsignedChar</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.Const_Matrix3_UnsignedChar</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Matrix3__UnsignedChar" kindref="compound">Matrix3_UnsignedChar</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;::Matrix3</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6725" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6725" bodyend="6725"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a25915feb78be11dd6944a51b33fbfd36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Matrix3_UnsignedChar.Const_Matrix3_UnsignedChar</definition>
+        <argsstring>(MR.Const_Vector3_UnsignedChar x, MR.Const_Vector3_UnsignedChar y, MR.Const_Vector3_UnsignedChar z)</argsstring>
+        <name>Const_Matrix3_UnsignedChar</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.Const_Matrix3_UnsignedChar</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>initializes matrix from its 3 rows Generated from constructor <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;::Matrix3</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6731" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6731" bodyend="6740"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a6b871a925ff8700fb5939afae9229fd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Vector3__UnsignedChar" kindref="compound">MR.Vector3_UnsignedChar</ref></type>
+        <definition>unsafe MR.Vector3_UnsignedChar MR.Const_Matrix3_UnsignedChar.col</definition>
+        <argsstring>(int i)</argsstring>
+        <name>col</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.col</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>column access Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Matrix3__UnsignedChar_1a6b871a925ff8700fb5939afae9229fd9" kindref="member">col</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6835" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6835" bodyend="6840"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1aec7840957e7d7a8634a28859b7e269dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_Matrix3_UnsignedChar.trace</definition>
+        <argsstring>()</argsstring>
+        <name>trace</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.trace</qualifiedname>
+        <briefdescription>
+<para>computes trace of the matrix Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Matrix3__UnsignedChar_1aec7840957e7d7a8634a28859b7e269dd" kindref="member">trace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6846" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6846" bodyend="6851"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1ad0907b07564a25ae55c462ee6ff40034" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_Matrix3_UnsignedChar.normSq</definition>
+        <argsstring>()</argsstring>
+        <name>normSq</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.normSq</qualifiedname>
+        <briefdescription>
+<para>compute sum of squared matrix elements Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Matrix3__UnsignedChar_1ad0907b07564a25ae55c462ee6ff40034" kindref="member">normSq</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6857" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6857" bodyend="6862"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a2d1b113089dc44ab3dfe09650d8c89df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>unsafe double MR.Const_Matrix3_UnsignedChar.norm</definition>
+        <argsstring>()</argsstring>
+        <name>norm</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.norm</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Matrix3__UnsignedChar_1a2d1b113089dc44ab3dfe09650d8c89df" kindref="member">norm</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6867" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6867" bodyend="6872"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1ad7c8f70118a9974a91fa827e17e63164" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_Matrix3_UnsignedChar.det</definition>
+        <argsstring>()</argsstring>
+        <name>det</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.det</qualifiedname>
+        <briefdescription>
+<para>computes determinant of the matrix Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Matrix3__UnsignedChar_1ad7c8f70118a9974a91fa827e17e63164" kindref="member">det</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6878" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6878" bodyend="6883"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a5b28f3fea5ae5552d4874b672b8b983c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Matrix3__UnsignedChar" kindref="compound">MR.Matrix3_UnsignedChar</ref></type>
+        <definition>unsafe MR.Matrix3_UnsignedChar MR.Const_Matrix3_UnsignedChar.transposed</definition>
+        <argsstring>()</argsstring>
+        <name>transposed</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.transposed</qualifiedname>
+        <briefdescription>
+<para>computes transposed matrix Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Matrix3__UnsignedChar_1a5b28f3fea5ae5552d4874b672b8b983c" kindref="member">transposed</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6889" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6889" bodyend="6894"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1ad28ac4c4efc4c45a6eb387f8d485a112" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.Const_Matrix3_UnsignedChar.Equals</definition>
+        <argsstring>(MR.Const_Matrix3_UnsignedChar? b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.Equals</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref>?</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="7213" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="7213" bodyend="7218"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1aee385590bdce76a0e86b8cadb2433f2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.Const_Matrix3_UnsignedChar.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="7220" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="7220" bodyend="7227"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a6fbb210ad500a36d69224dd763df61ef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_Matrix3_UnsignedChar.~Const_Matrix3_UnsignedChar</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_Matrix3_UnsignedChar</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.~Const_Matrix3_UnsignedChar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6651" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6651" bodyend="6651"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a2ff0c43502a2d5782fd6869e12dbc8c5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_Matrix3_UnsignedChar.Const_Matrix3_UnsignedChar</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_Matrix3_UnsignedChar</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.Const_Matrix3_UnsignedChar</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6691" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6691" bodyend="6696"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1acf3a5e3ed2598a0987eec93e34cd927b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Matrix3__UnsignedChar" kindref="compound">MR.Matrix3_UnsignedChar</ref></type>
+        <definition>static unsafe MR.Matrix3_UnsignedChar MR.Const_Matrix3_UnsignedChar.zero</definition>
+        <argsstring>()</argsstring>
+        <name>zero</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.zero</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Matrix3__UnsignedChar_1acf3a5e3ed2598a0987eec93e34cd927b" kindref="member">zero</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6745" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6745" bodyend="6750"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a72fc92bc1671d725f571fa3195e2cc2e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Matrix3__UnsignedChar" kindref="compound">MR.Matrix3_UnsignedChar</ref></type>
+        <definition>static unsafe MR.Matrix3_UnsignedChar MR.Const_Matrix3_UnsignedChar.identity</definition>
+        <argsstring>()</argsstring>
+        <name>identity</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.identity</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Matrix3__UnsignedChar_1a72fc92bc1671d725f571fa3195e2cc2e" kindref="member">identity</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6755" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6755" bodyend="6760"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a63d1566d8736d5beb06a683dd2189710" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Matrix3__UnsignedChar" kindref="compound">MR.Matrix3_UnsignedChar</ref></type>
+        <definition>static unsafe MR.Matrix3_UnsignedChar MR.Const_Matrix3_UnsignedChar.scale</definition>
+        <argsstring>(byte s)</argsstring>
+        <name>scale</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.scale</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>returns a matrix that scales uniformly Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Matrix3__UnsignedChar_1a63d1566d8736d5beb06a683dd2189710" kindref="member">scale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6766" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6766" bodyend="6771"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a760efa30238d66b1fc5713afeac8d7f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Matrix3__UnsignedChar" kindref="compound">MR.Matrix3_UnsignedChar</ref></type>
+        <definition>static unsafe MR.Matrix3_UnsignedChar MR.Const_Matrix3_UnsignedChar.scale</definition>
+        <argsstring>(byte sx, byte sy, byte sz)</argsstring>
+        <name>scale</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.scale</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>sx</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>sy</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>sz</declname>
+        </param>
+        <briefdescription>
+<para>returns a matrix that has its own scale along each axis Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Matrix3__UnsignedChar_1a63d1566d8736d5beb06a683dd2189710" kindref="member">scale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6777" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6777" bodyend="6782"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a5b6c9ff5590538ba7215d222dbcc1c9e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Matrix3__UnsignedChar" kindref="compound">MR.Matrix3_UnsignedChar</ref></type>
+        <definition>static unsafe MR.Matrix3_UnsignedChar MR.Const_Matrix3_UnsignedChar.scale</definition>
+        <argsstring>(MR.Const_Vector3_UnsignedChar s)</argsstring>
+        <name>scale</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.scale</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Matrix3__UnsignedChar_1a63d1566d8736d5beb06a683dd2189710" kindref="member">scale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6787" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6787" bodyend="6792"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1ab7ed4d1bca84e1b7772f4603707136ce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Matrix3__UnsignedChar" kindref="compound">MR.Matrix3_UnsignedChar</ref></type>
+        <definition>static unsafe MR.Matrix3_UnsignedChar MR.Const_Matrix3_UnsignedChar.fromRows</definition>
+        <argsstring>(MR.Const_Vector3_UnsignedChar x, MR.Const_Vector3_UnsignedChar y, MR.Const_Vector3_UnsignedChar z)</argsstring>
+        <name>fromRows</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.fromRows</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>constructs a matrix from its 3 rows Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Matrix3__UnsignedChar_1ab7ed4d1bca84e1b7772f4603707136ce" kindref="member">fromRows</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6798" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6798" bodyend="6803"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a2496ba88abb6e85f249eb2bad2ff3194" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Matrix3__UnsignedChar" kindref="compound">MR.Matrix3_UnsignedChar</ref></type>
+        <definition>static unsafe MR.Matrix3_UnsignedChar MR.Const_Matrix3_UnsignedChar.fromColumns</definition>
+        <argsstring>(MR.Const_Vector3_UnsignedChar x, MR.Const_Vector3_UnsignedChar y, MR.Const_Vector3_UnsignedChar z)</argsstring>
+        <name>fromColumns</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.fromColumns</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>constructs a matrix from its 3 columns; use this method to get the matrix that transforms basis vectors ( plusX, plusY, plusZ ) into vectors ( x, y, z ) respectively Generated from method <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;<ref refid="classMR_1_1Const__Matrix3__UnsignedChar_1a2496ba88abb6e85f249eb2bad2ff3194" kindref="member">fromColumns</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6810" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6810" bodyend="6815"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a69a449db89f0f55210b2f68c9bff046f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Matrix3_UnsignedChar.operator==</definition>
+        <argsstring>(MR.Const_Matrix3_UnsignedChar a, MR.Const_Matrix3_UnsignedChar b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6899" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6899" bodyend="6904"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a5b8ca9c8b6e1dc3ccaf10c44f2a62a44" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.Const_Matrix3_UnsignedChar.operator!=</definition>
+        <argsstring>(MR.Const_Matrix3_UnsignedChar a, MR.Const_Matrix3_UnsignedChar b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6906" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6906" bodyend="6909"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1abea70ee5142fe5332073c2777768d9dd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix3i" kindref="compound">MR.Matrix3i</ref></type>
+        <definition>static unsafe MR.Matrix3i MR.Const_Matrix3_UnsignedChar.operator+</definition>
+        <argsstring>(MR.Const_Matrix3_UnsignedChar a, MR.Const_Matrix3_UnsignedChar b)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.operator+</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator+</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6915" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6915" bodyend="6920"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a9bc52152748a1d5ece45f98030effa71" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix3i" kindref="compound">MR.Matrix3i</ref></type>
+        <definition>static unsafe MR.Matrix3i MR.Const_Matrix3_UnsignedChar.operator-</definition>
+        <argsstring>(MR.Const_Matrix3_UnsignedChar a, MR.Const_Matrix3_UnsignedChar b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.operator-</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator-</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6925" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6925" bodyend="6930"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a2b05784c246bd1523d9f70e4dc200d6f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix3i" kindref="compound">MR.Matrix3i</ref></type>
+        <definition>static unsafe MR.Matrix3i MR.Const_Matrix3_UnsignedChar.operator*</definition>
+        <argsstring>(byte a, MR.Const_Matrix3_UnsignedChar b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.operator*</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6935" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6935" bodyend="6940"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a0e1e93617a17d4d41993e9df04a40b9b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix3i" kindref="compound">MR.Matrix3i</ref></type>
+        <definition>static unsafe MR.Matrix3i MR.Const_Matrix3_UnsignedChar.operator*</definition>
+        <argsstring>(MR.Const_Matrix3_UnsignedChar b, byte a)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.operator*</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6945" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6945" bodyend="6950"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a8487acee8fe7c465a914f27a9685dcfb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix3i" kindref="compound">MR.Matrix3i</ref></type>
+        <definition>static unsafe MR.Matrix3i MR.Const_Matrix3_UnsignedChar.operator/</definition>
+        <argsstring>(Const_Matrix3_UnsignedChar b, byte a)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.operator/</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">Const_Matrix3_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::operator/</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6955" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6955" bodyend="6960"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a6b5c43f5dc223c90a7a6c5d6e0b637ec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>static unsafe MR.Vector3i MR.Const_Matrix3_UnsignedChar.operator*</definition>
+        <argsstring>(MR.Const_Matrix3_UnsignedChar a, MR.Const_Vector3_UnsignedChar b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.operator*</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Vector3__UnsignedChar" kindref="compound">MR.Const_Vector3_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>x = a * b Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6966" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6966" bodyend="6971"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__Matrix3__UnsignedChar_1a0cdfda67e55f3a2022f94d2fa50d8ff0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Matrix3i" kindref="compound">MR.Matrix3i</ref></type>
+        <definition>static unsafe MR.Matrix3i MR.Const_Matrix3_UnsignedChar.operator*</definition>
+        <argsstring>(MR.Const_Matrix3_UnsignedChar a, MR.Const_Matrix3_UnsignedChar b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR.Const_Matrix3_UnsignedChar.operator*</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__Matrix3__UnsignedChar" kindref="compound">MR.Const_Matrix3_UnsignedChar</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>product of two matrices Generated from function <computeroutput>MR::operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6977" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6977" bodyend="6982"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>arbitrary 3x3 matrix Generated from class <computeroutput>MR::Matrix3&amp;lt;unsigned char&amp;gt;</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_Matrix3_UnsignedChar</label>
+        <link refid="classMR_1_1Const__Matrix3__UnsignedChar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.Matrix3_UnsignedChar</label>
+        <link refid="classMR_1_1Matrix3__UnsignedChar"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_Matrix3_UnsignedChar</label>
+        <link refid="classMR_1_1Const__Matrix3__UnsignedChar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System.IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="6635" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="6636" bodyend="7228"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a6b871a925ff8700fb5939afae9229fd9" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>col</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a2ff0c43502a2d5782fd6869e12dbc8c5" prot="package" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>Const_Matrix3_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1ad9cda8ccdb8d920852828c6b5fc944e8" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>Const_Matrix3_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1ad6197f678396b06b3df67a229b3db607" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>Const_Matrix3_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a70968388bb1b4ab8de29444413fc0272" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>Const_Matrix3_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a25915feb78be11dd6944a51b33fbfd36" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>Const_Matrix3_UnsignedChar</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1ad7c8f70118a9974a91fa827e17e63164" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>det</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a019468d2b60e808d39b48fa7817e39ca" prot="protected" virt="virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1ace0f29f74c2c1cd14070d3f1cacd7ba8" prot="public" virt="virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1ad28ac4c4efc4c45a6eb387f8d485a112" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1aee385590bdce76a0e86b8cadb2433f2a" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a2496ba88abb6e85f249eb2bad2ff3194" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>fromColumns</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1ab7ed4d1bca84e1b7772f4603707136ce" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>fromRows</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a72fc92bc1671d725f571fa3195e2cc2e" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>identity</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a2d1b113089dc44ab3dfe09650d8c89df" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>norm</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1ad0907b07564a25ae55c462ee6ff40034" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>normSq</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a5b8ca9c8b6e1dc3ccaf10c44f2a62a44" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a2b05784c246bd1523d9f70e4dc200d6f" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a0e1e93617a17d4d41993e9df04a40b9b" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a6b5c43f5dc223c90a7a6c5d6e0b637ec" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a0cdfda67e55f3a2022f94d2fa50d8ff0" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>operator*</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1abea70ee5142fe5332073c2777768d9dd" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>operator+</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a9bc52152748a1d5ece45f98030effa71" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>operator-</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a8487acee8fe7c465a914f27a9685dcfb" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>operator/</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a69a449db89f0f55210b2f68c9bff046f" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a63d1566d8736d5beb06a683dd2189710" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>scale</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a760efa30238d66b1fc5713afeac8d7f0" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>scale</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a5b6c9ff5590538ba7215d222dbcc1c9e" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>scale</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a151d97844474868dab52d1378ebdf280" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>this[int row]</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1aec7840957e7d7a8634a28859b7e269dd" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>trace</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a5b28f3fea5ae5552d4874b672b8b983c" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>transposed</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a5c7d66cc0da7646a5680e6fe84513be0" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>x</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1ade935711687f0fdb8821cc75d6f87934" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>y</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1aa9ccd703ac2a9397c1274ea7c17fb1d1" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>z</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1acf3a5e3ed2598a0987eec93e34cd927b" prot="public" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>zero</name></member>
+      <member refid="classMR_1_1Const__Matrix3__UnsignedChar_1a6fbb210ad500a36d69224dd763df61ef" prot="private" virt="non-virtual"><scope>MR::Const_Matrix3_UnsignedChar</scope><name>~Const_Matrix3_UnsignedChar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

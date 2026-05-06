@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1NoDefInit__MRPixelId" kind="class" language="C#" prot="public">
     <compoundname>MR::NoDefInit_MRPixelId</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MRPixelId</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__NoDefInit__MRPixelId" prot="public" virt="non-virtual">MR.Const_NoDefInit_MRPixelId</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1NoDefInit__MRPixelId_1a571b1fe2f4bf769b21457f5e5059a311" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref int</type>
@@ -86,11 +86,11 @@
         <name>NoDefInit_MRPixelId</name>
         <qualifiedname>MR.NoDefInit_MRPixelId.NoDefInit_MRPixelId</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRPixelId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRPixelId" kindref="compound">MR.Const_NoDefInit_MRPixelId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;::NoDefInit</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -109,7 +109,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;::NoDefInit</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;::NoDefInit</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -124,11 +124,11 @@
         <name>assign</name>
         <qualifiedname>MR.NoDefInit_MRPixelId.assign</qualifiedname>
         <param>
-          <type>MR.Const_NoDefInit_MRPixelId</type>
+          <type><ref refid="classMR_1_1Const__NoDefInit__MRPixelId" kindref="compound">MR.Const_NoDefInit_MRPixelId</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,7 +143,7 @@
         <name>get</name>
         <qualifiedname>MR.NoDefInit_MRPixelId.get</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;<ref refid="classMR_1_1NoDefInit__MRPixelId_1a26a2f8c73d28b586445e904619768670" kindref="member">get</ref></computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;<ref refid="classMR_1_1NoDefInit__MRPixelId_1a26a2f8c73d28b586445e904619768670" kindref="member">get</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -162,7 +162,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;::operator-=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;::operator-=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -181,7 +181,7 @@
           <declname>a</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;::operator+=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;::operator+=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -191,7 +191,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Generated from class <computeroutput>MR::NoDefInit&amp;amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></computeroutput> This is the non-const half of the class. </para>
+<para>Generated from class <computeroutput>MR::NoDefInit&amp;lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&amp;gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -204,6 +204,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRPixelId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRPixelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -230,6 +231,7 @@
       </node>
       <node id="2">
         <label>MR.Const_NoDefInit_MRPixelId</label>
+        <link refid="classMR_1_1Const__NoDefInit__MRPixelId"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -249,16 +251,32 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2601" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2602" bodyend="2693"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1a1e498395e5255f6704d766ea63788b8d" prot="protected" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>__ref_storage_id</name></member>
       <member refid="classMR_1_1NoDefInit__MRPixelId_1a9c1772eaed7dd8a2e6a761224b119942" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>addAssign</name></member>
       <member refid="classMR_1_1NoDefInit__MRPixelId_1ae48021066474eca64e7d7b2483208b58" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1acb92b22fc89cba10a56ebf14db0ac10a" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>Const_NoDefInit_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1a7c62e15eaf448dcd9fc4adc7c6afa3d6" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>Const_NoDefInit_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1a2338f5751d51fce3dc8027d858866566" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>Const_NoDefInit_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1a885700ab49446d0edf338cbe49fa3c2c" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>Const_NoDefInit_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1a1f827daba360995619610fc14e550c54" prot="protected" virt="virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1a1a887c640c13b31ea5a40ba5e9ef6030" prot="public" virt="virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1a6262ed114d3500c5252e7c3f24947c3a" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1ae067a1b3515bf0e9ea19c6f22dc91b5e" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>Equals</name></member>
       <member refid="classMR_1_1NoDefInit__MRPixelId_1a26a2f8c73d28b586445e904619768670" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>get</name></member>
       <member refid="classMR_1_1NoDefInit__MRPixelId_1a571b1fe2f4bf769b21457f5e5059a311" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>id</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1a36d65a004ef45bcd2707a889dccff41a" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>less</name></member>
       <member refid="classMR_1_1NoDefInit__MRPixelId_1ac22f4cbacf49a068202c4cae06a14c5f" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>NoDefInit_MRPixelId</name></member>
       <member refid="classMR_1_1NoDefInit__MRPixelId_1a02b3049e8659fc97d7c2540b0870e743" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>NoDefInit_MRPixelId</name></member>
       <member refid="classMR_1_1NoDefInit__MRPixelId_1ac1949f06202a6bbf0ca3368102385f8d" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>NoDefInit_MRPixelId</name></member>
       <member refid="classMR_1_1NoDefInit__MRPixelId_1a1759a6c92e977d68cc04f66500cd28ae" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>NoDefInit_MRPixelId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1a08d791409cf404ec34246dca06611256" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1a7837478c2f8084774825a7da6c42708c" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>operator int</name></member>
       <member refid="classMR_1_1NoDefInit__MRPixelId_1a0fcd47c8f7722aab6a58e6b0a264bfe4" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>operator MR.Box_PixelId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1ad48a4af04a20eea2b0656eefd169b555" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>operator MR.ConstBox_PixelId</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1a4d42491a2912ce41006ef8779cb41b1c" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1a616fc8afa1b1793f236d3650da9a0fc5" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>operator==</name></member>
       <member refid="classMR_1_1NoDefInit__MRPixelId_1a9137a2fb291b9a23bed2905d64171f91" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1Const__NoDefInit__MRPixelId_1a71d4d96bbd53522b423bd5f5098497bf" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

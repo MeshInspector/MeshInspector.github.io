@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1MakeDegenerateBandAroundRegionParams" kind="class" language="C#" prot="public">
     <compoundname>MR::MakeDegenerateBandAroundRegionParams</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_MakeDegenerateBandAroundRegionParams</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams" prot="public" virt="non-virtual">MR.Const_MakeDegenerateBandAroundRegionParams</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1MakeDegenerateBandAroundRegionParams_1a203053611f6e965f74ec4bf0255c9492" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
@@ -139,7 +139,7 @@
         <name>MakeDegenerateBandAroundRegionParams</name>
         <qualifiedname>MR.MakeDegenerateBandAroundRegionParams.MakeDegenerateBandAroundRegionParams</qualifiedname>
         <param>
-          <type>MR.Const_MakeDegenerateBandAroundRegionParams</type>
+          <type><ref refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams" kindref="compound">MR.Const_MakeDegenerateBandAroundRegionParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -177,7 +177,7 @@
         <name>assign</name>
         <qualifiedname>MR.MakeDegenerateBandAroundRegionParams.assign</qualifiedname>
         <param>
-          <type>MR.Const_MakeDegenerateBandAroundRegionParams</type>
+          <type><ref refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams" kindref="compound">MR.Const_MakeDegenerateBandAroundRegionParams</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -204,6 +204,7 @@
       </node>
       <node id="2">
         <label>MR.Const_MakeDegenerateBandAroundRegionParams</label>
+        <link refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -217,6 +218,10 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
       <node id="1">
         <label>MR.MakeDegenerateBandAroundRegionParams</label>
         <link refid="classMR_1_1MakeDegenerateBandAroundRegionParams"/>
@@ -225,9 +230,15 @@
       </node>
       <node id="2">
         <label>MR.Const_MakeDegenerateBandAroundRegionParams</label>
+        <link refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>__ptr_storage_new2OldMap</edgelabel>
+          <edgelabel>__ptr_storage_outExtrudedEdges</edgelabel>
+          <edgelabel>__ptr_storage_outNewFaces</edgelabel>
         </childnode>
       </node>
       <node id="3">
@@ -239,7 +250,18 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" line="180" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshExtrude.cs" bodystart="181" bodyend="298"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a73506eea6e9ba47e299bc37cff1faa87" prot="protected" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>__ptr_storage_maxEdgeLength</name></member>
+      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1aad0f906d10809d9ea334577da5e33b90" prot="protected" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>__ptr_storage_new2OldMap</name></member>
+      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1af519c2ca5cad93235ca2f3c8bf645a33" prot="protected" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>__ptr_storage_outExtrudedEdges</name></member>
+      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1af031cacfe86c356aaa6a176fd7e9d492" prot="protected" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>__ptr_storage_outNewFaces</name></member>
       <member refid="classMR_1_1MakeDegenerateBandAroundRegionParams_1a5216f802ca6269b8152dfcbad690e3df" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a2562787eccfccb63eed9664ba98a2b1c" prot="package" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>Const_MakeDegenerateBandAroundRegionParams</name></member>
+      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1aa4961493487f18e362e6d15eb3e4c864" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>Const_MakeDegenerateBandAroundRegionParams</name></member>
+      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a523cd2a819e740ed5afc2b935f1d81e4" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>Const_MakeDegenerateBandAroundRegionParams</name></member>
+      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1ae7348cec57d29dea793b88551834b9ef" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>Const_MakeDegenerateBandAroundRegionParams</name></member>
+      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1ad6274a4571bb85ec149b52382e62beef" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>Const_MakeDegenerateBandAroundRegionParams</name></member>
+      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1a7e20a55d35031e437ab7dce1e3f23349" prot="protected" virt="virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__MakeDegenerateBandAroundRegionParams_1aed4836617941cece0004ae05c10f5220" prot="public" virt="virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MakeDegenerateBandAroundRegionParams_1a647fa0daf618943bac8964418867df5e" prot="package" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>MakeDegenerateBandAroundRegionParams</name></member>
       <member refid="classMR_1_1MakeDegenerateBandAroundRegionParams_1a65e5f13c80c0299e0216ed6bab999a2f" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>MakeDegenerateBandAroundRegionParams</name></member>
       <member refid="classMR_1_1MakeDegenerateBandAroundRegionParams_1a78a8e08fc0b020b14a11d1bd69608e89" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>MakeDegenerateBandAroundRegionParams</name></member>

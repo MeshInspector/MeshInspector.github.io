@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1LineObject" kind="class" language="C#" prot="public">
     <compoundname>MR::LineObject</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_LineObject</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__LineObject" prot="public" virt="non-virtual">MR.Const_LineObject</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1LineObject_1a53add0f5e824910cd30576cf5ddbe3a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -605,11 +605,11 @@
           <declname>value</declname>
         </param>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -628,11 +628,11 @@
         <name>setVisualizePropertyMask</name>
         <qualifiedname>MR.LineObject.setVisualizePropertyMask</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -651,11 +651,11 @@
         <name>toggleVisualizeProperty</name>
         <qualifiedname>MR.LineObject.toggleVisualizeProperty</qualifiedname>
         <param>
-          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
           <declname>type</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -693,7 +693,7 @@
         <name>copyAllSolidColors</name>
         <qualifiedname>MR.LineObject.copyAllSolidColors</qualifiedname>
         <param>
-          <type>MR.Const_VisualObject</type>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
           <declname>other</declname>
         </param>
         <briefdescription>
@@ -716,12 +716,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a0b461d0b8fcc814b65efedc2315a7aaa" kindref="member">MR.LineObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a0b461d0b8fcc814b65efedc2315a7aaa" kindref="member">MR.LineObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -920,12 +920,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1af4811eae438babb6936d048bcf752515" kindref="member">MR.LineObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1af4811eae438babb6936d048bcf752515" kindref="member">MR.LineObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1150,12 +1150,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ae83e632aefda5b32fe499f9d206827c0" kindref="member">MR.LineObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ae83e632aefda5b32fe499f9d206827c0" kindref="member">MR.LineObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1352,12 +1352,12 @@
           <declname>on</declname>
         </param>
         <param>
-          <type>MR.Const_ViewportMask?</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
           <declname>viewportMask</declname>
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a7fd46f32221d4beeeff2896085ab37cb" kindref="member">MR.LineObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a7fd46f32221d4beeeff2896085ab37cb" kindref="member">MR.LineObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a0d8208ad0e566949567adfe9dafd7ba9" kindref="member">ViewportMask.all()</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -1372,7 +1372,7 @@
         <name>setVisibilityMask</name>
         <qualifiedname>MR.LineObject.setVisibilityMask</qualifiedname>
         <param>
-          <type>MR.Const_ViewportMask</type>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
           <declname>viewportMask</declname>
         </param>
         <briefdescription>
@@ -1456,6 +1456,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LineObject</label>
+        <link refid="classMR_1_1Const__LineObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1477,6 +1478,7 @@
       </node>
       <node id="2">
         <label>MR.Const_LineObject</label>
+        <link refid="classMR_1_1Const__LineObject"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -1496,25 +1498,108 @@
       <member refid="classMR_1_1LineObject_1a175e396f157a355c023a086f568c33e1" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>addTag</name></member>
       <member refid="classMR_1_1LineObject_1a7a422ce39cdb1d85aaaf9678ca19f933" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>applyScale</name></member>
       <member refid="classMR_1_1LineObject_1a51146e33dfd42bf63f39994c83e02b49" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a32891a0c49bcbad2544162cae78be37e" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__LineObject_1ae612540a55fbff970e8ec03826e8adde" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__LineObject_1acdbad527fc4630899ce33a35a36b2557" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a95c2457595dfbdadad6a4f2f4bbc2e48" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a24f4116f83198a5433d49235aa0f988a" prot="package" virt="non-virtual"><scope>MR::LineObject</scope><name>Const_LineObject</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a60ba218be4db40e43855806b3dcf73a3" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>Const_LineObject</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a9e56293a97f7d226c78567a2bd6a0922" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>Const_LineObject</name></member>
+      <member refid="classMR_1_1Const__LineObject_1ab1aba6705b5c90a706267a5ed7baed4a" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>Const_LineObject</name></member>
       <member refid="classMR_1_1LineObject_1a0752e0903224f382f1c099b77cef65c5" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>copyAllSolidColors</name></member>
       <member refid="classMR_1_1LineObject_1af7966393dd70e658a1e38e66440e5889" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Const__LineObject_1abfb6ccdd3561bfb72f9a426f82e2e302" prot="protected" virt="virtual"><scope>MR::LineObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a65d2231f12a0c8c352bb9a7729d337e9" prot="public" virt="virtual"><scope>MR::LineObject</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a087dd91dd13db8eb622e2d35fb66c962" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a1797ffb0ba6ad2840f848b0b13c1d44c" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a3acbde0d9cdb21f00523cfe288161573" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a3c4dd1746983ada8ed0e04f79f2d425c" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a5aecbb7bc8c694cafeab3bf67f73b88d" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a3ce1b1d1989596808914cc36212243a2" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getBasePoint</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a21a517ced718f93cc3cd8c335221f852" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a03fb4a2b4e696312edc1c7516d2601e8" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getCenter</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a96866bdb918e119f49073ef48952b588" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__LineObject_1ae19faf341855c7cba93ef74a4f64f1c2" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getDecorationsColor</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a63b768933f0d07eefce6fd2a56aaae3f" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a2c56a919f589bc6f56d33b82ceab3bd6" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getDirection</name></member>
+      <member refid="classMR_1_1Const__LineObject_1aaa97212a09185a641dc79bd20542c8e1" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__LineObject_1aab8df7ecac702c91eda21e360aba4790" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a2d40708ea8688cf70561fec8b6922aa0" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__LineObject_1ad47fc6d5b9878f750f9cee1ac112b8bf" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__LineObject_1ac7d4db93f60c298492e15124c1b1c0a6" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a82c41bb43a8f74b74accd1aafd838192" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__LineObject_1ab023cef0d80c4c0b3f34a18959f0982f" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getLength</name></member>
+      <member refid="classMR_1_1Const__LineObject_1aa033c57dcd06a85c53cdf51442f10630" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getLineWidth</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a772f530d16f0a44bcc116dfce4844926" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a67c0a8b745bc4d00d26d909742e33deb" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__LineObject_1afee1ed2ba59f2da12b9036c726a7d384" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getNormal</name></member>
+      <member refid="classMR_1_1Const__LineObject_1aa8595b40ed59a71d9bffd24bd8bc7403" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getPointA</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a1283b52b1a8a0579d5f81577635b4e00" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getPointB</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a994e0ab7b7fbd1f826540f112eeaae9d" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a0c94e2a24c40e3d6193e631827f217e7" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__LineObject_1aab2040352307841cb2ea4a5f29717055" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getRotationMatrix</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a50a088d541866ef3c7f2e837fffb4288" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getScaleShearMatrix</name></member>
+      <member refid="classMR_1_1Const__LineObject_1acc2c4e51e72e631ce7e71fd2fd5b2987" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a826df39f50ebc4300a31a290be42217e" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a2d424f257612ee7ead67267cf9c7f12e" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a10bd690be3629dcfb028b16305623e80" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a0d5be493aaafc32992f42a0b09982134" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1Const__LineObject_1aedfdd7851c865be0e642b1e9c137f457" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a0d9a68c11d497ec208b3782558fe0bbd" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a485b20790323181cb73ae3b75f4cad2e" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1Const__LineObject_1aa479a2bfe3f4cdc11e9020cbaa2beaee" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a7a829a200eb491c007f1ed41d3d40a61" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a6db62bea5eafd926eb4ce820212087ce" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a1319facdd133330bea5e27bfcb74c5bf" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a379810950f8f82fa6c6f6c27cb0da610" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a987fde18610ed389f46ec59fe8724292" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a6dd20f80d1cb065b60170e0a8b5c1d80" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a55c1183a1d18030e23a4d9f0e2d49e85" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a658cee5ed4584344657ab447279b80dd" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a28b56154948520075c0cede793eb8572" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__LineObject_1adcc7577131675de6190d81c63b42de8c" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__LineObject_1ac51131dba64c72b33ba1748084d63855" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a01f73e53a1c60049342dcf04c569ffd6" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a75c3c5994bb328e88ec8f66a586235dd" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a26b98d33751a54a1ae1e73379200f581" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a921f4be8e260ec60c8281d14bd9ddc53" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__LineObject_1af370cdba96c1e9f430b3a337fdf29f74" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__LineObject_1ae043f1f5556f067b5569349c584513a9" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__LineObject_1aa5e4b357ee2b1d816ead20fab3570fe0" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>isVisible</name></member>
       <member refid="classMR_1_1LineObject_1a9f2f315a119109afa4b671d1ace4957c" prot="package" virt="non-virtual"><scope>MR::LineObject</scope><name>LineObject</name></member>
       <member refid="classMR_1_1LineObject_1acc5e8e6189820ab92296f285e05637e2" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>LineObject</name></member>
       <member refid="classMR_1_1LineObject_1a9a9e43094606dfba232440877b5cd4fa" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>LineObject</name></member>
       <member refid="classMR_1_1LineObject_1aeee0da811f7fff42f7a9226faed23611" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>LineObject</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a5c4e540e38e39a9dc39fe435278a6b3d" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__LineObject_1acb55c8905af4399bf66ab3ca230fe438" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator Const_LineObject</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a49b76772509cc95cb75f8d8d9ebc4bf1" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator Const_LineObject?</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a8ebe8d4126a1c81ab1e6487b23d3529e" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator Const_LineObject?</name></member>
+      <member refid="classMR_1_1Const__LineObject_1ab7b8d5d2bfbe2f919d687dfc96be8314" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator Const_LineObject?</name></member>
       <member refid="classMR_1_1LineObject_1a6881902e7f72948c34268fbd1e85d32f" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator LineObject</name></member>
       <member refid="classMR_1_1LineObject_1a6c227f7b150740b241db0b4f186a7468" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator LineObject?</name></member>
       <member refid="classMR_1_1LineObject_1ab7d26fb2ed02fe09ca62ae6f2bdc60e1" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator LineObject?</name></member>
       <member refid="classMR_1_1LineObject_1a7e25b48d57d5059c734fb9c0ce5f1df6" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator LineObject?</name></member>
+      <member refid="classMR_1_1Const__LineObject_1aed48db05523848f9b9b3e0d2b3f30634" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator MR.Const_FeatureObject</name></member>
+      <member refid="classMR_1_1Const__LineObject_1aa58695f05a7a4b66f4a4f042ca4cad71" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__LineObject_1ad9cd60a4269a2ee3449a140a69e302b7" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__LineObject_1aaaa45c35b87da6c9eb6085818cd963bf" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator MR.Const_VisualObject</name></member>
       <member refid="classMR_1_1LineObject_1aea7a1eb5d23953103f411ee8b9d57bfd" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator MR.FeatureObject</name></member>
       <member refid="classMR_1_1LineObject_1adbda0b52cff6442a18a677a6de55a11f" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator MR.Object</name></member>
       <member refid="classMR_1_1LineObject_1a53add0f5e824910cd30576cf5ddbe3a7" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
       <member refid="classMR_1_1LineObject_1a6db3718ea8ad2726cf131692f5ca82f6" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a38048b4b2e7680cc5e25129d67e581ec" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>projectPoint</name></member>
       <member refid="classMR_1_1LineObject_1a9ac8387ccc522fa762523a6dbf5db7b5" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>removeAllChildren</name></member>
       <member refid="classMR_1_1LineObject_1ad168d47f152203c805adeb88cd9952cc" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a6db0c9cb77bb58cf7f413de304e7f465" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__LineObject_1aeefee2ccb0d1673ba8485392a489c3d4" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a946ae66d9bb61647977810d137ae66a9" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>renderUi</name></member>
       <member refid="classMR_1_1LineObject_1a38dc951d065af39840f0a673eff00228" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1Const__LineObject_1ab63af8768ba87522d7d5d39bc77cbe75" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a9b5a610b3e51a0101a905ff77a1cd88a" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>resetDirtyExceptMask</name></member>
       <member refid="classMR_1_1LineObject_1ad597ab403bc135b4cfdc0b9359ffb16e" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Const__LineObject_1ade3b62f4842003880da19dc7150eb190" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>resetRedrawFlag</name></member>
       <member refid="classMR_1_1LineObject_1afdf36e1a61709f2ef0c1da8ea0f553e8" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a7ea31641c38d4f358172b29d7fa64264" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>sameModels</name></member>
       <member refid="classMR_1_1LineObject_1a4f5b17f3779d0f96de3d0c2d1d11bcba" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>select</name></member>
       <member refid="classMR_1_1LineObject_1a76c1667093fc00caa65f6c40921a9e66" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setAllVisualizeProperties</name></member>
       <member refid="classMR_1_1LineObject_1a715274723261b485e6c66eda581ec2b3" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setAmbientStrength</name></member>
@@ -1557,9 +1642,22 @@
       <member refid="classMR_1_1LineObject_1ae4c41af0ce6973e0d8a171a51791b5c5" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setWorldXf</name></member>
       <member refid="classMR_1_1LineObject_1ae6bd41893602545faa05b8114d8a03d9" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setXf</name></member>
       <member refid="classMR_1_1LineObject_1a8635e88d13d8fbb602a9bd2395686d4a" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__LineObject_1ae45484a4aeef8537c796bf24a9d59d88" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a612036f584d2ce65e7ced9ba7ac069dc" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>shallowCloneTree</name></member>
       <member refid="classMR_1_1LineObject_1a13ad767754222ac77bfaafffafe88aef" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a5975a3c27cc1a20287329ecbe4be3af0" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a036a6e0acd6ce35a5446c2293649a79e" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a0d041a53314bbe8f16ab83de3007d80f" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a036abcd8b803d271db861e72dbf8a502" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>supportsVisualizeProperty</name></member>
       <member refid="classMR_1_1LineObject_1ad5ae200e6a13aeabb4962c4aa61dc97b" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a6795618158346a7622b90a579c00eca3" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>tags</name></member>
       <member refid="classMR_1_1LineObject_1ac8747088fcb476316d79c341670a5ba4" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a51bccf46bfe1a61531a307383d2509b3" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a2c9388aa25746d0cf90ef9abe86611c2" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__LineObject_1aede842572d71ef68c3ceee040224e23a" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a01d4ca0041ba060d490f00ea0aa19c74" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__LineObject_1a483397d25e808558aa3f7e702b1cc5b9" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__LineObject_1abacfb7a727aa549228c9c666774a7594" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>xfsForAllViewports</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

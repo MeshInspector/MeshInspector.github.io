@@ -8,6 +8,7 @@ var structMR_1_1RebuildMeshSettings =
     [ "outSharpEdges", "group__GeneralGroup.html#gab3fd176a4586472f781779fd1126f50c", null ],
     [ "preSubdivide", "group__GeneralGroup.html#gaedf85a579696f897a9cd4c1c719059b8", null ],
     [ "progress", "group__GeneralGroup.html#ga03a98a1c9695b0ef4243961f9ad3b59e", null ],
+    [ "reduceAngleNumIters", "group__GeneralGroup.html#ga951726066765f74bb3cb752878c21ec2", null ],
     [ "signMode", "group__GeneralGroup.html#ga0a73a19f4845bdec3e2e59c9d1dfd4b8", null ],
     [ "tinyEdgeLength", "group__GeneralGroup.html#gac305c46895a7bfd2a0af7ccfe1b5cb2e", null ],
     [ "voxelSize", "group__GeneralGroup.html#ga277cd0e4fca4f06fd90dd9977ec8a418", null ],

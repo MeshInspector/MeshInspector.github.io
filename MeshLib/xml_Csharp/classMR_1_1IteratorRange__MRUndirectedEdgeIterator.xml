@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1IteratorRange__MRUndirectedEdgeIterator" kind="class" language="C#" prot="public">
     <compoundname>MR::IteratorRange_MRUndirectedEdgeIterator</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_IteratorRange_MRUndirectedEdgeIterator</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator" prot="public" virt="non-virtual">MR.Const_IteratorRange_MRUndirectedEdgeIterator</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1IteratorRange__MRUndirectedEdgeIterator_1a879583da4c8b840fec7053956b0e9af4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">MR.UndirectedEdgeIterator</ref></type>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="975" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="975" bodyend="975"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="704" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="704" bodyend="704"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1IteratorRange__MRUndirectedEdgeIterator_1afc743d87baeb9d9ed503fa69d8ee55b7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type>new unsafe <ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">MR.UndirectedEdgeIterator</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="977" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="977" bodyend="977"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="706" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="706" bodyend="706"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="1003" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="1003" bodyend="1007"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="732" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="732" bodyend="736"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -65,17 +65,17 @@
         <name>IteratorRange_MRUndirectedEdgeIterator</name>
         <qualifiedname>MR.IteratorRange_MRUndirectedEdgeIterator.IteratorRange_MRUndirectedEdgeIterator</qualifiedname>
         <param>
-          <type>MR.Const_IteratorRange_MRUndirectedEdgeIterator</type>
+          <type><ref refid="classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator" kindref="compound">MR.Const_IteratorRange_MRUndirectedEdgeIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">MR.UndirectedEdgeIterator</ref>&amp;amp;gt;::IteratorRange</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">MR.UndirectedEdgeIterator</ref>&amp;gt;::IteratorRange</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="1013" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="1013" bodyend="1020"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="742" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="742" bodyend="749"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IteratorRange__MRUndirectedEdgeIterator_1a8c6ef976af753f1c2859a5458d0ab871" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -88,13 +88,13 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">MR.UndirectedEdgeIterator</ref>&amp;amp;gt;::IteratorRange</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">MR.UndirectedEdgeIterator</ref>&amp;gt;::IteratorRange</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="1025" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="1025" bodyend="1025"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="754" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="754" bodyend="754"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IteratorRange__MRUndirectedEdgeIterator_1ae0b98b1503d23b7056e95f606844bd67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -103,21 +103,21 @@
         <name>IteratorRange_MRUndirectedEdgeIterator</name>
         <qualifiedname>MR.IteratorRange_MRUndirectedEdgeIterator.IteratorRange_MRUndirectedEdgeIterator</qualifiedname>
         <param>
-          <type>MR.Const_UndirectedEdgeIterator</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeIterator" kindref="compound">MR.Const_UndirectedEdgeIterator</ref></type>
           <declname>begin</declname>
         </param>
         <param>
-          <type>MR.Const_UndirectedEdgeIterator</type>
+          <type><ref refid="classMR_1_1Const__UndirectedEdgeIterator" kindref="compound">MR.Const_UndirectedEdgeIterator</ref></type>
           <declname>end</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">MR.UndirectedEdgeIterator</ref>&amp;amp;gt;::IteratorRange</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">MR.UndirectedEdgeIterator</ref>&amp;gt;::IteratorRange</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="1030" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="1030" bodyend="1038"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="759" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="759" bodyend="767"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IteratorRange__MRUndirectedEdgeIterator_1a896b61bfdc9e7a1684302c10239b0bff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1IteratorRange__MRUndirectedEdgeIterator" kindref="compound">MR.IteratorRange_MRUndirectedEdgeIterator</ref></type>
@@ -126,21 +126,21 @@
         <name>assign</name>
         <qualifiedname>MR.IteratorRange_MRUndirectedEdgeIterator.assign</qualifiedname>
         <param>
-          <type>MR.Const_IteratorRange_MRUndirectedEdgeIterator</type>
+          <type><ref refid="classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator" kindref="compound">MR.Const_IteratorRange_MRUndirectedEdgeIterator</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">MR.UndirectedEdgeIterator</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">MR.UndirectedEdgeIterator</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="1043" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="1043" bodyend="1050"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="772" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="772" bodyend="779"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>simple alternative to boost/iterator_range Generated from class <computeroutput>MR::IteratorRange&amp;amp;lt;<ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">MR.UndirectedEdgeIterator</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>simple alternative to boost/iterator_range Generated from class <computeroutput>MR::IteratorRange&amp;lt;<ref refid="classMR_1_1UndirectedEdgeIterator" kindref="compound">MR.UndirectedEdgeIterator</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -156,6 +156,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IteratorRange_MRUndirectedEdgeIterator</label>
+        <link refid="classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -182,6 +183,7 @@
       </node>
       <node id="2">
         <label>MR.Const_IteratorRange_MRUndirectedEdgeIterator</label>
+        <link refid="classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,11 +198,18 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="973" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="974" bodyend="1051"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="702" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="703" bodyend="780"/>
     <listofallmembers>
       <member refid="classMR_1_1IteratorRange__MRUndirectedEdgeIterator_1a896b61bfdc9e7a1684302c10239b0bff" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRUndirectedEdgeIterator</scope><name>assign</name></member>
       <member refid="classMR_1_1IteratorRange__MRUndirectedEdgeIterator_1a879583da4c8b840fec7053956b0e9af4" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRUndirectedEdgeIterator</scope><name>begin</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator_1af91414e3c33b01af48e302a344da4a0f" prot="package" virt="non-virtual"><scope>MR::IteratorRange_MRUndirectedEdgeIterator</scope><name>Const_IteratorRange_MRUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator_1adc5525137af2c62a41336d15082cf212" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRUndirectedEdgeIterator</scope><name>Const_IteratorRange_MRUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator_1af6cdff0e5338e8ffde3783c75bd085c2" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRUndirectedEdgeIterator</scope><name>Const_IteratorRange_MRUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator_1a0300528393511ad7133b71eb49431c7b" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRUndirectedEdgeIterator</scope><name>Const_IteratorRange_MRUndirectedEdgeIterator</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator_1a819694f77130330fc752e0ae39ad1b9a" prot="protected" virt="virtual"><scope>MR::IteratorRange_MRUndirectedEdgeIterator</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator_1a516319e3cbfc1b11e73d311e0f8e9646" prot="public" virt="virtual"><scope>MR::IteratorRange_MRUndirectedEdgeIterator</scope><name>Dispose</name></member>
       <member refid="classMR_1_1IteratorRange__MRUndirectedEdgeIterator_1afc743d87baeb9d9ed503fa69d8ee55b7" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRUndirectedEdgeIterator</scope><name>end</name></member>
+      <member refid="classMR_1_1Const__IteratorRange__MRUndirectedEdgeIterator_1a4350355f88f7066ba2c6ece3d02720a6" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRUndirectedEdgeIterator</scope><name>GetEnumerator</name></member>
       <member refid="classMR_1_1IteratorRange__MRUndirectedEdgeIterator_1a60eddaad79673d2f79ba504b07588dc8" prot="package" virt="non-virtual"><scope>MR::IteratorRange_MRUndirectedEdgeIterator</scope><name>IteratorRange_MRUndirectedEdgeIterator</name></member>
       <member refid="classMR_1_1IteratorRange__MRUndirectedEdgeIterator_1afae5e7db1ed4840c13736c23e0425de2" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRUndirectedEdgeIterator</scope><name>IteratorRange_MRUndirectedEdgeIterator</name></member>
       <member refid="classMR_1_1IteratorRange__MRUndirectedEdgeIterator_1a8c6ef976af753f1c2859a5458d0ab871" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRUndirectedEdgeIterator</scope><name>IteratorRange_MRUndirectedEdgeIterator</name></member>

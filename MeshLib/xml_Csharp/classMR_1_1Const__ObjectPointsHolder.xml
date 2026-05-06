@@ -1,0 +1,1701 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Const__ObjectPointsHolder" kind="class" language="C#" prot="public">
+    <compoundname>MR::Const_ObjectPointsHolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Misc.Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1ObjectPointsHolder" prot="public" virt="non-virtual">MR.ObjectPointsHolder</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Const__ObjectPointsHolder_1aee4a59d5735a8331c7fd98be1b48e2d6" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_ObjectPointsHolder.MaxRenderingPointsDefault</definition>
+        <argsstring></argsstring>
+        <name>MaxRenderingPointsDefault</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.MaxRenderingPointsDefault</qualifiedname>
+        <briefdescription>
+<para>default value for maximum rendered points number </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="92" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Const__ObjectPointsHolder_1a4e1a7da48d2286acb78a2ce317c83ad8" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_ObjectPointsHolder.MaxRenderingPointsUnlimited</definition>
+        <argsstring></argsstring>
+        <name>MaxRenderingPointsUnlimited</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.MaxRenderingPointsUnlimited</qualifiedname>
+        <briefdescription>
+<para>recommended value for maximum rendered points number to disable discretization </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="98" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1Const__ObjectPointsHolder_1aef9aacb4c452846d8a65d24891d60ef1" prot="protected" static="yes" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_ObjectPointsHolder.__ref_storage_MaxRenderingPointsDefault</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_MaxRenderingPointsDefault</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.__ref_storage_MaxRenderingPointsDefault</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="93" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Const__ObjectPointsHolder_1a211b2f6d11ad95165527807b8656c889" prot="protected" static="yes" mutable="no">
+        <type>unsafe int *</type>
+        <definition>unsafe int* MR.Const_ObjectPointsHolder.__ref_storage_MaxRenderingPointsUnlimited</definition>
+        <argsstring></argsstring>
+        <name>__ref_storage_MaxRenderingPointsUnlimited</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.__ref_storage_MaxRenderingPointsUnlimited</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="99" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a69409c4cc768b8ecfec442aafebd581e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.Const_ObjectPointsHolder.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="29" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="29" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a51b6c277fa264b929e2b00c9cf38cb9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.Const_ObjectPointsHolder.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="38" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a6efc918ef416bd5d5abb7da29457d5b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectPointsHolder.Const_ObjectPointsHolder</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ObjectPointsHolder</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.Const_ObjectPointsHolder</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="121" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="121" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ad9550e676587234253173e73aa926697" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectPointsHolder.Const_ObjectPointsHolder</definition>
+        <argsstring>(MR._ByValue_ObjectPointsHolder _other)</argsstring>
+        <name>Const_ObjectPointsHolder</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.Const_ObjectPointsHolder</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectPointsHolder</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectPointsHolder_1aa7c91e1c549fbf5c9837ffb03272f6d5" kindref="member">MR.ObjectPointsHolder.ObjectPointsHolder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="131" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="131" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a59ccebe7711eb092dc705f831918f2c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>unsafe? byte MR.Const_ObjectPointsHolder.typeName</definition>
+        <argsstring>()</argsstring>
+        <name>typeName</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.typeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a59ccebe7711eb092dc705f831918f2c2" kindref="member">MR.ObjectPointsHolder.typeName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="153" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="153" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a8d9d90c9eec44862ba869452753e6e64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.hasVisualRepresentation</definition>
+        <argsstring>()</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.hasVisualRepresentation</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a8d9d90c9eec44862ba869452753e6e64" kindref="member">MR.ObjectPointsHolder.hasVisualRepresentation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="164" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="164" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1afca4b356d11d3b415310323dbf7dcd8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.hasModel</definition>
+        <argsstring>()</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.hasModel</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1afca4b356d11d3b415310323dbf7dcd8a" kindref="member">MR.ObjectPointsHolder.hasModel</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="174" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="174" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a8bcd2368844cc59769495dd55b30f7e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_SharedPtr_ConstMRPointCloud</type>
+        <definition>unsafe MR.Std.Const_SharedPtr_ConstMRPointCloud MR.Const_ObjectPointsHolder.pointCloud</definition>
+        <argsstring>()</argsstring>
+        <name>pointCloud</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.pointCloud</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a8bcd2368844cc59769495dd55b30f7e1" kindref="member">MR.ObjectPointsHolder.pointCloud</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="184" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="184" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a93c8da2b2f5289d1dfcc164a14373a35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointCloudPart" kindref="compound">MR.PointCloudPart</ref></type>
+        <definition>unsafe MR.PointCloudPart MR.Const_ObjectPointsHolder.pointCloudPart</definition>
+        <argsstring>()</argsstring>
+        <name>pointCloudPart</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.pointCloudPart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the pair ( point cloud, selected points ) if any point is selected or full point cloud otherwise Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a93c8da2b2f5289d1dfcc164a14373a35" kindref="member">MR.ObjectPointsHolder.pointCloudPart</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="195" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="195" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1aedac6e986cf99f15c0f11c876f972a25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectPointsHolder.clone</definition>
+        <argsstring>()</argsstring>
+        <name>clone</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.clone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1aedac6e986cf99f15c0f11c876f972a25" kindref="member">MR.ObjectPointsHolder.clone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="205" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="205" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a5c90d26190815a8860a2a92fe1daefdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectPointsHolder.shallowClone</definition>
+        <argsstring>()</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.shallowClone</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a5c90d26190815a8860a2a92fe1daefdc" kindref="member">MR.ObjectPointsHolder.shallowClone</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="215" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="215" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1af43e8704d00e2fcd39bc0dcfbe121f82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.Const_ObjectPointsHolder.getSelectedPoints</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedPoints</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getSelectedPoints</qualifiedname>
+        <briefdescription>
+<para>gets current selected points Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1af43e8704d00e2fcd39bc0dcfbe121f82" kindref="member">MR.ObjectPointsHolder.getSelectedPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="226" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="226" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a4393467067027aa722cd5085fb13bf56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VertBitSet" kindref="compound">MR.Const_VertBitSet</ref></type>
+        <definition>unsafe MR.Const_VertBitSet MR.Const_ObjectPointsHolder.getSelectedPointsOrAll</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedPointsOrAll</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getSelectedPointsOrAll</qualifiedname>
+        <briefdescription>
+<para>returns selected points if any, otherwise returns all valid points Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a4393467067027aa722cd5085fb13bf56" kindref="member">MR.ObjectPointsHolder.getSelectedPointsOrAll</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="237" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="237" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a74f96bdd231511df4baa93278a7452db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectPointsHolder.getSelectedVerticesColor</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>getSelectedVerticesColor</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getSelectedVerticesColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns colors of selected vertices Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a74f96bdd231511df4baa93278a7452db" kindref="member">MR.ObjectPointsHolder.getSelectedVerticesColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="249" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="249" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a013fa3e22136f57da44b5ccab802c4b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectPointsHolder.getSelectedVerticesColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedVerticesColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getSelectedVerticesColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a013fa3e22136f57da44b5ccab802c4b2" kindref="member">MR.ObjectPointsHolder.getSelectedVerticesColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="259" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="259" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a2fb8320790eb139d7e2c946336d78365" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.supportsVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.supportsVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a2fb8320790eb139d7e2c946336d78365" kindref="member">MR.ObjectPointsHolder.supportsVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="269" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="269" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ad95be001a0612284830e1d664c68346d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__VertColors" kindref="compound">MR.Const_VertColors</ref></type>
+        <definition>unsafe MR.Const_VertColors MR.Const_ObjectPointsHolder.getVertsColorMap</definition>
+        <argsstring>()</argsstring>
+        <name>getVertsColorMap</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getVertsColorMap</qualifiedname>
+        <briefdescription>
+<para>returns per-point colors of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1ad95be001a0612284830e1d664c68346d" kindref="member">MR.ObjectPointsHolder.getVertsColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="280" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="280" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ad3f1063f36f5ed5929b00b3d4134164c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRViewportMask</type>
+        <definition>unsafe MR.Std.Vector_MRViewportMask MR.Const_ObjectPointsHolder.getAllVisualizeProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getAllVisualizeProperties</qualifiedname>
+        <briefdescription>
+<para>get all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1ad3f1063f36f5ed5929b00b3d4134164c" kindref="member">MR.ObjectPointsHolder.getAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="291" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="291" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1aae6e9a71ebfa05cd62a8a68e1acc0946" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+        <definition>unsafe MR.Const_ViewportMask MR.Const_ObjectPointsHolder.getVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getVisualizePropertyMask</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>returns mask of viewports where given property is set Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1aae6e9a71ebfa05cd62a8a68e1acc0946" kindref="member">MR.ObjectPointsHolder.getVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="302" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="302" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a0feddb8dfc0bd9da56f505713380543a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectPointsHolder.getPointSize</definition>
+        <argsstring>()</argsstring>
+        <name>getPointSize</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getPointSize</qualifiedname>
+        <briefdescription>
+<para>returns size of points on screen in pixels Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a0feddb8dfc0bd9da56f505713380543a" kindref="member">MR.ObjectPointsHolder.getPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="313" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="313" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1aa8ecd3fb66a3a8d12eefd3bb23692d11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectPointsHolder.getWorldBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getWorldBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns cached bounding box of this point object in world coordinates; if you need bounding box in local coordinates please call <ref refid="classMR_1_1Const__ObjectPointsHolder_1a3e411bf1f63115089e8f1fef300e8668" kindref="member">getBoundingBox()</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1aa8ecd3fb66a3a8d12eefd3bb23692d11" kindref="member">MR.ObjectPointsHolder.getWorldBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="326" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="326" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a6f11b87300e4ee88f106365d908023f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectPointsHolder.numValidPoints</definition>
+        <argsstring>()</argsstring>
+        <name>numValidPoints</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.numValidPoints</qualifiedname>
+        <briefdescription>
+<para>returns cached information about the number of valid points Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a6f11b87300e4ee88f106365d908023f5" kindref="member">MR.ObjectPointsHolder.numValidPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="337" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="337" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ac3a5e9518b4af7540e12554e82018321" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectPointsHolder.numSelectedPoints</definition>
+        <argsstring>()</argsstring>
+        <name>numSelectedPoints</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.numSelectedPoints</qualifiedname>
+        <briefdescription>
+<para>returns cached information about the number of selected points Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1ac3a5e9518b4af7540e12554e82018321" kindref="member">MR.ObjectPointsHolder.numSelectedPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="348" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="348" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ab6d536e25ea9417b0ea0682f25cf6719" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectPointsHolder.heapBytes</definition>
+        <argsstring>()</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1ab6d536e25ea9417b0ea0682f25cf6719" kindref="member">MR.ObjectPointsHolder.heapBytes</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="359" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="359" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1abce27e686c5457bdcf33466cd218afd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_ObjectPointsHolder.getRenderDiscretization</definition>
+        <argsstring>()</argsstring>
+        <name>getRenderDiscretization</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getRenderDiscretization</qualifiedname>
+        <briefdescription>
+<para>returns rendering discretization display each <computeroutput>renderDiscretization</computeroutput>-th point only, starting from 0 index, total number is <ref refid="classMR_1_1Const__ObjectPointsHolder_1a4bbd7868e749e880554b8c5d45021152" kindref="member">numRenderingValidPoints()</ref> \detail defined by maximum rendered points number as: <ref refid="classMR_1_1Const__ObjectPointsHolder_1a6f11b87300e4ee88f106365d908023f5" kindref="member">numValidPoints()</ref> / <ref refid="classMR_1_1Const__ObjectPointsHolder_1acbec8f146c699d9e7a1fc7a4851f4e19" kindref="member">getMaxRenderingPoints()</ref> (rounded up) updated when setting <computeroutput>maxRenderingPoints</computeroutput> or changing the cloud (setting <computeroutput>DIRTY_FACE</computeroutput> flag) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1abce27e686c5457bdcf33466cd218afd4" kindref="member">MR.ObjectPointsHolder.getRenderDiscretization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="375" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="375" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a4bbd7868e749e880554b8c5d45021152" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectPointsHolder.numRenderingValidPoints</definition>
+        <argsstring>()</argsstring>
+        <name>numRenderingValidPoints</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.numRenderingValidPoints</qualifiedname>
+        <briefdescription>
+<para>returns count of valid points that will be rendered Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a4bbd7868e749e880554b8c5d45021152" kindref="member">MR.ObjectPointsHolder.numRenderingValidPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="386" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="386" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1acbec8f146c699d9e7a1fc7a4851f4e19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.Const_ObjectPointsHolder.getMaxRenderingPoints</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxRenderingPoints</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getMaxRenderingPoints</qualifiedname>
+        <briefdescription>
+<para>returns maximal number of points that will be rendered if actual count of valid points is greater then the points will be sampled Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1acbec8f146c699d9e7a1fc7a4851f4e19" kindref="member">MR.ObjectPointsHolder.getMaxRenderingPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="398" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="398" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ac3ed22c7bc6701d22ab5627d420b4977" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>unsafe? byte MR.Const_ObjectPointsHolder.serializeFormat</definition>
+        <argsstring>()</argsstring>
+        <name>serializeFormat</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.serializeFormat</qualifiedname>
+        <briefdescription>
+<para>returns overriden file extension used to serialize point cloud inside this object, nullptr means <ref refid="classMR_1adb979235051f16e0860065ee9ec797d0" kindref="member">defaultSerializePointsFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1ac3ed22c7bc6701d22ab5627d420b4977" kindref="member">MR.ObjectPointsHolder.serializeFormat</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="409" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="409" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1aeae329e09ccbdbef50e3c94b0319656d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ObjectPointsHolder.className</definition>
+        <argsstring>()</argsstring>
+        <name>className</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.className</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1aeae329e09ccbdbef50e3c94b0319656d" kindref="member">MR.ObjectPointsHolder.className</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="431" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="431" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a68c7678f6fa10b4ec7bb11002db9e041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.String</type>
+        <definition>unsafe MR.Std.String MR.Const_ObjectPointsHolder.classNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.classNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a68c7678f6fa10b4ec7bb11002db9e041" kindref="member">MR.ObjectPointsHolder.classNameInPlural</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="452" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="452" bodyend="457"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a011182b802c3bad16aa824cacbf1a9a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.getVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getVisualizeProperty</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getVisualizeProperty</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__AnyVisualizeMaskEnum" kindref="compound">MR.Const_AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the property is set at least in one viewport specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a011182b802c3bad16aa824cacbf1a9a0" kindref="member">MR.ObjectPointsHolder.getVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="463" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="463" bodyend="468"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a752d0046355c3551f441a675389829c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectPointsHolder.globalClippedByPlaneMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalClippedByPlaneMask</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.globalClippedByPlaneMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object or any of its parents is clipped by plane Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a752d0046355c3551f441a675389829c6" kindref="member">MR.ObjectPointsHolder.globalClippedByPlaneMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="474" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="474" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a7847b808973c1f8c9cd80225345d6caf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.globalClippedByPlane</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalClippedByPlane</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.globalClippedByPlane</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object or any of its parents is clipped by plane in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a7847b808973c1f8c9cd80225345d6caf" kindref="member">MR.ObjectPointsHolder.globalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="486" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="486" bodyend="491"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a38df619b0cc4741f61ca61c0e884ac3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectPointsHolder.getFrontColor</definition>
+        <argsstring>(bool? selected=null, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getFrontColor</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getFrontColor</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a38df619b0cc4741f61ca61c0e884ac3f" kindref="member">MR.ObjectPointsHolder.getFrontColor</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="499" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="499" bodyend="505"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a8c81ab865c818aec73a7f5bccef045b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectPointsHolder.getFrontColorsForAllViewports</definition>
+        <argsstring>(bool? selected=null)</argsstring>
+        <name>getFrontColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a8c81ab865c818aec73a7f5bccef045b8" kindref="member">MR.ObjectPointsHolder.getFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="512" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="512" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a20ef6d6ce743f51784a6a4952571dee7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRColor" kindref="compound">MR.Const_ViewportProperty_MRColor</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRColor MR.Const_ObjectPointsHolder.getBackColorsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getBackColorsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getBackColorsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a20ef6d6ce743f51784a6a4952571dee7" kindref="member">MR.ObjectPointsHolder.getBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="524" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="524" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a365b8aa27eae65f23af6b08354f43a3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref readonly MR.Color MR.Const_ObjectPointsHolder.getBackColor</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getBackColor</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getBackColor</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a365b8aa27eae65f23af6b08354f43a3b" kindref="member">MR.ObjectPointsHolder.getBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="536" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="536" bodyend="541"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ab397505561a304394c6d47381871a665" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe byte</type>
+        <definition>unsafe byte MR.Const_ObjectPointsHolder.getGlobalAlpha</definition>
+        <argsstring>(MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>getGlobalAlpha</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getGlobalAlpha</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>returns global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1ab397505561a304394c6d47381871a665" kindref="member">MR.ObjectPointsHolder.getGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="548" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="548" bodyend="553"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a45e255d628e64daf1a51a3976d226329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__UnsignedChar" kindref="compound">MR.Const_ViewportProperty_UnsignedChar</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_UnsignedChar MR.Const_ObjectPointsHolder.getGlobalAlphaForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>getGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getGlobalAlphaForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a45e255d628e64daf1a51a3976d226329" kindref="member">MR.ObjectPointsHolder.getGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="559" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="559" bodyend="564"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a44b81edc0694edd8ced290d2a7bb5662" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe uint</type>
+        <definition>unsafe uint MR.Const_ObjectPointsHolder.getDirtyFlags</definition>
+        <argsstring>()</argsstring>
+        <name>getDirtyFlags</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getDirtyFlags</qualifiedname>
+        <briefdescription>
+<para>returns current dirty flags for the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a44b81edc0694edd8ced290d2a7bb5662" kindref="member">MR.ObjectPointsHolder.getDirtyFlags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="570" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="570" bodyend="575"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a671947901d3977b48ae9dd5f0fcab4b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectPointsHolder.resetDirty</definition>
+        <argsstring>()</argsstring>
+        <name>resetDirty</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.resetDirty</qualifiedname>
+        <briefdescription>
+<para>resets all dirty flags (except for cache flags that will be reset automatically on cache update) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a671947901d3977b48ae9dd5f0fcab4b2" kindref="member">MR.ObjectPointsHolder.resetDirty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="581" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="581" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ac1af4140caf8bf401c4437450bf2e7bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectPointsHolder.resetDirtyExceptMask</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>resetDirtyExceptMask</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.resetDirtyExceptMask</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>reset dirty flags without some specific bits (useful for lazy normals update) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1ac1af4140caf8bf401c4437450bf2e7bc" kindref="member">MR.ObjectPointsHolder.resetDirtyExceptMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="592" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="592" bodyend="597"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a3e411bf1f63115089e8f1fef300e8668" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectPointsHolder.getBoundingBox</definition>
+        <argsstring>()</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getBoundingBox</qualifiedname>
+        <briefdescription>
+<para>returns cached bounding box of this object in local coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a3e411bf1f63115089e8f1fef300e8668" kindref="member">MR.ObjectPointsHolder.getBoundingBox</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="603" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="603" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a5b148896002fc1c144d550143562dbfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.getRedrawFlag</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>getRedrawFlag</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getRedrawFlag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the object must be redrawn (due to dirty flags) in one of specified viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a5b148896002fc1c144d550143562dbfc" kindref="member">MR.ObjectPointsHolder.getRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="614" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="614" bodyend="619"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a5e421737b7869cf65d91021b1e0ad7c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.isPickable</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isPickable</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.isPickable</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>whether the object can be picked (by mouse) in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a5e421737b7869cf65d91021b1e0ad7c1" kindref="member">MR.ObjectPointsHolder.isPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="626" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="626" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a5db747a7ea03dd44d4cb6b7c293be008" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+        <definition>unsafe MR.ColoringType MR.Const_ObjectPointsHolder.getColoringType</definition>
+        <argsstring>()</argsstring>
+        <name>getColoringType</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getColoringType</qualifiedname>
+        <briefdescription>
+<para>returns the current coloring mode of the object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a5db747a7ea03dd44d4cb6b7c293be008" kindref="member">MR.ObjectPointsHolder.getColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="637" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="637" bodyend="642"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a95af784663b436556d3b0c89088e2d0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectPointsHolder.getShininess</definition>
+        <argsstring>()</argsstring>
+        <name>getShininess</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getShininess</qualifiedname>
+        <briefdescription>
+<para>returns the current shininess visual value Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a95af784663b436556d3b0c89088e2d0a" kindref="member">MR.ObjectPointsHolder.getShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="648" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="648" bodyend="653"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1aa65e8fecd6cb2bef074976c8ab11e6c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectPointsHolder.getSpecularStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getSpecularStrength</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getSpecularStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1aa65e8fecd6cb2bef074976c8ab11e6c2" kindref="member">MR.ObjectPointsHolder.getSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="659" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="659" bodyend="664"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a9da06f1ce62224ae350249b130357af4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Const_ObjectPointsHolder.getAmbientStrength</definition>
+        <argsstring>()</argsstring>
+        <name>getAmbientStrength</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getAmbientStrength</qualifiedname>
+        <briefdescription>
+<para>returns intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a9da06f1ce62224ae350249b130357af4" kindref="member">MR.ObjectPointsHolder.getAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="670" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="670" bodyend="675"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1aca1d056f222cac76c541857a43013cd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.render</definition>
+        <argsstring>(MR.Const_ModelRenderParams _1)</argsstring>
+        <name>render</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.render</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelRenderParams" kindref="compound">MR.Const_ModelRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for visualization Returns true if something was drawn. Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1aca1d056f222cac76c541857a43013cd3" kindref="member">MR.ObjectPointsHolder.render</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="682" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="682" bodyend="687"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a40926f00728a01d7a929db3d55f74bbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectPointsHolder.renderForPicker</definition>
+        <argsstring>(MR.Const_ModelBaseRenderParams _1, uint _2)</argsstring>
+        <name>renderForPicker</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.renderForPicker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ModelBaseRenderParams" kindref="compound">MR.Const_ModelBaseRenderParams</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for picking Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a40926f00728a01d7a929db3d55f74bbf" kindref="member">MR.ObjectPointsHolder.renderForPicker</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="693" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="693" bodyend="698"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a0dd61ed33fd1e9078c0e56fd4363951f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectPointsHolder.renderUi</definition>
+        <argsstring>(MR.Const_UiRenderParams params_)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.renderUi</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UiRenderParams" kindref="compound">MR.Const_UiRenderParams</ref></type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>draws this object for 2d UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a0dd61ed33fd1e9078c0e56fd4363951f" kindref="member">MR.ObjectPointsHolder.renderUi</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="704" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="704" bodyend="709"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ad57c4435f8797fcfab343246e1f95b75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>unsafe MR.Std.Vector_StdString MR.Const_ObjectPointsHolder.getInfoLines</definition>
+        <argsstring>()</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getInfoLines</qualifiedname>
+        <briefdescription>
+<para>return several info lines that can better describe the object in the UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1ad57c4435f8797fcfab343246e1f95b75" kindref="member">MR.ObjectPointsHolder.getInfoLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="715" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="715" bodyend="720"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1aa71d66c92d0432709810cf2fecd5297a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.useDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>()</argsstring>
+        <name>useDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.useDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <briefdescription>
+<para>whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1aa71d66c92d0432709810cf2fecd5297a" kindref="member">MR.ObjectPointsHolder.useDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="727" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="727" bodyend="732"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a87f7c8a0e87e2d8bfe860c1b99e6fdeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_String</type>
+        <definition>unsafe MR.Std.Const_String MR.Const_ObjectPointsHolder.name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.name</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a87f7c8a0e87e2d8bfe860c1b99e6fdeb" kindref="member">MR.ObjectPointsHolder.name</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="737" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="737" bodyend="742"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1aebb8f8110ed58fcad635cc94b15e1730" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref readonly <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe ref readonly MR.AffineXf3f MR.Const_ObjectPointsHolder.xf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.xf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to parent space transformation (to world space if no parent) for default or given viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__ObjectPointsHolder_1aebb8f8110ed58fcad635cc94b15e1730" kindref="member">xf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1aebb8f8110ed58fcad635cc94b15e1730" kindref="member">MR.ObjectPointsHolder.xf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="750" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="750" bodyend="758"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a04b01c2eaa8e99c3f7fad2c39d963308" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__ViewportProperty__MRAffineXf3f" kindref="compound">MR.Const_ViewportProperty_MRAffineXf3f</ref></type>
+        <definition>unsafe MR.Const_ViewportProperty_MRAffineXf3f MR.Const_ObjectPointsHolder.xfsForAllViewports</definition>
+        <argsstring>()</argsstring>
+        <name>xfsForAllViewports</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.xfsForAllViewports</qualifiedname>
+        <briefdescription>
+<para>returns xfs for all viewports, combined into a single object Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a04b01c2eaa8e99c3f7fad2c39d963308" kindref="member">MR.ObjectPointsHolder.xfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="764" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="764" bodyend="769"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a825ac00b1443a95e60758768fd51b9d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>unsafe MR.AffineXf3f MR.Const_ObjectPointsHolder.worldXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default, MR.Misc.InOut&lt; bool &gt;? isDef=null)</argsstring>
+        <name>worldXf</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.worldXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>isDef</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this space to world space transformation for default or specific viewport </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if the object has default transformation in this viewport (same as <ref refid="classMR_1_1Const__ObjectPointsHolder_1a825ac00b1443a95e60758768fd51b9d7" kindref="member">worldXf()</ref> returns) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a825ac00b1443a95e60758768fd51b9d7" kindref="member">MR.ObjectPointsHolder.worldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="777" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="777" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ae4501047ec40bcc706672a3e4ebfd41f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectPointsHolder.globalVisibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>globalVisibilityMask</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.globalVisibilityMask</qualifiedname>
+        <briefdescription>
+<para>returns all viewports where this object is visible together with all its parents Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1ae4501047ec40bcc706672a3e4ebfd41f" kindref="member">MR.ObjectPointsHolder.globalVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="791" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="791" bodyend="796"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a61ac4268bed761a3e83c632751c9357e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.globalVisibility</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>globalVisibility</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.globalVisibility</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns true if this object is visible together with all its parents in any of given viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a61ac4268bed761a3e83c632751c9357e" kindref="member">MR.ObjectPointsHolder.globalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="803" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="803" bodyend="808"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a4ccc21244f741f2e281d3d2a3b43e829" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.isLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isLocked</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.isLocked</qualifiedname>
+        <briefdescription>
+<para>object properties lock for UI Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a4ccc21244f741f2e281d3d2a3b43e829" kindref="member">MR.ObjectPointsHolder.isLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="814" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="814" bodyend="819"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a964c9f3149e87a683ce00a509b6955f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.isParentLocked</definition>
+        <argsstring>()</argsstring>
+        <name>isParentLocked</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.isParentLocked</qualifiedname>
+        <briefdescription>
+<para>If true, the scene tree GUI doesn't allow you to drag'n'drop this object into a different parent. Defaults to false. Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a964c9f3149e87a683ce00a509b6955f1" kindref="member">MR.ObjectPointsHolder.isParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="826" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="826" bodyend="831"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a07ba1ad78c26d5aa2f7c251d6e239044" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.isAncestor</definition>
+        <argsstring>(MR.Const_Object? ancestor)</argsstring>
+        <name>isAncestor</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.isAncestor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref>?</type>
+          <declname>ancestor</declname>
+        </param>
+        <briefdescription>
+<para>return true if given object is ancestor of this one, false otherwise Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a07ba1ad78c26d5aa2f7c251d6e239044" kindref="member">MR.ObjectPointsHolder.isAncestor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="837" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="837" bodyend="842"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1aa505ff0600e121b8917abdf36923fb9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.isSelected</definition>
+        <argsstring>()</argsstring>
+        <name>isSelected</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.isSelected</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1aa505ff0600e121b8917abdf36923fb9c" kindref="member">MR.ObjectPointsHolder.isSelected</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="847" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="847" bodyend="852"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1af9cd40aa1fa028d2391873d5e9b87af3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.isAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isAncillary</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.isAncillary</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1af9cd40aa1fa028d2391873d5e9b87af3" kindref="member">MR.ObjectPointsHolder.isAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="857" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="857" bodyend="862"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a55d7c6c46e5bce37b715a693836b6ba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.isGlobalAncillary</definition>
+        <argsstring>()</argsstring>
+        <name>isGlobalAncillary</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.isGlobalAncillary</qualifiedname>
+        <briefdescription>
+<para>returns true if the object or any of its ancestors are ancillary Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a55d7c6c46e5bce37b715a693836b6ba3" kindref="member">MR.ObjectPointsHolder.isGlobalAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="868" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="868" bodyend="873"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ad034298715118240a5d96421cb89954c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.isVisible</definition>
+        <argsstring>(MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>isVisible</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.isVisible</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ViewportMask" kindref="compound">MR.Const_ViewportMask</ref>?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>checks whether the object is visible in any of the viewports specified by the mask (by default in any viewport) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1ad034298715118240a5d96421cb89954c" kindref="member">MR.ObjectPointsHolder.isVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1Const__ViewportMask_1a537f113917bfc93fc31db3ff7d2b4331" kindref="member">ViewportMask.any()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="880" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="880" bodyend="885"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a762a0d51db54a9e6eb75068acbeaa36e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportMask" kindref="compound">MR.ViewportMask</ref></type>
+        <definition>unsafe MR.ViewportMask MR.Const_ObjectPointsHolder.visibilityMask</definition>
+        <argsstring>()</argsstring>
+        <name>visibilityMask</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.visibilityMask</qualifiedname>
+        <briefdescription>
+<para>gets object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a762a0d51db54a9e6eb75068acbeaa36e" kindref="member">MR.ObjectPointsHolder.visibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="891" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="891" bodyend="896"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a4063ee7e9e0f95f5071116dfc6617840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Const_ObjectPointsHolder.resetRedrawFlag</definition>
+        <argsstring>()</argsstring>
+        <name>resetRedrawFlag</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.resetRedrawFlag</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a4063ee7e9e0f95f5071116dfc6617840" kindref="member">MR.ObjectPointsHolder.resetRedrawFlag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="901" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="901" bodyend="906"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ae56fd45650ac88937532e397c055b907" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectPointsHolder.cloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>cloneTree</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.cloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognized children) Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1ae56fd45650ac88937532e397c055b907" kindref="member">MR.ObjectPointsHolder.cloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="912" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="912" bodyend="917"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1aae1f91f4b394e87834e2c54f825bab8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectPointsHolder.shallowCloneTree</definition>
+        <argsstring>()</argsstring>
+        <name>shallowCloneTree</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.shallowCloneTree</qualifiedname>
+        <briefdescription>
+<para>clones all tree of this object (except ancillary and unrecognied children) clones only pointers to mesh, points or voxels Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1aae1f91f4b394e87834e2c54f825bab8c" kindref="member">MR.ObjectPointsHolder.shallowCloneTree</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="924" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="924" bodyend="929"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1afaacc4766a7988016901387b13a43d73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref></type>
+        <definition>unsafe MR.Box3f MR.Const_ObjectPointsHolder.getWorldTreeBox</definition>
+        <argsstring>(MR._InOpt_ViewportId _1=default)</argsstring>
+        <name>getWorldTreeBox</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getWorldTreeBox</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>_1</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>empty box returns bounding box of this object and all children visible in given (or default) viewport in world coordinates Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1afaacc4766a7988016901387b13a43d73" kindref="member">MR.ObjectPointsHolder.getWorldTreeBox</ref></computeroutput>. Parameter <computeroutput>_1</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="937" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="937" bodyend="942"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1adcbf4bdcdc2775c8b838982dfefb2843" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Const_Set_StdString</type>
+        <definition>unsafe MR.Std.Const_Set_StdString MR.Const_ObjectPointsHolder.tags</definition>
+        <argsstring>()</argsstring>
+        <name>tags</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.tags</qualifiedname>
+        <briefdescription>
+<para>provides read-only access to the tag storage the storage is a set of unique strings Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1adcbf4bdcdc2775c8b838982dfefb2843" kindref="member">MR.ObjectPointsHolder.tags</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="949" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="949" bodyend="954"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a074f11293f8ec113e5a4e3d3c991c6a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.Const_ObjectPointsHolder.sameModels</definition>
+        <argsstring>(MR.Const_Object other)</argsstring>
+        <name>sameModels</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.sameModels</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1a074f11293f8ec113e5a4e3d3c991c6a1" kindref="member">MR.ObjectPointsHolder.sameModels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="960" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="960" bodyend="965"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1aaa516dd74dba20050c180d2b7341500d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.Const_ObjectPointsHolder.getModelHash</definition>
+        <argsstring>()</argsstring>
+        <name>getModelHash</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getModelHash</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1aaa516dd74dba20050c180d2b7341500d" kindref="member">MR.ObjectPointsHolder.getModelHash</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="971" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="971" bodyend="976"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ad9608ceab9c91de22d6685b75dadca52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.SharedPtr_MRObject</type>
+        <definition>unsafe MR.Std.SharedPtr_MRObject MR.Const_ObjectPointsHolder.getSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getSharedPtr</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.getSharedPtr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Const__ObjectPointsHolder_1ad9608ceab9c91de22d6685b75dadca52" kindref="member">MR.ObjectPointsHolder.getSharedPtr</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="983" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="983" bodyend="988"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a5100fdbf62a8138093f4228f728b8fb3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjectPointsHolder.~Const_ObjectPointsHolder</definition>
+        <argsstring>()</argsstring>
+        <name>~Const_ObjectPointsHolder</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.~Const_ObjectPointsHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="39" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ac1b53ca3f4ddc4d1e50e5b9a43411574" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectPointsHolder.operator MR.Const_ObjectChildrenHolder</definition>
+        <argsstring>(Const_ObjectPointsHolder self)</argsstring>
+        <name>operator MR.Const_ObjectChildrenHolder</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.operator MR.Const_ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectPointsHolder" kindref="compound">Const_ObjectPointsHolder</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="42" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="42" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a8c7370bb893bf97468c0e49520766587" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectPointsHolder.operator MR.Const_Object</definition>
+        <argsstring>(Const_ObjectPointsHolder self)</argsstring>
+        <name>operator MR.Const_Object</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.operator MR.Const_Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectPointsHolder" kindref="compound">Const_ObjectPointsHolder</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="50" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a8c1bf5e22897a28b208d26eb93772dc7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Const_ObjectPointsHolder.operator MR.Const_VisualObject</definition>
+        <argsstring>(Const_ObjectPointsHolder self)</argsstring>
+        <name>operator MR.Const_VisualObject</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.operator MR.Const_VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectPointsHolder" kindref="compound">Const_ObjectPointsHolder</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="58" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1ae148d110532401ddee528010903d9afb" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectPointsHolder.operator Const_ObjectPointsHolder?</definition>
+        <argsstring>(MR.Const_Object parent)</argsstring>
+        <name>operator Const_ObjectPointsHolder?</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.operator Const_ObjectPointsHolder?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__Object" kindref="compound">MR.Const_Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="68" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="68" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a7567d8550a5f8a5fc5ed6a3fc4163025" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectPointsHolder.operator Const_ObjectPointsHolder?</definition>
+        <argsstring>(MR.Const_VisualObject parent)</argsstring>
+        <name>operator Const_ObjectPointsHolder?</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.operator Const_ObjectPointsHolder?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__VisualObject" kindref="compound">MR.Const_VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="78" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="78" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a7a3d6ecf21d29cf7f680c071fddb37aa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectPointsHolder.staticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>staticTypeName</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.staticTypeName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectPointsHolder::StaticTypeName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="142" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="142" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1acf6eac1d17486a8d089ec8593dfdbedc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectPointsHolder.staticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassName</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.staticClassName</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectPointsHolder::StaticClassName</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="420" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="420" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a22f2355405d5b43a693119c12c368ba3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe? byte</type>
+        <definition>static unsafe? byte MR.Const_ObjectPointsHolder.staticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>staticClassNameInPlural</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.staticClassNameInPlural</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ObjectPointsHolder::StaticClassNameInPlural</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="441" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="441" bodyend="447"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1a1c51d4d3df9599dd160eb747a6e9c34e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Const_ObjectPointsHolder.Const_ObjectPointsHolder</definition>
+        <argsstring>()</argsstring>
+        <name>Const_ObjectPointsHolder</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.Const_ObjectPointsHolder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="101" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="101" bodyend="114"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Const__ObjectPointsHolder_1aa2fd865b2fc8998ca5aa75266097e99f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectPointsHolder.Const_ObjectPointsHolder</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Const_ObjectPointsHolder</name>
+        <qualifiedname>MR.Const_ObjectPointsHolder.Const_ObjectPointsHolder</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="116" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>an object that stores a points Generated from class <computeroutput><ref refid="classMR_1_1ObjectPointsHolder" kindref="compound">MR.ObjectPointsHolder</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectPoints" kindref="compound">MR.ObjectPoints</ref></computeroutput> This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Const_ObjectPointsHolder</label>
+        <link refid="classMR_1_1Const__ObjectPointsHolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>MR.ObjectPointsHolder</label>
+        <link refid="classMR_1_1ObjectPointsHolder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Const_ObjectPointsHolder</label>
+        <link refid="classMR_1_1Const__ObjectPointsHolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="3">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" line="23" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectPointsHolder.cs" bodystart="24" bodyend="989"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aef9aacb4c452846d8a65d24891d60ef1" prot="protected" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>__ref_storage_MaxRenderingPointsDefault</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a211b2f6d11ad95165527807b8656c889" prot="protected" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>__ref_storage_MaxRenderingPointsUnlimited</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aeae329e09ccbdbef50e3c94b0319656d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>className</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a68c7678f6fa10b4ec7bb11002db9e041" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aedac6e986cf99f15c0f11c876f972a25" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>clone</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ae56fd45650ac88937532e397c055b907" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a1c51d4d3df9599dd160eb747a6e9c34e" prot="private" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>Const_ObjectPointsHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aa2fd865b2fc8998ca5aa75266097e99f" prot="package" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>Const_ObjectPointsHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a6efc918ef416bd5d5abb7da29457d5b8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>Const_ObjectPointsHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ad9550e676587234253173e73aa926697" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>Const_ObjectPointsHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a69409c4cc768b8ecfec442aafebd581e" prot="protected" virt="virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a51b6c277fa264b929e2b00c9cf38cb9b" prot="public" virt="virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ad3f1063f36f5ed5929b00b3d4134164c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a9da06f1ce62224ae350249b130357af4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getAmbientStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a365b8aa27eae65f23af6b08354f43a3b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a20ef6d6ce743f51784a6a4952571dee7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a3e411bf1f63115089e8f1fef300e8668" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getBoundingBox</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a5db747a7ea03dd44d4cb6b7c293be008" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getColoringType</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a44b81edc0694edd8ced290d2a7bb5662" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a38df619b0cc4741f61ca61c0e884ac3f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a8c81ab865c818aec73a7f5bccef045b8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ab397505561a304394c6d47381871a665" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a45e255d628e64daf1a51a3976d226329" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ad57c4435f8797fcfab343246e1f95b75" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1acbec8f146c699d9e7a1fc7a4851f4e19" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getMaxRenderingPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aaa516dd74dba20050c180d2b7341500d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a0feddb8dfc0bd9da56f505713380543a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a5b148896002fc1c144d550143562dbfc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1abce27e686c5457bdcf33466cd218afd4" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getRenderDiscretization</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1af43e8704d00e2fcd39bc0dcfbe121f82" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getSelectedPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a4393467067027aa722cd5085fb13bf56" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getSelectedPointsOrAll</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a74f96bdd231511df4baa93278a7452db" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getSelectedVerticesColor</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a013fa3e22136f57da44b5ccab802c4b2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getSelectedVerticesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ad9608ceab9c91de22d6685b75dadca52" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a95af784663b436556d3b0c89088e2d0a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aa65e8fecd6cb2bef074976c8ab11e6c2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getSpecularStrength</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ad95be001a0612284830e1d664c68346d" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getVertsColorMap</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a011182b802c3bad16aa824cacbf1a9a0" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aae6e9a71ebfa05cd62a8a68e1acc0946" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aa8ecd3fb66a3a8d12eefd3bb23692d11" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1afaacc4766a7988016901387b13a43d73" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a7847b808973c1f8c9cd80225345d6caf" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a752d0046355c3551f441a675389829c6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a61ac4268bed761a3e83c632751c9357e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ae4501047ec40bcc706672a3e4ebfd41f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1afca4b356d11d3b415310323dbf7dcd8a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a8d9d90c9eec44862ba869452753e6e64" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ab6d536e25ea9417b0ea0682f25cf6719" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a07ba1ad78c26d5aa2f7c251d6e239044" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1af9cd40aa1fa028d2391873d5e9b87af3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a55d7c6c46e5bce37b715a693836b6ba3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a4ccc21244f741f2e281d3d2a3b43e829" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a964c9f3149e87a683ce00a509b6955f1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a5e421737b7869cf65d91021b1e0ad7c1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aa505ff0600e121b8917abdf36923fb9c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ad034298715118240a5d96421cb89954c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aee4a59d5735a8331c7fd98be1b48e2d6" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>MaxRenderingPointsDefault</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a4e1a7da48d2286acb78a2ce317c83ad8" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>MaxRenderingPointsUnlimited</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a87f7c8a0e87e2d8bfe860c1b99e6fdeb" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>name</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a4bbd7868e749e880554b8c5d45021152" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>numRenderingValidPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ac3a5e9518b4af7540e12554e82018321" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>numSelectedPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a6f11b87300e4ee88f106365d908023f5" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>numValidPoints</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ae148d110532401ddee528010903d9afb" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>operator Const_ObjectPointsHolder?</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a7567d8550a5f8a5fc5ed6a3fc4163025" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>operator Const_ObjectPointsHolder?</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a8c7370bb893bf97468c0e49520766587" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>operator MR.Const_Object</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ac1b53ca3f4ddc4d1e50e5b9a43411574" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>operator MR.Const_ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a8c1bf5e22897a28b208d26eb93772dc7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>operator MR.Const_VisualObject</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a8bcd2368844cc59769495dd55b30f7e1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>pointCloud</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a93c8da2b2f5289d1dfcc164a14373a35" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>pointCloudPart</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aca1d056f222cac76c541857a43013cd3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>render</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a40926f00728a01d7a929db3d55f74bbf" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a0dd61ed33fd1e9078c0e56fd4363951f" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a671947901d3977b48ae9dd5f0fcab4b2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ac1af4140caf8bf401c4437450bf2e7bc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a4063ee7e9e0f95f5071116dfc6617840" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a074f11293f8ec113e5a4e3d3c991c6a1" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1ac3ed22c7bc6701d22ab5627d420b4977" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>serializeFormat</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a5c90d26190815a8860a2a92fe1daefdc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aae1f91f4b394e87834e2c54f825bab8c" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1acf6eac1d17486a8d089ec8593dfdbedc" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>staticClassName</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a22f2355405d5b43a693119c12c368ba3" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>staticClassNameInPlural</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a7a3d6ecf21d29cf7f680c071fddb37aa" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>staticTypeName</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a2fb8320790eb139d7e2c946336d78365" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1adcbf4bdcdc2775c8b838982dfefb2843" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>tags</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a59ccebe7711eb092dc705f831918f2c2" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aa71d66c92d0432709810cf2fecd5297a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a762a0d51db54a9e6eb75068acbeaa36e" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a825ac00b1443a95e60758768fd51b9d7" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1aebb8f8110ed58fcad635cc94b15e1730" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>xf</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a04b01c2eaa8e99c3f7fad2c39d963308" prot="public" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Const__ObjectPointsHolder_1a5100fdbf62a8138093f4228f728b8fb3" prot="private" virt="non-virtual"><scope>MR::Const_ObjectPointsHolder</scope><name>~Const_ObjectPointsHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

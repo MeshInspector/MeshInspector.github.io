@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1SetBitIteratorT__MRTextureBitSet" kind="class" language="C#" prot="public">
     <compoundname>MR::SetBitIteratorT_MRTextureBitSet</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRTextureBitSet</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet" prot="public" virt="non-virtual">MR.Const_SetBitIteratorT_MRTextureBitSet</basecompoundref>
     <sectiondef kind="package-func">
       <memberdef kind="function" id="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a1893aeeef4018701792b20ba30cf997d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -50,11 +50,11 @@
         <name>SetBitIteratorT_MRTextureBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRTextureBitSet.SetBitIteratorT_MRTextureBitSet</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIteratorT_MRTextureBitSet</type>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRTextureBitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -73,7 +73,7 @@
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -88,11 +88,11 @@
         <name>SetBitIteratorT_MRTextureBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRTextureBitSet.SetBitIteratorT_MRTextureBitSet</qualifiedname>
         <param>
-          <type>MR.Const_TextureBitSet</type>
+          <type><ref refid="classMR_1_1Const__TextureBitSet" kindref="compound">MR.Const_TextureBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -107,11 +107,11 @@
         <name>assign</name>
         <qualifiedname>MR.SetBitIteratorT_MRTextureBitSet.assign</qualifiedname>
         <param>
-          <type>MR.Const_SetBitIteratorT_MRTextureBitSet</type>
+          <type><ref refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet" kindref="compound">MR.Const_SetBitIteratorT_MRTextureBitSet</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;::operator=</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;gt;::operator=</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -126,7 +126,7 @@
         <name>incr</name>
         <qualifiedname>MR.SetBitIteratorT_MRTextureBitSet.incr</qualifiedname>
         <briefdescription>
-<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;::operator++</computeroutput>. </para>
+<para>Generated from method <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;gt;<ref refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1aa9c5914595ea217f6eeaf89d8a09c5ea" kindref="member">operator++</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -143,11 +143,11 @@
         <name>operator SetBitIteratorT_MRTextureBitSet</name>
         <qualifiedname>MR.SetBitIteratorT_MRTextureBitSet.operator SetBitIteratorT_MRTextureBitSet</qualifiedname>
         <param>
-          <type>MR.Const_TextureBitSet</type>
+          <type><ref refid="classMR_1_1Const__TextureBitSet" kindref="compound">MR.Const_TextureBitSet</ref></type>
           <declname>bitset</declname>
         </param>
         <briefdescription>
-<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;::SetBitIteratorT</computeroutput>. </para>
+<para>constructs begin iterator Generated from constructor <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;gt;::SetBitIteratorT</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -157,7 +157,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives Generated from class <computeroutput>MR::SetBitIteratorT&amp;lt;<ref refid="classMR_1_1TextureBitSet" kindref="compound">MR.TextureBitSet</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -170,6 +170,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIteratorT_MRTextureBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -196,6 +197,7 @@
       </node>
       <node id="2">
         <label>MR.Const_SetBitIteratorT_MRTextureBitSet</label>
+        <link refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -216,8 +218,23 @@
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="15938" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="15939" bodyend="16007"/>
     <listofallmembers>
       <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a7ac0eda91d4cc1fc98caa87999c5ff49" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1a16fb2b5a98937230947757a78e97e17f" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>bitset</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1aee621ee72e27a2a8b860733dfc60c6e4" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>Const_SetBitIteratorT_MRTextureBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1a9bde0054a78de5f52cd5a842e464d0d6" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>Const_SetBitIteratorT_MRTextureBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1a1f268b103447ef1d4d9de1420fa0f7d9" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>Const_SetBitIteratorT_MRTextureBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1aa7f50bb8afed67bca6c42f3c4e344f18" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>Const_SetBitIteratorT_MRTextureBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1aa6ffe3c9092dcb5db4cfedfed59e9922" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>Const_SetBitIteratorT_MRTextureBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1a6c7f081838f870321287264541b2ddc7" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>deref</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1a5d9cbb46ea9a3fafb4e4f1b0b63779eb" prot="protected" virt="virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1a25c9cf125c3b7dcc96117cb3e8fa3e98" prot="public" virt="virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1aa9c2cabfe24addbdf21780f2f0ed4099" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1ae34461758809b6af5a2df22ba2ec51a8" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>Equals</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a290a931fdf8045e883bcd77ff57baa79" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>incr</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1ac7e3500036fa8cb9015a1abefae6229b" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>operator Const_SetBitIteratorT_MRTextureBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1ad60a2142b923e6309ca53c84d55b104a" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>operator SetBitIteratorT_MRTextureBitSet</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1ae62e2e113a7088b355ef6adfe31444a7" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1aa9c5914595ea217f6eeaf89d8a09c5ea" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>operator++</name></member>
+      <member refid="classMR_1_1Const__SetBitIteratorT__MRTextureBitSet_1a5e346d0ab7362f68f7d609440522c31d" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>operator==</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a1893aeeef4018701792b20ba30cf997d" prot="package" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>SetBitIteratorT_MRTextureBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1afbcb9adcdd5f4f079c8c9c20f77eb6bb" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>SetBitIteratorT_MRTextureBitSet</name></member>
       <member refid="classMR_1_1SetBitIteratorT__MRTextureBitSet_1a85d2f00c52c7161b32e586e6292ff2f8" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT_MRTextureBitSet</scope><name>SetBitIteratorT_MRTextureBitSet</name></member>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1Parabolad" kind="class" language="C#" prot="public">
     <compoundname>MR::Parabolad</compoundname>
-    <basecompoundref prot="public" virt="non-virtual">MR.Const_Parabolad</basecompoundref>
+    <basecompoundref refid="classMR_1_1Const__Parabolad" prot="public" virt="non-virtual">MR.Const_Parabolad</basecompoundref>
     <sectiondef kind="property">
       <memberdef kind="property" id="classMR_1_1Parabolad_1ac1f6304f9d5b441505bdf5b311beb5ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref double</type>
@@ -94,7 +94,7 @@
         <name>Parabolad</name>
         <qualifiedname>MR.Parabolad.Parabolad</qualifiedname>
         <param>
-          <type>MR.Const_Parabolad</type>
+          <type><ref refid="classMR_1_1Const__Parabolad" kindref="compound">MR.Const_Parabolad</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -159,7 +159,7 @@
         <name>assign</name>
         <qualifiedname>MR.Parabolad.assign</qualifiedname>
         <param>
-          <type>MR.Const_Parabolad</type>
+          <type><ref refid="classMR_1_1Const__Parabolad" kindref="compound">MR.Const_Parabolad</ref></type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -186,6 +186,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Parabolad</label>
+        <link refid="classMR_1_1Const__Parabolad"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -207,6 +208,7 @@
       </node>
       <node id="2">
         <label>MR.Const_Parabolad</label>
+        <link refid="classMR_1_1Const__Parabolad"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
         <childnode refid="4" relation="public-inheritance">
@@ -221,10 +223,23 @@
     </collaborationgraph>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" line="394" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParabola.cs" bodystart="395" bodyend="461"/>
     <listofallmembers>
+      <member refid="classMR_1_1Const__Parabolad_1a11a8d18b6cc6259f2c9f423b6bd8ba94" prot="protected" virt="non-virtual"><scope>MR::Parabolad</scope><name>__ref_storage_a</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a0d43661b4753d875aa17d972abdedefb" prot="protected" virt="non-virtual"><scope>MR::Parabolad</scope><name>__ref_storage_b</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1aba67a477cd25735f36533c882fae692e" prot="protected" virt="non-virtual"><scope>MR::Parabolad</scope><name>__ref_storage_c</name></member>
       <member refid="classMR_1_1Parabolad_1ac1f6304f9d5b441505bdf5b311beb5ce" prot="public" virt="non-virtual"><scope>MR::Parabolad</scope><name>a</name></member>
       <member refid="classMR_1_1Parabolad_1a203edc3413c474cf55074d4172b8c37f" prot="public" virt="non-virtual"><scope>MR::Parabolad</scope><name>assign</name></member>
       <member refid="classMR_1_1Parabolad_1ae47df485bf181903d7483840e7826bce" prot="public" virt="non-virtual"><scope>MR::Parabolad</scope><name>b</name></member>
       <member refid="classMR_1_1Parabolad_1a2985a9d57d96f1948e71a017a90209f4" prot="public" virt="non-virtual"><scope>MR::Parabolad</scope><name>c</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a254e14b2c25b27158be13d5ba704e346" prot="public" virt="non-virtual"><scope>MR::Parabolad</scope><name>call</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a8025e0a62a911c26220115e6e001f59b" prot="package" virt="non-virtual"><scope>MR::Parabolad</scope><name>Const_Parabolad</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a719871890f56c8ed5d13df3c93231a29" prot="public" virt="non-virtual"><scope>MR::Parabolad</scope><name>Const_Parabolad</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a40c15b864e22b787c85dc91f4a5738d9" prot="public" virt="non-virtual"><scope>MR::Parabolad</scope><name>Const_Parabolad</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1adfe81f94497565b29463e73657f602cc" prot="public" virt="non-virtual"><scope>MR::Parabolad</scope><name>Const_Parabolad</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1af08dfb1515717c31f1d81f3694914318" prot="public" virt="non-virtual"><scope>MR::Parabolad</scope><name>Const_Parabolad</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1af81bcc4b56ae779f0f50641cc8088a25" prot="protected" virt="virtual"><scope>MR::Parabolad</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1aeab7722de743cb1ca66a02435f0967f4" prot="public" virt="virtual"><scope>MR::Parabolad</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1a60fb68965a6f4bceb5b5a25cf946a0a9" prot="public" virt="non-virtual"><scope>MR::Parabolad</scope><name>extremArg</name></member>
+      <member refid="classMR_1_1Const__Parabolad_1ab048ec81b23ec8457fb1eeaaca706b67" prot="public" virt="non-virtual"><scope>MR::Parabolad</scope><name>extremVal</name></member>
       <member refid="classMR_1_1Parabolad_1aa56bd0af7551c6c5635cfeb7038601f2" prot="package" virt="non-virtual"><scope>MR::Parabolad</scope><name>Parabolad</name></member>
       <member refid="classMR_1_1Parabolad_1a2a6995a6a0794b739ec896baf5667a8b" prot="public" virt="non-virtual"><scope>MR::Parabolad</scope><name>Parabolad</name></member>
       <member refid="classMR_1_1Parabolad_1a32369ab8e0ba77b92a180b8efc8866ac" prot="public" virt="non-virtual"><scope>MR::Parabolad</scope><name>Parabolad</name></member>
