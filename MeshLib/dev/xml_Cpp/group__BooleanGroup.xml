@@ -451,10 +451,10 @@
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="group__BooleanGroup_1ga17c23a55f3d3172ff25ce29e501a75e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__BooleanGroup_1ga1c924334076a710ae361fbdab680d498" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Expected&lt; Mesh &gt;</type>
         <definition>Expected&lt; Mesh &gt; MR::doBooleanOperation</definition>
-        <argsstring>(Mesh &amp;&amp;meshACut, Mesh &amp;&amp;meshBCut, const std::vector&lt; EdgePath &gt; &amp;cutEdgesA, const std::vector&lt; EdgePath &gt; &amp;cutEdgesB, BooleanOperation operation, const AffineXf3f *rigidB2A=nullptr, BooleanResultMapper *mapper=nullptr, bool mergeAllNonIntersectingComponents=false, const BooleanInternalParameters &amp;intParams={})</argsstring>
+        <argsstring>(Mesh &amp;&amp;meshACut, Mesh &amp;&amp;meshBCut, std::vector&lt; EdgePath &gt; &amp;&amp;cutEdgesA, std::vector&lt; EdgePath &gt; &amp;&amp;cutEdgesB, BooleanOperation operation, const AffineXf3f *rigidB2A=nullptr, BooleanResultMapper *mapper=nullptr, bool mergeAllNonIntersectingComponents=false, const BooleanInternalParameters &amp;intParams={})</argsstring>
         <name>doBooleanOperation</name>
         <qualifiedname>MR::doBooleanOperation</qualifiedname>
         <param>
@@ -466,11 +466,11 @@
           <declname>meshBCut</declname>
         </param>
         <param>
-          <type>const std::vector&lt; EdgePath &gt; &amp;</type>
+          <type>std::vector&lt; EdgePath &gt; &amp;&amp;</type>
           <declname>cutEdgesA</declname>
         </param>
         <param>
-          <type>const std::vector&lt; EdgePath &gt; &amp;</type>
+          <type>std::vector&lt; EdgePath &gt; &amp;&amp;</type>
           <declname>cutEdgesB</declname>
         </param>
         <param>
