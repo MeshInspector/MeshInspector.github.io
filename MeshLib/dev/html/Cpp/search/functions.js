@@ -4018,7 +4018,7 @@ var searchData=
   ['dividepolylinewithplane_97',['dividePolylineWithPlane',['../group__GeneralGroup.html#ga806f98c603f2ea2809ee156f92accb65',1,'MR']]],
   ['dividewithplane_98',['divideWithPlane',['../group__GeneralGroup.html#ga6d7f1057abe62b822b7c51220cdcb574',1,'MR']]],
   ['divround_99',['divRound',['../group__GeneralGroup.html#ga3ef1bce6c4d0768d54dd90b9b1f519cc',1,'MR::divRound(T n, T d)'],['../group__GeneralGroup.html#ga9d32d616493b496a1ec1e03d8a73327b',1,'MR::divRound(const Vector2&lt; T &gt; &amp;n, T d)'],['../group__GeneralGroup.html#gada78977f550208fa66adc198b2cfc4d5',1,'MR::divRound(const Vector3&lt; T &gt; &amp;n, T d)'],['../group__GeneralGroup.html#gab26667a94d8a88f4395d8a112e2f398b',1,'MR::divRound(const Vector4&lt; T &gt; &amp;n, T d)']]],
-  ['dobooleanoperation_100',['doBooleanOperation',['../group__BooleanGroup.html#ga17c23a55f3d3172ff25ce29e501a75e1',1,'MR']]],
+  ['dobooleanoperation_100',['doBooleanOperation',['../group__BooleanGroup.html#ga1c924334076a710ae361fbdab680d498',1,'MR']]],
   ['doesedgexyseparate_101',['doesEdgeXySeparate',['../group__TriangleIntersectionGroup.html#ga56e080b75b029cd99c5de48a2ae1c305',1,'MR']]],
   ['done_102',['done',['../group__GeneralGroup.html#ga336db542a3c1e1aafb7a7e132ee4a508',1,'MR::EdgePathsBuilderT::done()'],['../classMR_1_1SurfaceDistanceBuilder.html#ac10dab2b68dd9de618eeb1ce16471e23',1,'MR::SurfaceDistanceBuilder::done()']]],
   ['donedistance_103',['doneDistance',['../group__GeneralGroup.html#ga6121aae22b66ff8e123f4f1d2d21528d',1,'MR::EdgePathsBuilderT::doneDistance()'],['../classMR_1_1SurfaceDistanceBuilder.html#a66781dd9ecf7009c090fffa4c7d0e6f7',1,'MR::SurfaceDistanceBuilder::doneDistance()']]],

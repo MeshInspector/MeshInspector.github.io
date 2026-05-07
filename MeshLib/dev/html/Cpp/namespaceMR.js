@@ -2100,7 +2100,7 @@ var namespaceMR =
     [ "divRound", "group__GeneralGroup.html#gada78977f550208fa66adc198b2cfc4d5", null ],
     [ "divRound", "group__GeneralGroup.html#gab26667a94d8a88f4395d8a112e2f398b", null ],
     [ "divRound", "group__GeneralGroup.html#ga3ef1bce6c4d0768d54dd90b9b1f519cc", null ],
-    [ "doBooleanOperation", "group__BooleanGroup.html#ga17c23a55f3d3172ff25ce29e501a75e1", null ],
+    [ "doBooleanOperation", "group__BooleanGroup.html#ga1c924334076a710ae361fbdab680d498", null ],
     [ "doesEdgeXySeparate", "group__TriangleIntersectionGroup.html#ga56e080b75b029cd99c5de48a2ae1c305", null ],
     [ "doSegmentLineIntersect", "group__GeneralGroup.html#gabb2813949ff03c0e0f004661d0a7ac69", null ],
     [ "doSegmentSegmentIntersect", "group__GeneralGroup.html#ga602409f55231f953fa2202ec4e12d91b", null ],

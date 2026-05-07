@@ -2828,7 +2828,7 @@ var classMR =
     [ "div", "classMR.html#a11bc7796ac79fa422678ffd90f41d3c3", null ],
     [ "divideMeshWithPlane", "classMR.html#a4f6d98103bb12285cdc1e599ad250ddb", null ],
     [ "divideWithPlane", "classMR.html#ad1fd67c79135fb1e8698c76a510fd471", null ],
-    [ "doBooleanOperation", "classMR.html#a18646c5a3033d63a63adbbff429da701", null ],
+    [ "doBooleanOperation", "classMR.html#a1da547647a293128d1e8b7f27e34ffbf", null ],
     [ "doSegmentLineIntersect", "classMR.html#af80ed0ea9446e40afff1dbf19945959d", null ],
     [ "doSegmentLineIntersect", "classMR.html#a13bfa95a32135f88fd6c0fc9ab95c6ab", null ],
     [ "doSegmentSegmentIntersect", "classMR.html#a181d8917db911e46d7f89e3e9a1b51e3", null ],
