@@ -3458,7 +3458,7 @@ var namespaceMR =
     [ "updateGroupPairs", "group__GeneralGroup.html#ga8b53d4824a98c05f3bfe0e82093609ea", null ],
     [ "updateIndicator", "group__GeneralGroup.html#gae67bf8c66f6b1dee34bd8aa00e69a913", null ],
     [ "updateIndicatorFast", "group__GeneralGroup.html#gad6e2edf074642202b7e738dfeee59f29", null ],
-    [ "updatePointPairs", "group__GeneralGroup.html#ga5118cd3270687b64806c02e6c6c68a2b", null ],
+    [ "updatePointPairs", "group__GeneralGroup.html#ga1301b1c633de237705ebc76fcbd215df", null ],
     [ "utf8string", "group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d", null ],
     [ "utf8string", "group__BasicGroup.html#ga94712bce613ec3f52b3d976ed63e7910", null ],
     [ "utf8substr", "group__BasicGroup.html#gabcd2fb63d421c0032f7bf3137e782982", null ],

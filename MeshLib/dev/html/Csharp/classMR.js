@@ -3985,7 +3985,7 @@ var classMR =
     [ "updateGroupPairs", "classMR.html#a6027b8b74f4ebeecd72a953db5f82337", null ],
     [ "updateIndicator", "classMR.html#acbd7b12fad55a93f3f7d914a7388d72c", null ],
     [ "updateIndicatorFast", "classMR.html#ab75ba536145e2c152d05abc39a879b52", null ],
-    [ "updatePointPairs", "classMR.html#a360e1a14774b0f654548bf6fefce8dc0", null ],
+    [ "updatePointPairs", "classMR.html#a04df1ae413ed90a70e4f0fe6704b85ea", null ],
     [ "utf8string", "classMR.html#abeb41b99b4311c17828f86d7db0afe66", null ],
     [ "utf8substr", "classMR.html#ad16f70467df5b06efcacb2a858fb3207", null ],
     [ "utf8ToSystem", "classMR.html#ad3f5457b453134bedadd3399e2277e1a", null ],

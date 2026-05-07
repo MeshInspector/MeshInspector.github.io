@@ -4112,6 +4112,7 @@
     <member refid="group__GeneralGroup_1ga242dd3555fcbbe8a0857210ed77ff1fe" kind="variable"><name>badIterStopCount</name></member>
     <member refid="group__GeneralGroup_1gafe075e9e4944999f30c142f357d071d7" kind="variable"><name>exitVal</name></member>
     <member refid="group__GeneralGroup_1ga229d248012276b39cb1c7102f4184f4c" kind="variable"><name>mutualClosest</name></member>
+    <member refid="group__GeneralGroup_1ga8efa777933097be92b2e442ee0962d0c" kind="variable"><name>ignoreBdTgts</name></member>
   </compound>
   <compound refid="classMR_1_1Id" kind="class"><name>MR::Id</name>
     <member refid="group__GeneralGroup_1gac2e242e118fdd8b3a6309347d48a6c84" kind="typedef"><name>ValueType</name></member>
@@ -14509,7 +14510,7 @@
     <member refid="group__GeneralGroup_1ga906c4c943a7359b75228e06b81ce6e11" kind="function"><name>getICPStatusInfo</name></member>
     <member refid="group__GeneralGroup_1gab9437f710e465bc98981efae3890aee0" kind="function"><name>getAligningXf</name></member>
     <member refid="group__GeneralGroup_1ga9381989fd9c2bfbded47dacbf86d0aee" kind="function"><name>deactivateFarPairs</name></member>
-    <member refid="group__GeneralGroup_1ga5118cd3270687b64806c02e6c6c68a2b" kind="function"><name>updatePointPairs</name></member>
+    <member refid="group__GeneralGroup_1ga1301b1c633de237705ebc76fcbd215df" kind="function"><name>updatePointPairs</name></member>
     <member refid="group__GeneralGroup_1ga431af2072742e04e253f3c9d62962f77" kind="function"><name>operator+</name></member>
     <member refid="group__GeneralGroup_1ga9ab1ddfa8621958cde8c0dd267bc9d30" kind="function"><name>operator+</name></member>
     <member refid="group__GeneralGroup_1gab8f6d92e5834f22ab7bccb2f976bc9c4" kind="function"><name>operator+</name></member>
@@ -21821,6 +21822,7 @@
     <member refid="group__GeneralGroup_1ga242dd3555fcbbe8a0857210ed77ff1fe" kind="variable"><name>badIterStopCount</name></member>
     <member refid="group__GeneralGroup_1gafe075e9e4944999f30c142f357d071d7" kind="variable"><name>exitVal</name></member>
     <member refid="group__GeneralGroup_1ga229d248012276b39cb1c7102f4184f4c" kind="variable"><name>mutualClosest</name></member>
+    <member refid="group__GeneralGroup_1ga8efa777933097be92b2e442ee0962d0c" kind="variable"><name>ignoreBdTgts</name></member>
     <member refid="group__GeneralGroup_1gab6fc4b50aa9caa98755ba4e1b62e3f2d" kind="variable"><name>flt_</name></member>
     <member refid="group__GeneralGroup_1ga4b0a185c72915330bc57a2aa250e5bd8" kind="variable"><name>ref_</name></member>
     <member refid="group__GeneralGroup_1ga7548578d38592d23a3c0058a10c5ca86" kind="variable"><name>prop_</name></member>
@@ -25835,7 +25837,7 @@
     <member refid="group__GeneralGroup_1ga906c4c943a7359b75228e06b81ce6e11" kind="function"><name>getICPStatusInfo</name></member>
     <member refid="group__GeneralGroup_1gab9437f710e465bc98981efae3890aee0" kind="function"><name>getAligningXf</name></member>
     <member refid="group__GeneralGroup_1ga9381989fd9c2bfbded47dacbf86d0aee" kind="function"><name>deactivateFarPairs</name></member>
-    <member refid="group__GeneralGroup_1ga5118cd3270687b64806c02e6c6c68a2b" kind="function"><name>updatePointPairs</name></member>
+    <member refid="group__GeneralGroup_1ga1301b1c633de237705ebc76fcbd215df" kind="function"><name>updatePointPairs</name></member>
     <member refid="group__GeneralGroup_1gabf8abfc1336998ff9b7f0baff945f17f" kind="function"><name>ICP</name></member>
     <member refid="group__GeneralGroup_1ga176b1bc0e8f03f9db115cb8e5894ff14" kind="function"><name>ICP</name></member>
     <member refid="group__GeneralGroup_1ga78b77e51102c8f0da1a67c2f90dd0449" kind="function"><name>ICP</name></member>

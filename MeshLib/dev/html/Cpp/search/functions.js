@@ -1821,7 +1821,7 @@ var searchData=
   ['updateneighborsradius_77',['updateNeighborsRadius',['../group__TriangulationHelpersGroup.html#gaf72ca8f1d6497ca42e99d5884312305c',1,'MR::TriangulationHelpers']]],
   ['updateparameters_78',['updateParameters',['../group__GeneralGroup.html#gaeaced8a1ea2ff5a94e9554c322c75d00',1,'MR::SurfacePointWidget']]],
   ['updateplane_79',['updatePlane',['../group__GeneralGroup.html#ga5d8b28cf0b38aeac19eefe4813b7df31',1,'MR::PlaneWidget']]],
-  ['updatepointpairs_80',['updatePointPairs',['../group__GeneralGroup.html#gafd50cf7357b6599704f31b3c1dcde7ad',1,'MR::ICP::updatePointPairs()'],['../group__GeneralGroup.html#ga5118cd3270687b64806c02e6c6c68a2b',1,'MR::updatePointPairs()']]],
+  ['updatepointpairs_80',['updatePointPairs',['../group__GeneralGroup.html#gafd50cf7357b6599704f31b3c1dcde7ad',1,'MR::ICP::updatePointPairs()'],['../group__GeneralGroup.html#ga1301b1c633de237705ebc76fcbd215df',1,'MR::updatePointPairs()']]],
   ['updatepolyline_81',['updatePolyline',['../group__GeneralGroup.html#gab9a585f413b82e5359d07b66bc56e02a',1,'MR::ObjectLines']]],
   ['updateregion_5f_82',['updateRegion_',['../group__GeneralGroup.html#gabf2e20a55a28b2f567d2c8197674fd9d',1,'MR::SurfaceManipulationWidget']]],
   ['updateregionuvs_5f_83',['updateRegionUVs_',['../group__GeneralGroup.html#ga48b4a6109c413aa4b50e445d75db016a',1,'MR::SurfaceManipulationWidget']]],

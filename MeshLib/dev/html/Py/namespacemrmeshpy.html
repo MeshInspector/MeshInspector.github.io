@@ -2792,7 +2792,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a17e598a0e232b9697ccbd10510fdc251" id="r_a17e598a0e232b9697ccbd10510fdc251"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17e598a0e232b9697ccbd10510fdc251">updateGroupPairs</a> (<a class="el" href="classmrmeshpy_1_1ICPGroupPairs.html">ICPGroupPairs</a> pairs, <a class="el" href="classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId.html">Vector_MeshOrPointsXf_ObjId</a> objs, <a class="el" href="classmrmeshpy_1_1func__void__from__Vector3__float__MeshOrPoints__ProjectionResult__Id__ObjTag.html">func_void_from_Vector3_float_MeshOrPoints_ProjectionResult_Id_ObjTag</a> srcProjector, <a class="el" href="classmrmeshpy_1_1func__void__from__Vector3__float__MeshOrPoints__ProjectionResult__Id__ObjTag.html">func_void_from_Vector3_float_MeshOrPoints_ProjectionResult_Id_ObjTag</a> tgtProjector, float cosThreshold, float distThresholdSq, bool mutualClosest)</td></tr>
 <tr class="memitem:a594163130487c21b865377d839621947" id="r_a594163130487c21b865377d839621947"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a594163130487c21b865377d839621947">updateIndicator</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a> v, <a class="el" href="classmrmeshpy_1_1FaceNormals.html">FaceNormals</a> normals, float beta, float gamma)</td></tr>
 <tr class="memitem:a5ffbe63dd32beecf891562cd0c73271a" id="r_a5ffbe63dd32beecf891562cd0c73271a"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ffbe63dd32beecf891562cd0c73271a">updateIndicatorFast</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeScalars.html">UndirectedEdgeScalars</a> v, <a class="el" href="classmrmeshpy_1_1FaceNormals.html">FaceNormals</a> normals, float beta, float gamma)</td></tr>
-<tr class="memitem:ab61a8315fafc8a7ba82845dbf15fc182" id="r_ab61a8315fafc8a7ba82845dbf15fc182"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab61a8315fafc8a7ba82845dbf15fc182">updatePointPairs</a> (<a class="el" href="classmrmeshpy_1_1PointPairs.html">PointPairs</a> pairs, <a class="el" href="classmrmeshpy_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> src, <a class="el" href="classmrmeshpy_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> tgt, float cosThreshold, float distThresholdSq, bool mutualClosest)</td></tr>
+<tr class="memitem:a5d2536e502f9d876c8de49d8641ee65c" id="r_a5d2536e502f9d876c8de49d8641ee65c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d2536e502f9d876c8de49d8641ee65c">updatePointPairs</a> (<a class="el" href="classmrmeshpy_1_1PointPairs.html">PointPairs</a> pairs, <a class="el" href="classmrmeshpy_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> src, <a class="el" href="classmrmeshpy_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> tgt, float cosThreshold, float distThresholdSq, bool mutualClosest, bool ignoreBdTgts)</td></tr>
 <tr class="memitem:aeedbc6066950b44c5cf197042db51ffe" id="r_aeedbc6066950b44c5cf197042db51ffe"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeedbc6066950b44c5cf197042db51ffe">utf8ToSystem</a> (str utf8)</td></tr>
 <tr class="memitem:a44c5a46c8d632eff18d069175e5bde49" id="r_a44c5a46c8d632eff18d069175e5bde49"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44c5a46c8d632eff18d069175e5bde49">utf8string</a> (os.PathLike|str|bytes path)</td></tr>
 <tr class="memitem:aefd62381b61aa9a233a353977723f816" id="r_aefd62381b61aa9a233a353977723f816"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefd62381b61aa9a233a353977723f816">utf8substr</a> (str s, int pos, int count)</td></tr>
@@ -39653,8 +39653,8 @@ see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (2
 </pre> 
 </div>
 </div>
-<a id="ab61a8315fafc8a7ba82845dbf15fc182" name="ab61a8315fafc8a7ba82845dbf15fc182"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab61a8315fafc8a7ba82845dbf15fc182">&#9670;&#160;</a></span>updatePointPairs()</h2>
+<a id="a5d2536e502f9d876c8de49d8641ee65c" name="a5d2536e502f9d876c8de49d8641ee65c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d2536e502f9d876c8de49d8641ee65c">&#9670;&#160;</a></span>updatePointPairs()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -39687,7 +39687,12 @@ see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (2
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>mutualClosest</em></span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>mutualClosest</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>ignoreBdTgts</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -7,6 +7,7 @@ var structMR_1_1ICPProperties =
     [ "farDistFactor", "group__GeneralGroup.html#gaa4083e706852873ed258324b8d2b6626", null ],
     [ "fixedRotationAxis", "group__GeneralGroup.html#ga1fe34b378f38697c828575c8204e7b57", null ],
     [ "icpMode", "group__GeneralGroup.html#ga77f672ea419da2fb458fb981c25d5be2", null ],
+    [ "ignoreBdTgts", "group__GeneralGroup.html#ga8efa777933097be92b2e442ee0962d0c", null ],
     [ "iterLimit", "group__GeneralGroup.html#ga4b5daff61d36ce0e211995eee0f2507f", null ],
     [ "method", "group__GeneralGroup.html#gaaebab641b9a81a0d03d0a64d155ea22f", null ],
     [ "mutualClosest", "group__GeneralGroup.html#ga229d248012276b39cb1c7102f4184f4c", null ],

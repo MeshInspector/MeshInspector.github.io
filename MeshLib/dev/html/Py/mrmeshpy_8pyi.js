@@ -2811,7 +2811,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.updateGroupPairs", "namespacemrmeshpy.html#a17e598a0e232b9697ccbd10510fdc251", null ],
     [ "mrmeshpy.updateIndicator", "namespacemrmeshpy.html#a594163130487c21b865377d839621947", null ],
     [ "mrmeshpy.updateIndicatorFast", "namespacemrmeshpy.html#a5ffbe63dd32beecf891562cd0c73271a", null ],
-    [ "mrmeshpy.updatePointPairs", "namespacemrmeshpy.html#ab61a8315fafc8a7ba82845dbf15fc182", null ],
+    [ "mrmeshpy.updatePointPairs", "namespacemrmeshpy.html#a5d2536e502f9d876c8de49d8641ee65c", null ],
     [ "mrmeshpy.utf8string", "namespacemrmeshpy.html#a44c5a46c8d632eff18d069175e5bde49", null ],
     [ "mrmeshpy.utf8substr", "namespacemrmeshpy.html#aefd62381b61aa9a233a353977723f816", null ],
     [ "mrmeshpy.utf8ToSystem", "namespacemrmeshpy.html#aeedbc6066950b44c5cf197042db51ffe", null ],

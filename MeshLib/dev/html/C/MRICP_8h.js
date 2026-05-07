@@ -83,7 +83,7 @@ var MRICP_8h =
     [ "MR_ICPPairData_Set_tgtPoint", "MRICP_8h.html#a166411e477284f5293d5997b74e8eef9", null ],
     [ "MR_ICPPairData_Set_weight", "MRICP_8h.html#a228a90e9f8ba38f5a9e98cebd98a2ddd", null ],
     [ "MR_ICPProperties_AssignFromAnother", "MRICP_8h.html#abeb7021c3bc7a43069e4f495e31a338e", null ],
-    [ "MR_ICPProperties_ConstructFrom", "MRICP_8h.html#ad6b32495f7f0703e930fecd827f7cd5f", null ],
+    [ "MR_ICPProperties_ConstructFrom", "MRICP_8h.html#a2011b632855faeff4e6588dbca2c9b47", null ],
     [ "MR_ICPProperties_ConstructFromAnother", "MRICP_8h.html#ad1e576ec4c8b90fcf378bebecf1d8071", null ],
     [ "MR_ICPProperties_DefaultConstruct", "MRICP_8h.html#a6ed25c78714027fdfe0fff972837bd7e", null ],
     [ "MR_ICPProperties_DefaultConstructArray", "MRICP_8h.html#a83d15c244e2f6fc27f20b30c21d0cd2b", null ],
@@ -96,6 +96,7 @@ var MRICP_8h =
     [ "MR_ICPProperties_Get_farDistFactor", "MRICP_8h.html#a5b05fdbfd04170648fc9918b23a6605d", null ],
     [ "MR_ICPProperties_Get_fixedRotationAxis", "MRICP_8h.html#afdaf73b1e65a4a12c271f11613336762", null ],
     [ "MR_ICPProperties_Get_icpMode", "MRICP_8h.html#a3895c3d71082c026b6ab7de28e41bd66", null ],
+    [ "MR_ICPProperties_Get_ignoreBdTgts", "MRICP_8h.html#a525c10be2cb7129705516d0c18537034", null ],
     [ "MR_ICPProperties_Get_iterLimit", "MRICP_8h.html#a563c3aa345feac32cc3a15ba291c3356", null ],
     [ "MR_ICPProperties_Get_method", "MRICP_8h.html#a120f92b96db642be92f438e5af03a0f8", null ],
     [ "MR_ICPProperties_Get_mutualClosest", "MRICP_8h.html#af1dc8cbb894eb943ceb403792b3e9ff2", null ],
@@ -108,6 +109,7 @@ var MRICP_8h =
     [ "MR_ICPProperties_GetMutable_farDistFactor", "MRICP_8h.html#af4cbfe5000f2823e268d3f0a2bf3b76e", null ],
     [ "MR_ICPProperties_GetMutable_fixedRotationAxis", "MRICP_8h.html#ad7015543756ba736c66522ae13042d3b", null ],
     [ "MR_ICPProperties_GetMutable_icpMode", "MRICP_8h.html#a4e71b35e329f96f2a31e5bc507afbdd3", null ],
+    [ "MR_ICPProperties_GetMutable_ignoreBdTgts", "MRICP_8h.html#a5ff5e869f21a913c156bcc01a188b58b", null ],
     [ "MR_ICPProperties_GetMutable_iterLimit", "MRICP_8h.html#ac309d1163b73c38f135139a5511befe0", null ],
     [ "MR_ICPProperties_GetMutable_method", "MRICP_8h.html#a61fa5e68a04faca4d7e630a311416bd8", null ],
     [ "MR_ICPProperties_GetMutable_mutualClosest", "MRICP_8h.html#aefdce1efb49a06325f1f0be84de90b5b", null ],
@@ -122,6 +124,7 @@ var MRICP_8h =
     [ "MR_ICPProperties_Set_farDistFactor", "MRICP_8h.html#a1fbb1001dcde1e4c287f6e0398a737f2", null ],
     [ "MR_ICPProperties_Set_fixedRotationAxis", "MRICP_8h.html#a8a353813a6b7cf4005d28003b4925d9e", null ],
     [ "MR_ICPProperties_Set_icpMode", "MRICP_8h.html#a6247f90f2c6aad3661e20a34f562c93a", null ],
+    [ "MR_ICPProperties_Set_ignoreBdTgts", "MRICP_8h.html#a839df4605dc5c602b05f3ec7d72a12d9", null ],
     [ "MR_ICPProperties_Set_iterLimit", "MRICP_8h.html#a7f0d7c5c4a1c21ced9bd3a6e929e1890", null ],
     [ "MR_ICPProperties_Set_method", "MRICP_8h.html#ae7e7082e9479f8944203c9a843ee73c5", null ],
     [ "MR_ICPProperties_Set_mutualClosest", "MRICP_8h.html#a7c15032e1e0bc723df7a4da5c7f2b360", null ],
@@ -220,5 +223,5 @@ var MRICP_8h =
     [ "MR_PointPairs_size", "MRICP_8h.html#a2e37ee1844562ea7809834f525d6cc6f", null ],
     [ "MR_PointPairs_StaticDowncastFrom_MR_IPointPairs", "MRICP_8h.html#abfea33deb187368c80269ba76469854b", null ],
     [ "MR_PointPairs_UpcastTo_MR_IPointPairs", "MRICP_8h.html#a47d1a7cbf55edb0f343f3e7dbda063e5", null ],
-    [ "MR_updatePointPairs", "MRICP_8h.html#a0fe030c3a88d76afce77ff2ed20ff1fb", null ]
+    [ "MR_updatePointPairs", "MRICP_8h.html#a4eca5e877f4db2333282747f765e2ec9", null ]
 ];

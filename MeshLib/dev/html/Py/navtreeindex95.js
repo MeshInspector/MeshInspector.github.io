@@ -1,5 +1,9 @@
 var NAVTREEINDEX95 =
 {
+"classmrmeshpy_1_1TrivialMetricToPenalty.html#a840eceb9274ef4b949d2182831672493":[6,1,1,0,1,1110,1],
+"classmrmeshpy_1_1Turn.html":[6,1,0,0,2,1111],
+"classmrmeshpy_1_1Turn.html":[6,1,1,0,1,1111],
+"classmrmeshpy_1_1Turn.html#a2af881ad608825ad1a529b7f6aca1c7d":[6,1,0,0,2,1111,0],
 "classmrmeshpy_1_1Turn.html#a2af881ad608825ad1a529b7f6aca1c7d":[6,1,1,0,1,1111,0],
 "classmrmeshpy_1_1Turn.html#a2efc81b6688fa0201fe26f77d0366c61":[6,1,0,0,2,1111,1],
 "classmrmeshpy_1_1Turn.html#a2efc81b6688fa0201fe26f77d0366c61":[6,1,1,0,1,1111,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX95 =
 "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a3f7cf8e6a65d1a8f76599d273a173db0":[6,1,1,0,1,1117,10],
 "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a43ed702ade7eba1ac7d9cd4ef50e5a52":[6,1,0,0,2,1117,34],
 "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a43ed702ade7eba1ac7d9cd4ef50e5a52":[6,1,1,0,1,1117,34],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5287b9304b1abbc52a836bee8ddada9f":[6,1,0,0,2,1117,22],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5287b9304b1abbc52a836bee8ddada9f":[6,1,1,0,1,1117,22],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5544fd557a66725b9aa977f09bbf51d3":[6,1,0,0,2,1117,33],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5544fd557a66725b9aa977f09bbf51d3":[6,1,1,0,1,1117,33],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5c2e92d888cefb9af221ef15fd6ed3f2":[6,1,0,0,2,1117,11]
+"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5287b9304b1abbc52a836bee8ddada9f":[6,1,0,0,2,1117,22]
 };

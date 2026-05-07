@@ -1,5 +1,8 @@
 var NAVTREEINDEX141 =
 {
+"classMR_1_1VertSetBitIterator.html#a786355d8a9820468f96e4eabc3dbf741":[6,3,0,0,0,1761,4],
+"classMR_1_1VertSetBitIterator.html#a93fe6d3fb2a8e5de5d1b3615a0262493":[6,3,0,0,0,1761,1],
+"classMR_1_1VertSetBitIterator.html#abb4e6f9ea63a0592b849d8159a2e0627":[6,3,0,0,0,1761,0],
 "classMR_1_1ViewportIterator.html":[6,3,0,0,0,1763],
 "classMR_1_1ViewportIterator.html#a07fadea4fba171f2cd352efd17fe04b4":[6,3,0,0,0,1763,1],
 "classMR_1_1ViewportIterator.html#a22af54bda6189dd3980ad12e73c53eb4":[6,3,0,0,0,1763,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX141 =
 "classMR_1_1VoxelMetricParameters.html#ac5d6f12e9fef00f04b63dd55daab1187":[6,3,0,0,0,1779,2],
 "classMR_1_1VoxelMetricParameters.html#afb66cb572adba934723dec3add59a4d9":[6,3,0,0,0,1779,0],
 "classMR_1_1VoxelTraits__MRFloatGrid.html":[6,3,0,0,0,1790],
-"classMR_1_1VoxelTraits__MRFloatGrid.html#a17730111aadf7ee4b62b8383cbafdef1":[6,3,0,0,0,1790,2],
-"classMR_1_1VoxelTraits__MRFloatGrid.html#a5f608b8234bc17ed5f6b22a6b946fbba":[6,3,0,0,0,1790,1],
-"classMR_1_1VoxelTraits__MRFloatGrid.html#abb34e244182861b2907061d6f1031895":[6,3,0,0,0,1790,0],
-"classMR_1_1VoxelTraits__MRFloatGrid.html#ae2a2f3ca3b900e06e75dd77f717146ac":[6,3,0,0,0,1790,3]
+"classMR_1_1VoxelTraits__MRFloatGrid.html#a17730111aadf7ee4b62b8383cbafdef1":[6,3,0,0,0,1790,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1McpGateway_1_1Config.html#abf13345caaa67573350f7cce650d3e96":[6,0,2,0,2,11,0,2],
 "structMR_1_1McpSettings_1_1CmdLineOverrides.html":[6,0,1,0,1,23,0],
 "structMR_1_1McpSettings_1_1CmdLineOverrides.html":[6,0,2,0,2,12,0],
 "structMR_1_1McpSettings_1_1CmdLineOverrides.html#a03d182d700e0d22a419a61a656a38a44":[6,0,1,0,1,23,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1MeshOrPoints_1_1ProjectionResult.html":[6,0,0,20,339],
 "structMR_1_1MeshPoint.html":[6,0,0,20,344],
 "structMR_1_1MeshPointAndDistance.html":[6,0,0,20,154],
-"structMR_1_1MeshProjectionParameters.html":[6,0,0,20,426],
-"structMR_1_1MeshProjectionResult.html":[6,0,0,1,25]
+"structMR_1_1MeshProjectionParameters.html":[6,0,0,20,426]
 };

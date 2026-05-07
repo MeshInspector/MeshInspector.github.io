@@ -3572,6 +3572,64 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1096" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1096" declcolumn="14"/>
       </memberdef>
+      <memberdef kind="function" id="MRICP_8h_1a525c10be2cb7129705516d0c18537034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
+        <definition>MRC_API const bool * MR_ICPProperties_Get_ignoreBdTgts</definition>
+        <argsstring>(const MR_ICPProperties *_this)</argsstring>
+        <name>MR_ICPProperties_Get_ignoreBdTgts</name>
+        <param>
+          <type>const <ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if this flag is true and a source point finds its correspondence on a boundary of target object, then ignores such pair Returns a pointer to a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>ignoreBdTgts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1103" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1103" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRICP_8h_1a839df4605dc5c602b05f3ec7d72a12d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_ICPProperties_Set_ignoreBdTgts</definition>
+        <argsstring>(MR_ICPProperties *_this, bool value)</argsstring>
+        <name>MR_ICPProperties_Set_ignoreBdTgts</name>
+        <param>
+          <type><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if this flag is true and a source point finds its correspondence on a boundary of target object, then ignores such pair Modifies a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>ignoreBdTgts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <computeroutput>ignoreBdTgts</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1109" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1109" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRICP_8h_1a5ff5e869f21a913c156bcc01a188b58b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
+        <definition>MRC_API bool * MR_ICPProperties_GetMutable_ignoreBdTgts</definition>
+        <argsstring>(MR_ICPProperties *_this)</argsstring>
+        <name>MR_ICPProperties_GetMutable_ignoreBdTgts</name>
+        <param>
+          <type><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if this flag is true and a source point finds its correspondence on a boundary of target object, then ignores such pair Returns a mutable pointer to a member variable of class <computeroutput>MR::ICPProperties</computeroutput> named <computeroutput>ignoreBdTgts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1116" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1116" declcolumn="14"/>
+      </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a6ed25c78714027fdfe0fff972837bd7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref> *</type>
         <definition>MRC_API MR_ICPProperties * MR_ICPProperties_DefaultConstruct</definition>
@@ -3587,7 +3645,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1100" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1100" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1120" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1120" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a83d15c244e2f6fc27f20b30c21d0cd2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref> *</type>
@@ -3605,12 +3663,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1105" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1105" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1125" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1125" declcolumn="26"/>
       </memberdef>
-      <memberdef kind="function" id="MRICP_8h_1ad6b32495f7f0703e930fecd827f7cd5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRICP_8h_1a2011b632855faeff4e6588dbca2c9b47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref> *</type>
         <definition>MRC_API MR_ICPProperties * MR_ICPProperties_ConstructFrom</definition>
-        <argsstring>(MR_ICPMethod method, float p2plAngleLimit, float p2plScaleLimit, float cosThreshold, float distThresholdSq, float farDistFactor, MR_ICPMode icpMode, MR_Vector3f fixedRotationAxis, int iterLimit, int badIterStopCount, float exitVal, bool mutualClosest)</argsstring>
+        <argsstring>(MR_ICPMethod method, float p2plAngleLimit, float p2plScaleLimit, float cosThreshold, float distThresholdSq, float farDistFactor, MR_ICPMode icpMode, MR_Vector3f fixedRotationAxis, int iterLimit, int badIterStopCount, float exitVal, bool mutualClosest, bool ignoreBdTgts)</argsstring>
         <name>MR_ICPProperties_ConstructFrom</name>
         <param>
           <type><ref refid="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56" kindref="member">MR_ICPMethod</ref></type>
@@ -3660,6 +3718,10 @@
           <type>bool</type>
           <declname>mutualClosest</declname>
         </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreBdTgts</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -3667,7 +3729,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1113" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1113" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1133" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1133" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a21663bd4794b9a556dfd1933ba8bc537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref> *</type>
@@ -3689,7 +3751,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1117" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1117" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1137" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1137" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1ada04139c93c68fdf9fdd27c244602927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref> *</type>
@@ -3711,7 +3773,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1121" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1121" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1141" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1141" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1ad1e576ec4c8b90fcf378bebecf1d8071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref> *</type>
@@ -3729,7 +3791,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1127" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1127" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1147" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1147" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a854de83f80e5371d1980dc47c136410d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -3747,7 +3809,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1130" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1130" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1150" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1ac49bb14dcbcb43b010e62a2e5929abe2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -3765,7 +3827,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1133" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1153" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1abeb7021c3bc7a43069e4f495e31a338e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref> *</type>
@@ -3787,7 +3849,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1141" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1141" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1161" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1161" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a41e8ec0a973648e196bdddbcbe029a97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
@@ -3809,12 +3871,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1146" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1146" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1166" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1166" declcolumn="21"/>
       </memberdef>
-      <memberdef kind="function" id="MRICP_8h_1a0fe030c3a88d76afce77ff2ed20ff1fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRICP_8h_1a4eca5e877f4db2333282747f765e2ec9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_updatePointPairs</definition>
-        <argsstring>(MR_PointPairs *pairs, const MR_MeshOrPointsXf *src, const MR_MeshOrPointsXf *tgt, float cosThreshold, float distThresholdSq, bool mutualClosest)</argsstring>
+        <argsstring>(MR_PointPairs *pairs, const MR_MeshOrPointsXf *src, const MR_MeshOrPointsXf *tgt, float cosThreshold, float distThresholdSq, bool mutualClosest, bool ignoreBdTgts)</argsstring>
         <name>MR_updatePointPairs</name>
         <param>
           <type><ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref> *</type>
@@ -3840,6 +3902,10 @@
           <type>bool</type>
           <declname>mutualClosest</declname>
         </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreBdTgts</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -3847,7 +3913,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1153" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1173" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1173" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1ae9a7fa9e0e9ba06eb664b2a7d20266e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref> *</type>
@@ -3869,7 +3935,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1158" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1158" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1178" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1178" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a492e87c87baa650c93cf8411640fc154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref> *</type>
@@ -3891,7 +3957,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1162" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1162" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1182" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1182" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1af2d3e9b70de11ac641acb9025db11704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref> *</type>
@@ -3913,7 +3979,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1166" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1166" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1186" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1186" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1af8ef0b820cf7fb753110d623ff26b8f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref> *</type>
@@ -4000,7 +4066,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1191" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1191" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1211" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1211" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a5f9b10cdc0e05686066f3d8ef618f3aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref> *</type>
@@ -4030,7 +4096,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1205" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1205" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1225" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1225" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a0a19e65b20ce2d1003b093d401201c26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref> *</type>
@@ -4105,7 +4171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1223" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1223" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1243" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1243" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a79626d9b3ae7d9a0aaedcfc4b42b3aa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref> *</type>
@@ -4131,7 +4197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1231" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1231" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1251" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1251" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a719d54e4c8831382cf5738706fb26310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4149,7 +4215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1234" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1234" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1254" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1aec5d6a37d584ec712b0b6d3a566e0b4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4167,7 +4233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1237" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1237" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1257" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1257" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a2cd7fccda640bf13f84660e9e3ac70c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref> *</type>
@@ -4193,7 +4259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1244" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1244" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1264" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1264" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a98111ae21bbda7c454f3ca9c001a59a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4215,7 +4281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1250" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1270" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1270" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a9054f0a93c81b1f68ad51a781f411f87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4237,7 +4303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1254" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1274" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1274" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1ae6d5390a221726a59ef886a110592532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4259,7 +4325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1258" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1258" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1278" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1278" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a6ebd9e5205131737a84f24ee596fcc06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4281,7 +4347,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1262" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1262" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1282" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1282" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a1d08b471a979e75a73c58933d504f7dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4303,7 +4369,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1266" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1266" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1286" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a6d4f4b4d994885021d0ccdfe24c4ab37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4325,7 +4391,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1272" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1272" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1292" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1ac09a0f74c012d2c4dfedda53f00fa66a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4347,7 +4413,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1276" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1276" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1296" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1abbe3512870d71f2b3bde5f42c69094c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4369,7 +4435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1282" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1282" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1302" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1302" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a6c4ed7e0e80b59acf32299a2f9e3973c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4391,7 +4457,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1286" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1306" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1306" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a8bc89a966b488e24d75a50a8fe6d8c68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4413,7 +4479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1291" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1291" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1311" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1311" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a1550aafce0bb3a07124e371d5c007dfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4439,7 +4505,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1298" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1298" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1318" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a73390d368304460abfe63430198d6c77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4461,7 +4527,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1304" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1304" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1324" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1324" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1aedfe9d8592140d33340502ea7a446f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
@@ -4479,7 +4545,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1311" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1311" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1331" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1331" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a4197b93a6aa590e3939b841e4b12c72b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -4497,7 +4563,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1316" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1316" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1336" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1336" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1aad41cd7f0731fd761bef7fe0e4a4a3e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref> *</type>
@@ -4515,7 +4581,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1321" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1321" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1341" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1341" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a55ad10f8eb289adcefcb6165b3884536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -4533,7 +4599,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1326" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1326" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1346" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1346" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1ac49f9f2f4538cda3c2275b718d5a13de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
@@ -4551,7 +4617,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1331" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1331" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1351" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1351" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a3baac1cac71865886c7dff0c273f95ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
@@ -4569,7 +4635,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1336" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1336" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1356" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1356" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a6029fe03031142aa1fbdb531e1982693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
@@ -4587,7 +4653,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1341" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1341" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1361" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1361" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a4a87c79758bf32143a4f1c9a4a523c93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
@@ -4605,7 +4671,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1346" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1346" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1366" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1366" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1ad21add88e385664eafd5d9c02da0aa2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref> *</type>
@@ -4623,7 +4689,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1352" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1352" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1372" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1372" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a649b14e7bde0e98c944d1da67a748579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref> *</type>
@@ -4641,7 +4707,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1358" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1358" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1378" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1378" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRICP_8h_1a9cd10312ad72efcd82754cf809aee98f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
@@ -4661,7 +4727,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1364" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1364" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" line="1384" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h" declline="1384" declcolumn="23"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -5057,97 +5123,103 @@
 <codeline lineno="1089"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1096" refid="MRICP_8h_1aefdce1efb49a06325f1f0be84de90b5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRICP_8h_1aefdce1efb49a06325f1f0be84de90b5b" kindref="member">MR_ICPProperties_GetMutable_mutualClosest</ref>(<ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1097"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1100" refid="MRICP_8h_1a6ed25c78714027fdfe0fff972837bd7e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1a6ed25c78714027fdfe0fff972837bd7e" kindref="member">MR_ICPProperties_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="1101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1105" refid="MRICP_8h_1a83d15c244e2f6fc27f20b30c21d0cd2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1a83d15c244e2f6fc27f20b30c21d0cd2b" kindref="member">MR_ICPProperties_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="1106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1113" refid="MRICP_8h_1ad6b32495f7f0703e930fecd827f7cd5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1ad6b32495f7f0703e930fecd827f7cd5f" kindref="member">MR_ICPProperties_ConstructFrom</ref>(<ref refid="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56" kindref="member">MR_ICPMethod</ref><sp/>method,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>p2plAngleLimit,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>p2plScaleLimit,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cosThreshold,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distThresholdSq,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>farDistFactor,<sp/><ref refid="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747" kindref="member">MR_ICPMode</ref><sp/>icpMode,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>fixedRotationAxis,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iterLimit,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>badIterStopCount,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>exitVal,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mutualClosest);</highlight></codeline>
-<codeline lineno="1114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1117" refid="MRICP_8h_1a21663bd4794b9a556dfd1933ba8bc537" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1a21663bd4794b9a556dfd1933ba8bc537" kindref="member">MR_ICPProperties_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="1118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1121" refid="MRICP_8h_1ada04139c93c68fdf9fdd27c244602927" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1ada04139c93c68fdf9fdd27c244602927" kindref="member">MR_ICPProperties_OffsetMutablePtr</ref>(<ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="1122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1127" refid="MRICP_8h_1ad1e576ec4c8b90fcf378bebecf1d8071" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1ad1e576ec4c8b90fcf378bebecf1d8071" kindref="member">MR_ICPProperties_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="1128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1130" refid="MRICP_8h_1a854de83f80e5371d1980dc47c136410d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a854de83f80e5371d1980dc47c136410d" kindref="member">MR_ICPProperties_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1133" refid="MRICP_8h_1ac49bb14dcbcb43b010e62a2e5929abe2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ac49bb14dcbcb43b010e62a2e5929abe2" kindref="member">MR_ICPProperties_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1103" refid="MRICP_8h_1a525c10be2cb7129705516d0c18537034" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRICP_8h_1a525c10be2cb7129705516d0c18537034" kindref="member">MR_ICPProperties_Get_ignoreBdTgts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1109" refid="MRICP_8h_1a839df4605dc5c602b05f3ec7d72a12d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a839df4605dc5c602b05f3ec7d72a12d9" kindref="member">MR_ICPProperties_Set_ignoreBdTgts</ref>(<ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="1110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1116" refid="MRICP_8h_1a5ff5e869f21a913c156bcc01a188b58b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRICP_8h_1a5ff5e869f21a913c156bcc01a188b58b" kindref="member">MR_ICPProperties_GetMutable_ignoreBdTgts</ref>(<ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1120" refid="MRICP_8h_1a6ed25c78714027fdfe0fff972837bd7e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1a6ed25c78714027fdfe0fff972837bd7e" kindref="member">MR_ICPProperties_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="1121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1125" refid="MRICP_8h_1a83d15c244e2f6fc27f20b30c21d0cd2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1a83d15c244e2f6fc27f20b30c21d0cd2b" kindref="member">MR_ICPProperties_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="1126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1133" refid="MRICP_8h_1a2011b632855faeff4e6588dbca2c9b47" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1a2011b632855faeff4e6588dbca2c9b47" kindref="member">MR_ICPProperties_ConstructFrom</ref>(<ref refid="MRICPEnums_8h_1a5896b96169baef1f830507df21244a56" kindref="member">MR_ICPMethod</ref><sp/>method,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>p2plAngleLimit,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>p2plScaleLimit,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cosThreshold,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distThresholdSq,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>farDistFactor,<sp/><ref refid="MRICPEnums_8h_1a6073597978e971b8f3bd65e7a8bf2747" kindref="member">MR_ICPMode</ref><sp/>icpMode,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>fixedRotationAxis,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iterLimit,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>badIterStopCount,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>exitVal,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mutualClosest,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ignoreBdTgts);</highlight></codeline>
 <codeline lineno="1134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1141" refid="MRICP_8h_1abeb7021c3bc7a43069e4f495e31a338e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1abeb7021c3bc7a43069e4f495e31a338e" kindref="member">MR_ICPProperties_AssignFromAnother</ref>(<ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="1137" refid="MRICP_8h_1a21663bd4794b9a556dfd1933ba8bc537" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1a21663bd4794b9a556dfd1933ba8bc537" kindref="member">MR_ICPProperties_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1141" refid="MRICP_8h_1ada04139c93c68fdf9fdd27c244602927" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1ada04139c93c68fdf9fdd27c244602927" kindref="member">MR_ICPProperties_OffsetMutablePtr</ref>(<ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="1142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1146" refid="MRICP_8h_1a41e8ec0a973648e196bdddbcbe029a97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRICP_8h_1a41e8ec0a973648e196bdddbcbe029a97" kindref="member">MR_deactivateFarPairs</ref>(<ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*pairs,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistSq);</highlight></codeline>
-<codeline lineno="1147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1153" refid="MRICP_8h_1a0fe030c3a88d76afce77ff2ed20ff1fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a0fe030c3a88d76afce77ff2ed20ff1fb" kindref="member">MR_updatePointPairs</ref>(<ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*pairs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*src,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*tgt,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cosThreshold,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distThresholdSq,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mutualClosest);</highlight></codeline>
+<codeline lineno="1147" refid="MRICP_8h_1ad1e576ec4c8b90fcf378bebecf1d8071" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1ad1e576ec4c8b90fcf378bebecf1d8071" kindref="member">MR_ICPProperties_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="1148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1150" refid="MRICP_8h_1a854de83f80e5371d1980dc47c136410d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a854de83f80e5371d1980dc47c136410d" kindref="member">MR_ICPProperties_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1153" refid="MRICP_8h_1ac49bb14dcbcb43b010e62a2e5929abe2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ac49bb14dcbcb43b010e62a2e5929abe2" kindref="member">MR_ICPProperties_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1158" refid="MRICP_8h_1ae9a7fa9e0e9ba06eb664b2a7d20266e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1ae9a7fa9e0e9ba06eb664b2a7d20266e6" kindref="member">MR_ICP_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="1159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1162" refid="MRICP_8h_1a492e87c87baa650c93cf8411640fc154" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1a492e87c87baa650c93cf8411640fc154" kindref="member">MR_ICP_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="1163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1166" refid="MRICP_8h_1af2d3e9b70de11ac641acb9025db11704" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1af2d3e9b70de11ac641acb9025db11704" kindref="member">MR_ICP_OffsetMutablePtr</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1161" refid="MRICP_8h_1abeb7021c3bc7a43069e4f495e31a338e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1abeb7021c3bc7a43069e4f495e31a338e" kindref="member">MR_ICPProperties_AssignFromAnother</ref>(<ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="1162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1166" refid="MRICP_8h_1a41e8ec0a973648e196bdddbcbe029a97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRICP_8h_1a41e8ec0a973648e196bdddbcbe029a97" kindref="member">MR_deactivateFarPairs</ref>(<ref refid="MRICP_8h_1af68d1fd61d03ebb96110ae3f301b7648" kindref="member">MR_IPointPairs</ref><sp/>*pairs,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistSq);</highlight></codeline>
 <codeline lineno="1167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1191" refid="MRICP_8h_1af8ef0b820cf7fb753110d623ff26b8f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1af8ef0b820cf7fb753110d623ff26b8f4" kindref="member">MR_ICP_Construct_6</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeObjects_8h_1aef2e5b60c55f275988c9749f64cd52ac" kindref="member">MR_MeshOrPoints</ref><sp/>*flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeObjects_8h_1aef2e5b60c55f275988c9749f64cd52ac" kindref="member">MR_MeshOrPoints</ref><sp/>*ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*refXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*fltSamples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*refSamples);</highlight></codeline>
-<codeline lineno="1192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1205" refid="MRICP_8h_1a5f9b10cdc0e05686066f3d8ef618f3aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1a5f9b10cdc0e05686066f3d8ef618f3aa" kindref="member">MR_ICP_Construct_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*fltSamples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*refSamples);</highlight></codeline>
-<codeline lineno="1206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1223" refid="MRICP_8h_1a0a19e65b20ce2d1003b093d401201c26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1a0a19e65b20ce2d1003b093d401201c26" kindref="member">MR_ICP_Construct_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeObjects_8h_1aef2e5b60c55f275988c9749f64cd52ac" kindref="member">MR_MeshOrPoints</ref><sp/>*flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeObjects_8h_1aef2e5b60c55f275988c9749f64cd52ac" kindref="member">MR_MeshOrPoints</ref><sp/>*ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*refXf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize);</highlight></codeline>
-<codeline lineno="1224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1231" refid="MRICP_8h_1a79626d9b3ae7d9a0aaedcfc4b42b3aa4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1a79626d9b3ae7d9a0aaedcfc4b42b3aa4" kindref="member">MR_ICP_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*ref,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize);</highlight></codeline>
-<codeline lineno="1232"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1234" refid="MRICP_8h_1a719d54e4c8831382cf5738706fb26310" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a719d54e4c8831382cf5738706fb26310" kindref="member">MR_ICP_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1237" refid="MRICP_8h_1aec5d6a37d584ec712b0b6d3a566e0b4e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1aec5d6a37d584ec712b0b6d3a566e0b4e" kindref="member">MR_ICP_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1244" refid="MRICP_8h_1a2cd7fccda640bf13f84660e9e3ac70c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1a2cd7fccda640bf13f84660e9e3ac70c8" kindref="member">MR_ICP_AssignFromAnother</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="1245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1250" refid="MRICP_8h_1a98111ae21bbda7c454f3ca9c001a59a9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a98111ae21bbda7c454f3ca9c001a59a9" kindref="member">MR_ICP_setParams</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*prop);</highlight></codeline>
-<codeline lineno="1251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1254" refid="MRICP_8h_1a9054f0a93c81b1f68ad51a781f411f87" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a9054f0a93c81b1f68ad51a781f411f87" kindref="member">MR_ICP_setCosineLimit</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cos);</highlight></codeline>
+<codeline lineno="1173" refid="MRICP_8h_1a4eca5e877f4db2333282747f765e2ec9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a4eca5e877f4db2333282747f765e2ec9" kindref="member">MR_updatePointPairs</ref>(<ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*pairs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*src,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*tgt,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cosThreshold,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distThresholdSq,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>mutualClosest,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ignoreBdTgts);</highlight></codeline>
+<codeline lineno="1174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1178" refid="MRICP_8h_1ae9a7fa9e0e9ba06eb664b2a7d20266e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1ae9a7fa9e0e9ba06eb664b2a7d20266e6" kindref="member">MR_ICP_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="1179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1182" refid="MRICP_8h_1a492e87c87baa650c93cf8411640fc154" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1a492e87c87baa650c93cf8411640fc154" kindref="member">MR_ICP_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1186" refid="MRICP_8h_1af2d3e9b70de11ac641acb9025db11704" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1af2d3e9b70de11ac641acb9025db11704" kindref="member">MR_ICP_OffsetMutablePtr</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1211" refid="MRICP_8h_1af8ef0b820cf7fb753110d623ff26b8f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1af8ef0b820cf7fb753110d623ff26b8f4" kindref="member">MR_ICP_Construct_6</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeObjects_8h_1aef2e5b60c55f275988c9749f64cd52ac" kindref="member">MR_MeshOrPoints</ref><sp/>*flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeObjects_8h_1aef2e5b60c55f275988c9749f64cd52ac" kindref="member">MR_MeshOrPoints</ref><sp/>*ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*refXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*fltSamples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*refSamples);</highlight></codeline>
+<codeline lineno="1212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1225" refid="MRICP_8h_1a5f9b10cdc0e05686066f3d8ef618f3aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1a5f9b10cdc0e05686066f3d8ef618f3aa" kindref="member">MR_ICP_Construct_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*fltSamples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*refSamples);</highlight></codeline>
+<codeline lineno="1226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1243" refid="MRICP_8h_1a0a19e65b20ce2d1003b093d401201c26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1a0a19e65b20ce2d1003b093d401201c26" kindref="member">MR_ICP_Construct_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeObjects_8h_1aef2e5b60c55f275988c9749f64cd52ac" kindref="member">MR_MeshOrPoints</ref><sp/>*flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeObjects_8h_1aef2e5b60c55f275988c9749f64cd52ac" kindref="member">MR_MeshOrPoints</ref><sp/>*ref,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*refXf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize);</highlight></codeline>
+<codeline lineno="1244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1251" refid="MRICP_8h_1a79626d9b3ae7d9a0aaedcfc4b42b3aa4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1a79626d9b3ae7d9a0aaedcfc4b42b3aa4" kindref="member">MR_ICP_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*flt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ad03951b131de611b1d9afcdace15f61d" kindref="member">MR_MeshOrPointsXf</ref><sp/>*ref,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize);</highlight></codeline>
+<codeline lineno="1252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1254" refid="MRICP_8h_1a719d54e4c8831382cf5738706fb26310" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a719d54e4c8831382cf5738706fb26310" kindref="member">MR_ICP_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1255"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1258" refid="MRICP_8h_1ae6d5390a221726a59ef886a110592532" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ae6d5390a221726a59ef886a110592532" kindref="member">MR_ICP_setDistanceLimit</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>dist);</highlight></codeline>
-<codeline lineno="1259"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1262" refid="MRICP_8h_1a6ebd9e5205131737a84f24ee596fcc06" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a6ebd9e5205131737a84f24ee596fcc06" kindref="member">MR_ICP_setBadIterCount</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter);</highlight></codeline>
-<codeline lineno="1263"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1266" refid="MRICP_8h_1a1d08b471a979e75a73c58933d504f7dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a1d08b471a979e75a73c58933d504f7dc" kindref="member">MR_ICP_setFarDistFactor</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>factor);</highlight></codeline>
-<codeline lineno="1267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1272" refid="MRICP_8h_1a6d4f4b4d994885021d0ccdfe24c4ab37" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a6d4f4b4d994885021d0ccdfe24c4ab37" kindref="member">MR_ICP_setFltSamples</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*fltSamples);</highlight></codeline>
-<codeline lineno="1273"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1276" refid="MRICP_8h_1ac09a0f74c012d2c4dfedda53f00fa66a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ac09a0f74c012d2c4dfedda53f00fa66a" kindref="member">MR_ICP_sampleFltPoints</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize);</highlight></codeline>
-<codeline lineno="1277"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1282" refid="MRICP_8h_1abbe3512870d71f2b3bde5f42c69094c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1abbe3512870d71f2b3bde5f42c69094c0" kindref="member">MR_ICP_setRefSamples</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*refSamples);</highlight></codeline>
+<codeline lineno="1257" refid="MRICP_8h_1aec5d6a37d584ec712b0b6d3a566e0b4e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1aec5d6a37d584ec712b0b6d3a566e0b4e" kindref="member">MR_ICP_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1264" refid="MRICP_8h_1a2cd7fccda640bf13f84660e9e3ac70c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*<ref refid="MRICP_8h_1a2cd7fccda640bf13f84660e9e3ac70c8" kindref="member">MR_ICP_AssignFromAnother</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="1265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1270" refid="MRICP_8h_1a98111ae21bbda7c454f3ca9c001a59a9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a98111ae21bbda7c454f3ca9c001a59a9" kindref="member">MR_ICP_setParams</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*prop);</highlight></codeline>
+<codeline lineno="1271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1274" refid="MRICP_8h_1a9054f0a93c81b1f68ad51a781f411f87" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a9054f0a93c81b1f68ad51a781f411f87" kindref="member">MR_ICP_setCosineLimit</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cos);</highlight></codeline>
+<codeline lineno="1275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1278" refid="MRICP_8h_1ae6d5390a221726a59ef886a110592532" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ae6d5390a221726a59ef886a110592532" kindref="member">MR_ICP_setDistanceLimit</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>dist);</highlight></codeline>
+<codeline lineno="1279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1282" refid="MRICP_8h_1a6ebd9e5205131737a84f24ee596fcc06" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a6ebd9e5205131737a84f24ee596fcc06" kindref="member">MR_ICP_setBadIterCount</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iter);</highlight></codeline>
 <codeline lineno="1283"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1286" refid="MRICP_8h_1a6c4ed7e0e80b59acf32299a2f9e3973c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a6c4ed7e0e80b59acf32299a2f9e3973c" kindref="member">MR_ICP_sampleRefPoints</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize);</highlight></codeline>
+<codeline lineno="1286" refid="MRICP_8h_1a1d08b471a979e75a73c58933d504f7dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a1d08b471a979e75a73c58933d504f7dc" kindref="member">MR_ICP_setFarDistFactor</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>factor);</highlight></codeline>
 <codeline lineno="1287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1291" refid="MRICP_8h_1a8bc89a966b488e24d75a50a8fe6d8c68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a8bc89a966b488e24d75a50a8fe6d8c68" kindref="member">MR_ICP_samplePoints</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize);</highlight></codeline>
-<codeline lineno="1292"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1298" refid="MRICP_8h_1a1550aafce0bb3a07124e371d5c007dfc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a1550aafce0bb3a07124e371d5c007dfc" kindref="member">MR_ICP_setXfs</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*refXf);</highlight></codeline>
-<codeline lineno="1299"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1304" refid="MRICP_8h_1a73390d368304460abfe63430198d6c77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a73390d368304460abfe63430198d6c77" kindref="member">MR_ICP_setFloatXf</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*fltXf);</highlight></codeline>
-<codeline lineno="1305"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1311" refid="MRICP_8h_1aedfe9d8592140d33340502ea7a446f15" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRICP_8h_1aedfe9d8592140d33340502ea7a446f15" kindref="member">MR_ICP_autoSelectFloatXf</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1292" refid="MRICP_8h_1a6d4f4b4d994885021d0ccdfe24c4ab37" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a6d4f4b4d994885021d0ccdfe24c4ab37" kindref="member">MR_ICP_setFltSamples</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*fltSamples);</highlight></codeline>
+<codeline lineno="1293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1296" refid="MRICP_8h_1ac09a0f74c012d2c4dfedda53f00fa66a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ac09a0f74c012d2c4dfedda53f00fa66a" kindref="member">MR_ICP_sampleFltPoints</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize);</highlight></codeline>
+<codeline lineno="1297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1302" refid="MRICP_8h_1abbe3512870d71f2b3bde5f42c69094c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1abbe3512870d71f2b3bde5f42c69094c0" kindref="member">MR_ICP_setRefSamples</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*refSamples);</highlight></codeline>
+<codeline lineno="1303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1306" refid="MRICP_8h_1a6c4ed7e0e80b59acf32299a2f9e3973c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a6c4ed7e0e80b59acf32299a2f9e3973c" kindref="member">MR_ICP_sampleRefPoints</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize);</highlight></codeline>
+<codeline lineno="1307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1311" refid="MRICP_8h_1a8bc89a966b488e24d75a50a8fe6d8c68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a8bc89a966b488e24d75a50a8fe6d8c68" kindref="member">MR_ICP_samplePoints</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>samplingVoxelSize);</highlight></codeline>
 <codeline lineno="1312"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1316" refid="MRICP_8h_1a4197b93a6aa590e3939b841e4b12c72b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a4197b93a6aa590e3939b841e4b12c72b" kindref="member">MR_ICP_updatePointPairs</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1317"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1321" refid="MRICP_8h_1aad41cd7f0731fd761bef7fe0e4a4a3e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1aad41cd7f0731fd761bef7fe0e4a4a3e5" kindref="member">MR_ICP_getParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1322"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1326" refid="MRICP_8h_1a55ad10f8eb289adcefcb6165b3884536" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRICP_8h_1a55ad10f8eb289adcefcb6165b3884536" kindref="member">MR_ICP_getStatusInfo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1327"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1331" refid="MRICP_8h_1ac49f9f2f4538cda3c2275b718d5a13de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRICP_8h_1ac49f9f2f4538cda3c2275b718d5a13de" kindref="member">MR_ICP_getNumSamples</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1318" refid="MRICP_8h_1a1550aafce0bb3a07124e371d5c007dfc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a1550aafce0bb3a07124e371d5c007dfc" kindref="member">MR_ICP_setXfs</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*fltXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*refXf);</highlight></codeline>
+<codeline lineno="1319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1324" refid="MRICP_8h_1a73390d368304460abfe63430198d6c77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a73390d368304460abfe63430198d6c77" kindref="member">MR_ICP_setFloatXf</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*fltXf);</highlight></codeline>
+<codeline lineno="1325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1331" refid="MRICP_8h_1aedfe9d8592140d33340502ea7a446f15" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRICP_8h_1aedfe9d8592140d33340502ea7a446f15" kindref="member">MR_ICP_autoSelectFloatXf</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1332"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1336" refid="MRICP_8h_1a3baac1cac71865886c7dff0c273f95ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRICP_8h_1a3baac1cac71865886c7dff0c273f95ff" kindref="member">MR_ICP_getNumActivePairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1336" refid="MRICP_8h_1a4197b93a6aa590e3939b841e4b12c72b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a4197b93a6aa590e3939b841e4b12c72b" kindref="member">MR_ICP_updatePointPairs</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1337"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1341" refid="MRICP_8h_1a6029fe03031142aa1fbdb531e1982693" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a6029fe03031142aa1fbdb531e1982693" kindref="member">MR_ICP_getMeanSqDistToPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1341" refid="MRICP_8h_1aad41cd7f0731fd761bef7fe0e4a4a3e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1af4db36c3c358c10eb3421215dfaf0cab" kindref="member">MR_ICPProperties</ref><sp/>*<ref refid="MRICP_8h_1aad41cd7f0731fd761bef7fe0e4a4a3e5" kindref="member">MR_ICP_getParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1342"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1346" refid="MRICP_8h_1a4a87c79758bf32143a4f1c9a4a523c93" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a4a87c79758bf32143a4f1c9a4a523c93" kindref="member">MR_ICP_getMeanSqDistToPlane</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1346" refid="MRICP_8h_1a55ad10f8eb289adcefcb6165b3884536" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRICP_8h_1a55ad10f8eb289adcefcb6165b3884536" kindref="member">MR_ICP_getStatusInfo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1347"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1352" refid="MRICP_8h_1ad21add88e385664eafd5d9c02da0aa2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*<ref refid="MRICP_8h_1ad21add88e385664eafd5d9c02da0aa2c" kindref="member">MR_ICP_getFlt2RefPairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1353"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1358" refid="MRICP_8h_1a649b14e7bde0e98c944d1da67a748579" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*<ref refid="MRICP_8h_1a649b14e7bde0e98c944d1da67a748579" kindref="member">MR_ICP_getRef2FltPairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1359"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1364" refid="MRICP_8h_1a9cd10312ad72efcd82754cf809aee98f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRICP_8h_1a9cd10312ad72efcd82754cf809aee98f" kindref="member">MR_ICP_calculateTransformation</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1365"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1366"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1367"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1368"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="1351" refid="MRICP_8h_1ac49f9f2f4538cda3c2275b718d5a13de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRICP_8h_1ac49f9f2f4538cda3c2275b718d5a13de" kindref="member">MR_ICP_getNumSamples</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1356" refid="MRICP_8h_1a3baac1cac71865886c7dff0c273f95ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRICP_8h_1a3baac1cac71865886c7dff0c273f95ff" kindref="member">MR_ICP_getNumActivePairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1361" refid="MRICP_8h_1a6029fe03031142aa1fbdb531e1982693" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a6029fe03031142aa1fbdb531e1982693" kindref="member">MR_ICP_getMeanSqDistToPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1362"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1366" refid="MRICP_8h_1a4a87c79758bf32143a4f1c9a4a523c93" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a4a87c79758bf32143a4f1c9a4a523c93" kindref="member">MR_ICP_getMeanSqDistToPlane</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1372" refid="MRICP_8h_1ad21add88e385664eafd5d9c02da0aa2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*<ref refid="MRICP_8h_1ad21add88e385664eafd5d9c02da0aa2c" kindref="member">MR_ICP_getFlt2RefPairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1373"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1378" refid="MRICP_8h_1a649b14e7bde0e98c944d1da67a748579" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1ace64b644cd16f032a1c9c962b32eb9ba" kindref="member">MR_PointPairs</ref><sp/>*<ref refid="MRICP_8h_1a649b14e7bde0e98c944d1da67a748579" kindref="member">MR_ICP_getRef2FltPairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1379"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1384" refid="MRICP_8h_1a9cd10312ad72efcd82754cf809aee98f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRICP_8h_1a9cd10312ad72efcd82754cf809aee98f" kindref="member">MR_ICP_calculateTransformation</ref>(<ref refid="MRICP_8h_1a68b13ed89b0d944050c3eac8f0caea9b" kindref="member">MR_ICP</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1385"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1386"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1387"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1388"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRICP.h"/>
   </compounddef>
