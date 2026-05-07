@@ -12,5 +12,5 @@ var MRBooleanOperation_8h =
       [ "MR::BooleanOperation::DifferenceAB", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbda676747ace506f0a560e1d99f5da1ab2a", null ],
       [ "MR::BooleanOperation::Count", "group__BooleanGroup.html#gga9e84a8cc429efdf5cc108ca1c6aaccbdae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
-    [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga1c924334076a710ae361fbdab680d498", null ]
+    [ "MR::doBooleanOperation", "group__BooleanGroup.html#ga17c23a55f3d3172ff25ce29e501a75e1", null ]
 ];

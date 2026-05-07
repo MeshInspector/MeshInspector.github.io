@@ -6671,10 +6671,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="18149" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="18149" bodyend="18154"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a1da547647a293128d1e8b7f27e34ffbf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a18646c5a3033d63a63adbbff429da701" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
         <definition>static unsafe MR.Mesh MR.doBooleanOperation</definition>
-        <argsstring>(MR.Misc._Moved&lt; MR.Mesh &gt; meshACut, MR.Misc._Moved&lt; MR.Mesh &gt; meshBCut, MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMREdgeId &gt; cutEdgesA, MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMREdgeId &gt; cutEdgesB, MR.BooleanOperation operation, MR.AffineXf3f? rigidB2A=null, MR.BooleanResultMapper? mapper=null, bool? mergeAllNonIntersectingComponents=null, MR.Const_BooleanInternalParameters? intParams=null)</argsstring>
+        <argsstring>(MR.Misc._Moved&lt; MR.Mesh &gt; meshACut, MR.Misc._Moved&lt; MR.Mesh &gt; meshBCut, MR.Std.Const_Vector_StdVectorMREdgeId cutEdgesA, MR.Std.Const_Vector_StdVectorMREdgeId cutEdgesB, MR.BooleanOperation operation, MR.AffineXf3f? rigidB2A=null, MR.BooleanResultMapper? mapper=null, bool? mergeAllNonIntersectingComponents=null, MR.Const_BooleanInternalParameters? intParams=null)</argsstring>
         <name>doBooleanOperation</name>
         <qualifiedname>MR.doBooleanOperation</qualifiedname>
         <param>
@@ -6686,11 +6686,11 @@
           <declname>meshBCut</declname>
         </param>
         <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMREdgeId &gt;</type>
+          <type>MR.Std.Const_Vector_StdVectorMREdgeId</type>
           <declname>cutEdgesA</declname>
         </param>
         <param>
-          <type>MR.Misc._Moved&lt; MR.Std.Vector_StdVectorMREdgeId &gt;</type>
+          <type>MR.Std.Const_Vector_StdVectorMREdgeId</type>
           <declname>cutEdgesB</declname>
         </param>
         <param>
@@ -6723,7 +6723,7 @@
         <detaileddescription>
 <para><simplesect kind="return"><para>mesh in space of meshA or error. </para>
 </simplesect>
-<simplesect kind="note"><para>: actually this function is meant to be internal, use "boolean" instead Generated from function <computeroutput><ref refid="classMR_1a1da547647a293128d1e8b7f27e34ffbf" kindref="member">MR.doBooleanOperation</ref></computeroutput>. Parameter <computeroutput>mergeAllNonIntersectingComponents</computeroutput> defaults to <computeroutput>false</computeroutput>. Parameter <computeroutput>intParams</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+<simplesect kind="note"><para>: actually this function is meant to be internal, use "boolean" instead Generated from function <computeroutput><ref refid="classMR_1a18646c5a3033d63a63adbbff429da701" kindref="member">MR.doBooleanOperation</ref></computeroutput>. Parameter <computeroutput>mergeAllNonIntersectingComponents</computeroutput> defaults to <computeroutput>false</computeroutput>. Parameter <computeroutput>intParams</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
 </simplesect>
 </para>
         </detaileddescription>
@@ -53135,7 +53135,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a11bc7796ac79fa422678ffd90f41d3c3" prot="public" virt="non-virtual"><scope>MR</scope><name>div</name></member>
       <member refid="classMR_1a4f6d98103bb12285cdc1e599ad250ddb" prot="public" virt="non-virtual"><scope>MR</scope><name>divideMeshWithPlane</name></member>
       <member refid="classMR_1ad1fd67c79135fb1e8698c76a510fd471" prot="public" virt="non-virtual"><scope>MR</scope><name>divideWithPlane</name></member>
-      <member refid="classMR_1a1da547647a293128d1e8b7f27e34ffbf" prot="public" virt="non-virtual"><scope>MR</scope><name>doBooleanOperation</name></member>
+      <member refid="classMR_1a18646c5a3033d63a63adbbff429da701" prot="public" virt="non-virtual"><scope>MR</scope><name>doBooleanOperation</name></member>
       <member refid="classMR_1a13bfa95a32135f88fd6c0fc9ab95c6ab" prot="public" virt="non-virtual"><scope>MR</scope><name>doSegmentLineIntersect</name></member>
       <member refid="classMR_1af80ed0ea9446e40afff1dbf19945959d" prot="public" virt="non-virtual"><scope>MR</scope><name>doSegmentLineIntersect</name></member>
       <member refid="classMR_1a181d8917db911e46d7f89e3e9a1b51e3" prot="public" virt="non-virtual"><scope>MR</scope><name>doSegmentSegmentIntersect</name></member>
