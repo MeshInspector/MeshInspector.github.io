@@ -292,7 +292,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Render the UI. This is repeated for each viewport. Here you can either render immediately, or insert a task into <span class="tt">params.tasks</span>, which get Z-sorted. </p>
 <ul>
-<li><span class="tt">params</span> will remain alive as long as the tasks are used.</li>
+<li><span class="tt">params_</span> will remain alive as long as the tasks are used.</li>
 <li>You'll have at most one living task at a time, so you can write a non-owning pointer to an internal task. Generated from method <span class="tt"><a class="el" href="#a7232b508c4785a0822786a82be485d32" title="Render the UI. This is repeated for each viewport. Here you can either render immediately,...">MR.IRenderObject.renderUi</a></span>. </li>
 </ul>
 

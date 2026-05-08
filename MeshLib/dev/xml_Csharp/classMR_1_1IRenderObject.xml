@@ -100,7 +100,7 @@
         </briefdescription>
         <detaileddescription>
 <para><itemizedlist>
-<listitem><para><computeroutput>params</computeroutput> will remain alive as long as the tasks are used.</para>
+<listitem><para><computeroutput>params_</computeroutput> will remain alive as long as the tasks are used.</para>
 </listitem><listitem><para>You'll have at most one living task at a time, so you can write a non-owning pointer to an internal task. Generated from method <computeroutput><ref refid="classMR_1_1IRenderObject_1a7232b508c4785a0822786a82be485d32" kindref="member">MR.IRenderObject.renderUi</ref></computeroutput>. </para>
 </listitem></itemizedlist>
 </para>
