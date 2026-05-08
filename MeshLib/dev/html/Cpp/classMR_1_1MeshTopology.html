@@ -138,6 +138,7 @@ $(function(){initNavTree('classMR_1_1MeshTopology.html','','classMR_1_1MeshTopol
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classMR_1_1MeshTopology-members.html">List of all members</a>  </div>
@@ -147,6 +148,10 @@ $(function(){initNavTree('classMR_1_1MeshTopology.html','','classMR_1_1MeshTopol
 
 <p><code>#include &lt;<a class="el" href="MRMeshTopology_8h_source.html">MRMesh/MRMeshTopology.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:VacantElements" id="r_VacantElements"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshTopology_1_1VacantElements.html">VacantElements</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ga107a70561c7abcc661b7ada8910fb701" id="r_ga107a70561c7abcc661b7ada8910fb701"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga107a70561c7abcc661b7ada8910fb701">makeEdge</a> ()</td></tr>
@@ -285,8 +290,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:gab2810fe9c6b38f4a0926069ab58120ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates new face-id not associated with any edge yet  <br /></td></tr>
 <tr class="memitem:ga9cec8fcb3700270debd8b9cdc9fa6cf7" id="r_ga9cec8fcb3700270debd8b9cdc9fa6cf7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9cec8fcb3700270debd8b9cdc9fa6cf7">deleteFace</a> (FaceId f, const UndirectedEdgeBitSet *keepEdges=nullptr)</td></tr>
 <tr class="memdesc:ga9cec8fcb3700270debd8b9cdc9fa6cf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes the face, also deletes its edges and vertices if they were not shared by other faces and not in  <br /></td></tr>
-<tr class="memitem:ga174947af8d66dad68b06697175088d25" id="r_ga174947af8d66dad68b06697175088d25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga174947af8d66dad68b06697175088d25">deleteFaces</a> (const FaceBitSet &amp;fs, const UndirectedEdgeBitSet *keepEdges=nullptr)</td></tr>
-<tr class="memdesc:ga174947af8d66dad68b06697175088d25"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes multiple given faces by calling <a class="el" href="group__GeneralGroup.html#ga9cec8fcb3700270debd8b9cdc9fa6cf7">deleteFace</a> for each  <br /></td></tr>
+<tr class="memitem:ga381fd334af76605898ec97a371babf04" id="r_ga381fd334af76605898ec97a371babf04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshTopology_1_1VacantElements.html">VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga381fd334af76605898ec97a371babf04">deleteFaces</a> (const FaceBitSet &amp;fs, const UndirectedEdgeBitSet *keepEdges=nullptr)</td></tr>
 <tr class="memitem:ga2a22972e251180aa6466d2ea6c6f6b80" id="r_ga2a22972e251180aa6466d2ea6c6f6b80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2a22972e251180aa6466d2ea6c6f6b80">faceResize</a> (size_t newSize)</td></tr>
 <tr class="memdesc:ga2a22972e251180aa6466d2ea6c6f6b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of faces vector  <br /></td></tr>
 <tr class="memitem:ga4d6063b2fb524b629fed580f2c958273" id="r_ga4d6063b2fb524b629fed580f2c958273"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4d6063b2fb524b629fed580f2c958273">faceResizeWithReserve</a> (size_t newSize)</td></tr>

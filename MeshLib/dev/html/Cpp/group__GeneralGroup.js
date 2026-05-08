@@ -2663,7 +2663,7 @@ var group__GeneralGroup =
       [ "computeNotLoneUndirectedEdges", "group__GeneralGroup.html#ga9b0965c616ba1372dc30a0cfc25e2459", null ],
       [ "computeValidsFromEdges", "group__GeneralGroup.html#ga2125e27e8dfe29a6b457ec6ed685539c", null ],
       [ "deleteFace", "group__GeneralGroup.html#ga9cec8fcb3700270debd8b9cdc9fa6cf7", null ],
-      [ "deleteFaces", "group__GeneralGroup.html#ga174947af8d66dad68b06697175088d25", null ],
+      [ "deleteFaces", "group__GeneralGroup.html#ga381fd334af76605898ec97a371babf04", null ],
       [ "dest", "group__GeneralGroup.html#ga4249f7a97c745af922214ed2ca58f20d", null ],
       [ "edgeCapacity", "group__GeneralGroup.html#ga93a7e7526986ddd2fe8f517c9dffc577", null ],
       [ "edgePerFace", "group__GeneralGroup.html#gadf1bd2c727b615b99908a7a3d4464bee", null ],
@@ -2789,6 +2789,11 @@ var group__GeneralGroup =
       [ "vertSize", "group__GeneralGroup.html#ga2b16ab4e052fe4ad4ff4a7dd1ac4c01f", null ],
       [ "write", "group__GeneralGroup.html#ga81f80fe1150711ff7445416be04b9133", null ],
       [ "MeshTopologyDiff", "group__GeneralGroup.html#gac9dd8ac8bb48edc727dfda0f73d714da", null ]
+    ] ],
+    [ "MR::MeshTopology::VacantElements", "structMR_1_1MeshTopology_1_1VacantElements.html", [
+      [ "edges", "group__GeneralGroup.html#ga156c91f0ca107999b2b1753f6892b72f", null ],
+      [ "faces", "group__GeneralGroup.html#ga52f3f0b5f605f550668b3962223b85cf", null ],
+      [ "verts", "group__GeneralGroup.html#ga883f8677ed28738a74c5678d84c8615d", null ]
     ] ],
     [ "MR::MeshTopologyDiff", "classMR_1_1MeshTopologyDiff.html", [
       [ "MeshTopologyDiff", "group__GeneralGroup.html#gaf1195b4bb18db9e8ca21e92db9139406", null ],
@@ -11193,7 +11198,7 @@ var group__GeneralGroup =
     [ "MR::PolylineTopology::deleteEdge", "group__GeneralGroup.html#gaec04d4bb4ea6ed357f7675c276743da0", null ],
     [ "MR::PolylineTopology::deleteEdges", "group__GeneralGroup.html#ga0776a64738fee7a5546be7c982006fcd", null ],
     [ "MR::MeshTopology::deleteFace", "group__GeneralGroup.html#ga9cec8fcb3700270debd8b9cdc9fa6cf7", null ],
-    [ "MR::MeshTopology::deleteFaces", "group__GeneralGroup.html#ga174947af8d66dad68b06697175088d25", null ],
+    [ "MR::MeshTopology::deleteFaces", "group__GeneralGroup.html#ga381fd334af76605898ec97a371babf04", null ],
     [ "MR::RibbonSchemaHolder::delItem", "group__GeneralGroup.html#gaec21b4b9459943a6f732a10e1dfecd2a", null ],
     [ "MR::delRegionKeepBd", "group__GeneralGroup.html#ga9a3ca5fbd5ec0dba1668bc17602b04e1", null ],
     [ "MR::delRegionKeepBd", "group__GeneralGroup.html#ga12fdc014447563e6a694a7f9bae39a7e", null ],
@@ -16735,6 +16740,7 @@ var group__GeneralGroup =
     [ "MR::HoleEdgePoint::edgePoint", "group__GeneralGroup.html#gae793addf9016abcd83646bb9e2243142", null ],
     [ "Edges", "group__GeneralGroup.html#ga29d14b75d26970bc256e90bf11c3f0e5", null ],
     [ "MR::MeshLoadSettings::edges", "group__GeneralGroup.html#ga49a42dcc4e94c7c1824987b168d150b9", null ],
+    [ "MR::MeshTopology::VacantElements::edges", "group__GeneralGroup.html#ga156c91f0ca107999b2b1753f6892b72f", null ],
     [ "MR::PlyLoadParams::edges", "group__GeneralGroup.html#gae8303df7b41e4693e1bc02050bc121ca", null ],
     [ "MR::RenderMeshObject::edgesArrayObjId_", "group__GeneralGroup.html#ga12b1a94d2b98548e47229d4213609b1f", null ],
     [ "MR::ObjectMeshHolder::edgesColor_", "group__GeneralGroup.html#gafae46ed97209f2812a1d201e7005e7ba", null ],
@@ -16807,6 +16813,7 @@ var group__GeneralGroup =
     [ "MR::RenderMeshObject::faceNormalsTextureSize_", "group__GeneralGroup.html#gaf277e985bb5c295945722ce8b6dbef7f", null ],
     [ "MR::RefineParameters::faceRegion", "group__GeneralGroup.html#gac994e7450108ddf9d7a3e4a5973de92e", null ],
     [ "Faces", "group__GeneralGroup.html#ga157b3a6855654482f9a6ab32e8698fae", null ],
+    [ "MR::MeshTopology::VacantElements::faces", "group__GeneralGroup.html#ga52f3f0b5f605f550668b3962223b85cf", null ],
     [ "MR::ObjectMeshHolder::faceSelectionChangedSignal", "group__GeneralGroup.html#ga48c0b6cc10d1a9e2b625d37d6c982ebd", null ],
     [ "MR::ObjectMeshHolder::faceSelectionColor_", "group__GeneralGroup.html#ga03a8c271c0681ce20d9510255ef66d78", null ],
     [ "MR::RenderMeshObject::faceSelectionTex_", "group__GeneralGroup.html#ga5c61b0a36314bb6fd4e2c60cfc2f8447", null ],
@@ -18223,6 +18230,7 @@ var group__GeneralGroup =
     [ "MR::RenderMeshObject::vertPosSize_", "group__GeneralGroup.html#gad8c179bd9f2914459146986ba590f4c2", null ],
     [ "MR::ReduceTotalAngleParams::vertRegion", "group__GeneralGroup.html#ga4026047e5b2606e85f6b474de3b015e3", null ],
     [ "MR::RefineParameters::vertRegion", "group__GeneralGroup.html#ga528671040882a5d5982efd35a695f752", null ],
+    [ "MR::MeshTopology::VacantElements::verts", "group__GeneralGroup.html#ga883f8677ed28738a74c5678d84c8615d", null ],
     [ "MR::UnorientedTriangle::verts", "group__GeneralGroup.html#ga6dc0b9d338593fc4fd8715ed4e11b9f8", null ],
     [ "MR::ObjectLinesHolder::vertsColorMap_", "group__GeneralGroup.html#gaebf8fd3ebbe9baca5e1890a03da63db7", null ],
     [ "MR::ObjectPointsHolder::vertsColorMap_", "group__GeneralGroup.html#ga3bea7e24940446fdc81e38da2f8db14c", null ],

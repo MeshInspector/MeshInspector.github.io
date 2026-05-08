@@ -6,6 +6,8 @@
     <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
     <basecompoundref prot="public" virt="non-virtual">System.IEquatable</basecompoundref>
     <derivedcompoundref refid="classMR_1_1MeshTopology" prot="public" virt="non-virtual">MR.MeshTopology</derivedcompoundref>
+    <innerclass refid="classMR_1_1Const__MeshTopology_1_1Const__VacantElements" prot="public">MR::Const_MeshTopology::Const_VacantElements</innerclass>
+    <innerclass refid="classMR_1_1Const__MeshTopology_1_1VacantElements" prot="public">MR::Const_MeshTopology::VacantElements</innerclass>
     <sectiondef kind="protected-func">
       <memberdef kind="function" id="classMR_1_1Const__MeshTopology_1ab7499b82290180c6f890714cddf92cc1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>unsafe void</type>
@@ -2053,7 +2055,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1176" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1176" bodyend="1181"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1455" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1455" bodyend="1460"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__MeshTopology_1a8394a832fc8e775fb531d78de4581076" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override bool</type>
@@ -2071,7 +2073,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1183" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1183" bodyend="1190"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1462" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1462" bodyend="1469"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -2214,7 +2216,7 @@
         <label>System.IEquatable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="9" bodyend="1191"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="9" bodyend="1470"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__MeshTopology_1a39d047536b4bb71ab2fc2c28948b24bf" prot="public" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>bdEdgeSameLeft</name></member>
       <member refid="classMR_1_1Const__MeshTopology_1a46cc2d384062deff7ef173e3dac84033" prot="public" virt="non-virtual"><scope>MR::Const_MeshTopology</scope><name>bdEdgeSameOrigin</name></member>

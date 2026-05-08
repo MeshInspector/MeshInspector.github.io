@@ -195,8 +195,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0cfa07d34a5b833db39b37d46e9ca042"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates new face-id not associated with any edge yet Generated from method <span class="tt"><a class="el" href="#a0cfa07d34a5b833db39b37d46e9ca042" title="creates new face-id not associated with any edge yet Generated from method MR.MeshTopology....">MR.MeshTopology.addFaceId</a></span>.  <br /></td></tr>
 <tr class="memitem:a02ab985393952c324537391d3a95b34b" id="r_a02ab985393952c324537391d3a95b34b"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02ab985393952c324537391d3a95b34b">deleteFace</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> f, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? keepEdges=null)</td></tr>
 <tr class="memdesc:a02ab985393952c324537391d3a95b34b"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes the face, also deletes its edges and vertices if they were not shared by other faces and not in  <br /></td></tr>
-<tr class="memitem:a877289bbfc2c5c17342785bfccba71f5" id="r_a877289bbfc2c5c17342785bfccba71f5"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a877289bbfc2c5c17342785bfccba71f5">deleteFaces</a> (<a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> fs, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? keepEdges=null)</td></tr>
-<tr class="memdesc:a877289bbfc2c5c17342785bfccba71f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes multiple given faces by calling <a class="el" href="#a02ab985393952c324537391d3a95b34b">deleteFace</a> for each Generated from method <span class="tt"><a class="el" href="#a877289bbfc2c5c17342785bfccba71f5" title="deletes multiple given faces by calling deleteFace for each Generated from method MR....">MR.MeshTopology.deleteFaces</a></span>.  <br /></td></tr>
+<tr class="memitem:a4c87f85aef48d725a93d2b7422e4274e" id="r_a4c87f85aef48d725a93d2b7422e4274e"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__MeshTopology_1_1VacantElements.html">MR.MeshTopology.VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c87f85aef48d725a93d2b7422e4274e">deleteFaces</a> (<a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> fs, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? keepEdges=null)</td></tr>
+<tr class="memdesc:a4c87f85aef48d725a93d2b7422e4274e"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only deleted faces and no edges from  <br /></td></tr>
 <tr class="memitem:af216f8f557054e815ff87e985d4a6cda" id="r_af216f8f557054e815ff87e985d4a6cda"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af216f8f557054e815ff87e985d4a6cda">faceResize</a> (ulong newSize)</td></tr>
 <tr class="memdesc:af216f8f557054e815ff87e985d4a6cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of faces vector Generated from method <span class="tt"><a class="el" href="#af216f8f557054e815ff87e985d4a6cda" title="explicitly increases the size of faces vector Generated from method MR.MeshTopology....">MR.MeshTopology.faceResize</a></span>.  <br /></td></tr>
 <tr class="memitem:a432a0837900bf35ae5232e5e5dbd7800" id="r_a432a0837900bf35ae5232e5e5dbd7800"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a432a0837900bf35ae5232e5e5dbd7800">faceResizeWithReserve</a> (ulong newSize)</td></tr>
@@ -1002,8 +1002,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a877289bbfc2c5c17342785bfccba71f5" name="a877289bbfc2c5c17342785bfccba71f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a877289bbfc2c5c17342785bfccba71f5">&#9670;&#160;</a></span>deleteFaces()</h2>
+<a id="a4c87f85aef48d725a93d2b7422e4274e" name="a4c87f85aef48d725a93d2b7422e4274e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c87f85aef48d725a93d2b7422e4274e">&#9670;&#160;</a></span>deleteFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1012,7 +1012,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe void MR.MeshTopology.deleteFaces </td>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1Const__MeshTopology_1_1VacantElements.html">MR.MeshTopology.VacantElements</a> MR.MeshTopology.deleteFaces </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>fs</em></span>, </td>
         </tr>
@@ -1029,7 +1029,14 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>deletes multiple given faces by calling <a class="el" href="#a02ab985393952c324537391d3a95b34b">deleteFace</a> for each Generated from method <span class="tt"><a class="el" href="#a877289bbfc2c5c17342785bfccba71f5" title="deletes multiple given faces by calling deleteFace for each Generated from method MR....">MR.MeshTopology.deleteFaces</a></span>. </p>
+<p>deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only deleted faces and no edges from </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">keepEdges,3)</td><td>make lone all the edges, which had to the left/right only deleted faces except for the edges from</td></tr>
+    <tr><td class="paramname">keepEdges;</td><td>return bit sets of all vacant elements in this topology after deletion Generated from method <span class="tt"><a class="el" href="#a4c87f85aef48d725a93d2b7422e4274e" title="deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only dele...">MR.MeshTopology.deleteFaces</a></span>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -5752,7 +5752,7 @@
     <member refid="group__GeneralGroup_1ga6607b0ee7aec746e66385db6da3a2f48" kind="function"><name>lastValidFace</name></member>
     <member refid="group__GeneralGroup_1gab2810fe9c6b38f4a0926069ab58120ea" kind="function"><name>addFaceId</name></member>
     <member refid="group__GeneralGroup_1ga9cec8fcb3700270debd8b9cdc9fa6cf7" kind="function"><name>deleteFace</name></member>
-    <member refid="group__GeneralGroup_1ga174947af8d66dad68b06697175088d25" kind="function"><name>deleteFaces</name></member>
+    <member refid="group__GeneralGroup_1ga381fd334af76605898ec97a371babf04" kind="function"><name>deleteFaces</name></member>
     <member refid="group__GeneralGroup_1ga2a22972e251180aa6466d2ea6c6f6b80" kind="function"><name>faceResize</name></member>
     <member refid="group__GeneralGroup_1ga4d6063b2fb524b629fed580f2c958273" kind="function"><name>faceResizeWithReserve</name></member>
     <member refid="group__GeneralGroup_1ga26bf81ee58d7f26387953a726a08f0a7" kind="function"><name>faceReserve</name></member>
@@ -11904,6 +11904,11 @@
     <member refid="group__GeneralGroup_1ga3def19a0ec6d9b753da75d05825e1d0b" kind="function"><name>operator[]</name></member>
     <member refid="group__GeneralGroup_1ga1559dd0f63575b110b6d67c47cd8ca61" kind="function"><name>operator[]</name></member>
     <member refid="group__GeneralGroup_1ga612a5709db207a238542c54810f6af4c" kind="friend"><name>operator==</name></member>
+  </compound>
+  <compound refid="structMR_1_1MeshTopology_1_1VacantElements" kind="struct"><name>MR::MeshTopology::VacantElements</name>
+    <member refid="group__GeneralGroup_1ga156c91f0ca107999b2b1753f6892b72f" kind="variable"><name>edges</name></member>
+    <member refid="group__GeneralGroup_1ga883f8677ed28738a74c5678d84c8615d" kind="variable"><name>verts</name></member>
+    <member refid="group__GeneralGroup_1ga52f3f0b5f605f550668b3962223b85cf" kind="variable"><name>faces</name></member>
   </compound>
   <compound refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kind="struct"><name>MR::UI::TestEngine::Control::Value</name>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value_1a4ffa9727b330021d13456e1ef6905bad" kind="variable"><name>value</name></member>
@@ -22113,6 +22118,9 @@
     <member refid="group__GeneralGroup_1gad8f2efb34f2d4b1e4b866ad31694dd50" kind="variable"><name>center</name></member>
     <member refid="group__GeneralGroup_1ga55fffe1bc5347e4a6ea79bc6e3479c1f" kind="variable"><name>radius</name></member>
     <member refid="group__GeneralGroup_1ga9305d6a23336a3bf9ef33323fccc83d2" kind="variable"><name>oppositeTouchPoint</name></member>
+    <member refid="group__GeneralGroup_1ga156c91f0ca107999b2b1753f6892b72f" kind="variable"><name>edges</name></member>
+    <member refid="group__GeneralGroup_1ga883f8677ed28738a74c5678d84c8615d" kind="variable"><name>verts</name></member>
+    <member refid="group__GeneralGroup_1ga52f3f0b5f605f550668b3962223b85cf" kind="variable"><name>faces</name></member>
     <member refid="group__GeneralGroup_1gaa79948207ce03ac940110fc5b6eeadad" kind="variable"><name>next</name></member>
     <member refid="group__GeneralGroup_1ga72d923a9f0e2f0b8bf55d43bbd30bc2c" kind="variable"><name>prev</name></member>
     <member refid="group__GeneralGroup_1ga2408c1ef3fd6c369eebe4355ae4ea4bc" kind="variable"><name>org</name></member>
@@ -26555,7 +26563,7 @@
     <member refid="group__GeneralGroup_1ga6607b0ee7aec746e66385db6da3a2f48" kind="function"><name>lastValidFace</name></member>
     <member refid="group__GeneralGroup_1gab2810fe9c6b38f4a0926069ab58120ea" kind="function"><name>addFaceId</name></member>
     <member refid="group__GeneralGroup_1ga9cec8fcb3700270debd8b9cdc9fa6cf7" kind="function"><name>deleteFace</name></member>
-    <member refid="group__GeneralGroup_1ga174947af8d66dad68b06697175088d25" kind="function"><name>deleteFaces</name></member>
+    <member refid="group__GeneralGroup_1ga381fd334af76605898ec97a371babf04" kind="function"><name>deleteFaces</name></member>
     <member refid="group__GeneralGroup_1ga2a22972e251180aa6466d2ea6c6f6b80" kind="function"><name>faceResize</name></member>
     <member refid="group__GeneralGroup_1ga4d6063b2fb524b629fed580f2c958273" kind="function"><name>faceResizeWithReserve</name></member>
     <member refid="group__GeneralGroup_1ga26bf81ee58d7f26387953a726a08f0a7" kind="function"><name>faceReserve</name></member>

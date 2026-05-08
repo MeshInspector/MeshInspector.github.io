@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshTopology_1_1VacantElements" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshTopology::VacantElements</compoundname>
+    <includes refid="MRMeshTopology_8h" local="no">MRMesh/MRMeshTopology.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga156c91f0ca107999b2b1753f6892b72f" kind="variable"><name>edges</name></member>
+      <member refid="group__GeneralGroup_1ga883f8677ed28738a74c5678d84c8615d" kind="variable"><name>verts</name></member>
+      <member refid="group__GeneralGroup_1ga52f3f0b5f605f550668b3962223b85cf" kind="variable"><name>faces</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRMeshTopology.h" line="268" column="5" bodyfile="MRMesh/MRMeshTopology.h" bodystart="269" bodyend="273"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga156c91f0ca107999b2b1753f6892b72f" prot="public" virt="non-virtual"><scope>MR::MeshTopology::VacantElements</scope><name>edges</name></member>
+      <member refid="group__GeneralGroup_1ga52f3f0b5f605f550668b3962223b85cf" prot="public" virt="non-virtual"><scope>MR::MeshTopology::VacantElements</scope><name>faces</name></member>
+      <member refid="group__GeneralGroup_1ga883f8677ed28738a74c5678d84c8615d" prot="public" virt="non-virtual"><scope>MR::MeshTopology::VacantElements</scope><name>verts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

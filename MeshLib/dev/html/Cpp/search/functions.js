@@ -3942,7 +3942,7 @@ var searchData=
   ['deleteedge_21',['deleteEdge',['../group__GeneralGroup.html#gaec04d4bb4ea6ed357f7675c276743da0',1,'MR::PolylineTopology']]],
   ['deleteedges_22',['deleteEdges',['../group__GeneralGroup.html#ga0776a64738fee7a5546be7c982006fcd',1,'MR::PolylineTopology']]],
   ['deleteface_23',['deleteFace',['../group__GeneralGroup.html#ga9cec8fcb3700270debd8b9cdc9fa6cf7',1,'MR::MeshTopology']]],
-  ['deletefaces_24',['deleteFaces',['../structMR_1_1Mesh.html#ad9c18290c667b3b1636e3a077afccf1c',1,'MR::Mesh::deleteFaces()'],['../group__GeneralGroup.html#ga174947af8d66dad68b06697175088d25',1,'MR::MeshTopology::deleteFaces()']]],
+  ['deletefaces_24',['deleteFaces',['../structMR_1_1Mesh.html#ad9c18290c667b3b1636e3a077afccf1c',1,'MR::Mesh::deleteFaces()'],['../group__GeneralGroup.html#ga381fd334af76605898ec97a371babf04',1,'MR::MeshTopology::deleteFaces()']]],
   ['deletetargetfaces_25',['deleteTargetFaces',['../group__MeshDeleteGroup.html#ga36dbb94c92be9919855a554bf5fc0cc7',1,'MR::deleteTargetFaces(Mesh &amp;obj, const Vector3f &amp;targetCenter)'],['../group__MeshDeleteGroup.html#ga3a3f7a71d002fddb83bac20653bff70a',1,'MR::deleteTargetFaces(Mesh &amp;obj, const Mesh &amp;target)']]],
   ['delitem_26',['delItem',['../group__GeneralGroup.html#gaec21b4b9459943a6f732a10e1dfecd2a',1,'MR::RibbonSchemaHolder']]],
   ['delregionkeepbd_27',['delRegionKeepBd',['../group__GeneralGroup.html#ga12fdc014447563e6a694a7f9bae39a7e',1,'MR::delRegionKeepBd(Mesh &amp;mesh, const FaceBitSet *region=nullptr, bool keepLoneHoles=false)'],['../group__GeneralGroup.html#ga9a3ca5fbd5ec0dba1668bc17602b04e1',1,'MR::delRegionKeepBd(Mesh &amp;mesh, const FaceBitSet &amp;region, bool keepLoneHoles=false)']]],

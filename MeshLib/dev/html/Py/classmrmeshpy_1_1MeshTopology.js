@@ -1,5 +1,6 @@
 var classmrmeshpy_1_1MeshTopology =
 [
+    [ "VacantElements", "classmrmeshpy_1_1MeshTopology_1_1VacantElements.html", "classmrmeshpy_1_1MeshTopology_1_1VacantElements" ],
     [ "__init__", "classmrmeshpy_1_1MeshTopology.html#a8556e49dc9013002d868a8a87b17453b", null ],
     [ "__init__", "classmrmeshpy_1_1MeshTopology.html#ad29f6aa8456555f8a0a5e736b64b3a1d", null ],
     [ "__eq__", "classmrmeshpy_1_1MeshTopology.html#a06713d086c994bf2669fa82ecdf671c2", null ],
@@ -20,7 +21,7 @@ var classmrmeshpy_1_1MeshTopology =
     [ "computeNotLoneUndirectedEdges", "classmrmeshpy_1_1MeshTopology.html#aef51bd28ac8d510b1615a966ff3e0f10", null ],
     [ "computeValidsFromEdges", "classmrmeshpy_1_1MeshTopology.html#afc16761eb33ec7520c688b1a33cf57d5", null ],
     [ "deleteFace", "classmrmeshpy_1_1MeshTopology.html#a7200697fb5dd62e6ce9dafce5f6a933a", null ],
-    [ "deleteFaces", "classmrmeshpy_1_1MeshTopology.html#a2b99b691abb085a0f0d4813633126c72", null ],
+    [ "deleteFaces", "classmrmeshpy_1_1MeshTopology.html#ac7946cbdb6b92eb0ca92f73c5c01ea43", null ],
     [ "dest", "classmrmeshpy_1_1MeshTopology.html#a006e94b489c3b7b15e30a911f1d6b5b3", null ],
     [ "edgeCapacity", "classmrmeshpy_1_1MeshTopology.html#aa5bda979c425e98532dfd39e79b2abd0", null ],
     [ "edgePerFace", "classmrmeshpy_1_1MeshTopology.html#afab008de4295a68a65aa66a89faa3707", null ],

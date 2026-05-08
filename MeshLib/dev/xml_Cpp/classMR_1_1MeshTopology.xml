@@ -4,6 +4,7 @@
     <compoundname>MR::MeshTopology</compoundname>
     <includes refid="MRMeshTopology_8h" local="no">MRMesh/MRMeshTopology.h</includes>
     <innerclass refid="structMR_1_1MeshTopology_1_1HalfEdgeRecord" prot="private">MR::MeshTopology::HalfEdgeRecord</innerclass>
+    <innerclass refid="structMR_1_1MeshTopology_1_1VacantElements" prot="public">MR::MeshTopology::VacantElements</innerclass>
     <sectiondef kind="friend">
       <member refid="group__GeneralGroup_1gac9dd8ac8bb48edc727dfda0f73d714da" kind="friend"><name>MeshTopologyDiff</name></member>
     </sectiondef>
@@ -93,7 +94,7 @@
       <member refid="group__GeneralGroup_1ga6607b0ee7aec746e66385db6da3a2f48" kind="function"><name>lastValidFace</name></member>
       <member refid="group__GeneralGroup_1gab2810fe9c6b38f4a0926069ab58120ea" kind="function"><name>addFaceId</name></member>
       <member refid="group__GeneralGroup_1ga9cec8fcb3700270debd8b9cdc9fa6cf7" kind="function"><name>deleteFace</name></member>
-      <member refid="group__GeneralGroup_1ga174947af8d66dad68b06697175088d25" kind="function"><name>deleteFaces</name></member>
+      <member refid="group__GeneralGroup_1ga381fd334af76605898ec97a371babf04" kind="function"><name>deleteFaces</name></member>
       <member refid="group__GeneralGroup_1ga2a22972e251180aa6466d2ea6c6f6b80" kind="function"><name>faceResize</name></member>
       <member refid="group__GeneralGroup_1ga4d6063b2fb524b629fed580f2c958273" kind="function"><name>faceResizeWithReserve</name></member>
       <member refid="group__GeneralGroup_1ga26bf81ee58d7f26387953a726a08f0a7" kind="function"><name>faceReserve</name></member>
@@ -177,7 +178,7 @@
     <detaileddescription>
 <para><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> Topology </para>
     </detaileddescription>
-    <location file="MRMesh/MRMeshTopology.h" line="22" column="1" bodyfile="MRMesh/MRMeshTopology.h" bodystart="23" bodyend="608"/>
+    <location file="MRMesh/MRMeshTopology.h" line="22" column="1" bodyfile="MRMesh/MRMeshTopology.h" bodystart="23" bodyend="619"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gab2810fe9c6b38f4a0926069ab58120ea" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addFaceId</name></member>
       <member refid="group__GeneralGroup_1ga9240c1848633d691fdbb0e5869910043" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addPackedPart</name></member>
@@ -199,7 +200,7 @@
       <member refid="group__GeneralGroup_1ga9b0965c616ba1372dc30a0cfc25e2459" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeNotLoneUndirectedEdges</name></member>
       <member refid="group__GeneralGroup_1ga2125e27e8dfe29a6b457ec6ed685539c" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeValidsFromEdges</name></member>
       <member refid="group__GeneralGroup_1ga9cec8fcb3700270debd8b9cdc9fa6cf7" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>deleteFace</name></member>
-      <member refid="group__GeneralGroup_1ga174947af8d66dad68b06697175088d25" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>deleteFaces</name></member>
+      <member refid="group__GeneralGroup_1ga381fd334af76605898ec97a371babf04" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>deleteFaces</name></member>
       <member refid="group__GeneralGroup_1ga4249f7a97c745af922214ed2ca58f20d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>dest</name></member>
       <member refid="group__GeneralGroup_1ga93a7e7526986ddd2fe8f517c9dffc577" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeCapacity</name></member>
       <member refid="group__GeneralGroup_1gadf1bd2c727b615b99908a7a3d4464bee" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgePerFace</name></member>

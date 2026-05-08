@@ -1398,6 +1398,7 @@ var hierarchy =
     [ "mrmeshpy.unsigned_char_output", "classmrmeshpy_1_1unsigned__char__output.html", null ],
     [ "mrmeshpy.UpLimitCheck", "classmrmeshpy_1_1UpLimitCheck.html", null ],
     [ "mrmeshpy.UseAABBTree", "classmrmeshpy_1_1UseAABBTree.html", null ],
+    [ "mrmeshpy.MeshTopology.VacantElements", "classmrmeshpy_1_1MeshTopology_1_1VacantElements.html", null ],
     [ "mrmeshpy.BaseTiffParameters.ValueType", "classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html", null ],
     [ "mrmeshpy.VarEdgeTri", "classmrmeshpy_1_1VarEdgeTri.html", null ],
     [ "mrmeshpy.Vector2b", "classmrmeshpy_1_1Vector2b.html", null ],

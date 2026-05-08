@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshTopology_1_1VacantElements" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshTopology::VacantElements</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a0133691aa04cea2ff56d857755c67ca2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshTopology.VacantElements::_offsetof_edges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edges</name>
+        <qualifiedname>mrmeshpy.MeshTopology.VacantElements._offsetof_edges</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a8ff145f03e6af61cd71a4ebb45beb58b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshTopology.VacantElements::_offsetof_faces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_faces</name>
+        <qualifiedname>mrmeshpy.MeshTopology.VacantElements._offsetof_faces</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35371" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a8c54f5652688dc7c00f46ee980a1fb6b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshTopology.VacantElements::_offsetof_verts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_verts</name>
+        <qualifiedname>mrmeshpy.MeshTopology.VacantElements._offsetof_verts</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35372" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1aecf263c9e42c5381416e6522dadd8812" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTopology.VacantElements.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTopology.VacantElements.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35378" bodyend="35379"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a99bce724d4354027a3e90467bc79e4ef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTopology_1_1VacantElements" kindref="compound">MeshTopology.VacantElements</ref></type>
+        <definition> MeshTopology.VacantElements mrmeshpy.MeshTopology.VacantElements.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshTopology.VacantElements.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35382" bodyend="35383"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a99bce724d4354027a3e90467bc79e4ef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTopology_1_1VacantElements" kindref="compound">MeshTopology.VacantElements</ref></type>
+        <definition> MeshTopology.VacantElements mrmeshpy.MeshTopology.VacantElements.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshTopology.VacantElements.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35386" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35386" bodyend="35387"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a0845bb83712f1b52a15f9b9fe5473cb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTopology.VacantElements.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTopology.VacantElements.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35389" bodyend="35390"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1add626a94bff307f8035e59fe130c28c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTopology.VacantElements.__init__</definition>
+        <argsstring>(self, MeshTopology.VacantElements arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTopology.VacantElements.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology_1_1VacantElements" kindref="compound">MeshTopology.VacantElements</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35392" bodyend="35395"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a1d33c60f69235a4647b0613720c1faa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTopology.VacantElements.__init__</definition>
+        <argsstring>(self, UndirectedEdgeBitSet edges, VertBitSet verts, FaceBitSet faces)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTopology.VacantElements.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>edges</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>faces</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35397" bodyend="35401"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshTopology::VacantElements
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35366" bodyend="35400"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1aecf263c9e42c5381416e6522dadd8812" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology::VacantElements</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a0845bb83712f1b52a15f9b9fe5473cb0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology::VacantElements</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1add626a94bff307f8035e59fe130c28c8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology::VacantElements</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a1d33c60f69235a4647b0613720c1faa8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology::VacantElements</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a0133691aa04cea2ff56d857755c67ca2" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshTopology::VacantElements</scope><name>_offsetof_edges</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a8ff145f03e6af61cd71a4ebb45beb58b" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshTopology::VacantElements</scope><name>_offsetof_faces</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a8c54f5652688dc7c00f46ee980a1fb6b" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshTopology::VacantElements</scope><name>_offsetof_verts</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a99bce724d4354027a3e90467bc79e4ef" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology::VacantElements</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1_1VacantElements_1a99bce724d4354027a3e90467bc79e4ef" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology::VacantElements</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,13 @@
 var NAVTREEINDEX84 =
 {
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#afcf8f45e2a9bb4c014ae6024ff219f8a":[6,1,1,0,1,811,0,0,4],
+"classmrmeshpy_1_1SeparationPointStorage.html":[6,1,0,0,2,812],
+"classmrmeshpy_1_1SeparationPointStorage.html":[6,1,1,0,1,812],
+"classmrmeshpy_1_1SeparationPointStorage.html#a33eb8da5427e35ce2d98de40a3ad7350":[6,1,0,0,2,812,5],
+"classmrmeshpy_1_1SeparationPointStorage.html#a33eb8da5427e35ce2d98de40a3ad7350":[6,1,1,0,1,812,5],
+"classmrmeshpy_1_1SeparationPointStorage.html#a5f0d3d5f6a4e74e2f88ab3250c3d4695":[6,1,0,0,2,812,8],
+"classmrmeshpy_1_1SeparationPointStorage.html#a5f0d3d5f6a4e74e2f88ab3250c3d4695":[6,1,1,0,1,812,8],
+"classmrmeshpy_1_1SeparationPointStorage.html#a97c7d1642b280611a403f5490e0a0a67":[6,1,0,0,2,812,7],
 "classmrmeshpy_1_1SeparationPointStorage.html#a97c7d1642b280611a403f5490e0a0a67":[6,1,1,0,1,812,7],
 "classmrmeshpy_1_1SeparationPointStorage.html#aa803ef66f115a61a971c0a585f5d81f2":[6,1,0,0,2,812,2],
 "classmrmeshpy_1_1SeparationPointStorage.html#aa803ef66f115a61a971c0a585f5d81f2":[6,1,1,0,1,812,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX84 =
 "classmrmeshpy_1_1SimpleVolume.html#a1f47b445e4ff93ac407ac03ec5ae5aa8":[6,1,1,0,1,823,3],
 "classmrmeshpy_1_1SimpleVolume.html#acb71af013e1365c6d6279527b50cad2d":[6,1,0,0,2,823,0],
 "classmrmeshpy_1_1SimpleVolume.html#acb71af013e1365c6d6279527b50cad2d":[6,1,1,0,1,823,0],
-"classmrmeshpy_1_1SimpleVolume.html#ad4f83937bd716370201538230cc53dbb":[6,1,0,0,2,823,2],
-"classmrmeshpy_1_1SimpleVolume.html#ad4f83937bd716370201538230cc53dbb":[6,1,1,0,1,823,2],
-"classmrmeshpy_1_1SimpleVolume.html#af1c04983f17165bcb2521b356fe03e06":[6,1,0,0,2,823,1],
-"classmrmeshpy_1_1SimpleVolume.html#af1c04983f17165bcb2521b356fe03e06":[6,1,1,0,1,823,1],
-"classmrmeshpy_1_1SimpleVolumeMinMax.html":[6,1,0,0,2,824],
-"classmrmeshpy_1_1SimpleVolumeMinMax.html":[6,1,1,0,1,824],
-"classmrmeshpy_1_1SimpleVolumeMinMax.html#a242f5793ca66cd4b23e898aacdf9f316":[6,1,0,0,2,824,1],
-"classmrmeshpy_1_1SimpleVolumeMinMax.html#a242f5793ca66cd4b23e898aacdf9f316":[6,1,1,0,1,824,1],
-"classmrmeshpy_1_1SimpleVolumeMinMax.html#a8ac2acb89a66892a0c43d5b58d41d149":[6,1,0,0,2,824,2]
+"classmrmeshpy_1_1SimpleVolume.html#ad4f83937bd716370201538230cc53dbb":[6,1,0,0,2,823,2]
 };

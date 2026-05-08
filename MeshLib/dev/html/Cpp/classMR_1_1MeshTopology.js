@@ -19,7 +19,7 @@ var classMR_1_1MeshTopology =
     [ "computeNotLoneUndirectedEdges", "group__GeneralGroup.html#ga9b0965c616ba1372dc30a0cfc25e2459", null ],
     [ "computeValidsFromEdges", "group__GeneralGroup.html#ga2125e27e8dfe29a6b457ec6ed685539c", null ],
     [ "deleteFace", "group__GeneralGroup.html#ga9cec8fcb3700270debd8b9cdc9fa6cf7", null ],
-    [ "deleteFaces", "group__GeneralGroup.html#ga174947af8d66dad68b06697175088d25", null ],
+    [ "deleteFaces", "group__GeneralGroup.html#ga381fd334af76605898ec97a371babf04", null ],
     [ "dest", "group__GeneralGroup.html#ga4249f7a97c745af922214ed2ca58f20d", null ],
     [ "edgeCapacity", "group__GeneralGroup.html#ga93a7e7526986ddd2fe8f517c9dffc577", null ],
     [ "edgePerFace", "group__GeneralGroup.html#gadf1bd2c727b615b99908a7a3d4464bee", null ],

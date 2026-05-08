@@ -542,6 +542,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.MeshToVolumeParams", "classmrmeshpy_1_1MeshToVolumeParams.html", "classmrmeshpy_1_1MeshToVolumeParams" ],
     [ "mrmeshpy.MeshToVolumeParams.Type", "classmrmeshpy_1_1MeshToVolumeParams_1_1Type.html", "classmrmeshpy_1_1MeshToVolumeParams_1_1Type" ],
     [ "mrmeshpy.MeshTopology", "classmrmeshpy_1_1MeshTopology.html", "classmrmeshpy_1_1MeshTopology" ],
+    [ "mrmeshpy.MeshTopology.VacantElements", "classmrmeshpy_1_1MeshTopology_1_1VacantElements.html", "classmrmeshpy_1_1MeshTopology_1_1VacantElements" ],
     [ "mrmeshpy.MeshTopologyDiff", "classmrmeshpy_1_1MeshTopologyDiff.html", "classmrmeshpy_1_1MeshTopologyDiff" ],
     [ "mrmeshpy.MeshTriPoint", "classmrmeshpy_1_1MeshTriPoint.html", "classmrmeshpy_1_1MeshTriPoint" ],
     [ "mrmeshpy.MeshVertPart", "classmrmeshpy_1_1MeshVertPart.html", "classmrmeshpy_1_1MeshVertPart" ],

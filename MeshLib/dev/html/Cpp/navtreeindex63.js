@@ -1,5 +1,8 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1McpGateway_1_1Config.html#a86f0334549cd5d86f3144500efa3159b":[6,0,1,0,1,22,0,3],
+"structMR_1_1McpGateway_1_1Config.html#a86f0334549cd5d86f3144500efa3159b":[6,0,2,0,2,11,0,3],
+"structMR_1_1McpGateway_1_1Config.html#abf13345caaa67573350f7cce650d3e96":[6,0,1,0,1,22,0,2],
 "structMR_1_1McpGateway_1_1Config.html#abf13345caaa67573350f7cce650d3e96":[6,0,2,0,2,11,0,2],
 "structMR_1_1McpSettings_1_1CmdLineOverrides.html":[6,0,1,0,1,23,0],
 "structMR_1_1McpSettings_1_1CmdLineOverrides.html":[6,0,2,0,2,12,0],
@@ -59,10 +62,10 @@ var NAVTREEINDEX63 =
 "structMR_1_1Mcp_1_1Server_1_1Params.html#acaf116a4e061c5d70d4b14aa4790a368":[6,0,2,0,2,10,1,0,4],
 "structMR_1_1Mcp_1_1Server_1_1Params.html#aed25300f1cd5c8f887d17e5f49656d51":[6,0,1,0,1,21,1,0,0],
 "structMR_1_1Mcp_1_1Server_1_1Params.html#aed25300f1cd5c8f887d17e5f49656d51":[6,0,2,0,2,10,1,0,0],
-"structMR_1_1MenuItemCaptionSize.html":[6,0,0,20,660],
-"structMR_1_1MenuItemInfo.html":[6,0,0,20,661],
+"structMR_1_1MenuItemCaptionSize.html":[6,0,0,20,661],
+"structMR_1_1MenuItemInfo.html":[6,0,0,20,662],
 "structMR_1_1MergeVolumePartSettings.html":[6,0,0,17,4],
-"structMR_1_1MergeVolumePartSettings.html":[6,0,0,20,864],
+"structMR_1_1MergeVolumePartSettings.html":[6,0,0,20,865],
 "structMR_1_1Mesh.html":[6,0,0,7,1],
 "structMR_1_1Mesh.html#a017bf9ba11329c4596f14d33cbc8a654":[6,0,0,7,1,95],
 "structMR_1_1Mesh.html#a029d8d453e90f13a14ae22b25a71db47":[6,0,0,7,1,30],
@@ -212,7 +215,7 @@ var NAVTREEINDEX63 =
 "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html#aeaa75229a5b3cb60dc76ff1032f4c655":[6,0,0,19,0,1,3],
 "structMR_1_1MeshEqualizeTriAreasParams.html":[6,0,0,9,6,1],
 "structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[6,0,0,9,6,1,0],
-"structMR_1_1MeshFromVoxelsPostProcessingParams.html":[6,0,0,20,840],
+"structMR_1_1MeshFromVoxelsPostProcessingParams.html":[6,0,0,20,841],
 "structMR_1_1MeshIntersectionResult.html":[6,0,0,1,19],
 "structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903":[6,0,0,1,19,0],
 "structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1":[6,0,0,1,19,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1MeshNormals.html#a856a95674a96dae6b54c40f374500bb5":[6,0,0,9,5,0,0],
 "structMR_1_1MeshNormals.html#a9a227c6a8fb08eab31f2c5f3a8b86a27":[6,0,0,9,5,0,1],
 "structMR_1_1MeshOrPointsXf.html":[6,0,0,20,340],
-"structMR_1_1MeshOrPoints_1_1ProjectionResult.html":[6,0,0,20,339],
-"structMR_1_1MeshPoint.html":[6,0,0,20,344],
-"structMR_1_1MeshPointAndDistance.html":[6,0,0,20,154],
-"structMR_1_1MeshProjectionParameters.html":[6,0,0,20,426]
+"structMR_1_1MeshOrPoints_1_1ProjectionResult.html":[6,0,0,20,339]
 };
