@@ -41,17 +41,19 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
-      <node id="16">
+      <node id="17">
         <label>MRMesh/MRUnitInfo.h</label>
         <link refid="MRUnitInfo_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -61,7 +63,7 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -75,11 +77,11 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -97,13 +99,16 @@
       <node id="10">
         <label>array</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>cassert</label>
+      </node>
+      <node id="15">
+        <label>cstdint</label>
       </node>
       <node id="14">
         <label>functional</label>
       </node>
-      <node id="17">
+      <node id="18">
         <label>optional</label>
       </node>
       <node id="13">
@@ -112,7 +117,7 @@
       <node id="12">
         <label>string</label>
       </node>
-      <node id="18">
+      <node id="19">
         <label>variant</label>
       </node>
       <node id="11">

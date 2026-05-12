@@ -36,17 +36,19 @@
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
       </node>
-      <node id="18">
+      <node id="19">
         <label>MRMesh/MRUnitInfo.h</label>
         <link refid="MRUnitInfo_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -56,7 +58,7 @@
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
       </node>
       <node id="8">
@@ -78,11 +80,11 @@
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="20" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -100,8 +102,11 @@
       <node id="12">
         <label>array</label>
       </node>
-      <node id="17">
+      <node id="18">
         <label>cassert</label>
+      </node>
+      <node id="17">
+        <label>cstdint</label>
       </node>
       <node id="2">
         <label>exports.h</label>
@@ -109,7 +114,7 @@
       <node id="16">
         <label>functional</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>optional</label>
       </node>
       <node id="15">
@@ -118,7 +123,7 @@
       <node id="14">
         <label>string</label>
       </node>
-      <node id="20">
+      <node id="21">
         <label>variant</label>
       </node>
       <node id="13">

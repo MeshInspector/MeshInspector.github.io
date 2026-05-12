@@ -13,48 +13,48 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="17">
+      <node id="18">
         <label>MRConstants.h</label>
         <link refid="MRConstants_8h"/>
       </node>
-      <node id="23">
+      <node id="24">
         <label>MREdgePaths.h</label>
         <link refid="MREdgePaths_8h"/>
-        <childnode refid="24" relation="include">
-        </childnode>
         <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="26" relation="include">
         </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
         <childnode refid="12" relation="include">
         </childnode>
       </node>
-      <node id="27">
+      <node id="28">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="28" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
       </node>
-      <node id="24">
+      <node id="25">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="22" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -82,15 +82,17 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
-      <node id="25">
+      <node id="26">
         <label>MRProgressCallback.h</label>
         <link refid="MRProgressCallback_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -98,9 +100,9 @@
         <link refid="MRSurroundingContour_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="23" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="27" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
@@ -122,11 +124,9 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
@@ -136,6 +136,8 @@
         </childnode>
         <childnode refid="22" relation="include">
         </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
       </node>
       <node id="8">
         <label>config.h</label>
@@ -144,34 +146,37 @@
       <node id="10">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="28">
+      <node id="29">
         <label>MRPch/MRExpected.h</label>
       </node>
-      <node id="18">
+      <node id="19">
         <label>algorithm</label>
       </node>
       <node id="11">
         <label>array</label>
       </node>
-      <node id="16">
+      <node id="17">
         <label>cassert</label>
       </node>
-      <node id="26">
+      <node id="27">
         <label>cfloat</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>cmath</label>
       </node>
       <node id="5">
         <label>cstddef</label>
       </node>
-      <node id="20">
+      <node id="16">
+        <label>cstdint</label>
+      </node>
+      <node id="21">
         <label>cstring</label>
       </node>
       <node id="15">
         <label>functional</label>
       </node>
-      <node id="21">
+      <node id="22">
         <label>iosfwd</label>
       </node>
       <node id="14">
@@ -183,7 +188,7 @@
       <node id="6">
         <label>type_traits</label>
       </node>
-      <node id="22">
+      <node id="23">
         <label>utility</label>
       </node>
       <node id="12">

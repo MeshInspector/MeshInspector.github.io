@@ -13,26 +13,26 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="17">
+      <node id="18">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="13">
+      <node id="14">
         <label>MRId.h</label>
         <link refid="MRId_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -60,15 +60,17 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MRMesh/MRRegionBoundary.h</label>
         <link refid="MRRegionBoundary_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -83,11 +85,14 @@
       <node id="7">
         <label>array</label>
       </node>
-      <node id="12">
+      <node id="13">
         <label>cassert</label>
       </node>
-      <node id="14">
+      <node id="15">
         <label>cstddef</label>
+      </node>
+      <node id="12">
+        <label>cstdint</label>
       </node>
       <node id="11">
         <label>functional</label>
@@ -98,10 +103,10 @@
       <node id="9">
         <label>string</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>type_traits</label>
       </node>
-      <node id="16">
+      <node id="17">
         <label>utility</label>
       </node>
       <node id="8">

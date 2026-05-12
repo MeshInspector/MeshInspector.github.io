@@ -38,13 +38,15 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
       </node>
-      <node id="16">
+      <node id="17">
         <label>MRMesh/MRViewportId.h</label>
         <link refid="MRViewportId_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="6">
@@ -68,7 +70,7 @@
         <link refid="MRViewerInstance_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -81,8 +83,11 @@
       <node id="10">
         <label>array</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>cassert</label>
+      </node>
+      <node id="15">
+        <label>cstdint</label>
       </node>
       <node id="4">
         <label>exports.h</label>

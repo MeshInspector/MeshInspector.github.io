@@ -21,9 +21,9 @@
         <link refid="MRIOFilters_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
         <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
@@ -55,11 +55,13 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
       </node>
-      <node id="17">
+      <node id="18">
         <label>MRMesh/MRSignal.h</label>
         <link refid="MRSignal_8h"/>
-        <childnode refid="18" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
       <node id="5">
@@ -73,9 +75,9 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
@@ -86,25 +88,28 @@
       <node id="9">
         <label>array</label>
       </node>
-      <node id="18">
+      <node id="19">
         <label>boost/signals2/signal.hpp</label>
       </node>
-      <node id="14">
+      <node id="15">
         <label>cassert</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>compare</label>
+      </node>
+      <node id="14">
+        <label>cstdint</label>
       </node>
       <node id="2">
         <label>exports.h</label>
       </node>
-      <node id="19">
+      <node id="20">
         <label>filesystem</label>
       </node>
       <node id="13">
         <label>functional</label>
       </node>
-      <node id="16">
+      <node id="17">
         <label>optional</label>
       </node>
       <node id="12">

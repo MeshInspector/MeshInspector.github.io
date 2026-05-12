@@ -38,6 +38,8 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
       <node id="1">
         <label>MRMesh/MRPriorityQueue.h</label>
@@ -48,7 +50,7 @@
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="15" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -58,7 +60,7 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -70,17 +72,20 @@
       <node id="7">
         <label>MRPch/MRBindingMacros.h</label>
       </node>
-      <node id="15">
+      <node id="16">
         <label>algorithm</label>
       </node>
       <node id="8">
         <label>array</label>
       </node>
-      <node id="13">
+      <node id="14">
         <label>cassert</label>
       </node>
-      <node id="14">
+      <node id="15">
         <label>chrono</label>
+      </node>
+      <node id="13">
+        <label>cstdint</label>
       </node>
       <node id="12">
         <label>functional</label>

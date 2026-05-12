@@ -77,15 +77,17 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
       </node>
-      <node id="13">
+      <node id="14">
         <label>MRResizeNoInit.h</label>
         <link refid="MRResizeNoInit_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -95,11 +97,11 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -112,11 +114,14 @@
       <node id="7">
         <label>array</label>
       </node>
-      <node id="12">
+      <node id="13">
         <label>cassert</label>
       </node>
-      <node id="14">
+      <node id="15">
         <label>concepts</label>
+      </node>
+      <node id="12">
+        <label>cstdint</label>
       </node>
       <node id="11">
         <label>functional</label>

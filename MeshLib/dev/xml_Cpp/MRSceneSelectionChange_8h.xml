@@ -39,6 +39,8 @@
         </childnode>
         <childnode refid="13" relation="include">
         </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
       </node>
       <node id="4">
         <label>config.h</label>
@@ -51,7 +53,7 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -62,8 +64,11 @@
       <node id="8">
         <label>array</label>
       </node>
-      <node id="13">
+      <node id="14">
         <label>cassert</label>
+      </node>
+      <node id="13">
+        <label>cstdint</label>
       </node>
       <node id="2">
         <label>exports.h</label>
@@ -71,7 +76,7 @@
       <node id="12">
         <label>functional</label>
       </node>
-      <node id="14">
+      <node id="15">
         <label>memory</label>
       </node>
       <node id="11">
