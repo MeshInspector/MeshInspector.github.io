@@ -13,6 +13,6 @@ var classmrmeshpy_1_1Id__ICPElemtTag =
     [ "get", "classmrmeshpy_1_1Id__ICPElemtTag.html#a62a0467443c55d37869aa69769a96469", null ],
     [ "operator", "classmrmeshpy_1_1Id__ICPElemtTag.html#ab126a86427f216a36957bc8626560241", null ],
     [ "operator", "classmrmeshpy_1_1Id__ICPElemtTag.html#add5ed9331066210e16cb797739576e56", null ],
-    [ "operatorminusminus", "classmrmeshpy_1_1Id__ICPElemtTag.html#a4ba06f5bfdbe95778df407a365cdf41f", null ],
+    [ "operator_minus_minus", "classmrmeshpy_1_1Id__ICPElemtTag.html#a19f00dd8edd46c184506d5753d47702b", null ],
     [ "valid", "classmrmeshpy_1_1Id__ICPElemtTag.html#a38e954a9167be41171e40ff006eb34c5", null ]
 ];

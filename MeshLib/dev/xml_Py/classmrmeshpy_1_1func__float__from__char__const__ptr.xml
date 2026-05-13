@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__float__from__char__const__ptr" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_float_from_char_const_ptr</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__char__const__ptr_1afa06b6323ba1ee792a425e25986503c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_float_from_char_const_ptr.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_float_from_char_const_ptr.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79235" bodyend="79236"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__char__const__ptr_1a7a70509e1389d08f7e9f660235be4ed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.func_float_from_char_const_ptr.__call__</definition>
+        <argsstring>(self, str arg0)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_float_from_char_const_ptr.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79237" bodyend="79238"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__char__const__ptr_1a2a2cb2a9b32506289a05860234d8081d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_float_from_char_const_ptr.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_float_from_char_const_ptr.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79240" bodyend="79241"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__char__const__ptr_1abcdd6bd6dd631e325d7794ca166e9508" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_float_from_char_const_ptr.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_float_from_char_const_ptr.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79243" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79243" bodyend="79244"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__char__const__ptr_1a0baaec8b82cc31be4277a1eba409071b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_float_from_char_const_ptr.__init__</definition>
+        <argsstring>(self, func_float_from_char_const_ptr arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_float_from_char_const_ptr.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__char__const__ptr" kindref="compound">func_float_from_char_const_ptr</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79246" bodyend="79247"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__char__const__ptr_1a000c0b0c9ad284b96a095bb214f944be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_float_from_char_const_ptr.__init__</definition>
+        <argsstring>(self, typing.Callable[[str], float] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_float_from_char_const_ptr.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[str]</array>
+        </param>
+        <param>
+          <type>float]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79249" bodyend="79250"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__char__const__ptr_1adc259a95abaf19abfca38b594ff5bcaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_float_from_char_const_ptr.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_float_from_char_const_ptr.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79251" bodyend="79254"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__float__from__char__const__ptr_1af8b54b5a78a04b888670fbd7a1a98c35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_float_from_char_const_ptr.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_float_from_char_const_ptr.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79255" bodyend="79258"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79234" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79234" bodyend="79258"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__float__from__char__const__ptr_1afa06b6323ba1ee792a425e25986503c7" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_char_const_ptr</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__char__const__ptr_1a7a70509e1389d08f7e9f660235be4ed1" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_char_const_ptr</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__char__const__ptr_1a2a2cb2a9b32506289a05860234d8081d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_char_const_ptr</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__char__const__ptr_1abcdd6bd6dd631e325d7794ca166e9508" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_char_const_ptr</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__char__const__ptr_1a0baaec8b82cc31be4277a1eba409071b" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_char_const_ptr</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__char__const__ptr_1a000c0b0c9ad284b96a095bb214f944be" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_char_const_ptr</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__char__const__ptr_1adc259a95abaf19abfca38b594ff5bcaa" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_char_const_ptr</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__float__from__char__const__ptr_1af8b54b5a78a04b888670fbd7a1a98c35" prot="public" virt="non-virtual"><scope>mrmeshpy::func_float_from_char_const_ptr</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

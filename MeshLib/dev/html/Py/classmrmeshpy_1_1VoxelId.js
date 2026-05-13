@@ -19,6 +19,6 @@ var classmrmeshpy_1_1VoxelId =
     [ "get", "classmrmeshpy_1_1VoxelId.html#adc7706b9d92d8c5773cb910d6e352f6f", null ],
     [ "operator", "classmrmeshpy_1_1VoxelId.html#ac503bc0aa27d05564f39ba39eff986be", null ],
     [ "operator", "classmrmeshpy_1_1VoxelId.html#a9956a1e393049d1952672ba3be7bafe5", null ],
-    [ "operatorminusminus", "classmrmeshpy_1_1VoxelId.html#af1b9f2a930a097cb1aab547580701a2f", null ],
+    [ "operator_minus_minus", "classmrmeshpy_1_1VoxelId.html#a78d794e985512c65c0df1a1bdaea5b2a", null ],
     [ "valid", "classmrmeshpy_1_1VoxelId.html#a5be24c614c152a8775b76c15d81fded0", null ]
 ];

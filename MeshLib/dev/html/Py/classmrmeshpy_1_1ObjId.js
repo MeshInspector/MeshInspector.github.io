@@ -13,6 +13,6 @@ var classmrmeshpy_1_1ObjId =
     [ "get", "classmrmeshpy_1_1ObjId.html#aef41215548a43a2a7ac9f0975b428d3e", null ],
     [ "operator", "classmrmeshpy_1_1ObjId.html#ae7413f5d274d82aa3c2ed23506da123d", null ],
     [ "operator", "classmrmeshpy_1_1ObjId.html#ac48548aec948186efea42f8027b49c05", null ],
-    [ "operatorminusminus", "classmrmeshpy_1_1ObjId.html#ac0744a0822134047c5ff3f68b30ad340", null ],
+    [ "operator_minus_minus", "classmrmeshpy_1_1ObjId.html#a57a1dbf3c89d8373ac1ed3f7ec57f329", null ],
     [ "valid", "classmrmeshpy_1_1ObjId.html#a54a55867148b26bb3b0049f86984b873", null ]
 ];

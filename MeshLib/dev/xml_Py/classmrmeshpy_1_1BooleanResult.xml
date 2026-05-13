@@ -283,12 +283,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3701" bodyend="3702"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a318d55a7a88259e5b0c73ca576ee6c63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1aad6447e61fb6066c2cf617d71246d2e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
-        <definition> Mesh mrmeshpy.BooleanResult.operatorminus</definition>
+        <definition> Mesh mrmeshpy.BooleanResult.operator_minus</definition>
         <argsstring>(self)</argsstring>
-        <name>operatorminus</name>
-        <qualifiedname>mrmeshpy.BooleanResult.operatorminus</qualifiedname>
+        <name>operator_minus</name>
+        <qualifiedname>mrmeshpy.BooleanResult.operator_minus</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -301,12 +301,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3704" bodyend="3705"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1a318d55a7a88259e5b0c73ca576ee6c63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResult_1aad6447e61fb6066c2cf617d71246d2e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
-        <definition> Mesh mrmeshpy.BooleanResult.operatorminus</definition>
+        <definition> Mesh mrmeshpy.BooleanResult.operator_minus</definition>
         <argsstring>(self)</argsstring>
-        <name>operatorminus</name>
-        <qualifiedname>mrmeshpy.BooleanResult.operatorminus</qualifiedname>
+        <name>operator_minus</name>
+        <qualifiedname>mrmeshpy.BooleanResult.operator_minus</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -543,8 +543,8 @@ This structure store result mesh of MR::boolean or some error info
       <member refid="classmrmeshpy_1_1BooleanResult_1abc30bd496bdd64cf8ee944d9b81320ab" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>meshBBadContourFaces</name></member>
       <member refid="classmrmeshpy_1_1BooleanResult_1abb817d85c579b3a8c8d98470103bc7d3" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1BooleanResult_1abb817d85c579b3a8c8d98470103bc7d3" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>operator</name></member>
-      <member refid="classmrmeshpy_1_1BooleanResult_1a318d55a7a88259e5b0c73ca576ee6c63" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>operatorminus</name></member>
-      <member refid="classmrmeshpy_1_1BooleanResult_1a318d55a7a88259e5b0c73ca576ee6c63" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>operatorminus</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1aad6447e61fb6066c2cf617d71246d2e5" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>operator_minus</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResult_1aad6447e61fb6066c2cf617d71246d2e5" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>operator_minus</name></member>
       <member refid="classmrmeshpy_1_1BooleanResult_1afaf560a36bb8633a5e551b61e743919f" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResult</scope><name>valid</name></member>
     </listofallmembers>
   </compounddef>

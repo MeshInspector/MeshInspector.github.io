@@ -13,6 +13,6 @@ var classmrmeshpy_1_1GraphVertId =
     [ "get", "classmrmeshpy_1_1GraphVertId.html#a6813b5171d45532069c99f9bf6c99832", null ],
     [ "operator", "classmrmeshpy_1_1GraphVertId.html#aa976c95a040c2ef8ae98f20c5542a9b1", null ],
     [ "operator", "classmrmeshpy_1_1GraphVertId.html#aea5723ff8b7043b06ba0720f86cf7bac", null ],
-    [ "operatorminusminus", "classmrmeshpy_1_1GraphVertId.html#a82a8c31ad0980e28bb183c8b00117480", null ],
+    [ "operator_minus_minus", "classmrmeshpy_1_1GraphVertId.html#a7d431a7e6827f7b75173c7b08ba483be", null ],
     [ "valid", "classmrmeshpy_1_1GraphVertId.html#adb1fbc8d900eb1256a7ceaf4c8cd62f9", null ]
 ];

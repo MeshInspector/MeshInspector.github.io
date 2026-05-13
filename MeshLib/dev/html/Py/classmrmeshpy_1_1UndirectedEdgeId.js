@@ -15,6 +15,6 @@ var classmrmeshpy_1_1UndirectedEdgeId =
     [ "get", "classmrmeshpy_1_1UndirectedEdgeId.html#a64898b84557dbe1dc53e90fa0695e1d0", null ],
     [ "operator", "classmrmeshpy_1_1UndirectedEdgeId.html#a5dea9e8b2a47beb893bf745b6c41ab65", null ],
     [ "operator", "classmrmeshpy_1_1UndirectedEdgeId.html#acde2dcc35748279bf8820ae90058b85a", null ],
-    [ "operatorminusminus", "classmrmeshpy_1_1UndirectedEdgeId.html#ad42c2659512b9216cb4f7670e7a7282f", null ],
+    [ "operator_minus_minus", "classmrmeshpy_1_1UndirectedEdgeId.html#a588c6bf376b31e18fed7f718e98aa136", null ],
     [ "valid", "classmrmeshpy_1_1UndirectedEdgeId.html#a28ce1129e2f80d774236b7b29fcbaa7e", null ]
 ];

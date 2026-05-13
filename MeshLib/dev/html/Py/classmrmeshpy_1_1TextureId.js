@@ -13,6 +13,6 @@ var classmrmeshpy_1_1TextureId =
     [ "get", "classmrmeshpy_1_1TextureId.html#ad021a7cd788ce697331322ec67bc2f34", null ],
     [ "operator", "classmrmeshpy_1_1TextureId.html#a09f2d45885e9ecf1915b10c1408496b8", null ],
     [ "operator", "classmrmeshpy_1_1TextureId.html#a88ac2311a4f50f8e2e668b7dae5efe7b", null ],
-    [ "operatorminusminus", "classmrmeshpy_1_1TextureId.html#a68983179fd731eec7919f0a372a687dc", null ],
+    [ "operator_minus_minus", "classmrmeshpy_1_1TextureId.html#adcb9b6d1ed66a7db2133b912903abd08", null ],
     [ "valid", "classmrmeshpy_1_1TextureId.html#a77643e14e0520cc32ea88ba250b255ea", null ]
 ];

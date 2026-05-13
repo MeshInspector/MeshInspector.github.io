@@ -15,6 +15,6 @@ var classmrmeshpy_1_1FaceId =
     [ "get", "classmrmeshpy_1_1FaceId.html#a5101d8518f1d765ec1d9daaad18566b8", null ],
     [ "operator", "classmrmeshpy_1_1FaceId.html#ad37ddf076d1c165242f77e6e178b815d", null ],
     [ "operator", "classmrmeshpy_1_1FaceId.html#a55c7017b0df01fb19cf2cb908a453765", null ],
-    [ "operatorminusminus", "classmrmeshpy_1_1FaceId.html#a1ddb098b3477726e3b550e8af09433ef", null ],
+    [ "operator_minus_minus", "classmrmeshpy_1_1FaceId.html#aa6929472d355141fc3bce8e59af20cf8", null ],
     [ "valid", "classmrmeshpy_1_1FaceId.html#a09a1703769021bc52b7850b1c90c0242", null ]
 ];

@@ -13,6 +13,6 @@ var classmrmeshpy_1_1RegionId =
     [ "get", "classmrmeshpy_1_1RegionId.html#a9cf2e6d2bdd7e37823137d92cf297731", null ],
     [ "operator", "classmrmeshpy_1_1RegionId.html#aa584b0df4b660fd2257a89eacd1f4d99", null ],
     [ "operator", "classmrmeshpy_1_1RegionId.html#a7c9320ac35650219f28484f1eed75eb4", null ],
-    [ "operatorminusminus", "classmrmeshpy_1_1RegionId.html#a4d6a2f4659a9a073fb2ed902358da692", null ],
+    [ "operator_minus_minus", "classmrmeshpy_1_1RegionId.html#a2610add934c8898485a3dbb4f0735cff", null ],
     [ "valid", "classmrmeshpy_1_1RegionId.html#a7d9b5c5096ede265948d880c172b5e53", null ]
 ];

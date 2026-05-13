@@ -13,6 +13,6 @@ var classmrmeshpy_1_1PixelId =
     [ "get", "classmrmeshpy_1_1PixelId.html#a6003bd6f3f71762c77778c55d28fd104", null ],
     [ "operator", "classmrmeshpy_1_1PixelId.html#a8487ab32aa9042b41610d474f8414e67", null ],
     [ "operator", "classmrmeshpy_1_1PixelId.html#adfb26f6b5b2c6e7b04c4e3a6ab8fb231", null ],
-    [ "operatorminusminus", "classmrmeshpy_1_1PixelId.html#a26b6dd46af395817523722fd2d836a69", null ],
+    [ "operator_minus_minus", "classmrmeshpy_1_1PixelId.html#ac76731b1f181d93c09d82ea2ffb099fe", null ],
     [ "valid", "classmrmeshpy_1_1PixelId.html#a8bbee8ae2b07d37e6a5ab963f5122df8", null ]
 ];
