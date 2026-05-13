@@ -16083,27 +16083,29 @@
     <member refid="group__LinesSaveGroup_1ga898bea8515e1d001f42894ee4fb6c304" kind="function"><name>toAnySupportedFormat</name></member>
   </compound>
   <compound refid="namespaceMR_1_1Locale" kind="namespace"><name>MR::Locale</name>
-    <member refid="namespaceMR_1_1Locale_1acf9ab5a5678259059e0f2cdfcbfc24a3" kind="variable"><name>cDefaultDomainId</name></member>
+    <member refid="namespaceMR_1_1Locale_1a323ddf10839ce4c1f89a4ce8a618d9dd" kind="variable"><name>defaultDomain</name></member>
+    <member refid="namespaceMR_1_1Locale_1a6d1d8a39e848466d43b87150df314423" kind="variable"><name>genericDomain</name></member>
     <member refid="group__GeneralGroup_1gac7ce006afd832c88e2d6e538a89162fe" kind="function"><name>translate_noop</name></member>
     <member refid="group__GeneralGroup_1ga022f7ba55e1f7b995ca4ec47fe14bbbd" kind="function"><name>translate_noop</name></member>
     <member refid="group__GeneralGroup_1ga58d357faefc457685d44349ecf1db539" kind="function"><name>translate_noop</name></member>
     <member refid="group__GeneralGroup_1ga08fd05e62fb11a0f42dd91e5095d72e2" kind="function"><name>translate_noop</name></member>
-    <member refid="namespaceMR_1_1Locale_1abc1a2b241d95e6d292c2e996f3a93abc" kind="function"><name>translate</name></member>
-    <member refid="namespaceMR_1_1Locale_1a836b5186324e726ed77eac3e5d8bef59" kind="function"><name>translate</name></member>
-    <member refid="namespaceMR_1_1Locale_1a82172733339865e25e09115a53405c8b" kind="function"><name>translate</name></member>
-    <member refid="namespaceMR_1_1Locale_1af1d4ca7e2ddfd6c99f792037f85e8e9f" kind="function"><name>translate</name></member>
-    <member refid="namespaceMR_1_1Locale_1a1a08f46a406ffa1177f0bc7ddc256420" kind="function"><name>translateAll</name></member>
-    <member refid="namespaceMR_1_1Locale_1ae7778d2b90b8fa306b88bb2838b03f4b" kind="function"><name>translateAll</name></member>
+    <member refid="namespaceMR_1_1Locale_1adee832f323bf10f63d7f84df3ab0706a" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1a615def11ffcc69c01e140830e4089143" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1a7a6baaee9364ca91893990d625ffad22" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1a376dbd60f9b2625fc6979be48a2cccde" kind="function"><name>translate</name></member>
+    <member refid="namespaceMR_1_1Locale_1a4e795222477384d08538440f4f75e119" kind="function"><name>translateAll</name></member>
+    <member refid="namespaceMR_1_1Locale_1a0497b23b1b4507cc31063bf4dc649412" kind="function"><name>translateAll</name></member>
     <member refid="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" kind="function"><name>get</name></member>
     <member refid="namespaceMR_1_1Locale_1a3fde71105ef842bfaaf870498be9222d" kind="function"><name>getName</name></member>
     <member refid="namespaceMR_1_1Locale_1a772085918dc6bb957c5b39523c10b1be" kind="function"><name>set</name></member>
     <member refid="namespaceMR_1_1Locale_1a9a635779fb2e857a50dd1e60b10b6f52" kind="function"><name>onChanged</name></member>
     <member refid="namespaceMR_1_1Locale_1a56715982039eac569ef53b82b086b1e3" kind="function"><name>getAvailableLocales</name></member>
     <member refid="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" kind="function"><name>addCatalogPath</name></member>
-    <member refid="namespaceMR_1_1Locale_1a1cd729fd79614986437db0277cb4abe1" kind="function"><name>addDomain</name></member>
-    <member refid="namespaceMR_1_1Locale_1acd9ed6845405949b57a5290a008d1726" kind="function"><name>addDomain</name></member>
+    <member refid="namespaceMR_1_1Locale_1a3e7da85aeeba196e0530b5014197fee8" kind="function"><name>addDomain</name></member>
+    <member refid="namespaceMR_1_1Locale_1a1033b99691304b7bf5dbac4565186c0a" kind="function"><name>addDomain</name></member>
     <member refid="namespaceMR_1_1Locale_1a88410b6d8ce80e2193cc71cb7bacaffb" kind="function"><name>findDomain</name></member>
     <member refid="namespaceMR_1_1Locale_1aa62b1ef17f1f450e22f59737f0c9beb4" kind="function"><name>findDomain</name></member>
+    <member refid="namespaceMR_1_1Locale_1a7affefe5778dbb68b23731f72e7405c0" kind="function"><name>getGenericDomains</name></member>
     <member refid="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" kind="function"><name>getDisplayName</name></member>
     <member refid="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" kind="function"><name>setDisplayName</name></member>
     <member refid="namespaceMR_1_1Locale_1af02f569db95efdd23e2994620a42b98c" kind="function"><name>getSystemLocales</name></member>

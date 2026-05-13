@@ -205,16 +205,16 @@ var NAVTREEINDEX =
 "group__PointCloudTriangulationGroup.html#ga667297e36f7837828ecea717d5be86ce",
 "group__TriangleIntersectionGroup.html#gab7bfc61216e86c7e985c25378fcc7bdb",
 "namespaceMR_1_1Cuda.html#abe48634df88da1f3afd905bbea765155",
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a51051623b92f12d20be6b1cb0b6415b7",
-"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62",
-"structMR_1_1DecimatePolylineSettings.html",
-"structMR_1_1FixCreasesParams.html#a279d3fb54a0fb0946a220b96b62e06cc",
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a58f5f1024004e4faebc6f17c3c1ef67f",
-"structMR_1_1McpGateway_1_1Config.html#a86f0334549cd5d86f3144500efa3159b",
-"structMR_1_1MeshPoint.html",
-"structMR_1_1PointsLoad_1_1PointsLoader.html#a4cd96c08ac7c58d159d713edac45f799",
-"structMR_1_1SpaceMouse_1_1Parameters.html",
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#aaa2f88e1c672ce3881f126bcb168693b"
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a4d9c5d17e18eddc0250a2891edbaaa95",
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a",
+"structMR_1_1CutMeshResult.html",
+"structMR_1_1FitDataParams.html",
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a2336292a36c4f80334c9d987104aa00a",
+"structMR_1_1McpGateway_1_1Config.html#a743ff58ef28a77d569366aeaadba67a6",
+"structMR_1_1MeshOrPointsXf.html",
+"structMR_1_1PointsLoad_1_1PointsLoader.html",
+"structMR_1_1SpaceMouse_1_1Action.html#a9f738832ba0bcc3dc83935d0197ee0e9",
+"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#aa7bef794128e145f7ef27bb57872e2de"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
