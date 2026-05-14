@@ -143,81 +143,241 @@ $(function(){initNavTree('HowtoAddPluginOverview.html','',''); });
 <div class="toc"><h3>Table of Contents</h3>
 <ul>
   <li class="level1">
-    <a href="#autotoc_md92">Add Your Own Plugin to MeshInspector/MeshLib </a>
+    <a href="#autotoc_md95">Add Your Own Plugin to MeshInspector / MeshLib </a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md93">What Is a Plugin? </a>
+        <a href="#autotoc_md96">What is a plugin? </a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md94">Why One Might Need a MeshLib Plugin </a>
+            <a href="#autotoc_md97">Why one might need a plugin </a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md95">Additional Resources </a>
-          </li>
-        </ul>
-      </li>
-      <li class="level2">
-        <a href="#autotoc_md96">How to Add the Plugin to MeshLib or MeshInspector </a>
-        <ul>
-          <li class="level3">
-            <a href="#autotoc_md97">MeshLib </a>
-          </li>
-          <li class="level3">
-            <a href="#autotoc_md98">MeshInspector </a>
+            <a href="#autotoc_md98">Prerequisites and pointers </a>
           </li>
         </ul>
       </li>
     </ul>
   </li>
   <li class="level1">
-    <a href="#autotoc_md99">Final reminder </a>
+    <a href="#HowtoAddPluginOverview_TrustModel">Trust &amp; safety </a>
+    <ul>
+      <li class="level2">
+        <a href="#autotoc_md99">What a plugin distribution looks like </a>
+      </li>
+      <li class="level2">
+        <a href="#autotoc_md100">How to install the plugin </a>
+        <ul>
+          <li class="level3">
+            <a href="#autotoc_md101">Windows </a>
+          </li>
+          <li class="level3">
+            <a href="#autotoc_md102">Linux </a>
+          </li>
+          <li class="level3">
+            <a href="#autotoc_md103">macOS (arm64 / Intel) </a>
+            <ul>
+              <li class="level4">
+                <a href="#autotoc_md104">macOS — option A: install into a user-owned clone (recommended) </a>
+              </li>
+              <li class="level4">
+                <a href="#autotoc_md105">macOS — option B: install into the system MeshInspector.app (advanced) </a>
+              </li>
+              <li class="level4">
+                <a href="#autotoc_md106">macOS — building plugins so they actually load </a>
+              </li>
+              <li class="level4">
+                <a href="#autotoc_md107">macOS — SONAME mismatches </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="level1">
+    <a href="#HowtoAddPluginOverview_VerifyInstall">Verifying the install </a>
+    <ul>
+      <li class="level2 empty">
+        <ul>
+          <li class="level3 empty">
+            <ul>
+              <li class="level4">
+                <a href="#autotoc_md108">Common failure modes </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="level1">
+    <a href="#HowtoAddPluginOverview_Uninstall">Uninstall </a>
+  </li>
+  <li class="level1">
+    <a href="#HowtoAddPluginOverview_VersionCompatibility">Version compatibility </a>
   </li>
 </ul>
 </div>
-<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md92"></a>
-Add Your Own Plugin to MeshInspector/MeshLib</h1>
-<h2 class="doxsection"><a class="anchor" id="autotoc_md93"></a>
-What Is a Plugin?</h2>
-<p>With both MeshLib and MeshInspector, a plugin is a separately compiled module that extends their functionality without modifying the core library. This modular approach enables developers to add new tools or features tailored to specific project requirements, to both MeshLib as a library and MeshInspector as a standalone app.</p>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md94"></a>
-Why One Might Need a MeshLib Plugin</h3>
-<ul>
-<li>Integration with existing MeshLib-based projects. Add custom 3D processing features to enhance specialized workflows.</li>
-<li>Extending the MeshInspector application. Introduce additional functionalities (e.g., new inspection or repair tools) to complement the existing toolset.</li>
-</ul>
-<h3 class="doxsection"><a class="anchor" id="autotoc_md95"></a>
-Additional Resources</h3>
-<p>For more info, visit:</p>
-<ul>
-<li><a class="el" href="FirstPluginTutorial.html">Plugin Creation Outline</a> with a step-by-step guide on setting up a plugin project, including compiling the plugin, configuring Visual Studio, and verifying functionality within MeshLib or MeshInspector</li>
-<li><a class="el" href="ExamplePluginOverview.html">Plugin Example</a> with a full-fledged sample of a C++ plugin with Visual Studio project files, source code for basic tools, and instructions on deploying the plugin in MeshLib or MeshInspector.</li>
-</ul>
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="autotoc_md95"></a>
+Add Your Own Plugin to MeshInspector / MeshLib</h1>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md96"></a>
-How to Add the Plugin to MeshLib or MeshInspector</h2>
-<p>Once you have compiled your plugin, follow these steps:</p>
+What is a plugin?</h2>
+<p>A plugin is a separately compiled module that extends the functionality of MeshLib (as a library) or MeshInspector (as a standalone app) <b>without modifying the core</b>. Each plugin is one shared library plus a couple of small JSON files that describe its ribbon items and where they appear in the UI.</p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md97"></a>
-MeshLib</h3>
+Why one might need a plugin</h3>
 <ul>
-<li>Locate your plugin’s x64\Release (or x64\Debug) output folder.</li>
-<li>Copy all files from this folder into the corresponding MeshLib install folder (e.g., install\app\Release or install\app\Debug).</li>
-<li>Ensure the MeshLib version used to build your plugin matches the installed version in install\app.</li>
+<li>Integration with existing MeshLib-based projects: add custom 3D processing features to specialized workflows.</li>
+<li>Extending MeshInspector: introduce additional inspection or repair tools that complement the built-in toolset.</li>
 </ul>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md98"></a>
-MeshInspector</h3>
-<ul>
-<li>Locate your plugin’s x64\Release output folder.</li>
-<li>Copy all files from this folder into the C:\Program Files\MeshInspector\MeshInspector folder (or your MeshInspector installation folder).</li>
-<li>Confirm that the MeshLib version used by MeshInspector matches the one used to compile your plugin.</li>
+Prerequisites and pointers</h3>
+<p>Before deploying anything, make sure your build matches the host you are deploying to — see <a class="el" href="#HowtoAddPluginOverview_VersionCompatibility">Version compatibility</a> at the end of this page.</p>
+<p>To actually build a plugin, see:</p><ul>
+<li><a class="el" href="FirstPluginTutorial.html">How to create a first plugin using MeshLib C++ on Windows</a> — step-by-step Visual Studio walkthrough for your first "Hello World" plugin.</li>
+<li><a class="el" href="ExamplePluginOverview.html">C++ Example Plugin Overview</a> — a fully-fledged C++ sample with CMake, source, JSON and icons.</li>
 </ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md99"></a>
-Final reminder</h1>
-<p>MeshLib and MeshInspector rely on a specific SDK version. Verify that the version used during plugin compilation is the same as:</p>
-<ul>
-<li>With MeshLib, the version you have installed, keep track of it. Save it for your info. Also, depending on how you have installed MeshLib, there are two ways to find out what your version is.</li>
-<li>If using the provided archive: Look for the <b>mr.version</b> file. This file is typically located in <b>install\app\Debug</b> and <b>install\app\Release</b></li>
-<li>With MeshInspector, launch MeshInspector, go to Home → About, and note the MeshInspector Version displayed.</li>
+<h1 class="doxsection"><a class="anchor" id="HowtoAddPluginOverview_TrustModel"></a>
+Trust &amp; safety</h1>
+<p>A plugin is <b>native code</b> that is dynamically loaded into the host process and runs with the <b>same privileges as MeshInspector itself</b>: it can read and write the user's files, open network connections, access cameras and microphones, and call any system API. There is no sandbox.</p>
+<dl class="section warning"><dt>Warning</dt><dd>Treat plugin binaries the way you treat any other executable from the internet.<ul>
+<li>Install only plugins from sources you trust.</li>
+<li>For binaries from third parties, prefer those distributed with source code or signed by a known developer.</li>
+<li>Verify checksums when offered; refuse zip files that contain unexpected extra binaries.</li>
+<li>On corporate or shared machines, ask whether your security policy allows side-loading native code into <span class="tt">/Applications</span>, <span class="tt">/usr/lib</span>, or <span class="tt">C:\Program Files</span>.</li>
 </ul>
-<p>It is recommended to use the latest version of both MeshLib and MeshInspector to avoid mismatches and potential errors. </p>
+</dd></dl>
+<p>When in doubt, install into a user-writable copy of the host (the cloned-folder approach described in the macOS section) rather than into the system-managed install. That way no audit trail or signature on the original install is touched.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md99"></a>
+What a plugin distribution looks like</h2>
+<p>Whether you built the plugin yourself or received it as an archive, it must contain three things:</p>
+<ol type="1">
+<li><b>The compiled shared library</b>: <span class="tt">MyPlugin.dll</span> on Windows, <span class="tt">libMyPlugin.so</span> on Linux, <span class="tt">libMyPlugin.dylib</span> on macOS.</li>
+<li><b>Two JSON descriptors</b>: <span class="tt">*.items.json</span> (ribbon item definitions — name, tooltip, icon glyph) and <span class="tt">*.ui.json</span> (where items appear in the ribbon — tab/group, plus the host-relative load <span class="tt">Order</span>).</li>
+<li><em>Optionally</em> a <span class="tt">resource/icons/{X0_5,X0_75,X1,X3}/</span> folder with PNG icons in four sizes. If absent, the host falls back to the FontAwesome glyph specified in <span class="tt">items.json</span>.</li>
+</ol>
+<p>If a colleague handed you a zip, expect that exact layout. If you compiled it yourself, see <a class="el" href="ExamplePluginOverview.html">C++ Example Plugin Overview</a> for what the build output should look like and how to wire <span class="tt">*.items.json</span> / <span class="tt">*.ui.json</span> to the source.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md100"></a>
+How to install the plugin</h2>
+<dl class="section warning"><dt>Warning</dt><dd>Quit the host application before copying. Running processes hold the dylibs open; the copy will fail or — worse — appear to succeed but be silently ignored until next restart anyway.</dd></dl>
+<p>The exact target locations differ per platform.</p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md101"></a>
+Windows</h3>
+<dl class="section note"><dt>Note</dt><dd>On Windows, dropping files into <span class="tt">C:\Program Files\</span> requires Administrator. Open <span class="tt">cmd.exe</span> or PowerShell with <b>Run as administrator</b> (right-click the icon → "Run as administrator"), then run <span class="tt">copy</span> from there. Alternatively, use Explorer — it will pop a UAC prompt for the same purpose.</dd></dl>
+<p>For an installed MeshInspector: </p><div class="fragment"><div class="line">copy MyPlugin.dll          &quot;C:\Program Files\MeshInspector\MeshInspector\&quot;</div>
+<div class="line">copy MyPlugin.items.json   &quot;C:\Program Files\MeshInspector\MeshInspector\&quot;</div>
+<div class="line">copy MyPlugin.ui.json      &quot;C:\Program Files\MeshInspector\MeshInspector\&quot;</div>
+<div class="line">xcopy /E /I resource       &quot;C:\Program Files\MeshInspector\MeshInspector\resource&quot;</div>
+</div><!-- fragment --><p>For the MeshLib SDK archive, copy the same files into <span class="tt">install\app\Release</span> (or <span class="tt">install\app\Debug</span>).</p>
+<dl class="section warning"><dt>Warning</dt><dd>On Windows, mismatching CRT (Debug-built plugin against Release-installed app, or vice versa) crashes on load. Build with the same configuration as the host you target. If the host is the official MeshInspector installer, that is <b>Release</b>.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd><b>Antivirus / SmartScreen</b>: a freshly written <span class="tt">.dll</span> in <span class="tt">C:\Program Files\</span> may be flagged or quarantined. If your plugin disappears immediately after copying, check the Windows Security → Protection History and add an exception, or sign the dylib with a developer certificate.</dd></dl>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md102"></a>
+Linux</h3>
+<p>For the official <span class="tt">.deb</span> of MeshInspector, plugin libraries live next to the other shared libraries and JSON descriptors next to other resources:</p>
+<div class="fragment"><div class="line">sudo cp libMyPlugin.so                     /usr/lib/MeshInspector/</div>
+<div class="line">sudo cp MyPlugin.items.json MyPlugin.ui.json /usr/share/MeshInspector/</div>
+<div class="line">sudo cp -R resource                        /usr/share/MeshInspector/</div>
+</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>If you installed MeshInspector via a different channel (tarball, AppImage, source build), the directory layout differs. You can list the canonical locations with: <div class="fragment"><div class="line">dpkg -L meshinspector | grep -E &quot;MRPlugins|share/MeshInspector&quot;     # .deb installs</div>
+</div><!-- fragment --> For an SDK archive build, copy into <span class="tt">install/app/Release/</span> — same layout as Windows.</dd></dl>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md103"></a>
+macOS (arm64 / Intel)</h3>
+<p>There are two paths on macOS. The <b>first one is safer</b>: it does not modify the official <span class="tt">MeshInspector.app</span> bundle on your system, so the installed app remains intact and updates continue to work normally. Pick the second one only if you knowingly want a system-wide install.</p>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md104"></a>
+macOS — option A: install into a user-owned clone (recommended)</h4>
+<p>Copy the host application to a writable folder, deploy the plugin there, and launch from the clone:</p>
+<div class="fragment"><div class="line">mkdir -p ~/Apps</div>
+<div class="line">cp -R /Applications/MeshInspector.app ~/Apps/MI-MyPlugin     # NB: drop the .app suffix</div>
+<div class="line"> </div>
+<div class="line">cp libMyPlugin.dylib                    ~/Apps/MI-MyPlugin/Contents/libs/</div>
+<div class="line">cp MyPlugin.items.json MyPlugin.ui.json ~/Apps/MI-MyPlugin/Contents/Resources/</div>
+<div class="line">cp -R resource                          ~/Apps/MI-MyPlugin/Contents/Resources/</div>
+<div class="line"> </div>
+<div class="line"># Launch:</div>
+<div class="line">~/Apps/MI-MyPlugin/Contents/MacOS/MeshInspector</div>
+</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>Why drop the <span class="tt">.app</span> suffix? macOS App Bundle Protection blocks writes inside any <span class="tt">.app</span> directory — even when you own it — unless the call comes from <span class="tt">sudo</span>. A directory without the <span class="tt">.app</span> extension is treated as a regular folder and is freely writable.</dd>
+<dd>
+<b>Gatekeeper warning on first launch.</b> macOS may attach <span class="tt">com.apple.quarantine</span> to files copied via <span class="tt">cp -R</span>. Launching the binary from the clone may show a "developer cannot be verified" prompt the first time, which goes away after you accept it. To suppress in advance: <div class="fragment"><div class="line">xattr -dr com.apple.quarantine ~/Apps/MI-MyPlugin</div>
+</div><!-- fragment --></dd></dl>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md105"></a>
+macOS — option B: install into the system MeshInspector.app (advanced)</h4>
+<p>This writes directly into the notarized app bundle. <b>It is system-wide and breaks the bundle's code signature</b> — Gatekeeper may block subsequent launches or warn that the app is "damaged", and the auto-updater (Sparkle) may overwrite your plugin on the next MeshInspector update. Use this only if you understand the trade-off.</p>
+<div class="fragment"><div class="line">sudo cp libMyPlugin.dylib                    /Applications/MeshInspector.app/Contents/libs/</div>
+<div class="line">sudo cp MyPlugin.items.json MyPlugin.ui.json /Applications/MeshInspector.app/Contents/Resources/</div>
+<div class="line">sudo cp -R resource                          /Applications/MeshInspector.app/Contents/Resources/</div>
+</div><!-- fragment --><p>If Gatekeeper subsequently refuses to launch the app, re-sign the bundle with an ad-hoc signature: </p><div class="fragment"><div class="line">sudo codesign --force --deep --sign - /Applications/MeshInspector.app</div>
+</div><!-- fragment --><dl class="section warning"><dt>Warning</dt><dd>Only do this with a plugin from a source you trust. A malicious <span class="tt">.dylib</span> placed in <span class="tt">/Applications/MeshInspector.app/Contents/libs/</span> runs every time anyone on the machine launches MeshInspector.</dd></dl>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md106"></a>
+macOS — building plugins so they actually load</h4>
+<p>Plugins built on a developer machine often link against absolute Homebrew paths (<span class="tt">/opt/homebrew/opt/jsoncpp/lib/libjsoncpp.27.dylib</span>). When that exact dylib does not exist on the host machine — say the user has a different <span class="tt">jsoncpp</span> version — <span class="tt">dlopen</span> fails. Build the plugin so its dependencies resolve <b>relative to the host app</b>.</p>
+<p>In CMake, declare an install RPATH and force it into the build artifact:</p>
+<div class="fragment"><div class="line">set_target_properties(MyPlugin PROPERTIES</div>
+<div class="line">    INSTALL_RPATH &quot;@executable_path/../libs&quot;</div>
+<div class="line">    BUILD_WITH_INSTALL_RPATH ON   # apply RPATH at build time, not only on `cmake --install`</div>
+<div class="line">)</div>
+</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>Without <span class="tt">BUILD_WITH_INSTALL_RPATH ON</span>, the install RPATH only takes effect when you run <span class="tt">cmake --install</span>. If you skip the install step (most plugin authors do), the dylib in the build directory still has the build-tree RPATH and dlopen will not find the host's libraries.</dd></dl>
+<p>After the build, audit the dependencies — they must all be one of: a system path under <span class="tt">/usr/lib/</span>, an <span class="tt">@rpath/...</span> reference, or <span class="tt">@executable_path/../libs/...</span>:</p>
+<div class="fragment"><div class="line">otool -L libMyPlugin.dylib</div>
+</div><!-- fragment --><p>If you still see absolute Homebrew paths, retarget them. <b>First read your own dylib's deps and substitute your actual versions</b> — do not copy the example below verbatim:</p>
+<div class="fragment"><div class="line"># 1) Find what your plugin actually links to:</div>
+<div class="line">otool -L libMyPlugin.dylib | grep homebrew</div>
+<div class="line"> </div>
+<div class="line"># 2) For every offending line, run install_name_tool -change.</div>
+<div class="line">#    Replace these example versions with what otool printed.</div>
+<div class="line">install_name_tool \</div>
+<div class="line">    -change /opt/homebrew/opt/jsoncpp/lib/libjsoncpp.27.dylib \</div>
+<div class="line">            @executable_path/../libs/libjsoncpp.27.dylib \</div>
+<div class="line">    -change /opt/homebrew/opt/cpr/lib/libcpr.1.dylib \</div>
+<div class="line">            @executable_path/../libs/libcpr.1.dylib \</div>
+<div class="line">    libMyPlugin.dylib</div>
+</div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>Intel Macs (<span class="tt">x86_64</span>) use <span class="tt">/usr/local/opt/...</span> instead of <span class="tt">/opt/homebrew/opt/...</span>. Adjust accordingly.</dd></dl>
+<h4 class="doxsection"><a class="anchor" id="autotoc_md107"></a>
+macOS — SONAME mismatches</h4>
+<p>Plugins typically link against the short SONAME (e.g. <span class="tt">libcpr.1.dylib</span>), but a MeshInspector bundle ships only the fully-versioned file (<span class="tt">libcpr.1.14.2.dylib</span>). dyld will not synthesize the missing short name — create the symlink once during install:</p>
+<div class="fragment"><div class="line"># In the user-writable clone:</div>
+<div class="line">ln -sf libcpr.1.14.2.dylib ~/Apps/MI-MyPlugin/Contents/libs/libcpr.1.dylib</div>
+<div class="line"> </div>
+<div class="line"># In /Applications (option B):</div>
+<div class="line">sudo ln -sf libcpr.1.14.2.dylib /Applications/MeshInspector.app/Contents/libs/libcpr.1.dylib</div>
+</div><!-- fragment --><p>You only need this when the file the host shipped under <span class="tt">Contents/libs/</span> does not match the SONAME your plugin asks for. <span class="tt">otool -L</span> shows the SONAME your plugin needs; <span class="tt">ls /path/to/libs/</span> shows what the host shipped.</p>
+<h1 class="doxsection"><a class="anchor" id="HowtoAddPluginOverview_VerifyInstall"></a>
+Verifying the install</h1>
+<p>Launch the host application and inspect the log file:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Platform  </th><th class="markdownTableHeadNone">Path  </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Windows  </td><td class="markdownTableBodyNone"><span class="tt">TEMP%\MeshInspector\Logs\MRLog_*.txt</span> (typically <span class="tt">C:\Users\&lt;you&gt;\AppData\Local\Temp\MeshInspector\Logs\</span>)  </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Linux  </td><td class="markdownTableBodyNone"><span class="tt">/tmp/MeshInspector/Logs/MRLog_*.txt</span>  </td></tr>
+</table>
+<p>| macOS | <span class="tt">$TMPDIR/MeshInspector/Logs/MRLog_*.txt</span> (resolves under <span class="tt">/var/folders/.../</span>; <span class="tt">ls -t $TMPDIR/MeshInspector/Logs/MRLog_*.txt | head -1</span> shows the latest) |</p>
+<p>A successful install shows two lines per plugin: </p><div class="fragment"><div class="line">[info] Loading library MyPlugin with priority 999</div>
+<div class="line">[info] Load library MyPlugin was successful</div>
+</div><!-- fragment --><h4 class="doxsection"><a class="anchor" id="autotoc_md108"></a>
+Common failure modes</h4>
+<p>"Ribbon item \"My Tool\" is not registered"** — the <span class="tt">Name</span> field in <span class="tt">*.items.json</span> does not match the string passed to <span class="tt">RibbonMenuItem("...")</span> (or <span class="tt">StatePlugin("...")</span>) in the source. Names are byte-identical strings; "My Tool" and "MyTool" are different. Fix the JSON or the source so they match exactly.</p>
+<p>"Library not loaded: /opt/homebrew/...libjsoncpp.26.dylib"** — your plugin links against a library version that the host does not ship. Rebuild on the developer machine with <span class="tt">INSTALL_RPATH "@executable_path/../libs"</span> (see above), or patch the existing binary with <span class="tt">install_name_tool</span>. The number after the dot is the library SONAME, not a path; <span class="tt">26</span> and <span class="tt">27</span> are different ABIs.</p>
+<p>"Library not loaded: @executable_path/../libs/libcpr.1.dylib"** — short SONAME missing in the host's <span class="tt">libs/</span>. Create the symlink as shown in "SONAME mismatches" above.</p>
+<p>Plugin loads but ribbon button does not appear** — <span class="tt">*.ui.json</span> references a tab or group that does not exist, or the <span class="tt">Order</span> value collides with another plugin. Check that <span class="tt">Tabs[].Name</span> matches an existing tab (e.g. <span class="tt">Home</span>, <span class="tt">Mesh Edit</span>) and that <span class="tt">Groups[].Name</span> matches a group inside that tab.</p>
+<p>Plugin loads but no items show** — your <span class="tt">LibName</span> in <span class="tt">*.ui.json</span> does not match the produced library file name (without the <span class="tt">lib</span> prefix and <span class="tt">.dylib</span>/<span class="tt">.so</span>/<span class="tt">.dll</span> suffix). For <span class="tt">libMyPlugin.dylib</span>, <span class="tt">LibName</span> must be <span class="tt">MyPlugin</span>.</p>
+<h1 class="doxsection"><a class="anchor" id="HowtoAddPluginOverview_Uninstall"></a>
+Uninstall</h1>
+<p>Quit the host, then delete the three sets of files you copied during install. Example for the macOS user-clone case:</p>
+<div class="fragment"><div class="line">rm ~/Apps/MI-MyPlugin/Contents/libs/libMyPlugin.dylib</div>
+<div class="line">rm ~/Apps/MI-MyPlugin/Contents/Resources/MyPlugin.items.json</div>
+<div class="line">rm ~/Apps/MI-MyPlugin/Contents/Resources/MyPlugin.ui.json</div>
+<div class="line">rm -rf ~/Apps/MI-MyPlugin/Contents/Resources/resource     # only if you copied it</div>
+</div><!-- fragment --><p>For the macOS option B install, the same three <span class="tt">rm</span> commands prefixed with <span class="tt">sudo</span> and pointing at <span class="tt">/Applications/MeshInspector.app/Contents/...</span>. The <span class="tt">libcpr.1.dylib</span> symlink you may have added is safe to leave in place, or remove with <span class="tt">rm</span>.</p>
+<p>For Windows and Linux, delete the same three sets of files from the install directory you copied them to.</p>
+<h1 class="doxsection"><a class="anchor" id="HowtoAddPluginOverview_VersionCompatibility"></a>
+Version compatibility</h1>
+<p>A plugin is ABI-coupled to the MeshLib version it was compiled against. Mismatched versions typically manifest as either an immediate <span class="tt">dlopen</span>/<span class="tt">LoadLibrary</span> failure or a crash inside the plugin on first call.</p>
+<p>To check which version you have installed:</p>
+<ul>
+<li><b>MeshLib SDK archive</b>: open <span class="tt">install/app/Release/mr.version</span> (or the same file under <span class="tt">Debug</span>).</li>
+<li><b>MeshInspector</b>: launch it and go to <b>Home → About</b>. Note the displayed version.</li>
+</ul>
+<p>To check what version your plugin was built against, look at the MeshLib include headers your CMake/MSBuild project resolved against — they are tagged with the same SDK version.</p>
+<p>If the two do not match, either rebuild the plugin against the matching SDK or upgrade/downgrade the host. Always prefer the latest version of both for the smallest gap with documentation and the largest set of fixed bugs. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
