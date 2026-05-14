@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRI18n.h" line="56" column="13" bodyfile="MRViewer/MRI18n.h" bodystart="56" bodyend="-1"/>
+        <location file="MRViewer/MRI18n.h" line="55" column="9" bodyfile="MRViewer/MRI18n.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRI18n_8h_1ad186f1135eca2f5c984d81d38d6fde5e" prot="public" static="no">
         <name>s_tr</name>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRI18n.h" line="57" column="13" bodyfile="MRViewer/MRI18n.h" bodystart="57" bodyend="-1"/>
+        <location file="MRViewer/MRI18n.h" line="56" column="9" bodyfile="MRViewer/MRI18n.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRI18n_8h_1a33873d54d36dc3bf7a6a77bf40461701" prot="public" static="no">
         <name>f_tr</name>
@@ -173,7 +173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRI18n.h" line="58" column="13" bodyfile="MRViewer/MRI18n.h" bodystart="58" bodyend="-1"/>
+        <location file="MRViewer/MRI18n.h" line="57" column="9" bodyfile="MRViewer/MRI18n.h" bodystart="57" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -227,16 +227,10 @@
 <codeline lineno="52"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MR_NO_I18N_MACROS</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRVIEWER_NO_LOCALE</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRI18n_8h_1adc6632164911ac0de8387a9b13de000e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>).c_str()</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="MRI18n_8h_1ad186f1135eca2f5c984d81d38d6fde5e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>s_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRI18n_8h_1a33873d54d36dc3bf7a6a77bf40461701" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>f_tr(<sp/>...<sp/>)<sp/>fmt::runtime(<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>s_tr(<sp/>...<sp/>)<sp/>std::string(<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>f_tr(<sp/>...<sp/>)<sp/>fmt::runtime(<sp/>MR::Locale::translate_noop(<sp/>__VA_ARGS__<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRI18n_8h_1adc6632164911ac0de8387a9b13de000e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>).c_str()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRI18n_8h_1ad186f1135eca2f5c984d81d38d6fde5e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>s_tr(<sp/>...<sp/>)<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRI18n_8h_1a33873d54d36dc3bf7a6a77bf40461701" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>f_tr(<sp/>...<sp/>)<sp/>fmt::runtime(<sp/>MR::Locale::translate(<sp/>__VA_ARGS__<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="MRViewer/MRI18n.h"/>
   </compounddef>
