@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"classMR_1_1Const__Quaternionf.html#a7bb8fabf33cf342b5381c4bb0e2b9d4b":[6,3,0,0,0,753,5],
 "classMR_1_1Const__Quaternionf.html#a7d52aead5064aa12bc105baa1f6d48b9":[6,3,0,0,0,753,14],
 "classMR_1_1Const__Quaternionf.html#a851554426a977f88d60f00fcedd0ef28":[6,3,0,0,0,753,23],
 "classMR_1_1Const__Quaternionf.html#a99474ae49951e501c0aecba986ead6dd":[6,3,0,0,0,753,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "classMR_1_1Const__RegionBitSet.html#a99ca02685d9bd0d986ac7e8e5cd5a498":[6,3,0,0,0,761,23],
 "classMR_1_1Const__RegionBitSet.html#a9ee0950c861c2cb3c0bbe19e05373ffc":[6,3,0,0,0,761,33],
 "classMR_1_1Const__RegionBitSet.html#aa1deeb11a7f3bb4d23f4cd4950d8fede":[6,3,0,0,0,761,25],
-"classMR_1_1Const__RegionBitSet.html#aa403b691cb1765fd03cf88b63d1e34e1":[6,3,0,0,0,761,48],
-"classMR_1_1Const__RegionBitSet.html#aa7806b54e0eb3d7cacf0af041df48c00":[6,3,0,0,0,761,12]
+"classMR_1_1Const__RegionBitSet.html#aa403b691cb1765fd03cf88b63d1e34e1":[6,3,0,0,0,761,48]
 };

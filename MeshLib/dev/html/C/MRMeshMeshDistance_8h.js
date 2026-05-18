@@ -9,7 +9,8 @@ var MRMeshMeshDistance_8h =
       [ "MR_MeshMeshCollisionStatus_AInside", "MRMeshMeshDistance_8h.html#af5d6eaeae1f8126e28c3d65b47bbef83acaf00d12fe13afa3c1a7b6a0dce0ff8e", null ],
       [ "MR_MeshMeshCollisionStatus_BInside", "MRMeshMeshDistance_8h.html#af5d6eaeae1f8126e28c3d65b47bbef83a704c72b2651d9cf6e42b89c8fb89c9a4", null ],
       [ "MR_MeshMeshCollisionStatus_Colliding", "MRMeshMeshDistance_8h.html#af5d6eaeae1f8126e28c3d65b47bbef83a431b1febbaa4db72377a6c4c07acb2c0", null ],
-      [ "MR_MeshMeshCollisionStatus_Touching", "MRMeshMeshDistance_8h.html#af5d6eaeae1f8126e28c3d65b47bbef83aa6cf0947b83955fdcd448cebbabf4c00", null ]
+      [ "MR_MeshMeshCollisionStatus_Touching", "MRMeshMeshDistance_8h.html#af5d6eaeae1f8126e28c3d65b47bbef83aa6cf0947b83955fdcd448cebbabf4c00", null ],
+      [ "MR_MeshMeshCollisionStatus_NotColliding", "MRMeshMeshDistance_8h.html#af5d6eaeae1f8126e28c3d65b47bbef83ac444f3afb62751730db18aca4dc3d0b3", null ]
     ] ],
     [ "MR_findCollisionStatus_3", "MRMeshMeshDistance_8h.html#a867cd37c7bd2ce7b00746d9f0143e890", null ],
     [ "MR_findCollisionStatus_5", "MRMeshMeshDistance_8h.html#aa60c6f198d7cd7932aa76e42e38f3d8b", null ],

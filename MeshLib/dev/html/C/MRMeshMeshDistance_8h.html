@@ -165,6 +165,7 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83a431b1febbaa4db72377a6c4c07acb2c0">MR_MeshMeshCollisionStatus_Colliding</a> = 4
 , <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83aa6cf0947b83955fdcd448cebbabf4c00">MR_MeshMeshCollisionStatus_Touching</a> = 5
+, <a class="el" href="#af5d6eaeae1f8126e28c3d65b47bbef83ac444f3afb62751730db18aca4dc3d0b3">MR_MeshMeshCollisionStatus_NotColliding</a> = 6
 <br />
  }</td></tr>
 </table><table class="memberdecls">
@@ -289,7 +290,9 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="af5d6eaeae1f8126e28c3d65b47bbef83acaf00d12fe13afa3c1a7b6a0dce0ff8e" name="af5d6eaeae1f8126e28c3d65b47bbef83acaf00d12fe13afa3c1a7b6a0dce0ff8e"></a>MR_MeshMeshCollisionStatus_AInside&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af5d6eaeae1f8126e28c3d65b47bbef83a704c72b2651d9cf6e42b89c8fb89c9a4" name="af5d6eaeae1f8126e28c3d65b47bbef83a704c72b2651d9cf6e42b89c8fb89c9a4"></a>MR_MeshMeshCollisionStatus_BInside&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af5d6eaeae1f8126e28c3d65b47bbef83a431b1febbaa4db72377a6c4c07acb2c0" name="af5d6eaeae1f8126e28c3d65b47bbef83a431b1febbaa4db72377a6c4c07acb2c0"></a>MR_MeshMeshCollisionStatus_Colliding&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af5d6eaeae1f8126e28c3d65b47bbef83aa6cf0947b83955fdcd448cebbabf4c00" name="af5d6eaeae1f8126e28c3d65b47bbef83aa6cf0947b83955fdcd448cebbabf4c00"></a>MR_MeshMeshCollisionStatus_Touching&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af5d6eaeae1f8126e28c3d65b47bbef83aa6cf0947b83955fdcd448cebbabf4c00" name="af5d6eaeae1f8126e28c3d65b47bbef83aa6cf0947b83955fdcd448cebbabf4c00"></a>MR_MeshMeshCollisionStatus_Touching&#160;</td><td class="fielddoc"><p>the meshes do not touch or collide one another, but inside/outside relation cannot be determined </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af5d6eaeae1f8126e28c3d65b47bbef83ac444f3afb62751730db18aca4dc3d0b3" name="af5d6eaeae1f8126e28c3d65b47bbef83ac444f3afb62751730db18aca4dc3d0b3"></a>MR_MeshMeshCollisionStatus_NotColliding&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -528,7 +531,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the positive distance in question, if the real distance is larger then the function exists returning upDistLimitSq and no valid points </td></tr>
+    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the squared distance in question, if the real distance is larger then the function exists returning +sqrt(upDistLimitSq) and no valid points </td></tr>
   </table>
   </dd>
 </dl>

@@ -3183,13 +3183,22 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="classMR_1a1cf37cd7b222ba87173bfdd5deb9eb39a0497a652be066f6f966a97fa6c67c9c0" prot="public">
+          <name>NotColliding</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+<para>the meshes do not touch or collide one another, but inside/outside relation cannot be determined </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="259" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="260" bodyend="267"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="259" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="260" bodyend="271"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1a62382e7777b8653845c52f97f4d1cef8" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -23660,7 +23669,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="549" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="549" bodyend="556"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="553" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="553" bodyend="560"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1af11021efa4a8fbedde739d07af5b8cc5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MeshMeshSignedDistanceResult" kindref="compound">MR.MeshMeshSignedDistanceResult</ref></type>
@@ -23703,7 +23712,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
 <parametername>upDistLimitSq</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>upper limit on the positive distance in question, if the real distance is larger then the function exists returning upDistLimitSq and no valid points </para>
+<para>upper limit on the squared distance in question, if the real distance is larger then the function exists returning +sqrt(upDistLimitSq) and no valid points </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -23713,7 +23722,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="566" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="566" bodyend="573"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="570" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="570" bodyend="577"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a365ddaac42ed576130e880a13d39a9d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1a1cf37cd7b222ba87173bfdd5deb9eb39" kindref="member">MR.MeshMeshCollisionStatus</ref></type>
@@ -23751,7 +23760,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="580" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="580" bodyend="586"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="584" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="584" bodyend="590"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a900d3953a566048b43bc60ce0b7aea41" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1a1cf37cd7b222ba87173bfdd5deb9eb39" kindref="member">MR.MeshMeshCollisionStatus</ref></type>
@@ -23814,7 +23823,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="595" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="595" bodyend="601"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="599" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="599" bodyend="605"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a3fd71ea2dd3e1993abb8233fd95ff43d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
@@ -23865,7 +23874,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="610" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="610" bodyend="617"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="614" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="614" bodyend="621"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a76dd6a520998891817cc60f00d838162" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
@@ -23916,7 +23925,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="627" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="627" bodyend="634"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" line="631" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshMeshDistance.cs" bodystart="631" bodyend="638"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a006681b59afe07a794e35d3e1e2b9139" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe double</type>

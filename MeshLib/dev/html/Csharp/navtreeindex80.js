@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"classMR_1_1Const__SymMatrix4__UnsignedChar.html#a934140fe2b0a529668026662354b5390":[6,3,0,0,0,835,29],
 "classMR_1_1Const__SymMatrix4__UnsignedChar.html#a9a1faa527b32e8c4db1a23e52d5b1c18":[6,3,0,0,0,835,25],
 "classMR_1_1Const__SymMatrix4__UnsignedChar.html#aa0d1bee8641b4963c57664f0ded9cc02":[6,3,0,0,0,835,6],
 "classMR_1_1Const__SymMatrix4__UnsignedChar.html#aa36810a632f959693538e4e10f64fb79":[6,3,0,0,0,835,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a14962a79ee62deae55cc6f5be15b23bd":[6,3,0,0,0,843,5],
 "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a3df17274ffda86514505a8973d10f51e":[6,3,0,0,0,843,3],
 "classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a58bf4e1392e7c3aaf00dc179b7bd45c9":[6,3,0,0,0,843,10],
-"classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a94632b17b0d54d7cbe3d40f3a732ce2a":[6,3,0,0,0,843,8],
-"classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a9d9d52bc8ce0c80d49550cc4c0ae2a4d":[6,3,0,0,0,843,2]
+"classMR_1_1Const__TeethMaskToDirectionVolumeConvertor.html#a94632b17b0d54d7cbe3d40f3a732ce2a":[6,3,0,0,0,843,8]
 };

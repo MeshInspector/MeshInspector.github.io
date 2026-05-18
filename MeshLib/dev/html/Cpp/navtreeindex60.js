@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1CutMeshResult.html":[6,0,0,8,4],
 "structMR_1_1CutMeshResult.html":[6,0,0,20,171],
 "structMR_1_1DecimatePolylineResult.html":[6,0,0,20,431],
 "structMR_1_1DecimatePolylineSettings.html":[6,0,0,10,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1FindProjectionOnPointsSettings.html#a41d849f8892e4ddc754d38672dde5152":[6,0,0,1,29,2],
 "structMR_1_1FindProjectionOnPointsSettings.html#a51086d69676631deb69313f75b2d8379":[6,0,0,1,29,3],
 "structMR_1_1FindProjectionOnPointsSettings.html#aa4d8d3a3b0dac4b24f0e182945040220":[6,0,0,1,29,0],
-"structMR_1_1FindProjectionOnPointsSettings.html#ad8f6c40c1465fcd41082510e2022e694":[6,0,0,1,29,5],
-"structMR_1_1FitBoxParams.html":[6,0,0,20,563]
+"structMR_1_1FindProjectionOnPointsSettings.html#ad8f6c40c1465fcd41082510e2022e694":[6,0,0,1,29,5]
 };

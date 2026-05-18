@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"MRScanHelpers_8h.html#acd6b5c574cd4a0641d986befcd2b088b":[6,2,1,0,0,0,0,4,22,9],
 "MRScanHelpers_8h.html#acec54aa70f2e4689c403c93760e24397":[6,2,1,0,0,0,0,4,22,43],
 "MRScanHelpers_8h.html#ad73d2d7bf25b1404e6996cde187055f3":[6,2,1,0,0,0,0,4,22,24],
 "MRScanHelpers_8h.html#ae5af1264fe9225e8fe4512e291b724d0":[6,2,1,0,0,0,0,4,22,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "MRSegmPoint_8h.html#a1280b37763fd00e2888efa33023a44a2":[6,2,1,0,0,0,0,1,314,20],
 "MRSegmPoint_8h.html#a1586fd7fee7958dae7316d3bf9990b0a":[6,2,1,0,0,0,0,1,314,3],
 "MRSegmPoint_8h.html#a158ec587de854d646019446e408a9349":[6,2,1,0,0,0,0,1,314,7],
-"MRSegmPoint_8h.html#a1ac5d00c09f323453c23f00b83a761c1":[6,2,1,0,0,0,0,1,314,12],
-"MRSegmPoint_8h.html#a1c872cd6b7849b6e69e3751a4ef063b8":[6,2,1,0,0,0,0,1,314,38]
+"MRSegmPoint_8h.html#a1ac5d00c09f323453c23f00b83a761c1":[6,2,1,0,0,0,0,1,314,12]
 };

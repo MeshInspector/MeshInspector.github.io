@@ -1,5 +1,6 @@
 var NAVTREEINDEX182 =
 {
+"std__vector__MR__PixelId_8h.html#a63f222dfcd5e5ebae4e53f0252edb526":[6,2,1,0,0,0,0,2,475,18],
 "std__vector__MR__PixelId_8h.html#a67830bc0c06e6e833aa46191e12a9cab":[6,2,1,0,0,0,0,2,475,40],
 "std__vector__MR__PixelId_8h.html#a67e5d1c4ea0047a6073483d21bd9bcd0":[6,2,1,0,0,0,0,2,475,36],
 "std__vector__MR__PixelId_8h.html#a6a03acf18fa7b2b34c03d7d875b63fab":[6,2,1,0,0,0,0,2,475,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX182 =
 "std__vector__MR__PointsLoad__NamedCloud_8h.html#abb7f4946a4ffbb6e87f41fdcb3fc7d6c":[6,2,1,0,0,0,0,2,478,11],
 "std__vector__MR__PointsLoad__NamedCloud_8h.html#ac017cf63c906c110a546e2bd41ec2a34":[6,2,1,0,0,0,0,2,478,27],
 "std__vector__MR__PointsLoad__NamedCloud_8h.html#ac2f8814f4094f32a7d5ba994170cabc5":[6,2,1,0,0,0,0,2,478,61],
-"std__vector__MR__PointsLoad__NamedCloud_8h.html#ac474c3a9cbed842216c2e9fad88392d7":[6,2,1,0,0,0,0,2,478,51],
-"std__vector__MR__PointsLoad__NamedCloud_8h.html#ac751bdda3a76173043c1661fc9108b40":[6,2,1,0,0,0,0,2,478,59]
+"std__vector__MR__PointsLoad__NamedCloud_8h.html#ac474c3a9cbed842216c2e9fad88392d7":[6,2,1,0,0,0,0,2,478,51]
 };

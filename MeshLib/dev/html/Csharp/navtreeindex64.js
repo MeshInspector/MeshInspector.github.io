@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"classMR_1_1Const__ObjectMeshMergeOptions.html#a7a0c736408f6d0c6bea6ea9f13d67615":[6,3,0,0,0,645,3],
 "classMR_1_1Const__ObjectMeshMergeOptions.html#ab961425d9f893579acd69d43e0bdb504":[6,3,0,0,0,645,4],
 "classMR_1_1Const__ObjectMeshMergeOptions.html#abcfc2a74eceb51898d30d92ee2c413f0":[6,3,0,0,0,645,2],
 "classMR_1_1Const__ObjectMeshMergeOptions.html#adcd4a5aeaf6e8495e87acc64592c332e":[6,3,0,0,0,645,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "classMR_1_1Const__ObjectVoxels.html#a629f598d04c5bceee4257a63e3810824":[6,3,0,0,0,649,103],
 "classMR_1_1Const__ObjectVoxels.html#a676c459f39037c0a93d6ef346a3faf0e":[6,3,0,0,0,649,73],
 "classMR_1_1Const__ObjectVoxels.html#a686ce2878abc9e7e9f6a235606c14b33":[6,3,0,0,0,649,17],
-"classMR_1_1Const__ObjectVoxels.html#a6941254ae3ff2ab5ee86d746250061eb":[6,3,0,0,0,649,98],
-"classMR_1_1Const__ObjectVoxels.html#a6ad14b41a308c1fa67bd445b4abdcf0b":[6,3,0,0,0,649,120]
+"classMR_1_1Const__ObjectVoxels.html#a6941254ae3ff2ab5ee86d746250061eb":[6,3,0,0,0,649,98]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"group__MathGroup.html#ga73ee1ad324c6bb082a748395b3802916":[6,0,0,20,6841],
 "group__MathGroup.html#ga84b1b2dc1c73856fecb9b8617c174b04":[6,0,0,0,30],
 "group__MathGroup.html#ga8888d3eb79b0414fbc4855426d85cf9c":[6,0,0,0,45],
 "group__MathGroup.html#ga8888d3eb79b0414fbc4855426d85cf9c":[6,0,0,20,6833],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "group__PointCloudGroup.html#gabc9d6a3d4680264055d93f5039ee962e":[6,0,0,12,10],
 "group__PointCloudGroup.html#gaccb668ec7a811b6c00bb5eda5f7fa8f3":[6,0,0,12,8],
 "group__PointCloudGroup.html#gad170a186634adcea1422a0bcb701584d":[6,0,0,12,4],
-"group__PointCloudGroup.html#gaf730c446bd16a9211e90506d85c35757":[6,0,0,12,18],
-"group__PointCloudTriangulationGroup.html":[6,0,0,13]
+"group__PointCloudGroup.html#gaf730c446bd16a9211e90506d85c35757":[6,0,0,12,18]
 };

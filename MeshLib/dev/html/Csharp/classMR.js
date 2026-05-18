@@ -2008,7 +2008,8 @@ var classMR =
       [ "AInside", "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39ae89920fda09f72cbdbda991bfd156be2", null ],
       [ "BInside", "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39a3190a32683de4e146f9e5ecab2bcbcf5", null ],
       [ "Colliding", "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39ae0f4d0dafbcf08dd28d80154056ad0d8", null ],
-      [ "Touching", "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39a5b32faae4c7bae1011dc7ab43caa1529", null ]
+      [ "Touching", "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39a5b32faae4c7bae1011dc7ab43caa1529", null ],
+      [ "NotColliding", "classMR.html#a1cf37cd7b222ba87173bfdd5deb9eb39a0497a652be066f6f966a97fa6c67c9c0", null ]
     ] ],
     [ "MeshVisualizePropertyType", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8", [
       [ "Faces", "classMR.html#a31e10e554566804ad375d43e4bf7f4a8a4f93ea0836ba76b6f9b81e3eee53a3af", null ],

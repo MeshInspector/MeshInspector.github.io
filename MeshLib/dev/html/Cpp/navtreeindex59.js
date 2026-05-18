@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,2,0,1,0,1],
 "structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[6,0,1,0,0,0,8],
 "structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[6,0,2,0,1,0,8],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,1,0,0,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1CustomButtonParameters.html":[6,0,0,20,641],
 "structMR_1_1CutByProjectionSettings.html":[6,0,0,20,172],
 "structMR_1_1CutMeshParameters.html":[6,0,0,8,3],
-"structMR_1_1CutMeshParameters.html":[6,0,0,20,170],
-"structMR_1_1CutMeshResult.html":[6,0,0,8,4]
+"structMR_1_1CutMeshParameters.html":[6,0,0,20,170]
 };

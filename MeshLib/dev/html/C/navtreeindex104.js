@@ -1,5 +1,6 @@
 var NAVTREEINDEX104 =
 {
+"MRTripleFaceIntersections_8h_source.html":[6,2,1,0,0,0,0,1,346],
 "MRTunnelDetector_8h.html":[6,2,1,0,0,0,0,1,348],
 "MRTunnelDetector_8h.html#a0b64c02f058f9af115537619cb6ce865":[6,2,1,0,0,0,0,1,348,16],
 "MRTunnelDetector_8h.html#a0da7f2e8a48e5f00a4d90c982e7da6ec":[6,2,1,0,0,0,0,1,348,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX104 =
 "MRUnitInfo_8h.html#a39817dd1c870ef238ce0bf4dd8809c31":[6,2,1,0,0,0,0,1,355,26],
 "MRUnitInfo_8h.html#a3a86cea8e056f408b842083836126646":[6,2,1,0,0,0,0,1,355,36],
 "MRUnitInfo_8h.html#a3b4848ed5450da748c7658e6802aa2e8":[6,2,1,0,0,0,0,1,355,7],
-"MRUnitInfo_8h.html#a472c5df9422848694ebc46129840ce62":[6,2,1,0,0,0,0,1,355,37],
-"MRUnitInfo_8h.html#a480e2a8da7aae16c0ea95d186ff3676d":[6,2,1,0,0,0,0,1,355,2]
+"MRUnitInfo_8h.html#a472c5df9422848694ebc46129840ce62":[6,2,1,0,0,0,0,1,355,37]
 };

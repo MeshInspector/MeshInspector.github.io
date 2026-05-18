@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"classMR_1_1Const__PolylineToDistanceVolumeParams.html#a2f0b071549c004f0fe181eddab2c51a5":[6,3,0,0,0,718,4],
 "classMR_1_1Const__PolylineToDistanceVolumeParams.html#a3ae91caa069ea30687b1176f02a3c787":[6,3,0,0,0,718,0],
 "classMR_1_1Const__PolylineToDistanceVolumeParams.html#a447d3bce54d566e789fa5fbd685e05b4":[6,3,0,0,0,718,7],
 "classMR_1_1Const__PolylineToDistanceVolumeParams.html#a5163b4cfb608331d77c466237781a88a":[6,3,0,0,0,718,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "classMR_1_1Const__Polynomial__Float__3.html#ab036e8ee20e857eb2e978776592c0cc6":[6,3,0,0,0,734,0],
 "classMR_1_1Const__Polynomial__Float__3.html#addbc116b67529d0c7c741ff4f4e5773b":[6,3,0,0,0,734,10],
 "classMR_1_1Const__Polynomial__Float__3.html#aff32298b1a87d52a77f050e82aee948e":[6,3,0,0,0,734,4],
-"classMR_1_1Const__Polynomial__Float__4.html":[6,3,0,0,0,735],
-"classMR_1_1Const__Polynomial__Float__4.html#a029c146ba9934f95de51f915ab50e76c":[6,3,0,0,0,735,0]
+"classMR_1_1Const__Polynomial__Float__4.html":[6,3,0,0,0,735]
 };

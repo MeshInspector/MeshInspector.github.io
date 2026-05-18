@@ -1,5 +1,6 @@
 var NAVTREEINDEX185 =
 {
+"std__vector__MR__SliceInfo_8h.html#a9ad8184ba2c48f0adba36d297f742042":[6,2,1,0,0,0,0,2,485,48],
 "std__vector__MR__SliceInfo_8h.html#a9cfdb837727674337501394d480929bf":[6,2,1,0,0,0,0,2,485,27],
 "std__vector__MR__SliceInfo_8h.html#a9d6fc9938d1aea16fd5c1a5613b3fd3d":[6,2,1,0,0,0,0,2,485,6],
 "std__vector__MR__SliceInfo_8h.html#a9fea3b082b4f4d519831765dd79f23f0":[6,2,1,0,0,0,0,2,485,42],
@@ -248,6 +249,5 @@ var NAVTREEINDEX185 =
 "std__vector__MR__TriPointf_8h.html#ae8fe7e9e2e4739b6ace8ffc0b936ffb0":[6,2,1,0,0,0,0,2,488,61],
 "std__vector__MR__TriPointf_8h.html#aeefbc8434400457610593cb289162af3":[6,2,1,0,0,0,0,2,488,35],
 "std__vector__MR__TriPointf_8h.html#af0b92cdea346c2b865ecb8e7eb63cafe":[6,2,1,0,0,0,0,2,488,12],
-"std__vector__MR__TriPointf_8h_source.html":[6,2,1,0,0,0,0,2,488],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html":[6,2,1,0,0,0,0,2,489]
+"std__vector__MR__TriPointf_8h_source.html":[6,2,1,0,0,0,0,2,488]
 };

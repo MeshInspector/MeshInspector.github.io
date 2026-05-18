@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"classMR_1_1Const__ToolPathResult.html#ae771d6e32c1d5a5f61322e025760aabe":[6,3,0,0,0,852,8],
 "classMR_1_1Const__ToolPathResult.html#aeee67b904d08e86d0a5e050172608190":[6,3,0,0,0,852,0],
 "classMR_1_1Const__TransformVdbVolumeResult.html":[6,3,0,0,0,854],
 "classMR_1_1Const__TransformVdbVolumeResult.html#a120cc7121b72fd87db4a10e914b8eaf2":[6,3,0,0,0,854,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "classMR_1_1Const__TriangulationParameters.html#ae9145b32e27dc75b8969abcd32570776":[6,3,0,0,0,858,18],
 "classMR_1_1Const__TriangulationParameters.html#aea073f3dff3248553dd295bf20eb05e7":[6,3,0,0,0,858,9],
 "classMR_1_1Const__TriangulationParameters.html#af4b1b020e59c401350bf506cb9b36bd0":[6,3,0,0,0,858,12],
-"classMR_1_1Const__TrimOptionalOutput.html":[6,3,0,0,0,862],
-"classMR_1_1Const__TrimOptionalOutput.html#a06cacbf642afc7f8f3d4ed583788336c":[6,3,0,0,0,862,6]
+"classMR_1_1Const__TrimOptionalOutput.html":[6,3,0,0,0,862]
 };

@@ -19879,7 +19879,7 @@ this function input should have intersection
 </div><div class="memdoc">
 <pre class="fragment"> \\brief computes minimal distance between two meshes
  \\param rigidB2A rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation
- \\param upDistLimitSq upper limit on the positive distance in question, if the real distance is larger then the function exists returning upDistLimitSq and no valid points
+ \\param upDistLimitSq upper limit on the squared distance in question, if the real distance is larger then the function exists returning +sqrt(upDistLimitSq) and no valid points
  \\note if one mesh is fully inside the other one - closest points are returned
 </pre> 
 </div>

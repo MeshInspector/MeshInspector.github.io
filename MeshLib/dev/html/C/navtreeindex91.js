@@ -1,5 +1,6 @@
 var NAVTREEINDEX91 =
 {
+"MRQuaternion_8h.html#a6fad10156fde2ca5b6133d5b34132223":[6,2,1,0,0,0,0,1,293,51],
 "MRQuaternion_8h.html#a70c475c054c37dd049fa9c42994d1b7d":[6,2,1,0,0,0,0,1,293,18],
 "MRQuaternion_8h.html#a78e438063451b18af0581d3aec7fb7de":[6,2,1,0,0,0,0,1,293,7],
 "MRQuaternion_8h.html#a7b927e8d9d0bd30dabcadb063684bfdc":[6,2,1,0,0,0,0,1,293,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX91 =
 "MRRayBoxIntersection2_8h.html#ae9f97cb91b3c48ca4b8ebcb3303300db":[6,2,1,0,0,0,0,1,297,0],
 "MRRayBoxIntersection2_8h_source.html":[6,2,1,0,0,0,0,1,297],
 "MRRayBoxIntersection_8h.html":[6,2,1,0,0,0,0,1,296],
-"MRRayBoxIntersection_8h.html#a1e0ab36ee9b679ed253f027f1735609c":[6,2,1,0,0,0,0,1,296,1],
-"MRRayBoxIntersection_8h.html#a35d906c1ea38942bc0a9d39e83e8b3e6":[6,2,1,0,0,0,0,1,296,9]
+"MRRayBoxIntersection_8h.html#a1e0ab36ee9b679ed253f027f1735609c":[6,2,1,0,0,0,0,1,296,1]
 };

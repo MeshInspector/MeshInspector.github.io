@@ -312,7 +312,8 @@ var group__AABBTreeGroup =
       [ "MR::MeshMeshCollisionStatus::AInside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654bae89920fda09f72cbdbda991bfd156be2", null ],
       [ "MR::MeshMeshCollisionStatus::BInside", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba3190a32683de4e146f9e5ecab2bcbcf5", null ],
       [ "MR::MeshMeshCollisionStatus::Colliding", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654bae0f4d0dafbcf08dd28d80154056ad0d8", null ],
-      [ "MR::MeshMeshCollisionStatus::Touching", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba5b32faae4c7bae1011dc7ab43caa1529", null ]
+      [ "MR::MeshMeshCollisionStatus::Touching", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba5b32faae4c7bae1011dc7ab43caa1529", null ],
+      [ "MR::MeshMeshCollisionStatus::NotColliding", "group__AABBTreeGroup.html#gga5aa465c33f4b7d12b07ec82baf32654ba0497a652be066f6f966a97fa6c67c9c0", null ]
     ] ],
     [ "MR::ProcessOneResult", "group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47", [
       [ "MR::ProcessOneResult::StopProcessing", "group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612", null ],

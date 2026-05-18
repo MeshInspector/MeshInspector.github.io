@@ -1,5 +1,6 @@
 var NAVTREEINDEX144 =
 {
+"classMR_1_1ZCompensateParams.html#a58900502a72256ca9db2ad16512b3e10":[6,3,0,0,0,1803,5],
 "classMR_1_1ZCompensateParams.html#a6b19a4dde59c64bcbc07bc3f44e6e5ea":[6,3,0,0,0,1803,7],
 "classMR_1_1ZCompensateParams.html#a7151ed5110bf1981af95debb4d3f9c04":[6,3,0,0,0,1803,9],
 "classMR_1_1ZCompensateParams.html#a78417a5d20ab8cf7989c8d53005e18a9":[6,3,0,0,0,1803,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX144 =
 "structMR_1_1Box1d.html#aebced3b103192b452452f782e00cbe3d":[6,3,0,0,0,61,28],
 "structMR_1_1Box1d.html#af2d64901a26316e1834a7f71a8be3848":[6,3,0,0,0,61,4],
 "structMR_1_1Box1d.html#af3f74ea445645c5b4e1727679818f175":[6,3,0,0,0,61,27],
-"structMR_1_1Box1d.html#af606cf759f3d7beedebb74cefca027b6":[6,3,0,0,0,61,23],
-"structMR_1_1Box1d.html#af66359d47becf2cc2217e4f27f61a4e6":[6,3,0,0,0,61,1]
+"structMR_1_1Box1d.html#af606cf759f3d7beedebb74cefca027b6":[6,3,0,0,0,61,23]
 };

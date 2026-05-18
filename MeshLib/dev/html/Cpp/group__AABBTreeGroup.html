@@ -238,6 +238,7 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="#gga5aa465c33f4b7d12b07ec82baf32654bae0f4d0dafbcf08dd28d80154056ad0d8">MR::MeshMeshCollisionStatus::Colliding</a>
 , <a class="el" href="#gga5aa465c33f4b7d12b07ec82baf32654ba5b32faae4c7bae1011dc7ab43caa1529">MR::MeshMeshCollisionStatus::Touching</a>
+, <a class="el" href="#gga5aa465c33f4b7d12b07ec82baf32654ba0497a652be066f6f966a97fa6c67c9c0">MR::MeshMeshCollisionStatus::NotColliding</a>
 <br />
  }</td></tr>
 </table><table class="memberdecls">
@@ -748,6 +749,8 @@ template&lt;typename T&gt; </div>
 <tr><td class="fieldname"><a id="gga5aa465c33f4b7d12b07ec82baf32654ba3190a32683de4e146f9e5ecab2bcbcf5" name="gga5aa465c33f4b7d12b07ec82baf32654ba3190a32683de4e146f9e5ecab2bcbcf5"></a>BInside&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga5aa465c33f4b7d12b07ec82baf32654bae0f4d0dafbcf08dd28d80154056ad0d8" name="gga5aa465c33f4b7d12b07ec82baf32654bae0f4d0dafbcf08dd28d80154056ad0d8"></a>Colliding&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga5aa465c33f4b7d12b07ec82baf32654ba5b32faae4c7bae1011dc7ab43caa1529" name="gga5aa465c33f4b7d12b07ec82baf32654ba5b32faae4c7bae1011dc7ab43caa1529"></a>Touching&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga5aa465c33f4b7d12b07ec82baf32654ba0497a652be066f6f966a97fa6c67c9c0" name="gga5aa465c33f4b7d12b07ec82baf32654ba0497a652be066f6f966a97fa6c67c9c0"></a>NotColliding&#160;</td><td class="fielddoc"><p>the meshes do not touch or collide one another, but inside/outside relation cannot be determined </p>
+</td></tr>
 </table>
 
 </div>
@@ -3321,7 +3324,7 @@ template&lt;typename T&gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the positive distance in question, if the real distance is larger then the function exists returning upDistLimitSq and no valid points </td></tr>
+    <tr><td class="paramname">upDistLimitSq</td><td>upper limit on the squared distance in question, if the real distance is larger then the function exists returning +sqrt(upDistLimitSq) and no valid points </td></tr>
   </table>
   </dd>
 </dl>

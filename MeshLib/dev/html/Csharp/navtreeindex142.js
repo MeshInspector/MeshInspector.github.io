@@ -1,5 +1,6 @@
 var NAVTREEINDEX142 =
 {
+"classMR_1_1VoxelBitSet.html#af6b4a99a74c5b764174b149ab5bb2c92":[6,3,0,0,0,1776,2],
 "classMR_1_1VoxelLocation.html":[6,3,0,0,0,1778],
 "classMR_1_1VoxelLocation.html#a8facbf2271bd271027d05698e3cf79b7":[6,3,0,0,0,1778,2],
 "classMR_1_1VoxelLocation.html#a99c8e937e49625bd95ba2385cb4ea12a":[6,3,0,0,0,1778,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX142 =
 "classMR_1_1VoxelsSave_1_1SavingSettings.html#accebe62b1f675fef2dfd069715929c8d":[6,3,0,0,0,1781,1,3],
 "classMR_1_1VoxelsSave_1_1SavingSettings.html#addc73467fa8c5d45998b2523031205cf":[6,3,0,0,0,1781,1,0],
 "classMR_1_1VoxelsSave_1_1SavingSettings.html#ae1974ff282d64427a17ebce868604a9f":[6,3,0,0,0,1781,1,4],
-"classMR_1_1VoxelsSave_1_1SavingSettings.html#ae211ac06c46860c4303e9529b49d2695":[6,3,0,0,0,1781,1,2],
-"classMR_1_1VoxelsVolumeAccessor__MRFunctionVolume.html":[6,3,0,0,0,1783]
+"classMR_1_1VoxelsSave_1_1SavingSettings.html#ae211ac06c46860c4303e9529b49d2695":[6,3,0,0,0,1781,1,2]
 };
