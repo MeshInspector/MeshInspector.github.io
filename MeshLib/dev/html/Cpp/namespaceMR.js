@@ -939,6 +939,7 @@ var namespaceMR =
     [ "UnitInfo", "structMR_1_1UnitInfo.html", "structMR_1_1UnitInfo" ],
     [ "UnitToStringParams", "structMR_1_1UnitToStringParams.html", "structMR_1_1UnitToStringParams" ],
     [ "UnorientedTriangle", "structMR_1_1UnorientedTriangle.html", "structMR_1_1UnorientedTriangle" ],
+    [ "VacantElements", "structMR_1_1VacantElements.html", "structMR_1_1VacantElements" ],
     [ "VarEdgeTri", "structMR_1_1VarEdgeTri.html", "structMR_1_1VarEdgeTri" ],
     [ "Vector", "classMR_1_1Vector.html", "classMR_1_1Vector" ],
     [ "Vector2", "structMR_1_1Vector2.html", "structMR_1_1Vector2" ],

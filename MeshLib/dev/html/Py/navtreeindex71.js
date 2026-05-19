@@ -1,13 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#af7fa3c9303bfffc296bce8ff9f7df868":[6,1,1,0,1,694,0,0],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html":[6,1,0,0,2,694,1],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html":[6,1,1,0,1,694,1],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1633cec7f02b79a5a4b841c02b4e33ac":[6,1,0,0,2,694,1,12],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1633cec7f02b79a5a4b841c02b4e33ac":[6,1,1,0,1,694,1,12],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a31aaa468e715afb3057f443455f67953":[6,1,0,0,2,694,1,10],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a31aaa468e715afb3057f443455f67953":[6,1,1,0,1,694,1,10],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3dc76b2920dc48510da4b9108c4525fe":[6,1,0,0,2,694,1,8],
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3dc76b2920dc48510da4b9108c4525fe":[6,1,1,0,1,694,1,8],
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a60d18a711543be4d24e65d0a11260840":[6,1,0,0,2,694,1,6],
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a60d18a711543be4d24e65d0a11260840":[6,1,1,0,1,694,1,6],
@@ -249,5 +241,13 @@ var NAVTREEINDEX71 =
 "classmrmeshpy_1_1PlyLoadParams.html#ae4bea723a4b5e45c7bb94386ef62dfc0":[6,1,1,0,1,699,0],
 "classmrmeshpy_1_1PlyLoadParams.html#aea7f02db6807d7da15a40c94e7aa644b":[6,1,0,0,2,699,22],
 "classmrmeshpy_1_1PlyLoadParams.html#aea7f02db6807d7da15a40c94e7aa644b":[6,1,1,0,1,699,22],
-"classmrmeshpy_1_1PlyLoadParams.html#af2956a6a6fac815da3ee454534fce91c":[6,1,0,0,2,699,15]
+"classmrmeshpy_1_1PlyLoadParams.html#af2956a6a6fac815da3ee454534fce91c":[6,1,0,0,2,699,15],
+"classmrmeshpy_1_1PlyLoadParams.html#af2956a6a6fac815da3ee454534fce91c":[6,1,1,0,1,699,15],
+"classmrmeshpy_1_1PointAccumulator.html":[6,1,0,0,2,700],
+"classmrmeshpy_1_1PointAccumulator.html":[6,1,1,0,1,700],
+"classmrmeshpy_1_1PointAccumulator.html#a1483d4424edaf0d94e8804f479ca4826":[6,1,0,0,2,700,13],
+"classmrmeshpy_1_1PointAccumulator.html#a1483d4424edaf0d94e8804f479ca4826":[6,1,1,0,1,700,13],
+"classmrmeshpy_1_1PointAccumulator.html#a1dc2766208832edd7d3a117e831a82e1":[6,1,0,0,2,700,7],
+"classmrmeshpy_1_1PointAccumulator.html#a1dc2766208832edd7d3a117e831a82e1":[6,1,1,0,1,700,7],
+"classmrmeshpy_1_1PointAccumulator.html#a23fc15f6c1d1a61c956cf781dc84dbc1":[6,1,0,0,2,700,15]
 };

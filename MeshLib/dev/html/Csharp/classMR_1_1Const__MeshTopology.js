@@ -1,7 +1,5 @@
 var classMR_1_1Const__MeshTopology =
 [
-    [ "Const_VacantElements", "classMR_1_1Const__MeshTopology_1_1Const__VacantElements.html", "classMR_1_1Const__MeshTopology_1_1Const__VacantElements" ],
-    [ "VacantElements", "classMR_1_1Const__MeshTopology_1_1VacantElements.html", "classMR_1_1Const__MeshTopology_1_1VacantElements" ],
     [ "Const_MeshTopology", "classMR_1_1Const__MeshTopology.html#a0f182498fbd2164db28faffa332a13b8", null ],
     [ "Const_MeshTopology", "classMR_1_1Const__MeshTopology.html#a51bc927b7a6e04ace58b89c1ae325328", null ],
     [ "Const_MeshTopology", "classMR_1_1Const__MeshTopology.html#a711d6369ee00f4d45e4205a85cd67fba", null ],

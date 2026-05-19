@@ -1147,6 +1147,7 @@ var annotated_dup =
       [ "unsigned_char_output", "classmrmeshpy_1_1unsigned__char__output.html", "classmrmeshpy_1_1unsigned__char__output" ],
       [ "UpLimitCheck", "classmrmeshpy_1_1UpLimitCheck.html", "classmrmeshpy_1_1UpLimitCheck" ],
       [ "UseAABBTree", "classmrmeshpy_1_1UseAABBTree.html", "classmrmeshpy_1_1UseAABBTree" ],
+      [ "VacantElements", "classmrmeshpy_1_1VacantElements.html", "classmrmeshpy_1_1VacantElements" ],
       [ "VarEdgeTri", "classmrmeshpy_1_1VarEdgeTri.html", "classmrmeshpy_1_1VarEdgeTri" ],
       [ "VdbVolume", "classmrmeshpy_1_1VdbVolume.html", "classmrmeshpy_1_1VdbVolume" ],
       [ "Vector2b", "classmrmeshpy_1_1Vector2b.html", "classmrmeshpy_1_1Vector2b" ],

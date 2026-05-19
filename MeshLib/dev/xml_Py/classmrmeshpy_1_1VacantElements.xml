@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VacantElements" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VacantElements</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VacantElements_1af4eb2d8c02f568ea8508fc288aa64696" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VacantElements::_offsetof_edges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edges</name>
+        <qualifiedname>mrmeshpy.VacantElements._offsetof_edges</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62577" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VacantElements_1a1f7a5ae89392d89761de8ae85cb25822" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VacantElements::_offsetof_faces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_faces</name>
+        <qualifiedname>mrmeshpy.VacantElements._offsetof_faces</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62578" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VacantElements_1a1ed7ba7ac5d6f26d31145969b8d08bfb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VacantElements::_offsetof_verts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_verts</name>
+        <qualifiedname>mrmeshpy.VacantElements._offsetof_verts</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62579" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VacantElements_1a81b85d7e99d7c537c2da70112e68f2cc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VacantElements.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VacantElements.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62585" bodyend="62586"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VacantElements_1a91174dcbf277c6941791dfbfdae0efd9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VacantElements" kindref="compound">VacantElements</ref></type>
+        <definition> VacantElements mrmeshpy.VacantElements.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VacantElements.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62589" bodyend="62590"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VacantElements_1a91174dcbf277c6941791dfbfdae0efd9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VacantElements" kindref="compound">VacantElements</ref></type>
+        <definition> VacantElements mrmeshpy.VacantElements.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VacantElements.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62593" bodyend="62594"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VacantElements_1a3c015da6c59f547e9c2f70f6071eb51d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VacantElements.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VacantElements.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62596" bodyend="62597"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VacantElements_1a23a68c8576dc0e6ca9746ff6db523f59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VacantElements.__init__</definition>
+        <argsstring>(self, VacantElements arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VacantElements.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VacantElements" kindref="compound">VacantElements</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62599" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62599" bodyend="62602"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VacantElements_1afdbd57171a89fc4be1a444959ebc566f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VacantElements.__init__</definition>
+        <argsstring>(self, UndirectedEdgeBitSet edges, VertBitSet verts, FaceBitSet faces)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VacantElements.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>edges</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>faces</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62604" bodyend="62607"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VacantElements
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="62573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="62573" bodyend="62607"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VacantElements_1a81b85d7e99d7c537c2da70112e68f2cc" prot="public" virt="non-virtual"><scope>mrmeshpy::VacantElements</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VacantElements_1a3c015da6c59f547e9c2f70f6071eb51d" prot="public" virt="non-virtual"><scope>mrmeshpy::VacantElements</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VacantElements_1a23a68c8576dc0e6ca9746ff6db523f59" prot="public" virt="non-virtual"><scope>mrmeshpy::VacantElements</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VacantElements_1afdbd57171a89fc4be1a444959ebc566f" prot="public" virt="non-virtual"><scope>mrmeshpy::VacantElements</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VacantElements_1af4eb2d8c02f568ea8508fc288aa64696" prot="protected" virt="non-virtual"><scope>mrmeshpy::VacantElements</scope><name>_offsetof_edges</name></member>
+      <member refid="classmrmeshpy_1_1VacantElements_1a1f7a5ae89392d89761de8ae85cb25822" prot="protected" virt="non-virtual"><scope>mrmeshpy::VacantElements</scope><name>_offsetof_faces</name></member>
+      <member refid="classmrmeshpy_1_1VacantElements_1a1ed7ba7ac5d6f26d31145969b8d08bfb" prot="protected" virt="non-virtual"><scope>mrmeshpy::VacantElements</scope><name>_offsetof_verts</name></member>
+      <member refid="classmrmeshpy_1_1VacantElements_1a91174dcbf277c6941791dfbfdae0efd9" prot="public" virt="non-virtual"><scope>mrmeshpy::VacantElements</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VacantElements_1a91174dcbf277c6941791dfbfdae0efd9" prot="public" virt="non-virtual"><scope>mrmeshpy::VacantElements</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

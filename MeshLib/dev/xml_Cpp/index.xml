@@ -5337,7 +5337,6 @@
     <member refid="structMR_1_1Mesh_1acfd1988e966914fd56fac8cee64c5f49" kind="function"><name>pseudonormal</name></member>
     <member refid="structMR_1_1Mesh_1ac48c479f458af1facea8e79e38ed0d63" kind="function"><name>pseudonormal</name></member>
     <member refid="structMR_1_1Mesh_1a18b304c7bb132b9149d1ba45884fe700" kind="function"><name>signedDistance</name></member>
-    <member refid="structMR_1_1Mesh_1a49b0f8f91104ddf82ed708bac9fcaa15" kind="function"><name>signedDistance</name></member>
     <member refid="structMR_1_1Mesh_1a6d5ecc32f9f154e338bcda8777c77259" kind="function"><name>signedDistance</name></member>
     <member refid="structMR_1_1Mesh_1a74fb2ffa3d099943f8def4c3be88c2d3" kind="function"><name>signedDistance</name></member>
     <member refid="structMR_1_1Mesh_1aa7d72b6218aad3ec4d1666974e9ffee3" kind="function"><name>calcFastWindingNumber</name></member>
@@ -5374,18 +5373,15 @@
     <member refid="structMR_1_1Mesh_1a8c0879122a6abf7e015c89fdbd7dd584" kind="function"><name>splitFace</name></member>
     <member refid="structMR_1_1Mesh_1a49da568d87acf71cf25460da1bd07d96" kind="function"><name>addMesh</name></member>
     <member refid="structMR_1_1Mesh_1ac05aec705a09ff41edd35394ade19c16" kind="function"><name>addMesh</name></member>
-    <member refid="structMR_1_1Mesh_1ac0b4dc0a2e54dcb7728c761dd1bd9d38" kind="function"><name>addPart</name></member>
-    <member refid="structMR_1_1Mesh_1a258b285e1b2c8ca0a2b827ddce9dc3c3" kind="function"><name>addMeshPart</name></member>
-    <member refid="structMR_1_1Mesh_1a93735e8e5c48d4c099554d3d7e9d9688" kind="function"><name>addPartByMask</name></member>
-    <member refid="structMR_1_1Mesh_1ac1edc292d38a11a0f4d173fa582d199d" kind="function"><name>addMeshPart</name></member>
-    <member refid="structMR_1_1Mesh_1afd2531f46c43b52bc814156ee4d3604f" kind="function"><name>addPartByMask</name></member>
+    <member refid="structMR_1_1Mesh_1a40a4b434d26da4ffa956ad8cb72093ff" kind="function"><name>addMeshPart</name></member>
+    <member refid="structMR_1_1Mesh_1aa5410bc73b84b6db4513263ef8902fa0" kind="function"><name>addMeshPart</name></member>
     <member refid="structMR_1_1Mesh_1ac4bbb2d333e304c960c0c097d67a4595" kind="function"><name>cloneRegion</name></member>
     <member refid="structMR_1_1Mesh_1a195c509bc89bff7c15ae4f20a0659b36" kind="function"><name>pack</name></member>
     <member refid="structMR_1_1Mesh_1a6e9aa843e541b5b9b371902f0e14810a" kind="function"><name>pack</name></member>
     <member refid="structMR_1_1Mesh_1a3aab49091b051347cde5a30a3f9ccbcc" kind="function"><name>pack</name></member>
     <member refid="structMR_1_1Mesh_1a065ab2187cbcc73a21aa4bab438dc7fa" kind="function"><name>packOptimally</name></member>
     <member refid="structMR_1_1Mesh_1abdde9d2b2de53657f20a2739ed8c9bea" kind="function"><name>packOptimally</name></member>
-    <member refid="structMR_1_1Mesh_1ad9c18290c667b3b1636e3a077afccf1c" kind="function"><name>deleteFaces</name></member>
+    <member refid="structMR_1_1Mesh_1ab99ceed390edc2e712434bc216331ac0" kind="function"><name>deleteFaces</name></member>
     <member refid="structMR_1_1Mesh_1a017bf9ba11329c4596f14d33cbc8a654" kind="function"><name>projectPoint</name></member>
     <member refid="structMR_1_1Mesh_1aca0ea331ec5aeb3272f57d67aef2572a" kind="function"><name>projectPoint</name></member>
     <member refid="structMR_1_1Mesh_1a6b35787713d43cba7a9e486296170bd1" kind="function"><name>findClosestPoint</name></member>
@@ -5802,10 +5798,10 @@
     <member refid="group__GeneralGroup_1ga5a84b9039b6fb046ebf4ea974748c4e6" kind="function"><name>flipOrientation</name></member>
     <member refid="group__GeneralGroup_1gab20f149e1bd55d7df88bd59dc8ba2349" kind="function"><name>addPart</name></member>
     <member refid="group__GeneralGroup_1ga3fec886d75afa5eed0ceb5ddb4f6ac1b" kind="function"><name>addPart</name></member>
-    <member refid="group__GeneralGroup_1ga8a8e68582155307e860d14722e14e413" kind="function"><name>addPartByMask</name></member>
-    <member refid="group__GeneralGroup_1ga9cd79d01e0fc5f041b5b9a9322a363d8" kind="function"><name>addPartByMask</name></member>
-    <member refid="group__GeneralGroup_1gadd01bf3693795d9e6b3e5a2ad6c3be07" kind="function"><name>addPartByMask</name></member>
-    <member refid="group__GeneralGroup_1gae1a7942e9b71bbb046927beed3e6eddc" kind="function"><name>addPartByMask</name></member>
+    <member refid="group__GeneralGroup_1ga0bd7bdfdfbaae3bfe856cd1437097885" kind="function"><name>addPartByMask</name></member>
+    <member refid="group__GeneralGroup_1ga2f77a84665c06d64b7bdda11f7c7d624" kind="function"><name>addPartByMask</name></member>
+    <member refid="group__GeneralGroup_1ga4cc5cc97e6cba53b8f5446e1062fd7f8" kind="function"><name>addPartByMask</name></member>
+    <member refid="group__GeneralGroup_1gad6bd4b6bfea494eb22ae55b749e71280" kind="function"><name>addPartByMask</name></member>
     <member refid="group__GeneralGroup_1ga6e36bbc83e30c437d92e8d9253ae2a59" kind="function"><name>rotateTriangles</name></member>
     <member refid="group__GeneralGroup_1gab1293a17064e703cfa337e675d61d8b4" kind="function"><name>pack</name></member>
     <member refid="group__GeneralGroup_1gae238666eb2f609cc8a9b422099f3e918" kind="function"><name>pack</name></member>
@@ -11905,10 +11901,10 @@
     <member refid="group__GeneralGroup_1ga1559dd0f63575b110b6d67c47cd8ca61" kind="function"><name>operator[]</name></member>
     <member refid="group__GeneralGroup_1ga612a5709db207a238542c54810f6af4c" kind="friend"><name>operator==</name></member>
   </compound>
-  <compound refid="structMR_1_1MeshTopology_1_1VacantElements" kind="struct"><name>MR::MeshTopology::VacantElements</name>
-    <member refid="group__GeneralGroup_1ga156c91f0ca107999b2b1753f6892b72f" kind="variable"><name>edges</name></member>
-    <member refid="group__GeneralGroup_1ga883f8677ed28738a74c5678d84c8615d" kind="variable"><name>verts</name></member>
-    <member refid="group__GeneralGroup_1ga52f3f0b5f605f550668b3962223b85cf" kind="variable"><name>faces</name></member>
+  <compound refid="structMR_1_1VacantElements" kind="struct"><name>MR::VacantElements</name>
+    <member refid="group__GeneralGroup_1ga9f5d70ec6986d7b4f5477c5e2298f5e5" kind="variable"><name>edges</name></member>
+    <member refid="group__GeneralGroup_1ga1f111c2398ef25fb853ecdd03cf5ff59" kind="variable"><name>verts</name></member>
+    <member refid="group__GeneralGroup_1ga62233d2b2599039751a03d75ceca0704" kind="variable"><name>faces</name></member>
   </compound>
   <compound refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value" kind="struct"><name>MR::UI::TestEngine::Control::Value</name>
     <member refid="structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value_1a4ffa9727b330021d13456e1ef6905bad" kind="variable"><name>value</name></member>
@@ -22121,9 +22117,9 @@
     <member refid="group__GeneralGroup_1gad8f2efb34f2d4b1e4b866ad31694dd50" kind="variable"><name>center</name></member>
     <member refid="group__GeneralGroup_1ga55fffe1bc5347e4a6ea79bc6e3479c1f" kind="variable"><name>radius</name></member>
     <member refid="group__GeneralGroup_1ga9305d6a23336a3bf9ef33323fccc83d2" kind="variable"><name>oppositeTouchPoint</name></member>
-    <member refid="group__GeneralGroup_1ga156c91f0ca107999b2b1753f6892b72f" kind="variable"><name>edges</name></member>
-    <member refid="group__GeneralGroup_1ga883f8677ed28738a74c5678d84c8615d" kind="variable"><name>verts</name></member>
-    <member refid="group__GeneralGroup_1ga52f3f0b5f605f550668b3962223b85cf" kind="variable"><name>faces</name></member>
+    <member refid="group__GeneralGroup_1ga9f5d70ec6986d7b4f5477c5e2298f5e5" kind="variable"><name>edges</name></member>
+    <member refid="group__GeneralGroup_1ga1f111c2398ef25fb853ecdd03cf5ff59" kind="variable"><name>verts</name></member>
+    <member refid="group__GeneralGroup_1ga62233d2b2599039751a03d75ceca0704" kind="variable"><name>faces</name></member>
     <member refid="group__GeneralGroup_1gaa79948207ce03ac940110fc5b6eeadad" kind="variable"><name>next</name></member>
     <member refid="group__GeneralGroup_1ga72d923a9f0e2f0b8bf55d43bbd30bc2c" kind="variable"><name>prev</name></member>
     <member refid="group__GeneralGroup_1ga2408c1ef3fd6c369eebe4355ae4ea4bc" kind="variable"><name>org</name></member>
@@ -26616,10 +26612,10 @@
     <member refid="group__GeneralGroup_1ga5a84b9039b6fb046ebf4ea974748c4e6" kind="function"><name>flipOrientation</name></member>
     <member refid="group__GeneralGroup_1gab20f149e1bd55d7df88bd59dc8ba2349" kind="function"><name>addPart</name></member>
     <member refid="group__GeneralGroup_1ga3fec886d75afa5eed0ceb5ddb4f6ac1b" kind="function"><name>addPart</name></member>
-    <member refid="group__GeneralGroup_1ga8a8e68582155307e860d14722e14e413" kind="function"><name>addPartByMask</name></member>
-    <member refid="group__GeneralGroup_1ga9cd79d01e0fc5f041b5b9a9322a363d8" kind="function"><name>addPartByMask</name></member>
-    <member refid="group__GeneralGroup_1gadd01bf3693795d9e6b3e5a2ad6c3be07" kind="function"><name>addPartByMask</name></member>
-    <member refid="group__GeneralGroup_1gae1a7942e9b71bbb046927beed3e6eddc" kind="function"><name>addPartByMask</name></member>
+    <member refid="group__GeneralGroup_1ga0bd7bdfdfbaae3bfe856cd1437097885" kind="function"><name>addPartByMask</name></member>
+    <member refid="group__GeneralGroup_1ga2f77a84665c06d64b7bdda11f7c7d624" kind="function"><name>addPartByMask</name></member>
+    <member refid="group__GeneralGroup_1ga4cc5cc97e6cba53b8f5446e1062fd7f8" kind="function"><name>addPartByMask</name></member>
+    <member refid="group__GeneralGroup_1gad6bd4b6bfea494eb22ae55b749e71280" kind="function"><name>addPartByMask</name></member>
     <member refid="group__GeneralGroup_1ga6e36bbc83e30c437d92e8d9253ae2a59" kind="function"><name>rotateTriangles</name></member>
     <member refid="group__GeneralGroup_1gab1293a17064e703cfa337e675d61d8b4" kind="function"><name>pack</name></member>
     <member refid="group__GeneralGroup_1gae238666eb2f609cc8a9b422099f3e918" kind="function"><name>pack</name></member>

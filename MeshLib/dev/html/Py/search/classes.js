@@ -371,7 +371,7 @@ var searchData=
   ['quarterbit_6',['QuarterBit',['../classmrmeshpy_1_1QuarterBit.html',1,'mrmeshpy']]],
   ['quaterniond_7',['Quaterniond',['../classmrmeshpy_1_1Quaterniond.html',1,'mrmeshpy']]],
   ['quaternionf_8',['Quaternionf',['../classmrmeshpy_1_1Quaternionf.html',1,'mrmeshpy']]],
-  ['vacantelements_0',['VacantElements',['../classmrmeshpy_1_1MeshTopology_1_1VacantElements.html',1,'mrmeshpy::MeshTopology']]],
+  ['vacantelements_0',['VacantElements',['../classmrmeshpy_1_1VacantElements.html',1,'mrmeshpy']]],
   ['valuetype_1',['ValueType',['../classmrmeshpy_1_1BaseTiffParameters_1_1ValueType.html',1,'mrmeshpy::BaseTiffParameters']]],
   ['varedgetri_2',['VarEdgeTri',['../classmrmeshpy_1_1VarEdgeTri.html',1,'mrmeshpy']]],
   ['vdbvolume_3',['VdbVolume',['../classmrmeshpy_1_1VdbVolume.html',1,'mrmeshpy']]],

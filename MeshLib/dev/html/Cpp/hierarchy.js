@@ -1345,7 +1345,7 @@ var hierarchy =
     [ "Updates...", null, [
       [ "MR::PluginUpdateOr< Updates >", "classMR_1_1PluginUpdateOr.html", null ]
     ] ],
-    [ "MR::MeshTopology::VacantElements", "structMR_1_1MeshTopology_1_1VacantElements.html", null ],
+    [ "MR::VacantElements", "structMR_1_1VacantElements.html", null ],
     [ "MR::UI::TestEngine::Control::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1Control_1_1Value.html", null ],
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html", null ],
     [ "MR::UI::TestEngine::ValueEntry::Value< T >", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html", null ],

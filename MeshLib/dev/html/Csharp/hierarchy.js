@@ -1343,9 +1343,6 @@ var hierarchy =
       [ "MR.Const_MeshTopology", "classMR_1_1Const__MeshTopology.html", [
         [ "MR.MeshTopology", "classMR_1_1MeshTopology.html", null ]
       ] ],
-      [ "MR.Const_MeshTopology.Const_VacantElements", "classMR_1_1Const__MeshTopology_1_1Const__VacantElements.html", [
-        [ "MR.Const_MeshTopology.VacantElements", "classMR_1_1Const__MeshTopology_1_1VacantElements.html", null ]
-      ] ],
       [ "MR.Const_MeshTopologyDiff", "classMR_1_1Const__MeshTopologyDiff.html", [
         [ "MR.MeshTopologyDiff", "classMR_1_1MeshTopologyDiff.html", null ]
       ] ],
@@ -2342,6 +2339,9 @@ var hierarchy =
       ] ],
       [ "MR.Const_UnorientedTriangle", "classMR_1_1Const__UnorientedTriangle.html", [
         [ "MR.UnorientedTriangle", "classMR_1_1UnorientedTriangle.html", null ]
+      ] ],
+      [ "MR.Const_VacantElements", "classMR_1_1Const__VacantElements.html", [
+        [ "MR.VacantElements", "classMR_1_1VacantElements.html", null ]
       ] ],
       [ "MR.Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html", [
         [ "MR.VarEdgeTri", "classMR_1_1VarEdgeTri.html", null ]
@@ -3907,7 +3907,6 @@ var hierarchy =
       [ "MR.Const_MeshToDistanceVolumeParams", "classMR_1_1Const__MeshToDistanceVolumeParams.html", null ],
       [ "MR.Const_MeshToVolumeParams", "classMR_1_1Const__MeshToVolumeParams.html", null ],
       [ "MR.Const_MeshTopology", "classMR_1_1Const__MeshTopology.html", null ],
-      [ "MR.Const_MeshTopology.Const_VacantElements", "classMR_1_1Const__MeshTopology_1_1Const__VacantElements.html", null ],
       [ "MR.Const_MeshTopologyDiff", "classMR_1_1Const__MeshTopologyDiff.html", null ],
       [ "MR.Const_MeshTriPoint", "classMR_1_1Const__MeshTriPoint.html", null ],
       [ "MR.Const_MeshVertPart", "classMR_1_1Const__MeshVertPart.html", null ],
@@ -4247,6 +4246,7 @@ var hierarchy =
       [ "MR.Const_UnitInfo", "classMR_1_1Const__UnitInfo.html", null ],
       [ "MR.Const_UniteManyMeshesParams", "classMR_1_1Const__UniteManyMeshesParams.html", null ],
       [ "MR.Const_UnorientedTriangle", "classMR_1_1Const__UnorientedTriangle.html", null ],
+      [ "MR.Const_VacantElements", "classMR_1_1Const__VacantElements.html", null ],
       [ "MR.Const_VarEdgeTri", "classMR_1_1Const__VarEdgeTri.html", null ],
       [ "MR.Const_VarEdgeTri.Const_FlaggedTri", "classMR_1_1Const__VarEdgeTri_1_1Const__FlaggedTri.html", null ],
       [ "MR.Const_VdbVolume", "classMR_1_1Const__VdbVolume.html", null ],

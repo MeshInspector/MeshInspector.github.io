@@ -1,13 +1,5 @@
 var NAVTREEINDEX94 =
 {
-"classmrmeshpy_1_1Triangulation.html#a4b00d2542d78d0cf7bfd0f2d9dc29a9e":[6,1,1,0,1,1096,22],
-"classmrmeshpy_1_1Triangulation.html#a5e60d1773bdd4b134f31cb53d9796ce6":[6,1,0,0,2,1096,41],
-"classmrmeshpy_1_1Triangulation.html#a5e60d1773bdd4b134f31cb53d9796ce6":[6,1,1,0,1,1096,41],
-"classmrmeshpy_1_1Triangulation.html#a5f30de8600e501d832fd6bb6c96e6e1d":[6,1,0,0,2,1096,25],
-"classmrmeshpy_1_1Triangulation.html#a5f30de8600e501d832fd6bb6c96e6e1d":[6,1,0,0,2,1096,26],
-"classmrmeshpy_1_1Triangulation.html#a5f30de8600e501d832fd6bb6c96e6e1d":[6,1,1,0,1,1096,25],
-"classmrmeshpy_1_1Triangulation.html#a5f30de8600e501d832fd6bb6c96e6e1d":[6,1,1,0,1,1096,26],
-"classmrmeshpy_1_1Triangulation.html#a6424be3cb7c5cb200b7db2c6065aab12":[6,1,0,0,2,1096,4],
 "classmrmeshpy_1_1Triangulation.html#a6424be3cb7c5cb200b7db2c6065aab12":[6,1,1,0,1,1096,4],
 "classmrmeshpy_1_1Triangulation.html#a70cd776efa9b05482f16588902ff72cd":[6,1,0,0,2,1096,34],
 "classmrmeshpy_1_1Triangulation.html#a70cd776efa9b05482f16588902ff72cd":[6,1,1,0,1,1096,34],
@@ -249,5 +241,13 @@ var NAVTREEINDEX94 =
 "classmrmeshpy_1_1TrimWithPlaneParams.html#a959c64e67690e5e8ffe74cd01ab3f5bd":[6,1,1,0,1,1103,0],
 "classmrmeshpy_1_1TrimWithPlaneParams.html#aee2b8995a27b7bbe87aac866d7609631":[6,1,0,0,2,1103,4],
 "classmrmeshpy_1_1TrimWithPlaneParams.html#aee2b8995a27b7bbe87aac866d7609631":[6,1,1,0,1,1103,4],
-"classmrmeshpy_1_1TrimWithPlaneParams.html#af4df101f3d2c914c9bc3d0ec9d080672":[6,1,0,0,2,1103,8]
+"classmrmeshpy_1_1TrimWithPlaneParams.html#af4df101f3d2c914c9bc3d0ec9d080672":[6,1,0,0,2,1103,8],
+"classmrmeshpy_1_1TrimWithPlaneParams.html#af4df101f3d2c914c9bc3d0ec9d080672":[6,1,1,0,1,1103,8],
+"classmrmeshpy_1_1TrivialMetricToPenalty.html":[6,1,0,0,2,1110],
+"classmrmeshpy_1_1TrivialMetricToPenalty.html":[6,1,1,0,1,1110],
+"classmrmeshpy_1_1TrivialMetricToPenalty.html#a433e3293da4f92419e0052848408fda1":[6,1,0,0,2,1110,0],
+"classmrmeshpy_1_1TrivialMetricToPenalty.html#a433e3293da4f92419e0052848408fda1":[6,1,0,0,2,1110,2],
+"classmrmeshpy_1_1TrivialMetricToPenalty.html#a433e3293da4f92419e0052848408fda1":[6,1,1,0,1,1110,0],
+"classmrmeshpy_1_1TrivialMetricToPenalty.html#a433e3293da4f92419e0052848408fda1":[6,1,1,0,1,1110,2],
+"classmrmeshpy_1_1TrivialMetricToPenalty.html#a840eceb9274ef4b949d2182831672493":[6,1,0,0,2,1110,1]
 };

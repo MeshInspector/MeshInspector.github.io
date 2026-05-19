@@ -195,8 +195,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0cfa07d34a5b833db39b37d46e9ca042"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates new face-id not associated with any edge yet Generated from method <span class="tt"><a class="el" href="#a0cfa07d34a5b833db39b37d46e9ca042" title="creates new face-id not associated with any edge yet Generated from method MR.MeshTopology....">MR.MeshTopology.addFaceId</a></span>.  <br /></td></tr>
 <tr class="memitem:a02ab985393952c324537391d3a95b34b" id="r_a02ab985393952c324537391d3a95b34b"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02ab985393952c324537391d3a95b34b">deleteFace</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> f, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? keepEdges=null)</td></tr>
 <tr class="memdesc:a02ab985393952c324537391d3a95b34b"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes the face, also deletes its edges and vertices if they were not shared by other faces and not in  <br /></td></tr>
-<tr class="memitem:a4c87f85aef48d725a93d2b7422e4274e" id="r_a4c87f85aef48d725a93d2b7422e4274e"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__MeshTopology_1_1VacantElements.html">MR.MeshTopology.VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c87f85aef48d725a93d2b7422e4274e">deleteFaces</a> (<a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> fs, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? keepEdges=null)</td></tr>
-<tr class="memdesc:a4c87f85aef48d725a93d2b7422e4274e"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only deleted faces and no edges from  <br /></td></tr>
+<tr class="memitem:a31a367f56f1fb6868fa57744f1bb3ab1" id="r_a31a367f56f1fb6868fa57744f1bb3ab1"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31a367f56f1fb6868fa57744f1bb3ab1">deleteFaces</a> (<a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> fs, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? keepEdges=null)</td></tr>
+<tr class="memdesc:a31a367f56f1fb6868fa57744f1bb3ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only deleted faces and no edges from  <br /></td></tr>
 <tr class="memitem:af216f8f557054e815ff87e985d4a6cda" id="r_af216f8f557054e815ff87e985d4a6cda"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af216f8f557054e815ff87e985d4a6cda">faceResize</a> (ulong newSize)</td></tr>
 <tr class="memdesc:af216f8f557054e815ff87e985d4a6cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly increases the size of faces vector Generated from method <span class="tt"><a class="el" href="#af216f8f557054e815ff87e985d4a6cda" title="explicitly increases the size of faces vector Generated from method MR.MeshTopology....">MR.MeshTopology.faceResize</a></span>.  <br /></td></tr>
 <tr class="memitem:a432a0837900bf35ae5232e5e5dbd7800" id="r_a432a0837900bf35ae5232e5e5dbd7800"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a432a0837900bf35ae5232e5e5dbd7800">faceResizeWithReserve</a> (ulong newSize)</td></tr>
@@ -215,10 +215,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad4bde8ebc39bc224e43fe0913982be6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends mesh topology (from) in addition to the current topology: creates new edges, faces, verts;  <br /></td></tr>
 <tr class="memitem:acb6c4e7d1ae3135db2f29441b418fa07" id="r_acb6c4e7d1ae3135db2f29441b418fa07"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb6c4e7d1ae3135db2f29441b418fa07">addPart</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? outFmap=null, <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>? outVmap=null, <a class="el" href="classMR_1_1WholeEdgeMap.html">MR.WholeEdgeMap</a>? outEmap=null, bool? rearrangeTriangles=null)</td></tr>
 <tr class="memdesc:acb6c4e7d1ae3135db2f29441b418fa07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ad4bde8ebc39bc224e43fe0913982be6d" title="appends mesh topology (from) in addition to the current topology: creates new edges,...">MR.MeshTopology.addPart</a></span>. Parameter <span class="tt">rearrangeTriangles</span> defaults to <span class="tt">false</span>.  <br /></td></tr>
-<tr class="memitem:a54f5cef00c62307783dec95716482c45" id="r_a54f5cef00c62307783dec95716482c45"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54f5cef00c62307783dec95716482c45">addPartByMask</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? fromFaces, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null)</td></tr>
-<tr class="memdesc:a54f5cef00c62307783dec95716482c45"><td class="mdescLeft">&#160;</td><td class="mdescRight">the same but copies only portion of (from) specified by fromFaces, Generated from method <span class="tt"><a class="el" href="#a54f5cef00c62307783dec95716482c45" title="the same but copies only portion of (from) specified by fromFaces, Generated from method MR....">MR.MeshTopology.addPartByMask</a></span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
-<tr class="memitem:a3c3315ee683280dbd7946a7e10600309" id="r_a3c3315ee683280dbd7946a7e10600309"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c3315ee683280dbd7946a7e10600309">addPartByMask</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? fromFaces, bool? <a class="el" href="#aa8f93500c5a7191443286a5d8bddba59">flipOrientation</a>=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null)</td></tr>
-<tr class="memdesc:a3c3315ee683280dbd7946a7e10600309"><td class="mdescLeft">&#160;</td><td class="mdescRight">this version has more parameters  <br /></td></tr>
+<tr class="memitem:a0bfe6c8f45ec85166612d6b5687b4c92" id="r_a0bfe6c8f45ec85166612d6b5687b4c92"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bfe6c8f45ec85166612d6b5687b4c92">addPartByMask</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? fromFaces, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
+<tr class="memdesc:a0bfe6c8f45ec85166612d6b5687b4c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends the portion of (from) specified by fromFaces in addition to the current topology: creates new edges, faces, verts; optional  <br /></td></tr>
+<tr class="memitem:a0a3932dfe3258e27b06c97c604b26cc0" id="r_a0a3932dfe3258e27b06c97c604b26cc0"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a3932dfe3258e27b06c97c604b26cc0">addPartByMask</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> from, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? fromFaces, bool? <a class="el" href="#aa8f93500c5a7191443286a5d8bddba59">flipOrientation</a>=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, <a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>? map=null, <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>? vacant=null)</td></tr>
+<tr class="memdesc:a0a3932dfe3258e27b06c97c604b26cc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">this version has more parameters  <br /></td></tr>
 <tr class="memitem:a3003427f4a7585b1541d6859faf20424" id="r_a3003427f4a7585b1541d6859faf20424"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3003427f4a7585b1541d6859faf20424">rotateTriangles</a> ()</td></tr>
 <tr class="memdesc:a3003427f4a7585b1541d6859faf20424"><td class="mdescLeft">&#160;</td><td class="mdescRight">for each triangle selects edgeWithLeft with minimal origin vertex Generated from method <span class="tt"><a class="el" href="#a3003427f4a7585b1541d6859faf20424" title="for each triangle selects edgeWithLeft with minimal origin vertex Generated from method MR....">MR.MeshTopology.rotateTriangles</a></span>.  <br /></td></tr>
 <tr class="memitem:af6fdc6f07c1bde76bfed4031e833fb09" id="r_af6fdc6f07c1bde76bfed4031e833fb09"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6fdc6f07c1bde76bfed4031e833fb09">pack</a> (<a class="el" href="classMR_1_1FaceMap.html">MR.FaceMap</a>? outFmap=null, <a class="el" href="classMR_1_1VertMap.html">MR.VertMap</a>? outVmap=null, <a class="el" href="classMR_1_1WholeEdgeMap.html">MR.WholeEdgeMap</a>? outEmap=null, bool? rearrangeTriangles=null)</td></tr>
@@ -726,8 +726,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a3c3315ee683280dbd7946a7e10600309" name="a3c3315ee683280dbd7946a7e10600309"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c3315ee683280dbd7946a7e10600309">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[1/2]</span></h2>
+<a id="a0a3932dfe3258e27b06c97c604b26cc0" name="a0a3932dfe3258e27b06c97c604b26cc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a3932dfe3258e27b06c97c604b26cc0">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -763,7 +763,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>?</td>          <td class="paramname"><span class="paramname"><em>map</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>?</td>          <td class="paramname"><span class="paramname"><em>map</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>?</td>          <td class="paramname"><span class="paramname"><em>vacant</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -778,15 +783,16 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">flipOrientation</td><td>if true then every from triangle is inverted before adding </td></tr>
     <tr><td class="paramname">thisContours</td><td>contours on this mesh (no left face) that have to be stitched with </td></tr>
-    <tr><td class="paramname">fromContours</td><td>contours on from mesh during addition (no left face if flipOrientation otherwise no right face) Generated from method <span class="tt"><a class="el" href="#a54f5cef00c62307783dec95716482c45" title="the same but copies only portion of (from) specified by fromFaces, Generated from method MR....">MR.MeshTopology.addPartByMask</a></span>. Parameter <span class="tt">flipOrientation</span> defaults to <span class="tt">false</span>. Parameter <span class="tt">thisContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">fromContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </td></tr>
+    <tr><td class="paramname">fromContours</td><td>contours on from mesh during addition (no left face if flipOrientation otherwise no right face) optional</td></tr>
+    <tr><td class="paramname">vacant</td><td>can be passed to copy elements not at the end, but over given ones, which the user guaranties to be free/lone Generated from method <span class="tt"><a class="el" href="#a0bfe6c8f45ec85166612d6b5687b4c92" title="appends the portion of (from) specified by fromFaces in addition to the current topology: creates new...">MR.MeshTopology.addPartByMask</a></span>. Parameter <span class="tt">flipOrientation</span> defaults to <span class="tt">false</span>. Parameter <span class="tt">thisContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">fromContours</span> defaults to <span class="tt">{}</span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a54f5cef00c62307783dec95716482c45" name="a54f5cef00c62307783dec95716482c45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54f5cef00c62307783dec95716482c45">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[2/2]</span></h2>
+<a id="a0bfe6c8f45ec85166612d6b5687b4c92" name="a0bfe6c8f45ec85166612d6b5687b4c92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bfe6c8f45ec85166612d6b5687b4c92">&#9670;&#160;</a></span>addPartByMask() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -807,7 +813,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>?</td>          <td class="paramname"><span class="paramname"><em>map</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__PartMapping.html">MR.Const_PartMapping</a>?</td>          <td class="paramname"><span class="paramname"><em>map</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a>?</td>          <td class="paramname"><span class="paramname"><em>vacant</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -817,7 +828,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the same but copies only portion of (from) specified by fromFaces, Generated from method <span class="tt"><a class="el" href="#a54f5cef00c62307783dec95716482c45" title="the same but copies only portion of (from) specified by fromFaces, Generated from method MR....">MR.MeshTopology.addPartByMask</a></span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </p>
+<p>appends the portion of (from) specified by fromFaces in addition to the current topology: creates new edges, faces, verts; optional </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vacant</td><td>can be passed to copy elements not at the end, but over given ones, which the user guaranties to be free/lone Generated from method <span class="tt"><a class="el" href="#a0bfe6c8f45ec85166612d6b5687b4c92" title="appends the portion of (from) specified by fromFaces in addition to the current topology: creates new...">MR.MeshTopology.addPartByMask</a></span>. Parameter <span class="tt">map</span> defaults to <span class="tt">{}</span>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1002,8 +1019,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a4c87f85aef48d725a93d2b7422e4274e" name="a4c87f85aef48d725a93d2b7422e4274e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c87f85aef48d725a93d2b7422e4274e">&#9670;&#160;</a></span>deleteFaces()</h2>
+<a id="a31a367f56f1fb6868fa57744f1bb3ab1" name="a31a367f56f1fb6868fa57744f1bb3ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31a367f56f1fb6868fa57744f1bb3ab1">&#9670;&#160;</a></span>deleteFaces()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1012,7 +1029,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe <a class="el" href="classMR_1_1Const__MeshTopology_1_1VacantElements.html">MR.MeshTopology.VacantElements</a> MR.MeshTopology.deleteFaces </td>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1VacantElements.html">MR.VacantElements</a> MR.MeshTopology.deleteFaces </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>fs</em></span>, </td>
         </tr>
@@ -1033,7 +1050,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">keepEdges,3)</td><td>make lone all the edges, which had to the left/right only deleted faces except for the edges from</td></tr>
-    <tr><td class="paramname">keepEdges;</td><td>return bit sets of all vacant elements in this topology after deletion Generated from method <span class="tt"><a class="el" href="#a4c87f85aef48d725a93d2b7422e4274e" title="deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only dele...">MR.MeshTopology.deleteFaces</a></span>. </td></tr>
+    <tr><td class="paramname">keepEdges;</td><td>return bit sets of all vacant elements in this topology after deletion Generated from method <span class="tt"><a class="el" href="#a31a367f56f1fb6868fa57744f1bb3ab1" title="deletes from this topology: 1) all the gives faces, 2) all the vertices, which had incident only dele...">MR.MeshTopology.deleteFaces</a></span>. </td></tr>
   </table>
   </dd>
 </dl>
