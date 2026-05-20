@@ -14,7 +14,6 @@ var classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId 
     [ "back", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html#ab502d3277241a90b3cca51fe5099905d", null ],
     [ "clear", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html#af7d5513432a3bea6d59e65fafdcaf4cb", null ],
     [ "data", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html#a9e525b1e7d829791deb790973ddae17b", null ],
-    [ "emplaceBack", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html#adf73e90a85aa024b49a71837792f03c4", null ],
     [ "front", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html#ac256fe605773dc81d1bfddef7eb6b6a2", null ],
     [ "GetEnumerator", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html#a345149a2c0c02758aa7cddbfa37daeca", null ],
     [ "operator Vector_MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f_MRNodeId", "classMR_1_1Vector__MRAABBTreeNodeMRAABBTreeTraitsMRFaceTagMRBox3f__MRNodeId.html#afe43572d548aed249535326c3a4e309a", null ],

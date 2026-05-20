@@ -20,7 +20,6 @@ var classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId =
     [ "clear", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#af0d2030572e9339f1303959191490324", null ],
     [ "data", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a171434d51b4587b94ad14370786ab77d", null ],
     [ "data", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a171434d51b4587b94ad14370786ab77d", null ],
-    [ "emplace_back", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#ad28cdd7a98f8caaabfb7b99820d28e55", null ],
     [ "empty", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a0a227adc6e0500624c612094934fb6c0", null ],
     [ "endId", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#a156d4330c0e46229a6ba4714f01aa6cd", null ],
     [ "front", "classmrmeshpy_1_1Vector__Nesting__NestingResult__ObjId.html#ac40b7d716987118b757f7674d0136187", null ],

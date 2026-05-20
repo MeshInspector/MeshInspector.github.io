@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1detail_1_1AffineXf3f" kind="namespace" language="C++">
+    <compoundname>MR::detail::AffineXf3f</compoundname>
+    <innerclass refid="structMR_1_1detail_1_1AffineXf3f_1_1TypeOrPlaceholder" prot="public">MR::detail::AffineXf3f::TypeOrPlaceholder</innerclass>
+    <innerclass refid="structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType" prot="public">MR::detail::AffineXf3f::VectorElemType</innerclass>
+    <innerclass refid="structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType_3_01T_3_01U_01_4_01_4" prot="public">MR::detail::AffineXf3f::VectorElemType&lt; T&lt; U &gt; &gt;</innerclass>
+    <sectiondef kind="var">
+      <member refid="group__GeneralGroup_1ga40d47d814d7936aac7298586a3353971" kind="variable"><name>IsValidTemplateArg</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRMesh/MRMeshFwd.h" line="310" column="1"/>
+  </compounddef>
+</doxygen>

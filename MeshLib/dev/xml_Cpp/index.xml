@@ -130,25 +130,6 @@
     <member refid="group__GeneralGroup_1gaa7ce9ce8b54a5a131d54334b7ed26fb1" kind="function"><name>getVisualizePropertyMask</name></member>
     <member refid="group__GeneralGroup_1ga099d73dfec242eced929d4f4705c90fd" kind="function"><name>setAllVisualizeProperties_</name></member>
   </compound>
-  <compound refid="structMR_1_1AffineXf" kind="struct"><name>MR::AffineXf</name>
-    <member refid="group__GeneralGroup_1ga122798f44f02f88d6fceeddd3f296c0c" kind="typedef"><name>T</name></member>
-    <member refid="group__GeneralGroup_1ga60960f9da874c4087c143336fbbd23ee" kind="typedef"><name>M</name></member>
-    <member refid="group__GeneralGroup_1gac50d0dfa0b11a916ac644165073713ca" kind="variable"><name>A</name></member>
-    <member refid="group__GeneralGroup_1gabc589d85e328480de8c5972558bd7b3c" kind="variable"><name>b</name></member>
-    <member refid="group__GeneralGroup_1gab3b595e5fd83370d9417a0d1e93cf2c1" kind="function"><name>AffineXf</name></member>
-    <member refid="group__GeneralGroup_1ga4f40e964b7034f2c0121f71a30bdf36e" kind="function"><name>AffineXf</name></member>
-    <member refid="group__GeneralGroup_1gae517524526f50cd77be825b78a88708b" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
-    <member refid="group__GeneralGroup_1ga5be41c92ebfbb340e9651f0efd210fcb" kind="function"><name>operator()</name></member>
-    <member refid="group__GeneralGroup_1gaed36bec4a9d093011a85c99f21ced5f3" kind="function"><name>linearOnly</name></member>
-    <member refid="group__GeneralGroup_1gae6f0d93485c6f6bab711487d42b04a96" kind="function"><name>translation</name></member>
-    <member refid="group__GeneralGroup_1ga28ed741d0efefc5b6087bc89a5b6cd85" kind="function"><name>linear</name></member>
-    <member refid="group__GeneralGroup_1ga55cf315823a39d0647333ca27a0b8e98" kind="function"><name>xfAround</name></member>
-    <member refid="group__GeneralGroup_1ga0e644a181cac1fa700946f98a47b8595" kind="friend"><name>operator*</name></member>
-    <member refid="group__GeneralGroup_1ga55d01857e172a9cbf746957013009926" kind="friend"><name>operator==</name></member>
-    <member refid="group__GeneralGroup_1ga186afe85bf17b3cb6a52b55f5af080bc" kind="friend"><name>operator!=</name></member>
-    <member refid="group__GeneralGroup_1gafe3a9bf9c2593c948de620a660aa6ccd" kind="friend"><name>operator&lt;&lt;</name></member>
-    <member refid="group__GeneralGroup_1ga7220240eb64c738d214bd96bbe993b7d" kind="friend"><name>operator&gt;&gt;</name></member>
-  </compound>
   <compound refid="structMR_1_1AllLocalTriangulations" kind="struct"><name>MR::AllLocalTriangulations</name>
     <member refid="group__GeneralGroup_1ga37b85e8c82a4f3cc21ee54015ba67cbb" kind="variable"><name>neighbors</name></member>
     <member refid="group__GeneralGroup_1ga63033f3b2a1d4be33d6fc4e3d709a2cf" kind="variable"><name>fanRecords</name></member>
@@ -4119,7 +4100,7 @@
     <member refid="group__GeneralGroup_1gab442087e0c922ef9c3246e9c1bd35bec" kind="variable"><name>id_</name></member>
     <member refid="group__GeneralGroup_1gab0e4ef6dbed8084af5b947ea4f8152e4" kind="function"><name>Id</name></member>
     <member refid="group__GeneralGroup_1ga626cffc98ec4b785d986aca365ed6ce2" kind="function"><name>Id</name></member>
-    <member refid="group__GeneralGroup_1gac573497158345a22e16a44734a469638" kind="function"><name>Id</name></member>
+    <member refid="group__GeneralGroup_1ga1b8054764284d240210b4431e42f2e79" kind="function"><name>Id</name></member>
     <member refid="group__GeneralGroup_1ga2934bfe0258901c3de2c82cbfb95649f" kind="function"><name>operator ValueType</name></member>
     <member refid="group__GeneralGroup_1ga7a52efda314a702396938241eecfd7c6" kind="function"><name>valid</name></member>
     <member refid="group__GeneralGroup_1ga4a60520ea485fc36672fcc617904ec8b" kind="function"><name>operator bool</name></member>
@@ -5187,7 +5168,7 @@
     <member refid="group__GeneralGroup_1gab8f81a0762c30cf1cc35e58fed5fc882" kind="function"><name>Matrix4</name></member>
     <member refid="group__GeneralGroup_1gabd46e2cdc867cd289cbc0ec5733fa827" kind="function"><name>Matrix4</name></member>
     <member refid="group__GeneralGroup_1ga9a83e20de940378f00e19b33ac4375d7" kind="function"><name>Matrix4</name></member>
-    <member refid="group__GeneralGroup_1gaa742a4871b2f7f749de9e6c98cc7e59c" kind="function"><name>Matrix4</name></member>
+    <member refid="group__GeneralGroup_1ga7653744c1a2b907367c83b0ab98b604c" kind="function"><name>Matrix4</name></member>
     <member refid="group__GeneralGroup_1gaa8b96cc44e4f0586f904a712235af01b" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="group__GeneralGroup_1ga6c21d25d2c8666791acd9807e6625422" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1ga02514ec882b0d3be5745825463ffff40" kind="function"><name>operator()</name></member>
@@ -5206,7 +5187,7 @@
     <member refid="group__GeneralGroup_1ga46de12be029c280190f995c40660c426" kind="function"><name>setTranslation</name></member>
     <member refid="group__GeneralGroup_1ga2968fcaeb275c69d69adefdaec46f32c" kind="function"><name>data</name></member>
     <member refid="group__GeneralGroup_1gae14dd0c11d00774b57b26477176eaf75" kind="function"><name>data</name></member>
-    <member refid="group__GeneralGroup_1ga519d159e9aebbd2a58ed6b78ae96cb4f" kind="function"><name>operator AffineXf3&lt; TT &gt;</name></member>
+    <member refid="group__GeneralGroup_1gad004c54359b0615f1786169aeb85962e" kind="function"><name>operator AffineXf3OrPlaceholder&lt; T &gt;</name></member>
     <member refid="group__GeneralGroup_1ga58830bef10087e37b89c0e3e53a796ab" kind="function"><name>zero</name></member>
     <member refid="group__GeneralGroup_1gae767c7c8330c9975a54782e273f28a7e" kind="function"><name>identity</name></member>
     <member refid="group__GeneralGroup_1ga870527bae94eb9eaacde9e338b4e9994" kind="function"><name>scale</name></member>
@@ -11726,6 +11707,9 @@
     <member refid="group__GeneralGroup_1ga72ce9a6cb00c38cf9a3993cc95fafcb7" kind="variable"><name>objsPoints</name></member>
     <member refid="group__GeneralGroup_1ga28b1d1a4fc0bc2811d060a22d79a48b9" kind="function"><name>fromFlatTree</name></member>
   </compound>
+  <compound refid="structMR_1_1detail_1_1AffineXf3f_1_1TypeOrPlaceholder" kind="struct"><name>MR::detail::AffineXf3f::TypeOrPlaceholder</name>
+    <member refid="group__GeneralGroup_1gad2015de046dd83f8502899e00fb49970" kind="typedef"><name>type</name></member>
+  </compound>
   <compound refid="structMR_1_1UiRenderManager" kind="struct"><name>MR::UiRenderManager</name>
     <member refid="group__GeneralGroup_1ga068f0178b855d81e92b613b5872c99ee" kind="function"><name>~UiRenderManager</name></member>
     <member refid="group__GeneralGroup_1gae586ca77f767a1b38c45269b184c7118" kind="function"><name>preRenderViewport</name></member>
@@ -12089,7 +12073,7 @@
     <member refid="group__GeneralGroup_1gaedb5f8de6324a8ee5e71243c4b67104c" kind="function"><name>lengthSq</name></member>
     <member refid="group__GeneralGroup_1ga9b44af3c8a7c918cf88dac1811950e66" kind="function"><name>length</name></member>
     <member refid="group__GeneralGroup_1gabcd3a5ac10c0bd8323d2f67d4d63c474" kind="function"><name>normalized</name></member>
-    <member refid="group__GeneralGroup_1ga3ff2b05abbbe916d6b2c45fd9be74672" kind="function"><name>transformed</name></member>
+    <member refid="group__GeneralGroup_1gad58865da02e91d912a9eee9a9cc26881" kind="function"><name>transformed</name></member>
     <member refid="group__GeneralGroup_1ga08dc1dd8f81a858ba4f2a61519fd8add" kind="function"><name>unsignZeroValues</name></member>
     <member refid="group__GeneralGroup_1gaf10fc7b8e96744a5bf22924d7bb263ad" kind="function"><name>isFinite</name></member>
     <member refid="group__GeneralGroup_1gaf3522428d5137f019a3da623a19222ab" kind="function"><name>diagonal</name></member>
@@ -12165,6 +12149,11 @@
     <member refid="group__GeneralGroup_1gaa8566e057813e830215faa299cc06d01" kind="friend"><name>begin</name></member>
     <member refid="group__GeneralGroup_1gabd29b7582168608aaab1305e0bffaab4" kind="friend"><name>end</name></member>
     <member refid="group__GeneralGroup_1ga7608b91cd7e3aa970b7a7bfd0a9e8477" kind="friend"><name>end</name></member>
+  </compound>
+  <compound refid="structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType" kind="struct"><name>MR::detail::AffineXf3f::VectorElemType</name>
+  </compound>
+  <compound refid="structMR_1_1detail_1_1AffineXf3f_1_1VectorElemType_3_01T_3_01U_01_4_01_4" kind="struct"><name>MR::detail::AffineXf3f::VectorElemType&lt; T&lt; U &gt; &gt;</name>
+    <member refid="group__GeneralGroup_1ga8449dafdafc7a15fdddc2cbcf0df692d" kind="typedef"><name>type</name></member>
   </compound>
   <compound refid="structMR_1_1SceneCache_1_1VectorHolder" kind="struct"><name>MR::SceneCache::VectorHolder</name>
     <member refid="group__GeneralGroup_1ga298b1987dbe5d8d598ab8a165c6c6e61" kind="variable"><name>value</name></member>
@@ -13916,6 +13905,8 @@
     <member refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kind="typedef"><name>Int64</name></member>
     <member refid="group__GeneralGroup_1ga4d53a06ada7172e8664379b0839b9f98" kind="typedef"><name>Uint64</name></member>
     <member refid="group__GeneralGroup_1gac964d34e63e2bd23c8ab1e4cea68ae71" kind="typedef"><name>AffineXf3</name></member>
+    <member refid="group__GeneralGroup_1ga3f1bf05cffb6426258d558c4159e11bc" kind="typedef"><name>AffineXf2OrPlaceholder</name></member>
+    <member refid="group__GeneralGroup_1gae2856f9003f11adc4d85d9befcb2f442" kind="typedef"><name>AffineXf3OrPlaceholder</name></member>
     <member refid="group__GeneralGroup_1ga7581b60d25c8b6509c76ce12a7545c35" kind="typedef"><name>Sphere3</name></member>
     <member refid="group__GeneralGroup_1ga7eef389e2e2dd24fc59576c7ad184eb5" kind="typedef"><name>Line3</name></member>
     <member refid="group__GeneralGroup_1ga22626b510a506d8dad6a4ccf8b3db9a1" kind="typedef"><name>LineSegm3</name></member>
@@ -14242,6 +14233,7 @@
     <member refid="group__AABBTreeGroup_1ga47032a5f420080191bd8d3600c3c24ef" kind="function"><name>getNumNodesPoints</name></member>
     <member refid="group__GeneralGroup_1ga338195e16e71101c8dc2efe46c3d558a" kind="function"><name>addNoise</name></member>
     <member refid="group__GeneralGroup_1gacd4364d821d22b26a1ca1f4b1b3a7d00" kind="function"><name>addNoise</name></member>
+    <member refid="group__MathGroup_1gab29a7719b4a571baf6abe4be5d93d4f2" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="group__MathGroup_1ga9ae923a2855ed035b5d5f74b3162c0da" kind="function"><name>lookAt</name></member>
     <member refid="group__GeneralGroup_1ga619ceff20b592c254a41645fbe14fa4e" kind="function"><name>alignContoursToMesh</name></member>
     <member refid="group__GeneralGroup_1ga324f968ceee854a2d5f17c3dc4469349" kind="function"><name>bendContoursAlongCurve</name></member>
@@ -15845,6 +15837,9 @@
     <member refid="namespaceMR_1_1detail_1a4b40e1222b8df2660b25e4942deb39fb" kind="function"><name>isPortalFileDialogSupported</name></member>
     <member refid="namespaceMR_1_1detail_1a1a02e764be7c54f9177025ee42b915d0" kind="function"><name>runPortalFileDialog</name></member>
   </compound>
+  <compound refid="namespaceMR_1_1detail_1_1AffineXf3f" kind="namespace"><name>MR::detail::AffineXf3f</name>
+    <member refid="group__GeneralGroup_1ga40d47d814d7936aac7298586a3353971" kind="variable"><name>IsValidTemplateArg</name></member>
+  </compound>
   <compound refid="namespaceMR_1_1detail_1_1Units" kind="namespace"><name>MR::detail::Units</name>
     <member refid="group__GeneralGroup_1gaec57db09655986b2ed959d498edc6f2a" kind="typedef"><name>MakeFloatingPoint</name></member>
   </compound>
@@ -17252,7 +17247,6 @@
     <member refid="MRMacros_8h_1a8e4c97f3488b7d743a2f01f7487f3cdc" kind="define"><name>MR_CONCAT3_</name></member>
     <member refid="MRMacros_8h_1af2577133e8c02d830609dc0c74a53949" kind="define"><name>MR_HAS_REQUIRES</name></member>
     <member refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" kind="define"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
-    <member refid="MRMacros_8h_1aa4077bf89cb8ad6b60d3d1d989cc5361" kind="define"><name>MR_SAME_TYPE_TEMPLATE_PARAM</name></member>
     <member refid="MRMacros_8h_1adc8a2290a0ad34bf18acb8498b4bb91a" kind="define"><name>MR_NO_UNIQUE_ADDRESS</name></member>
     <member refid="MRMacros_8h_1a5a14b15e367904df16d7473d4e5a33ea" kind="define"><name>MR_LIFETIMEBOUND</name></member>
     <member refid="MRMacros_8h_1a39cc255fe35857a435c1f7857797b105" kind="define"><name>MR_LIFETIME_CAPTURE_BY</name></member>
@@ -18375,6 +18369,7 @@
     <member refid="group__MathGroup_1gaacaca15888bdddf50a5db746c7955ca7" kind="function"><name>toEigen</name></member>
     <member refid="group__MathGroup_1ga628c148ec917a4f0bf1398a814476dde" kind="function"><name>fromEigen</name></member>
     <member refid="group__MathGroup_1gad703c1d9a93f5cf4e177808cbfef4deb" kind="function"><name>toEigen</name></member>
+    <member refid="group__MathGroup_1gab29a7719b4a571baf6abe4be5d93d4f2" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="group__MathGroup_1ga9ae923a2855ed035b5d5f74b3162c0da" kind="function"><name>lookAt</name></member>
     <member refid="group__MathGroup_1ga3b002e846a245cb69384c1d444ea65a0" kind="function"><name>computeBoundingBox</name></member>
     <member refid="group__MathGroup_1ga560ffd3d317d3bb18df9db6aae8c2d02" kind="function"><name>computeBoundingBox</name></member>
@@ -20750,8 +20745,6 @@
     <member refid="group__GeneralGroup_1ga5517b355b3a51538470f957d6a23bff1" kind="typedef"><name>LeafTag</name></member>
     <member refid="group__GeneralGroup_1ga7208b3ed4cbf6a7db7c03785856d5131" kind="typedef"><name>LeafId</name></member>
     <member refid="group__GeneralGroup_1gae8c8c6d7c93de2cba91378f547c50a8e" kind="typedef"><name>BoxT</name></member>
-    <member refid="group__GeneralGroup_1ga122798f44f02f88d6fceeddd3f296c0c" kind="typedef"><name>T</name></member>
-    <member refid="group__GeneralGroup_1ga60960f9da874c4087c143336fbbd23ee" kind="typedef"><name>M</name></member>
     <member refid="group__GeneralGroup_1gab29b342345673c2ab559f44111f75bdd" kind="typedef"><name>VTraits</name></member>
     <member refid="group__GeneralGroup_1gaad1f3f595e73be14324c1ad3964ab4fd" kind="typedef"><name>T</name></member>
     <member refid="group__GeneralGroup_1gaede2a83d70208855b602da974aafc690" kind="typedef"><name>Polynomialf</name></member>
@@ -20860,7 +20853,11 @@
     <member refid="group__GeneralGroup_1ga9207b1f3250a9361a3af49d2c3581e0d" kind="typedef"><name>TaggedBitSet</name></member>
     <member refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kind="typedef"><name>Int64</name></member>
     <member refid="group__GeneralGroup_1ga4d53a06ada7172e8664379b0839b9f98" kind="typedef"><name>Uint64</name></member>
+    <member refid="group__GeneralGroup_1ga8449dafdafc7a15fdddc2cbcf0df692d" kind="typedef"><name>type</name></member>
     <member refid="group__GeneralGroup_1gac964d34e63e2bd23c8ab1e4cea68ae71" kind="typedef"><name>AffineXf3</name></member>
+    <member refid="group__GeneralGroup_1gad2015de046dd83f8502899e00fb49970" kind="typedef"><name>type</name></member>
+    <member refid="group__GeneralGroup_1ga3f1bf05cffb6426258d558c4159e11bc" kind="typedef"><name>AffineXf2OrPlaceholder</name></member>
+    <member refid="group__GeneralGroup_1gae2856f9003f11adc4d85d9befcb2f442" kind="typedef"><name>AffineXf3OrPlaceholder</name></member>
     <member refid="group__GeneralGroup_1ga7581b60d25c8b6509c76ce12a7545c35" kind="typedef"><name>Sphere3</name></member>
     <member refid="group__GeneralGroup_1ga7eef389e2e2dd24fc59576c7ad184eb5" kind="typedef"><name>Line3</name></member>
     <member refid="group__GeneralGroup_1ga22626b510a506d8dad6a4ccf8b3db9a1" kind="typedef"><name>LineSegm3</name></member>
@@ -21338,8 +21335,6 @@
     <member refid="group__GeneralGroup_1ga81d588d7442ccd8974d74cb6dbaca36d" kind="variable"><name>seed</name></member>
     <member refid="group__GeneralGroup_1ga414f4d6065c24f7db4605e0dac3362b8" kind="variable"><name>callback</name></member>
     <member refid="group__GeneralGroup_1ga534fe1b7809ccb50abd437a88b6c1412" kind="variable"><name>propertyMasks_</name></member>
-    <member refid="group__GeneralGroup_1gac50d0dfa0b11a916ac644165073713ca" kind="variable"><name>A</name></member>
-    <member refid="group__GeneralGroup_1gabc589d85e328480de8c5972558bd7b3c" kind="variable"><name>b</name></member>
     <member refid="group__GeneralGroup_1ga31bfc9564520f8ef69c0c112375278fb" kind="variable"><name>point</name></member>
     <member refid="group__GeneralGroup_1ga640532564293308f481aa69ef1b94062" kind="variable"><name>amount</name></member>
     <member refid="group__GeneralGroup_1gab696447c7c75c2271af326e9df613cd7" kind="variable"><name>pPolyline</name></member>
@@ -22029,6 +22024,7 @@
     <member refid="group__GeneralGroup_1gaab1c5547a5f28a561cbf6db8f96d04f9" kind="variable"><name>SymMatrix3b</name></member>
     <member refid="group__GeneralGroup_1ga901940384fd79f1a853f969061de606d" kind="variable"><name>SymMatrix4</name></member>
     <member refid="group__GeneralGroup_1gafbf120d60f8fbbb07958a5ed9189d286" kind="variable"><name>SymMatrix4b</name></member>
+    <member refid="group__GeneralGroup_1ga40d47d814d7936aac7298586a3353971" kind="variable"><name>IsValidTemplateArg</name></member>
     <member refid="group__GeneralGroup_1gab4efcaf15a6f87b66c1767aab8a77a08" kind="variable"><name>AffineXf</name></member>
     <member refid="group__GeneralGroup_1gab9a91b42c9f6b54ae6f4729f9ce46769" kind="variable"><name>AffineXf2f</name></member>
     <member refid="group__GeneralGroup_1gade68696b8a4f2ce6dc3ddc977572a1a9" kind="variable"><name>RigidXf3</name></member>
@@ -24508,11 +24504,6 @@
     <member refid="group__GeneralGroup_1ga8c6392ce214f3ae75940276985adb46a" kind="friend"><name>TbbThreadMutex</name></member>
     <member refid="group__GeneralGroup_1ga14ed83528f3fdbb996f9d5cf5d86fa55" kind="friend"><name>ChangeBoundarySelectionHistoryAction</name></member>
     <member refid="group__GeneralGroup_1ga246ba9e59dd5b36be0e8b8144ff30b86" kind="friend"><name>RibbonSchemaLoader</name></member>
-    <member refid="group__GeneralGroup_1ga0e644a181cac1fa700946f98a47b8595" kind="friend"><name>operator*</name></member>
-    <member refid="group__GeneralGroup_1ga55d01857e172a9cbf746957013009926" kind="friend"><name>operator==</name></member>
-    <member refid="group__GeneralGroup_1ga186afe85bf17b3cb6a52b55f5af080bc" kind="friend"><name>operator!=</name></member>
-    <member refid="group__GeneralGroup_1gafe3a9bf9c2593c948de620a660aa6ccd" kind="friend"><name>operator&lt;&lt;</name></member>
-    <member refid="group__GeneralGroup_1ga7220240eb64c738d214bd96bbe993b7d" kind="friend"><name>operator&gt;&gt;</name></member>
     <member refid="group__GeneralGroup_1ga55e9a4cb66cd8ea3f169c01dec8a4c47" kind="friend"><name>begin</name></member>
     <member refid="group__GeneralGroup_1ga0e8a0d24d793d8361f36b8732241f64c" kind="friend"><name>begin</name></member>
     <member refid="group__GeneralGroup_1ga7b23195a6817f509adeba53011944bbc" kind="friend"><name>end</name></member>
@@ -24907,14 +24898,6 @@
     <member refid="group__GeneralGroup_1ga7fc99037212a4beaeec730ca98373554" kind="function"><name>getAllVisualizeProperties</name></member>
     <member refid="group__GeneralGroup_1gaa7ce9ce8b54a5a131d54334b7ed26fb1" kind="function"><name>getVisualizePropertyMask</name></member>
     <member refid="group__GeneralGroup_1ga099d73dfec242eced929d4f4705c90fd" kind="function"><name>setAllVisualizeProperties_</name></member>
-    <member refid="group__GeneralGroup_1gab3b595e5fd83370d9417a0d1e93cf2c1" kind="function"><name>AffineXf</name></member>
-    <member refid="group__GeneralGroup_1ga4f40e964b7034f2c0121f71a30bdf36e" kind="function"><name>AffineXf</name></member>
-    <member refid="group__GeneralGroup_1gae517524526f50cd77be825b78a88708b" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
-    <member refid="group__GeneralGroup_1gae6f0d93485c6f6bab711487d42b04a96" kind="function"><name>translation</name></member>
-    <member refid="group__GeneralGroup_1ga28ed741d0efefc5b6087bc89a5b6cd85" kind="function"><name>linear</name></member>
-    <member refid="group__GeneralGroup_1ga55cf315823a39d0647333ca27a0b8e98" kind="function"><name>xfAround</name></member>
-    <member refid="group__GeneralGroup_1ga5be41c92ebfbb340e9651f0efd210fcb" kind="function"><name>operator()</name></member>
-    <member refid="group__GeneralGroup_1gaed36bec4a9d093011a85c99f21ced5f3" kind="function"><name>linearOnly</name></member>
     <member refid="group__GeneralGroup_1gabc1a76b1bf90fe8aa1fdc481e5ac839a" kind="function"><name>FlowAggregator</name></member>
     <member refid="group__GeneralGroup_1gab7af4ab803d8e13ab2d6b3cdf826648a" kind="function"><name>computeFlow</name></member>
     <member refid="group__GeneralGroup_1ga1ff594631e7f2613f960b1accd919a4a" kind="function"><name>computeFlow</name></member>
@@ -25890,7 +25873,7 @@
     <member refid="group__GeneralGroup_1ga2919e6c1f1b78a1b0e6e9513744013bd" kind="function"><name>calcCombined_</name></member>
     <member refid="group__GeneralGroup_1gab0e4ef6dbed8084af5b947ea4f8152e4" kind="function"><name>Id</name></member>
     <member refid="group__GeneralGroup_1ga626cffc98ec4b785d986aca365ed6ce2" kind="function"><name>Id</name></member>
-    <member refid="group__GeneralGroup_1gac573497158345a22e16a44734a469638" kind="function"><name>Id</name></member>
+    <member refid="group__GeneralGroup_1ga1b8054764284d240210b4431e42f2e79" kind="function"><name>Id</name></member>
     <member refid="group__GeneralGroup_1ga2934bfe0258901c3de2c82cbfb95649f" kind="function"><name>operator ValueType</name></member>
     <member refid="group__GeneralGroup_1ga7a52efda314a702396938241eecfd7c6" kind="function"><name>valid</name></member>
     <member refid="group__GeneralGroup_1ga4a60520ea485fc36672fcc617904ec8b" kind="function"><name>operator bool</name></member>
@@ -26210,7 +26193,7 @@
     <member refid="group__GeneralGroup_1gab8f81a0762c30cf1cc35e58fed5fc882" kind="function"><name>Matrix4</name></member>
     <member refid="group__GeneralGroup_1gabd46e2cdc867cd289cbc0ec5733fa827" kind="function"><name>Matrix4</name></member>
     <member refid="group__GeneralGroup_1ga9a83e20de940378f00e19b33ac4375d7" kind="function"><name>Matrix4</name></member>
-    <member refid="group__GeneralGroup_1gaa742a4871b2f7f749de9e6c98cc7e59c" kind="function"><name>Matrix4</name></member>
+    <member refid="group__GeneralGroup_1ga7653744c1a2b907367c83b0ab98b604c" kind="function"><name>Matrix4</name></member>
     <member refid="group__GeneralGroup_1gaa8b96cc44e4f0586f904a712235af01b" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
     <member refid="group__GeneralGroup_1ga58830bef10087e37b89c0e3e53a796ab" kind="function"><name>zero</name></member>
     <member refid="group__GeneralGroup_1gae767c7c8330c9975a54782e273f28a7e" kind="function"><name>identity</name></member>
@@ -26232,7 +26215,7 @@
     <member refid="group__GeneralGroup_1ga46de12be029c280190f995c40660c426" kind="function"><name>setTranslation</name></member>
     <member refid="group__GeneralGroup_1ga2968fcaeb275c69d69adefdaec46f32c" kind="function"><name>data</name></member>
     <member refid="group__GeneralGroup_1gae14dd0c11d00774b57b26477176eaf75" kind="function"><name>data</name></member>
-    <member refid="group__GeneralGroup_1ga519d159e9aebbd2a58ed6b78ae96cb4f" kind="function"><name>operator AffineXf3&lt; TT &gt;</name></member>
+    <member refid="group__GeneralGroup_1gad004c54359b0615f1786169aeb85962e" kind="function"><name>operator AffineXf3OrPlaceholder&lt; T &gt;</name></member>
     <member refid="group__GeneralGroup_1gacb41c66901ba89701e4dae2f4fe6f40f" kind="function"><name>MeasurementObject</name></member>
     <member refid="group__GeneralGroup_1gad7e32b37b30b047ad8af5555d3fe6b36" kind="function"><name>TransformedMesh</name></member>
     <member refid="group__GeneralGroup_1ga4f79ea52914dc78ad341dade85cee49b" kind="function"><name>TransformedMesh</name></member>
@@ -28031,7 +28014,7 @@
     <member refid="group__GeneralGroup_1gaedb5f8de6324a8ee5e71243c4b67104c" kind="function"><name>lengthSq</name></member>
     <member refid="group__GeneralGroup_1ga9b44af3c8a7c918cf88dac1811950e66" kind="function"><name>length</name></member>
     <member refid="group__GeneralGroup_1gabcd3a5ac10c0bd8323d2f67d4d63c474" kind="function"><name>normalized</name></member>
-    <member refid="group__GeneralGroup_1ga3ff2b05abbbe916d6b2c45fd9be74672" kind="function"><name>transformed</name></member>
+    <member refid="group__GeneralGroup_1gad58865da02e91d912a9eee9a9cc26881" kind="function"><name>transformed</name></member>
     <member refid="group__GeneralGroup_1ga08dc1dd8f81a858ba4f2a61519fd8add" kind="function"><name>unsignZeroValues</name></member>
     <member refid="group__GeneralGroup_1gaf10fc7b8e96744a5bf22924d7bb263ad" kind="function"><name>isFinite</name></member>
     <member refid="group__GeneralGroup_1gae5b8ac0b6c0e0a39fc6983c0fea0a016" kind="function"><name>Vector4</name></member>

@@ -7,13 +7,13 @@
     <includedby refid="MRMeshSubdivideCallbacks_8h" local="yes">MRMesh/MRMeshSubdivideCallbacks.h</includedby>
     <includedby refid="MRProjectionMeshAttribute_8h" local="yes">MRMesh/MRProjectionMeshAttribute.h</includedby>
     <incdepgraph>
-      <node id="4">
+      <node id="5">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="5" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="5">
+      <node id="4">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -29,6 +29,8 @@
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>

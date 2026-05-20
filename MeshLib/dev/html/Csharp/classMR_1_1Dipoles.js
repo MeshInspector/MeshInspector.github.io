@@ -14,7 +14,6 @@ var classMR_1_1Dipoles =
     [ "back", "classMR_1_1Dipoles.html#aae4a4f0e4c74aa7fb0a151ce09b74fc4", null ],
     [ "clear", "classMR_1_1Dipoles.html#aa9bd6466716062dd04491db11f08a925", null ],
     [ "data", "classMR_1_1Dipoles.html#ac047d3c847f41ffea2a8a2546f1d4c8d", null ],
-    [ "emplaceBack", "classMR_1_1Dipoles.html#a17c571d11c674e826f6a772e6349ce0a", null ],
     [ "front", "classMR_1_1Dipoles.html#a5ee2d0a9170797f13b93a8f536a81016", null ],
     [ "GetEnumerator", "classMR_1_1Dipoles.html#a195ce5f79be16492dde15d1b72915132", null ],
     [ "operator Dipoles", "classMR_1_1Dipoles.html#afcec64e7155abe24b9938b32ea620069", null ],

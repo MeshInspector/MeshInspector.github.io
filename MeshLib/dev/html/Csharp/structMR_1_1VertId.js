@@ -4,7 +4,6 @@ var structMR_1_1VertId =
     [ "VertId", "structMR_1_1VertId.html#a69f525e391155e32990dbfcf2ea8a2ae", null ],
     [ "VertId", "structMR_1_1VertId.html#a8047694d01fa69c174cffc646ac4b393", null ],
     [ "VertId", "structMR_1_1VertId.html#ad5d265a174586b9179643fbeba08b7f1", null ],
-    [ "VertId", "structMR_1_1VertId.html#adafd653c8dc6e5882ddb253e3a6ed0fd", null ],
     [ "addAssign", "structMR_1_1VertId.html#a2faf5b52c2785405b8fde6ab8250e898", null ],
     [ "decr", "structMR_1_1VertId.html#a201f91dc75a7007ccfce9ebbcdfbbae9", null ],
     [ "decr", "structMR_1_1VertId.html#a53dcbab7c2affd8b4e2487d7c2e3f9a2", null ],

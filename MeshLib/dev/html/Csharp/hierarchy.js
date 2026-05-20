@@ -1922,9 +1922,6 @@ var hierarchy =
       [ "MR.Const_RawTiffOutput", "classMR_1_1Const__RawTiffOutput.html", [
         [ "MR.RawTiffOutput", "classMR_1_1RawTiffOutput.html", null ]
       ] ],
-      [ "MR.Const_RayOrigin_Float", "classMR_1_1Const__RayOrigin__Float.html", [
-        [ "MR.RayOrigin_Float", "classMR_1_1RayOrigin__Float.html", null ]
-      ] ],
       [ "MR.Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html", [
         [ "MR.RebuildMeshSettings", "classMR_1_1RebuildMeshSettings.html", null ]
       ] ],
@@ -4100,7 +4097,6 @@ var hierarchy =
       [ "MR.Const_Quaternionf", "classMR_1_1Const__Quaternionf.html", null ],
       [ "MR.Const_RadiusMeasurementObject", "classMR_1_1Const__RadiusMeasurementObject.html", null ],
       [ "MR.Const_RawTiffOutput", "classMR_1_1Const__RawTiffOutput.html", null ],
-      [ "MR.Const_RayOrigin_Float", "classMR_1_1Const__RayOrigin__Float.html", null ],
       [ "MR.Const_RebuildMeshSettings", "classMR_1_1Const__RebuildMeshSettings.html", null ],
       [ "MR.Const_RectIndexer", "classMR_1_1Const__RectIndexer.html", null ],
       [ "MR.Const_ReduceTotalAngleParams", "classMR_1_1Const__ReduceTotalAngleParams.html", null ],

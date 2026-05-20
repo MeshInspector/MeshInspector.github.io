@@ -194,10 +194,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a363c6648b8fe1702f69d019676856179"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cached aabb-tree for this polyline, but does not create it if it did not exist  <br /></td></tr>
 <tr class="memitem:abe0cb6a927b49d813ccebab2cc70d7a7" id="r_abe0cb6a927b49d813ccebab2cc70d7a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe0cb6a927b49d813ccebab2cc70d7a7">getBoundingBox</a> () const</td></tr>
 <tr class="memdesc:abe0cb6a927b49d813ccebab2cc70d7a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the minimal bounding box containing all valid vertices (implemented via <a class="el" href="#ae04ad0d4adb7dd9912ec74fd39fcbad8" title="returns cached aabb-tree for this polyline, creating it if it did not exist in a thread-safe manner">getAABBTree()</a>)  <br /></td></tr>
-<tr class="memitem:ab0cfcd3178240f3bb9b8346a5d063464" id="r_ab0cfcd3178240f3bb9b8346a5d063464"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0cfcd3178240f3bb9b8346a5d063464">computeBoundingBox</a> (const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; *toWorld=nullptr) const</td></tr>
+<tr class="memitem:ab0cfcd3178240f3bb9b8346a5d063464" id="r_ab0cfcd3178240f3bb9b8346a5d063464"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0cfcd3178240f3bb9b8346a5d063464">computeBoundingBox</a> (const <a class="el" href="group__GeneralGroup.html#gab4efcaf15a6f87b66c1767aab8a77a08">AffineXf</a>&lt; V &gt; *toWorld=nullptr) const</td></tr>
 <tr class="memitem:ab5969e3da3e8deb772958e4855dc5b9c" id="r_ab5969e3da3e8deb772958e4855dc5b9c"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5969e3da3e8deb772958e4855dc5b9c">findCenterFromPoints</a> () const</td></tr>
 <tr class="memdesc:ab5969e3da3e8deb772958e4855dc5b9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes average position of all valid polyline vertices  <br /></td></tr>
-<tr class="memitem:a83ce5536fb56d4e5f1126acbc419a663" id="r_a83ce5536fb56d4e5f1126acbc419a663"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83ce5536fb56d4e5f1126acbc419a663">transform</a> (const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;xf)</td></tr>
+<tr class="memitem:a83ce5536fb56d4e5f1126acbc419a663" id="r_a83ce5536fb56d4e5f1126acbc419a663"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83ce5536fb56d4e5f1126acbc419a663">transform</a> (const <a class="el" href="group__GeneralGroup.html#gab4efcaf15a6f87b66c1767aab8a77a08">AffineXf</a>&lt; V &gt; &amp;xf)</td></tr>
 <tr class="memdesc:a83ce5536fb56d4e5f1126acbc419a663"><td class="mdescLeft">&#160;</td><td class="mdescRight">applies given transformation to all valid polyline vertices  <br /></td></tr>
 <tr class="memitem:a32c77b23ecee22eeb23aff9b7e7e0392" id="r_a32c77b23ecee22eeb23aff9b7e7e0392"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32c77b23ecee22eeb23aff9b7e7e0392">splitEdge</a> (EdgeId e, const V &amp;newVertPos)</td></tr>
 <tr class="memitem:aee0339a19861aa52dd86eceea3e805b8" id="r_aee0339a19861aa52dd86eceea3e805b8"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee0339a19861aa52dd86eceea3e805b8">splitEdge</a> (EdgeId e)</td></tr>
@@ -583,7 +583,7 @@ template&lt;typename V&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="structMR_1_1Box.html">Box</a>&lt; V &gt; <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::computeBoundingBox </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; *</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#gab4efcaf15a6f87b66c1767aab8a77a08">AffineXf</a>&lt; V &gt; *</td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1332,7 +1332,7 @@ template&lt;typename V&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="structMR_1_1Polyline.html">MR::Polyline</a>&lt; V &gt;::transform </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="group__GeneralGroup.html#gab4efcaf15a6f87b66c1767aab8a77a08">AffineXf</a>&lt; V &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

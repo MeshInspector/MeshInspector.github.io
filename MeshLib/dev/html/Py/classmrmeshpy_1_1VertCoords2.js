@@ -22,7 +22,6 @@ var classmrmeshpy_1_1VertCoords2 =
     [ "clear", "classmrmeshpy_1_1VertCoords2.html#a1e0d1523585cb1e99ab5d001b8e81388", null ],
     [ "data", "classmrmeshpy_1_1VertCoords2.html#a74c774541f81ea995709fe7a0e897a23", null ],
     [ "data", "classmrmeshpy_1_1VertCoords2.html#a74c774541f81ea995709fe7a0e897a23", null ],
-    [ "emplace_back", "classmrmeshpy_1_1VertCoords2.html#a4451b80187112cfff661d3c054c89add", null ],
     [ "empty", "classmrmeshpy_1_1VertCoords2.html#ac261bf1f92a75930934cb6c176c0bebc", null ],
     [ "endId", "classmrmeshpy_1_1VertCoords2.html#a1473d0ba9b50479d140e7963a3b949ff", null ],
     [ "front", "classmrmeshpy_1_1VertCoords2.html#a8167565b7c521d99294e99607aaf8336", null ],

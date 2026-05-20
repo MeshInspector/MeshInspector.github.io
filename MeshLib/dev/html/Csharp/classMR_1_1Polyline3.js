@@ -16,7 +16,6 @@ var classMR_1_1Polyline3 =
     [ "addPartByMask", "classMR_1_1Polyline3.html#afb2e1ab90944752551cc4efc138f6e4b", null ],
     [ "assign", "classMR_1_1Polyline3.html#a09f7ffaa14902a701956b8e971cc3b18", null ],
     [ "invalidateCaches", "classMR_1_1Polyline3.html#a697ca56cbb54ee868cd559007f8708ef", null ],
-    [ "mirror", "classMR_1_1Polyline3.html#aaa86f6430d09a0dbe3ecc160a9ea304b", null ],
     [ "operator Polyline3", "classMR_1_1Polyline3.html#a42df0570f9a3e1f840f2581f169e95cf", null ],
     [ "operator Polyline3", "classMR_1_1Polyline3.html#af33669b1c262d3384459cceb7270da1e", null ],
     [ "pack", "classMR_1_1Polyline3.html#a4ae1f823f2768a98f1cd0924591b2bd6", null ],

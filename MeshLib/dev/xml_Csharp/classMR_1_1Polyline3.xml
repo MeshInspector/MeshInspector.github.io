@@ -544,25 +544,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="1433" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="1433" bodyend="1438"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1Polyline3_1aaa86f6430d09a0dbe3ecc160a9ea304b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.Polyline3.mirror</definition>
-        <argsstring>(MR.Const_Plane3f plane)</argsstring>
-        <name>mirror</name>
-        <qualifiedname>MR.Polyline3.mirror</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1Const__Plane3f" kindref="compound">MR.Const_Plane3f</ref></type>
-          <declname>plane</declname>
-        </param>
-        <briefdescription>
-<para>reflects the polyline from a given plane. Enabled only for Polyline3f Generated from method <computeroutput><ref refid="classMR_1_1Polyline3_1aaa86f6430d09a0dbe3ecc160a9ea304b" kindref="member">MR.Polyline3.mirror</ref>&amp;lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&amp;gt;</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="1444" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="1444" bodyend="1449"/>
-      </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classMR_1_1Polyline3_1a42df0570f9a3e1f840f2581f169e95cf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -653,7 +634,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="1152" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="1153" bodyend="1450"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" line="1152" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolyline.cs" bodystart="1153" bodyend="1439"/>
     <listofallmembers>
       <member refid="classMR_1_1Polyline3_1af8f4add17db92ffc3943916ab52ffc76" prot="public" virt="non-virtual"><scope>MR::Polyline3</scope><name>addFromEdgePath</name></member>
       <member refid="classMR_1_1Polyline3_1a74093132d65d8c18845c75b2cc82a3ac" prot="public" virt="non-virtual"><scope>MR::Polyline3</scope><name>addFromGeneralSurfacePath</name></member>
@@ -691,7 +672,6 @@
       <member refid="classMR_1_1Const__Polyline3_1a7f6c30925fad242f02f4d0af3335e08d" prot="public" virt="non-virtual"><scope>MR::Polyline3</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1Polyline3_1a697ca56cbb54ee868cd559007f8708ef" prot="public" virt="non-virtual"><scope>MR::Polyline3</scope><name>invalidateCaches</name></member>
       <member refid="classMR_1_1Const__Polyline3_1a5f31a9a6daad1b68e259a1b4abd397ee" prot="public" virt="non-virtual"><scope>MR::Polyline3</scope><name>loopDirArea</name></member>
-      <member refid="classMR_1_1Polyline3_1aaa86f6430d09a0dbe3ecc160a9ea304b" prot="public" virt="non-virtual"><scope>MR::Polyline3</scope><name>mirror</name></member>
       <member refid="classMR_1_1Const__Polyline3_1a857897617df000dcb24d9c26531838e8" prot="public" virt="non-virtual"><scope>MR::Polyline3</scope><name>operator Const_Polyline3</name></member>
       <member refid="classMR_1_1Const__Polyline3_1ab4bcb7c2fa4ec12f2ef27da51d0427b7" prot="public" virt="non-virtual"><scope>MR::Polyline3</scope><name>operator Const_Polyline3</name></member>
       <member refid="classMR_1_1Polyline3_1a42df0570f9a3e1f840f2581f169e95cf" prot="public" virt="non-virtual"><scope>MR::Polyline3</scope><name>operator Polyline3</name></member>

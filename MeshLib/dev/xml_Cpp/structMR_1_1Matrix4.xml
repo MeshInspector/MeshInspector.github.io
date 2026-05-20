@@ -26,7 +26,7 @@
       <member refid="group__GeneralGroup_1gab8f81a0762c30cf1cc35e58fed5fc882" kind="function"><name>Matrix4</name></member>
       <member refid="group__GeneralGroup_1gabd46e2cdc867cd289cbc0ec5733fa827" kind="function"><name>Matrix4</name></member>
       <member refid="group__GeneralGroup_1ga9a83e20de940378f00e19b33ac4375d7" kind="function"><name>Matrix4</name></member>
-      <member refid="group__GeneralGroup_1gaa742a4871b2f7f749de9e6c98cc7e59c" kind="function"><name>Matrix4</name></member>
+      <member refid="group__GeneralGroup_1ga7653744c1a2b907367c83b0ab98b604c" kind="function"><name>Matrix4</name></member>
       <member refid="group__GeneralGroup_1gaa8b96cc44e4f0586f904a712235af01b" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
       <member refid="group__GeneralGroup_1ga6c21d25d2c8666791acd9807e6625422" kind="function"><name>operator()</name></member>
       <member refid="group__GeneralGroup_1ga02514ec882b0d3be5745825463ffff40" kind="function"><name>operator()</name></member>
@@ -45,7 +45,7 @@
       <member refid="group__GeneralGroup_1ga46de12be029c280190f995c40660c426" kind="function"><name>setTranslation</name></member>
       <member refid="group__GeneralGroup_1ga2968fcaeb275c69d69adefdaec46f32c" kind="function"><name>data</name></member>
       <member refid="group__GeneralGroup_1gae14dd0c11d00774b57b26477176eaf75" kind="function"><name>data</name></member>
-      <member refid="group__GeneralGroup_1ga519d159e9aebbd2a58ed6b78ae96cb4f" kind="function"><name>operator AffineXf3&lt; TT &gt;</name></member>
+      <member refid="group__GeneralGroup_1gad004c54359b0615f1786169aeb85962e" kind="function"><name>operator AffineXf3OrPlaceholder&lt; T &gt;</name></member>
     </sectiondef>
     <sectiondef kind="public-static-func">
       <member refid="group__GeneralGroup_1ga58830bef10087e37b89c0e3e53a796ab" kind="function"><name>zero</name></member>
@@ -74,7 +74,7 @@
     <detaileddescription>
 <para>arbitrary 4x4 matrix </para>
     </detaileddescription>
-    <location file="MRMesh/MRMatrix4.h" line="24" column="1" bodyfile="MRMesh/MRMatrix4.h" bodystart="25" bodyend="176"/>
+    <location file="MRMesh/MRMatrix4.h" line="24" column="1" bodyfile="MRMesh/MRMatrix4.h" bodystart="25" bodyend="174"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad44d7c3967100d5828818e59d4b57563" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>col</name></member>
       <member refid="group__GeneralGroup_1ga2968fcaeb275c69d69adefdaec46f32c" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>data</name></member>
@@ -87,11 +87,11 @@
       <member refid="group__GeneralGroup_1gab8f81a0762c30cf1cc35e58fed5fc882" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>Matrix4</name></member>
       <member refid="group__GeneralGroup_1gabd46e2cdc867cd289cbc0ec5733fa827" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>Matrix4</name></member>
       <member refid="group__GeneralGroup_1ga9a83e20de940378f00e19b33ac4375d7" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>Matrix4</name></member>
-      <member refid="group__GeneralGroup_1gaa742a4871b2f7f749de9e6c98cc7e59c" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>Matrix4</name></member>
+      <member refid="group__GeneralGroup_1ga7653744c1a2b907367c83b0ab98b604c" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>Matrix4</name></member>
       <member refid="group__GeneralGroup_1gaa8b96cc44e4f0586f904a712235af01b" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
       <member refid="group__GeneralGroup_1gaa462857af46ce91cb171db91608a48ab" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>norm</name></member>
       <member refid="group__GeneralGroup_1ga61d081cbcb96e39fb7279a55c0b57996" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>normSq</name></member>
-      <member refid="group__GeneralGroup_1ga519d159e9aebbd2a58ed6b78ae96cb4f" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator AffineXf3&lt; TT &gt;</name></member>
+      <member refid="group__GeneralGroup_1gad004c54359b0615f1786169aeb85962e" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator AffineXf3OrPlaceholder&lt; T &gt;</name></member>
       <member refid="group__GeneralGroup_1ga0edef98e052801b43845aaa81aba98b3" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator!=</name></member>
       <member refid="group__GeneralGroup_1ga6c21d25d2c8666791acd9807e6625422" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator()</name></member>
       <member refid="group__GeneralGroup_1ga02514ec882b0d3be5745825463ffff40" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator()</name></member>

@@ -11,7 +11,6 @@
     <innerclass refid="structMR_1_1AABBTreeTraits" prot="public">MR::AABBTreeTraits</innerclass>
     <innerclass refid="classMR_1_1AddCustomThemePlugin" prot="public">MR::AddCustomThemePlugin</innerclass>
     <innerclass refid="classMR_1_1AddVisualProperties" prot="public">MR::AddVisualProperties</innerclass>
-    <innerclass refid="structMR_1_1AffineXf" prot="public">MR::AffineXf</innerclass>
     <innerclass refid="structMR_1_1AllLocalTriangulations" prot="public">MR::AllLocalTriangulations</innerclass>
     <innerclass refid="classMR_1_1AlphaSortGL" prot="public">MR::AlphaSortGL</innerclass>
     <innerclass refid="classMR_1_1AncillaryImGuiLabel" prot="public">MR::AncillaryImGuiLabel</innerclass>
@@ -1710,6 +1709,8 @@
       <member refid="group__GeneralGroup_1gab37325fd02c5c38e75d9e18b8218e840" kind="typedef"><name>Int64</name></member>
       <member refid="group__GeneralGroup_1ga4d53a06ada7172e8664379b0839b9f98" kind="typedef"><name>Uint64</name></member>
       <member refid="group__GeneralGroup_1gac964d34e63e2bd23c8ab1e4cea68ae71" kind="typedef"><name>AffineXf3</name></member>
+      <member refid="group__GeneralGroup_1ga3f1bf05cffb6426258d558c4159e11bc" kind="typedef"><name>AffineXf2OrPlaceholder</name></member>
+      <member refid="group__GeneralGroup_1gae2856f9003f11adc4d85d9befcb2f442" kind="typedef"><name>AffineXf3OrPlaceholder</name></member>
       <member refid="group__GeneralGroup_1ga7581b60d25c8b6509c76ce12a7545c35" kind="typedef"><name>Sphere3</name></member>
       <member refid="group__GeneralGroup_1ga7eef389e2e2dd24fc59576c7ad184eb5" kind="typedef"><name>Line3</name></member>
       <member refid="group__GeneralGroup_1ga22626b510a506d8dad6a4ccf8b3db9a1" kind="typedef"><name>LineSegm3</name></member>
@@ -2053,6 +2054,7 @@
       <member refid="group__AABBTreeGroup_1ga47032a5f420080191bd8d3600c3c24ef" kind="function"><name>getNumNodesPoints</name></member>
       <member refid="group__GeneralGroup_1ga338195e16e71101c8dc2efe46c3d558a" kind="function"><name>addNoise</name></member>
       <member refid="group__GeneralGroup_1gacd4364d821d22b26a1ca1f4b1b3a7d00" kind="function"><name>addNoise</name></member>
+      <member refid="group__MathGroup_1gab29a7719b4a571baf6abe4be5d93d4f2" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
       <member refid="group__MathGroup_1ga9ae923a2855ed035b5d5f74b3162c0da" kind="function"><name>lookAt</name></member>
       <member refid="group__GeneralGroup_1ga619ceff20b592c254a41645fbe14fa4e" kind="function"><name>alignContoursToMesh</name></member>
       <member refid="group__GeneralGroup_1ga324f968ceee854a2d5f17c3dc4469349" kind="function"><name>bendContoursAlongCurve</name></member>

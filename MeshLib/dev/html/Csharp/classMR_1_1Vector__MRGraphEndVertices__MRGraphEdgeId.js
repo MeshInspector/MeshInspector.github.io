@@ -14,7 +14,6 @@ var classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId =
     [ "back", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#a7a0d38b2ed3e0874f28ba04f5f5b02e0", null ],
     [ "clear", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#ab8086b7a65b9680d0f05cb37771488d9", null ],
     [ "data", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#a11b5fead68765b02929f14dd65f5d412", null ],
-    [ "emplaceBack", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#a31df3d430b233a4baf3ee6e40055e469", null ],
     [ "front", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#ad038ab52a090fe4110fe087d9d522898", null ],
     [ "GetEnumerator", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#a7f1175837a815fbee97039299d6bb4fa", null ],
     [ "operator Vector_MRGraphEndVertices_MRGraphEdgeId", "classMR_1_1Vector__MRGraphEndVertices__MRGraphEdgeId.html#ae1a77b5c0a84ae1594c643aeb0463fd3", null ],

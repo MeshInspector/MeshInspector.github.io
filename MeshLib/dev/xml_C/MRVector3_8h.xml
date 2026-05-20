@@ -4603,7 +4603,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns this vector transformed by xf if it is Generated from method <computeroutput>MR::Vector3f::transformed&lt;float&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>returns this vector transformed by xf if it is Generated from method <computeroutput>MR::Vector3f::transformed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -5351,7 +5351,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns this vector transformed by xf if it is Generated from method <computeroutput>MR::Vector3d::transformed&lt;double&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+<para>returns this vector transformed by xf if it is Generated from method <computeroutput>MR::Vector3d::transformed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

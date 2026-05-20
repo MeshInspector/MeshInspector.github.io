@@ -22,7 +22,6 @@ var classmrmeshpy_1_1TriCornerUVCoords =
     [ "clear", "classmrmeshpy_1_1TriCornerUVCoords.html#ac3be0024bb3aa0f818579600ce380d8e", null ],
     [ "data", "classmrmeshpy_1_1TriCornerUVCoords.html#a7fd27d3361408905508e723523e87c72", null ],
     [ "data", "classmrmeshpy_1_1TriCornerUVCoords.html#a7fd27d3361408905508e723523e87c72", null ],
-    [ "emplace_back", "classmrmeshpy_1_1TriCornerUVCoords.html#aa922e9711c2290c8ca241d3c5b96059e", null ],
     [ "empty", "classmrmeshpy_1_1TriCornerUVCoords.html#a2ecc4b6029e2cda3cc88f41b7ab20314", null ],
     [ "endId", "classmrmeshpy_1_1TriCornerUVCoords.html#afb65304de4a4d86200f3e1067f05e6f3", null ],
     [ "front", "classmrmeshpy_1_1TriCornerUVCoords.html#a157220c31c699f3d96464c9c75eb95ad", null ],

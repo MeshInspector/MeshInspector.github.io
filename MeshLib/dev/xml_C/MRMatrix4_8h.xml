@@ -2789,11 +2789,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix4.h" line="704" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix4.h" declline="704" declcolumn="21"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix4_8h_1a6c2806817c38b27d1f0f492626489bee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix4_8h_1a2fe9e0d0b2a85faf9f0e41f18cc40c68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Matrix4f" kindref="compound">MR_Matrix4f</ref></type>
-        <definition>MRC_API MR_Matrix4f MR_Matrix4f_Construct_float</definition>
+        <definition>MRC_API MR_Matrix4f MR_Matrix4f_Construct_1</definition>
         <argsstring>(const MR_AffineXf3f *xf)</argsstring>
-        <name>MR_Matrix4f_Construct_float</name>
+        <name>MR_Matrix4f_Construct_1</name>
         <param>
           <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
           <declname>xf</declname>
@@ -3684,11 +3684,11 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix4.h" line="925" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMatrix4.h" declline="925" declcolumn="21"/>
       </memberdef>
-      <memberdef kind="function" id="MRMatrix4_8h_1a8d77dffcc541405bad1e736086086a84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="MRMatrix4_8h_1a0390fd0c54daf0e56a9eba01f4c1e54b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Matrix4d" kindref="compound">MR_Matrix4d</ref></type>
-        <definition>MRC_API MR_Matrix4d MR_Matrix4d_Construct_double</definition>
+        <definition>MRC_API MR_Matrix4d MR_Matrix4d_Construct_1</definition>
         <argsstring>(const MR_AffineXf3d *xf)</argsstring>
-        <name>MR_Matrix4d_Construct_double</name>
+        <name>MR_Matrix4d_Construct_1</name>
         <param>
           <type>const <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref> *</type>
           <declname>xf</declname>
@@ -5981,7 +5981,7 @@
 <codeline lineno="705"><highlight class="normal"></highlight></codeline>
 <codeline lineno="706"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Currently<sp/>`AffineXf3&lt;long<sp/>long&gt;`<sp/>doesn&apos;t<sp/>seem<sp/>to<sp/>compile,<sp/>so<sp/>we<sp/>disable<sp/>this<sp/>constructor<sp/>for<sp/>`Matrix4&lt;long<sp/>long&gt;`,<sp/>because<sp/>otherwise</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="707"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mrbind<sp/>instantiates<sp/>the<sp/>entire<sp/>`AffineXf3&lt;long<sp/>long&gt;`<sp/>and<sp/>chokes<sp/>on<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="711" refid="MRMatrix4_8h_1a6c2806817c38b27d1f0f492626489bee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix4f" kindref="compound">MR_Matrix4f</ref><sp/><ref refid="MRMatrix4_8h_1a6c2806817c38b27d1f0f492626489bee" kindref="member">MR_Matrix4f_Construct_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="711" refid="MRMatrix4_8h_1a2fe9e0d0b2a85faf9f0e41f18cc40c68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix4f" kindref="compound">MR_Matrix4f</ref><sp/><ref refid="MRMatrix4_8h_1a2fe9e0d0b2a85faf9f0e41f18cc40c68" kindref="member">MR_Matrix4f_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="712"><highlight class="normal"></highlight></codeline>
 <codeline lineno="715" refid="MRMatrix4_8h_1a778cd9d5ce3695c3c7da7b48853215bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRMatrix4_8h_1a778cd9d5ce3695c3c7da7b48853215bb" kindref="member">MR_Matrix4f_ConvertTo_MR_AffineXf3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix4f" kindref="compound">MR_Matrix4f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="716"><highlight class="normal"></highlight></codeline>
@@ -6070,7 +6070,7 @@
 <codeline lineno="926"><highlight class="normal"></highlight></codeline>
 <codeline lineno="927"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Currently<sp/>`AffineXf3&lt;long<sp/>long&gt;`<sp/>doesn&apos;t<sp/>seem<sp/>to<sp/>compile,<sp/>so<sp/>we<sp/>disable<sp/>this<sp/>constructor<sp/>for<sp/>`Matrix4&lt;long<sp/>long&gt;`,<sp/>because<sp/>otherwise</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="928"><highlight class="normal"></highlight><highlight class="comment">//<sp/>mrbind<sp/>instantiates<sp/>the<sp/>entire<sp/>`AffineXf3&lt;long<sp/>long&gt;`<sp/>and<sp/>chokes<sp/>on<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="932" refid="MRMatrix4_8h_1a8d77dffcc541405bad1e736086086a84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix4d" kindref="compound">MR_Matrix4d</ref><sp/><ref refid="MRMatrix4_8h_1a8d77dffcc541405bad1e736086086a84" kindref="member">MR_Matrix4d_Construct_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="932" refid="MRMatrix4_8h_1a0390fd0c54daf0e56a9eba01f4c1e54b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Matrix4d" kindref="compound">MR_Matrix4d</ref><sp/><ref refid="MRMatrix4_8h_1a0390fd0c54daf0e56a9eba01f4c1e54b" kindref="member">MR_Matrix4d_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="933"><highlight class="normal"></highlight></codeline>
 <codeline lineno="936" refid="MRMatrix4_8h_1a46183fdb4da5878b64a0ff9fdedfecf4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRMatrix4_8h_1a46183fdb4da5878b64a0ff9fdedfecf4" kindref="member">MR_Matrix4d_ConvertTo_MR_AffineXf3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Matrix4d" kindref="compound">MR_Matrix4d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="937"><highlight class="normal"></highlight></codeline>

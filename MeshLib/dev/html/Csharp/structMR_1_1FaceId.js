@@ -4,8 +4,6 @@ var structMR_1_1FaceId =
     [ "FaceId", "structMR_1_1FaceId.html#a6d70703a3bf4ff6904ac1b71469d5422", null ],
     [ "FaceId", "structMR_1_1FaceId.html#a0a67e96ce50584bcaff89dc33f124421", null ],
     [ "FaceId", "structMR_1_1FaceId.html#af17b39eca5ab29c6bda675a8decec05c", null ],
-    [ "FaceId", "structMR_1_1FaceId.html#a1f4fe67b0c7a8b23e7ec53a9aa5e6fc3", null ],
-    [ "FaceId", "structMR_1_1FaceId.html#aeba21ccf8945828f242ee849e8c17711", null ],
     [ "addAssign", "structMR_1_1FaceId.html#a340409d77bebb6a20220d5d1e6f0b771", null ],
     [ "decr", "structMR_1_1FaceId.html#a5473ecff33d0192f06f429c9904fc8c7", null ],
     [ "decr", "structMR_1_1FaceId.html#af215b0e215bce00e0014b572f65d1a2a", null ],

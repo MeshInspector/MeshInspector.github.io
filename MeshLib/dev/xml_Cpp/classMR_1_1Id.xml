@@ -18,7 +18,7 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gab0e4ef6dbed8084af5b947ea4f8152e4" kind="function"><name>Id</name></member>
       <member refid="group__GeneralGroup_1ga626cffc98ec4b785d986aca365ed6ce2" kind="function"><name>Id</name></member>
-      <member refid="group__GeneralGroup_1gac573497158345a22e16a44734a469638" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga1b8054764284d240210b4431e42f2e79" kind="function"><name>Id</name></member>
       <member refid="group__GeneralGroup_1ga2934bfe0258901c3de2c82cbfb95649f" kind="function"><name>operator ValueType</name></member>
       <member refid="group__GeneralGroup_1ga7a52efda314a702396938241eecfd7c6" kind="function"><name>valid</name></member>
       <member refid="group__GeneralGroup_1ga4a60520ea485fc36672fcc617904ec8b" kind="function"><name>operator bool</name></member>
@@ -53,12 +53,12 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="MRMesh/MRId.h" line="18" column="1" bodyfile="MRMesh/MRId.h" bodystart="19" bodyend="75"/>
+    <location file="MRMesh/MRId.h" line="19" column="1" bodyfile="MRMesh/MRId.h" bodystart="20" bodyend="73"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gaba62ab281df54c9782b7668d99d28d1e" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>get</name></member>
       <member refid="group__GeneralGroup_1gab0e4ef6dbed8084af5b947ea4f8152e4" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>Id</name></member>
       <member refid="group__GeneralGroup_1ga626cffc98ec4b785d986aca365ed6ce2" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>Id</name></member>
-      <member refid="group__GeneralGroup_1gac573497158345a22e16a44734a469638" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga1b8054764284d240210b4431e42f2e79" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>Id</name></member>
       <member refid="group__GeneralGroup_1gab442087e0c922ef9c3246e9c1bd35bec" prot="private" virt="non-virtual"><scope>MR::Id</scope><name>id_</name></member>
       <member refid="group__GeneralGroup_1ga4a60520ea485fc36672fcc617904ec8b" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator bool</name></member>
       <member refid="group__GeneralGroup_1ga2934bfe0258901c3de2c82cbfb95649f" prot="public" virt="non-virtual"><scope>MR::Id</scope><name>operator ValueType</name></member>

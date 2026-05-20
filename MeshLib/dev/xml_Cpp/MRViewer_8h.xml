@@ -13,10 +13,10 @@
     <includedby refid="MRSwapRootAction_8h" local="yes">MRViewer/MRSwapRootAction.h</includedby>
     <includedby refid="MRViewportParametersAction_8h" local="yes">MRViewer/MRViewportParametersAction.h</includedby>
     <incdepgraph>
-      <node id="8">
+      <node id="9">
         <label>MRMesh/MRCanonicalTypedefs.h</label>
         <link refid="MRCanonicalTypedefs_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
       <node id="30">
@@ -25,7 +25,7 @@
         <childnode refid="23" relation="include">
         </childnode>
       </node>
-      <node id="9">
+      <node id="8">
         <label>MRMesh/MRMacros.h</label>
         <link refid="MRMacros_8h"/>
       </node>
@@ -35,6 +35,8 @@
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
         </childnode>
@@ -70,7 +72,7 @@
       <node id="20">
         <label>MRMesh/MRVector2.h</label>
         <link refid="MRVector2_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="21" relation="include">
         </childnode>

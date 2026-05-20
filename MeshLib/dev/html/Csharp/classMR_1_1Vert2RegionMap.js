@@ -14,7 +14,6 @@ var classMR_1_1Vert2RegionMap =
     [ "back", "classMR_1_1Vert2RegionMap.html#a287b1d843402464884baa37b2ec85950", null ],
     [ "clear", "classMR_1_1Vert2RegionMap.html#afae84f98d3467631a9cac9e246a654af", null ],
     [ "data", "classMR_1_1Vert2RegionMap.html#a2219b86617f4fa6c1a0ba66188856b4e", null ],
-    [ "emplaceBack", "classMR_1_1Vert2RegionMap.html#aa29e43ff3e811856a4a707509314c42d", null ],
     [ "front", "classMR_1_1Vert2RegionMap.html#a71b8ea80c8bf14deb67c0cc0942c402c", null ],
     [ "GetEnumerator", "classMR_1_1Vert2RegionMap.html#a64ecc3d5b3dedf04c67d467c646dce78", null ],
     [ "operator Vert2RegionMap", "classMR_1_1Vert2RegionMap.html#a96fc7a7041e10cd9a775d42382693d11", null ],

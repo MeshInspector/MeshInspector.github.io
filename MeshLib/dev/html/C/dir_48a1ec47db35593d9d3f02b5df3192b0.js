@@ -297,8 +297,6 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRQuaternion.h", "MRQuaternion_8h.html", "MRQuaternion_8h" ],
     [ "MRRadiusCompensation.h", "MRRadiusCompensation_8h.html", "MRRadiusCompensation_8h" ],
     [ "MRRadiusMeasurementObject.h", "MRRadiusMeasurementObject_8h.html", "MRRadiusMeasurementObject_8h" ],
-    [ "MRRayBoxIntersection.h", "MRRayBoxIntersection_8h.html", "MRRayBoxIntersection_8h" ],
-    [ "MRRayBoxIntersection2.h", "MRRayBoxIntersection2_8h.html", "MRRayBoxIntersection2_8h" ],
     [ "MRRectIndexer.h", "MRRectIndexer_8h.html", "MRRectIndexer_8h" ],
     [ "MRReducePath.h", "MRReducePath_8h.html", "MRReducePath_8h" ],
     [ "MRRegionBoundary.h", "MRRegionBoundary_8h.html", "MRRegionBoundary_8h" ],

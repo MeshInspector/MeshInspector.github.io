@@ -14,7 +14,6 @@ var classMR_1_1FaceNormals =
     [ "back", "classMR_1_1FaceNormals.html#a31f8db4aa41bc5a9c5eac52e6edc5466", null ],
     [ "clear", "classMR_1_1FaceNormals.html#af82348bd66b80232d702a8e747f51b8f", null ],
     [ "data", "classMR_1_1FaceNormals.html#aaa67a3578e91f5482b352567e464e972", null ],
-    [ "emplaceBack", "classMR_1_1FaceNormals.html#a2abbb3ac1ac68feaafafe12e47d83b06", null ],
     [ "front", "classMR_1_1FaceNormals.html#a7232281273dfad4701fc4b24cf922e35", null ],
     [ "GetEnumerator", "classMR_1_1FaceNormals.html#a276c8705a0ea7c0d2e7b7a9d121cdda6", null ],
     [ "operator FaceNormals", "classMR_1_1FaceNormals.html#a84a14a3573f1921da29b66d450a200f4", null ],

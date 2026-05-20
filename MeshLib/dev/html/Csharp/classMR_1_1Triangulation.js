@@ -14,7 +14,6 @@ var classMR_1_1Triangulation =
     [ "back", "classMR_1_1Triangulation.html#a87c15e79c4b75b38fd508e2991ed92ed", null ],
     [ "clear", "classMR_1_1Triangulation.html#adbc8a3e665e881c44012bd6fedd994a9", null ],
     [ "data", "classMR_1_1Triangulation.html#a509d2efa68cf3f0b726ab85689607c6e", null ],
-    [ "emplaceBack", "classMR_1_1Triangulation.html#a2b9328fec35e7adead0448fa10e8998c", null ],
     [ "front", "classMR_1_1Triangulation.html#afb73ceaa588c35df81c37b0c3d9392e7", null ],
     [ "GetEnumerator", "classMR_1_1Triangulation.html#a11f428dd90b9cce606f3f88d3f0033e1", null ],
     [ "operator Triangulation", "classMR_1_1Triangulation.html#a3a25cb9b41dee56e4aa7803dd95c4fc8", null ],

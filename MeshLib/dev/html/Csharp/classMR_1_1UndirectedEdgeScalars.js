@@ -14,7 +14,6 @@ var classMR_1_1UndirectedEdgeScalars =
     [ "back", "classMR_1_1UndirectedEdgeScalars.html#ae0b22a645808cf18da30281d5d934289", null ],
     [ "clear", "classMR_1_1UndirectedEdgeScalars.html#a77c39662b2a218710a978067e81ec8e4", null ],
     [ "data", "classMR_1_1UndirectedEdgeScalars.html#af0227b877324ac7710fa1b31dd3c3018", null ],
-    [ "emplaceBack", "classMR_1_1UndirectedEdgeScalars.html#a72b10f93c65c6373a3e44f1e5d2f57ce", null ],
     [ "front", "classMR_1_1UndirectedEdgeScalars.html#af75ca527e81666b3d178e589c3b5df05", null ],
     [ "GetEnumerator", "classMR_1_1UndirectedEdgeScalars.html#af25a352575d5a768b28786d5da4c6817", null ],
     [ "operator UndirectedEdgeScalars", "classMR_1_1UndirectedEdgeScalars.html#aa6efeb93aa9bc7a34fe53d83f175fbf1", null ],

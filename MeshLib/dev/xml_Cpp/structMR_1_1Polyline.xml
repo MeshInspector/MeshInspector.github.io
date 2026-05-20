@@ -618,7 +618,7 @@
         <name>computeBoundingBox</name>
         <qualifiedname>MR::Polyline::computeBoundingBox</qualifiedname>
         <param>
-          <type>const <ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref>&lt; V &gt; *</type>
+          <type>const <ref refid="group__GeneralGroup_1gab4efcaf15a6f87b66c1767aab8a77a08" kindref="member">AffineXf</ref>&lt; V &gt; *</type>
           <declname>toWorld</declname>
           <defval>nullptr</defval>
         </param>
@@ -654,7 +654,7 @@
         <name>transform</name>
         <qualifiedname>MR::Polyline::transform</qualifiedname>
         <param>
-          <type>const <ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf</ref>&lt; V &gt; &amp;</type>
+          <type>const <ref refid="group__GeneralGroup_1gab4efcaf15a6f87b66c1767aab8a77a08" kindref="member">AffineXf</ref>&lt; V &gt; &amp;</type>
           <declname>xf</declname>
         </param>
         <briefdescription>

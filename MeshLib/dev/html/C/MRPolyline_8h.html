@@ -259,7 +259,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a56c956da591c641d897c5fda7e714515" id="r_a56c956da591c641d897c5fda7e714515"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56c956da591c641d897c5fda7e714515">MR_Polyline3_addFromSurfacePath</a> (<a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *_this, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *path)</td></tr>
 <tr class="memitem:a258ba9f2b1cb3f2ae0a77db0d5a76097" id="r_a258ba9f2b1cb3f2ae0a77db0d5a76097"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a258ba9f2b1cb3f2ae0a77db0d5a76097">MR_Polyline3_addFromGeneralSurfacePath</a> (<a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *_this, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAlignContoursToMesh_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *path, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end)</td></tr>
 <tr class="memitem:ab85c330425cf981c522e511930e434fd" id="r_ab85c330425cf981c522e511930e434fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab85c330425cf981c522e511930e434fd">MR_Polyline3_heapBytes</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *_this)</td></tr>
-<tr class="memitem:a38568e4a195cc3cb8aa32e8e7530fd6c" id="r_a38568e4a195cc3cb8aa32e8e7530fd6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38568e4a195cc3cb8aa32e8e7530fd6c">MR_Polyline3_mirror</a> (<a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *_this, const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *plane)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="af7b20b1160789aee52028169ca416165" name="af7b20b1160789aee52028169ca416165"></a>
@@ -2286,28 +2285,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>calculates directed loop area if iterating in <span class="tt">e</span> direction .z = FLT_MAX if <span class="tt">e</span> does not represent a loop Generated from method <span class="tt">MR::Polyline3::loopDirArea</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
-
-</div>
-</div>
-<a id="a38568e4a195cc3cb8aa32e8e7530fd6c" name="a38568e4a195cc3cb8aa32e8e7530fd6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38568e4a195cc3cb8aa32e8e7530fd6c">&#9670;&#160;</a></span>MR_Polyline3_mirror()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Polyline3_mirror </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *</td>          <td class="paramname"><span class="paramname"><em>plane</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>reflects the polyline from a given plane. Enabled only for Polyline3f Generated from method <span class="tt">MR::Polyline3::mirror&lt;MR::Vector3f&gt;</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">plane</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

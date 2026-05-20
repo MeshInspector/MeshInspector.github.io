@@ -14,7 +14,6 @@ var classMR_1_1TexturePerFace =
     [ "back", "classMR_1_1TexturePerFace.html#af1883dded0d9ef3929e1e92246698b39", null ],
     [ "clear", "classMR_1_1TexturePerFace.html#a15062329676f30123e07f50a2c346753", null ],
     [ "data", "classMR_1_1TexturePerFace.html#ad14ede97c649d215be69923950796feb", null ],
-    [ "emplaceBack", "classMR_1_1TexturePerFace.html#a03e269a62d5fd07e6cf2fcb667442c6a", null ],
     [ "front", "classMR_1_1TexturePerFace.html#a51814e16ab4996c06395449486808cd9", null ],
     [ "GetEnumerator", "classMR_1_1TexturePerFace.html#a7bbd39f74f34c16f4268431cf41482be", null ],
     [ "operator TexturePerFace", "classMR_1_1TexturePerFace.html#aaf52e05da43d4c25a6192da4dce90da1", null ],

@@ -14,7 +14,6 @@ var classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId =
     [ "back", "classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html#a52de942b27037458e177625731021079", null ],
     [ "clear", "classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html#aa5f90253760aec88cdff9c730ff902ef", null ],
     [ "data", "classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html#acd426abc62f1bebe60c588d2d6dd60a4", null ],
-    [ "emplaceBack", "classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html#aaafda09b690fcb358150d83da89508c2", null ],
     [ "front", "classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html#a3be6116209244eb511fdf63b6a21f915", null ],
     [ "GetEnumerator", "classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html#a58cd8921b745f7a8ef112105ebf48fc1", null ],
     [ "operator Vector_MRWatershedGraphBdInfo_MRGraphEdgeId", "classMR_1_1Vector__MRWatershedGraphBdInfo__MRGraphEdgeId.html#ab2dcae69e3626f555817e9cecdff130e", null ],

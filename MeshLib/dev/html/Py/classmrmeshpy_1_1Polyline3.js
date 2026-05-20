@@ -30,7 +30,6 @@ var classmrmeshpy_1_1Polyline3 =
     [ "heapBytes", "classmrmeshpy_1_1Polyline3.html#a2af37851e05cb4fcecb1247d2e7159c6", null ],
     [ "invalidateCaches", "classmrmeshpy_1_1Polyline3.html#ad891eb8acd5418ea77b145c95e0a098a", null ],
     [ "loopDirArea", "classmrmeshpy_1_1Polyline3.html#ab4a837b9d6f561981ff035f86c214526", null ],
-    [ "mirror", "classmrmeshpy_1_1Polyline3.html#ae319dd3465b976f3a4b077087739a3d8", null ],
     [ "orgPnt", "classmrmeshpy_1_1Polyline3.html#ac7ec65ba9d42571a0b79bdb9459e78bc", null ],
     [ "pack", "classmrmeshpy_1_1Polyline3.html#a94b546850cacb2f4a424c1fc89c554e5", null ],
     [ "splitEdge", "classmrmeshpy_1_1Polyline3.html#a5f1706889b135f4569cf438e86a6f762", null ],

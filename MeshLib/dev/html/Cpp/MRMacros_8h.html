@@ -162,7 +162,6 @@ Macros</h2></td></tr>
 <tr class="memitem:a8e4c97f3488b7d743a2f01f7487f3cdc" id="r_a8e4c97f3488b7d743a2f01f7487f3cdc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e4c97f3488b7d743a2f01f7487f3cdc">MR_CONCAT3_</a>(a,  b,  c)</td></tr>
 <tr class="memitem:af2577133e8c02d830609dc0c74a53949" id="r_af2577133e8c02d830609dc0c74a53949"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2577133e8c02d830609dc0c74a53949">MR_HAS_REQUIRES</a>&#160;&#160;&#160;0</td></tr>
 <tr class="memitem:adb4b71f9ebce86e54868bd967010ebbb" id="r_adb4b71f9ebce86e54868bd967010ebbb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>(...)</td></tr>
-<tr class="memitem:aa4077bf89cb8ad6b60d3d1d989cc5361" id="r_aa4077bf89cb8ad6b60d3d1d989cc5361"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4077bf89cb8ad6b60d3d1d989cc5361">MR_SAME_TYPE_TEMPLATE_PARAM</a>(target_,  name_)</td></tr>
 <tr class="memitem:adc8a2290a0ad34bf18acb8498b4bb91a" id="r_adc8a2290a0ad34bf18acb8498b4bb91a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc8a2290a0ad34bf18acb8498b4bb91a">MR_NO_UNIQUE_ADDRESS</a>&#160;&#160;&#160;[[no_unique_address]]</td></tr>
 <tr class="memitem:a5a14b15e367904df16d7473d4e5a33ea" id="r_a5a14b15e367904df16d7473d4e5a33ea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
 <tr class="memitem:a39cc255fe35857a435c1f7857797b105" id="r_a39cc255fe35857a435c1f7857797b105"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39cc255fe35857a435c1f7857797b105">MR_LIFETIME_CAPTURE_BY</a>(x)</td></tr>
@@ -216,7 +215,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a71b7b6d36fcf0ab6752038726c7b007d">DETAIL_MR_TRIM_LEADING_COMMA_EMPTY</a>(x) __VA_ARGS__</div>
-<div class="ttc" id="aMRMacros_8h_html_a71b7b6d36fcf0ab6752038726c7b007d"><div class="ttname"><a href="#a71b7b6d36fcf0ab6752038726c7b007d">DETAIL_MR_TRIM_LEADING_COMMA_EMPTY</a></div><div class="ttdeci">#define DETAIL_MR_TRIM_LEADING_COMMA_EMPTY()</div><div class="ttdef"><b>Definition</b> MRMacros.h:106</div></div>
+<div class="ttc" id="aMRMacros_8h_html_a71b7b6d36fcf0ab6752038726c7b007d"><div class="ttname"><a href="#a71b7b6d36fcf0ab6752038726c7b007d">DETAIL_MR_TRIM_LEADING_COMMA_EMPTY</a></div><div class="ttdeci">#define DETAIL_MR_TRIM_LEADING_COMMA_EMPTY()</div><div class="ttdef"><b>Definition</b> MRMacros.h:104</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -505,28 +504,6 @@ Macros</h2></td></tr>
 
 </div>
 </div>
-<a id="aa4077bf89cb8ad6b60d3d1d989cc5361" name="aa4077bf89cb8ad6b60d3d1d989cc5361"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4077bf89cb8ad6b60d3d1d989cc5361">&#9670;&#160;</a></span>MR_SAME_TYPE_TEMPLATE_PARAM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MR_SAME_TYPE_TEMPLATE_PARAM</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>target_</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>name_</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">typename</span> name_ = target_</div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="ab8cb9281271220567c1359224e6ca5db" name="ab8cb9281271220567c1359224e6ca5db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab8cb9281271220567c1359224e6ca5db">&#9670;&#160;</a></span>MR_STR</h2>
 
@@ -630,7 +607,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#acaebd39479bb9677a7e966765a052de4">DETAIL_MR_TRIM_LEADING_COMMA_</a>(__VA_ARGS__)</div>
-<div class="ttc" id="aMRMacros_8h_html_acaebd39479bb9677a7e966765a052de4"><div class="ttname"><a href="#acaebd39479bb9677a7e966765a052de4">DETAIL_MR_TRIM_LEADING_COMMA_</a></div><div class="ttdeci">#define DETAIL_MR_TRIM_LEADING_COMMA_(x,...)</div><div class="ttdef"><b>Definition</b> MRMacros.h:105</div></div>
+<div class="ttc" id="aMRMacros_8h_html_acaebd39479bb9677a7e966765a052de4"><div class="ttname"><a href="#acaebd39479bb9677a7e966765a052de4">DETAIL_MR_TRIM_LEADING_COMMA_</a></div><div class="ttdeci">#define DETAIL_MR_TRIM_LEADING_COMMA_(x,...)</div><div class="ttdef"><b>Definition</b> MRMacros.h:103</div></div>
 </div><!-- fragment -->
 <p><span class="tt"><a class="el" href="#a11806a80fef697ddb9a820cc22204f3b" title="MR_TRIM_LEADING_COMMA(,a,b,c) returns a,b,c.">MR_TRIM_LEADING_COMMA(,a,b,c)</a></span> returns <span class="tt">a,b,c</span>. </p>
 

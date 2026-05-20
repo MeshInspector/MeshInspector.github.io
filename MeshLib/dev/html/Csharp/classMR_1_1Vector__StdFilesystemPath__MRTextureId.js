@@ -14,7 +14,6 @@ var classMR_1_1Vector__StdFilesystemPath__MRTextureId =
     [ "back", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a4ed50166edb9e630183ca22664596fab", null ],
     [ "clear", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#ab31e5d9c83820511649404e0867a10e2", null ],
     [ "data", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a2ac8d7f49f74f7b9c6fbc00262766746", null ],
-    [ "emplaceBack", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#aba2f9dc870296b3f90a551bccefe9c22", null ],
     [ "front", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a52697bdca87a383c2439ec4f0b9c89f0", null ],
     [ "GetEnumerator", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a9bb836339c8b00206221e2dd9fde2dbe", null ],
     [ "operator Vector_StdFilesystemPath_MRTextureId", "classMR_1_1Vector__StdFilesystemPath__MRTextureId.html#a4eccf8eb0705190dc40b1169bef92822", null ],

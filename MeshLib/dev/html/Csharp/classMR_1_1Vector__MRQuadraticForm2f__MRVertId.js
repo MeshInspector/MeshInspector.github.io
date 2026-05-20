@@ -14,7 +14,6 @@ var classMR_1_1Vector__MRQuadraticForm2f__MRVertId =
     [ "back", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#a3ec38f152177ba4ab5064d3931c6795e", null ],
     [ "clear", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#a7d75b49d5ec26a1feff03a13776b3790", null ],
     [ "data", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#a9fa0f42f5af767f954735b8c172e71a0", null ],
-    [ "emplaceBack", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#acd9160d6b8403fb274636a8c0dddfce1", null ],
     [ "front", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#aab0b70636d141fad5ee836a37aae3de9", null ],
     [ "GetEnumerator", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#a47678ba70aee29e9fe98c012fad38ea7", null ],
     [ "operator Vector_MRQuadraticForm2f_MRVertId", "classMR_1_1Vector__MRQuadraticForm2f__MRVertId.html#aa69e8bdfaaeb9c39b0ee3c393bf58fe6", null ],

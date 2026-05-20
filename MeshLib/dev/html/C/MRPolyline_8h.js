@@ -88,7 +88,6 @@ var MRPolyline_8h =
     [ "MR_Polyline3_heapBytes", "MRPolyline_8h.html#ab85c330425cf981c522e511930e434fd", null ],
     [ "MR_Polyline3_invalidateCaches", "MRPolyline_8h.html#ab0185a6ece13e20239173b2b01cf10eb", null ],
     [ "MR_Polyline3_loopDirArea", "MRPolyline_8h.html#a71818076a3b1917d690b906c7b3c1f42", null ],
-    [ "MR_Polyline3_mirror", "MRPolyline_8h.html#a38568e4a195cc3cb8aa32e8e7530fd6c", null ],
     [ "MR_Polyline3_OffsetMutablePtr", "MRPolyline_8h.html#ab8feb6f54b69f2eca7ebd4a0fef83d6e", null ],
     [ "MR_Polyline3_OffsetPtr", "MRPolyline_8h.html#a0679adba37fbb0d2a44e100ec0cf2d1e", null ],
     [ "MR_Polyline3_orgPnt", "MRPolyline_8h.html#ae17c83861d635d797c4878711cc7aa41", null ],

@@ -14,7 +14,6 @@ var classMR_1_1Face2RegionMap =
     [ "back", "classMR_1_1Face2RegionMap.html#af3a56ef8eda7727b47eb469043ce3a94", null ],
     [ "clear", "classMR_1_1Face2RegionMap.html#ad663ca4eb8cc6085cc2946087769196d", null ],
     [ "data", "classMR_1_1Face2RegionMap.html#a7e15434bd78cee88d9b6f3c8f2c449db", null ],
-    [ "emplaceBack", "classMR_1_1Face2RegionMap.html#ada1178d9f2cd5e4a47d52c7387e65a9c", null ],
     [ "front", "classMR_1_1Face2RegionMap.html#a665bfdb6f09299a5a8825d6438561f3e", null ],
     [ "GetEnumerator", "classMR_1_1Face2RegionMap.html#a585b930d807bda1d00a4005a9a9f2aed", null ],
     [ "operator Face2RegionMap", "classMR_1_1Face2RegionMap.html#ae8000763992ea53589702e3135293def", null ],

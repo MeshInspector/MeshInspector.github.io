@@ -5,8 +5,6 @@ var classMR_1_1ConstBox__FaceId =
     [ "ConstBox_FaceId", "classMR_1_1ConstBox__FaceId.html#a22015dea5bee96362740c4e263413a7f", null ],
     [ "ConstBox_FaceId", "classMR_1_1ConstBox__FaceId.html#a36ca2ab5f98d92510fdf11b7a430df88", null ],
     [ "ConstBox_FaceId", "classMR_1_1ConstBox__FaceId.html#ac832c96e2287cf2ab685560784209bcd", null ],
-    [ "ConstBox_FaceId", "classMR_1_1ConstBox__FaceId.html#a17284d5bc5c8554d8c79357a2e6ec67c", null ],
-    [ "ConstBox_FaceId", "classMR_1_1ConstBox__FaceId.html#a05d3595557a59daad6f19a13407174d1", null ],
     [ "Dispose", "classMR_1_1ConstBox__FaceId.html#ad86182d35b9ad482e85acb064e0fd3b7", null ],
     [ "Dispose", "classMR_1_1ConstBox__FaceId.html#a283c527d9ba0c2532cf9420970af0fec", null ],
     [ "Equals", "classMR_1_1ConstBox__FaceId.html#ac7c742856be541a4610808d7be3b5cc6", null ],

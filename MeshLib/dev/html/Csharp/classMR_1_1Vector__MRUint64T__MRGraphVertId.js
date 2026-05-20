@@ -14,7 +14,6 @@ var classMR_1_1Vector__MRUint64T__MRGraphVertId =
     [ "back", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#a7ee2dd8046a221f5c455732e7ec6cd89", null ],
     [ "clear", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#a474022ded47b70aca2b163b038140297", null ],
     [ "data", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#a875bb165f7fc68166a69dcdfa80842f4", null ],
-    [ "emplaceBack", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#a45b083fb26b54012494784e766528474", null ],
     [ "front", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#a6c723fb4349d005076c6b991260b2b0a", null ],
     [ "GetEnumerator", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#a8ba02068e5a6582c37512f42b33dee91", null ],
     [ "operator Vector_MRUint64T_MRGraphVertId", "classMR_1_1Vector__MRUint64T__MRGraphVertId.html#a2591772f6960a225982a7ba02ca65ee4", null ],

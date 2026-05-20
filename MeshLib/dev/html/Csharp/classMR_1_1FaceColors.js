@@ -14,7 +14,6 @@ var classMR_1_1FaceColors =
     [ "back", "classMR_1_1FaceColors.html#a3ee1c1a6f3c23dfcef8f4fc058ed37cf", null ],
     [ "clear", "classMR_1_1FaceColors.html#aea6be1733ab29a03a04b41899943951c", null ],
     [ "data", "classMR_1_1FaceColors.html#a5c91d582d15bff1f216e4a9906684aaf", null ],
-    [ "emplaceBack", "classMR_1_1FaceColors.html#a2bb68820189b7c5e8b8b8da3b8d304c3", null ],
     [ "front", "classMR_1_1FaceColors.html#a9059347ddab7305bd8eacc508ff59429", null ],
     [ "GetEnumerator", "classMR_1_1FaceColors.html#ad81b2c706a5dc6e26e1cdad10c97bc31", null ],
     [ "operator FaceColors", "classMR_1_1FaceColors.html#a5be45762ce9925c1e6d93b6f47a0a3a4", null ],

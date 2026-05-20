@@ -14,7 +14,6 @@ var classMR_1_1ObjMap =
     [ "back", "classMR_1_1ObjMap.html#add60da203c6d26d78088333190396723", null ],
     [ "clear", "classMR_1_1ObjMap.html#a72616653747a1a95c5215346c612ed0f", null ],
     [ "data", "classMR_1_1ObjMap.html#a232f09b08f91606b0a7178d6692d1076", null ],
-    [ "emplaceBack", "classMR_1_1ObjMap.html#a96a09464d43d67d3af44c1b74259f2f4", null ],
     [ "front", "classMR_1_1ObjMap.html#a8ffb71278098307a1d166dc1eba1c0b2", null ],
     [ "GetEnumerator", "classMR_1_1ObjMap.html#a1bc903e7da072c59598526634c70726f", null ],
     [ "operator ObjMap", "classMR_1_1ObjMap.html#a0d74cf10ce49f5cb6fcc58bf0d2f712f", null ],

@@ -12,7 +12,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRAABBTreePolyline.h", "MRAABBTreePolyline_8h.html", null ],
     [ "MRAddNoise.h", "MRAddNoise_8h.html", "MRAddNoise_8h" ],
     [ "MRAddVisualPropertiesMixin.h", "MRAddVisualPropertiesMixin_8h.html", null ],
-    [ "MRAffineXf.h", "MRAffineXf_8h.html", null ],
+    [ "MRAffineXf.h", "MRAffineXf_8h.html", "MRAffineXf_8h" ],
     [ "MRAffineXf2.h", "MRAffineXf2_8h.html", null ],
     [ "MRAffineXf3.h", "MRAffineXf3_8h.html", "MRAffineXf3_8h" ],
     [ "MRAggregateFlow.h", "MRAggregateFlow_8h.html", null ],

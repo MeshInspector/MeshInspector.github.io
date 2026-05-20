@@ -14,7 +14,6 @@ var classMR_1_1WholeEdgeMap =
     [ "back", "classMR_1_1WholeEdgeMap.html#a83d166d2f4b10449b216e6686a225c2b", null ],
     [ "clear", "classMR_1_1WholeEdgeMap.html#a69ad651be7be8a11471cea42bea3b900", null ],
     [ "data", "classMR_1_1WholeEdgeMap.html#ad73f43069c41abb28cceafa4b46e1773", null ],
-    [ "emplaceBack", "classMR_1_1WholeEdgeMap.html#aae675a8a6a57fce37b3ff2c57f7f340b", null ],
     [ "front", "classMR_1_1WholeEdgeMap.html#ae45c2a26a07a3cf1484671badda40335", null ],
     [ "GetEnumerator", "classMR_1_1WholeEdgeMap.html#ad8787278771c934f5cdb773c17eda187", null ],
     [ "operator WholeEdgeMap", "classMR_1_1WholeEdgeMap.html#ae3eb7170a6129dbab7b55a5344ac67ba", null ],

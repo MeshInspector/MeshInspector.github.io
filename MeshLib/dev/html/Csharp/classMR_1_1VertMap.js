@@ -14,7 +14,6 @@ var classMR_1_1VertMap =
     [ "back", "classMR_1_1VertMap.html#a6d8965e54890115adfd034c8a09fa33c", null ],
     [ "clear", "classMR_1_1VertMap.html#a008b3a15c821e7d4e80ed5b49d30fc35", null ],
     [ "data", "classMR_1_1VertMap.html#a4f8975c4965b8a806fbf94e71c817feb", null ],
-    [ "emplaceBack", "classMR_1_1VertMap.html#a63a2847e8ad1e4ca5243aedc203594c8", null ],
     [ "front", "classMR_1_1VertMap.html#a9550a7bd612175118be08a7ead441297", null ],
     [ "GetEnumerator", "classMR_1_1VertMap.html#a1a76c24b74b17ebb629748dd71753fb3", null ],
     [ "operator VertMap", "classMR_1_1VertMap.html#a2aabd5f873785a837ec77317c8c23bc7", null ],

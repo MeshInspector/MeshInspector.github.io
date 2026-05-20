@@ -49,6 +49,8 @@
         <link refid="MRMeshFwd_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
@@ -1776,7 +1778,7 @@
 <codeline lineno="236"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="237"><highlight class="normal"></highlight></codeline>
 <codeline lineno="238"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="239"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;::inverse</ref>()<sp/>const<sp/>noexcept<sp/><ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_integral_v&lt;T&gt;<sp/>)</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;</ref><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;::inverse</ref>()<sp/>const<sp/>noexcept<sp/><ref refid="group__MathGroup_1gab29a7719b4a571baf6abe4be5d93d4f2" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_integral_v&lt;T&gt;<sp/>)</highlight></codeline>
 <codeline lineno="240"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>det<sp/>=<sp/>this-&gt;det();</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>det<sp/>==<sp/>0<sp/>)</highlight></codeline>
@@ -1801,7 +1803,7 @@
 <codeline lineno="261"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="262"><highlight class="normal"></highlight></codeline>
 <codeline lineno="263"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="264"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;::toEulerAngles</ref>()<sp/>const<sp/>noexcept<sp/><ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>std::is_floating_point_v&lt;T&gt;<sp/>)</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector3" kindref="compound">Vector3&lt;T&gt;</ref><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;::toEulerAngles</ref>()<sp/>const<sp/>noexcept<sp/><ref refid="group__MathGroup_1gab29a7719b4a571baf6abe4be5d93d4f2" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>std::is_floating_point_v&lt;T&gt;<sp/>)</highlight></codeline>
 <codeline lineno="265"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::atan2(<sp/><sp/>z.<ref refid="group__GeneralGroup_1ga4cbb29e67931176028f57f29b2bd6953" kindref="member">y</ref>,<sp/>z.<ref refid="group__GeneralGroup_1gae596ea6de55c00124d84150eadecd455" kindref="member">z</ref><sp/>),</highlight></codeline>
@@ -1811,7 +1813,7 @@
 <codeline lineno="272"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="273"><highlight class="normal"></highlight></codeline>
 <codeline lineno="274"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="275"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;::qr</ref>()<sp/>const<sp/>noexcept<sp/>-&gt;<sp/>QR<sp/><ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_integral_v&lt;T&gt;<sp/>)</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Matrix3" kindref="compound">Matrix3&lt;T&gt;::qr</ref>()<sp/>const<sp/>noexcept<sp/>-&gt;<sp/>QR<sp/><ref refid="group__MathGroup_1gab29a7719b4a571baf6abe4be5d93d4f2" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_integral_v&lt;T&gt;<sp/>)</highlight></codeline>
 <codeline lineno="276"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>a0<sp/>=<sp/>col(<sp/>0<sp/>);</highlight></codeline>
 <codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>a1<sp/>=<sp/>col(<sp/>1<sp/>);</highlight></codeline>

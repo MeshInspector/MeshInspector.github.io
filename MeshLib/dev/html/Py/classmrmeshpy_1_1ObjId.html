@@ -184,7 +184,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::ObjId
-Aliases:  Vector_ObjId_Id_VoxelTag_const_reference, TypedBitSet_ObjId_IndexType, Vector_ObjId_ObjId_value_type, Vector_ObjId_Id_VoxelTag_reference, Vector_ObjId_ObjId_const_reference, AABBTreeNode_ObjTreeTraits.LeafId, ObjTreeTraits.LeafId, Vector_ObjId_Id_VoxelTag_value_type, Vector_ObjId_ObjId_reference, AABBTreeBase_ObjTreeTraits.LeafId
+Aliases:  Vector_ObjId_Id_VoxelTag_reference, Vector_ObjId_Id_VoxelTag_const_reference, Vector_ObjId_ObjId_const_reference, AABBTreeBase_ObjTreeTraits.LeafId, AABBTreeNode_ObjTreeTraits.LeafId, ObjTreeTraits.LeafId, TypedBitSet_ObjId_IndexType, Vector_ObjId_Id_VoxelTag_value_type, Vector_ObjId_ObjId_value_type, Vector_ObjId_ObjId_reference
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </pre> </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -281,13 +281,7 @@ stores index of some element, it is made as template class to avoid mixing faces
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Allow constructing from `int` and other integral types.
-This constructor is written like this instead of a plain `Id(int)`, because we also wish to disable construction
-  from other unrelated `Id&lt;U&gt;` specializations, which themselves have implicit conversions to `int`.
-We could also achieve that using `template &lt;typename U&gt; Id(Id&lt;U&gt;) = delete;`, but it turns out that that causes issues
-  for the `EdgeId::operator UndirectedEdgeId` below. There, while `UndirectedEdgeId x = EdgeId{};` compiles with this approach,
-  but `UndirectedEdgeId x(EdgeId{});` doesn't. So to allow both forms, this constructor must be written this way, as a template.
-The `= int` is there only to make the bindings emit this constructor, I don't think it affects anything else.
+<pre class="fragment">For the parser, pretend it's not templated. Instantiating the template above in the parser is difficult.
 </pre> 
 </div>
 </div>

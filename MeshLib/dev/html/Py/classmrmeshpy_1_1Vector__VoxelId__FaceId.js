@@ -22,7 +22,6 @@ var classmrmeshpy_1_1Vector__VoxelId__FaceId =
     [ "clear", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#ab2d96c51cb21533c24b5e758c42d2523", null ],
     [ "data", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#a73c09c04d6c64effdfa6b5c2b6abaebd", null ],
     [ "data", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#a73c09c04d6c64effdfa6b5c2b6abaebd", null ],
-    [ "emplace_back", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#a5c57f7feae0e01bb98401bd5bcb49f37", null ],
     [ "empty", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#a9f2df0c68bcb996e4334a7d4edad40eb", null ],
     [ "endId", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#a7bac69a35b016113ab002708dd323a3d", null ],
     [ "front", "classmrmeshpy_1_1Vector__VoxelId__FaceId.html#a86a70ea47a8c27c3fe3f29d90ae79826", null ],

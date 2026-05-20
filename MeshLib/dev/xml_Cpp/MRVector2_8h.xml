@@ -73,6 +73,8 @@
         <link refid="MRMeshFwd_8h"/>
         <childnode refid="7" relation="include">
         </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
@@ -1477,7 +1479,7 @@
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>1<sp/>/<sp/>len<sp/>)<sp/>*<sp/>(*this);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref><sp/>furthestBasisVector()<sp/>const<sp/><ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_same_v&lt;T,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<sp/>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2</ref><sp/>furthestBasisVector()<sp/>const<sp/><ref refid="group__MathGroup_1gab29a7719b4a571baf6abe4be5d93d4f2" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_same_v&lt;T,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<sp/>);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
 <codeline lineno="83" refid="structMR_1_1Vector2_1a7482d5a8c34fc5f6af7a5036b9d43c1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>constexpr<sp/><ref refid="structMR_1_1Vector2_1a6f79f1540d91026fb17aebbcf6e6d9dc" kindref="member">Vector2</ref><sp/><ref refid="structMR_1_1Vector2_1a7482d5a8c34fc5f6af7a5036b9d43c1c" kindref="member">perpendicular</ref>()<sp/>const<sp/><ref refid="structMR_1_1Vector2_1aa88507c09ad0236f834d9ffb29ef6de6" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_same_v&lt;T,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector2_1a6f79f1540d91026fb17aebbcf6e6d9dc" kindref="member">Vector2</ref>{<sp/>-<ref refid="structMR_1_1Vector2_1a5186451c51a4f421a0b810a3f836fae8" kindref="member">y</ref>,<sp/><ref refid="structMR_1_1Vector2_1a04bd8b12649cc77863672d0a6d31e51c" kindref="member">x</ref><sp/>};<sp/>}</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
@@ -1584,7 +1586,7 @@
 <codeline lineno="200"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
 <codeline lineno="202"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;T&gt;::furthestBasisVector</ref>()<sp/>const<sp/><ref refid="group__BasicGroup_1ga6092fad6de6a4d75d57e992d1d373994" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_same_v&lt;T,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<sp/>)</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;T&gt;</ref><sp/><ref refid="structMR_1_1Vector2" kindref="compound">Vector2&lt;T&gt;::furthestBasisVector</ref>()<sp/>const<sp/><ref refid="group__MathGroup_1gab29a7719b4a571baf6abe4be5d93d4f2" kindref="member">MR_REQUIRES_IF_SUPPORTED</ref>(<sp/>!std::is_same_v&lt;T,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&gt;<sp/>)</highlight></codeline>
 <codeline lineno="204"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">std::abs;<sp/></highlight></codeline>
 <codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1Unsigned_1a297e05c1691001d7ce0261fa2e9c3dc4" kindref="member">Unsigned::abs</ref>;<sp/></highlight></codeline>

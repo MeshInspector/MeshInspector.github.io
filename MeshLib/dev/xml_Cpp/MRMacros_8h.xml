@@ -14,6 +14,7 @@
     <includedby refid="MRMapOrHashMap_8h" local="yes">MRMesh/MRMapOrHashMap.h</includedby>
     <includedby refid="MRMatrix3_8h" local="yes">MRMesh/MRMatrix3.h</includedby>
     <includedby refid="MRMatrix4_8h" local="yes">MRMesh/MRMatrix4.h</includedby>
+    <includedby refid="MRMeshFwd_8h" local="yes">MRMesh/MRMeshFwd.h</includedby>
     <includedby refid="MROnInit_8h" local="yes">MRMesh/MROnInit.h</includedby>
     <includedby refid="MRPriorityQueue_8h" local="yes">MRMesh/MRPriorityQueue.h</includedby>
     <includedby refid="MRRayBoxIntersection_8h" local="yes">MRMesh/MRRayBoxIntersection.h</includedby>
@@ -1904,6 +1905,8 @@
         <childnode refid="564" relation="include">
         </childnode>
         <childnode refid="572" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
         </childnode>
         <childnode refid="643" relation="include">
         </childnode>
@@ -6121,7 +6124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="33" column="13" bodyfile="MRMesh/MRMacros.h" bodystart="33" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="32" column="13" bodyfile="MRMesh/MRMacros.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" prot="public" static="no">
         <name>MR_REQUIRES_IF_SUPPORTED</name>
@@ -6132,20 +6135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="34" column="12" bodyfile="MRMesh/MRMacros.h" bodystart="34" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="define" id="MRMacros_8h_1aa4077bf89cb8ad6b60d3d1d989cc5361" prot="public" static="no">
-        <name>MR_SAME_TYPE_TEMPLATE_PARAM</name>
-        <param><defname>target_</defname></param>
-        <param><defname>name_</defname></param>
-        <initializer>typename name_ = target_</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="35" column="12" bodyfile="MRMesh/MRMacros.h" bodystart="35" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="33" column="12" bodyfile="MRMesh/MRMacros.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMacros_8h_1adc8a2290a0ad34bf18acb8498b4bb91a" prot="public" static="no">
         <name>MR_NO_UNIQUE_ADDRESS</name>
@@ -6156,7 +6146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="42" column="10" bodyfile="MRMesh/MRMacros.h" bodystart="42" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="40" column="10" bodyfile="MRMesh/MRMacros.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMacros_8h_1a5a14b15e367904df16d7473d4e5a33ea" prot="public" static="no">
         <name>MR_LIFETIMEBOUND</name>
@@ -6167,7 +6157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="81" column="12" bodyfile="MRMesh/MRMacros.h" bodystart="81" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="79" column="12" bodyfile="MRMesh/MRMacros.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMacros_8h_1a39cc255fe35857a435c1f7857797b105" prot="public" static="no">
         <name>MR_LIFETIME_CAPTURE_BY</name>
@@ -6178,7 +6168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="82" column="11" bodyfile="MRMesh/MRMacros.h" bodystart="82" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="80" column="11" bodyfile="MRMesh/MRMacros.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMacros_8h_1acf6c6b95060436517349016ba1997ced" prot="public" static="no">
         <name>MR_THIS_LIFETIME_CAPTURE_BY</name>
@@ -6189,7 +6179,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="83" column="11" bodyfile="MRMesh/MRMacros.h" bodystart="83" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="81" column="11" bodyfile="MRMesh/MRMacros.h" bodystart="81" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMacros_8h_1ac4deec6386dbf5b5f121aaa2beb16cec" prot="public" static="no">
         <name>MR_LIFETIMEBOUND_NESTED</name>
@@ -6199,7 +6189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="84" column="11" bodyfile="MRMesh/MRMacros.h" bodystart="84" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="82" column="11" bodyfile="MRMesh/MRMacros.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMacros_8h_1ae5183c759a85bf4bf2bfebf125c3b783" prot="public" static="no">
         <name>MR_THIS_LIFETIMEBOUND_NESTED</name>
@@ -6209,7 +6199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="85" column="11" bodyfile="MRMesh/MRMacros.h" bodystart="85" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="83" column="11" bodyfile="MRMesh/MRMacros.h" bodystart="83" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMacros_8h_1abac943cb4e78c29b3a46edd18cffe800" prot="public" static="no">
         <name>MR_LIFETIME_CAPTURE_BY_NESTED</name>
@@ -6220,7 +6210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="86" column="11" bodyfile="MRMesh/MRMacros.h" bodystart="86" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="84" column="11" bodyfile="MRMesh/MRMacros.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMacros_8h_1a565fe9a8b72db5a6310b31aeaa3b5d39" prot="public" static="no">
         <name>MR_THIS_LIFETIME_CAPTURE_BY_NESTED</name>
@@ -6231,7 +6221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="87" column="11" bodyfile="MRMesh/MRMacros.h" bodystart="87" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="85" column="11" bodyfile="MRMesh/MRMacros.h" bodystart="85" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMacros_8h_1a0284b6bf2a09937d49518593207b00a6" prot="public" static="no">
         <name>MR_LEGACY_MSVC_PREPROCESSOR</name>
@@ -6243,7 +6233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="95" column="10" bodyfile="MRMesh/MRMacros.h" bodystart="95" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="93" column="10" bodyfile="MRMesh/MRMacros.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMacros_8h_1a11806a80fef697ddb9a820cc22204f3b" prot="public" static="no">
         <name>MR_TRIM_LEADING_COMMA</name>
@@ -6256,7 +6246,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="103" column="10" bodyfile="MRMesh/MRMacros.h" bodystart="103" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="101" column="10" bodyfile="MRMesh/MRMacros.h" bodystart="101" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMacros_8h_1acaebd39479bb9677a7e966765a052de4" prot="public" static="no">
         <name>DETAIL_MR_TRIM_LEADING_COMMA_</name>
@@ -6269,7 +6259,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="105" column="10" bodyfile="MRMesh/MRMacros.h" bodystart="105" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="103" column="10" bodyfile="MRMesh/MRMacros.h" bodystart="103" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="MRMacros_8h_1a71b7b6d36fcf0ab6752038726c7b007d" prot="public" static="no">
         <name>DETAIL_MR_TRIM_LEADING_COMMA_EMPTY</name>
@@ -6280,7 +6270,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMacros.h" line="106" column="9" bodyfile="MRMesh/MRMacros.h" bodystart="106" bodyend="-1"/>
+        <location file="MRMesh/MRMacros.h" line="104" column="9" bodyfile="MRMesh/MRMacros.h" bodystart="104" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -6308,59 +6298,57 @@
 <codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>__cpp_concepts<sp/>&amp;&amp;<sp/>__has_include(&lt;concepts&gt;)<sp/>&amp;&amp;<sp/>!(defined(__clang__)<sp/>&amp;&amp;<sp/>__clang_major__<sp/>&lt;=<sp/>14)<sp/>&amp;&amp;<sp/>!(defined(__GNUC__)<sp/>&amp;&amp;<sp/>!defined(__clang__)<sp/>&amp;&amp;<sp/>__GNUC__<sp/>&lt;=<sp/>12)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_HAS_REQUIRES<sp/>1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_REQUIRES_IF_SUPPORTED(...)<sp/>requires(__VA_ARGS__)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_SAME_TYPE_TEMPLATE_PARAM(target_,<sp/>name_)<sp/>std::same_as&lt;target_&gt;<sp/>name_<sp/>=<sp/>target_</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRMacros_8h_1af2577133e8c02d830609dc0c74a53949" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_HAS_REQUIRES<sp/>0</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_REQUIRES_IF_SUPPORTED(...)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRMacros_8h_1aa4077bf89cb8ad6b60d3d1d989cc5361" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_SAME_TYPE_TEMPLATE_PARAM(target_,<sp/>name_)<sp/>typename<sp/>name_<sp/>=<sp/>target_</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_MSC_VER</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_NO_UNIQUE_ADDRESS<sp/>[[msvc::no_unique_address]]<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRMacros_8h_1adc8a2290a0ad34bf18acb8498b4bb91a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_NO_UNIQUE_ADDRESS<sp/>[[no_unique_address]]</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__clang__</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIMEBOUND<sp/>[[clang::lifetimebound]]</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>if<sp/>__clang_major__<sp/>&gt;=<sp/>20<sp/></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>MR_LIFETIME_CAPTURE_BY(x)<sp/><sp/><sp/><sp/><sp/><sp/>[[clang::lifetime_capture_by(x)]]</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>MR_THIS_LIFETIME_CAPTURE_BY(x)<sp/>[[clang::lifetime_capture_by(x)]]</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>MR_LIFETIME_CAPTURE_BY(x)<sp/><sp/><sp/><sp/><sp/><sp/>[[clang::annotate<sp/><sp/><sp/><sp/><sp/>(&quot;mrbind::lifetime_capture_by=&quot;<sp/>#x)]]</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>MR_THIS_LIFETIME_CAPTURE_BY(x)<sp/>[[clang::annotate_type(&quot;mrbind::lifetime_capture_by=&quot;<sp/>#x)]]</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIMEBOUND_NESTED<sp/><sp/><sp/><sp/><sp/><sp/>[[clang::annotate<sp/><sp/><sp/><sp/><sp/>(&quot;mrbind::lifetimebound_nested&quot;)]]</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_THIS_LIFETIMEBOUND_NESTED<sp/>[[clang::annotate_type(&quot;mrbind::lifetimebound_nested&quot;)]]</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIME_CAPTURE_BY_NESTED(x)<sp/><sp/><sp/><sp/><sp/><sp/>[[clang::annotate<sp/><sp/><sp/><sp/><sp/>(&quot;mrbind::lifetime_capture_by_nested=&quot;<sp/>#x)]]</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_THIS_LIFETIME_CAPTURE_BY_NESTED(x)<sp/>[[clang::annotate_type(&quot;mrbind::lifetime_capture_by_nested=&quot;<sp/>#x)]]</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRMacros_8h_1a5a14b15e367904df16d7473d4e5a33ea" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIMEBOUND</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRMacros_8h_1a39cc255fe35857a435c1f7857797b105" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIME_CAPTURE_BY(x)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRMacros_8h_1acf6c6b95060436517349016ba1997ced" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_THIS_LIFETIME_CAPTURE_BY(x)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRMacros_8h_1ac4deec6386dbf5b5f121aaa2beb16cec" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIMEBOUND_NESTED</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="MRMacros_8h_1ae5183c759a85bf4bf2bfebf125c3b783" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_THIS_LIFETIMEBOUND_NESTED</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MRMacros_8h_1abac943cb4e78c29b3a46edd18cffe800" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIME_CAPTURE_BY_NESTED(x)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRMacros_8h_1a565fe9a8b72db5a6310b31aeaa3b5d39" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_THIS_LIFETIME_CAPTURE_BY_NESTED(x)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_MSC_VER)<sp/>&amp;&amp;<sp/>!defined(__clang__)<sp/>&amp;&amp;<sp/>(!defined(_MSVC_TRADITIONAL)<sp/>||<sp/>_MSVC_TRADITIONAL<sp/>==<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_LEGACY_MSVC_PREPROCESSOR<sp/>1</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRMacros_8h_1a0284b6bf2a09937d49518593207b00a6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_LEGACY_MSVC_PREPROCESSOR<sp/>0</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>MR_LEGACY_MSVC_PREPROCESSOR</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_TRIM_LEADING_COMMA(...)<sp/>DETAIL_MR_TRIM_LEADING_COMMA_<sp/>DETAIL_MR_TRIM_LEADING_COMMA_DEFER(__VA_ARGS__)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_TRIM_LEADING_COMMA_DEFER</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRMacros_8h_1a11806a80fef697ddb9a820cc22204f3b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_TRIM_LEADING_COMMA(...)<sp/>DETAIL_MR_TRIM_LEADING_COMMA_(__VA_ARGS__)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MRMacros_8h_1acaebd39479bb9677a7e966765a052de4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_TRIM_LEADING_COMMA_(x,<sp/>...)<sp/>DETAIL_MR_TRIM_LEADING_COMMA_EMPTY(x)<sp/>__VA_ARGS__</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRMacros_8h_1a71b7b6d36fcf0ab6752038726c7b007d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_TRIM_LEADING_COMMA_EMPTY()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MRMacros_8h_1af2577133e8c02d830609dc0c74a53949" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_HAS_REQUIRES<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRMacros_8h_1adb4b71f9ebce86e54868bd967010ebbb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>MR_REQUIRES_IF_SUPPORTED(...)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_MSC_VER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_NO_UNIQUE_ADDRESS<sp/>[[msvc::no_unique_address]]<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRMacros_8h_1adc8a2290a0ad34bf18acb8498b4bb91a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_NO_UNIQUE_ADDRESS<sp/>[[no_unique_address]]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__clang__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIMEBOUND<sp/>[[clang::lifetimebound]]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>if<sp/>__clang_major__<sp/>&gt;=<sp/>20<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>MR_LIFETIME_CAPTURE_BY(x)<sp/><sp/><sp/><sp/><sp/><sp/>[[clang::lifetime_capture_by(x)]]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>MR_THIS_LIFETIME_CAPTURE_BY(x)<sp/>[[clang::lifetime_capture_by(x)]]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>MR_LIFETIME_CAPTURE_BY(x)<sp/><sp/><sp/><sp/><sp/><sp/>[[clang::annotate<sp/><sp/><sp/><sp/><sp/>(&quot;mrbind::lifetime_capture_by=&quot;<sp/>#x)]]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>MR_THIS_LIFETIME_CAPTURE_BY(x)<sp/>[[clang::annotate_type(&quot;mrbind::lifetime_capture_by=&quot;<sp/>#x)]]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIMEBOUND_NESTED<sp/><sp/><sp/><sp/><sp/><sp/>[[clang::annotate<sp/><sp/><sp/><sp/><sp/>(&quot;mrbind::lifetimebound_nested&quot;)]]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_THIS_LIFETIMEBOUND_NESTED<sp/>[[clang::annotate_type(&quot;mrbind::lifetimebound_nested&quot;)]]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIME_CAPTURE_BY_NESTED(x)<sp/><sp/><sp/><sp/><sp/><sp/>[[clang::annotate<sp/><sp/><sp/><sp/><sp/>(&quot;mrbind::lifetime_capture_by_nested=&quot;<sp/>#x)]]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_THIS_LIFETIME_CAPTURE_BY_NESTED(x)<sp/>[[clang::annotate_type(&quot;mrbind::lifetime_capture_by_nested=&quot;<sp/>#x)]]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRMacros_8h_1a5a14b15e367904df16d7473d4e5a33ea" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIMEBOUND</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRMacros_8h_1a39cc255fe35857a435c1f7857797b105" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIME_CAPTURE_BY(x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRMacros_8h_1acf6c6b95060436517349016ba1997ced" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_THIS_LIFETIME_CAPTURE_BY(x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRMacros_8h_1ac4deec6386dbf5b5f121aaa2beb16cec" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIMEBOUND_NESTED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRMacros_8h_1ae5183c759a85bf4bf2bfebf125c3b783" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_THIS_LIFETIMEBOUND_NESTED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRMacros_8h_1abac943cb4e78c29b3a46edd18cffe800" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_LIFETIME_CAPTURE_BY_NESTED(x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRMacros_8h_1a565fe9a8b72db5a6310b31aeaa3b5d39" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>MR_THIS_LIFETIME_CAPTURE_BY_NESTED(x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_MSC_VER)<sp/>&amp;&amp;<sp/>!defined(__clang__)<sp/>&amp;&amp;<sp/>(!defined(_MSVC_TRADITIONAL)<sp/>||<sp/>_MSVC_TRADITIONAL<sp/>==<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_LEGACY_MSVC_PREPROCESSOR<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRMacros_8h_1a0284b6bf2a09937d49518593207b00a6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_LEGACY_MSVC_PREPROCESSOR<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>MR_LEGACY_MSVC_PREPROCESSOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_TRIM_LEADING_COMMA(...)<sp/>DETAIL_MR_TRIM_LEADING_COMMA_<sp/>DETAIL_MR_TRIM_LEADING_COMMA_DEFER(__VA_ARGS__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_TRIM_LEADING_COMMA_DEFER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="MRMacros_8h_1a11806a80fef697ddb9a820cc22204f3b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_TRIM_LEADING_COMMA(...)<sp/>DETAIL_MR_TRIM_LEADING_COMMA_(__VA_ARGS__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRMacros_8h_1acaebd39479bb9677a7e966765a052de4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_TRIM_LEADING_COMMA_(x,<sp/>...)<sp/>DETAIL_MR_TRIM_LEADING_COMMA_EMPTY(x)<sp/>__VA_ARGS__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="MRMacros_8h_1a71b7b6d36fcf0ab6752038726c7b007d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_TRIM_LEADING_COMMA_EMPTY()</highlight></codeline>
     </programlisting>
     <location file="MRMesh/MRMacros.h"/>
   </compounddef>

@@ -297,8 +297,6 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRQuaternion.cs", "MRQuaternion_8cs.html", "MRQuaternion_8cs" ],
     [ "MRRadiusCompensation.cs", "MRRadiusCompensation_8cs.html", "MRRadiusCompensation_8cs" ],
     [ "MRRadiusMeasurementObject.cs", "MRRadiusMeasurementObject_8cs.html", "MRRadiusMeasurementObject_8cs" ],
-    [ "MRRayBoxIntersection.cs", "MRRayBoxIntersection_8cs.html", "MRRayBoxIntersection_8cs" ],
-    [ "MRRayBoxIntersection2.cs", "MRRayBoxIntersection2_8cs.html", "MRRayBoxIntersection2_8cs" ],
     [ "MRRectIndexer.cs", "MRRectIndexer_8cs.html", "MRRectIndexer_8cs" ],
     [ "MRReducePath.cs", "MRReducePath_8cs.html", "MRReducePath_8cs" ],
     [ "MRRegionBoundary.cs", "MRRegionBoundary_8cs.html", "MRRegionBoundary_8cs" ],

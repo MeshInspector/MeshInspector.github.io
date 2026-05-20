@@ -52,6 +52,8 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
         <childnode refid="17" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -105,6 +107,8 @@
         <label>MRMeshFwd.h</label>
         <link refid="MRMeshFwd_8h"/>
         <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
         </childnode>
@@ -396,7 +400,7 @@
 <codeline lineno="122" refid="group__TupleBindingsGroup_1ga7aa397b5ed81246a0465fb3bdc4f5599" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga40a1bbeba85718db9ed906be11c92308" kindref="member">Matrix4&lt;T&gt;::VectorType</ref>&amp;<sp/><ref refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kindref="member">get</ref>(<sp/><ref refid="structMR_1_1Matrix4" kindref="compound">Matrix4&lt;T&gt;</ref>&amp;<sp/>m<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m[int(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>)];<sp/>}</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>I,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
-<codeline lineno="125" refid="group__TupleBindingsGroup_1gaac529af9159db98123ad959d1708a303" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>std::tuple_element&lt;I,<sp/>AffineXf&lt;V&gt;&gt;::type&amp;<sp/><ref refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kindref="member">get</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf&lt;V&gt;</ref>&amp;<sp/>m<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="group__TupleBindingsGroup_1gaac529af9159db98123ad959d1708a303" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>std::tuple_element&lt;I,<sp/>AffineXf&lt;V&gt;&gt;::type&amp;<sp/><ref refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kindref="member">get</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab4efcaf15a6f87b66c1767aab8a77a08" kindref="member">AffineXf&lt;V&gt;</ref>&amp;<sp/>m<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="126"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>==<sp/>0<sp/>)</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m.A;</highlight></codeline>
@@ -405,7 +409,7 @@
 <codeline lineno="131"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>I,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>V&gt;</highlight></codeline>
-<codeline lineno="134" refid="group__TupleBindingsGroup_1ga8c1f285288de8cd4487966109876601b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>std::tuple_element&lt;I,<sp/>AffineXf&lt;V&gt;&gt;::type&amp;<sp/><ref refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kindref="member">get</ref>(<sp/><ref refid="structMR_1_1AffineXf" kindref="compound">AffineXf&lt;V&gt;</ref>&amp;<sp/>m<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="group__TupleBindingsGroup_1ga8c1f285288de8cd4487966109876601b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>std::tuple_element&lt;I,<sp/>AffineXf&lt;V&gt;&gt;::type&amp;<sp/><ref refid="group__BoxGroup_1ga053696cba1348e4b44c49f0751433c8e" kindref="member">get</ref>(<sp/><ref refid="group__GeneralGroup_1gab4efcaf15a6f87b66c1767aab8a77a08" kindref="member">AffineXf&lt;V&gt;</ref>&amp;<sp/>m<sp/>)<sp/></highlight><highlight class="keyword">noexcept</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="135"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1ga7d89e508205d25559adcd087abfcd43a" kindref="member">I</ref><sp/>==<sp/>0<sp/>)</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m.A;</highlight></codeline>

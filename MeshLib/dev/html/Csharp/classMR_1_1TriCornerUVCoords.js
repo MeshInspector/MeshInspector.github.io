@@ -14,7 +14,6 @@ var classMR_1_1TriCornerUVCoords =
     [ "back", "classMR_1_1TriCornerUVCoords.html#a053fbe841b32758e638e476439906fa3", null ],
     [ "clear", "classMR_1_1TriCornerUVCoords.html#a9442177a350258d8117611e634f3ace4", null ],
     [ "data", "classMR_1_1TriCornerUVCoords.html#a8d56ec5a98b571b50191090d0df56d5d", null ],
-    [ "emplaceBack", "classMR_1_1TriCornerUVCoords.html#afbfb069ec516d48053450bae45b1c6e6", null ],
     [ "front", "classMR_1_1TriCornerUVCoords.html#a1383c4d6342d8d156fdc2a511ed3948a", null ],
     [ "GetEnumerator", "classMR_1_1TriCornerUVCoords.html#a48aa5db52075294539414c963e2544e7", null ],
     [ "operator TriCornerUVCoords", "classMR_1_1TriCornerUVCoords.html#a28a912307dd9ba25493a62fca1e2213c", null ],

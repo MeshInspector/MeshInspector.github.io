@@ -14,7 +14,6 @@ var classMR_1_1Vector__MRModelPointsData__MRObjId =
     [ "back", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a6f50f5b301d68b615c86919961c54c20", null ],
     [ "clear", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a0c8e9db26bd81fb3e25a74f88294a526", null ],
     [ "data", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#aabc1931f4d5f2b95656ef233f16507ca", null ],
-    [ "emplaceBack", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a8b4ab461fefaa331b1c241e58d8413c2", null ],
     [ "front", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a3bc8e7e3788a419086829ad3012d0d04", null ],
     [ "GetEnumerator", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#a24f04fba3c2d59475a2f5c6f2fcbba79", null ],
     [ "operator Vector_MRModelPointsData_MRObjId", "classMR_1_1Vector__MRModelPointsData__MRObjId.html#ab2cce8a5f273ab55febc591c40024d61", null ],

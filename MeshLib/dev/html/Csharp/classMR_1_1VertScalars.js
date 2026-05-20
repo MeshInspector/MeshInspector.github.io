@@ -14,7 +14,6 @@ var classMR_1_1VertScalars =
     [ "back", "classMR_1_1VertScalars.html#adf3c71211bfd852a69f0d0d67d9b5592", null ],
     [ "clear", "classMR_1_1VertScalars.html#afdc92cc1fc7ea82861ce1c75840915f5", null ],
     [ "data", "classMR_1_1VertScalars.html#a4627d19cf38b37d1560bc511e99b09ad", null ],
-    [ "emplaceBack", "classMR_1_1VertScalars.html#a63fa0f689cd73f71b49404698dbf5a41", null ],
     [ "front", "classMR_1_1VertScalars.html#a57be19f5ccbff2da0671c501a2c426eb", null ],
     [ "GetEnumerator", "classMR_1_1VertScalars.html#a40abe33ea6ffd3e784e4200e347ecf69", null ],
     [ "operator VertScalars", "classMR_1_1VertScalars.html#afaa320b2dd19c1329250d448cd90b8f0", null ],
