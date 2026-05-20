@@ -2204,6 +2204,7 @@ var namespaceMR =
     [ "fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#gab3e1164ebf68822aab118be88463559f", null ],
     [ "fillContourLeftByGraphCut", "group__MeshSegmentationGroup.html#ga60ce8ecdf324e3ba1847b97a26909194", null ],
     [ "fillContours2D", "group__GeneralGroup.html#gae5df64d06977ab4f0e99d701b9e08047", null ],
+    [ "fillContours2DPlan", "group__GeneralGroup.html#gaddf2d1d185cf7c81ad935d5ae1404d6d", null ],
     [ "fillHole", "group__FillHoleGroup.html#gaea109869817edaf2a249691f0ec7f1bb", null ],
     [ "fillHoleNicely", "group__GeneralGroup.html#gab840077428711c450df977dffcef0380", null ],
     [ "fillHoles", "group__FillHoleGroup.html#ga1829ba14703d9aca13dbb785ea1794d0", null ],

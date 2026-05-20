@@ -139,6 +139,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRHighPrecision.h", "MRHighPrecision_8h.html", "MRHighPrecision_8h" ],
     [ "MRHistogram.h", "MRHistogram_8h.html", null ],
     [ "MRHistoryAction.h", "MRHistoryAction_8h.html", "MRHistoryAction_8h" ],
+    [ "MRHoleFillPlan.h", "MRHoleFillPlan_8h.html", null ],
     [ "MRICP.h", "MRICP_8h.html", "MRICP_8h" ],
     [ "MRICPEnums.h", "MRICPEnums_8h.html", "MRICPEnums_8h" ],
     [ "MRId.h", "MRId_8h.html", "MRId_8h" ],

@@ -1784,6 +1784,14 @@ var group__GeneralGroup =
       [ "heapBytes", "group__GeneralGroup.html#gad6df54da6a63ed83f15053507e8569de", null ],
       [ "name", "group__GeneralGroup.html#ga9daa0b79de161f676f6283e3804dc8ce", null ]
     ] ],
+    [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", [
+      [ "edgeCode1", "group__GeneralGroup.html#ga93e897d7d608458643fa5ba8a08d2ea2", null ],
+      [ "edgeCode2", "group__GeneralGroup.html#ga56124e5a79e5cbe2b1b617d2e142aaa1", null ]
+    ] ],
+    [ "MR::HoleFillPlan", "structMR_1_1HoleFillPlan.html", [
+      [ "items", "group__GeneralGroup.html#ga7c843d95baaaeb4979c70aecb08e6370", null ],
+      [ "numTris", "group__GeneralGroup.html#ga2817520d11bf0f37cbab7e6ef56b38b9", null ]
+    ] ],
     [ "MR::ICPPairData", "structMR_1_1ICPPairData.html", [
       [ "operator==", "group__GeneralGroup.html#ga0769d0c92668ab4c85a05584e5a73b24", null ],
       [ "distSq", "group__GeneralGroup.html#gafe05b997a712f074a3053f11dab0a7eb", null ],
@@ -11659,6 +11667,7 @@ var group__GeneralGroup =
     [ "MR::fillContourLeft", "group__GeneralGroup.html#ga6c8e79658ff0e0bfd4896980aaca5880", null ],
     [ "MR::fillContourLeft", "group__GeneralGroup.html#ga38f79649d26337fa1b8345a42f09bc6a", null ],
     [ "MR::fillContours2D", "group__GeneralGroup.html#gae5df64d06977ab4f0e99d701b9e08047", null ],
+    [ "MR::fillContours2DPlan", "group__GeneralGroup.html#gaddf2d1d185cf7c81ad935d5ae1404d6d", null ],
     [ "MR::fillHoleNicely", "group__GeneralGroup.html#gab840077428711c450df977dffcef0380", null ],
     [ "MR::Nesting::fillNestingSocketCorneres", "group__GeneralGroup.html#ga8f860a129bbe1a4488d5582755393292", null ],
     [ "MR::fillPlanarHole", "group__GeneralGroup.html#gaf6bdf308d7a325fb349bc72dc306b788", null ],
@@ -16735,6 +16744,8 @@ var group__GeneralGroup =
     [ "MR::DirectoryIterator::ec", "group__GeneralGroup.html#ga4d7767889be907087117c4ee9fd0789d", null ],
     [ "MR::DirectoryRecursive::ec", "group__GeneralGroup.html#ga2e941bde547838e6a74d34b9aed8d49e", null ],
     [ "MR::DirectoryRecursiveIterator::ec", "group__GeneralGroup.html#ga1d7ccfb4cee663b44ee8386962c7898d", null ],
+    [ "MR::FillHoleItem::edgeCode1", "group__GeneralGroup.html#ga93e897d7d608458643fa5ba8a08d2ea2", null ],
+    [ "MR::FillHoleItem::edgeCode2", "group__GeneralGroup.html#ga56124e5a79e5cbe2b1b617d2e142aaa1", null ],
     [ "MR::EdgeLengthMesh", "group__GeneralGroup.html#ga1b27efcf0bc43958ffdc2474a71d7730", null ],
     [ "MR::EdgeLengthMesh::edgeLengths", "group__GeneralGroup.html#gae600eca420be35f1622258bf5830453c", null ],
     [ "MR::HoleEdgePoint::edgePoint", "group__GeneralGroup.html#gae793addf9016abcd83646bb9e2243142", null ],
@@ -17016,6 +17027,7 @@ var group__GeneralGroup =
     [ "MR::RibbonSchemaHolder::SearchResult::item", "group__GeneralGroup.html#ga7ca888bade52243be40b9bc8ea954035", null ],
     [ "MR::ImGuiMenu::SelectionInformationStyle::item2Width", "group__GeneralGroup.html#ga86eda72b36c0b4d40f716d958c6e6b8a", null ],
     [ "MR::ImGuiMenu::SelectionInformationStyle::item3Width", "group__GeneralGroup.html#gac30683adb4adc5ab45bf16c3ef84ec86", null ],
+    [ "MR::HoleFillPlan::items", "group__GeneralGroup.html#ga7c843d95baaaeb4979c70aecb08e6370", null ],
     [ "MR::RibbonSchema::items", "group__GeneralGroup.html#gab33aec85ce2ca0672bc4605ba54e2fe1", null ],
     [ "MR::DrawButtonParams::itemSize", "group__GeneralGroup.html#gab8f3d59cb2dfd82cae6a79ab6746ee09", null ],
     [ "MR::ImGuiMenu::SelectionInformationStyle::itemWidth", "group__GeneralGroup.html#ga64ed116148c0f66e9a645d6f77e36289", null ],
@@ -17368,6 +17380,7 @@ var group__GeneralGroup =
     [ "MR::RibbonMenu::DrawGroupConfig::numSmall", "group__GeneralGroup.html#ga0b1bb44ee2f0cfdbab7b516b3ce2a6f8", null ],
     [ "MR::PolylineComponents::LargeByLengthComponentsSettings::numSmallerComponents", "group__GeneralGroup.html#ga5f82c05aa96cc5f5e952e7fc9ed1cf7d", null ],
     [ "MR::RibbonMenu::DrawGroupConfig::numSmallText", "group__GeneralGroup.html#ga2c5115679d5b077be3479e377e7951b1", null ],
+    [ "MR::HoleFillPlan::numTris", "group__GeneralGroup.html#ga2817520d11bf0f37cbab7e6ef56b38b9", null ],
     [ "MR::ObjectLinesHolder::numUndirectedEdges_", "group__GeneralGroup.html#ga93290385193f37f80ec2fe07e19fc8c9", null ],
     [ "MR::ObjectMeshHolder::numUndirectedEdges_", "group__GeneralGroup.html#ga6bceb32f08fb95f31d399daf788c3bf1", null ],
     [ "MR::ObjectPointsHolder::numValidPoints_", "group__GeneralGroup.html#ga20b26902cdfc19f4bd28762ec7add76e", null ],

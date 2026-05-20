@@ -3279,8 +3279,8 @@
     <member refid="group__GeneralGroup_1gaf94f67fb7131833e77aa1c32e60f68d1" kind="variable"><name>filters</name></member>
   </compound>
   <compound refid="structMR_1_1FillHoleItem" kind="struct"><name>MR::FillHoleItem</name>
-    <member refid="structMR_1_1FillHoleItem_1a93e897d7d608458643fa5ba8a08d2ea2" kind="variable"><name>edgeCode1</name></member>
-    <member refid="structMR_1_1FillHoleItem_1a56124e5a79e5cbe2b1b617d2e142aaa1" kind="variable"><name>edgeCode2</name></member>
+    <member refid="group__GeneralGroup_1ga93e897d7d608458643fa5ba8a08d2ea2" kind="variable"><name>edgeCode1</name></member>
+    <member refid="group__GeneralGroup_1ga56124e5a79e5cbe2b1b617d2e142aaa1" kind="variable"><name>edgeCode2</name></member>
   </compound>
   <compound refid="structMR_1_1FillHoleMetric" kind="struct"><name>MR::FillHoleMetric</name>
     <member refid="structMR_1_1FillHoleMetric_1acc8ef5c37515d91d9c3cb3fbcaa1fd22" kind="variable"><name>triangleMetric</name></member>
@@ -4001,8 +4001,8 @@
     <member refid="group__GeneralGroup_1gae793addf9016abcd83646bb9e2243142" kind="variable"><name>edgePoint</name></member>
   </compound>
   <compound refid="structMR_1_1HoleFillPlan" kind="struct"><name>MR::HoleFillPlan</name>
-    <member refid="structMR_1_1HoleFillPlan_1a7c843d95baaaeb4979c70aecb08e6370" kind="variable"><name>items</name></member>
-    <member refid="structMR_1_1HoleFillPlan_1a2817520d11bf0f37cbab7e6ef56b38b9" kind="variable"><name>numTris</name></member>
+    <member refid="group__GeneralGroup_1ga7c843d95baaaeb4979c70aecb08e6370" kind="variable"><name>items</name></member>
+    <member refid="group__GeneralGroup_1ga2817520d11bf0f37cbab7e6ef56b38b9" kind="variable"><name>numTris</name></member>
   </compound>
   <compound refid="structMR_1_1McpGateway_1_1MLClientTransport_1_1HostPort" kind="struct"><name>MR::McpGateway::MLClientTransport::HostPort</name>
     <member refid="structMR_1_1McpGateway_1_1MLClientTransport_1_1HostPort_1af26bbd54cf227c98537bd1d44df80a77" kind="variable"><name>host</name></member>
@@ -14483,6 +14483,7 @@
     <member refid="group__MeshSegmentationGroup_1ga60ce8ecdf324e3ba1847b97a26909194" kind="function"><name>fillContourLeftByGraphCut</name></member>
     <member refid="group__MeshSegmentationGroup_1ga83df6392f2ec180519c0977c7c2a0db7" kind="function"><name>segmentByGraphCut</name></member>
     <member refid="group__GeneralGroup_1gae5df64d06977ab4f0e99d701b9e08047" kind="function"><name>fillContours2D</name></member>
+    <member refid="group__GeneralGroup_1gaddf2d1d185cf7c81ad935d5ae1404d6d" kind="function"><name>fillContours2DPlan</name></member>
     <member refid="group__GeneralGroup_1gaafdd9eb0912943e6c057d7f3fc8d140b" kind="function"><name>getXfFromOxyPlane</name></member>
     <member refid="group__GeneralGroup_1gaaee16285913fcc24c3f7ac59e8f82904" kind="function"><name>getXfFromOxyPlane</name></member>
     <member refid="group__GeneralGroup_1gaf6bdf308d7a325fb349bc72dc306b788" kind="function"><name>fillPlanarHole</name></member>
@@ -17134,6 +17135,8 @@
   <compound refid="MRHistogram_8h" kind="file"><name>MRHistogram.h</name>
   </compound>
   <compound refid="MRHistoryAction_8h" kind="file"><name>MRHistoryAction.h</name>
+  </compound>
+  <compound refid="MRHoleFillPlan_8h" kind="file"><name>MRHoleFillPlan.h</name>
   </compound>
   <compound refid="MRICP_8h" kind="file"><name>MRICP.h</name>
   </compound>
@@ -21800,6 +21803,10 @@
     <member refid="group__GeneralGroup_1ga9751323300b9e28451f7f9fa6adf098d" kind="variable"><name>min_</name></member>
     <member refid="group__GeneralGroup_1ga249621b2451b634318652fbf88970b20" kind="variable"><name>max_</name></member>
     <member refid="group__GeneralGroup_1ga97c4c672a329bfd1d51743c738ecbabd" kind="variable"><name>binSize_</name></member>
+    <member refid="group__GeneralGroup_1ga93e897d7d608458643fa5ba8a08d2ea2" kind="variable"><name>edgeCode1</name></member>
+    <member refid="group__GeneralGroup_1ga56124e5a79e5cbe2b1b617d2e142aaa1" kind="variable"><name>edgeCode2</name></member>
+    <member refid="group__GeneralGroup_1ga7c843d95baaaeb4979c70aecb08e6370" kind="variable"><name>items</name></member>
+    <member refid="group__GeneralGroup_1ga2817520d11bf0f37cbab7e6ef56b38b9" kind="variable"><name>numTris</name></member>
     <member refid="group__GeneralGroup_1gaf30195d74b2a6994fdfadd8768407c38" kind="variable"><name>srcPoint</name></member>
     <member refid="group__GeneralGroup_1ga26326a83f053dc2e5ea6f564143ac410" kind="variable"><name>srcNorm</name></member>
     <member refid="group__GeneralGroup_1ga5a8aa18bdc6d6ceb392dafa06cbf3ba7" kind="variable"><name>tgtPoint</name></member>
@@ -25720,6 +25727,7 @@
     <member refid="group__GeneralGroup_1ga6c8e79658ff0e0bfd4896980aaca5880" kind="function"><name>fillContourLeft</name></member>
     <member refid="group__GeneralGroup_1ga38f79649d26337fa1b8345a42f09bc6a" kind="function"><name>fillContourLeft</name></member>
     <member refid="group__GeneralGroup_1gae5df64d06977ab4f0e99d701b9e08047" kind="function"><name>fillContours2D</name></member>
+    <member refid="group__GeneralGroup_1gaddf2d1d185cf7c81ad935d5ae1404d6d" kind="function"><name>fillContours2DPlan</name></member>
     <member refid="group__GeneralGroup_1gaafdd9eb0912943e6c057d7f3fc8d140b" kind="function"><name>getXfFromOxyPlane</name></member>
     <member refid="group__GeneralGroup_1gaaee16285913fcc24c3f7ac59e8f82904" kind="function"><name>getXfFromOxyPlane</name></member>
     <member refid="group__GeneralGroup_1gaf6bdf308d7a325fb349bc72dc306b788" kind="function"><name>fillPlanarHole</name></member>

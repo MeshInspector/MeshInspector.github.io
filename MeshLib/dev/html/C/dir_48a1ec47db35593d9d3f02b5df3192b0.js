@@ -113,6 +113,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRHeapBytes.h", "MRHeapBytes_8h.html", "MRHeapBytes_8h" ],
     [ "MRHistogram.h", "MRHistogram_8h.html", "MRHistogram_8h" ],
     [ "MRHistoryAction.h", "MRHistoryAction_8h.html", "MRHistoryAction_8h" ],
+    [ "MRHoleFillPlan.h", "MRHoleFillPlan_8h.html", "MRHoleFillPlan_8h" ],
     [ "MRICP.h", "MRICP_8h.html", "MRICP_8h" ],
     [ "MRICPEnums.h", "MRICPEnums_8h.html", "MRICPEnums_8h" ],
     [ "MRId.h", "MRId_8h.html", "MRId_8h" ],

@@ -113,6 +113,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRHeapBytes.cs", "MRHeapBytes_8cs.html", "MRHeapBytes_8cs" ],
     [ "MRHistogram.cs", "MRHistogram_8cs.html", "MRHistogram_8cs" ],
     [ "MRHistoryAction.cs", "MRHistoryAction_8cs.html", "MRHistoryAction_8cs" ],
+    [ "MRHoleFillPlan.cs", "MRHoleFillPlan_8cs.html", "MRHoleFillPlan_8cs" ],
     [ "MRICP.cs", "MRICP_8cs.html", "MRICP_8cs" ],
     [ "MRICPEnums.cs", "MRICPEnums_8cs.html", "MRICPEnums_8cs" ],
     [ "MRId.cs", "MRId_8cs.html", "MRId_8cs" ],

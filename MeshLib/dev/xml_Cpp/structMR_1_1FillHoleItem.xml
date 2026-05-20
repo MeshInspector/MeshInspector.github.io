@@ -2,46 +2,19 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1FillHoleItem" kind="struct" language="C++" prot="public">
     <compoundname>MR::FillHoleItem</compoundname>
-    <includes refid="MRMeshFillHole_8h" local="no">MRMesh/MRMeshFillHole.h</includes>
+    <includes refid="MRHoleFillPlan_8h" local="no">MRMesh/MRHoleFillPlan.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1FillHoleItem_1a93e897d7d608458643fa5ba8a08d2ea2" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::FillHoleItem::edgeCode1</definition>
-        <argsstring></argsstring>
-        <name>edgeCode1</name>
-        <qualifiedname>MR::FillHoleItem::edgeCode1</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>if not-negative number then it is edgeid; otherwise it refers to the edge created recently </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="164" column="9" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="164" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1FillHoleItem_1a56124e5a79e5cbe2b1b617d2e142aaa1" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::FillHoleItem::edgeCode2</definition>
-        <argsstring></argsstring>
-        <name>edgeCode2</name>
-        <qualifiedname>MR::FillHoleItem::edgeCode2</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="164" column="19" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="164" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga93e897d7d608458643fa5ba8a08d2ea2" kind="variable"><name>edgeCode1</name></member>
+      <member refid="group__GeneralGroup_1ga56124e5a79e5cbe2b1b617d2e142aaa1" kind="variable"><name>edgeCode2</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRMeshFillHole.h" line="160" column="1" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="161" bodyend="165"/>
+    <location file="MRMesh/MRHoleFillPlan.h" line="10" column="1" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="11" bodyend="15"/>
     <listofallmembers>
-      <member refid="structMR_1_1FillHoleItem_1a93e897d7d608458643fa5ba8a08d2ea2" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>edgeCode1</name></member>
-      <member refid="structMR_1_1FillHoleItem_1a56124e5a79e5cbe2b1b617d2e142aaa1" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>edgeCode2</name></member>
+      <member refid="group__GeneralGroup_1ga93e897d7d608458643fa5ba8a08d2ea2" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>edgeCode1</name></member>
+      <member refid="group__GeneralGroup_1ga56124e5a79e5cbe2b1b617d2e142aaa1" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>edgeCode2</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

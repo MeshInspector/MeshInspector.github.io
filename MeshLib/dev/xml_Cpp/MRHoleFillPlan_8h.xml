@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRHoleFillPlan_8h" kind="file" language="C++">
+    <compoundname>MRHoleFillPlan.h</compoundname>
+    <includes local="no">vector</includes>
+    <includedby refid="MRFillContours2D_8h" local="yes">MRMesh/MRFillContours2D.h</includedby>
+    <includedby refid="MRMeshFillHole_8h" local="yes">MRMesh/MRMeshFillHole.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>MRMesh/MRHoleFillPlan.h</label>
+        <link refid="MRHoleFillPlan_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRMesh/MRFillContours2D.h</label>
+        <link refid="MRFillContours2D_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRFillHoleNicely.h</label>
+        <link refid="MRFillHoleNicely_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMesh/MRHoleFillPlan.h</label>
+        <link refid="MRHoleFillPlan_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMesh/MRMeshFillHole.h</label>
+        <link refid="MRMeshFillHole_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRMeshPatch.h</label>
+        <link refid="MRMeshPatch_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1FillHoleItem" prot="public">MR::FillHoleItem</innerclass>
+    <innerclass refid="structMR_1_1HoleFillPlan" prot="public">MR::HoleFillPlan</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="structMR_1_1FillHoleItem" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FillHoleItem" kindref="compound">FillHoleItem</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1ga93e897d7d608458643fa5ba8a08d2ea2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga93e897d7d608458643fa5ba8a08d2ea2" kindref="member">edgeCode1</ref>,<sp/><ref refid="group__GeneralGroup_1ga56124e5a79e5cbe2b1b617d2e142aaa1" kindref="member">edgeCode2</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1HoleFillPlan" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga7c843d95baaaeb4979c70aecb08e6370" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;FillHoleItem&gt;<sp/><ref refid="group__GeneralGroup_1ga7c843d95baaaeb4979c70aecb08e6370" kindref="member">items</ref>;</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga2817520d11bf0f37cbab7e6ef56b38b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2817520d11bf0f37cbab7e6ef56b38b9" kindref="member">numTris</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="MRMesh/MRHoleFillPlan.h"/>
+  </compounddef>
+</doxygen>

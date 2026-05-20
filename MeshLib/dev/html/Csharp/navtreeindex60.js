@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"classMR_1_1Const__NumSum.html#a049116c40095768bf75b834a3f1284ae":[6,3,0,0,0,631,11],
+"classMR_1_1Const__NumSum.html#a19e9b63b127774f50a8df3e022c689e0":[6,3,0,0,0,631,4],
 "classMR_1_1Const__NumSum.html#a2a11cfb5fd948c9ba68932e768f2cc1c":[6,3,0,0,0,631,5],
 "classMR_1_1Const__NumSum.html#a2ed72b127d76ed4fc03ffd96bf771c44":[6,3,0,0,0,631,6],
 "classMR_1_1Const__NumSum.html#a324cc1ed1b2df496a3201771b2ec6532":[6,3,0,0,0,631,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonReferenceValue.html":[6,3,0,0,0,635,4],
 "classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonReferenceValue.html#a145162e51b33e6c88c4cfa273ad5d7b2":[6,3,0,0,0,635,4,3],
 "classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonReferenceValue.html#a507400c30c1165a39544fb36ebdb7dcd":[6,3,0,0,0,635,4,5],
-"classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonReferenceValue.html#a535920d2d34791cd2237f895c7c28ba1":[6,3,0,0,0,635,4,4],
-"classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonReferenceValue.html#a58bf8ec556cb99e7e9c5421911dfb939":[6,3,0,0,0,635,4,7],
-"classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonReferenceValue.html#a7db166e2653a9593eea01be7f8f0d51d":[6,3,0,0,0,635,4,0]
+"classMR_1_1Const__ObjectComparableWithReference_1_1Const__ComparisonReferenceValue.html#a535920d2d34791cd2237f895c7c28ba1":[6,3,0,0,0,635,4,4]
 };

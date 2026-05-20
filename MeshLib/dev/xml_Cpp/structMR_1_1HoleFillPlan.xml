@@ -2,47 +2,20 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1HoleFillPlan" kind="struct" language="C++" prot="public">
     <compoundname>MR::HoleFillPlan</compoundname>
-    <includes refid="MRMeshFillHole_8h" local="no">MRMesh/MRMeshFillHole.h</includes>
+    <includes refid="MRHoleFillPlan_8h" local="no">MRMesh/MRHoleFillPlan.h</includes>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structMR_1_1HoleFillPlan_1a7c843d95baaaeb4979c70aecb08e6370" prot="public" static="no" mutable="no">
-        <type>std::vector&lt; <ref refid="structMR_1_1FillHoleItem" kindref="compound">FillHoleItem</ref> &gt;</type>
-        <definition>std::vector&lt;FillHoleItem&gt; MR::HoleFillPlan::items</definition>
-        <argsstring></argsstring>
-        <name>items</name>
-        <qualifiedname>MR::HoleFillPlan::items</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="170" column="17" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="170" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="structMR_1_1HoleFillPlan_1a2817520d11bf0f37cbab7e6ef56b38b9" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int MR::HoleFillPlan::numTris</definition>
-        <argsstring></argsstring>
-        <name>numTris</name>
-        <qualifiedname>MR::HoleFillPlan::numTris</qualifiedname>
-        <initializer>= 0</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="171" column="9" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="171" bodyend="-1"/>
-      </memberdef>
+      <member refid="group__GeneralGroup_1ga7c843d95baaaeb4979c70aecb08e6370" kind="variable"><name>items</name></member>
+      <member refid="group__GeneralGroup_1ga2817520d11bf0f37cbab7e6ef56b38b9" kind="variable"><name>numTris</name></member>
     </sectiondef>
     <briefdescription>
 <para>concise representation of proposed hole triangulation </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRMeshFillHole.h" line="168" column="1" bodyfile="MRMesh/MRMeshFillHole.h" bodystart="169" bodyend="172"/>
+    <location file="MRMesh/MRHoleFillPlan.h" line="18" column="1" bodyfile="MRMesh/MRHoleFillPlan.h" bodystart="19" bodyend="22"/>
     <listofallmembers>
-      <member refid="structMR_1_1HoleFillPlan_1a7c843d95baaaeb4979c70aecb08e6370" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>items</name></member>
-      <member refid="structMR_1_1HoleFillPlan_1a2817520d11bf0f37cbab7e6ef56b38b9" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>numTris</name></member>
+      <member refid="group__GeneralGroup_1ga7c843d95baaaeb4979c70aecb08e6370" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>items</name></member>
+      <member refid="group__GeneralGroup_1ga2817520d11bf0f37cbab7e6ef56b38b9" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>numTris</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

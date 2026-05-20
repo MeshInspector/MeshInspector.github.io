@@ -3144,6 +3144,7 @@ var classMR =
     [ "fillContourLeftByGraphCut", "classMR.html#abf8a72f9a9947fb60609ea99a1d4f611", null ],
     [ "fillContourLeftByGraphCut", "classMR.html#aff17a33ed0c353c164bdbe0f42783533", null ],
     [ "fillContours2D", "classMR.html#ae37b9b104c301a064d75b73094c0f563", null ],
+    [ "fillContours2DPlan", "classMR.html#aa3f1d6bf3ad1faf61a7e009906ab58f7", null ],
     [ "fillHole", "classMR.html#a62bc429ce182f953c2f0db902be80f4d", null ],
     [ "fillHoleNicely", "classMR.html#a7ff588f0e066365a484a0e2c8c23b977", null ],
     [ "fillHoles", "classMR.html#aafdbcb6bfd3bddc8323daa12c59f4e39", null ],
