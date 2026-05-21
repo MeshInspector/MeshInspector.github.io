@@ -3412,7 +3412,7 @@ var classMR =
     [ "getPathPlaneIntersections", "classMR.html#a8e45d24929a355f272a452b5fb8972b2", null ],
     [ "getPickedPointNormal", "classMR.html#ad8baa1c1c560be78df3cd763db8d62cc", null ],
     [ "getPickedPointPosition", "classMR.html#a54e825177825c441bc55c686b1161fd0", null ],
-    [ "getPlanarHoleFillPlan", "classMR.html#a664430073e0df43ee6557118f8ab84f1", null ],
+    [ "getPlanarHoleFillPlan", "classMR.html#a5afd14262a992d5522fbe5b5315c40c7", null ],
     [ "getPlanarHoleFillPlans", "classMR.html#a702b3c01d993bc100430bc1e1449dddb", null ],
     [ "getPlane3d", "classMR.html#aabc0bbc95f95a6185c757e5ec1a0a74c", null ],
     [ "getPlane3f", "classMR.html#a38a3db50e4010c4afb29d1946cab57b8", null ],
