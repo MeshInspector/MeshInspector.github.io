@@ -52,7 +52,7 @@ var MRMeshFillHole_8h =
     [ "MR_fillHoleTrivially", "MRMeshFillHole_8h.html#ab69be78c0192bae1938bf7487cc03342", null ],
     [ "MR_getHoleFillPlan", "MRMeshFillHole_8h.html#a3215c5c3345aed150cb8e5da331ba676", null ],
     [ "MR_getHoleFillPlans", "MRMeshFillHole_8h.html#a2d3e6a70c691311034050de3f7ed667c", null ],
-    [ "MR_getPlanarHoleFillPlan", "MRMeshFillHole_8h.html#a6fe5f735598e2ce6e2a169131dea2eb7", null ],
+    [ "MR_getPlanarHoleFillPlan", "MRMeshFillHole_8h.html#a5e04da01eeac2e83e239fbe906494092", null ],
     [ "MR_getPlanarHoleFillPlans", "MRMeshFillHole_8h.html#a54a32a59198bfc9d67c03be518a035a3", null ],
     [ "MR_isFillingMultipleEdgeFree", "MRMeshFillHole_8h.html#a6212ddd3a0e794cbb7b10f4f4ab72887", null ],
     [ "MR_isHoleBd", "MRMeshFillHole_8h.html#affa45fe0dfbca359e1b85fc2f70b67d8", null ],

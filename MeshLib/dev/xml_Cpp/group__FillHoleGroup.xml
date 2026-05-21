@@ -419,10 +419,10 @@ default metric: CircumscribedFillMetric</para>
         </inbodydescription>
         <location file="MRMesh/MRMeshFillHole.h" line="167" column="15" declfile="MRMesh/MRMeshFillHole.h" declline="167" declcolumn="15"/>
       </memberdef>
-      <memberdef kind="function" id="group__FillHoleGroup_1gab4e906065f3b0aa3aed470a174eac48c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__FillHoleGroup_1ga115c55acfde4c7d5a7829c8871546539" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>HoleFillPlan</type>
         <definition>HoleFillPlan MR::getPlanarHoleFillPlan</definition>
-        <argsstring>(const Mesh &amp;mesh, EdgeId e, bool allowSweptLine=true)</argsstring>
+        <argsstring>(const Mesh &amp;mesh, EdgeId e)</argsstring>
         <name>getPlanarHoleFillPlan</name>
         <qualifiedname>MR::getPlanarHoleFillPlan</qualifiedname>
         <param>
@@ -433,19 +433,14 @@ default metric: CircumscribedFillMetric</para>
           <type>EdgeId</type>
           <declname>e</declname>
         </param>
-        <param>
-          <type>bool</type>
-          <declname>allowSweptLine</declname>
-          <defval>true</defval>
-        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>prepares the plan how to triangulate the planar face or planar hole to the left of (e) (not filling it immediately), several getPlanarHoleFillPlan can work in parallel if <computeroutput>allowSweptLine</computeroutput> is set - tries to use faster swept line triangulation for larger holes but do not resolve multiple edges in any way (OK in most cases) </para>
+<para>prepares the plan how to triangulate the planar face or planar hole to the left of (e) (not filling it immediately), several getPlanarHoleFillPlan can work in parallel </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="172" column="16" declfile="MRMesh/MRMeshFillHole.h" declline="172" declcolumn="16"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="171" column="16" declfile="MRMesh/MRMeshFillHole.h" declline="171" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaa4f6f304ac87174ff7ad7b84c9c8400e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; HoleFillPlan &gt;</type>
@@ -464,11 +459,11 @@ default metric: CircumscribedFillMetric</para>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>prepares the plans how to triangulate the planar faces or holes, each given by a boundary edge (with filling target to the left), the plans are prepared in parallel with minimal memory allocation compared to manual calling of several <ref refid="group__FillHoleGroup_1gab4e906065f3b0aa3aed470a174eac48c" kindref="member">getPlanarHoleFillPlan()</ref>, but it can inefficient when some holes are very complex </para>
+<para>prepares the plans how to triangulate the planar faces or holes, each given by a boundary edge (with filling target to the left), the plans are prepared in parallel with minimal memory allocation compared to manual calling of several <ref refid="group__FillHoleGroup_1ga115c55acfde4c7d5a7829c8871546539" kindref="member">getPlanarHoleFillPlan()</ref>, but it can inefficient when some holes are very complex </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="176" column="15" declfile="MRMesh/MRMeshFillHole.h" declline="176" declcolumn="15"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="175" column="15" declfile="MRMesh/MRMeshFillHole.h" declline="175" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga9c0d16866c22ddd9f9a804ceaafa6def" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -500,7 +495,7 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="179" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="179" declcolumn="7"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="178" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="178" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga4ac05f89e820abf374a81235ddda0750" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -523,7 +518,7 @@ default metric: CircumscribedFillMetric</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="184" column="8" declfile="MRMesh/MRMeshFillHole.h" declline="184" declcolumn="8"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="183" column="8" declfile="MRMesh/MRMeshFillHole.h" declline="183" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga4cf35e5d941d2017efa3dbf1d9ac0c2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>VertId</type>
@@ -589,7 +584,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="207" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="207" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="206" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="206" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga244a805b5382fa02935a6196bbe11cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -623,7 +618,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="212" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="212" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="211" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="211" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaba3046572685dab52de61c3dcf252303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; EdgeId &gt;</type>
@@ -653,7 +648,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="216" column="14" declfile="MRMesh/MRMeshFillHole.h" declline="216" declcolumn="14"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="215" column="14" declfile="MRMesh/MRMeshFillHole.h" declline="215" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaa350b72dbcd48b11d06c127fce0fb7fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -687,7 +682,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="221" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="221" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="220" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="220" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gad9d00d278b9f0d856d31227faa8500d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -725,7 +720,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="226" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="226" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="225" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="225" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga9e749cbb6ab9c3bdac4609b89a586100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -755,7 +750,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="230" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="230" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="229" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="229" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga4ca9c35a40fd933fbfd31883e3a1c76a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MakeBridgeResult</type>
@@ -789,7 +784,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="248" column="19" declfile="MRMesh/MRMeshFillHole.h" declline="248" declcolumn="19"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="247" column="19" declfile="MRMesh/MRMeshFillHole.h" declline="247" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gab3e60c9de18875e78ea96106adbacc8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MakeBridgeResult</type>
@@ -823,7 +818,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="253" column="19" declfile="MRMesh/MRMeshFillHole.h" declline="253" declcolumn="19"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="252" column="19" declfile="MRMesh/MRMeshFillHole.h" declline="252" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1gaeb585e92175777d0104f7cb7bad9215f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MakeBridgeResult</type>
@@ -870,7 +865,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="260" column="19" declfile="MRMesh/MRMeshFillHole.h" declline="260" declcolumn="19"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="259" column="19" declfile="MRMesh/MRMeshFillHole.h" declline="259" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga22925ca42a37db6c68a9101867744a31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>EdgeId</type>
@@ -899,7 +894,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="264" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="264" declcolumn="9"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="263" column="9" declfile="MRMesh/MRMeshFillHole.h" declline="263" declcolumn="9"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga71fca5b809e46f918e1bc23c90c3201e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -927,7 +922,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshFillHole.h" line="267" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="267" declcolumn="7"/>
+        <location file="MRMesh/MRMeshFillHole.h" line="266" column="7" declfile="MRMesh/MRMeshFillHole.h" declline="266" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="group__FillHoleGroup_1ga633f1395df33828b2f19fc042879aa29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>

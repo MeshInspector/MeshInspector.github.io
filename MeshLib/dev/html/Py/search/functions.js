@@ -1843,7 +1843,7 @@ var searchData=
   ['getpickedpointposition_346',['getPickedPointPosition',['../namespacemrmeshpy.html#af81852a41d1037269c6f1a6e5299e963',1,'mrmeshpy']]],
   ['getpivotpoint_347',['getPivotPoint',['../classmrmeshpy_1_1ObjectLabel.html#abcd7b0815cbfdde0ed52a2c38d2bf10e',1,'mrmeshpy::ObjectLabel']]],
   ['getpivotshift_348',['getPivotShift',['../classmrmeshpy_1_1ObjectLabel.html#aa8ba95b6ada9721bcf17e64d5dfecb98',1,'mrmeshpy::ObjectLabel']]],
-  ['getplanarholefillplan_349',['getPlanarHoleFillPlan',['../namespacemrmeshpy.html#a85c241e2774f89d1d597ac8570fc1268',1,'mrmeshpy']]],
+  ['getplanarholefillplan_349',['getPlanarHoleFillPlan',['../namespacemrmeshpy.html#a50aee1590c8ffa97a45798f5efb7e7d9',1,'mrmeshpy']]],
   ['getplanarholefillplans_350',['getPlanarHoleFillPlans',['../namespacemrmeshpy.html#a8ee28bb13f35210dc8411bf7305f4419',1,'mrmeshpy']]],
   ['getplane3d_351',['getPlane3d',['../classmrmeshpy_1_1Mesh.html#a9d7e922c8c60dc1ff607284cfb760853',1,'mrmeshpy.Mesh.getPlane3d()'],['../namespacemrmeshpy.html#ae142f0765500cb352d6e0d348b0b62a8',1,'mrmeshpy.getPlane3d()']]],
   ['getplane3f_352',['getPlane3f',['../classmrmeshpy_1_1Mesh.html#ae11d7dd6ca7b73d3580968f04534358f',1,'mrmeshpy.Mesh.getPlane3f()'],['../namespacemrmeshpy.html#a6e2f97a495d9a00eba00bad07ad3ad8d',1,'mrmeshpy.getPlane3f(MeshTopology topology, VertCoords points, FaceId f)']]],

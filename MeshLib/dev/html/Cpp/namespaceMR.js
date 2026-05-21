@@ -2556,7 +2556,7 @@ var namespaceMR =
     [ "getPickedPointNormal", "group__GeneralGroup.html#ga04831f2ccc8463060908522a0b06066c", null ],
     [ "getPickedPointPosition", "group__GeneralGroup.html#ga061be58a0c33284aabdda040949d2da1", null ],
     [ "getPickerFragmentShader", "group__GeneralGroup.html#ga8d0c35a10cb3d303e56387880f7a8e76", null ],
-    [ "getPlanarHoleFillPlan", "group__FillHoleGroup.html#gab4e906065f3b0aa3aed470a174eac48c", null ],
+    [ "getPlanarHoleFillPlan", "group__FillHoleGroup.html#ga115c55acfde4c7d5a7829c8871546539", null ],
     [ "getPlanarHoleFillPlans", "group__FillHoleGroup.html#gaa4f6f304ac87174ff7ad7b84c9c8400e", null ],
     [ "getPlane3d", "group__GeneralGroup.html#ga7e053d01e48eccedc38a9207e28c8e67", null ],
     [ "getPlane3f", "group__GeneralGroup.html#ga4a34e9aa74662ddd5bcd88eba7a7d234", null ],

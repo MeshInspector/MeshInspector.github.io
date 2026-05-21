@@ -1878,7 +1878,7 @@ var searchData=
   ['getpixelpointinfo_493',['getPixelPointInfo',['../group__GeneralGroup.html#ga6f6d61b9c14406fb30e82ad4c84278f3',1,'MR::Viewer']]],
   ['getpixelsize_494',['getPixelSize',['../group__GeneralGroup.html#ga1506ca2c2e88f6a8b03d3f0dfe531bd4',1,'MR::Viewport']]],
   ['getpixelsizeatpoint_495',['getPixelSizeAtPoint',['../group__GeneralGroup.html#ga14b58b172e7568f0385fa8242b5bbe19',1,'MR::Viewport']]],
-  ['getplanarholefillplan_496',['getPlanarHoleFillPlan',['../group__FillHoleGroup.html#gab4e906065f3b0aa3aed470a174eac48c',1,'MR']]],
+  ['getplanarholefillplan_496',['getPlanarHoleFillPlan',['../group__FillHoleGroup.html#ga115c55acfde4c7d5a7829c8871546539',1,'MR']]],
   ['getplanarholefillplans_497',['getPlanarHoleFillPlans',['../group__FillHoleGroup.html#gaa4f6f304ac87174ff7ad7b84c9c8400e',1,'MR']]],
   ['getplane_498',['getPlane',['../group__GeneralGroup.html#ga486a215230f35b4470db487511857f27',1,'MR::PlaneWidget']]],
   ['getplane3d_499',['getPlane3d',['../structMR_1_1Mesh.html#a9694e3c2e3f18a1fd2989eaff00bc597',1,'MR::Mesh::getPlane3d()'],['../group__GeneralGroup.html#ga7e053d01e48eccedc38a9207e28c8e67',1,'MR::getPlane3d()']]],

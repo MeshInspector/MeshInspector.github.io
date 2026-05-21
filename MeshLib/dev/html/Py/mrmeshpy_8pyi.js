@@ -2213,7 +2213,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.getPathPlaneIntersections", "namespacemrmeshpy.html#a3170fc994d2daeedbc066564e67cb146", null ],
     [ "mrmeshpy.getPickedPointNormal", "namespacemrmeshpy.html#a30a927d47f38768b3a5aa44ee7b0c171", null ],
     [ "mrmeshpy.getPickedPointPosition", "namespacemrmeshpy.html#af81852a41d1037269c6f1a6e5299e963", null ],
-    [ "mrmeshpy.getPlanarHoleFillPlan", "namespacemrmeshpy.html#a85c241e2774f89d1d597ac8570fc1268", null ],
+    [ "mrmeshpy.getPlanarHoleFillPlan", "namespacemrmeshpy.html#a50aee1590c8ffa97a45798f5efb7e7d9", null ],
     [ "mrmeshpy.getPlanarHoleFillPlans", "namespacemrmeshpy.html#a8ee28bb13f35210dc8411bf7305f4419", null ],
     [ "mrmeshpy.getPlane3d", "namespacemrmeshpy.html#ae142f0765500cb352d6e0d348b0b62a8", null ],
     [ "mrmeshpy.getPlane3f", "namespacemrmeshpy.html#a6e2f97a495d9a00eba00bad07ad3ad8d", null ],
