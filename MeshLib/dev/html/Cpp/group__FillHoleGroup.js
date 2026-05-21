@@ -55,7 +55,7 @@ var group__FillHoleGroup =
     [ "MR::getMinAreaMetric", "group__FillHoleGroup.html#ga202cf2363d92c6bb9820b0726c95a52f", null ],
     [ "MR::getMinTriAngleMetric", "group__FillHoleGroup.html#gada97d0f756cdd818f749f7cb31043586", null ],
     [ "MR::getParallelPlaneFillMetric", "group__FillHoleGroup.html#ga334e0a0d309a569265caf591d1a78324", null ],
-    [ "MR::getPlanarHoleFillPlan", "group__FillHoleGroup.html#ga115c55acfde4c7d5a7829c8871546539", null ],
+    [ "MR::getPlanarHoleFillPlan", "group__FillHoleGroup.html#gab4e906065f3b0aa3aed470a174eac48c", null ],
     [ "MR::getPlanarHoleFillPlans", "group__FillHoleGroup.html#gaa4f6f304ac87174ff7ad7b84c9c8400e", null ],
     [ "MR::getPlaneFillMetric", "group__FillHoleGroup.html#ga4a6a9b162031e7a619eb316d702a3b0e", null ],
     [ "MR::getPlaneNormalizedFillMetric", "group__FillHoleGroup.html#gad478d95fcd3c6794e0da1bb6c814c0ea", null ],

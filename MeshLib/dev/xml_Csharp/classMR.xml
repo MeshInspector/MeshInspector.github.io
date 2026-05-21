@@ -19850,10 +19850,10 @@ default metric: CircumscribedFillMetric. </para>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1118" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1118" bodyend="1123"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1a664430073e0df43ee6557118f8ab84f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1a5afd14262a992d5522fbe5b5315c40c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1HoleFillPlan" kindref="compound">MR.HoleFillPlan</ref></type>
         <definition>static unsafe MR.HoleFillPlan MR.getPlanarHoleFillPlan</definition>
-        <argsstring>(MR.Const_Mesh mesh, MR.EdgeId e)</argsstring>
+        <argsstring>(MR.Const_Mesh mesh, MR.EdgeId e, bool? allowSweptLine=null)</argsstring>
         <name>getPlanarHoleFillPlan</name>
         <qualifiedname>MR.getPlanarHoleFillPlan</qualifiedname>
         <param>
@@ -19864,14 +19864,19 @@ default metric: CircumscribedFillMetric. </para>
           <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
           <declname>e</declname>
         </param>
+        <param>
+          <type>bool?</type>
+          <declname>allowSweptLine</declname>
+          <defval>null</defval>
+        </param>
         <briefdescription>
-<para>prepares the plan how to triangulate the planar face or planar hole to the left of (e) (not filling it immediately), several getPlanarHoleFillPlan can work in parallel Generated from function <computeroutput><ref refid="classMR_1a664430073e0df43ee6557118f8ab84f1" kindref="member">MR.getPlanarHoleFillPlan</ref></computeroutput>. </para>
+<para>prepares the plan how to triangulate the planar face or planar hole to the left of (e) (not filling it immediately), several getPlanarHoleFillPlan can work in parallel if <computeroutput>allowSweptLine</computeroutput> is set - tries to use faster swept line triangulation for larger holes but do not resolve multiple edges in any way (OK in most cases) Generated from function <computeroutput><ref refid="classMR_1a5afd14262a992d5522fbe5b5315c40c7" kindref="member">MR.getPlanarHoleFillPlan</ref></computeroutput>. Parameter <computeroutput>allowSweptLine</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1130" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1130" bodyend="1135"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1132" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1132" bodyend="1138"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a702b3c01d993bc100430bc1e1449dddb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MRHoleFillPlan</type>
@@ -19888,13 +19893,13 @@ default metric: CircumscribedFillMetric. </para>
           <declname>holeRepresentativeEdges</declname>
         </param>
         <briefdescription>
-<para>prepares the plans how to triangulate the planar faces or holes, each given by a boundary edge (with filling target to the left), the plans are prepared in parallel with minimal memory allocation compared to manual calling of several <ref refid="classMR_1a664430073e0df43ee6557118f8ab84f1" kindref="member">getPlanarHoleFillPlan()</ref>, but it can inefficient when some holes are very complex Generated from function <computeroutput><ref refid="classMR_1a702b3c01d993bc100430bc1e1449dddb" kindref="member">MR.getPlanarHoleFillPlans</ref></computeroutput>. </para>
+<para>prepares the plans how to triangulate the planar faces or holes, each given by a boundary edge (with filling target to the left), the plans are prepared in parallel with minimal memory allocation compared to manual calling of several <ref refid="classMR_1a5afd14262a992d5522fbe5b5315c40c7" kindref="member">getPlanarHoleFillPlan()</ref>, but it can inefficient when some holes are very complex Generated from function <computeroutput><ref refid="classMR_1a702b3c01d993bc100430bc1e1449dddb" kindref="member">MR.getPlanarHoleFillPlans</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1142" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1142" bodyend="1147"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1145" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1145" bodyend="1150"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1abfb452e0e82cc49c11c92ec37457abd9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -19926,7 +19931,7 @@ default metric: CircumscribedFillMetric. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1153" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1153" bodyend="1158"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1156" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1156" bodyend="1161"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7ea8a5bf0cbfab64a32a2c43a731f580" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
@@ -19949,7 +19954,7 @@ default metric: CircumscribedFillMetric. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1166" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1166" bodyend="1171"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1169" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1169" bodyend="1174"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7fb32b0d4b27bbd85dba9a26067c3199" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
@@ -20012,7 +20017,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1190" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1190" bodyend="1195"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1193" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1193" bodyend="1198"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a0281f07abce8bc79dc9b58cbd8ebf256" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -20047,7 +20052,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1203" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1203" bodyend="1208"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1206" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1206" bodyend="1211"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1acdcda4c60190b7bf472939c7df45de41" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgeId</type>
@@ -20078,7 +20083,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1215" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1215" bodyend="1220"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1218" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1218" bodyend="1223"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7c9528f2678888595642473e0602ca82" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -20113,7 +20118,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1228" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1228" bodyend="1233"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1231" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1231" bodyend="1236"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a573c2c69cb6295abbbede2daadc1acf6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -20152,7 +20157,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1241" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1241" bodyend="1246"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1244" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1244" bodyend="1249"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a019372015ec5fb5ea763149f71dc2c7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -20183,7 +20188,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1253" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1253" bodyend="1258"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1256" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1256" bodyend="1261"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a95fbc75c75a4790c10b064d6b6bce976" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MakeBridgeResult" kindref="compound">MR.MakeBridgeResult</ref></type>
@@ -20218,7 +20223,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1266" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1266" bodyend="1271"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1269" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1269" bodyend="1274"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a7338cce93eb1bdf6039e5c8d41ea1575" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MakeBridgeResult" kindref="compound">MR.MakeBridgeResult</ref></type>
@@ -20253,7 +20258,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1279" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1279" bodyend="1284"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1282" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1282" bodyend="1287"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a6f348605a16777daec2f8d5d23cd6046" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1MakeBridgeResult" kindref="compound">MR.MakeBridgeResult</ref></type>
@@ -20301,7 +20306,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1294" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1294" bodyend="1299"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1297" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1297" bodyend="1302"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aaad2fc713c736b6191139fa12ae69eeb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
@@ -20331,7 +20336,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1306" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1306" bodyend="1311"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1309" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1309" bodyend="1314"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1afef1775501a1c1df473f6c95cb59c4ea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -20359,7 +20364,7 @@ by creating one new vertex in the centroid of boundary vertices and connecting n
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1317" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1317" bodyend="1322"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1320" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1320" bodyend="1325"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ac637663a362a0e3540940f2072a28ed4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe int</type>
@@ -53649,7 +53654,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a8e45d24929a355f272a452b5fb8972b2" prot="public" virt="non-virtual"><scope>MR</scope><name>getPathPlaneIntersections</name></member>
       <member refid="classMR_1ad8baa1c1c560be78df3cd763db8d62cc" prot="public" virt="non-virtual"><scope>MR</scope><name>getPickedPointNormal</name></member>
       <member refid="classMR_1a54e825177825c441bc55c686b1161fd0" prot="public" virt="non-virtual"><scope>MR</scope><name>getPickedPointPosition</name></member>
-      <member refid="classMR_1a664430073e0df43ee6557118f8ab84f1" prot="public" virt="non-virtual"><scope>MR</scope><name>getPlanarHoleFillPlan</name></member>
+      <member refid="classMR_1a5afd14262a992d5522fbe5b5315c40c7" prot="public" virt="non-virtual"><scope>MR</scope><name>getPlanarHoleFillPlan</name></member>
       <member refid="classMR_1a702b3c01d993bc100430bc1e1449dddb" prot="public" virt="non-virtual"><scope>MR</scope><name>getPlanarHoleFillPlans</name></member>
       <member refid="classMR_1aabc0bbc95f95a6185c757e5ec1a0a74c" prot="public" virt="non-virtual"><scope>MR</scope><name>getPlane3d</name></member>
       <member refid="classMR_1a38a3db50e4010c4afb29d1946cab57b8" prot="public" virt="non-virtual"><scope>MR</scope><name>getPlane3f</name></member>
