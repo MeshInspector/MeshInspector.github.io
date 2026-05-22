@@ -1,5 +1,8 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1Sphere.html":[6,0,0,20,481],
+"structMR_1_1SphereParams.html":[6,0,0,20,306],
+"structMR_1_1SplineSettings.html":[6,0,0,20,309],
 "structMR_1_1StitchHolesNicelySettings.html":[6,0,0,20,245],
 "structMR_1_1StitchHolesParams.html":[6,0,0,9,3,1],
 "structMR_1_1StitchHolesParams.html#a472b65c8cadbd4c6cf5c2acbf4302f66":[6,0,0,9,3,1,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#af8d7643677c8aeeef29e018e4fe509bd":[6,0,2,0,2,33,0,6,0,3],
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html":[6,0,1,0,1,49,2,6,1],
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html":[6,0,2,0,2,33,0,6,1],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a0c53df5fe946d2f3a130df1ba36cc8dc":[6,0,1,0,1,49,2,6,1,0],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a0c53df5fe946d2f3a130df1ba36cc8dc":[6,0,2,0,2,33,0,6,1,0],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a39c3a6f5e5ed4c98cd30335902726b92":[6,0,1,0,1,49,2,6,1,4],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a39c3a6f5e5ed4c98cd30335902726b92":[6,0,2,0,2,33,0,6,1,4]
+"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a0c53df5fe946d2f3a130df1ba36cc8dc":[6,0,1,0,1,49,2,6,1,0]
 };

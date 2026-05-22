@@ -63,7 +63,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRCNCMachineSettings.h", "MRCNCMachineSettings_8h.html", null ],
     [ "MRColor.h", "MRColor_8h.html", "MRColor_8h" ],
     [ "MRColorMapAggregator.h", "MRColorMapAggregator_8h.html", null ],
-    [ "MRCombinedHistoryAction.h", "MRCombinedHistoryAction_8h.html", null ],
+    [ "MRCombinedHistoryAction.h", "MRCombinedHistoryAction_8h.html", "MRCombinedHistoryAction_8h" ],
     [ "MRComputeBoundingBox.h", "MRComputeBoundingBox_8h.html", "MRComputeBoundingBox_8h" ],
     [ "MRCone3.h", "MRCone3_8h.html", null ],
     [ "MRConeApproximator.h", "MRConeApproximator_8h.html", "MRConeApproximator_8h" ],

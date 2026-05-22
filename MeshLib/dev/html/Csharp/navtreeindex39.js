@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1Const__CurveFunc.html#ae6843e73ca273a834cf8d47cd80d8155":[6,3,0,0,0,359,8],
+"classMR_1_1Const__CurvePoint.html":[6,3,0,0,0,360],
 "classMR_1_1Const__CurvePoint.html#a21b2413a5298acae47ac8d94339e5693":[6,3,0,0,0,360,5],
 "classMR_1_1Const__CurvePoint.html#a3eee33e98d1280fad629ec6392bfd8ec":[6,3,0,0,0,360,11],
 "classMR_1_1Const__CurvePoint.html#a487848ab31ce153ace79e16c38170423":[6,3,0,0,0,360,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1Const__DecimateResult.html#a362b95cf4f7aa8ac89ab91e4d56ef361":[6,3,0,0,0,370,6],
 "classMR_1_1Const__DecimateResult.html#a3d8f7c36b6a49faf64964014e7178215":[6,3,0,0,0,370,7],
 "classMR_1_1Const__DecimateResult.html#a5456b0caf0b6a9c23fd0bc1415845d79":[6,3,0,0,0,370,11],
-"classMR_1_1Const__DecimateResult.html#a66c341a077eefbc722d492805c46ebc9":[6,3,0,0,0,370,2],
-"classMR_1_1Const__DecimateResult.html#a6d2d14973f298ec62763a5ce4fcb1d16":[6,3,0,0,0,370,4],
-"classMR_1_1Const__DecimateResult.html#a8251025fbe0db48525cbabc39f8d19a1":[6,3,0,0,0,370,5]
+"classMR_1_1Const__DecimateResult.html#a66c341a077eefbc722d492805c46ebc9":[6,3,0,0,0,370,2]
 };

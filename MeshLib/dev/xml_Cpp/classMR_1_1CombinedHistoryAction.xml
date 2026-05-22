@@ -4,18 +4,23 @@
     <compoundname>MR::CombinedHistoryAction</compoundname>
     <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
     <includes refid="MRCombinedHistoryAction_8h" local="no">MRMesh/MRCombinedHistoryAction.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga83caa49f307fe6803e21a9d3083322a9" kind="typedef"><name>DynamicNameGetter</name></member>
+    </sectiondef>
     <sectiondef kind="private-attrib">
       <member refid="group__GeneralGroup_1ga3d9e926d1ee7633141a6549c2675186c" kind="variable"><name>actions_</name></member>
       <member refid="group__GeneralGroup_1ga219972a9af7ad77c1bd08a16d09df839" kind="variable"><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga0542f5855c346ab2031cd4193dea10c9" kind="variable"><name>dynNameGetter_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
-      <member refid="group__GeneralGroup_1ga5fb7a5b843198f03b6ba5100833f5b9f" kind="function"><name>CombinedHistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gae424bbf4ddf0c42e7c361becbf04c4c2" kind="function"><name>CombinedHistoryAction</name></member>
       <member refid="group__GeneralGroup_1ga59961c77016991a1c41b6f0c34545ee6" kind="function"><name>name</name></member>
       <member refid="group__GeneralGroup_1gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" kind="function"><name>action</name></member>
       <member refid="group__GeneralGroup_1gaa47d5898040fc2ee2c67bf0ffee6176c" kind="function"><name>getStack</name></member>
       <member refid="group__GeneralGroup_1ga304820a24e74e6c61b31a203e017bc48" kind="function"><name>getStack</name></member>
       <member refid="group__GeneralGroup_1ga6c4c522fab61f8a95e539f9b9449a6ee" kind="function"><name>filter</name></member>
       <member refid="group__GeneralGroup_1ga24336720e6ef2e49fe759978a653cd93" kind="function"><name>empty</name></member>
+      <member refid="group__GeneralGroup_1ga81ab07a6d63f11c541b280dfc3aad08d" kind="function"><name>getDynamicName</name></member>
       <member refid="group__GeneralGroup_1ga83839aa6c5c2a8896645421552f26edd" kind="function"><name>heapBytes</name></member>
     </sectiondef>
     <briefdescription>
@@ -47,13 +52,16 @@
         <link refid="classMR_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRCombinedHistoryAction.h" line="14" column="1" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="15" bodyend="41"/>
+    <location file="MRMesh/MRCombinedHistoryAction.h" line="15" column="1" bodyfile="MRMesh/MRCombinedHistoryAction.h" bodystart="16" bodyend="50"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" prot="public" virt="virtual"><scope>MR::CombinedHistoryAction</scope><name>action</name></member>
       <member refid="group__GeneralGroup_1ga3d9e926d1ee7633141a6549c2675186c" prot="private" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>actions_</name></member>
-      <member refid="group__GeneralGroup_1ga5fb7a5b843198f03b6ba5100833f5b9f" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>CombinedHistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gae424bbf4ddf0c42e7c361becbf04c4c2" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>CombinedHistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga83caa49f307fe6803e21a9d3083322a9" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>DynamicNameGetter</name></member>
+      <member refid="group__GeneralGroup_1ga0542f5855c346ab2031cd4193dea10c9" prot="private" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>dynNameGetter_</name></member>
       <member refid="group__GeneralGroup_1ga24336720e6ef2e49fe759978a653cd93" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>empty</name></member>
       <member refid="group__GeneralGroup_1ga6c4c522fab61f8a95e539f9b9449a6ee" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>filter</name></member>
+      <member refid="group__GeneralGroup_1ga81ab07a6d63f11c541b280dfc3aad08d" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>getDynamicName</name></member>
       <member refid="group__GeneralGroup_1gaa47d5898040fc2ee2c67bf0ffee6176c" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>getStack</name></member>
       <member refid="group__GeneralGroup_1ga304820a24e74e6c61b31a203e017bc48" prot="public" virt="non-virtual"><scope>MR::CombinedHistoryAction</scope><name>getStack</name></member>
       <member refid="group__GeneralGroup_1ga83839aa6c5c2a8896645421552f26edd" prot="public" virt="virtual"><scope>MR::CombinedHistoryAction</scope><name>heapBytes</name></member>

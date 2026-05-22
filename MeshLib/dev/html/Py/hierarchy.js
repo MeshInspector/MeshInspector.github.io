@@ -390,6 +390,7 @@ var hierarchy =
     [ "mrmeshpy.func_Processing_from_MeshProjectionResult_Ball_Vector3_float", "classmrmeshpy_1_1func__Processing__from__MeshProjectionResult__Ball__Vector3__float.html", null ],
     [ "mrmeshpy.func_Processing_from_PointsProjectionResult_Vector3_float_Ball_Vector3_float", "classmrmeshpy_1_1func__Processing__from__PointsProjectionResult__Vector3__float__Ball__Vector3__float.html", null ],
     [ "mrmeshpy.func_ProcessOneResult_from_Vector3_float_Id_FaceTag_Vector3_float_float", "classmrmeshpy_1_1func__ProcessOneResult__from__Vector3__float__Id__FaceTag__Vector3__float__float.html", null ],
+    [ "mrmeshpy.func_std_string", "classmrmeshpy_1_1func__std__string.html", null ],
     [ "mrmeshpy.func_std_variant_float_Vector3_float_from_FeatureObject_const_ptr_ViewportId", "classmrmeshpy_1_1func__std__variant__float__Vector3__float__from__FeatureObject__const__ptr__ViewportId.html", null ],
     [ "mrmeshpy.func_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane_from_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane", "classmrmeshpy_1_1func__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__47806f088462129904208bbaac60c688.html", null ],
     [ "mrmeshpy.func_tl_expected_LoadedObjects_std_string_from_std_filesystem_path_std_function_bool_float", "classmrmeshpy_1_1func__tl__expected__LoadedObjects__std__string__from__std__filesystem__path__std__function__bool__float.html", null ],

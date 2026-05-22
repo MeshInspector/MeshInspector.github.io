@@ -1732,15 +1732,18 @@
     <member refid="group__GeneralGroup_1ga2147c8a2e62a21221c6f35ede6896a59" kind="variable"><name>valueFormat</name></member>
   </compound>
   <compound refid="classMR_1_1CombinedHistoryAction" kind="class"><name>MR::CombinedHistoryAction</name>
+    <member refid="group__GeneralGroup_1ga83caa49f307fe6803e21a9d3083322a9" kind="typedef"><name>DynamicNameGetter</name></member>
     <member refid="group__GeneralGroup_1ga3d9e926d1ee7633141a6549c2675186c" kind="variable"><name>actions_</name></member>
     <member refid="group__GeneralGroup_1ga219972a9af7ad77c1bd08a16d09df839" kind="variable"><name>name_</name></member>
-    <member refid="group__GeneralGroup_1ga5fb7a5b843198f03b6ba5100833f5b9f" kind="function"><name>CombinedHistoryAction</name></member>
+    <member refid="group__GeneralGroup_1ga0542f5855c346ab2031cd4193dea10c9" kind="variable"><name>dynNameGetter_</name></member>
+    <member refid="group__GeneralGroup_1gae424bbf4ddf0c42e7c361becbf04c4c2" kind="function"><name>CombinedHistoryAction</name></member>
     <member refid="group__GeneralGroup_1ga59961c77016991a1c41b6f0c34545ee6" kind="function"><name>name</name></member>
     <member refid="group__GeneralGroup_1gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" kind="function"><name>action</name></member>
     <member refid="group__GeneralGroup_1gaa47d5898040fc2ee2c67bf0ffee6176c" kind="function"><name>getStack</name></member>
     <member refid="group__GeneralGroup_1ga304820a24e74e6c61b31a203e017bc48" kind="function"><name>getStack</name></member>
     <member refid="group__GeneralGroup_1ga6c4c522fab61f8a95e539f9b9449a6ee" kind="function"><name>filter</name></member>
     <member refid="group__GeneralGroup_1ga24336720e6ef2e49fe759978a653cd93" kind="function"><name>empty</name></member>
+    <member refid="group__GeneralGroup_1ga81ab07a6d63f11c541b280dfc3aad08d" kind="function"><name>getDynamicName</name></member>
     <member refid="group__GeneralGroup_1ga83839aa6c5c2a8896645421552f26edd" kind="function"><name>heapBytes</name></member>
   </compound>
   <compound refid="structMR_1_1CommandLoop_1_1Command" kind="struct"><name>MR::CommandLoop::Command</name>
@@ -10200,7 +10203,7 @@
     <member refid="group__GeneralGroup_1ga86a6a9b2a3329e71208173ac6d3490c6" kind="variable"><name>store_</name></member>
     <member refid="group__GeneralGroup_1ga4dd9ccda3424f0732f1579625df05934" kind="variable"><name>combinedAction_</name></member>
     <member refid="group__GeneralGroup_1gac86d1e049286fe259d31f5a5fa14a4a7" kind="variable"><name>parentScopePtr_</name></member>
-    <member refid="group__GeneralGroup_1ga5ca453a9bf0cd5529f590ce4c6e55069" kind="function"><name>ScopeHistory</name></member>
+    <member refid="group__GeneralGroup_1ga2a6fc487c3008d4525ecd8adc72466f6" kind="function"><name>ScopeHistory</name></member>
     <member refid="group__GeneralGroup_1gacf9224d4ffb8a6220531e93c8c75a59f" kind="function"><name>~ScopeHistory</name></member>
     <member refid="group__GeneralGroup_1gab4c17b1dd2ac2de71650b8211d421d1b" kind="function"><name>combinedAction</name></member>
   </compound>
@@ -14335,6 +14338,7 @@
     <member refid="group__GeneralGroup_1gaac5fb6c59ce62feddc3ac64b13643c67" kind="function"><name>operator*</name></member>
     <member refid="group__GeneralGroup_1ga653c6d940d9780dba354cf0820ade180" kind="function"><name>operator/</name></member>
     <member refid="group__GeneralGroup_1ga4b04ff1161b2c5a217772a5c848f98dc" kind="function"><name>blend</name></member>
+    <member refid="group__GeneralGroup_1gaffef646cc3f7a4011be4466f7a497e86" kind="function"><name>getDynamicName</name></member>
     <member refid="group__MathGroup_1ga3b002e846a245cb69384c1d444ea65a0" kind="function"><name>computeBoundingBox</name></member>
     <member refid="group__MathGroup_1ga560ffd3d317d3bb18df9db6aae8c2d02" kind="function"><name>computeBoundingBox</name></member>
     <member refid="group__MathGroup_1gac591d793fa5ee868f8255a94350e1aef" kind="function"><name>computeBoundingBox</name></member>
@@ -17880,7 +17884,7 @@
   <compound refid="MRAncillaryPoints_8h" kind="file"><name>MRAncillaryPoints.h</name>
   </compound>
   <compound refid="MRAppendHistory_8h" kind="file"><name>MRAppendHistory.h</name>
-    <member refid="group__GeneralGroup_1ga36cf254c4f1feb0a6f0adaf205a25eaf" kind="define"><name>SCOPED_HISTORY</name></member>
+    <member refid="group__GeneralGroup_1gaca0f72584b3dc8e794eda74bce81e2d4" kind="define"><name>SCOPED_HISTORY</name></member>
   </compound>
   <compound refid="MRAsyncTimer_8h" kind="file"><name>MRAsyncTimer.h</name>
   </compound>
@@ -20785,6 +20789,7 @@
     <member refid="group__GeneralGroup_1gaf2bd82f7a688dac76bdbfcf5f4f38ce8" kind="typedef"><name>RotationLimits</name></member>
     <member refid="group__GeneralGroup_1ga20df43a4a312f6aa3f049476f78584d6" kind="typedef"><name>ColorMap</name></member>
     <member refid="group__GeneralGroup_1ga29857a8d38bc30a22d092fdc3c8632df" kind="typedef"><name>ElementBitSet</name></member>
+    <member refid="group__GeneralGroup_1ga83caa49f307fe6803e21a9d3083322a9" kind="typedef"><name>DynamicNameGetter</name></member>
     <member refid="group__GeneralGroup_1gaedc71caa1d99e08276a1064f710e7005" kind="typedef"><name>Scalar</name></member>
     <member refid="group__GeneralGroup_1ga369f95839764bbea9a5f5db04ec360ae" kind="typedef"><name>InputType</name></member>
     <member refid="group__GeneralGroup_1gad11690cdf0c6a6de76d2859de79fa518" kind="typedef"><name>ValueType</name></member>
@@ -21509,6 +21514,7 @@
     <member refid="group__GeneralGroup_1gaa0e6e4ad6165a08d0cd0208baf255ad8" kind="variable"><name>mode_</name></member>
     <member refid="group__GeneralGroup_1ga3d9e926d1ee7633141a6549c2675186c" kind="variable"><name>actions_</name></member>
     <member refid="group__GeneralGroup_1ga219972a9af7ad77c1bd08a16d09df839" kind="variable"><name>name_</name></member>
+    <member refid="group__GeneralGroup_1ga0542f5855c346ab2031cd4193dea10c9" kind="variable"><name>dynNameGetter_</name></member>
     <member refid="group__GeneralGroup_1ga18ef80872ba6b6384ae2944f85f8b214" kind="variable"><name>axis</name></member>
     <member refid="group__GeneralGroup_1ga17cbe4ac01d2a5bacfd1909eeccb9488" kind="variable"><name>angle</name></member>
     <member refid="group__GeneralGroup_1ga1837f049b2e30d91b8cc20a4109d7e87" kind="variable"><name>height</name></member>
@@ -25215,14 +25221,16 @@
     <member refid="group__GeneralGroup_1ga266bfe77b1216a794ea433184f88e16f" kind="function"><name>aggregate</name></member>
     <member refid="group__GeneralGroup_1gaf4817efa182fd76952562869353747a8" kind="function"><name>checkInputData_</name></member>
     <member refid="group__GeneralGroup_1ga8f6e52c359bc6bafb4860f15faadf048" kind="function"><name>updateAggregated_</name></member>
-    <member refid="group__GeneralGroup_1ga5fb7a5b843198f03b6ba5100833f5b9f" kind="function"><name>CombinedHistoryAction</name></member>
+    <member refid="group__GeneralGroup_1gae424bbf4ddf0c42e7c361becbf04c4c2" kind="function"><name>CombinedHistoryAction</name></member>
     <member refid="group__GeneralGroup_1ga59961c77016991a1c41b6f0c34545ee6" kind="function"><name>name</name></member>
     <member refid="group__GeneralGroup_1gad5c4af46eaf9e4c6e88d77f5f7cdf5e6" kind="function"><name>action</name></member>
     <member refid="group__GeneralGroup_1gaa47d5898040fc2ee2c67bf0ffee6176c" kind="function"><name>getStack</name></member>
     <member refid="group__GeneralGroup_1ga304820a24e74e6c61b31a203e017bc48" kind="function"><name>getStack</name></member>
     <member refid="group__GeneralGroup_1ga6c4c522fab61f8a95e539f9b9449a6ee" kind="function"><name>filter</name></member>
     <member refid="group__GeneralGroup_1ga24336720e6ef2e49fe759978a653cd93" kind="function"><name>empty</name></member>
+    <member refid="group__GeneralGroup_1ga81ab07a6d63f11c541b280dfc3aad08d" kind="function"><name>getDynamicName</name></member>
     <member refid="group__GeneralGroup_1ga83839aa6c5c2a8896645421552f26edd" kind="function"><name>heapBytes</name></member>
+    <member refid="group__GeneralGroup_1gaffef646cc3f7a4011be4466f7a497e86" kind="function"><name>getDynamicName</name></member>
     <member refid="group__GeneralGroup_1ga3b72d0a9806c94f23088c93a9194c0a6" kind="function"><name>Cone3</name></member>
     <member refid="group__GeneralGroup_1ga9817b87c594215632a78e6650fa88d0a" kind="function"><name>Cone3</name></member>
     <member refid="group__GeneralGroup_1ga9d99981f78f15a799d2d967ef61952e9" kind="function"><name>center</name></member>
@@ -28357,7 +28365,7 @@
     <member refid="group__GeneralGroup_1ga7ab42ff05c89ab745c7cc2aec2b023db" kind="function"><name>cancelAction</name></member>
     <member refid="group__GeneralGroup_1ga8261070af5195a2d3e6505973b99890b" kind="function"><name>~Historian</name></member>
     <member refid="group__GeneralGroup_1ga360161c9e0a5aff8602d7186b0975244" kind="function"><name>FilterHistoryByCondition</name></member>
-    <member refid="group__GeneralGroup_1ga5ca453a9bf0cd5529f590ce4c6e55069" kind="function"><name>ScopeHistory</name></member>
+    <member refid="group__GeneralGroup_1ga2a6fc487c3008d4525ecd8adc72466f6" kind="function"><name>ScopeHistory</name></member>
     <member refid="group__GeneralGroup_1gacf9224d4ffb8a6220531e93c8c75a59f" kind="function"><name>~ScopeHistory</name></member>
     <member refid="group__GeneralGroup_1gab4c17b1dd2ac2de71650b8211d421d1b" kind="function"><name>combinedAction</name></member>
     <member refid="group__GeneralGroup_1gab65fb7589180d52bca903fe8f29a342c" kind="function"><name>setTime</name></member>
@@ -30769,7 +30777,7 @@
     <member refid="group__GeneralGroup_1ga0bd0e9453da08815bd042baada75c822" kind="define"><name>MR_X</name></member>
     <member refid="group__GeneralGroup_1ga0bd0e9453da08815bd042baada75c822" kind="define"><name>MR_X</name></member>
     <member refid="group__GeneralGroup_1ga76ba7d688be2473881f1f42c2f685060" kind="define"><name>MR_WRITER</name></member>
-    <member refid="group__GeneralGroup_1ga36cf254c4f1feb0a6f0adaf205a25eaf" kind="define"><name>SCOPED_HISTORY</name></member>
+    <member refid="group__GeneralGroup_1gaca0f72584b3dc8e794eda74bce81e2d4" kind="define"><name>SCOPED_HISTORY</name></member>
     <member refid="group__GeneralGroup_1gad1709955819b9d2eb38aa06ebd34272c" kind="define"><name>MR_REGISTER_RIBBON_ITEM</name></member>
     <member refid="group__GeneralGroup_1ga6ab153d81501eb8ea4a0bb964864eaef" kind="define"><name>MR_RIBBON_ITEM_CALL</name></member>
     <member refid="group__GeneralGroup_1ga0bd0e9453da08815bd042baada75c822" kind="define"><name>MR_X</name></member>

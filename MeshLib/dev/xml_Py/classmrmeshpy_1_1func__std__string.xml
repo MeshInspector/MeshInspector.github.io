@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__std__string" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_std_string</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__std__string_1af0a1f52975ca76df279a6806b8a1b648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_std_string.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_std_string.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79108" bodyend="79109"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__std__string_1a940054173c10d4a971361685581fc20d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.func_std_string.__call__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_std_string.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79110" bodyend="79111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__std__string_1a277141cb78f9766b8c2a8b980f144aa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_std_string.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_std_string.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79113" bodyend="79114"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__std__string_1a3c945f9fbe0d52c57fe367ed65b5a2bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_std_string.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_std_string.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79116" bodyend="79117"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__std__string_1af13fcddd7d6a23d5f43b67749bb49d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_std_string.__init__</definition>
+        <argsstring>(self, func_std_string arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_std_string.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__std__string" kindref="compound">func_std_string</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79119" bodyend="79120"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__std__string_1a66bc04bcfb83b724ec5ddae7587c9aa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_std_string.__init__</definition>
+        <argsstring>(self, typing.Callable[[], str] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_std_string.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[]</array>
+        </param>
+        <param>
+          <type>str]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79122" bodyend="79123"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__std__string_1a27b8bf00ee3020531b4b5969f44409e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_std_string.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_std_string.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79124" bodyend="79127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__std__string_1ae9da7e0ca99cbbefcc14814ca596836d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_std_string.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_std_string.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79128" bodyend="79131"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79107" bodyend="79131"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__std__string_1af0a1f52975ca76df279a6806b8a1b648" prot="public" virt="non-virtual"><scope>mrmeshpy::func_std_string</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__std__string_1a940054173c10d4a971361685581fc20d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_std_string</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__std__string_1a277141cb78f9766b8c2a8b980f144aa4" prot="public" virt="non-virtual"><scope>mrmeshpy::func_std_string</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__std__string_1a3c945f9fbe0d52c57fe367ed65b5a2bd" prot="public" virt="non-virtual"><scope>mrmeshpy::func_std_string</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__std__string_1af13fcddd7d6a23d5f43b67749bb49d6e" prot="public" virt="non-virtual"><scope>mrmeshpy::func_std_string</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__std__string_1a66bc04bcfb83b724ec5ddae7587c9aa9" prot="public" virt="non-virtual"><scope>mrmeshpy::func_std_string</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__std__string_1a27b8bf00ee3020531b4b5969f44409e1" prot="public" virt="non-virtual"><scope>mrmeshpy::func_std_string</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__std__string_1ae9da7e0ca99cbbefcc14814ca596836d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_std_string</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

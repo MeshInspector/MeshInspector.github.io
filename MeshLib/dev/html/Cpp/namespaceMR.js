@@ -2482,6 +2482,7 @@ var namespaceMR =
     [ "getDepthFunctionLess", "group__GeneralGroup.html#gac18f4f5a762acd94219012ec5d66db13", null ],
     [ "GetDetailedOSName", "group__GeneralGroup.html#gaa01579c749c2564c4d22be7a73becd34", null ],
     [ "getDragDropHandler", "group__GeneralGroup.html#ga74d4efceb84e434c67a95cd0f144de01", null ],
+    [ "getDynamicName", "group__GeneralGroup.html#gaffef646cc3f7a4011be4466f7a497e86", null ],
     [ "getEdgeLengthFillMetric", "group__FillHoleGroup.html#ga0e0bc41aafae2177ca82d4f49743974d", null ],
     [ "getEdgeLengthStitchMetric", "group__FillHoleGroup.html#gaf59e9c3178f5e0a965709cd905dad365", null ],
     [ "getEdgeOrdering", "group__GeneralGroup.html#ga349bf2ff50da76fb348ce2014d9900d8", null ],

@@ -139,13 +139,15 @@ $(function(){initNavTree('MRCombinedHistoryAction_8h.html','',''); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRCombinedHistoryAction.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRHistoryAction_8h_source.html">MRHistoryAction.h</a>&quot;</code><br />
 <code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MRCombinedHistoryAction_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -157,6 +159,11 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:MR" id="r_MR"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gaffef646cc3f7a4011be4466f7a497e86" id="r_gaffef646cc3f7a4011be4466f7a497e86"><td class="memItemLeft" align="right" valign="top">std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaffef646cc3f7a4011be4466f7a497e86">MR::getDynamicName</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1HistoryAction.html">HistoryAction</a> &gt; &amp;action)</td></tr>
+<tr class="memdesc:gaffef646cc3f7a4011be4466f7a497e86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns dynamic name if the action is an instance of <a class="el" href="classMR_1_1CombinedHistoryAction.html">CombinedHistoryAction</a>; otherwise returns std::nullopt.  <br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

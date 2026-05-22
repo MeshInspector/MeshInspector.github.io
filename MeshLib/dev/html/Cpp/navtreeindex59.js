@@ -1,5 +1,8 @@
 var NAVTREEINDEX59 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[6,0,2,0,1,0,8],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,1,0,0,0,3],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,2,0,1,0,3],
 "structImGui_1_1HistogramGridLine.html":[6,0,1,0,0,1],
 "structImGui_1_1HistogramGridLine.html":[6,0,2,0,1,1],
 "structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,1,0,0,1,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1CutMeshResult.html":[6,0,0,8,4],
 "structMR_1_1CutMeshResult.html":[6,0,0,20,171],
 "structMR_1_1DecimatePolylineResult.html":[6,0,0,20,436],
-"structMR_1_1DecimatePolylineSettings.html":[6,0,0,10,4],
-"structMR_1_1DecimatePolylineSettings.html":[6,0,0,20,435],
-"structMR_1_1DecimateResult.html":[6,0,0,10,1],
-"structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd":[6,0,0,10,1,3]
+"structMR_1_1DecimatePolylineSettings.html":[6,0,0,10,4]
 };

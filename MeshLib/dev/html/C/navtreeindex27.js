@@ -1,5 +1,9 @@
 var NAVTREEINDEX27 =
 {
+"MRConeApproximator_8h.html#aec53646061d3ddca485d17efce70d38b":[6,2,1,0,0,0,0,1,55,8],
+"MRConeApproximator_8h.html#af1df3835daba1df53d51c5d9729d8c24":[6,2,1,0,0,0,0,1,55,13],
+"MRConeApproximator_8h.html#afaabe1beff6e502ed77bbc14d9ef8e17":[6,2,1,0,0,0,0,1,55,12],
+"MRConeApproximator_8h_source.html":[6,2,1,0,0,0,0,1,55],
 "MRConeObject_8h.html":[6,2,1,0,0,0,0,1,56],
 "MRConeObject_8h.html#a030101a59d59fa67d5bca25a5c7898c6":[6,2,1,0,0,0,0,1,56,149],
 "MRConeObject_8h.html#a06b1a760edd4a97994b1e80b7704e0bb":[6,2,1,0,0,0,0,1,56,60],
@@ -245,9 +249,5 @@ var NAVTREEINDEX27 =
 "MRContoursCut_8h.html#a119d83a4829bf8f4730158f632826946":[6,2,1,0,0,0,0,1,58,81],
 "MRContoursCut_8h.html#a1211d658133a8cec342d464c04f3afd2":[6,2,1,0,0,0,0,1,58,14],
 "MRContoursCut_8h.html#a137196b8b10dcd022a5bb6a85b3a8d4d":[6,2,1,0,0,0,0,1,58,31],
-"MRContoursCut_8h.html#a1890924ddc887f21bb5f5d12cf80d467":[6,2,1,0,0,0,0,1,58,17],
-"MRContoursCut_8h.html#a1a63b95caccce52467559c75e1895062":[6,2,1,0,0,0,0,1,58,18],
-"MRContoursCut_8h.html#a1c8b611314479ae3833e5c5ab867d20f":[6,2,1,0,0,0,0,1,58,58],
-"MRContoursCut_8h.html#a1ef5cd763a69b557722dd0e3f63df036":[6,2,1,0,0,0,0,1,58,3],
-"MRContoursCut_8h.html#a219406fe2ac46cadd3b6c85fd39104cc":[6,2,1,0,0,0,0,1,58,48]
+"MRContoursCut_8h.html#a1890924ddc887f21bb5f5d12cf80d467":[6,2,1,0,0,0,0,1,58,17]
 };

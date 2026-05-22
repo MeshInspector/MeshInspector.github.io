@@ -3364,6 +3364,7 @@ var classMR =
     [ "getDepthFirstObject_MRObjectVoxels", "classMR.html#ac1af97c182acc8eae42f26ddcda63c38", null ],
     [ "getDepthFirstObject_MRVisualObject", "classMR.html#ac9ec322421977b0f8d665d780687d36e", null ],
     [ "getDetailedOSName", "classMR.html#afdc6745eb2d41fd473c4503538143bd5", null ],
+    [ "getDynamicName", "classMR.html#a12c5bc006ebab9417ceb0243935c8748", null ],
     [ "getEdgeLengthFillMetric", "classMR.html#adf8de1271aad691eac3b73dad5c7e86b", null ],
     [ "getEdgeLengthStitchMetric", "classMR.html#a8a84e07ec60470849a66ab8d748b5fac", null ],
     [ "getEdgeOrdering", "classMR.html#a28ab4faaf1f2d509b0a2499673d6e63d", null ],

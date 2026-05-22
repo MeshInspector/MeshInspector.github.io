@@ -141,7 +141,7 @@
     <innerclass refid="classMR_1_1ScopeHistory" prot="public">MR::ScopeHistory</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <sectiondef kind="define">
-      <member refid="group__GeneralGroup_1ga36cf254c4f1feb0a6f0adaf205a25eaf" kind="define"><name>SCOPED_HISTORY</name></member>
+      <member refid="group__GeneralGroup_1gaca0f72584b3dc8e794eda74bce81e2d4" kind="define"><name>SCOPED_HISTORY</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -211,10 +211,10 @@
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="72" refid="group__GeneralGroup_1ga360161c9e0a5aff8602d7186b0975244" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga360161c9e0a5aff8602d7186b0975244" kindref="member">FilterHistoryByCondition</ref>(<sp/><ref refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" kindref="member">HistoryStackFilter</ref><sp/>filteringCondition,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>deepFiltering<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="classMR_1_1ScopeHistory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga5ca453a9bf0cd5529f590ce4c6e55069" kindref="member">ScopeHistory</ref></highlight></codeline>
+<codeline lineno="75" refid="classMR_1_1ScopeHistory" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga2a6fc487c3008d4525ecd8adc72466f6" kindref="member">ScopeHistory</ref></highlight></codeline>
 <codeline lineno="76"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="79" refid="group__GeneralGroup_1ga5ca453a9bf0cd5529f590ce4c6e55069" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga5ca453a9bf0cd5529f590ce4c6e55069" kindref="member">ScopeHistory</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name<sp/>);</highlight></codeline>
+<codeline lineno="79" refid="group__GeneralGroup_1ga2a6fc487c3008d4525ecd8adc72466f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1ga2a6fc487c3008d4525ecd8adc72466f6" kindref="member">ScopeHistory</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;std::string<sp/>()&gt;&amp;<sp/>dynamicNameFunc<sp/>=<sp/>{}<sp/>);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82" refid="group__GeneralGroup_1gacf9224d4ffb8a6220531e93c8c75a59f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="group__GeneralGroup_1gacf9224d4ffb8a6220531e93c8c75a59f" kindref="member">~ScopeHistory</ref>();</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
@@ -226,7 +226,7 @@
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref>*<sp/>parentScopePtr_{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="group__GeneralGroup_1ga36cf254c4f1feb0a6f0adaf205a25eaf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SCOPED_HISTORY(name)<sp/>MR::ScopeHistory<sp/>__startScopedHistoryMode(name)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="group__GeneralGroup_1gaca0f72584b3dc8e794eda74bce81e2d4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SCOPED_HISTORY(<sp/>...<sp/>)<sp/>MR::ScopeHistory<sp/>__startScopedHistoryMode(<sp/>__VA_ARGS__<sp/>)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
 <codeline lineno="95"><highlight class="normal">}</highlight></codeline>
     </programlisting>

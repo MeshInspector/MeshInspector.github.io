@@ -8792,6 +8792,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" line="1145" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColor.cs" bodystart="1145" bodyend="1156"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a12c5bc006ebab9417ceb0243935c8748" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Optional_StdString</type>
+        <definition>static unsafe MR.Std.Optional_StdString MR.getDynamicName</definition>
+        <argsstring>(MR.Std.Const_SharedPtr_MRHistoryAction action)</argsstring>
+        <name>getDynamicName</name>
+        <qualifiedname>MR.getDynamicName</qualifiedname>
+        <param>
+          <type>MR.Std.Const_SharedPtr_MRHistoryAction</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>Returns dynamic name if the action is an instance of <ref refid="classMR_1_1CombinedHistoryAction" kindref="compound">CombinedHistoryAction</ref>; otherwise returns std::nullopt. Generated from function <computeroutput><ref refid="classMR_1a12c5bc006ebab9417ceb0243935c8748" kindref="member">MR.getDynamicName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" line="320" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCombinedHistoryAction.cs" bodystart="320" bodyend="325"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a658ae972faab3252d753c125e6d1d537" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe float</type>
         <definition>static unsafe float MR.calcOrientedArea</definition>
@@ -53606,6 +53625,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1ac1af97c182acc8eae42f26ddcda63c38" prot="public" virt="non-virtual"><scope>MR</scope><name>getDepthFirstObject_MRObjectVoxels</name></member>
       <member refid="classMR_1ac9ec322421977b0f8d665d780687d36e" prot="public" virt="non-virtual"><scope>MR</scope><name>getDepthFirstObject_MRVisualObject</name></member>
       <member refid="classMR_1afdc6745eb2d41fd473c4503538143bd5" prot="public" virt="non-virtual"><scope>MR</scope><name>getDetailedOSName</name></member>
+      <member refid="classMR_1a12c5bc006ebab9417ceb0243935c8748" prot="public" virt="non-virtual"><scope>MR</scope><name>getDynamicName</name></member>
       <member refid="classMR_1adf8de1271aad691eac3b73dad5c7e86b" prot="public" virt="non-virtual"><scope>MR</scope><name>getEdgeLengthFillMetric</name></member>
       <member refid="classMR_1a8a84e07ec60470849a66ab8d748b5fac" prot="public" virt="non-virtual"><scope>MR</scope><name>getEdgeLengthStitchMetric</name></member>
       <member refid="classMR_1a28ab4faaf1f2d509b0a2499673d6e63d" prot="public" virt="non-virtual"><scope>MR</scope><name>getEdgeOrdering</name></member>

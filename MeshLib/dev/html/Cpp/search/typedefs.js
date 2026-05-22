@@ -77,6 +77,7 @@ var searchData=
   ['drawsceneuisignal_11',['DrawSceneUiSignal',['../group__GeneralGroup.html#ga942483ecfa0154d8246586de1560c3eb',1,'MR::ImGuiMenu']]],
   ['drawtabconfig_12',['DrawTabConfig',['../group__GeneralGroup.html#gad0d582e1904c2ad88eee5f4bfe814f83',1,'MR::RibbonMenu']]],
   ['dropitemslist_13',['DropItemsList',['../group__GeneralGroup.html#ga4799011be3410f46444164d6d00b966e',1,'MR::RibbonMenuItem']]],
+  ['dynamicnamegetter_14',['DynamicNameGetter',['../group__GeneralGroup.html#ga83caa49f307fe6803e21a9d3083322a9',1,'MR::CombinedHistoryAction']]],
   ['webresponsecallback_0',['WebResponseCallback',['../group__GeneralGroup.html#gaa81b46bc5e733f50fb93fe00f095b2f8',1,'MR']]],
   ['wholeedgehashmap_1',['WholeEdgeHashMap',['../group__GeneralGroup.html#ga7a097c2851c9c54eef96a938f84750a4',1,'MR']]],
   ['wholeedgemaporhashmap_2',['WholeEdgeMapOrHashMap',['../group__GeneralGroup.html#ga97913e3bb3380204133f3b371cc4b6de',1,'MR']]],

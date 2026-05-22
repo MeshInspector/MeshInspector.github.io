@@ -1,5 +1,7 @@
 var NAVTREEINDEX124 =
 {
+"classMR_1_1Polynomial__Float__4.html#a78daeafd98842e9e3e5c340880790ecb":[6,3,0,0,0,1509,3],
+"classMR_1_1Polynomial__Float__4.html#abb64bbb3e2d172b3bfb1739556d8ac5c":[6,3,0,0,0,1509,2],
 "classMR_1_1Polynomial__Float__4.html#af08c13076d76be8262299a6eb7627952":[6,3,0,0,0,1509,0],
 "classMR_1_1Polynomial__Float__5.html":[6,3,0,0,0,1510],
 "classMR_1_1Polynomial__Float__5.html#a0fb26a8f8db8d2be413a66685d2fb9ea":[6,3,0,0,0,1510,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX124 =
 "classMR_1_1RebuildMeshSettings.html#a17661a3ca4053eaf512af6316f5f8ddf":[6,3,0,0,0,1530,9],
 "classMR_1_1RebuildMeshSettings.html#a2ece5739c2508a4979af93b06d90b2c3":[6,3,0,0,0,1530,11],
 "classMR_1_1RebuildMeshSettings.html#a39c995357e466ff28935d7d5cb61080e":[6,3,0,0,0,1530,6],
-"classMR_1_1RebuildMeshSettings.html#a40e652cfcf9b51f248bd702feaf1a392":[6,3,0,0,0,1530,15],
-"classMR_1_1RebuildMeshSettings.html#a49327eee56e82fb22ef3b02746f46e81":[6,3,0,0,0,1530,7],
-"classMR_1_1RebuildMeshSettings.html#a4970386a859f3aee311f5c91de77f57f":[6,3,0,0,0,1530,16]
+"classMR_1_1RebuildMeshSettings.html#a40e652cfcf9b51f248bd702feaf1a392":[6,3,0,0,0,1530,15]
 };
