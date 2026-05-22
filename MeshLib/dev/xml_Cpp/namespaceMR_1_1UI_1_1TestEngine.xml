@@ -238,7 +238,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Explicitly mark the current frame as TestEngine-driven. Use from MCP tool handlers that fire plugin actions on a path that does NOT go through <computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1abe0944f31ec6c1e531ceca7b6394001b" kindref="member">createButton()</ref></computeroutput> (e.g. <computeroutput>tools.action</computeroutput>) but should still trigger TE-gated hooks (file-dialog bypass, etc.). Call from the GUI thread before invoking the action. </para>
+<para>Explicitly mark the current frame as TestEngine-driven. Use from MCP tool handlers that fire plugin actions on a path that does NOT go through <computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1abe0944f31ec6c1e531ceca7b6394001b" kindref="member">createButton()</ref></computeroutput> (e.g. <computeroutput>tools_action</computeroutput>) but should still trigger TE-gated hooks (file-dialog bypass, etc.). Call from the GUI thread before invoking the action. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
