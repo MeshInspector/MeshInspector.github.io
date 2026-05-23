@@ -886,21 +886,18 @@
 <codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;ShadowsGL&gt;<sp/>shadowGl_;</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
 <codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>SpaceMouse::Parameters<sp/>spaceMouseParams_;</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_WIN32)<sp/>||<sp/>defined(__APPLE__)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>activeMouseScrollZoom_{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>TouchpadParameters<sp/>touchpadParameters_;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>TouchpadParameters<sp/>touchpadParameters_;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>TabType<sp/>activeTab_<sp/>=<sp/>TabType::Quick;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>TabType<sp/>orderedTab_<sp/>=<sp/>TabType::Count;<sp/></highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>TabType<sp/>activeTab_<sp/>=<sp/>TabType::Quick;</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>TabType<sp/>orderedTab_<sp/>=<sp/>TabType::Count;<sp/></highlight></codeline>
-<codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;std::vector&lt;std::shared_ptr&lt;ExternalSettings&gt;&gt;,<sp/>size_t(TabType::Count)&gt;<sp/>comboSettings_;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>std::array&lt;std::vector&lt;std::shared_ptr&lt;ExternalSettings&gt;&gt;,<sp/>size_t(TabType::Count)&gt;<sp/>comboSettings_;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>MruFormatParameters<sp/>mruFormatParameters_;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>MruFormatParameters<sp/>mruFormatParameters_;</highlight></codeline>
-<codeline lineno="137"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRViewer/MRViewerSettingsPlugin.h"/>
   </compounddef>
