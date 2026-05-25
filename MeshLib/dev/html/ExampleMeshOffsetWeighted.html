@@ -262,12 +262,11 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html','',''); });
 <div class="line"> </div>
 <div class="line">    MR_WeightedShell_ParametersMetric* params = MR_WeightedShell_ParametersMetric_DefaultConstruct();</div>
 <div class="line">    <span class="comment">// Algorithm is voxel based, voxel size affects performance and form of result mesh</span></div>
-<div class="line">    MR_WeightedShell_ParametersBase* base = MR_WeightedShell_ParametersMetric_MutableUpcastTo_MR_WeightedShell_ParametersBase( params );</div>
 <div class="line">    MR_MeshPart* mp = MR_MeshPart_Construct( mesh, NULL );</div>
-<div class="line">    MR_WeightedShell_ParametersBase_Set_voxelSize( base, MR_suggestVoxelSize( mp, 1000.0f ) );</div>
+<div class="line">    MR_WeightedShell_ParametersMetric_Set_voxelSize( params, MR_suggestVoxelSize( mp, 1000.0f ) );</div>
 <div class="line">    <span class="comment">// common basic offset applied for all point</span></div>
 <div class="line">    <span class="comment">// Vertex-specific weighted offsets applied after the basic one</span></div>
-<div class="line">    MR_WeightedShell_ParametersBase_Set_offset( base, 0.2f );</div>
+<div class="line">    MR_WeightedShell_ParametersMetric_Set_offset( params, 0.2f );</div>
 <div class="line">    MR_DistanceFromWeightedPointsParams* dist = MR_WeightedShell_ParametersMetric_GetMutable_dist( params );</div>
 <div class="line">    MR_DistanceFromWeightedPointsParams_Set_maxWeight( dist, maxWeight );</div>
 <div class="line"> </div>

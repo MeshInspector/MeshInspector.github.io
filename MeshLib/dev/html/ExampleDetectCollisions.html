@@ -228,12 +228,8 @@ $(function(){initNavTree('ExampleDetectCollisions.html','',''); });
 <div class="line">    <span class="comment">// find bitsets of colliding faces</span></div>
 <div class="line">    MR_std_pair_MR_FaceBitSet_MR_FaceBitSet* collidingBitSets = MR_findCollidingTriangleBitsets( mpA, mpB, NULL );</div>
 <div class="line"> </div>
-<div class="line">    MR_uint64_t numColA = MR_BitSet_count(</div>
-<div class="line">        MR_FaceBitSet_UpcastTo_MR_BitSet(</div>
-<div class="line">            MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_first( collidingBitSets ) ) );</div>
-<div class="line">    MR_uint64_t numColB = MR_BitSet_count(</div>
-<div class="line">        MR_FaceBitSet_UpcastTo_MR_BitSet(</div>
-<div class="line">            MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_second( collidingBitSets ) ) );</div>
+<div class="line">    MR_uint64_t numColA = MR_FaceBitSet_count( MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_first( collidingBitSets ) );</div>
+<div class="line">    MR_uint64_t numColB = MR_FaceBitSet_count( MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_second( collidingBitSets ) );</div>
 <div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%zu\n&quot;</span>, (<span class="keywordtype">size_t</span>)numColA ); <span class="comment">// print number of colliding faces from mesh A</span></div>
 <div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%zu\n&quot;</span>, (<span class="keywordtype">size_t</span>)numColB ); <span class="comment">// print number of colliding faces from mesh B</span></div>
 <div class="line"> </div>

@@ -204,8 +204,7 @@ $(function(){initNavTree('ExampleMeshModification.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Relax mesh (5 iterations)</span></div>
 <div class="line">    MR_MeshRelaxParams* meshRelaxParams = MR_MeshRelaxParams_DefaultConstruct();</div>
-<div class="line">    MR_RelaxParams* relaxParams = MR_MeshRelaxParams_MutableUpcastTo_MR_RelaxParams( meshRelaxParams );</div>
-<div class="line">    MR_RelaxParams_Set_iterations( relaxParams, 5 );</div>
+<div class="line">    MR_MeshRelaxParams_Set_iterations( meshRelaxParams, 5 );</div>
 <div class="line">    MR_relax_3_MR_Mesh( mesh, meshRelaxParams, NULL );</div>
 <div class="line">    MR_MeshRelaxParams_Destroy( meshRelaxParams );</div>
 <div class="line"> </div>

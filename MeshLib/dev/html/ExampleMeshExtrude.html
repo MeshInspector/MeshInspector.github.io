@@ -253,8 +253,11 @@ $(function(){initNavTree('ExampleMeshExtrude.html','',''); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Select faces to extrude</span></div>
 <div class="line">    MR_FaceBitSet* facesToExtrude = MR_FaceBitSet_DefaultConstruct();</div>
-<div class="line">    MR_BitSet_autoResizeSet_2( MR_FaceBitSet_MutableUpcastTo_MR_BitSet( facesToExtrude ), 1, NULL );</div>
-<div class="line">    MR_BitSet_autoResizeSet_2( MR_FaceBitSet_MutableUpcastTo_MR_BitSet( facesToExtrude ), 2, NULL );</div>
+<div class="line">    MR_FaceId face;</div>
+<div class="line">    face.id_ = 1;</div>
+<div class="line">    MR_FaceBitSet_autoResizeSet_2( facesToExtrude, face, NULL );</div>
+<div class="line">    face.id_ = 2;</div>
+<div class="line">    MR_FaceBitSet_autoResizeSet_2( facesToExtrude, face, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Create duplicated verts on region boundary</span></div>
 <div class="line">    MR_makeDegenerateBandAroundRegion( mesh, facesToExtrude, NULL );</div>

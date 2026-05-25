@@ -250,7 +250,7 @@ $(function(){initNavTree('ExampleDetectSelfIntersections.html','',''); });
 <div class="line">        <span class="keywordflow">goto</span> fail_self_collision_bs;</div>
 <div class="line">    }</div>
 <div class="line">    <span class="comment">// print number of self-intersecting faces</span></div>
-<div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%zu\n&quot;</span>, (<span class="keywordtype">size_t</span>)MR_BitSet_count( MR_FaceBitSet_UpcastTo_MR_BitSet( selfCollidingBitSet ) ) );</div>
+<div class="line">    fprintf( stdout, <span class="stringliteral">&quot;%zu\n&quot;</span>, (<span class="keywordtype">size_t</span>)MR_FaceBitSet_count( selfCollidingBitSet ) );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// fast check if mesh has self-intersections</span></div>
 <div class="line">    MR_expected_bool_std_string* isSelfCollidingRes = MR_findSelfCollidingTriangles_5( mp, NULL, MR_PassBy_DefaultArgument, NULL, NULL, NULL );</div>
