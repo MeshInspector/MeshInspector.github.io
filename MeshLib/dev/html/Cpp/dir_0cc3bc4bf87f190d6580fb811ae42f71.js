@@ -136,6 +136,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRGTest.h", "MRGTest_8h.html", null ],
     [ "MRHeap.h", "MRHeap_8h.html", "MRHeap_8h" ],
     [ "MRHeapBytes.h", "MRHeapBytes_8h.html", "MRHeapBytes_8h" ],
+    [ "MRHexPalette.h", "MRHexPalette_8h.html", null ],
     [ "MRHighPrecision.h", "MRHighPrecision_8h.html", "MRHighPrecision_8h" ],
     [ "MRHistogram.h", "MRHistogram_8h.html", null ],
     [ "MRHistoryAction.h", "MRHistoryAction_8h.html", "MRHistoryAction_8h" ],

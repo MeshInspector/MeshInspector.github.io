@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1Const__ConeObject.html#a8f4fda3cc9ab398f5828b7d3f3cdcc3e":[6,3,0,0,0,347,80],
 "classMR_1_1Const__ConeObject.html#a901f647e4a2538a32c03cf93cd4c19ef":[6,3,0,0,0,347,76],
 "classMR_1_1Const__ConeObject.html#a91d29aa95522810625cbae3c7ebb84e9":[6,3,0,0,0,347,79],
 "classMR_1_1Const__ConeObject.html#a9231ec9981f3f2a686bd751d19528a2c":[6,3,0,0,0,347,59],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1Const__CurveFunc.html#a7d2d085b759dff742fdd7807f92813b3":[6,3,0,0,0,359,6],
 "classMR_1_1Const__CurveFunc.html#a7f98f53402f352cb9a3d5793ef8d4602":[6,3,0,0,0,359,7],
 "classMR_1_1Const__CurveFunc.html#a9f000413b4fb0c11188786884b764ea7":[6,3,0,0,0,359,4],
-"classMR_1_1Const__CurveFunc.html#aa5b25d1fb70f06ec28dabb951febb80e":[6,3,0,0,0,359,9],
-"classMR_1_1Const__CurveFunc.html#aba272d80b4e9835f48dd8385fb239357":[6,3,0,0,0,359,5]
+"classMR_1_1Const__CurveFunc.html#aa5b25d1fb70f06ec28dabb951febb80e":[6,3,0,0,0,359,9]
 };

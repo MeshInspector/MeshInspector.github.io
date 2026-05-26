@@ -246,8 +246,8 @@ var NAVTREEINDEX1 =
 "MRHeapBytes_8h_source.html":[6,0,3,0,7,135],
 "MRHeap_8h.html":[6,0,3,0,7,134],
 "MRHeap_8h_source.html":[6,0,3,0,7,134],
-"MRHighPrecision_8h.html":[6,0,3,0,7,136],
-"MRHighPrecision_8h_source.html":[6,0,3,0,7,136],
-"MRHistogram_8h.html":[6,0,3,0,7,137],
-"MRHistogram_8h_source.html":[6,0,3,0,7,137]
+"MRHexPalette_8h.html":[6,0,3,0,7,136],
+"MRHexPalette_8h_source.html":[6,0,3,0,7,136],
+"MRHighPrecision_8h.html":[6,0,3,0,7,137],
+"MRHighPrecision_8h_source.html":[6,0,3,0,7,137]
 };

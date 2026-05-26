@@ -452,6 +452,7 @@ var hierarchy =
     [ "mrmeshpy.GridToMeshSettings", "classmrmeshpy_1_1GridToMeshSettings.html", null ],
     [ "mrmeshpy.VoxelsLoad.GridType", "classmrmeshpy_1_1VoxelsLoad_1_1GridType.html", null ],
     [ "mrmeshpy.Heap_float_GraphVertId_std_greater_float", "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float.html", null ],
+    [ "mrmeshpy.HexPalette", "classmrmeshpy_1_1HexPalette.html", null ],
     [ "mrmeshpy.Histogram", "classmrmeshpy_1_1Histogram.html", null ],
     [ "mrmeshpy.HistoryAction", "classmrmeshpy_1_1HistoryAction.html", [
       [ "mrmeshpy.ChangVoxelSelectionAction", "classmrmeshpy_1_1ChangVoxelSelectionAction.html", null ],
@@ -1070,6 +1071,7 @@ var hierarchy =
     [ "mrmeshpy.std_array_AffineXf_Vector3_double_4", "classmrmeshpy_1_1std__array__AffineXf__Vector3__double__4.html", null ],
     [ "mrmeshpy.std_array_AffineXf_Vector3_float_4", "classmrmeshpy_1_1std__array__AffineXf__Vector3__float__4.html", null ],
     [ "mrmeshpy.std_array_BooleanResultMapper_Maps_2", "classmrmeshpy_1_1std__array__BooleanResultMapper__Maps__2.html", null ],
+    [ "mrmeshpy.std_array_Color_30", "classmrmeshpy_1_1std__array__Color__30.html", null ],
     [ "mrmeshpy.std_array_double_4", "classmrmeshpy_1_1std__array__double__4.html", null ],
     [ "mrmeshpy.std_array_float_4", "classmrmeshpy_1_1std__array__float__4.html", null ],
     [ "mrmeshpy.std_array_Id_VertTag_2", "classmrmeshpy_1_1std__array__Id__VertTag__2.html", null ],

@@ -100,6 +100,7 @@ var dir_716b5aacfadf0d1a0aafdf7946f136c2 =
     [ "std_array_MR_AffineXf3d_4.h", "std__array__MR__AffineXf3d__4_8h.html", "std__array__MR__AffineXf3d__4_8h" ],
     [ "std_array_MR_AffineXf3f_4.h", "std__array__MR__AffineXf3f__4_8h.html", "std__array__MR__AffineXf3f__4_8h" ],
     [ "std_array_MR_BooleanResultMapper_Maps_2.h", "std__array__MR__BooleanResultMapper__Maps__2_8h.html", "std__array__MR__BooleanResultMapper__Maps__2_8h" ],
+    [ "std_array_MR_Color_30.h", "std__array__MR__Color__30_8h.html", "std__array__MR__Color__30_8h" ],
     [ "std_array_MR_PreciseVertCoords2_3.h", "std__array__MR__PreciseVertCoords2__3_8h.html", "std__array__MR__PreciseVertCoords2__3_8h" ],
     [ "std_array_MR_PreciseVertCoords2_4.h", "std__array__MR__PreciseVertCoords2__4_8h.html", "std__array__MR__PreciseVertCoords2__4_8h" ],
     [ "std_array_MR_PreciseVertCoords2_6.h", "std__array__MR__PreciseVertCoords2__6_8h.html", "std__array__MR__PreciseVertCoords2__6_8h" ],

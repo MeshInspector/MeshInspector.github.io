@@ -111,6 +111,7 @@ var dir_48a1ec47db35593d9d3f02b5df3192b0 =
     [ "MRGridSettings.h", "MRGridSettings_8h.html", "MRGridSettings_8h" ],
     [ "MRHeap.h", "MRHeap_8h.html", "MRHeap_8h" ],
     [ "MRHeapBytes.h", "MRHeapBytes_8h.html", "MRHeapBytes_8h" ],
+    [ "MRHexPalette.h", "MRHexPalette_8h.html", "MRHexPalette_8h" ],
     [ "MRHistogram.h", "MRHistogram_8h.html", "MRHistogram_8h" ],
     [ "MRHistoryAction.h", "MRHistoryAction_8h.html", "MRHistoryAction_8h" ],
     [ "MRHoleFillPlan.h", "MRHoleFillPlan_8h.html", "MRHoleFillPlan_8h" ],

@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__array__Color__30" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_array_Color_30</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Color__30_1a15d3508486a6b4dd0ffa43f6804ce637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.std_array_Color_30.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_array_Color_30.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80924" bodyend="80925"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Color__30_1a14f68cf64651c217f118e2abae3b9a1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_Color_30.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_Color_30.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80927" bodyend="80928"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Color__30_1ae74cbe550bb61a12cc9b36969c5098b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_Color_30.__init__</definition>
+        <argsstring>(self, std_array_Color_30 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_Color_30.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Color__30" kindref="compound">std_array_Color_30</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80930" bodyend="80931"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Color__30_1a9ad272e7852df4930b8b2928d7ecca02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_Color_30.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_Color_30.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialize from a list of 30elements.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80933" bodyend="80936"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Color__30_1a95fe831ffcfde6d97f8997853d83072c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref>]</type>
+        <definition> typing.Iterator[Color] mrmeshpy.std_array_Color_30.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_array_Color_30.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80937" bodyend="80938"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Color__30_1a355a29f8e66b22285bde315bf913caee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_array_Color_30.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_array_Color_30.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80939" bodyend="80940"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Color__30_1ad077044242d481d83d11af297a3e50b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_Color_30.__setitem__</definition>
+        <argsstring>(self, int arg0, Color arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_array_Color_30.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80941" bodyend="80942"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_array_Color_N
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80920" bodyend="80942"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__array__Color__30_1a15d3508486a6b4dd0ffa43f6804ce637" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Color_30</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Color__30_1a14f68cf64651c217f118e2abae3b9a1d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Color_30</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Color__30_1ae74cbe550bb61a12cc9b36969c5098b2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Color_30</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Color__30_1a9ad272e7852df4930b8b2928d7ecca02" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Color_30</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Color__30_1a95fe831ffcfde6d97f8997853d83072c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Color_30</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Color__30_1a355a29f8e66b22285bde315bf913caee" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Color_30</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Color__30_1ad077044242d481d83d11af297a3e50b3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Color_30</scope><name>__setitem__</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

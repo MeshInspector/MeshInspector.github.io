@@ -66,10 +66,10 @@
         <label>MRCtm.h</label>
         <link refid="MRCtm_8h"/>
       </node>
-      <node id="8">
+      <node id="9">
         <label>MRPdf.h</label>
         <link refid="MRPdf_8h"/>
-        <childnode refid="9" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -87,7 +87,7 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
         </childnode>
@@ -99,36 +99,44 @@
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
-      <node id="16">
+      <node id="4">
+        <label>MRHexPalette.h</label>
+        <link refid="MRHexPalette_8h"/>
+      </node>
+      <node id="18">
         <label>MRIRenderObject.h</label>
         <link refid="MRIRenderObject_8h"/>
       </node>
-      <node id="4">
+      <node id="5">
         <label>MRImage.h</label>
         <link refid="MRImage_8h"/>
       </node>
-      <node id="17">
+      <node id="19">
         <label>MRMatrix4.h</label>
         <link refid="MRMatrix4_8h"/>
       </node>
-      <node id="5">
+      <node id="6">
         <label>MRMeshLoadObj.h</label>
         <link refid="MRMeshLoadObj_8h"/>
       </node>
-      <node id="6">
+      <node id="7">
         <label>MRMeshTexture.h</label>
         <link refid="MRMeshTexture_8h"/>
       </node>
-      <node id="10">
+      <node id="11">
         <label>MRSaveSettings.h</label>
         <link refid="MRSaveSettings_8h"/>
       </node>
-      <node id="11">
+      <node id="12">
         <label>MRTextureColors.h</label>
         <link refid="MRTextureColors_8h"/>
       </node>
-      <node id="12">
+      <node id="13">
         <label>MRVector.h</label>
         <link refid="MRVector_8h"/>
       </node>
@@ -137,28 +145,32 @@
         <link refid="MRVector4_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="16" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="17" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="13">
+      <node id="14">
         <label>MRViewportProperty.h</label>
         <link refid="MRViewportProperty_8h"/>
       </node>
-      <node id="14">
+      <node id="15">
+        <label>std_array_MR_Color_30.h</label>
+        <link refid="std__array__MR__Color__30_8h"/>
+      </node>
+      <node id="16">
         <label>std_optional_MR_Color.h</label>
         <link refid="std__optional__MR__Color_8h"/>
       </node>
-      <node id="9">
+      <node id="10">
         <label>std_variant_MR_PdfBuildinFont_std_filesystem_path.h</label>
         <link refid="std__variant__MR__PdfBuildinFont__std__filesystem__path_8h"/>
       </node>
-      <node id="15">
+      <node id="17">
         <label>std_vector_MR_Color.h</label>
         <link refid="std__vector__MR__Color_8h"/>
       </node>
-      <node id="7">
+      <node id="8">
         <label>MRObjectVoxels.h</label>
         <link refid="MRObjectVoxels_8h"/>
       </node>

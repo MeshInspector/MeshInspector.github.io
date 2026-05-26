@@ -992,6 +992,9 @@ var hierarchy =
       [ "MR.Const_Heap_Float_MRGraphVertId_StdGreaterFloat.Const_Element", "classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1_1Const__Element.html", [
         [ "MR.Const_Heap_Float_MRGraphVertId_StdGreaterFloat.Element", "classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1_1Element.html", null ]
       ] ],
+      [ "MR.Const_HexPalette", "classMR_1_1Const__HexPalette.html", [
+        [ "MR.HexPalette", "classMR_1_1HexPalette.html", null ]
+      ] ],
       [ "MR.Const_Histogram", "classMR_1_1Const__Histogram.html", [
         [ "MR.Histogram", "classMR_1_1Histogram.html", null ]
       ] ],
@@ -3787,6 +3790,7 @@ var hierarchy =
       [ "MR.Const_GridToMeshSettings", "classMR_1_1Const__GridToMeshSettings.html", null ],
       [ "MR.Const_Heap_Float_MRGraphVertId_StdGreaterFloat", "classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat.html", null ],
       [ "MR.Const_Heap_Float_MRGraphVertId_StdGreaterFloat.Const_Element", "classMR_1_1Const__Heap__Float__MRGraphVertId__StdGreaterFloat_1_1Const__Element.html", null ],
+      [ "MR.Const_HexPalette", "classMR_1_1Const__HexPalette.html", null ],
       [ "MR.Const_Histogram", "classMR_1_1Const__Histogram.html", null ],
       [ "MR.Const_HistoryAction", "classMR_1_1Const__HistoryAction.html", null ],
       [ "MR.Const_HoleFillPlan", "classMR_1_1Const__HoleFillPlan.html", null ],

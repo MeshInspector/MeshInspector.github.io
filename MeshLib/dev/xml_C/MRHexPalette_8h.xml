@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRHexPalette_8h" kind="file" language="C++">
+    <compoundname>MRHexPalette.h</compoundname>
+    <includes refid="MRColor_8h" local="no">MRCMesh/MRColor.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRHexPalette.h</label>
+        <link refid="MRHexPalette_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMesh/MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="9">
+        <label>stdbool.h</label>
+      </node>
+      <node id="7">
+        <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRHexPalette_8h_1a396508286cccce1bfd48d3ffaf08e984" prot="public" static="no">
+        <type>struct MR_std_array_MR_Color_30</type>
+        <definition>typedef struct MR_std_array_MR_Color_30 MR_std_array_MR_Color_30</definition>
+        <argsstring></argsstring>
+        <name>MR_std_array_MR_Color_30</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="12" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" prot="public" static="no">
+        <type>struct <ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref></type>
+        <definition>typedef struct MR_HexPalette MR_HexPalette</definition>
+        <argsstring></argsstring>
+        <name>MR_HexPalette</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>all colors here are on cube&apos;s boundary intersected by a skew plane, which makes a hexagon; gives visually distinct categorical colors for things like mesh segments or imported components Generated from class <computeroutput>MR::HexPalette</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="19" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRHexPalette_8h_1a53ca33c8a03840d5e963277d8ef25d24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
+        <definition>MRC_API const int * MR_HexPalette_Get_CORNER_COLORS</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_HexPalette_Get_CORNER_COLORS</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::HexPalette</computeroutput> named <computeroutput>CORNER_COLORS</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="23" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="23" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHexPalette_8h_1aeb666e2a9baf6d68621eb56adec7c907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
+        <definition>MRC_API const int * MR_HexPalette_Get_SIDE_COLORS</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_HexPalette_Get_SIDE_COLORS</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::HexPalette</computeroutput> named <computeroutput>SIDE_COLORS</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="28" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="28" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHexPalette_8h_1a081ed6b6f1b8aa8c53e8f29bcad30821" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
+        <definition>MRC_API const int * MR_HexPalette_Get_N</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_HexPalette_Get_N</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::HexPalette</computeroutput> named <computeroutput>N</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="32" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="32" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHexPalette_8h_1ae5feafbf20fa8df8da1abdfdce08f7d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
+        <definition>MRC_API const int * MR_HexPalette_Get_STEP</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_HexPalette_Get_STEP</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>recommended step from previous color to next color, to have big visual difference, and visit all colors in long run Returns a pointer to a member variable of class <computeroutput>MR::HexPalette</computeroutput> named <computeroutput>STEP</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="37" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="37" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHexPalette_8h_1a4ff605b6b02f9464247f6b031dd63b51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__std__array__MR__Color__30" kindref="compound">MR_std_array_MR_Color_30</ref> *</type>
+        <definition>MRC_API const MR_std_array_MR_Color_30 * MR_HexPalette_Get_colors</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_HexPalette_Get_colors</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the palette colors, populated at compile time Returns a pointer to a member variable of class <computeroutput>MR::HexPalette</computeroutput> named <computeroutput>colors</computeroutput>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="42" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="42" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHexPalette_8h_1ae3c49e389077050aa185153100345655" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref> *</type>
+        <definition>MRC_API MR_HexPalette * MR_HexPalette_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_HexPalette_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRHexPalette_8h_1aad334c3cc53ab045de3cd3ba55e1e703" kindref="member">MR_HexPalette_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="46" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="46" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHexPalette_8h_1a79e0173cc53048d685df12cead64896e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref> *</type>
+        <definition>MRC_API MR_HexPalette * MR_HexPalette_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_HexPalette_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRHexPalette_8h_1af4f9c8bc4d4ea1dffda7c41d6f356f8f" kindref="member">MR_HexPalette_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRHexPalette_8h_1a006c2f96ffbbaf4bc668d47eb6c7fd4f" kindref="member">MR_HexPalette_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRHexPalette_8h_1af1e4dbb07d76f2ebd76724d1a689b93e" kindref="member">MR_HexPalette_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="51" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="51" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHexPalette_8h_1af1e4dbb07d76f2ebd76724d1a689b93e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref> *</type>
+        <definition>MRC_API const MR_HexPalette * MR_HexPalette_OffsetPtr</definition>
+        <argsstring>(const MR_HexPalette *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_HexPalette_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="55" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="55" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHexPalette_8h_1a006c2f96ffbbaf4bc668d47eb6c7fd4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref> *</type>
+        <definition>MRC_API MR_HexPalette * MR_HexPalette_OffsetMutablePtr</definition>
+        <argsstring>(MR_HexPalette *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_HexPalette_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="59" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="59" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHexPalette_8h_1a315df3a9b094f49a4d70977450cc3a67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref> *</type>
+        <definition>MRC_API MR_HexPalette * MR_HexPalette_ConstructFromAnother</definition>
+        <argsstring>(const MR_HexPalette *_other)</argsstring>
+        <name>MR_HexPalette_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::HexPalette::HexPalette</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRHexPalette_8h_1aad334c3cc53ab045de3cd3ba55e1e703" kindref="member">MR_HexPalette_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="65" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="65" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHexPalette_8h_1aad334c3cc53ab045de3cd3ba55e1e703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_HexPalette_Destroy</definition>
+        <argsstring>(const MR_HexPalette *_this)</argsstring>
+        <name>MR_HexPalette_Destroy</name>
+        <param>
+          <type>const <ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="68" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHexPalette_8h_1af4f9c8bc4d4ea1dffda7c41d6f356f8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_HexPalette_DestroyArray</definition>
+        <argsstring>(const MR_HexPalette *_this)</argsstring>
+        <name>MR_HexPalette_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="71" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHexPalette_8h_1aa673b983c37f889f8ad88beadc748033" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref> *</type>
+        <definition>MRC_API MR_HexPalette * MR_HexPalette_AssignFromAnother</definition>
+        <argsstring>(MR_HexPalette *_this, const MR_HexPalette *_other)</argsstring>
+        <name>MR_HexPalette_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::HexPalette::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="79" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="79" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRHexPalette_8h_1afed729e15ce0437f0403b712af04bb17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
+        <definition>MRC_API MR_Color MR_HexPalette_colorAtStep</definition>
+        <argsstring>(int i)</argsstring>
+        <name>MR_HexPalette_colorAtStep</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the i-th color in stride order, so successive i values give visually distinct colors Generated from method <computeroutput>MR::HexPalette::colorAtStep</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" line="83" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h" declline="83" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRColor_8h" kindref="compound">MRCMesh/MRColor.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRHexPalette_8h_1a396508286cccce1bfd48d3ffaf08e984" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__std__array__MR__Color__30" kindref="compound">MR_std_array_MR_Color_30</ref><sp/><ref refid="structMR__std__array__MR__Color__30" kindref="compound">MR_std_array_MR_Color_30</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_array_MR_Color_30.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRHexPalette_8h_1a53ca33c8a03840d5e963277d8ef25d24" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRHexPalette_8h_1a53ca33c8a03840d5e963277d8ef25d24" kindref="member">MR_HexPalette_Get_CORNER_COLORS</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>num<sp/>colors<sp/>between<sp/>two<sp/>corner<sp/>colors<sp/>+<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRHexPalette_8h_1aeb666e2a9baf6d68621eb56adec7c907" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRHexPalette_8h_1aeb666e2a9baf6d68621eb56adec7c907" kindref="member">MR_HexPalette_Get_SIDE_COLORS</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MRHexPalette_8h_1a081ed6b6f1b8aa8c53e8f29bcad30821" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRHexPalette_8h_1a081ed6b6f1b8aa8c53e8f29bcad30821" kindref="member">MR_HexPalette_Get_N</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRHexPalette_8h_1ae5feafbf20fa8df8da1abdfdce08f7d7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRHexPalette_8h_1ae5feafbf20fa8df8da1abdfdce08f7d7" kindref="member">MR_HexPalette_Get_STEP</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRHexPalette_8h_1a4ff605b6b02f9464247f6b031dd63b51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__std__array__MR__Color__30" kindref="compound">MR_std_array_MR_Color_30</ref><sp/>*<ref refid="MRHexPalette_8h_1a4ff605b6b02f9464247f6b031dd63b51" kindref="member">MR_HexPalette_Get_colors</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRHexPalette_8h_1ae3c49e389077050aa185153100345655" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/>*<ref refid="MRHexPalette_8h_1ae3c49e389077050aa185153100345655" kindref="member">MR_HexPalette_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="MRHexPalette_8h_1a79e0173cc53048d685df12cead64896e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/>*<ref refid="MRHexPalette_8h_1a79e0173cc53048d685df12cead64896e" kindref="member">MR_HexPalette_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRHexPalette_8h_1af1e4dbb07d76f2ebd76724d1a689b93e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/>*<ref refid="MRHexPalette_8h_1af1e4dbb07d76f2ebd76724d1a689b93e" kindref="member">MR_HexPalette_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRHexPalette_8h_1a006c2f96ffbbaf4bc668d47eb6c7fd4f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/>*<ref refid="MRHexPalette_8h_1a006c2f96ffbbaf4bc668d47eb6c7fd4f" kindref="member">MR_HexPalette_OffsetMutablePtr</ref>(<ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRHexPalette_8h_1a315df3a9b094f49a4d70977450cc3a67" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/>*<ref refid="MRHexPalette_8h_1a315df3a9b094f49a4d70977450cc3a67" kindref="member">MR_HexPalette_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRHexPalette_8h_1aad334c3cc53ab045de3cd3ba55e1e703" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHexPalette_8h_1aad334c3cc53ab045de3cd3ba55e1e703" kindref="member">MR_HexPalette_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRHexPalette_8h_1af4f9c8bc4d4ea1dffda7c41d6f356f8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRHexPalette_8h_1af4f9c8bc4d4ea1dffda7c41d6f356f8f" kindref="member">MR_HexPalette_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRHexPalette_8h_1aa673b983c37f889f8ad88beadc748033" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/>*<ref refid="MRHexPalette_8h_1aa673b983c37f889f8ad88beadc748033" kindref="member">MR_HexPalette_AssignFromAnother</ref>(<ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRHexPalette_8h_1aeadd8bbeb028c4bc33fc4085b74b7caa" kindref="member">MR_HexPalette</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRHexPalette_8h_1afed729e15ce0437f0403b712af04bb17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRHexPalette_8h_1afed729e15ce0437f0403b712af04bb17" kindref="member">MR_HexPalette_colorAtStep</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRHexPalette.h"/>
+  </compounddef>
+</doxygen>

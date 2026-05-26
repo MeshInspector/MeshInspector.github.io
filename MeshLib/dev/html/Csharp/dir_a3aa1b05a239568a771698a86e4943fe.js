@@ -111,6 +111,7 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRGridSettings.cs", "MRGridSettings_8cs.html", "MRGridSettings_8cs" ],
     [ "MRHeap.cs", "MRHeap_8cs.html", "MRHeap_8cs" ],
     [ "MRHeapBytes.cs", "MRHeapBytes_8cs.html", "MRHeapBytes_8cs" ],
+    [ "MRHexPalette.cs", "MRHexPalette_8cs.html", "MRHexPalette_8cs" ],
     [ "MRHistogram.cs", "MRHistogram_8cs.html", "MRHistogram_8cs" ],
     [ "MRHistoryAction.cs", "MRHistoryAction_8cs.html", "MRHistoryAction_8cs" ],
     [ "MRHoleFillPlan.cs", "MRHoleFillPlan_8cs.html", "MRHoleFillPlan_8cs" ],

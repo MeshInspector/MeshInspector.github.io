@@ -431,6 +431,7 @@ var namespaceMR =
     [ "GridSettings", "structMR_1_1GridSettings.html", "structMR_1_1GridSettings" ],
     [ "GridToMeshSettings", "structMR_1_1GridToMeshSettings.html", "structMR_1_1GridToMeshSettings" ],
     [ "Heap", "classMR_1_1Heap.html", "classMR_1_1Heap" ],
+    [ "HexPalette", "structMR_1_1HexPalette.html", null ],
     [ "Histogram", "classMR_1_1Histogram.html", "classMR_1_1Histogram" ],
     [ "Historian", "classMR_1_1Historian.html", "classMR_1_1Historian" ],
     [ "HistoryAction", "classMR_1_1HistoryAction.html", "classMR_1_1HistoryAction" ],

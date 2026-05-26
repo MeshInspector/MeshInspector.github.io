@@ -3902,6 +3902,14 @@
     <member refid="group__BasicGroup_1ga8cc005841a554f35bd3b412da9244b20" kind="function"><name>less_</name></member>
     <member refid="group__BasicGroup_1gaf57eb736d2eb7b803bd2dddfbed172f6" kind="function"><name>lift_</name></member>
   </compound>
+  <compound refid="structMR_1_1HexPalette" kind="struct"><name>MR::HexPalette</name>
+    <member refid="group__GeneralGroup_1ga8c86556832668c9704fa28fbac175556" kind="variable"><name>CORNER_COLORS</name></member>
+    <member refid="group__GeneralGroup_1ga4d091832f177cee13a1baed0104478dd" kind="variable"><name>SIDE_COLORS</name></member>
+    <member refid="group__GeneralGroup_1gad6763bbd524f101080e02e09e11a64e9" kind="variable"><name>N</name></member>
+    <member refid="group__GeneralGroup_1ga7ff6df0664d3eb798a6342445c40600a" kind="variable"><name>STEP</name></member>
+    <member refid="group__GeneralGroup_1ga08fac8e279e73c50537d0d70a063b5e2" kind="variable"><name>colors</name></member>
+    <member refid="group__GeneralGroup_1ga003e178ee675648d84164c4b63082e0e" kind="function"><name>colorAtStep</name></member>
+  </compound>
   <compound refid="classMR_1_1Histogram" kind="class"><name>MR::Histogram</name>
     <member refid="group__GeneralGroup_1ga15f621762bad334bfe43bfaf4b5b7d83" kind="variable"><name>bins_</name></member>
     <member refid="group__GeneralGroup_1ga9751323300b9e28451f7f9fa6adf098d" kind="variable"><name>min_</name></member>
@@ -10770,6 +10778,7 @@
     <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1adb63f8f295224fa727fc868341d70f97" kind="variable"><name>angularDeflection</name></member>
     <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a4dae8524d35b83327dd647e39cd27a0b" kind="variable"><name>linearDeflection</name></member>
     <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a1ce565a217495fbc5151a90f6c5ba904" kind="variable"><name>relative</name></member>
+    <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a7d49edf6d491e777a91aa4259a6702ad" kind="variable"><name>autoColorize</name></member>
   </compound>
   <compound refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple" kind="struct"><name>MR::ImGuiMeasurementIndicators::Stipple</name>
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1a275878227f6987b781fd73d3741d8a6d" kind="variable"><name>patternLength</name></member>
@@ -17129,6 +17138,8 @@
   </compound>
   <compound refid="MRHeapBytes_8h" kind="file"><name>MRHeapBytes.h</name>
   </compound>
+  <compound refid="MRHexPalette_8h" kind="file"><name>MRHexPalette.h</name>
+  </compound>
   <compound refid="MRHighPrecision_8h" kind="file"><name>MRHighPrecision.h</name>
   </compound>
   <compound refid="MRHistogram_8h" kind="file"><name>MRHistogram.h</name>
@@ -21800,6 +21811,11 @@
     <member refid="group__GeneralGroup_1gab5b3ed30ff4dde0622d5d2fb4c2213d8" kind="variable"><name>vertIds</name></member>
     <member refid="group__GeneralGroup_1gaeb3dd9e9c7f4ea93ddd4aea1b4afc61c" kind="variable"><name>uedgeIds</name></member>
     <member refid="group__GeneralGroup_1ga790adf53fc23a7b8fe0be9674ebb70af" kind="variable"><name>faceIds</name></member>
+    <member refid="group__GeneralGroup_1ga8c86556832668c9704fa28fbac175556" kind="variable"><name>CORNER_COLORS</name></member>
+    <member refid="group__GeneralGroup_1ga4d091832f177cee13a1baed0104478dd" kind="variable"><name>SIDE_COLORS</name></member>
+    <member refid="group__GeneralGroup_1gad6763bbd524f101080e02e09e11a64e9" kind="variable"><name>N</name></member>
+    <member refid="group__GeneralGroup_1ga7ff6df0664d3eb798a6342445c40600a" kind="variable"><name>STEP</name></member>
+    <member refid="group__GeneralGroup_1ga08fac8e279e73c50537d0d70a063b5e2" kind="variable"><name>colors</name></member>
     <member refid="group__GeneralGroup_1ga15f621762bad334bfe43bfaf4b5b7d83" kind="variable"><name>bins_</name></member>
     <member refid="group__GeneralGroup_1ga9751323300b9e28451f7f9fa6adf098d" kind="variable"><name>min_</name></member>
     <member refid="group__GeneralGroup_1ga249621b2451b634318652fbf88970b20" kind="variable"><name>max_</name></member>
@@ -25806,6 +25822,7 @@
     <member refid="group__GeneralGroup_1ga1affac088ee75a400bd6599f10259644" kind="function"><name>verticesGridSampling</name></member>
     <member refid="group__GeneralGroup_1ga8fd557ec370469d7e49dda43061bb485" kind="function"><name>pointGridSampling</name></member>
     <member refid="group__GeneralGroup_1gae26b8f62dca51a80c9ba270f309ca6d8" kind="function"><name>multiModelGridSampling</name></member>
+    <member refid="group__GeneralGroup_1ga003e178ee675648d84164c4b63082e0e" kind="function"><name>colorAtStep</name></member>
     <member refid="group__GeneralGroup_1gaba207b56824356ab7f80254c5fd34819" kind="function"><name>Histogram</name></member>
     <member refid="group__GeneralGroup_1gad5ea2693d9db6b1e3a7b67617c339db0" kind="function"><name>Histogram</name></member>
     <member refid="group__GeneralGroup_1gab826dc466fb10e173c94b9cf2f5c19be" kind="function"><name>addSample</name></member>

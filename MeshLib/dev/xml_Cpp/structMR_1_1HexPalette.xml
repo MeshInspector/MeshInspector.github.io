@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1HexPalette" kind="struct" language="C++" prot="public">
+    <compoundname>MR::HexPalette</compoundname>
+    <includes refid="MRHexPalette_8h" local="no">MRMesh/MRHexPalette.h</includes>
+    <sectiondef kind="public-static-attrib">
+      <member refid="group__GeneralGroup_1ga8c86556832668c9704fa28fbac175556" kind="variable"><name>CORNER_COLORS</name></member>
+      <member refid="group__GeneralGroup_1ga4d091832f177cee13a1baed0104478dd" kind="variable"><name>SIDE_COLORS</name></member>
+      <member refid="group__GeneralGroup_1gad6763bbd524f101080e02e09e11a64e9" kind="variable"><name>N</name></member>
+      <member refid="group__GeneralGroup_1ga7ff6df0664d3eb798a6342445c40600a" kind="variable"><name>STEP</name></member>
+      <member refid="group__GeneralGroup_1ga08fac8e279e73c50537d0d70a063b5e2" kind="variable"><name>colors</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga003e178ee675648d84164c4b63082e0e" kind="function"><name>colorAtStep</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>all colors here are on cube&apos;s boundary intersected by a skew plane, which makes a hexagon; gives visually distinct categorical colors for things like mesh segments or imported components </para>
+    </detaileddescription>
+    <location file="MRMesh/MRHexPalette.h" line="16" column="1" bodyfile="MRMesh/MRHexPalette.h" bodystart="17" bodyend="30"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga003e178ee675648d84164c4b63082e0e" prot="public" virt="non-virtual"><scope>MR::HexPalette</scope><name>colorAtStep</name></member>
+      <member refid="group__GeneralGroup_1ga08fac8e279e73c50537d0d70a063b5e2" prot="public" virt="non-virtual"><scope>MR::HexPalette</scope><name>colors</name></member>
+      <member refid="group__GeneralGroup_1ga8c86556832668c9704fa28fbac175556" prot="public" virt="non-virtual"><scope>MR::HexPalette</scope><name>CORNER_COLORS</name></member>
+      <member refid="group__GeneralGroup_1gad6763bbd524f101080e02e09e11a64e9" prot="public" virt="non-virtual"><scope>MR::HexPalette</scope><name>N</name></member>
+      <member refid="group__GeneralGroup_1ga4d091832f177cee13a1baed0104478dd" prot="public" virt="non-virtual"><scope>MR::HexPalette</scope><name>SIDE_COLORS</name></member>
+      <member refid="group__GeneralGroup_1ga7ff6df0664d3eb798a6342445c40600a" prot="public" virt="non-virtual"><scope>MR::HexPalette</scope><name>STEP</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
