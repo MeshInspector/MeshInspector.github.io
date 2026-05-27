@@ -1,5 +1,6 @@
 var NAVTREEINDEX121 =
 {
+"classMR_1_1PlyLoadParams.html#afbf4b92bd5f2279ee9ab92dd293e35d7":[6,3,0,0,0,1459,1],
 "classMR_1_1PointAccumulator.html":[6,3,0,0,0,1460],
 "classMR_1_1PointAccumulator.html#a180e1fff824b9e1bb0a4e8545de66d56":[6,3,0,0,0,1460,6],
 "classMR_1_1PointAccumulator.html#a2d4061cfc95ff5a9eb459cb722aab0b3":[6,3,0,0,0,1460,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX121 =
 "classMR_1_1PointToPlaneAligningTransform.html#a6e09edb9bf03275a105e13189b65dbdd":[6,3,0,0,0,1481,7],
 "classMR_1_1PointToPlaneAligningTransform.html#a730675895c20ac0c23a140c0dec5ec7b":[6,3,0,0,0,1481,1],
 "classMR_1_1PointToPlaneAligningTransform.html#a7e9785dfc55f0b60d3174c3092ae862c":[6,3,0,0,0,1481,5],
-"classMR_1_1PointToPlaneAligningTransform.html#aa09d622a0fc5d3f03c2bc307af1f23a4":[6,3,0,0,0,1481,8],
-"classMR_1_1PointToPlaneAligningTransform.html#adf0ccc5bf8ba4a2664995b8df1966ea4":[6,3,0,0,0,1481,0]
+"classMR_1_1PointToPlaneAligningTransform.html#aa09d622a0fc5d3f03c2bc307af1f23a4":[6,3,0,0,0,1481,8]
 };

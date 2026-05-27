@@ -3374,6 +3374,7 @@ var classMR =
     [ "getFeatureNormal", "classMR.html#a278f661b7961b5d334e14f8e26d1e360", null ],
     [ "getFeaturesTypeWithDirections", "classMR.html#ad091455e438e108a6345dc9b78adf4e1", null ],
     [ "getFeaturesTypeWithNormals", "classMR.html#a4c87c087842ef7576d6a05994cdb6da2", null ],
+    [ "getFieldAtC", "classMR.html#a5f40e26941ca293ff0253f40d0d9233c", null ],
     [ "getHoleFillPlan", "classMR.html#a3ec60536fe67f9420301f2b2efde8a04", null ],
     [ "getHoleFillPlans", "classMR.html#a74ce46d37adee9a791dc11f7b8eea1e7", null ],
     [ "getHomeDirectory", "classMR.html#aae872acde87b8728840773e4e40305f7", null ],

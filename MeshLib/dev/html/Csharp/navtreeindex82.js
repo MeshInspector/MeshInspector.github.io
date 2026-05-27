@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"classMR_1_1Const__TransparencyMode.html#ad280cf0df17241fa64ea99dd47315c8a":[6,3,0,0,0,855,11],
 "classMR_1_1Const__TransparencyMode.html#af319fadcb70b933bd53d62755f009ee3":[6,3,0,0,0,855,1],
 "classMR_1_1Const__TransparencyMode.html#af5916549026efa7e5921c87c18a13cbf":[6,3,0,0,0,855,5],
 "classMR_1_1Const__TransparencyMode.html#affffeedd228bc89bb45bc3c19ed59cf5":[6,3,0,0,0,855,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "classMR_1_1Const__TrivialMetricToPenalty.html#a3a2c35c77fd2a8ff3d054beec911e8cd":[6,3,0,0,0,870,1],
 "classMR_1_1Const__TrivialMetricToPenalty.html#a6c50625d12047e4047b87f2cbc7d5658":[6,3,0,0,0,870,5],
 "classMR_1_1Const__TrivialMetricToPenalty.html#a737c47912859231992c44966ebf3a034":[6,3,0,0,0,870,2],
-"classMR_1_1Const__TrivialMetricToPenalty.html#aa0c11ca6eac3016db2d7fc818daa4956":[6,3,0,0,0,870,0],
-"classMR_1_1Const__TrivialMetricToPenalty.html#ac1756b88445498af1ad6931baa543e80":[6,3,0,0,0,870,4]
+"classMR_1_1Const__TrivialMetricToPenalty.html#aa0c11ca6eac3016db2d7fc818daa4956":[6,3,0,0,0,870,0]
 };

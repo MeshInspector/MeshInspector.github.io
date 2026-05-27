@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"classMR_1_1Const__TrivialMetricToPenalty.html#ac1756b88445498af1ad6931baa543e80":[6,3,0,0,0,870,4],
 "classMR_1_1Const__TrivialMetricToPenalty.html#af9b64bc57eb4be0f266d2e3a02a1e1b5":[6,3,0,0,0,870,3],
 "classMR_1_1Const__TwoLineSegmClosestPoints__Double.html":[6,3,0,0,0,871],
 "classMR_1_1Const__TwoLineSegmClosestPoints__Double.html#a15ed6e3cf8131296a7a450ed88828c72":[6,3,0,0,0,871,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "classMR_1_1Const__UndirectedEdgeMap.html#a49688087ced61d9944441b2edb0d84cd":[6,3,0,0,0,881,13],
 "classMR_1_1Const__UndirectedEdgeMap.html#a5854f13d17169557a24c32617889546c":[6,3,0,0,0,881,10],
 "classMR_1_1Const__UndirectedEdgeMap.html#a6f8284767a211001551d50f3fd8ba8fc":[6,3,0,0,0,881,17],
-"classMR_1_1Const__UndirectedEdgeMap.html#a763f547537a912325b3e065eabd31d9b":[6,3,0,0,0,881,7],
-"classMR_1_1Const__UndirectedEdgeMap.html#a78404d9582134a40177803fd1aaa31fe":[6,3,0,0,0,881,16]
+"classMR_1_1Const__UndirectedEdgeMap.html#a763f547537a912325b3e065eabd31d9b":[6,3,0,0,0,881,7]
 };

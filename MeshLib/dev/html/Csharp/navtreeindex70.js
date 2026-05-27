@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"classMR_1_1Const__PointsToDistanceVolumeParams.html#ae7168c7967812eef2f1b0d91371d7b47":[6,3,0,0,0,704,14],
 "classMR_1_1Const__PointsToMeshParameters.html":[6,3,0,0,0,705],
 "classMR_1_1Const__PointsToMeshParameters.html#a0248e7c825803bab138e061fe38b2ed1":[6,3,0,0,0,705,3],
 "classMR_1_1Const__PointsToMeshParameters.html#a0538a1e85676e7a2ec4e43e28552850d":[6,3,0,0,0,705,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "classMR_1_1Const__PolylineTopology.html":[6,3,0,0,0,720],
 "classMR_1_1Const__PolylineTopology.html#a01e44f31fe0d2c0bde4fe54aa31e04a1":[6,3,0,0,0,720,33],
 "classMR_1_1Const__PolylineTopology.html#a04abe0f33818318ed76b5da3722ae9e1":[6,3,0,0,0,720,5],
-"classMR_1_1Const__PolylineTopology.html#a06d762aa2d855f912e2e66788e843065":[6,3,0,0,0,720,22],
-"classMR_1_1Const__PolylineTopology.html#a0eadba7866df780ba0aea9bc57534b04":[6,3,0,0,0,720,34]
+"classMR_1_1Const__PolylineTopology.html#a06d762aa2d855f912e2e66788e843065":[6,3,0,0,0,720,22]
 };

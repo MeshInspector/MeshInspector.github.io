@@ -1,5 +1,6 @@
 var NAVTREEINDEX101 =
 {
+"classMR_1_1Features_1_1MeasureResult.html#a37ab5aa5eacb6c1ec09e06f24d18df66":[6,3,0,0,0,1158,2,4],
 "classMR_1_1Features_1_1MeasureResult.html#a3ab4f155d2c90179cc0fd37fffcb07c3":[6,3,0,0,0,1158,2,5],
 "classMR_1_1Features_1_1MeasureResult.html#a54a339d72923dd8001dd82639801a476":[6,3,0,0,0,1158,2,10],
 "classMR_1_1Features_1_1MeasureResult.html#a7027dfd79bf0a398033af5eac9dcc84d":[6,3,0,0,0,1158,2,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX101 =
 "classMR_1_1FillHolesWithExtraPointsParams.html#a03abae216e129db9a94f718cc8c1d417":[6,3,0,0,0,1163,5],
 "classMR_1_1FillHolesWithExtraPointsParams.html#a1cfec2d56ce0a704bbe0f4e3b66ad7af":[6,3,0,0,0,1163,3],
 "classMR_1_1FillHolesWithExtraPointsParams.html#a243d4517407cf1cc2ae5195ba7f4ae72":[6,3,0,0,0,1163,0],
-"classMR_1_1FillHolesWithExtraPointsParams.html#a8387644c3440c2bb337f9e9431626f52":[6,3,0,0,0,1163,4],
-"classMR_1_1FillHolesWithExtraPointsParams.html#aad18f5677afc7cbc6375a2b9d7f5e51b":[6,3,0,0,0,1163,2]
+"classMR_1_1FillHolesWithExtraPointsParams.html#a8387644c3440c2bb337f9e9431626f52":[6,3,0,0,0,1163,4]
 };

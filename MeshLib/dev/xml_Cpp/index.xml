@@ -15332,6 +15332,7 @@
     <member refid="group__SurfaceDistanceGroup_1ga5dd21a0b1940df7ece004666b7bb05f4" kind="function"><name>computeSurfaceDistances</name></member>
     <member refid="group__SurfaceDistanceGroup_1ga2f9c005e4a72a72f6625dc815b59cbe6" kind="function"><name>computeSurfaceDistances</name></member>
     <member refid="group__SurfaceDistanceBuilder_1ga6116f007cc43a35299cac2d382c9ba9e" kind="function"><name>operator&lt;</name></member>
+    <member refid="group__SurfaceDistanceBuilder_1ga6dbea68a5e40bf1878ced341fab86b83" kind="function"><name>getFieldAtC</name></member>
     <member refid="group__GeneralGroup_1ga7d9ef88ab36051823b5873593cf03071" kind="function"><name>offsetSurfaceLine</name></member>
     <member refid="group__GeneralGroup_1ga44a9a9075d36bff7e50b395b6cfef550" kind="function"><name>offsetSurfaceLine</name></member>
     <member refid="group__SurfacePathSubgroup_1gac84bc08e1e95706c67d413f315fcf9d7" kind="function"><name>toString</name></member>
@@ -17132,8 +17133,6 @@
   </compound>
   <compound refid="MRGridSettings_8h" kind="file"><name>MRGridSettings.h</name>
   </compound>
-  <compound refid="MRGTest_8h" kind="file"><name>MRGTest.h</name>
-  </compound>
   <compound refid="MRHeap_8h" kind="file"><name>MRHeap.h</name>
   </compound>
   <compound refid="MRHeapBytes_8h" kind="file"><name>MRHeapBytes.h</name>
@@ -17808,10 +17807,6 @@
   </compound>
   <compound refid="MRVector4_8h" kind="file"><name>MRVector4.h</name>
   </compound>
-  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
-  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
-  </compound>
   <compound refid="MRVersatileChangeMeshAction_8h" kind="file"><name>MRVersatileChangeMeshAction.h</name>
   </compound>
   <compound refid="MRVertCoordsDiff_8h" kind="file"><name>MRVertCoordsDiff.h</name>
@@ -18214,6 +18209,10 @@
     <member refid="group__GeneralGroup_1gacbc30821abce7e21196166b4dc00e283" kind="define"><name>MR_X</name></member>
   </compound>
   <compound refid="MRUnitSettings_8h" kind="file"><name>MRUnitSettings.h</name>
+  </compound>
+  <compound refid="MRMesh_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
+  </compound>
+  <compound refid="MRViewer_2MRVectorTraits_8h" kind="file"><name>MRVectorTraits.h</name>
   </compound>
   <compound refid="MRViewer_8h" kind="file"><name>MRViewer.h</name>
     <member refid="MRViewer_8h_1ab5148a6d21d216f28a3c1da0055472db" kind="define"><name>ENQUEUE_VIEWER_METHOD</name></member>
@@ -19363,6 +19362,7 @@
   </compound>
   <compound refid="group__SurfaceDistanceBuilder" kind="group"><name>SurfaceDistanceBuilder</name>
     <member refid="group__SurfaceDistanceBuilder_1ga6116f007cc43a35299cac2d382c9ba9e" kind="function"><name>operator&lt;</name></member>
+    <member refid="group__SurfaceDistanceBuilder_1ga6dbea68a5e40bf1878ced341fab86b83" kind="function"><name>getFieldAtC</name></member>
   </compound>
   <compound refid="group__SurfacePathSubgroup" kind="group"><name>SurfacePathSubgroup</name>
     <member refid="group__SurfacePathSubgroup_1gaf2c93aa0da8a9748d23340f32349a8b8" kind="enum"><name>PathError</name></member>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX112 =
 {
+"classMR_1_1MeshTopology.html#a592f473a191f647cd8f7194eacf9bff7":[6,3,0,0,0,1339,2],
 "classMR_1_1MeshTopology.html#a5a427b567c5dcafd1f0d7d7e23966d9d":[6,3,0,0,0,1339,28],
 "classMR_1_1MeshTopology.html#a5f8cc5b0e1d78c1a58fcbe9bb62ce559":[6,3,0,0,0,1339,14],
 "classMR_1_1MeshTopology.html#a61c0a1cc8ebd1f01b921acf88eb43df7":[6,3,0,0,0,1339,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX112 =
 "classMR_1_1Nesting_1_1Const__BoxNestingCorner.html#adb0fe36f3d4ab8a45eae4c6c99fca559":[6,3,0,0,0,1358,3,4],
 "classMR_1_1Nesting_1_1Const__BoxNestingCorner.html#ae436155e551b683a93f4d79466a1abdc":[6,3,0,0,0,1358,3,0],
 "classMR_1_1Nesting_1_1Const__BoxNestingCorner.html#af7ca767fc80c1a1e4174c7ea7a0fb002":[6,3,0,0,0,1358,3,1],
-"classMR_1_1Nesting_1_1Const__BoxNestingOptions.html":[6,3,0,0,0,1358,4],
-"classMR_1_1Nesting_1_1Const__BoxNestingOptions.html#a0e69f15e14f2a64671ab71e509ee435a":[6,3,0,0,0,1358,4,16]
+"classMR_1_1Nesting_1_1Const__BoxNestingOptions.html":[6,3,0,0,0,1358,4]
 };

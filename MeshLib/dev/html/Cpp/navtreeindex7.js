@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"classMR_1_1CameraOrientation.html":[6,0,0,20,48],
-"classMR_1_1CaptureScreenshotMenuItem.html":[6,0,0,20,62],
 "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html":[6,0,0,20,64],
 "classMR_1_1CaptureUIScreenshotMenuItem.html":[6,0,0,20,63],
 "classMR_1_1ChangVoxelSelectionAction.html":[6,0,0,4,50],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1Cuda_1_1PointsProjector.html#ae5f97af32e2a2a8898a3063117312160":[6,0,2,0,2,0,2,2],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html":[6,0,1,0,1,2,3],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html":[6,0,2,0,2,0,3],
-"classMR_1_1Cuda_1_1PointsToMeshProjector.html#a01151649b364309dda94e8170e3e10f3":[6,0,1,0,1,2,3,2]
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html#a01151649b364309dda94e8170e3e10f3":[6,0,1,0,1,2,3,2],
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html#a01151649b364309dda94e8170e3e10f3":[6,0,2,0,2,0,3,2],
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html#a393b65262243753c160a11f48d57c301":[6,0,1,0,1,2,3,1]
 };

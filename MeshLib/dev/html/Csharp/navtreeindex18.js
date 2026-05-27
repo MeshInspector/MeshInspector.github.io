@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"classMR_1_1ChangeLabelAction.html#a6bcc083acb816e4faf85e33df952e237":[6,3,0,0,0,161,2],
 "classMR_1_1ChangeLabelAction.html#a764c712c39760f57b1c7ce1968bc21f3":[6,3,0,0,0,161,7],
 "classMR_1_1ChangeLabelAction.html#acb09239d2d1b86147ba645498909c8e1":[6,3,0,0,0,161,0],
 "classMR_1_1ChangeLabelAction.html#acf91e8df684c4230ab82481988791a3b":[6,3,0,0,0,161,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1ChangePolylineTopologyAction.html#ab076f06e93a6de6f584bb00b28669614":[6,3,0,0,0,186,0],
 "classMR_1_1ChangePolylineTopologyAction.html#ae828bc30438506e253c435410c73fc35":[6,3,0,0,0,186,1],
 "classMR_1_1ChangeScaleAction.html":[6,3,0,0,0,187],
-"classMR_1_1ChangeScaleAction.html#a07891b7a690799b3ad02257ab798bd96":[6,3,0,0,0,187,6],
-"classMR_1_1ChangeScaleAction.html#a114de4cf2fefe8767f318feb29e50b26":[6,3,0,0,0,187,7]
+"classMR_1_1ChangeScaleAction.html#a07891b7a690799b3ad02257ab798bd96":[6,3,0,0,0,187,6]
 };

@@ -36811,6 +36811,37 @@ element fields:<linebreak/>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistance.cs" line="92" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistance.cs" bodystart="92" bodyend="99"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a5f40e26941ca293ff0253f40d0d9233c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.getFieldAtC</definition>
+        <argsstring>(in MR.Vector3f b, in MR.Vector3f c, float vb, ref float vc)</argsstring>
+        <name>getFieldAtC</name>
+        <qualifiedname>MR.getFieldAtC</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vb</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>vc</declname>
+        </param>
+        <briefdescription>
+<para>consider triangle 0bc, where a linear scalar field is defined in two points: v(0) = 0, v(b) = b; computes the field in c-point; returns false if field gradient enters c-point not from inside of the triangle Generated from function <computeroutput><ref refid="classMR_1a5f40e26941ca293ff0253f40d0d9233c" kindref="member">MR.getFieldAtC</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" line="523" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSurfaceDistanceBuilder.cs" bodystart="523" bodyend="537"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a5ab07b05a6159daff0a98ed100cffac1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_StdVectorMRVector3f</type>
         <definition>static unsafe MR.Std.Vector_StdVectorMRVector3f MR.offsetSurfaceLine</definition>
@@ -53635,6 +53666,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a278f661b7961b5d334e14f8e26d1e360" prot="public" virt="non-virtual"><scope>MR</scope><name>getFeatureNormal</name></member>
       <member refid="classMR_1ad091455e438e108a6345dc9b78adf4e1" prot="public" virt="non-virtual"><scope>MR</scope><name>getFeaturesTypeWithDirections</name></member>
       <member refid="classMR_1a4c87c087842ef7576d6a05994cdb6da2" prot="public" virt="non-virtual"><scope>MR</scope><name>getFeaturesTypeWithNormals</name></member>
+      <member refid="classMR_1a5f40e26941ca293ff0253f40d0d9233c" prot="public" virt="non-virtual"><scope>MR</scope><name>getFieldAtC</name></member>
       <member refid="classMR_1a3ec60536fe67f9420301f2b2efde8a04" prot="public" virt="non-virtual"><scope>MR</scope><name>getHoleFillPlan</name></member>
       <member refid="classMR_1a74ce46d37adee9a791dc11f7b8eea1e7" prot="public" virt="non-virtual"><scope>MR</scope><name>getHoleFillPlans</name></member>
       <member refid="classMR_1aae872acde87b8728840773e4e40305f7" prot="public" virt="non-virtual"><scope>MR</scope><name>getHomeDirectory</name></member>

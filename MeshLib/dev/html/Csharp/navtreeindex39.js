@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1Const__CurveFunc.html#aa5b25d1fb70f06ec28dabb951febb80e":[6,3,0,0,0,359,9],
 "classMR_1_1Const__CurveFunc.html#aba272d80b4e9835f48dd8385fb239357":[6,3,0,0,0,359,5],
 "classMR_1_1Const__CurveFunc.html#ae6843e73ca273a834cf8d47cd80d8155":[6,3,0,0,0,359,8],
 "classMR_1_1Const__CurvePoint.html":[6,3,0,0,0,360],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1Const__DecimateResult.html":[6,3,0,0,0,370],
 "classMR_1_1Const__DecimateResult.html#a234b48c767df5d6318bda691848f475c":[6,3,0,0,0,370,9],
 "classMR_1_1Const__DecimateResult.html#a362b95cf4f7aa8ac89ab91e4d56ef361":[6,3,0,0,0,370,6],
-"classMR_1_1Const__DecimateResult.html#a3d8f7c36b6a49faf64964014e7178215":[6,3,0,0,0,370,7],
-"classMR_1_1Const__DecimateResult.html#a5456b0caf0b6a9c23fd0bc1415845d79":[6,3,0,0,0,370,11]
+"classMR_1_1Const__DecimateResult.html#a3d8f7c36b6a49faf64964014e7178215":[6,3,0,0,0,370,7]
 };

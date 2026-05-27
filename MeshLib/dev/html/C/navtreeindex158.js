@@ -1,5 +1,6 @@
 var NAVTREEINDEX158 =
 {
+"std__shared__ptr__MR__Object_8h.html#af2c925979e0f7aabe38817170119efe1":[6,2,1,0,0,0,0,2,355,20],
 "std__shared__ptr__MR__Object_8h_source.html":[6,2,1,0,0,0,0,2,355],
 "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html":[6,2,1,0,0,0,0,2,368],
 "std__shared__ptr__MR__OpenVdbFloatGrid_8h.html#a0d601bf77b57d720af032ddf44bc9848":[6,2,1,0,0,0,0,2,368,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX158 =
 "std__shared__ptr__MR__Polyline3_8h.html#a1acf961d6f540074fbc2fc13bcd3b4be":[6,2,1,0,0,0,0,2,378,8],
 "std__shared__ptr__MR__Polyline3_8h.html#a217787ebc25c3f8f4542725895f9fa3c":[6,2,1,0,0,0,0,2,378,7],
 "std__shared__ptr__MR__Polyline3_8h.html#a22a06c87c3eebd88978e486a27a6afb7":[6,2,1,0,0,0,0,2,378,19],
-"std__shared__ptr__MR__Polyline3_8h.html#a3667315589338722d13fb1b5f70fb9a5":[6,2,1,0,0,0,0,2,378,12],
-"std__shared__ptr__MR__Polyline3_8h.html#a535db3f647e96678a0717c95275d97f5":[6,2,1,0,0,0,0,2,378,5]
+"std__shared__ptr__MR__Polyline3_8h.html#a3667315589338722d13fb1b5f70fb9a5":[6,2,1,0,0,0,0,2,378,12]
 };

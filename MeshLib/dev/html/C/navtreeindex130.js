@@ -1,5 +1,6 @@
 var NAVTREEINDEX130 =
 {
+"expected__MR__BooleanResultPoints__std__string_8h.html#a88ec01e160ae1378a51493f3fed2f296":[6,2,1,0,0,0,0,2,3,4],
 "expected__MR__BooleanResultPoints__std__string_8h.html#aad55c4756813f695049ba0fac7102eb3":[6,2,1,0,0,0,0,2,3,2],
 "expected__MR__BooleanResultPoints__std__string_8h.html#aaf607d444f5a98d777fa0c353386ecb6":[6,2,1,0,0,0,0,2,3,3],
 "expected__MR__BooleanResultPoints__std__string_8h.html#ab14aa1d269464260dd1fd5056304b343":[6,2,1,0,0,0,0,2,3,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX130 =
 "expected__MR__ObjectPoints__std__string_8h.html#ab63f6acd166c85050b6ac8649fd70228":[6,2,1,0,0,0,0,2,19,1],
 "expected__MR__ObjectPoints__std__string_8h.html#ab6731aaf23675578ef145295ca501f8c":[6,2,1,0,0,0,0,2,19,11],
 "expected__MR__ObjectPoints__std__string_8h.html#ae27288c2bd5ade0f8fcd6992e65983b0":[6,2,1,0,0,0,0,2,19,7],
-"expected__MR__ObjectPoints__std__string_8h.html#afc2839621c76abc7baba43f23e52bf02":[6,2,1,0,0,0,0,2,19,2],
-"expected__MR__ObjectPoints__std__string_8h.html#aff3d1bf37e7c7e16d589b73b0a67b44b":[6,2,1,0,0,0,0,2,19,10]
+"expected__MR__ObjectPoints__std__string_8h.html#afc2839621c76abc7baba43f23e52bf02":[6,2,1,0,0,0,0,2,19,2]
 };

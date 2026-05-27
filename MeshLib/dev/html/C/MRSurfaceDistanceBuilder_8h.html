@@ -193,6 +193,7 @@ Functions</h2></td></tr>
 <tr class="memitem:afaba551cd740629f35a507d191c23cdf" id="r_afaba551cd740629f35a507d191c23cdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaba551cd740629f35a507d191c23cdf">MR_SurfaceDistanceBuilder_takeDistanceMap</a> (<a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
 <tr class="memitem:a8f06fc03d4617e504b853df22e4bfb11" id="r_a8f06fc03d4617e504b853df22e4bfb11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f06fc03d4617e504b853df22e4bfb11">MR_SurfaceDistanceBuilder_done</a> (const <a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
 <tr class="memitem:a930104a82a176fcf3c10a29f0e749e9e" id="r_a930104a82a176fcf3c10a29f0e749e9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a930104a82a176fcf3c10a29f0e749e9e">MR_SurfaceDistanceBuilder_doneDistance</a> (const <a class="el" href="#a1d0a59dcbf14d2c46eb7f09430511c2f">MR_SurfaceDistanceBuilder</a> *_this)</td></tr>
+<tr class="memitem:aeb557f0e881fe5d9148407da89137d62" id="r_aeb557f0e881fe5d9148407da89137d62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb557f0e881fe5d9148407da89137d62">MR_getFieldAtC</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *b, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *c, float vb, float *vc)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="a1d0a59dcbf14d2c46eb7f09430511c2f" name="a1d0a59dcbf14d2c46eb7f09430511c2f"></a>
@@ -226,6 +227,38 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="aeb557f0e881fe5d9148407da89137d62" name="aeb557f0e881fe5d9148407da89137d62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb557f0e881fe5d9148407da89137d62">&#9670;&#160;</a></span>MR_getFieldAtC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_getFieldAtC </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>vb</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *</td>          <td class="paramname"><span class="paramname"><em>vc</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>consider triangle 0bc, where a linear scalar field is defined in two points: v(0) = 0, v(b) = b; computes the field in c-point; returns false if field gradient enters c-point not from inside of the triangle Generated from function <span class="tt">MR::getFieldAtC</span>. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">c</span> can not be null. It is a single object. Parameter <span class="tt">vc</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="acf99680cd852e320d9031be69414c2b2" name="acf99680cd852e320d9031be69414c2b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf99680cd852e320d9031be69414c2b2">&#9670;&#160;</a></span>MR_less_MR_VertDistance()</h2>
 

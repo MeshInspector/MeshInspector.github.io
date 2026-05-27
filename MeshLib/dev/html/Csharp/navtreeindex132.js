@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"classMR_1_1TwoLineSegmClosestPoints__Float.html#ac47ba385cf1f85f0a224481aac7b0c82":[6,3,0,0,0,1653,4],
 "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html":[6,3,0,0,0,1654],
 "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a068847131e0b43dc245730c44827a267":[6,3,0,0,0,1654,25],
 "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a09bfab59967a01727247b54eb66b138f":[6,3,0,0,0,1654,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX132 =
 "classMR_1_1UndirectedEdgeSetBitIterator.html#a8762fad54da5994d1b9d7af95782ac3e":[6,3,0,0,0,1665,3],
 "classMR_1_1UndirectedEdgeSetBitIterator.html#a91b2b513a64a02b3d7532a3c8280592b":[6,3,0,0,0,1665,4],
 "classMR_1_1UndirectedEdgeSetBitIterator.html#a9b1a1aa02b3be65b3af062d8898cbf2d":[6,3,0,0,0,1665,0],
-"classMR_1_1UndirectedEdgeSetBitIterator.html#ac7a3fcf0989bcd598837def1ba22e884":[6,3,0,0,0,1665,1],
-"classMR_1_1UndirectedEdgeSetBitIterator.html#aca5fcfdf42a09a6ad3d8d7b9ff5ff204":[6,3,0,0,0,1665,5]
+"classMR_1_1UndirectedEdgeSetBitIterator.html#ac7a3fcf0989bcd598837def1ba22e884":[6,3,0,0,0,1665,1]
 };

@@ -2176,6 +2176,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.getFeatureNormal", "namespacemrmeshpy.html#a207b2296c723833f7462e0cb1d365513", null ],
     [ "mrmeshpy.getFeaturesTypeWithDirections", "namespacemrmeshpy.html#aa1d48a6701c8e5ab963d658c46bd0db2", null ],
     [ "mrmeshpy.getFeaturesTypeWithNormals", "namespacemrmeshpy.html#abbf29379489c9f10c53f4cacc48a1f5e", null ],
+    [ "mrmeshpy.getFieldAtC", "namespacemrmeshpy.html#a1864ecefa181058db2753009e2855c8a", null ],
     [ "mrmeshpy.getHoleFillPlan", "namespacemrmeshpy.html#aa682ddfb6121b893fdcbe3eed51d1076", null ],
     [ "mrmeshpy.getHoleFillPlans", "namespacemrmeshpy.html#add672a91f52087e9377b2e373d4196de", null ],
     [ "mrmeshpy.GetHomeDirectory", "namespacemrmeshpy.html#a4b59894bd9d5f956f35bc6825ac5ccd3", null ],

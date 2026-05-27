@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"classMR_1_1NormalsToPoints.html#a8494e08025e7ab1667a2b16b0d14fead":[6,3,0,0,0,1396,5],
 "classMR_1_1NormalsToPoints.html#ab504a2ac4cdbcfa35282cad8359543b6":[6,3,0,0,0,1396,1],
 "classMR_1_1NormalsToPoints.html#af03296d2cbd0f68e37a04665b7d11824":[6,3,0,0,0,1396,4],
 "classMR_1_1NormalsToPoints.html#af0ef4b1417f7e5fb4d3da37ed3bbd547":[6,3,0,0,0,1396,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "classMR_1_1ObjectDistanceMap.html#aeb4dd84b066d70c118b0d2009877994e":[6,3,0,0,0,1402,28],
 "classMR_1_1ObjectDistanceMap.html#aec09d05bf7651900d3833db0eacbe019":[6,3,0,0,0,1402,51],
 "classMR_1_1ObjectDistanceMap.html#aec75947ef6c04377ee8c6e94902a893b":[6,3,0,0,0,1402,69],
-"classMR_1_1ObjectDistanceMap.html#af0ea4db10446a26239c3b91c263e853a":[6,3,0,0,0,1402,15],
-"classMR_1_1ObjectDistanceMap.html#af347ef95f922c61f3b3cd30381ae1ecc":[6,3,0,0,0,1402,31]
+"classMR_1_1ObjectDistanceMap.html#af0ea4db10446a26239c3b91c263e853a":[6,3,0,0,0,1402,15]
 };

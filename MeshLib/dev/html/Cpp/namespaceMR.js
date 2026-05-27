@@ -2493,6 +2493,7 @@ var namespaceMR =
     [ "getFeatureNormal", "group__GeneralGroup.html#ga580cd76132a0024f0b6ff340cceec94e", null ],
     [ "getFeaturesTypeWithDirections", "group__GeneralGroup.html#ga6c5fffc5ac0116cdc082f529360d02b3", null ],
     [ "getFeaturesTypeWithNormals", "group__GeneralGroup.html#ga9afd7553d631902b64fd0b83afe94733", null ],
+    [ "getFieldAtC", "group__SurfaceDistanceBuilder.html#ga6dbea68a5e40bf1878ced341fab86b83", null ],
     [ "getFlatSubtrees", "group__GeneralGroup.html#gadb868a4d0ec15bc3b7720958a84c4748", null ],
     [ "GetFontsDirectory", "group__GeneralGroup.html#gab812bb28c9a48f871a645d626563c067", null ],
     [ "getFragmentShaderClippingBlock", "group__GeneralGroup.html#ga97e752a49fe4e2e3b65e9f915b122aca", null ],

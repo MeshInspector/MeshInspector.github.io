@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"classMR_1_1PixelBitSet.html#a1bb78593f5d6f94af7da675675207be8":[6,3,0,0,0,1452,13],
 "classMR_1_1PixelBitSet.html#a29831e5f85456749dc415d8d6223bbf6":[6,3,0,0,0,1452,18],
 "classMR_1_1PixelBitSet.html#a2b8bc3e524f0e413823bd0af746cbc81":[6,3,0,0,0,1452,36],
 "classMR_1_1PixelBitSet.html#a36bf739fab816b5af19b28ff20329c0f":[6,3,0,0,0,1452,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "classMR_1_1PlyLoadParams.html#a805e4f12f41cb08430a66ab6b059278f":[6,3,0,0,0,1459,7],
 "classMR_1_1PlyLoadParams.html#a85113be70f575948ee1e8c733070f18f":[6,3,0,0,0,1459,0],
 "classMR_1_1PlyLoadParams.html#aed2575a087d605888acfeaea623485e6":[6,3,0,0,0,1459,8],
-"classMR_1_1PlyLoadParams.html#afb7d527d754c3e240238e7a0c9d3bf1c":[6,3,0,0,0,1459,12],
-"classMR_1_1PlyLoadParams.html#afbf4b92bd5f2279ee9ab92dd293e35d7":[6,3,0,0,0,1459,1]
+"classMR_1_1PlyLoadParams.html#afb7d527d754c3e240238e7a0c9d3bf1c":[6,3,0,0,0,1459,12]
 };

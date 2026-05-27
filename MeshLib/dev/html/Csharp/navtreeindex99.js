@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"classMR_1_1EnumNeihbourVertices.html#a2eeb4e576ccf64f868dd58d3886a1253":[6,3,0,0,0,1138,5],
 "classMR_1_1EnumNeihbourVertices.html#a2fbccad24de8aa6adba0983ec987d2f3":[6,3,0,0,0,1138,0],
 "classMR_1_1EnumNeihbourVertices.html#a37e1beab4fc2ea96620b1d0c4a2779a0":[6,3,0,0,0,1138,1],
 "classMR_1_1EnumNeihbourVertices.html#a851e1076361fb8ec917add02ed772809":[6,3,0,0,0,1138,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX99 =
 "classMR_1_1FaceSetBitIterator.html#a76e31410796bbf2f51077fab355cad7a":[6,3,0,0,0,1151,6],
 "classMR_1_1FaceSetBitIterator.html#a79cded9a146482a3456f9a91be564df0":[6,3,0,0,0,1151,5],
 "classMR_1_1FaceSetBitIterator.html#a9774b4e76265fd909a79c8e4cb1dec73":[6,3,0,0,0,1151,1],
-"classMR_1_1FaceSetBitIterator.html#ae4da90c5d90adb6d3f2539b31f202423":[6,3,0,0,0,1151,0],
-"classMR_1_1FaceSetBitIterator.html#afc91e923aa86ad5e646b0bf17fba453f":[6,3,0,0,0,1151,4]
+"classMR_1_1FaceSetBitIterator.html#ae4da90c5d90adb6d3f2539b31f202423":[6,3,0,0,0,1151,0]
 };

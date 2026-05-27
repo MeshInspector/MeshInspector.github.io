@@ -1,7 +1,5 @@
 var NAVTREEINDEX55 =
 {
-"group__PointCloudGroup.html#gabbad18eed929fbd7bec2afad0b91541d":[6,0,0,12,12],
-"group__PointCloudGroup.html#gabc9d6a3d4680264055d93f5039ee962e":[6,0,0,12,10],
 "group__PointCloudGroup.html#gaccb668ec7a811b6c00bb5eda5f7fa8f3":[6,0,0,12,8],
 "group__PointCloudGroup.html#gad170a186634adcea1422a0bcb701584d":[6,0,0,12,4],
 "group__PointCloudGroup.html#gaf730c446bd16a9211e90506d85c35757":[6,0,0,12,18],
@@ -89,7 +87,8 @@ var NAVTREEINDEX55 =
 "group__SubvoxelMeshCorrection.html":[6,0,0,17,1],
 "group__SubvoxelMeshCorrection.html#ga1e8644361ce63a01cc5bf2f55019c438":[6,0,0,17,1,2],
 "group__SurfaceDistanceBuilder.html":[6,0,0,16,2],
-"group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[6,0,0,16,2,2],
+"group__SurfaceDistanceBuilder.html#ga6116f007cc43a35299cac2d382c9ba9e":[6,0,0,16,2,3],
+"group__SurfaceDistanceBuilder.html#ga6dbea68a5e40bf1878ced341fab86b83":[6,0,0,16,2,2],
 "group__SurfaceDistanceGroup.html":[6,0,0,16,1],
 "group__SurfaceDistanceGroup.html#ga2c99cd46ab5cd02f46716c347fc88048":[6,0,0,16,1,4],
 "group__SurfaceDistanceGroup.html#ga2f9c005e4a72a72f6625dc815b59cbe6":[6,0,0,16,1,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX55 =
 "group__TriangleIntersectionGroup.html#ga07dcacdb0aa89291cef5c6fa101029a0":[6,0,0,0,10,8],
 "group__TriangleIntersectionGroup.html#ga12874ed96dd226c86c9f430e0845eae8":[6,0,0,0,10,11],
 "group__TriangleIntersectionGroup.html#ga29e15a7eedf63140f179f6730b9ce2ec":[6,0,0,0,10,18],
-"group__TriangleIntersectionGroup.html#ga356b1104c8bddd98afba39fcbe5ee803":[6,0,0,0,10,4]
+"group__TriangleIntersectionGroup.html#ga356b1104c8bddd98afba39fcbe5ee803":[6,0,0,0,10,4],
+"group__TriangleIntersectionGroup.html#ga3835ac264c4e97d644c22d7412117309":[6,0,0,0,10,16]
 };

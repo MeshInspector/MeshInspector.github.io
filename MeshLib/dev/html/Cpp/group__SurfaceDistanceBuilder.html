@@ -154,9 +154,52 @@ Classes</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ga6116f007cc43a35299cac2d382c9ba9e" id="r_ga6116f007cc43a35299cac2d382c9ba9e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6116f007cc43a35299cac2d382c9ba9e">MR::operator&lt;</a> (const <a class="el" href="structMR_1_1VertDistance.html">VertDistance</a> &amp;a, const <a class="el" href="structMR_1_1VertDistance.html">VertDistance</a> &amp;b)</td></tr>
 <tr class="memdesc:ga6116f007cc43a35299cac2d382c9ba9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">smaller distance to be the first  <br /></td></tr>
+<tr class="memitem:ga6dbea68a5e40bf1878ced341fab86b83" id="r_ga6dbea68a5e40bf1878ced341fab86b83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6dbea68a5e40bf1878ced341fab86b83">MR::getFieldAtC</a> (const Vector3f &amp;b, const Vector3f &amp;c, float vb, float &amp;vc)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="ga6dbea68a5e40bf1878ced341fab86b83" name="ga6dbea68a5e40bf1878ced341fab86b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6dbea68a5e40bf1878ced341fab86b83">&#9670;&#160;</a></span>getFieldAtC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::getFieldAtC </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>vb</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>vc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRSurfaceDistanceBuilder_8h.html">MRMesh/MRSurfaceDistanceBuilder.h</a>&gt;</code></p>
+<p>consider triangle 0bc, where a linear scalar field is defined in two points: v(0) = 0, v(b) = b; computes the field in c-point; returns false if field gradient enters c-point not from inside of the triangle </p>
+
+</div>
+</div>
 <a id="ga6116f007cc43a35299cac2d382c9ba9e" name="ga6116f007cc43a35299cac2d382c9ba9e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga6116f007cc43a35299cac2d382c9ba9e">&#9670;&#160;</a></span>operator&lt;()</h2>
 
