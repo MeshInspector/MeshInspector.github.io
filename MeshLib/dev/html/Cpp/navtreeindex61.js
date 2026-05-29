@@ -1,7 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"structMR_1_1FindProjectionOnPointsSettings.html#a51086d69676631deb69313f75b2d8379":[6,0,0,1,29,3],
-"structMR_1_1FindProjectionOnPointsSettings.html#aa4d8d3a3b0dac4b24f0e182945040220":[6,0,0,1,29,0],
 "structMR_1_1FindProjectionOnPointsSettings.html#ad8f6c40c1465fcd41082510e2022e694":[6,0,0,1,29,5],
 "structMR_1_1FitBoxParams.html":[6,0,0,20,569],
 "structMR_1_1FitDataParams.html":[6,0,0,20,568],
@@ -249,5 +247,7 @@ var NAVTREEINDEX61 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a5dd25c864ad33b95fc71a3f2143422b2":[6,0,2,0,2,7,9,0,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a84ce838af9b949725c6d6a069c819a8c":[6,0,1,0,1,16,9,0,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a84ce838af9b949725c6d6a069c819a8c":[6,0,2,0,2,7,9,0,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html":[6,0,1,0,1,16,10]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html":[6,0,1,0,1,16,10],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html":[6,0,2,0,2,7,10],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a0467e33917e5704b03812a76329a57f9":[6,0,1,0,1,16,10,12]
 };

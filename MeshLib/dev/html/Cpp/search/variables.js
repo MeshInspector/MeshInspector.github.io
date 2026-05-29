@@ -561,7 +561,7 @@ var searchData=
   ['deadzonepixelradius_5f_6',['deadZonePixelRadius_',['../group__GeneralGroup.html#gada61b8ab8617465251bf6b1f36c1d782',1,'MR::MoveObjectByMouseImpl']]],
   ['decimate_7',['decimate',['../structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html#a23e21cd3fa7230a5847e45b9d3d9c99a',1,'MR::FillingSurface::TPMS::MeshParams::decimate'],['../group__GeneralGroup.html#ga6e10f1d5847ddc2cb5de056bf3031453',1,'MR::RebuildMeshSettings::decimate'],['../group__GeneralGroup.html#ga68c5ac664611ddc71939e4e09e549fde',1,'MR::MeshFromVoxelsPostProcessingParams::decimate']]],
   ['decimatebetweenparts_8',['decimateBetweenParts',['../structMR_1_1DecimateSettings.html#a75b6f5ba5cb1ddac954f9ffd4fb9b7fe',1,'MR::DecimateSettings']]],
-  ['decimateslices_9',['decimateSlices',['../group__GeneralGroup.html#ga5b52bac38e502e055d9723aeb71e00dc',1,'MR::Nesting::Nesting3mfParams']]],
+  ['decimatemaxerror_9',['decimateMaxError',['../group__GeneralGroup.html#gaf3032d52bc7a38384a85315c9e82a4e6',1,'MR::Nesting::Nesting3mfParams']]],
   ['decoration_10',['decoration',['../structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#ac337c328d1e23a188ffa5660266acf20',1,'MR::ImGuiMeasurementIndicators::LineCap']]],
   ['decorationformatstring_11',['decorationFormatString',['../group__GeneralGroup.html#ga7154a0976d68f4cf955516bbd1e8c3db',1,'MR::UnitToStringParams']]],
   ['decorationscolor_5f_12',['decorationsColor_',['../group__GeneralGroup.html#ga1c8e2cd4e02b32ce6329d8a44ab727c6',1,'MR::FeatureObject']]],

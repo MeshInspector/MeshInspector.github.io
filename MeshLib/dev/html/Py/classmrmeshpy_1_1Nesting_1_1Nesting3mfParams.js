@@ -2,9 +2,9 @@ var classmrmeshpy_1_1Nesting_1_1Nesting3mfParams =
 [
     [ "__init__", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#a58d3d6bcd8346259462a85c2398e6e5e", null ],
     [ "__init__", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#ac32f17d31eb9aa321eb77c931608d906", null ],
-    [ "__init__", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#a8d552d2bbc769c428747f7faf186a5b1", null ],
-    [ "decimateSlices", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#ae3b7d18dc515aab5fe5876781028425a", null ],
-    [ "decimateSlices", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#adec4a6fbf5833887eecf401f3ce1f7a5", null ],
+    [ "__init__", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#a61ab60d9c4b34a3ea180533fc02e2fc5", null ],
+    [ "decimateMaxError", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#a60c239463bebbaffb5ebbad9e1e0309c", null ],
+    [ "decimateMaxError", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#ad1227f9c1dedb897ba1855af4a895d62", null ],
     [ "image", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#a2acc9b85f0fc8e0ec3e5683d533205ca", null ],
     [ "image", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#af3882426fb9dd9e1115201fc715d83b0", null ],
     [ "meshes", "classmrmeshpy_1_1Nesting_1_1Nesting3mfParams.html#ac18c3ae2f9c4009342afbf0236ef843a", null ],

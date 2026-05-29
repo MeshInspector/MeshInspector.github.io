@@ -18,12 +18,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37630" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37630" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1ac812355736e27923491feefd039a408b" prot="protected" static="yes" mutable="no">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a91f783ce839cecca5dc1d87ccb80b0f3" prot="protected" static="yes" mutable="no">
         <type>typing</type>
-        <definition>typing mrmeshpy.Nesting.Nesting3mfParams::_offsetof_decimateSlices</definition>
+        <definition>typing mrmeshpy.Nesting.Nesting3mfParams::_offsetof_decimateMaxError</definition>
         <argsstring></argsstring>
-        <name>_offsetof_decimateSlices</name>
-        <qualifiedname>mrmeshpy.Nesting.Nesting3mfParams._offsetof_decimateSlices</qualifiedname>
+        <name>_offsetof_decimateMaxError</name>
+        <qualifiedname>mrmeshpy.Nesting.Nesting3mfParams._offsetof_decimateMaxError</qualifiedname>
         <initializer>=  28</initializer>
         <briefdescription>
         </briefdescription>
@@ -220,10 +220,10 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37654" bodyend="37657"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a8d552d2bbc769c428747f7faf186a5b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a61ab60d9c4b34a3ea180533fc02e2fc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.Nesting.Nesting3mfParams.__init__</definition>
-        <argsstring>(self, Vector_Nesting_MeshXf_ObjId meshes, float zStep, bool decimateSlices, Image image, std_vector_Image meshImages, std_vector_std_string meshNames, func_bool_from_float cb)</argsstring>
+        <argsstring>(self, Vector_Nesting_MeshXf_ObjId meshes, float zStep, float decimateMaxError, Image image, std_vector_Image meshImages, std_vector_std_string meshNames, func_bool_from_float cb)</argsstring>
         <name>__init__</name>
         <qualifiedname>mrmeshpy.Nesting.Nesting3mfParams.__init__</qualifiedname>
         <param>
@@ -239,8 +239,8 @@
           <declname>zStep</declname>
         </param>
         <param>
-          <type>bool</type>
-          <declname>decimateSlices</declname>
+          <type>float</type>
+          <declname>decimateMaxError</declname>
         </param>
         <param>
           <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
@@ -268,12 +268,12 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37659" bodyend="37662"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1ae3b7d18dc515aab5fe5876781028425a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition> bool mrmeshpy.Nesting.Nesting3mfParams.decimateSlices</definition>
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a60c239463bebbaffb5ebbad9e1e0309c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Nesting.Nesting3mfParams.decimateMaxError</definition>
         <argsstring>(self)</argsstring>
-        <name>decimateSlices</name>
-        <qualifiedname>mrmeshpy.Nesting.Nesting3mfParams.decimateSlices</qualifiedname>
+        <name>decimateMaxError</name>
+        <qualifiedname>mrmeshpy.Nesting.Nesting3mfParams.decimateMaxError</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -281,25 +281,26 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>if set: decimate slices
+<para><verbatim>max error for slice decimation:
+0 - no decimation, &gt;0 - used directly as the slice decimation max error
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37664" bodyend="37667"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37664" bodyend="37668"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1adec4a6fbf5833887eecf401f3ce1f7a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1ad1227f9c1dedb897ba1855af4a895d62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
-        <definition> None mrmeshpy.Nesting.Nesting3mfParams.decimateSlices</definition>
-        <argsstring>(self, bool arg1)</argsstring>
-        <name>decimateSlices</name>
-        <qualifiedname>mrmeshpy.Nesting.Nesting3mfParams.decimateSlices</qualifiedname>
+        <definition> None mrmeshpy.Nesting.Nesting3mfParams.decimateMaxError</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>decimateMaxError</name>
+        <qualifiedname>mrmeshpy.Nesting.Nesting3mfParams.decimateMaxError</qualifiedname>
         <param>
           <type>self</type>
           <defname>self</defname>
         </param>
         <param>
-          <type>bool</type>
+          <type>float</type>
           <declname>arg1</declname>
         </param>
         <briefdescription>
@@ -308,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37669" bodyend="37670"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37670" bodyend="37671"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a2acc9b85f0fc8e0ec3e5683d533205ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
@@ -328,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37672" bodyend="37675"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37673" bodyend="37676"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1af3882426fb9dd9e1115201fc715d83b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -350,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37677" bodyend="37678"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37678" bodyend="37679"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a73cec63cded5461d4c766b8faa4900af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__Image" kindref="compound">std_vector_Image</ref></type>
@@ -370,7 +371,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37680" bodyend="37683"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37681" bodyend="37684"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a38deba9377af8a83fe739871a2bc555a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -392,7 +393,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37685" bodyend="37686"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37686" bodyend="37687"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1aabf4d28d3e03799276e7dddb190ab6e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
@@ -412,7 +413,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37688" bodyend="37691"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37689" bodyend="37692"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1ae07a42471baf7230175e73d0a288569a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -434,7 +435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37693" bodyend="37694"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37694" bodyend="37695"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1ac18c3ae2f9c4009342afbf0236ef843a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Vector__Nesting__MeshXf__ObjId" kindref="compound">Vector_Nesting_MeshXf_ObjId</ref></type>
@@ -454,7 +455,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37696" bodyend="37699"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37697" bodyend="37700"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1adc7760054d2f52e2aabfd790f66f66b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -476,7 +477,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37701" bodyend="37702"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37702" bodyend="37703"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1aec3d10e4c91ded5f29924baabf609893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -496,7 +497,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37704" bodyend="37707"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37705" bodyend="37708"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1ada61b5fb64c17a29db0978ad587b80b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -518,7 +519,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37709" bodyend="37711"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37710" bodyend="37712"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -527,21 +528,21 @@
 <para><verbatim>Generated from:  MR::Nesting::Nesting3mfParams
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37626" bodyend="37710"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37626" bodyend="37711"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1abb6c28c63f7c547122d9589b46ee33e9" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a58d3d6bcd8346259462a85c2398e6e5e" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1ac32f17d31eb9aa321eb77c931608d906" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a8d552d2bbc769c428747f7faf186a5b1" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a61ab60d9c4b34a3ea180533fc02e2fc5" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1ab7dbd9960fc5748b8286b47e5b838705" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>_offsetof_cb</name></member>
-      <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1ac812355736e27923491feefd039a408b" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>_offsetof_decimateSlices</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a91f783ce839cecca5dc1d87ccb80b0f3" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>_offsetof_decimateMaxError</name></member>
       <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a6f10d23fe5f73a80be0ce23fcef6484a" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>_offsetof_image</name></member>
       <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1af70a58d82c896438a6631264c3db0291" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>_offsetof_meshes</name></member>
       <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a6b27274a899f75e544a950661de45aaf" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>_offsetof_meshImages</name></member>
       <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a5c287e9e720a480fe2550454d8c03277" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>_offsetof_meshNames</name></member>
       <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1ab59eeba514452691c2ee8dd53f2977f4" prot="protected" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>_offsetof_zStep</name></member>
-      <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1ae3b7d18dc515aab5fe5876781028425a" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>decimateSlices</name></member>
-      <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1adec4a6fbf5833887eecf401f3ce1f7a5" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>decimateSlices</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a60c239463bebbaffb5ebbad9e1e0309c" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>decimateMaxError</name></member>
+      <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1ad1227f9c1dedb897ba1855af4a895d62" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>decimateMaxError</name></member>
       <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1a2acc9b85f0fc8e0ec3e5683d533205ca" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>image</name></member>
       <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1af3882426fb9dd9e1115201fc715d83b0" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>image</name></member>
       <member refid="classmrmeshpy_1_1Nesting_1_1Nesting3mfParams_1ac18c3ae2f9c4009342afbf0236ef843a" prot="public" virt="non-virtual"><scope>mrmeshpy::Nesting::Nesting3mfParams</scope><name>meshes</name></member>

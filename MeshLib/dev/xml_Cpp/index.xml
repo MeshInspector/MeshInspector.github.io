@@ -6283,7 +6283,7 @@
   <compound refid="structMR_1_1Nesting_1_1Nesting3mfParams" kind="struct"><name>MR::Nesting::Nesting3mfParams</name>
     <member refid="group__GeneralGroup_1ga9a2234e0b12e4618ece1508effa2cec6" kind="variable"><name>meshes</name></member>
     <member refid="group__GeneralGroup_1gab78cb7930d69ef6f6248ec6771a773a1" kind="variable"><name>zStep</name></member>
-    <member refid="group__GeneralGroup_1ga5b52bac38e502e055d9723aeb71e00dc" kind="variable"><name>decimateSlices</name></member>
+    <member refid="group__GeneralGroup_1gaf3032d52bc7a38384a85315c9e82a4e6" kind="variable"><name>decimateMaxError</name></member>
     <member refid="group__GeneralGroup_1ga179f55d3f02d33ecd0972fef9d8bad3b" kind="variable"><name>image</name></member>
     <member refid="group__GeneralGroup_1ga036d39a1112ad2e6876d17be6e55e04b" kind="variable"><name>meshImages</name></member>
     <member refid="group__GeneralGroup_1gaa9d1ae0ea02654bfeb879241c14d7faf" kind="variable"><name>meshNames</name></member>
@@ -17920,8 +17920,6 @@
   </compound>
   <compound refid="MRDirectionWidget_8h" kind="file"><name>MRDirectionWidget.h</name>
   </compound>
-  <compound refid="MRDragDropCocoaHandler_8h" kind="file"><name>MRDragDropCocoaHandler.h</name>
-  </compound>
   <compound refid="MRDragDropHandler_8h" kind="file"><name>MRDragDropHandler.h</name>
   </compound>
   <compound refid="MRDragDropWin32Handler_8h" kind="file"><name>MRDragDropWin32Handler.h</name>
@@ -21282,7 +21280,7 @@
     <member refid="group__GeneralGroup_1ga5f613f44fae6b6a33f13f57fc0161a01" kind="variable"><name>comment</name></member>
     <member refid="group__GeneralGroup_1ga9a2234e0b12e4618ece1508effa2cec6" kind="variable"><name>meshes</name></member>
     <member refid="group__GeneralGroup_1gab78cb7930d69ef6f6248ec6771a773a1" kind="variable"><name>zStep</name></member>
-    <member refid="group__GeneralGroup_1ga5b52bac38e502e055d9723aeb71e00dc" kind="variable"><name>decimateSlices</name></member>
+    <member refid="group__GeneralGroup_1gaf3032d52bc7a38384a85315c9e82a4e6" kind="variable"><name>decimateMaxError</name></member>
     <member refid="group__GeneralGroup_1ga179f55d3f02d33ecd0972fef9d8bad3b" kind="variable"><name>image</name></member>
     <member refid="group__GeneralGroup_1ga036d39a1112ad2e6876d17be6e55e04b" kind="variable"><name>meshImages</name></member>
     <member refid="group__GeneralGroup_1gaa9d1ae0ea02654bfeb879241c14d7faf" kind="variable"><name>meshNames</name></member>

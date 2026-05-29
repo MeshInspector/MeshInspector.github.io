@@ -266,7 +266,7 @@ var group__GeneralGroup =
     ] ],
     [ "MR::Nesting::Nesting3mfParams", "structMR_1_1Nesting_1_1Nesting3mfParams.html", [
       [ "cb", "group__GeneralGroup.html#ga2808d219eb445397b22f5950659e0561", null ],
-      [ "decimateSlices", "group__GeneralGroup.html#ga5b52bac38e502e055d9723aeb71e00dc", null ],
+      [ "decimateMaxError", "group__GeneralGroup.html#gaf3032d52bc7a38384a85315c9e82a4e6", null ],
       [ "image", "group__GeneralGroup.html#ga179f55d3f02d33ecd0972fef9d8bad3b", null ],
       [ "meshes", "group__GeneralGroup.html#ga9a2234e0b12e4618ece1508effa2cec6", null ],
       [ "meshImages", "group__GeneralGroup.html#ga036d39a1112ad2e6876d17be6e55e04b", null ],
@@ -16633,7 +16633,7 @@ var group__GeneralGroup =
     [ "MR::MoveObjectByMouseImpl::deadZonePixelRadius_", "group__GeneralGroup.html#gada61b8ab8617465251bf6b1f36c1d782", null ],
     [ "MR::MeshFromVoxelsPostProcessingParams::decimate", "group__GeneralGroup.html#ga68c5ac664611ddc71939e4e09e549fde", null ],
     [ "MR::RebuildMeshSettings::decimate", "group__GeneralGroup.html#ga6e10f1d5847ddc2cb5de056bf3031453", null ],
-    [ "MR::Nesting::Nesting3mfParams::decimateSlices", "group__GeneralGroup.html#ga5b52bac38e502e055d9723aeb71e00dc", null ],
+    [ "MR::Nesting::Nesting3mfParams::decimateMaxError", "group__GeneralGroup.html#gaf3032d52bc7a38384a85315c9e82a4e6", null ],
     [ "MR::UnitToStringParams::decorationFormatString", "group__GeneralGroup.html#ga7154a0976d68f4cf955516bbd1e8c3db", null ],
     [ "MR::FeatureObject::decorationsColor_", "group__GeneralGroup.html#ga1c8e2cd4e02b32ce6329d8a44ab727c6", null ],
     [ "MR::Palette::DefaultColors", "group__GeneralGroup.html#gabfdf377e10c2bf0babc22965290920cb", null ],
