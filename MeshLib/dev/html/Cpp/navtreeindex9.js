@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"classMR_1_1Mcp_1_1Server.html#aaf379de21838d3f144e6dde8ce9936ba":[6,0,1,0,1,21,1,7],
+"classMR_1_1Mcp_1_1Server.html#aaf379de21838d3f144e6dde8ce9936ba":[6,0,2,0,2,10,1,7],
 "classMR_1_1Mcp_1_1Server.html#ae6008d565f2f5a971a3694f196f7ebe9":[6,0,1,0,1,21,1,13],
 "classMR_1_1Mcp_1_1Server.html#ae6008d565f2f5a971a3694f196f7ebe9":[6,0,2,0,2,10,1,13],
 "classMR_1_1Mcp_1_1Server.html#aeeedc6adfa01a6470b40aa229a8f6522":[6,0,1,0,1,21,1,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html":[6,0,0,20,712],
 "classMR_1_1PluginUpdateOnChangeMeshPart.html":[6,0,0,20,714],
 "classMR_1_1PluginUpdateOr.html":[6,0,0,20,717],
-"classMR_1_1PointAccumulator.html":[6,0,0,0,1,0],
-"classMR_1_1PointAccumulator.html#a1796a9a708940c023b28e492508dbc64":[6,0,0,0,1,0,5],
-"classMR_1_1PointAccumulator.html#a2f5614b00ab9f0a3e993de5c7762aed4":[6,0,0,0,1,0,0]
+"classMR_1_1PointAccumulator.html":[6,0,0,0,1,0]
 };
