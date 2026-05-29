@@ -20,7 +20,6 @@ var dir_9f7f527b3d798641b224411d64f042be =
     [ "MRDemoPlugin.h", "MRDemoPlugin_8h.html", "MRDemoPlugin_8h" ],
     [ "MRDepthPeelingGL.h", "MRDepthPeelingGL_8h.html", null ],
     [ "MRDirectionWidget.h", "MRDirectionWidget_8h.html", null ],
-    [ "MRDragDropCocoaHandler.h", "MRDragDropCocoaHandler_8h.html", null ],
     [ "MRDragDropHandler.h", "MRDragDropHandler_8h.html", "MRDragDropHandler_8h" ],
     [ "MRDragDropWin32Handler.h", "MRDragDropWin32Handler_8h.html", null ],
     [ "MRFileDialog.h", "MRFileDialog_8h.html", "MRFileDialog_8h" ],

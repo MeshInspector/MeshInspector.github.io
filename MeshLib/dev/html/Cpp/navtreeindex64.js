@@ -1,7 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"structMR_1_1MeshNormals.html#a9a227c6a8fb08eab31f2c5f3a8b86a27":[6,0,0,9,5,0,1],
-"structMR_1_1MeshOrPointsXf.html":[6,0,0,20,346],
 "structMR_1_1MeshOrPoints_1_1ProjectionResult.html":[6,0,0,20,345],
 "structMR_1_1MeshPoint.html":[6,0,0,20,350],
 "structMR_1_1MeshPointAndDistance.html":[6,0,0,20,154],
@@ -249,5 +247,7 @@ var NAVTREEINDEX64 =
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[6,0,1,0,1,35,1,0],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#a78c9aa18106b86c2d1fb9c2434889ab2":[6,0,2,0,2,22,1,0],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,1,0,1,35,1,1],
-"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,2,0,2,22,1,1]
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,2,0,2,22,1,1],
+"structMR_1_1PointsLoad_1_1PointsLoader.html":[6,0,1,0,1,35,2],
+"structMR_1_1PointsLoad_1_1PointsLoader.html":[6,0,2,0,2,22,2]
 };

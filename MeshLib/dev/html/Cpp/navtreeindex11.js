@@ -1,7 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"classMR_1_1RibbonSceneObjectsListDrawer.html":[6,0,0,20,666],
-"classMR_1_1RibbonSceneRemoveSelected.html":[6,0,0,20,73],
 "classMR_1_1RibbonSceneRename.html":[6,0,0,20,72],
 "classMR_1_1RibbonSceneSelectAll.html":[6,0,0,20,66],
 "classMR_1_1RibbonSceneShowAll.html":[6,0,0,20,68],
@@ -249,5 +247,7 @@ var NAVTREEINDEX11 =
 "classMR_1_1UI_1_1RectAllocator.html":[6,0,2,0,2,33,12],
 "classMR_1_1UI_1_1RectAllocator.html#a0c0e4459ae9255dde41c3c2e216999a3":[6,0,1,0,1,49,14,1],
 "classMR_1_1UI_1_1RectAllocator.html#a0c0e4459ae9255dde41c3c2e216999a3":[6,0,2,0,2,33,12,1],
-"classMR_1_1UI_1_1RectAllocator.html#a14c55972c4fd972771c486cb49eab847":[6,0,1,0,1,49,14,2]
+"classMR_1_1UI_1_1RectAllocator.html#a14c55972c4fd972771c486cb49eab847":[6,0,1,0,1,49,14,2],
+"classMR_1_1UI_1_1RectAllocator.html#a14c55972c4fd972771c486cb49eab847":[6,0,2,0,2,33,12,2],
+"classMR_1_1UI_1_1RectAllocator.html#a32b67d79c518828ebf2d8d14047c42f2":[6,0,1,0,1,49,14,3]
 };
