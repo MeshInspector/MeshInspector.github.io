@@ -2226,9 +2226,11 @@
     <member refid="group__GeneralGroup_1ga1e498975d50ae1790f29c924362e4261" kind="variable"><name>cont2mesh</name></member>
   </compound>
   <compound refid="structMR_1_1CutMeshParameters" kind="struct"><name>MR::CutMeshParameters</name>
+    <member refid="group__GeneralGroup_1gaeff0ac5efee98dc8fae00a68075ed50f" kind="enum"><name>FillPart</name></member>
     <member refid="group__GeneralGroup_1gae51d141aa40e0f91506f4921b6797a33" kind="enum"><name>ForceFill</name></member>
     <member refid="group__GeneralGroup_1ga3aaef62dde9c7e4727195071089e409f" kind="variable"><name>sortData</name></member>
     <member refid="group__GeneralGroup_1ga75222f670fe00aaef7a945b8ccbb3ea9" kind="variable"><name>new2OldMap</name></member>
+    <member refid="group__GeneralGroup_1ga50cdc033923c50b23668a35a7b9e0e27" kind="variable"><name>Both</name></member>
     <member refid="group__GeneralGroup_1ga4c3c99dc26d25d555e9ebf6c6dfc5cbf" kind="variable"><name>None</name></member>
     <member refid="group__GeneralGroup_1gae4b1e4cc599311ec4eaa5e0d7f90518b" kind="variable"><name>new2oldEdgesMap</name></member>
   </compound>
@@ -11801,7 +11803,6 @@
     <member refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kind="function"><name>size</name></member>
     <member refid="group__GeneralGroup_1ga6a74089f75f3b88edf1a6fb0beba1e13" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" kind="function"><name>unite</name></member>
-    <member refid="group__GeneralGroup_1gafc7cf2a20d6a790fde152f300217f16f" kind="function"><name>uniteAtomic</name></member>
     <member refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" kind="function"><name>united</name></member>
     <member refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" kind="function"><name>isRoot</name></member>
     <member refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" kind="function"><name>parent</name></member>
@@ -11811,13 +11812,9 @@
     <member refid="group__GeneralGroup_1gaddfb36167fbd876c96379b175c755a5b" kind="function"><name>parents</name></member>
     <member refid="group__GeneralGroup_1ga009ad612aecca5afb9b91768536c406f" kind="function"><name>sizeOfComp</name></member>
     <member refid="group__GeneralGroup_1ga6999428ebe2645b250dfe6cf51038735" kind="function"><name>findRootNoUpdate_</name></member>
-    <member refid="group__GeneralGroup_1gaa92bca6851d33bb218ea0843f90c61e6" kind="function"><name>findAtomic_</name></member>
     <member refid="group__GeneralGroup_1ga797743a9600c69d6615d32c970c89f96" kind="function"><name>updateRoot_</name></member>
     <member refid="group__GeneralGroup_1ga43bbe8cb9f207115aca9f60ff07ba132" kind="function"><name>updateRoot_</name></member>
     <member refid="group__GeneralGroup_1gabcac94e459f2fffa4c01f3e406bf184f" kind="function"><name>updateRootInRange_</name></member>
-    <member refid="group__GeneralGroup_1ga56fc516698b590a43c8eb5e3c09c5a52" kind="function"><name>loadAtomic_</name></member>
-    <member refid="group__GeneralGroup_1gad632d6a51e9e6206fbd93bf70cf6785a" kind="function"><name>halveAtomic_</name></member>
-    <member refid="group__GeneralGroup_1gaca93af5251f168d03ccf807f0f187a84" kind="function"><name>casAtomic_</name></member>
   </compound>
   <compound refid="structMR_1_1UniquePtr" kind="struct"><name>MR::UniquePtr</name>
     <member refid="group__GeneralGroup_1gaaf1504c1a8adb3c65e6501508c18f9ad" kind="function"><name>UniquePtr</name></member>
@@ -19914,6 +19911,10 @@
     <member refid="group__GeneralGroup_1gga0ec93e9fcfd4b11654579d65e255bb7da966805730aa004c013d26ce8985852a7" kind="enumvalue"><name>ApproximationPCM</name></member>
     <member refid="group__GeneralGroup_1gga0ec93e9fcfd4b11654579d65e255bb7da1a4728573c55a3c1ceca7af11776f64b" kind="enumvalue"><name>HemisphereSearchFit</name></member>
     <member refid="group__GeneralGroup_1gga0ec93e9fcfd4b11654579d65e255bb7da2c0500afc7ff11f210c486fe633f3384" kind="enumvalue"><name>SpecificAxisFit</name></member>
+    <member refid="group__GeneralGroup_1gaeff0ac5efee98dc8fae00a68075ed50f" kind="enum"><name>FillPart</name></member>
+    <member refid="group__GeneralGroup_1ggaeff0ac5efee98dc8fae00a68075ed50fa130c5b3473c57faa76e2a1c54e26f88e" kind="enumvalue"><name>Both</name></member>
+    <member refid="group__GeneralGroup_1ggaeff0ac5efee98dc8fae00a68075ed50fa945d5e233cf7d6240f6b783b36a374ff" kind="enumvalue"><name>Left</name></member>
+    <member refid="group__GeneralGroup_1ggaeff0ac5efee98dc8fae00a68075ed50fa92b09c7c48c520c3c55e497875da437c" kind="enumvalue"><name>Right</name></member>
     <member refid="group__GeneralGroup_1gae51d141aa40e0f91506f4921b6797a33" kind="enum"><name>ForceFill</name></member>
     <member refid="group__GeneralGroup_1ggae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754" kind="enumvalue"><name>None</name></member>
     <member refid="group__GeneralGroup_1ggae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc" kind="enumvalue"><name>Good</name></member>
@@ -21551,6 +21552,7 @@
     <member refid="group__GeneralGroup_1ga1d44ed6247b64a9007baa4bbbf2903aa" kind="variable"><name>map</name></member>
     <member refid="group__GeneralGroup_1ga3aaef62dde9c7e4727195071089e409f" kind="variable"><name>sortData</name></member>
     <member refid="group__GeneralGroup_1ga75222f670fe00aaef7a945b8ccbb3ea9" kind="variable"><name>new2OldMap</name></member>
+    <member refid="group__GeneralGroup_1ga50cdc033923c50b23668a35a7b9e0e27" kind="variable"><name>Both</name></member>
     <member refid="group__GeneralGroup_1ga4c3c99dc26d25d555e9ebf6c6dfc5cbf" kind="variable"><name>None</name></member>
     <member refid="group__GeneralGroup_1gae4b1e4cc599311ec4eaa5e0d7f90518b" kind="variable"><name>new2oldEdgesMap</name></member>
     <member refid="group__GeneralGroup_1ga5fd92baa79aac5e503e3310ab91fb400" kind="variable"><name>resultCut</name></member>
@@ -27952,7 +27954,6 @@
     <member refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kind="function"><name>size</name></member>
     <member refid="group__GeneralGroup_1ga6a74089f75f3b88edf1a6fb0beba1e13" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" kind="function"><name>unite</name></member>
-    <member refid="group__GeneralGroup_1gafc7cf2a20d6a790fde152f300217f16f" kind="function"><name>uniteAtomic</name></member>
     <member refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" kind="function"><name>united</name></member>
     <member refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" kind="function"><name>isRoot</name></member>
     <member refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" kind="function"><name>parent</name></member>
@@ -27962,10 +27963,6 @@
     <member refid="group__GeneralGroup_1gaddfb36167fbd876c96379b175c755a5b" kind="function"><name>parents</name></member>
     <member refid="group__GeneralGroup_1ga009ad612aecca5afb9b91768536c406f" kind="function"><name>sizeOfComp</name></member>
     <member refid="group__GeneralGroup_1ga6999428ebe2645b250dfe6cf51038735" kind="function"><name>findRootNoUpdate_</name></member>
-    <member refid="group__GeneralGroup_1ga56fc516698b590a43c8eb5e3c09c5a52" kind="function"><name>loadAtomic_</name></member>
-    <member refid="group__GeneralGroup_1gad632d6a51e9e6206fbd93bf70cf6785a" kind="function"><name>halveAtomic_</name></member>
-    <member refid="group__GeneralGroup_1gaca93af5251f168d03ccf807f0f187a84" kind="function"><name>casAtomic_</name></member>
-    <member refid="group__GeneralGroup_1gaa92bca6851d33bb218ea0843f90c61e6" kind="function"><name>findAtomic_</name></member>
     <member refid="group__GeneralGroup_1ga797743a9600c69d6615d32c970c89f96" kind="function"><name>updateRoot_</name></member>
     <member refid="group__GeneralGroup_1ga43bbe8cb9f207115aca9f60ff07ba132" kind="function"><name>updateRoot_</name></member>
     <member refid="group__GeneralGroup_1gabcac94e459f2fffa4c01f3e406bf184f" kind="function"><name>updateRootInRange_</name></member>

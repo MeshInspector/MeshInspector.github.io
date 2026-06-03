@@ -183,29 +183,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="202" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="202" bodyend="207"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1UnionFind__MRFaceId_1a4d0eb97a2debc1b845229b067ee48208" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe void</type>
-        <definition>unsafe void MR.UnionFind_MRFaceId.uniteAtomic</definition>
-        <argsstring>(MR.FaceId first, MR.FaceId second)</argsstring>
-        <name>uniteAtomic</name>
-        <qualifiedname>MR.UnionFind_MRFaceId.uniteAtomic</qualifiedname>
-        <param>
-          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
-          <declname>first</declname>
-        </param>
-        <param>
-          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
-          <declname>second</declname>
-        </param>
-        <briefdescription>
-<para>thread-safe version of <ref refid="classMR_1_1UnionFind__MRFaceId_1a113b9ad6867f881b1309ff7adcaad1fc" kindref="member">unite()</ref> for parallel construction of the structure: links by element id (the smaller id becomes the common root) using lock-free path halving; unlike <ref refid="classMR_1_1UnionFind__MRFaceId_1a113b9ad6867f881b1309ff7adcaad1fc" kindref="member">unite()</ref> it does NOT maintain component sizes, so <ref refid="classMR_1_1UnionFind__MRFaceId_1a4c58aa667831be9341c1534e493a585e" kindref="member">sizeOfComp()</ref> is invalid after any <ref refid="classMR_1_1UnionFind__MRFaceId_1a4d0eb97a2debc1b845229b067ee48208" kindref="member">uniteAtomic()</ref> call Generated from method <computeroutput>MR::UnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1UnionFind__MRFaceId_1a4d0eb97a2debc1b845229b067ee48208" kindref="member">uniteAtomic</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="215" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="215" bodyend="220"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1_1UnionFind__MRFaceId_1a86e7404b5383e17d9880a9a1dae843f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe bool</type>
         <definition>unsafe bool MR.UnionFind_MRFaceId.united</definition>
@@ -227,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="226" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="226" bodyend="231"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="213" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="213" bodyend="218"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UnionFind__MRFaceId_1a6820615cc51262526e5f784e730a0f70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -246,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="237" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="237" bodyend="242"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="224" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="224" bodyend="229"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UnionFind__MRFaceId_1a0eeee2fbaeaedea8faaadf6703cb52d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
@@ -273,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="248" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="248" bodyend="253"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="235" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="235" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UnionFind__MRFaceId_1a3d7068137d10204cdac1179dfeaf96d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref></type>
@@ -288,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="259" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="259" bodyend="264"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="246" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="246" bodyend="251"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1UnionFind__MRFaceId_1a4c58aa667831be9341c1534e493a585e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe int</type>
@@ -307,7 +284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="270" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="270" bodyend="275"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="257" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="257" bodyend="262"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -369,7 +346,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="128" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="129" bodyend="276"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="128" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="129" bodyend="263"/>
     <listofallmembers>
       <member refid="classMR_1_1UnionFind__MRFaceId_1ad88b1b48d71b246631b6f3ac31c42b66" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__UnionFind__MRFaceId_1a3fbd39ff4fcaa8c22c423fe7b0f948ba" prot="package" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>Const_UnionFind_MRFaceId</name></member>
@@ -396,7 +373,6 @@
       <member refid="classMR_1_1UnionFind__MRFaceId_1aea63b4ae68f8d2dba2324cb7b4306598" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>UnionFind_MRFaceId</name></member>
       <member refid="classMR_1_1UnionFind__MRFaceId_1a4a11d725d28348c1b958c0bb1e3405c2" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>UnionFind_MRFaceId</name></member>
       <member refid="classMR_1_1UnionFind__MRFaceId_1a113b9ad6867f881b1309ff7adcaad1fc" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>unite</name></member>
-      <member refid="classMR_1_1UnionFind__MRFaceId_1a4d0eb97a2debc1b845229b067ee48208" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>uniteAtomic</name></member>
       <member refid="classMR_1_1UnionFind__MRFaceId_1a86e7404b5383e17d9880a9a1dae843f5" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRFaceId</scope><name>united</name></member>
     </listofallmembers>
   </compounddef>

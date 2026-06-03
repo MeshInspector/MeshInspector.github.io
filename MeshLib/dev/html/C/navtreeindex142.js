@@ -1,5 +1,10 @@
 var NAVTREEINDEX142 =
 {
+"std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#a41ccdf90376d14cfe27c57c0f15908d1":[6,2,1,0,0,0,0,2,121,2],
+"std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#a55bc8a8878a6ef9cf8f668f67dc67e9e":[6,2,1,0,0,0,0,2,121,14],
+"std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#a660ce43c4d226120cd5eb13b509a36e2":[6,2,1,0,0,0,0,2,121,10],
+"std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#a6efb410926370b7bd30452f34a35beb5":[6,2,1,0,0,0,0,2,121,1],
+"std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#a742cff7a5218abab6f5d3712aa681ec1":[6,2,1,0,0,0,0,2,121,7],
 "std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#a991038a52ec53883f5263e2ed21e4aa4":[6,2,1,0,0,0,0,2,121,11],
 "std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#aa8dcda9853c459eaf0ea9fc9312d2bbc":[6,2,1,0,0,0,0,2,121,3],
 "std__function__bool__from__const__std__shared__ptr__MR__HistoryAction__ref_8h.html#aab83f6842a66ad370180c45803b920ef":[6,2,1,0,0,0,0,2,121,13],
@@ -244,10 +249,5 @@ var NAVTREEINDEX142 =
 "std__function__float__from__MR__EdgeId_8h.html#a7d2323a7e1f96b9773da082defb4d76b":[6,2,1,0,0,0,0,2,146,4],
 "std__function__float__from__MR__EdgeId_8h.html#a818a674ad6b6fda82c870da764bf4c2e":[6,2,1,0,0,0,0,2,146,12],
 "std__function__float__from__MR__EdgeId_8h.html#a88be9c5f1b3998f7b2cf4a96ed3b6609":[6,2,1,0,0,0,0,2,146,1],
-"std__function__float__from__MR__EdgeId_8h.html#aac0798f06f914224dc8c6caf84419139":[6,2,1,0,0,0,0,2,146,11],
-"std__function__float__from__MR__EdgeId_8h.html#aadfd0324dfa456e9caed48caf854bfe7":[6,2,1,0,0,0,0,2,146,3],
-"std__function__float__from__MR__EdgeId_8h.html#ab6dddeac1b5d3202b23fdd3004518e46":[6,2,1,0,0,0,0,2,146,13],
-"std__function__float__from__MR__EdgeId_8h.html#ac7390cd49c46938be7fd92a59da216f1":[6,2,1,0,0,0,0,2,146,0],
-"std__function__float__from__MR__EdgeId_8h.html#acf7707ac646e4328a35f738500e94b9b":[6,2,1,0,0,0,0,2,146,14],
-"std__function__float__from__MR__EdgeId_8h.html#aef7a5467dce36ca32757033be998f219":[6,2,1,0,0,0,0,2,146,2]
+"std__function__float__from__MR__EdgeId_8h.html#aac0798f06f914224dc8c6caf84419139":[6,2,1,0,0,0,0,2,146,11]
 };

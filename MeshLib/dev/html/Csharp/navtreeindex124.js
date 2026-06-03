@@ -1,5 +1,12 @@
 var NAVTREEINDEX124 =
 {
+"classMR_1_1Polynomial__Double__5.html#ae3d4c5eed692c66a9ca0bb72b1822bb4":[6,3,0,0,0,1505,0],
+"classMR_1_1Polynomial__Double__6.html":[6,3,0,0,0,1506],
+"classMR_1_1Polynomial__Double__6.html#a09556a6e640be265cf98fc9699285d6f":[6,3,0,0,0,1506,0],
+"classMR_1_1Polynomial__Double__6.html#a1a1aacc08d0c6e31559f49877d44fa6f":[6,3,0,0,0,1506,3],
+"classMR_1_1Polynomial__Double__6.html#a444846f96ca48c85a402b390f38a7a63":[6,3,0,0,0,1506,2],
+"classMR_1_1Polynomial__Double__6.html#a7487372022aa084581733e4ee31e758a":[6,3,0,0,0,1506,1],
+"classMR_1_1Polynomial__Double__6.html#a9d4f10b596002747a327b50ab0b45208":[6,3,0,0,0,1506,4],
 "classMR_1_1Polynomial__Float__0.html":[6,3,0,0,0,1507],
 "classMR_1_1Polynomial__Float__0.html#a0fff636255b6fd99075d3fab9072b73f":[6,3,0,0,0,1507,2],
 "classMR_1_1Polynomial__Float__0.html#a68989b471d3852dd7e7da9a238bf1a41":[6,3,0,0,0,1507,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX124 =
 "classMR_1_1RadiusMeasurementObject.html#aa66961973912272df99eee91c3bc1fc7":[6,3,0,0,0,1530,42],
 "classMR_1_1RadiusMeasurementObject.html#aaee5f3bede9454695af2188e283aeda9":[6,3,0,0,0,1530,49],
 "classMR_1_1RadiusMeasurementObject.html#ab35d664e55c32757cb7754ba468da17c":[6,3,0,0,0,1530,17],
-"classMR_1_1RadiusMeasurementObject.html#ab5f925d389b59d68f53be690cc3a4abe":[6,3,0,0,0,1530,30],
-"classMR_1_1RadiusMeasurementObject.html#abd773c80e2dfa9d8b2439393359efebc":[6,3,0,0,0,1530,48],
-"classMR_1_1RadiusMeasurementObject.html#ac0b6a9685964df73fe5f9a9f957fa070":[6,3,0,0,0,1530,11],
-"classMR_1_1RadiusMeasurementObject.html#ac0bec7f1804e324f20dd4a19d376881e":[6,3,0,0,0,1530,10],
-"classMR_1_1RadiusMeasurementObject.html#ac31b903f7de4c10700cab7209de50abf":[6,3,0,0,0,1530,43],
-"classMR_1_1RadiusMeasurementObject.html#ac361f0cd8d0c212f21e147e11f35683e":[6,3,0,0,0,1530,35],
-"classMR_1_1RadiusMeasurementObject.html#ad66e266faf26f0db5084167cc86e13f6":[6,3,0,0,0,1530,44],
-"classMR_1_1RadiusMeasurementObject.html#ad9775cc17f851e7361fdd7637fa635af":[6,3,0,0,0,1530,28]
+"classMR_1_1RadiusMeasurementObject.html#ab5f925d389b59d68f53be690cc3a4abe":[6,3,0,0,0,1530,30]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX119 =
 {
+"classMR_1_1OffsetContoursOrigins.html#a0f52c456cfe255e2956e7d580b9e0f79":[6,3,0,0,0,1429,0],
+"classMR_1_1OffsetContoursOrigins.html#a3d41c1344c724c0314de50d45f6f66b9":[6,3,0,0,0,1429,9],
+"classMR_1_1OffsetContoursOrigins.html#a5f355cbb47b1482f3c60f70653bce3bc":[6,3,0,0,0,1429,6],
+"classMR_1_1OffsetContoursOrigins.html#a8e4d038887687f0ccab795cfed260750":[6,3,0,0,0,1429,4],
+"classMR_1_1OffsetContoursOrigins.html#ab102833a258c60cb00d40c501dfc597c":[6,3,0,0,0,1429,5],
+"classMR_1_1OffsetContoursOrigins.html#ac56489e4c6410b6e20ddd5fd6f6747fa":[6,3,0,0,0,1429,3],
+"classMR_1_1OffsetContoursOrigins.html#ad6d6147d1b44a3968aee7449c4225b97":[6,3,0,0,0,1429,10],
 "classMR_1_1OffsetContoursOrigins.html#adbae18d1fd60a4a41a8d5fd409096786":[6,3,0,0,0,1429,7],
 "classMR_1_1OffsetContoursOrigins.html#aebc0dea340a7d62bf2a6869ff74bc27d":[6,3,0,0,0,1429,1],
 "classMR_1_1OffsetContoursOrigins.html#aff882e7dd986832198242f8ee7e7f4ff":[6,3,0,0,0,1429,8],
@@ -242,12 +249,5 @@ var NAVTREEINDEX119 =
 "classMR_1_1PdfParameters.html#a358180e994aeb8720c95ac34ea2b55d1":[6,3,0,0,0,1451,10],
 "classMR_1_1PdfParameters.html#a45f53cb793407ae10dd2366590d13fdd":[6,3,0,0,0,1451,9],
 "classMR_1_1PdfParameters.html#a8ee1ee784c5cbfaf6bcc8ac1b1a3adb0":[6,3,0,0,0,1451,2],
-"classMR_1_1PdfParameters.html#aa267c2a79f5147e99e2aef9b22d1a17d":[6,3,0,0,0,1451,1],
-"classMR_1_1PdfParameters.html#aa5543c142a7077581d530b0ae5212e02":[6,3,0,0,0,1451,8],
-"classMR_1_1PdfParameters.html#aaa05d95c54c5bef9cf4403e0a2a08d1a":[6,3,0,0,0,1451,3],
-"classMR_1_1PdfParameters.html#ab3370937dc99c490552fa3dd0ffc6b25":[6,3,0,0,0,1451,11],
-"classMR_1_1PdfParameters.html#ac5af14d9c2acdd0ba55157cba5c4d74c":[6,3,0,0,0,1451,7],
-"classMR_1_1PixelBitSet.html":[6,3,0,0,0,1452],
-"classMR_1_1PixelBitSet.html#a018339c863ff6e653b33fd6637534757":[6,3,0,0,0,1452,16],
-"classMR_1_1PixelBitSet.html#a0af3b52c26f48e78d8e280bfff37dff1":[6,3,0,0,0,1452,22]
+"classMR_1_1PdfParameters.html#aa267c2a79f5147e99e2aef9b22d1a17d":[6,3,0,0,0,1451,1]
 };

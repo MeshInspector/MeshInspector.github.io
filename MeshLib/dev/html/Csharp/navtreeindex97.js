@@ -1,5 +1,12 @@
 var NAVTREEINDEX97 =
 {
+"classMR_1_1DistanceFromWeightedPointsParams.html":[6,3,0,0,0,1104],
+"classMR_1_1DistanceFromWeightedPointsParams.html#a09c6b1e913e89992a040d8607e4e711b":[6,3,0,0,0,1104,2],
+"classMR_1_1DistanceFromWeightedPointsParams.html#a142e598a8cdd337004a5b90670da0180":[6,3,0,0,0,1104,10],
+"classMR_1_1DistanceFromWeightedPointsParams.html#a1d3e30c44af5d8e004a587ed0fd6d426":[6,3,0,0,0,1104,7],
+"classMR_1_1DistanceFromWeightedPointsParams.html#a509e33eff17cab61bfd25bf7171a5302":[6,3,0,0,0,1104,4],
+"classMR_1_1DistanceFromWeightedPointsParams.html#a64db16a580c1ff65fd51c0da05ca1687":[6,3,0,0,0,1104,6],
+"classMR_1_1DistanceFromWeightedPointsParams.html#a908977d4b79042b3adb3afbbaee12c2c":[6,3,0,0,0,1104,9],
 "classMR_1_1DistanceFromWeightedPointsParams.html#a96188ebf306435a55b659202539742ff":[6,3,0,0,0,1104,0],
 "classMR_1_1DistanceFromWeightedPointsParams.html#aa6f3702d082fd63d614e575e2a7d9780":[6,3,0,0,0,1104,8],
 "classMR_1_1DistanceFromWeightedPointsParams.html#ace31d883bb8d4dc6b2d464a52d0ba433":[6,3,0,0,0,1104,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX97 =
 "classMR_1_1EdgeBitSet.html#aaa8631dbb64d28d44998d574b5daafb6":[6,3,0,0,0,1118,36],
 "classMR_1_1EdgeBitSet.html#aab44e7a528990108c535edd8d2746fae":[6,3,0,0,0,1118,1],
 "classMR_1_1EdgeBitSet.html#ab97d3a3d60f2eed12ecb28d16c741400":[6,3,0,0,0,1118,32],
-"classMR_1_1EdgeBitSet.html#ac0f46fc942c3011a15c73f12cf354d9b":[6,3,0,0,0,1118,0],
-"classMR_1_1EdgeBitSet.html#ad1f73f88d4aacf19ed38df454f494326":[6,3,0,0,0,1118,6],
-"classMR_1_1EdgeBitSet.html#ada9571d57bf3601b20caea65205b3305":[6,3,0,0,0,1118,24],
-"classMR_1_1EdgeBitSet.html#add8067b8d1e076e32f6789c932d76241":[6,3,0,0,0,1118,4],
-"classMR_1_1EdgeBitSet.html#adfa61eae58c142f689555398b2a21f14":[6,3,0,0,0,1118,7],
-"classMR_1_1EdgeBitSet.html#ae14c61d8f26cb6bea2c08bd16358d5c0":[6,3,0,0,0,1118,2],
-"classMR_1_1EdgeBitSet.html#ae4a8ee5118e1277d0f0586ed414d32fc":[6,3,0,0,0,1118,28],
-"classMR_1_1EdgeBitSet.html#ae6e86fc3193bb5daf6e73ffac23cfe60":[6,3,0,0,0,1118,14]
+"classMR_1_1EdgeBitSet.html#ac0f46fc942c3011a15c73f12cf354d9b":[6,3,0,0,0,1118,0]
 };

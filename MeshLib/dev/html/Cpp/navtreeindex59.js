@@ -1,5 +1,9 @@
 var NAVTREEINDEX59 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,2,0,1,0,6],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[6,0,1,0,0,0,4],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[6,0,2,0,1,0,4],
+"structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,1,0,0,0,5],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,2,0,1,0,5],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,1,0,0,0,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,2,0,1,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1ContoursDistanceMapOptions.html#ad970162a0cd7b031b6f1394f856f5ba0":[6,0,0,5,2,6],
 "structMR_1_1ContoursDistanceMapOptions.html#ada938644fd6754f567016b529b5f7340":[6,0,0,5,2,1],
 "structMR_1_1ContoursMeshAlignParams.html":[6,0,0,20,110],
-"structMR_1_1CoordinateConverters.html":[6,0,0,20,454],
-"structMR_1_1CoordinateConverters2.html":[6,0,0,20,451],
-"structMR_1_1CornerControllerObject_1_1PickedIds.html":[6,0,0,20,803],
-"structMR_1_1CubicBezierCurve.html":[6,0,0,20,120],
-"structMR_1_1CursorEntranceListener.html":[6,0,0,20,789]
+"structMR_1_1CoordinateConverters.html":[6,0,0,20,454]
 };

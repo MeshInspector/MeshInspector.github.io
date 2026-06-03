@@ -1,5 +1,12 @@
 var NAVTREEINDEX132 =
 {
+"classMR_1_1TwoLineSegmClosestPoints__Float.html#a176e37a29c5e6e9af305ed56ca4d3561":[6,3,0,0,0,1653,2],
+"classMR_1_1TwoLineSegmClosestPoints__Float.html#a1bf426f26d7ee108c334f8f9486f35b3":[6,3,0,0,0,1653,5],
+"classMR_1_1TwoLineSegmClosestPoints__Float.html#a40cb1f8cc63b6aa6881278d5b24b1e8d":[6,3,0,0,0,1653,1],
+"classMR_1_1TwoLineSegmClosestPoints__Float.html#a6d8f2896bc98ab34985aafc24adc63a4":[6,3,0,0,0,1653,3],
+"classMR_1_1TwoLineSegmClosestPoints__Float.html#a7abd3f83454abd0b469d33b09153438d":[6,3,0,0,0,1653,7],
+"classMR_1_1TwoLineSegmClosestPoints__Float.html#a7bf16d2138ecbff61f23a8cbf943bf7f":[6,3,0,0,0,1653,0],
+"classMR_1_1TwoLineSegmClosestPoints__Float.html#ab1f990f6394621d61c5b9ad4bd41969f":[6,3,0,0,0,1653,6],
 "classMR_1_1TwoLineSegmClosestPoints__Float.html#ac47ba385cf1f85f0a224481aac7b0c82":[6,3,0,0,0,1653,4],
 "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html":[6,3,0,0,0,1654],
 "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a068847131e0b43dc245730c44827a267":[6,3,0,0,0,1654,25],
@@ -242,12 +249,5 @@ var NAVTREEINDEX132 =
 "classMR_1_1UndirectedEdgeScalars.html#aec1aa26e954b0e22f74bb95c854996e6":[6,3,0,0,0,1664,23],
 "classMR_1_1UndirectedEdgeScalars.html#af0227b877324ac7710fa1b31dd3c3018":[6,3,0,0,0,1664,13],
 "classMR_1_1UndirectedEdgeScalars.html#af25a352575d5a768b28786d5da4c6817":[6,3,0,0,0,1664,15],
-"classMR_1_1UndirectedEdgeScalars.html#af75ca527e81666b3d178e589c3b5df05":[6,3,0,0,0,1664,14],
-"classMR_1_1UndirectedEdgeScalars.html#af8553004ead8a5df4b14d4df3b83268d":[6,3,0,0,0,1664,22],
-"classMR_1_1UndirectedEdgeSetBitIterator.html":[6,3,0,0,0,1665],
-"classMR_1_1UndirectedEdgeSetBitIterator.html#a16353d773eb3ac7f1f0c8b178f39ed97":[6,3,0,0,0,1665,2],
-"classMR_1_1UndirectedEdgeSetBitIterator.html#a8762fad54da5994d1b9d7af95782ac3e":[6,3,0,0,0,1665,3],
-"classMR_1_1UndirectedEdgeSetBitIterator.html#a91b2b513a64a02b3d7532a3c8280592b":[6,3,0,0,0,1665,4],
-"classMR_1_1UndirectedEdgeSetBitIterator.html#a9b1a1aa02b3be65b3af062d8898cbf2d":[6,3,0,0,0,1665,0],
-"classMR_1_1UndirectedEdgeSetBitIterator.html#ac7a3fcf0989bcd598837def1ba22e884":[6,3,0,0,0,1665,1]
+"classMR_1_1UndirectedEdgeScalars.html#af75ca527e81666b3d178e589c3b5df05":[6,3,0,0,0,1664,14]
 };

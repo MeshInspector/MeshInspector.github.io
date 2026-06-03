@@ -1,5 +1,13 @@
 var NAVTREEINDEX57 =
 {
+"MRMeshDecimate_8h.html#a8bbd522b338936fcf6f733dc5db2cf01":[6,2,1,0,0,0,0,1,168,147],
+"MRMeshDecimate_8h.html#a8cec86b6f534bf716402d4baa714fb50":[6,2,1,0,0,0,0,1,168,98],
+"MRMeshDecimate_8h.html#a8d036ab40dc43db44f84d64be2797f3e":[6,2,1,0,0,0,0,1,168,71],
+"MRMeshDecimate_8h.html#a8d8e73e7c9a01ec03db3d315e82f3799":[6,2,1,0,0,0,0,1,168,180],
+"MRMeshDecimate_8h.html#a928e1009956b7f9146c0ed6456c9c900":[6,2,1,0,0,0,0,1,168,209],
+"MRMeshDecimate_8h.html#a9316246350b0d5537c299e83a2189e78":[6,2,1,0,0,0,0,1,168,140],
+"MRMeshDecimate_8h.html#a93fe97548687438e09aa287ec24a642d":[6,2,1,0,0,0,0,1,168,122],
+"MRMeshDecimate_8h.html#a96cebc61e53df2421586304a86a2947d":[6,2,1,0,0,0,0,1,168,165],
 "MRMeshDecimate_8h.html#a983ab3599e0a272369faf8f70c973a17":[6,2,1,0,0,0,0,1,168,35],
 "MRMeshDecimate_8h.html#a99e82b6244c15dbaec89c4ce99fb8894":[6,2,1,0,0,0,0,1,168,58],
 "MRMeshDecimate_8h.html#a99f1b064b0da983641cee5edaa870fc0":[6,2,1,0,0,0,0,1,168,125],
@@ -241,13 +249,5 @@ var NAVTREEINDEX57 =
 "MRMeshExtrude_8h.html#aebb8dc69377fb0b2b63043bc905987f8":[6,2,1,0,0,0,0,1,176,18],
 "MRMeshExtrude_8h.html#aedfe80446ac3010dad9b824eee76e537":[6,2,1,0,0,0,0,1,176,2],
 "MRMeshExtrude_8h.html#af55877e1fb7246ddfce49998ed9bc68d":[6,2,1,0,0,0,0,1,176,12],
-"MRMeshExtrude_8h.html#af82b7937c1f7cd144e69b2204e70b476":[6,2,1,0,0,0,0,1,176,5],
-"MRMeshExtrude_8h.html#af8a121ad62e65d58cc24606eecb1c936":[6,2,1,0,0,0,0,1,176,21],
-"MRMeshExtrude_8h.html#afc520e05c508a1ae0636d5d553f19ed4":[6,2,1,0,0,0,0,1,176,7],
-"MRMeshExtrude_8h_source.html":[6,2,1,0,0,0,0,1,176],
-"MRMeshFillHole_8h.html":[6,2,1,0,0,0,0,1,177],
-"MRMeshFillHole_8h.html#a079e37ee18d1d07341cf1c5d4c05d005":[6,2,1,0,0,0,0,1,177,27],
-"MRMeshFillHole_8h.html#a13854e5f689a5d2adc4efa985e75560a":[6,2,1,0,0,0,0,1,177,18],
-"MRMeshFillHole_8h.html#a19ed2337372ee3931a08d65b18753bee":[6,2,1,0,0,0,0,1,177,16],
-"MRMeshFillHole_8h.html#a1cc97943dbb30a708c283cc0865ba6dc":[6,2,1,0,0,0,0,1,177,77]
+"MRMeshExtrude_8h.html#af82b7937c1f7cd144e69b2204e70b476":[6,2,1,0,0,0,0,1,176,5]
 };

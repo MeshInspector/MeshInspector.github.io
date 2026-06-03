@@ -1,5 +1,10 @@
 var NAVTREEINDEX185 =
 {
+"std__vector__MR__SomeLocalTriangulations_8h.html#a02b61a6f87e08dc613fb88dd1a1c80ae":[6,2,1,0,0,0,0,2,489,68],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a03f56ebd156b309ebaf1e35d8c4e77da":[6,2,1,0,0,0,0,2,489,59],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a0473becdc277e4554465e4d8ef95075c":[6,2,1,0,0,0,0,2,489,41],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a04dadf369c6194c407f37e6a59081045":[6,2,1,0,0,0,0,2,489,16],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a0d3e5892119f1b8cafc7a019332ddbe7":[6,2,1,0,0,0,0,2,489,23],
 "std__vector__MR__SomeLocalTriangulations_8h.html#a0e3772d510a95c592575920b208d1452":[6,2,1,0,0,0,0,2,489,60],
 "std__vector__MR__SomeLocalTriangulations_8h.html#a2051e8620f4b0a6c4d45a542946d33e6":[6,2,1,0,0,0,0,2,489,29],
 "std__vector__MR__SomeLocalTriangulations_8h.html#a2d74f1674b9fa0e8d7fa913bfa7a333a":[6,2,1,0,0,0,0,2,489,27],
@@ -244,10 +249,5 @@ var NAVTREEINDEX185 =
 "std__vector__MR__UndirectedEdgeBitSet_8h.html#a471cd24b9d78209823c35998154d899b":[6,2,1,0,0,0,0,2,492,4],
 "std__vector__MR__UndirectedEdgeBitSet_8h.html#a4895cf4b6d6c14622c877497c9efb922":[6,2,1,0,0,0,0,2,492,11],
 "std__vector__MR__UndirectedEdgeBitSet_8h.html#a48e64e920e9ae0dfc7f34873e02295d5":[6,2,1,0,0,0,0,2,492,15],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#a4cdc6cdc6f1848f53219c4f7224a48b7":[6,2,1,0,0,0,0,2,492,10],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#a4e87bd6bc73a883ab26f62e4141e2bd8":[6,2,1,0,0,0,0,2,492,29],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#a5579b3c0dcd00a4a80b08b94010285cb":[6,2,1,0,0,0,0,2,492,9],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#a578591a5ef4bb6a7aeb8306de46b3cc7":[6,2,1,0,0,0,0,2,492,53],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#a57cae72fd8ddfaea520a471400c52c42":[6,2,1,0,0,0,0,2,492,47],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#a5e7f06fb1d7e7c76f884c3e0f1ea9dab":[6,2,1,0,0,0,0,2,492,46]
+"std__vector__MR__UndirectedEdgeBitSet_8h.html#a4cdc6cdc6f1848f53219c4f7224a48b7":[6,2,1,0,0,0,0,2,492,10]
 };

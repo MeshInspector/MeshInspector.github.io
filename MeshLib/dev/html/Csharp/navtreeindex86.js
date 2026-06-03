@@ -1,5 +1,11 @@
 var NAVTREEINDEX86 =
 {
+"classMR_1_1Const__Vector__Int__MRUndirectedEdgeId.html#afd8524f22c7ff3fb8148886311b49107":[6,3,0,0,0,905,6],
+"classMR_1_1Const__Vector__Int__MRVertId.html":[6,3,0,0,0,906],
+"classMR_1_1Const__Vector__Int__MRVertId.html#a363f5623d4b3fd343550e689955b943b":[6,3,0,0,0,906,13],
+"classMR_1_1Const__Vector__Int__MRVertId.html#a39c7724a479ae64d1d025aec092e10b4":[6,3,0,0,0,906,19],
+"classMR_1_1Const__Vector__Int__MRVertId.html#a3d7dfa556dc732dd8eccbda1b429b9be":[6,3,0,0,0,906,20],
+"classMR_1_1Const__Vector__Int__MRVertId.html#a58cb45035fed49ead16df1d00906f973":[6,3,0,0,0,906,9],
 "classMR_1_1Const__Vector__Int__MRVertId.html#a5d54698fa8b8a3f387aca51b63e50971":[6,3,0,0,0,906,16],
 "classMR_1_1Const__Vector__Int__MRVertId.html#a6995a8c917b52012972d22e78470b64d":[6,3,0,0,0,906,23],
 "classMR_1_1Const__Vector__Int__MRVertId.html#a74db65defb8b9fcb23d32236cd12cc96":[6,3,0,0,0,906,21],
@@ -243,11 +249,5 @@ var NAVTREEINDEX86 =
 "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a6f581654588d1da56559be1ba6f1393f":[6,3,0,0,0,915,20],
 "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a82ea29d02b51ab6c635cd525c78cb043":[6,3,0,0,0,915,23],
 "classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#a856f7daab62081919eee9d3b1a98944a":[6,3,0,0,0,915,18],
-"classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#aa2ec5a1b8eeeddb38396eb6afc219554":[6,3,0,0,0,915,13],
-"classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#aaa42ec9d0c430107f647e86bb8d538c9":[6,3,0,0,0,915,12],
-"classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#ab004dee1af6f69b6006b0b9e89e17a01":[6,3,0,0,0,915,26],
-"classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#ab20fbb91b9e29dd3e2c3049c3b39ea4e":[6,3,0,0,0,915,22],
-"classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#ab3d55d2005aa2171de4a5009177f09df":[6,3,0,0,0,915,17],
-"classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#ab7f43f3951f6f818a1c328c33c257666":[6,3,0,0,0,915,21],
-"classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#abd8af187fd68d5711265b197eac5cda5":[6,3,0,0,0,915,24]
+"classMR_1_1Const__Vector__MRFaceBitSet__MRGraphVertId.html#aa2ec5a1b8eeeddb38396eb6afc219554":[6,3,0,0,0,915,13]
 };

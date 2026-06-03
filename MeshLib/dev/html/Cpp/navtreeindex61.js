@@ -1,5 +1,9 @@
 var NAVTREEINDEX61 =
 {
+"structMR_1_1FindOverlappingSettings.html":[6,0,0,20,409],
+"structMR_1_1FindProjectionOnPointsSettings.html":[6,0,0,1,29],
+"structMR_1_1FindProjectionOnPointsSettings.html#a33ab001af75b70c47485278f07082bd5":[6,0,0,1,29,1],
+"structMR_1_1FindProjectionOnPointsSettings.html#a3f9c60f79369db701c3869e757686217":[6,0,0,1,29,4],
 "structMR_1_1FindProjectionOnPointsSettings.html#a41d849f8892e4ddc754d38672dde5152":[6,0,0,1,29,2],
 "structMR_1_1FindProjectionOnPointsSettings.html#a51086d69676631deb69313f75b2d8379":[6,0,0,1,29,3],
 "structMR_1_1FindProjectionOnPointsSettings.html#aa4d8d3a3b0dac4b24f0e182945040220":[6,0,0,1,29,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX61 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html":[6,0,1,0,1,16,9,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html":[6,0,2,0,2,7,9,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a4bffbd994362942f69eb09e7e455e883":[6,0,1,0,1,16,9,0,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a4bffbd994362942f69eb09e7e455e883":[6,0,2,0,2,7,9,0,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a5dd25c864ad33b95fc71a3f2143422b2":[6,0,1,0,1,16,9,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a5dd25c864ad33b95fc71a3f2143422b2":[6,0,2,0,2,7,9,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a84ce838af9b949725c6d6a069c819a8c":[6,0,1,0,1,16,9,0,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a84ce838af9b949725c6d6a069c819a8c":[6,0,2,0,2,7,9,0,0]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html#a4bffbd994362942f69eb09e7e455e883":[6,0,2,0,2,7,9,0,2]
 };

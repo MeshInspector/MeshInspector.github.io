@@ -1,5 +1,9 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1CoordinateConverters2.html":[6,0,0,20,451],
+"structMR_1_1CornerControllerObject_1_1PickedIds.html":[6,0,0,20,803],
+"structMR_1_1CubicBezierCurve.html":[6,0,0,20,120],
+"structMR_1_1CursorEntranceListener.html":[6,0,0,20,789],
 "structMR_1_1CurveFunc.html":[6,0,0,20,174],
 "structMR_1_1CurvePoint.html":[6,0,0,20,173],
 "structMR_1_1CustomButtonParameters.html":[6,0,0,20,647],
@@ -245,9 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1FindDisorientationParams.html#a8d3d371ac19975e796450c4a8bbb2d44":[6,0,0,9,4,2,3],
 "structMR_1_1FindInnerShellSettings.html":[6,0,0,20,280],
 "structMR_1_1FindOutliersParams.html":[6,0,0,20,408],
-"structMR_1_1FindOverhangsSettings.html":[6,0,0,20,348],
-"structMR_1_1FindOverlappingSettings.html":[6,0,0,20,409],
-"structMR_1_1FindProjectionOnPointsSettings.html":[6,0,0,1,29],
-"structMR_1_1FindProjectionOnPointsSettings.html#a33ab001af75b70c47485278f07082bd5":[6,0,0,1,29,1],
-"structMR_1_1FindProjectionOnPointsSettings.html#a3f9c60f79369db701c3869e757686217":[6,0,0,1,29,4]
+"structMR_1_1FindOverhangsSettings.html":[6,0,0,20,348]
 };

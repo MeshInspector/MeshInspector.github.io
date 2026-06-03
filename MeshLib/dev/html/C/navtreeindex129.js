@@ -1,5 +1,10 @@
 var NAVTREEINDEX129 =
 {
+"MRWeightedPointsShell_8h.html#a267a2de3a030a09bd5d7f0b958560c84":[6,2,1,0,0,0,0,4,41,20],
+"MRWeightedPointsShell_8h.html#a29d9f8f42008e0b4fd6f715099ee52fe":[6,2,1,0,0,0,0,4,41,47],
+"MRWeightedPointsShell_8h.html#a2a9b93e66033c45d1daaaea42e98609b":[6,2,1,0,0,0,0,4,41,22],
+"MRWeightedPointsShell_8h.html#a2d8e23b4ae5236ef883e716af22b5e8d":[6,2,1,0,0,0,0,4,41,30],
+"MRWeightedPointsShell_8h.html#a32859a298a156b0666f8788301be8377":[6,2,1,0,0,0,0,4,41,113],
 "MRWeightedPointsShell_8h.html#a345f74dd290c2d389b06378190d850c8":[6,2,1,0,0,0,0,4,41,18],
 "MRWeightedPointsShell_8h.html#a3633e5fb92b8e404a4649865b6a9c536":[6,2,1,0,0,0,0,4,41,101],
 "MRWeightedPointsShell_8h.html#a3639b3a5598341a599b078478e29def4":[6,2,1,0,0,0,0,4,41,89],
@@ -244,10 +249,5 @@ var NAVTREEINDEX129 =
 "expected__MR__AffineXf3f__std__string_8h.html#ab285d861e8a02dce76b4a9601a1986ad":[6,2,1,0,0,0,0,2,2,4],
 "expected__MR__AffineXf3f__std__string_8h.html#ad7746a75833147b543de72df39f101ed":[6,2,1,0,0,0,0,2,2,11],
 "expected__MR__AffineXf3f__std__string_8h.html#add7d3a26af5d595777dde9b13912517b":[6,2,1,0,0,0,0,2,2,9],
-"expected__MR__AffineXf3f__std__string_8h_source.html":[6,2,1,0,0,0,0,2,2],
-"expected__MR__BooleanResultPoints__std__string_8h.html":[6,2,1,0,0,0,0,2,3],
-"expected__MR__BooleanResultPoints__std__string_8h.html#a00de09a11d5021185ec7cbacc6f40459":[6,2,1,0,0,0,0,2,3,9],
-"expected__MR__BooleanResultPoints__std__string_8h.html#a1fcdd6c2fcd969846aa0fef1796e9085":[6,2,1,0,0,0,0,2,3,10],
-"expected__MR__BooleanResultPoints__std__string_8h.html#a24bd90224604e90f9b287f75db6c8205":[6,2,1,0,0,0,0,2,3,8],
-"expected__MR__BooleanResultPoints__std__string_8h.html#a5181453db6f5a5a8217eb42f2675b33a":[6,2,1,0,0,0,0,2,3,0]
+"expected__MR__AffineXf3f__std__string_8h_source.html":[6,2,1,0,0,0,0,2,2]
 };

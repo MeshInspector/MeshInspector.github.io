@@ -175,8 +175,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:afca0ca953cd7f449a4943072fb3f69c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1UndirectedEdgeId.html" title="Generated from class MR.UndirectedEdgeId. Derived classes: Direct: (non-virtual) MR....">MR.UndirectedEdgeId</a>&amp;gt;<a class="el" href="#afca0ca953cd7f449a4943072fb3f69c6" title="resets union-find to represent given number of elements, each element is the only one in its disjoint...">reset</a></span>.  <br /></td></tr>
 <tr class="memitem:a5eaacbbe443ff31a7363380a522e845e" id="r_a5eaacbbe443ff31a7363380a522e845e"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Pair_MRUndirectedEdgeId_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5eaacbbe443ff31a7363380a522e845e">unite</a> (<a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> first, <a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> second)</td></tr>
 <tr class="memdesc:a5eaacbbe443ff31a7363380a522e845e"><td class="mdescLeft">&#160;</td><td class="mdescRight">unite two elements,  <br /></td></tr>
-<tr class="memitem:ab9700df004b5e3702533f3dbb43a3e06" id="r_ab9700df004b5e3702533f3dbb43a3e06"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9700df004b5e3702533f3dbb43a3e06">uniteAtomic</a> (<a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> first, <a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> second)</td></tr>
-<tr class="memdesc:ab9700df004b5e3702533f3dbb43a3e06"><td class="mdescLeft">&#160;</td><td class="mdescRight">thread-safe version of <a class="el" href="#a5eaacbbe443ff31a7363380a522e845e" title="unite two elements,">unite()</a> for parallel construction of the structure: links by element id (the smaller id becomes the common root) using lock-free path halving; unlike <a class="el" href="#a5eaacbbe443ff31a7363380a522e845e" title="unite two elements,">unite()</a> it does NOT maintain component sizes, so <a class="el" href="#aac23a201e74dbd68bfd28616745bd622" title="returns the number of elements in the set containing given element Generated from method MR....">sizeOfComp()</a> is invalid after any <a class="el" href="#ab9700df004b5e3702533f3dbb43a3e06" title="thread-safe version of unite() for parallel construction of the structure: links by element id (the s...">uniteAtomic()</a> call Generated from method <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1UndirectedEdgeId.html" title="Generated from class MR.UndirectedEdgeId. Derived classes: Direct: (non-virtual) MR....">MR.UndirectedEdgeId</a>&amp;gt;<a class="el" href="#ab9700df004b5e3702533f3dbb43a3e06" title="thread-safe version of unite() for parallel construction of the structure: links by element id (the s...">uniteAtomic</a></span>.  <br /></td></tr>
 <tr class="memitem:a0e8c9f872fe9bf392dbadad744310afe" id="r_a0e8c9f872fe9bf392dbadad744310afe"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e8c9f872fe9bf392dbadad744310afe">united</a> (<a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> first, <a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> second)</td></tr>
 <tr class="memdesc:a0e8c9f872fe9bf392dbadad744310afe"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given two elements are from one set Generated from method <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1UndirectedEdgeId.html" title="Generated from class MR.UndirectedEdgeId. Derived classes: Direct: (non-virtual) MR....">MR.UndirectedEdgeId</a>&amp;gt;<a class="el" href="#a0e8c9f872fe9bf392dbadad744310afe" title="returns true if given two elements are from one set Generated from method MR.UnionFind&lt;MR....">united</a></span>.  <br /></td></tr>
 <tr class="memitem:a3ea1181c62da29a3be4eecbd048673ff" id="r_a3ea1181c62da29a3be4eecbd048673ff"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ea1181c62da29a3be4eecbd048673ff">find</a> (<a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a> a)</td></tr>
@@ -558,37 +556,6 @@ Additional Inherited Members</h2></td></tr>
 
 <p>unite two elements, </p>
 <dl class="section return"><dt>Returns</dt><dd>first: new common root, second: true = union was done, false = first and second were already united Generated from method <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1UndirectedEdgeId.html" title="Generated from class MR.UndirectedEdgeId. Derived classes: Direct: (non-virtual) MR....">MR.UndirectedEdgeId</a>&amp;gt;<a class="el" href="#a5eaacbbe443ff31a7363380a522e845e" title="unite two elements,">unite</a></span>. </dd></dl>
-
-</div>
-</div>
-<a id="ab9700df004b5e3702533f3dbb43a3e06" name="ab9700df004b5e3702533f3dbb43a3e06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9700df004b5e3702533f3dbb43a3e06">&#9670;&#160;</a></span>uniteAtomic()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe void MR.UnionFind_MRUndirectedEdgeId.uniteAtomic </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1UndirectedEdgeId.html">MR.UndirectedEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>second</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>thread-safe version of <a class="el" href="#a5eaacbbe443ff31a7363380a522e845e" title="unite two elements,">unite()</a> for parallel construction of the structure: links by element id (the smaller id becomes the common root) using lock-free path halving; unlike <a class="el" href="#a5eaacbbe443ff31a7363380a522e845e" title="unite two elements,">unite()</a> it does NOT maintain component sizes, so <a class="el" href="#aac23a201e74dbd68bfd28616745bd622" title="returns the number of elements in the set containing given element Generated from method MR....">sizeOfComp()</a> is invalid after any <a class="el" href="#ab9700df004b5e3702533f3dbb43a3e06" title="thread-safe version of unite() for parallel construction of the structure: links by element id (the s...">uniteAtomic()</a> call Generated from method <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1UndirectedEdgeId.html" title="Generated from class MR.UndirectedEdgeId. Derived classes: Direct: (non-virtual) MR....">MR.UndirectedEdgeId</a>&amp;gt;<a class="el" href="#ab9700df004b5e3702533f3dbb43a3e06" title="thread-safe version of unite() for parallel construction of the structure: links by element id (the s...">uniteAtomic</a></span>. </p>
 
 </div>
 </div>

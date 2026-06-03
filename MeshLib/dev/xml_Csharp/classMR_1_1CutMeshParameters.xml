@@ -21,7 +21,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="480" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="481" bodyend="490"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="500" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="501" bodyend="510"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1CutMeshParameters_1a0bfacdbe87e0d7bd267d01d197bc8196" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1FaceMap" kindref="compound">FaceMap</ref></type>
@@ -36,7 +36,21 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="495" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="496" bodyend="505"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="515" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="516" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1CutMeshParameters_1a86c557a13fb651f22f1ca95c48624782" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1_1Const__CutMeshParameters_1adf21afd65686a8426e377a073d8f47e9" kindref="member">MR.CutMeshParameters.FillPart</ref></type>
+        <definition>new unsafe ref MR.CutMeshParameters.FillPart MR.CutMeshParameters.fillPart</definition>
+        <argsstring></argsstring>
+        <name>fillPart</name>
+        <qualifiedname>MR.CutMeshParameters.fillPart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="527" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="527" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1CutMeshParameters_1a09f00bd0b51c745e195525112957c609" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type>new unsafe ref <ref refid="classMR_1_1Const__CutMeshParameters_1ab487d225d694a30e0d24dc83c3528293" kindref="member">MR.CutMeshParameters.ForceFill</ref></type>
@@ -50,7 +64,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="507" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="507" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="529" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="529" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classMR_1_1CutMeshParameters_1ad3ef992d705ee349e5a36bd2bfa84f6f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>new unsafe MR.? <ref refid="classMR_1_1NewEdgesMap" kindref="compound">NewEdgesMap</ref></type>
@@ -65,7 +79,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="512" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="513" bodyend="522"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="534" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="535" bodyend="544"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="package-func">
@@ -89,7 +103,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="526" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="526" bodyend="530"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="548" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="548" bodyend="552"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -106,12 +120,12 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="536" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="536" bodyend="542"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="558" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="558" bodyend="564"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1CutMeshParameters_1a2cc57bb50ebb9ad8b305814b419b72ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classMR_1_1CutMeshParameters_1afd13446ed92d1c87d90b545f6ffeefb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.CutMeshParameters.CutMeshParameters</definition>
-        <argsstring>(MR.Const_SortIntersectionsData? sortData, MR.FaceMap? new2OldMap, MR.CutMeshParameters.ForceFill forceFillMode, MR.NewEdgesMap? new2oldEdgesMap)</argsstring>
+        <argsstring>(MR.Const_SortIntersectionsData? sortData, MR.FaceMap? new2OldMap, MR.CutMeshParameters.FillPart fillPart, MR.CutMeshParameters.ForceFill forceFillMode, MR.NewEdgesMap? new2oldEdgesMap)</argsstring>
         <name>CutMeshParameters</name>
         <qualifiedname>MR.CutMeshParameters.CutMeshParameters</qualifiedname>
         <param>
@@ -121,6 +135,10 @@ it provides additional info from other mesh used in boolean operation, useful to
         <param>
           <type><ref refid="classMR_1_1FaceMap" kindref="compound">MR.FaceMap</ref>?</type>
           <declname>new2OldMap</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Const__CutMeshParameters_1adf21afd65686a8426e377a073d8f47e9" kindref="member">MR.CutMeshParameters.FillPart</ref></type>
+          <declname>fillPart</declname>
         </param>
         <param>
           <type><ref refid="classMR_1_1Const__CutMeshParameters_1ab487d225d694a30e0d24dc83c3528293" kindref="member">MR.CutMeshParameters.ForceFill</ref></type>
@@ -137,7 +155,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="547" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="547" bodyend="556"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="569" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="569" bodyend="578"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutMeshParameters_1a4304e4adcd416f63541c7e0f4a874ede" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
@@ -156,7 +174,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="561" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="561" bodyend="568"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="583" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="583" bodyend="590"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutMeshParameters_1a8d88ac630c5da03281753aa42a575c22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -175,7 +193,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="573" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="573" bodyend="573"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="595" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="595" bodyend="595"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1CutMeshParameters_1ac1eaab21aa9131b18c467a57f7a50738" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1CutMeshParameters" kindref="compound">MR.CutMeshParameters</ref></type>
@@ -194,7 +212,7 @@ it provides additional info from other mesh used in boolean operation, useful to
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="578" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="578" bodyend="585"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="600" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="600" bodyend="607"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -251,6 +269,7 @@ it provides additional info from other mesh used in boolean operation, useful to
           <edgelabel>__ptr_storage_new2OldMap</edgelabel>
           <edgelabel>__ptr_storage_new2oldEdgesMap</edgelabel>
           <edgelabel>__ptr_storage_sortData</edgelabel>
+          <edgelabel>__ref_storage_fillPart</edgelabel>
           <edgelabel>__ref_storage_forceFillMode</edgelabel>
         </childnode>
       </node>
@@ -261,25 +280,28 @@ it provides additional info from other mesh used in boolean operation, useful to
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="473" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="474" bodyend="586"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="493" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="494" bodyend="608"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__CutMeshParameters_1a1c0aeaa943d35a0a49569164b5ac7aba" prot="protected" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>__ptr_storage_new2oldEdgesMap</name></member>
       <member refid="classMR_1_1Const__CutMeshParameters_1a67452b7fc72f3f0edd14cd86af5a5c65" prot="protected" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>__ptr_storage_new2OldMap</name></member>
       <member refid="classMR_1_1Const__CutMeshParameters_1ae142c5123bde4ff1cabe71463a68be45" prot="protected" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>__ptr_storage_sortData</name></member>
+      <member refid="classMR_1_1Const__CutMeshParameters_1a5d9a4773167d069abe7423dc5d45f683" prot="protected" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>__ref_storage_fillPart</name></member>
       <member refid="classMR_1_1Const__CutMeshParameters_1a04bf61662aefd15a4d4bbdb046b9d709" prot="protected" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>__ref_storage_forceFillMode</name></member>
       <member refid="classMR_1_1CutMeshParameters_1ac1eaab21aa9131b18c467a57f7a50738" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__CutMeshParameters_1a7a4c2c634c988aafdda3d1bfb91cbd90" prot="package" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>Const_CutMeshParameters</name></member>
       <member refid="classMR_1_1Const__CutMeshParameters_1afa1c16e2179836fab89630ce8667f34b" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>Const_CutMeshParameters</name></member>
-      <member refid="classMR_1_1Const__CutMeshParameters_1a2c2882ba553a076a7fe5fb178754d3f2" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>Const_CutMeshParameters</name></member>
+      <member refid="classMR_1_1Const__CutMeshParameters_1ab6dbfc36da00ed0536f367339c04f4fb" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>Const_CutMeshParameters</name></member>
       <member refid="classMR_1_1Const__CutMeshParameters_1add3a559be37a3728483149816fdbb224" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>Const_CutMeshParameters</name></member>
       <member refid="classMR_1_1Const__CutMeshParameters_1af7bfda52922967c6a70fa6551284cad1" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>Const_CutMeshParameters</name></member>
       <member refid="classMR_1_1CutMeshParameters_1a98e7bec8811e7a2d0a4ea4a2c159ab0a" prot="package" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>CutMeshParameters</name></member>
       <member refid="classMR_1_1CutMeshParameters_1adf6c2f846c8033bca895add8a641aa97" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>CutMeshParameters</name></member>
-      <member refid="classMR_1_1CutMeshParameters_1a2cc57bb50ebb9ad8b305814b419b72ff" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>CutMeshParameters</name></member>
+      <member refid="classMR_1_1CutMeshParameters_1afd13446ed92d1c87d90b545f6ffeefb3" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>CutMeshParameters</name></member>
       <member refid="classMR_1_1CutMeshParameters_1a4304e4adcd416f63541c7e0f4a874ede" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>CutMeshParameters</name></member>
       <member refid="classMR_1_1CutMeshParameters_1a8d88ac630c5da03281753aa42a575c22" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>CutMeshParameters</name></member>
       <member refid="classMR_1_1Const__CutMeshParameters_1ac91ac0cd39fa2e574635cc16747e84d7" prot="protected" virt="virtual"><scope>MR::CutMeshParameters</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__CutMeshParameters_1a685bd28d48ecad680d80626f37c5edb6" prot="public" virt="virtual"><scope>MR::CutMeshParameters</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__CutMeshParameters_1adf21afd65686a8426e377a073d8f47e9" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>FillPart</name></member>
+      <member refid="classMR_1_1CutMeshParameters_1a86c557a13fb651f22f1ca95c48624782" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>fillPart</name></member>
       <member refid="classMR_1_1Const__CutMeshParameters_1ab487d225d694a30e0d24dc83c3528293" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>ForceFill</name></member>
       <member refid="classMR_1_1CutMeshParameters_1a09f00bd0b51c745e195525112957c609" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>forceFillMode</name></member>
       <member refid="classMR_1_1CutMeshParameters_1ad3ef992d705ee349e5a36bd2bfa84f6f" prot="public" virt="non-virtual"><scope>MR::CutMeshParameters</scope><name>new2oldEdgesMap</name></member>

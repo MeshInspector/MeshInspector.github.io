@@ -1023,11 +1023,17 @@ var group__GeneralGroup =
       [ "splitEdges", "group__GeneralGroup.html#ga3af4a8bfbe6579dc273d0b9f368f77aa", null ]
     ] ],
     [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", [
+      [ "FillPart", "group__GeneralGroup.html#gaeff0ac5efee98dc8fae00a68075ed50f", [
+        [ "Both", "group__GeneralGroup.html#ggaeff0ac5efee98dc8fae00a68075ed50fa130c5b3473c57faa76e2a1c54e26f88e", null ],
+        [ "Left", "group__GeneralGroup.html#ggaeff0ac5efee98dc8fae00a68075ed50fa945d5e233cf7d6240f6b783b36a374ff", null ],
+        [ "Right", "group__GeneralGroup.html#ggaeff0ac5efee98dc8fae00a68075ed50fa92b09c7c48c520c3c55e497875da437c", null ]
+      ] ],
       [ "ForceFill", "group__GeneralGroup.html#gae51d141aa40e0f91506f4921b6797a33", [
         [ "None", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33a6adf97f83acf6453d4a6a4b1070f3754", null ],
         [ "Good", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33a0c6ad70beb3a7e76c3fc7adab7c46acc", null ],
         [ "All", "group__GeneralGroup.html#ggae51d141aa40e0f91506f4921b6797a33ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
       ] ],
+      [ "Both", "group__GeneralGroup.html#ga50cdc033923c50b23668a35a7b9e0e27", null ],
       [ "new2oldEdgesMap", "group__GeneralGroup.html#gae4b1e4cc599311ec4eaa5e0d7f90518b", null ],
       [ "new2OldMap", "group__GeneralGroup.html#ga75222f670fe00aaef7a945b8ccbb3ea9", null ],
       [ "None", "group__GeneralGroup.html#ga4c3c99dc26d25d555e9ebf6c6dfc5cbf", null ],
@@ -2491,7 +2497,6 @@ var group__GeneralGroup =
       [ "size", "group__GeneralGroup.html#gab0d01d793fad21820791310d7318235e", null ],
       [ "sizeOfComp", "group__GeneralGroup.html#ga009ad612aecca5afb9b91768536c406f", null ],
       [ "unite", "group__GeneralGroup.html#ga0739ab9258f8fc25ef45ce06106fffce", null ],
-      [ "uniteAtomic", "group__GeneralGroup.html#gafc7cf2a20d6a790fde152f300217f16f", null ],
       [ "united", "group__GeneralGroup.html#gaa570cc6f33bbb51fb5859608b9c68fbc", null ]
     ] ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", [
@@ -9463,6 +9468,11 @@ var group__GeneralGroup =
       [ "MR::FeaturesObjectKind::Cone", "group__GeneralGroup.html#gga0e2748a930a13a0cacf2a0a2da1b6e0dacd2c8bc6e5f1ea17c918ccaf89660104", null ],
       [ "MR::FeaturesObjectKind::_count", "group__GeneralGroup.html#gga0e2748a930a13a0cacf2a0a2da1b6e0dad69186af02738a9b3ced1bc5b652ba55", null ]
     ] ],
+    [ "MR::CutMeshParameters::FillPart", "group__GeneralGroup.html#gaeff0ac5efee98dc8fae00a68075ed50f", [
+      [ "MR::CutMeshParameters::FillPart::Both", "group__GeneralGroup.html#ggaeff0ac5efee98dc8fae00a68075ed50fa130c5b3473c57faa76e2a1c54e26f88e", null ],
+      [ "MR::CutMeshParameters::FillPart::Left", "group__GeneralGroup.html#ggaeff0ac5efee98dc8fae00a68075ed50fa945d5e233cf7d6240f6b783b36a374ff", null ],
+      [ "MR::CutMeshParameters::FillPart::Right", "group__GeneralGroup.html#ggaeff0ac5efee98dc8fae00a68075ed50fa92b09c7c48c520c3c55e497875da437c", null ]
+    ] ],
     [ "MR::FilterType", "group__GeneralGroup.html#ga6b6dd7eadc1056fc5ffd8af1810d925a", [
       [ "MR::FilterType::Linear", "group__GeneralGroup.html#gga6b6dd7eadc1056fc5ffd8af1810d925aa32a843da6ea40ab3b17a3421ccdf671b", null ],
       [ "MR::FilterType::Discrete", "group__GeneralGroup.html#gga6b6dd7eadc1056fc5ffd8af1810d925aa4984667940802dedc139aa7a430a6553", null ]
@@ -15797,7 +15807,6 @@ var group__GeneralGroup =
     [ "MR::UniquePtr::UniquePtr", "group__GeneralGroup.html#ga69356ad900f65842bc6e4bff6e88a8e0", null ],
     [ "MR::UniqueTemporaryFolder::UniqueTemporaryFolder", "group__GeneralGroup.html#gaea7e76db7a25256c915abaefb1df86bb", null ],
     [ "MR::UnionFind::unite", "group__GeneralGroup.html#ga0739ab9258f8fc25ef45ce06106fffce", null ],
-    [ "MR::UnionFind::uniteAtomic", "group__GeneralGroup.html#gafc7cf2a20d6a790fde152f300217f16f", null ],
     [ "MR::MeshBuilder::uniteCloseVertices", "group__GeneralGroup.html#ga735c792eb0d3d6adc4c77f067f973d46", null ],
     [ "MR::MeshBuilder::uniteCloseVertices", "group__GeneralGroup.html#gafd13ce716b18402ee77952081cf52e40", null ],
     [ "MR::UnionFind::united", "group__GeneralGroup.html#gaa570cc6f33bbb51fb5859608b9c68fbc", null ],
@@ -16354,6 +16363,7 @@ var group__GeneralGroup =
     [ "BordersHighlight", "group__GeneralGroup.html#gaf20f512b32754c2ad0a15ee32c85cc4b", null ],
     [ "MR::RenderMeshObject::bordersSize_", "group__GeneralGroup.html#gab85b5749a8074358f89fff480448ee5d", null ],
     [ "MR::RenderMeshObject::borderTexture_", "group__GeneralGroup.html#gac5dda63e700cfe2742a7b9b1683649e6", null ],
+    [ "MR::CutMeshParameters::Both", "group__GeneralGroup.html#ga50cdc033923c50b23668a35a7b9e0e27", null ],
     [ "MR::FixUndercuts::FixParams::bottomExtension", "group__GeneralGroup.html#ga0b82b3ed40ea6b099489b664630a2e27", null ],
     [ "MR::DihedralAngleProcessParams::boundaryValue", "group__GeneralGroup.html#gaf8d91d7986ad0925066b5e8c5f79b96e", null ],
     [ "MR::Box", "group__GeneralGroup.html#ga28ad0ea821b120682bcfbd322884af64", null ],

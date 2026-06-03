@@ -195,6 +195,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.CurvePoint", "classmrmeshpy_1_1CurvePoint.html", "classmrmeshpy_1_1CurvePoint" ],
     [ "mrmeshpy.CutByProjectionSettings", "classmrmeshpy_1_1CutByProjectionSettings.html", "classmrmeshpy_1_1CutByProjectionSettings" ],
     [ "mrmeshpy.CutMeshParameters", "classmrmeshpy_1_1CutMeshParameters.html", "classmrmeshpy_1_1CutMeshParameters" ],
+    [ "mrmeshpy.CutMeshParameters.FillPart", "classmrmeshpy_1_1CutMeshParameters_1_1FillPart.html", "classmrmeshpy_1_1CutMeshParameters_1_1FillPart" ],
     [ "mrmeshpy.CutMeshParameters.ForceFill", "classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html", "classmrmeshpy_1_1CutMeshParameters_1_1ForceFill" ],
     [ "mrmeshpy.CutMeshResult", "classmrmeshpy_1_1CutMeshResult.html", "classmrmeshpy_1_1CutMeshResult" ],
     [ "mrmeshpy.Cylinder3d", "classmrmeshpy_1_1Cylinder3d.html", "classmrmeshpy_1_1Cylinder3d" ],

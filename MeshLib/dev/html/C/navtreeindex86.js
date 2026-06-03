@@ -1,5 +1,13 @@
 var NAVTREEINDEX86 =
 {
+"MRPointsProject_8h.html#ab42ae3cbdf1cc6673345f024a0b4588e":[6,2,1,0,0,0,0,1,268,55],
+"MRPointsProject_8h.html#ab73b061b90cf9e466d211f81a58a9cc8":[6,2,1,0,0,0,0,1,268,73],
+"MRPointsProject_8h.html#ab842950cf1fc85b342c21ca02213c745":[6,2,1,0,0,0,0,1,268,50],
+"MRPointsProject_8h.html#ab9c2d967f12d97a74514b5b83ab25739":[6,2,1,0,0,0,0,1,268,53],
+"MRPointsProject_8h.html#abd7623aa419f3bda38baae62973b803d":[6,2,1,0,0,0,0,1,268,27],
+"MRPointsProject_8h.html#abec7d3f0f19c055f3b593bad628f6097":[6,2,1,0,0,0,0,1,268,10],
+"MRPointsProject_8h.html#ac2fd154651c04c678c524f6248f992f0":[6,2,1,0,0,0,0,1,268,26],
+"MRPointsProject_8h.html#ac72c214b018ab5320946450d5aa03797":[6,2,1,0,0,0,0,1,268,13],
 "MRPointsProject_8h.html#acb32ad301fda87cda235f254e37b4be1":[6,2,1,0,0,0,0,1,268,33],
 "MRPointsProject_8h.html#acc732bce6f7682cbdb0a3a72dd2dbc4d":[6,2,1,0,0,0,0,1,268,1],
 "MRPointsProject_8h.html#acf4a4df158c21fe0d176a1a78a078c96":[6,2,1,0,0,0,0,1,268,44],
@@ -241,13 +249,5 @@ var NAVTREEINDEX86 =
 "MRPolylineComponents_8h.html#ac71161fd8b0b8471f52ee24f1ab95f7f":[6,2,1,0,0,0,0,1,276,23],
 "MRPolylineComponents_8h.html#ae02822fd85c05d30ba2d0aa384c434ce":[6,2,1,0,0,0,0,1,276,8],
 "MRPolylineComponents_8h.html#ae285a807c061e6a3376d20260e5c2015":[6,2,1,0,0,0,0,1,276,7],
-"MRPolylineComponents_8h.html#ae4a70f65018c3942c21f0c66710e54d7":[6,2,1,0,0,0,0,1,276,1],
-"MRPolylineComponents_8h.html#af6b5f2378cb405be3160ca54e61b2617":[6,2,1,0,0,0,0,1,276,15],
-"MRPolylineComponents_8h.html#aff309b97257bed1d41107db0ee6b4d85":[6,2,1,0,0,0,0,1,276,18],
-"MRPolylineComponents_8h_source.html":[6,2,1,0,0,0,0,1,276],
-"MRPolylineDecimate_8h.html":[6,2,1,0,0,0,0,1,277],
-"MRPolylineDecimate_8h.html#a017ca0c76d3e31b4298bbcc16468c4cd":[6,2,1,0,0,0,0,1,277,4],
-"MRPolylineDecimate_8h.html#a018340625759c9a944b7e2d9ff830754":[6,2,1,0,0,0,0,1,277,34],
-"MRPolylineDecimate_8h.html#a01dda646180ddcabb3827082ebd64f9e":[6,2,1,0,0,0,0,1,277,58],
-"MRPolylineDecimate_8h.html#a04810f11409932dc1595f1ab289ee905":[6,2,1,0,0,0,0,1,277,50]
+"MRPolylineComponents_8h.html#ae4a70f65018c3942c21f0c66710e54d7":[6,2,1,0,0,0,0,1,276,1]
 };

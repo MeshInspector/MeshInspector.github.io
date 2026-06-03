@@ -1,5 +1,12 @@
 var NAVTREEINDEX98 =
 {
+"classMR_1_1EdgeBitSet.html#ad1f73f88d4aacf19ed38df454f494326":[6,3,0,0,0,1118,6],
+"classMR_1_1EdgeBitSet.html#ada9571d57bf3601b20caea65205b3305":[6,3,0,0,0,1118,24],
+"classMR_1_1EdgeBitSet.html#add8067b8d1e076e32f6789c932d76241":[6,3,0,0,0,1118,4],
+"classMR_1_1EdgeBitSet.html#adfa61eae58c142f689555398b2a21f14":[6,3,0,0,0,1118,7],
+"classMR_1_1EdgeBitSet.html#ae14c61d8f26cb6bea2c08bd16358d5c0":[6,3,0,0,0,1118,2],
+"classMR_1_1EdgeBitSet.html#ae4a8ee5118e1277d0f0586ed414d32fc":[6,3,0,0,0,1118,28],
+"classMR_1_1EdgeBitSet.html#ae6e86fc3193bb5daf6e73ffac23cfe60":[6,3,0,0,0,1118,14],
 "classMR_1_1EdgeBitSet.html#ae933be4d7f18af9c4ceba11362b88bed":[6,3,0,0,0,1118,30],
 "classMR_1_1EdgeColors.html":[6,3,0,0,0,1120],
 "classMR_1_1EdgeColors.html#a099a1321da8ce2dc5744074ec37dde9f":[6,3,0,0,0,1120,6],
@@ -242,12 +249,5 @@ var NAVTREEINDEX98 =
 "classMR_1_1EndMillTool.html#ac1f839824ec15cb7571b9846577d76bc":[6,3,0,0,0,1136,6],
 "classMR_1_1EnumNeihbourFaces.html":[6,3,0,0,0,1137],
 "classMR_1_1EnumNeihbourFaces.html#a2fc3b226e04207443a6c424adb3b515f":[6,3,0,0,0,1137,3],
-"classMR_1_1EnumNeihbourFaces.html#a4d66ae6b3cff12deb3116e3f18b606c4":[6,3,0,0,0,1137,0],
-"classMR_1_1EnumNeihbourFaces.html#a902dfcf490221bd5567c2b3de439bad1":[6,3,0,0,0,1137,5],
-"classMR_1_1EnumNeihbourFaces.html#a927859269b9ba49c974531e1c6a83f5d":[6,3,0,0,0,1137,1],
-"classMR_1_1EnumNeihbourFaces.html#aa2ea9a6c83ba274120ef4f7373f3741b":[6,3,0,0,0,1137,4],
-"classMR_1_1EnumNeihbourFaces.html#ac3da68189ac61d196e5f018af4fe8308":[6,3,0,0,0,1137,2],
-"classMR_1_1EnumNeihbourVertices.html":[6,3,0,0,0,1138],
-"classMR_1_1EnumNeihbourVertices.html#a2b02bf22e693363e661c1d2c1bae67bd":[6,3,0,0,0,1138,3],
-"classMR_1_1EnumNeihbourVertices.html#a2e38c0629b26b6c061cc4983be57983f":[6,3,0,0,0,1138,7]
+"classMR_1_1EnumNeihbourFaces.html#a4d66ae6b3cff12deb3116e3f18b606c4":[6,3,0,0,0,1137,0]
 };
