@@ -80,6 +80,44 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="51" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="51" bodyend="57"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1ab2bb858208c87930ba6dabd8c732ed3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</definition>
+        <argsstring>(Const_UniqueTemporaryFolder _other)</argsstring>
+        <name>Const_UniqueTemporaryFolder</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__UniqueTemporaryFolder" kindref="compound">Const_UniqueTemporaryFolder</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder_1a247d2c0fe2f1c194238ecc6fa34599b2" kindref="member">MR.UniqueTemporaryFolder.UniqueTemporaryFolder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="62" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1af2c5d4d13ee74483a7678c4a277c15b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</definition>
+        <argsstring>(UniqueTemporaryFolder _other)</argsstring>
+        <name>Const_UniqueTemporaryFolder</name>
+        <qualifiedname>MR.Const_UniqueTemporaryFolder.Const_UniqueTemporaryFolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UniqueTemporaryFolder" kindref="compound">UniqueTemporaryFolder</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1UniqueTemporaryFolder_1a247d2c0fe2f1c194238ecc6fa34599b2" kindref="member">MR.UniqueTemporaryFolder.UniqueTemporaryFolder</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="67" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="67" bodyend="67"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
       <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1a418f9237367395cb8af4a75777d73b41" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -158,7 +196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="62" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="62" bodyend="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="72" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="72" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1a4b4803a1f56cb8245e5caa0b604fede7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe implicit</type>
@@ -177,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="72" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="72" bodyend="77"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="82" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="82" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1Const__UniqueTemporaryFolder_1aea7b28ea14024bb74dc70b1ebdc1543c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Filesystem.Path</type>
@@ -200,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="82" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="82" bodyend="91"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="92" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="92" bodyend="101"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -246,11 +284,13 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="9" bodyend="92"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" line="8" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUniqueTemporaryFolder.cs" bodystart="9" bodyend="102"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__UniqueTemporaryFolder_1a71c4b640c5dc47da15a51ce5a21baa24" prot="package" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Const_UniqueTemporaryFolder</name></member>
       <member refid="classMR_1_1Const__UniqueTemporaryFolder_1aa450c580ccfa9075b64daf925b14ba54" prot="public" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Const_UniqueTemporaryFolder</name></member>
       <member refid="classMR_1_1Const__UniqueTemporaryFolder_1a24cd2d59fee68ce865b7ee47ffb9764c" prot="public" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Const_UniqueTemporaryFolder</name></member>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1ab2bb858208c87930ba6dabd8c732ed3e" prot="public" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Const_UniqueTemporaryFolder</name></member>
+      <member refid="classMR_1_1Const__UniqueTemporaryFolder_1af2c5d4d13ee74483a7678c4a277c15b1" prot="public" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Const_UniqueTemporaryFolder</name></member>
       <member refid="classMR_1_1Const__UniqueTemporaryFolder_1ab949b17d0c6b6379105aa064e42e20b8" prot="protected" virt="virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__UniqueTemporaryFolder_1a9093d657a1910098844e51a54190fac0" prot="public" virt="virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__UniqueTemporaryFolder_1aa2cebbc5374859a95a707d534b067890" prot="public" virt="non-virtual"><scope>MR::Const_UniqueTemporaryFolder</scope><name>operator bool</name></member>

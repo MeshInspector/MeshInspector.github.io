@@ -173,6 +173,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="213" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="213" bodyend="224"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshAction_1a3a0c140ac0008e670385caa55b722468" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangeMeshAction" kindref="compound">MR.ChangeMeshAction</ref></type>
+        <definition>unsafe MR.ChangeMeshAction MR.ChangeMeshAction.assign</definition>
+        <argsstring>(MR._ByValue_ChangeMeshAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangeMeshAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeMeshAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ChangeMeshAction::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="229" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="229" bodyend="236"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeMeshAction_1acb5cf3017e018215d15c849e7e62df01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ChangeMeshAction.action</definition>
@@ -190,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="229" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="229" bodyend="234"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="241" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="241" bodyend="246"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -242,9 +261,10 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="146" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="147" bodyend="235"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="146" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="147" bodyend="247"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeMeshAction_1acb5cf3017e018215d15c849e7e62df01" prot="public" virt="non-virtual"><scope>MR::ChangeMeshAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeMeshAction_1a3a0c140ac0008e670385caa55b722468" prot="public" virt="non-virtual"><scope>MR::ChangeMeshAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeMeshAction_1aee0dbd2a3165250e00f5b9a15ecf6077" prot="package" virt="non-virtual"><scope>MR::ChangeMeshAction</scope><name>ChangeMeshAction</name></member>
       <member refid="classMR_1_1ChangeMeshAction_1aa60d87ffe54b088043be20c82631f10f" prot="public" virt="non-virtual"><scope>MR::ChangeMeshAction</scope><name>ChangeMeshAction</name></member>
       <member refid="classMR_1_1ChangeMeshAction_1a74988d26d40512d8eee00deeb3e2032b" prot="public" virt="non-virtual"><scope>MR::ChangeMeshAction</scope><name>ChangeMeshAction</name></member>

@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8710" bodyend="8711"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8990" bodyend="8991"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a1097cdc09c976103961f958e9162a12d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -49,7 +49,53 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8713" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8713" bodyend="8714"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8993" bodyend="8994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a57257a640d80356c8eee520418a07dd0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeSceneObjectsOrder" kindref="compound">ChangeSceneObjectsOrder</ref></type>
+        <definition> ChangeSceneObjectsOrder mrmeshpy.ChangeSceneObjectsOrder.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeSceneObjectsOrder.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8997" bodyend="8998"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a57257a640d80356c8eee520418a07dd0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeSceneObjectsOrder" kindref="compound">ChangeSceneObjectsOrder</ref></type>
+        <definition> ChangeSceneObjectsOrder mrmeshpy.ChangeSceneObjectsOrder.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeSceneObjectsOrder.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9001" bodyend="9002"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -79,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8716" bodyend="8719"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9004" bodyend="9007"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a342ced3be282985a7a2e4c1c61205958" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -103,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8721" bodyend="8724"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9009" bodyend="9012"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a9db0d37de60c31b20f0b8736f4882777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -124,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8725" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8725" bodyend="8726"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9013" bodyend="9014"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a29f4b4e2e718d0d5e0f7a3983312b215" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -143,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8727" bodyend="8728"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9015" bodyend="9016"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -178,7 +224,7 @@ History action for scene objects order change
         <link refid="classmrmeshpy_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8702" bodyend="8728"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8982" bodyend="9016"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a6aeb0fb2047346e44d8ae06cb864723d" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneObjectsOrder</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a9882e3bd4fd6e5461a3ac802e7eaea09" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneObjectsOrder</scope><name>__init__</name></member>
@@ -186,6 +232,8 @@ History action for scene objects order change
       <member refid="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a1097cdc09c976103961f958e9162a12d" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneObjectsOrder</scope><name>action</name></member>
       <member refid="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a9db0d37de60c31b20f0b8736f4882777" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneObjectsOrder</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a29f4b4e2e718d0d5e0f7a3983312b215" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneObjectsOrder</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a57257a640d80356c8eee520418a07dd0" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneObjectsOrder</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a57257a640d80356c8eee520418a07dd0" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneObjectsOrder</scope><name>operator</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

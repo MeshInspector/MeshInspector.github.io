@@ -1,12 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"classMR_1_1UI_1_1NonOverlappingLabelTask.html#afd22e309bdd9997c31d00d6723c45396":[6,0,1,0,1,49,11,1],
-"classMR_1_1UI_1_1NonOverlappingLabelTask.html#afd22e309bdd9997c31d00d6723c45396":[6,0,2,0,2,33,9,1],
-"classMR_1_1UI_1_1RectAllocator.html":[6,0,1,0,1,49,14],
-"classMR_1_1UI_1_1RectAllocator.html":[6,0,2,0,2,33,12],
-"classMR_1_1UI_1_1RectAllocator.html#a0c0e4459ae9255dde41c3c2e216999a3":[6,0,1,0,1,49,14,1],
-"classMR_1_1UI_1_1RectAllocator.html#a0c0e4459ae9255dde41c3c2e216999a3":[6,0,2,0,2,33,12,1],
-"classMR_1_1UI_1_1RectAllocator.html#a14c55972c4fd972771c486cb49eab847":[6,0,1,0,1,49,14,2],
 "classMR_1_1UI_1_1RectAllocator.html#a14c55972c4fd972771c486cb49eab847":[6,0,2,0,2,33,12,2],
 "classMR_1_1UI_1_1RectAllocator.html#a32b67d79c518828ebf2d8d14047c42f2":[6,0,1,0,1,49,14,3],
 "classMR_1_1UI_1_1RectAllocator.html#a32b67d79c518828ebf2d8d14047c42f2":[6,0,2,0,2,33,12,3],
@@ -249,5 +242,12 @@ var NAVTREEINDEX12 =
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[6,0,0,20,40],
 "conceptMR_1_1HasGetDirectionMethod.html":[6,0,0,20,39],
 "conceptMR_1_1HasGetNormalMethod.html":[6,0,0,20,38],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,1,15,0,8]
+"conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,1,15,0,8],
+"conceptMR_1_1ImGuiMath_1_1detail_1_1ValidOperands.html":[6,0,1,0,1,15,0,12],
+"conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,1,15,0,9],
+"conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,15,0,10],
+"conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[6,0,1,0,1,15,0,11],
+"conceptMR_1_1Trivial.html":[6,0,0,20,37],
+"conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[6,0,1,0,1,49,2,7],
+"conceptMR_1_1UI_1_1detail_1_1Scalar.html":[6,0,0,20,44]
 };

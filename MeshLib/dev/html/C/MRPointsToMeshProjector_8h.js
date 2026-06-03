@@ -34,6 +34,7 @@ var MRPointsToMeshProjector_8h =
     [ "MR_MeshProjectionParameters_Set_refXf", "MRPointsToMeshProjector_8h.html#a7df181286e26b1c625407efd16f9e4e2", null ],
     [ "MR_MeshProjectionParameters_Set_upDistLimitSq", "MRPointsToMeshProjector_8h.html#a6471c2fed0a3d59004c95e844bf1f354", null ],
     [ "MR_MeshProjectionParameters_Set_xf", "MRPointsToMeshProjector_8h.html#a61c7781ac152fe4e7196e256d0e757f7", null ],
+    [ "MR_PointsToMeshProjector_AssignFromAnother", "MRPointsToMeshProjector_8h.html#a39f8febdb63c545eee8abc3b20b12122", null ],
     [ "MR_PointsToMeshProjector_ConstructFromAnother", "MRPointsToMeshProjector_8h.html#ab970c9c3455e0b1da74032e4eea5dacf", null ],
     [ "MR_PointsToMeshProjector_DefaultConstruct", "MRPointsToMeshProjector_8h.html#adc48ec91e2159f6ec1813f76efb6a727", null ],
     [ "MR_PointsToMeshProjector_DefaultConstructArray", "MRPointsToMeshProjector_8h.html#aee858488f991194d632ebf47bc350d10", null ],

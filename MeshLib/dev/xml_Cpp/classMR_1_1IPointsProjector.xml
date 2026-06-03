@@ -20,88 +20,6 @@
         </inbodydescription>
         <location file="MRMesh/MRPointsProject.h" line="95" column="13"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1IPointsProjector_1a5a3f74ffe976079b82511c3381ef3cf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::IPointsProjector::IPointsProjector</definition>
-        <argsstring>()=default</argsstring>
-        <name>IPointsProjector</name>
-        <qualifiedname>MR::IPointsProjector::IPointsProjector</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRPointsProject.h" line="97" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IPointsProjector_1ad662f0a8c6d8fd6376e2551303f5874a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>MR::IPointsProjector::IPointsProjector</definition>
-        <argsstring>(const IPointsProjector &amp;)=default</argsstring>
-        <name>IPointsProjector</name>
-        <qualifiedname>MR::IPointsProjector::IPointsProjector</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRPointsProject.h" line="98" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IPointsProjector_1ab26cafb526f8cd9801cad266deaadc32" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR::IPointsProjector::IPointsProjector</definition>
-        <argsstring>(IPointsProjector &amp;&amp;) noexcept=default</argsstring>
-        <name>IPointsProjector</name>
-        <qualifiedname>MR::IPointsProjector::IPointsProjector</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRPointsProject.h" line="99" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IPointsProjector_1ab2756b25207ca6b23055f6f1ec5c045a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref> &amp;</type>
-        <definition>IPointsProjector &amp; MR::IPointsProjector::operator=</definition>
-        <argsstring>(const IPointsProjector &amp;)=default</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::IPointsProjector::operator=</qualifiedname>
-        <param>
-          <type>const <ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref> &amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRPointsProject.h" line="101" column="23"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1IPointsProjector_1a29ce251481d5cecc23a88a19a389df7b" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
-        <type><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref> &amp;</type>
-        <definition>IPointsProjector &amp; MR::IPointsProjector::operator=</definition>
-        <argsstring>(IPointsProjector &amp;&amp;) noexcept=default</argsstring>
-        <name>operator=</name>
-        <qualifiedname>MR::IPointsProjector::operator=</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref> &amp;&amp;</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="MRMesh/MRPointsProject.h" line="102" column="23"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1_1IPointsProjector_1ae6ae7b291953d433a794999d25ef10df" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
         <definition>virtual Expected&lt; void &gt; MR::IPointsProjector::setPointCloud</definition>
@@ -121,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointsProject.h" line="105" column="22"/>
+        <location file="MRMesh/MRPointsProject.h" line="98" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IPointsProjector_1a73d0b887b876f110e3fb6554422f9a31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -149,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointsProject.h" line="108" column="22"/>
+        <location file="MRMesh/MRPointsProject.h" line="101" column="22"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1IPointsProjector_1a4125cb715c028facd258f35767e5c66c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>size_t</type>
@@ -170,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointsProject.h" line="112" column="20"/>
+        <location file="MRMesh/MRPointsProject.h" line="105" column="20"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -196,14 +114,9 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="MRMesh/MRPointsProject.h" line="92" column="1" bodyfile="MRMesh/MRPointsProject.h" bodystart="93" bodyend="113"/>
+    <location file="MRMesh/MRPointsProject.h" line="92" column="1" bodyfile="MRMesh/MRPointsProject.h" bodystart="93" bodyend="106"/>
     <listofallmembers>
       <member refid="classMR_1_1IPointsProjector_1a73d0b887b876f110e3fb6554422f9a31" prot="public" virt="pure-virtual"><scope>MR::IPointsProjector</scope><name>findProjections</name></member>
-      <member refid="classMR_1_1IPointsProjector_1a5a3f74ffe976079b82511c3381ef3cf1" prot="public" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>IPointsProjector</name></member>
-      <member refid="classMR_1_1IPointsProjector_1ad662f0a8c6d8fd6376e2551303f5874a" prot="public" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>IPointsProjector</name></member>
-      <member refid="classMR_1_1IPointsProjector_1ab26cafb526f8cd9801cad266deaadc32" prot="public" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>IPointsProjector</name></member>
-      <member refid="classMR_1_1IPointsProjector_1ab2756b25207ca6b23055f6f1ec5c045a" prot="public" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>operator=</name></member>
-      <member refid="classMR_1_1IPointsProjector_1a29ce251481d5cecc23a88a19a389df7b" prot="public" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>operator=</name></member>
       <member refid="classMR_1_1IPointsProjector_1a4125cb715c028facd258f35767e5c66c" prot="public" virt="pure-virtual"><scope>MR::IPointsProjector</scope><name>projectionsHeapBytes</name></member>
       <member refid="classMR_1_1IPointsProjector_1ae6ae7b291953d433a794999d25ef10df" prot="public" virt="pure-virtual"><scope>MR::IPointsProjector</scope><name>setPointCloud</name></member>
       <member refid="classMR_1_1IPointsProjector_1a2c0b970d9a78fe1a93045c851874c718" prot="public" virt="virtual"><scope>MR::IPointsProjector</scope><name>~IPointsProjector</name></member>

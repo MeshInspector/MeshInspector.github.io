@@ -40,6 +40,63 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="22" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="22" bodyend="22"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectFactoryBase_1a89b0c35ba933ea2dd03ebd04ca98c2be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Const_ObjectFactoryBase.Const_ObjectFactoryBase</definition>
+        <argsstring>(MR._ByValue_ObjectFactoryBase _other)</argsstring>
+        <name>Const_ObjectFactoryBase</name>
+        <qualifiedname>MR.Const_ObjectFactoryBase.Const_ObjectFactoryBase</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectFactoryBase</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectFactoryBase_1aa09e877be0fe92afb9cfcf29075cb9bc" kindref="member">MR.ObjectFactoryBase.ObjectFactoryBase</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="30" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectFactoryBase_1a4ca53ebab4cbbef79d61c983c778bc9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjectFactoryBase.Const_ObjectFactoryBase</definition>
+        <argsstring>(Const_ObjectFactoryBase _other)</argsstring>
+        <name>Const_ObjectFactoryBase</name>
+        <qualifiedname>MR.Const_ObjectFactoryBase.Const_ObjectFactoryBase</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__ObjectFactoryBase" kindref="compound">Const_ObjectFactoryBase</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectFactoryBase_1aa09e877be0fe92afb9cfcf29075cb9bc" kindref="member">MR.ObjectFactoryBase.ObjectFactoryBase</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="41" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Const__ObjectFactoryBase_1aa66934bdbd5f8149423b96b82588f43b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Const_ObjectFactoryBase.Const_ObjectFactoryBase</definition>
+        <argsstring>(ObjectFactoryBase _other)</argsstring>
+        <name>Const_ObjectFactoryBase</name>
+        <qualifiedname>MR.Const_ObjectFactoryBase.Const_ObjectFactoryBase</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectFactoryBase" kindref="compound">ObjectFactoryBase</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1ObjectFactoryBase_1aa09e877be0fe92afb9cfcf29075cb9bc" kindref="member">MR.ObjectFactoryBase.ObjectFactoryBase</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="46" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
       <memberdef kind="function" id="classMR_1_1Const__ObjectFactoryBase_1a393c52795eb638427af5e061502df75a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -124,9 +181,12 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="8" bodyend="26"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" line="7" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectFactory.cs" bodystart="8" bodyend="47"/>
     <listofallmembers>
       <member refid="classMR_1_1Const__ObjectFactoryBase_1a5a919a79c96d30e05f6d1a8d8c6e0d26" prot="package" virt="non-virtual"><scope>MR::Const_ObjectFactoryBase</scope><name>Const_ObjectFactoryBase</name></member>
+      <member refid="classMR_1_1Const__ObjectFactoryBase_1a89b0c35ba933ea2dd03ebd04ca98c2be" prot="public" virt="non-virtual"><scope>MR::Const_ObjectFactoryBase</scope><name>Const_ObjectFactoryBase</name></member>
+      <member refid="classMR_1_1Const__ObjectFactoryBase_1a4ca53ebab4cbbef79d61c983c778bc9a" prot="public" virt="non-virtual"><scope>MR::Const_ObjectFactoryBase</scope><name>Const_ObjectFactoryBase</name></member>
+      <member refid="classMR_1_1Const__ObjectFactoryBase_1aa66934bdbd5f8149423b96b82588f43b" prot="public" virt="non-virtual"><scope>MR::Const_ObjectFactoryBase</scope><name>Const_ObjectFactoryBase</name></member>
       <member refid="classMR_1_1Const__ObjectFactoryBase_1a01596031a5a07c8745d4bd541f6816b7" prot="protected" virt="virtual"><scope>MR::Const_ObjectFactoryBase</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ObjectFactoryBase_1a20e69363dd45828b5890a6cf84398550" prot="public" virt="virtual"><scope>MR::Const_ObjectFactoryBase</scope><name>Dispose</name></member>
       <member refid="classMR_1_1Const__ObjectFactoryBase_1a393c52795eb638427af5e061502df75a" prot="private" virt="non-virtual"><scope>MR::Const_ObjectFactoryBase</scope><name>~Const_ObjectFactoryBase</name></member>

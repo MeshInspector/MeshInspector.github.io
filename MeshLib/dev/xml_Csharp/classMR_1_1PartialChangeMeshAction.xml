@@ -185,6 +185,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="478" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="478" bodyend="490"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1PartialChangeMeshAction_1acca7c2d4769eeb4a275351002f2e58c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PartialChangeMeshAction" kindref="compound">MR.PartialChangeMeshAction</ref></type>
+        <definition>unsafe MR.PartialChangeMeshAction MR.PartialChangeMeshAction.assign</definition>
+        <argsstring>(MR._ByValue_PartialChangeMeshAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PartialChangeMeshAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_PartialChangeMeshAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::PartialChangeMeshAction::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="495" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="495" bodyend="502"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1PartialChangeMeshAction_1a82e55fc67bd55776b69670dda6e70a59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.PartialChangeMeshAction.action</definition>
@@ -202,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="495" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="495" bodyend="500"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="507" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="507" bodyend="512"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -254,9 +273,10 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="408" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="409" bodyend="501"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="408" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="409" bodyend="513"/>
     <listofallmembers>
       <member refid="classMR_1_1PartialChangeMeshAction_1a82e55fc67bd55776b69670dda6e70a59" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshAction</scope><name>action</name></member>
+      <member refid="classMR_1_1PartialChangeMeshAction_1acca7c2d4769eeb4a275351002f2e58c3" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshAction</scope><name>assign</name></member>
       <member refid="classMR_1_1Const__PartialChangeMeshAction_1ad71fb53d50a27b2ce157d99e96a7e021" prot="package" virt="non-virtual"><scope>MR::PartialChangeMeshAction</scope><name>Const_PartialChangeMeshAction</name></member>
       <member refid="classMR_1_1Const__PartialChangeMeshAction_1a44667fb3e0a29ac8dbcb8e5c39a7927d" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshAction</scope><name>Const_PartialChangeMeshAction</name></member>
       <member refid="classMR_1_1Const__PartialChangeMeshAction_1a206c2d3de91fddf0db0cbec77c2ce82c" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshAction</scope><name>Const_PartialChangeMeshAction</name></member>
