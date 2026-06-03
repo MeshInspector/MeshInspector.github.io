@@ -1,5 +1,10 @@
 var NAVTREEINDEX9 =
 {
+"classMR_1_1Mcp_1_1Server.html#a41d913fae94d9444c77104e52f2a2200":[6,0,2,0,2,10,1,14],
+"classMR_1_1Mcp_1_1Server.html#a49208ffdadda99d167e31e81d612aeaf":[6,0,1,0,1,21,1,3],
+"classMR_1_1Mcp_1_1Server.html#a49208ffdadda99d167e31e81d612aeaf":[6,0,2,0,2,10,1,3],
+"classMR_1_1Mcp_1_1Server.html#a650af3bd0595e9dbd5c6d93d8399688e":[6,0,1,0,1,21,1,5],
+"classMR_1_1Mcp_1_1Server.html#a650af3bd0595e9dbd5c6d93d8399688e":[6,0,2,0,2,10,1,5],
 "classMR_1_1Mcp_1_1Server.html#aaf379de21838d3f144e6dde8ce9936ba":[6,0,1,0,1,21,1,7],
 "classMR_1_1Mcp_1_1Server.html#aaf379de21838d3f144e6dde8ce9936ba":[6,0,2,0,2,10,1,7],
 "classMR_1_1Mcp_1_1Server.html#ae6008d565f2f5a971a3694f196f7ebe9":[6,0,1,0,1,21,1,13],
@@ -30,10 +35,12 @@ var NAVTREEINDEX9 =
 "classMR_1_1MeshOrPoints.html":[6,0,0,20,344],
 "classMR_1_1MeshOrPointsObject.html":[6,0,0,20,347],
 "classMR_1_1MeshSave_1_1BinaryStlSaver.html":[6,0,0,2,12,0],
-"classMR_1_1MeshSave_1_1BinaryStlSaver.html#a20ed9bc2a6d528a67539a8c8e6b539cc":[6,0,0,2,12,0,1],
-"classMR_1_1MeshSave_1_1BinaryStlSaver.html#a2422df321dd6121589093b939d92a1ad":[6,0,0,2,12,0,3],
+"classMR_1_1MeshSave_1_1BinaryStlSaver.html#a19ffef9e176e926a358e0913adc6949d":[6,0,0,2,12,0,2],
+"classMR_1_1MeshSave_1_1BinaryStlSaver.html#a20ed9bc2a6d528a67539a8c8e6b539cc":[6,0,0,2,12,0,3],
+"classMR_1_1MeshSave_1_1BinaryStlSaver.html#a2422df321dd6121589093b939d92a1ad":[6,0,0,2,12,0,5],
 "classMR_1_1MeshSave_1_1BinaryStlSaver.html#a859f9b2c3532df188432fec61a6a2b99":[6,0,0,2,12,0,0],
-"classMR_1_1MeshSave_1_1BinaryStlSaver.html#acd906c16c2c822c77b7415473be8e7c3":[6,0,0,2,12,0,2],
+"classMR_1_1MeshSave_1_1BinaryStlSaver.html#a9eeba76ad483b4f8c382f151a380d344":[6,0,0,2,12,0,1],
+"classMR_1_1MeshSave_1_1BinaryStlSaver.html#acd906c16c2c822c77b7415473be8e7c3":[6,0,0,2,12,0,4],
 "classMR_1_1MeshTopology.html":[6,0,0,7,2],
 "classMR_1_1MeshTopology.html":[6,0,0,20,354],
 "classMR_1_1MeshTopologyDiff.html":[6,0,0,9,10],
@@ -242,12 +249,5 @@ var NAVTREEINDEX9 =
 "classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[6,0,2,0,2,518,1],
 "classMR_1_1PlaneObject.html":[6,0,0,11,0,4],
 "classMR_1_1PlaneObject.html":[6,0,0,20,422],
-"classMR_1_1PlaneWidget.html":[6,0,0,20,610],
-"classMR_1_1PluginCloseOnChangeMesh.html":[6,0,0,20,713],
-"classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,0,20,715],
-"classMR_1_1PluginCloseOnEscPressed.html":[6,0,0,20,716],
-"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[6,0,0,20,712],
-"classMR_1_1PluginUpdateOnChangeMeshPart.html":[6,0,0,20,714],
-"classMR_1_1PluginUpdateOr.html":[6,0,0,20,717],
-"classMR_1_1PointAccumulator.html":[6,0,0,0,1,0]
+"classMR_1_1PlaneWidget.html":[6,0,0,20,610]
 };

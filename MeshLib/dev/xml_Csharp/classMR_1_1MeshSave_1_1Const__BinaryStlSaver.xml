@@ -40,63 +40,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="25" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="25" bodyend="25"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshSave_1_1Const__BinaryStlSaver_1ae58c6f56fbd39bce53ba484ac5219a3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe</type>
-        <definition>unsafe MR.MeshSave.Const_BinaryStlSaver.Const_BinaryStlSaver</definition>
-        <argsstring>(MR.MeshSave._ByValue_BinaryStlSaver _other)</argsstring>
-        <name>Const_BinaryStlSaver</name>
-        <qualifiedname>MR.MeshSave.Const_BinaryStlSaver.Const_BinaryStlSaver</qualifiedname>
-        <param>
-          <type>MR.MeshSave._ByValue_BinaryStlSaver</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a7b4004d0c9cb75188128c7cdbfac7beb" kindref="member">MR.MeshSave.BinaryStlSaver.BinaryStlSaver</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="33" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="33" bodyend="39"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshSave_1_1Const__BinaryStlSaver_1aadf1cc3f483a1d2e0225d4bb608198c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.MeshSave.Const_BinaryStlSaver.Const_BinaryStlSaver</definition>
-        <argsstring>(Const_BinaryStlSaver _other)</argsstring>
-        <name>Const_BinaryStlSaver</name>
-        <qualifiedname>MR.MeshSave.Const_BinaryStlSaver.Const_BinaryStlSaver</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1MeshSave_1_1Const__BinaryStlSaver" kindref="compound">Const_BinaryStlSaver</ref></type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a7b4004d0c9cb75188128c7cdbfac7beb" kindref="member">MR.MeshSave.BinaryStlSaver.BinaryStlSaver</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="44" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="44" bodyend="44"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1_1MeshSave_1_1Const__BinaryStlSaver_1a8a2bef5a8b95daa2fd588061fff7a00c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>MR.MeshSave.Const_BinaryStlSaver.Const_BinaryStlSaver</definition>
-        <argsstring>(BinaryStlSaver _other)</argsstring>
-        <name>Const_BinaryStlSaver</name>
-        <qualifiedname>MR.MeshSave.Const_BinaryStlSaver.Const_BinaryStlSaver</qualifiedname>
-        <param>
-          <type><ref refid="classMR_1_1MeshSave_1_1BinaryStlSaver" kindref="compound">BinaryStlSaver</ref></type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from constructor <computeroutput><ref refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a7b4004d0c9cb75188128c7cdbfac7beb" kindref="member">MR.MeshSave.BinaryStlSaver.BinaryStlSaver</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="49" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="49" bodyend="49"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1_1MeshSave_1_1Const__BinaryStlSaver_1af26f3091a545f57c26169d3b9c02d4da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe</type>
         <definition>unsafe MR.MeshSave.Const_BinaryStlSaver.Const_BinaryStlSaver</definition>
@@ -118,13 +61,13 @@
           <defval>null</defval>
         </param>
         <briefdescription>
-<para>writes STL header in the stream Generated from constructor <computeroutput><ref refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1a7b4004d0c9cb75188128c7cdbfac7beb" kindref="member">MR.MeshSave.BinaryStlSaver.BinaryStlSaver</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>expectedNumTris</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+<para>writes STL header in the stream Generated from constructor <computeroutput><ref refid="classMR_1_1MeshSave_1_1BinaryStlSaver_1afb1ae9e7eae84678ceb526d37b656e2f" kindref="member">MR.MeshSave.BinaryStlSaver.BinaryStlSaver</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>expectedNumTris</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="57" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="57" bodyend="65"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="36" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="36" bodyend="44"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -210,12 +153,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="10" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="11" bodyend="66"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" line="10" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshSave.cs" bodystart="11" bodyend="45"/>
     <listofallmembers>
       <member refid="classMR_1_1MeshSave_1_1Const__BinaryStlSaver_1a422c6e34a52abd94bc1710c46a560b61" prot="package" virt="non-virtual"><scope>MR::MeshSave::Const_BinaryStlSaver</scope><name>Const_BinaryStlSaver</name></member>
-      <member refid="classMR_1_1MeshSave_1_1Const__BinaryStlSaver_1ae58c6f56fbd39bce53ba484ac5219a3e" prot="public" virt="non-virtual"><scope>MR::MeshSave::Const_BinaryStlSaver</scope><name>Const_BinaryStlSaver</name></member>
-      <member refid="classMR_1_1MeshSave_1_1Const__BinaryStlSaver_1aadf1cc3f483a1d2e0225d4bb608198c5" prot="public" virt="non-virtual"><scope>MR::MeshSave::Const_BinaryStlSaver</scope><name>Const_BinaryStlSaver</name></member>
-      <member refid="classMR_1_1MeshSave_1_1Const__BinaryStlSaver_1a8a2bef5a8b95daa2fd588061fff7a00c" prot="public" virt="non-virtual"><scope>MR::MeshSave::Const_BinaryStlSaver</scope><name>Const_BinaryStlSaver</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__BinaryStlSaver_1af26f3091a545f57c26169d3b9c02d4da" prot="public" virt="non-virtual"><scope>MR::MeshSave::Const_BinaryStlSaver</scope><name>Const_BinaryStlSaver</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__BinaryStlSaver_1ac2b9b379aefb056685bd605f450daa71" prot="protected" virt="virtual"><scope>MR::MeshSave::Const_BinaryStlSaver</scope><name>Dispose</name></member>
       <member refid="classMR_1_1MeshSave_1_1Const__BinaryStlSaver_1a4f85251ca818113fb2bb1f7944f50aee" prot="public" virt="virtual"><scope>MR::MeshSave::Const_BinaryStlSaver</scope><name>Dispose</name></member>

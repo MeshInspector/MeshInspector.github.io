@@ -50,6 +50,9 @@
       <member refid="group__GeneralGroup_1ga7913a22564fb04f5f8ab563053d59753" prot="private" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>actionName_</name></member>
       <member refid="group__GeneralGroup_1ga21a4e3c00216db2abbbfb9ce47014c81" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>ChangeLabelAction</name></member>
       <member refid="group__GeneralGroup_1ga44cff8296d6419da98913c39fdbd8050" prot="public" virt="virtual"><scope>MR::ChangeLabelAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gae00d8fe206eb19a46974a6a237d80eab" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga40c5ce397ad19ecd8209131c33c364db" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga5619f8acd52326bd184417238d324c5c" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>HistoryAction</name></member>
       <member refid="group__GeneralGroup_1gaeeb92dd69cba4af2a95a119081f4b2fc" prot="private" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>label_</name></member>
       <member refid="group__GeneralGroup_1ga49b7949dc2497e15510dbf8c51c83e61" prot="public" virt="virtual"><scope>MR::ChangeLabelAction</scope><name>name</name></member>
       <member refid="group__GeneralGroup_1gade696594ef0460a576d12fa40786e07f" prot="private" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>obj_</name></member>

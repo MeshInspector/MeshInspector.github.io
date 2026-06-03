@@ -153,6 +153,8 @@ $(function(){initNavTree('classMR_1_1MeshSave_1_1BinaryStlSaver.html','','classM
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a859f9b2c3532df188432fec61a6a2b99" id="r_a859f9b2c3532df188432fec61a6a2b99"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a859f9b2c3532df188432fec61a6a2b99">BinaryStlSaver</a> (std::ostream &amp;out, const <a class="el" href="structMR_1_1SaveSettings.html">SaveSettings</a> &amp;settings={}, std::uint32_t expectedNumTris=0)</td></tr>
 <tr class="memdesc:a859f9b2c3532df188432fec61a6a2b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes STL header in the stream  <br /></td></tr>
+<tr class="memitem:a9eeba76ad483b4f8c382f151a380d344" id="r_a9eeba76ad483b4f8c382f151a380d344"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9eeba76ad483b4f8c382f151a380d344">BinaryStlSaver</a> (const <a class="el" href="classMR_1_1MeshSave_1_1BinaryStlSaver.html">BinaryStlSaver</a> &amp;)=delete</td></tr>
+<tr class="memitem:a19ffef9e176e926a358e0913adc6949d" id="r_a19ffef9e176e926a358e0913adc6949d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19ffef9e176e926a358e0913adc6949d">BinaryStlSaver</a> (<a class="el" href="classMR_1_1MeshSave_1_1BinaryStlSaver.html">BinaryStlSaver</a> &amp;&amp;) noexcept=delete</td></tr>
 <tr class="memitem:a2422df321dd6121589093b939d92a1ad" id="r_a2422df321dd6121589093b939d92a1ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2422df321dd6121589093b939d92a1ad">writeTri</a> (const <a class="el" href="group__GeneralGroup.html#gac3b4f93ff16dbb5975ce8dec6adc39cf">Triangle3f</a> &amp;tri)</td></tr>
 <tr class="memdesc:a2422df321dd6121589093b939d92a1ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes one more triangle in the stream  <br /></td></tr>
 <tr class="memitem:acd906c16c2c822c77b7415473be8e7c3" id="r_acd906c16c2c822c77b7415473be8e7c3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd906c16c2c822c77b7415473be8e7c3">updateHeadCounter</a> ()</td></tr>
@@ -163,7 +165,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>saver in binary .stl format that can write triangles one by one not knowing their number beforehand </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a859f9b2c3532df188432fec61a6a2b99" name="a859f9b2c3532df188432fec61a6a2b99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a859f9b2c3532df188432fec61a6a2b99">&#9670;&#160;</a></span>BinaryStlSaver()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a859f9b2c3532df188432fec61a6a2b99">&#9670;&#160;</a></span>BinaryStlSaver() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,6 +197,56 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>writes STL header in the stream </p>
+
+</div>
+</div>
+<a id="a9eeba76ad483b4f8c382f151a380d344" name="a9eeba76ad483b4f8c382f151a380d344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eeba76ad483b4f8c382f151a380d344">&#9670;&#160;</a></span>BinaryStlSaver() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::MeshSave::BinaryStlSaver::BinaryStlSaver </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1MeshSave_1_1BinaryStlSaver.html">BinaryStlSaver</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19ffef9e176e926a358e0913adc6949d" name="a19ffef9e176e926a358e0913adc6949d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19ffef9e176e926a358e0913adc6949d">&#9670;&#160;</a></span>BinaryStlSaver() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::MeshSave::BinaryStlSaver::BinaryStlSaver </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1MeshSave_1_1BinaryStlSaver.html">BinaryStlSaver</a> &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel delete">delete</span><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -146,25 +146,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" line="191" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" bodystart="191" bodyend="201"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangVoxelSelectionAction_1a4512ecdae4e84b9075a24176a4a76a9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1ChangVoxelSelectionAction" kindref="compound">MR.ChangVoxelSelectionAction</ref></type>
-        <definition>unsafe MR.ChangVoxelSelectionAction MR.ChangVoxelSelectionAction.assign</definition>
-        <argsstring>(MR._ByValue_ChangVoxelSelectionAction _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.ChangVoxelSelectionAction.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_ChangVoxelSelectionAction</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::ChangVoxelSelectionAction::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" line="206" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" bodystart="206" bodyend="213"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangVoxelSelectionAction_1a6057cf602ef3a35238b374a070de3fde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ChangVoxelSelectionAction.action</definition>
@@ -182,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" line="218" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" bodystart="218" bodyend="223"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" line="206" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" bodystart="206" bodyend="211"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -234,10 +215,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" line="140" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" bodystart="141" bodyend="224"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" line="140" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelSelectionAction.cs" bodystart="141" bodyend="212"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangVoxelSelectionAction_1a6057cf602ef3a35238b374a070de3fde" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>action</name></member>
-      <member refid="classMR_1_1ChangVoxelSelectionAction_1a4512ecdae4e84b9075a24176a4a76a9c" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangVoxelSelectionAction_1a5e2910b100dd4ba61eb1ffb6a516ef24" prot="package" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>ChangVoxelSelectionAction</name></member>
       <member refid="classMR_1_1ChangVoxelSelectionAction_1a7c97719d888ca0660e62cd6b8d7bddb3" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>ChangVoxelSelectionAction</name></member>
       <member refid="classMR_1_1ChangVoxelSelectionAction_1aa9634997ae77d0208ea81d116feef5d9" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>ChangVoxelSelectionAction</name></member>

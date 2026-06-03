@@ -639,7 +639,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" ],
     [ "mrmeshpy.ObjectComparableWithReference.ComparisonTolerance", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance" ],
     [ "mrmeshpy.ObjectDistanceMap", "classmrmeshpy_1_1ObjectDistanceMap.html", "classmrmeshpy_1_1ObjectDistanceMap" ],
-    [ "mrmeshpy.ObjectFactoryBase", "classmrmeshpy_1_1ObjectFactoryBase.html", "classmrmeshpy_1_1ObjectFactoryBase" ],
+    [ "mrmeshpy.ObjectFactoryBase", "classmrmeshpy_1_1ObjectFactoryBase.html", null ],
     [ "mrmeshpy.ObjectGcode", "classmrmeshpy_1_1ObjectGcode.html", "classmrmeshpy_1_1ObjectGcode" ],
     [ "mrmeshpy.ObjectLabel", "classmrmeshpy_1_1ObjectLabel.html", "classmrmeshpy_1_1ObjectLabel" ],
     [ "mrmeshpy.ObjectLines", "classmrmeshpy_1_1ObjectLines.html", "classmrmeshpy_1_1ObjectLines" ],

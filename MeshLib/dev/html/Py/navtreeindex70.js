@@ -1,9 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1AlignmentVertical.html#a5d9eebab248f24c7c3dc845738a8082d":[6,1,1,0,1,670,3,0,8],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1AlignmentVertical.html#a72bb0ef81e8edd783dbfee25fca49556":[6,1,0,0,2,670,3,0,1],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1AlignmentVertical.html#a72bb0ef81e8edd783dbfee25fca49556":[6,1,1,0,1,670,3,0,1],
-"classmrmeshpy_1_1Pdf_1_1ImageParams_1_1AlignmentVertical.html#a8115eef1a3fd6d8d9aea9d5dbc3bdddd":[6,1,0,0,2,670,3,0,6],
 "classmrmeshpy_1_1Pdf_1_1ImageParams_1_1AlignmentVertical.html#a8115eef1a3fd6d8d9aea9d5dbc3bdddd":[6,1,1,0,1,670,3,0,6],
 "classmrmeshpy_1_1Pdf_1_1ImageParams_1_1AlignmentVertical.html#ab80b7aebeb5b6e332b05fc9a705dea56":[6,1,0,0,2,670,3,0,11],
 "classmrmeshpy_1_1Pdf_1_1ImageParams_1_1AlignmentVertical.html#ab80b7aebeb5b6e332b05fc9a705dea56":[6,1,1,0,1,670,3,0,11],
@@ -249,5 +245,9 @@ var NAVTREEINDEX70 =
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a7c822a92eec4fbe3af874669b4df6bfd":[6,1,1,0,1,696,1,5],
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a813684ad257ddd9bb3dc7fc9d484d06c":[6,1,0,0,2,696,1,7],
 "classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#a813684ad257ddd9bb3dc7fc9d484d06c":[6,1,1,0,1,696,1,7],
-"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#aa35d2c1b74385cf050a71ca152400e3c":[6,1,0,0,2,696,1,11]
+"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#aa35d2c1b74385cf050a71ca152400e3c":[6,1,0,0,2,696,1,11],
+"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#aa35d2c1b74385cf050a71ca152400e3c":[6,1,1,0,1,696,1,11],
+"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#abaa0f79c2ae7e222fa77123ab1376da3":[6,1,0,0,2,696,1,15],
+"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#abaa0f79c2ae7e222fa77123ab1376da3":[6,1,1,0,1,696,1,15],
+"classmrmeshpy_1_1PlanarTriangulation_1_1IntersectionInfo.html#acd91edcc7f26c117b26c62761be3151b":[6,1,0,0,2,696,1,0]
 };

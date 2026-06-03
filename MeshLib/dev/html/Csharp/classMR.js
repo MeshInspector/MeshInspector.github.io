@@ -1403,7 +1403,7 @@ var classMR =
     [ "ObjectChildrenHolder", "classMR_1_1ObjectChildrenHolder.html", "classMR_1_1ObjectChildrenHolder" ],
     [ "ObjectComparableWithReference", "classMR_1_1ObjectComparableWithReference.html", "classMR_1_1ObjectComparableWithReference" ],
     [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html", "classMR_1_1ObjectDistanceMap" ],
-    [ "ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", "classMR_1_1ObjectFactoryBase" ],
+    [ "ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", null ],
     [ "ObjectGcode", "classMR_1_1ObjectGcode.html", "classMR_1_1ObjectGcode" ],
     [ "ObjectLabel", "classMR_1_1ObjectLabel.html", "classMR_1_1ObjectLabel" ],
     [ "ObjectLines", "classMR_1_1ObjectLines.html", "classMR_1_1ObjectLines" ],
