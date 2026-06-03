@@ -1,7 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"classmrmeshpy_1_1Nesting_1_1BoxNestingParams.html#abf4f2b823e6f378857992e425565cdda":[6,1,1,0,1,570,2,0],
-"classmrmeshpy_1_1Nesting_1_1BoxNestingParams.html#af474ee1c535855c93882fee80a5dff22":[6,1,0,0,2,570,2,2],
 "classmrmeshpy_1_1Nesting_1_1BoxNestingParams.html#af474ee1c535855c93882fee80a5dff22":[6,1,1,0,1,570,2,2],
 "classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority.html":[6,1,0,0,2,570,3],
 "classmrmeshpy_1_1Nesting_1_1IBoxNestingPriority.html":[6,1,1,0,1,570,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX59 =
 "classmrmeshpy_1_1NoCtor__TextureId.html#a30f7380c25245c786a28361ef6dd5bca":[6,1,1,0,1,584,2],
 "classmrmeshpy_1_1NoCtor__TextureId.html#a91ad5ce287124ecc9cdbcb5bad8ed154":[6,1,0,0,2,584,1],
 "classmrmeshpy_1_1NoCtor__TextureId.html#a91ad5ce287124ecc9cdbcb5bad8ed154":[6,1,1,0,1,584,1],
-"classmrmeshpy_1_1NoCtor__UndirectedEdgeId.html":[6,1,0,0,2,585]
+"classmrmeshpy_1_1NoCtor__UndirectedEdgeId.html":[6,1,0,0,2,585],
+"classmrmeshpy_1_1NoCtor__UndirectedEdgeId.html":[6,1,1,0,1,585],
+"classmrmeshpy_1_1NoCtor__UndirectedEdgeId.html#a0f131a7a53a6d33faa85e7664278ebd2":[6,1,0,0,2,585,0]
 };

@@ -15,6 +15,10 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga029b3c622e328b4569769168e38bf925" kind="function"><name>Tgt2SrcMaps</name></member>
       <member refid="group__GeneralGroup_1ga1292d111cef99d6fa455ffc18a016bff" kind="function"><name>~Tgt2SrcMaps</name></member>
+      <member refid="group__GeneralGroup_1ga184e3bece3d1d18c6fb751e48e0b067f" kind="function"><name>Tgt2SrcMaps</name></member>
+      <member refid="group__GeneralGroup_1gacdb4fb997e416141632f27496ec6d8f0" kind="function"><name>Tgt2SrcMaps</name></member>
+      <member refid="group__GeneralGroup_1gabe032465a924da8e89497c48367273a5" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gad472a32e4da24e2c6a9a3cf0a5b4ff3b" kind="function"><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga725d82739c07f928cd88750f4d3d6583" kind="function"><name>operator const PartMapping &amp;</name></member>
       <member refid="group__GeneralGroup_1ga8266fef859ccf3d06f819a2681185063" kind="function"><name>getPartMapping</name></member>
     </sectiondef>
@@ -23,17 +27,21 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRPartMappingAdapters.h" line="33" column="1" bodyfile="MRMesh/MRPartMappingAdapters.h" bodystart="34" bodyend="50"/>
+    <location file="MRMesh/MRPartMappingAdapters.h" line="39" column="1" bodyfile="MRMesh/MRPartMappingAdapters.h" bodystart="40" bodyend="62"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga8266fef859ccf3d06f819a2681185063" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>getPartMapping</name></member>
       <member refid="group__GeneralGroup_1ga5dcc6532f4ca3394a1a2a5e9c50682b0" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>map_</name></member>
       <member refid="group__GeneralGroup_1ga725d82739c07f928cd88750f4d3d6583" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>operator const PartMapping &amp;</name></member>
+      <member refid="group__GeneralGroup_1gabe032465a924da8e89497c48367273a5" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gad472a32e4da24e2c6a9a3cf0a5b4ff3b" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga6ce995cdfe728b9feb528f96667f7f58" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>outEmap_</name></member>
       <member refid="group__GeneralGroup_1ga9d1aa77a4d94484528e724c1559cc9b7" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>outFmap_</name></member>
       <member refid="group__GeneralGroup_1ga2db6e54b7e0811eab2f6e7705de2c2eb" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>outVmap_</name></member>
       <member refid="group__GeneralGroup_1ga26b2fe14ea09031aeeaac3c8ee0b1e9d" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>tgt2srcEdges_</name></member>
       <member refid="group__GeneralGroup_1ga4470dd9fa15bf6617facc05bb46c6cb0" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>tgt2srcFaces_</name></member>
       <member refid="group__GeneralGroup_1ga029b3c622e328b4569769168e38bf925" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Tgt2SrcMaps</name></member>
+      <member refid="group__GeneralGroup_1ga184e3bece3d1d18c6fb751e48e0b067f" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Tgt2SrcMaps</name></member>
+      <member refid="group__GeneralGroup_1gacdb4fb997e416141632f27496ec6d8f0" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>Tgt2SrcMaps</name></member>
       <member refid="group__GeneralGroup_1gaab854f5443c1add5ddedcc2e5941f070" prot="private" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>tgt2srcVerts_</name></member>
       <member refid="group__GeneralGroup_1ga1292d111cef99d6fa455ffc18a016bff" prot="public" virt="non-virtual"><scope>MR::Tgt2SrcMaps</scope><name>~Tgt2SrcMaps</name></member>
     </listofallmembers>

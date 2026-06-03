@@ -47,6 +47,9 @@
     <listofallmembers>
       <member refid="group__HistoryGroup_1gab0a69b615a514d76010260695c2116e5" prot="public" virt="virtual"><scope>MR::ViewportParametersAction</scope><name>action</name></member>
       <member refid="group__HistoryGroup_1gabe2857cfb3a48ee763a3a83857c55423" prot="public" virt="virtual"><scope>MR::ViewportParametersAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gae00d8fe206eb19a46974a6a237d80eab" prot="public" virt="non-virtual"><scope>MR::ViewportParametersAction</scope><name>HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga40c5ce397ad19ecd8209131c33c364db" prot="public" virt="non-virtual"><scope>MR::ViewportParametersAction</scope><name>HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga5619f8acd52326bd184417238d324c5c" prot="public" virt="non-virtual"><scope>MR::ViewportParametersAction</scope><name>HistoryAction</name></member>
       <member refid="group__HistoryGroup_1ga6b90613818f7b81547a5b0bba1d40c39" prot="public" virt="virtual"><scope>MR::ViewportParametersAction</scope><name>name</name></member>
       <member refid="group__HistoryGroup_1gac68687f06583aae672d38f0ba7b6c11a" prot="private" virt="non-virtual"><scope>MR::ViewportParametersAction</scope><name>name_</name></member>
       <member refid="group__HistoryGroup_1ga0cc628db3ee48e266c212223bb7e7c22" prot="private" virt="non-virtual"><scope>MR::ViewportParametersAction</scope><name>saveParameters_</name></member>

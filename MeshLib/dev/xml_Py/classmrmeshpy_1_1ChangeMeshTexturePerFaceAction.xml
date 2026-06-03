@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8088" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7968" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8091" bodyend="8092"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7971" bodyend="7972"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1a06470b97095bb0ee0968b55fd84e9796" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -66,53 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8094" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8094" bodyend="8095"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1ab997fe44591fbefecb04af1377b7ec3b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction" kindref="compound">ChangeMeshTexturePerFaceAction</ref></type>
-        <definition> ChangeMeshTexturePerFaceAction mrmeshpy.ChangeMeshTexturePerFaceAction.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.ChangeMeshTexturePerFaceAction.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8098" bodyend="8099"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1ab997fe44591fbefecb04af1377b7ec3b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction" kindref="compound">ChangeMeshTexturePerFaceAction</ref></type>
-        <definition> ChangeMeshTexturePerFaceAction mrmeshpy.ChangeMeshTexturePerFaceAction.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.ChangeMeshTexturePerFaceAction.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8102" bodyend="8103"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7974" bodyend="7975"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1a06aa3b0c5fd7bfdc9f94854ccb877f3b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -130,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8105" bodyend="8106"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7977" bodyend="7978"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -160,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8108" bodyend="8111"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7980" bodyend="7983"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1a8aa88a90706e7f3b3a057d44d4bcecd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -192,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8113" bodyend="8116"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7985" bodyend="7988"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1a64cd7abcc37b45bc317cf8c56724cc1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -216,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8118" bodyend="8121"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7990" bodyend="7993"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1a4c2780dfa69668eb782b01cdab5431e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -237,7 +191,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8122" bodyend="8123"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7994" bodyend="7995"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1a5225139edfb731f9e6be7d6bb66f179f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -256,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8124" bodyend="8125"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7996" bodyend="7997"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -291,7 +245,7 @@ Undo action for ObjectMeshHolder texturePerFace change
         <link refid="classmrmeshpy_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8082" bodyend="8125"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7962" bodyend="7997"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1a9952156f7daf166f44dad22879fdf746" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshTexturePerFaceAction</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1aef73dc926cdb21047136c97f0021798c" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshTexturePerFaceAction</scope><name>__init__</name></member>
@@ -301,8 +255,6 @@ Undo action for ObjectMeshHolder texturePerFace change
       <member refid="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1a4c2780dfa69668eb782b01cdab5431e6" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshTexturePerFaceAction</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1a5225139edfb731f9e6be7d6bb66f179f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshTexturePerFaceAction</scope><name>name</name></member>
       <member refid="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1af55eb682bdef00353057ab6799957ab2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshTexturePerFaceAction</scope><name>Obj</name></member>
-      <member refid="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1ab997fe44591fbefecb04af1377b7ec3b" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshTexturePerFaceAction</scope><name>operator</name></member>
-      <member refid="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1ab997fe44591fbefecb04af1377b7ec3b" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshTexturePerFaceAction</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1a06aa3b0c5fd7bfdc9f94854ccb877f3b" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshTexturePerFaceAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>

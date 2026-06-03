@@ -1,7 +1,6 @@
 var MRCudaPointsToMeshProjector_8h =
 [
     [ "MR_Cuda_PointsToMeshProjector", "MRCudaPointsToMeshProjector_8h.html#ac30c8f09b6b78a1488ced4d16bbfade7", null ],
-    [ "MR_Cuda_PointsToMeshProjector_AssignFromAnother", "MRCudaPointsToMeshProjector_8h.html#a8679128b1cc688a39c447c5e7ebedf07", null ],
     [ "MR_Cuda_PointsToMeshProjector_ConstructFromAnother", "MRCudaPointsToMeshProjector_8h.html#a17a36c8f81c23fb3de787fbe34e1d46e", null ],
     [ "MR_Cuda_PointsToMeshProjector_DefaultConstruct", "MRCudaPointsToMeshProjector_8h.html#aaefab4192606a949ecdb23a040a38f9f", null ],
     [ "MR_Cuda_PointsToMeshProjector_DefaultConstructArray", "MRCudaPointsToMeshProjector_8h.html#adb1bd46b83610793bc3c9d55d5895d1c", null ],

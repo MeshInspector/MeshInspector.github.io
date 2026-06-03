@@ -1,5 +1,12 @@
 var NAVTREEINDEX10 =
 {
+"classMR_1_1PluginCloseOnChangeMesh.html":[6,0,0,20,713],
+"classMR_1_1PluginCloseOnChangePointCloud.html":[6,0,0,20,715],
+"classMR_1_1PluginCloseOnEscPressed.html":[6,0,0,20,716],
+"classMR_1_1PluginCloseOnSelectedObjectRemove.html":[6,0,0,20,712],
+"classMR_1_1PluginUpdateOnChangeMeshPart.html":[6,0,0,20,714],
+"classMR_1_1PluginUpdateOr.html":[6,0,0,20,717],
+"classMR_1_1PointAccumulator.html":[6,0,0,0,1,0],
 "classMR_1_1PointAccumulator.html#a1796a9a708940c023b28e492508dbc64":[6,0,0,0,1,0,5],
 "classMR_1_1PointAccumulator.html#a2f5614b00ab9f0a3e993de5c7762aed4":[6,0,0,0,1,0,0],
 "classMR_1_1PointAccumulator.html#a33e732c4dbfd1cb17c360cbc838f461c":[6,0,0,0,1,0,3],
@@ -242,12 +249,5 @@ var NAVTREEINDEX10 =
 "classMR_1_1RibbonFontHolder.html":[6,0,0,20,650],
 "classMR_1_1RibbonFontManager.html":[6,0,0,20,651],
 "classMR_1_1RibbonIcons.html":[6,0,0,20,652],
-"classMR_1_1RibbonMenu.html":[6,0,0,20,654],
-"classMR_1_1RibbonMenuItem.html":[6,0,0,20,657],
-"classMR_1_1RibbonMenuItemAdder.html":[6,0,0,20,664],
-"classMR_1_1RibbonMenuItemAdderT.html":[6,0,0,20,665],
-"classMR_1_1RibbonMenuItemCall.html":[6,0,0,20,677],
-"classMR_1_1RibbonMenuSearch.html":[6,0,0,20,658],
-"classMR_1_1RibbonNotifier.html":[6,0,0,20,663],
-"classMR_1_1RibbonSceneHideAll.html":[6,0,0,20,69]
+"classMR_1_1RibbonMenu.html":[6,0,0,20,654]
 };

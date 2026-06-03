@@ -6,7 +6,6 @@ var classMR_1_1ChangeOnePointInPolylineAction =
     [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html#a7e7d50273a578d1f83a526d402eb2e94", null ],
     [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html#aa38f9be9a4e2ad4a867fabd68216e132", null ],
     [ "action", "classMR_1_1ChangeOnePointInPolylineAction.html#aaddf77920eb8860879f0702f7ea1fb57", null ],
-    [ "assign", "classMR_1_1ChangeOnePointInPolylineAction.html#a43f59d7b7d001428dda48d1100edff17", null ],
     [ "operator ChangeOnePointInPolylineAction?", "classMR_1_1ChangeOnePointInPolylineAction.html#aa353c19c15b340eb6aebef735279fd60", null ],
     [ "operator MR.HistoryAction", "classMR_1_1ChangeOnePointInPolylineAction.html#a9b786df6f5ac21a2407421070a809902", null ]
 ];
