@@ -2,6 +2,7 @@ var MRMeshSave_8h =
 [
     [ "MR_MeshSave_BinaryStlSaver", "MRMeshSave_8h.html#a15841922e4341270dd5c39f1d222792c", null ],
     [ "MR_MeshSave_BinaryStlSaver_Construct", "MRMeshSave_8h.html#a520f35414aca91f0d5c0f5a0d9fe636c", null ],
+    [ "MR_MeshSave_BinaryStlSaver_ConstructFromAnother", "MRMeshSave_8h.html#adbebbb700722002f08383ef5d9502b30", null ],
     [ "MR_MeshSave_BinaryStlSaver_Destroy", "MRMeshSave_8h.html#ac10d9861eec17ae2dbf6392debb8dde9", null ],
     [ "MR_MeshSave_BinaryStlSaver_DestroyArray", "MRMeshSave_8h.html#aa6d60c71361d1bde95767a118e0912f8", null ],
     [ "MR_MeshSave_BinaryStlSaver_OffsetMutablePtr", "MRMeshSave_8h.html#a7cd0f47ce9f776da9856f6710dfabdda", null ],

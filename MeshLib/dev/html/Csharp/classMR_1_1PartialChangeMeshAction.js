@@ -6,6 +6,7 @@ var classMR_1_1PartialChangeMeshAction =
     [ "PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html#afe167b6e063638af17c7ed1868c272b1", null ],
     [ "PartialChangeMeshAction", "classMR_1_1PartialChangeMeshAction.html#a738637b1ec661e0eefcc92ef56fd16ef", null ],
     [ "action", "classMR_1_1PartialChangeMeshAction.html#a82e55fc67bd55776b69670dda6e70a59", null ],
+    [ "assign", "classMR_1_1PartialChangeMeshAction.html#acca7c2d4769eeb4a275351002f2e58c3", null ],
     [ "operator MR.HistoryAction", "classMR_1_1PartialChangeMeshAction.html#a607d68270b767880e6cd8c370de64033", null ],
     [ "operator PartialChangeMeshAction?", "classMR_1_1PartialChangeMeshAction.html#a4c0191f32a0847169bf1f4160ffde3e2", null ]
 ];

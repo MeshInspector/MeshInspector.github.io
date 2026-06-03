@@ -146,6 +146,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="170" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="170" bodyend="180"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeSceneObjectsOrder_1adbd933f8454892ca124ce251e0078f24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangeSceneObjectsOrder" kindref="compound">MR.ChangeSceneObjectsOrder</ref></type>
+        <definition>unsafe MR.ChangeSceneObjectsOrder MR.ChangeSceneObjectsOrder.assign</definition>
+        <argsstring>(MR._ByValue_ChangeSceneObjectsOrder _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangeSceneObjectsOrder.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeSceneObjectsOrder</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ChangeSceneObjectsOrder::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="185" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="185" bodyend="192"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeSceneObjectsOrder_1a08b18f713923fd48160d16a8fac99781" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ChangeSceneObjectsOrder.action</definition>
@@ -163,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="185" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="185" bodyend="190"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="197" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="197" bodyend="202"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -215,9 +234,10 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="119" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="120" bodyend="191"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" line="119" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSceneObjectsOrder.cs" bodystart="120" bodyend="203"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeSceneObjectsOrder_1a08b18f713923fd48160d16a8fac99781" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeSceneObjectsOrder_1adbd933f8454892ca124ce251e0078f24" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeSceneObjectsOrder_1ae8ea6da0ba550f95a07ad2aa00db815e" prot="package" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>ChangeSceneObjectsOrder</name></member>
       <member refid="classMR_1_1ChangeSceneObjectsOrder_1ae081a547586e38a6c26918ef7db27619" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>ChangeSceneObjectsOrder</name></member>
       <member refid="classMR_1_1ChangeSceneObjectsOrder_1a2c1c44ed7e524e216e483c6db7717c75" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>ChangeSceneObjectsOrder</name></member>

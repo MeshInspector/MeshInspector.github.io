@@ -1,5 +1,13 @@
 var NAVTREEINDEX95 =
 {
+"classmrmeshpy_1_1TrivialMetricToPenalty.html#a840eceb9274ef4b949d2182831672493":[6,1,1,0,1,1112,1],
+"classmrmeshpy_1_1Turn.html":[6,1,0,0,2,1113],
+"classmrmeshpy_1_1Turn.html":[6,1,1,0,1,1113],
+"classmrmeshpy_1_1Turn.html#a2af881ad608825ad1a529b7f6aca1c7d":[6,1,0,0,2,1113,0],
+"classmrmeshpy_1_1Turn.html#a2af881ad608825ad1a529b7f6aca1c7d":[6,1,1,0,1,1113,0],
+"classmrmeshpy_1_1Turn.html#a2efc81b6688fa0201fe26f77d0366c61":[6,1,0,0,2,1113,1],
+"classmrmeshpy_1_1Turn.html#a2efc81b6688fa0201fe26f77d0366c61":[6,1,1,0,1,1113,1],
+"classmrmeshpy_1_1Turn.html#a4dd888d9d1f49ebddbef533414ea85c4":[6,1,0,0,2,1113,7],
 "classmrmeshpy_1_1Turn.html#a4dd888d9d1f49ebddbef533414ea85c4":[6,1,1,0,1,1113,7],
 "classmrmeshpy_1_1Turn.html#a54d725e9e6f903e4b2c17f2fa4861dc5":[6,1,0,0,2,1113,4],
 "classmrmeshpy_1_1Turn.html#a54d725e9e6f903e4b2c17f2fa4861dc5":[6,1,1,0,1,1113,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX95 =
 "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a3f7cf8e6a65d1a8f76599d273a173db0":[6,1,1,0,1,1119,10],
 "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a43ed702ade7eba1ac7d9cd4ef50e5a52":[6,1,0,0,2,1119,33],
 "classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a43ed702ade7eba1ac7d9cd4ef50e5a52":[6,1,1,0,1,1119,33],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5544fd557a66725b9aa977f09bbf51d3":[6,1,0,0,2,1119,32],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5544fd557a66725b9aa977f09bbf51d3":[6,1,1,0,1,1119,32],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5c2e92d888cefb9af221ef15fd6ed3f2":[6,1,0,0,2,1119,11],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5c2e92d888cefb9af221ef15fd6ed3f2":[6,1,1,0,1,1119,11],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5cf91c4f13b29d9731667d242e0cfda5":[6,1,0,0,2,1119,19],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5cf91c4f13b29d9731667d242e0cfda5":[6,1,1,0,1,1119,19],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a741aa69caab807daa0c1ffff17966c94":[6,1,0,0,2,1119,24],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a741aa69caab807daa0c1ffff17966c94":[6,1,0,0,2,1119,25],
-"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a741aa69caab807daa0c1ffff17966c94":[6,1,1,0,1,1119,24]
+"classmrmeshpy_1_1UndirectedEdge2RegionMap.html#a5544fd557a66725b9aa977f09bbf51d3":[6,1,0,0,2,1119,32]
 };

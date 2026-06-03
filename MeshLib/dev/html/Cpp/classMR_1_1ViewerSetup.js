@@ -2,7 +2,7 @@ var classMR_1_1ViewerSetup =
 [
     [ "ViewerSetup", "group__GeneralGroup.html#ga9616d5542d1b0f230b9138f4da8a88cb", null ],
     [ "ViewerSetup", "group__GeneralGroup.html#ga312d51f93256540b9109340e93cd279d", null ],
-    [ "ViewerSetup", "group__GeneralGroup.html#ga155d3594c444dca0504eb4ab0d457483", null ],
+    [ "ViewerSetup", "group__GeneralGroup.html#ga5de2e94012eb083d14c9b918420a2c9e", null ],
     [ "~ViewerSetup", "group__GeneralGroup.html#ga91f189592dac535dae6d91f80c911e1f", null ],
     [ "setupBasePlugins", "group__GeneralGroup.html#ga2ee9a09ee077eec46a7ad935be02b503", null ],
     [ "setupCommonModifiers", "group__GeneralGroup.html#ga66bb762d87286ae7b094f6a59bb96aec", null ],

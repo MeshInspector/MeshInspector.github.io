@@ -49,6 +49,118 @@
     <derivedcompoundref refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction" prot="public" virt="non-virtual">mrmeshpy.PartialChangeMeshTopologyAction</derivedcompoundref>
     <derivedcompoundref refid="classmrmeshpy_1_1VersatileChangeMeshPointsAction" prot="public" virt="non-virtual">mrmeshpy.VersatileChangeMeshPointsAction</derivedcompoundref>
     <innerclass refid="classmrmeshpy_1_1HistoryAction_1_1Type" prot="public">mrmeshpy::HistoryAction::Type</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1HistoryAction" kindref="compound">HistoryAction</ref></type>
+        <definition> HistoryAction mrmeshpy.HistoryAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.HistoryAction.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeActiveBoxAction_1a5e0fe3fe2ff2309b12d00e1a9d3c8a95">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeActiveBoxAction_1a5e0fe3fe2ff2309b12d00e1a9d3c8a95">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeColoringType_1a73d441a67225fdd5bbe7824be6c3171c">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeColoringType_1a73d441a67225fdd5bbe7824be6c3171c">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1a4752fee091730465a92c32db29c72cdf">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1a4752fee091730465a92c32db29c72cdf">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeFacesColorMapAction_1a367d0ff351a8d23aef0bf6bb604dbdbd">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeFacesColorMapAction_1a367d0ff351a8d23aef0bf6bb604dbdbd">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeGridAction_1afc00ce78f996336783d3032d1a71a4d1">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeGridAction_1afc00ce78f996336783d3032d1a71a4d1">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeIsoAction_1a1df996d47504b305a4551b5f422a9abf">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeIsoAction_1a1df996d47504b305a4551b5f422a9abf">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeLabelAction_1a6ad538a333c8d7e61978a6b774d69103">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeLabelAction_1a6ad538a333c8d7e61978a6b774d69103">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeLinesColorMapAction_1ab1d7b0b5c387f42ea2035ce5cefb0e3a">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeLinesColorMapAction_1ab1d7b0b5c387f42ea2035ce5cefb0e3a">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshAction_1a1582ca01ace17d380566d81008f9da4e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshAction_1a1582ca01ace17d380566d81008f9da4e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1ad7de1a213ed07741be12ee45968b4151">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1ad7de1a213ed07741be12ee45968b4151">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshDataAction_1a0462a9901df48116879c2087febb3eaa">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshDataAction_1a0462a9901df48116879c2087febb3eaa">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshEdgeSelectionAction_1aa20d0cb6d28100f9c7ac0eea81b19bd6">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshEdgeSelectionAction_1aa20d0cb6d28100f9c7ac0eea81b19bd6">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshFaceSelectionAction_1a4bfaad2c89ecd365df3214f8a82beb84">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshFaceSelectionAction_1a4bfaad2c89ecd365df3214f8a82beb84">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshPointsAction_1ad145d1901601695844398b5aee62ef86">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshPointsAction_1ad145d1901601695844398b5aee62ef86">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1ab997fe44591fbefecb04af1377b7ec3b">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshTexturePerFaceAction_1ab997fe44591fbefecb04af1377b7ec3b">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshTopologyAction_1ab4ccc560e2fe43ac0232499bc21c00c5">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshTopologyAction_1ab4ccc560e2fe43ac0232499bc21c00c5">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a82c738d720475efa9dc0e490ae69f9b2">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeMeshUVCoordsAction_1a82c738d720475efa9dc0e490ae69f9b2">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeNameAction_1a0a848852a71471469e26e1ccefee146d">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeNameAction_1a0a848852a71471469e26e1ccefee146d">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeObjectAction_1a82055973a2804a1593dd55a9ece0d556">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeObjectAction_1a82055973a2804a1593dd55a9ece0d556">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeObjectColorAction_1a0c4e796f571493dc96d378f77cd8874b">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeObjectColorAction_1a0c4e796f571493dc96d378f77cd8874b">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeObjectSelectedAction_1a8269dd2a5d5d4c26e749685920f3bcca">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeObjectSelectedAction_1a8269dd2a5d5d4c26e749685920f3bcca">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a29e71d691c29c23d7b5472afb6eb14d5">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a29e71d691c29c23d7b5472afb6eb14d5">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1aa5759b71cbf1ff47d0ecd989938dbf76">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1aa5759b71cbf1ff47d0ecd989938dbf76">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeOnePointInCloudAction_1a018f95d506de3a6ceeea0b557538c1b0">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeOnePointInCloudAction_1a018f95d506de3a6ceeea0b557538c1b0">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeOnePointInPolylineAction_1ae38b8f89899bc11f9da3b1909f49c934">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeOnePointInPolylineAction_1ae38b8f89899bc11f9da3b1909f49c934">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePointCloudAction_1a9e3f213328be27d4739045017b773a13">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePointCloudAction_1a9e3f213328be27d4739045017b773a13">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePointCloudNormalsAction_1a21a0e41d174fe3729b3f52f35a0a23a0">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePointCloudNormalsAction_1a21a0e41d174fe3729b3f52f35a0a23a0">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePointCloudPointsAction_1addb97c7ef77f79696add1568977c2a57">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePointCloudPointsAction_1addb97c7ef77f79696add1568977c2a57">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePointPointSelectionAction_1a657aa9941783b2b036398a40bad749d8">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePointPointSelectionAction_1a657aa9941783b2b036398a40bad749d8">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePolylineAction_1a64789cfe64b02b0dffa2606ff3461153">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePolylineAction_1a64789cfe64b02b0dffa2606ff3461153">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePolylinePointsAction_1acc36253cc42fb5169d0270487f67aaeb">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePolylinePointsAction_1acc36253cc42fb5169d0270487f67aaeb">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePolylineTopologyAction_1a130ca00ce12fd32a108e2cda11fbfeb4">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangePolylineTopologyAction_1a130ca00ce12fd32a108e2cda11fbfeb4">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeScaleAction_1a1501ae95603e04cf1c4b55f456946ed0">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeScaleAction_1a1501ae95603e04cf1c4b55f456946ed0">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeSceneAction_1a9d7ec3f0a2211ab16e93652d3b432d5b">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeSceneAction_1a9d7ec3f0a2211ab16e93652d3b432d5b">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a57257a640d80356c8eee520418a07dd0">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeSceneObjectsOrder_1a57257a640d80356c8eee520418a07dd0">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeSurfaceAction_1a2a0a4dd025b4ed16801d3502d0163fa2">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeSurfaceAction_1a2a0a4dd025b4ed16801d3502d0163fa2">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeTextureAction_1a7ba490b6ef4b70d19023741f18561e3e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeTextureAction_1a7ba490b6ef4b70d19023741f18561e3e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a8f12e290be7d50b0762ef10db90e4820">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a8f12e290be7d50b0762ef10db90e4820">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeXfAction_1abdcc384ae07e519f2bbc68de38c343e9">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangeXfAction_1abdcc384ae07e519f2bbc68de38c343e9">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangVoxelSelectionAction_1ac299332870e4696a5128a7e6243d029f">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ChangVoxelSelectionAction_1ac299332870e4696a5128a7e6243d029f">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CombinedHistoryAction_1ad35db21ec08fcf7fdaf99fffc51e311c">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CombinedHistoryAction_1ad35db21ec08fcf7fdaf99fffc51e311c">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshAction_1a0ecad143254f44e8916d25feec870df9">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshAction_1a0ecad143254f44e8916d25feec870df9">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshPointsAction_1a79e2933893c6e9d4216affd00d2fcb60">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshPointsAction_1a79e2933893c6e9d4216affd00d2fcb60">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a1bf7836abbcb94511415c491c09e8e60">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a1bf7836abbcb94511415c491c09e8e60">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23059" bodyend="23060"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -118,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22730" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22730" bodyend="22733"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23061" bodyend="23064"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -184,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22734" bodyend="22737"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23065" bodyend="23068"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -248,7 +360,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22738" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22738" bodyend="22739"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23069" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23069" bodyend="23070"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -542,11 +654,12 @@ Abstract class for history actions
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22686" bodyend="22739"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23014" bodyend="23070"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction</scope><name>action</name></member>
       <member refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction</scope><name>operator</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

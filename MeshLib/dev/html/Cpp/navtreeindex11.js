@@ -1,12 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"classMR_1_1RibbonMenuItem.html":[6,0,0,20,657],
-"classMR_1_1RibbonMenuItemAdder.html":[6,0,0,20,664],
-"classMR_1_1RibbonMenuItemAdderT.html":[6,0,0,20,665],
-"classMR_1_1RibbonMenuItemCall.html":[6,0,0,20,677],
-"classMR_1_1RibbonMenuSearch.html":[6,0,0,20,658],
-"classMR_1_1RibbonNotifier.html":[6,0,0,20,663],
-"classMR_1_1RibbonSceneHideAll.html":[6,0,0,20,69],
 "classMR_1_1RibbonSceneObjectsListDrawer.html":[6,0,0,20,666],
 "classMR_1_1RibbonSceneRemoveSelected.html":[6,0,0,20,73],
 "classMR_1_1RibbonSceneRename.html":[6,0,0,20,72],
@@ -249,5 +242,12 @@ var NAVTREEINDEX11 =
 "classMR_1_1UI_1_1NonOverlappingLabelTask.html#accbb307da14eb8e5c83741984ccacf08":[6,0,1,0,1,49,11,2],
 "classMR_1_1UI_1_1NonOverlappingLabelTask.html#accbb307da14eb8e5c83741984ccacf08":[6,0,2,0,2,33,9,2],
 "classMR_1_1UI_1_1NonOverlappingLabelTask.html#ae4ebeb23c02238c20af603e5a85e5e68":[6,0,1,0,1,49,11,3],
-"classMR_1_1UI_1_1NonOverlappingLabelTask.html#ae4ebeb23c02238c20af603e5a85e5e68":[6,0,2,0,2,33,9,3]
+"classMR_1_1UI_1_1NonOverlappingLabelTask.html#ae4ebeb23c02238c20af603e5a85e5e68":[6,0,2,0,2,33,9,3],
+"classMR_1_1UI_1_1NonOverlappingLabelTask.html#afd22e309bdd9997c31d00d6723c45396":[6,0,1,0,1,49,11,1],
+"classMR_1_1UI_1_1NonOverlappingLabelTask.html#afd22e309bdd9997c31d00d6723c45396":[6,0,2,0,2,33,9,1],
+"classMR_1_1UI_1_1RectAllocator.html":[6,0,1,0,1,49,14],
+"classMR_1_1UI_1_1RectAllocator.html":[6,0,2,0,2,33,12],
+"classMR_1_1UI_1_1RectAllocator.html#a0c0e4459ae9255dde41c3c2e216999a3":[6,0,1,0,1,49,14,1],
+"classMR_1_1UI_1_1RectAllocator.html#a0c0e4459ae9255dde41c3c2e216999a3":[6,0,2,0,2,33,12,1],
+"classMR_1_1UI_1_1RectAllocator.html#a14c55972c4fd972771c486cb49eab847":[6,0,1,0,1,49,14,2]
 };

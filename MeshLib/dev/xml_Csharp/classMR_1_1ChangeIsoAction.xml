@@ -146,6 +146,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="180" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="180" bodyend="190"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeIsoAction_1a0156ca16e9dbe05a2bbcb02db951205e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangeIsoAction" kindref="compound">MR.ChangeIsoAction</ref></type>
+        <definition>unsafe MR.ChangeIsoAction MR.ChangeIsoAction.assign</definition>
+        <argsstring>(MR._ByValue_ChangeIsoAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangeIsoAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeIsoAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ChangeIsoAction::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="195" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="195" bodyend="202"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeIsoAction_1a96c5e06b6962b3b23cce2734cec81a14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ChangeIsoAction.action</definition>
@@ -163,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="195" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="195" bodyend="200"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="207" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="207" bodyend="212"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -215,9 +234,10 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="129" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="130" bodyend="201"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" line="129" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRChangeVoxelsAction.cs" bodystart="130" bodyend="213"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeIsoAction_1a96c5e06b6962b3b23cce2734cec81a14" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeIsoAction_1a0156ca16e9dbe05a2bbcb02db951205e" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeIsoAction_1a39c7f3314d6f2648d1d7f2540762ed18" prot="package" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>ChangeIsoAction</name></member>
       <member refid="classMR_1_1ChangeIsoAction_1a0a8d020b6c8c67de77b8ae5b40a95902" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>ChangeIsoAction</name></member>
       <member refid="classMR_1_1ChangeIsoAction_1ab1ee054a94f29caa63ad34e349cafe20" prot="public" virt="non-virtual"><scope>MR::ChangeIsoAction</scope><name>ChangeIsoAction</name></member>

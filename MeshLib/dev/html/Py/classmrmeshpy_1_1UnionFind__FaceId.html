@@ -160,6 +160,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aadb18338f2934c6944f56b63f33fc5c8" id="r_aadb18338f2934c6944f56b63f33fc5c8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadb18338f2934c6944f56b63f33fc5c8">size</a> (self)</td></tr>
 <tr class="memitem:a095da7ec694ec72054dd43c6d33fc1b3" id="r_a095da7ec694ec72054dd43c6d33fc1b3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a095da7ec694ec72054dd43c6d33fc1b3">sizeOfComp</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> a)</td></tr>
 <tr class="memitem:a11c145300292060ccc02fdab6f24640a" id="r_a11c145300292060ccc02fdab6f24640a"><td class="memItemLeft" align="right" valign="top">tuple[<a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>, bool]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11c145300292060ccc02fdab6f24640a">unite</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> first, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> second)</td></tr>
+<tr class="memitem:a8750f5b87b15bbf3786f66cf562215ca" id="r_a8750f5b87b15bbf3786f66cf562215ca"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8750f5b87b15bbf3786f66cf562215ca">uniteAtomic</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> first, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> second)</td></tr>
 <tr class="memitem:a1549dc5a40e2cb922dd9dc5061af4a53" id="r_a1549dc5a40e2cb922dd9dc5061af4a53"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1549dc5a40e2cb922dd9dc5061af4a53">united</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> first, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> second)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -548,6 +549,35 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">unite two elements,
 \\return first: new common root, second: true = union was done, false = first and second were already united
+</pre> 
+</div>
+</div>
+<a id="a8750f5b87b15bbf3786f66cf562215ca" name="a8750f5b87b15bbf3786f66cf562215ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8750f5b87b15bbf3786f66cf562215ca">&#9670;&#160;</a></span>uniteAtomic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.UnionFind_FaceId.uniteAtomic </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>second</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">thread-safe version of unite() for parallel construction of the structure:
+links by element id (the smaller id becomes the common root) using lock-free path halving;
+unlike unite() it does NOT maintain component sizes, so sizeOfComp() is invalid after any uniteAtomic() call
 </pre> 
 </div>
 </div>
