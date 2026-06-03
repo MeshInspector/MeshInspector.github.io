@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,2,0,1,0,5],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,1,0,0,0,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a587435906bc6bfce42fc472c1863c883":[6,0,2,0,1,0,0],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a806cc2ab5e052004470f0333fb459651":[6,0,1,0,0,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1CoordinateConverters2.html":[6,0,0,20,451],
 "structMR_1_1CornerControllerObject_1_1PickedIds.html":[6,0,0,20,803],
 "structMR_1_1CubicBezierCurve.html":[6,0,0,20,120],
-"structMR_1_1CursorEntranceListener.html":[6,0,0,20,789],
-"structMR_1_1CurveFunc.html":[6,0,0,20,174]
+"structMR_1_1CursorEntranceListener.html":[6,0,0,20,789]
 };

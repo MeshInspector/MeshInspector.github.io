@@ -2491,6 +2491,7 @@ var group__GeneralGroup =
       [ "size", "group__GeneralGroup.html#gab0d01d793fad21820791310d7318235e", null ],
       [ "sizeOfComp", "group__GeneralGroup.html#ga009ad612aecca5afb9b91768536c406f", null ],
       [ "unite", "group__GeneralGroup.html#ga0739ab9258f8fc25ef45ce06106fffce", null ],
+      [ "uniteAtomic", "group__GeneralGroup.html#gafc7cf2a20d6a790fde152f300217f16f", null ],
       [ "united", "group__GeneralGroup.html#gaa570cc6f33bbb51fb5859608b9c68fbc", null ]
     ] ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", [
@@ -15796,6 +15797,7 @@ var group__GeneralGroup =
     [ "MR::UniquePtr::UniquePtr", "group__GeneralGroup.html#ga69356ad900f65842bc6e4bff6e88a8e0", null ],
     [ "MR::UniqueTemporaryFolder::UniqueTemporaryFolder", "group__GeneralGroup.html#gaea7e76db7a25256c915abaefb1df86bb", null ],
     [ "MR::UnionFind::unite", "group__GeneralGroup.html#ga0739ab9258f8fc25ef45ce06106fffce", null ],
+    [ "MR::UnionFind::uniteAtomic", "group__GeneralGroup.html#gafc7cf2a20d6a790fde152f300217f16f", null ],
     [ "MR::MeshBuilder::uniteCloseVertices", "group__GeneralGroup.html#ga735c792eb0d3d6adc4c77f067f973d46", null ],
     [ "MR::MeshBuilder::uniteCloseVertices", "group__GeneralGroup.html#gafd13ce716b18402ee77952081cf52e40", null ],
     [ "MR::UnionFind::united", "group__GeneralGroup.html#gaa570cc6f33bbb51fb5859608b9c68fbc", null ],

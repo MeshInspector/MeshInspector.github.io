@@ -11801,6 +11801,7 @@
     <member refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kind="function"><name>size</name></member>
     <member refid="group__GeneralGroup_1ga6a74089f75f3b88edf1a6fb0beba1e13" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" kind="function"><name>unite</name></member>
+    <member refid="group__GeneralGroup_1gafc7cf2a20d6a790fde152f300217f16f" kind="function"><name>uniteAtomic</name></member>
     <member refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" kind="function"><name>united</name></member>
     <member refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" kind="function"><name>isRoot</name></member>
     <member refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" kind="function"><name>parent</name></member>
@@ -11810,9 +11811,13 @@
     <member refid="group__GeneralGroup_1gaddfb36167fbd876c96379b175c755a5b" kind="function"><name>parents</name></member>
     <member refid="group__GeneralGroup_1ga009ad612aecca5afb9b91768536c406f" kind="function"><name>sizeOfComp</name></member>
     <member refid="group__GeneralGroup_1ga6999428ebe2645b250dfe6cf51038735" kind="function"><name>findRootNoUpdate_</name></member>
+    <member refid="group__GeneralGroup_1gaa92bca6851d33bb218ea0843f90c61e6" kind="function"><name>findAtomic_</name></member>
     <member refid="group__GeneralGroup_1ga797743a9600c69d6615d32c970c89f96" kind="function"><name>updateRoot_</name></member>
     <member refid="group__GeneralGroup_1ga43bbe8cb9f207115aca9f60ff07ba132" kind="function"><name>updateRoot_</name></member>
     <member refid="group__GeneralGroup_1gabcac94e459f2fffa4c01f3e406bf184f" kind="function"><name>updateRootInRange_</name></member>
+    <member refid="group__GeneralGroup_1ga56fc516698b590a43c8eb5e3c09c5a52" kind="function"><name>loadAtomic_</name></member>
+    <member refid="group__GeneralGroup_1gad632d6a51e9e6206fbd93bf70cf6785a" kind="function"><name>halveAtomic_</name></member>
+    <member refid="group__GeneralGroup_1gaca93af5251f168d03ccf807f0f187a84" kind="function"><name>casAtomic_</name></member>
   </compound>
   <compound refid="structMR_1_1UniquePtr" kind="struct"><name>MR::UniquePtr</name>
     <member refid="group__GeneralGroup_1gaaf1504c1a8adb3c65e6501508c18f9ad" kind="function"><name>UniquePtr</name></member>
@@ -27947,6 +27952,7 @@
     <member refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kind="function"><name>size</name></member>
     <member refid="group__GeneralGroup_1ga6a74089f75f3b88edf1a6fb0beba1e13" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" kind="function"><name>unite</name></member>
+    <member refid="group__GeneralGroup_1gafc7cf2a20d6a790fde152f300217f16f" kind="function"><name>uniteAtomic</name></member>
     <member refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" kind="function"><name>united</name></member>
     <member refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" kind="function"><name>isRoot</name></member>
     <member refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" kind="function"><name>parent</name></member>
@@ -27956,6 +27962,10 @@
     <member refid="group__GeneralGroup_1gaddfb36167fbd876c96379b175c755a5b" kind="function"><name>parents</name></member>
     <member refid="group__GeneralGroup_1ga009ad612aecca5afb9b91768536c406f" kind="function"><name>sizeOfComp</name></member>
     <member refid="group__GeneralGroup_1ga6999428ebe2645b250dfe6cf51038735" kind="function"><name>findRootNoUpdate_</name></member>
+    <member refid="group__GeneralGroup_1ga56fc516698b590a43c8eb5e3c09c5a52" kind="function"><name>loadAtomic_</name></member>
+    <member refid="group__GeneralGroup_1gad632d6a51e9e6206fbd93bf70cf6785a" kind="function"><name>halveAtomic_</name></member>
+    <member refid="group__GeneralGroup_1gaca93af5251f168d03ccf807f0f187a84" kind="function"><name>casAtomic_</name></member>
+    <member refid="group__GeneralGroup_1gaa92bca6851d33bb218ea0843f90c61e6" kind="function"><name>findAtomic_</name></member>
     <member refid="group__GeneralGroup_1ga797743a9600c69d6615d32c970c89f96" kind="function"><name>updateRoot_</name></member>
     <member refid="group__GeneralGroup_1ga43bbe8cb9f207115aca9f60ff07ba132" kind="function"><name>updateRoot_</name></member>
     <member refid="group__GeneralGroup_1gabcac94e459f2fffa4c01f3e406bf184f" kind="function"><name>updateRootInRange_</name></member>

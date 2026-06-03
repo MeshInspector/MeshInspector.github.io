@@ -211,10 +211,12 @@ var NAVTREEINDEX97 =
 "classmrmeshpy_1_1UnionFind__FaceId.html#a095da7ec694ec72054dd43c6d33fc1b3":[6,1,1,0,1,1130,11],
 "classmrmeshpy_1_1UnionFind__FaceId.html#a11c145300292060ccc02fdab6f24640a":[6,1,0,0,2,1130,12],
 "classmrmeshpy_1_1UnionFind__FaceId.html#a11c145300292060ccc02fdab6f24640a":[6,1,1,0,1,1130,12],
-"classmrmeshpy_1_1UnionFind__FaceId.html#a1549dc5a40e2cb922dd9dc5061af4a53":[6,1,0,0,2,1130,13],
-"classmrmeshpy_1_1UnionFind__FaceId.html#a1549dc5a40e2cb922dd9dc5061af4a53":[6,1,1,0,1,1130,13],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a1549dc5a40e2cb922dd9dc5061af4a53":[6,1,0,0,2,1130,14],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a1549dc5a40e2cb922dd9dc5061af4a53":[6,1,1,0,1,1130,14],
 "classmrmeshpy_1_1UnionFind__FaceId.html#a5921a8b7a46e08ce74fc65ad09747df3":[6,1,0,0,2,1130,0],
 "classmrmeshpy_1_1UnionFind__FaceId.html#a5921a8b7a46e08ce74fc65ad09747df3":[6,1,1,0,1,1130,0],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a8750f5b87b15bbf3786f66cf562215ca":[6,1,0,0,2,1130,13],
+"classmrmeshpy_1_1UnionFind__FaceId.html#a8750f5b87b15bbf3786f66cf562215ca":[6,1,1,0,1,1130,13],
 "classmrmeshpy_1_1UnionFind__FaceId.html#a8a1d2127760db16291d96e629a8ad068":[6,1,0,0,2,1130,3],
 "classmrmeshpy_1_1UnionFind__FaceId.html#a8a1d2127760db16291d96e629a8ad068":[6,1,1,0,1,1130,3],
 "classmrmeshpy_1_1UnionFind__FaceId.html#a8a2c6d7eaa32c8ba00b8883bcb4cf52e":[6,1,0,0,2,1130,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a375c3c98441aab693c15c6edf67cbd3c":[6,1,1,0,1,1131,5],
 "classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a63bde6485cdd3666c6751b62acf6ac27":[6,1,0,0,2,1131,9],
 "classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a63bde6485cdd3666c6751b62acf6ac27":[6,1,1,0,1,1131,9],
-"classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a6f4c53bcddd1c65c32b87cbdbedd4439":[6,1,0,0,2,1131,0],
-"classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a6f4c53bcddd1c65c32b87cbdbedd4439":[6,1,1,0,1,1131,0],
-"classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a8e1c35aa9438e3c5b765d7b588fa4844":[6,1,0,0,2,1131,2]
+"classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a6f4c53bcddd1c65c32b87cbdbedd4439":[6,1,0,0,2,1131,0]
 };

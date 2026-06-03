@@ -1,8 +1,12 @@
 var NAVTREEINDEX98 =
 {
+"classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a6f4c53bcddd1c65c32b87cbdbedd4439":[6,1,1,0,1,1131,0],
+"classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a8537ce11e855236f285c978d1256d108":[6,1,0,0,2,1131,13],
+"classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a8537ce11e855236f285c978d1256d108":[6,1,1,0,1,1131,13],
+"classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a8e1c35aa9438e3c5b765d7b588fa4844":[6,1,0,0,2,1131,2],
 "classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a8e1c35aa9438e3c5b765d7b588fa4844":[6,1,1,0,1,1131,2],
-"classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a976e5b9cab41d4f7819a63e037055265":[6,1,0,0,2,1131,13],
-"classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a976e5b9cab41d4f7819a63e037055265":[6,1,1,0,1,1131,13],
+"classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a976e5b9cab41d4f7819a63e037055265":[6,1,0,0,2,1131,14],
+"classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#a976e5b9cab41d4f7819a63e037055265":[6,1,1,0,1,1131,14],
 "classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#aa1eac1169e3f304c73d25f5bef33aee2":[6,1,0,0,2,1131,6],
 "classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#aa1eac1169e3f304c73d25f5bef33aee2":[6,1,1,0,1,1131,6],
 "classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html#aa78b7fb7f2a47c5ee05a7c78292645c8":[6,1,0,0,2,1131,3],
@@ -25,6 +29,8 @@ var NAVTREEINDEX98 =
 "classmrmeshpy_1_1UnionFind__VertId.html#a2820b2d43deefae768bc24106f582ed9":[6,1,1,0,1,1132,8],
 "classmrmeshpy_1_1UnionFind__VertId.html#a2ee113dfce61f4f263d6e02b565feb78":[6,1,0,0,2,1132,7],
 "classmrmeshpy_1_1UnionFind__VertId.html#a2ee113dfce61f4f263d6e02b565feb78":[6,1,1,0,1,1132,7],
+"classmrmeshpy_1_1UnionFind__VertId.html#a404f26a5410186959ccb897b0849618b":[6,1,0,0,2,1132,13],
+"classmrmeshpy_1_1UnionFind__VertId.html#a404f26a5410186959ccb897b0849618b":[6,1,1,0,1,1132,13],
 "classmrmeshpy_1_1UnionFind__VertId.html#a4d4b88b6d60dd1dfd3fa8d3eae0edb1b":[6,1,0,0,2,1132,2],
 "classmrmeshpy_1_1UnionFind__VertId.html#a4d4b88b6d60dd1dfd3fa8d3eae0edb1b":[6,1,1,0,1,1132,2],
 "classmrmeshpy_1_1UnionFind__VertId.html#a825c1dcf3df5e9c81e127851cc52abbb":[6,1,0,0,2,1132,0],
@@ -33,8 +39,8 @@ var NAVTREEINDEX98 =
 "classmrmeshpy_1_1UnionFind__VertId.html#aad810d3809d72d95df8c393a8e2758eb":[6,1,1,0,1,1132,9],
 "classmrmeshpy_1_1UnionFind__VertId.html#aaff8d19f441bca53227725acf189f7de":[6,1,0,0,2,1132,11],
 "classmrmeshpy_1_1UnionFind__VertId.html#aaff8d19f441bca53227725acf189f7de":[6,1,1,0,1,1132,11],
-"classmrmeshpy_1_1UnionFind__VertId.html#abc566a4715321e261b21e336cd3c8740":[6,1,0,0,2,1132,13],
-"classmrmeshpy_1_1UnionFind__VertId.html#abc566a4715321e261b21e336cd3c8740":[6,1,1,0,1,1132,13],
+"classmrmeshpy_1_1UnionFind__VertId.html#abc566a4715321e261b21e336cd3c8740":[6,1,0,0,2,1132,14],
+"classmrmeshpy_1_1UnionFind__VertId.html#abc566a4715321e261b21e336cd3c8740":[6,1,1,0,1,1132,14],
 "classmrmeshpy_1_1UnionFind__VertId.html#abed6c7f321fcee5a139d7534596f5e4c":[6,1,0,0,2,1132,5],
 "classmrmeshpy_1_1UnionFind__VertId.html#abed6c7f321fcee5a139d7534596f5e4c":[6,1,1,0,1,1132,5],
 "classmrmeshpy_1_1UnionFind__VertId.html#ad66c14ecb73549bc4b25672c3c12925d":[6,1,0,0,2,1132,12],
@@ -243,11 +249,5 @@ var NAVTREEINDEX98 =
 "classmrmeshpy_1_1VarEdgeTri.html#a983a63826882bedac59ae1bd1292fb65":[6,1,1,0,1,1143,6],
 "classmrmeshpy_1_1VarEdgeTri.html#aac2cd4de6262dc12b00137a10770e1c3":[6,1,0,0,2,1143,8],
 "classmrmeshpy_1_1VarEdgeTri.html#aac2cd4de6262dc12b00137a10770e1c3":[6,1,1,0,1,1143,8],
-"classmrmeshpy_1_1VarEdgeTri.html#ac32f0575a7f95e1331012b04c2d76a4d":[6,1,0,0,2,1143,9],
-"classmrmeshpy_1_1VarEdgeTri.html#ac32f0575a7f95e1331012b04c2d76a4d":[6,1,1,0,1,1143,9],
-"classmrmeshpy_1_1VarEdgeTri.html#aea0fa4738c512e73f35defc36d3e8521":[6,1,0,0,2,1143,3],
-"classmrmeshpy_1_1VarEdgeTri.html#aea0fa4738c512e73f35defc36d3e8521":[6,1,1,0,1,1143,3],
-"classmrmeshpy_1_1VarEdgeTri_1_1FlaggedTri.html":[6,1,0,0,2,1143,0],
-"classmrmeshpy_1_1VarEdgeTri_1_1FlaggedTri.html":[6,1,1,0,1,1143,0],
-"classmrmeshpy_1_1VarEdgeTri_1_1FlaggedTri.html#a04c518f688c2af4d738c4c6ad7d135d4":[6,1,0,0,2,1143,0,0]
+"classmrmeshpy_1_1VarEdgeTri.html#ac32f0575a7f95e1331012b04c2d76a4d":[6,1,0,0,2,1143,9]
 };

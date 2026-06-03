@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1CurveFunc.html":[6,0,0,20,174],
 "structMR_1_1CurvePoint.html":[6,0,0,20,173],
 "structMR_1_1CustomButtonParameters.html":[6,0,0,20,647],
 "structMR_1_1CutByProjectionSettings.html":[6,0,0,20,172],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1FindOverlappingSettings.html":[6,0,0,20,409],
 "structMR_1_1FindProjectionOnPointsSettings.html":[6,0,0,1,29],
 "structMR_1_1FindProjectionOnPointsSettings.html#a33ab001af75b70c47485278f07082bd5":[6,0,0,1,29,1],
-"structMR_1_1FindProjectionOnPointsSettings.html#a3f9c60f79369db701c3869e757686217":[6,0,0,1,29,4],
-"structMR_1_1FindProjectionOnPointsSettings.html#a41d849f8892e4ddc754d38672dde5152":[6,0,0,1,29,2]
+"structMR_1_1FindProjectionOnPointsSettings.html#a3f9c60f79369db701c3869e757686217":[6,0,0,1,29,4]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX167 =
 {
+"classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag.html#aed7505839feb4c787a2411d61e530045":[6,1,1,0,1,996,4],
+"classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag.html#af1516f97b76bf5e4e63ef7b6800c417d":[6,1,0,0,2,996,12],
+"classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag.html#af1516f97b76bf5e4e63ef7b6800c417d":[6,1,1,0,1,996,12],
+"classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag.html#afa209e2ab5b1012d5408f096d16e0eba":[6,1,0,0,2,996,2],
+"classmrmeshpy_1_1std__vector__std__pair__Id__EdgeTag__Id__EdgeTag.html#afa209e2ab5b1012d5408f096d16e0eba":[6,1,1,0,1,996,2],
+"classmrmeshpy_1_1std__vector__std__pair__Id__VertTag__Id__VertTag.html":[6,1,0,0,2,997],
 "classmrmeshpy_1_1std__vector__std__pair__Id__VertTag__Id__VertTag.html":[6,1,1,0,1,997],
 "classmrmeshpy_1_1std__vector__std__pair__Id__VertTag__Id__VertTag.html#a117164d990452a1b357da774e4e1c469":[6,1,0,0,2,997,15],
 "classmrmeshpy_1_1std__vector__std__pair__Id__VertTag__Id__VertTag.html#a117164d990452a1b357da774e4e1c469":[6,1,1,0,1,997,15],
@@ -243,11 +249,5 @@ var NAVTREEINDEX167 =
 "classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html":[6,1,1,0,1,999],
 "classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html#a092194f58d32d17e2d6087d08d3083d7":[6,1,0,0,2,999,17],
 "classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html#a092194f58d32d17e2d6087d08d3083d7":[6,1,1,0,1,999,17],
-"classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html#a13b4e8132831d1752fc25d4e1c1b1a4e":[6,1,0,0,2,999,23],
-"classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html#a13b4e8132831d1752fc25d4e1c1b1a4e":[6,1,1,0,1,999,23],
-"classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html#a1f1b483aeeeedb52eba821be687a9713":[6,1,0,0,2,999,8],
-"classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html#a1f1b483aeeeedb52eba821be687a9713":[6,1,1,0,1,999,8],
-"classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html#a2179beb9132a62875f26619495f14529":[6,1,0,0,2,999,13],
-"classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html#a2179beb9132a62875f26619495f14529":[6,1,1,0,1,999,13],
-"classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html#a2afbcf703bf9ca11c1779e9ea043bee4":[6,1,0,0,2,999,24]
+"classmrmeshpy_1_1std__vector__std__pair__unsigned__long__unsigned__long.html#a13b4e8132831d1752fc25d4e1c1b1a4e":[6,1,0,0,2,999,23]
 };

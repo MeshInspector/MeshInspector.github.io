@@ -1,5 +1,11 @@
 var NAVTREEINDEX141 =
 {
+"classmrmeshpy_1_1std__vector__AABBTreeNode__ObjTreeTraits.html#affb762eadff60c4e870b088233590119":[6,1,1,0,1,902,20],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html":[6,1,0,0,2,903],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html":[6,1,1,0,1,903],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a193f0e77070066dfaedb44542cd32ef2":[6,1,0,0,2,903,1],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a193f0e77070066dfaedb44542cd32ef2":[6,1,1,0,1,903,1],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a1c1e9abb874aac9f15a6d4d814860a58":[6,1,0,0,2,903,12],
 "classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a1c1e9abb874aac9f15a6d4d814860a58":[6,1,1,0,1,903,12],
 "classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a1f00497b7fafd906f762ae394de8d3d5":[6,1,0,0,2,903,19],
 "classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a1f00497b7fafd906f762ae394de8d3d5":[6,1,1,0,1,903,19],
@@ -243,11 +249,5 @@ var NAVTREEINDEX141 =
 "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a6b1f83eb47e318f1ac13512ea74cce20":[6,1,1,0,1,908,24],
 "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a6b88ee86db2bc4938d96b41ba6cc55c8":[6,1,0,0,2,908,26],
 "classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a6b88ee86db2bc4938d96b41ba6cc55c8":[6,1,1,0,1,908,26],
-"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a7e64df43e781f2f15f621fe750ba1a4c":[6,1,0,0,2,908,22],
-"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a7e64df43e781f2f15f621fe750ba1a4c":[6,1,1,0,1,908,22],
-"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a7e740fd8fd6635546a63492661a4a77b":[6,1,0,0,2,908,27],
-"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a7e740fd8fd6635546a63492661a4a77b":[6,1,1,0,1,908,27],
-"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a874d33f25d55e49fc85d72b5e90fbc58":[6,1,0,0,2,908,8],
-"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a874d33f25d55e49fc85d72b5e90fbc58":[6,1,1,0,1,908,8],
-"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a89cc6b72d749284d1ad2c0f9a07d971d":[6,1,0,0,2,908,5]
+"classmrmeshpy_1_1std__vector__CNCMachineSettings__RotationAxisName.html#a7e64df43e781f2f15f621fe750ba1a4c":[6,1,0,0,2,908,22]
 };

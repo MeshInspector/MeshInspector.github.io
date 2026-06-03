@@ -13,5 +13,6 @@ var classmrmeshpy_1_1UnionFind__VertId =
     [ "size", "classmrmeshpy_1_1UnionFind__VertId.html#adfd64d2db8acb69e4f532a74e7580945", null ],
     [ "sizeOfComp", "classmrmeshpy_1_1UnionFind__VertId.html#aaff8d19f441bca53227725acf189f7de", null ],
     [ "unite", "classmrmeshpy_1_1UnionFind__VertId.html#ad66c14ecb73549bc4b25672c3c12925d", null ],
+    [ "uniteAtomic", "classmrmeshpy_1_1UnionFind__VertId.html#a404f26a5410186959ccb897b0849618b", null ],
     [ "united", "classmrmeshpy_1_1UnionFind__VertId.html#abc566a4715321e261b21e336cd3c8740", null ]
 ];

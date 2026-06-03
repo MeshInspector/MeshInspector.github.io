@@ -378,6 +378,36 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61887" bodyend="61891"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__FaceId_1a8750f5b87b15bbf3786f66cf562215ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnionFind_FaceId.uniteAtomic</definition>
+        <argsstring>(self, FaceId first, FaceId second)</argsstring>
+        <name>uniteAtomic</name>
+        <qualifiedname>mrmeshpy.UnionFind_FaceId.uniteAtomic</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>thread-safe version of unite() for parallel construction of the structure:
+links by element id (the smaller id becomes the common root) using lock-free path halving;
+unlike unite() it does NOT maintain component sizes, so sizeOfComp() is invalid after any uniteAtomic() call
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61892" bodyend="61897"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__FaceId_1a1549dc5a40e2cb922dd9dc5061af4a53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
         <definition> bool mrmeshpy.UnionFind_FaceId.united</definition>
@@ -404,7 +434,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61892" bodyend="61895"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61898" bodyend="61901"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -420,7 +450,7 @@
 \\tparam I is the identifier of a set&apos;s element, e.g. FaceId
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61815" bodyend="61895"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61815" bodyend="61901"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1UnionFind__FaceId_1aa9e027b7cda8a0dcfd5af3fc28aa87b1" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_FaceId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UnionFind__FaceId_1a5921a8b7a46e08ce74fc65ad09747df3" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_FaceId</scope><name>__init__</name></member>
@@ -438,6 +468,7 @@
       <member refid="classmrmeshpy_1_1UnionFind__FaceId_1aadb18338f2934c6944f56b63f33fc5c8" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_FaceId</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1UnionFind__FaceId_1a095da7ec694ec72054dd43c6d33fc1b3" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_FaceId</scope><name>sizeOfComp</name></member>
       <member refid="classmrmeshpy_1_1UnionFind__FaceId_1a11c145300292060ccc02fdab6f24640a" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_FaceId</scope><name>unite</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__FaceId_1a8750f5b87b15bbf3786f66cf562215ca" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_FaceId</scope><name>uniteAtomic</name></member>
       <member refid="classmrmeshpy_1_1UnionFind__FaceId_1a1549dc5a40e2cb922dd9dc5061af4a53" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_FaceId</scope><name>united</name></member>
     </listofallmembers>
   </compounddef>

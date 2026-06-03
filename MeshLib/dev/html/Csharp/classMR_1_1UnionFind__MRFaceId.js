@@ -12,5 +12,6 @@ var classMR_1_1UnionFind__MRFaceId =
     [ "roots", "classMR_1_1UnionFind__MRFaceId.html#a3d7068137d10204cdac1179dfeaf96d2", null ],
     [ "sizeOfComp", "classMR_1_1UnionFind__MRFaceId.html#a4c58aa667831be9341c1534e493a585e", null ],
     [ "unite", "classMR_1_1UnionFind__MRFaceId.html#a113b9ad6867f881b1309ff7adcaad1fc", null ],
+    [ "uniteAtomic", "classMR_1_1UnionFind__MRFaceId.html#a4d0eb97a2debc1b845229b067ee48208", null ],
     [ "united", "classMR_1_1UnionFind__MRFaceId.html#a86e7404b5383e17d9880a9a1dae843f5", null ]
 ];

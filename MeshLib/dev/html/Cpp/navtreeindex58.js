@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a0449de604a44d5f7f5e7807469982f24":[6,0,1,0,1,46,9,22],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a045cc455f7698a9ccdf262bde6183cb1":[6,0,1,0,1,46,9,18],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a0d2387373cd1f88af245ff8a45265edc":[6,0,1,0,1,46,9,27],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a176c5b2ad8eb21c6d5933cabdbbd5568":[6,0,1,0,1,46,9,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0":[6,0,2,0,1,0,6],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[6,0,1,0,0,0,4],
 "structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1":[6,0,2,0,1,0,4],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,1,0,0,0,5],
-"structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,2,0,1,0,5]
+"structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4":[6,0,1,0,0,0,5]
 };
