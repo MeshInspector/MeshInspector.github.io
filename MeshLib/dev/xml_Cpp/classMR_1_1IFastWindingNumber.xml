@@ -6,6 +6,9 @@
     <derivedcompoundref refid="classMR_1_1FastWindingNumber" prot="public" virt="non-virtual">MR::FastWindingNumber</derivedcompoundref>
     <includes refid="MRFastWindingNumber_8h" local="no">MRMesh/MRFastWindingNumber.h</includes>
     <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga9bdb8344f54dfef30896226afa7e5197" kind="function"><name>IFastWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga393c1ce3ad60f264b8fd1d881a3ac853" kind="function"><name>IFastWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga38c8410763dc01127a1828ed95d91e29" kind="function"><name>IFastWindingNumber</name></member>
       <member refid="group__GeneralGroup_1gaefefcab706e99f050565aa3492015547" kind="function"><name>~IFastWindingNumber</name></member>
       <member refid="group__GeneralGroup_1ga44bf69fbb5b7c37e5a0ff132a6137581" kind="function"><name>calcFromVector</name></member>
       <member refid="group__GeneralGroup_1ga9a9a27eb86c9d023a286bcf963c03cb3" kind="function"><name>calcSelfIntersections</name></member>
@@ -35,12 +38,15 @@
         <link refid="classMR_1_1IFastWindingNumber"/>
       </node>
     </inheritancegraph>
-    <location file="MRMesh/MRFastWindingNumber.h" line="14" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="15" bodyend="43"/>
+    <location file="MRMesh/MRFastWindingNumber.h" line="14" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="15" bodyend="48"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga368a1a0534476d08756358a07bcce617" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumber</scope><name>calcFromGrid</name></member>
       <member refid="group__GeneralGroup_1gaeb59990afd6d9382244508e9e250972d" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumber</scope><name>calcFromGridWithDistances</name></member>
       <member refid="group__GeneralGroup_1ga44bf69fbb5b7c37e5a0ff132a6137581" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumber</scope><name>calcFromVector</name></member>
       <member refid="group__GeneralGroup_1ga9a9a27eb86c9d023a286bcf963c03cb3" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumber</scope><name>calcSelfIntersections</name></member>
+      <member refid="group__GeneralGroup_1ga9bdb8344f54dfef30896226afa7e5197" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>IFastWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga393c1ce3ad60f264b8fd1d881a3ac853" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>IFastWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga38c8410763dc01127a1828ed95d91e29" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>IFastWindingNumber</name></member>
       <member refid="group__GeneralGroup_1gaefefcab706e99f050565aa3492015547" prot="public" virt="virtual"><scope>MR::IFastWindingNumber</scope><name>~IFastWindingNumber</name></member>
     </listofallmembers>
   </compounddef>

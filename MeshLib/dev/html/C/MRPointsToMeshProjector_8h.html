@@ -209,7 +209,6 @@ Functions</h2></td></tr>
 <tr class="memdesc:ae3637aa059c9ce75ae106ae6799a744a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a3088c8efb7d025084121005502134519">MR_PointsToMeshProjector</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:ab9c692127de502a4a65453964036a693" id="r_ab9c692127de502a4a65453964036a693"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9c692127de502a4a65453964036a693">MR_PointsToMeshProjector_DestroyArray</a> (const <a class="el" href="#a3088c8efb7d025084121005502134519">MR_PointsToMeshProjector</a> *_this)</td></tr>
 <tr class="memdesc:ab9c692127de502a4a65453964036a693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a3088c8efb7d025084121005502134519">MR_PointsToMeshProjector</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a39f8febdb63c545eee8abc3b20b12122" id="r_a39f8febdb63c545eee8abc3b20b12122"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3088c8efb7d025084121005502134519">MR_PointsToMeshProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39f8febdb63c545eee8abc3b20b12122">MR_PointsToMeshProjector_AssignFromAnother</a> (<a class="el" href="#a3088c8efb7d025084121005502134519">MR_PointsToMeshProjector</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a3088c8efb7d025084121005502134519">MR_PointsToMeshProjector</a> *_other)</td></tr>
 <tr class="memitem:ab5421556ff66c471791e7c429d16c7c1" id="r_ab5421556ff66c471791e7c429d16c7c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5421556ff66c471791e7c429d16c7c1">MR_PointsToMeshProjector_updateMeshData</a> (<a class="el" href="#a3088c8efb7d025084121005502134519">MR_PointsToMeshProjector</a> *_this, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
 <tr class="memitem:a916ffab0a0020668741408d720afcb0e" id="r_a916ffab0a0020668741408d720afcb0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a916ffab0a0020668741408d720afcb0e">MR_PointsToMeshProjector_findProjections</a> (<a class="el" href="#a3088c8efb7d025084121005502134519">MR_PointsToMeshProjector</a> *_this, <a class="el" href="#a6948b441655a1b3976257e0a61a5a4ba">MR_std_vector_MR_MeshProjectionResult</a> *result, const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *points, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *objXf, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *refObjXf, float upDistLimitSq, float loDistLimitSq)</td></tr>
 <tr class="memdesc:a916ffab0a0020668741408d720afcb0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the closest point on mesh to each of given points.  <br /></td></tr>
@@ -938,33 +937,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>optional test points to world transformation Modifies a member variable of class <span class="tt">MR::MeshProjectionParameters</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">xf</span>. When this function is called, this object will drop object references it held previously in <span class="tt">xf</span>. </p>
-
-</div>
-</div>
-<a id="a39f8febdb63c545eee8abc3b20b12122" name="a39f8febdb63c545eee8abc3b20b12122"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39f8febdb63c545eee8abc3b20b12122">&#9670;&#160;</a></span>MR_PointsToMeshProjector_AssignFromAnother()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3088c8efb7d025084121005502134519">MR_PointsToMeshProjector</a> * MR_PointsToMeshProjector_AssignFromAnother </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#a3088c8efb7d025084121005502134519">MR_PointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="#a3088c8efb7d025084121005502134519">MR_PointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Generated from method <span class="tt">MR::PointsToMeshProjector::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>

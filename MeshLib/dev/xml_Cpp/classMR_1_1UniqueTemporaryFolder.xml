@@ -10,6 +10,10 @@
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1gaea7e76db7a25256c915abaefb1df86bb" kind="function"><name>UniqueTemporaryFolder</name></member>
       <member refid="group__GeneralGroup_1ga797e41695bc2cfcc9587df460a536f7d" kind="function"><name>~UniqueTemporaryFolder</name></member>
+      <member refid="group__GeneralGroup_1ga0e95e41a72f7640ec7fe5d8ee8417da3" kind="function"><name>UniqueTemporaryFolder</name></member>
+      <member refid="group__GeneralGroup_1ga44dd17ac2ee4e5cdb88e07f69bd9f1a1" kind="function"><name>UniqueTemporaryFolder</name></member>
+      <member refid="group__GeneralGroup_1ga18f05667e76ccc9a5c5ef69bd3584e26" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga61854bf3fe886747be7d3c8ffe57841d" kind="function"><name>operator=</name></member>
       <member refid="group__GeneralGroup_1ga8ec198312afe50720d7c5ab8ef8cfc46" kind="function"><name>operator bool</name></member>
       <member refid="group__GeneralGroup_1ga990b724a34e3cff31ff265fee8ab84b5" kind="function"><name>operator/</name></member>
     </sectiondef>
@@ -18,13 +22,17 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="MRMesh/MRUniqueTemporaryFolder.h" line="17" column="1" bodyfile="MRMesh/MRUniqueTemporaryFolder.h" bodystart="18" bodyend="42"/>
+    <location file="MRMesh/MRUniqueTemporaryFolder.h" line="17" column="1" bodyfile="MRMesh/MRUniqueTemporaryFolder.h" bodystart="18" bodyend="48"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gabd89fab59fca651ac998d7bac4973f72" prot="private" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>folder_</name></member>
       <member refid="group__GeneralGroup_1gacdbe5464e0796cb2b8b083d58804a4be" prot="private" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>onPreTempFolderDelete_</name></member>
       <member refid="group__GeneralGroup_1ga8ec198312afe50720d7c5ab8ef8cfc46" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>operator bool</name></member>
       <member refid="group__GeneralGroup_1ga990b724a34e3cff31ff265fee8ab84b5" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>operator/</name></member>
+      <member refid="group__GeneralGroup_1ga18f05667e76ccc9a5c5ef69bd3584e26" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga61854bf3fe886747be7d3c8ffe57841d" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>operator=</name></member>
       <member refid="group__GeneralGroup_1gaea7e76db7a25256c915abaefb1df86bb" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>UniqueTemporaryFolder</name></member>
+      <member refid="group__GeneralGroup_1ga0e95e41a72f7640ec7fe5d8ee8417da3" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>UniqueTemporaryFolder</name></member>
+      <member refid="group__GeneralGroup_1ga44dd17ac2ee4e5cdb88e07f69bd9f1a1" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>UniqueTemporaryFolder</name></member>
       <member refid="group__GeneralGroup_1ga797e41695bc2cfcc9587df460a536f7d" prot="public" virt="non-virtual"><scope>MR::UniqueTemporaryFolder</scope><name>~UniqueTemporaryFolder</name></member>
     </listofallmembers>
   </compounddef>

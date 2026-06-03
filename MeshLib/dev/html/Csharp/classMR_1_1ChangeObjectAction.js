@@ -5,7 +5,6 @@ var classMR_1_1ChangeObjectAction =
     [ "ChangeObjectAction", "classMR_1_1ChangeObjectAction.html#a672abc1b3c7819edcf917a3139c016f8", null ],
     [ "ChangeObjectAction", "classMR_1_1ChangeObjectAction.html#a933a89a3d167a0e959d0d68d80adad85", null ],
     [ "action", "classMR_1_1ChangeObjectAction.html#a7ee70cf340528a31e91524ecc01bcfae", null ],
-    [ "assign", "classMR_1_1ChangeObjectAction.html#a1eba7efd2915fa0eddd1f7740e5e676a", null ],
     [ "operator ChangeObjectAction?", "classMR_1_1ChangeObjectAction.html#a9141a0b64f44159749e7a5d08b58eba1", null ],
     [ "operator MR.HistoryAction", "classMR_1_1ChangeObjectAction.html#a9cc164f4c946bbd4d378bf10a09bf813", null ]
 ];

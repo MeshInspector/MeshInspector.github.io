@@ -6,7 +6,6 @@ var MRCombinedHistoryAction_8h =
     [ "MR_std_shared_ptr_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#aea6f4c1b17ee8ba078b28e0b4cefcd32", null ],
     [ "MR_std_vector_std_shared_ptr_MR_HistoryAction", "MRCombinedHistoryAction_8h.html#a302e96c8fc205d87b7083d246ebeb457", null ],
     [ "MR_CombinedHistoryAction_action", "MRCombinedHistoryAction_8h.html#abc970b5ed5b27cd34dda2bb5677fa556", null ],
-    [ "MR_CombinedHistoryAction_AssignFromAnother", "MRCombinedHistoryAction_8h.html#ae37e33ca625aa34393144b3a4b8b4011", null ],
     [ "MR_CombinedHistoryAction_Construct", "MRCombinedHistoryAction_8h.html#a62cda644143daa0143d71c3ab51255d5", null ],
     [ "MR_CombinedHistoryAction_ConstructFromAnother", "MRCombinedHistoryAction_8h.html#acc3b26961b609b7f6a7c72efe3faa246", null ],
     [ "MR_CombinedHistoryAction_Destroy", "MRCombinedHistoryAction_8h.html#ae284fd341b8e30d30c6bb579c94b4ec5", null ],

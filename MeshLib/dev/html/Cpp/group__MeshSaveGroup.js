@@ -2,6 +2,8 @@ var group__MeshSaveGroup =
 [
     [ "MR::MeshSave::BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html", [
       [ "BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html#a859f9b2c3532df188432fec61a6a2b99", null ],
+      [ "BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html#a9eeba76ad483b4f8c382f151a380d344", null ],
+      [ "BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html#a19ffef9e176e926a358e0913adc6949d", null ],
       [ "~BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html#a20ed9bc2a6d528a67539a8c8e6b539cc", null ],
       [ "updateHeadCounter", "classMR_1_1MeshSave_1_1BinaryStlSaver.html#acd906c16c2c822c77b7415473be8e7c3", null ],
       [ "writeTri", "classMR_1_1MeshSave_1_1BinaryStlSaver.html#a2422df321dd6121589093b939d92a1ad", null ]

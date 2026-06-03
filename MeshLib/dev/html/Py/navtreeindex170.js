@@ -1,15 +1,5 @@
 var NAVTREEINDEX170 =
 {
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#ad893f0712f4ce69ea68c73066e329c66":[6,1,1,0,1,1008,7],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#adbfcab28e1151a11e787ea8702755c86":[6,1,0,0,2,1008,3],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#adbfcab28e1151a11e787ea8702755c86":[6,1,1,0,1,1008,3],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#ae3eb18804eeb1781a1952b08e39447b7":[6,1,0,0,2,1008,28],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#ae3eb18804eeb1781a1952b08e39447b7":[6,1,1,0,1,1008,28],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#aec3163f64b7abb9dc93d1289de4a4121":[6,1,0,0,2,1008,8],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#aec3163f64b7abb9dc93d1289de4a4121":[6,1,1,0,1,1008,8],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#af92d39f85630dda1b5a53dd6af591740":[6,1,0,0,2,1008,17],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectLinesHolder.html#af92d39f85630dda1b5a53dd6af591740":[6,1,1,0,1,1008,17],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectMesh.html":[6,1,0,0,2,1009],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectMesh.html":[6,1,1,0,1,1009],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectMesh.html#a001ad9d98020912942d34366f4e42f57":[6,1,0,0,2,1009,26],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectMesh.html#a001ad9d98020912942d34366f4e42f57":[6,1,1,0,1,1009,26],
@@ -249,5 +239,15 @@ var NAVTREEINDEX170 =
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#abd3a3c87905261b19f4ecd17fb6764da":[6,1,1,0,1,1012,15],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#abed725729a4bb3062b68a3bdb1220168":[6,1,0,0,2,1012,10],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#abed725729a4bb3062b68a3bdb1220168":[6,1,1,0,1,1012,10],
-"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#ac38949d639c743599b94db7b7c640c6c":[6,1,0,0,2,1012,16]
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#ac38949d639c743599b94db7b7c640c6c":[6,1,0,0,2,1012,16],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#ac38949d639c743599b94db7b7c640c6c":[6,1,1,0,1,1012,16],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#ad4bf725fac2b0904eeb8570344b97d2c":[6,1,0,0,2,1012,7],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#ad4bf725fac2b0904eeb8570344b97d2c":[6,1,1,0,1,1012,7],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#adc6d156a1732614721e4dd5d7fc2080e":[6,1,0,0,2,1012,27],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#adc6d156a1732614721e4dd5d7fc2080e":[6,1,1,0,1,1012,27],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#af1826a5770593107214f6f52ffa28293":[6,1,0,0,2,1012,21],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#af1826a5770593107214f6f52ffa28293":[6,1,1,0,1,1012,21],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html":[6,1,0,0,2,1013],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html":[6,1,1,0,1,1013],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a007fd1feb6b0b324de88f30ddadbb016":[6,1,0,0,2,1013,24]
 };

@@ -1,15 +1,5 @@
 var NAVTREEINDEX120 =
 {
-"classmrmeshpy_1_1VertColors.html#abf0369f8c42f9cb9d93d8d866610632d":[6,1,1,0,1,1217,22],
-"classmrmeshpy_1_1VertColors.html#acdd1cef964d7e791f0bd840958deafcf":[6,1,0,0,2,1217,18],
-"classmrmeshpy_1_1VertColors.html#acdd1cef964d7e791f0bd840958deafcf":[6,1,1,0,1,1217,18],
-"classmrmeshpy_1_1VertColors.html#ad51ac9f117085b79fdc6db57208b0187":[6,1,0,0,2,1217,11],
-"classmrmeshpy_1_1VertColors.html#ad51ac9f117085b79fdc6db57208b0187":[6,1,1,0,1,1217,11],
-"classmrmeshpy_1_1VertColors.html#ad617924b630930604230c4680b106122":[6,1,0,0,2,1217,26],
-"classmrmeshpy_1_1VertColors.html#ad617924b630930604230c4680b106122":[6,1,1,0,1,1217,26],
-"classmrmeshpy_1_1VertColors.html#ad9f67c53e579f3fd8393414e5c558828":[6,1,0,0,2,1217,6],
-"classmrmeshpy_1_1VertColors.html#ad9f67c53e579f3fd8393414e5c558828":[6,1,0,0,2,1217,7],
-"classmrmeshpy_1_1VertColors.html#ad9f67c53e579f3fd8393414e5c558828":[6,1,1,0,1,1217,6],
 "classmrmeshpy_1_1VertColors.html#ad9f67c53e579f3fd8393414e5c558828":[6,1,1,0,1,1217,7],
 "classmrmeshpy_1_1VertColors.html#add9aebe3faf4c232b1dfddf9ee41cdfa":[6,1,0,0,2,1217,3],
 "classmrmeshpy_1_1VertColors.html#add9aebe3faf4c232b1dfddf9ee41cdfa":[6,1,1,0,1,1217,3],
@@ -249,5 +239,15 @@ var NAVTREEINDEX120 =
 "classmrmeshpy_1_1VertId.html#af5d619953d18f25010ed701358ebb515":[6,1,1,0,1,1223,0],
 "classmrmeshpy_1_1VertId.html#afe9676786aa0b17bddad429d77a8542b":[6,1,0,0,2,1223,11],
 "classmrmeshpy_1_1VertId.html#afe9676786aa0b17bddad429d77a8542b":[6,1,1,0,1,1223,11],
-"classmrmeshpy_1_1VertMap.html":[6,1,0,0,2,1224]
+"classmrmeshpy_1_1VertMap.html":[6,1,0,0,2,1224],
+"classmrmeshpy_1_1VertMap.html":[6,1,1,0,1,1224],
+"classmrmeshpy_1_1VertMap.html#a092224b5910777a0c22310b28173dd10":[6,1,0,0,2,1224,39],
+"classmrmeshpy_1_1VertMap.html#a092224b5910777a0c22310b28173dd10":[6,1,1,0,1,1224,39],
+"classmrmeshpy_1_1VertMap.html#a0f867b97e8e6ba4b784d7082ecf8f80a":[6,1,0,0,2,1224,6],
+"classmrmeshpy_1_1VertMap.html#a0f867b97e8e6ba4b784d7082ecf8f80a":[6,1,0,0,2,1224,7],
+"classmrmeshpy_1_1VertMap.html#a0f867b97e8e6ba4b784d7082ecf8f80a":[6,1,1,0,1,1224,6],
+"classmrmeshpy_1_1VertMap.html#a0f867b97e8e6ba4b784d7082ecf8f80a":[6,1,1,0,1,1224,7],
+"classmrmeshpy_1_1VertMap.html#a2007b4e2ebf887ffd8a7d25be7743daf":[6,1,0,0,2,1224,22],
+"classmrmeshpy_1_1VertMap.html#a2007b4e2ebf887ffd8a7d25be7743daf":[6,1,1,0,1,1224,22],
+"classmrmeshpy_1_1VertMap.html#a2578bb3b566d680b103eccff14ce04b6":[6,1,0,0,2,1224,0]
 };

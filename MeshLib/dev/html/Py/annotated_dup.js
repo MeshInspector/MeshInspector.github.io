@@ -623,7 +623,7 @@ var annotated_dup =
       [ "ObjectChildrenHolder", "classmrmeshpy_1_1ObjectChildrenHolder.html", "classmrmeshpy_1_1ObjectChildrenHolder" ],
       [ "ObjectComparableWithReference", "classmrmeshpy_1_1ObjectComparableWithReference.html", "classmrmeshpy_1_1ObjectComparableWithReference" ],
       [ "ObjectDistanceMap", "classmrmeshpy_1_1ObjectDistanceMap.html", "classmrmeshpy_1_1ObjectDistanceMap" ],
-      [ "ObjectFactoryBase", "classmrmeshpy_1_1ObjectFactoryBase.html", "classmrmeshpy_1_1ObjectFactoryBase" ],
+      [ "ObjectFactoryBase", "classmrmeshpy_1_1ObjectFactoryBase.html", null ],
       [ "ObjectGcode", "classmrmeshpy_1_1ObjectGcode.html", "classmrmeshpy_1_1ObjectGcode" ],
       [ "ObjectLabel", "classmrmeshpy_1_1ObjectLabel.html", "classmrmeshpy_1_1ObjectLabel" ],
       [ "ObjectLines", "classmrmeshpy_1_1ObjectLines.html", "classmrmeshpy_1_1ObjectLines" ],

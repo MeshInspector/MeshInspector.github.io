@@ -8,6 +8,9 @@
       <member refid="group__GeneralGroup_1ga54e74708f7b97596d00a59029266cc0f" kind="typedef"><name>GridByPartsFunc</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga4cc15b56fc662a88628ca1a7de3eb914" kind="function"><name>IFastWindingNumberByParts</name></member>
+      <member refid="group__GeneralGroup_1ga816ff6662fe8899fac1cddf3084583ca" kind="function"><name>IFastWindingNumberByParts</name></member>
+      <member refid="group__GeneralGroup_1gac9c05638978eb307eae69e70b8e3e5f5" kind="function"><name>IFastWindingNumberByParts</name></member>
       <member refid="group__GeneralGroup_1gaf7e578881fbad35e93b36ab0a2697c1c" kind="function"><name>~IFastWindingNumberByParts</name></member>
       <member refid="group__GeneralGroup_1ga3cd5d444973254e7b31ab81917f07329" kind="function"><name>calcFromGridByParts</name></member>
       <member refid="group__GeneralGroup_1ga91d50343ae8805a878c0dac2b8ff0802" kind="function"><name>calcFromGridWithDistancesByParts</name></member>
@@ -29,11 +32,14 @@
         <link refid="classMR_1_1IFastWindingNumberByParts"/>
       </node>
     </inheritancegraph>
-    <location file="MRMesh/MRFastWindingNumber.h" line="72" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="73" bodyend="100"/>
+    <location file="MRMesh/MRFastWindingNumber.h" line="77" column="1" bodyfile="MRMesh/MRFastWindingNumber.h" bodystart="78" bodyend="110"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga3cd5d444973254e7b31ab81917f07329" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridByParts</name></member>
       <member refid="group__GeneralGroup_1ga91d50343ae8805a878c0dac2b8ff0802" prot="public" virt="pure-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>calcFromGridWithDistancesByParts</name></member>
       <member refid="group__GeneralGroup_1ga54e74708f7b97596d00a59029266cc0f" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>GridByPartsFunc</name></member>
+      <member refid="group__GeneralGroup_1ga4cc15b56fc662a88628ca1a7de3eb914" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>IFastWindingNumberByParts</name></member>
+      <member refid="group__GeneralGroup_1ga816ff6662fe8899fac1cddf3084583ca" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>IFastWindingNumberByParts</name></member>
+      <member refid="group__GeneralGroup_1gac9c05638978eb307eae69e70b8e3e5f5" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumberByParts</scope><name>IFastWindingNumberByParts</name></member>
       <member refid="group__GeneralGroup_1gaf7e578881fbad35e93b36ab0a2697c1c" prot="public" virt="virtual"><scope>MR::IFastWindingNumberByParts</scope><name>~IFastWindingNumberByParts</name></member>
     </listofallmembers>
   </compounddef>

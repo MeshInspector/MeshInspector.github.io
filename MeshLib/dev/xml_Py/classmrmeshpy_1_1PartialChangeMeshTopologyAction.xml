@@ -27,7 +27,7 @@ and old topology is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43758" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43758" bodyend="43762"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43380" bodyend="43384"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1abc233cfd2608da858f243b053091cfd1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -51,7 +51,7 @@ and old topology is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43765" bodyend="43768"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43387" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43387" bodyend="43390"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1abc233cfd2608da858f243b053091cfd1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -73,7 +73,7 @@ and old topology is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43771" bodyend="43772"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43393" bodyend="43394"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a03611df60e306bfee439e1a599ad5b74" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -98,53 +98,7 @@ and old topology is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43774" bodyend="43775"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a1bf7836abbcb94511415c491c09e8e60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction" kindref="compound">PartialChangeMeshTopologyAction</ref></type>
-        <definition> PartialChangeMeshTopologyAction mrmeshpy.PartialChangeMeshTopologyAction.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.PartialChangeMeshTopologyAction.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43778" bodyend="43779"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a1bf7836abbcb94511415c491c09e8e60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction" kindref="compound">PartialChangeMeshTopologyAction</ref></type>
-        <definition> PartialChangeMeshTopologyAction mrmeshpy.PartialChangeMeshTopologyAction.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.PartialChangeMeshTopologyAction.operator</qualifiedname>
-        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43782" bodyend="43783"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43396" bodyend="43397"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -170,7 +124,7 @@ and old topology is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43785" bodyend="43788"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43399" bodyend="43402"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a5ca8f2dc6b797886452a9cf2aa18efd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -191,7 +145,7 @@ and old topology is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43789" bodyend="43790"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43403" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43403" bodyend="43404"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a3e846d4d4cd0540d260d8c5577dee9ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -210,7 +164,7 @@ and old topology is passed to remember the difference for future undoing
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43791" bodyend="43792"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43405" bodyend="43406"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -245,7 +199,7 @@ Undo action for efficiently storage of partial change in mesh topology (e.g. a m
         <link refid="classmrmeshpy_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43750" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43750" bodyend="43792"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43372" bodyend="43406"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1abc233cfd2608da858f243b053091cfd1" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1abc233cfd2608da858f243b053091cfd1" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>__init__</name></member>
@@ -254,8 +208,6 @@ Undo action for efficiently storage of partial change in mesh topology (e.g. a m
       <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a03611df60e306bfee439e1a599ad5b74" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>action</name></member>
       <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a5ca8f2dc6b797886452a9cf2aa18efd7" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a3e846d4d4cd0540d260d8c5577dee9ab" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>name</name></member>
-      <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a1bf7836abbcb94511415c491c09e8e60" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>operator</name></member>
-      <member refid="classmrmeshpy_1_1PartialChangeMeshTopologyAction_1a1bf7836abbcb94511415c491c09e8e60" prot="public" virt="non-virtual"><scope>mrmeshpy::PartialChangeMeshTopologyAction</scope><name>operator</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>
