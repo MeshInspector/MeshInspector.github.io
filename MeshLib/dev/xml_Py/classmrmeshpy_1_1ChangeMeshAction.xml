@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7732" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7732" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7804" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-static-func">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7735" bodyend="7736"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7807" bodyend="7808"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshAction_1ac34cafddb940f17471de8363fc6cb8cc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -66,7 +66,53 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7738" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7738" bodyend="7739"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7810" bodyend="7811"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshAction_1a1582ca01ace17d380566d81008f9da4e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeMeshAction" kindref="compound">ChangeMeshAction</ref></type>
+        <definition> ChangeMeshAction mrmeshpy.ChangeMeshAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeMeshAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7814" bodyend="7815"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshAction_1a1582ca01ace17d380566d81008f9da4e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeMeshAction" kindref="compound">ChangeMeshAction</ref></type>
+        <definition> ChangeMeshAction mrmeshpy.ChangeMeshAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeMeshAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7818" bodyend="7819"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshAction_1aad53f96111df9d251585e56bdd6d469d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -84,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7741" bodyend="7742"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7821" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7821" bodyend="7822"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -114,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7744" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7744" bodyend="7747"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7824" bodyend="7827"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshAction_1ad9c8dfcad01e00c2b98bb831cc8e1742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -146,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7749" bodyend="7752"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7829" bodyend="7832"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshAction_1a9c1d4340fe9cccbb8faeab7a12b1e3ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -170,7 +216,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7754" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7754" bodyend="7757"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7834" bodyend="7837"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshAction_1a3759181483a03b7952df5b3d366f7833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -191,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7758" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7758" bodyend="7759"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7838" bodyend="7839"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshAction_1af68c633da7d5d59af0f5b057398b85f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -210,7 +256,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7760" bodyend="7761"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7840" bodyend="7841"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -245,7 +291,7 @@ Undo action for ObjectMesh mesh change
         <link refid="classmrmeshpy_1_1HistoryAction"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7726" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7726" bodyend="7761"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7798" bodyend="7841"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1ChangeMeshAction_1aafc889d4d6ee3f5152a369670834d6a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshAction</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1ChangeMeshAction_1a68db280d5dea141cf53b49df488a150d" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshAction</scope><name>__init__</name></member>
@@ -255,6 +301,8 @@ Undo action for ObjectMesh mesh change
       <member refid="classmrmeshpy_1_1ChangeMeshAction_1a3759181483a03b7952df5b3d366f7833" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshAction</scope><name>heapBytes</name></member>
       <member refid="classmrmeshpy_1_1ChangeMeshAction_1af68c633da7d5d59af0f5b057398b85f5" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshAction</scope><name>name</name></member>
       <member refid="classmrmeshpy_1_1ChangeMeshAction_1ae9e640378bb873af7f5e4e3660d4e48f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshAction_1a1582ca01ace17d380566d81008f9da4e" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshAction_1a1582ca01ace17d380566d81008f9da4e" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshAction</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1ChangeMeshAction_1aad53f96111df9d251585e56bdd6d469d" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshAction</scope><name>setObjectDirty</name></member>
     </listofallmembers>
   </compounddef>

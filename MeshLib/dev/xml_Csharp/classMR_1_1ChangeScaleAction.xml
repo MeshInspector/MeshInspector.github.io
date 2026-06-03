@@ -150,6 +150,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" line="170" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" bodystart="170" bodyend="180"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeScaleAction_1a37cd5443fb3803538d7818697e7106f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangeScaleAction" kindref="compound">MR.ChangeScaleAction</ref></type>
+        <definition>unsafe MR.ChangeScaleAction MR.ChangeScaleAction.assign</definition>
+        <argsstring>(MR._ByValue_ChangeScaleAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangeScaleAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeScaleAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ChangeScaleAction::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" line="185" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" bodystart="185" bodyend="192"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeScaleAction_1ab1674053823891c4410791c50ec58af2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ChangeScaleAction.action</definition>
@@ -167,7 +186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" line="185" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" bodystart="185" bodyend="190"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" line="197" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" bodystart="197" bodyend="202"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -219,9 +238,10 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" line="119" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" bodystart="120" bodyend="191"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" line="119" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeScaleAction.cs" bodystart="120" bodyend="203"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeScaleAction_1ab1674053823891c4410791c50ec58af2" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeScaleAction_1a37cd5443fb3803538d7818697e7106f7" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeScaleAction_1add22cf3f519e4f8dab3c3fa8c8dc5120" prot="package" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>ChangeScaleAction</name></member>
       <member refid="classMR_1_1ChangeScaleAction_1a2764e98ddb249e87b5c613fd806460af" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>ChangeScaleAction</name></member>
       <member refid="classMR_1_1ChangeScaleAction_1ad62f19e63b761e0a213e6e6f1e7eda3c" prot="public" virt="non-virtual"><scope>MR::ChangeScaleAction</scope><name>ChangeScaleAction</name></member>

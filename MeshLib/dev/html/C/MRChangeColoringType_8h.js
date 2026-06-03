@@ -2,6 +2,7 @@ var MRChangeColoringType_8h =
 [
     [ "MR_ChangeColoringType", "MRChangeColoringType_8h.html#a39d00a70b6ff4dda255d4fe1d3b6d8a9", null ],
     [ "MR_ChangeColoringType_action", "MRChangeColoringType_8h.html#aca4dc01ff9d00e2caac119559af108de", null ],
+    [ "MR_ChangeColoringType_AssignFromAnother", "MRChangeColoringType_8h.html#ad4649cf3b2d320af0bb873cc0df9aa05", null ],
     [ "MR_ChangeColoringType_Construct_2", "MRChangeColoringType_8h.html#aac9bfd72137c6a34724ce87c44f68ebc", null ],
     [ "MR_ChangeColoringType_Construct_3", "MRChangeColoringType_8h.html#ae060967729ec75c68f5fb703777d98ab", null ],
     [ "MR_ChangeColoringType_ConstructFromAnother", "MRChangeColoringType_8h.html#a822f530aaf38dc596720f0dfe35dbf9b", null ],

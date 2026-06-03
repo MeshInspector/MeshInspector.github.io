@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointsProject.h" line="129" column="22" bodyfile="MRMesh/MRPointsProject.h" bodystart="129" bodyend="129"/>
+        <location file="MRMesh/MRPointsProject.h" line="122" column="22" bodyfile="MRMesh/MRPointsProject.h" bodystart="122" bodyend="122"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointsProject.h" line="120" column="15"/>
+        <location file="MRMesh/MRPointsProject.h" line="113" column="15"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsProjector_1a8176e657fa7d5a4b859318c91de2bd91" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointsProject.h" line="123" column="15"/>
+        <location file="MRMesh/MRPointsProject.h" line="116" column="15"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1_1PointsProjector_1aeb970ece1c2d3764ce6369fc07d74181" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>size_t</type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRPointsProject.h" line="127" column="21"/>
+        <location file="MRMesh/MRPointsProject.h" line="120" column="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -120,14 +120,9 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRPointsProject.h" line="116" column="1" bodyfile="MRMesh/MRPointsProject.h" bodystart="117" bodyend="130"/>
+    <location file="MRMesh/MRPointsProject.h" line="109" column="1" bodyfile="MRMesh/MRPointsProject.h" bodystart="110" bodyend="123"/>
     <listofallmembers>
       <member refid="classMR_1_1PointsProjector_1a8176e657fa7d5a4b859318c91de2bd91" prot="public" virt="virtual"><scope>MR::PointsProjector</scope><name>findProjections</name></member>
-      <member refid="classMR_1_1IPointsProjector_1a5a3f74ffe976079b82511c3381ef3cf1" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>IPointsProjector</name></member>
-      <member refid="classMR_1_1IPointsProjector_1ad662f0a8c6d8fd6376e2551303f5874a" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>IPointsProjector</name></member>
-      <member refid="classMR_1_1IPointsProjector_1ab26cafb526f8cd9801cad266deaadc32" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>IPointsProjector</name></member>
-      <member refid="classMR_1_1IPointsProjector_1ab2756b25207ca6b23055f6f1ec5c045a" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>operator=</name></member>
-      <member refid="classMR_1_1IPointsProjector_1a29ce251481d5cecc23a88a19a389df7b" prot="public" virt="non-virtual"><scope>MR::PointsProjector</scope><name>operator=</name></member>
       <member refid="classMR_1_1PointsProjector_1af503176a71b03a96bc6b4a3d19da6364" prot="private" virt="non-virtual"><scope>MR::PointsProjector</scope><name>pointCloud_</name></member>
       <member refid="classMR_1_1PointsProjector_1aeb970ece1c2d3764ce6369fc07d74181" prot="public" virt="virtual"><scope>MR::PointsProjector</scope><name>projectionsHeapBytes</name></member>
       <member refid="classMR_1_1PointsProjector_1a6e8b40dd14c3c9f33f62f7e0f8e2cadd" prot="public" virt="virtual"><scope>MR::PointsProjector</scope><name>setPointCloud</name></member>

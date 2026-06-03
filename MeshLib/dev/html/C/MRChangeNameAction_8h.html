@@ -172,6 +172,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ab80004b25f92f4ddceff31bbbefb1ceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#af94722bc440c31a055f3776ce2a2d17d">MR_ChangeNameAction</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="memitem:a20c5633c3e586d8cc3ec0cc205174755" id="r_a20c5633c3e586d8cc3ec0cc205174755"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20c5633c3e586d8cc3ec0cc205174755">MR_ChangeNameAction_DestroyArray</a> (const <a class="el" href="#af94722bc440c31a055f3776ce2a2d17d">MR_ChangeNameAction</a> *_this)</td></tr>
 <tr class="memdesc:a20c5633c3e586d8cc3ec0cc205174755"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#af94722bc440c31a055f3776ce2a2d17d">MR_ChangeNameAction</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a57a45d0bcb6f788d7361775ec2a7ff14" id="r_a57a45d0bcb6f788d7361775ec2a7ff14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af94722bc440c31a055f3776ce2a2d17d">MR_ChangeNameAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57a45d0bcb6f788d7361775ec2a7ff14">MR_ChangeNameAction_AssignFromAnother</a> (<a class="el" href="#af94722bc440c31a055f3776ce2a2d17d">MR_ChangeNameAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#af94722bc440c31a055f3776ce2a2d17d">MR_ChangeNameAction</a> *_other)</td></tr>
 <tr class="memitem:a893b6e35fd5e5058300b8914d3a26fdb" id="r_a893b6e35fd5e5058300b8914d3a26fdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a893b6e35fd5e5058300b8914d3a26fdb">MR_ChangeNameAction_name</a> (const <a class="el" href="#af94722bc440c31a055f3776ce2a2d17d">MR_ChangeNameAction</a> *_this)</td></tr>
 <tr class="memitem:afd19cc5cfcab5a29a92590dfdd10776d" id="r_afd19cc5cfcab5a29a92590dfdd10776d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd19cc5cfcab5a29a92590dfdd10776d">MR_ChangeNameAction_action</a> (<a class="el" href="#af94722bc440c31a055f3776ce2a2d17d">MR_ChangeNameAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#a1412f92a5edcca34d4a7f907dd216741">MR_HistoryAction_Type</a> _1)</td></tr>
 <tr class="memitem:ada75a8e4f8776ea1ce990fdc516f4075" id="r_ada75a8e4f8776ea1ce990fdc516f4075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada75a8e4f8776ea1ce990fdc516f4075">MR_ChangeNameAction_heapBytes</a> (const <a class="el" href="#af94722bc440c31a055f3776ce2a2d17d">MR_ChangeNameAction</a> *_this)</td></tr>
@@ -212,6 +213,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::ChangeNameAction::action</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a57a45d0bcb6f788d7361775ec2a7ff14" name="a57a45d0bcb6f788d7361775ec2a7ff14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57a45d0bcb6f788d7361775ec2a7ff14">&#9670;&#160;</a></span>MR_ChangeNameAction_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af94722bc440c31a055f3776ce2a2d17d">MR_ChangeNameAction</a> * MR_ChangeNameAction_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af94722bc440c31a055f3776ce2a2d17d">MR_ChangeNameAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#af94722bc440c31a055f3776ce2a2d17d">MR_ChangeNameAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::ChangeNameAction::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
 
 </div>
 </div>

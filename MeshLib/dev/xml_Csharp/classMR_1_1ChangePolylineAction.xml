@@ -173,6 +173,25 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="213" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="213" bodyend="224"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangePolylineAction_1ad90fcb71e497b1ad48f936335b21834c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangePolylineAction" kindref="compound">MR.ChangePolylineAction</ref></type>
+        <definition>unsafe MR.ChangePolylineAction MR.ChangePolylineAction.assign</definition>
+        <argsstring>(MR._ByValue_ChangePolylineAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangePolylineAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangePolylineAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::ChangePolylineAction::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="229" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="229" bodyend="236"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangePolylineAction_1ad88603be79555a236a5cc94deacf77ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ChangePolylineAction.action</definition>
@@ -190,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="229" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="229" bodyend="234"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="241" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="241" bodyend="246"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -242,9 +261,10 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="146" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="147" bodyend="235"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" line="146" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePolylineAction.cs" bodystart="147" bodyend="247"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangePolylineAction_1ad88603be79555a236a5cc94deacf77ae" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangePolylineAction_1ad90fcb71e497b1ad48f936335b21834c" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangePolylineAction_1a8aae63bc9786c683b451571159f88456" prot="package" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>ChangePolylineAction</name></member>
       <member refid="classMR_1_1ChangePolylineAction_1a2398f8f48ebed86b0c6341028a016a10" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>ChangePolylineAction</name></member>
       <member refid="classMR_1_1ChangePolylineAction_1a86a6e50d02b9db1163d0904b4749b4b5" prot="public" virt="non-virtual"><scope>MR::ChangePolylineAction</scope><name>ChangePolylineAction</name></member>

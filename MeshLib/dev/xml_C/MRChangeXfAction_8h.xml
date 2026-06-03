@@ -374,6 +374,32 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" declline="112" declcolumn="14"/>
       </memberdef>
+      <memberdef kind="function" id="MRChangeXfAction_8h_1acd9e20690a92609482f9c2b413f42c45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref> *</type>
+        <definition>MRC_API MR_ChangeXfAction * MR_ChangeXfAction_AssignFromAnother</definition>
+        <argsstring>(MR_ChangeXfAction *_this, MR_PassBy _other_pass_by, MR_ChangeXfAction *_other)</argsstring>
+        <name>MR_ChangeXfAction_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeXfAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" line="119" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" declline="119" declcolumn="27"/>
+      </memberdef>
       <memberdef kind="function" id="MRChangeXfAction_8h_1a0eab36e41f9492bbabb00e3dcd1f1311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
         <definition>MRC_API MR_std_string * MR_ChangeXfAction_name</definition>
@@ -390,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" line="117" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" declline="117" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" line="124" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" declline="124" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeXfAction_8h_1ac9c2ad6c5e2af683f29b762f9790b62b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
@@ -412,7 +438,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" line="121" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" declline="121" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" declline="128" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeXfAction_8h_1a6eb63312fc2cc03695435ab42018097b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
@@ -430,7 +456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" line="125" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" declline="125" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" line="132" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" declline="132" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeXfAction_8h_1a1b4d7ccb636693a21bc9f17f18e49df7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *</type>
@@ -448,7 +474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" line="130" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" declline="130" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" line="137" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h" declline="137" declcolumn="43"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -506,17 +532,19 @@
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="112" refid="MRChangeXfAction_8h_1aa8b54475a940c878f318add03f31ab04" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeXfAction_8h_1aa8b54475a940c878f318add03f31ab04" kindref="member">MR_ChangeXfAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRChangeXfAction_8h_1a0eab36e41f9492bbabb00e3dcd1f1311" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeXfAction_8h_1a0eab36e41f9492bbabb00e3dcd1f1311" kindref="member">MR_ChangeXfAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="MRChangeXfAction_8h_1ac9c2ad6c5e2af683f29b762f9790b62b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeXfAction_8h_1ac9c2ad6c5e2af683f29b762f9790b62b" kindref="member">MR_ChangeXfAction_action</ref>(<ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="MRChangeXfAction_8h_1a6eb63312fc2cc03695435ab42018097b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeXfAction_8h_1a6eb63312fc2cc03695435ab42018097b" kindref="member">MR_ChangeXfAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRChangeXfAction_8h_1a1b4d7ccb636693a21bc9f17f18e49df7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*<ref refid="MRChangeXfAction_8h_1a1b4d7ccb636693a21bc9f17f18e49df7" kindref="member">MR_ChangeXfAction_obj</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="133"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="119" refid="MRChangeXfAction_8h_1acd9e20690a92609482f9c2b413f42c45" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/>*<ref refid="MRChangeXfAction_8h_1acd9e20690a92609482f9c2b413f42c45" kindref="member">MR_ChangeXfAction_AssignFromAnother</ref>(<ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRChangeXfAction_8h_1a0eab36e41f9492bbabb00e3dcd1f1311" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeXfAction_8h_1a0eab36e41f9492bbabb00e3dcd1f1311" kindref="member">MR_ChangeXfAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRChangeXfAction_8h_1ac9c2ad6c5e2af683f29b762f9790b62b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeXfAction_8h_1ac9c2ad6c5e2af683f29b762f9790b62b" kindref="member">MR_ChangeXfAction_action</ref>(<ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRChangeXfAction_8h_1a6eb63312fc2cc03695435ab42018097b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeXfAction_8h_1a6eb63312fc2cc03695435ab42018097b" kindref="member">MR_ChangeXfAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRChangeXfAction_8h_1a1b4d7ccb636693a21bc9f17f18e49df7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*<ref refid="MRChangeXfAction_8h_1a1b4d7ccb636693a21bc9f17f18e49df7" kindref="member">MR_ChangeXfAction_obj</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeXfAction_8h_1a27c6a45ea88b9f474b21a88c88c5bb3d" kindref="member">MR_ChangeXfAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeXfAction.h"/>
   </compounddef>

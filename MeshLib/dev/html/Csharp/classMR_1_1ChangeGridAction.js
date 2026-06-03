@@ -5,6 +5,7 @@ var classMR_1_1ChangeGridAction =
     [ "ChangeGridAction", "classMR_1_1ChangeGridAction.html#a13c90781d6a04d5f167c6cbd763933cf", null ],
     [ "ChangeGridAction", "classMR_1_1ChangeGridAction.html#abbbdafb6df2f96b7d4e9833c84d6a6ad", null ],
     [ "action", "classMR_1_1ChangeGridAction.html#ad3847e7fef1aa9074696750b82fb8041", null ],
+    [ "assign", "classMR_1_1ChangeGridAction.html#a18af0eb3d350566f157779cefc3dde76", null ],
     [ "operator ChangeGridAction?", "classMR_1_1ChangeGridAction.html#a7fdde77db4b81edbfc9bdc64bfa408a1", null ],
     [ "operator MR.HistoryAction", "classMR_1_1ChangeGridAction.html#a33d5d7862a38697e6cd575cc17373e64", null ]
 ];

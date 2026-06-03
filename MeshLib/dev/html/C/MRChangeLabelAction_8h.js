@@ -1,6 +1,7 @@
 var MRChangeLabelAction_8h =
 [
     [ "MR_ChangeLabelAction_action", "MRChangeLabelAction_8h.html#a23f8bb69ac0b85fb7640228051f712e1", null ],
+    [ "MR_ChangeLabelAction_AssignFromAnother", "MRChangeLabelAction_8h.html#a01ea3c030786973362c52b5b85b97ca5", null ],
     [ "MR_ChangeLabelAction_Construct", "MRChangeLabelAction_8h.html#afb2c914d69815e9b1bf1797d1ae3e24d", null ],
     [ "MR_ChangeLabelAction_ConstructFromAnother", "MRChangeLabelAction_8h.html#a5475a658e9ba31e72dba89b155890cad", null ],
     [ "MR_ChangeLabelAction_Destroy", "MRChangeLabelAction_8h.html#aa72ec32c62b1b6b1dfae547d13cc6a20", null ],

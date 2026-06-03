@@ -2,6 +2,7 @@ var MRChangeNameAction_8h =
 [
     [ "MR_ChangeNameAction", "MRChangeNameAction_8h.html#af94722bc440c31a055f3776ce2a2d17d", null ],
     [ "MR_ChangeNameAction_action", "MRChangeNameAction_8h.html#afd19cc5cfcab5a29a92590dfdd10776d", null ],
+    [ "MR_ChangeNameAction_AssignFromAnother", "MRChangeNameAction_8h.html#a57a45d0bcb6f788d7361775ec2a7ff14", null ],
     [ "MR_ChangeNameAction_Construct", "MRChangeNameAction_8h.html#a30f8f9a9c3de9928dedaad8a3e2e9677", null ],
     [ "MR_ChangeNameAction_ConstructFromAnother", "MRChangeNameAction_8h.html#a9d2a61badfdb2542deae188e1d219333", null ],
     [ "MR_ChangeNameAction_Destroy", "MRChangeNameAction_8h.html#ab80004b25f92f4ddceff31bbbefb1ceb", null ],

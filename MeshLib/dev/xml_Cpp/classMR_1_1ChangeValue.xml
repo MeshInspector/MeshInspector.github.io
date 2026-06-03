@@ -55,9 +55,6 @@
       <member refid="group__GeneralGroup_1ga3c7d78b1f71f742ade3d4d065d0a09c1" prot="public" virt="non-virtual"><scope>MR::ChangeValue</scope><name>ChangeValue</name></member>
       <member refid="group__GeneralGroup_1ga882c6ca4a5e68d65ab532e5ba0b02403" prot="private" virt="non-virtual"><scope>MR::ChangeValue</scope><name>currentValue_</name></member>
       <member refid="group__GeneralGroup_1ga49b7b6012fb8adf78381f77cf6a1b9b1" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>heapBytes</name></member>
-      <member refid="group__GeneralGroup_1gae00d8fe206eb19a46974a6a237d80eab" prot="public" virt="non-virtual"><scope>MR::ChangeValue</scope><name>HistoryAction</name></member>
-      <member refid="group__GeneralGroup_1ga40c5ce397ad19ecd8209131c33c364db" prot="public" virt="non-virtual"><scope>MR::ChangeValue</scope><name>HistoryAction</name></member>
-      <member refid="group__GeneralGroup_1ga5619f8acd52326bd184417238d324c5c" prot="public" virt="non-virtual"><scope>MR::ChangeValue</scope><name>HistoryAction</name></member>
       <member refid="group__GeneralGroup_1ga1ebe31dbc55d650d0de83ae16bfe2e52" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>name</name></member>
       <member refid="group__GeneralGroup_1gaf64336b69c67fa157f60699a6807cc72" prot="private" virt="non-virtual"><scope>MR::ChangeValue</scope><name>name_</name></member>
       <member refid="group__GeneralGroup_1ga30a6d37fa99c40e665dca69563219739" prot="private" virt="non-virtual"><scope>MR::ChangeValue</scope><name>oldValue_</name></member>

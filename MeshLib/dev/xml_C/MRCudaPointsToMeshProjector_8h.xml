@@ -339,6 +339,32 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" line="99" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" declline="99" declcolumn="19"/>
       </memberdef>
+      <memberdef kind="function" id="MRCudaPointsToMeshProjector_8h_1a8679128b1cc688a39c447c5e7ebedf07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref> *</type>
+        <definition>MRC_CUDA_API MR_Cuda_PointsToMeshProjector * MR_Cuda_PointsToMeshProjector_AssignFromAnother</definition>
+        <argsstring>(MR_Cuda_PointsToMeshProjector *_this, MR_PassBy _other_pass_by, MR_Cuda_PointsToMeshProjector *_other)</argsstring>
+        <name>MR_Cuda_PointsToMeshProjector_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Cuda::PointsToMeshProjector::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" line="106" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" declline="106" declcolumn="44"/>
+      </memberdef>
       <memberdef kind="function" id="MRCudaPointsToMeshProjector_8h_1a6c22a793b4156f172d4d2be359a3da3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
         <definition>MRC_CUDA_API void MR_Cuda_PointsToMeshProjector_updateMeshData</definition>
@@ -359,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" line="104" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" declline="104" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" line="111" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" declline="111" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRCudaPointsToMeshProjector_8h_1ac8303a76dc5a91d8bfbdbf5160735627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> void</type>
@@ -451,7 +477,7 @@ Generated from method <computeroutput>MR::Cuda::PointsToMeshProjector::findProje
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" line="119" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" declline="119" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" line="126" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" declline="126" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRCudaPointsToMeshProjector_8h_1a12018117d1f2906f8fc5e90c650d44b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
@@ -473,7 +499,7 @@ Generated from method <computeroutput>MR::Cuda::PointsToMeshProjector::findProje
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" line="124" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" declline="124" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" line="131" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h" declline="131" declcolumn="26"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -531,15 +557,17 @@ Generated from method <computeroutput>MR::Cuda::PointsToMeshProjector::findProje
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
 <codeline lineno="99" refid="MRCudaPointsToMeshProjector_8h_1a7ebaefffa0e3c2d62d2675bcb83fb496" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1a7ebaefffa0e3c2d62d2675bcb83fb496" kindref="member">MR_Cuda_PointsToMeshProjector_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRCudaPointsToMeshProjector_8h_1a6c22a793b4156f172d4d2be359a3da3d" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1a6c22a793b4156f172d4d2be359a3da3d" kindref="member">MR_Cuda_PointsToMeshProjector_updateMeshData</ref>(<ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119" refid="MRCudaPointsToMeshProjector_8h_1ac8303a76dc5a91d8bfbdbf5160735627" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1ac8303a76dc5a91d8bfbdbf5160735627" kindref="member">MR_Cuda_PointsToMeshProjector_findProjections</ref>(<ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref><sp/>*_this,<sp/><ref refid="MRPointsToMeshProjector_8h_1a6948b441655a1b3976257e0a61a5a4ba" kindref="member">MR_std_vector_MR_MeshProjectionResult</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*objXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*refObjXf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq);</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRCudaPointsToMeshProjector_8h_1a12018117d1f2906f8fc5e90c650d44b9" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1a12018117d1f2906f8fc5e90c650d44b9" kindref="member">MR_Cuda_PointsToMeshProjector_projectionsHeapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>numProjections);</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="127"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="106" refid="MRCudaPointsToMeshProjector_8h_1a8679128b1cc688a39c447c5e7ebedf07" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref><sp/>*<ref refid="MRCudaPointsToMeshProjector_8h_1a8679128b1cc688a39c447c5e7ebedf07" kindref="member">MR_Cuda_PointsToMeshProjector_AssignFromAnother</ref>(<ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRCudaPointsToMeshProjector_8h_1a6c22a793b4156f172d4d2be359a3da3d" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1a6c22a793b4156f172d4d2be359a3da3d" kindref="member">MR_Cuda_PointsToMeshProjector_updateMeshData</ref>(<ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRCudaPointsToMeshProjector_8h_1ac8303a76dc5a91d8bfbdbf5160735627" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1ac8303a76dc5a91d8bfbdbf5160735627" kindref="member">MR_Cuda_PointsToMeshProjector_findProjections</ref>(<ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref><sp/>*_this,<sp/><ref refid="MRPointsToMeshProjector_8h_1a6948b441655a1b3976257e0a61a5a4ba" kindref="member">MR_std_vector_MR_MeshProjectionResult</ref><sp/>*res,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*objXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*refObjXf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="MRCudaPointsToMeshProjector_8h_1a12018117d1f2906f8fc5e90c650d44b9" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1a12018117d1f2906f8fc5e90c650d44b9" kindref="member">MR_Cuda_PointsToMeshProjector_projectionsHeapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCudaPointsToMeshProjector_8h_1ac30c8f09b6b78a1488ced4d16bbfade7" kindref="member">MR_Cuda_PointsToMeshProjector</ref><sp/>*_this,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>numProjections);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaPointsToMeshProjector.h"/>
   </compounddef>
