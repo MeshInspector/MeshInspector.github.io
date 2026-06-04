@@ -108,13 +108,6 @@ var hierarchy =
     [ "MR::BaseTiffParameters", "structMR_1_1BaseTiffParameters.html", [
       [ "MR::TiffParameters", "structMR_1_1TiffParameters.html", null ]
     ] ],
-    [ "MR::BaseUnionFind< I >", "classMR_1_1BaseUnionFind.html", [
-      [ "MR::ParallelUnionFind< I >", "classMR_1_1ParallelUnionFind.html", null ],
-      [ "MR::UnionFind< I >", "classMR_1_1UnionFind.html", null ]
-    ] ],
-    [ "MR::BaseUnionFind< VertId >", "classMR_1_1BaseUnionFind.html", [
-      [ "MR::UnionFind< VertId >", "classMR_1_1UnionFind.html", null ]
-    ] ],
     [ "MR::Features::MeasureResult::BasicPart", "structMR_1_1Features_1_1MeasureResult_1_1BasicPart.html", [
       [ "MR::Features::MeasureResult::Angle", "structMR_1_1Features_1_1MeasureResult_1_1Angle.html", null ],
       [ "MR::Features::MeasureResult::Distance", "structMR_1_1Features_1_1MeasureResult_1_1Distance.html", null ]
@@ -1337,6 +1330,7 @@ var hierarchy =
     [ "MR::UndirectedEdgeUndirectedEdge", "structMR_1_1UndirectedEdgeUndirectedEdge.html", null ],
     [ "MR::UnifiedPythonStream", "classMR_1_1UnifiedPythonStream.html", null ],
     [ "MR::UniformSamplingSettings", "structMR_1_1UniformSamplingSettings.html", null ],
+    [ "MR::UnionFind< I >", "classMR_1_1UnionFind.html", null ],
     [ "std::unique_ptr", null, [
       [ "MR::UniquePtr< SimpleVolume >", "structMR_1_1UniquePtr.html", null ],
       [ "MR::UniquePtr< MR::IRenderObject >", "structMR_1_1UniquePtr.html", null ],

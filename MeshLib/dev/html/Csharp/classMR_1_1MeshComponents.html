@@ -192,8 +192,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:aaf1f2ad3338974c769944918055d4d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a59fb06268f41733c378e3997eeaa372e" title="returns union of connected components, each of which contains at least one seed face Generated from f...">MR.MeshComponents.getComponents</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">FaceIncidence.PerEdge</a></span>.  <br /></td></tr>
 <tr class="memitem:a2769cc1bbe61c2a15813033e795f068b" id="r_a2769cc1bbe61c2a15813033e795f068b"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2769cc1bbe61c2a15813033e795f068b">getLargeByAreaComponents</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, float minArea, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd)</td></tr>
 <tr class="memdesc:a2769cc1bbe61c2a15813033e795f068b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the union of connected components, each having at least given area Generated from function <span class="tt"><a class="el" href="#a2769cc1bbe61c2a15813033e795f068b" title="returns the union of connected components, each having at least given area Generated from function MR...">MR.MeshComponents.getLargeByAreaComponents</a></span>.  <br /></td></tr>
-<tr class="memitem:a66e628efad37eb11e4cbbf699d15fc7e" id="r_a66e628efad37eb11e4cbbf699d15fc7e"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66e628efad37eb11e4cbbf699d15fc7e">getLargeByAreaComponents</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="classMR_1_1BaseUnionFind__MRFaceId.html">MR.BaseUnionFind_MRFaceId</a> unionFind, float minArea, <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>? outBdEdgesBetweenLargeComps=null)</td></tr>
-<tr class="memdesc:a66e628efad37eb11e4cbbf699d15fc7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">given prepared union-find structure returns the union of connected components, each having at least given area Generated from function <span class="tt"><a class="el" href="#a2769cc1bbe61c2a15813033e795f068b" title="returns the union of connected components, each having at least given area Generated from function MR...">MR.MeshComponents.getLargeByAreaComponents</a></span>.  <br /></td></tr>
+<tr class="memitem:a9c1c9e6ca528c52d4bee3628219808d9" id="r_a9c1c9e6ca528c52d4bee3628219808d9"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c1c9e6ca528c52d4bee3628219808d9">getLargeByAreaComponents</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="classMR_1_1UnionFind__MRFaceId.html">MR.UnionFind_MRFaceId</a> unionFind, float minArea, <a class="el" href="classMR_1_1UndirectedEdgeBitSet.html">MR.UndirectedEdgeBitSet</a>? outBdEdgesBetweenLargeComps=null)</td></tr>
+<tr class="memdesc:a9c1c9e6ca528c52d4bee3628219808d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">given prepared union-find structure returns the union of connected components, each having at least given area Generated from function <span class="tt"><a class="el" href="#a2769cc1bbe61c2a15813033e795f068b" title="returns the union of connected components, each having at least given area Generated from function MR...">MR.MeshComponents.getLargeByAreaComponents</a></span>.  <br /></td></tr>
 <tr class="memitem:a1e8c081fae74fe2929d40ea02416a878" id="r_a1e8c081fae74fe2929d40ea02416a878"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1FaceBitSet.html">MR.FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e8c081fae74fe2929d40ea02416a878">expandToComponents</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> mp, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a> seeds, <a class="el" href="classMR_1_1MeshComponents_1_1Const__ExpandToComponentsParams.html">MR.MeshComponents.Const_ExpandToComponentsParams</a>? params_=null)</td></tr>
 <tr class="memdesc:a1e8c081fae74fe2929d40ea02416a878"><td class="mdescLeft">&#160;</td><td class="mdescRight">expands given seeds to whole components Generated from function <span class="tt"><a class="el" href="#a1e8c081fae74fe2929d40ea02416a878" title="expands given seeds to whole components Generated from function MR.MeshComponents....">MR.MeshComponents.expandToComponents</a></span>. Parameter <span class="tt">params_</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a2e851fcd586d64867abf8a87867cb44e" id="r_a2e851fcd586d64867abf8a87867cb44e"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Std.Vector_MRFaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e851fcd586d64867abf8a87867cb44e">getNLargeByAreaComponents</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="classMR_1_1MeshComponents_1_1Const__LargeByAreaComponentsSettings.html">MR.MeshComponents.Const_LargeByAreaComponentsSettings</a> settings)</td></tr>
@@ -234,14 +234,14 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a16162d3313122042d66d508deba30e7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a8d43aaffe07559d56de9cfa53b753c70" title="returns true if all vertices of a mesh connected component are present in selection Generated from fu...">MR.MeshComponents.hasFullySelectedComponent</a></span>.  <br /></td></tr>
 <tr class="memitem:acbf116452fe4c2bb1c56d5c6c8378244" id="r_acbf116452fe4c2bb1c56d5c6c8378244"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbf116452fe4c2bb1c56d5c6c8378244">excludeFullySelectedComponents</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1VertBitSet.html">MR.VertBitSet</a> selection)</td></tr>
 <tr class="memdesc:acbf116452fe4c2bb1c56d5c6c8378244"><td class="mdescLeft">&#160;</td><td class="mdescRight">if all vertices of a mesh connected component are present in selection, excludes these vertices Generated from function <span class="tt"><a class="el" href="#acbf116452fe4c2bb1c56d5c6c8378244" title="if all vertices of a mesh connected component are present in selection, excludes these vertices Gener...">MR.MeshComponents.excludeFullySelectedComponents</a></span>.  <br /></td></tr>
-<tr class="memitem:ab7073441e81a98e8b72e6dd1e4c98f6e" id="r_ab7073441e81a98e8b72e6dd1e4c98f6e"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1BaseUnionFind__MRFaceId.html">MR.BaseUnionFind_MRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7073441e81a98e8b72e6dd1e4c98f6e">getUnionFindStructureFaces</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null)</td></tr>
-<tr class="memdesc:ab7073441e81a98e8b72e6dd1e4c98f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for faces with different options of face-connectivity Generated from function <span class="tt"><a class="el" href="#ab7073441e81a98e8b72e6dd1e4c98f6e" title="gets union-find structure for faces with different options of face-connectivity Generated from functi...">MR.MeshComponents.getUnionFindStructureFaces</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">FaceIncidence.PerEdge</a></span>.  <br /></td></tr>
-<tr class="memitem:ad1034dd346a9e893e42336c1981c83d1" id="r_ad1034dd346a9e893e42336c1981c83d1"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1BaseUnionFind__MRFaceId.html">MR.BaseUnionFind_MRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1034dd346a9e893e42336c1981c83d1">getUnionFindStructureFaces</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null)</td></tr>
-<tr class="memdesc:ad1034dd346a9e893e42336c1981c83d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#ab7073441e81a98e8b72e6dd1e4c98f6e" title="gets union-find structure for faces with different options of face-connectivity Generated from functi...">MR.MeshComponents.getUnionFindStructureFaces</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">FaceIncidence.PerEdge</a></span>.  <br /></td></tr>
-<tr class="memitem:a653754e3a5e8fbac705b8f8db7ad6fb8" id="r_a653754e3a5e8fbac705b8f8db7ad6fb8"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1BaseUnionFind__MRFaceId.html">MR.BaseUnionFind_MRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a653754e3a5e8fbac705b8f8db7ad6fb8">getUnionFindStructureFacesPerEdge</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null)</td></tr>
-<tr class="memdesc:a653754e3a5e8fbac705b8f8db7ad6fb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to skip uniting components over it it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and right face are always processed by one thread) Generated from function <span class="tt"><a class="el" href="#a653754e3a5e8fbac705b8f8db7ad6fb8" title="gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whe...">MR.MeshComponents.getUnionFindStructureFacesPerEdge</a></span>.  <br /></td></tr>
-<tr class="memitem:a11d166a04fce51e2a6223eee43efa9a7" id="r_a11d166a04fce51e2a6223eee43efa9a7"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1BaseUnionFind__MRFaceId.html">MR.BaseUnionFind_MRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11d166a04fce51e2a6223eee43efa9a7">getUnionFindStructureFacesPerEdge</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null)</td></tr>
-<tr class="memdesc:a11d166a04fce51e2a6223eee43efa9a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a653754e3a5e8fbac705b8f8db7ad6fb8" title="gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whe...">MR.MeshComponents.getUnionFindStructureFacesPerEdge</a></span>.  <br /></td></tr>
+<tr class="memitem:a1484e1a796b6b0f82bd0d3fb6376dfd5" id="r_a1484e1a796b6b0f82bd0d3fb6376dfd5"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1UnionFind__MRFaceId.html">MR.UnionFind_MRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1484e1a796b6b0f82bd0d3fb6376dfd5">getUnionFindStructureFaces</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null)</td></tr>
+<tr class="memdesc:a1484e1a796b6b0f82bd0d3fb6376dfd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for faces with different options of face-connectivity Generated from function <span class="tt"><a class="el" href="#a1484e1a796b6b0f82bd0d3fb6376dfd5" title="gets union-find structure for faces with different options of face-connectivity Generated from functi...">MR.MeshComponents.getUnionFindStructureFaces</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">FaceIncidence.PerEdge</a></span>.  <br /></td></tr>
+<tr class="memitem:a04c7c5e051ff8c22e676d9d70d4cabe8" id="r_a04c7c5e051ff8c22e676d9d70d4cabe8"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1UnionFind__MRFaceId.html">MR.UnionFind_MRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04c7c5e051ff8c22e676d9d70d4cabe8">getUnionFindStructureFaces</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null, <a class="el" href="#a4456859c6a96d21172917ef5db336722">MR.MeshComponents.FaceIncidence</a>? incidence=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null)</td></tr>
+<tr class="memdesc:a04c7c5e051ff8c22e676d9d70d4cabe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a1484e1a796b6b0f82bd0d3fb6376dfd5" title="gets union-find structure for faces with different options of face-connectivity Generated from functi...">MR.MeshComponents.getUnionFindStructureFaces</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">FaceIncidence.PerEdge</a></span>.  <br /></td></tr>
+<tr class="memitem:a804a779343d560f1212e1cb399111378" id="r_a804a779343d560f1212e1cb399111378"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1UnionFind__MRFaceId.html">MR.UnionFind_MRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a804a779343d560f1212e1cb399111378">getUnionFindStructureFacesPerEdge</a> (<a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a> meshPart, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null)</td></tr>
+<tr class="memdesc:a804a779343d560f1212e1cb399111378"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to skip uniting components over it it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and right face are always processed by one thread) Generated from function <span class="tt"><a class="el" href="#a804a779343d560f1212e1cb399111378" title="gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whe...">MR.MeshComponents.getUnionFindStructureFacesPerEdge</a></span>.  <br /></td></tr>
+<tr class="memitem:a9b83d2e49f44ec32363ccacb95303bbc" id="r_a9b83d2e49f44ec32363ccacb95303bbc"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1UnionFind__MRFaceId.html">MR.UnionFind_MRFaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b83d2e49f44ec32363ccacb95303bbc">getUnionFindStructureFacesPerEdge</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__FaceBitSet.html">MR.Const_FaceBitSet</a>? region=null, <a class="el" href="classMR_1_1Const__UndirectedEdgeBitSet.html">MR.Const_UndirectedEdgeBitSet</a>? isCompBd=null)</td></tr>
+<tr class="memdesc:a9b83d2e49f44ec32363ccacb95303bbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <span class="tt"><a class="el" href="#a804a779343d560f1212e1cb399111378" title="gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whe...">MR.MeshComponents.getUnionFindStructureFacesPerEdge</a></span>.  <br /></td></tr>
 <tr class="memitem:aca0cb57a48734e7ac53cd9386bc49f0e" id="r_aca0cb57a48734e7ac53cd9386bc49f0e"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1UnionFind__MRVertId.html">MR.UnionFind_MRVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca0cb57a48734e7ac53cd9386bc49f0e">getUnionFindStructureVerts</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? region=null)</td></tr>
 <tr class="memdesc:aca0cb57a48734e7ac53cd9386bc49f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets union-find structure for vertices Generated from function <span class="tt"><a class="el" href="#aca0cb57a48734e7ac53cd9386bc49f0e" title="gets union-find structure for vertices Generated from function MR.MeshComponents.getUnionFindStructur...">MR.MeshComponents.getUnionFindStructureVerts</a></span>.  <br /></td></tr>
 <tr class="memitem:a852203d1cd0b57737b3a41cb3b5ed1d1" id="r_a852203d1cd0b57737b3a41cb3b5ed1d1"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1UnionFind__MRVertId.html">MR.UnionFind_MRVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a852203d1cd0b57737b3a41cb3b5ed1d1">getUnionFindStructureVerts</a> (<a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a> topology, <a class="el" href="classMR_1_1Const__VertBitSet.html">MR.Const_VertBitSet</a>? region=null)</td></tr>
@@ -988,8 +988,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a66e628efad37eb11e4cbbf699d15fc7e" name="a66e628efad37eb11e4cbbf699d15fc7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66e628efad37eb11e4cbbf699d15fc7e">&#9670;&#160;</a></span>getLargeByAreaComponents() <span class="overload">[2/2]</span></h2>
+<a id="a9c1c9e6ca528c52d4bee3628219808d9" name="a9c1c9e6ca528c52d4bee3628219808d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c1c9e6ca528c52d4bee3628219808d9">&#9670;&#160;</a></span>getLargeByAreaComponents() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1005,7 +1005,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1BaseUnionFind__MRFaceId.html">MR.BaseUnionFind_MRFaceId</a></td>          <td class="paramname"><span class="paramname"><em>unionFind</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classMR_1_1UnionFind__MRFaceId.html">MR.UnionFind_MRFaceId</a></td>          <td class="paramname"><span class="paramname"><em>unionFind</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1343,8 +1343,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab7073441e81a98e8b72e6dd1e4c98f6e" name="ab7073441e81a98e8b72e6dd1e4c98f6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7073441e81a98e8b72e6dd1e4c98f6e">&#9670;&#160;</a></span>getUnionFindStructureFaces() <span class="overload">[1/2]</span></h2>
+<a id="a1484e1a796b6b0f82bd0d3fb6376dfd5" name="a1484e1a796b6b0f82bd0d3fb6376dfd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1484e1a796b6b0f82bd0d3fb6376dfd5">&#9670;&#160;</a></span>getUnionFindStructureFaces() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1353,7 +1353,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe <a class="el" href="classMR_1_1BaseUnionFind__MRFaceId.html">MR.BaseUnionFind_MRFaceId</a> MR.MeshComponents.getUnionFindStructureFaces </td>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1UnionFind__MRFaceId.html">MR.UnionFind_MRFaceId</a> MR.MeshComponents.getUnionFindStructureFaces </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
         </tr>
@@ -1375,12 +1375,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>gets union-find structure for faces with different options of face-connectivity Generated from function <span class="tt"><a class="el" href="#ab7073441e81a98e8b72e6dd1e4c98f6e" title="gets union-find structure for faces with different options of face-connectivity Generated from functi...">MR.MeshComponents.getUnionFindStructureFaces</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">FaceIncidence.PerEdge</a></span>. </p>
+<p>gets union-find structure for faces with different options of face-connectivity Generated from function <span class="tt"><a class="el" href="#a1484e1a796b6b0f82bd0d3fb6376dfd5" title="gets union-find structure for faces with different options of face-connectivity Generated from functi...">MR.MeshComponents.getUnionFindStructureFaces</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">FaceIncidence.PerEdge</a></span>. </p>
 
 </div>
 </div>
-<a id="ad1034dd346a9e893e42336c1981c83d1" name="ad1034dd346a9e893e42336c1981c83d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1034dd346a9e893e42336c1981c83d1">&#9670;&#160;</a></span>getUnionFindStructureFaces() <span class="overload">[2/2]</span></h2>
+<a id="a04c7c5e051ff8c22e676d9d70d4cabe8" name="a04c7c5e051ff8c22e676d9d70d4cabe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04c7c5e051ff8c22e676d9d70d4cabe8">&#9670;&#160;</a></span>getUnionFindStructureFaces() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1389,7 +1389,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe <a class="el" href="classMR_1_1BaseUnionFind__MRFaceId.html">MR.BaseUnionFind_MRFaceId</a> MR.MeshComponents.getUnionFindStructureFaces </td>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1UnionFind__MRFaceId.html">MR.UnionFind_MRFaceId</a> MR.MeshComponents.getUnionFindStructureFaces </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -1416,12 +1416,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from function <span class="tt"><a class="el" href="#ab7073441e81a98e8b72e6dd1e4c98f6e" title="gets union-find structure for faces with different options of face-connectivity Generated from functi...">MR.MeshComponents.getUnionFindStructureFaces</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">FaceIncidence.PerEdge</a></span>. </p>
+<p>Generated from function <span class="tt"><a class="el" href="#a1484e1a796b6b0f82bd0d3fb6376dfd5" title="gets union-find structure for faces with different options of face-connectivity Generated from functi...">MR.MeshComponents.getUnionFindStructureFaces</a></span>. Parameter <span class="tt">incidence</span> defaults to <span class="tt"><a class="el" href="#a4456859c6a96d21172917ef5db336722aca60a793e8941dba0ac337d452092cd8" title="face can have neighbor only via edge">FaceIncidence.PerEdge</a></span>. </p>
 
 </div>
 </div>
-<a id="a653754e3a5e8fbac705b8f8db7ad6fb8" name="a653754e3a5e8fbac705b8f8db7ad6fb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a653754e3a5e8fbac705b8f8db7ad6fb8">&#9670;&#160;</a></span>getUnionFindStructureFacesPerEdge() <span class="overload">[1/2]</span></h2>
+<a id="a804a779343d560f1212e1cb399111378" name="a804a779343d560f1212e1cb399111378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a804a779343d560f1212e1cb399111378">&#9670;&#160;</a></span>getUnionFindStructureFacesPerEdge() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1430,7 +1430,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe <a class="el" href="classMR_1_1BaseUnionFind__MRFaceId.html">MR.BaseUnionFind_MRFaceId</a> MR.MeshComponents.getUnionFindStructureFacesPerEdge </td>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1UnionFind__MRFaceId.html">MR.UnionFind_MRFaceId</a> MR.MeshComponents.getUnionFindStructureFacesPerEdge </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshPart.html">MR.Const_MeshPart</a></td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
         </tr>
@@ -1447,12 +1447,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to skip uniting components over it it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and right face are always processed by one thread) Generated from function <span class="tt"><a class="el" href="#a653754e3a5e8fbac705b8f8db7ad6fb8" title="gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whe...">MR.MeshComponents.getUnionFindStructureFacesPerEdge</a></span>. </p>
+<p>gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to skip uniting components over it it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and right face are always processed by one thread) Generated from function <span class="tt"><a class="el" href="#a804a779343d560f1212e1cb399111378" title="gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whe...">MR.MeshComponents.getUnionFindStructureFacesPerEdge</a></span>. </p>
 
 </div>
 </div>
-<a id="a11d166a04fce51e2a6223eee43efa9a7" name="a11d166a04fce51e2a6223eee43efa9a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11d166a04fce51e2a6223eee43efa9a7">&#9670;&#160;</a></span>getUnionFindStructureFacesPerEdge() <span class="overload">[2/2]</span></h2>
+<a id="a9b83d2e49f44ec32363ccacb95303bbc" name="a9b83d2e49f44ec32363ccacb95303bbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b83d2e49f44ec32363ccacb95303bbc">&#9670;&#160;</a></span>getUnionFindStructureFacesPerEdge() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1461,7 +1461,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsafe <a class="el" href="classMR_1_1BaseUnionFind__MRFaceId.html">MR.BaseUnionFind_MRFaceId</a> MR.MeshComponents.getUnionFindStructureFacesPerEdge </td>
+          <td class="memname">unsafe <a class="el" href="classMR_1_1UnionFind__MRFaceId.html">MR.UnionFind_MRFaceId</a> MR.MeshComponents.getUnionFindStructureFacesPerEdge </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classMR_1_1Const__MeshTopology.html">MR.Const_MeshTopology</a></td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -1483,7 +1483,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Generated from function <span class="tt"><a class="el" href="#a653754e3a5e8fbac705b8f8db7ad6fb8" title="gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whe...">MR.MeshComponents.getUnionFindStructureFacesPerEdge</a></span>. </p>
+<p>Generated from function <span class="tt"><a class="el" href="#a804a779343d560f1212e1cb399111378" title="gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whe...">MR.MeshComponents.getUnionFindStructureFacesPerEdge</a></span>. </p>
 
 </div>
 </div>

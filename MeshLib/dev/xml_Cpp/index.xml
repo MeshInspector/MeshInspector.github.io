@@ -412,29 +412,6 @@
     <member refid="group__GeneralGroup_1gaccde4306e1b219c38e5ff1880b053701" kind="variable"><name>imageSize</name></member>
     <member refid="group__GeneralGroup_1ga5ed2f87a9ee82e003bd56c8fe6c05185" kind="function"><name>operator==</name></member>
   </compound>
-  <compound refid="classMR_1_1BaseUnionFind" kind="class"><name>MR::BaseUnionFind</name>
-    <member refid="group__GeneralGroup_1gaa88958d9af0b7f8bf07e0ae35807f9cf" kind="typedef"><name>SizeType</name></member>
-    <member refid="group__GeneralGroup_1gadbeac8c6a42c497272482183b034f8c7" kind="variable"><name>parents_</name></member>
-    <member refid="group__GeneralGroup_1ga1bd46dc57304ff4fd488f3de0e4958f0" kind="function"><name>BaseUnionFind</name></member>
-    <member refid="group__GeneralGroup_1ga6998ef43233b395f7c60b89c5611a90a" kind="function"><name>BaseUnionFind</name></member>
-    <member refid="group__GeneralGroup_1ga1b9ea4e5600cbdbbdb6b6df5b4afe85c" kind="function"><name>BaseUnionFind</name></member>
-    <member refid="group__GeneralGroup_1gacb1826dab20e4f01008b7f825c8e9ac5" kind="function"><name>operator=</name></member>
-    <member refid="group__GeneralGroup_1ga9b1ac7e192d228a673f6f986c31e3cc5" kind="function"><name>operator=</name></member>
-    <member refid="group__GeneralGroup_1ga1d3da8fd15b4043055b9d702644765a9" kind="function"><name>size</name></member>
-    <member refid="group__GeneralGroup_1gaff331c694c13233b9e7f9240c528d789" kind="function"><name>reset</name></member>
-    <member refid="group__GeneralGroup_1ga2e67c2e0e6e2df9656e4962c9f2752f5" kind="function"><name>uniteUnbalanced</name></member>
-    <member refid="group__GeneralGroup_1ga8813df63c1719e52f29ececc5fbbd8e4" kind="function"><name>united</name></member>
-    <member refid="group__GeneralGroup_1ga1edc73e0e11e4f42b65746c18690f5d8" kind="function"><name>isRoot</name></member>
-    <member refid="group__GeneralGroup_1gac78b2af57192ec9155f66476ac38179e" kind="function"><name>parent</name></member>
-    <member refid="group__GeneralGroup_1gaa0c0f2464f40946c4ee9627fae75f0a9" kind="function"><name>find</name></member>
-    <member refid="group__GeneralGroup_1gafe044a54144ed93c29e05db24f80c4a0" kind="function"><name>findUpdateRange</name></member>
-    <member refid="group__GeneralGroup_1ga3ae19969d781423c2b2d2c9ee3b5b328" kind="function"><name>roots</name></member>
-    <member refid="group__GeneralGroup_1ga2b81bef923b05424a30449978b3d7a37" kind="function"><name>parents</name></member>
-    <member refid="group__GeneralGroup_1gae7217cd7f9e0df336b8f10c31933963b" kind="function"><name>findRootNoUpdate_</name></member>
-    <member refid="group__GeneralGroup_1ga1c6d2fd67769070632fad6529cf75c64" kind="function"><name>updateRoot_</name></member>
-    <member refid="group__GeneralGroup_1ga336f5c4e10788facad14cbfd914df4cf" kind="function"><name>updateRoot_</name></member>
-    <member refid="group__GeneralGroup_1ga13efd697f71b6d786c026bf3dabeb409" kind="function"><name>updateRootInRange_</name></member>
-  </compound>
   <compound refid="classMR_1_1BasicClickableRectUiRenderTask" kind="class"><name>MR::BasicClickableRectUiRenderTask</name>
     <member refid="group__GeneralGroup_1ga3f269328b594b62b2356a95a95cdeedd" kind="variable"><name>clickableCornerA</name></member>
     <member refid="group__GeneralGroup_1ga8135d7c948f4c4712f0fc3c82fd3a0b4" kind="variable"><name>clickableCornerB</name></member>
@@ -7585,15 +7562,6 @@
     <member refid="group__GeneralGroup_1gab12804eaa7827c0475e3cac1250a662c" kind="function"><name>operator()</name></member>
     <member refid="group__GeneralGroup_1gabdfe8a6135f67c2c0d453940a135c50c" kind="function"><name>updateTask_</name></member>
   </compound>
-  <compound refid="classMR_1_1ParallelUnionFind" kind="class"><name>MR::ParallelUnionFind</name>
-    <member refid="group__GeneralGroup_1ga5a26e68dbea493b1f4ae88ee229ff66c" kind="function"><name>ParallelUnionFind</name></member>
-    <member refid="group__GeneralGroup_1ga19e9951054d16b81b85f64bd95cb4945" kind="function"><name>ParallelUnionFind</name></member>
-    <member refid="group__GeneralGroup_1gab4ebc81d4e3bac00d36d6b808ab72ea7" kind="function"><name>uniteAtomic</name></member>
-    <member refid="group__GeneralGroup_1ga8c42fb87b3809c42d805845f8cbccf74" kind="function"><name>loadAtomic_</name></member>
-    <member refid="group__GeneralGroup_1ga2dffb6202e31dec3cb6f0729825ea21b" kind="function"><name>casWeak_</name></member>
-    <member refid="group__GeneralGroup_1gaf3eda886f932919035719337a02002b4" kind="function"><name>casStrong_</name></member>
-    <member refid="group__GeneralGroup_1gaa7619ac05db77f2471129d6535903568" kind="function"><name>findAtomic_</name></member>
-  </compound>
   <compound refid="structMR_1_1FileDialog_1_1Parameters" kind="struct"><name>MR::FileDialog::Parameters</name>
     <member refid="group__GeneralGroup_1gacb4f09069a5538c14fe2e0553c3569d1" kind="variable"><name>folderDialog</name></member>
     <member refid="group__GeneralGroup_1ga3b16808165abc1930db418e488d58225" kind="variable"><name>multiselect</name></member>
@@ -11862,13 +11830,25 @@
   </compound>
   <compound refid="classMR_1_1UnionFind" kind="class"><name>MR::UnionFind</name>
     <member refid="group__GeneralGroup_1gad07cce64defb1fcef686551aecfd55d0" kind="typedef"><name>SizeType</name></member>
+    <member refid="group__GeneralGroup_1ga1b2c81b705c8244a87ae8287f87139d7" kind="variable"><name>parents_</name></member>
     <member refid="group__GeneralGroup_1ga7cde5d5801abded20752408ce29b27fc" kind="variable"><name>sizes_</name></member>
     <member refid="group__GeneralGroup_1ga67ccf008e0816480dca10b19c530a7b1" kind="function"><name>UnionFind</name></member>
     <member refid="group__GeneralGroup_1ga661398df57a710beae6f4b7c19ac3006" kind="function"><name>UnionFind</name></member>
-    <member refid="group__GeneralGroup_1ga5ef4500d4204cea8be5933e543edb6b2" kind="function"><name>UnionFind</name></member>
+    <member refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kind="function"><name>size</name></member>
     <member refid="group__GeneralGroup_1ga6a74089f75f3b88edf1a6fb0beba1e13" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" kind="function"><name>unite</name></member>
+    <member refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" kind="function"><name>united</name></member>
+    <member refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" kind="function"><name>isRoot</name></member>
+    <member refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" kind="function"><name>parent</name></member>
+    <member refid="group__GeneralGroup_1ga26e79fd903c0229dbd2f66a80549c75b" kind="function"><name>find</name></member>
+    <member refid="group__GeneralGroup_1gabf32e7c70e8d67a82d759ad44a5b08c1" kind="function"><name>findUpdateRange</name></member>
+    <member refid="group__GeneralGroup_1ga5b1ee758f69d77277361f8cbe1e0d77e" kind="function"><name>roots</name></member>
+    <member refid="group__GeneralGroup_1gaddfb36167fbd876c96379b175c755a5b" kind="function"><name>parents</name></member>
     <member refid="group__GeneralGroup_1ga009ad612aecca5afb9b91768536c406f" kind="function"><name>sizeOfComp</name></member>
+    <member refid="group__GeneralGroup_1ga6999428ebe2645b250dfe6cf51038735" kind="function"><name>findRootNoUpdate_</name></member>
+    <member refid="group__GeneralGroup_1ga797743a9600c69d6615d32c970c89f96" kind="function"><name>updateRoot_</name></member>
+    <member refid="group__GeneralGroup_1ga43bbe8cb9f207115aca9f60ff07ba132" kind="function"><name>updateRoot_</name></member>
+    <member refid="group__GeneralGroup_1gabcac94e459f2fffa4c01f3e406bf184f" kind="function"><name>updateRootInRange_</name></member>
   </compound>
   <compound refid="structMR_1_1UniquePtr" kind="struct"><name>MR::UniquePtr</name>
     <member refid="group__GeneralGroup_1gaaf1504c1a8adb3c65e6501508c18f9ad" kind="function"><name>UniquePtr</name></member>
@@ -15568,10 +15548,9 @@
     <member refid="group__GeneralGroup_1ga27edd44c5ee52110bd1f260a4abde138" kind="function"><name>findTwoLineSegmClosestPoints</name></member>
     <member refid="group__PointCloudGroup_1ga419eb233734e75003af48032eb07f36b" kind="function"><name>pointUniformSampling</name></member>
     <member refid="group__PointCloudGroup_1ga1ff3748ea4a24c0683e2029fb56deb48" kind="function"><name>makeUniformSampledCloud</name></member>
-    <member refid="group__GeneralGroup_1ga169f8f74d2daf1470ceec5e08a3545ca" kind="function"><name>findRootsBitSet</name></member>
-    <member refid="group__GeneralGroup_1ga7d0a3ec330bc1b265ce9035d0f21e4ae" kind="function"><name>findComponentBitSet</name></member>
-    <member refid="group__GeneralGroup_1ga0966c31ddb324e054f51951844993ad4" kind="function"><name>isSubdivision</name></member>
-    <member refid="group__GeneralGroup_1gae7af679c3eb052bec144b61413a52372" kind="function"><name>updateRootsParallel</name></member>
+    <member refid="group__GeneralGroup_1gaf95a05a5035d21be2ce1964b8337f638" kind="function"><name>findRootsBitSet</name></member>
+    <member refid="group__GeneralGroup_1gac959a3b1b345a06498d42106baa9a7ec" kind="function"><name>findComponentBitSet</name></member>
+    <member refid="group__GeneralGroup_1ga91b89a35df8dec290ebe5d2b9d1faa6b" kind="function"><name>isSubdivision</name></member>
     <member refid="group__GeneralGroup_1ga1f628dfc14fb4822fd59b76b8bee56c0" kind="function"><name>uniteManyMeshes</name></member>
     <member refid="group__GeneralGroup_1ga6443d7b50482979e4b2287d29423ee25" kind="function"><name>getUnitInfo</name></member>
     <member refid="group__GeneralGroup_1ga7223f0b55060f4ce1f1e6f9c37ff0867" kind="function"><name>unitsAreEquivalent</name></member>
@@ -16233,7 +16212,7 @@
     <member refid="group__MeshComponentsGroup_1gaab630260881d2a238df5dfc1d9a31517" kind="function"><name>getComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga96e3045fbc7e35b4c183ed1fdb98850b" kind="function"><name>getComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga0e01c5d278553086be9238207fdd5e4e" kind="function"><name>getLargeByAreaComponents</name></member>
-    <member refid="group__MeshComponentsGroup_1gae2860bc16910d275e467880105068b2d" kind="function"><name>getLargeByAreaComponents</name></member>
+    <member refid="group__MeshComponentsGroup_1gad617931e08318ec49a55b018164c1c74" kind="function"><name>getLargeByAreaComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga8f7b3aea1e17934f892932ac212a71f2" kind="function"><name>expandToComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga23b859fdd8b110e1159c392f9f891f77" kind="function"><name>getNLargeByAreaComponents</name></member>
     <member refid="group__MeshComponentsGroup_1gafd9d69cd8ee018f61cfec8cdfe055f95" kind="function"><name>getLargeByAreaSmoothComponents</name></member>
@@ -16254,10 +16233,10 @@
     <member refid="group__MeshComponentsGroup_1gab766c6742304e7dd92a89641da49284c" kind="function"><name>hasFullySelectedComponent</name></member>
     <member refid="group__MeshComponentsGroup_1gaa41df9253ef4b45f4766fbed05ec4298" kind="function"><name>hasFullySelectedComponent</name></member>
     <member refid="group__MeshComponentsGroup_1gafb34a3c82c94661207c96d0fb0f48a27" kind="function"><name>excludeFullySelectedComponents</name></member>
-    <member refid="group__MeshComponentsGroup_1ga76ec00bcf70f407142ded7836a7de9e5" kind="function"><name>getUnionFindStructureFaces</name></member>
-    <member refid="group__MeshComponentsGroup_1ga0dd9fd26a17b60590340314427a7a32c" kind="function"><name>getUnionFindStructureFaces</name></member>
-    <member refid="group__MeshComponentsGroup_1ga1c98700350bd8f0c087a291cbb6839ec" kind="function"><name>getUnionFindStructureFacesPerEdge</name></member>
-    <member refid="group__MeshComponentsGroup_1gafa8932336abeda4634ac75a8b9ecc38d" kind="function"><name>getUnionFindStructureFacesPerEdge</name></member>
+    <member refid="group__MeshComponentsGroup_1gababcff843eb7d0922339ed7becf7ca23" kind="function"><name>getUnionFindStructureFaces</name></member>
+    <member refid="group__MeshComponentsGroup_1ga3be1646e88ab7d6cafe9a020ba75c434" kind="function"><name>getUnionFindStructureFaces</name></member>
+    <member refid="group__MeshComponentsGroup_1ga7d9b47c38d78d37528e8b728632ea875" kind="function"><name>getUnionFindStructureFacesPerEdge</name></member>
+    <member refid="group__MeshComponentsGroup_1ga6621f0b03784d1eba11d9394c25bbc0b" kind="function"><name>getUnionFindStructureFacesPerEdge</name></member>
     <member refid="group__MeshComponentsGroup_1gaab4f40960e177485925e0ef983994118" kind="function"><name>getUnionFindStructureVerts</name></member>
     <member refid="group__MeshComponentsGroup_1ga1d49179fb661df7dcb1a026fc986ec5a" kind="function"><name>getUnionFindStructureVerts</name></member>
     <member refid="group__MeshComponentsGroup_1ga404e853471df6d94afe6a73f1ec1b7ed" kind="function"><name>getUnionFindStructureVerts</name></member>
@@ -18960,7 +18939,7 @@
     <member refid="group__MeshComponentsGroup_1gaab630260881d2a238df5dfc1d9a31517" kind="function"><name>getComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga96e3045fbc7e35b4c183ed1fdb98850b" kind="function"><name>getComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga0e01c5d278553086be9238207fdd5e4e" kind="function"><name>getLargeByAreaComponents</name></member>
-    <member refid="group__MeshComponentsGroup_1gae2860bc16910d275e467880105068b2d" kind="function"><name>getLargeByAreaComponents</name></member>
+    <member refid="group__MeshComponentsGroup_1gad617931e08318ec49a55b018164c1c74" kind="function"><name>getLargeByAreaComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga8f7b3aea1e17934f892932ac212a71f2" kind="function"><name>expandToComponents</name></member>
     <member refid="group__MeshComponentsGroup_1ga23b859fdd8b110e1159c392f9f891f77" kind="function"><name>getNLargeByAreaComponents</name></member>
     <member refid="group__MeshComponentsGroup_1gafd9d69cd8ee018f61cfec8cdfe055f95" kind="function"><name>getLargeByAreaSmoothComponents</name></member>
@@ -18981,10 +18960,10 @@
     <member refid="group__MeshComponentsGroup_1gab766c6742304e7dd92a89641da49284c" kind="function"><name>hasFullySelectedComponent</name></member>
     <member refid="group__MeshComponentsGroup_1gaa41df9253ef4b45f4766fbed05ec4298" kind="function"><name>hasFullySelectedComponent</name></member>
     <member refid="group__MeshComponentsGroup_1gafb34a3c82c94661207c96d0fb0f48a27" kind="function"><name>excludeFullySelectedComponents</name></member>
-    <member refid="group__MeshComponentsGroup_1ga76ec00bcf70f407142ded7836a7de9e5" kind="function"><name>getUnionFindStructureFaces</name></member>
-    <member refid="group__MeshComponentsGroup_1ga0dd9fd26a17b60590340314427a7a32c" kind="function"><name>getUnionFindStructureFaces</name></member>
-    <member refid="group__MeshComponentsGroup_1ga1c98700350bd8f0c087a291cbb6839ec" kind="function"><name>getUnionFindStructureFacesPerEdge</name></member>
-    <member refid="group__MeshComponentsGroup_1gafa8932336abeda4634ac75a8b9ecc38d" kind="function"><name>getUnionFindStructureFacesPerEdge</name></member>
+    <member refid="group__MeshComponentsGroup_1gababcff843eb7d0922339ed7becf7ca23" kind="function"><name>getUnionFindStructureFaces</name></member>
+    <member refid="group__MeshComponentsGroup_1ga3be1646e88ab7d6cafe9a020ba75c434" kind="function"><name>getUnionFindStructureFaces</name></member>
+    <member refid="group__MeshComponentsGroup_1ga7d9b47c38d78d37528e8b728632ea875" kind="function"><name>getUnionFindStructureFacesPerEdge</name></member>
+    <member refid="group__MeshComponentsGroup_1ga6621f0b03784d1eba11d9394c25bbc0b" kind="function"><name>getUnionFindStructureFacesPerEdge</name></member>
     <member refid="group__MeshComponentsGroup_1gaab4f40960e177485925e0ef983994118" kind="function"><name>getUnionFindStructureVerts</name></member>
     <member refid="group__MeshComponentsGroup_1ga1d49179fb661df7dcb1a026fc986ec5a" kind="function"><name>getUnionFindStructureVerts</name></member>
     <member refid="group__MeshComponentsGroup_1ga404e853471df6d94afe6a73f1ec1b7ed" kind="function"><name>getUnionFindStructureVerts</name></member>
@@ -21075,7 +21054,6 @@
     <member refid="group__GeneralGroup_1ga76982b24cc7c5ea26c870ff223e08493" kind="typedef"><name>TriTriDistanceParamsd</name></member>
     <member refid="group__GeneralGroup_1ga9453ee50cc6e6c976f8db90c84096ff8" kind="typedef"><name>TwoLineSegmClosestPointsf</name></member>
     <member refid="group__GeneralGroup_1ga37603199e9b0e5eb2e0cdbe36a2b315d" kind="typedef"><name>TwoLineSegmClosestPointsd</name></member>
-    <member refid="group__GeneralGroup_1gaa88958d9af0b7f8bf07e0ae35807f9cf" kind="typedef"><name>SizeType</name></member>
     <member refid="group__GeneralGroup_1gad07cce64defb1fcef686551aecfd55d0" kind="typedef"><name>SizeType</name></member>
     <member refid="group__GeneralGroup_1ga3f12c695d99ddb646e5d824fa7257413" kind="typedef"><name>FolderCallback</name></member>
     <member refid="group__GeneralGroup_1gaec57db09655986b2ed959d498edc6f2a" kind="typedef"><name>MakeFloatingPoint</name></member>
@@ -22788,7 +22766,7 @@
     <member refid="group__GeneralGroup_1ga7c7a861d6d96b26592bb64ac801d6f43" kind="variable"><name>lexicographicalOrder</name></member>
     <member refid="group__GeneralGroup_1ga1d523113f6c1fed152ce4ac0ca682b22" kind="variable"><name>pNormals</name></member>
     <member refid="group__GeneralGroup_1ga5bc23c2e461b80a4516732d0e5add3a5" kind="variable"><name>progress</name></member>
-    <member refid="group__GeneralGroup_1gadbeac8c6a42c497272482183b034f8c7" kind="variable"><name>parents_</name></member>
+    <member refid="group__GeneralGroup_1ga1b2c81b705c8244a87ae8287f87139d7" kind="variable"><name>parents_</name></member>
     <member refid="group__GeneralGroup_1ga7cde5d5801abded20752408ce29b27fc" kind="variable"><name>sizes_</name></member>
     <member refid="group__GeneralGroup_1gabd89fab59fca651ac998d7bac4973f72" kind="variable"><name>folder_</name></member>
     <member refid="group__GeneralGroup_1gacdbe5464e0796cb2b8b083d58804a4be" kind="variable"><name>onPreTempFolderDelete_</name></member>
@@ -28036,42 +28014,26 @@
     <member refid="group__GeneralGroup_1gaaebb5e3d0837bb5c59e39b23498ccaa2" kind="function"><name>operator==</name></member>
     <member refid="group__GeneralGroup_1ga555aff6ecaadce652e996b4de62a0d8c" kind="function"><name>findTwoLineSegmClosestPoints</name></member>
     <member refid="group__GeneralGroup_1ga27edd44c5ee52110bd1f260a4abde138" kind="function"><name>findTwoLineSegmClosestPoints</name></member>
-    <member refid="group__GeneralGroup_1ga1bd46dc57304ff4fd488f3de0e4958f0" kind="function"><name>BaseUnionFind</name></member>
-    <member refid="group__GeneralGroup_1ga6998ef43233b395f7c60b89c5611a90a" kind="function"><name>BaseUnionFind</name></member>
-    <member refid="group__GeneralGroup_1ga1b9ea4e5600cbdbbdb6b6df5b4afe85c" kind="function"><name>BaseUnionFind</name></member>
-    <member refid="group__GeneralGroup_1gacb1826dab20e4f01008b7f825c8e9ac5" kind="function"><name>operator=</name></member>
-    <member refid="group__GeneralGroup_1ga9b1ac7e192d228a673f6f986c31e3cc5" kind="function"><name>operator=</name></member>
-    <member refid="group__GeneralGroup_1ga1d3da8fd15b4043055b9d702644765a9" kind="function"><name>size</name></member>
-    <member refid="group__GeneralGroup_1gaff331c694c13233b9e7f9240c528d789" kind="function"><name>reset</name></member>
-    <member refid="group__GeneralGroup_1ga2e67c2e0e6e2df9656e4962c9f2752f5" kind="function"><name>uniteUnbalanced</name></member>
-    <member refid="group__GeneralGroup_1ga8813df63c1719e52f29ececc5fbbd8e4" kind="function"><name>united</name></member>
-    <member refid="group__GeneralGroup_1ga1edc73e0e11e4f42b65746c18690f5d8" kind="function"><name>isRoot</name></member>
-    <member refid="group__GeneralGroup_1gac78b2af57192ec9155f66476ac38179e" kind="function"><name>parent</name></member>
-    <member refid="group__GeneralGroup_1gaa0c0f2464f40946c4ee9627fae75f0a9" kind="function"><name>find</name></member>
-    <member refid="group__GeneralGroup_1gafe044a54144ed93c29e05db24f80c4a0" kind="function"><name>findUpdateRange</name></member>
-    <member refid="group__GeneralGroup_1ga3ae19969d781423c2b2d2c9ee3b5b328" kind="function"><name>roots</name></member>
-    <member refid="group__GeneralGroup_1ga2b81bef923b05424a30449978b3d7a37" kind="function"><name>parents</name></member>
-    <member refid="group__GeneralGroup_1gae7217cd7f9e0df336b8f10c31933963b" kind="function"><name>findRootNoUpdate_</name></member>
-    <member refid="group__GeneralGroup_1ga1c6d2fd67769070632fad6529cf75c64" kind="function"><name>updateRoot_</name></member>
-    <member refid="group__GeneralGroup_1ga336f5c4e10788facad14cbfd914df4cf" kind="function"><name>updateRoot_</name></member>
-    <member refid="group__GeneralGroup_1ga13efd697f71b6d786c026bf3dabeb409" kind="function"><name>updateRootInRange_</name></member>
     <member refid="group__GeneralGroup_1ga67ccf008e0816480dca10b19c530a7b1" kind="function"><name>UnionFind</name></member>
     <member refid="group__GeneralGroup_1ga661398df57a710beae6f4b7c19ac3006" kind="function"><name>UnionFind</name></member>
-    <member refid="group__GeneralGroup_1ga5ef4500d4204cea8be5933e543edb6b2" kind="function"><name>UnionFind</name></member>
+    <member refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kind="function"><name>size</name></member>
     <member refid="group__GeneralGroup_1ga6a74089f75f3b88edf1a6fb0beba1e13" kind="function"><name>reset</name></member>
     <member refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" kind="function"><name>unite</name></member>
+    <member refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" kind="function"><name>united</name></member>
+    <member refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" kind="function"><name>isRoot</name></member>
+    <member refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" kind="function"><name>parent</name></member>
+    <member refid="group__GeneralGroup_1ga26e79fd903c0229dbd2f66a80549c75b" kind="function"><name>find</name></member>
+    <member refid="group__GeneralGroup_1gabf32e7c70e8d67a82d759ad44a5b08c1" kind="function"><name>findUpdateRange</name></member>
+    <member refid="group__GeneralGroup_1ga5b1ee758f69d77277361f8cbe1e0d77e" kind="function"><name>roots</name></member>
+    <member refid="group__GeneralGroup_1gaddfb36167fbd876c96379b175c755a5b" kind="function"><name>parents</name></member>
     <member refid="group__GeneralGroup_1ga009ad612aecca5afb9b91768536c406f" kind="function"><name>sizeOfComp</name></member>
-    <member refid="group__GeneralGroup_1ga5a26e68dbea493b1f4ae88ee229ff66c" kind="function"><name>ParallelUnionFind</name></member>
-    <member refid="group__GeneralGroup_1ga19e9951054d16b81b85f64bd95cb4945" kind="function"><name>ParallelUnionFind</name></member>
-    <member refid="group__GeneralGroup_1gab4ebc81d4e3bac00d36d6b808ab72ea7" kind="function"><name>uniteAtomic</name></member>
-    <member refid="group__GeneralGroup_1ga8c42fb87b3809c42d805845f8cbccf74" kind="function"><name>loadAtomic_</name></member>
-    <member refid="group__GeneralGroup_1ga2dffb6202e31dec3cb6f0729825ea21b" kind="function"><name>casWeak_</name></member>
-    <member refid="group__GeneralGroup_1gaf3eda886f932919035719337a02002b4" kind="function"><name>casStrong_</name></member>
-    <member refid="group__GeneralGroup_1gaa7619ac05db77f2471129d6535903568" kind="function"><name>findAtomic_</name></member>
-    <member refid="group__GeneralGroup_1ga169f8f74d2daf1470ceec5e08a3545ca" kind="function"><name>findRootsBitSet</name></member>
-    <member refid="group__GeneralGroup_1ga7d0a3ec330bc1b265ce9035d0f21e4ae" kind="function"><name>findComponentBitSet</name></member>
-    <member refid="group__GeneralGroup_1ga0966c31ddb324e054f51951844993ad4" kind="function"><name>isSubdivision</name></member>
-    <member refid="group__GeneralGroup_1gae7af679c3eb052bec144b61413a52372" kind="function"><name>updateRootsParallel</name></member>
+    <member refid="group__GeneralGroup_1ga6999428ebe2645b250dfe6cf51038735" kind="function"><name>findRootNoUpdate_</name></member>
+    <member refid="group__GeneralGroup_1ga797743a9600c69d6615d32c970c89f96" kind="function"><name>updateRoot_</name></member>
+    <member refid="group__GeneralGroup_1ga43bbe8cb9f207115aca9f60ff07ba132" kind="function"><name>updateRoot_</name></member>
+    <member refid="group__GeneralGroup_1gabcac94e459f2fffa4c01f3e406bf184f" kind="function"><name>updateRootInRange_</name></member>
+    <member refid="group__GeneralGroup_1gaf95a05a5035d21be2ce1964b8337f638" kind="function"><name>findRootsBitSet</name></member>
+    <member refid="group__GeneralGroup_1gac959a3b1b345a06498d42106baa9a7ec" kind="function"><name>findComponentBitSet</name></member>
+    <member refid="group__GeneralGroup_1ga91b89a35df8dec290ebe5d2b9d1faa6b" kind="function"><name>isSubdivision</name></member>
     <member refid="group__GeneralGroup_1gaaf1504c1a8adb3c65e6501508c18f9ad" kind="function"><name>UniquePtr</name></member>
     <member refid="group__GeneralGroup_1ga1a43bb82edf6a6783aa1d0c487298e2b" kind="function"><name>UniquePtr</name></member>
     <member refid="group__GeneralGroup_1ga69356ad900f65842bc6e4bff6e88a8e0" kind="function"><name>UniquePtr</name></member>

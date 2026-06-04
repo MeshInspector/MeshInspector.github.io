@@ -239,42 +239,21 @@ var group__BasicGroup =
       [ "started", "structMR_1_1ThreadRootTimeRecord.html#ab11d7cc5223e4f0ed8b6d247c3eb5f88", null ],
       [ "threadName", "structMR_1_1ThreadRootTimeRecord.html#ae29d85986eb71cbb8e09862f174fee16", null ]
     ] ],
-    [ "MR::BaseUnionFind< I >", "classMR_1_1BaseUnionFind.html", [
-      [ "SizeType", "group__GeneralGroup.html#gaa88958d9af0b7f8bf07e0ae35807f9cf", null ],
-      [ "BaseUnionFind", "group__GeneralGroup.html#ga1bd46dc57304ff4fd488f3de0e4958f0", null ],
-      [ "BaseUnionFind", "group__GeneralGroup.html#ga6998ef43233b395f7c60b89c5611a90a", null ],
-      [ "BaseUnionFind", "group__GeneralGroup.html#ga1b9ea4e5600cbdbbdb6b6df5b4afe85c", null ],
-      [ "find", "group__GeneralGroup.html#gaa0c0f2464f40946c4ee9627fae75f0a9", null ],
-      [ "findRootNoUpdate_", "group__GeneralGroup.html#gae7217cd7f9e0df336b8f10c31933963b", null ],
-      [ "findUpdateRange", "group__GeneralGroup.html#gafe044a54144ed93c29e05db24f80c4a0", null ],
-      [ "isRoot", "group__GeneralGroup.html#ga1edc73e0e11e4f42b65746c18690f5d8", null ],
-      [ "operator=", "group__GeneralGroup.html#ga9b1ac7e192d228a673f6f986c31e3cc5", null ],
-      [ "operator=", "group__GeneralGroup.html#gacb1826dab20e4f01008b7f825c8e9ac5", null ],
-      [ "parent", "group__GeneralGroup.html#gac78b2af57192ec9155f66476ac38179e", null ],
-      [ "parents", "group__GeneralGroup.html#ga2b81bef923b05424a30449978b3d7a37", null ],
-      [ "reset", "group__GeneralGroup.html#gaff331c694c13233b9e7f9240c528d789", null ],
-      [ "roots", "group__GeneralGroup.html#ga3ae19969d781423c2b2d2c9ee3b5b328", null ],
-      [ "size", "group__GeneralGroup.html#ga1d3da8fd15b4043055b9d702644765a9", null ],
-      [ "united", "group__GeneralGroup.html#ga8813df63c1719e52f29ececc5fbbd8e4", null ],
-      [ "uniteUnbalanced", "group__GeneralGroup.html#ga2e67c2e0e6e2df9656e4962c9f2752f5", null ],
-      [ "updateRoot_", "group__GeneralGroup.html#ga336f5c4e10788facad14cbfd914df4cf", null ],
-      [ "updateRoot_", "group__GeneralGroup.html#ga1c6d2fd67769070632fad6529cf75c64", null ],
-      [ "updateRootInRange_", "group__GeneralGroup.html#ga13efd697f71b6d786c026bf3dabeb409", null ],
-      [ "parents_", "group__GeneralGroup.html#gadbeac8c6a42c497272482183b034f8c7", null ]
-    ] ],
     [ "MR::UnionFind< I >", "classMR_1_1UnionFind.html", [
       [ "SizeType", "group__GeneralGroup.html#gad07cce64defb1fcef686551aecfd55d0", null ],
       [ "UnionFind", "group__GeneralGroup.html#ga67ccf008e0816480dca10b19c530a7b1", null ],
       [ "UnionFind", "group__GeneralGroup.html#ga661398df57a710beae6f4b7c19ac3006", null ],
-      [ "UnionFind", "group__GeneralGroup.html#ga5ef4500d4204cea8be5933e543edb6b2", null ],
+      [ "find", "group__GeneralGroup.html#ga26e79fd903c0229dbd2f66a80549c75b", null ],
+      [ "findUpdateRange", "group__GeneralGroup.html#gabf32e7c70e8d67a82d759ad44a5b08c1", null ],
+      [ "isRoot", "group__GeneralGroup.html#ga785b1dcdaf9a761a91a1331bfda21900", null ],
+      [ "parent", "group__GeneralGroup.html#gaa982a275fa599ec51d07ad997c3902d3", null ],
+      [ "parents", "group__GeneralGroup.html#gaddfb36167fbd876c96379b175c755a5b", null ],
       [ "reset", "group__GeneralGroup.html#ga6a74089f75f3b88edf1a6fb0beba1e13", null ],
+      [ "roots", "group__GeneralGroup.html#ga5b1ee758f69d77277361f8cbe1e0d77e", null ],
+      [ "size", "group__GeneralGroup.html#gab0d01d793fad21820791310d7318235e", null ],
       [ "sizeOfComp", "group__GeneralGroup.html#ga009ad612aecca5afb9b91768536c406f", null ],
-      [ "unite", "group__GeneralGroup.html#ga0739ab9258f8fc25ef45ce06106fffce", null ]
-    ] ],
-    [ "MR::ParallelUnionFind< I >", "classMR_1_1ParallelUnionFind.html", [
-      [ "ParallelUnionFind", "group__GeneralGroup.html#ga5a26e68dbea493b1f4ae88ee229ff66c", null ],
-      [ "ParallelUnionFind", "group__GeneralGroup.html#ga19e9951054d16b81b85f64bd95cb4945", null ],
-      [ "uniteAtomic", "group__GeneralGroup.html#gab4ebc81d4e3bac00d36d6b808ab72ea7", null ]
+      [ "unite", "group__GeneralGroup.html#ga0739ab9258f8fc25ef45ce06106fffce", null ],
+      [ "united", "group__GeneralGroup.html#gaa570cc6f33bbb51fb5859608b9c68fbc", null ]
     ] ],
     [ "MR::Vector< T, I >", "classMR_1_1Vector.html", [
       [ "const_iterator", "group__GeneralGroup.html#gad2ec2e50ffddfcbf6168c243fa2da868", null ],

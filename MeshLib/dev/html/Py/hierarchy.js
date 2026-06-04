@@ -62,13 +62,6 @@ var hierarchy =
     [ "mrmeshpy.BaseTiffParameters", "classmrmeshpy_1_1BaseTiffParameters.html", [
       [ "mrmeshpy.TiffParameters", "classmrmeshpy_1_1TiffParameters.html", null ]
     ] ],
-    [ "mrmeshpy.BaseUnionFind_FaceId", "classmrmeshpy_1_1BaseUnionFind__FaceId.html", null ],
-    [ "mrmeshpy.BaseUnionFind_UndirectedEdgeId", "classmrmeshpy_1_1BaseUnionFind__UndirectedEdgeId.html", [
-      [ "mrmeshpy.UnionFind_UndirectedEdgeId", "classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html", null ]
-    ] ],
-    [ "mrmeshpy.BaseUnionFind_VertId", "classmrmeshpy_1_1BaseUnionFind__VertId.html", [
-      [ "mrmeshpy.UnionFind_VertId", "classmrmeshpy_1_1UnionFind__VertId.html", null ]
-    ] ],
     [ "mrmeshpy.Features.MeasureResult.BasicPart", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart.html", [
       [ "mrmeshpy.Features.MeasureResult.Angle", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle.html", null ],
       [ "mrmeshpy.Features.MeasureResult.Distance", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html", null ]
@@ -1395,6 +1388,9 @@ var hierarchy =
     [ "mrmeshpy.UndirEdgeColorMapAggregator", "classmrmeshpy_1_1UndirEdgeColorMapAggregator.html", null ],
     [ "mrmeshpy.UniformSamplingSettings", "classmrmeshpy_1_1UniformSamplingSettings.html", null ],
     [ "mrmeshpy.Pdf.ImageParams.UniformScale", "classmrmeshpy_1_1Pdf_1_1ImageParams_1_1UniformScale.html", null ],
+    [ "mrmeshpy.UnionFind_FaceId", "classmrmeshpy_1_1UnionFind__FaceId.html", null ],
+    [ "mrmeshpy.UnionFind_UndirectedEdgeId", "classmrmeshpy_1_1UnionFind__UndirectedEdgeId.html", null ],
+    [ "mrmeshpy.UnionFind_VertId", "classmrmeshpy_1_1UnionFind__VertId.html", null ],
     [ "mrmeshpy.UniqueTemporaryFolder", "classmrmeshpy_1_1UniqueTemporaryFolder.html", null ],
     [ "mrmeshpy.UniqueThreadSafeOwner_AABBTree", "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree.html", null ],
     [ "mrmeshpy.UniqueThreadSafeOwner_AABBTreePoints", "classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTreePoints.html", null ],

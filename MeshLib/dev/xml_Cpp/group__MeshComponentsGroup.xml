@@ -306,10 +306,10 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshComponents.h" line="52" column="14" declfile="MRMesh/MRMeshComponents.h" declline="52" declcolumn="14"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gae2860bc16910d275e467880105068b2d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gad617931e08318ec49a55b018164c1c74" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FaceBitSet</type>
         <definition>FaceBitSet MR::MeshComponents::getLargeByAreaComponents</definition>
-        <argsstring>(const MeshPart &amp;meshPart, BaseUnionFind&lt; FaceId &gt; &amp;unionFind, float minArea, UndirectedEdgeBitSet *outBdEdgesBetweenLargeComps=nullptr)</argsstring>
+        <argsstring>(const MeshPart &amp;meshPart, UnionFind&lt; FaceId &gt; &amp;unionFind, float minArea, UndirectedEdgeBitSet *outBdEdgesBetweenLargeComps=nullptr)</argsstring>
         <name>getLargeByAreaComponents</name>
         <qualifiedname>MR::MeshComponents::getLargeByAreaComponents</qualifiedname>
         <param>
@@ -317,7 +317,7 @@
           <declname>meshPart</declname>
         </param>
         <param>
-          <type>BaseUnionFind&lt; FaceId &gt; &amp;</type>
+          <type>UnionFind&lt; FaceId &gt; &amp;</type>
           <declname>unionFind</declname>
         </param>
         <param>
@@ -907,9 +907,9 @@
         </inbodydescription>
         <location file="MRMesh/MRMeshComponents.h" line="171" column="7" declfile="MRMesh/MRMeshComponents.h" declline="171" declcolumn="7"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga76ec00bcf70f407142ded7836a7de9e5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>BaseUnionFind&lt; FaceId &gt;</type>
-        <definition>BaseUnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFaces</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gababcff843eb7d0922339ed7becf7ca23" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; FaceId &gt;</type>
+        <definition>UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFaces</definition>
         <argsstring>(const MeshPart &amp;meshPart, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getUnionFindStructureFaces</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureFaces</qualifiedname>
@@ -934,11 +934,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="174" column="17" declfile="MRMesh/MRMeshComponents.h" declline="174" declcolumn="17"/>
+        <location file="MRMesh/MRMeshComponents.h" line="174" column="13" declfile="MRMesh/MRMeshComponents.h" declline="174" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga0dd9fd26a17b60590340314427a7a32c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>BaseUnionFind&lt; FaceId &gt;</type>
-        <definition>BaseUnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFaces</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga3be1646e88ab7d6cafe9a020ba75c434" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; FaceId &gt;</type>
+        <definition>UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFaces</definition>
         <argsstring>(const MeshTopology &amp;topology, const FaceBitSet *region=nullptr, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getUnionFindStructureFaces</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureFaces</qualifiedname>
@@ -967,11 +967,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="175" column="17" declfile="MRMesh/MRMeshComponents.h" declline="175" declcolumn="17"/>
+        <location file="MRMesh/MRMeshComponents.h" line="175" column="13" declfile="MRMesh/MRMeshComponents.h" declline="175" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1ga1c98700350bd8f0c087a291cbb6839ec" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>BaseUnionFind&lt; FaceId &gt;</type>
-        <definition>BaseUnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFacesPerEdge</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga7d9b47c38d78d37528e8b728632ea875" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; FaceId &gt;</type>
+        <definition>UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFacesPerEdge</definition>
         <argsstring>(const MeshPart &amp;meshPart, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getUnionFindStructureFacesPerEdge</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureFacesPerEdge</qualifiedname>
@@ -991,11 +991,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="179" column="17" declfile="MRMesh/MRMeshComponents.h" declline="179" declcolumn="17"/>
+        <location file="MRMesh/MRMeshComponents.h" line="179" column="13" declfile="MRMesh/MRMeshComponents.h" declline="179" declcolumn="13"/>
       </memberdef>
-      <memberdef kind="function" id="group__MeshComponentsGroup_1gafa8932336abeda4634ac75a8b9ecc38d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>BaseUnionFind&lt; FaceId &gt;</type>
-        <definition>BaseUnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFacesPerEdge</definition>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga6621f0b03784d1eba11d9394c25bbc0b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>UnionFind&lt; FaceId &gt;</type>
+        <definition>UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFacesPerEdge</definition>
         <argsstring>(const MeshTopology &amp;topology, const FaceBitSet *region=nullptr, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
         <name>getUnionFindStructureFacesPerEdge</name>
         <qualifiedname>MR::MeshComponents::getUnionFindStructureFacesPerEdge</qualifiedname>
@@ -1019,7 +1019,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRMeshComponents.h" line="180" column="17" declfile="MRMesh/MRMeshComponents.h" declline="180" declcolumn="17"/>
+        <location file="MRMesh/MRMeshComponents.h" line="180" column="13" declfile="MRMesh/MRMeshComponents.h" declline="180" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="group__MeshComponentsGroup_1gaab4f40960e177485925e0ef983994118" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>UnionFind&lt; VertId &gt;</type>
