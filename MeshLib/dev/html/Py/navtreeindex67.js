@@ -1,9 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#ada57dcf647fc1fcbe0f1cc84cea6cffe":[6,1,1,0,1,630,0,2,4],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aed42988f79f12d484e1540b1f8dbb45d":[6,1,0,0,2,630,0,2,2],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1ShadingType.html#aed42988f79f12d484e1540b1f8dbb45d":[6,1,1,0,1,630,0,2,2],
-"classmrmeshpy_1_1OffsetContourIndex.html":[6,1,0,0,2,642],
 "classmrmeshpy_1_1OffsetContourIndex.html":[6,1,1,0,1,642],
 "classmrmeshpy_1_1OffsetContourIndex.html#a213c3af248977b2dca97166c4d5e4c76":[6,1,0,0,2,642,1],
 "classmrmeshpy_1_1OffsetContourIndex.html#a213c3af248977b2dca97166c4d5e4c76":[6,1,1,0,1,642,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX67 =
 "classmrmeshpy_1_1OpenVdbFloatGrid.html#a82345a0c4a31d4f99de30dc6155564b3":[6,1,1,0,1,650,0],
 "classmrmeshpy_1_1OrientNormals.html":[6,1,0,0,2,651],
 "classmrmeshpy_1_1OrientNormals.html":[6,1,1,0,1,651],
-"classmrmeshpy_1_1OrientNormals.html#a036ba97ffc5ffed73af460110051f673":[6,1,0,0,2,651,2]
+"classmrmeshpy_1_1OrientNormals.html#a036ba97ffc5ffed73af460110051f673":[6,1,0,0,2,651,2],
+"classmrmeshpy_1_1OrientNormals.html#a036ba97ffc5ffed73af460110051f673":[6,1,1,0,1,651,2],
+"classmrmeshpy_1_1OrientNormals.html#a251297938014b96b387e5f962687b5bd":[6,1,0,0,2,651,4],
+"classmrmeshpy_1_1OrientNormals.html#a251297938014b96b387e5f962687b5bd":[6,1,1,0,1,651,4],
+"classmrmeshpy_1_1OrientNormals.html#a38a4273c715a9823c738afe1f17229de":[6,1,0,0,2,651,7]
 };

@@ -146,25 +146,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="170" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="170" bodyend="180"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeObjectAction_1a1eba7efd2915fa0eddd1f7740e5e676a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1ChangeObjectAction" kindref="compound">MR.ChangeObjectAction</ref></type>
-        <definition>unsafe MR.ChangeObjectAction MR.ChangeObjectAction.assign</definition>
-        <argsstring>(MR._ByValue_ChangeObjectAction _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.ChangeObjectAction.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_ChangeObjectAction</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::ChangeObjectAction::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="185" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="185" bodyend="192"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeObjectAction_1a7ee70cf340528a31e91524ecc01bcfae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ChangeObjectAction.action</definition>
@@ -182,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="197" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="197" bodyend="202"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="185" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="185" bodyend="190"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -234,10 +215,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="119" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="120" bodyend="203"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" line="119" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeObjectAction.cs" bodystart="120" bodyend="191"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeObjectAction_1a7ee70cf340528a31e91524ecc01bcfae" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>action</name></member>
-      <member refid="classMR_1_1ChangeObjectAction_1a1eba7efd2915fa0eddd1f7740e5e676a" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeObjectAction_1a399080f2eab6b6b51d50c07724496374" prot="package" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>ChangeObjectAction</name></member>
       <member refid="classMR_1_1ChangeObjectAction_1a17ada46c73a48bca8f75c4863f38bfc8" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>ChangeObjectAction</name></member>
       <member refid="classMR_1_1ChangeObjectAction_1a13e205a0d0988c1e01aef80397e81945" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>ChangeObjectAction</name></member>

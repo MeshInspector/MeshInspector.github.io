@@ -5,7 +5,6 @@ var classMR_1_1ChangeObjectColorAction =
     [ "ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html#a4c7284fa4fbdf8ce9599f39791e4f038", null ],
     [ "ChangeObjectColorAction", "classMR_1_1ChangeObjectColorAction.html#ac61037cee2c7903433eea49e34076761", null ],
     [ "action", "classMR_1_1ChangeObjectColorAction.html#a1205b93a463ecbdf48d3b77e2b4e9ddd", null ],
-    [ "assign", "classMR_1_1ChangeObjectColorAction.html#a38d2b0b98291fe3fc681f50ca5b214ac", null ],
     [ "operator ChangeObjectColorAction?", "classMR_1_1ChangeObjectColorAction.html#af20559ea8deddc2284c81b44426ef56c", null ],
     [ "operator MR.HistoryAction", "classMR_1_1ChangeObjectColorAction.html#a79bb045fe70a850380905d3aa61ee4cc", null ]
 ];

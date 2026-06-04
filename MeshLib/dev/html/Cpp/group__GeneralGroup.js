@@ -1354,6 +1354,9 @@ var group__GeneralGroup =
       [ "progress", "group__GeneralGroup.html#ga9c26116bdf2f4041ab93071989875a92", null ]
     ] ],
     [ "MR::IFastWindingNumber", "classMR_1_1IFastWindingNumber.html", [
+      [ "IFastWindingNumber", "group__GeneralGroup.html#ga9bdb8344f54dfef30896226afa7e5197", null ],
+      [ "IFastWindingNumber", "group__GeneralGroup.html#ga393c1ce3ad60f264b8fd1d881a3ac853", null ],
+      [ "IFastWindingNumber", "group__GeneralGroup.html#ga38c8410763dc01127a1828ed95d91e29", null ],
       [ "~IFastWindingNumber", "group__GeneralGroup.html#gaefefcab706e99f050565aa3492015547", null ],
       [ "calcFromGrid", "group__GeneralGroup.html#ga368a1a0534476d08756358a07bcce617", null ],
       [ "calcFromGridWithDistances", "group__GeneralGroup.html#gaeb59990afd6d9382244508e9e250972d", null ],
@@ -1370,6 +1373,9 @@ var group__GeneralGroup =
     ] ],
     [ "MR::IFastWindingNumberByParts", "classMR_1_1IFastWindingNumberByParts.html", [
       [ "GridByPartsFunc", "group__GeneralGroup.html#ga54e74708f7b97596d00a59029266cc0f", null ],
+      [ "IFastWindingNumberByParts", "group__GeneralGroup.html#ga4cc15b56fc662a88628ca1a7de3eb914", null ],
+      [ "IFastWindingNumberByParts", "group__GeneralGroup.html#ga816ff6662fe8899fac1cddf3084583ca", null ],
+      [ "IFastWindingNumberByParts", "group__GeneralGroup.html#gac9c05638978eb307eae69e70b8e3e5f5", null ],
       [ "~IFastWindingNumberByParts", "group__GeneralGroup.html#gaf7e578881fbad35e93b36ab0a2697c1c", null ],
       [ "calcFromGridByParts", "group__GeneralGroup.html#ga3cd5d444973254e7b31ab81917f07329", null ],
       [ "calcFromGridWithDistancesByParts", "group__GeneralGroup.html#ga91d50343ae8805a878c0dac2b8ff0802", null ]
@@ -1773,6 +1779,9 @@ var group__GeneralGroup =
         [ "Undo", "group__GeneralGroup.html#ggac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119", null ],
         [ "Redo", "group__GeneralGroup.html#ggac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6", null ]
       ] ],
+      [ "HistoryAction", "group__GeneralGroup.html#gae00d8fe206eb19a46974a6a237d80eab", null ],
+      [ "HistoryAction", "group__GeneralGroup.html#ga40c5ce397ad19ecd8209131c33c364db", null ],
+      [ "HistoryAction", "group__GeneralGroup.html#ga5619f8acd52326bd184417238d324c5c", null ],
       [ "~HistoryAction", "group__GeneralGroup.html#ga97370459d3645a1169ed426ef4896e5c", null ],
       [ "action", "group__GeneralGroup.html#gaecfce349736beaf17a23a6817c86f3bb", null ],
       [ "heapBytes", "group__GeneralGroup.html#gad6df54da6a63ed83f15053507e8569de", null ],
@@ -2047,9 +2056,14 @@ var group__GeneralGroup =
       [ "tasks", "group__GeneralGroup.html#ga5f69c0eb3c0590c0bd49dbcdddbc0eca", null ]
     ] ],
     [ "MR::UiRenderManager", "structMR_1_1UiRenderManager.html", [
+      [ "UiRenderManager", "group__GeneralGroup.html#ga906a2587e708fae0f46c9ea7e55408da", null ],
+      [ "UiRenderManager", "group__GeneralGroup.html#gab7cf46f4d96635fbcf0f3be8086458c5", null ],
+      [ "UiRenderManager", "group__GeneralGroup.html#ga21dade59daeae890d56067758c3ba462", null ],
       [ "~UiRenderManager", "group__GeneralGroup.html#ga068f0178b855d81e92b613b5872c99ee", null ],
       [ "beginBackwardPass", "group__GeneralGroup.html#ga9601bd6d868289506f00155eb4711f5e", null ],
       [ "finishBackwardPass", "group__GeneralGroup.html#gaba65991bd7f7faf987ac0662a31a5875", null ],
+      [ "operator=", "group__GeneralGroup.html#gafd2182a569c18420a6c4b56bfccf1159", null ],
+      [ "operator=", "group__GeneralGroup.html#ga98d1be64f282627eb49ed2944adb718b", null ],
       [ "postRenderViewport", "group__GeneralGroup.html#gaf9cfebf3c57b3c9b6283d7de32fc4adc", null ],
       [ "preRenderViewport", "group__GeneralGroup.html#gae586ca77f767a1b38c45269b184c7118", null ]
     ] ],
@@ -2497,7 +2511,6 @@ var group__GeneralGroup =
       [ "size", "group__GeneralGroup.html#gab0d01d793fad21820791310d7318235e", null ],
       [ "sizeOfComp", "group__GeneralGroup.html#ga009ad612aecca5afb9b91768536c406f", null ],
       [ "unite", "group__GeneralGroup.html#ga0739ab9258f8fc25ef45ce06106fffce", null ],
-      [ "uniteAtomic", "group__GeneralGroup.html#gafc7cf2a20d6a790fde152f300217f16f", null ],
       [ "united", "group__GeneralGroup.html#gaa570cc6f33bbb51fb5859608b9c68fbc", null ]
     ] ],
     [ "MR::Heap< T, I, P >", "classMR_1_1Heap.html", [
@@ -3027,7 +3040,9 @@ var group__GeneralGroup =
     ] ],
     [ "MR::ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", [
       [ "ObjectFactoryBase", "group__GeneralGroup.html#ga975afaa4c56e742d9272695983c53793", null ],
-      [ "~ObjectFactoryBase", "group__GeneralGroup.html#ga76cdbe4a345ff26f08d688de6f913ba9", null ]
+      [ "~ObjectFactoryBase", "group__GeneralGroup.html#ga76cdbe4a345ff26f08d688de6f913ba9", null ],
+      [ "ObjectFactoryBase", "group__GeneralGroup.html#ga491b29507849161c82f01412859fbb58", null ],
+      [ "ObjectFactoryBase", "group__GeneralGroup.html#ga4a0843ffabbbd98adead3f59e0c5556e", null ]
     ] ],
     [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", [
       [ "ObjectFactory", "group__GeneralGroup.html#ga196468998cd1d0aedd44db61031634d6", null ]
@@ -3591,14 +3606,22 @@ var group__GeneralGroup =
     [ "MR::Src2TgtMaps", "classMR_1_1Src2TgtMaps.html", [
       [ "Src2TgtMaps", "group__GeneralGroup.html#ga5f0185e4c04090deee9b661477a19867", null ],
       [ "~Src2TgtMaps", "group__GeneralGroup.html#gae2b31503400978781e6bffcecd9959ba", null ],
+      [ "Src2TgtMaps", "group__GeneralGroup.html#ga429862adaf111d249967728943bbca95", null ],
+      [ "Src2TgtMaps", "group__GeneralGroup.html#ga6b82479b18ad4c8b62fa73d068757be5", null ],
       [ "getPartMapping", "group__GeneralGroup.html#ga1408fe5390b44910ee7b305971ff1943", null ],
-      [ "operator const PartMapping &", "group__GeneralGroup.html#gabeb0d23b26b0870de6d5b09538295e27", null ]
+      [ "operator const PartMapping &", "group__GeneralGroup.html#gabeb0d23b26b0870de6d5b09538295e27", null ],
+      [ "operator=", "group__GeneralGroup.html#gade58c0ef13c1a69cfb93d12cf35bc0f1", null ],
+      [ "operator=", "group__GeneralGroup.html#ga21967781082125022521f93f1cd916f4", null ]
     ] ],
     [ "MR::Tgt2SrcMaps", "classMR_1_1Tgt2SrcMaps.html", [
       [ "Tgt2SrcMaps", "group__GeneralGroup.html#ga029b3c622e328b4569769168e38bf925", null ],
       [ "~Tgt2SrcMaps", "group__GeneralGroup.html#ga1292d111cef99d6fa455ffc18a016bff", null ],
+      [ "Tgt2SrcMaps", "group__GeneralGroup.html#ga184e3bece3d1d18c6fb751e48e0b067f", null ],
+      [ "Tgt2SrcMaps", "group__GeneralGroup.html#gacdb4fb997e416141632f27496ec6d8f0", null ],
       [ "getPartMapping", "group__GeneralGroup.html#ga8266fef859ccf3d06f819a2681185063", null ],
-      [ "operator const PartMapping &", "group__GeneralGroup.html#ga725d82739c07f928cd88750f4d3d6583", null ]
+      [ "operator const PartMapping &", "group__GeneralGroup.html#ga725d82739c07f928cd88750f4d3d6583", null ],
+      [ "operator=", "group__GeneralGroup.html#gabe032465a924da8e89497c48367273a5", null ],
+      [ "operator=", "group__GeneralGroup.html#gad472a32e4da24e2c6a9a3cf0a5b4ff3b", null ]
     ] ],
     [ "MR::Plane3< T >", "structMR_1_1Plane3.html", [
       [ "Plane3", "group__GeneralGroup.html#ga29f7ab9c3671dc6904b3a79d854445ad", null ],
@@ -3754,6 +3777,9 @@ var group__GeneralGroup =
       [ "telemetrySignal", "group__GeneralGroup.html#ga1dce73fcc836e6bf67b9078a0dbc0e50", null ]
     ] ],
     [ "MR::IPointsToMeshProjector", "classMR_1_1IPointsToMeshProjector.html", [
+      [ "IPointsToMeshProjector", "group__GeneralGroup.html#ga760668937924821096ad6a656e997dd6", null ],
+      [ "IPointsToMeshProjector", "group__GeneralGroup.html#ga6536d27d13221f6b39d282c975088718", null ],
+      [ "IPointsToMeshProjector", "group__GeneralGroup.html#gaa38e9b719876265280a8e6044e889b2f", null ],
       [ "~IPointsToMeshProjector", "group__GeneralGroup.html#gac1a1633695c8776296054f81942a84dc", null ],
       [ "findProjections", "group__GeneralGroup.html#gaffb7ba1779ad577458ada7ad99f578ce", null ],
       [ "projectionsHeapBytes", "group__GeneralGroup.html#ga2743e8821707c1810ac41b5918b2613c", null ],
@@ -4537,8 +4563,12 @@ var group__GeneralGroup =
     [ "MR::UniqueTemporaryFolder", "classMR_1_1UniqueTemporaryFolder.html", [
       [ "UniqueTemporaryFolder", "group__GeneralGroup.html#gaea7e76db7a25256c915abaefb1df86bb", null ],
       [ "~UniqueTemporaryFolder", "group__GeneralGroup.html#ga797e41695bc2cfcc9587df460a536f7d", null ],
+      [ "UniqueTemporaryFolder", "group__GeneralGroup.html#ga0e95e41a72f7640ec7fe5d8ee8417da3", null ],
+      [ "UniqueTemporaryFolder", "group__GeneralGroup.html#ga44dd17ac2ee4e5cdb88e07f69bd9f1a1", null ],
       [ "operator bool", "group__GeneralGroup.html#ga8ec198312afe50720d7c5ab8ef8cfc46", null ],
-      [ "operator/", "group__GeneralGroup.html#ga990b724a34e3cff31ff265fee8ab84b5", null ]
+      [ "operator/", "group__GeneralGroup.html#ga990b724a34e3cff31ff265fee8ab84b5", null ],
+      [ "operator=", "group__GeneralGroup.html#ga18f05667e76ccc9a5c5ef69bd3584e26", null ],
+      [ "operator=", "group__GeneralGroup.html#ga61854bf3fe886747be7d3c8ffe57841d", null ]
     ] ],
     [ "MR::UniteManyMeshesParams", "structMR_1_1UniteManyMeshesParams.html", [
       [ "fixDegenerations", "group__GeneralGroup.html#ga28505f79efacbde9b70d5d98148c26e4", null ],
@@ -6804,7 +6834,7 @@ var group__GeneralGroup =
     [ "MR::ViewerSetup", "classMR_1_1ViewerSetup.html", [
       [ "ViewerSetup", "group__GeneralGroup.html#ga9616d5542d1b0f230b9138f4da8a88cb", null ],
       [ "ViewerSetup", "group__GeneralGroup.html#ga312d51f93256540b9109340e93cd279d", null ],
-      [ "ViewerSetup", "group__GeneralGroup.html#ga5de2e94012eb083d14c9b918420a2c9e", null ],
+      [ "ViewerSetup", "group__GeneralGroup.html#ga155d3594c444dca0504eb4ab0d457483", null ],
       [ "~ViewerSetup", "group__GeneralGroup.html#ga91f189592dac535dae6d91f80c911e1f", null ],
       [ "setupBasePlugins", "group__GeneralGroup.html#ga2ee9a09ee077eec46a7ad935be02b503", null ],
       [ "setupCommonModifiers", "group__GeneralGroup.html#ga66bb762d87286ae7b094f6a59bb96aec", null ],
@@ -12835,6 +12865,9 @@ var group__GeneralGroup =
     [ "MR::Histogram::Histogram", "group__GeneralGroup.html#gad5ea2693d9db6b1e3a7b67617c339db0", null ],
     [ "MR::ObjectVoxels::histogram", "group__GeneralGroup.html#gaf4e1350561bc2e71d56741b954562868", null ],
     [ "MR::Historian::Historian", "group__GeneralGroup.html#ga7869ebc98ea62e7be5a19e2c4322b859", null ],
+    [ "MR::HistoryAction::HistoryAction", "group__GeneralGroup.html#gae00d8fe206eb19a46974a6a237d80eab", null ],
+    [ "MR::HistoryAction::HistoryAction", "group__GeneralGroup.html#ga40c5ce397ad19ecd8209131c33c364db", null ],
+    [ "MR::HistoryAction::HistoryAction", "group__GeneralGroup.html#ga5619f8acd52326bd184417238d324c5c", null ],
     [ "MR::holeDirArea", "group__GeneralGroup.html#ga5b106fa80e17af7fd48d7bc054cd0dfd", null ],
     [ "MR::holePerimeter", "group__GeneralGroup.html#ga239332466fb877302ca7dbd4d3e15cf8", null ],
     [ "MR::ITransformControls::hover", "group__GeneralGroup.html#ga18436dfbd4ff243fc8bd07d0a3f36b73", null ],
@@ -12869,6 +12902,12 @@ var group__GeneralGroup =
     [ "MR::SymMatrix3::identity", "group__GeneralGroup.html#ga01e5aad44da8c62ba4d2044075380fdb", null ],
     [ "MR::SymMatrix4::identity", "group__GeneralGroup.html#gafbcf116c4a2ef5bb375df7b99a4f00e5", null ],
     [ "MR::Mcp::idOf", "group__GeneralGroup.html#ga0c165bcc8653a7af45f1680f2ed83811", null ],
+    [ "MR::IFastWindingNumber::IFastWindingNumber", "group__GeneralGroup.html#ga9bdb8344f54dfef30896226afa7e5197", null ],
+    [ "MR::IFastWindingNumber::IFastWindingNumber", "group__GeneralGroup.html#ga393c1ce3ad60f264b8fd1d881a3ac853", null ],
+    [ "MR::IFastWindingNumber::IFastWindingNumber", "group__GeneralGroup.html#ga38c8410763dc01127a1828ed95d91e29", null ],
+    [ "MR::IFastWindingNumberByParts::IFastWindingNumberByParts", "group__GeneralGroup.html#ga4cc15b56fc662a88628ca1a7de3eb914", null ],
+    [ "MR::IFastWindingNumberByParts::IFastWindingNumberByParts", "group__GeneralGroup.html#ga816ff6662fe8899fac1cddf3084583ca", null ],
+    [ "MR::IFastWindingNumberByParts::IFastWindingNumberByParts", "group__GeneralGroup.html#gac9c05638978eb307eae69e70b8e3e5f5", null ],
     [ "MR::SurfaceManipulationWidget::ignoreOcclusion", "group__GeneralGroup.html#gaf2026eeba0e30566834023085a3b9aac", null ],
     [ "MR::Quaternion::im", "group__GeneralGroup.html#gaad473c0a9b108bfc4963dc7f279ff9e8", null ],
     [ "MR::StateBasePlugin::ImGuiBeginWindow_", "group__GeneralGroup.html#ga4a73edaf848e58004c9362f2ac6df049", null ],
@@ -12976,6 +13015,9 @@ var group__GeneralGroup =
     [ "MR::IPointPairs::IPointPairs", "group__GeneralGroup.html#gadbe70eca8faa13ce9fa22e4f15cb2d5a", null ],
     [ "MR::IPointPairs::IPointPairs", "group__GeneralGroup.html#ga3fcd8de5d97b49b84e9c984b494f10dc", null ],
     [ "MR::IPointPairs::IPointPairs", "group__GeneralGroup.html#ga995abf137ecf1f8e0771844779cc9405", null ],
+    [ "MR::IPointsToMeshProjector::IPointsToMeshProjector", "group__GeneralGroup.html#ga760668937924821096ad6a656e997dd6", null ],
+    [ "MR::IPointsToMeshProjector::IPointsToMeshProjector", "group__GeneralGroup.html#ga6536d27d13221f6b39d282c975088718", null ],
+    [ "MR::IPointsToMeshProjector::IPointsToMeshProjector", "group__GeneralGroup.html#gaa38e9b719876265280a8e6044e889b2f", null ],
     [ "MR::RibbonMenuItem::isActive", "group__GeneralGroup.html#ga3b30bb82fe11901e3d971d3b761f5bf2", null ],
     [ "MR::StateBasePlugin::isActive", "group__GeneralGroup.html#ga2172655c98b73059ee0bfc8cb3115097", null ],
     [ "MR::Viewer::isAlphaSortAvailable", "group__GeneralGroup.html#ga5c9e26830548aa11d7a6e6763eae74d5", null ],
@@ -13686,6 +13728,8 @@ var group__GeneralGroup =
     [ "MR::ObjectDistanceMap::ObjectDistanceMap", "group__GeneralGroup.html#ga579055ec9063f0ee0116a2f2c361cd98", null ],
     [ "MR::ObjectDistanceMap::ObjectDistanceMap", "group__GeneralGroup.html#ga926ef79a1ea86d98b42dafc6eb5b112b", null ],
     [ "MR::ObjectFactory::ObjectFactory", "group__GeneralGroup.html#ga196468998cd1d0aedd44db61031634d6", null ],
+    [ "MR::ObjectFactoryBase::ObjectFactoryBase", "group__GeneralGroup.html#ga491b29507849161c82f01412859fbb58", null ],
+    [ "MR::ObjectFactoryBase::ObjectFactoryBase", "group__GeneralGroup.html#ga4a0843ffabbbd98adead3f59e0c5556e", null ],
     [ "MR::ObjectFactoryBase::ObjectFactoryBase", "group__GeneralGroup.html#ga975afaa4c56e742d9272695983c53793", null ],
     [ "MR::ObjectGcode::ObjectGcode", "group__GeneralGroup.html#gaa217a5c63f538ed0cd984b17695c8f76", null ],
     [ "MR::ObjectGcode::ObjectGcode", "group__GeneralGroup.html#ga9179cb3738bd38279ab3f3ffd8c619d1", null ],
@@ -14056,10 +14100,18 @@ var group__GeneralGroup =
     [ "MR::Signal::operator=", "group__GeneralGroup.html#gad2ac352405fa0b18359e9604a84d95eb", null ],
     [ "MR::Signal::operator=", "group__GeneralGroup.html#ga69ea1c4cfb77f79ea8c163ceb39ef970", null ],
     [ "MR::SphereObject::operator=", "group__GeneralGroup.html#gafc914c440e4c94f219e3d213905b1edb", null ],
+    [ "MR::Src2TgtMaps::operator=", "group__GeneralGroup.html#gade58c0ef13c1a69cfb93d12cf35bc0f1", null ],
+    [ "MR::Src2TgtMaps::operator=", "group__GeneralGroup.html#ga21967781082125022521f93f1cd916f4", null ],
+    [ "MR::Tgt2SrcMaps::operator=", "group__GeneralGroup.html#gabe032465a924da8e89497c48367273a5", null ],
+    [ "MR::Tgt2SrcMaps::operator=", "group__GeneralGroup.html#gad472a32e4da24e2c6a9a3cf0a5b4ff3b", null ],
     [ "MR::UI::Disabler::operator=", "group__GeneralGroup.html#ga686800cf738a0eed6cba651c112745b3", null ],
+    [ "MR::UiRenderManager::operator=", "group__GeneralGroup.html#gafd2182a569c18420a6c4b56bfccf1159", null ],
+    [ "MR::UiRenderManager::operator=", "group__GeneralGroup.html#ga98d1be64f282627eb49ed2944adb718b", null ],
     [ "MR::UniquePtr::operator=", "group__GeneralGroup.html#gaab2ceb1171b2a26773ddd20b58e22a85", null ],
     [ "MR::UniquePtr::operator=", "group__GeneralGroup.html#ga12789ea5c04ee7a92d7b00755508df3f", null ],
     [ "MR::UniquePtr::operator=", "group__GeneralGroup.html#ga42efa327646696f0d3cafc2f14acb727", null ],
+    [ "MR::UniqueTemporaryFolder::operator=", "group__GeneralGroup.html#ga18f05667e76ccc9a5c5ef69bd3584e26", null ],
+    [ "MR::UniqueTemporaryFolder::operator=", "group__GeneralGroup.html#ga61854bf3fe886747be7d3c8ffe57841d", null ],
     [ "MR::Viewport::operator=", "group__GeneralGroup.html#gabe2f2d2fe99553548fc2b3f3a9f3d4b8", null ],
     [ "MR::ViewportGL::operator=", "group__GeneralGroup.html#gaf6d0b135cd7ea98a92eac23f1bac3642", null ],
     [ "MR::ViewportGL::operator=", "group__GeneralGroup.html#ga1540ae57916ae7af3244396a8443ff87", null ],
@@ -15430,7 +15482,9 @@ var group__GeneralGroup =
     [ "MR::sqr", "group__GeneralGroup.html#ga1bdf9f3c718616502649bc34a80ac976", null ],
     [ "MR::Vector3::sqr", "group__GeneralGroup.html#gac519c0badafc5dd614c0c6f8b8b28994", null ],
     [ "MR::Vector4::sqr", "group__GeneralGroup.html#ga2925cc04ba84c72a45503f35a61c90e5", null ],
+    [ "MR::Src2TgtMaps::Src2TgtMaps", "group__GeneralGroup.html#ga429862adaf111d249967728943bbca95", null ],
     [ "MR::Src2TgtMaps::Src2TgtMaps", "group__GeneralGroup.html#ga5f0185e4c04090deee9b661477a19867", null ],
+    [ "MR::Src2TgtMaps::Src2TgtMaps", "group__GeneralGroup.html#ga6b82479b18ad4c8b62fa73d068757be5", null ],
     [ "MR::PolylineMaker::start", "group__GeneralGroup.html#ga4728051228e7a8b6910c567e9a075840", null ],
     [ "MR::SplashWindow::start", "group__GeneralGroup.html#gaf01c48a73b53806678acaf24c3a270db", null ],
     [ "MR::SurfacePointWidget::startDragging", "group__GeneralGroup.html#ga891c52a3ce97b26f444d271f1943378a", null ],
@@ -15589,7 +15643,9 @@ var group__GeneralGroup =
     [ "MR::terrainTriangulation", "group__GeneralGroup.html#ga3ff0cba60a401078d669a6e469f283c0", null ],
     [ "MR::Nesting::tetrisNestingDensify", "group__GeneralGroup.html#ga2cbe87a23074d994591bf8ff7998359a", null ],
     [ "MR::GlTexture::texImage_", "group__GeneralGroup.html#ga7edea799f883097742210ebea4aefac5", null ],
+    [ "MR::Tgt2SrcMaps::Tgt2SrcMaps", "group__GeneralGroup.html#ga184e3bece3d1d18c6fb751e48e0b067f", null ],
     [ "MR::Tgt2SrcMaps::Tgt2SrcMaps", "group__GeneralGroup.html#ga029b3c622e328b4569769168e38bf925", null ],
+    [ "MR::Tgt2SrcMaps::Tgt2SrcMaps", "group__GeneralGroup.html#gacdb4fb997e416141632f27496ec6d8f0", null ],
     [ "MR::thickenMesh", "group__GeneralGroup.html#gab71fd6f93b613c7d69006787b13e5f3b", null ],
     [ "MR::TransformControls::ThresholdDotValidator", "group__GeneralGroup.html#gaefa2389b91822b75c0fdbec1a441276a", null ],
     [ "MR::throwExceptionFromExpected", "group__GeneralGroup.html#ga396596cb5cea6d2f8fec7b7838ae2bc5", null ],
@@ -15786,6 +15842,9 @@ var group__GeneralGroup =
     [ "MR::RibbonMenuItem::uiName", "group__GeneralGroup.html#ga327958b76ec3d044202620beafe67c93", null ],
     [ "MR::StateBasePlugin::uiName", "group__GeneralGroup.html#ga56d7b27cd916a3ec2fcf0bcb4b7e3d28", null ],
     [ "MR::StateBasePlugin::UINameSuffix", "group__GeneralGroup.html#ga14f462561c6d7534870cd58ca7bf20fb", null ],
+    [ "MR::UiRenderManager::UiRenderManager", "group__GeneralGroup.html#ga906a2587e708fae0f46c9ea7e55408da", null ],
+    [ "MR::UiRenderManager::UiRenderManager", "group__GeneralGroup.html#gab7cf46f4d96635fbcf0f3be8086458c5", null ],
+    [ "MR::UiRenderManager::UiRenderManager", "group__GeneralGroup.html#ga21dade59daeae890d56067758c3ba462", null ],
     [ "MR::SceneTextureGL::unbind", "group__GeneralGroup.html#ga980051db961ed739c8b5ef5a4a470058", null ],
     [ "MR::PlaneWidget::undefinePlane", "group__GeneralGroup.html#ga33499c2e0a1776e6ef530d80c4f3b5aa", null ],
     [ "MR::Id< EdgeTag >::undirected", "group__GeneralGroup.html#gaf896dd5985669fa799c9a67731de9f4a", null ],
@@ -15806,9 +15865,10 @@ var group__GeneralGroup =
     [ "MR::UniquePtr::UniquePtr", "group__GeneralGroup.html#gaaf1504c1a8adb3c65e6501508c18f9ad", null ],
     [ "MR::UniquePtr::UniquePtr", "group__GeneralGroup.html#ga1a43bb82edf6a6783aa1d0c487298e2b", null ],
     [ "MR::UniquePtr::UniquePtr", "group__GeneralGroup.html#ga69356ad900f65842bc6e4bff6e88a8e0", null ],
+    [ "MR::UniqueTemporaryFolder::UniqueTemporaryFolder", "group__GeneralGroup.html#ga0e95e41a72f7640ec7fe5d8ee8417da3", null ],
     [ "MR::UniqueTemporaryFolder::UniqueTemporaryFolder", "group__GeneralGroup.html#gaea7e76db7a25256c915abaefb1df86bb", null ],
+    [ "MR::UniqueTemporaryFolder::UniqueTemporaryFolder", "group__GeneralGroup.html#ga44dd17ac2ee4e5cdb88e07f69bd9f1a1", null ],
     [ "MR::UnionFind::unite", "group__GeneralGroup.html#ga0739ab9258f8fc25ef45ce06106fffce", null ],
-    [ "MR::UnionFind::uniteAtomic", "group__GeneralGroup.html#gafc7cf2a20d6a790fde152f300217f16f", null ],
     [ "MR::MeshBuilder::uniteCloseVertices", "group__GeneralGroup.html#ga735c792eb0d3d6adc4c77f067f973d46", null ],
     [ "MR::MeshBuilder::uniteCloseVertices", "group__GeneralGroup.html#gafd13ce716b18402ee77952081cf52e40", null ],
     [ "MR::UnionFind::united", "group__GeneralGroup.html#gaa570cc6f33bbb51fb5859608b9c68fbc", null ],
@@ -15996,7 +16056,7 @@ var group__GeneralGroup =
     [ "MR::ViewerSettingsPlugin::ViewerSettingsPlugin", "group__GeneralGroup.html#ga4fda238acd33621d265e12dff2282e03", null ],
     [ "MR::ViewerSetup::ViewerSetup", "group__GeneralGroup.html#ga9616d5542d1b0f230b9138f4da8a88cb", null ],
     [ "MR::ViewerSetup::ViewerSetup", "group__GeneralGroup.html#ga312d51f93256540b9109340e93cd279d", null ],
-    [ "MR::ViewerSetup::ViewerSetup", "group__GeneralGroup.html#ga5de2e94012eb083d14c9b918420a2c9e", null ],
+    [ "MR::ViewerSetup::ViewerSetup", "group__GeneralGroup.html#ga155d3594c444dca0504eb4ab0d457483", null ],
     [ "MR::ViewerTitle::ViewerTitle", "group__GeneralGroup.html#gae201ece8e089fb91a710af404169e25a", null ],
     [ "MR::Viewport::Viewport", "group__GeneralGroup.html#ga25079118ea3ec81bab9c8b86d82d540c", null ],
     [ "MR::Viewport::Viewport", "group__GeneralGroup.html#gab2c9307e0042dfba8ab64f861356ad72", null ],

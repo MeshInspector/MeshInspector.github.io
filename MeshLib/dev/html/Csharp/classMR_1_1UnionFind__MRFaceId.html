@@ -175,8 +175,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4c4fe504d14bde892d544717afb330ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.FaceId</a>&amp;gt;<a class="el" href="#a4c4fe504d14bde892d544717afb330ba" title="resets union-find to represent given number of elements, each element is the only one in its disjoint...">reset</a></span>.  <br /></td></tr>
 <tr class="memitem:a113b9ad6867f881b1309ff7adcaad1fc" id="r_a113b9ad6867f881b1309ff7adcaad1fc"><td class="memItemLeft" align="right" valign="top">unsafe MR.Std.Pair_MRFaceId_Bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a113b9ad6867f881b1309ff7adcaad1fc">unite</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> first, <a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> second)</td></tr>
 <tr class="memdesc:a113b9ad6867f881b1309ff7adcaad1fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">unite two elements,  <br /></td></tr>
-<tr class="memitem:a4d0eb97a2debc1b845229b067ee48208" id="r_a4d0eb97a2debc1b845229b067ee48208"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d0eb97a2debc1b845229b067ee48208">uniteAtomic</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> first, <a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> second)</td></tr>
-<tr class="memdesc:a4d0eb97a2debc1b845229b067ee48208"><td class="mdescLeft">&#160;</td><td class="mdescRight">thread-safe version of <a class="el" href="#a113b9ad6867f881b1309ff7adcaad1fc" title="unite two elements,">unite()</a> for parallel construction of the structure: links by element id (the smaller id becomes the common root) using lock-free path halving; unlike <a class="el" href="#a113b9ad6867f881b1309ff7adcaad1fc" title="unite two elements,">unite()</a> it does NOT maintain component sizes, so <a class="el" href="#a4c58aa667831be9341c1534e493a585e" title="returns the number of elements in the set containing given element Generated from method MR....">sizeOfComp()</a> is invalid after any <a class="el" href="#a4d0eb97a2debc1b845229b067ee48208" title="thread-safe version of unite() for parallel construction of the structure: links by element id (the s...">uniteAtomic()</a> call Generated from method <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.FaceId</a>&amp;gt;<a class="el" href="#a4d0eb97a2debc1b845229b067ee48208" title="thread-safe version of unite() for parallel construction of the structure: links by element id (the s...">uniteAtomic</a></span>.  <br /></td></tr>
 <tr class="memitem:a86e7404b5383e17d9880a9a1dae843f5" id="r_a86e7404b5383e17d9880a9a1dae843f5"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86e7404b5383e17d9880a9a1dae843f5">united</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> first, <a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> second)</td></tr>
 <tr class="memdesc:a86e7404b5383e17d9880a9a1dae843f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given two elements are from one set Generated from method <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.FaceId</a>&amp;gt;<a class="el" href="#a86e7404b5383e17d9880a9a1dae843f5" title="returns true if given two elements are from one set Generated from method MR.UnionFind&lt;MR....">united</a></span>.  <br /></td></tr>
 <tr class="memitem:a6820615cc51262526e5f784e730a0f70" id="r_a6820615cc51262526e5f784e730a0f70"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6820615cc51262526e5f784e730a0f70">find</a> (<a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a> a)</td></tr>
@@ -558,37 +556,6 @@ Additional Inherited Members</h2></td></tr>
 
 <p>unite two elements, </p>
 <dl class="section return"><dt>Returns</dt><dd>first: new common root, second: true = union was done, false = first and second were already united Generated from method <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.FaceId</a>&amp;gt;<a class="el" href="#a113b9ad6867f881b1309ff7adcaad1fc" title="unite two elements,">unite</a></span>. </dd></dl>
-
-</div>
-</div>
-<a id="a4d0eb97a2debc1b845229b067ee48208" name="a4d0eb97a2debc1b845229b067ee48208"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d0eb97a2debc1b845229b067ee48208">&#9670;&#160;</a></span>uniteAtomic()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsafe void MR.UnionFind_MRFaceId.uniteAtomic </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a></td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1FaceId.html">MR.FaceId</a></td>          <td class="paramname"><span class="paramname"><em>second</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>thread-safe version of <a class="el" href="#a113b9ad6867f881b1309ff7adcaad1fc" title="unite two elements,">unite()</a> for parallel construction of the structure: links by element id (the smaller id becomes the common root) using lock-free path halving; unlike <a class="el" href="#a113b9ad6867f881b1309ff7adcaad1fc" title="unite two elements,">unite()</a> it does NOT maintain component sizes, so <a class="el" href="#a4c58aa667831be9341c1534e493a585e" title="returns the number of elements in the set containing given element Generated from method MR....">sizeOfComp()</a> is invalid after any <a class="el" href="#a4d0eb97a2debc1b845229b067ee48208" title="thread-safe version of unite() for parallel construction of the structure: links by element id (the s...">uniteAtomic()</a> call Generated from method <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.FaceId</a>&amp;gt;<a class="el" href="#a4d0eb97a2debc1b845229b067ee48208" title="thread-safe version of unite() for parallel construction of the structure: links by element id (the s...">uniteAtomic</a></span>. </p>
 
 </div>
 </div>

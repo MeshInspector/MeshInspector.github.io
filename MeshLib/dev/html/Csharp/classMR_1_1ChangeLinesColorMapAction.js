@@ -6,7 +6,6 @@ var classMR_1_1ChangeLinesColorMapAction =
     [ "ChangeLinesColorMapAction", "classMR_1_1ChangeLinesColorMapAction.html#adddffe67ff0dd382cefa11eb0968c0b6", null ],
     [ "ChangeLinesColorMapAction", "classMR_1_1ChangeLinesColorMapAction.html#a4b73c067ecdf4c85e6968c022f3e275d", null ],
     [ "action", "classMR_1_1ChangeLinesColorMapAction.html#a23aa373dabe7a51b693db16e5c98fd27", null ],
-    [ "assign", "classMR_1_1ChangeLinesColorMapAction.html#a9a09e75736baa78344ae40822541c80e", null ],
     [ "operator ChangeLinesColorMapAction?", "classMR_1_1ChangeLinesColorMapAction.html#a98f68cd39416ff47510cb7b016e697ea", null ],
     [ "operator MR.HistoryAction", "classMR_1_1ChangeLinesColorMapAction.html#a7c57befdecb0eac6f83c4396fc5d33f8", null ]
 ];

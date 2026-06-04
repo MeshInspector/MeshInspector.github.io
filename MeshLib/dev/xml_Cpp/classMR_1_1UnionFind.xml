@@ -21,7 +21,6 @@
       <member refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kind="function"><name>size</name></member>
       <member refid="group__GeneralGroup_1ga6a74089f75f3b88edf1a6fb0beba1e13" kind="function"><name>reset</name></member>
       <member refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" kind="function"><name>unite</name></member>
-      <member refid="group__GeneralGroup_1gafc7cf2a20d6a790fde152f300217f16f" kind="function"><name>uniteAtomic</name></member>
       <member refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" kind="function"><name>united</name></member>
       <member refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" kind="function"><name>isRoot</name></member>
       <member refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" kind="function"><name>parent</name></member>
@@ -33,14 +32,9 @@
     </sectiondef>
     <sectiondef kind="private-func">
       <member refid="group__GeneralGroup_1ga6999428ebe2645b250dfe6cf51038735" kind="function"><name>findRootNoUpdate_</name></member>
-      <member refid="group__GeneralGroup_1gaa92bca6851d33bb218ea0843f90c61e6" kind="function"><name>findAtomic_</name></member>
       <member refid="group__GeneralGroup_1ga797743a9600c69d6615d32c970c89f96" kind="function"><name>updateRoot_</name></member>
       <member refid="group__GeneralGroup_1ga43bbe8cb9f207115aca9f60ff07ba132" kind="function"><name>updateRoot_</name></member>
       <member refid="group__GeneralGroup_1gabcac94e459f2fffa4c01f3e406bf184f" kind="function"><name>updateRootInRange_</name></member>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
-      <member refid="group__GeneralGroup_1ga56fc516698b590a43c8eb5e3c09c5a52" kind="function"><name>loadAtomic_</name></member>
-      <member refid="group__GeneralGroup_1ga705c21b7b5f48fab8b7f3376bf66c248" kind="function"><name>casAtomic_</name></member>
     </sectiondef>
     <briefdescription>
 <para>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. </para>
@@ -57,15 +51,12 @@
 </parameterlist>
 </para>
     </detaileddescription>
-    <location file="MRMesh/MRUnionFind.h" line="23" column="1" bodyfile="MRMesh/MRUnionFind.h" bodystart="24" bodyend="225"/>
+    <location file="MRMesh/MRUnionFind.h" line="22" column="1" bodyfile="MRMesh/MRUnionFind.h" bodystart="23" bodyend="157"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga705c21b7b5f48fab8b7f3376bf66c248" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>casAtomic_</name></member>
       <member refid="group__GeneralGroup_1ga26e79fd903c0229dbd2f66a80549c75b" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>find</name></member>
-      <member refid="group__GeneralGroup_1gaa92bca6851d33bb218ea0843f90c61e6" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>findAtomic_</name></member>
       <member refid="group__GeneralGroup_1ga6999428ebe2645b250dfe6cf51038735" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>findRootNoUpdate_</name></member>
       <member refid="group__GeneralGroup_1gabf32e7c70e8d67a82d759ad44a5b08c1" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>findUpdateRange</name></member>
       <member refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>isRoot</name></member>
-      <member refid="group__GeneralGroup_1ga56fc516698b590a43c8eb5e3c09c5a52" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>loadAtomic_</name></member>
       <member refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>parent</name></member>
       <member refid="group__GeneralGroup_1gaddfb36167fbd876c96379b175c755a5b" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>parents</name></member>
       <member refid="group__GeneralGroup_1ga1b2c81b705c8244a87ae8287f87139d7" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>parents_</name></member>
@@ -78,7 +69,6 @@
       <member refid="group__GeneralGroup_1ga67ccf008e0816480dca10b19c530a7b1" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>UnionFind</name></member>
       <member refid="group__GeneralGroup_1ga661398df57a710beae6f4b7c19ac3006" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>UnionFind</name></member>
       <member refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>unite</name></member>
-      <member refid="group__GeneralGroup_1gafc7cf2a20d6a790fde152f300217f16f" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>uniteAtomic</name></member>
       <member refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>united</name></member>
       <member refid="group__GeneralGroup_1ga797743a9600c69d6615d32c970c89f96" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>updateRoot_</name></member>
       <member refid="group__GeneralGroup_1ga43bbe8cb9f207115aca9f60ff07ba132" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>updateRoot_</name></member>

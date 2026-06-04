@@ -13,6 +13,5 @@ var classMR_1_1UnionFind =
     [ "size", "group__GeneralGroup.html#gab0d01d793fad21820791310d7318235e", null ],
     [ "sizeOfComp", "group__GeneralGroup.html#ga009ad612aecca5afb9b91768536c406f", null ],
     [ "unite", "group__GeneralGroup.html#ga0739ab9258f8fc25ef45ce06106fffce", null ],
-    [ "uniteAtomic", "group__GeneralGroup.html#gafc7cf2a20d6a790fde152f300217f16f", null ],
     [ "united", "group__GeneralGroup.html#gaa570cc6f33bbb51fb5859608b9c68fbc", null ]
 ];

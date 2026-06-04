@@ -12,6 +12,5 @@ var classMR_1_1UnionFind__MRUndirectedEdgeId =
     [ "roots", "classMR_1_1UnionFind__MRUndirectedEdgeId.html#ab0b6d1ac6dbc8f75843a36101ca933e2", null ],
     [ "sizeOfComp", "classMR_1_1UnionFind__MRUndirectedEdgeId.html#aac23a201e74dbd68bfd28616745bd622", null ],
     [ "unite", "classMR_1_1UnionFind__MRUndirectedEdgeId.html#a5eaacbbe443ff31a7363380a522e845e", null ],
-    [ "uniteAtomic", "classMR_1_1UnionFind__MRUndirectedEdgeId.html#ab9700df004b5e3702533f3dbb43a3e06", null ],
     [ "united", "classMR_1_1UnionFind__MRUndirectedEdgeId.html#a0e8c9f872fe9bf392dbadad744310afe", null ]
 ];

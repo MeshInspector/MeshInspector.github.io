@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60686" bodyend="60687"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60266" bodyend="60267"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1a815b676679879a13b76f760a76fbfad3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UiRenderManager" kindref="compound">UiRenderManager</ref></type>
@@ -45,7 +45,29 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60689" bodyend="60690"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60270" bodyend="60271"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1a815b676679879a13b76f760a76fbfad3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UiRenderManager" kindref="compound">UiRenderManager</ref></type>
+        <definition> UiRenderManager mrmeshpy.UiRenderManager.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UiRenderManager.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60274" bodyend="60275"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -65,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60692" bodyend="60693"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60277" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60277" bodyend="60278"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1a459c4282d56438938801ba9439a6e2c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -89,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60695" bodyend="60698"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60280" bodyend="60283"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1af59ee051a0989de9f79805bbc176e585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask.BackwardPassParams</ref></type>
@@ -118,7 +140,7 @@ This will be called exactly once per viewport, each time the UI in it is rendere
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60699" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60699" bodyend="60703"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60284" bodyend="60288"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1afda41d16e224514c07953d1ec83c8617" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -146,7 +168,7 @@ This will be called exactly once per viewport, each time the UI in it is rendere
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60704" bodyend="60707"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60289" bodyend="60292"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1a067bb7f77a40d0e5d9635a3fc9db7fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -170,7 +192,7 @@ This will be called exactly once per viewport, each time the UI in it is rendere
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60708" bodyend="60711"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60293" bodyend="60296"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1a6b9cb12f1d8db7f2f9d7094b0571a0c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -194,7 +216,7 @@ This will be called exactly once per viewport, each time the UI in it is rendere
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60712" bodyend="60715"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60297" bodyend="60300"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -203,13 +225,14 @@ This will be called exactly once per viewport, each time the UI in it is rendere
 <para><verbatim>Generated from:  MR::UiRenderManager
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60680" bodyend="60715"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60260" bodyend="60300"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1UiRenderManager_1a20c9940aa19600e35e262371e624cd98" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UiRenderManager_1ac551d7294dc660267221d297938b75ac" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UiRenderManager_1a459c4282d56438938801ba9439a6e2c5" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UiRenderManager_1af59ee051a0989de9f79805bbc176e585" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>beginBackwardPass</name></member>
       <member refid="classmrmeshpy_1_1UiRenderManager_1afda41d16e224514c07953d1ec83c8617" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>finishBackwardPass</name></member>
+      <member refid="classmrmeshpy_1_1UiRenderManager_1a815b676679879a13b76f760a76fbfad3" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1UiRenderManager_1a815b676679879a13b76f760a76fbfad3" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1UiRenderManager_1a067bb7f77a40d0e5d9635a3fc9db7fd8" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>postRenderViewport</name></member>
       <member refid="classmrmeshpy_1_1UiRenderManager_1a6b9cb12f1d8db7f2f9d7094b0571a0c1" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>preRenderViewport</name></member>

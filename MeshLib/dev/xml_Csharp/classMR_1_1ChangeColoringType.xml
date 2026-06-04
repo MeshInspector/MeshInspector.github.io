@@ -173,25 +173,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" line="212" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" bodystart="212" bodyend="222"/>
       </memberdef>
-      <memberdef kind="function" id="classMR_1_1ChangeColoringType_1affc2b2dced5724b57e47a053bcdb4051" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe <ref refid="classMR_1_1ChangeColoringType" kindref="compound">MR.ChangeColoringType</ref></type>
-        <definition>unsafe MR.ChangeColoringType MR.ChangeColoringType.assign</definition>
-        <argsstring>(MR._ByValue_ChangeColoringType _other)</argsstring>
-        <name>assign</name>
-        <qualifiedname>MR.ChangeColoringType.assign</qualifiedname>
-        <param>
-          <type>MR._ByValue_ChangeColoringType</type>
-          <declname>_other</declname>
-        </param>
-        <briefdescription>
-<para>Generated from method <computeroutput>MR::ChangeColoringType::operator=</computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" line="227" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" bodystart="227" bodyend="234"/>
-      </memberdef>
       <memberdef kind="function" id="classMR_1_1ChangeColoringType_1a441dd3921cf7fd0bbdc79f29ab37d119" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
         <definition>unsafe void MR.ChangeColoringType.action</definition>
@@ -209,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" line="239" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" bodystart="239" bodyend="244"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" line="227" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" bodystart="227" bodyend="232"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -261,10 +242,9 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" line="145" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" bodystart="146" bodyend="245"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" line="145" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringType.cs" bodystart="146" bodyend="233"/>
     <listofallmembers>
       <member refid="classMR_1_1ChangeColoringType_1a441dd3921cf7fd0bbdc79f29ab37d119" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>action</name></member>
-      <member refid="classMR_1_1ChangeColoringType_1affc2b2dced5724b57e47a053bcdb4051" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>assign</name></member>
       <member refid="classMR_1_1ChangeColoringType_1aa3a2691b31cbaeff7e8efa8e5d74ebea" prot="package" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>ChangeColoringType</name></member>
       <member refid="classMR_1_1ChangeColoringType_1a981d74a6efd4a31b38bacbf13612a218" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>ChangeColoringType</name></member>
       <member refid="classMR_1_1ChangeColoringType_1a4ec72b7f00f5dfdbe9694b54ca57e7a0" prot="public" virt="non-virtual"><scope>MR::ChangeColoringType</scope><name>ChangeColoringType</name></member>
