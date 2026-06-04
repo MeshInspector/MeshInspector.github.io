@@ -305,6 +305,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga94712bce613ec3f52b3d976ed63e7910" id="r_ga94712bce613ec3f52b3d976ed63e7910"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga94712bce613ec3f52b3d976ed63e7910">MR::utf8string</a> (const std::string &amp;)=delete</td></tr>
 <tr class="memdesc:ga94712bce613ec3f52b3d976ed63e7910"><td class="mdescLeft">&#160;</td><td class="mdescRight">it is a mistake to call the function with implicit construction of path from string  <br /></td></tr>
 <tr class="memitem:gabcd2fb63d421c0032f7bf3137e782982" id="r_gabcd2fb63d421c0032f7bf3137e782982"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabcd2fb63d421c0032f7bf3137e782982">MR::utf8substr</a> (const char *s, size_t pos, size_t count)</td></tr>
+<tr class="memitem:ga7036065ef1d5168bd166eb7895394d25" id="r_ga7036065ef1d5168bd166eb7895394d25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::pair&lt; char32_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7036065ef1d5168bd166eb7895394d25">MR::utf8ToCodepoint</a> (const char *s, size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
+<tr class="memitem:gabd7414ba2653a2f31bde754990038ce6" id="r_gabd7414ba2653a2f31bde754990038ce6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::u32string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabd7414ba2653a2f31bde754990038ce6">MR::utf8ToUtf32</a> (const std::string &amp;str)</td></tr>
+<tr class="memdesc:gabd7414ba2653a2f31bde754990038ce6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the given UTF-8 encoded string to a UTF-32 encoded string.  <br /></td></tr>
 <tr class="memitem:gadb2cca06671907541b4af5960869bc39" id="r_gadb2cca06671907541b4af5960869bc39"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadb2cca06671907541b4af5960869bc39">MR::bytesString</a> (size_t <a class="el" href="group__GeneralGroup.html#ga306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
 <tr class="memitem:gaaf7db2c19eab5cb5d5a7d91d8ae03dc9" id="r_gaaf7db2c19eab5cb5d5a7d91d8ae03dc9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaf7db2c19eab5cb5d5a7d91d8ae03dc9">MR::isProhibitedChar</a> (char c)</td></tr>
 <tr class="memitem:ga75f7cb4b645982d30dba61ff273f7690" id="r_ga75f7cb4b645982d30dba61ff273f7690"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga75f7cb4b645982d30dba61ff273f7690">MR::hasProhibitedChars</a> (const std::string &amp;line)</td></tr>
@@ -3174,6 +3177,38 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 </div>
 </div>
+<a id="ga7036065ef1d5168bd166eb7895394d25" name="ga7036065ef1d5168bd166eb7895394d25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7036065ef1d5168bd166eb7895394d25">&#9670;&#160;</a></span>utf8ToCodepoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::pair&lt; char32_t, size_t &gt; MR::utf8ToCodepoint </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRStringConvert_8h.html">MRMesh/MRStringConvert.h</a>&gt;</code></p>
+<p>Reads the first code point from the given UTF-8 encoded string and returns the code point and a number of consumed bytes. If the string starts from an invalid UTF-8 sequence, the replacement character (U+FFFD) is returned. Note that the function checks neither for the null pointer nor for the null character; it is user responsibility to pass correct values. </p>
+
+</div>
+</div>
 <a id="ga1b87be01485e0c20473245dcf0801542" name="ga1b87be01485e0c20473245dcf0801542"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga1b87be01485e0c20473245dcf0801542">&#9670;&#160;</a></span>utf8ToSystem()</h2>
 
@@ -3199,6 +3234,35 @@ template&lt;typename T, typename <a class="el" href="group__GeneralGroup.html#ga
 
 <p><code>#include &lt;<a class="el" href="MRStringConvert_8h.html">MRMesh/MRStringConvert.h</a>&gt;</code></p>
 <p>converts UTF8-encoded string to system encoded string, returns empty string if such conversion cannot be made </p>
+
+</div>
+</div>
+<a id="gabd7414ba2653a2f31bde754990038ce6" name="gabd7414ba2653a2f31bde754990038ce6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd7414ba2653a2f31bde754990038ce6">&#9670;&#160;</a></span>utf8ToUtf32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::u32string MR::utf8ToUtf32 </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRStringConvert_8h.html">MRMesh/MRStringConvert.h</a>&gt;</code></p>
+
+<p>Converts the given UTF-8 encoded string to a UTF-32 encoded string. </p>
 
 </div>
 </div>

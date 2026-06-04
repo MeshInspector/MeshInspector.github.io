@@ -6425,6 +6425,10 @@ var group__GeneralGroup =
       [ "loadAllFonts", "group__GeneralGroup.html#gadbf6aadf4dfe32b0b164735eb68c157b", null ],
       [ "setNewFontPaths", "group__GeneralGroup.html#ga4ec42bb68d5b28aabef0f28fce200eaf", null ]
     ] ],
+    [ "MR::FontLoadSettings", "structMR_1_1FontLoadSettings.html", [
+      [ "forceBold", "group__GeneralGroup.html#gacfdb5b481c5283f372c44f834757b47c", null ],
+      [ "mergeMode", "group__GeneralGroup.html#gab3b0a0f725a458351575eea540e60d2c", null ]
+    ] ],
     [ "MR::RibbonIcons", "classMR_1_1RibbonIcons.html", [
       [ "ColorType", "group__GeneralGroup.html#gacd06ecfde8f0637bb01c0d36d8605bef", [
         [ "Colored", "group__GeneralGroup.html#ggacd06ecfde8f0637bb01c0d36d8605befa23aad110ee43b97ef120fbbeb743d81c", null ],
@@ -12122,7 +12126,7 @@ var group__GeneralGroup =
     [ "MR::SurfacePointWidget::getCoords", "group__GeneralGroup.html#ga775322fca57cb51a042839d08f3b3548", null ],
     [ "MR::getCornerControllerHoveredTextureMap", "group__GeneralGroup.html#ga55f58a4057cd5d3de1c02f21a662844d", null ],
     [ "MR::getCornerControllerRegionByFace", "group__GeneralGroup.html#ga65895e75456ca8655c55ab91d35bac5d", null ],
-    [ "MR::getCornerControllerTexureMap", "group__GeneralGroup.html#ga5d38836d4573c6e43578576bc8175882", null ],
+    [ "MR::getCornerControllerTextureMap", "group__GeneralGroup.html#ga23deff8ac04614475d088b74994bcd8a", null ],
     [ "MR::GetCpuId", "group__GeneralGroup.html#gabed15f3404ef86fad2f19fcb07f6669c", null ],
     [ "MR::getCrossedFaces", "group__GeneralGroup.html#ga338f2046cb00cced67c5d0e4504ea8c7", null ],
     [ "MR::Cuda::getCudaAvailableMemory", "group__GeneralGroup.html#gae3d6344c4c9b5959665fdde2ddc4a838", null ],
@@ -13224,6 +13228,7 @@ var group__GeneralGroup =
     [ "MR::IViewerSettingsManager::loadBool", "group__GeneralGroup.html#ga06f9dd76c37cf576cfd31923c38dfcd0", null ],
     [ "MR::ViewerSettingsManager::loadBool", "group__GeneralGroup.html#ga7c4de0cb30e8bc3f573117ecd4374f08", null ],
     [ "MR::loadCornerControllerTextures", "group__GeneralGroup.html#ga9b048d4818b9724dbe48e12c8f9aadc7", null ],
+    [ "MR::loadCustomFont", "group__GeneralGroup.html#ga1628beeda69a17247ed269bffc6995b1", null ],
     [ "MR::GlBuffer::loadData", "group__GeneralGroup.html#ga39877281390de95c6295a7705ebecdf8", null ],
     [ "MR::GlBuffer::loadData", "group__GeneralGroup.html#ga188fff3093791f8110a4763c4859075f", null ],
     [ "MR::GlBuffer::loadData", "group__GeneralGroup.html#ga33dad630406717f4906415d48468fd4c", null ],
@@ -16946,6 +16951,7 @@ var group__GeneralGroup =
     [ "MR::Pdf::TableGeneralParams::fontSize", "group__GeneralGroup.html#ga2e3f2fa34910012c4d09f57c480d85b6", null ],
     [ "MR::Pdf::TextParams::fontSize", "group__GeneralGroup.html#ga1aadfe2a66b4a923bc30460ceb9619c7", null ],
     [ "MR::RelaxParams::force", "group__GeneralGroup.html#ga7f58a3b0b7e5c09209f53edd90b4371a", null ],
+    [ "MR::FontLoadSettings::forceBold", "group__GeneralGroup.html#gacfdb5b481c5283f372c44f834757b47c", null ],
     [ "MR::UniteManyMeshesParams::forceCut", "group__GeneralGroup.html#gac647b8fce386278e1b3407f1b5f314e5", null ],
     [ "MR::DrawButtonParams::forceHovered", "group__GeneralGroup.html#gae484e8e2139ec5d170493607d8987a20", null ],
     [ "MR::UI::ButtonCustomizationParams::forceImGuiBackground", "group__GeneralGroup.html#gaa156c6a89d078c902ee22cbfb09bfc42", null ],
@@ -17267,6 +17273,7 @@ var group__GeneralGroup =
     [ "MR::OffsetParameters::memoryEfficient", "group__GeneralGroup.html#gabd9bbd0481fadc99967608720c11fee4", null ],
     [ "MR::ComputeSweptVolumeParameters::memoryLimit", "group__GeneralGroup.html#ga4cbfdf9b6dd57369b2f808629eb3a4a4", null ],
     [ "MR::RibbonConfig::menuUIConfig", "group__GeneralGroup.html#ga5002834cd308d2eeda7cc7f532840f8a", null ],
+    [ "MR::FontLoadSettings::mergeMode", "group__GeneralGroup.html#gab3b0a0f725a458351575eea540e60d2c", null ],
     [ "MR::UniteManyMeshesParams::mergeOnFail", "group__GeneralGroup.html#ga37fc9fd84323ac5579854222ba3453c8", null ],
     [ "MR::Mesh", "group__GeneralGroup.html#ga49165bcb87a59752b8f02f19ea7f2424", null ],
     [ "MR::MeshRegion::mesh", "group__GeneralGroup.html#gad1bf8f740e649b73d3a93bd0eba5e609", null ],

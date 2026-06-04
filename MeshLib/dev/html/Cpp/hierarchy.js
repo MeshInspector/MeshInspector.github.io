@@ -436,6 +436,7 @@ var hierarchy =
     [ "MR::FlowAggregator", "classMR_1_1FlowAggregator.html", null ],
     [ "MR::FlowOrigin", "structMR_1_1FlowOrigin.html", null ],
     [ "MR::FlowAggregator::Flows", "structMR_1_1FlowAggregator_1_1Flows.html", null ],
+    [ "MR::FontLoadSettings", "structMR_1_1FontLoadSettings.html", null ],
     [ "MR::FormatRegistry< Processor >", "classMR_1_1FormatRegistry.html", null ],
     [ "fmt::formatter", null, [
       [ "fmt::formatter< MR::BitSet >", "structfmt_1_1formatter_3_01MR_1_1BitSet_01_4.html", null ],

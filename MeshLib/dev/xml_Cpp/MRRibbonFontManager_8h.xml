@@ -145,6 +145,7 @@
     </invincdepgraph>
     <innerclass refid="classMR_1_1RibbonFontManager" prot="public">MR::RibbonFontManager</innerclass>
     <innerclass refid="structMR_1_1RibbonFontManager_1_1FontData" prot="private">MR::RibbonFontManager::FontData</innerclass>
+    <innerclass refid="structMR_1_1FontLoadSettings" prot="public">MR::FontLoadSettings</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -229,7 +230,14 @@
 <codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>loadFont_(<sp/>FontType<sp/>type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ImWchar*<sp/>ranges<sp/>);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99" refid="structMR_1_1FontLoadSettings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FontLoadSettings" kindref="compound">FontLoadSettings</ref></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="102" refid="group__GeneralGroup_1gacfdb5b481c5283f372c44f834757b47c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gacfdb5b481c5283f372c44f834757b47c" kindref="member">forceBold</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104" refid="group__GeneralGroup_1gab3b0a0f725a458351575eea540e60d2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab3b0a0f725a458351575eea540e60d2c" kindref="member">mergeMode</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="107" refid="group__GeneralGroup_1ga1628beeda69a17247ed269bffc6995b1" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>ImFont*<sp/><ref refid="group__GeneralGroup_1ga1628beeda69a17247ed269bffc6995b1" kindref="member">loadCustomFont</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::filesystem::path&amp;<sp/>fontPath,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fontSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FontLoadSettings" kindref="compound">FontLoadSettings</ref>&amp;<sp/>settings<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="MRViewer/MRRibbonFontManager.h"/>
   </compounddef>

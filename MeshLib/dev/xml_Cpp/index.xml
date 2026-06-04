@@ -3457,6 +3457,10 @@
     <member refid="group__GeneralGroup_1gacfc38fa3a885c9eaecf1e1d5161791dc" kind="variable"><name>scaledOffset</name></member>
     <member refid="group__GeneralGroup_1ga4e4fa0db8b4e8f094eb0bff476d96d9c" kind="variable"><name>fontPtr</name></member>
   </compound>
+  <compound refid="structMR_1_1FontLoadSettings" kind="struct"><name>MR::FontLoadSettings</name>
+    <member refid="group__GeneralGroup_1gacfdb5b481c5283f372c44f834757b47c" kind="variable"><name>forceBold</name></member>
+    <member refid="group__GeneralGroup_1gab3b0a0f725a458351575eea540e60d2c" kind="variable"><name>mergeMode</name></member>
+  </compound>
   <compound refid="classMR_1_1FormatRegistry" kind="class"><name>MR::FormatRegistry</name>
     <member refid="classMR_1_1FormatRegistry_1a70e6d21157723a6950876ba0ad9f705d" kind="variable"><name>processors_</name></member>
     <member refid="classMR_1_1FormatRegistry_1afc9cb47ecdb3770897ac461550e805ce" kind="variable"><name>filterPriorityQueue_</name></member>
@@ -15354,6 +15358,8 @@
     <member refid="group__BasicGroup_1ga98812dc656fac3fb9c565e7fc0c7922d" kind="function"><name>utf8string</name></member>
     <member refid="group__BasicGroup_1ga94712bce613ec3f52b3d976ed63e7910" kind="function"><name>utf8string</name></member>
     <member refid="group__BasicGroup_1gabcd2fb63d421c0032f7bf3137e782982" kind="function"><name>utf8substr</name></member>
+    <member refid="group__BasicGroup_1ga7036065ef1d5168bd166eb7895394d25" kind="function"><name>utf8ToCodepoint</name></member>
+    <member refid="group__BasicGroup_1gabd7414ba2653a2f31bde754990038ce6" kind="function"><name>utf8ToUtf32</name></member>
     <member refid="group__BasicGroup_1gadb2cca06671907541b4af5960869bc39" kind="function"><name>bytesString</name></member>
     <member refid="group__BasicGroup_1gaaf7db2c19eab5cb5d5a7d91d8ae03dc9" kind="function"><name>isProhibitedChar</name></member>
     <member refid="group__BasicGroup_1ga75f7cb4b645982d30dba61ff273f7690" kind="function"><name>hasProhibitedChars</name></member>
@@ -15651,6 +15657,7 @@
     <member refid="group__GeneralGroup_1ga479738b081fce8d7c6c1886a2682004c" kind="function"><name>renderImGui</name></member>
     <member refid="group__GeneralGroup_1ga967298b35a9d34b3cdb830bb43e9201d" kind="function"><name>GetAvailableLineWidthRange</name></member>
     <member refid="group__GeneralGroup_1ga4c4f616dcfee998b3b8291856758241d" kind="function"><name>renderToImage</name></member>
+    <member refid="group__GeneralGroup_1ga1628beeda69a17247ed269bffc6995b1" kind="function"><name>loadCustomFont</name></member>
     <member refid="group__GeneralGroup_1ga3930f402786f9fc077eb6b0c2e18076e" kind="function"><name>createRibbonConfigFromJson</name></member>
     <member refid="group__GeneralGroup_1ga53ed527d48ac5f73d332b491e1b4af56" kind="function"><name>applyRibbonConfig</name></member>
     <member refid="group__GeneralGroup_1gadcdc732c133f1263ac39e56256972ae5" kind="function"><name>pushNotification</name></member>
@@ -15699,7 +15706,7 @@
     <member refid="group__GeneralGroup_1gad638575de26373816cb59fee9d0c508e" kind="function"><name>makeCornerControllerRotationArrowMesh</name></member>
     <member refid="group__GeneralGroup_1gaa118cde424349c7e21ed618816a1de7f" kind="function"><name>makeCornerControllerUVCoords</name></member>
     <member refid="group__GeneralGroup_1ga9b048d4818b9724dbe48e12c8f9aadc7" kind="function"><name>loadCornerControllerTextures</name></member>
-    <member refid="group__GeneralGroup_1ga5d38836d4573c6e43578576bc8175882" kind="function"><name>getCornerControllerTexureMap</name></member>
+    <member refid="group__GeneralGroup_1ga23deff8ac04614475d088b74994bcd8a" kind="function"><name>getCornerControllerTextureMap</name></member>
     <member refid="group__GeneralGroup_1ga65895e75456ca8655c55ab91d35bac5d" kind="function"><name>getCornerControllerRegionByFace</name></member>
     <member refid="group__GeneralGroup_1ga55f58a4057cd5d3de1c02f21a662844d" kind="function"><name>getCornerControllerHoveredTextureMap</name></member>
     <member refid="group__GeneralGroup_1gac1516c648ca1edb3f56c9b5bc47f0271" kind="function"><name>updateCurrentViewByControllerRegion</name></member>
@@ -18673,6 +18680,8 @@
     <member refid="group__BasicGroup_1ga98812dc656fac3fb9c565e7fc0c7922d" kind="function"><name>utf8string</name></member>
     <member refid="group__BasicGroup_1ga94712bce613ec3f52b3d976ed63e7910" kind="function"><name>utf8string</name></member>
     <member refid="group__BasicGroup_1gabcd2fb63d421c0032f7bf3137e782982" kind="function"><name>utf8substr</name></member>
+    <member refid="group__BasicGroup_1ga7036065ef1d5168bd166eb7895394d25" kind="function"><name>utf8ToCodepoint</name></member>
+    <member refid="group__BasicGroup_1gabd7414ba2653a2f31bde754990038ce6" kind="function"><name>utf8ToUtf32</name></member>
     <member refid="group__BasicGroup_1gadb2cca06671907541b4af5960869bc39" kind="function"><name>bytesString</name></member>
     <member refid="group__BasicGroup_1gaaf7db2c19eab5cb5d5a7d91d8ae03dc9" kind="function"><name>isProhibitedChar</name></member>
     <member refid="group__BasicGroup_1ga75f7cb4b645982d30dba61ff273f7690" kind="function"><name>hasProhibitedChars</name></member>
@@ -23598,6 +23607,8 @@
     <member refid="group__GeneralGroup_1gacfc38fa3a885c9eaecf1e1d5161791dc" kind="variable"><name>scaledOffset</name></member>
     <member refid="group__GeneralGroup_1ga4e4fa0db8b4e8f094eb0bff476d96d9c" kind="variable"><name>fontPtr</name></member>
     <member refid="group__GeneralGroup_1gaf86da660c66ca55bb28b31e9f1b9e5d5" kind="variable"><name>fonts_</name></member>
+    <member refid="group__GeneralGroup_1gacfdb5b481c5283f372c44f834757b47c" kind="variable"><name>forceBold</name></member>
+    <member refid="group__GeneralGroup_1gab3b0a0f725a458351575eea540e60d2c" kind="variable"><name>mergeMode</name></member>
     <member refid="group__GeneralGroup_1gaed0f3941ebd4706c243f8028f00fa10b" kind="variable"><name>colored</name></member>
     <member refid="group__GeneralGroup_1ga5393f41d456609657a0ec506c3d1006b" kind="variable"><name>white</name></member>
     <member refid="group__GeneralGroup_1ga8e7be73585be2d1e172f4043af2dd7da" kind="variable"><name>pathDirectory</name></member>
@@ -29280,6 +29291,7 @@
     <member refid="group__GeneralGroup_1ga48958524a6911a821df8d9ece3ce6c8e" kind="function"><name>getFontManagerInstance_</name></member>
     <member refid="group__GeneralGroup_1gad1013f4757f1d8d8ad9ee4f01ae4609d" kind="function"><name>updateFontsScaledOffset_</name></member>
     <member refid="group__GeneralGroup_1ga51990006b68808337e04835ea87a45e1" kind="function"><name>loadFont_</name></member>
+    <member refid="group__GeneralGroup_1ga1628beeda69a17247ed269bffc6995b1" kind="function"><name>loadCustomFont</name></member>
     <member refid="group__GeneralGroup_1ga51b8d6a536627bc2449b71fd53d55165" kind="function"><name>load</name></member>
     <member refid="group__GeneralGroup_1ga7200bd05b72f77ec5cb880c7a0f95ccb" kind="function"><name>free</name></member>
     <member refid="group__GeneralGroup_1ga4b5c283c5be7cbd06e3dace86569fbe5" kind="function"><name>findByName</name></member>
@@ -30506,7 +30518,7 @@
     <member refid="group__GeneralGroup_1gad638575de26373816cb59fee9d0c508e" kind="function"><name>makeCornerControllerRotationArrowMesh</name></member>
     <member refid="group__GeneralGroup_1gaa118cde424349c7e21ed618816a1de7f" kind="function"><name>makeCornerControllerUVCoords</name></member>
     <member refid="group__GeneralGroup_1ga9b048d4818b9724dbe48e12c8f9aadc7" kind="function"><name>loadCornerControllerTextures</name></member>
-    <member refid="group__GeneralGroup_1ga5d38836d4573c6e43578576bc8175882" kind="function"><name>getCornerControllerTexureMap</name></member>
+    <member refid="group__GeneralGroup_1ga23deff8ac04614475d088b74994bcd8a" kind="function"><name>getCornerControllerTextureMap</name></member>
     <member refid="group__GeneralGroup_1ga65895e75456ca8655c55ab91d35bac5d" kind="function"><name>getCornerControllerRegionByFace</name></member>
     <member refid="group__GeneralGroup_1ga55f58a4057cd5d3de1c02f21a662844d" kind="function"><name>getCornerControllerHoveredTextureMap</name></member>
     <member refid="group__GeneralGroup_1gac1516c648ca1edb3f56c9b5bc47f0271" kind="function"><name>updateCurrentViewByControllerRegion</name></member>

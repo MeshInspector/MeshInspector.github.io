@@ -223,7 +223,7 @@ var NAVTREEINDEX7 =
 "classMR_1_1ConeObject.html":[6,0,0,11,0,1],
 "classMR_1_1ConeObject.html":[6,0,0,20,167],
 "classMR_1_1Config.html":[6,0,0,20,168],
-"classMR_1_1CornerControllerObject.html":[6,0,0,20,802],
+"classMR_1_1CornerControllerObject.html":[6,0,0,20,803],
 "classMR_1_1CudaAccessor.html":[6,0,0,20,555],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html":[6,0,1,0,1,2,0],
 "classMR_1_1Cuda_1_1ComputeToolDistance.html":[6,0,2,0,2,0,0],

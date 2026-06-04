@@ -548,6 +548,7 @@ var annotated_dup =
       [ "FloatGrid", "classMR_1_1FloatGrid.html", "classMR_1_1FloatGrid" ],
       [ "FlowAggregator", "classMR_1_1FlowAggregator.html", "classMR_1_1FlowAggregator" ],
       [ "FlowOrigin", "structMR_1_1FlowOrigin.html", "structMR_1_1FlowOrigin" ],
+      [ "FontLoadSettings", "structMR_1_1FontLoadSettings.html", "structMR_1_1FontLoadSettings" ],
       [ "FormatRegistry", "classMR_1_1FormatRegistry.html", null ],
       [ "FramebufferData", "classMR_1_1FramebufferData.html", "classMR_1_1FramebufferData" ],
       [ "FrameCounter", "classMR_1_1FrameCounter.html", "classMR_1_1FrameCounter" ],
