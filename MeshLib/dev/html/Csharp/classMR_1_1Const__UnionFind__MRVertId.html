@@ -140,13 +140,14 @@ $(function(){initNavTree('classMR_1_1Const__UnionFind__MRVertId.html','','classM
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classMR_1_1Const__UnionFind__MRVertId-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.Const_UnionFind_MRVertId Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element.  
+<p>Union-find data structure for representing disjoint sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. Sequential implementation that selects the root of a united pair by set size for best performance.  
  <a href="#details">More...</a></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;"><span class="dynarrow"><span class="arrowhead closed"></span></span>Inheritance diagram for MR.Const_UnionFind_MRVertId:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -155,7 +156,7 @@ $(function(){initNavTree('classMR_1_1Const__UnionFind__MRVertId.html','','classM
  <div class="center">
   <img src="classMR_1_1Const__UnionFind__MRVertId.png" usemap="#MR_2EConst_5FUnionFind_5FMRVertId_map" alt=""/>
   <map id="MR_2EConst_5FUnionFind_5FMRVertId_map" name="MR_2EConst_5FUnionFind_5FMRVertId_map">
-<area href="classMR_1_1UnionFind__MRVertId.html" title="Union-find data structure for representing disjoin sets of elements with few very quick operations: 1..." alt="MR.UnionFind_MRVertId" shape="rect" coords="100,112,291,136"/>
+<area href="classMR_1_1UnionFind__MRVertId.html" title="Union-find data structure for representing disjoint sets of elements with few very quick operations: ..." alt="MR.UnionFind_MRVertId" shape="rect" coords="100,112,291,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -176,6 +177,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a04c639a220b085c14ef70a0d2f8022f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::UnionFind</span>.  <br /></td></tr>
 <tr class="memitem:ad779ba70f527eeaf0bacbffc5a3956e5" id="r_ad779ba70f527eeaf0bacbffc5a3956e5"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad779ba70f527eeaf0bacbffc5a3956e5">Const_UnionFind_MRVertId</a> (ulong <a class="el" href="#a1a70c4aa9ff1b12ff3758573b98599b3">size</a>)</td></tr>
 <tr class="memdesc:ad779ba70f527eeaf0bacbffc5a3956e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates union-find with given number of elements, each element is the only one in its disjoint set Generated from constructor <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::UnionFind</span>.  <br /></td></tr>
+<tr class="memitem:a79d831037315b314420a7aef36624a77" id="r_a79d831037315b314420a7aef36624a77"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79d831037315b314420a7aef36624a77">Const_UnionFind_MRVertId</a> (MR.Misc._Moved&lt; <a class="el" href="classMR_1_1BaseUnionFind__MRVertId.html">MR.BaseUnionFind_MRVertId</a> &gt; base_)</td></tr>
+<tr class="memdesc:a79d831037315b314420a7aef36624a77"><td class="mdescLeft">&#160;</td><td class="mdescRight">adopts the parent forest of a base/parallel union-find and (re)computes set sizes, so the result supports the full sequential interface (e.g. unite, sizeOfComp) Generated from constructor <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::UnionFind</span>.  <br /></td></tr>
 <tr class="memitem:a1a70c4aa9ff1b12ff3758573b98599b3" id="r_a1a70c4aa9ff1b12ff3758573b98599b3"><td class="memItemLeft" align="right" valign="top">unsafe ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a70c4aa9ff1b12ff3758573b98599b3">size</a> ()</td></tr>
 <tr class="memdesc:a1a70c4aa9ff1b12ff3758573b98599b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of elements in union-find Generated from method <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;<a class="el" href="#a1a70c4aa9ff1b12ff3758573b98599b3" title="returns the number of elements in union-find Generated from method MR.UnionFind&lt;MR....">size</a></span>.  <br /></td></tr>
 <tr class="memitem:a95716eb31d029e792bef4db71dfc7044" id="r_a95716eb31d029e792bef4db71dfc7044"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95716eb31d029e792bef4db71dfc7044">isRoot</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> a)</td></tr>
@@ -185,21 +188,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac29f4255211fe88af4ac0ca09fd99b3b" id="r_ac29f4255211fe88af4ac0ca09fd99b3b"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="classMR_1_1Const__VertMap.html">MR.Const_VertMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac29f4255211fe88af4ac0ca09fd99b3b">parents</a> ()</td></tr>
 <tr class="memdesc:ac29f4255211fe88af4ac0ca09fd99b3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the parents of all elements as is Generated from method <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;<a class="el" href="#ac29f4255211fe88af4ac0ca09fd99b3b" title="gets the parents of all elements as is Generated from method MR.UnionFind&lt;MR.VertId&gt;parents.">parents</a></span>.  <br /></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a8a2bf3051e2712cca0efc883a11cf8e4" id="r_a8a2bf3051e2712cca0efc883a11cf8e4"><td class="memItemLeft" align="right" valign="top">static unsafe implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a2bf3051e2712cca0efc883a11cf8e4">operator MR.Const_BaseUnionFind_MRVertId</a> (<a class="el" href="classMR_1_1Const__UnionFind__MRVertId.html">Const_UnionFind_MRVertId</a> self)</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:adf2309fd8df2432a6ace8ce279196ac2" id="r_adf2309fd8df2432a6ace8ce279196ac2"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf2309fd8df2432a6ace8ce279196ac2">Dispose</a> (bool disposing)</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. </p>
+<div class="textblock"><p>Union-find data structure for representing disjoint sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. Sequential implementation that selects the root of a united pair by set size for best performance. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">I</td><td>is the identifier of a set's element, e.g. <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> Generated from class <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;</span>. This is the const half of the class. </td></tr>
+    <tr><td class="paramname">I</td><td>is the identifier of a set's element, e.g. <a class="el" href="structMR_1_1FaceId.html" title="Generated from class MR.FaceId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">FaceId</a> Generated from class <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::BaseUnionFind&amp;lt;<a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;</span> This is the const half of the class. </td></tr>
   </table>
   </dd>
 </dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a074d162af4f854f4014c985b95ec19a1" name="a074d162af4f854f4014c985b95ec19a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a074d162af4f854f4014c985b95ec19a1">&#9670;&#160;</a></span>Const_UnionFind_MRVertId() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a074d162af4f854f4014c985b95ec19a1">&#9670;&#160;</a></span>Const_UnionFind_MRVertId() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,7 +233,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a37b8bb6c0ce2dab1740d080cc3dd14fb" name="a37b8bb6c0ce2dab1740d080cc3dd14fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37b8bb6c0ce2dab1740d080cc3dd14fb">&#9670;&#160;</a></span>Const_UnionFind_MRVertId() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a37b8bb6c0ce2dab1740d080cc3dd14fb">&#9670;&#160;</a></span>Const_UnionFind_MRVertId() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -253,7 +260,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a1b4dbfdbccd810238060904f8153180a" name="a1b4dbfdbccd810238060904f8153180a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b4dbfdbccd810238060904f8153180a">&#9670;&#160;</a></span>Const_UnionFind_MRVertId() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b4dbfdbccd810238060904f8153180a">&#9670;&#160;</a></span>Const_UnionFind_MRVertId() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,7 +287,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a04c639a220b085c14ef70a0d2f8022f3" name="a04c639a220b085c14ef70a0d2f8022f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04c639a220b085c14ef70a0d2f8022f3">&#9670;&#160;</a></span>Const_UnionFind_MRVertId() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a04c639a220b085c14ef70a0d2f8022f3">&#9670;&#160;</a></span>Const_UnionFind_MRVertId() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,7 +314,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="ad779ba70f527eeaf0bacbffc5a3956e5" name="ad779ba70f527eeaf0bacbffc5a3956e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad779ba70f527eeaf0bacbffc5a3956e5">&#9670;&#160;</a></span>Const_UnionFind_MRVertId() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad779ba70f527eeaf0bacbffc5a3956e5">&#9670;&#160;</a></span>Const_UnionFind_MRVertId() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -330,6 +337,33 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>creates union-find with given number of elements, each element is the only one in its disjoint set Generated from constructor <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::UnionFind</span>. </p>
+
+</div>
+</div>
+<a id="a79d831037315b314420a7aef36624a77" name="a79d831037315b314420a7aef36624a77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79d831037315b314420a7aef36624a77">&#9670;&#160;</a></span>Const_UnionFind_MRVertId() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.Const_UnionFind_MRVertId.Const_UnionFind_MRVertId </td>
+          <td>(</td>
+          <td class="paramtype">MR.Misc._Moved&lt; <a class="el" href="classMR_1_1BaseUnionFind__MRVertId.html">MR.BaseUnionFind_MRVertId</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>base_</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>adopts the parent forest of a base/parallel union-find and (re)computes set sizes, so the result supports the full sequential interface (e.g. unite, sizeOfComp) Generated from constructor <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;::UnionFind</span>. </p>
 
 </div>
 </div>
@@ -408,6 +442,31 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns true if given element is the root of some set Generated from method <span class="tt">MR::UnionFind&amp;lt;<a class="el" href="structMR_1_1VertId.html" title="Generated from class MR.VertId. Derived classes: Direct: (non-virtual) MR.NoDefInit&lt;MR....">MR.VertId</a>&amp;gt;<a class="el" href="#a95716eb31d029e792bef4db71dfc7044" title="returns true if given element is the root of some set Generated from method MR.UnionFind&lt;MR....">isRoot</a></span>. </p>
+
+</div>
+</div>
+<a id="a8a2bf3051e2712cca0efc883a11cf8e4" name="a8a2bf3051e2712cca0efc883a11cf8e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a2bf3051e2712cca0efc883a11cf8e4">&#9670;&#160;</a></span>operator MR.Const_BaseUnionFind_MRVertId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe implicit MR.Const_UnionFind_MRVertId.operator <a class="el" href="classMR_1_1Const__BaseUnionFind__MRVertId.html">MR.Const_BaseUnionFind_MRVertId</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Const__UnionFind__MRVertId.html">Const_UnionFind_MRVertId</a></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

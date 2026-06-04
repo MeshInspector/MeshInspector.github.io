@@ -244,7 +244,7 @@ var searchData=
   ['simplelambda_16',['SimpleLambda',['../group__GeneralGroup.html#gadf0efc0eaab84312e1058ba6f3d8cb95',1,'MR::LambdaRibbonItem']]],
   ['sink_5fptr_17',['sink_ptr',['../namespacespdlog.html#ace143432a1dd3e3ddde8949f014f90da',1,'spdlog']]],
   ['size_5ftype_18',['size_type',['../classMR_1_1BitSet.html#a029565ede6f02c029a79d6821794eca3',1,'MR::BitSet::size_type'],['../group__GeneralGroup.html#ga657bf77bb26190bcd1415b93138f77d9',1,'MR::PriorityQueue::size_type']]],
-  ['sizetype_19',['SizeType',['../group__GeneralGroup.html#gad07cce64defb1fcef686551aecfd55d0',1,'MR::UnionFind']]],
+  ['sizetype_19',['SizeType',['../group__GeneralGroup.html#gaa88958d9af0b7f8bf07e0ae35807f9cf',1,'MR::BaseUnionFind::SizeType'],['../group__GeneralGroup.html#gad07cce64defb1fcef686551aecfd55d0',1,'MR::UnionFind::SizeType']]],
   ['sm_20',['SM',['../group__GeneralGroup.html#gadea6aa750372ae79cb7d305a5f939f50',1,'MR::QuadraticForm']]],
   ['spacemousekeysignal_21',['SpaceMouseKeySignal',['../group__GeneralGroup.html#ga9743f62b8bb399b86d0706f5674164f3',1,'MR::ViewerSignals']]],
   ['spacemousemovesignal_22',['SpaceMouseMoveSignal',['../group__GeneralGroup.html#ga01a10614f8eeeaabcc8e586facc221c5',1,'MR::ViewerSignals']]],

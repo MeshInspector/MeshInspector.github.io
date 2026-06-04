@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classMR_1_1UnionFind" kind="class" language="C++" prot="public">
     <compoundname>MR::UnionFind</compoundname>
+    <basecompoundref refid="classMR_1_1BaseUnionFind" prot="public" virt="non-virtual">MR::BaseUnionFind&lt; I &gt;</basecompoundref>
     <includes refid="MRUnionFind_8h" local="no">MRMesh/MRUnionFind.h</includes>
     <templateparamlist>
       <param>
@@ -12,32 +13,18 @@
       <member refid="group__GeneralGroup_1gad07cce64defb1fcef686551aecfd55d0" kind="typedef"><name>SizeType</name></member>
     </sectiondef>
     <sectiondef kind="private-attrib">
-      <member refid="group__GeneralGroup_1ga1b2c81b705c8244a87ae8287f87139d7" kind="variable"><name>parents_</name></member>
       <member refid="group__GeneralGroup_1ga7cde5d5801abded20752408ce29b27fc" kind="variable"><name>sizes_</name></member>
     </sectiondef>
     <sectiondef kind="public-func">
       <member refid="group__GeneralGroup_1ga67ccf008e0816480dca10b19c530a7b1" kind="function"><name>UnionFind</name></member>
       <member refid="group__GeneralGroup_1ga661398df57a710beae6f4b7c19ac3006" kind="function"><name>UnionFind</name></member>
-      <member refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" kind="function"><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga5ef4500d4204cea8be5933e543edb6b2" kind="function"><name>UnionFind</name></member>
       <member refid="group__GeneralGroup_1ga6a74089f75f3b88edf1a6fb0beba1e13" kind="function"><name>reset</name></member>
       <member refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" kind="function"><name>unite</name></member>
-      <member refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" kind="function"><name>united</name></member>
-      <member refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" kind="function"><name>isRoot</name></member>
-      <member refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" kind="function"><name>parent</name></member>
-      <member refid="group__GeneralGroup_1ga26e79fd903c0229dbd2f66a80549c75b" kind="function"><name>find</name></member>
-      <member refid="group__GeneralGroup_1gabf32e7c70e8d67a82d759ad44a5b08c1" kind="function"><name>findUpdateRange</name></member>
-      <member refid="group__GeneralGroup_1ga5b1ee758f69d77277361f8cbe1e0d77e" kind="function"><name>roots</name></member>
-      <member refid="group__GeneralGroup_1gaddfb36167fbd876c96379b175c755a5b" kind="function"><name>parents</name></member>
       <member refid="group__GeneralGroup_1ga009ad612aecca5afb9b91768536c406f" kind="function"><name>sizeOfComp</name></member>
     </sectiondef>
-    <sectiondef kind="private-func">
-      <member refid="group__GeneralGroup_1ga6999428ebe2645b250dfe6cf51038735" kind="function"><name>findRootNoUpdate_</name></member>
-      <member refid="group__GeneralGroup_1ga797743a9600c69d6615d32c970c89f96" kind="function"><name>updateRoot_</name></member>
-      <member refid="group__GeneralGroup_1ga43bbe8cb9f207115aca9f60ff07ba132" kind="function"><name>updateRoot_</name></member>
-      <member refid="group__GeneralGroup_1gabcac94e459f2fffa4c01f3e406bf184f" kind="function"><name>updateRootInRange_</name></member>
-    </sectiondef>
     <briefdescription>
-<para>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. </para>
+<para>Union-find data structure for representing disjoint sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. Sequential implementation that selects the root of a united pair by set size for best performance. </para>
     </briefdescription>
     <detaileddescription>
 <para><parameterlist kind="templateparam"><parameteritem>
@@ -51,28 +38,66 @@
 </parameterlist>
 </para>
     </detaileddescription>
-    <location file="MRMesh/MRUnionFind.h" line="22" column="1" bodyfile="MRMesh/MRUnionFind.h" bodystart="23" bodyend="157"/>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::BaseUnionFind&lt; I &gt;</label>
+        <link refid="classMR_1_1BaseUnionFind"/>
+      </node>
+      <node id="1">
+        <label>MR::UnionFind&lt; I &gt;</label>
+        <link refid="classMR_1_1UnionFind"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BaseUnionFind&lt; I &gt;</label>
+        <link refid="classMR_1_1BaseUnionFind"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parents_</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::UnionFind&lt; I &gt;</label>
+        <link refid="classMR_1_1UnionFind"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Vector&lt; I, I &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="MRMesh/MRUnionFind.h" line="150" column="1" bodyfile="MRMesh/MRUnionFind.h" bodystart="151" bodyend="207"/>
     <listofallmembers>
-      <member refid="group__GeneralGroup_1ga26e79fd903c0229dbd2f66a80549c75b" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>find</name></member>
-      <member refid="group__GeneralGroup_1ga6999428ebe2645b250dfe6cf51038735" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>findRootNoUpdate_</name></member>
-      <member refid="group__GeneralGroup_1gabf32e7c70e8d67a82d759ad44a5b08c1" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>findUpdateRange</name></member>
-      <member refid="group__GeneralGroup_1ga785b1dcdaf9a761a91a1331bfda21900" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>isRoot</name></member>
-      <member refid="group__GeneralGroup_1gaa982a275fa599ec51d07ad997c3902d3" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>parent</name></member>
-      <member refid="group__GeneralGroup_1gaddfb36167fbd876c96379b175c755a5b" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>parents</name></member>
-      <member refid="group__GeneralGroup_1ga1b2c81b705c8244a87ae8287f87139d7" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>parents_</name></member>
+      <member refid="group__GeneralGroup_1ga1bd46dc57304ff4fd488f3de0e4958f0" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>BaseUnionFind</name></member>
+      <member refid="group__GeneralGroup_1ga6998ef43233b395f7c60b89c5611a90a" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>BaseUnionFind</name></member>
+      <member refid="group__GeneralGroup_1ga1b9ea4e5600cbdbbdb6b6df5b4afe85c" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>BaseUnionFind</name></member>
+      <member refid="group__GeneralGroup_1gaa0c0f2464f40946c4ee9627fae75f0a9" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>find</name></member>
+      <member refid="group__GeneralGroup_1gae7217cd7f9e0df336b8f10c31933963b" prot="protected" virt="non-virtual"><scope>MR::UnionFind</scope><name>findRootNoUpdate_</name></member>
+      <member refid="group__GeneralGroup_1gafe044a54144ed93c29e05db24f80c4a0" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>findUpdateRange</name></member>
+      <member refid="group__GeneralGroup_1ga1edc73e0e11e4f42b65746c18690f5d8" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>isRoot</name></member>
+      <member refid="group__GeneralGroup_1gacb1826dab20e4f01008b7f825c8e9ac5" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga9b1ac7e192d228a673f6f986c31e3cc5" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gac78b2af57192ec9155f66476ac38179e" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>parent</name></member>
+      <member refid="group__GeneralGroup_1ga2b81bef923b05424a30449978b3d7a37" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>parents</name></member>
+      <member refid="group__GeneralGroup_1gadbeac8c6a42c497272482183b034f8c7" prot="protected" virt="non-virtual"><scope>MR::UnionFind</scope><name>parents_</name></member>
       <member refid="group__GeneralGroup_1ga6a74089f75f3b88edf1a6fb0beba1e13" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>reset</name></member>
-      <member refid="group__GeneralGroup_1ga5b1ee758f69d77277361f8cbe1e0d77e" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>roots</name></member>
-      <member refid="group__GeneralGroup_1gab0d01d793fad21820791310d7318235e" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga3ae19969d781423c2b2d2c9ee3b5b328" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>roots</name></member>
+      <member refid="group__GeneralGroup_1ga1d3da8fd15b4043055b9d702644765a9" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>size</name></member>
       <member refid="group__GeneralGroup_1ga009ad612aecca5afb9b91768536c406f" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>sizeOfComp</name></member>
       <member refid="group__GeneralGroup_1ga7cde5d5801abded20752408ce29b27fc" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>sizes_</name></member>
       <member refid="group__GeneralGroup_1gad07cce64defb1fcef686551aecfd55d0" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>SizeType</name></member>
       <member refid="group__GeneralGroup_1ga67ccf008e0816480dca10b19c530a7b1" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>UnionFind</name></member>
       <member refid="group__GeneralGroup_1ga661398df57a710beae6f4b7c19ac3006" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>UnionFind</name></member>
+      <member refid="group__GeneralGroup_1ga5ef4500d4204cea8be5933e543edb6b2" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>UnionFind</name></member>
       <member refid="group__GeneralGroup_1ga0739ab9258f8fc25ef45ce06106fffce" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>unite</name></member>
-      <member refid="group__GeneralGroup_1gaa570cc6f33bbb51fb5859608b9c68fbc" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>united</name></member>
-      <member refid="group__GeneralGroup_1ga797743a9600c69d6615d32c970c89f96" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>updateRoot_</name></member>
-      <member refid="group__GeneralGroup_1ga43bbe8cb9f207115aca9f60ff07ba132" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>updateRoot_</name></member>
-      <member refid="group__GeneralGroup_1gabcac94e459f2fffa4c01f3e406bf184f" prot="private" virt="non-virtual"><scope>MR::UnionFind</scope><name>updateRootInRange_</name></member>
+      <member refid="group__GeneralGroup_1ga8813df63c1719e52f29ececc5fbbd8e4" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>united</name></member>
+      <member refid="group__GeneralGroup_1ga2e67c2e0e6e2df9656e4962c9f2752f5" prot="public" virt="non-virtual"><scope>MR::UnionFind</scope><name>uniteUnbalanced</name></member>
+      <member refid="group__GeneralGroup_1ga1c6d2fd67769070632fad6529cf75c64" prot="protected" virt="non-virtual"><scope>MR::UnionFind</scope><name>updateRoot_</name></member>
+      <member refid="group__GeneralGroup_1ga336f5c4e10788facad14cbfd914df4cf" prot="protected" virt="non-virtual"><scope>MR::UnionFind</scope><name>updateRoot_</name></member>
+      <member refid="group__GeneralGroup_1ga13efd697f71b6d786c026bf3dabeb409" prot="protected" virt="non-virtual"><scope>MR::UnionFind</scope><name>updateRootInRange_</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

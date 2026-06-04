@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BaseUnionFind__MRFaceId" kind="class" language="C#" prot="public">
+    <compoundname>MR::BaseUnionFind_MRFaceId</compoundname>
+    <basecompoundref refid="classMR_1_1Const__BaseUnionFind__MRFaceId" prot="public" virt="non-virtual">MR.Const_BaseUnionFind_MRFaceId</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRFaceId_1ad6e3af471e4a92111910374f2f54dbe2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BaseUnionFind_MRFaceId.BaseUnionFind_MRFaceId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BaseUnionFind_MRFaceId</name>
+        <qualifiedname>MR.BaseUnionFind_MRFaceId.BaseUnionFind_MRFaceId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="887" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="887" bodyend="887"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRFaceId_1abd7fe9c985ef0bea055a48a79a02fdda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BaseUnionFind_MRFaceId.BaseUnionFind_MRFaceId</definition>
+        <argsstring>()</argsstring>
+        <name>BaseUnionFind_MRFaceId</name>
+        <qualifiedname>MR.BaseUnionFind_MRFaceId.BaseUnionFind_MRFaceId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="892" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="892" bodyend="897"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRFaceId_1a0d3d7e434d738fb5af75e0e2c3bca00f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BaseUnionFind_MRFaceId.BaseUnionFind_MRFaceId</definition>
+        <argsstring>(MR._ByValue_BaseUnionFind_MRFaceId _other)</argsstring>
+        <name>BaseUnionFind_MRFaceId</name>
+        <qualifiedname>MR.BaseUnionFind_MRFaceId.BaseUnionFind_MRFaceId</qualifiedname>
+        <param>
+          <type>MR._ByValue_BaseUnionFind_MRFaceId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::BaseUnionFind</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="902" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="902" bodyend="908"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRFaceId_1a157faff3f95dec9fbbb3ebb8ff6e54dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BaseUnionFind_MRFaceId.BaseUnionFind_MRFaceId</definition>
+        <argsstring>(Const_BaseUnionFind_MRFaceId _other)</argsstring>
+        <name>BaseUnionFind_MRFaceId</name>
+        <qualifiedname>MR.BaseUnionFind_MRFaceId.BaseUnionFind_MRFaceId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Const__BaseUnionFind__MRFaceId" kindref="compound">Const_BaseUnionFind_MRFaceId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::BaseUnionFind</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="913" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="913" bodyend="913"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRFaceId_1a9b6b00879e7b7634505fbc6c9e9a99b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BaseUnionFind_MRFaceId.BaseUnionFind_MRFaceId</definition>
+        <argsstring>(BaseUnionFind_MRFaceId _other)</argsstring>
+        <name>BaseUnionFind_MRFaceId</name>
+        <qualifiedname>MR.BaseUnionFind_MRFaceId.BaseUnionFind_MRFaceId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BaseUnionFind__MRFaceId" kindref="compound">BaseUnionFind_MRFaceId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::BaseUnionFind</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="918" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="918" bodyend="918"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRFaceId_1a0d999245aa98c8bf32d2e72612b3b307" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BaseUnionFind__MRFaceId" kindref="compound">MR.BaseUnionFind_MRFaceId</ref></type>
+        <definition>unsafe MR.BaseUnionFind_MRFaceId MR.BaseUnionFind_MRFaceId.assign</definition>
+        <argsstring>(MR._ByValue_BaseUnionFind_MRFaceId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.BaseUnionFind_MRFaceId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_BaseUnionFind_MRFaceId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="923" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="923" bodyend="933"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRFaceId_1a5757405d204b2c0314058200406d9d92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.BaseUnionFind_MRFaceId.reset</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.BaseUnionFind_MRFaceId.reset</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1BaseUnionFind__MRFaceId_1a5757405d204b2c0314058200406d9d92" kindref="member">reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="939" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="939" bodyend="944"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRFaceId_1a3bd8da1828d92bc32b3801fd5dae35a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Pair_MRFaceId_Bool</type>
+        <definition>unsafe MR.Std.Pair_MRFaceId_Bool MR.BaseUnionFind_MRFaceId.uniteUnbalanced</definition>
+        <argsstring>(MR.FaceId first, MR.FaceId second)</argsstring>
+        <name>uniteUnbalanced</name>
+        <qualifiedname>MR.BaseUnionFind_MRFaceId.uniteUnbalanced</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+<para>unites the two sets containing given elements WITHOUT balancing by set size (BaseUnionFind keeps no sizes): it simply attaches one set's root under the other's, so chained calls can build taller trees. Prefer UnionFind::unite, which selects the new root by set size, when many unions follow one another. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>first: new common root, second: true if the union was done (false if already in one set) Generated from method <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1BaseUnionFind__MRFaceId_1a3bd8da1828d92bc32b3801fd5dae35a8" kindref="member">uniteUnbalanced</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="953" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="953" bodyend="958"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRFaceId_1af7a02502040f2beabd704d2c6df3821e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.BaseUnionFind_MRFaceId.united</definition>
+        <argsstring>(MR.FaceId first, MR.FaceId second)</argsstring>
+        <name>united</name>
+        <qualifiedname>MR.BaseUnionFind_MRFaceId.united</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+<para>returns true if given two elements are from one set Generated from method <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1BaseUnionFind__MRFaceId_1af7a02502040f2beabd704d2c6df3821e" kindref="member">united</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="964" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="964" bodyend="969"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRFaceId_1a5dea6b5aac2bd4eb4ddf69e9efc4ce6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.BaseUnionFind_MRFaceId.find</definition>
+        <argsstring>(MR.FaceId a)</argsstring>
+        <name>find</name>
+        <qualifiedname>MR.BaseUnionFind_MRFaceId.find</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>finds the root of the set containing given element with optimizing data structure updates Generated from method <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1BaseUnionFind__MRFaceId_1a5dea6b5aac2bd4eb4ddf69e9efc4ce6d" kindref="member">find</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="975" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="975" bodyend="980"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRFaceId_1a63b95579fa2a7aed63cad3401c332bb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.BaseUnionFind_MRFaceId.findUpdateRange</definition>
+        <argsstring>(MR.FaceId a, MR.FaceId begin, MR.FaceId end)</argsstring>
+        <name>findUpdateRange</name>
+        <qualifiedname>MR.BaseUnionFind_MRFaceId.findUpdateRange</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>finds the root of the set containing given element with optimizing data structure in the range [begin, end) Generated from method <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1BaseUnionFind__MRFaceId_1a63b95579fa2a7aed63cad3401c332bb1" kindref="member">findUpdateRange</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="986" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="986" bodyend="991"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseUnionFind__MRFaceId_1aeed4c6317ffad1ff0ded754da78aecec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Const__FaceMap" kindref="compound">MR.Const_FaceMap</ref></type>
+        <definition>unsafe MR.Const_FaceMap MR.BaseUnionFind_MRFaceId.roots</definition>
+        <argsstring>()</argsstring>
+        <name>roots</name>
+        <qualifiedname>MR.BaseUnionFind_MRFaceId.roots</qualifiedname>
+        <briefdescription>
+<para>sets the root of corresponding set as the parent of each element, then returns the vector Generated from method <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;<ref refid="classMR_1_1BaseUnionFind__MRFaceId_1aeed4c6317ffad1ff0ded754da78aecec" kindref="member">roots</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="997" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="997" bodyend="1002"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>base of union-find data structures: stores only the parent forest and the operations that depend on it alone, so it is shared by the sequential UnionFind and the ParallelUnionFind </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the identifier of a set's element, e.g. <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> Generated from class <computeroutput>MR::BaseUnionFind&amp;lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&amp;gt;</computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.BaseUnionFind_MRFaceId</label>
+        <link refid="classMR_1_1BaseUnionFind__MRFaceId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_BaseUnionFind_MRFaceId</label>
+        <link refid="classMR_1_1Const__BaseUnionFind__MRFaceId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.BaseUnionFind_MRFaceId</label>
+        <link refid="classMR_1_1BaseUnionFind__MRFaceId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_BaseUnionFind_MRFaceId</label>
+        <link refid="classMR_1_1Const__BaseUnionFind__MRFaceId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="885" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="886" bodyend="1003"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BaseUnionFind__MRFaceId_1a0d999245aa98c8bf32d2e72612b3b307" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>assign</name></member>
+      <member refid="classMR_1_1BaseUnionFind__MRFaceId_1ad6e3af471e4a92111910374f2f54dbe2" prot="package" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>BaseUnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1BaseUnionFind__MRFaceId_1abd7fe9c985ef0bea055a48a79a02fdda" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>BaseUnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1BaseUnionFind__MRFaceId_1a0d3d7e434d738fb5af75e0e2c3bca00f" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>BaseUnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1BaseUnionFind__MRFaceId_1a157faff3f95dec9fbbb3ebb8ff6e54dc" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>BaseUnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1BaseUnionFind__MRFaceId_1a9b6b00879e7b7634505fbc6c9e9a99b7" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>BaseUnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRFaceId_1adbaf1aa2add3a0ba11db6ac17266bf7f" prot="package" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>Const_BaseUnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRFaceId_1abfcd597a4f0e627da020e3fb7799ee1b" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>Const_BaseUnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRFaceId_1a5b923e0070f5a5b629e52d2cb705ce57" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>Const_BaseUnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRFaceId_1a287005f56c36dfcb88b5e4633e61c56f" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>Const_BaseUnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRFaceId_1ac540ae2a5be9e61b0583fcbeac8cecf8" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>Const_BaseUnionFind_MRFaceId</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRFaceId_1a6957b582a08eea1d4a21384589772e0b" prot="protected" virt="virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRFaceId_1a98d5243f2b414fc12e6c718b17420b0a" prot="public" virt="virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1BaseUnionFind__MRFaceId_1a5dea6b5aac2bd4eb4ddf69e9efc4ce6d" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>find</name></member>
+      <member refid="classMR_1_1BaseUnionFind__MRFaceId_1a63b95579fa2a7aed63cad3401c332bb1" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>findUpdateRange</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRFaceId_1ae4bd77a27d369090a3e74a3f9a4f9644" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>isRoot</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRFaceId_1afedfd7679f924d20197662afe81bda75" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>parent</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRFaceId_1a225cb7a52fb3a03337a971cd465976bd" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>parents</name></member>
+      <member refid="classMR_1_1BaseUnionFind__MRFaceId_1a5757405d204b2c0314058200406d9d92" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>reset</name></member>
+      <member refid="classMR_1_1BaseUnionFind__MRFaceId_1aeed4c6317ffad1ff0ded754da78aecec" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>roots</name></member>
+      <member refid="classMR_1_1Const__BaseUnionFind__MRFaceId_1a0eff0dad73bf9eb0e3e7ba8208faef4f" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>size</name></member>
+      <member refid="classMR_1_1BaseUnionFind__MRFaceId_1af7a02502040f2beabd704d2c6df3821e" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>united</name></member>
+      <member refid="classMR_1_1BaseUnionFind__MRFaceId_1a3bd8da1828d92bc32b3801fd5dae35a8" prot="public" virt="non-virtual"><scope>MR::BaseUnionFind_MRFaceId</scope><name>uniteUnbalanced</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
