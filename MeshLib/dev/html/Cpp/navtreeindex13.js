@@ -1,5 +1,9 @@
 var NAVTREEINDEX13 =
 {
+"conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[6,0,0,20,40],
+"conceptMR_1_1HasGetDirectionMethod.html":[6,0,0,20,39],
+"conceptMR_1_1HasGetNormalMethod.html":[6,0,0,20,38],
+"conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,1,15,0,8],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1ValidOperands.html":[6,0,1,0,1,15,0,12],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,1,15,0,9],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,15,0,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX13 =
 "group__AABBTreeGroup.html#gab4c475c489f1543782e15d9b4bbe14cf":[6,0,0,1,101],
 "group__AABBTreeGroup.html#gab642f8e551c4fcc0af6b2301e55e3a85":[6,0,0,1,115],
 "group__AABBTreeGroup.html#gab7f2d64a3a73b473757e9505a0905a38":[6,0,0,1,89],
-"group__AABBTreeGroup.html#gaba7cace2c59d8ea1874ea0223d3c3d42":[6,0,0,1,52],
-"group__AABBTreeGroup.html#gac15d4a03ef6c224fff28d48fc239c17c":[6,0,0,1,62],
-"group__AABBTreeGroup.html#gac20cf6ba073a7db1e2df313fb87d9517":[6,0,0,1,50],
-"group__AABBTreeGroup.html#gac22748b9e5c563d95321d66315116084":[6,0,0,1,127],
-"group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c":[6,0,0,1,124]
+"group__AABBTreeGroup.html#gaba7cace2c59d8ea1874ea0223d3c3d42":[6,0,0,1,52]
 };

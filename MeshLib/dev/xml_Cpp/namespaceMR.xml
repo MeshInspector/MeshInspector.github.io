@@ -29,6 +29,7 @@
     <innerclass refid="structMR_1_1BaseRenderParams" prot="public">MR::BaseRenderParams</innerclass>
     <innerclass refid="structMR_1_1BaseShellParameters" prot="public">MR::BaseShellParameters</innerclass>
     <innerclass refid="structMR_1_1BaseTiffParameters" prot="public">MR::BaseTiffParameters</innerclass>
+    <innerclass refid="classMR_1_1BaseUnionFind" prot="public">MR::BaseUnionFind</innerclass>
     <innerclass refid="classMR_1_1BasicClickableRectUiRenderTask" prot="public">MR::BasicClickableRectUiRenderTask</innerclass>
     <innerclass refid="structMR_1_1BasicUiRenderTask" prot="public">MR::BasicUiRenderTask</innerclass>
     <innerclass refid="classMR_1_1BasinVolumeCalculator" prot="public">MR::BasinVolumeCalculator</innerclass>
@@ -475,6 +476,7 @@
     <innerclass refid="classMR_1_1PalettePresets" prot="public">MR::PalettePresets</innerclass>
     <innerclass refid="structMR_1_1Parabola" prot="public">MR::Parabola</innerclass>
     <innerclass refid="classMR_1_1ParallelProgressReporter" prot="public">MR::ParallelProgressReporter</innerclass>
+    <innerclass refid="classMR_1_1ParallelUnionFind" prot="public">MR::ParallelUnionFind</innerclass>
     <innerclass refid="classMR_1_1PartialChangeMeshAction" prot="public">MR::PartialChangeMeshAction</innerclass>
     <innerclass refid="classMR_1_1PartialChangeMeshDataAction" prot="public">MR::PartialChangeMeshDataAction</innerclass>
     <innerclass refid="classMR_1_1PartialChangeMeshPointsAction" prot="public">MR::PartialChangeMeshPointsAction</innerclass>
@@ -3321,9 +3323,10 @@
       <member refid="group__GeneralGroup_1ga27edd44c5ee52110bd1f260a4abde138" kind="function"><name>findTwoLineSegmClosestPoints</name></member>
       <member refid="group__PointCloudGroup_1ga419eb233734e75003af48032eb07f36b" kind="function"><name>pointUniformSampling</name></member>
       <member refid="group__PointCloudGroup_1ga1ff3748ea4a24c0683e2029fb56deb48" kind="function"><name>makeUniformSampledCloud</name></member>
-      <member refid="group__GeneralGroup_1gaf95a05a5035d21be2ce1964b8337f638" kind="function"><name>findRootsBitSet</name></member>
-      <member refid="group__GeneralGroup_1gac959a3b1b345a06498d42106baa9a7ec" kind="function"><name>findComponentBitSet</name></member>
-      <member refid="group__GeneralGroup_1ga91b89a35df8dec290ebe5d2b9d1faa6b" kind="function"><name>isSubdivision</name></member>
+      <member refid="group__GeneralGroup_1ga169f8f74d2daf1470ceec5e08a3545ca" kind="function"><name>findRootsBitSet</name></member>
+      <member refid="group__GeneralGroup_1ga7d0a3ec330bc1b265ce9035d0f21e4ae" kind="function"><name>findComponentBitSet</name></member>
+      <member refid="group__GeneralGroup_1ga0966c31ddb324e054f51951844993ad4" kind="function"><name>isSubdivision</name></member>
+      <member refid="group__GeneralGroup_1gae7af679c3eb052bec144b61413a52372" kind="function"><name>updateRootsParallel</name></member>
       <member refid="group__GeneralGroup_1ga1f628dfc14fb4822fd59b76b8bee56c0" kind="function"><name>uniteManyMeshes</name></member>
       <member refid="group__GeneralGroup_1ga6443d7b50482979e4b2287d29423ee25" kind="function"><name>getUnitInfo</name></member>
       <member refid="group__GeneralGroup_1ga7223f0b55060f4ce1f1e6f9c37ff0867" kind="function"><name>unitsAreEquivalent</name></member>

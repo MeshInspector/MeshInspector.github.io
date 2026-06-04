@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="classmrmeshpy_1_1UnionFind__VertId" kind="class" language="Python" prot="public">
     <compoundname>mrmeshpy::UnionFind_VertId</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BaseUnionFind__VertId" prot="public" virt="non-virtual">mrmeshpy.BaseUnionFind_VertId</basecompoundref>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a034e03369c321055d49c2a662b0db14b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -23,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61617" bodyend="61618"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61733" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61733" bodyend="61734"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a0e3bdd1a0abdd0fa789510d1fbbdb1e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
@@ -31,6 +32,7 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>operator</name>
         <qualifiedname>mrmeshpy.UnionFind_VertId.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseUnionFind__VertId_1a5fd7529ce60a3488e7fb33538c44a003">operator</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -45,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61621" bodyend="61622"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61737" bodyend="61738"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a0e3bdd1a0abdd0fa789510d1fbbdb1e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1UnionFind__VertId" kindref="compound">UnionFind_VertId</ref></type>
@@ -53,6 +55,7 @@
         <argsstring>(*args, **kwargs)</argsstring>
         <name>operator</name>
         <qualifiedname>mrmeshpy.UnionFind_VertId.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseUnionFind__VertId_1a5fd7529ce60a3488e7fb33538c44a003">operator</reimplements>
         <param>
           <type>*</type>
           <declname>args</declname>
@@ -67,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61625" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61625" bodyend="61626"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61741" bodyend="61742"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -87,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61628" bodyend="61629"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61744" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61744" bodyend="61745"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1ade70f94d324997ada37b004f9afd181b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -111,7 +114,32 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61631" bodyend="61634"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61747" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61747" bodyend="61750"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a1af6430621b7ef77d5937b4b47f94a25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnionFind_VertId.__init__</definition>
+        <argsstring>(self, BaseUnionFind_VertId base)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnionFind_VertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BaseUnionFind__VertId" kindref="compound">BaseUnionFind_VertId</ref></type>
+          <declname>base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adopts the parent forest of a base/parallel union-find and (re)computes set sizes,
+so the result supports the full sequential interface (e.g. unite, sizeOfComp)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61752" bodyend="61756"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a4d4b88b6d60dd1dfd3fa8d3eae0edb1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -135,131 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61636" bodyend="61639"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a10ea5991461c4f10ff3f58aa4abbb506" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
-        <definition> VertId mrmeshpy.UnionFind_VertId.find</definition>
-        <argsstring>(self, VertId a)</argsstring>
-        <name>find</name>
-        <qualifiedname>mrmeshpy.UnionFind_VertId.find</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>finds the root of the set containing given element with optimizing data structure updates
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61640" bodyend="61643"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a0c33811d07fde956c7fd1c47ec8e51f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
-        <definition> VertId mrmeshpy.UnionFind_VertId.findUpdateRange</definition>
-        <argsstring>(self, VertId a, VertId begin, VertId end)</argsstring>
-        <name>findUpdateRange</name>
-        <qualifiedname>mrmeshpy.UnionFind_VertId.findUpdateRange</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
-          <declname>a</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
-          <declname>begin</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
-          <declname>end</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>finds the root of the set containing given element with optimizing data structure in the range [begin, end)
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61644" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61644" bodyend="61647"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1abed6c7f321fcee5a139d7534596f5e4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition> bool mrmeshpy.UnionFind_VertId.isRoot</definition>
-        <argsstring>(self, VertId a)</argsstring>
-        <name>isRoot</name>
-        <qualifiedname>mrmeshpy.UnionFind_VertId.isRoot</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>returns true if given element is the root of some set
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61648" bodyend="61651"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a0841acfc9c9010918d28b4caa8e79f14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
-        <definition> VertId mrmeshpy.UnionFind_VertId.parent</definition>
-        <argsstring>(self, VertId a)</argsstring>
-        <name>parent</name>
-        <qualifiedname>mrmeshpy.UnionFind_VertId.parent</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
-          <declname>a</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>return parent element of this element, which is equal to given element only for set&apos;s root
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61652" bodyend="61655"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a2ee113dfce61f4f263d6e02b565feb78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
-        <definition> VertMap mrmeshpy.UnionFind_VertId.parents</definition>
-        <argsstring>(self)</argsstring>
-        <name>parents</name>
-        <qualifiedname>mrmeshpy.UnionFind_VertId.parents</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>gets the parents of all elements as is
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61656" bodyend="61659"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61758" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61758" bodyend="61761"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1a2820b2d43deefae768bc24106f582ed9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -267,6 +171,7 @@
         <argsstring>(self, int size)</argsstring>
         <name>reset</name>
         <qualifiedname>mrmeshpy.UnionFind_VertId.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BaseUnionFind__VertId_1acf4c16b8ad7fe2d12bea93a7f384b485">reset</reimplements>
         <param>
           <type>self</type>
           <defname>self</defname>
@@ -283,47 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61660" bodyend="61663"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1aad810d3809d72d95df8c393a8e2758eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
-        <definition> VertMap mrmeshpy.UnionFind_VertId.roots</definition>
-        <argsstring>(self)</argsstring>
-        <name>roots</name>
-        <qualifiedname>mrmeshpy.UnionFind_VertId.roots</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>sets the root of corresponding set as the parent of each element, then returns the vector
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61664" bodyend="61667"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1adfd64d2db8acb69e4f532a74e7580945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition> int mrmeshpy.UnionFind_VertId.size</definition>
-        <argsstring>(self)</argsstring>
-        <name>size</name>
-        <qualifiedname>mrmeshpy.UnionFind_VertId.size</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>returns the number of elements in union-find
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61668" bodyend="61671"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61762" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61762" bodyend="61765"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1aaff8d19f441bca53227725acf189f7de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -347,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61672" bodyend="61675"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61766" bodyend="61769"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1ad66c14ecb73549bc4b25672c3c12925d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>tuple[<ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref>, bool]</type>
@@ -376,35 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61676" bodyend="61680"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__VertId_1abc566a4715321e261b21e336cd3c8740" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>bool</type>
-        <definition> bool mrmeshpy.UnionFind_VertId.united</definition>
-        <argsstring>(self, VertId first, VertId second)</argsstring>
-        <name>united</name>
-        <qualifiedname>mrmeshpy.UnionFind_VertId.united</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
-          <declname>first</declname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
-          <declname>second</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>returns true if given two elements are from one set
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61681" bodyend="61684"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61770" bodyend="61774"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -413,32 +250,59 @@
 <para><verbatim>Generated from:  MR::UnionFind&lt;MR::VertId&gt;
 
 
-\\brief Union-find data structure for representing disjoin sets of elements with few very quick operations:
-1) union of two sets in one,
-2) checking whether two elements pertain to the same set,
-3) finding representative element (root) of each set by any set&apos;s element
-\\tparam I is the identifier of a set&apos;s element, e.g. FaceId
+ \\brief Union-find data structure for representing disjoint sets of elements with few very quick operations:
+ 1) union of two sets in one,
+ 2) checking whether two elements pertain to the same set,
+ 3) finding representative element (root) of each set by any set&apos;s element.
+ Sequential implementation that selects the root of a united pair by set size for best performance.
+ \\tparam I is the identifier of a set&apos;s element, e.g. FaceId
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61604" bodyend="61684"/>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.UnionFind_VertId</label>
+        <link refid="classmrmeshpy_1_1UnionFind__VertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BaseUnionFind_VertId</label>
+        <link refid="classmrmeshpy_1_1BaseUnionFind__VertId"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.UnionFind_VertId</label>
+        <link refid="classmrmeshpy_1_1UnionFind__VertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BaseUnionFind_VertId</label>
+        <link refid="classmrmeshpy_1_1BaseUnionFind__VertId"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61718" bodyend="61774"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1UnionFind__VertId_1a034e03369c321055d49c2a662b0db14b" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UnionFind__VertId_1a825c1dcf3df5e9c81e127851cc52abbb" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UnionFind__VertId_1ade70f94d324997ada37b004f9afd181b" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a1af6430621b7ef77d5937b4b47f94a25" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UnionFind__VertId_1a4d4b88b6d60dd1dfd3fa8d3eae0edb1b" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a10ea5991461c4f10ff3f58aa4abbb506" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>find</name></member>
-      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a0c33811d07fde956c7fd1c47ec8e51f1" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>findUpdateRange</name></member>
-      <member refid="classmrmeshpy_1_1UnionFind__VertId_1abed6c7f321fcee5a139d7534596f5e4c" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>isRoot</name></member>
+      <member refid="classmrmeshpy_1_1BaseUnionFind__VertId_1a15c8573fc442b8845d84edfa260f9de9" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1BaseUnionFind__VertId_1a0bb5f4d78b8a660a60870ea46ef6040e" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>findUpdateRange</name></member>
+      <member refid="classmrmeshpy_1_1BaseUnionFind__VertId_1a0a5534cd5b4edb670e78484c526eb461" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>isRoot</name></member>
       <member refid="classmrmeshpy_1_1UnionFind__VertId_1a0e3bdd1a0abdd0fa789510d1fbbdb1e9" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>operator</name></member>
       <member refid="classmrmeshpy_1_1UnionFind__VertId_1a0e3bdd1a0abdd0fa789510d1fbbdb1e9" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>operator</name></member>
-      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a0841acfc9c9010918d28b4caa8e79f14" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>parent</name></member>
-      <member refid="classmrmeshpy_1_1UnionFind__VertId_1a2ee113dfce61f4f263d6e02b565feb78" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>parents</name></member>
+      <member refid="classmrmeshpy_1_1BaseUnionFind__VertId_1a53675345b99384063983974b68e360dc" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1BaseUnionFind__VertId_1a67868bba8aea502a05a785dd24c53afc" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>parents</name></member>
       <member refid="classmrmeshpy_1_1UnionFind__VertId_1a2820b2d43deefae768bc24106f582ed9" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>reset</name></member>
-      <member refid="classmrmeshpy_1_1UnionFind__VertId_1aad810d3809d72d95df8c393a8e2758eb" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>roots</name></member>
-      <member refid="classmrmeshpy_1_1UnionFind__VertId_1adfd64d2db8acb69e4f532a74e7580945" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1BaseUnionFind__VertId_1ae007a90348bc7b0d424885173bfce3b0" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>roots</name></member>
+      <member refid="classmrmeshpy_1_1BaseUnionFind__VertId_1a7e5ac16aa35eaf09834c519d1f9db7cd" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>size</name></member>
       <member refid="classmrmeshpy_1_1UnionFind__VertId_1aaff8d19f441bca53227725acf189f7de" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>sizeOfComp</name></member>
       <member refid="classmrmeshpy_1_1UnionFind__VertId_1ad66c14ecb73549bc4b25672c3c12925d" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>unite</name></member>
-      <member refid="classmrmeshpy_1_1UnionFind__VertId_1abc566a4715321e261b21e336cd3c8740" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>united</name></member>
+      <member refid="classmrmeshpy_1_1BaseUnionFind__VertId_1a153213937c074d0b4784c870b41ac6a1" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>united</name></member>
+      <member refid="classmrmeshpy_1_1BaseUnionFind__VertId_1a86520958c61cbefce7cd25830fcfafe3" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_VertId</scope><name>uniteUnbalanced</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

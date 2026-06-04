@@ -349,6 +349,15 @@ var hierarchy =
       [ "MR.Const_BaseTiffParameters", "classMR_1_1Const__BaseTiffParameters.html", [
         [ "MR.BaseTiffParameters", "classMR_1_1BaseTiffParameters.html", null ]
       ] ],
+      [ "MR.Const_BaseUnionFind_MRFaceId", "classMR_1_1Const__BaseUnionFind__MRFaceId.html", [
+        [ "MR.BaseUnionFind_MRFaceId", "classMR_1_1BaseUnionFind__MRFaceId.html", null ]
+      ] ],
+      [ "MR.Const_BaseUnionFind_MRUndirectedEdgeId", "classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId.html", [
+        [ "MR.BaseUnionFind_MRUndirectedEdgeId", "classMR_1_1BaseUnionFind__MRUndirectedEdgeId.html", null ]
+      ] ],
+      [ "MR.Const_BaseUnionFind_MRVertId", "classMR_1_1Const__BaseUnionFind__MRVertId.html", [
+        [ "MR.BaseUnionFind_MRVertId", "classMR_1_1BaseUnionFind__MRVertId.html", null ]
+      ] ],
       [ "MR.Const_BasicUiRenderTask", "classMR_1_1Const__BasicUiRenderTask.html", [
         [ "MR.BasicUiRenderTask", "classMR_1_1BasicUiRenderTask.html", null ]
       ] ],
@@ -2313,9 +2322,6 @@ var hierarchy =
       [ "MR.Const_UniformSamplingSettings", "classMR_1_1Const__UniformSamplingSettings.html", [
         [ "MR.UniformSamplingSettings", "classMR_1_1UniformSamplingSettings.html", null ]
       ] ],
-      [ "MR.Const_UnionFind_MRFaceId", "classMR_1_1Const__UnionFind__MRFaceId.html", [
-        [ "MR.UnionFind_MRFaceId", "classMR_1_1UnionFind__MRFaceId.html", null ]
-      ] ],
       [ "MR.Const_UnionFind_MRUndirectedEdgeId", "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html", [
         [ "MR.UnionFind_MRUndirectedEdgeId", "classMR_1_1UnionFind__MRUndirectedEdgeId.html", null ]
       ] ],
@@ -3575,6 +3581,9 @@ var hierarchy =
       [ "MR.Const_BaseRenderParams", "classMR_1_1Const__BaseRenderParams.html", null ],
       [ "MR.Const_BaseShellParameters", "classMR_1_1Const__BaseShellParameters.html", null ],
       [ "MR.Const_BaseTiffParameters", "classMR_1_1Const__BaseTiffParameters.html", null ],
+      [ "MR.Const_BaseUnionFind_MRFaceId", "classMR_1_1Const__BaseUnionFind__MRFaceId.html", null ],
+      [ "MR.Const_BaseUnionFind_MRUndirectedEdgeId", "classMR_1_1Const__BaseUnionFind__MRUndirectedEdgeId.html", null ],
+      [ "MR.Const_BaseUnionFind_MRVertId", "classMR_1_1Const__BaseUnionFind__MRVertId.html", null ],
       [ "MR.Const_BasicUiRenderTask", "classMR_1_1Const__BasicUiRenderTask.html", null ],
       [ "MR.Const_BasicUiRenderTask.Const_BackwardPassParams", "classMR_1_1Const__BasicUiRenderTask_1_1Const__BackwardPassParams.html", null ],
       [ "MR.Const_BasinVolumeCalculator", "classMR_1_1Const__BasinVolumeCalculator.html", null ],
@@ -4237,7 +4246,6 @@ var hierarchy =
       [ "MR.Const_UndirectedEdgeSetBitIterator", "classMR_1_1Const__UndirectedEdgeSetBitIterator.html", null ],
       [ "MR.Const_UndirectedEdgeUndirectedEdge", "classMR_1_1Const__UndirectedEdgeUndirectedEdge.html", null ],
       [ "MR.Const_UniformSamplingSettings", "classMR_1_1Const__UniformSamplingSettings.html", null ],
-      [ "MR.Const_UnionFind_MRFaceId", "classMR_1_1Const__UnionFind__MRFaceId.html", null ],
       [ "MR.Const_UnionFind_MRUndirectedEdgeId", "classMR_1_1Const__UnionFind__MRUndirectedEdgeId.html", null ],
       [ "MR.Const_UnionFind_MRVertId", "classMR_1_1Const__UnionFind__MRVertId.html", null ],
       [ "MR.Const_UniqueTemporaryFolder", "classMR_1_1Const__UniqueTemporaryFolder.html", null ],

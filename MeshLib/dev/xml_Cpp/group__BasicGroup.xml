@@ -16,7 +16,9 @@
     <innerclass refid="structMR_1_1SimpleTimeRecord" prot="public">MR::SimpleTimeRecord</innerclass>
     <innerclass refid="structMR_1_1TimeRecord" prot="public">MR::TimeRecord</innerclass>
     <innerclass refid="structMR_1_1ThreadRootTimeRecord" prot="public">MR::ThreadRootTimeRecord</innerclass>
+    <innerclass refid="classMR_1_1BaseUnionFind" prot="public">MR::BaseUnionFind</innerclass>
     <innerclass refid="classMR_1_1UnionFind" prot="public">MR::UnionFind</innerclass>
+    <innerclass refid="classMR_1_1ParallelUnionFind" prot="public">MR::ParallelUnionFind</innerclass>
     <innerclass refid="classMR_1_1Vector" prot="public">MR::Vector</innerclass>
     <innernamespace refid="namespaceMR_1_1BitSetParallel">MR::BitSetParallel</innernamespace>
     <innergroup refid="group__IteratorRange">Iterators</innergroup>

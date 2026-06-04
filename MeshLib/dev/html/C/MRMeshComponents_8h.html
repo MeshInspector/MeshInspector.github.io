@@ -154,12 +154,12 @@ $(function(){initNavTree('MRMeshComponents_8h.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a19ac954a946c69321d91442b97cbf857" id="r_a19ac954a946c69321d91442b97cbf857"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a></td></tr>
-<tr class="memdesc:a19ac954a946c69321d91442b97cbf857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element.  <br /></td></tr>
+<tr class="memitem:a16dd453a2524e3e655dd85487201c5fc" id="r_a16dd453a2524e3e655dd85487201c5fc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a></td></tr>
+<tr class="memdesc:a16dd453a2524e3e655dd85487201c5fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">base of union-find data structures: stores only the parent forest and the operations that depend on it alone, so it is shared by the sequential UnionFind and the ParallelUnionFind  <br /></td></tr>
 <tr class="memitem:ab2619d00f0e1fd789b05b95f2364062d" id="r_ab2619d00f0e1fd789b05b95f2364062d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab2619d00f0e1fd789b05b95f2364062d">MR_UnionFind_MR_UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2619d00f0e1fd789b05b95f2364062d">MR_UnionFind_MR_UndirectedEdgeId</a></td></tr>
-<tr class="memdesc:ab2619d00f0e1fd789b05b95f2364062d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element.  <br /></td></tr>
+<tr class="memdesc:ab2619d00f0e1fd789b05b95f2364062d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Union-find data structure for representing disjoint sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. Sequential implementation that selects the root of a united pair by set size for best performance.  <br /></td></tr>
 <tr class="memitem:aae1af1886c1d727925eb39e88e0dfdf9" id="r_aae1af1886c1d727925eb39e88e0dfdf9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aae1af1886c1d727925eb39e88e0dfdf9">MR_UnionFind_MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae1af1886c1d727925eb39e88e0dfdf9">MR_UnionFind_MR_VertId</a></td></tr>
-<tr class="memdesc:aae1af1886c1d727925eb39e88e0dfdf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element.  <br /></td></tr>
+<tr class="memdesc:aae1af1886c1d727925eb39e88e0dfdf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Union-find data structure for representing disjoint sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. Sequential implementation that selects the root of a united pair by set size for best performance.  <br /></td></tr>
 <tr class="memitem:a06306831ace9e501baac05adb1b1eea3" id="r_a06306831ace9e501baac05adb1b1eea3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a06306831ace9e501baac05adb1b1eea3">MR_Vector_double_MR_RegionId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06306831ace9e501baac05adb1b1eea3">MR_Vector_double_MR_RegionId</a></td></tr>
 <tr class="memdesc:a06306831ace9e501baac05adb1b1eea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">std::vector&lt;T&gt;-like container that requires specific indexing type,  <br /></td></tr>
 <tr class="memitem:a58650ad196b479b752e724520664c772" id="r_a58650ad196b479b752e724520664c772"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a58650ad196b479b752e724520664c772">MR_std_pair_MR_Face2RegionMap_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58650ad196b479b752e724520664c772">MR_std_pair_MR_Face2RegionMap_int</a></td></tr>
@@ -190,7 +190,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a275e45918d779af194cd7ce990bedca9" id="r_a275e45918d779af194cd7ce990bedca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a275e45918d779af194cd7ce990bedca9">MR_MeshComponents_getComponents_4</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *meshPart, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *seeds, const <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4">MR_MeshComponents_FaceIncidence</a> *incidence, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
 <tr class="memitem:a649c0ada722dd6a667297d9ca8d6191a" id="r_a649c0ada722dd6a667297d9ca8d6191a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a649c0ada722dd6a667297d9ca8d6191a">MR_MeshComponents_getComponents_5</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *seeds, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4">MR_MeshComponents_FaceIncidence</a> *incidence, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
 <tr class="memitem:af3097b474f0a6b69d5a02051f53314d5" id="r_af3097b474f0a6b69d5a02051f53314d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3097b474f0a6b69d5a02051f53314d5">MR_MeshComponents_getLargeByAreaComponents_3</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *meshPart, float minArea, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
-<tr class="memitem:a7d1bcd4396fa3e3168af4366984cfdd4" id="r_a7d1bcd4396fa3e3168af4366984cfdd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d1bcd4396fa3e3168af4366984cfdd4">MR_MeshComponents_getLargeByAreaComponents_4</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *meshPart, <a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a> *unionFind, float minArea, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *outBdEdgesBetweenLargeComps)</td></tr>
+<tr class="memitem:a8f15ac8642166346b55515268a1f9570" id="r_a8f15ac8642166346b55515268a1f9570"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f15ac8642166346b55515268a1f9570">MR_MeshComponents_getLargeByAreaComponents_4</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *meshPart, <a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a> *unionFind, float minArea, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *outBdEdgesBetweenLargeComps)</td></tr>
 <tr class="memitem:a1453c9e5eb86c205e49f65c5fffe60d7" id="r_a1453c9e5eb86c205e49f65c5fffe60d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1453c9e5eb86c205e49f65c5fffe60d7">MR_MeshComponents_ExpandToComponentsParams_Get_coverRatio</a> (const <a class="el" href="#a56e44aaa8a15f4abcba40e2572542073">MR_MeshComponents_ExpandToComponentsParams</a> *_this)</td></tr>
 <tr class="memitem:ab1082485aaca3f760d29c8612d4d79fd" id="r_ab1082485aaca3f760d29c8612d4d79fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1082485aaca3f760d29c8612d4d79fd">MR_MeshComponents_ExpandToComponentsParams_Set_coverRatio</a> (<a class="el" href="#a56e44aaa8a15f4abcba40e2572542073">MR_MeshComponents_ExpandToComponentsParams</a> *_this, float value)</td></tr>
 <tr class="memitem:a7c9fd741d8bb43ffcc4424959a99dd61" id="r_a7c9fd741d8bb43ffcc4424959a99dd61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c9fd741d8bb43ffcc4424959a99dd61">MR_MeshComponents_ExpandToComponentsParams_GetMutable_coverRatio</a> (<a class="el" href="#a56e44aaa8a15f4abcba40e2572542073">MR_MeshComponents_ExpandToComponentsParams</a> *_this)</td></tr>
@@ -260,10 +260,10 @@ Functions</h2></td></tr>
 <tr class="memitem:abf4f3655ca4250c30d4613338f17a3bd" id="r_abf4f3655ca4250c30d4613338f17a3bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf4f3655ca4250c30d4613338f17a3bd">MR_MeshComponents_hasFullySelectedComponent_MR_Mesh</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *selection)</td></tr>
 <tr class="memitem:a28a3fefc1c0d6221c9212b385a5321c2" id="r_a28a3fefc1c0d6221c9212b385a5321c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28a3fefc1c0d6221c9212b385a5321c2">MR_MeshComponents_hasFullySelectedComponent_MR_MeshTopology</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *selection)</td></tr>
 <tr class="memitem:a93ce49c879f67e754450b7f231eb1755" id="r_a93ce49c879f67e754450b7f231eb1755"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93ce49c879f67e754450b7f231eb1755">MR_MeshComponents_excludeFullySelectedComponents</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *selection)</td></tr>
-<tr class="memitem:a3efb34922fca0112a61729b53eee3f9b" id="r_a3efb34922fca0112a61729b53eee3f9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3efb34922fca0112a61729b53eee3f9b">MR_MeshComponents_getUnionFindStructureFaces_3</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *meshPart, const <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4">MR_MeshComponents_FaceIncidence</a> *incidence, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
-<tr class="memitem:a455936eedb010ce645d76b4bfdd55a08" id="r_a455936eedb010ce645d76b4bfdd55a08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a455936eedb010ce645d76b4bfdd55a08">MR_MeshComponents_getUnionFindStructureFaces_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4">MR_MeshComponents_FaceIncidence</a> *incidence, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
-<tr class="memitem:a33ee8ba896f5b8714b24b1c1f845a820" id="r_a33ee8ba896f5b8714b24b1c1f845a820"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33ee8ba896f5b8714b24b1c1f845a820">MR_MeshComponents_getUnionFindStructureFacesPerEdge_2</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *meshPart, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
-<tr class="memitem:ab5e254284d76f8b7ba285e89e46d3608" id="r_ab5e254284d76f8b7ba285e89e46d3608"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5e254284d76f8b7ba285e89e46d3608">MR_MeshComponents_getUnionFindStructureFacesPerEdge_3</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
+<tr class="memitem:a0861545a12e84097d176d9a1e90b681f" id="r_a0861545a12e84097d176d9a1e90b681f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0861545a12e84097d176d9a1e90b681f">MR_MeshComponents_getUnionFindStructureFaces_3</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *meshPart, const <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4">MR_MeshComponents_FaceIncidence</a> *incidence, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
+<tr class="memitem:ab69a87394c2a50acb0267090147387df" id="r_ab69a87394c2a50acb0267090147387df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab69a87394c2a50acb0267090147387df">MR_MeshComponents_getUnionFindStructureFaces_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="#acbfc9209b99265fea7b8e271571e4fe4">MR_MeshComponents_FaceIncidence</a> *incidence, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
+<tr class="memitem:aee0336b3a97ad05aa20c2d1cc8eb4440" id="r_aee0336b3a97ad05aa20c2d1cc8eb4440"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee0336b3a97ad05aa20c2d1cc8eb4440">MR_MeshComponents_getUnionFindStructureFacesPerEdge_2</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *meshPart, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
+<tr class="memitem:a99c6448c3458f71122ce2507359b1920" id="r_a99c6448c3458f71122ce2507359b1920"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99c6448c3458f71122ce2507359b1920">MR_MeshComponents_getUnionFindStructureFacesPerEdge_3</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *isCompBd)</td></tr>
 <tr class="memitem:aaa522df6e9fb4d57f0ed25f8f8f1cec3" id="r_aaa522df6e9fb4d57f0ed25f8f8f1cec3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aae1af1886c1d727925eb39e88e0dfdf9">MR_UnionFind_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa522df6e9fb4d57f0ed25f8f8f1cec3">MR_MeshComponents_getUnionFindStructureVerts_const_MR_Mesh_ref_const_MR_VertBitSet_ptr</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
 <tr class="memitem:adad9d6225d5adf368fbf17a2ef43cd06" id="r_adad9d6225d5adf368fbf17a2ef43cd06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aae1af1886c1d727925eb39e88e0dfdf9">MR_UnionFind_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adad9d6225d5adf368fbf17a2ef43cd06">MR_MeshComponents_getUnionFindStructureVerts_const_MR_MeshTopology_ref</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
 <tr class="memitem:aab2ab9f0bc03724af1e76227f7e9fc39" id="r_aab2ab9f0bc03724af1e76227f7e9fc39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aae1af1886c1d727925eb39e88e0dfdf9">MR_UnionFind_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab2ab9f0bc03724af1e76227f7e9fc39">MR_MeshComponents_getUnionFindStructureVerts_const_MR_Mesh_ref_MR_EdgeBitSet</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRBitSet_8h.html#a0ab67259585b94fe4f3e06c70ba102f3">MR_EdgeBitSet</a> *edges)</td></tr>
@@ -276,6 +276,28 @@ Functions</h2></td></tr>
 <tr class="memitem:a232f181ccdc4b7938548f5d6e0dd8803" id="r_a232f181ccdc4b7938548f5d6e0dd8803"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a232f181ccdc4b7938548f5d6e0dd8803">MR_MeshComponents_getComponentsUndirectedEdges</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *seeds)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="a16dd453a2524e3e655dd85487201c5fc" name="a16dd453a2524e3e655dd85487201c5fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16dd453a2524e3e655dd85487201c5fc">&#9670;&#160;</a></span>MR_BaseUnionFind_MR_FaceId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a> <a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>base of union-find data structures: stores only the parent forest and the operations that depend on it alone, so it is shared by the sequential UnionFind and the ParallelUnionFind </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">I</td><td>is the identifier of a set's element, e.g. FaceId Generated from class <span class="tt">MR::BaseUnionFind&lt;MR::FaceId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a56e44aaa8a15f4abcba40e2572542073" name="a56e44aaa8a15f4abcba40e2572542073"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56e44aaa8a15f4abcba40e2572542073">&#9670;&#160;</a></span>MR_MeshComponents_ExpandToComponentsParams</h2>
 
@@ -412,28 +434,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a19ac954a946c69321d91442b97cbf857" name="a19ac954a946c69321d91442b97cbf857"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19ac954a946c69321d91442b97cbf857">&#9670;&#160;</a></span>MR_UnionFind_MR_FaceId</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a> <a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">I</td><td>is the identifier of a set's element, e.g. FaceId Generated from class <span class="tt">MR::UnionFind&lt;MR::FaceId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="ab2619d00f0e1fd789b05b95f2364062d" name="ab2619d00f0e1fd789b05b95f2364062d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab2619d00f0e1fd789b05b95f2364062d">&#9670;&#160;</a></span>MR_UnionFind_MR_UndirectedEdgeId</h2>
 
@@ -446,10 +446,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. </p>
+<p>Union-find data structure for representing disjoint sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. Sequential implementation that selects the root of a united pair by set size for best performance. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">I</td><td>is the identifier of a set's element, e.g. FaceId Generated from class <span class="tt">MR::UnionFind&lt;MR::UndirectedEdgeId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
+    <tr><td class="paramname">I</td><td>is the identifier of a set's element, e.g. FaceId Generated from class <span class="tt">MR::UnionFind&lt;MR::UndirectedEdgeId&gt;</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::BaseUnionFind&lt;MR::UndirectedEdgeId&gt;</span> Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
   </table>
   </dd>
 </dl>
@@ -468,10 +468,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. </p>
+<p>Union-find data structure for representing disjoint sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. Sequential implementation that selects the root of a united pair by set size for best performance. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">I</td><td>is the identifier of a set's element, e.g. FaceId Generated from class <span class="tt">MR::UnionFind&lt;MR::VertId&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
+    <tr><td class="paramname">I</td><td>is the identifier of a set's element, e.g. FaceId Generated from class <span class="tt">MR::UnionFind&lt;MR::VertId&gt;</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::BaseUnionFind&lt;MR::VertId&gt;</span> Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
   </table>
   </dd>
 </dl>
@@ -1563,8 +1563,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7d1bcd4396fa3e3168af4366984cfdd4" name="a7d1bcd4396fa3e3168af4366984cfdd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d1bcd4396fa3e3168af4366984cfdd4">&#9670;&#160;</a></span>MR_MeshComponents_getLargeByAreaComponents_4()</h2>
+<a id="a8f15ac8642166346b55515268a1f9570" name="a8f15ac8642166346b55515268a1f9570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f15ac8642166346b55515268a1f9570">&#9670;&#160;</a></span>MR_MeshComponents_getLargeByAreaComponents_4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1577,7 +1577,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>unionFind</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>unionFind</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1834,14 +1834,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3efb34922fca0112a61729b53eee3f9b" name="a3efb34922fca0112a61729b53eee3f9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3efb34922fca0112a61729b53eee3f9b">&#9670;&#160;</a></span>MR_MeshComponents_getUnionFindStructureFaces_3()</h2>
+<a id="a0861545a12e84097d176d9a1e90b681f" name="a0861545a12e84097d176d9a1e90b681f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0861545a12e84097d176d9a1e90b681f">&#9670;&#160;</a></span>MR_MeshComponents_getUnionFindStructureFaces_3()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a> * MR_MeshComponents_getUnionFindStructureFaces_3 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a> * MR_MeshComponents_getUnionFindStructureFaces_3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
         </tr>
@@ -1857,18 +1857,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>gets union-find structure for faces with different options of face-connectivity Generated from function <span class="tt">MR::MeshComponents::getUnionFindStructureFaces</span>. Parameter <span class="tt">meshPart</span> can not be null. It is a single object. Parameter <span class="tt">incidence</span> has a default argument: <span class="tt">FaceIncidence::PerEdge</span>, pass a null pointer to use it. Parameter <span class="tt">isCompBd</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRUnionFind_8h.html#a25380c1de20d112c353c1106298f2096" title="Destroys a heap-allocated instance of MR_UnionFind_MR_FaceId. Does nothing if the pointer is null.">MR_UnionFind_MR_FaceId_Destroy()</a></span> to free it when you're done using it. </p>
+<p>gets union-find structure for faces with different options of face-connectivity Generated from function <span class="tt">MR::MeshComponents::getUnionFindStructureFaces</span>. Parameter <span class="tt">meshPart</span> can not be null. It is a single object. Parameter <span class="tt">incidence</span> has a default argument: <span class="tt">FaceIncidence::PerEdge</span>, pass a null pointer to use it. Parameter <span class="tt">isCompBd</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRUnionFind_8h.html#aca0109e7af2a624b146d6ccf5dd1a0b0" title="Destroys a heap-allocated instance of MR_BaseUnionFind_MR_FaceId. Does nothing if the pointer is null...">MR_BaseUnionFind_MR_FaceId_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="a455936eedb010ce645d76b4bfdd55a08" name="a455936eedb010ce645d76b4bfdd55a08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a455936eedb010ce645d76b4bfdd55a08">&#9670;&#160;</a></span>MR_MeshComponents_getUnionFindStructureFaces_4()</h2>
+<a id="ab69a87394c2a50acb0267090147387df" name="ab69a87394c2a50acb0267090147387df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab69a87394c2a50acb0267090147387df">&#9670;&#160;</a></span>MR_MeshComponents_getUnionFindStructureFaces_4()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a> * MR_MeshComponents_getUnionFindStructureFaces_4 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a> * MR_MeshComponents_getUnionFindStructureFaces_4 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -1889,18 +1889,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::MeshComponents::getUnionFindStructureFaces</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. Parameter <span class="tt">incidence</span> has a default argument: <span class="tt">FaceIncidence::PerEdge</span>, pass a null pointer to use it. Parameter <span class="tt">isCompBd</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRUnionFind_8h.html#a25380c1de20d112c353c1106298f2096" title="Destroys a heap-allocated instance of MR_UnionFind_MR_FaceId. Does nothing if the pointer is null.">MR_UnionFind_MR_FaceId_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Generated from function <span class="tt">MR::MeshComponents::getUnionFindStructureFaces</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. Parameter <span class="tt">incidence</span> has a default argument: <span class="tt">FaceIncidence::PerEdge</span>, pass a null pointer to use it. Parameter <span class="tt">isCompBd</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRUnionFind_8h.html#aca0109e7af2a624b146d6ccf5dd1a0b0" title="Destroys a heap-allocated instance of MR_BaseUnionFind_MR_FaceId. Does nothing if the pointer is null...">MR_BaseUnionFind_MR_FaceId_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="a33ee8ba896f5b8714b24b1c1f845a820" name="a33ee8ba896f5b8714b24b1c1f845a820"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33ee8ba896f5b8714b24b1c1f845a820">&#9670;&#160;</a></span>MR_MeshComponents_getUnionFindStructureFacesPerEdge_2()</h2>
+<a id="aee0336b3a97ad05aa20c2d1cc8eb4440" name="aee0336b3a97ad05aa20c2d1cc8eb4440"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee0336b3a97ad05aa20c2d1cc8eb4440">&#9670;&#160;</a></span>MR_MeshComponents_getUnionFindStructureFacesPerEdge_2()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a> * MR_MeshComponents_getUnionFindStructureFacesPerEdge_2 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a> * MR_MeshComponents_getUnionFindStructureFacesPerEdge_2 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>meshPart</em></span>, </td>
         </tr>
@@ -1911,18 +1911,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to skip uniting components over it it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and right face are always processed by one thread) Generated from function <span class="tt">MR::MeshComponents::getUnionFindStructureFacesPerEdge</span>. Parameter <span class="tt">meshPart</span> can not be null. It is a single object. Parameter <span class="tt">isCompBd</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRUnionFind_8h.html#a25380c1de20d112c353c1106298f2096" title="Destroys a heap-allocated instance of MR_UnionFind_MR_FaceId. Does nothing if the pointer is null.">MR_UnionFind_MR_FaceId_Destroy()</a></span> to free it when you're done using it. </p>
+<p>gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to skip uniting components over it it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and right face are always processed by one thread) Generated from function <span class="tt">MR::MeshComponents::getUnionFindStructureFacesPerEdge</span>. Parameter <span class="tt">meshPart</span> can not be null. It is a single object. Parameter <span class="tt">isCompBd</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRUnionFind_8h.html#aca0109e7af2a624b146d6ccf5dd1a0b0" title="Destroys a heap-allocated instance of MR_BaseUnionFind_MR_FaceId. Does nothing if the pointer is null...">MR_BaseUnionFind_MR_FaceId_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="ab5e254284d76f8b7ba285e89e46d3608" name="ab5e254284d76f8b7ba285e89e46d3608"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5e254284d76f8b7ba285e89e46d3608">&#9670;&#160;</a></span>MR_MeshComponents_getUnionFindStructureFacesPerEdge_3()</h2>
+<a id="a99c6448c3458f71122ce2507359b1920" name="a99c6448c3458f71122ce2507359b1920"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99c6448c3458f71122ce2507359b1920">&#9670;&#160;</a></span>MR_MeshComponents_getUnionFindStructureFacesPerEdge_3()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a19ac954a946c69321d91442b97cbf857">MR_UnionFind_MR_FaceId</a> * MR_MeshComponents_getUnionFindStructureFacesPerEdge_3 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a16dd453a2524e3e655dd85487201c5fc">MR_BaseUnionFind_MR_FaceId</a> * MR_MeshComponents_getUnionFindStructureFacesPerEdge_3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -1938,7 +1938,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::MeshComponents::getUnionFindStructureFacesPerEdge</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. Parameter <span class="tt">isCompBd</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRUnionFind_8h.html#a25380c1de20d112c353c1106298f2096" title="Destroys a heap-allocated instance of MR_UnionFind_MR_FaceId. Does nothing if the pointer is null.">MR_UnionFind_MR_FaceId_Destroy()</a></span> to free it when you're done using it. </p>
+<p>Generated from function <span class="tt">MR::MeshComponents::getUnionFindStructureFacesPerEdge</span>. Parameter <span class="tt">topology</span> can not be null. It is a single object. Parameter <span class="tt">region</span> defaults to a null pointer in C++. Parameter <span class="tt">isCompBd</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRUnionFind_8h.html#aca0109e7af2a624b146d6ccf5dd1a0b0" title="Destroys a heap-allocated instance of MR_BaseUnionFind_MR_FaceId. Does nothing if the pointer is null...">MR_BaseUnionFind_MR_FaceId_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>

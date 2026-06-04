@@ -1,6 +1,7 @@
 var MRUnionFindParallel_8h =
 [
-    [ "MR::findComponentBitSet", "group__GeneralGroup.html#gac959a3b1b345a06498d42106baa9a7ec", null ],
-    [ "MR::findRootsBitSet", "group__GeneralGroup.html#gaf95a05a5035d21be2ce1964b8337f638", null ],
-    [ "MR::isSubdivision", "group__GeneralGroup.html#ga91b89a35df8dec290ebe5d2b9d1faa6b", null ]
+    [ "MR::findComponentBitSet", "group__GeneralGroup.html#ga7d0a3ec330bc1b265ce9035d0f21e4ae", null ],
+    [ "MR::findRootsBitSet", "group__GeneralGroup.html#ga169f8f74d2daf1470ceec5e08a3545ca", null ],
+    [ "MR::isSubdivision", "group__GeneralGroup.html#ga0966c31ddb324e054f51951844993ad4", null ],
+    [ "MR::updateRootsParallel", "group__GeneralGroup.html#gae7af679c3eb052bec144b61413a52372", null ]
 ];
