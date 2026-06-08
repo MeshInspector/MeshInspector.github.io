@@ -11618,6 +11618,12 @@
     <member refid="group__GeneralGroup_1gace104b53c144673ddef1e4151a3a1cf0" kind="function"><name>getFGDepthPeelingColorTextureId</name></member>
     <member refid="group__GeneralGroup_1ga4e77adaf3e1aa2e86d6f1158bf0841d6" kind="function"><name>getFGDepthPeelingDepthTextureId</name></member>
   </compound>
+  <compound refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard" kind="class"><name>MR::UI::TestEngine::TreeGuard</name>
+    <member refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1a70b58f0002afc39252409f83bd9b0b9b" kind="function"><name>TreeGuard</name></member>
+    <member refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1aeba1033c72c39158825a2c5b534a5724" kind="function"><name>~TreeGuard</name></member>
+    <member refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1a2a335b95694458e94dc30f74435a437b" kind="function"><name>TreeGuard</name></member>
+    <member refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard_1a01e40f408ea42f2efe24a09b5ee6de3d" kind="function"><name>operator=</name></member>
+  </compound>
   <compound refid="structMR_1_1MeshBuilder_1_1Triangle" kind="struct"><name>MR::MeshBuilder::Triangle</name>
     <member refid="group__GeneralGroup_1gaf175e0ee7a935555961ce40aa0941496" kind="variable"><name>v</name></member>
     <member refid="group__GeneralGroup_1gae1a5aa6c5e37175f3bebd45ab1014e5b" kind="variable"><name>f</name></member>

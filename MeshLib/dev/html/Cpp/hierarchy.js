@@ -1296,6 +1296,7 @@ var hierarchy =
     [ "MR::TransformedMesh", "structMR_1_1TransformedMesh.html", null ],
     [ "MR::TransformVdbVolumeResult", "structMR_1_1TransformVdbVolumeResult.html", null ],
     [ "MR::TransparencyMode", "structMR_1_1TransparencyMode.html", null ],
+    [ "MR::UI::TestEngine::TreeGuard", "classMR_1_1UI_1_1TestEngine_1_1TreeGuard.html", null ],
     [ "MR::MeshBuilder::Triangle", "structMR_1_1MeshBuilder_1_1Triangle.html", null ],
     [ "MR::TriangleSegmentIntersectResult", "structMR_1_1TriangleSegmentIntersectResult.html", null ],
     [ "MR::TriangulationHelpers::TriangulatedFanData", "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", null ],

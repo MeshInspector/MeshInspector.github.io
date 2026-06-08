@@ -284,6 +284,7 @@ var annotated_dup =
           [ "Entry", "structMR_1_1UI_1_1TestEngine_1_1Entry.html", "structMR_1_1UI_1_1TestEngine_1_1Entry" ],
           [ "EntryAttributes", "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html", "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" ],
           [ "GroupEntry", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry" ],
+          [ "TreeGuard", "classMR_1_1UI_1_1TestEngine_1_1TreeGuard.html", "classMR_1_1UI_1_1TestEngine_1_1TreeGuard" ],
           [ "ValueEntry", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry" ]
         ] ],
         [ "ButtonCustomizationParams", "structMR_1_1UI_1_1ButtonCustomizationParams.html", "structMR_1_1UI_1_1ButtonCustomizationParams" ],

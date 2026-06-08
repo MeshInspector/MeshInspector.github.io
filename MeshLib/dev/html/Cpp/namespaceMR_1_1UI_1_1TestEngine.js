@@ -6,6 +6,7 @@ var namespaceMR_1_1UI_1_1TestEngine =
     [ "Entry", "structMR_1_1UI_1_1TestEngine_1_1Entry.html", "structMR_1_1UI_1_1TestEngine_1_1Entry" ],
     [ "EntryAttributes", "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes.html", "structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" ],
     [ "GroupEntry", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry.html", "structMR_1_1UI_1_1TestEngine_1_1GroupEntry" ],
+    [ "TreeGuard", "classMR_1_1UI_1_1TestEngine_1_1TreeGuard.html", "classMR_1_1UI_1_1TestEngine_1_1TreeGuard" ],
     [ "ValueEntry", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry.html", "structMR_1_1UI_1_1TestEngine_1_1ValueEntry" ],
     [ "AllowedValueType", "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html", null ],
     [ "appendStatusMessage", "namespaceMR_1_1UI_1_1TestEngine.html#aff532e343b167be1078babd8b983109a", null ],

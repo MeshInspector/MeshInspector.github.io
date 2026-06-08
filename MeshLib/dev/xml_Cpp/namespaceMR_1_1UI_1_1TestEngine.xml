@@ -6,6 +6,7 @@
     <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1Entry" prot="public">MR::UI::TestEngine::Entry</innerclass>
     <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1EntryAttributes" prot="public">MR::UI::TestEngine::EntryAttributes</innerclass>
     <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1GroupEntry" prot="public">MR::UI::TestEngine::GroupEntry</innerclass>
+    <innerclass refid="classMR_1_1UI_1_1TestEngine_1_1TreeGuard" prot="public">MR::UI::TestEngine::TreeGuard</innerclass>
     <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry" prot="public">MR::UI::TestEngine::ValueEntry</innerclass>
     <innernamespace refid="namespaceMR_1_1UI_1_1TestEngine_1_1Control">MR::UI::TestEngine::Control</innernamespace>
     <innernamespace refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail">MR::UI::TestEngine::detail</innernamespace>
@@ -212,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="209" column="20" declfile="MRViewer/MRUITestEngine.h" declline="209" declcolumn="20"/>
+        <location file="MRViewer/MRUITestEngine.h" line="220" column="20" declfile="MRViewer/MRUITestEngine.h" declline="220" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a2078fdbfbec22964aecff13ad7a4404f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -227,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="217" column="8" declfile="MRViewer/MRUITestEngine.h" declline="217" declcolumn="8"/>
+        <location file="MRViewer/MRUITestEngine.h" line="228" column="8" declfile="MRViewer/MRUITestEngine.h" declline="228" declcolumn="8"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1aa9c0fbddfb4fd7dd0a7148852e27e6f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -242,7 +243,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="224" column="7" declfile="MRViewer/MRUITestEngine.h" declline="224" declcolumn="7"/>
+        <location file="MRViewer/MRUITestEngine.h" line="235" column="7" declfile="MRViewer/MRUITestEngine.h" declline="235" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a1965dae3999cda8a8a172d8892fa66d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -261,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="229" column="7" declfile="MRViewer/MRUITestEngine.h" declline="229" declcolumn="7"/>
+        <location file="MRViewer/MRUITestEngine.h" line="240" column="7" declfile="MRViewer/MRUITestEngine.h" declline="240" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1abd61ada83790c186718b68279ecbe280" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::filesystem::path &gt;</type>
@@ -276,7 +277,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="233" column="15" declfile="MRViewer/MRUITestEngine.h" declline="233" declcolumn="15"/>
+        <location file="MRViewer/MRUITestEngine.h" line="244" column="15" declfile="MRViewer/MRUITestEngine.h" declline="244" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1aff532e343b167be1078babd8b983109a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -295,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="238" column="7" declfile="MRViewer/MRUITestEngine.h" declline="238" declcolumn="7"/>
+        <location file="MRViewer/MRUITestEngine.h" line="249" column="7" declfile="MRViewer/MRUITestEngine.h" declline="249" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1aeac65226aaa734d22d20311ecf18baf8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::string &gt;</type>
@@ -310,7 +311,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="241" column="15" declfile="MRViewer/MRUITestEngine.h" declline="241" declcolumn="15"/>
+        <location file="MRViewer/MRUITestEngine.h" line="252" column="15" declfile="MRViewer/MRUITestEngine.h" declline="252" declcolumn="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

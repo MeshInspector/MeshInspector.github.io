@@ -1,5 +1,15 @@
 var NAVTREEINDEX57 =
 {
+"group__VoxelsSaveGroup.html#ga2c95017a0cb0c854829b6223518168eb":[6,0,0,2,17,1],
+"hierarchy.html":[6,0,2,2],
+"index.html":[],
+"namespaceImGui.html":[6,0,1,0,0],
+"namespaceImGui.html#a0aa5259d479228cac323c9479306a981":[6,0,1,0,0,27],
+"namespaceImGui.html#a0d41b8541cb776c3dd51831a279e1166":[6,0,1,0,0,8],
+"namespaceImGui.html#a1de0301581b33a2a2e592a082de3ab16":[6,0,1,0,0,33],
+"namespaceImGui.html#a216fbde95017cbd4e591842b3530da81":[6,0,1,0,0,9],
+"namespaceImGui.html#a22263f205e7e3988ff6be4e152a963a6":[6,0,1,0,0,23],
+"namespaceImGui.html#a265e606cad7268f09dacbeeb9b6be3d5":[6,0,1,0,0,5],
 "namespaceImGui.html#a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac":[6,0,1,0,0,5,1],
 "namespaceImGui.html#a265e606cad7268f09dacbeeb9b6be3d5a6adf97f83acf6453d4a6a4b1070f3754":[6,0,1,0,0,5,0],
 "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682":[6,0,1,0,0,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX57 =
 "namespaceMR_1_1McpGateway.html#a9ab308a9eb9041eb3bb4933a227f605c":[6,0,1,0,1,22,10],
 "namespaceMR_1_1McpGateway.html#a9ff5364896665cd137e921006696f4ad":[6,0,1,0,1,22,12],
 "namespaceMR_1_1McpGateway.html#aa850caecea2d15bbf4a28557f7c247b5":[6,0,1,0,1,22,11],
-"namespaceMR_1_1McpGateway.html#ac20c4e1c03dba31d5c77bdd7aa9f78d0":[6,0,1,0,1,22,7],
-"namespaceMR_1_1McpGateway.html#af9483605d5022a0931882af143fee33e":[6,0,1,0,1,22,6],
-"namespaceMR_1_1McpSettings.html":[6,0,1,0,1,23],
-"namespaceMR_1_1McpSettings.html#a06c69dc8895e8070a05934c88d606346":[6,0,1,0,1,23,4],
-"namespaceMR_1_1McpSettings.html#a43cbff85da43c1a0c65fc3652c084a99":[6,0,1,0,1,23,2],
-"namespaceMR_1_1McpSettings.html#a682b418dc80be930d61e6955156d7c45":[6,0,1,0,1,23,1],
-"namespaceMR_1_1McpSettings.html#aa9cc920ef11f9c709d6bca72ebd0def4":[6,0,1,0,1,23,3],
-"namespaceMR_1_1McpSettings.html#aabd7ee51a26a87628235c65f55010021":[6,0,1,0,1,23,5],
-"namespaceMR_1_1McpSettings.html#ab767d0637775e980afcc3ab39cd9fc16":[6,0,1,0,1,23,6],
-"namespaceMR_1_1McpSettings.html#ae113c4a8d7ac3b45e348fefa7573b57b":[6,0,1,0,1,23,7],
-"namespaceMR_1_1Mcp_1_1Schema.html":[6,0,1,0,1,21,0]
+"namespaceMR_1_1McpGateway.html#ac20c4e1c03dba31d5c77bdd7aa9f78d0":[6,0,1,0,1,22,7]
 };

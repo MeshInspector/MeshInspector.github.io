@@ -1,5 +1,15 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1RibbonSchema.html":[6,0,0,20,674],
+"structMR_1_1RibbonSchemaHolder_1_1SearchParams.html":[6,0,0,20,678],
+"structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[6,0,0,20,676],
+"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html":[6,0,0,20,677],
+"structMR_1_1RibbonTab.html":[6,0,0,20,673],
+"structMR_1_1RigidScaleXf3.html":[6,0,0,20,464],
+"structMR_1_1RigidXf3.html":[6,0,0,20,465],
+"structMR_1_1SaveObjectSettings.html":[6,0,0,20,681],
+"structMR_1_1SaveSettings.html":[6,0,0,20,469],
+"structMR_1_1SceneColors.html":[6,0,0,18,2],
 "structMR_1_1SceneColors.html":[6,0,0,20,471],
 "structMR_1_1SceneLoad_1_1Result.html":[6,0,1,0,1,43,0],
 "structMR_1_1SceneLoad_1_1Result.html":[6,0,2,0,2,28,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html":[6,0,0,20,735],
 "structMR_1_1UI_1_1CachedTextSize.html":[6,0,0,20,739],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html":[6,0,0,20,737],
-"structMR_1_1UI_1_1CustomConfigModalSettings.html":[6,0,0,20,741],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,1,0,1,49,11,0],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html":[6,0,2,0,2,33,9,0],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[6,0,1,0,1,49,11,0,1],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[6,0,2,0,2,33,9,0,1],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a3294cc10df7525536273d925395bb8f4":[6,0,1,0,1,49,11,0,2],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a3294cc10df7525536273d925395bb8f4":[6,0,2,0,2,33,9,0,2],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a669ea51c367ab807beb54423bc2717f6":[6,0,1,0,1,49,11,0,4],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a669ea51c367ab807beb54423bc2717f6":[6,0,2,0,2,33,9,0,4],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a8f0e17801627126920b79b9159e927bc":[6,0,1,0,1,49,11,0,3],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a8f0e17801627126920b79b9159e927bc":[6,0,2,0,2,33,9,0,3]
+"structMR_1_1UI_1_1CustomConfigModalSettings.html":[6,0,0,20,741]
 };
