@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1Mesh.html#ac103b0f7382c3183b4e466a8abcdd796":[6,0,0,7,1,90],
 "structMR_1_1Mesh.html#ac127a110cf4ae135424a266306fc6788":[6,0,0,7,1,5],
 "structMR_1_1Mesh.html#ac30bc19abb82dba07bc51836c6fb4218":[6,0,0,7,1,41],
 "structMR_1_1Mesh.html#ac48c479f458af1facea8e79e38ed0d63":[6,0,0,7,1,93],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1OutlierParams.html":[6,0,0,20,406],
 "structMR_1_1OutputFlows.html":[6,0,0,20,107],
 "structMR_1_1PackMapping.html":[6,0,0,20,130],
-"structMR_1_1Palette_1_1Label.html":[6,0,0,20,604],
-"structMR_1_1Palette_1_1Parameters.html":[6,0,0,20,605]
+"structMR_1_1Palette_1_1Label.html":[6,0,0,20,604]
 };

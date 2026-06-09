@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1Palette_1_1Parameters.html":[6,0,0,20,605],
 "structMR_1_1Parabola.html":[6,0,0,20,410],
 "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html":[6,0,0,20,417],
 "structMR_1_1ParallelProgressReporter_1_1TaskInfo.html":[6,0,0,20,416],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,0,20,662],
 "structMR_1_1RibbonMenuUIConfig.html":[6,0,0,20,663],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,0,20,659],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,0,20,658],
-"structMR_1_1RibbonNotification.html":[6,0,0,20,665]
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,0,20,658]
 };

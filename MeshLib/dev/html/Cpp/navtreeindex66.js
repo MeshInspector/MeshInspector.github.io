@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1RibbonNotification.html":[6,0,0,20,665],
 "structMR_1_1RibbonSchema.html":[6,0,0,20,674],
 "structMR_1_1RibbonSchemaHolder_1_1SearchParams.html":[6,0,0,20,678],
 "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html":[6,0,0,20,676],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "structMR_1_1UI_1_1ButtonCustomizationParams.html":[6,0,0,20,734],
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html":[6,0,0,20,735],
 "structMR_1_1UI_1_1CachedTextSize.html":[6,0,0,20,739],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html":[6,0,0,20,737],
-"structMR_1_1UI_1_1CustomConfigModalSettings.html":[6,0,0,20,741]
+"structMR_1_1UI_1_1CheckboxOrModifierState.html":[6,0,0,20,737]
 };

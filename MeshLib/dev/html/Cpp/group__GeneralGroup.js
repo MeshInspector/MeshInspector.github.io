@@ -8149,6 +8149,7 @@ var group__GeneralGroup =
       [ "CornerControllerObject", "group__GeneralGroup.html#gacab9beedac78c53c7193591ae8cfa96a", null ],
       [ "draw", "group__GeneralGroup.html#ga6b877f53795b68c9bfd900e49b237be3", null ],
       [ "enable", "group__GeneralGroup.html#ga33af44fb22fe4cb7d0fecd62a972d251", null ],
+      [ "getEnabledMask", "group__GeneralGroup.html#ga5a8943ed71b49cd66b777656646e6877", null ],
       [ "getRedrawFlag", "group__GeneralGroup.html#gaadbfa128ecdd0a5526e487f2ebf97310", null ],
       [ "initDefault", "group__GeneralGroup.html#gaff7361f57e196521da9d06627f548210", null ],
       [ "resetRedrawFlag", "group__GeneralGroup.html#ga3d24c9f551b0b0596baedfab237dc57e", null ]
@@ -12224,6 +12225,7 @@ var group__GeneralGroup =
     [ "MR::IICPTreeIndexer::getElementLeaves", "group__GeneralGroup.html#gae9d6c57f127d30e14ec9ce539bb2b0f7", null ],
     [ "MR::IICPTreeIndexer::getElementNodes", "group__GeneralGroup.html#ga114f0247a1d8233737cefa12708f75dc", null ],
     [ "MR::GetEmbeddedPythonDirectory", "group__GeneralGroup.html#ga586e44fd2f6031ad9ccc43634d961770", null ],
+    [ "MR::CornerControllerObject::getEnabledMask", "group__GeneralGroup.html#ga5a8943ed71b49cd66b777656646e6877", null ],
     [ "MR::ItemEnabledPerViewport::getEnabledViewports", "group__GeneralGroup.html#gabcacdc178a41c53b15348fa7318ef556", null ],
     [ "MR::GcodeToolsLibrary::getEndMillTool", "group__GeneralGroup.html#gae33089c9019e6ce8f918a7291f9e4d89", null ],
     [ "MR::Config::getEnum", "group__GeneralGroup.html#ga27b3564fb007b5af9eb08f812363330e", null ],

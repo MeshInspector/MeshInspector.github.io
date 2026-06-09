@@ -986,6 +986,7 @@
   <compound refid="classMR_1_1CaptureScreenshotMenuItem" kind="class"><name>MR::CaptureScreenshotMenuItem</name>
     <member refid="group__GeneralGroup_1gaed6f9d3b2ddcf1f626ee1d3e024da391" kind="variable"><name>resolution_</name></member>
     <member refid="group__GeneralGroup_1gaf48e19e8b78c45da3385e9c89be0843b" kind="variable"><name>transparentBg_</name></member>
+    <member refid="group__GeneralGroup_1ga064f853bc592bd1056cebb225a42ccd8" kind="variable"><name>hideOverlays_</name></member>
     <member refid="group__GeneralGroup_1ga6e4d5abb53a5914e552419d36d08880c" kind="function"><name>CaptureScreenshotMenuItem</name></member>
     <member refid="group__GeneralGroup_1ga4a5e3c289d1d3b62a2a24aa4ff792400" kind="function"><name>drawDialog</name></member>
     <member refid="group__GeneralGroup_1gac4b0cdb8632f4960672d36407fae15e8" kind="function"><name>blocking</name></member>
@@ -2115,6 +2116,7 @@
     <member refid="group__GeneralGroup_1gacab9beedac78c53c7193591ae8cfa96a" kind="function"><name>CornerControllerObject</name></member>
     <member refid="group__GeneralGroup_1gaff7361f57e196521da9d06627f548210" kind="function"><name>initDefault</name></member>
     <member refid="group__GeneralGroup_1ga33af44fb22fe4cb7d0fecd62a972d251" kind="function"><name>enable</name></member>
+    <member refid="group__GeneralGroup_1ga5a8943ed71b49cd66b777656646e6877" kind="function"><name>getEnabledMask</name></member>
     <member refid="group__GeneralGroup_1ga6b877f53795b68c9bfd900e49b237be3" kind="function"><name>draw</name></member>
     <member refid="group__GeneralGroup_1gaadbfa128ecdd0a5526e487f2ebf97310" kind="function"><name>getRedrawFlag</name></member>
     <member refid="group__GeneralGroup_1ga3d24c9f551b0b0596baedfab237dc57e" kind="function"><name>resetRedrawFlag</name></member>
@@ -21323,6 +21325,7 @@
     <member refid="group__GeneralGroup_1ga160329bce0ad93ad797573ea7cfb6408" kind="variable"><name>openDirectoryItem_</name></member>
     <member refid="group__GeneralGroup_1gaed6f9d3b2ddcf1f626ee1d3e024da391" kind="variable"><name>resolution_</name></member>
     <member refid="group__GeneralGroup_1gaf48e19e8b78c45da3385e9c89be0843b" kind="variable"><name>transparentBg_</name></member>
+    <member refid="group__GeneralGroup_1ga064f853bc592bd1056cebb225a42ccd8" kind="variable"><name>hideOverlays_</name></member>
     <member refid="group__GeneralGroup_1gaa2577785c51fca6cf9c5605dc5ef02f1" kind="variable"><name>openPopup_</name></member>
     <member refid="group__GeneralGroup_1gacc5976a9de72b471c2df00b11a52cacb" kind="variable"><name>popupId_</name></member>
     <member refid="group__GeneralGroup_1ga164a0f287e6087bc196e1de79c8f2529" kind="variable"><name>type_</name></member>
@@ -30552,6 +30555,7 @@
     <member refid="group__GeneralGroup_1gacab9beedac78c53c7193591ae8cfa96a" kind="function"><name>CornerControllerObject</name></member>
     <member refid="group__GeneralGroup_1gaff7361f57e196521da9d06627f548210" kind="function"><name>initDefault</name></member>
     <member refid="group__GeneralGroup_1ga33af44fb22fe4cb7d0fecd62a972d251" kind="function"><name>enable</name></member>
+    <member refid="group__GeneralGroup_1ga5a8943ed71b49cd66b777656646e6877" kind="function"><name>getEnabledMask</name></member>
     <member refid="group__GeneralGroup_1ga6b877f53795b68c9bfd900e49b237be3" kind="function"><name>draw</name></member>
     <member refid="group__GeneralGroup_1gaadbfa128ecdd0a5526e487f2ebf97310" kind="function"><name>getRedrawFlag</name></member>
     <member refid="group__GeneralGroup_1ga3d24c9f551b0b0596baedfab237dc57e" kind="function"><name>resetRedrawFlag</name></member>

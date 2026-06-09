@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"namespaceMR_1_1McpGateway.html#ac20c4e1c03dba31d5c77bdd7aa9f78d0":[6,0,1,0,1,22,7],
 "namespaceMR_1_1McpGateway.html#af9483605d5022a0931882af143fee33e":[6,0,1,0,1,22,6],
 "namespaceMR_1_1McpSettings.html":[6,0,1,0,1,23],
 "namespaceMR_1_1McpSettings.html#a06c69dc8895e8070a05934c88d606346":[6,0,1,0,1,23,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "namespacemembers_eval.html":[6,0,1,1,5],
 "namespacemembers_f.html":[6,0,1,1,0,5],
 "namespacemembers_func.html":[6,0,1,1,1],
-"namespacemembers_func.html":[6,0,1,1,1,0],
-"namespacemembers_func_b.html":[6,0,1,1,1,1]
+"namespacemembers_func.html":[6,0,1,1,1,0]
 };
